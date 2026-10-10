@@ -57,11 +57,11 @@ SPECS = {
 def chunk(kind, payload):
     return struct.pack('<IH', len(payload) + 6, kind) + payload
 
-def aseprite_bytes(layers):
+def aseprite_bytes(layers, layer_flags=1):
     chunks = []
     for name in LAYERS:
         encoded = name.encode('utf-8')
-        payload = struct.pack('<HHHHHHB', 1, 0, 0, 0, 0, 0, 255) + bytes(3)
+        payload = struct.pack('<HHHHHHB', layer_flags, 0, 0, 0, 0, 0, 255) + bytes(3)
         chunks.append(chunk(0x2004, payload + struct.pack('<H', len(encoded)) + encoded))
     for i, im in enumerate(layers):
         payload = struct.pack('<HhhBHh', i, 0, 0, 255, 2, 0) + bytes(5)

@@ -1,0 +1,31 @@
+{
+  "count": 2,
+  "size": [
+    16,
+    16
+  ],
+  "layers": [
+    "Outline",
+    "Base color",
+    "Light and shadow",
+    "Details"
+  ],
+  "assets": [
+    {
+      "slug": "furniture_blueprint",
+      "name_zh": "家具蓝图",
+      "name_en": "Furniture blueprint",
+      "png": "furniture_blueprint.png",
+      "aseprite": "furniture_blueprint.aseprite",
+      "godot_texture": "res://Art/Icon/Blueprints16_Original/furniture_blueprint.png"
+    },
+    {
+      "slug": "recipe_blueprint",
+      "name_zh": "食谱蓝图",
+      "name_en": "Recipe blueprint",
+      "png": "recipe_blueprint.png",
+      "aseprite": "recipe_blueprint.aseprite",
+      "godot_texture": "res://Art/Icon/Blueprints16_Original/recipe_blueprint.png"
+    }
+  ]
+}

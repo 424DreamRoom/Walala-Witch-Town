@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 NAMES = ['wood', 'stone', 'gold', 'iron_ore', 'witch_coin']
 EXPECTED_LAYERS = ['Outline', 'Base color', 'Light and shadow', 'Details']
 
-def validate(name):
+def validate(name, expected_layer_flags=1):
     source = ROOT / (name + '.aseprite')
     data = source.read_bytes()
     size, magic, frames, width, height, depth = struct.unpack_from('<IHHHHH', data)
@@ -26,7 +26,7 @@ def validate(name):
         payload = data[position+6:position+chunk_size]
         if kind == 0x2004:
             flags, layer_type, child_level, _, _, blend = struct.unpack_from('<HHHHHH',payload)
-            assert (flags, layer_type, child_level, blend, payload[12]) == (1,0,0,0,255)
+            assert (flags, layer_type, child_level, blend, payload[12]) == (expected_layer_flags,0,0,0,255)
             length = struct.unpack_from('<H',payload,16)[0]
             assert len(payload) == 18+length
             layers.append(payload[18:].decode('utf-8'))

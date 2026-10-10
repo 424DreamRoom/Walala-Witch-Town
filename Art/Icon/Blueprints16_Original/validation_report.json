@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "asset_count": 2,
+  "method": "Independent Aseprite binary parsing, four nonempty editable layers, exact RGBA recomposition",
+  "aseprite_application_tested": false,
+  "limitation": "No Aseprite CLI available on PATH; application-open verification not performed",
+  "assets": [
+    {
+      "asset": "furniture_blueprint",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 146,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "d97fb04618458b46a2b63d1b5a2a2d888d1eef1063f15b3461f49da3a0cce71b",
+      "layers_visible_and_editable": true,
+      "png_pixel_sha256": "b40ef0deb9f7e2d0b2e53e886aa6d5528e1fa53b38bc80507e076cc14b3225e6",
+      "name_zh": "家具蓝图",
+      "name_en": "Furniture blueprint"
+    },
+    {
+      "asset": "recipe_blueprint",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 150,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "bcc41cc88a55cf5a1de5f432e811bb586291830fd9b73827aac06a0af17e8e6c",
+      "layers_visible_and_editable": true,
+      "png_pixel_sha256": "e9de95c59018c07f587899fd1767712bf61b9f1028d4fccdb63aca5516f1e57a",
+      "name_zh": "食谱蓝图",
+      "name_en": "Recipe blueprint"
+    }
+  ]
+}
