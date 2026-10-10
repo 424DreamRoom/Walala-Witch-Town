@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "input": "C:\\GodotProject\\walala-witch-town\\Walala-Witch-Town\\Art\\Character\\Storybook\\WalalaWitch\\walala-witch.png",
+  "family": "ally-sheet",
+  "cell_size": [
+    32,
+    48
+  ],
+  "frame_count": 20,
+  "metrics": {
+    "partial_alpha_pixels": {
+      "total": 0,
+      "frames": []
+    },
+    "visible_colors_per_frame": {
+      "min": 22,
+      "median": 30.0,
+      "max": 33
+    },
+    "occupied_width": {
+      "min": 24,
+      "median": 24.0,
+      "max": 24
+    },
+    "occupied_height": {
+      "min": 43,
+      "median": 43.0,
+      "max": 44
+    },
+    "baseline": {
+      "min": 47,
+      "median": 47.0,
+      "max": 47
+    },
+    "horizontal_center": {
+      "min": 15.5,
+      "median": 15.5,
+      "max": 15.5
+    },
+    "empty_frames": [],
+    "edge_touching_frames": []
+  },
+  "errors": [],
+  "warnings": [],
+  "status": "passed"
+}

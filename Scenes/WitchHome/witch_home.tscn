@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scenes/WitchHome/witch_home.gd" id="1_home"]
+
+[node name="WitchHome" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_home")

@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "sprite_checks": [
+    {
+      "screenshot": "home_size_720.png",
+      "frame": 5,
+      "matched_opaque_pixels": 541
+    },
+    {
+      "screenshot": "customers_idle_012.png",
+      "frame": 0,
+      "matched_opaque_pixels": 697
+    },
+    {
+      "screenshot": "customers_idle_012.png",
+      "frame": 0,
+      "matched_opaque_pixels": 675
+    },
+    {
+      "screenshot": "customers_idle_012.png",
+      "frame": 0,
+      "matched_opaque_pixels": 696
+    },
+    {
+      "screenshot": "customers_idle_345.png",
+      "frame": 0,
+      "matched_opaque_pixels": 675
+    },
+    {
+      "screenshot": "customers_idle_345.png",
+      "frame": 0,
+      "matched_opaque_pixels": 675
+    },
+    {
+      "screenshot": "customers_idle_345.png",
+      "frame": 0,
+      "matched_opaque_pixels": 721
+    },
+    {
+      "screenshot": "customer_eating_start.png",
+      "frame": 2,
+      "matched_opaque_pixels": 681
+    },
+    {
+      "screenshot": "customer_eating_mid.png",
+      "frame": 3,
+      "matched_opaque_pixels": 675
+    }
+  ],
+  "window_checks": [
+    {
+      "screenshot": "town_spawn",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "home_exterior",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "home_south",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "home_north",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "restaurant",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "restaurant_kitchen",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "restaurant_serving",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "restaurant_menu",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "field",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "field_gather",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "home_size_720",
+      "window": [
+        1280,
+        720
+      ],
+      "integer_scale": 2
+    },
+    {
+      "screenshot": "home_1920",
+      "window": [
+        1920,
+        1080
+      ],
+      "integer_scale": 3
+    },
+    {
+      "screenshot": "town_1920",
+      "window": [
+        1920,
+        1080
+      ],
+      "integer_scale": 3
+    }
+  ]
+}

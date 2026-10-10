@@ -1,0 +1,184 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FONT FAMILY Fusion Pixel 12px Prop zh-Hans STYLE Regular
+FONT TEST bundled font: PASS
+FONT TEST simplified Chinese pixel font: PASS
+FONT TEST no antialiasing: PASS
+FONT TEST no MSDF: PASS
+FONT TEST no system fallback: PASS
+FONT TEST no subpixel positioning: PASS
+FONT TEST no hinting: PASS
+FONT TEST native oversampling: PASS
+MISSING CJK []
+FONT TEST all current CJK glyphs: PASS
+FONT TEST new controls inherit font: PASS
+FONT TEST new controls inherit 12px: PASS
+FONT TEST tooltips inherit font: PASS
+FONT TEST tooltips inherit 12px: PASS
+FONT TEST pixel font: 第1天 · 白天采集/备料 · 180秒: PASS
+FONT TEST 12px text: 第1天 · 白天采集/备料 · 180秒: PASS
+FONT TEST pixel font: 原食材背包 0/12：菇0 莓0 草0　: PASS
+FONT TEST 12px text: 原食材背包 0/12：菇0 莓0 草0　: PASS
+FONT TEST pixel font: E：走近目标互动
+小镇路标 → 野外 /: PASS
+FONT TEST 12px text: E：走近目标互动
+小镇路标 → 野外 /: PASS
+FONT TEST pixel font: 菜单（白天点选，夜间锁定）: PASS
+FONT TEST 12px text: 菜单（白天点选，夜间锁定）: PASS
+FONT TEST pixel font: 蘑菇汤：切片菇2 / 12金: PASS
+FONT TEST 12px text: 蘑菇汤：切片菇2 / 12金: PASS
+FONT TEST button text fits: 蘑菇汤：切片菇2 / 12金: PASS
+FONT TEST pixel font: 做蘑菇汤: PASS
+FONT TEST 12px text: 做蘑菇汤: PASS
+FONT TEST button text fits: 做蘑菇汤: PASS
+FONT TEST pixel font: 莓果派：莓果酱2 / 14金: PASS
+FONT TEST 12px text: 莓果派：莓果酱2 / 14金: PASS
+FONT TEST button text fits: 莓果派：莓果酱2 / 14金: PASS
+FONT TEST pixel font: 做莓果派: PASS
+FONT TEST 12px text: 做莓果派: PASS
+FONT TEST button text fits: 做莓果派: PASS
+FONT TEST pixel font: 炖菇：切片菇1+草料1 / 18金: PASS
+FONT TEST 12px text: 炖菇：切片菇1+草料1 / 18金: PASS
+FONT TEST button text fits: 炖菇：切片菇1+草料1 / 18金: PASS
+FONT TEST pixel font: 做香草炖菇: PASS
+FONT TEST 12px text: 做香草炖菇: PASS
+FONT TEST button text fits: 做香草炖菇: PASS
+FONT TEST pixel font: 丢弃手中菜: PASS
+FONT TEST 12px text: 丢弃手中菜: PASS
+FONT TEST button text fits: 丢弃手中菜: PASS
+FONT TEST pixel font: 3秒烹饪 / 25秒耐心 / 3座
+缺货: PASS
+FONT TEST 12px text: 3秒烹饪 / 25秒耐心 / 3座
+缺货: PASS
+FONT TEST pixel font: 提前结束白天 → 营业: PASS
+FONT TEST 12px text: 提前结束白天 → 营业: PASS
+FONT TEST button text fits: 提前结束白天 → 营业: PASS
+FONT TEST pixel font: 沿小镇路标去野外采集，再回餐厅备料。: PASS
+FONT TEST 12px text: 沿小镇路标去野外采集，再回餐厅备料。: PASS
+FONT TEST pixel font: : PASS
+FONT TEST 12px text: : PASS
+FONT TEST pixel font: 声音 / 鸣谢: PASS
+FONT TEST 12px text: 声音 / 鸣谢: PASS
+FONT TEST button text fits: 声音 / 鸣谢: PASS
+FONT TEST pixel font: 声音设置（不暂停营业）: PASS
+FONT TEST 12px text: 声音设置（不暂停营业）: PASS
+FONT TEST pixel font: 音乐静音: PASS
+FONT TEST 12px text: 音乐静音: PASS
+FONT TEST pixel font: 音效/环境静音: PASS
+FONT TEST 12px text: 音效/环境静音: PASS
+FONT TEST pixel font: 音频来源与许可鸣谢: PASS
+FONT TEST 12px text: 音频来源与许可鸣谢: PASS
+FONT TEST button text fits: 音频来源与许可鸣谢: PASS
+FONT TEST rich text normal_font: PASS
+FONT TEST rich text bold_font: PASS
+FONT TEST rich text italics_font: PASS
+FONT TEST rich text bold_italics_font: PASS
+FONT TEST rich text mono_font: PASS
+FONT TEST pixel font: 关闭鸣谢: PASS
+FONT TEST 12px text: 关闭鸣谢: PASS
+FONT TEST button text fits: 关闭鸣谢: PASS
+FONT TEST capture town: PASS
+FONT TEST capture window town: PASS
+FONT TEST capture field: PASS
+FONT TEST capture window field: PASS
+FONT TEST capture restaurant: PASS
+FONT TEST capture window restaurant: PASS
+FONT TEST pixel font: 第1天 · 结算 · 180秒 · 餐厅: PASS
+FONT TEST 12px text: 第1天 · 结算 · 180秒 · 餐厅: PASS
+FONT TEST pixel font: 原食材背包 0/12：菇0 莓0 草0　: PASS
+FONT TEST 12px text: 原食材背包 0/12：菇0 莓0 草0　: PASS
+FONT TEST pixel font: 备料台 E → 料理台选菜
+端菜走到对应: PASS
+FONT TEST 12px text: 备料台 E → 料理台选菜
+端菜走到对应: PASS
+FONT TEST pixel font: 菜单（白天点选，夜间锁定）: PASS
+FONT TEST 12px text: 菜单（白天点选，夜间锁定）: PASS
+FONT TEST pixel font: 蘑菇汤：切片菇2 / 12金: PASS
+FONT TEST 12px text: 蘑菇汤：切片菇2 / 12金: PASS
+FONT TEST button text fits: 蘑菇汤：切片菇2 / 12金: PASS
+FONT TEST pixel font: 做蘑菇汤: PASS
+FONT TEST 12px text: 做蘑菇汤: PASS
+FONT TEST button text fits: 做蘑菇汤: PASS
+FONT TEST pixel font: 莓果派：莓果酱2 / 14金: PASS
+FONT TEST 12px text: 莓果派：莓果酱2 / 14金: PASS
+FONT TEST button text fits: 莓果派：莓果酱2 / 14金: PASS
+FONT TEST pixel font: 做莓果派: PASS
+FONT TEST 12px text: 做莓果派: PASS
+FONT TEST button text fits: 做莓果派: PASS
+FONT TEST pixel font: 炖菇：切片菇1+草料1 / 18金: PASS
+FONT TEST 12px text: 炖菇：切片菇1+草料1 / 18金: PASS
+FONT TEST button text fits: 炖菇：切片菇1+草料1 / 18金: PASS
+FONT TEST pixel font: 做香草炖菇: PASS
+FONT TEST 12px text: 做香草炖菇: PASS
+FONT TEST button text fits: 做香草炖菇: PASS
+FONT TEST pixel font: 丢弃手中菜: PASS
+FONT TEST 12px text: 丢弃手中菜: PASS
+FONT TEST button text fits: 丢弃手中菜: PASS
+FONT TEST pixel font: 3秒烹饪 / 25秒耐心 / 3座
+缺货: PASS
+FONT TEST 12px text: 3秒烹饪 / 25秒耐心 / 3座
+缺货: PASS
+FONT TEST pixel font: 进入次日: PASS
+FONT TEST 12px text: 进入次日: PASS
+FONT TEST button text fits: 进入次日: PASS
+FONT TEST pixel font: 营业结束，点击「进入次日」继续。: PASS
+FONT TEST 12px text: 营业结束，点击「进入次日」继续。: PASS
+FONT TEST pixel font: 第 1 天结算
+收入：0 金币　累计：0: PASS
+FONT TEST 12px text: 第 1 天结算
+收入：0 金币　累计：0: PASS
+FONT TEST pixel font: 声音 / 鸣谢: PASS
+FONT TEST 12px text: 声音 / 鸣谢: PASS
+FONT TEST button text fits: 声音 / 鸣谢: PASS
+FONT TEST pixel font: 声音设置（不暂停营业）: PASS
+FONT TEST 12px text: 声音设置（不暂停营业）: PASS
+FONT TEST pixel font: 音乐静音: PASS
+FONT TEST 12px text: 音乐静音: PASS
+FONT TEST pixel font: 音效/环境静音: PASS
+FONT TEST 12px text: 音效/环境静音: PASS
+FONT TEST pixel font: 音频来源与许可鸣谢: PASS
+FONT TEST 12px text: 音频来源与许可鸣谢: PASS
+FONT TEST button text fits: 音频来源与许可鸣谢: PASS
+FONT TEST rich text normal_font: PASS
+FONT TEST rich text bold_font: PASS
+FONT TEST rich text italics_font: PASS
+FONT TEST rich text bold_italics_font: PASS
+FONT TEST rich text mono_font: PASS
+FONT TEST pixel font: 关闭鸣谢: PASS
+FONT TEST 12px text: 关闭鸣谢: PASS
+FONT TEST button text fits: 关闭鸣谢: PASS
+FONT TEST capture settlement: PASS
+FONT TEST capture window settlement: PASS
+FONT TEST pixel font: 声音设置（不暂停营业）: PASS
+FONT TEST 12px text: 声音设置（不暂停营业）: PASS
+FONT TEST panel contains Label: PASS
+FONT TEST pixel font: 音乐静音: PASS
+FONT TEST 12px text: 音乐静音: PASS
+FONT TEST panel contains CheckButton: PASS
+FONT TEST panel contains HSlider: PASS
+FONT TEST pixel font: 音效/环境静音: PASS
+FONT TEST 12px text: 音效/环境静音: PASS
+FONT TEST panel contains CheckButton: PASS
+FONT TEST panel contains HSlider: PASS
+FONT TEST pixel font: 音频来源与许可鸣谢: PASS
+FONT TEST 12px text: 音频来源与许可鸣谢: PASS
+FONT TEST button text fits: 音频来源与许可鸣谢: PASS
+FONT TEST panel contains Button: PASS
+FONT TEST capture settings: PASS
+FONT TEST capture window settings: PASS
+FONT TEST rich text normal_font: PASS
+FONT TEST rich text bold_font: PASS
+FONT TEST rich text italics_font: PASS
+FONT TEST rich text bold_italics_font: PASS
+FONT TEST rich text mono_font: PASS
+FONT TEST panel contains RichTextLabel: PASS
+FONT TEST pixel font: 关闭鸣谢: PASS
+FONT TEST 12px text: 关闭鸣谢: PASS
+FONT TEST button text fits: 关闭鸣谢: PASS
+FONT TEST panel contains Button: PASS
+FONT TEST capture credits: PASS
+FONT TEST capture window credits: PASS
+FONT TEST capture town_1920: PASS
+FONT TEST capture window town_1920: PASS
+FONT VERIFY END failures=0

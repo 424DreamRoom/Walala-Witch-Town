@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "method": "Independent chunk parsing and exact layered RGBA/PNG round trip",
+  "canvas": [
+    16,
+    24
+  ],
+  "sheet": [
+    80,
+    96
+  ],
+  "frames": 20,
+  "layers": [
+    "Boots",
+    "Cloak",
+    "Hair and face",
+    "Purple pointed hat",
+    "Details"
+  ],
+  "tags": [
+    {
+      "name": "idle_down",
+      "from": 0,
+      "to": 0
+    },
+    {
+      "name": "walk_down",
+      "from": 1,
+      "to": 4
+    },
+    {
+      "name": "idle_up",
+      "from": 5,
+      "to": 5
+    },
+    {
+      "name": "walk_up",
+      "from": 6,
+      "to": 9
+    },
+    {
+      "name": "idle_right",
+      "from": 10,
+      "to": 10
+    },
+    {
+      "name": "walk_right",
+      "from": 11,
+      "to": 14
+    },
+    {
+      "name": "idle_left",
+      "from": 15,
+      "to": 15
+    },
+    {
+      "name": "walk_left",
+      "from": 16,
+      "to": 19
+    }
+  ],
+  "unique_walk_frames_per_direction": 4,
+  "alpha_values": [
+    0,
+    255
+  ],
+  "anchor": [
+    8,
+    24
+  ],
+  "aseprite_application_verified": false,
+  "source_sha256": "21ac9536e06a125124480333d34991d92b97c4a46c26581f806b2869cc042d4a"
+}

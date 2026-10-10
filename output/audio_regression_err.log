@@ -1,0 +1,13 @@
+SCRIPT ERROR: Parse Error: Could not resolve external class member "FONT".
+   at: GDScript::reload (res://Scenes/LanternLane/lantern_lane.gd:94)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://Scenes/Gameplay/verify_loop.gd:122)
+ERROR: Failed to load script "res://Scenes/LanternLane/lantern_lane.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://Scenes/Gameplay/verify_loop.gd:122)
+SCRIPT ERROR: Invalid assignment of property or key 'automation' with value of type 'bool' on a base object of type 'Node2D'.
+   at: _run (res://Scenes/Gameplay/verify_loop.gd:125)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://Scenes/Gameplay/verify_loop.gd:125)
+       [1] frames (res://Scenes/Gameplay/verify_loop.gd:21)

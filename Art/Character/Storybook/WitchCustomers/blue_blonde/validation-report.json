@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "input": "C:\\GodotProject\\walala-witch-town\\Walala-Witch-Town\\Art\\Character\\Storybook\\WitchCustomers\\blue_blonde\\blue_blonde.png",
+  "family": "map-npc",
+  "cell_size": [
+    32,
+    48
+  ],
+  "frame_count": 6,
+  "metrics": {
+    "partial_alpha_pixels": {
+      "total": 0,
+      "frames": []
+    },
+    "visible_colors_per_frame": {
+      "min": 28,
+      "median": 31.0,
+      "max": 32
+    },
+    "occupied_width": {
+      "min": 28,
+      "median": 28.0,
+      "max": 28
+    },
+    "occupied_height": {
+      "min": 43,
+      "median": 43.5,
+      "max": 44
+    },
+    "baseline": {
+      "min": 47,
+      "median": 47.0,
+      "max": 47
+    },
+    "horizontal_center": {
+      "min": 15.5,
+      "median": 15.5,
+      "max": 15.5
+    },
+    "empty_frames": [],
+    "edge_touching_frames": []
+  },
+  "errors": [],
+  "warnings": [],
+  "status": "passed"
+}

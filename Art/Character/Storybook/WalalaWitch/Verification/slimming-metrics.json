@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "scan_rows": [
+    35,
+    42
+  ],
+  "frames": [
+    {
+      "direction": "down",
+      "frame": 0,
+      "previous_body_width": 19,
+      "new_body_width": 15
+    },
+    {
+      "direction": "down",
+      "frame": 1,
+      "previous_body_width": 19,
+      "new_body_width": 15
+    },
+    {
+      "direction": "down",
+      "frame": 2,
+      "previous_body_width": 19,
+      "new_body_width": 15
+    },
+    {
+      "direction": "down",
+      "frame": 3,
+      "previous_body_width": 19,
+      "new_body_width": 15
+    },
+    {
+      "direction": "down",
+      "frame": 4,
+      "previous_body_width": 19,
+      "new_body_width": 16
+    },
+    {
+      "direction": "up",
+      "frame": 0,
+      "previous_body_width": 23,
+      "new_body_width": 15
+    },
+    {
+      "direction": "up",
+      "frame": 1,
+      "previous_body_width": 23,
+      "new_body_width": 15
+    },
+    {
+      "direction": "up",
+      "frame": 2,
+      "previous_body_width": 23,
+      "new_body_width": 15
+    },
+    {
+      "direction": "up",
+      "frame": 3,
+      "previous_body_width": 23,
+      "new_body_width": 15
+    },
+    {
+      "direction": "up",
+      "frame": 4,
+      "previous_body_width": 23,
+      "new_body_width": 16
+    },
+    {
+      "direction": "right",
+      "frame": 0,
+      "previous_body_width": 17,
+      "new_body_width": 11
+    },
+    {
+      "direction": "right",
+      "frame": 1,
+      "previous_body_width": 17,
+      "new_body_width": 13
+    },
+    {
+      "direction": "right",
+      "frame": 2,
+      "previous_body_width": 17,
+      "new_body_width": 10
+    },
+    {
+      "direction": "right",
+      "frame": 3,
+      "previous_body_width": 17,
+      "new_body_width": 11
+    },
+    {
+      "direction": "right",
+      "frame": 4,
+      "previous_body_width": 17,
+      "new_body_width": 12
+    },
+    {
+      "direction": "left",
+      "frame": 0,
+      "previous_body_width": 17,
+      "new_body_width": 11
+    },
+    {
+      "direction": "left",
+      "frame": 1,
+      "previous_body_width": 17,
+      "new_body_width": 12
+    },
+    {
+      "direction": "left",
+      "frame": 2,
+      "previous_body_width": 17,
+      "new_body_width": 10
+    },
+    {
+      "direction": "left",
+      "frame": 3,
+      "previous_body_width": 17,
+      "new_body_width": 11
+    },
+    {
+      "direction": "left",
+      "frame": 4,
+      "previous_body_width": 17,
+      "new_body_width": 12
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+TOWN TEST cardinal (0.0, -1.0): PASS
+TOWN TEST cardinal (0.0, 1.0): PASS
+TOWN TEST cardinal (-1.0, 0.0): PASS
+TOWN TEST cardinal (1.0, 0.0): PASS
+TOWN TEST diagonal input resolves to one axis: PASS
+TOWN TEST building front collision: PASS
+TOWN TEST building rear collision: PASS
+TOWN TEST building left collision: PASS
+TOWN TEST building right collision: PASS
+TOWN TEST multi-screen north-south route: PASS
+TOWN TEST camera follows vertical route: PASS
+TOWN TEST multi-screen east-west route: PASS
+TOWN TEST camera follows horizontal route: PASS
+TOWN TEST camera clamps map edge: PASS
+TOWN TEST common Y-sort parent: PASS

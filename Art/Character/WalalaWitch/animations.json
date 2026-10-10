@@ -1,0 +1,73 @@
+{
+  "frame_size": [
+    16,
+    24
+  ],
+  "sheet_size": [
+    80,
+    96
+  ],
+  "columns": 5,
+  "directions": [
+    "down",
+    "up",
+    "right",
+    "left"
+  ],
+  "anchor": [
+    8,
+    24
+  ],
+  "idle_fps": 2.5,
+  "walk_fps": 9,
+  "run_fps": 13,
+  "layers": [
+    "Boots",
+    "Cloak",
+    "Hair and face",
+    "Purple pointed hat",
+    "Details"
+  ],
+  "tags": [
+    {
+      "name": "idle_down",
+      "from": 0,
+      "to": 0
+    },
+    {
+      "name": "walk_down",
+      "from": 1,
+      "to": 4
+    },
+    {
+      "name": "idle_up",
+      "from": 5,
+      "to": 5
+    },
+    {
+      "name": "walk_up",
+      "from": 6,
+      "to": 9
+    },
+    {
+      "name": "idle_right",
+      "from": 10,
+      "to": 10
+    },
+    {
+      "name": "walk_right",
+      "from": 11,
+      "to": 14
+    },
+    {
+      "name": "idle_left",
+      "from": 15,
+      "to": 15
+    },
+    {
+      "name": "walk_left",
+      "from": 16,
+      "to": 19
+    }
+  ]
+}

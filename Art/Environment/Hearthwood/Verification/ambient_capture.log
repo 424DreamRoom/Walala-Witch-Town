@@ -1,0 +1,109 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+AMBIENT TEST all town animated kinds attached: PASS
+AMBIENT TEST town trees animate: PASS
+AMBIENT TEST all lamps animate: PASS
+AMBIENT TEST tree advances in real time: PASS
+AMBIENT TEST tree body and feet stay fixed: PASS
+AMBIENT TEST tree never rotates or scales: PASS
+AMBIENT TEST tree instances use different phases: PASS
+AMBIENT TEST fixed root/pot town_tree(120.0, 140.0): PASS
+AMBIENT TEST fixed root/pot town_tree(330.0, 470.0): PASS
+AMBIENT TEST fixed root/pot town_tree(730.0, 470.0): PASS
+AMBIENT TEST fixed root/pot town_tree(1130.0, 470.0): PASS
+AMBIENT TEST fixed root/pot town_tree(120.0, 780.0): PASS
+AMBIENT TEST fixed root/pot town_tree(730.0, 810.0): PASS
+AMBIENT TEST fixed root/pot town_tree(1130.0, 140.0): PASS
+AMBIENT TEST fixed root/pot town_tree(520.0, 180.0): PASS
+AMBIENT TEST fixed root/pot town_tree(920.0, 180.0): PASS
+AMBIENT TEST fixed root/pot planter(320.0, 300.0): PASS
+AMBIENT TEST fixed root/pot planter(720.0, 300.0): PASS
+AMBIENT TEST fixed root/pot planter(1120.0, 300.0): PASS
+AMBIENT TEST fixed root/pot planter(320.0, 620.0): PASS
+AMBIENT TEST fixed root/pot planter(720.0, 620.0): PASS
+AMBIENT TEST fixed root/pot planter(1120.0, 620.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(281.0, 339.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(128.0, 251.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(681.0, 339.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(528.0, 251.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(1081.0, 339.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(928.0, 251.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(281.0, 659.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(128.0, 571.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(681.0, 659.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(528.0, 571.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(1081.0, 659.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(928.0, 571.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(281.0, 915.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(128.0, 827.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(681.0, 915.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(528.0, 827.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(1081.0, 915.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(928.0, 827.0): PASS
+AMBIENT TEST fixed root/pot outdoor_birch(484.0, 133.0): PASS
+AMBIENT TEST fixed root/pot outdoor_herbs(481.0, 405.0): PASS
+AMBIENT TEST fixed root/pot outdoor_flowerbed(559.0, 422.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(487.0, 520.0): PASS
+AMBIENT TEST fixed root/pot outdoor_herbs(875.0, 610.0): PASS
+AMBIENT TEST fixed root/pot outdoor_bush(882.0, 556.0): PASS
+AMBIENT TEST fixed root/pot outdoor_pine(880.0, 461.0): PASS
+AMBIENT TEST fixed root/pot outdoor_birch(482.0, 725.0): PASS
+AMBIENT TEST fixed root/pot outdoor_herbs(1148.0, 849.0): PASS
+AMBIENT TEST fixed root/pot outdoor_fern(103.0, 422.0): PASS
+AMBIENT TEST fixed root/pot outdoor_fern(871.0, 830.0): PASS
+AMBIENT TEST rain selects stronger foliage bank: PASS
+AMBIENT TEST snow selects stronger foliage bank: PASS
+AMBIENT TEST clear selects gentle foliage bank: PASS
+AMBIENT TEST capture town: PASS
+AMBIENT TEST window capture town: PASS
+AMBIENT TEST integer window scaling town: PASS
+AMBIENT TEST field tree animations: PASS
+AMBIENT TEST both field ponds animate: PASS
+AMBIENT TEST field ferns animate: PASS
+AMBIENT TEST detached town stops processing: PASS
+AMBIENT TEST water advances in real time: PASS
+AMBIENT TEST capture field_00: PASS
+AMBIENT TEST window capture field_00: PASS
+AMBIENT TEST integer window scaling field_00: PASS
+AMBIENT TEST capture field_01: PASS
+AMBIENT TEST capture field_02: PASS
+AMBIENT TEST capture field_03: PASS
+AMBIENT TEST capture field_04: PASS
+AMBIENT TEST capture field_05: PASS
+AMBIENT TEST capture field_06: PASS
+AMBIENT TEST capture field_07: PASS
+AMBIENT TEST capture field_08: PASS
+AMBIENT TEST capture field_09: PASS
+AMBIENT TEST capture field_10: PASS
+AMBIENT TEST capture field_11: PASS
+AMBIENT TEST capture field_12: PASS
+AMBIENT TEST capture field_13: PASS
+AMBIENT TEST capture field_14: PASS
+AMBIENT TEST capture field_15: PASS
+AMBIENT TEST capture field_16: PASS
+AMBIENT TEST capture field_17: PASS
+AMBIENT TEST capture field_18: PASS
+AMBIENT TEST capture field_19: PASS
+AMBIENT TEST capture field_20: PASS
+AMBIENT TEST capture field_21: PASS
+AMBIENT TEST capture field_22: PASS
+AMBIENT TEST capture field_23: PASS
+AMBIENT TEST rendered canopy pixels move: PASS
+AMBIENT TEST harvest impact 0: PASS
+AMBIENT TEST wind and hit shake coexist 0: PASS
+AMBIENT TEST harvest impact 1: PASS
+AMBIENT TEST wind and hit shake coexist 1: PASS
+AMBIENT TEST harvest impact 2: PASS
+AMBIENT TEST felled tree stops wind: PASS
+AMBIENT TEST felling still awards wood once: PASS
+AMBIENT TEST stump feet match static art: PASS
+AMBIENT TEST home has candle animation: PASS
+AMBIENT TEST outdoor objects detached indoors: PASS
+AMBIENT TEST candle flickers in real time: PASS
+AMBIENT TEST desk and candle anchor stay fixed: PASS
+AMBIENT TEST capture home: PASS
+AMBIENT TEST window capture home: PASS
+AMBIENT TEST integer window scaling home: PASS
+AMBIENT TEST town resumes animation on return: PASS
+AMBIENT VERIFY END failures=0

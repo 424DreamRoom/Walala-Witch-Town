@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+TOWN TEST capture runtime: PASS
+TOWN TEST capture south_market: PASS
+TOWN TEST capture behind_roof: PASS
+TOWN TEST capture front_shop: PASS
+TOWN TEST capture behind_tree: PASS
+TOWN TEST capture front_tree: PASS

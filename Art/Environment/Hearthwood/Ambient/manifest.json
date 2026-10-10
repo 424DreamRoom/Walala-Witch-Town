@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "frames_per_bank": 12,
+  "padding": 4,
+  "assets": {
+    "town_tree": {
+      "motion": "wind",
+      "hinge": 64,
+      "amplitude": 2.0,
+      "fps": 2.5,
+      "cell": [
+        72,
+        88
+      ],
+      "banks": 2,
+      "source": [
+        64,
+        88
+      ]
+    },
+    "outdoor_birch": {
+      "motion": "wind",
+      "hinge": 73,
+      "amplitude": 2.0,
+      "fps": 2.5,
+      "cell": [
+        80,
+        104
+      ],
+      "banks": 2,
+      "source": [
+        72,
+        104
+      ]
+    },
+    "outdoor_pine": {
+      "motion": "wind",
+      "hinge": 95,
+      "amplitude": 2.0,
+      "fps": 2.5,
+      "cell": [
+        72,
+        112
+      ],
+      "banks": 2,
+      "source": [
+        64,
+        112
+      ]
+    },
+    "planter": {
+      "motion": "wind",
+      "top": 26,
+      "hinge": 38,
+      "amplitude": 1.2,
+      "fps": 3.0,
+      "cell": [
+        56,
+        64
+      ],
+      "banks": 2,
+      "source": [
+        48,
+        64
+      ]
+    },
+    "outdoor_bush": {
+      "motion": "wind",
+      "hinge": 32,
+      "amplitude": 1.2,
+      "fps": 3.0,
+      "cell": [
+        56,
+        40
+      ],
+      "banks": 2,
+      "source": [
+        48,
+        40
+      ]
+    },
+    "outdoor_fern": {
+      "motion": "wind",
+      "hinge": 18,
+      "amplitude": 1.2,
+      "fps": 3.0,
+      "cell": [
+        32,
+        20
+      ],
+      "banks": 2,
+      "source": [
+        24,
+        20
+      ]
+    },
+    "outdoor_flowerbed": {
+      "motion": "wind",
+      "hinge": 18,
+      "amplitude": 1.2,
+      "fps": 3.0,
+      "cell": [
+        72,
+        32
+      ],
+      "banks": 2,
+      "source": [
+        64,
+        32
+      ]
+    },
+    "outdoor_herbs": {
+      "motion": "wind",
+      "hinge": 18,
+      "amplitude": 1.2,
+      "fps": 3.0,
+      "cell": [
+        56,
+        28
+      ],
+      "banks": 2,
+      "source": [
+        48,
+        28
+      ]
+    },
+    "outdoor_pond": {
+      "motion": "water",
+      "fps": 4.0,
+      "cell": [
+        88,
+        54
+      ],
+      "banks": 1,
+      "source": [
+        80,
+        54
+      ]
+    },
+    "outdoor_lamp": {
+      "motion": "light",
+      "fps": 6.0,
+      "cell": [
+        40,
+        76
+      ],
+      "banks": 1,
+      "source": [
+        32,
+        76
+      ]
+    },
+    "home_desk": {
+      "motion": "flame",
+      "fps": 6.0,
+      "cell": [
+        96,
+        72
+      ],
+      "banks": 1,
+      "source": [
+        88,
+        72
+      ]
+    }
+  }
+}

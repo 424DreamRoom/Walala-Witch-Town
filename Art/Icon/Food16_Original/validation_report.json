@@ -1,0 +1,573 @@
+{
+  "passed": true,
+  "asset_count": 20,
+  "unique_pixel_content_count": 20,
+  "missing": [],
+  "duplicates": [],
+  "method": "Reused independent Aseprite binary parser, zlib cel decode, 4 nonempty layers, exact RGBA recomposition; full manifest and unique pixel hashes",
+  "aseprite_application_tested": false,
+  "limitation": "No Aseprite CLI found on PATH; no application-open test performed",
+  "preview": "preview_nearest_12x.png",
+  "assets": [
+    {
+      "asset": "fish_meat",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 104,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "deee847a1ec6ebcc24063230029e01f6ac4156c1a3a823dbc13df42505a16be5",
+      "name_zh": "鱼肉",
+      "name_en": "Fish meat",
+      "png_pixel_sha256": "682e18afabd31935c479650e1e6337dc64e7cd9f4073d23f3fff114530d94fae"
+    },
+    {
+      "asset": "chicken_leg",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 70,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "b7114ca0a4cf8623154dd6fcf8cd84ce817d78ad56400f0b99dab2cf9d96920c",
+      "name_zh": "鸡腿",
+      "name_en": "Chicken drumstick",
+      "png_pixel_sha256": "d4752b81e271d4122c8d4bbad9066f6f9ac36828d940cc2694e710a1fdd9d51e"
+    },
+    {
+      "asset": "tomato",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 107,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "c3e035877236b14f6c78899df554d8df85a4d2f308c79481d928e61d46d356b7",
+      "name_zh": "西红柿",
+      "name_en": "Tomato",
+      "png_pixel_sha256": "d831ffad34df811abeb12b743b5ba4c774ffc78b6720d295887dfa925f419a08"
+    },
+    {
+      "asset": "egg",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 96,
+      "palette_colors": 5,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "a076c0f9a3497992b29dc2899191d0c5507485c9ee034694afbe84eaac4dfb9a",
+      "name_zh": "鸡蛋",
+      "name_en": "Egg",
+      "png_pixel_sha256": "d5ecb13f5c8721fdb0845805c67cfd706d054170aea7254708407d41f018ac56"
+    },
+    {
+      "asset": "napa_cabbage",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 109,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "20b23422a1fbc2f5ea1dee431bf3f06c74d648feb005fbe30a6fbcac7cbb2e55",
+      "name_zh": "白菜",
+      "name_en": "Napa cabbage",
+      "png_pixel_sha256": "69aa2a48749f346c53104f29a6a1f46f36602c20dcb24f2ab9e7929ed41e261f"
+    },
+    {
+      "asset": "eggplant",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 89,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "a5e465f6ee21ebb251b22b10df6430058d08ba912efffd955896a1da30c149ee",
+      "name_zh": "茄子",
+      "name_en": "Eggplant",
+      "png_pixel_sha256": "e344cb25981d2333cb57576eab07f7dfbc9b64f5cb0401ecb0e821816ad688c7"
+    },
+    {
+      "asset": "potato",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 95,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "808e6de1f2d9e8c0a555f8d0516ab75d5e17289019a20c4932d24c8b6168b3ae",
+      "name_zh": "土豆",
+      "name_en": "Potato",
+      "png_pixel_sha256": "2acc3c57eab41b8aaa80da462950b19fda9ed49c12ab143fa9c1417156d2e12f"
+    },
+    {
+      "asset": "carrot",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 75,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "059845dde37656eee09c698d496ccfd2f52ea9b3bf56e1dc9882d40de5d43981",
+      "name_zh": "胡萝卜",
+      "name_en": "Carrot",
+      "png_pixel_sha256": "7f97ed13d626d8e23919fe820132530cf06063296acf5db7b6b0528e4a1837a7"
+    },
+    {
+      "asset": "onion",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 111,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "09fc770e2207120645393e95623677bec400ed387457356660215d962efcb068",
+      "name_zh": "洋葱",
+      "name_en": "Onion",
+      "png_pixel_sha256": "b1773c7fccca0e7ddd1e2e928d7a52fe0b6656350402a5a5f1124f80ba549bf4"
+    },
+    {
+      "asset": "pumpkin",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 117,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "e0795c7f608e8c1f55d9c83549bb36c31ab6030a4e5c8d118509c1b644e981b0",
+      "name_zh": "南瓜",
+      "name_en": "Pumpkin",
+      "png_pixel_sha256": "e103655fefd524b9b9b6ffa7f103b3a40013a55eb595ee96c441a5664d6501b8"
+    },
+    {
+      "asset": "mushroom",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 98,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "9cd0e658a883e07d930f30b0e8ab7afd7d9d13bb8742788fd9450d36104effe8",
+      "name_zh": "蘑菇",
+      "name_en": "Mushroom",
+      "png_pixel_sha256": "7ae164bbbcd595e1a95a2884123ca433f3f5be07ae6a5b1c95fd9373836a9956"
+    },
+    {
+      "asset": "herbs",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 83,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "e972a7c2b1e70ed7550fc649991e6b801dd3325c58e562aee01f23154aa7a170",
+      "name_zh": "香草",
+      "name_en": "Herbs",
+      "png_pixel_sha256": "2a7662004df664a2332765722f9f9ae2616b5894d777de3ceaf405c29f66a1cd"
+    },
+    {
+      "asset": "berries",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 94,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "b5fdc49f6ea9d20c795b0d2a3625e719d40b0fc72e40cfc4bb187148c3f0e744",
+      "name_zh": "浆果",
+      "name_en": "Berries",
+      "png_pixel_sha256": "bd52cf056cf4bb68da1edae43c8eecedd8d1184ee830bcdce2c5ae34f87dcba4"
+    },
+    {
+      "asset": "apple",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 111,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "e7b9f63e6e9d40b623a516b997157003eaefdaeefd3fe951bad80363f395583f",
+      "name_zh": "苹果",
+      "name_en": "Apple",
+      "png_pixel_sha256": "c929881a752fdc1c1ad8141f4b85f0d6ceab09e155b7a51d89f6f24b4834ef62"
+    },
+    {
+      "asset": "corn",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 94,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "5fc7c6b7f4519112b5a9b9da5cfcfc9a80afa684dfaf080974add3654b4de99f",
+      "name_zh": "玉米",
+      "name_en": "Corn",
+      "png_pixel_sha256": "74b6e3a2e75465147960cf480ca3fe6eb8488b93fc2101fae865f395a21c9223"
+    },
+    {
+      "asset": "wheat",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 94,
+      "palette_colors": 5,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "61c743fd3214f8ebabeffd4697181e30f47493704c0c96974edb11548fe8c46c",
+      "name_zh": "小麦",
+      "name_en": "Wheat",
+      "png_pixel_sha256": "f6b47e1f90f69bc101ae23cb5be61d14f6b092431184c5dc699efd8f1dc181a7"
+    },
+    {
+      "asset": "shrimp",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 92,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "f8ce705a44af75e3b9e40eb8b38236b9f2cf2c477bba2000c36d95acfd9464cd",
+      "name_zh": "虾",
+      "name_en": "Shrimp",
+      "png_pixel_sha256": "d26847a9656b4d0dae2d8b7426dc216db18828f2c163a8860d17a584e1ce1f07"
+    },
+    {
+      "asset": "beef",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 108,
+      "palette_colors": 5,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "d8074a2c3b4b1076f91ca2a87e5951bb868067a755f4b5e5ee5a21a7f4f055c2",
+      "name_zh": "牛肉",
+      "name_en": "Beef",
+      "png_pixel_sha256": "2182160f80bc3e94879ae911d050ef755aa9fe2d5d70a267001502bc5b2b709b"
+    },
+    {
+      "asset": "milk",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 107,
+      "palette_colors": 5,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "f870cccae395d81acf9828089341b1ac3ca58b762d6c00fa367eba62fad7a760",
+      "name_zh": "牛奶",
+      "name_en": "Milk",
+      "png_pixel_sha256": "71fabc3c6861ac7d32fe9984e8c3350581490a8dee1aed4d9f98cda3f607ce83"
+    },
+    {
+      "asset": "cheese",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 100,
+      "palette_colors": 5,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "e8882c9ab62a5bbc5cc63e92e59da476bf0b70640912377412cf668c2ba539ed",
+      "name_zh": "奶酪",
+      "name_en": "Cheese",
+      "png_pixel_sha256": "c57fd0bdadef056f2dc2f0dbd9b67faf151adf18bb902d3fd4c8b7eb259a181c"
+    }
+  ]
+}

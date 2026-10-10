@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+LANE TEST shop: PASS position=(180.0, 222.0007)
+LANE TEST rail: PASS position=(330.0, 328.9993)
+LANE TEST stair: PASS position=(48.0, 111.0007)
+LANE TEST planter: PASS position=(118.0, 247.0007)
+LANE TEST open_lane: PASS position=(244.9997, 280.0)
+LANE TEST y-sort: true
+LANE TEST foreground z: 20

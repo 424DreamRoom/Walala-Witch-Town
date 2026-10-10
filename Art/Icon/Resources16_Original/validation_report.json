@@ -1,0 +1,131 @@
+{
+  "method": "Independent binary parsing, zlib cel decoding, exact RGBA recomposition comparison",
+  "aseprite_application_tested": false,
+  "assets": [
+    {
+      "asset": "wood",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 129,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "d8666f93b3ea74b37aa7b77adbb817888e9b628a21512043310722749c28bf8b"
+    },
+    {
+      "asset": "stone",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 117,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "bb8e38f2095234122f9e3a1e8b2c104287682284a47395bfeb274293b1502501"
+    },
+    {
+      "asset": "gold",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 109,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "1af0b90497e011ae49e65160662fdab61c39ae4ca22e83257ca0b2fa8952cc95"
+    },
+    {
+      "asset": "iron_ore",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 112,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "dfb82137caae907b030ebfeee95aeea6b1978fa08363ec1f3d7275a2038a36fb"
+    },
+    {
+      "asset": "witch_coin",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 150,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "21803620043f0635f46d1b4e022d5375c24818c2613b2e15b2b1327971885b03"
+    }
+  ]
+}

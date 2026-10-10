@@ -1,0 +1,367 @@
+{
+  "status": "PASS",
+  "method": "Independent Aseprite chunk parsing, exact layer/master/sheet round trip, animation coverage and alpha checks",
+  "characters": [
+    {
+      "id": "walala-witch",
+      "frames": 20,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle-down",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "name": "walk-down",
+          "from": 1,
+          "to": 4
+        },
+        {
+          "name": "idle-up",
+          "from": 5,
+          "to": 5
+        },
+        {
+          "name": "walk-up",
+          "from": 6,
+          "to": 9
+        },
+        {
+          "name": "idle-right",
+          "from": 10,
+          "to": 10
+        },
+        {
+          "name": "walk-right",
+          "from": 11,
+          "to": 14
+        },
+        {
+          "name": "idle-left",
+          "from": 15,
+          "to": 15
+        },
+        {
+          "name": "walk-left",
+          "from": 16,
+          "to": 19
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "6a5a11d7d093701a28f81c5ce767c4c313e8025119e0898ba1d54ab742a34678"
+    },
+    {
+      "id": "blue_blonde",
+      "frames": 6,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "5fdc53214d1edcdfa9295d41ba64b1111afd5bed2783233ab03091ea1f21d9c3"
+    },
+    {
+      "id": "burgundy_curls",
+      "frames": 6,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "1ea6c7f469bb754c7b0803120f5143f77234ceb1cf1c78018896697b86e26da1"
+    },
+    {
+      "id": "cyan_gray",
+      "frames": 6,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "e58b2470c3a491b11877cc8223f3d53a82db87620e94b4d83d4c022ab2f40647"
+    },
+    {
+      "id": "green_braids",
+      "frames": 6,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "7deda01b6041d2188faddcf3ad2f0aa4cd9a111c95a017fefb685cc326c40616"
+    },
+    {
+      "id": "orange_short",
+      "frames": 6,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "25a51397a5e4ec9add05f714534a86cf6da0f1440803285e14c1aa9b2960a9ab"
+    },
+    {
+      "id": "pink_longblue",
+      "frames": 6,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "f3d1ca7ca57224ce3ed869e191805ae2f4ebace4e3f12041eea506399a66b810"
+    },
+    {
+      "id": "witch-tools",
+      "frames": 60,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "chop-down",
+          "from": 0,
+          "to": 3
+        },
+        {
+          "name": "chop-up",
+          "from": 4,
+          "to": 7
+        },
+        {
+          "name": "chop-right",
+          "from": 8,
+          "to": 11
+        },
+        {
+          "name": "chop-left",
+          "from": 12,
+          "to": 15
+        },
+        {
+          "name": "mine-down",
+          "from": 16,
+          "to": 19
+        },
+        {
+          "name": "mine-up",
+          "from": 20,
+          "to": 23
+        },
+        {
+          "name": "mine-right",
+          "from": 24,
+          "to": 27
+        },
+        {
+          "name": "mine-left",
+          "from": 28,
+          "to": 31
+        },
+        {
+          "name": "cast-down",
+          "from": 32,
+          "to": 34
+        },
+        {
+          "name": "cast-up",
+          "from": 35,
+          "to": 37
+        },
+        {
+          "name": "cast-right",
+          "from": 38,
+          "to": 40
+        },
+        {
+          "name": "cast-left",
+          "from": 41,
+          "to": 43
+        },
+        {
+          "name": "wait-down",
+          "from": 44,
+          "to": 44
+        },
+        {
+          "name": "wait-up",
+          "from": 45,
+          "to": 45
+        },
+        {
+          "name": "wait-right",
+          "from": 46,
+          "to": 46
+        },
+        {
+          "name": "wait-left",
+          "from": 47,
+          "to": 47
+        },
+        {
+          "name": "reel-down",
+          "from": 48,
+          "to": 50
+        },
+        {
+          "name": "reel-up",
+          "from": 51,
+          "to": 53
+        },
+        {
+          "name": "reel-right",
+          "from": 54,
+          "to": 56
+        },
+        {
+          "name": "reel-left",
+          "from": 57,
+          "to": 59
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "2ce9ff199c0bef7830aa506a9b18a371fb7d686e0fdf7ccd3babe1933f3de006"
+    }
+  ],
+  "aseprite_application_verified": false
+}

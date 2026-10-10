@@ -1,0 +1,35 @@
+Walala Witch Town 音频鸣谢
+以下下载音频：CC0 1.0 Universal（允许商用，无强制署名）
+https://creativecommons.org/publicdomain/zero/1.0/
+法律全文：https://creativecommons.org/publicdomain/zero/1.0/legalcode
+核查日期：2026-10-10。不表示作者认可或代言本游戏。
+
+砍树、挖矿、抛竿、咬钩、收鱼：本项目原创合成音效。
+生成源：Art/Character/Storybook/tools/build_tools.py
+
+白天/野外：Town — Alex McCulloch / Pro Sensory
+https://opengameart.org/content/town
+夜餐厅/结算：Town 3 — Alex McCulloch / Pro Sensory
+https://opengameart.org/content/town-3
+
+采集 pluck_001、上菜 confirmation_001、UI click_001：
+Interface Sounds 1.0 — Kenney
+https://kenney.nl/assets/interface-sounds
+加工 chop、做菜 metalPot1、金币 handleCoins：
+RPG Audio — Kenney Vleugels / Kenney
+https://kenney.nl/assets/rpg-audio
+
+雨循环：Rain (loopable), 1.ogg — Ylmir
+https://opengameart.org/content/rain-loopable
+雪天气轻风环境（不是雪本身的声音）：Wind, Wind.ogg — IgnasD
+https://opengameart.org/content/wind
+
+所有选用音频保持原字节，仅重命名；播放时调整音量与循环。
+逐文件下载URL、包内文件名、SHA-256及大小见 manifest.json。
+原网页证据与Kenney包内授权见 Licenses；原下载包见 Archives。
+音乐按页面的分类/乐器与舒适小镇目标选择，未确认主观听感。
+
+字体鸣谢
+Fusion Pixel Font 12px proportional / zh-Hans — TakWolf 及贡献者
+SIL Open Font License 1.1；字体随本游戏嵌入，完整许可证与来源见 Art/Fonts/FusionPixel/README.md。
+https://github.com/TakWolf/fusion-pixel-font

@@ -1,0 +1,183 @@
+{
+  "frame_size": [
+    16,
+    24
+  ],
+  "variants": [
+    {
+      "id": 0,
+      "slug": "green_braids",
+      "label": "ÂÌÃ±×Ø±è",
+      "frames": 6,
+      "frame_size": [
+        16,
+        24
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "layers": [
+        "Shoes",
+        "Outfit",
+        "Hair",
+        "Hat",
+        "Details"
+      ]
+    },
+    {
+      "id": 1,
+      "slug": "blue_blonde",
+      "label": "À¶Ã±Ç³½ð",
+      "frames": 6,
+      "frame_size": [
+        16,
+        24
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "layers": [
+        "Shoes",
+        "Outfit",
+        "Hair",
+        "Hat",
+        "Details"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "burgundy_curls",
+      "label": "¾ÆºìÃ±Éî¾í·¢",
+      "frames": 6,
+      "frame_size": [
+        16,
+        24
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "layers": [
+        "Shoes",
+        "Outfit",
+        "Hair",
+        "Hat",
+        "Details"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "orange_short",
+      "label": "³ÈÃ±ºÚ¶Ì·¢",
+      "frames": 6,
+      "frame_size": [
+        16,
+        24
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "layers": [
+        "Shoes",
+        "Outfit",
+        "Hair",
+        "Hat",
+        "Details"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "cyan_gray",
+      "label": "ÇàÃ±»Ò·¢",
+      "frames": 6,
+      "frame_size": [
+        16,
+        24
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "layers": [
+        "Shoes",
+        "Outfit",
+        "Hair",
+        "Hat",
+        "Details"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "pink_longblue",
+      "label": "·ÛÃ±ÉîÀ¶³¤·¢",
+      "frames": 6,
+      "frame_size": [
+        16,
+        24
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5
+        }
+      ],
+      "layers": [
+        "Shoes",
+        "Outfit",
+        "Hair",
+        "Hat",
+        "Details"
+      ]
+    }
+  ],
+  "reference": "media-generation visual reference only; native pixel authoring"
+}

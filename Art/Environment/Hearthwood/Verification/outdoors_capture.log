@@ -1,0 +1,52 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+OUTDOOR TEST town decorations loaded: PASS
+OUTDOOR TEST building weather cover: PASS
+OUTDOOR TEST town Y sorting: PASS
+OUTDOOR TEST capture outdoor_town_entry: PASS
+OUTDOOR TEST capture window outdoor_town_entry: PASS
+OUTDOOR TEST capture outdoor_home_garden: PASS
+OUTDOOR TEST capture window outdoor_home_garden: PASS
+OUTDOOR TEST capture outdoor_pond_street: PASS
+OUTDOOR TEST capture window outdoor_pond_street: PASS
+OUTDOOR TEST capture outdoor_south_street: PASS
+OUTDOOR TEST capture window outdoor_south_street: PASS
+OUTDOOR TEST walk (408.0, 334.0): PASS
+OUTDOOR TEST field entrance works: PASS
+OUTDOOR TEST field Y sorting shares player parent: PASS
+OUTDOOR TEST field solid footprints: PASS
+OUTDOOR TEST gather labels stay above foliage: PASS
+OUTDOOR TEST capture outdoor_field_entry: PASS
+OUTDOOR TEST capture window outdoor_field_entry: PASS
+OUTDOOR TEST walk (60.0, 115.0): PASS
+OUTDOOR TEST walk (105.0, 115.0): PASS
+OUTDOOR TEST gather reachable 0: PASS
+OUTDOOR TEST walk (240.0, 115.0): PASS
+OUTDOOR TEST gather reachable 1: PASS
+OUTDOOR TEST walk (375.0, 115.0): PASS
+OUTDOOR TEST gather reachable 2: PASS
+OUTDOOR TEST capture outdoor_field_gathering: PASS
+OUTDOOR TEST capture window outdoor_field_gathering: PASS
+OUTDOOR TEST walk (375.0, 181.0): PASS
+OUTDOOR TEST gather reachable 5: PASS
+OUTDOOR TEST walk (240.0, 181.0): PASS
+OUTDOOR TEST gather reachable 4: PASS
+OUTDOOR TEST walk (105.0, 181.0): PASS
+OUTDOOR TEST gather reachable 3: PASS
+OUTDOOR TEST walk (105.0, 247.0): PASS
+OUTDOOR TEST gather reachable 6: PASS
+OUTDOOR TEST walk (240.0, 247.0): PASS
+OUTDOOR TEST gather reachable 7: PASS
+OUTDOOR TEST walk (375.0, 247.0): PASS
+OUTDOOR TEST gather reachable 8: PASS
+OUTDOOR TEST all nine ingredients gathered: PASS
+OUTDOOR TEST fallen log blocks feet: PASS
+OUTDOOR TEST capture outdoor_field_behind_tree: PASS
+OUTDOOR TEST capture window outdoor_field_behind_tree: PASS
+OUTDOOR TEST capture outdoor_field_front_tree: PASS
+OUTDOOR TEST capture window outdoor_field_front_tree: PASS
+OUTDOOR TEST tree covers character from behind: PASS
+OUTDOOR TEST character covers tree from front: PASS
+OUTDOOR TEST field exit works: PASS
+OUTDOOR VERIFY END failures=0

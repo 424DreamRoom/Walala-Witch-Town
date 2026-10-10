@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "root": "C:\\GodotProject\\walala-witch-town\\Walala-Witch-Town\\游戏参考截屏",
+  "file_count": 1,
+  "families": {
+    "ally-sheet": {
+      "file_count": 1,
+      "cell_sizes": [
+        {
+          "size": [
+            32,
+            48
+          ],
+          "count": 1
+        }
+      ],
+      "sheet_sizes": [
+        {
+          "size": [
+            2560,
+            1440
+          ],
+          "count": 1
+        }
+      ],
+      "frame_count": {
+        "min": 2400,
+        "median": 2400,
+        "max": 2400
+      },
+      "partial_alpha_files": 0,
+      "occupied_width_medians": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "occupied_height_medians": {
+        "min": 48,
+        "median": 48,
+        "max": 48
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "东方夜雀食堂/主角的家（加上主角）.png",
+      "family": "ally-sheet",
+      "sheet_size": [
+        2560,
+        1440
+      ],
+      "cell_size": [
+        32,
+        48
+      ],
+      "columns": 80,
+      "rows": 30,
+      "frame_count": 2400,
+      "nonempty_frames": 2400,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 32,
+        "median": 32.0,
+        "max": 32
+      },
+      "occupied_height": {
+        "min": 48,
+        "median": 48.0,
+        "max": 48
+      },
+      "baseline": {
+        "min": 47,
+        "median": 47.0,
+        "max": 47
+      },
+      "visible_colors_per_frame": {
+        "min": 1,
+        "median": 12.0,
+        "max": 578
+      }
+    }
+  ]
+}

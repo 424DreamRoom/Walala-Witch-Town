@@ -1,0 +1,155 @@
+{
+  "count": 20,
+  "size": [
+    16,
+    16
+  ],
+  "layers": [
+    "Outline",
+    "Base color",
+    "Light and shadow",
+    "Details"
+  ],
+  "assets": [
+    {
+      "name_zh": "鱼肉",
+      "name_en": "Fish meat",
+      "slug": "fish_meat",
+      "png": "fish_meat.png",
+      "aseprite": "fish_meat.aseprite"
+    },
+    {
+      "name_zh": "鸡腿",
+      "name_en": "Chicken drumstick",
+      "slug": "chicken_leg",
+      "png": "chicken_leg.png",
+      "aseprite": "chicken_leg.aseprite"
+    },
+    {
+      "name_zh": "西红柿",
+      "name_en": "Tomato",
+      "slug": "tomato",
+      "png": "tomato.png",
+      "aseprite": "tomato.aseprite"
+    },
+    {
+      "name_zh": "鸡蛋",
+      "name_en": "Egg",
+      "slug": "egg",
+      "png": "egg.png",
+      "aseprite": "egg.aseprite"
+    },
+    {
+      "name_zh": "白菜",
+      "name_en": "Napa cabbage",
+      "slug": "napa_cabbage",
+      "png": "napa_cabbage.png",
+      "aseprite": "napa_cabbage.aseprite"
+    },
+    {
+      "name_zh": "茄子",
+      "name_en": "Eggplant",
+      "slug": "eggplant",
+      "png": "eggplant.png",
+      "aseprite": "eggplant.aseprite"
+    },
+    {
+      "name_zh": "土豆",
+      "name_en": "Potato",
+      "slug": "potato",
+      "png": "potato.png",
+      "aseprite": "potato.aseprite"
+    },
+    {
+      "name_zh": "胡萝卜",
+      "name_en": "Carrot",
+      "slug": "carrot",
+      "png": "carrot.png",
+      "aseprite": "carrot.aseprite"
+    },
+    {
+      "name_zh": "洋葱",
+      "name_en": "Onion",
+      "slug": "onion",
+      "png": "onion.png",
+      "aseprite": "onion.aseprite"
+    },
+    {
+      "name_zh": "南瓜",
+      "name_en": "Pumpkin",
+      "slug": "pumpkin",
+      "png": "pumpkin.png",
+      "aseprite": "pumpkin.aseprite"
+    },
+    {
+      "name_zh": "蘑菇",
+      "name_en": "Mushroom",
+      "slug": "mushroom",
+      "png": "mushroom.png",
+      "aseprite": "mushroom.aseprite"
+    },
+    {
+      "name_zh": "香草",
+      "name_en": "Herbs",
+      "slug": "herbs",
+      "png": "herbs.png",
+      "aseprite": "herbs.aseprite"
+    },
+    {
+      "name_zh": "浆果",
+      "name_en": "Berries",
+      "slug": "berries",
+      "png": "berries.png",
+      "aseprite": "berries.aseprite"
+    },
+    {
+      "name_zh": "苹果",
+      "name_en": "Apple",
+      "slug": "apple",
+      "png": "apple.png",
+      "aseprite": "apple.aseprite"
+    },
+    {
+      "name_zh": "玉米",
+      "name_en": "Corn",
+      "slug": "corn",
+      "png": "corn.png",
+      "aseprite": "corn.aseprite"
+    },
+    {
+      "name_zh": "小麦",
+      "name_en": "Wheat",
+      "slug": "wheat",
+      "png": "wheat.png",
+      "aseprite": "wheat.aseprite"
+    },
+    {
+      "name_zh": "虾",
+      "name_en": "Shrimp",
+      "slug": "shrimp",
+      "png": "shrimp.png",
+      "aseprite": "shrimp.aseprite"
+    },
+    {
+      "name_zh": "牛肉",
+      "name_en": "Beef",
+      "slug": "beef",
+      "png": "beef.png",
+      "aseprite": "beef.aseprite"
+    },
+    {
+      "name_zh": "牛奶",
+      "name_en": "Milk",
+      "slug": "milk",
+      "png": "milk.png",
+      "aseprite": "milk.aseprite"
+    },
+    {
+      "name_zh": "奶酪",
+      "name_en": "Cheese",
+      "slug": "cheese",
+      "png": "cheese.png",
+      "aseprite": "cheese.aseprite"
+    }
+  ]
+}

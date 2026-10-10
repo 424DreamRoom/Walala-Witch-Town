@@ -1,0 +1,52 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+TOWN TEST witch texture native grid: PASS
+TOWN TEST witch foot anchor: PASS
+TOWN TEST witch idle row 0: PASS
+TOWN TEST witch walk row/step 0/0: PASS
+TOWN TEST witch walk row/step 0/1: PASS
+TOWN TEST witch walk row/step 0/2: PASS
+TOWN TEST witch walk row/step 0/3: PASS
+TOWN TEST witch run cadence 0: PASS
+TOWN TEST witch idle row 1: PASS
+TOWN TEST witch walk row/step 1/0: PASS
+TOWN TEST witch walk row/step 1/1: PASS
+TOWN TEST witch walk row/step 1/2: PASS
+TOWN TEST witch walk row/step 1/3: PASS
+TOWN TEST witch run cadence 1: PASS
+TOWN TEST witch idle row 2: PASS
+TOWN TEST witch walk row/step 2/0: PASS
+TOWN TEST witch walk row/step 2/1: PASS
+TOWN TEST witch walk row/step 2/2: PASS
+TOWN TEST witch walk row/step 2/3: PASS
+TOWN TEST witch run cadence 2: PASS
+TOWN TEST witch idle row 3: PASS
+TOWN TEST witch walk row/step 3/0: PASS
+TOWN TEST witch walk row/step 3/1: PASS
+TOWN TEST witch walk row/step 3/2: PASS
+TOWN TEST witch walk row/step 3/3: PASS
+TOWN TEST witch run cadence 3: PASS
+TOWN TEST cardinal (0.0, -1.0): PASS
+TOWN TEST witch stop keeps facing (0.0, -1.0): PASS
+TOWN TEST cardinal (0.0, 1.0): PASS
+TOWN TEST witch stop keeps facing (0.0, 1.0): PASS
+TOWN TEST cardinal (-1.0, 0.0): PASS
+TOWN TEST witch stop keeps facing (-1.0, 0.0): PASS
+TOWN TEST cardinal (1.0, 0.0): PASS
+TOWN TEST witch stop keeps facing (1.0, 0.0): PASS
+TOWN TEST witch run speed: PASS
+TOWN TEST diagonal input resolves to one axis: PASS
+TOWN TEST building front collision: PASS
+TOWN TEST building rear collision: PASS
+TOWN TEST building left collision: PASS
+TOWN TEST building right collision: PASS
+TOWN TEST multi-screen north-south route: PASS
+TOWN TEST camera follows vertical route: PASS
+TOWN TEST multi-screen east-west route: PASS
+TOWN TEST camera follows horizontal route: PASS
+TOWN TEST camera clamps map edge: PASS
+TOWN TEST common Y-sort parent: PASS
+TOWN TEST weather starts clear: PASS
+TOWN TEST weather rain API: PASS
+TOWN TEST weather snow API: PASS
+TOWN TEST weather clear API: PASS

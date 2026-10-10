@@ -1,0 +1,71 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+DRIVER WASAPI
+AUDIO TEST decoded length day_town: PASS
+AUDIO TEST decoded PCM nonzero day_town: PASS
+LENGTH day_town 64.0271911621094 ENERGY 19.6418130724274
+AUDIO TEST decoded length night_town3: PASS
+AUDIO TEST decoded PCM nonzero night_town3: PASS
+LENGTH night_town3 99.2141265869141 ENERGY 292.454263851475
+AUDIO TEST decoded length gather: PASS
+AUDIO TEST decoded PCM nonzero gather: PASS
+LENGTH gather 0.10242630541325 ENERGY 81.0752757542074
+AUDIO TEST decoded length process: PASS
+AUDIO TEST decoded PCM nonzero process: PASS
+LENGTH process 0.24025000631809 ENERGY 0.2449924191614
+AUDIO TEST decoded length cook: PASS
+AUDIO TEST decoded PCM nonzero cook: PASS
+LENGTH cook 1.46045827865601 ENERGY 0.00008370284513
+AUDIO TEST decoded length serve: PASS
+AUDIO TEST decoded PCM nonzero serve: PASS
+LENGTH serve 0.28984126448631 ENERGY 1035.55680123914
+AUDIO TEST decoded length coins: PASS
+AUDIO TEST decoded PCM nonzero coins: PASS
+LENGTH coins 0.84552085399628 ENERGY 0.00034512917979
+AUDIO TEST decoded length ui: PASS
+AUDIO TEST decoded PCM nonzero ui: PASS
+LENGTH ui 0.10002267360687 ENERGY 21.2380000959612
+AUDIO TEST decoded length rain: PASS
+AUDIO TEST decoded PCM nonzero rain: PASS
+LENGTH rain 27.0 ENERGY 21.8121251121129
+AUDIO TEST decoded length wind: PASS
+AUDIO TEST decoded PCM nonzero wind: PASS
+LENGTH wind 6.63528347015381 ENERGY 0.00004457188808
+AUDIO TEST day playing quiet gain: PASS
+AUDIO TEST playback advances: PASS
+AUDIO TEST field same BGM no restart: PASS
+AUDIO TEST rain playing loop: PASS
+AUDIO TEST snow low wind: PASS
+AUDIO TEST clear stops ambience: PASS
+AUDIO TEST inside stops rain: PASS
+AUDIO TEST crossfade both voices: PASS
+AUDIO TEST night fade complete: PASS
+AUDIO TEST actual end wraps day_town: PASS
+AUDIO TEST actual end wraps night_town3: PASS
+AUDIO TEST actual end wraps rain: PASS
+AUDIO TEST actual end wraps wind: PASS
+AUDIO TEST event voice starts gather: PASS
+AUDIO TEST event voice starts process: PASS
+AUDIO TEST event voice starts cook: PASS
+AUDIO TEST event voice starts serve: PASS
+AUDIO TEST event voice starts coins: PASS
+AUDIO TEST event voice starts ui: PASS
+AUDIO TEST music slider gain: PASS
+AUDIO TEST independent mute flags: PASS
+AUDIO TEST muted no effect playback: PASS
+AUDIO TEST zero sliders mute: PASS
+AUDIO TEST restore settings: PASS
+AUDIO TEST active rain muted: PASS
+AUDIO TEST ambient gain and resume: PASS
+AUDIO TEST failed action and frames no sounds: PASS
+AUDIO TEST mouse opens settings: PASS
+AUDIO TEST mouse music mute: PASS
+AUDIO TEST mouse effects mute: PASS
+AUDIO TEST mouse music slider: PASS
+AUDIO TEST settings screenshot: PASS
+AUDIO TEST visible credits: PASS
+AUDIO TEST credits screenshot: PASS
+AUDIO TEST credits bottom screenshot: PASS
+AUDIO TEST close credits: PASS
+AUDIO VERIFY END failures=0

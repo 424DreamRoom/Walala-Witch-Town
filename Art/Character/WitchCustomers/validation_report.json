@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "variants": 6,
+  "frames_per_variant": 6,
+  "native_frame": [
+    16,
+    24
+  ],
+  "alpha": "only 0/255",
+  "aseprite_application_verified": false
+}

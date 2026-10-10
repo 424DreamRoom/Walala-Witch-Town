@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "native_sprites": 20,
+  "town_decorations": 57,
+  "town_navigation": {
+    "targets": 15,
+    "reachable_cells": 60279,
+    "foot_collision": [
+      10,
+      6
+    ],
+    "status": "PASS"
+  },
+  "field_navigation": {
+    "targets": 10,
+    "reachable_cells": 5364,
+    "foot_collision": [
+      10,
+      6
+    ],
+    "status": "PASS"
+  },
+  "method": "4px cardinal flood fill against expanded solid footprints; excludes decorative foliage",
+  "window_scaling": {
+    "status": "PASS",
+    "screenshots": 8,
+    "scale": 2,
+    "method": "Exact rendered PNG comparison"
+  }
+}

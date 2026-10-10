@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 3060
+
+TOWN TEST capture runtime: PASS
+TOWN TEST capture south_market: PASS
+TOWN TEST capture behind_roof: PASS
+TOWN TEST capture front_shop: PASS
+TOWN TEST capture behind_tree: PASS
+TOWN TEST capture front_tree: PASS
+TOWN TEST capture idle_down: PASS
+TOWN TEST capture walk_down_1: PASS
+TOWN TEST capture walk_down_2: PASS
+TOWN TEST capture walk_down_3: PASS
+TOWN TEST capture walk_down_4: PASS
+TOWN TEST capture idle_up: PASS
+TOWN TEST capture walk_up_1: PASS
+TOWN TEST capture walk_up_2: PASS
+TOWN TEST capture walk_up_3: PASS
+TOWN TEST capture walk_up_4: PASS
+TOWN TEST capture idle_right: PASS
+TOWN TEST capture walk_right_1: PASS
+TOWN TEST capture walk_right_2: PASS
+TOWN TEST capture walk_right_3: PASS
+TOWN TEST capture walk_right_4: PASS
+TOWN TEST capture idle_left: PASS
+TOWN TEST capture walk_left_1: PASS
+TOWN TEST capture walk_left_2: PASS
+TOWN TEST capture walk_left_3: PASS
+TOWN TEST capture walk_left_4: PASS

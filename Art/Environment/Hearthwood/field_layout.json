@@ -1,0 +1,296 @@
+{
+  "size": [
+    640,
+    360
+  ],
+  "props": [
+    {
+      "kind": "outdoor_birch",
+      "x": 18,
+      "y": 97,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 107,
+      "y": 82,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_tree_1",
+      "resource_type": "wood"
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 179,
+      "y": 78,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_tree_2",
+      "resource_type": "wood"
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 263,
+      "y": 80,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_tree_3",
+      "resource_type": "wood"
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 346,
+      "y": 83,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_tree_4",
+      "resource_type": "wood"
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 413,
+      "y": 112,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_tree_5",
+      "resource_type": "wood"
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 4,
+      "y": 208,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 423,
+      "y": 211,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_tree_7",
+      "resource_type": "wood"
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 194,
+      "y": 323,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 350,
+      "y": 343,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 142,
+      "y": 163,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 279,
+      "y": 152,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 149,
+      "y": 232,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 252,
+      "y": 284,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 390,
+      "y": 288,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 28,
+      "y": 248,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 171,
+      "y": 115,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 308,
+      "y": 183,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_log",
+      "x": 177,
+      "y": 206,
+      "w": 42,
+      "h": 10,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_ore",
+      "x": 350,
+      "y": 168,
+      "w": 24,
+      "h": 10,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_ore_0",
+      "resource_type": "ore"
+    },
+    {
+      "kind": "outdoor_ore",
+      "x": 177,
+      "y": 145,
+      "w": 24,
+      "h": 10,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_ore_1",
+      "resource_type": "ore"
+    },
+    {
+      "kind": "outdoor_pond",
+      "x": 300,
+      "y": 238,
+      "w": 64,
+      "h": 44,
+      "solid": true,
+      "outdoor_decoration": true,
+      "resource_id": "field_pond",
+      "resource_type": "fish"
+    },
+    {
+      "kind": "outdoor_pond",
+      "x": 538,
+      "y": 258,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 482,
+      "y": 122,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 569,
+      "y": 111,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 636,
+      "y": 168,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 470,
+      "y": 204,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 617,
+      "y": 334,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 485,
+      "y": 339,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_log",
+      "x": 549,
+      "y": 304,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    }
+  ]
+}
