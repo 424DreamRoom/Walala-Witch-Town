@@ -148,8 +148,9 @@ func run() -> void:
 	loop.enter("home")
 	lane.player.position = loop.area.spawn
 	await key(KEY_ESCAPE)
-	check("home pause menu exposes construction", loop.save_menu.open and loop.save_menu.panel.has_node("BuildFurniture"))
-	await click(loop.save_menu.panel.get_node("BuildFurniture"))
+	check("home pause menu omits construction", loop.save_menu.open and not loop.save_menu.panel.has_node("BuildFurniture"))
+	await key(KEY_ESCAPE)
+	loop.builder.open_catalog()
 	check("construction safely takes pause ownership", loop.builder.active() and paused and not loop.save_menu.open)
 	loop.builder._refresh_catalog()
 	await click(loop.builder.detail.get_node("Craft"))

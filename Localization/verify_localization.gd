@@ -216,7 +216,7 @@ func run() -> void:
 		await frames()
 		check(locale + " paused settings uses native names", loop.audio.panel.get_node("Language").selected == service.LOCALES.find(locale))
 		check(locale + " switching preserves state", loop.state.to_save_data() == before and lane.player.position == position and loop.state.remaining == clock and paused)
-		check(locale + " pause slot updates", loop.save_menu.slot_info.text == I18n.format("存档 %02d · 第 %d 天", [1, 2]))
+		check(locale + " pause menu omits decorative labels and construction", loop.save_menu.panel.find_children("*", "Label", false, false).size() == 1 and not loop.save_menu.panel.has_node("BuildFurniture"))
 		check(locale + " saved notice updates", loop.save_menu.status.text == I18n.format("已保存到存档 %02d", [1]))
 		check_buttons(loop.audio.panel, locale + " paused settings")
 		await shot(locale + "_paused_settings", lane.viewport)

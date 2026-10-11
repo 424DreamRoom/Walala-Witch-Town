@@ -246,8 +246,6 @@ https://godotengine.org/license/
 无法进入游戏：	Can't enter the game: 	ゲームを開始できません：	無法進入遊戲：
 无法保存设置。	Couldn't save settings.	設定を保存できません。	無法儲存設定。
 无法保存声音设置。	Couldn't save audio settings.	音量設定を保存できません。	無法儲存聲音設定。
-小镇菜单	Town Menu	町のメニュー	小鎮選單
-存档 %02d · 第 %d 天	Save %02d · Day %d	セーブ %02d · %d日目	存檔 %02d · 第 %d 天
 继续游戏	Resume Game	ゲームに戻る	繼續遊戲
 保存进度	Save Progress	セーブする	儲存進度
 保存并返回主菜单	Save & Return to Title	セーブしてタイトルへ	儲存並返回主選單
@@ -558,8 +556,6 @@ Resource yield %d"	"採集力 %d
 白天营业	Daytime only	昼間のみ営業	白天營業
 鱼群 · %d/3	Fish · %d/3	魚群 · %d/3	魚群 · %d/3
 咬钩！	Bite!	食いついた！	咬鉤！
-游戏已暂停	Paused	一時停止	遊戲已暫停
-预览模式	Preview mode	プレビューモード	預覽模式
 尚未选择存档栏位。	No save slot selected.	セーブ枠が未選択です。	尚未選擇存檔欄位。
 新的一天开始了。	A new day begins.	新しい一日が始まった。	新的一天開始了。
 距离料理台太远。	Too far from the kitchen.	調理台から遠すぎます。	距離料理台太遠。

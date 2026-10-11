@@ -189,6 +189,8 @@ func _restore_world(world_data: Dictionary) -> void:
 	town_position = _safe_town_position(Vector2(world_data.town_position[0], world_data.town_position[1]))
 	var restored_position := Vector2(world_data.position[0], world_data.position[1])
 	lane.player.position = _safe_town_position(restored_position) if location == "town" else restored_position
+	if location in ["restaurant", "blacksmith", "store", "furniture_store"]:
+		lane.player.position = _safe_interior_position(restored_position)
 	if location == "home" and not state.furniture.legacy_fixtures:
 		var feet := Rect2(restored_position - Vector2(5, 6), Vector2(10, 6))
 		var floor := State.Furniture.House.floor_for(state.furniture)
@@ -203,6 +205,16 @@ func _restore_world(world_data: Dictionary) -> void:
 	last_message = state.message
 	# Loaded feedback is historical and may contain obsolete UI instructions.
 	message_left = 0.0
+
+func _safe_interior_position(value: Vector2) -> Vector2:
+	# Old saves can refer to floor removed when the public interiors were tightened.
+	if not value.is_finite(): return area.spawn
+	var feet := Rect2(value - Vector2(5, 6), Vector2(10, 6))
+	if not area.walkable_regions.any(func(rect): return rect.encloses(feet)):
+		return area.spawn
+	if area.solids.any(func(rect): return rect.intersects(feet)):
+		return area.spawn
+	return value
 
 func save_progress() -> Dictionary:
 	if Saves.active_slot == 0:

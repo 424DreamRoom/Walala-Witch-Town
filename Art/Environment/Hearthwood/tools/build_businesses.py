@@ -352,7 +352,12 @@ def build():
         layout = {"size": [640, 480], "spawn": [320, 405], "exit": [320, 449], "walls": walls,
                   "service": [294, 335] if kind == "blacksmith" else [352, 314],
                   "furniture": [dict(kind=n, x=x, y=y, w=w, h=h) for n, x, y, w, h in items]}
-        (OUT / (kind + "_layout.json")).write_text(json.dumps(layout, indent=2) + "\n", encoding="utf-8")
+        layout_path = OUT / (kind + "_layout.json")
+        # Compact runtime layouts are edited independently of the original art.
+        # Rebuilding source previews must not restore the old room geometry.
+        existing = json.loads(layout_path.read_text(encoding="utf-8")) if layout_path.exists() else {}
+        if not existing.get("ground_scene"):
+            layout_path.write_text(json.dumps(layout, indent=2) + "\n", encoding="utf-8")
         b.compose(layout["furniture"], kind + "_ground", kind + "_overview")
         SIZES[kind + "_overview.png"] = [640, 480]
     # Four frames only change the fire in the furnace opening.

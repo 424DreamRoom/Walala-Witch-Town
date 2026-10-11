@@ -34,7 +34,8 @@ func texture_for(kind: String) -> Texture2D:
 	if not textures.has(kind):
 		var ground_kind := "restaurant_ground" if kind == "restaurant_background" else kind
 		if FileAccess.file_exists(ART + ground_kind + ".tiles.json"):
-			textures[kind] = preload("res://Art/Source/tile_ground.gd").preview(ART + ground_kind + ".aseprite")
+			var compact_scene := ART + ground_kind.trim_suffix("_ground") + "_compact_ground.tilemap.tscn" if ground_kind in ["store_ground", "blacksmith_ground", "restaurant_ground"] else ""
+			textures[kind] = preload("res://Art/Source/tile_ground.gd").preview(ART + ground_kind + ".aseprite", compact_scene)
 		else:
 			textures[kind] = Furniture.texture(kind.trim_prefix("built_")) if kind.begins_with("built_") else Furniture.texture("chest") if kind == "home_chest" else load(ART + kind + ".aseprite")
 	return textures[kind]
@@ -76,7 +77,7 @@ func region_markers(region: String) -> Array[Dictionary]:
 			var point: Array = layouts.farm[key]
 			result.append({"point": Vector2(point[0], point[1]), "label": {"home": "小女巫的家", "exit": "前往小镇", "refill": "房屋水源"}[key], "target": "home" if key == "home" else "town" if key == "exit" else ""})
 	elif region == "restaurant":
-		for spec in [[Vector2(24, 280), "前往小镇"], [Vector2(110, 130), "备料台"], [Vector2(270, 130), "料理台"]]:
+		for spec in [[Vector2(24, 248), "前往小镇"], [Vector2(110, 130), "备料台"], [Vector2(230, 130), "料理台"]]:
 			result.append({"point": spec[0], "label": spec[1], "target": "town" if spec[0].x == 24 else ""})
 	else:
 		var point: Array = layouts[region].get("exit", [24, 280])

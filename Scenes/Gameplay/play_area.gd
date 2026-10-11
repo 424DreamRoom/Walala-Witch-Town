@@ -25,6 +25,7 @@ var customer_sprites: Array[Sprite2D] = []
 var customer_bodies: Array[StaticBody2D] = []
 var npc_sheets := {}
 var tables: Array[StaticBody2D] = []
+var walkable_regions: Array[Rect2] = []
 var restaurant_fixed_solids: Array[Rect2] = []
 var table_count := -1
 var held_visual: Node2D
@@ -35,7 +36,7 @@ func _ready() -> void:
 	for recipe in loop.state.Content.DATA.recipes:
 		dish_textures[recipe.id] = FoodIcons.texture("dish_" + recipe.id)
 	background = load(ART + ("restaurant_ground.aseprite" if kind == "restaurant" else "field_background.aseprite"))
-	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + ("restaurant_ground.aseprite" if kind == "restaurant" else "field_background.aseprite"))
+	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + ("restaurant_ground.aseprite" if kind == "restaurant" else "field_background.aseprite"), ART + "restaurant_compact_ground.tilemap.tscn" if kind == "restaurant" else "")
 	ground.z_index = Depth.GROUND
 	add_child(ground)
 	for slug in ["mushroom", "berry", "herb", "depleted"]:
@@ -46,16 +47,21 @@ func _ready() -> void:
 		for x in range(3):
 			points.append(Vector2(105 + x * 135, 115 + y * 66))
 	if kind == "restaurant":
-		for rect in [Rect2(0, 64, 440, 8), Rect2(0, 64, 8, 246), Rect2(432, 64, 8, 246), Rect2(0, 302, 440, 8)]:
+		spawn = Vector2(60, 248)
+		stations.exit = Vector2(24, 248)
+		stations.kitchen = Vector2(230, 130)
+		seats.assign([Vector2(96, 201), Vector2(208, 201), Vector2(304, 201), Vector2(96, 251), Vector2(208, 251), Vector2(304, 251)])
+		walkable_regions.assign([Rect2(8, 72, 328, 198)])
+		for rect in [Rect2(0, 64, 344, 8), Rect2(0, 64, 8, 214), Rect2(336, 64, 8, 214), Rect2(0, 270, 344, 8)]:
 			add_solid(rect)
 		add_solid(Rect2(65, 96, 100, 17))
-		add_solid(Rect2(225, 96, 100, 17))
+		add_solid(Rect2(185, 96, 100, 17))
 		restaurant_fixed_solids = solids.duplicate()
 		for index in range(2):
 			var counter := Sprite2D.new()
 			counter.name = "PrepCounter" if index==0 else "KitchenCounter"
 			counter.texture = load(ART+("restaurant_prep.aseprite" if index==0 else "restaurant_kitchen.aseprite"))
-			counter.position = Vector2(115+index*160,113)
+			counter.position = Vector2(115+index*120,113)
 			counter.centered = false
 			counter.offset = Vector2(-50,-35)
 			add_child(counter)

@@ -2,9 +2,9 @@ extends RefCounted
 ## Each cell references an editable atlas tile; props and collisions stay separate.
 const Source = preload("res://Art/Source/aseprite_source.gd")
 
-static func create(source_path: String) -> TileMapLayer:
+static func create(source_path: String, scene_override: String = "") -> TileMapLayer:
 	Source.install()
-	var scene_path := source_path.get_basename() + ".tilemap.tscn"
+	var scene_path := source_path.get_basename() + ".tilemap.tscn" if scene_override.is_empty() else scene_override
 	if ResourceLoader.exists(scene_path):
 		return (load(scene_path) as PackedScene).instantiate() as TileMapLayer
 	var path := source_path.get_basename() + ".tiles.json"
@@ -28,8 +28,8 @@ static func create(source_path: String) -> TileMapLayer:
 	tiles.set_meta("map_source", path)
 	return tiles
 
-static func preview(source_path: String) -> Texture2D:
-	var tiles := create(source_path)
+static func preview(source_path: String, scene_override: String = "") -> Texture2D:
+	var tiles := create(source_path, scene_override)
 	var data: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(source_path.get_basename() + ".tiles.json"))
 	var picture := Image.create(int(data.size[0]), int(data.size[1]), false, Image.FORMAT_RGBA8)
 	var tile_size := tiles.tile_set.tile_size

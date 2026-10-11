@@ -12,6 +12,8 @@ var solids: Array[Rect2] = []
 var stations := {"exit": Vector2(320, 449), "service": Vector2.ZERO}
 var spawn := Vector2(320, 405)
 var world_size := Vector2i(640, 480)
+var walkable_regions: Array[Rect2] = []
+var staff_position := Vector2.ZERO
 var service_panel: Panel
 var stock: Label
 var exit_label: Label
@@ -31,7 +33,10 @@ func _ready() -> void:
 	spawn = Vector2(layout.spawn[0], layout.spawn[1])
 	stations.exit = Vector2(layout.exit[0], layout.exit[1])
 	stations.service = Vector2(layout.service[0], layout.service[1])
-	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + layout.get("ground", kind + "_ground") + ".aseprite")
+	staff_position = Vector2(layout.staff[0], layout.staff[1])
+	for values in layout.walkable_regions:
+		walkable_regions.append(Rect2(values[0], values[1], values[2], values[3]))
+	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + layout.get("ground", kind + "_ground") + ".aseprite", ART + layout.ground_scene)
 	ground.z_index = -1
 	add_child(ground)
 	for values in layout.walls:
@@ -73,7 +78,7 @@ func _make_staff() -> void:
 	var npc := Node2D.new()
 	npc.name = "BlacksmithNPC" if kind == "blacksmith" else "StoreNPC"
 	# Feet stand behind the anvil/counter, clear of their collision rectangles.
-	npc.position = Vector2(294, 276) if kind == "blacksmith" else Vector2(352, 248)
+	npc.position = staff_position
 	add_child(npc)
 	var ordinal := 0
 	for i in range(loop.state.Content.DATA.npcs.size()):

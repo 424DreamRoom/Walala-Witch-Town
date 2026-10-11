@@ -40,7 +40,7 @@ func configure(layout: Dictionary) -> void:
 
 func resolve(location: String, position: Vector2, weather: String) -> String:
 	if location == "blacksmith":
-		return "stone" if Rect2(57, 122, 322, 241).has_point(position) else "wood"
+		return "stone" if Rect2(153, 202, 226, 145).has_point(position) else "wood"
 	if location in ["home", "restaurant", "blacksmith", "store", "furniture_store"]:
 		return "wood"
 	if weather == "snow":

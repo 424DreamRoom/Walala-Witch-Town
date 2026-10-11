@@ -193,7 +193,8 @@ func run() -> void:
 		return
 	loop.state.resources.wood = 158
 	await key(KEY_ESCAPE)
-	await click(loop.save_menu.panel.get_node("BuildFurniture"))
+	await key(KEY_ESCAPE)
+	loop.builder.open_catalog()
 	var builder = loop.builder
 	await click(builder.root.get_node("FurnitureCatalog/Recipe_chest"))
 	check("chest is visible in real building catalog", builder.selected_kind == "chest" and not builder.detail.get_node("Craft").disabled)

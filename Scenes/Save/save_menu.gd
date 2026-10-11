@@ -11,7 +11,6 @@ var indicator
 var overlay: ColorRect
 var panel: Panel
 var status: Label
-var slot_info: Label
 var last_save_message := ""
 var last_save_source := ""
 var last_save_arguments: Array = []
@@ -49,8 +48,10 @@ func _ready() -> void:
 
 func _refresh_language(_locale: String) -> void:
 	if not open: return
-	slot_info.text = I18n.format("存档 %02d · 第 %d 天", [Saves.active_slot, loop.state.day]) if Saves.active_slot > 0 else tr("预览模式")
-	status.text = I18n.format(last_save_source, last_save_arguments) if not last_save_source.is_empty() else tr("游戏已暂停")
+	status.text = I18n.format(last_save_source, last_save_arguments) if not last_save_source.is_empty() else ""
+	status.visible = not status.text.is_empty()
+	panel.size.y = 194 if status.visible else 152
+	panel.position.y = (360 - panel.size.y) / 2
 
 func _label(text: String, rect: Rect2, parent: Node, font_size: int = 12) -> Label:
 	var label := Label.new()
@@ -97,36 +98,22 @@ func show_menu() -> void:
 	overlay.mouse_filter = Control.MOUSE_FILTER_STOP
 	layer.add_child(overlay)
 	panel = Panel.new()
-	panel.position = Vector2(160, 54)
-	panel.size = Vector2(320, 252)
+	panel.position = Vector2(192, 104)
+	panel.size = Vector2(256, 152)
 	panel.add_theme_stylebox_override("panel", UISkin.panel_style())
 	overlay.add_child(panel)
-	_label("小镇菜单", Rect2(16, 14, 288, 34), panel, 24)
-	slot_info = _label(I18n.format("存档 %02d · 第 %d 天", [Saves.active_slot, loop.state.day]) if Saves.active_slot > 0 else "预览模式", Rect2(12, 50, 296, 20), panel)
-	var resume := _button("继续游戏", Rect2(64, 78, 192, 26), panel, close_menu)
+	var resume := _button("继续游戏", Rect2(32, 18, 192, 26), panel, close_menu)
 	resume.name = "Resume"
-	var save := _button("保存进度", Rect2(64, 108, 192, 26), panel, manual_save)
+	var save := _button("保存进度", Rect2(32, 48, 192, 26), panel, manual_save)
 	save.name = "Save"
 	save.disabled = Saves.active_slot == 0
-	var building: bool = loop.location in ["home", "farm"] and loop.state.phase == "day"
-	var extra := 30 if building else 0
-	if building:
-		panel.position.y -= 15
-		panel.size.y += extra
-		var build := _button("家具建造", Rect2(64, 138, 192, 26), panel, func():
-			close_menu()
-			loop.builder.open_catalog())
-		build.name = "BuildFurniture"
-	var settings := _button("设置", Rect2(64, 138, 192, 26), panel, show_settings)
+	var settings := _button("设置", Rect2(32, 78, 192, 26), panel, show_settings)
 	settings.name = "Settings"
-	settings.position.y += extra
-	var back := _button("保存并返回主菜单", Rect2(64, 168, 192, 26), panel, return_to_title)
+	var back := _button("保存并返回主菜单", Rect2(32, 108, 192, 26), panel, return_to_title)
 	back.name = "SaveAndReturn"
-	back.position.y += extra
 	back.text = "返回主菜单" if Saves.active_slot == 0 else back.text
-	status = _label(last_save_message if not last_save_message.is_empty() else "游戏已暂停", Rect2(12, 204, 296, 36), panel)
+	status = _label("", Rect2(12, 140, 232, 42), panel)
 	status.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	status.position.y += extra
 	_refresh_language(Localization.language)
 	resume.grab_focus()
 
@@ -164,7 +151,7 @@ func report_save(result: Dictionary, automatic: bool = false) -> void:
 	var text: String = I18n.format(last_save_source, last_save_arguments)
 	last_save_message = text
 	if open:
-		status.text = text
+		_refresh_language(Localization.language)
 	elif not result.ok:
 		loop.state.message = last_save_source
 		loop._show_feedback()

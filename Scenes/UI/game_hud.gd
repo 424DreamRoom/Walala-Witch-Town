@@ -15,6 +15,8 @@ const HOTBAR_SHORTCUTS := ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 const HOTBAR_KEYS := [KEY_1, KEY_2, KEY_3, KEY_4, KEY_5, KEY_6, KEY_7, KEY_8, KEY_9, KEY_0]
 const HOTBAR_CELL_WIDTH := 26
 const HOTBAR_SIZE := Vector2(HOTBAR_SLOTS * HOTBAR_CELL_WIDTH + 8, 32)
+const DIALOGUE_CHOICE_SIZE := Vector2(111,20)
+const DIALOGUE_CHOICE_GAP := 3
 const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "restaurant": "小镇餐厅", "home": "小女巫的家", "dock": "潮汐码头", "blacksmith": "余烬铁匠铺", "store": "橡果杂货店", "furniture_store": "榛木家具店"}
 const ITEM_IDS := ["wand", "mushroom", "berry", "herb", "wood", "ore", "fish", "iron"]
 const ITEM_NAMES := ["法杖", "蘑菇", "莓果", "香草", "木材", "矿石", "鱼", "铁锭"]
@@ -403,10 +405,10 @@ func start_dialogue(speaker: String, portrait_path: String, dialogue_lines: Arra
 	dialogue_text.name = "DialogueText"
 	choices_root = Control.new()
 	choices_root.name = "DialogueChoices"
-	# Three choices occupy the reference box; extra rows grow upward.
-	var choices_height := maxi(0, choices.size() * 20 - 2)
-	choices_root.position = Vector2(472,188 - choices_height)
-	choices_root.size = Vector2(118,choices_height)
+	# Keep choices just above the body and inside its right frame; extra rows grow upward.
+	var choices_height := maxi(0, choices.size() * int(DIALOGUE_CHOICE_SIZE.y + DIALOGUE_CHOICE_GAP) - DIALOGUE_CHOICE_GAP)
+	choices_root.position = Vector2(text_panel.get_rect().end.x - 4 - DIALOGUE_CHOICE_SIZE.x, text_panel.position.y - 2 - choices_height)
+	choices_root.size = Vector2(DIALOGUE_CHOICE_SIZE.x,choices_height)
 	dialogue_layout.add_child(choices_root)
 	history_panel = panel(Rect2(152,72,432,120),dialogue_layout)
 	history_panel.mouse_filter = Control.MOUSE_FILTER_STOP
@@ -453,9 +455,9 @@ func _line_complete() -> void:
 	if line_index + 1 == lines.size() and not choices.is_empty() and choices_root.get_child_count() == 0:
 		for i in range(choices.size()):
 			var choice: Dictionary = choices[i]
-			var entry := button(choice.text,Rect2(0,i*20,118,18),choices_root,func(): choice.action.call(),"")
+			var entry := button(choice.text,Rect2(Vector2(0,i*(DIALOGUE_CHOICE_SIZE.y + DIALOGUE_CHOICE_GAP)),DIALOGUE_CHOICE_SIZE),choices_root,func(): choice.action.call(),"")
 			entry.clip_text = true
-			entry.size = Vector2(118,18)
+			entry.size = DIALOGUE_CHOICE_SIZE
 			entry.name = "DialogueChoice" + str(i)
 		choices_root.show()
 		if ControllerInput.using_controller: choices_root.get_child(0).grab_focus()

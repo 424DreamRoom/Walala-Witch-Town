@@ -1,0 +1,43 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+HOUSING TEST starter house is empty including fixtures and stock: PASS
+HOUSING TEST insufficient funds cannot expand: PASS
+HOUSING TEST starter still supports crafting: PASS
+HOUSING TEST larger floor is locked before purchase: PASS
+HOUSING TEST starter supports real furniture: PASS
+HOUSING TEST chest accepts real inventory: PASS
+HOUSING TEST expansion charges exact cost 0: PASS
+HOUSING TEST expansion preserves IDs positions and contents 0: PASS
+HOUSING TEST expansion charges exact cost 1: PASS
+HOUSING TEST expansion preserves IDs positions and contents 1: PASS
+HOUSING TEST maximum cannot charge again: PASS
+HOUSING TEST reject invalid house level -1: PASS
+HOUSING TEST reject invalid house level 3: PASS
+HOUSING TEST reject invalid house level 0.5: PASS
+HOUSING TEST reject invalid house level 1: PASS
+HOUSING TEST save validates level-specific furniture bounds: PASS
+HOUSING TEST pre-furniture saves retain authored house: PASS
+HOUSING TEST pre-expansion saves retain every furnishing: PASS
+HOUSING TEST one missing material prevents all charges: PASS
+HOUSING TEST night expansion cannot mutate: PASS
+HOUSING TEST small room still protects escape route: PASS
+HOUSING TEST fresh slot opens: PASS
+HOUSING TEST starter has only its eight wall bodies: PASS
+HOUSING TEST starter floor is one sixth of former floor: PASS
+HOUSING TEST starter side wall physically blocks movement: PASS
+HOUSING TEST home pause menu omits construction: PASS
+HOUSING TEST construction safely takes pause ownership: PASS
+HOUSING TEST real input crafts and places first furnishing: PASS
+HOUSING TEST real input builds chest in starter: PASS
+HOUSING TEST starter chest stores materials: PASS
+HOUSING TEST map mirrors empty shell and crafted furniture: PASS
+HOUSING TEST starter doorway remains reachable: PASS
+HOUSING TEST starter exits to farm: FAIL
+HOUSING TEST town door enters actual furniture store: FAIL
+SCRIPT ERROR: Invalid access to property or key 'stations' on a base object of type 'Nil'.
+   at: run (res://Scenes/Building/verify_housing.gd:183)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Building/verify_housing.gd:183)
+       [1] key (res://Scenes/Building/verify_housing.gd:33)
+       [2] frames (res://Scenes/Building/verify_housing.gd:24)

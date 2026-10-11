@@ -1,0 +1,69 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+COMPACT TEST store compact floor: PASS
+COMPACT TEST store real walk to service: PASS
+COMPACT TEST store service opens: PASS
+COMPACT TEST store fixture accessible store_shelves: PASS
+COMPACT TEST store fixture accessible store_dry_shelves: PASS
+COMPACT TEST store fixture accessible store_shelves: PASS
+COMPACT TEST store fixture accessible store_counter: PASS
+COMPACT TEST store fixture accessible store_sacks: PASS
+COMPACT TEST store fixture accessible store_produce: PASS
+COMPACT TEST store staff clear of fixtures: PASS
+COMPACT TEST store old outside save recovers: PASS
+COMPACT TEST store old blocked save recovers: PASS
+COMPACT TEST store valid save stays: PASS
+COMPACT TEST store real walk to exit: PASS
+COMPACT TEST store exits to town: PASS
+COMPACT TEST blacksmith compact floor: PASS
+COMPACT TEST blacksmith real walk to service: PASS
+COMPACT TEST blacksmith service opens: PASS
+COMPACT TEST blacksmith fixture accessible smith_furnace: PASS
+COMPACT TEST blacksmith fixture accessible smith_rack: PASS
+COMPACT TEST blacksmith fixture accessible smith_bellows: PASS
+COMPACT TEST blacksmith fixture accessible smith_workbench: PASS
+COMPACT TEST blacksmith fixture accessible smith_anvil: PASS
+COMPACT TEST blacksmith fixture accessible smith_quench: PASS
+COMPACT TEST blacksmith fixture accessible smith_ore_bin: PASS
+COMPACT TEST blacksmith staff clear of fixtures: PASS
+COMPACT TEST blacksmith old outside save recovers: PASS
+COMPACT TEST blacksmith old blocked save recovers: PASS
+COMPACT TEST blacksmith valid save stays: PASS
+COMPACT TEST blacksmith real walk to exit: PASS
+COMPACT TEST blacksmith exits to town: PASS
+COMPACT TEST furniture_store compact floor: PASS
+COMPACT TEST furniture_store real walk to service: PASS
+COMPACT TEST furniture_store service opens: PASS
+COMPACT TEST furniture_store fixture accessible home_bookcase: PASS
+COMPACT TEST furniture_store fixture accessible home_bed: PASS
+COMPACT TEST furniture_store fixture accessible home_sofa: PASS
+COMPACT TEST furniture_store fixture accessible home_desk: PASS
+COMPACT TEST furniture_store fixture accessible store_counter: PASS
+COMPACT TEST furniture_store staff clear of fixtures: PASS
+COMPACT TEST furniture_store old outside save recovers: PASS
+COMPACT TEST furniture_store old blocked save recovers: PASS
+COMPACT TEST furniture_store valid save stays: PASS
+COMPACT TEST furniture_store real walk to exit: PASS
+COMPACT TEST furniture_store exits to town: PASS
+COMPACT TEST restaurant compact floor: PASS
+COMPACT TEST restaurant prep accessible: PASS
+COMPACT TEST restaurant kitchen accessible: PASS
+COMPACT TEST six tables and customers retained: PASS
+COMPACT TEST full restaurant delivery route 0: PASS
+COMPACT TEST full restaurant serves 0: PASS
+COMPACT TEST full restaurant delivery route 1: PASS
+COMPACT TEST full restaurant serves 1: PASS
+COMPACT TEST full restaurant delivery route 2: PASS
+COMPACT TEST full restaurant serves 2: PASS
+COMPACT TEST full restaurant delivery route 3: PASS
+COMPACT TEST full restaurant serves 3: PASS
+COMPACT TEST full restaurant delivery route 4: PASS
+COMPACT TEST full restaurant serves 4: PASS
+COMPACT TEST full restaurant delivery route 5: PASS
+COMPACT TEST full restaurant serves 5: PASS
+COMPACT TEST restaurant old outside save recovers: PASS
+COMPACT TEST restaurant real walk to exit: PASS
+COMPACT TEST restaurant exits to town: PASS
+COMPACT VERIFY END checks=64 failures=0
+FMOD Sound System: System released

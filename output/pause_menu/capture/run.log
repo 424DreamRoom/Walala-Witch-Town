@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FMOD Sound System: Successfully initialized
+PAUSE CAPTURE zh_CN BUTTONS 4 STATUS_VISIBLE false
+PAUSE CAPTURE en BUTTONS 4 STATUS_VISIBLE false
+PAUSE CAPTURE ja BUTTONS 4 STATUS_VISIBLE false
+PAUSE CAPTURE zh_TW BUTTONS 4 STATUS_VISIBLE false
+PAUSE CAPTURE SETTINGS_VISIBLE true
+PAUSE CAPTURE BEFORE RETURN false ACTIVE_FADE false
+PAUSE CAPTURE RETURN_SCENE res://Scenes/MainMenu/main_menu.tscn PAUSED false
+PAUSE CAPTURE COMPLETE
+FMOD Sound System: System released
