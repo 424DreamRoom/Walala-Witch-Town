@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-11",
+  "godot": "4.7.2",
+  "visual_checks": 23,
+  "visual_passed": true,
+  "storage_regression_checks": 63,
+  "storage_regression_passed": true,
+  "storage_fixture": "expanded house to accommodate the existing regression positions; production logic unchanged",
+  "protected_myart_hashes_unchanged": true,
+  "source_pngs_byte_identical": 6,
+  "player_visible_text_changes": false,
+  "screenshots": [
+    "room_closed.png",
+    "room_open.png",
+    "storage_open.png",
+    "map_chests.png"
+  ],
+  "isolated_preferences": "output/chest_art/preferences.cfg",
+  "isolated_saves": "output/chest_art/saves"
+}

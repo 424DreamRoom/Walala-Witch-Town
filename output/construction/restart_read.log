@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+CONSTRUCTION isolated save slot opens: PASS
+CONSTRUCTION fresh process restores home location: PASS
+CONSTRUCTION fresh process restores outdoor furniture: PASS
+CONSTRUCTION fresh process restores indoor bed: PASS
+CONSTRUCTION fresh process restores chest contents: PASS
+CONSTRUCTION VERIFY END checks=5 failures=0
+FMOD Sound System: System released

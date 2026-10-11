@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: No loader found for resource: res://Scenes/UI/brightness.gdshader (expected type: ImageTexture)
+   at: _load (core/io/resource_loader.cpp:332)
+SCRIPT ERROR: Parse Error: Could not preload resource file "res://Scenes/UI/brightness.gdshader".
+   at: GDScript::reload (res://Scenes/MainMenu/menu_preferences.gd:3)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://output/verification_profiles/town_19732/isolated.gd:0)
+ERROR: Failed to load script "res://output/verification_profiles/town_19732/isolated.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+ERROR: No loader found for resource: res://Localization/catalog.gd (expected type: ImageTexture)
+   at: _load (core/io/resource_loader.cpp:332)
+SCRIPT ERROR: Parse Error: Could not preload resource file "res://Localization/catalog.gd".
+   at: GDScript::reload (res://Localization/localization.gd:5)
+ERROR: Failed to load script "res://Localization/localization.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+ERROR: Failed to instantiate an autoload, script 'res://Localization/localization.gd' does not inherit from 'Node'.
+   at: start (main/main.cpp:4539)
+SCRIPT ERROR: Invalid assignment of property or key 'file_path' with value of type 'String' on a base object of type 'GDScript'.
+   at: _initialize (res://output/verification_profiles/town_19732/isolated.gd:5)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://output/verification_profiles/town_19732/isolated.gd:5)
+SCRIPT ERROR: Invalid call. Nonexistent function 'read' in base 'GDScript'.
+   at: apply_saved_bindings (res://Scenes/Input/input_bindings.gd:37)
+   GDScript backtrace (most recent call first):
+       [0] apply_saved_bindings (res://Scenes/Input/input_bindings.gd:37)
+       [1] _ready (res://Scenes/Input/input_bindings.gd:27)
+SCRIPT ERROR: Invalid access to property or key 'language_changed' on a base object of type 'Nil'.
+   at: _ready (res://Scenes/Input/input_bindings.gd:28)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Input/input_bindings.gd:28)
+SCRIPT ERROR: Invalid call. Nonexistent function 'value' in base 'GDScript'.
+   at: reload_settings (res://Scenes/Input/controller_input.gd:52)
+   GDScript backtrace (most recent call first):
+       [0] reload_settings (res://Scenes/Input/controller_input.gd:52)
+       [1] _ready (res://Scenes/Input/controller_input.gd:28)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_asynccommandbuffer.cpp in AsyncCommandBuffer::growBuffer(): Growing command buffer to 65536 bytes. Initial command buffer size can be tuned to avoid dynamic growth using Studio::System::setAdvancedSettings()
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Sounds/Walala/fmod_runtime.gd:9)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_asynccommandbuffer.cpp in AsyncCommandBuffer::growBuffer(): Growing command buffer to 131072 bytes. Initial command buffer size can be tuned to avoid dynamic growth using Studio::System::setAdvancedSettings()
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Sounds/Walala/fmod_runtime.gd:9)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_asynccommandbuffer.cpp in AsyncCommandBuffer::growBuffer(): Growing command buffer to 262144 bytes. Initial command buffer size can be tuned to avoid dynamic growth using Studio::System::setAdvancedSettings()
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Sounds/Walala/fmod_runtime.gd:9)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_asynccommandbuffer.cpp in AsyncCommandBuffer::growBuffer(): Growing command buffer to 524288 bytes. Initial command buffer size can be tuned to avoid dynamic growth using Studio::System::setAdvancedSettings()
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Sounds/Walala/fmod_runtime.gd:9)

@@ -1,0 +1,65 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+RICH TEXT TEST native BBCode parses nested styles and literal brackets: PASS
+RICH TEXT TEST only rendered characters count toward timing: PASS
+RICH TEXT TEST body preserves input ownership: PASS
+RICH TEXT TEST bold and italic retain pixel font with real variants: PASS
+RICH TEXT TEST style sizes match the base canvas: PASS
+RICH TEXT TEST typewriter reveals letters without spending time on tags: PASS
+RICH TEXT TEST choices appear at the rendered duration: PASS
+RICH TEXT TEST history keeps identical formatting: PASS
+RICH TEXT TEST reading preserves gameplay and pause: PASS
+RICH TEXT TEST closing restores gameplay pause: PASS
+RICH TEXT TEST jump displaces glyphs upward on pixel boundaries: PASS
+RICH TEXT TEST disabled jump preserves the underlying glyph transform: PASS
+RICH TEXT TEST sway remains horizontal and independent of jump preference: PASS
+RICH TEXT TEST sway travels right and left and returns after one cycle: PASS
+RICH TEXT TEST sway preserves the existing vertical baseline: PASS
+RICH TEXT TEST disabled sway preserves the underlying glyph transform: PASS
+RICH TEXT TEST jump remains independent of sway preference: PASS
+RICH TEXT TEST jump parameters stay within readable bounds: PASS
+RICH TEXT TEST sway parameters stay within horizontal bounds: PASS
+RICH TEXT TEST invalid parameters use finite defaults: PASS
+RICH TEXT TEST motion tags nest with colors and preserve parsed length: PASS
+RICH TEXT TEST motion toggles preserve typewriter and history markup: PASS
+RICH TEXT TEST manual reveal uses parsed length: PASS
+RICH TEXT TEST tag-only middle line has zero visible characters: PASS
+RICH TEXT TEST multi-line dialogue advances past tag-only text: PASS
+RICH TEXT TEST last styled line closes normally: PASS
+RICH TEXT TEST tag-only final line presents choices immediately: PASS
+RICH TEXT TEST instant speed reveals styled text and choices: PASS
+RICH TEXT TEST native all-visible sentinel stays complete on language switch: PASS
+RICH TEXT TEST zh_CN guide translates before parsing: PASS
+RICH TEXT TEST zh_CN partial language switch restarts rendered text: PASS
+RICH TEXT TEST zh_CN completed language switch preserves completion: PASS
+RICH TEXT TEST zh_CN guide fits its existing panel: PASS
+RICH TEXT TEST zh_CN active main is localized: PASS
+RICH TEXT TEST zh_CN open journal updates translation: PASS
+RICH TEXT TEST en guide translates before parsing: PASS
+RICH TEXT TEST en partial language switch restarts rendered text: PASS
+RICH TEXT TEST en completed language switch preserves completion: PASS
+RICH TEXT TEST en guide fits its existing panel: PASS
+RICH TEXT TEST en active main is localized: PASS
+RICH TEXT TEST en open journal updates translation: PASS
+RICH TEXT TEST ja guide translates before parsing: PASS
+RICH TEXT TEST ja partial language switch restarts rendered text: PASS
+RICH TEXT TEST ja completed language switch preserves completion: PASS
+RICH TEXT TEST ja guide fits its existing panel: PASS
+RICH TEXT TEST ja active main is localized: PASS
+RICH TEXT TEST ja open journal updates translation: PASS
+RICH TEXT TEST zh_TW guide translates before parsing: PASS
+RICH TEXT TEST zh_TW partial language switch restarts rendered text: PASS
+RICH TEXT TEST zh_TW completed language switch preserves completion: PASS
+RICH TEXT TEST zh_TW guide fits its existing panel: PASS
+RICH TEXT TEST zh_TW active main is localized: PASS
+RICH TEXT TEST zh_TW open journal updates translation: PASS
+RICH TEXT TEST ingame settings expose two enabled motion toggles: PASS
+RICH TEXT TEST zh_CN six game settings fit without overlap: PASS
+RICH TEXT TEST en six game settings fit without overlap: PASS
+RICH TEXT TEST ja six game settings fit without overlap: PASS
+RICH TEXT TEST zh_TW six game settings fit without overlap: PASS
+RICH TEXT TEST ingame toggles persist independently to disk: PASS
+RICH TEXT TEST motion settings retain values when reopened: PASS
+RICH TEXT TEST game defaults restore both motion effects without changing language or sound: PASS
+RICH TEXT TEST equipment effect description accepts rich text: PASS
+RICH TEXT VERIFY END failures=0

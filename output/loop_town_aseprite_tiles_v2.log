@@ -1,0 +1,122 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+TOWN PLAN expanded layout revision: PASS
+TOWN PLAN exactly double area: PASS
+TOWN PLAN sixteen town buildings: PASS
+TOWN PLAN public square and thirty lanes: PASS
+TOWN PLAN all functional entrances retained: PASS
+TOWN PLAN river has physical banks and an open bridge: PASS
+TOWN PLAN building Y sorting retained: PASS
+TOWN PLAN stone plaza footsteps: PASS
+TOWN PLAN wood landing footsteps: PASS
+TOWN PLAN forest lane dirt footsteps: PASS
+TOWN PLAN authored courtyard dirt footsteps: PASS
+TOWN PLAN grass outside smaller courtyard footsteps: PASS
+TOWN PLAN snow covers exterior surfaces: PASS
+TOWN PLAN old saved position in moved building resets safely: PASS
+TOWN PLAN valid saved doorway is retained: PASS
+TOWN PLAN walk to public square: PASS
+TOWN PLAN diagonal walk (-1.0, -1.0) keeps speed: PASS
+TOWN PLAN diagonal walk (1.0, -1.0) keeps speed: PASS
+TOWN PLAN diagonal walk (-1.0, 1.0) keeps speed: PASS
+TOWN PLAN diagonal walk (1.0, 1.0) keeps speed: PASS
+TOWN PLAN diagonal run (-1.0, -1.0) keeps speed: PASS
+TOWN PLAN diagonal run (1.0, -1.0) keeps speed: PASS
+TOWN PLAN diagonal run (-1.0, 1.0) keeps speed: PASS
+TOWN PLAN diagonal run (1.0, 1.0) keeps speed: PASS
+TOWN PLAN real route to approach store: PASS
+TOWN PLAN real route to store: PASS
+TOWN PLAN walking to door stays outside store: PASS
+TOWN PLAN entrance reaches store: PASS
+TOWN PLAN town physics detaches in store: PASS
+TOWN PLAN indoor weather hidden in store: PASS
+TOWN PLAN walk to store exit: PASS
+TOWN PLAN walking to exit stays inside store: PASS
+TOWN PLAN exit returns from store: PASS
+TOWN PLAN restores moved doorway store: PASS
+TOWN PLAN town bounds restored store: PASS
+TOWN PLAN real route to approach blacksmith: PASS
+TOWN PLAN real route to blacksmith: PASS
+TOWN PLAN walking to door stays outside blacksmith: PASS
+TOWN PLAN entrance reaches blacksmith: PASS
+TOWN PLAN town physics detaches in blacksmith: PASS
+TOWN PLAN indoor weather hidden in blacksmith: PASS
+TOWN PLAN walk to blacksmith exit: PASS
+TOWN PLAN walking to exit stays inside blacksmith: PASS
+TOWN PLAN exit returns from blacksmith: PASS
+TOWN PLAN restores moved doorway blacksmith: PASS
+TOWN PLAN town bounds restored blacksmith: PASS
+TOWN PLAN real route to approach dock: PASS
+TOWN PLAN real route to dock: PASS
+TOWN PLAN entrance reaches dock: PASS
+TOWN PLAN town physics detaches in dock: PASS
+TOWN PLAN walk to dock exit: PASS
+TOWN PLAN exit returns from dock: PASS
+TOWN PLAN restores moved doorway dock: PASS
+TOWN PLAN town bounds restored dock: PASS
+TOWN PLAN real route to approach restaurant: PASS
+TOWN PLAN real route to restaurant: PASS
+TOWN PLAN walking to door stays outside restaurant: PASS
+TOWN PLAN entrance reaches restaurant: PASS
+TOWN PLAN town physics detaches in restaurant: PASS
+TOWN PLAN walk to restaurant exit: PASS
+TOWN PLAN walking to exit stays inside restaurant: PASS
+TOWN PLAN exit returns from restaurant: PASS
+TOWN PLAN restores moved doorway restaurant: PASS
+TOWN PLAN town bounds restored restaurant: PASS
+TOWN PLAN real route to approach farm: PASS
+TOWN PLAN real route to farm: PASS
+TOWN PLAN entrance reaches farm: PASS
+TOWN PLAN town physics detaches in farm: PASS
+TOWN PLAN walk to farm exit: PASS
+TOWN PLAN exit returns from farm: PASS
+TOWN PLAN restores moved doorway farm: PASS
+TOWN PLAN town bounds restored farm: PASS
+TOWN PLAN real route to approach field: PASS
+TOWN PLAN real route to field: PASS
+TOWN PLAN entrance reaches field: PASS
+TOWN PLAN town physics detaches in field: PASS
+TOWN PLAN walk to field exit: PASS
+TOWN PLAN exit returns from field: PASS
+TOWN PLAN restores moved doorway field: PASS
+TOWN PLAN town bounds restored field: PASS
+TOWN PLAN walk to every house blacksmith: PASS
+TOWN PLAN walk to every house store: PASS
+TOWN PLAN walk to every house restaurant: PASS
+TOWN PLAN walk to every house civic: PASS
+TOWN PLAN walk to every house furniture_store: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house landmark: PASS
+TOWN PLAN walk to every house landmark: PASS
+TOWN PLAN walk to every house landmark: PASS
+TOWN PLAN walk to every house landmark: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house landmark: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk onto river landing: PASS
+TOWN PLAN river bank blocks entering water: PASS
+TOWN PLAN real route through extension east_garden: PASS
+TOWN PLAN camera reaches extension east_garden: PASS
+TOWN PLAN real route through extension south_library: PASS
+TOWN PLAN camera reaches extension south_library: PASS
+TOWN PLAN real route through extension windmill_meadow: PASS
+TOWN PLAN camera reaches extension windmill_meadow: PASS
+TOWN PLAN real route through extension reed_riverside: PASS
+TOWN PLAN camera reaches extension reed_riverside: PASS
+TOWN PLAN new southern position survives safety check: PASS
+TOWN PLAN new southern doorstep footsteps: PASS
+TOWN PLAN isolated slot starts: PASS
+TOWN PLAN extended map position writes to isolated slot: PASS
+TOWN PLAN extended map position reloads: PASS
+TOWN PLAN extended map position restores: PASS
+TOWN PLAN old valid town save remains accepted: PASS
+TOWN PLAN outside map save relocates safely: PASS
+TOWN PLAN rain still works: PASS
+TOWN PLAN snow still works: PASS
+TOWN PLAN R remains safe town arrival: PASS
+TOWN PLAN VERIFY END failures=0
+FMOD Sound System: System released

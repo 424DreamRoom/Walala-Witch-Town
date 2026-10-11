@@ -1,0 +1,71 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+LOOP TEST Chinese system font available: PASS
+LOOP TEST day 1: PASS
+LOOP TEST real walk to (454.0, 10.0): PASS
+LOOP TEST walking enters independent field: PASS
+LOOP TEST real walk to (60.0, 115.0): PASS
+LOOP TEST real walk to (105.0, 115.0): PASS
+LOOP TEST gather and exhausted point: PASS
+LOOP TEST real walk to (60.0, 115.0): PASS
+LOOP TEST real walk to (78.0, 352.0): PASS
+LOOP TEST field exit restores town: PASS
+LOOP TEST real walk to (448.0, 334.0): PASS
+LOOP TEST real walk to (570.0, 718.0): PASS
+LOOP TEST walking to restaurant door stays outside: PASS
+LOOP TEST interacting enters restaurant: FAIL
+LOOP TEST real walk to (60.0, 130.0): FAIL
+LOOP TEST real walk to (110.0, 130.0): PASS
+LOOP TEST processing separates inventories: PASS
+LOOP TEST processing cannot duplicate: PASS
+LOOP TEST new menu starts empty: PASS
+LOOP TEST mouse menu selection: PASS
+LOOP TEST player confirms opening: PASS
+LOOP TEST customer orders from menu: PASS
+LOOP TEST remote cook rejected: PASS
+LOOP TEST real walk to (270.0, 130.0): PASS
+LOOP TEST cook subtracts once: PASS
+LOOP TEST repeat cook rejected: PASS
+LOOP TEST real cooking timer yields held dish: PASS
+LOOP TEST real walk to (60.0, 130.0): PASS
+LOOP TEST real walk to (60.0, 225.0): PASS
+LOOP TEST real walk to (110.0, 245.0): PASS
+LOOP TEST E served and earned: PASS
+LOOP TEST out of stock stops arrivals: PASS
+LOOP TEST settlement credits once: PASS
+LOOP TEST no duplicate income: PASS
+LOOP TEST next day refresh and balances: PASS
+ERROR: Can't get if point is disabled. Point (102, 96) out of bounds [P: (0, 0), S: (161, 91)].
+   at: is_point_solid (core/math/a_star_grid_2d.cpp:227)
+   GDScript backtrace (most recent call first):
+       [0] route (res://Scenes/LanternLane/verification_navigation.gd:33)
+       [1] walk (res://Scenes/LanternLane/verification_navigation.gd:65)
+       [2] walk_to (res://Scenes/Gameplay/verify_loop.gd:68)
+       [3] _run (res://Scenes/Gameplay/verify_loop.gd:197)
+       [4] advance_phase (res://Scenes/Gameplay/verify_loop.gd:59)
+       [5] click (res://Scenes/Gameplay/verify_loop.gd:55)
+       [6] frames (res://Scenes/Gameplay/verify_loop.gd:21)
+ERROR: Can't get id path. Point (102, 96) out of bounds [P: (0, 0), S: (161, 91)].
+   at: get_point_path (core/math/a_star_grid_2d.cpp:644)
+   GDScript backtrace (most recent call first):
+       [0] route (res://Scenes/LanternLane/verification_navigation.gd:39)
+       [1] walk (res://Scenes/LanternLane/verification_navigation.gd:65)
+       [2] walk_to (res://Scenes/Gameplay/verify_loop.gd:68)
+       [3] _run (res://Scenes/Gameplay/verify_loop.gd:197)
+       [4] advance_phase (res://Scenes/Gameplay/verify_loop.gd:59)
+       [5] click (res://Scenes/Gameplay/verify_loop.gd:55)
+       [6] frames (res://Scenes/Gameplay/verify_loop.gd:21)
+NAVIGATION no safe route from (111.3334, 244.9999) to (408.0, 384.0)
+LOOP TEST real walk to (408.0, 384.0): FAIL
+LOOP TEST day 2: PASS
+NAVIGATION no safe route from (111.3334, 244.9999) to (454.0, 10.0)
+LOOP TEST real walk to (454.0, 10.0): FAIL
+LOOP TEST walking enters independent field: FAIL
+LOOP TEST real walk to (60.0, 115.0): FAIL
+SCRIPT ERROR: Invalid access to property or key 'points' on a base object of type 'Nil'.
+   at: _run (res://Scenes/Gameplay/verify_loop.gd:142)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://Scenes/Gameplay/verify_loop.gd:142)
+       [1] walk_to (res://Scenes/Gameplay/verify_loop.gd:69)
+       [2] walk (res://Scenes/LanternLane/verification_navigation.gd:78)

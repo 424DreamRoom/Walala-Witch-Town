@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "characters": [
+    {
+      "id": "walala-witch-v2",
+      "frames": 20,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "idle-down",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "name": "walk-down",
+          "from": 1,
+          "to": 4
+        },
+        {
+          "name": "idle-up",
+          "from": 5,
+          "to": 5
+        },
+        {
+          "name": "walk-up",
+          "from": 6,
+          "to": 9
+        },
+        {
+          "name": "idle-right",
+          "from": 10,
+          "to": 10
+        },
+        {
+          "name": "walk-right",
+          "from": 11,
+          "to": 14
+        },
+        {
+          "name": "idle-left",
+          "from": 15,
+          "to": 15
+        },
+        {
+          "name": "walk-left",
+          "from": 16,
+          "to": 19
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "18a820c92e2e069763a7d2c9b1d6059d21e2f13a4e75e382eb90db07c4a24c39"
+    },
+    {
+      "id": "witch-tools-v2",
+      "frames": 60,
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        "shadow",
+        "body",
+        "outfit",
+        "hair",
+        "equipment",
+        "fx"
+      ],
+      "tags": [
+        {
+          "name": "chop-down",
+          "from": 0,
+          "to": 3
+        },
+        {
+          "name": "chop-up",
+          "from": 4,
+          "to": 7
+        },
+        {
+          "name": "chop-right",
+          "from": 8,
+          "to": 11
+        },
+        {
+          "name": "chop-left",
+          "from": 12,
+          "to": 15
+        },
+        {
+          "name": "mine-down",
+          "from": 16,
+          "to": 19
+        },
+        {
+          "name": "mine-up",
+          "from": 20,
+          "to": 23
+        },
+        {
+          "name": "mine-right",
+          "from": 24,
+          "to": 27
+        },
+        {
+          "name": "mine-left",
+          "from": 28,
+          "to": 31
+        },
+        {
+          "name": "cast-down",
+          "from": 32,
+          "to": 34
+        },
+        {
+          "name": "cast-up",
+          "from": 35,
+          "to": 37
+        },
+        {
+          "name": "cast-right",
+          "from": 38,
+          "to": 40
+        },
+        {
+          "name": "cast-left",
+          "from": 41,
+          "to": 43
+        },
+        {
+          "name": "wait-down",
+          "from": 44,
+          "to": 44
+        },
+        {
+          "name": "wait-up",
+          "from": 45,
+          "to": 45
+        },
+        {
+          "name": "wait-right",
+          "from": 46,
+          "to": 46
+        },
+        {
+          "name": "wait-left",
+          "from": 47,
+          "to": 47
+        },
+        {
+          "name": "reel-down",
+          "from": 48,
+          "to": 50
+        },
+        {
+          "name": "reel-up",
+          "from": 51,
+          "to": 53
+        },
+        {
+          "name": "reel-right",
+          "from": 54,
+          "to": 56
+        },
+        {
+          "name": "reel-left",
+          "from": 57,
+          "to": 59
+        }
+      ],
+      "status": "PASS",
+      "source_sha256": "fbb86b05a650b96fc174546753b2d0705f15fa7c2030d6621e51e379d8150c46"
+    }
+  ],
+  "myart_hashes_unchanged": true,
+  "outfit_legs_hands_wand_fx_preserved": true,
+  "aseprite_application_verified": false
+}

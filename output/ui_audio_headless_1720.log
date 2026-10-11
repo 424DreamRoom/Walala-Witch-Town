@@ -1,0 +1,85 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+UI AUDIO DRIVER Dummy
+UI AUDIO short one-shot ui_hover: PASS
+UI AUDIO LENGTH ui_hover 0.02321995422244
+UI AUDIO nonzero PCM ui_hover: PASS
+UI AUDIO starts ui_hover: PASS
+UI AUDIO short one-shot ui_click: PASS
+UI AUDIO LENGTH ui_click 0.01002267561853
+UI AUDIO nonzero PCM ui_click: PASS
+UI AUDIO starts ui_click: PASS
+UI AUDIO short one-shot ui_open: PASS
+UI AUDIO LENGTH ui_open 0.14777778089046
+UI AUDIO nonzero PCM ui_open: PASS
+UI AUDIO starts ui_open: PASS
+UI AUDIO short one-shot ui_close: PASS
+UI AUDIO LENGTH ui_close 0.14777778089046
+UI AUDIO nonzero PCM ui_close: PASS
+UI AUDIO starts ui_close: PASS
+UI AUDIO short one-shot ui_confirm: PASS
+UI AUDIO LENGTH ui_confirm 0.28984126448631
+UI AUDIO nonzero PCM ui_confirm: PASS
+UI AUDIO starts ui_confirm: PASS
+UI AUDIO short one-shot ui_error: PASS
+UI AUDIO LENGTH ui_error 0.16455782949924
+UI AUDIO nonzero PCM ui_error: PASS
+UI AUDIO starts ui_error: PASS
+UI AUDIO short one-shot ui_toggle: PASS
+UI AUDIO LENGTH ui_toggle 0.13931973278522
+UI AUDIO nonzero PCM ui_toggle: PASS
+UI AUDIO starts ui_toggle: PASS
+UI AUDIO short one-shot ui_slider: PASS
+UI AUDIO LENGTH ui_slider 0.02321995422244
+UI AUDIO nonzero PCM ui_slider: PASS
+UI AUDIO starts ui_slider: PASS
+UI AUDIO short one-shot ui_page: PASS
+UI AUDIO LENGTH ui_page 0.43043750524521
+UI AUDIO nonzero PCM ui_page: PASS
+UI AUDIO starts ui_page: PASS
+UI AUDIO short one-shot ui_book_open: PASS
+UI AUDIO LENGTH ui_book_open 0.15372917056084
+UI AUDIO nonzero PCM ui_book_open: PASS
+UI AUDIO starts ui_book_open: PASS
+UI AUDIO short one-shot ui_book_close: PASS
+UI AUDIO LENGTH ui_book_close 0.23060417175293
+UI AUDIO nonzero PCM ui_book_close: PASS
+UI AUDIO starts ui_book_close: PASS
+UI AUDIO hover flood limited: PASS
+UI AUDIO slider flood limited: PASS
+UI AUDIO voice count bounded: PASS
+UI AUDIO mute stops current UI immediately: PASS
+UI AUDIO muted cue is silent: PASS
+UI AUDIO zero volume is silent: PASS
+UI AUDIO initial focus silent: PASS
+UI AUDIO keyboard navigation sound: PASS
+UI AUDIO keyboard opens settings sound: PASS
+UI AUDIO slider sound and gain: PASS
+UI AUDIO mute toggle stops UI: PASS
+UI AUDIO unmute plays toggle: PASS
+UI AUDIO keyboard closes settings sound: PASS
+UI AUDIO mouse opens credits once: PASS
+UI AUDIO failed slot plays error and stays: PASS
+UI AUDIO valid slot plays confirmation: PASS
+UI AUDIO settings survive scene handoff: PASS
+UI AUDIO journal keyboard sound during pause: PASS
+UI AUDIO UI players process during pause: PASS
+UI AUDIO journal tabs turn page once: PASS
+UI AUDIO journal closes by keyboard: PASS
+UI AUDIO mouse opens bag once: PASS
+UI AUDIO escape closes bag once: PASS
+UI AUDIO dialogue advance sounds: PASS
+UI AUDIO dialogue history sounds: PASS
+UI AUDIO typewriter and refresh do not spam: PASS
+UI AUDIO pause menu opens with UI feedback: PASS
+UI AUDIO manual save confirms while paused: PASS
+UI AUDIO native playback advances while paused: FAIL
+UI AUDIO autosave has no UI sound: PASS
+UI AUDIO save failure feedback: PASS
+UI AUDIO pause resumes with close sound: PASS
+UI AUDIO shop open cue: PASS
+UI AUDIO shop close cue: PASS
+UI AUDIO gameplay UI honors mute: PASS
+UI AUDIO gameplay UI honors zero: PASS
+UI AUDIO legacy interaction audio preserved: PASS
+UI AUDIO VERIFY END failures=1 checks=70

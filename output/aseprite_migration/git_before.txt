@@ -1,0 +1,702 @@
+ M Art/Character/Storybook/README.md
+ M Art/Character/Storybook/WalalaTools/actions-preview.png
+ M Art/Character/Storybook/WalalaTools/character-manifest.json
+ M Art/Character/Storybook/WalalaTools/contact-sheet.png
+ M Art/Character/Storybook/WalalaTools/frames/000-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/001-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/002-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/003-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/004-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/005-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/006-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/007-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/008-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/009-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/010-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/011-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/012-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/013-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/014-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/015-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/016-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/017-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/018-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/019-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/020-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/021-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/022-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/023-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/024-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/025-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/026-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/027-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/028-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/029-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/030-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/031-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/032-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/033-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/034-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/035-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/036-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/037-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/038-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/039-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/040-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/041-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/042-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/043-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/044-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/045-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/046-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/047-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/048-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/049-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/050-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/051-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/052-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/053-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/054-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/055-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/056-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/057-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/058-equipment.png
+ M Art/Character/Storybook/WalalaTools/frames/059-equipment.png
+ M Art/Character/Storybook/WalalaTools/witch-tools.aseprite
+ M Art/Character/Storybook/WalalaTools/witch-tools.json
+ M Art/Character/Storybook/WalalaTools/witch-tools.png
+ M Art/Character/Storybook/tools/__pycache__/build_characters.cpython-312.pyc
+ M Art/Character/Storybook/tools/build_tools.py
+ M Art/Environment/Hearthwood/README.md
+ M Art/Environment/Hearthwood/field_background.png
+ M Art/Environment/Hearthwood/field_layout.json
+ M Art/Environment/Hearthwood/field_overview.png
+ M Art/Environment/Hearthwood/manifest.json
+ M Art/Environment/Hearthwood/outdoor-validation.json
+ M Art/Environment/Hearthwood/shop_3.png
+ M Art/Environment/Hearthwood/shop_4.png
+ M Art/Environment/Hearthwood/shop_5.png
+ M Art/Environment/Hearthwood/shop_6.png
+ M Art/Environment/Hearthwood/shop_7.png
+ M Art/Environment/Hearthwood/shop_8.png
+ M Art/Environment/Hearthwood/tools/__pycache__/build_art.cpython-312.pyc
+ M Art/Environment/Hearthwood/tools/build_art.py
+ M Art/Environment/Hearthwood/tools/build_outdoors.py
+ M Art/Environment/Hearthwood/tools/validate_outdoors.py
+ M Art/Environment/Hearthwood/town_ground.png
+ M Art/Environment/Hearthwood/town_layout.json
+ M Art/Environment/Hearthwood/town_overview.png
+ M Art/Icon/Resources16_Original/README.md
+ M Art/Icon/Resources16_Original/gold.aseprite
+ M Art/Icon/Resources16_Original/gold.png
+ M Art/Icon/Resources16_Original/iron_ore.aseprite
+ M Art/Icon/Resources16_Original/iron_ore.png
+ M Art/Icon/Resources16_Original/preview_nearest_16x.png
+ M Art/Icon/Resources16_Original/stone.aseprite
+ M Art/Icon/Resources16_Original/stone.png
+ M Art/Icon/Resources16_Original/tools/build_resources.py
+ M Art/Icon/Resources16_Original/tools/validate_resources.py
+ M Art/Icon/Resources16_Original/validation_report.json
+ M Art/Icon/Resources16_Original/witch_coin.aseprite
+ M Art/Icon/Resources16_Original/witch_coin.png
+ M Art/Icon/Resources16_Original/wood.aseprite
+ M Art/Icon/Resources16_Original/wood.png
+ M Scenes/Gameplay/README.md
+ M Scenes/Gameplay/Verification/Harvest/chop.png
+ M Scenes/Gameplay/Verification/Harvest/chop_finish.png
+ M Scenes/Gameplay/Verification/Harvest/chop_finish_window.png
+ M Scenes/Gameplay/Verification/Harvest/chop_second.png
+ M Scenes/Gameplay/Verification/Harvest/chop_second_window.png
+ M Scenes/Gameplay/Verification/Harvest/chop_window.png
+ M Scenes/Gameplay/Verification/Harvest/field_resources.png
+ M Scenes/Gameplay/Verification/Harvest/field_resources_window.png
+ M Scenes/Gameplay/Verification/Harvest/fishing_bite.png
+ M Scenes/Gameplay/Verification/Harvest/fishing_bite_window.png
+ M Scenes/Gameplay/Verification/Harvest/fishing_reel.png
+ M Scenes/Gameplay/Verification/Harvest/fishing_reel_window.png
+ M Scenes/Gameplay/Verification/Harvest/fishing_wait.png
+ M Scenes/Gameplay/Verification/Harvest/fishing_wait_window.png
+ M Scenes/Gameplay/Verification/Harvest/mine_0.png
+ M Scenes/Gameplay/Verification/Harvest/mine_0_window.png
+ M Scenes/Gameplay/Verification/Harvest/mine_1.png
+ M Scenes/Gameplay/Verification/Harvest/mine_1_window.png
+ M Scenes/Gameplay/Verification/Harvest/mine_2.png
+ M Scenes/Gameplay/Verification/Harvest/mine_2_window.png
+ M Scenes/Gameplay/Verification/Harvest/resources_collected.png
+ M Scenes/Gameplay/Verification/Harvest/resources_collected_window.png
+ M Scenes/Gameplay/Verification/Harvest/stump.png
+ M Scenes/Gameplay/Verification/Harvest/stump_window.png
+ M Scenes/Gameplay/Verification/customer_eating_mid.png
+ M Scenes/Gameplay/Verification/customer_eating_mid_window.png
+ M Scenes/Gameplay/Verification/customer_eating_start.png
+ M Scenes/Gameplay/Verification/customer_eating_start_window.png
+ M Scenes/Gameplay/Verification/customers_idle_012.png
+ M Scenes/Gameplay/Verification/customers_idle_012_window.png
+ M Scenes/Gameplay/Verification/customers_idle_345.png
+ M Scenes/Gameplay/Verification/customers_idle_345_window.png
+ M Scenes/Gameplay/game_loop.gd
+ M Scenes/Gameplay/harvest_actions.gd
+ M Scenes/Gameplay/loop_state.gd
+ M Scenes/Gameplay/play_area.gd
+ M Scenes/Gameplay/resource_node.gd
+ M Scenes/Gameplay/run_verification.py
+ M Scenes/Gameplay/ui_font.gd
+ M Scenes/Gameplay/verify_ambient.gd
+ M Scenes/Gameplay/verify_harvest.gd
+ M Scenes/Gameplay/verify_loop.gd
+ M Scenes/LanternLane/Effect/Weather/README.md
+ M Scenes/LanternLane/Effect/Weather/verify_weather.gd
+ M Scenes/LanternLane/Effect/Weather/weather.gd
+ M Scenes/LanternLane/README.md
+ M Scenes/LanternLane/lantern_lane.gd
+ M Scenes/LanternLane/verify_outdoors.gd
+ M Scenes/WitchHome/verify_home.gd
+ M Scenes/WitchHome/witch_home.gd
+ M Sounds/Walala/CREDITS.txt
+ M Sounds/Walala/README.md
+ M Sounds/Walala/audio_manager.gd
+ M Sounds/Walala/manifest.json
+ M Sounds/Walala/verify_audio.gd
+ M output/loop_harvest.log
+ M project.godot
+?? AGENTS.md
+?? Art/Building/
+?? Art/Campaign/
+?? Art/Character/Storybook/WalalaTools32/
+?? Art/Character/Storybook/WalalaToolsV2/
+?? Art/Character/Storybook/WalalaWitch32/
+?? Art/Character/Storybook/WalalaWitchAseprite32/
+?? Art/Character/Storybook/WalalaWitchV2/
+?? Art/Character/Storybook/tools/__pycache__/build_tools.cpython-312.pyc
+?? Art/Character/Storybook/tools/__pycache__/validate_sources.cpython-312.pyc
+?? Art/Character/Storybook/tools/build_witch_32.py
+?? Art/Character/Storybook/tools/build_witch_v2.py
+?? Art/Characters/
+?? Art/Environment/Hearthwood/MAP_ART_NOTES.md
+?? Art/Environment/Hearthwood/Verification/Ambient/field_00.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_00_window.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_01.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_02.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_03.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_04.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_05.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_06.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_07.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_08.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_09.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_10.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_11.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_12.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_13.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_14.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_15.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_16.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_17.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_18.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_19.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_20.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_21.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_22.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/field_23.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/home.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/home_window.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/town.png.import
+?? Art/Environment/Hearthwood/Verification/Ambient/town_window.png.import
+?? Art/Environment/Hearthwood/Verification/Businesses/
+?? Art/Environment/Hearthwood/Verification/TownPlan/
+?? Art/Environment/Hearthwood/Verification/businesses_preview.png
+?? Art/Environment/Hearthwood/Verification/businesses_preview.png.import
+?? Art/Environment/Hearthwood/blacksmith_exterior.png
+?? Art/Environment/Hearthwood/blacksmith_exterior.png.import
+?? Art/Environment/Hearthwood/blacksmith_ground.png
+?? Art/Environment/Hearthwood/blacksmith_ground.png.import
+?? Art/Environment/Hearthwood/blacksmith_layout.json
+?? Art/Environment/Hearthwood/blacksmith_overview.png
+?? Art/Environment/Hearthwood/blacksmith_overview.png.import
+?? Art/Environment/Hearthwood/blacksmith_sign.png
+?? Art/Environment/Hearthwood/blacksmith_sign.png.import
+?? Art/Environment/Hearthwood/dock_boat.png
+?? Art/Environment/Hearthwood/dock_boat.png.import
+?? Art/Environment/Hearthwood/dock_fishing_post.png
+?? Art/Environment/Hearthwood/dock_fishing_post.png.import
+?? Art/Environment/Hearthwood/dock_ground.png
+?? Art/Environment/Hearthwood/dock_ground.png.import
+?? Art/Environment/Hearthwood/dock_hut.png
+?? Art/Environment/Hearthwood/dock_hut.png.import
+?? Art/Environment/Hearthwood/dock_layout.json
+?? Art/Environment/Hearthwood/dock_mooring.png
+?? Art/Environment/Hearthwood/dock_mooring.png.import
+?? Art/Environment/Hearthwood/farm_ground.png
+?? Art/Environment/Hearthwood/farm_ground.png.import
+?? Art/Environment/Hearthwood/farm_layout.json
+?? Art/Environment/Hearthwood/farm_overview.png
+?? Art/Environment/Hearthwood/farm_overview.png.import
+?? Art/Environment/Hearthwood/furniture_store_layout.json
+?? Art/Environment/Hearthwood/home_chest.svg
+?? Art/Environment/Hearthwood/home_chest.svg.import
+?? Art/Environment/Hearthwood/home_empty_0.png
+?? Art/Environment/Hearthwood/home_empty_0.png.import
+?? Art/Environment/Hearthwood/home_empty_1.png
+?? Art/Environment/Hearthwood/home_empty_1.png.import
+?? Art/Environment/Hearthwood/home_empty_2.png
+?? Art/Environment/Hearthwood/home_empty_2.png.import
+?? Art/Environment/Hearthwood/outdoor_sign_dock.png
+?? Art/Environment/Hearthwood/outdoor_sign_dock.png.import
+?? Art/Environment/Hearthwood/outdoor_sign_furniture_store.png
+?? Art/Environment/Hearthwood/outdoor_sign_furniture_store.png.import
+?? Art/Environment/Hearthwood/restaurant_ground.png
+?? Art/Environment/Hearthwood/restaurant_ground.png.import
+?? Art/Environment/Hearthwood/restaurant_kitchen.png
+?? Art/Environment/Hearthwood/restaurant_kitchen.png.import
+?? Art/Environment/Hearthwood/restaurant_prep.png
+?? Art/Environment/Hearthwood/restaurant_prep.png.import
+?? Art/Environment/Hearthwood/restaurant_table.png
+?? Art/Environment/Hearthwood/restaurant_table.png.import
+?? Art/Environment/Hearthwood/smith_anvil.png
+?? Art/Environment/Hearthwood/smith_anvil.png.import
+?? Art/Environment/Hearthwood/smith_bellows.png
+?? Art/Environment/Hearthwood/smith_bellows.png.import
+?? Art/Environment/Hearthwood/smith_fire.png
+?? Art/Environment/Hearthwood/smith_fire.png.import
+?? Art/Environment/Hearthwood/smith_furnace.png
+?? Art/Environment/Hearthwood/smith_furnace.png.import
+?? Art/Environment/Hearthwood/smith_ore_bin.png
+?? Art/Environment/Hearthwood/smith_ore_bin.png.import
+?? Art/Environment/Hearthwood/smith_quench.png
+?? Art/Environment/Hearthwood/smith_quench.png.import
+?? Art/Environment/Hearthwood/smith_rack.png
+?? Art/Environment/Hearthwood/smith_rack.png.import
+?? Art/Environment/Hearthwood/smith_workbench.png
+?? Art/Environment/Hearthwood/smith_workbench.png.import
+?? Art/Environment/Hearthwood/store_counter.png
+?? Art/Environment/Hearthwood/store_counter.png.import
+?? Art/Environment/Hearthwood/store_dry_shelves.png
+?? Art/Environment/Hearthwood/store_dry_shelves.png.import
+?? Art/Environment/Hearthwood/store_exterior.png
+?? Art/Environment/Hearthwood/store_exterior.png.import
+?? Art/Environment/Hearthwood/store_ground.png
+?? Art/Environment/Hearthwood/store_ground.png.import
+?? Art/Environment/Hearthwood/store_layout.json
+?? Art/Environment/Hearthwood/store_overview.png
+?? Art/Environment/Hearthwood/store_overview.png.import
+?? Art/Environment/Hearthwood/store_produce.png
+?? Art/Environment/Hearthwood/store_produce.png.import
+?? Art/Environment/Hearthwood/store_sacks.png
+?? Art/Environment/Hearthwood/store_sacks.png.import
+?? Art/Environment/Hearthwood/store_shelves.png
+?? Art/Environment/Hearthwood/store_shelves.png.import
+?? Art/Environment/Hearthwood/store_sign.png
+?? Art/Environment/Hearthwood/store_sign.png.import
+?? Art/Environment/Hearthwood/tools/__pycache__/validate_outdoors.cpython-312.pyc
+?? Art/Environment/Hearthwood/tools/build_businesses.py
+?? Art/Environment/Hearthwood/tools/build_depth_art.py
+?? Art/Environment/Hearthwood/tools/build_dock.py
+?? Art/Environment/Hearthwood/tools/build_empty_homes.py
+?? Art/Environment/Hearthwood/tools/build_farm.py
+?? Art/Environment/Hearthwood/tools/build_town_architecture.py
+?? Art/Environment/Hearthwood/tools/build_town_landscape.py
+?? Art/Environment/Hearthwood/tools/build_town_layout.py
+?? Art/Environment/Hearthwood/tools/validate_businesses.py
+?? Art/Environment/Hearthwood/tools/validate_road_connections.py
+?? Art/Environment/Hearthwood/tools/validate_town_landscape.py
+?? Art/Environment/Hearthwood/tools/validate_town_layout.py
+?? Art/Environment/Hearthwood/town_atelier.png
+?? Art/Environment/Hearthwood/town_atelier.png.import
+?? Art/Environment/Hearthwood/town_bakery.png
+?? Art/Environment/Hearthwood/town_bakery.png.import
+?? Art/Environment/Hearthwood/town_boathouse.png
+?? Art/Environment/Hearthwood/town_boathouse.png.import
+?? Art/Environment/Hearthwood/town_cottage.png
+?? Art/Environment/Hearthwood/town_cottage.png.import
+?? Art/Environment/Hearthwood/town_fountain.png
+?? Art/Environment/Hearthwood/town_fountain.png.import
+?? Art/Environment/Hearthwood/town_greenhouse.png
+?? Art/Environment/Hearthwood/town_greenhouse.png.import
+?? Art/Environment/Hearthwood/town_library.png
+?? Art/Environment/Hearthwood/town_library.png.import
+?? Art/Environment/Hearthwood/town_manor.png
+?? Art/Environment/Hearthwood/town_manor.png.import
+?? Art/Environment/Hearthwood/town_windmill.png
+?? Art/Environment/Hearthwood/town_windmill.png.import
+?? Art/Fonts/HudDigits8/
+?? Art/Icon/FoodPlaceholders/
+?? Art/Icon/MyArt/
+?? Art/Icon/Resources16_Original/REFERENCES.md
+?? Art/Icon/Resources16_Original/fish.aseprite
+?? Art/Icon/Resources16_Original/fish.png
+?? Art/Icon/Resources16_Original/fish.png.import
+?? Art/Icon/Resources16_Original/iron.aseprite
+?? Art/Icon/Resources16_Original/iron.png
+?? Art/Icon/Resources16_Original/iron.png.import
+?? Art/Icon/Resources16_Original/manifest.json
+?? Art/Props/
+?? Art/UI/
+?? Art/carrot_16x16.aseprite
+?? Framewright-Lite.zip
+?? Localization/
+?? MyArt/
+?? Narrative/
+?? Scenes/Building/
+?? Scenes/Businesses/
+?? Scenes/Campaign/
+?? Scenes/Dock/
+?? Scenes/Equipment/
+?? Scenes/Farm/
+?? Scenes/Gameplay/Verification/DayNight/
+?? Scenes/Gameplay/Verification/Depth/
+?? Scenes/Gameplay/Verification/Thoughts/
+?? Scenes/Gameplay/actor_collision.gd
+?? Scenes/Gameplay/actor_collision.gd.uid
+?? Scenes/Gameplay/day_night_cycle.gd
+?? Scenes/Gameplay/day_night_cycle.gd.uid
+?? Scenes/Gameplay/run_depth_verification.py
+?? Scenes/Gameplay/thought_bubble.gd
+?? Scenes/Gameplay/thought_bubble.gd.uid
+?? Scenes/Gameplay/ui_skin.gd
+?? Scenes/Gameplay/ui_skin.gd.uid
+?? Scenes/Gameplay/verify_actor_collision.gd
+?? Scenes/Gameplay/verify_actor_collision.gd.uid
+?? Scenes/Gameplay/verify_ambient.gd.uid
+?? Scenes/Gameplay/verify_day_night.gd
+?? Scenes/Gameplay/verify_day_night.gd.uid
+?? Scenes/Gameplay/verify_depth.gd
+?? Scenes/Gameplay/verify_depth.gd.uid
+?? Scenes/Gameplay/verify_depth_harvest.gd
+?? Scenes/Gameplay/verify_depth_harvest.gd.uid
+?? Scenes/Gameplay/verify_restaurant_service.gd
+?? Scenes/Gameplay/verify_restaurant_service.gd.uid
+?? Scenes/Gameplay/verify_scene_fade.gd
+?? Scenes/Gameplay/verify_scene_fade.gd.uid
+?? Scenes/Gameplay/verify_scene_transitions.gd
+?? Scenes/Gameplay/verify_scene_transitions.gd.uid
+?? Scenes/Gameplay/verify_thought_bubble.gd
+?? Scenes/Gameplay/verify_thought_bubble.gd.uid
+?? Scenes/Gameplay/world_depth.gd
+?? Scenes/Gameplay/world_depth.gd.uid
+?? Scenes/Input/
+?? Scenes/LanternLane/verification_navigation.gd
+?? Scenes/LanternLane/verification_navigation.gd.uid
+?? Scenes/LanternLane/verify_town_plan.gd
+?? Scenes/LanternLane/verify_town_plan.gd.uid
+?? Scenes/MainMenu/
+?? Scenes/Map/
+?? Scenes/Save/
+?? Scenes/Storage/
+?? Scenes/UI/
+?? Sounds/HarvestCandidates_20261011/
+?? Sounds/Walala/Archives/footsteps.zip
+?? Sounds/Walala/Archives/jrpg_calm.zip
+?? Sounds/Walala/Archives/organic_ui.zip
+?? Sounds/Walala/Archives/snow_steps.7z
+?? Sounds/Walala/Footsteps/
+?? Sounds/Walala/Harvest/
+?? Sounds/Walala/Licenses/footsteps.html
+?? Sounds/Walala/Licenses/jrpg_calm_20261011.html
+?? Sounds/Walala/Licenses/organic_ui_20261011.html
+?? Sounds/Walala/Licenses/snow_steps.html
+?? Sounds/Walala/Licenses/snow_steps_readme.txt
+?? Sounds/Walala/Licenses/ui_audio_20261011.html
+?? Sounds/Walala/Music/
+?? Sounds/Walala/UI/
+?? Sounds/Walala/WEATHER_FOOTSTEPS.md
+?? Sounds/Walala/acquire_refresh.py
+?? Sounds/Walala/audio_settings.gd
+?? Sounds/Walala/audio_settings.gd.uid
+?? Sounds/Walala/fmod_runtime.gd
+?? Sounds/Walala/fmod_runtime.gd.uid
+?? Sounds/Walala/fmod_voice.gd
+?? Sounds/Walala/fmod_voice.gd.uid
+?? Sounds/Walala/footstep_surfaces.gd
+?? Sounds/Walala/footstep_surfaces.gd.uid
+?? Sounds/Walala/harvest_audio.gd
+?? Sounds/Walala/harvest_audio.gd.uid
+?? Sounds/Walala/music_library.gd
+?? Sounds/Walala/music_library.gd.uid
+?? Sounds/Walala/prepare_footsteps.py
+?? Sounds/Walala/prepare_harvest.py
+?? Sounds/Walala/prepare_refresh.py
+?? Sounds/Walala/run_audio_settings.py
+?? Sounds/Walala/run_fmod.py
+?? Sounds/Walala/run_harvest_audio.py
+?? Sounds/Walala/run_music_refresh.py
+?? Sounds/Walala/run_ui_audio.py
+?? Sounds/Walala/run_weather_footsteps.py
+?? Sounds/Walala/ui_audio.gd
+?? Sounds/Walala/ui_audio.gd.uid
+?? Sounds/Walala/verify_audio_settings.gd
+?? Sounds/Walala/verify_audio_settings.gd.uid
+?? Sounds/Walala/verify_backpack_audio.gd
+?? Sounds/Walala/verify_backpack_audio.gd.uid
+?? Sounds/Walala/verify_fmod.gd
+?? Sounds/Walala/verify_fmod.gd.uid
+?? Sounds/Walala/verify_fmod_export.gd
+?? Sounds/Walala/verify_fmod_export.gd.uid
+?? Sounds/Walala/verify_harvest_audio.gd
+?? Sounds/Walala/verify_harvest_audio.gd.uid
+?? Sounds/Walala/verify_music_refresh.gd
+?? Sounds/Walala/verify_music_refresh.gd.uid
+?? Sounds/Walala/verify_pause_audio.gd
+?? Sounds/Walala/verify_pause_audio.gd.uid
+?? Sounds/Walala/verify_ui_audio.gd
+?? Sounds/Walala/verify_ui_audio.gd.uid
+?? Sounds/Walala/verify_weather_footsteps.gd
+?? Sounds/Walala/verify_weather_footsteps.gd.uid
+?? addons/
+?? output/actor_collision/
+?? output/aseprite_migration/
+?? output/audio_refresh_import.log
+?? output/audio_settings/
+?? output/audio_settings_31652.cfg
+?? output/autosave_schedule/
+?? output/backpack_audio/
+?? output/brightness/
+?? output/building_import.log
+?? output/business_npcs/
+?? output/campaign_legacy.log
+?? output/campaign_test_saves/
+?? output/campaign_verbose.log
+?? output/chest_art/
+?? output/chest_candidates_20261011/
+?? output/collision_residents.log
+?? output/construction/
+?? output/controller/
+?? output/cooking_expansion/
+?? output/daynight_forward.log
+?? output/daynight_import.log
+?? output/default_home_save_verbose.log
+?? output/delete_status_cleanup/
+?? output/depth_import.log
+?? output/dialogue_bottom_align/
+?? output/dialogue_compact/
+?? output/dock_dock_capture_runner.log
+?? output/dock_harvest_runner.log
+?? output/dock_headless_runner.log
+?? output/doorstep_opening/
+?? output/farm_import.log
+?? output/farm_wand_outline/
+?? output/fmod/
+?? output/fmod_baseline/
+?? output/fmod_import.log
+?? output/fmod_music_runner.log
+?? output/fmod_myart_before.json
+?? output/fmod_native.log
+?? output/fmod_release.json
+?? output/fmod_server_upstream.cpp
+?? output/fmod_settings_probe.gd
+?? output/fmod_settings_probe.gd.uid
+?? output/font_clarity/
+?? output/food_icons/
+?? output/furniture_array_fix/
+?? output/guide_npc/
+?? output/harvest_audio/
+?? output/home_exit_doorstep/
+?? output/home_exit_position/
+?? output/hotbar_bottom/
+?? output/hotbar_compact/
+?? output/hotbar_counts/
+?? output/hotbar_selection/
+?? output/hotbar_shortcuts/
+?? output/housing_progression/
+?? output/hud_top_cleanup/
+?? output/loop_collision.log
+?? output/loop_customer_eat_npc_names.log
+?? output/loop_daynight.log
+?? output/loop_daynight_auto_exits_final.log
+?? output/loop_daynight_capture.log
+?? output/loop_daynight_diagnostic.log
+?? output/loop_daynight_farm_verified.log
+?? output/loop_daynight_fifteen_minutes.log
+?? output/loop_daynight_half_hour.log
+?? output/loop_daynight_restaurant_schedule.log
+?? output/loop_daynight_restaurant_schedule_v2.log
+?? output/loop_daynight_six_hour_save.log
+?? output/loop_dock.log
+?? output/loop_dock_auto_exits_final.log
+?? output/loop_dock_auto_exits_verified.log
+?? output/loop_dock_capture.log
+?? output/loop_dock_capture_dock_verified.log
+?? output/loop_dock_connected_roads.log
+?? output/loop_dock_town_plan.log
+?? output/loop_dock_town_plan_cleanup.log
+?? output/loop_dock_town_plan_final.log
+?? output/loop_dock_wand.log
+?? output/loop_dock_wand_verified.log
+?? output/loop_fade_capture_fade.log
+?? output/loop_fade_capture_final.log
+?? output/loop_fade_checked.log
+?? output/loop_fade_fade.log
+?? output/loop_farm.log
+?? output/loop_farm_capture.log
+?? output/loop_farm_capture_hide_farm_status.log
+?? output/loop_farm_capture_verified.log
+?? output/loop_farm_capture_wild_farm.log
+?? output/loop_farm_connected_roads.log
+?? output/loop_farm_connected_roads_final.log
+?? output/loop_farm_construction-final.log
+?? output/loop_farm_construction.log
+?? output/loop_farm_door_interact.log
+?? output/loop_farm_equipment.log
+?? output/loop_farm_home_doorstep.log
+?? output/loop_farm_home_exit_position.log
+?? output/loop_farm_rain_soil.log
+?? output/loop_farm_wand.log
+?? output/loop_farm_wand_final.log
+?? output/loop_farm_wand_verbose.log
+?? output/loop_farm_wild_farm.log
+?? output/loop_farm_wild_farm_initial.log
+?? output/loop_harvest_auto_exits.log
+?? output/loop_harvest_capture_wand.log
+?? output/loop_harvest_capture_wand_final.log
+?? output/loop_harvest_capture_wand_pixels.log
+?? output/loop_harvest_capture_wand_verified.log
+?? output/loop_harvest_connected_roads.log
+?? output/loop_harvest_connected_roads_final.log
+?? output/loop_harvest_dock_final.log
+?? output/loop_harvest_dock_verified.log
+?? output/loop_harvest_equipment.log
+?? output/loop_harvest_starter_tools.log
+?? output/loop_harvest_wand.log
+?? output/loop_harvest_wild_farm.log
+?? output/loop_headless_auto_exits.log
+?? output/loop_headless_auto_exits_final.log
+?? output/loop_headless_daynight_regression.log
+?? output/loop_headless_dock_final.log
+?? output/loop_headless_dock_verified.log
+?? output/loop_headless_door_interact.log
+?? output/loop_headless_fade.log
+?? output/loop_headless_fade_wait.log
+?? output/loop_headless_farm.log
+?? output/loop_headless_farm_verified.log
+?? output/loop_headless_no_overhead_names.log
+?? output/loop_headless_pause_menu.log
+?? output/loop_headless_pause_menu_final.log
+?? output/loop_headless_rain_soil.log
+?? output/loop_headless_restaurant_final.log
+?? output/loop_headless_restaurant_menu.log
+?? output/loop_lane_farm_verified.log
+?? output/loop_map_connected_roads.log
+?? output/loop_map_construction-final.log
+?? output/loop_map_construction.log
+?? output/loop_map_map_art_pass.log
+?? output/loop_map_town_expansion.log
+?? output/loop_map_town_expansion_final.log
+?? output/loop_map_wild_farm.log
+?? output/loop_restaurant.log
+?? output/loop_restaurant_capture_final.log
+?? output/loop_restaurant_capture_menu_service_v2.log
+?? output/loop_restaurant_food_icons.log
+?? output/loop_restaurant_food_icons_verbose.log
+?? output/loop_restaurant_menu_service.log
+?? output/loop_roads_capture_connected_roads.log
+?? output/loop_thoughts.log
+?? output/loop_thoughts_capture.log
+?? output/loop_thoughts_capture_layout_fixed.log
+?? output/loop_thoughts_wand.log
+?? output/loop_town_capture_expansion.log
+?? output/loop_town_expansion.log
+?? output/loop_town_expansion_fixed.log
+?? output/loop_town_expansion_routes.log
+?? output/loop_town_map_art_pass.log
+?? output/loop_transitions.log
+?? output/loop_transitions_connected_roads.log
+?? output/loop_transitions_default_home.log
+?? output/loop_transitions_depth.log
+?? output/loop_transitions_door_interact.log
+?? output/loop_transitions_doorstep_opening.log
+?? output/loop_transitions_doorstep_opening_final.log
+?? output/loop_transitions_fade.log
+?? output/loop_transitions_farm.log
+?? output/loop_transitions_final.log
+?? output/loop_transitions_home_doorstep.log
+?? output/loop_transitions_home_exit_east_road.log
+?? output/loop_transitions_home_exit_east_road_isolated.log
+?? output/loop_transitions_home_exit_position.log
+?? output/loop_transitions_map_art_pass.log
+?? output/loop_transitions_routes.log
+?? output/loop_transitions_save_verified.log
+?? output/loop_transitions_town_entry_blue_box.log
+?? output/loop_transitions_town_entry_blue_box_imported.log
+?? output/loop_transitions_town_expansion.log
+?? output/loop_transitions_town_expansion_final.log
+?? output/loop_transitions_wild_farm.log
+?? output/loop_weather_rain_foreground.log
+?? output/map_art_pass/
+?? output/menu_motion/
+?? output/music_refresh_41384.cfg
+?? output/music_refresh_audio_28772.log
+?? output/music_refresh_audio_39052.log
+?? output/music_refresh_audio_40640.log
+?? output/music_refresh_headless_39448.log
+?? output/music_refresh_headless_40008.log
+?? output/music_refresh_metrics.json
+?? output/myart_shop/
+?? output/npc32/
+?? output/npc_reference_32.png
+?? output/npc_reference_32.png.import
+?? output/pause_audio/
+?? output/player_naming/
+?? output/quest_pacing/
+?? output/rain_foreground_20261011/
+?? output/resident_verification/
+?? output/resource_icons_v2/
+?? output/restaurant_service/
+?? output/restaurant_service_import.log
+?? output/road_connections/
+?? output/road_connections_import.log
+?? output/save_deletion/
+?? output/saving_indicator/
+?? output/scene_fade/
+?? output/scene_transition_parse.log
+?? output/snow_ambient_measure_before.log
+?? output/snow_output_wasapi.log
+?? output/startup_notice/
+?? output/town_entry_position/
+?? output/town_expansion/
+?? output/ui_audio_audio_21684.log
+?? output/ui_audio_audio_24728.log
+?? output/ui_audio_audio_29348.log
+?? output/ui_audio_audio_32324.log
+?? output/ui_audio_audio_40804.log
+?? output/ui_audio_audio_41324.log
+?? output/ui_audio_audio_43892.log
+?? output/ui_audio_audio_8760.log
+?? output/ui_audio_headless.log
+?? output/ui_audio_headless_14672.log
+?? output/ui_audio_headless_1720.log
+?? output/ui_audio_headless_19356.log
+?? output/ui_audio_headless_19692.log
+?? output/ui_audio_headless_21372.log
+?? output/ui_audio_headless_35904.log
+?? output/ui_audio_headless_35948.log
+?? output/ui_audio_headless_36456.log
+?? output/ui_audio_headless_37548.log
+?? output/ui_audio_headless_41592.log
+?? output/ui_audio_hud_21380.log
+?? output/ui_audio_import.log
+?? output/ui_audio_menu_35672.log
+?? output/ui_audio_saves_8828.log
+?? output/ui_audio_test_12672.cfg
+?? output/ui_audio_test_12672_saves/
+?? output/ui_audio_test_36012.cfg
+?? output/ui_audio_test_36012_saves/
+?? output/ui_audio_test_39052.cfg
+?? output/ui_audio_test_39052_saves/
+?? output/ui_wasd_verification.log
+?? output/verification_profiles/
+?? output/wand/
+?? output/wand_upgrades/
+?? output/weather_footsteps_audio.log
+?? output/weather_footsteps_gameplay.log
+?? output/weather_footsteps_headless.log
+?? output/wild_farm/
+?? output/witch-32/
+?? output/witch-aseprite32/
+?? output/witch-v2/
+?? output/witch_cursor/
+?? 游戏参考截屏/东方夜雀食堂/主ui.png
+?? 游戏参考截屏/东方夜雀食堂/主ui.png.import
+?? 游戏参考截屏/东方夜雀食堂/任务.png
+?? 游戏参考截屏/东方夜雀食堂/任务.png.import
+?? 游戏参考截屏/东方夜雀食堂/对话框+时间.png
+?? 游戏参考截屏/东方夜雀食堂/对话框+时间.png.import
+?? 游戏参考截屏/多洛可小镇/

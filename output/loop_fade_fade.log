@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+SCENE FADE idle cover does not block input: PASS
+SCENE FADE cover fills viewport (1280, 720): PASS
+SCENE FADE cover fills viewport (1920, 1080): PASS
+SCENE FADE cover fills viewport (1280, 800): PASS
+SCENE FADE fade starts before world swap: PASS
+SCENE FADE fade out has intermediate opacity: PASS
+SCENE FADE movement and clock freeze: PASS
+SCENE FADE always processing menus cannot open during fade: PASS
+SCENE FADE swap reaches destination: PASS
+SCENE FADE world swaps only behind opaque cover: PASS
+SCENE FADE destination fades in gradually: PASS
+SCENE FADE fade finishes: PASS
+SCENE FADE duplicate travel ignored and input restored: PASS
+SCENE FADE destination HUD ready: PASS
+SCENE FADE paused travel finishes: PASS
+SCENE FADE existing pause is retained: PASS
+SCENE FADE freed destination recovers: PASS
+SCENE FADE failed swap reveals original scene: PASS
+SCENE FADE preparation automatically fades: PASS
+SCENE FADE preparation arrives at restaurant: PASS
+SCENE FADE new day automatically fades: FAIL
+SCENE FADE new day arrives at town: FAIL
+SCENE FADE scene change succeeds: PASS
+SCENE FADE scene cover persists across SceneTree replacement: PASS
+SCRIPT ERROR: Cannot call method 'get_node' on a null value.
+   at: _set_slots_disabled (res://Scenes/MainMenu/main_menu.gd:327)
+   GDScript backtrace (most recent call first):
+       [0] _set_slots_disabled (res://Scenes/MainMenu/main_menu.gd:327)
+       [1] _enter_game (res://Scenes/MainMenu/main_menu.gd:426)
+       [2] _select_slot (res://Scenes/MainMenu/main_menu.gd:418)
+       [3] run (res://Scenes/Gameplay/verify_scene_fade.gd:112)
+       [4] change_scene (res://Scenes/UI/scene_transition.gd:80)
+       [5] _finish (res://Scenes/UI/scene_transition.gd:48)
+       [6] _fade (res://Scenes/UI/scene_transition.gd:40)
+SCENE FADE new game uses shared fade: PASS
+SCENE FADE new game fade finishes: PASS
+SCENE FADE new game intro retains its pause: PASS
+SCENE FADE intro does not advance behind fade: PASS
+SCENE FADE arrival captures unpaused world: PASS
+SCENE FADE saving and returning to title finishes: PASS
+SCENE FADE title restores input and ends save session: PASS
+SCRIPT ERROR: Cannot call method 'get_node' on a null value.
+   at: _set_slots_disabled (res://Scenes/MainMenu/main_menu.gd:327)
+   GDScript backtrace (most recent call first):
+       [0] _set_slots_disabled (res://Scenes/MainMenu/main_menu.gd:327)
+       [1] _enter_game (res://Scenes/MainMenu/main_menu.gd:426)
+       [2] _select_slot (res://Scenes/MainMenu/main_menu.gd:418)
+       [3] run (res://Scenes/Gameplay/verify_scene_fade.gd:131)
+       [4] wait_for (res://Scenes/Gameplay/verify_scene_fade.gd:29)
+SCENE FADE continue game uses shared fade: PASS
+SCENE FADE continue game fade finishes: PASS
+SCENE FADE loaded arrival retains its own pause: FAIL
+SCENE FADE VERIFY END failures=3
+FMOD Sound System: System released

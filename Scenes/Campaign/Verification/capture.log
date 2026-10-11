@@ -1,0 +1,441 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+CAMPAIGN 1 20 crops, 36 recipes, 10 NPCs: PASS
+CAMPAIGN 2 initial campaign saves: PASS
+CAMPAIGN 3 legacy three-dish save migrates: PASS
+CAMPAIGN 4 reject invalid pantry -1: PASS
+CAMPAIGN 5 reject invalid pantry 1.5: PASS
+CAMPAIGN 6 reject invalid pantry inf: PASS
+CAMPAIGN 7 reject invalid pantry nan: PASS
+CAMPAIGN 8 reject invalid pantry bad: PASS
+CAMPAIGN 9 till turnip: PASS
+CAMPAIGN 10 plant turnip: PASS
+CAMPAIGN 11 mature turnip: PASS
+CAMPAIGN 12 harvest turnip: PASS
+CAMPAIGN 13 save crop turnip: PASS
+CAMPAIGN 14 till carrot: PASS
+CAMPAIGN 15 plant carrot: PASS
+CAMPAIGN 16 mature carrot: PASS
+CAMPAIGN 17 harvest carrot: PASS
+CAMPAIGN 18 save crop carrot: PASS
+CAMPAIGN 19 till lettuce: PASS
+CAMPAIGN 20 plant lettuce: PASS
+CAMPAIGN 21 mature lettuce: PASS
+CAMPAIGN 22 harvest lettuce: PASS
+CAMPAIGN 23 save crop lettuce: PASS
+CAMPAIGN 24 till pea: PASS
+CAMPAIGN 25 plant pea: PASS
+CAMPAIGN 26 mature pea: PASS
+CAMPAIGN 27 harvest pea: PASS
+CAMPAIGN 28 save crop pea: PASS
+CAMPAIGN 29 regrow pea: PASS
+CAMPAIGN 30 till strawberry: PASS
+CAMPAIGN 31 plant strawberry: PASS
+CAMPAIGN 32 mature strawberry: PASS
+CAMPAIGN 33 harvest strawberry: PASS
+CAMPAIGN 34 save crop strawberry: PASS
+CAMPAIGN 35 regrow strawberry: PASS
+CAMPAIGN 36 till rice: PASS
+CAMPAIGN 37 plant rice: PASS
+CAMPAIGN 38 mature rice: PASS
+CAMPAIGN 39 harvest rice: PASS
+CAMPAIGN 40 save crop rice: PASS
+CAMPAIGN 41 till tomato: PASS
+CAMPAIGN 42 plant tomato: PASS
+CAMPAIGN 43 mature tomato: PASS
+CAMPAIGN 44 harvest tomato: PASS
+CAMPAIGN 45 save crop tomato: PASS
+CAMPAIGN 46 regrow tomato: PASS
+CAMPAIGN 47 till corn: PASS
+CAMPAIGN 48 plant corn: PASS
+CAMPAIGN 49 mature corn: PASS
+CAMPAIGN 50 harvest corn: PASS
+CAMPAIGN 51 save crop corn: PASS
+CAMPAIGN 52 regrow corn: PASS
+CAMPAIGN 53 till cucumber: PASS
+CAMPAIGN 54 plant cucumber: PASS
+CAMPAIGN 55 mature cucumber: PASS
+CAMPAIGN 56 harvest cucumber: PASS
+CAMPAIGN 57 save crop cucumber: PASS
+CAMPAIGN 58 regrow cucumber: PASS
+CAMPAIGN 59 till pepper: PASS
+CAMPAIGN 60 plant pepper: PASS
+CAMPAIGN 61 mature pepper: PASS
+CAMPAIGN 62 harvest pepper: PASS
+CAMPAIGN 63 save crop pepper: PASS
+CAMPAIGN 64 regrow pepper: PASS
+CAMPAIGN 65 till melon: PASS
+CAMPAIGN 66 plant melon: PASS
+CAMPAIGN 67 mature melon: PASS
+CAMPAIGN 68 harvest melon: PASS
+CAMPAIGN 69 save crop melon: PASS
+CAMPAIGN 70 till eggplant: PASS
+CAMPAIGN 71 plant eggplant: PASS
+CAMPAIGN 72 mature eggplant: PASS
+CAMPAIGN 73 harvest eggplant: PASS
+CAMPAIGN 74 save crop eggplant: PASS
+CAMPAIGN 75 regrow eggplant: PASS
+CAMPAIGN 76 till pumpkin: PASS
+CAMPAIGN 77 plant pumpkin: PASS
+CAMPAIGN 78 mature pumpkin: PASS
+CAMPAIGN 79 harvest pumpkin: PASS
+CAMPAIGN 80 save crop pumpkin: PASS
+CAMPAIGN 81 till sweet_potato: PASS
+CAMPAIGN 82 plant sweet_potato: PASS
+CAMPAIGN 83 mature sweet_potato: PASS
+CAMPAIGN 84 harvest sweet_potato: PASS
+CAMPAIGN 85 save crop sweet_potato: PASS
+CAMPAIGN 86 till wheat: PASS
+CAMPAIGN 87 plant wheat: PASS
+CAMPAIGN 88 mature wheat: PASS
+CAMPAIGN 89 harvest wheat: PASS
+CAMPAIGN 90 save crop wheat: PASS
+CAMPAIGN 91 till tea: PASS
+CAMPAIGN 92 plant tea: PASS
+CAMPAIGN 93 mature tea: PASS
+CAMPAIGN 94 harvest tea: PASS
+CAMPAIGN 95 save crop tea: PASS
+CAMPAIGN 96 regrow tea: PASS
+CAMPAIGN 97 till snow_cabbage: PASS
+CAMPAIGN 98 plant snow_cabbage: PASS
+CAMPAIGN 99 mature snow_cabbage: PASS
+CAMPAIGN 100 harvest snow_cabbage: PASS
+CAMPAIGN 101 save crop snow_cabbage: PASS
+CAMPAIGN 102 till winter_radish: PASS
+CAMPAIGN 103 plant winter_radish: PASS
+CAMPAIGN 104 mature winter_radish: PASS
+CAMPAIGN 105 harvest winter_radish: PASS
+CAMPAIGN 106 save crop winter_radish: PASS
+CAMPAIGN 107 till moonflower: PASS
+CAMPAIGN 108 plant moonflower: PASS
+CAMPAIGN 109 mature moonflower: PASS
+CAMPAIGN 110 harvest moonflower: PASS
+CAMPAIGN 111 save crop moonflower: PASS
+CAMPAIGN 112 season rejects atomically: PASS
+CAMPAIGN 113 season transition clears incompatible crop: PASS
+CAMPAIGN 114 greenhouse permits off-season: PASS
+CAMPAIGN 115 machines irrigate, mill and produce honey: PASS
+CAMPAIGN 116 cook 0: PASS
+CAMPAIGN 117 no duplicate debit 0: PASS
+CAMPAIGN 118 plate ready 0: PASS
+CAMPAIGN 119 serve 0: PASS
+CAMPAIGN 120 meal save 0: PASS
+CAMPAIGN 121 cook 1: PASS
+CAMPAIGN 122 no duplicate debit 1: PASS
+CAMPAIGN 123 plate ready 1: PASS
+CAMPAIGN 124 serve 1: PASS
+CAMPAIGN 125 meal save 1: PASS
+CAMPAIGN 126 cook 2: PASS
+CAMPAIGN 127 no duplicate debit 2: PASS
+CAMPAIGN 128 plate ready 2: PASS
+CAMPAIGN 129 serve 2: PASS
+CAMPAIGN 130 meal save 2: PASS
+CAMPAIGN 131 cook 3: PASS
+CAMPAIGN 132 no duplicate debit 3: PASS
+CAMPAIGN 133 plate ready 3: PASS
+CAMPAIGN 134 serve 3: PASS
+CAMPAIGN 135 meal save 3: PASS
+CAMPAIGN 136 cook 4: PASS
+CAMPAIGN 137 no duplicate debit 4: PASS
+CAMPAIGN 138 plate ready 4: PASS
+CAMPAIGN 139 serve 4: PASS
+CAMPAIGN 140 meal save 4: PASS
+CAMPAIGN 141 cook 5: PASS
+CAMPAIGN 142 no duplicate debit 5: PASS
+CAMPAIGN 143 plate ready 5: PASS
+CAMPAIGN 144 serve 5: PASS
+CAMPAIGN 145 meal save 5: PASS
+CAMPAIGN 146 cook 6: PASS
+CAMPAIGN 147 no duplicate debit 6: PASS
+CAMPAIGN 148 plate ready 6: PASS
+CAMPAIGN 149 serve 6: PASS
+CAMPAIGN 150 meal save 6: PASS
+CAMPAIGN 151 cook 7: PASS
+CAMPAIGN 152 no duplicate debit 7: PASS
+CAMPAIGN 153 plate ready 7: PASS
+CAMPAIGN 154 serve 7: PASS
+CAMPAIGN 155 meal save 7: PASS
+CAMPAIGN 156 cook 8: PASS
+CAMPAIGN 157 no duplicate debit 8: PASS
+CAMPAIGN 158 plate ready 8: PASS
+CAMPAIGN 159 serve 8: PASS
+CAMPAIGN 160 meal save 8: PASS
+CAMPAIGN 161 cook 9: PASS
+CAMPAIGN 162 no duplicate debit 9: PASS
+CAMPAIGN 163 plate ready 9: PASS
+CAMPAIGN 164 serve 9: PASS
+CAMPAIGN 165 meal save 9: PASS
+CAMPAIGN 166 cook 10: PASS
+CAMPAIGN 167 no duplicate debit 10: PASS
+CAMPAIGN 168 plate ready 10: PASS
+CAMPAIGN 169 serve 10: PASS
+CAMPAIGN 170 meal save 10: PASS
+CAMPAIGN 171 cook 11: PASS
+CAMPAIGN 172 no duplicate debit 11: PASS
+CAMPAIGN 173 plate ready 11: PASS
+CAMPAIGN 174 serve 11: PASS
+CAMPAIGN 175 meal save 11: PASS
+CAMPAIGN 176 cook 12: PASS
+CAMPAIGN 177 no duplicate debit 12: PASS
+CAMPAIGN 178 plate ready 12: PASS
+CAMPAIGN 179 serve 12: PASS
+CAMPAIGN 180 meal save 12: PASS
+CAMPAIGN 181 cook 13: PASS
+CAMPAIGN 182 no duplicate debit 13: PASS
+CAMPAIGN 183 plate ready 13: PASS
+CAMPAIGN 184 serve 13: PASS
+CAMPAIGN 185 meal save 13: PASS
+CAMPAIGN 186 cook 14: PASS
+CAMPAIGN 187 no duplicate debit 14: PASS
+CAMPAIGN 188 plate ready 14: PASS
+CAMPAIGN 189 serve 14: PASS
+CAMPAIGN 190 meal save 14: PASS
+CAMPAIGN 191 cook 15: PASS
+CAMPAIGN 192 no duplicate debit 15: PASS
+CAMPAIGN 193 plate ready 15: PASS
+CAMPAIGN 194 serve 15: PASS
+CAMPAIGN 195 meal save 15: PASS
+CAMPAIGN 196 cook 16: PASS
+CAMPAIGN 197 no duplicate debit 16: PASS
+CAMPAIGN 198 plate ready 16: PASS
+CAMPAIGN 199 serve 16: PASS
+CAMPAIGN 200 meal save 16: PASS
+CAMPAIGN 201 cook 17: PASS
+CAMPAIGN 202 no duplicate debit 17: PASS
+CAMPAIGN 203 plate ready 17: PASS
+CAMPAIGN 204 serve 17: PASS
+CAMPAIGN 205 meal save 17: PASS
+CAMPAIGN 206 cook 18: PASS
+CAMPAIGN 207 no duplicate debit 18: PASS
+CAMPAIGN 208 plate ready 18: PASS
+CAMPAIGN 209 serve 18: PASS
+CAMPAIGN 210 meal save 18: PASS
+CAMPAIGN 211 cook 19: PASS
+CAMPAIGN 212 no duplicate debit 19: PASS
+CAMPAIGN 213 plate ready 19: PASS
+CAMPAIGN 214 serve 19: PASS
+CAMPAIGN 215 meal save 19: PASS
+CAMPAIGN 216 cook 20: PASS
+CAMPAIGN 217 no duplicate debit 20: PASS
+CAMPAIGN 218 plate ready 20: PASS
+CAMPAIGN 219 serve 20: PASS
+CAMPAIGN 220 meal save 20: PASS
+CAMPAIGN 221 cook 21: PASS
+CAMPAIGN 222 no duplicate debit 21: PASS
+CAMPAIGN 223 plate ready 21: PASS
+CAMPAIGN 224 serve 21: PASS
+CAMPAIGN 225 meal save 21: PASS
+CAMPAIGN 226 cook 22: PASS
+CAMPAIGN 227 no duplicate debit 22: PASS
+CAMPAIGN 228 plate ready 22: PASS
+CAMPAIGN 229 serve 22: PASS
+CAMPAIGN 230 meal save 22: PASS
+CAMPAIGN 231 cook 23: PASS
+CAMPAIGN 232 no duplicate debit 23: PASS
+CAMPAIGN 233 plate ready 23: PASS
+CAMPAIGN 234 serve 23: PASS
+CAMPAIGN 235 meal save 23: PASS
+CAMPAIGN 236 cook 24: PASS
+CAMPAIGN 237 no duplicate debit 24: PASS
+CAMPAIGN 238 plate ready 24: PASS
+CAMPAIGN 239 serve 24: PASS
+CAMPAIGN 240 meal save 24: PASS
+CAMPAIGN 241 cook 25: PASS
+CAMPAIGN 242 no duplicate debit 25: PASS
+CAMPAIGN 243 plate ready 25: PASS
+CAMPAIGN 244 serve 25: PASS
+CAMPAIGN 245 meal save 25: PASS
+CAMPAIGN 246 cook 26: PASS
+CAMPAIGN 247 no duplicate debit 26: PASS
+CAMPAIGN 248 plate ready 26: PASS
+CAMPAIGN 249 serve 26: PASS
+CAMPAIGN 250 meal save 26: PASS
+CAMPAIGN 251 cook 27: PASS
+CAMPAIGN 252 no duplicate debit 27: PASS
+CAMPAIGN 253 plate ready 27: PASS
+CAMPAIGN 254 serve 27: PASS
+CAMPAIGN 255 meal save 27: PASS
+CAMPAIGN 256 cook 28: PASS
+CAMPAIGN 257 no duplicate debit 28: PASS
+CAMPAIGN 258 plate ready 28: PASS
+CAMPAIGN 259 serve 28: PASS
+CAMPAIGN 260 meal save 28: PASS
+CAMPAIGN 261 cook 29: PASS
+CAMPAIGN 262 no duplicate debit 29: PASS
+CAMPAIGN 263 plate ready 29: PASS
+CAMPAIGN 264 serve 29: PASS
+CAMPAIGN 265 meal save 29: PASS
+CAMPAIGN 266 cook 30: PASS
+CAMPAIGN 267 no duplicate debit 30: PASS
+CAMPAIGN 268 plate ready 30: PASS
+CAMPAIGN 269 serve 30: PASS
+CAMPAIGN 270 meal save 30: PASS
+CAMPAIGN 271 cook 31: PASS
+CAMPAIGN 272 no duplicate debit 31: PASS
+CAMPAIGN 273 plate ready 31: PASS
+CAMPAIGN 274 serve 31: PASS
+CAMPAIGN 275 meal save 31: PASS
+CAMPAIGN 276 cook 32: PASS
+CAMPAIGN 277 no duplicate debit 32: PASS
+CAMPAIGN 278 plate ready 32: PASS
+CAMPAIGN 279 serve 32: PASS
+CAMPAIGN 280 meal save 32: PASS
+CAMPAIGN 281 cook 33: PASS
+CAMPAIGN 282 no duplicate debit 33: PASS
+CAMPAIGN 283 plate ready 33: PASS
+CAMPAIGN 284 serve 33: PASS
+CAMPAIGN 285 meal save 33: PASS
+CAMPAIGN 286 cook 34: PASS
+CAMPAIGN 287 no duplicate debit 34: PASS
+CAMPAIGN 288 plate ready 34: PASS
+CAMPAIGN 289 serve 34: PASS
+CAMPAIGN 290 meal save 34: PASS
+CAMPAIGN 291 cook 35: PASS
+CAMPAIGN 292 no duplicate debit 35: PASS
+CAMPAIGN 293 plate ready 35: PASS
+CAMPAIGN 294 serve 35: PASS
+CAMPAIGN 295 meal save 35: PASS
+CAMPAIGN 296 once daily chat mori: PASS
+CAMPAIGN 297 gift mori: PASS
+CAMPAIGN 298 story mori0: PASS
+CAMPAIGN 299 story mori1: PASS
+CAMPAIGN 300 story mori2: PASS
+CAMPAIGN 301 story mori3: PASS
+CAMPAIGN 302 story ends mori: PASS
+CAMPAIGN 303 once daily chat ember: PASS
+CAMPAIGN 304 gift ember: PASS
+CAMPAIGN 305 story ember0: PASS
+CAMPAIGN 306 story ember1: PASS
+CAMPAIGN 307 story ember2: PASS
+CAMPAIGN 308 story ember3: PASS
+CAMPAIGN 309 story ends ember: PASS
+CAMPAIGN 310 once daily chat nagi: PASS
+CAMPAIGN 311 gift nagi: PASS
+CAMPAIGN 312 story nagi0: PASS
+CAMPAIGN 313 story nagi1: PASS
+CAMPAIGN 314 story nagi2: PASS
+CAMPAIGN 315 story nagi3: PASS
+CAMPAIGN 316 story ends nagi: PASS
+CAMPAIGN 317 once daily chat lumi: PASS
+CAMPAIGN 318 gift lumi: PASS
+CAMPAIGN 319 story lumi0: PASS
+CAMPAIGN 320 story lumi1: PASS
+CAMPAIGN 321 story lumi2: PASS
+CAMPAIGN 322 story lumi3: PASS
+CAMPAIGN 323 story ends lumi: PASS
+CAMPAIGN 324 once daily chat aster: PASS
+CAMPAIGN 325 gift aster: PASS
+CAMPAIGN 326 story aster0: PASS
+CAMPAIGN 327 story aster1: PASS
+CAMPAIGN 328 story aster2: PASS
+CAMPAIGN 329 story aster3: PASS
+CAMPAIGN 330 story ends aster: PASS
+CAMPAIGN 331 once daily chat toma: PASS
+CAMPAIGN 332 gift toma: PASS
+CAMPAIGN 333 story toma0: PASS
+CAMPAIGN 334 story toma1: PASS
+CAMPAIGN 335 story toma2: PASS
+CAMPAIGN 336 story toma3: PASS
+CAMPAIGN 337 story ends toma: PASS
+CAMPAIGN 338 once daily chat pip: PASS
+CAMPAIGN 339 gift pip: PASS
+CAMPAIGN 340 story pip0: PASS
+CAMPAIGN 341 story pip1: PASS
+CAMPAIGN 342 story pip2: PASS
+CAMPAIGN 343 story pip3: PASS
+CAMPAIGN 344 story ends pip: PASS
+CAMPAIGN 345 once daily chat reed: PASS
+CAMPAIGN 346 gift reed: PASS
+CAMPAIGN 347 story reed0: PASS
+CAMPAIGN 348 story reed1: PASS
+CAMPAIGN 349 story reed2: PASS
+CAMPAIGN 350 story reed3: PASS
+CAMPAIGN 351 story ends reed: PASS
+CAMPAIGN 352 once daily chat yuki: PASS
+CAMPAIGN 353 gift yuki: PASS
+CAMPAIGN 354 story yuki0: PASS
+CAMPAIGN 355 story yuki1: PASS
+CAMPAIGN 356 story yuki2: PASS
+CAMPAIGN 357 story yuki3: PASS
+CAMPAIGN 358 story ends yuki: PASS
+CAMPAIGN 359 once daily chat orla: PASS
+CAMPAIGN 360 gift orla: PASS
+CAMPAIGN 361 story orla0: PASS
+CAMPAIGN 362 story orla1: PASS
+CAMPAIGN 363 story orla2: PASS
+CAMPAIGN 364 story orla3: PASS
+CAMPAIGN 365 story ends orla: PASS
+CAMPAIGN 366 restaurant expansion 0: PASS
+CAMPAIGN 367 restaurant expansion 1: PASS
+CAMPAIGN 368 restaurant expansion 2: PASS
+CAMPAIGN 369 restaurant expansion 3: PASS
+CAMPAIGN 370 restaurant maximum: PASS
+CAMPAIGN 371 admit seat 0: PASS
+CAMPAIGN 372 admit seat 1: PASS
+CAMPAIGN 373 admit seat 2: PASS
+CAMPAIGN 374 admit seat 3: PASS
+CAMPAIGN 375 admit seat 4: PASS
+CAMPAIGN 376 admit seat 5: PASS
+CAMPAIGN 377 no overbooking: PASS
+CAMPAIGN 378 six-seat save valid: PASS
+CAMPAIGN 379 smelt in construction storage: PASS
+CAMPAIGN 380 furniture craft: PASS
+CAMPAIGN 381 furniture placement: PASS
+CAMPAIGN 382 decor improves comfort: PASS
+CAMPAIGN 383 placement rejection atomic: PASS
+CAMPAIGN 384 reclaim furniture: PASS
+CAMPAIGN 385 full furniture storage preserves placement: PASS
+CAMPAIGN 386 festival once per date: PASS
+CAMPAIGN 387 campaign save roundtrip: PASS
+CAMPAIGN 388 banquet tracks distinct recipes: PASS
+CAMPAIGN 389 all three banquet dishes required: PASS
+CAMPAIGN 390 first chapter reward: PASS
+CAMPAIGN 391 no repeat chapter reward: PASS
+CAMPAIGN 392 campaign controller installed: PASS
+CAMPAIGN 393 UI tab 故事: PASS
+CAMPAIGN 394 UI tab 种子: PASS
+CAMPAIGN 395 capture tab_1: PASS
+CAMPAIGN 396 UI tab 食谱: PASS
+CAMPAIGN 397 capture tab_2: PASS
+CAMPAIGN 398 UI tab 居民: PASS
+CAMPAIGN 399 capture tab_3: PASS
+CAMPAIGN 400 UI tab 探索: PASS
+CAMPAIGN 401 UI tab 成长: PASS
+CAMPAIGN 402 capture tab_5: PASS
+CAMPAIGN 403 UI tab 仓储: PASS
+CAMPAIGN 404 UI tab 家具: PASS
+CAMPAIGN 405 localized menu zh_CN: PASS
+CAMPAIGN 406 capture menu_zh_CN: PASS
+CAMPAIGN 407 capture story_zh_CN: PASS
+CAMPAIGN 408 localized menu en: PASS
+CAMPAIGN 409 capture menu_en: PASS
+CAMPAIGN 410 capture story_en: PASS
+CAMPAIGN 411 localized menu ja: PASS
+CAMPAIGN 412 capture menu_ja: PASS
+CAMPAIGN 413 capture story_ja: PASS
+CAMPAIGN 414 localized menu zh_TW: PASS
+CAMPAIGN 415 capture menu_zh_TW: PASS
+CAMPAIGN 416 capture story_zh_TW: PASS
+CAMPAIGN 417 real tilemap grove: PASS
+CAMPAIGN 418 real gather grove: PASS
+CAMPAIGN 419 capture grove: PASS
+CAMPAIGN 420 real tilemap quarry: PASS
+CAMPAIGN 421 real gather quarry: PASS
+CAMPAIGN 422 real tilemap marsh: PASS
+CAMPAIGN 423 real gather marsh: PASS
+CAMPAIGN 424 real tilemap ruins: PASS
+CAMPAIGN 425 real gather ruins: PASS
+CAMPAIGN 426 real tilemap ridge: PASS
+CAMPAIGN 427 real gather ridge: PASS
+CAMPAIGN 428 real tilemap observatory: PASS
+CAMPAIGN 429 real gather observatory: PASS
+CAMPAIGN 430 capture farm_crop: PASS
+CAMPAIGN 431 capture six_guests: PASS
+CAMPAIGN 432 capture intro: PASS
+CAMPAIGN 433 intro pauses world: PASS
+CAMPAIGN 434 intro completes and persists: PASS
+CAMPAIGN 435 isolated save write: PASS
+CAMPAIGN 436 isolated save read: PASS
+CAMPAIGN 437 region survives restore: PASS
+CAMPAIGN COMPLETE checks=437 failures=0

@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+MUSIC REFRESH DRIVER Dummy
+MUSIC REFRESH valid OGG title: PASS
+MUSIC REFRESH nonzero full PCM title: PASS
+MUSIC REFRESH valid OGG day_town: PASS
+MUSIC REFRESH nonzero full PCM day_town: PASS
+MUSIC REFRESH valid OGG night_town3: PASS
+MUSIC REFRESH nonzero full PCM night_town3: PASS
+MUSIC REFRESH METRICS {"day_town":{"peak":1.00376343727112,"rms_db":-15.8950159915244,"seconds":64.0},"night_town3":{"peak":0.95804488658905,"rms_db":-16.0869176781302,"seconds":65.4545593261719},"title":{"peak":0.794760286808014,"rms_db":-18.4145187731237,"seconds":46.4516334533691}}
+MUSIC REFRESH title uses separate looping track: PASS
+MUSIC REFRESH title playing with saved gain: PASS
+MUSIC REFRESH title mute: PASS
+MUSIC REFRESH title stops before gameplay: PASS
+MUSIC REFRESH day uses new OGG: PASS
+MUSIC REFRESH location keeps current music voice: PASS
+MUSIC REFRESH day and night overlap during fade: PASS
+MUSIC REFRESH night transition completes: PASS
+MUSIC REFRESH night uses new OGG: PASS
+MUSIC REFRESH result retains night music: PASS
+MUSIC REFRESH muted phase change stays silent: PASS
+MUSIC REFRESH outdoor rain preserved: PASS
+MUSIC REFRESH gain survives phase change: PASS
+MUSIC REFRESH effects mute independent from music: PASS
+MUSIC REFRESH zero music volume silent: PASS
+MUSIC REFRESH rapid switching leaves one music voice: PASS
+MUSIC REFRESH indoor environment silent: PASS
+MUSIC REFRESH settings persist to title: PASS
+MUSIC REFRESH VERIFY END failures=0 checks=24
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

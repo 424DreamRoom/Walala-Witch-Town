@@ -1,0 +1,98 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+TOWN PLAN new layout revision: PASS
+TOWN PLAN all nine buildings retained: PASS
+TOWN PLAN public square and sixteen lanes: PASS
+TOWN PLAN all functional entrances retained: PASS
+TOWN PLAN river has physical banks: PASS
+TOWN PLAN building Y sorting retained: PASS
+TOWN PLAN stone plaza footsteps: PASS
+TOWN PLAN wood landing footsteps: PASS
+TOWN PLAN forest lane dirt footsteps: PASS
+TOWN PLAN snow covers exterior surfaces: PASS
+TOWN PLAN old saved position in moved building resets safely: PASS
+TOWN PLAN valid saved doorway is retained: PASS
+TOWN PLAN capture west_arrival: PASS
+TOWN PLAN capture window west_arrival: PASS
+TOWN PLAN walk to public square: PASS
+TOWN PLAN capture moonwell_square: PASS
+TOWN PLAN capture window moonwell_square: PASS
+TOWN PLAN real route to store: PASS
+TOWN PLAN capture store_door: PASS
+TOWN PLAN capture window store_door: PASS
+TOWN PLAN E enters store: PASS
+TOWN PLAN town physics detaches in store: PASS
+TOWN PLAN indoor weather hidden in store: PASS
+TOWN PLAN walk to store exit: PASS
+TOWN PLAN E returns from store: PASS
+TOWN PLAN restores moved doorway store: PASS
+TOWN PLAN town bounds restored store: PASS
+TOWN PLAN real route to blacksmith: PASS
+TOWN PLAN capture blacksmith_door: PASS
+TOWN PLAN capture window blacksmith_door: PASS
+TOWN PLAN E enters blacksmith: PASS
+TOWN PLAN town physics detaches in blacksmith: PASS
+TOWN PLAN indoor weather hidden in blacksmith: PASS
+TOWN PLAN walk to blacksmith exit: PASS
+TOWN PLAN E returns from blacksmith: PASS
+TOWN PLAN restores moved doorway blacksmith: PASS
+TOWN PLAN town bounds restored blacksmith: PASS
+TOWN PLAN real route to dock: PASS
+TOWN PLAN capture dock_door: PASS
+TOWN PLAN capture window dock_door: PASS
+TOWN PLAN E enters dock: PASS
+TOWN PLAN town physics detaches in dock: PASS
+TOWN PLAN walk to dock exit: PASS
+TOWN PLAN E returns from dock: PASS
+TOWN PLAN restores moved doorway dock: PASS
+TOWN PLAN town bounds restored dock: PASS
+TOWN PLAN real route to restaurant: PASS
+TOWN PLAN capture restaurant_door: PASS
+TOWN PLAN capture window restaurant_door: PASS
+TOWN PLAN E enters restaurant: PASS
+TOWN PLAN town physics detaches in restaurant: PASS
+TOWN PLAN walk to restaurant exit: PASS
+TOWN PLAN E returns from restaurant: PASS
+TOWN PLAN restores moved doorway restaurant: PASS
+TOWN PLAN town bounds restored restaurant: PASS
+TOWN PLAN real route to home: PASS
+TOWN PLAN capture home_door: PASS
+TOWN PLAN capture window home_door: PASS
+TOWN PLAN E enters home: PASS
+TOWN PLAN town physics detaches in home: PASS
+TOWN PLAN indoor weather hidden in home: PASS
+TOWN PLAN walk to home exit: PASS
+TOWN PLAN E returns from home: PASS
+TOWN PLAN restores moved doorway home: PASS
+TOWN PLAN town bounds restored home: PASS
+TOWN PLAN real route to field: PASS
+TOWN PLAN capture field_door: PASS
+TOWN PLAN capture window field_door: PASS
+TOWN PLAN E enters field: PASS
+TOWN PLAN town physics detaches in field: PASS
+TOWN PLAN walk to field exit: PASS
+TOWN PLAN E returns from field: PASS
+TOWN PLAN restores moved doorway field: PASS
+TOWN PLAN town bounds restored field: PASS
+TOWN PLAN walk to every house witch_home: PASS
+TOWN PLAN walk to every house blacksmith: PASS
+TOWN PLAN walk to every house store: PASS
+TOWN PLAN walk to every house restaurant: PASS
+TOWN PLAN walk to every house civic: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk to every house residence: PASS
+TOWN PLAN walk onto river landing: PASS
+TOWN PLAN capture riverside_landing: PASS
+TOWN PLAN capture window riverside_landing: PASS
+TOWN PLAN river bank blocks entering water: PASS
+TOWN PLAN capture square_rain: PASS
+TOWN PLAN capture window square_rain: PASS
+TOWN PLAN rain still works: PASS
+TOWN PLAN capture square_snow: PASS
+TOWN PLAN capture window square_snow: PASS
+TOWN PLAN snow still works: PASS
+TOWN PLAN R remains safe town arrival: PASS
+TOWN PLAN VERIFY END failures=0

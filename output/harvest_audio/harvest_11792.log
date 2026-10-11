@@ -1,0 +1,90 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+HARVEST TEST real walk to (454.0, 10.0): PASS
+HARVEST TEST enter field: PASS
+HARVEST TEST resource count: PASS
+HARVEST TEST native action sheet: PASS
+HARVEST TEST tool foot anchor: PASS
+HARVEST TEST real walk to (60.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 229.0): PASS
+HARVEST TEST missing wand blocks chopping before animation: PASS
+HARVEST TEST missing wand blocks direct resource mutation: PASS
+HARVEST TEST chop starts via E: PASS
+HARVEST TEST chop swing locks movement: PASS
+HARVEST TEST chop repeated E does not restart: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST chop one hit only: PASS
+HARVEST TEST partial tree gives no wood: PASS
+HARVEST TEST partial tree persists across areas: PASS
+HARVEST TEST real walk to (60.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 229.0): PASS
+HARVEST TEST chop_second starts via E: PASS
+HARVEST TEST chop_second swing locks movement: PASS
+HARVEST TEST chop_second repeated E does not restart: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST chop_second one hit only: PASS
+HARVEST TEST chop_finish starts via E: PASS
+HARVEST TEST chop_finish swing locks movement: PASS
+HARVEST TEST chop_finish repeated E does not restart: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST chop_finish one hit only: PASS
+HARVEST TEST tree rewards three wood: PASS
+HARVEST TEST chopping keeps starter tools: PASS
+HARVEST TEST tree changes to stump: PASS
+HARVEST TEST stump cannot give duplicate reward: PASS
+HARVEST TEST real walk to (350.0, 198.0): PASS
+HARVEST TEST missing wand blocks mining before animation: PASS
+HARVEST TEST mine_0 starts via E: PASS
+HARVEST TEST mine_0 swing locks movement: PASS
+HARVEST TEST mine_0 repeated E does not restart: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST mine_0 one hit only: PASS
+HARVEST TEST mine_1 starts via E: PASS
+HARVEST TEST mine_1 swing locks movement: PASS
+HARVEST TEST mine_1 repeated E does not restart: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST mine_1 one hit only: PASS
+HARVEST TEST mine_2 starts via E: PASS
+HARVEST TEST mine_2 swing locks movement: PASS
+HARVEST TEST mine_2 repeated E does not restart: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST mine_2 one hit only: PASS
+HARVEST TEST ore rewards two minerals: PASS
+HARVEST TEST mining keeps starter tools: PASS
+HARVEST TEST ore changes to rubble: PASS
+HARVEST TEST rubble cannot give duplicate reward: PASS
+HARVEST TEST real walk to (350.0, 256.0): PASS
+HARVEST TEST real walk to (300.0, 266.0): PASS
+HARVEST TEST reached action wait: PASS
+HARVEST TEST early reel fails without reward: PASS
+HARVEST TEST reached action wait: PASS
+HARVEST TEST reached action bite: PASS
+HARVEST TEST bite E begins reel: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST successful reel rewards one fish: PASS
+HARVEST TEST collected resources appear in UI: PASS
+HARVEST TEST reached action bite: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST missed bite gives no fish: PASS
+HARVEST TEST Escape cancels: PASS
+HARVEST TEST movement cancels fishing: PASS
+HARVEST TEST real walk to (300.0, 266.0): PASS
+HARVEST TEST reset cancels action: PASS
+HARVEST TEST scene switch cancels pending hit: PASS
+HARVEST TEST day end cancels action and moves to restaurant: FAIL
+HARVEST TEST day end gives no pending reward: PASS
+HARVEST TEST resources carry into next day: FAIL
+HARVEST TEST nodes and fish refresh next day: FAIL
+HARVEST TEST refreshed tree art: FAIL
+HARVEST TEST fish stock catch 0: PASS
+HARVEST TEST fish stock catch 1: PASS
+HARVEST TEST fish stock catch 2: PASS
+HARVEST TEST exhausted pond rejects duplicate fish: PASS
+HARVEST TEST night rejects harvest: PASS
+HARVEST TEST invalid kind rejected: PASS
+HARVEST TEST new sounds triggered: PASS
+HARVEST VERIFY END failures=4
+FMOD Sound System: System released

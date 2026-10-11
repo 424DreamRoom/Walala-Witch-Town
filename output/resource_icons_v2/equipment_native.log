@@ -1,0 +1,187 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+EQUIPMENT TEST legacy four tools merge into one wand: PASS
+EQUIPMENT TEST migration preserves water, fish progress and ordinary slot positions: PASS
+EQUIPMENT TEST migration frees redundant tool slots: PASS
+EQUIPMENT TEST migrated save is idempotent: PASS
+EQUIPMENT TEST stored legacy tools stay stored as one upgraded wand: PASS
+EQUIPMENT TEST stored migration preserves ordinary chest positions: PASS
+EQUIPMENT TEST migration rejects duplicate old ownership: PASS
+EQUIPMENT TEST migration rejects mismatched chest mirrors: PASS
+EQUIPMENT TEST overflow migrates without losing deferred resources: PASS
+EQUIPMENT TEST legacy fishing upgrade contributes to wand rank: PASS
+EQUIPMENT TEST implicit basic fishing rod migrates when other old tools are absent: PASS
+EQUIPMENT TEST missing wand blocks all gathering actions: PASS
+EQUIPMENT TEST basic capacities stay compatible: PASS
+EQUIPMENT TEST old saves receive basic ranks: PASS
+EQUIPMENT TEST insufficient funds do not mutate: PASS
+EQUIPMENT TEST missing tool cannot be upgraded: PASS
+EQUIPMENT TEST exact upgrade cost wand1: PASS
+EQUIPMENT TEST exact upgrade cost wand2: PASS
+EQUIPMENT TEST exact upgrade cost wand3: PASS
+EQUIPMENT TEST maximum rank cannot charge wand: PASS
+EQUIPMENT TEST exact upgrade cost bag1: PASS
+EQUIPMENT TEST exact upgrade cost bag2: PASS
+EQUIPMENT TEST exact upgrade cost bag3: PASS
+EQUIPMENT TEST maximum rank cannot charge bag: PASS
+EQUIPMENT TEST ownership counts are unchanged by ranks: PASS
+EQUIPMENT TEST upgraded water and full bag validate: PASS
+EQUIPMENT TEST oversized upgraded bag is rejected: PASS
+EQUIPMENT TEST oversized upgraded water is rejected: PASS
+EQUIPMENT TEST invalid rank rejected -1: PASS
+EQUIPMENT TEST invalid rank rejected 4: PASS
+EQUIPMENT TEST invalid rank rejected 0.5: PASS
+EQUIPMENT TEST invalid rank rejected 1: PASS
+EQUIPMENT TEST incomplete ranks rejected: PASS
+EQUIPMENT TEST upgraded missing tool rejected: PASS
+EQUIPMENT TEST night upgrades rejected without charge: PASS
+EQUIPMENT TEST rank changes hits and yield wood0: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood0: PASS
+EQUIPMENT TEST rank changes hits and yield ore0: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore0: PASS
+EQUIPMENT TEST wand area 0: PASS
+EQUIPMENT TEST wand clips at field edges 0: PASS
+EQUIPMENT TEST refill respects water upgrade 0: PASS
+EQUIPMENT TEST gather fills upgraded capacity 0: PASS
+EQUIPMENT TEST gather overflow keeps node 0: PASS
+EQUIPMENT TEST buy uses upgraded capacity 0: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 0: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 0: PASS
+EQUIPMENT TEST full bag preserves mature crop 0: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 0: PASS
+EQUIPMENT TEST rank changes hits and yield wood1: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood1: PASS
+EQUIPMENT TEST rank changes hits and yield ore1: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore1: PASS
+EQUIPMENT TEST wand area 1: PASS
+EQUIPMENT TEST wand clips at field edges 1: PASS
+EQUIPMENT TEST refill respects water upgrade 1: PASS
+EQUIPMENT TEST gather fills upgraded capacity 1: PASS
+EQUIPMENT TEST gather overflow keeps node 1: PASS
+EQUIPMENT TEST buy uses upgraded capacity 1: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 1: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 1: PASS
+EQUIPMENT TEST full bag preserves mature crop 1: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 1: PASS
+EQUIPMENT TEST rank changes hits and yield wood2: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood2: PASS
+EQUIPMENT TEST rank changes hits and yield ore2: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore2: PASS
+EQUIPMENT TEST wand area 2: PASS
+EQUIPMENT TEST wand clips at field edges 2: PASS
+EQUIPMENT TEST refill respects water upgrade 2: PASS
+EQUIPMENT TEST gather fills upgraded capacity 2: PASS
+EQUIPMENT TEST gather overflow keeps node 2: PASS
+EQUIPMENT TEST buy uses upgraded capacity 2: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 2: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 2: PASS
+EQUIPMENT TEST full bag preserves mature crop 2: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 2: PASS
+EQUIPMENT TEST rank changes hits and yield wood3: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood3: PASS
+EQUIPMENT TEST rank changes hits and yield ore3: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore3: PASS
+EQUIPMENT TEST wand area 3: PASS
+EQUIPMENT TEST wand clips at field edges 3: PASS
+EQUIPMENT TEST refill respects water upgrade 3: PASS
+EQUIPMENT TEST gather fills upgraded capacity 3: PASS
+EQUIPMENT TEST gather overflow keeps node 3: PASS
+EQUIPMENT TEST buy uses upgraded capacity 3: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 3: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 3: PASS
+EQUIPMENT TEST full bag preserves mature crop 3: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 3: PASS
+EQUIPMENT TEST wide wand preserves planted crops: PASS
+EQUIPMENT TEST equipment persists across days: PASS
+EQUIPMENT TEST isolated game slot begins: PASS
+EQUIPMENT TEST NPC is installed with collision: PASS
+EQUIPMENT TEST NPC service cannot open remotely: PASS
+EQUIPMENT TEST screenshot blacksmith_npc: PASS
+EQUIPMENT TEST interaction opens smith services: PASS
+EQUIPMENT TEST NPC upgrade modal pauses world: PASS
+EQUIPMENT TEST bag shortcut cannot replace upgrade service: PASS
+EQUIPMENT TEST native upgrade wand1: PASS
+EQUIPMENT TEST screenshot upgrade_zh_CN: PASS
+EQUIPMENT TEST native upgrade wand2: PASS
+EQUIPMENT TEST native upgrade wand3: PASS
+EQUIPMENT TEST maximum disabled wand: PASS
+EQUIPMENT TEST native upgrade bag1: PASS
+EQUIPMENT TEST native upgrade bag2: PASS
+EQUIPMENT TEST native upgrade bag3: PASS
+EQUIPMENT TEST maximum disabled bag: PASS
+EQUIPMENT TEST stale maximum click cannot spend: PASS
+EQUIPMENT TEST label fits zh_CN @Label@785: PASS
+EQUIPMENT TEST label fits zh_CN @Label@786: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN @Label@792: PASS
+EQUIPMENT TEST label fits zh_CN @Label@795: PASS
+EQUIPMENT TEST label fits zh_CN @Label@883: PASS
+EQUIPMENT TEST label fits zh_CN @Label@885: PASS
+EQUIPMENT TEST button fits zh_CN Upgrade: PASS
+EQUIPMENT TEST label fits zh_CN @Label@797: PASS
+EQUIPMENT TEST button fits zh_CN Back: PASS
+EQUIPMENT TEST screenshot upgrades_zh_CN: PASS
+EQUIPMENT TEST label fits en @Label@785: PASS
+EQUIPMENT TEST label fits en @Label@786: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST label fits en @Label@792: PASS
+EQUIPMENT TEST label fits en @Label@795: PASS
+EQUIPMENT TEST label fits en @Label@890: PASS
+EQUIPMENT TEST label fits en @Label@892: PASS
+EQUIPMENT TEST button fits en Upgrade: PASS
+EQUIPMENT TEST label fits en @Label@797: PASS
+EQUIPMENT TEST button fits en Back: PASS
+EQUIPMENT TEST screenshot upgrades_en: PASS
+EQUIPMENT TEST label fits ja @Label@785: PASS
+EQUIPMENT TEST label fits ja @Label@786: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST label fits ja @Label@792: PASS
+EQUIPMENT TEST label fits ja @Label@795: PASS
+EQUIPMENT TEST label fits ja @Label@897: PASS
+EQUIPMENT TEST label fits ja @Label@899: PASS
+EQUIPMENT TEST button fits ja Upgrade: PASS
+EQUIPMENT TEST label fits ja @Label@797: PASS
+EQUIPMENT TEST button fits ja Back: PASS
+EQUIPMENT TEST screenshot upgrades_ja: PASS
+EQUIPMENT TEST label fits zh_TW @Label@785: PASS
+EQUIPMENT TEST label fits zh_TW @Label@786: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW @Label@792: PASS
+EQUIPMENT TEST label fits zh_TW @Label@795: PASS
+EQUIPMENT TEST label fits zh_TW @Label@904: PASS
+EQUIPMENT TEST label fits zh_TW @Label@906: PASS
+EQUIPMENT TEST button fits zh_TW Upgrade: PASS
+EQUIPMENT TEST label fits zh_TW @Label@797: PASS
+EQUIPMENT TEST button fits zh_TW Back: PASS
+EQUIPMENT TEST screenshot upgrades_zh_TW: PASS
+EQUIPMENT TEST upgrading freezes timers and position: PASS
+EQUIPMENT TEST NPC purchase waits for scheduled save: PASS
+EQUIPMENT TEST manual save preserves purchased ranks: PASS
+EQUIPMENT TEST queued closed service click does nothing: PASS
+EQUIPMENT TEST closing service resumes world: PASS
+EQUIPMENT TEST backpack UI shows expanded limit: PASS
+EQUIPMENT TEST screenshot upgraded_bag: PASS
+EQUIPMENT TEST mapped interaction key assignment: PASS
+EQUIPMENT TEST old key does not open NPC service: PASS
+EQUIPMENT TEST new key opens NPC service: PASS
+EQUIPMENT TEST master wand impacts faster and finishes tree: PASS
+EQUIPMENT TEST master animation ends at upgraded duration: PASS
+EQUIPMENT TEST animation cannot repeat resource reward: PASS
+EQUIPMENT TEST master wand affects actual farm area: PASS
+EQUIPMENT TEST farm work displays the same held wand actor: PASS
+EQUIPMENT TEST screenshot farm_wand: PASS
+EQUIPMENT TEST upgraded watering can refills in real scene: PASS
+EQUIPMENT TEST expanded state saves: PASS
+EQUIPMENT TEST saved upgraded slot starts: PASS
+EQUIPMENT TEST reload preserves ranks and expanded inventory: PASS
+EQUIPMENT TEST fresh slot keeps basic equipment: PASS
+EQUIPMENT VERIFY END failures=0

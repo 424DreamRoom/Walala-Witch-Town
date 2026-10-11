@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+STORAGE TEST isolated slot opens: PASS
+STORAGE TEST fresh process preserves same-item stacks: PASS
+STORAGE TEST fresh process restores upgraded tool: PASS
+STORAGE TEST fresh process preserves bag positions: PASS
+STORAGE TEST restored chest keeps collision: PASS
+STORAGE VERIFY END failures=0

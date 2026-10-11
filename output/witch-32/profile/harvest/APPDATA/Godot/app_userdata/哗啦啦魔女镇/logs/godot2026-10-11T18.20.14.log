@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+ERROR: Node not found: "GameLoop" (relative to "/root/LanternLane").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Gameplay/verify_harvest.gd:104)
+       [1] frames (res://Scenes/Gameplay/verify_harvest.gd:23)
+SCRIPT ERROR: Invalid assignment of property or key 'paused_for_test' with value of type 'bool' on a base object of type 'null instance'.
+   at: run (res://Scenes/Gameplay/verify_harvest.gd:105)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Gameplay/verify_harvest.gd:105)
+       [1] frames (res://Scenes/Gameplay/verify_harvest.gd:23)

@@ -7,7 +7,7 @@ import hashlib
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ['wood', 'stone', 'gold', 'iron_ore', 'witch_coin']
+NAMES = ['wood', 'stone', 'gold', 'iron_ore', 'iron', 'fish', 'witch_coin']
 EXPECTED_LAYERS = ['Outline', 'Base color', 'Light and shadow', 'Details']
 
 def validate(name, expected_layer_flags=1):

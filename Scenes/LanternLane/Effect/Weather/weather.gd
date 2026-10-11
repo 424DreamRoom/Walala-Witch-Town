@@ -110,10 +110,11 @@ func _draw() -> void:
 	if weather == "rain":
 		for drop in rain:
 			var point := Vector2(roundf(drop.x), roundf(drop.y))
-			# Individual pixels allow clean roof/player masking without antialiasing.
+			# Falling rain is foreground, including over roofs; only splashes use roof masking.
+			# Individual pixels preserve clean player masking without antialiasing.
 			for y in range(int(drop.length)):
 				var pixel := point + Vector2(0, y)
-				if not _is_roof(pixel) and not _near_player_face(pixel):
+				if not _near_player_face(pixel):
 					draw_rect(Rect2(pixel, Vector2.ONE), RAIN_COLOR)
 		for splash in splashes:
 			var point: Vector2 = (splash.world - _world_at(Vector2.ZERO)).round()

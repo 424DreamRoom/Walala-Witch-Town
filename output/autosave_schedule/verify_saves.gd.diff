@@ -1,0 +1,55 @@
+--- Scenes/Save/verify_saves.gd (before)
++++ Scenes/Save/verify_saves.gd
+@@ -136,11 +136,15 @@
+ 	var restored := State.new()
+ 	check("deserialize state", loaded.ok and restored.restore_save_data(loaded.data.state))
+ 	for field in State.SAVE_FIELDS:
+-		check("round trip " + field, restored.get(field) == snapshot.state[field])
++		# JSON numbers in nested campaign dictionaries load as floats.
++		var expected = JSON.parse_string(JSON.stringify(snapshot.state[field])) if field == "campaign" else snapshot.state[field]
++		check("round trip " + field, restored.get(field) == expected)
+ 	var fresh := State.new()
+ 	check("starter tools belong to each new game", fresh.tools == State.STARTING_TOOLS and fresh.tools.hoe == 1 and restored.tools.hoe == 0)
+ 	var legacy := snapshot.duplicate(true)
+-	legacy.state.erase("tools")
++	# Pre-tool saves also predate the grid and cannot contain tool slots.
++	for field in ["tools", "bag_slots", "bag_overflow"]:
++		legacy.state.erase(field)
+ 	var migrated := State.normalize_save_data(legacy.state)
+ 	check("legacy saves receive starter tools without losing inventory", not migrated.is_empty() and migrated.tools == State.STARTING_TOOLS and migrated.raw == snapshot.state.raw and migrated.resources == snapshot.state.resources and migrated.coins == snapshot.state.coins)
+ 	restored.end_phase()
+@@ -280,7 +284,7 @@
+ 		loop.enter(location)
+ 		check("location save " + location, loop.save_progress().ok and Saves.read_slot(1).data.world.location == location)
+ 	loop.state.coins = 48
+-	loop.autosave_left = 0.0
++	loop.state.remaining = State.DAY_SECONDS * 0.5 + 0.025
+ 	loop.paused_for_test = false
+ 	loop._process(0.05)
+ 	loop.paused_for_test = true
+@@ -293,15 +297,22 @@
+ 	await shot("save_completed", lane.viewport)
+ 	await create_timer(0.65).timeout
+ 	check("save icon fades away when idle", not indicator.visible and not indicator.is_processing())
++	loop.paused_for_test = false
+ 	loop.end_phase()
+-	check("phase transition autosaves", Saves.read_slot(1).data.state.phase == "night" and Saves.read_slot(1).data.world.location == "restaurant")
++	loop._autosave()
++	loop.paused_for_test = true
++	check("18:00 boundary autosaves", Saves.read_slot(1).data.state.phase == "night" and Saves.read_slot(1).data.world.location == "restaurant")
+ 	for location in ["town", "home", "blacksmith", "store", "restaurant"]:
+ 		loop.enter(location)
+ 		check("night location save " + location, loop.save_progress().ok and Saves.read_slot(1).data.world.location == location)
++	loop.paused_for_test = false
+ 	loop.end_phase()
+-	check("settlement autosaves", Saves.read_slot(1).data.state.phase == "result")
++	loop._autosave()
++	check("24:00 boundary autosaves", Saves.read_slot(1).data.state.phase == "result")
+ 	loop.end_phase()
+-	check("next day autosaves", Saves.read_slot(1).data.state.day == 2 and Saves.read_slot(1).data.state.phase == "day")
++	loop._autosave()
++	loop.paused_for_test = true
++	check("next day 06:00 boundary autosaves", Saves.read_slot(1).data.state.day == 2 and Saves.read_slot(1).data.state.phase == "day")
+ 	loop.save_menu.show_menu()
+ 	loop.save_menu.return_to_title()
+ 	await create_timer(1.65).timeout

@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+CAMPAIGN 1 20 crops, 36 recipes, 10 NPCs: PASS
+CAMPAIGN 2 initial campaign saves: PASS
+CAMPAIGN 3 legacy three-dish save migrates: PASS
+CAMPAIGN 4 reject invalid pantry -1: PASS
+CAMPAIGN 5 reject invalid pantry 1.5: PASS
+CAMPAIGN 6 reject invalid pantry inf: PASS
+CAMPAIGN 7 reject invalid pantry nan: PASS
+CAMPAIGN 8 reject invalid pantry bad: PASS
+CAMPAIGN 9 till turnip: FAIL
+CAMPAIGN 10 plant turnip: FAIL
+SCRIPT ERROR: Invalid access to property or key '0' on a base object of type 'Dictionary'.
+   at: run (res://Scenes/Campaign/verify_campaign.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Campaign/verify_campaign.gd:61)

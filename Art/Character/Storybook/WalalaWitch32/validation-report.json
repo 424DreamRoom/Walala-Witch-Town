@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "characters": [
+    {
+      "status": "PASS",
+      "id": "walala-witch-32",
+      "frames": 20,
+      "canvas": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        32
+      ],
+      "max_opaque_colors_per_frame": 30,
+      "binary_alpha": true,
+      "baseline": 31,
+      "source_master_sheet_exact": true
+    },
+    {
+      "status": "PASS",
+      "id": "witch-tools-32",
+      "frames": 60,
+      "canvas": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        32
+      ],
+      "max_opaque_colors_per_frame": 38,
+      "binary_alpha": true,
+      "baseline": 31,
+      "source_master_sheet_exact": true
+    }
+  ],
+  "myart_hashes_unchanged": true,
+  "aseprite_application_verified": false,
+  "generated_source_sha256": "4c6314eb1eb6205223476e5f08934916804420dc667bb7f72a8c02b6826f76b2"
+}

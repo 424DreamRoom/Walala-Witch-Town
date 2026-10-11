@@ -1,0 +1,42 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+PAUSE AUDIO DRIVER WASAPI
+PAUSE AUDIO keyboard opens backpack with sound: PASS
+PAUSE AUDIO backpack preserves active action sound: PASS
+PAUSE AUDIO native action sound advances in backpack: PASS
+PAUSE AUDIO backpack background channels playing: PASS
+PAUSE AUDIO backpack native music advances: PASS
+PAUSE AUDIO backpack native ambience advances: PASS
+PAUSE AUDIO backpack freezes clock and movement: PASS
+PAUSE AUDIO native action sound finishes during backpack pause: PASS
+PAUSE AUDIO backpack slot hover plays sound: PASS
+PAUSE AUDIO backpack keyboard focus plays sound: PASS
+PAUSE AUDIO backpack pickup plays one sound: PASS
+PAUSE AUDIO native backpack click advances while paused: PASS
+PAUSE AUDIO backpack placement plays one sound: PASS
+PAUSE AUDIO keyboard closes backpack with sound: PASS
+PAUSE AUDIO hotbar opens backpack with sound: PASS
+PAUSE AUDIO hotbar backpack background channels playing: PASS
+PAUSE AUDIO hotbar backpack native music advances: PASS
+PAUSE AUDIO hotbar backpack native ambience advances: PASS
+PAUSE AUDIO close button resumes world: PASS
+PAUSE AUDIO keyboard opens backpack with sound: PASS
+PAUSE AUDIO backpack preserves active action sound: PASS
+PAUSE AUDIO native action sound advances in backpack: PASS
+PAUSE AUDIO backpack background channels playing: PASS
+PAUSE AUDIO backpack native music advances: PASS
+PAUSE AUDIO backpack native ambience advances: PASS
+PAUSE AUDIO backpack freezes clock and movement: PASS
+PAUSE AUDIO native action sound finishes during backpack pause: PASS
+PAUSE AUDIO backpack slot hover plays sound: PASS
+PAUSE AUDIO backpack keyboard focus plays sound: PASS
+PAUSE AUDIO backpack pickup plays one sound: PASS
+PAUSE AUDIO native backpack click advances while paused: PASS
+PAUSE AUDIO backpack placement plays one sound: PASS
+PAUSE AUDIO keyboard closes backpack with sound: PASS
+PAUSE AUDIO hotbar opens backpack with sound: PASS
+PAUSE AUDIO hotbar backpack background channels playing: PASS
+PAUSE AUDIO hotbar backpack native music advances: PASS
+PAUSE AUDIO hotbar backpack native ambience advances: PASS
+PAUSE AUDIO close button resumes world: PASS
+PAUSE AUDIO VERIFY END failures=0 checks=38

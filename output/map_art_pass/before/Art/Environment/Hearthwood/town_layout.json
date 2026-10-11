@@ -1,0 +1,3402 @@
+{
+  "size": [
+    1600,
+    1536
+  ],
+  "previous_size": [
+    1280,
+    960
+  ],
+  "area_multiplier": 2,
+  "spawn": [
+    408,
+    364
+  ],
+  "revision": 4,
+  "buildings": [
+    {
+      "kind": "blacksmith_exterior",
+      "x": 1020,
+      "y": 530,
+      "w": 160,
+      "h": 96,
+      "role": "blacksmith",
+      "name": "余烬铁匠铺"
+    },
+    {
+      "kind": "store_exterior",
+      "x": 620,
+      "y": 350,
+      "w": 160,
+      "h": 96,
+      "role": "store",
+      "name": "橡果杂货店"
+    },
+    {
+      "kind": "shop_3",
+      "x": 570,
+      "y": 692,
+      "w": 184,
+      "h": 76,
+      "role": "restaurant",
+      "name": "小女巫餐厅"
+    },
+    {
+      "kind": "shop_4",
+      "x": 948,
+      "y": 260,
+      "w": 112,
+      "h": 98,
+      "role": "civic",
+      "name": "北坡会馆"
+    },
+    {
+      "kind": "shop_5",
+      "x": 200,
+      "y": 610,
+      "w": 184,
+      "h": 92,
+      "role": "furniture_store",
+      "name": "榛木家具店"
+    },
+    {
+      "kind": "shop_6",
+      "x": 348,
+      "y": 866,
+      "w": 136,
+      "h": 76,
+      "role": "residence",
+      "name": "林荫住宅"
+    },
+    {
+      "kind": "shop_7",
+      "x": 778,
+      "y": 818,
+      "w": 144,
+      "h": 82,
+      "role": "residence",
+      "name": "南巷住宅"
+    },
+    {
+      "kind": "shop_8",
+      "x": 1090,
+      "y": 876,
+      "w": 152,
+      "h": 70,
+      "role": "residence",
+      "name": "河岸住宅"
+    },
+    {
+      "kind": "town_greenhouse",
+      "x": 1308,
+      "y": 300,
+      "w": 184,
+      "h": 68,
+      "role": "landmark",
+      "name": "常青花房"
+    },
+    {
+      "kind": "town_atelier",
+      "x": 1328,
+      "y": 550,
+      "w": 144,
+      "h": 94,
+      "role": "landmark",
+      "name": "蓝窗画室"
+    },
+    {
+      "kind": "town_bakery",
+      "x": 205,
+      "y": 1128,
+      "w": 184,
+      "h": 80,
+      "role": "landmark",
+      "name": "麦香小屋"
+    },
+    {
+      "kind": "town_library",
+      "x": 536,
+      "y": 1174,
+      "w": 184,
+      "h": 98,
+      "role": "landmark",
+      "name": "双山墙书屋"
+    },
+    {
+      "kind": "town_manor",
+      "x": 1028,
+      "y": 1150,
+      "w": 184,
+      "h": 96,
+      "role": "residence",
+      "name": "玫瑰庭院"
+    },
+    {
+      "kind": "town_windmill",
+      "x": 212,
+      "y": 1460,
+      "w": 88,
+      "h": 100,
+      "role": "landmark",
+      "name": "南风磨坊"
+    },
+    {
+      "kind": "town_cottage",
+      "x": 758,
+      "y": 1450,
+      "w": 144,
+      "h": 74,
+      "role": "residence",
+      "name": "苔顶小屋"
+    },
+    {
+      "kind": "town_boathouse",
+      "x": 1280,
+      "y": 1458,
+      "w": 184,
+      "h": 64,
+      "role": "residence",
+      "name": "芦苇河舍"
+    }
+  ],
+  "props": [
+    {
+      "kind": "outdoor_mailbox",
+      "x": 124,
+      "y": 302,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 281,
+      "y": 339,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 128,
+      "y": 251,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fence",
+      "x": 147,
+      "y": 351,
+      "w": 60,
+      "h": 5,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 323,
+      "y": 326,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 166,
+      "y": 328,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 346,
+      "y": 350,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 700,
+      "y": 399,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 710,
+      "y": 363,
+      "w": 34,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 531,
+      "y": 373,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 750,
+      "y": 394,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 1118,
+      "y": 557,
+      "w": 34,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 1115,
+      "y": 510,
+      "w": 22,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 909,
+      "y": 487,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 1099,
+      "y": 599,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 864,
+      "y": 294,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 1047,
+      "y": 286,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 1042,
+      "y": 327,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fence",
+      "x": 1078,
+      "y": 318,
+      "w": 60,
+      "h": 5,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 102,
+      "y": 636,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 282,
+      "y": 640,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 168,
+      "y": 666,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fence",
+      "x": 286,
+      "y": 562,
+      "w": 60,
+      "h": 5,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 248,
+      "y": 888,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 411,
+      "y": 900,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 440,
+      "y": 851,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 282,
+      "y": 852,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 677,
+      "y": 832,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 823,
+      "y": 876,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fence",
+      "x": 879,
+      "y": 798,
+      "w": 60,
+      "h": 5,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 684,
+      "y": 775,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 1181,
+      "y": 895,
+      "w": 22,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 989,
+      "y": 898,
+      "w": 34,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 1168,
+      "y": 857,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 564,
+      "y": 409,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 771,
+      "y": 479,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 596,
+      "y": 548,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 778,
+      "y": 425,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 478,
+      "y": 491,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 808,
+      "y": 537,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pond",
+      "x": 870,
+      "y": 413,
+      "w": 64,
+      "h": 30,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 920,
+      "y": 377,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 813,
+      "y": 384,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 924,
+      "y": 424,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 652,
+      "y": 752,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 466,
+      "y": 757,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 674,
+      "y": 700,
+      "w": 22,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 503,
+      "y": 748,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pond",
+      "x": 638,
+      "y": 848,
+      "w": 64,
+      "h": 30,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 590,
+      "y": 814,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 552,
+      "y": 853,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 696,
+      "y": 895,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 89,
+      "y": 154,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 116,
+      "y": 110,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 350,
+      "y": 149,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 368,
+      "y": 204,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 500,
+      "y": 131,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 754,
+      "y": 168,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 824,
+      "y": 219,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1107,
+      "y": 146,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1138,
+      "y": 279,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 351,
+      "y": 463,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 316,
+      "y": 528,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 371,
+      "y": 573,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 841,
+      "y": 466,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1122,
+      "y": 431,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1109,
+      "y": 749,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 112,
+      "y": 764,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 164,
+      "y": 835,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 204,
+      "y": 918,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 462,
+      "y": 939,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 595,
+      "y": 958,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 942,
+      "y": 901,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 954,
+      "y": 745,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 962,
+      "y": 686,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 715,
+      "y": 690,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 53,
+      "y": 237,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 61,
+      "y": 417,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 58,
+      "y": 696,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 402,
+      "y": 94,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 788,
+      "y": 105,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1097,
+      "y": 75,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1174,
+      "y": 777,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 1204,
+      "y": 332,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 1396,
+      "y": 325,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 1210,
+      "y": 407,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 1447,
+      "y": 353,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1445,
+      "y": 489,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 1414,
+      "y": 592,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 1380,
+      "y": 722,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 1340,
+      "y": 686,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 1394,
+      "y": 544,
+      "w": 22,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 1235,
+      "y": 545,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 304,
+      "y": 1151,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 102,
+      "y": 1119,
+      "w": 34,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 254,
+      "y": 1195,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 330,
+      "y": 1209,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 445,
+      "y": 1211,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 628,
+      "y": 1204,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 466,
+      "y": 1253,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 663,
+      "y": 1229,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pond",
+      "x": 868,
+      "y": 1100,
+      "w": 64,
+      "h": 30,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 816,
+      "y": 1059,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 923,
+      "y": 1109,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 1102,
+      "y": 1200,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 1155,
+      "y": 1174,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_fence",
+      "x": 1192,
+      "y": 1136,
+      "w": 60,
+      "h": 5,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 279,
+      "y": 1455,
+      "w": 22,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 311,
+      "y": 1474,
+      "w": 34,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 406,
+      "y": 1426,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 656,
+      "y": 1478,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_mailbox",
+      "x": 854,
+      "y": 1486,
+      "w": 12,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 818,
+      "y": 1418,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pond",
+      "x": 889,
+      "y": 1358,
+      "w": 64,
+      "h": 30,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 945,
+      "y": 1313,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 1034,
+      "y": 1432,
+      "w": 8,
+      "h": 6,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 1385,
+      "y": 1458,
+      "w": 22,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 1175,
+      "y": 1456,
+      "w": 34,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_herbs",
+      "x": 1343,
+      "y": 1502,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_bench",
+      "x": 1317,
+      "y": 1094,
+      "w": 50,
+      "h": 12,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 1323,
+      "y": 1229,
+      "w": 0,
+      "h": 0,
+      "solid": false,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1200,
+      "y": 126,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1403,
+      "y": 181,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1439,
+      "y": 830,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1362,
+      "y": 938,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1238,
+      "y": 819,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 76,
+      "y": 1008,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 348,
+      "y": 999,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 426,
+      "y": 1060,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 685,
+      "y": 999,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1169,
+      "y": 1025,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 354,
+      "y": 1293,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 412,
+      "y": 1371,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 57,
+      "y": 1432,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 483,
+      "y": 1496,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 674,
+      "y": 1287,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 803,
+      "y": 1229,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 975,
+      "y": 1274,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1159,
+      "y": 1338,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1416,
+      "y": 1286,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1436,
+      "y": 1430,
+      "w": 10,
+      "h": 8,
+      "solid": true,
+      "outdoor_decoration": true
+    },
+    {
+      "kind": "town_fountain",
+      "x": 682,
+      "y": 482,
+      "w": 70,
+      "h": 32,
+      "solid": true,
+      "outdoor_decoration": true
+    }
+  ],
+  "gates": {
+    "field": [
+      454,
+      10
+    ],
+    "restaurant": [
+      570,
+      718
+    ],
+    "farm": [
+      8,
+      364
+    ],
+    "dock": [
+      1592,
+      652
+    ],
+    "blacksmith": [
+      1020,
+      556
+    ],
+    "store": [
+      620,
+      376
+    ],
+    "furniture_store": [
+      200,
+      636
+    ]
+  },
+  "paths": [
+    {
+      "points": [
+        [
+          -32,
+          364
+        ],
+        [
+          224,
+          364
+        ],
+        [
+          408,
+          364
+        ],
+        [
+          468,
+          410
+        ],
+        [
+          520,
+          464
+        ],
+        [
+          620,
+          470
+        ]
+      ],
+      "width": 52,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          408,
+          364
+        ],
+        [
+          408,
+          280
+        ],
+        [
+          426,
+          224
+        ],
+        [
+          420,
+          100
+        ],
+        [
+          454,
+          24
+        ],
+        [
+          454,
+          -32
+        ]
+      ],
+      "width": 34,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          224,
+          260
+        ],
+        [
+          224,
+          364
+        ]
+      ],
+      "width": 30,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          620,
+          376
+        ],
+        [
+          620,
+          430
+        ]
+      ],
+      "width": 40,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          620,
+          470
+        ],
+        [
+          756,
+          530
+        ],
+        [
+          854,
+          582
+        ],
+        [
+          968,
+          610
+        ],
+        [
+          1118,
+          652
+        ]
+      ],
+      "width": 48,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          968,
+          610
+        ],
+        [
+          1020,
+          610
+        ],
+        [
+          1020,
+          556
+        ]
+      ],
+      "width": 32,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          780,
+          420
+        ],
+        [
+          820,
+          342
+        ],
+        [
+          848,
+          292
+        ],
+        [
+          948,
+          292
+        ],
+        [
+          948,
+          286
+        ]
+      ],
+      "width": 36,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          620,
+          376
+        ],
+        [
+          708,
+          376
+        ],
+        [
+          784,
+          294
+        ],
+        [
+          848,
+          292
+        ]
+      ],
+      "width": 28,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          520,
+          464
+        ],
+        [
+          420,
+          540
+        ],
+        [
+          410,
+          610
+        ],
+        [
+          440,
+          730
+        ],
+        [
+          570,
+          730
+        ],
+        [
+          570,
+          718
+        ]
+      ],
+      "width": 42,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          224,
+          364
+        ],
+        [
+          146,
+          426
+        ],
+        [
+          80,
+          500
+        ],
+        [
+          80,
+          646
+        ],
+        [
+          200,
+          646
+        ],
+        [
+          200,
+          636
+        ]
+      ],
+      "width": 30,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          200,
+          646
+        ],
+        [
+          252,
+          668
+        ],
+        [
+          320,
+          706
+        ],
+        [
+          440,
+          730
+        ]
+      ],
+      "width": 32,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          320,
+          706
+        ],
+        [
+          260,
+          750
+        ],
+        [
+          260,
+          900
+        ],
+        [
+          348,
+          904
+        ],
+        [
+          348,
+          892
+        ]
+      ],
+      "width": 30,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          854,
+          582
+        ],
+        [
+          904,
+          702
+        ],
+        [
+          884,
+          858
+        ],
+        [
+          778,
+          858
+        ],
+        [
+          778,
+          844
+        ]
+      ],
+      "width": 34,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          1118,
+          652
+        ],
+        [
+          1080,
+          734
+        ],
+        [
+          1140,
+          840
+        ],
+        [
+          1140,
+          920
+        ],
+        [
+          1090,
+          920
+        ],
+        [
+          1090,
+          902
+        ]
+      ],
+      "width": 28,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          440,
+          730
+        ],
+        [
+          486,
+          796
+        ],
+        [
+          574,
+          874
+        ],
+        [
+          700,
+          884
+        ],
+        [
+          778,
+          858
+        ]
+      ],
+      "width": 28,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          1118,
+          652
+        ],
+        [
+          1632,
+          652
+        ]
+      ],
+      "width": 42,
+      "surface": "wood"
+    },
+    {
+      "points": [
+        [
+          948,
+          292
+        ],
+        [
+          1148,
+          332
+        ],
+        [
+          1308,
+          340
+        ],
+        [
+          1308,
+          326
+        ]
+      ],
+      "width": 30,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          1308,
+          340
+        ],
+        [
+          1450,
+          392
+        ],
+        [
+          1430,
+          576
+        ],
+        [
+          1328,
+          588
+        ],
+        [
+          1328,
+          576
+        ]
+      ],
+      "width": 32,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          1328,
+          588
+        ],
+        [
+          1280,
+          652
+        ],
+        [
+          1268,
+          938
+        ],
+        [
+          1256,
+          1040
+        ]
+      ],
+      "width": 34,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          1090,
+          920
+        ],
+        [
+          1180,
+          964
+        ],
+        [
+          1256,
+          1040
+        ],
+        [
+          1376,
+          1168
+        ],
+        [
+          1380,
+          1376
+        ],
+        [
+          1280,
+          1494
+        ],
+        [
+          1280,
+          1484
+        ]
+      ],
+      "width": 32,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          260,
+          900
+        ],
+        [
+          130,
+          974
+        ],
+        [
+          112,
+          1160
+        ],
+        [
+          205,
+          1168
+        ],
+        [
+          205,
+          1154
+        ]
+      ],
+      "width": 34,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          205,
+          1168
+        ],
+        [
+          338,
+          1242
+        ],
+        [
+          536,
+          1216
+        ],
+        [
+          536,
+          1200
+        ]
+      ],
+      "width": 36,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          778,
+          858
+        ],
+        [
+          792,
+          1002
+        ],
+        [
+          724,
+          1100
+        ],
+        [
+          726,
+          1194
+        ],
+        [
+          536,
+          1216
+        ]
+      ],
+      "width": 38,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          726,
+          1194
+        ],
+        [
+          908,
+          1214
+        ],
+        [
+          1028,
+          1190
+        ],
+        [
+          1028,
+          1176
+        ]
+      ],
+      "width": 32,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          1028,
+          1190
+        ],
+        [
+          1182,
+          1228
+        ],
+        [
+          1376,
+          1168
+        ]
+      ],
+      "width": 30,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          205,
+          1168
+        ],
+        [
+          100,
+          1266
+        ],
+        [
+          94,
+          1488
+        ],
+        [
+          212,
+          1496
+        ],
+        [
+          212,
+          1486
+        ]
+      ],
+      "width": 32,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          212,
+          1496
+        ],
+        [
+          466,
+          1480
+        ],
+        [
+          594,
+          1392
+        ],
+        [
+          758,
+          1488
+        ],
+        [
+          758,
+          1476
+        ]
+      ],
+      "width": 32,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          536,
+          1216
+        ],
+        [
+          594,
+          1288
+        ],
+        [
+          594,
+          1392
+        ]
+      ],
+      "width": 28,
+      "surface": "dirt"
+    },
+    {
+      "points": [
+        [
+          758,
+          1488
+        ],
+        [
+          990,
+          1458
+        ],
+        [
+          1100,
+          1376
+        ],
+        [
+          1280,
+          1494
+        ]
+      ],
+      "width": 34,
+      "surface": "stone"
+    },
+    {
+      "points": [
+        [
+          1028,
+          1190
+        ],
+        [
+          1100,
+          1278
+        ],
+        [
+          1100,
+          1376
+        ]
+      ],
+      "width": 30,
+      "surface": "dirt"
+    }
+  ],
+  "plazas": [
+    {
+      "points": [
+        [
+          466,
+          416
+        ],
+        [
+          540,
+          380
+        ],
+        [
+          732,
+          386
+        ],
+        [
+          822,
+          435
+        ],
+        [
+          824,
+          498
+        ],
+        [
+          750,
+          552
+        ],
+        [
+          564,
+          555
+        ],
+        [
+          464,
+          506
+        ]
+      ],
+      "surface": "stone"
+    }
+  ],
+  "barriers": [
+    [
+      1554,
+      0,
+      46,
+      8
+    ],
+    [
+      1553,
+      8,
+      47,
+      8
+    ],
+    [
+      1551,
+      16,
+      49,
+      8
+    ],
+    [
+      1550,
+      24,
+      50,
+      8
+    ],
+    [
+      1549,
+      32,
+      51,
+      8
+    ],
+    [
+      1548,
+      40,
+      52,
+      8
+    ],
+    [
+      1547,
+      48,
+      53,
+      8
+    ],
+    [
+      1545,
+      56,
+      55,
+      8
+    ],
+    [
+      1544,
+      64,
+      56,
+      8
+    ],
+    [
+      1543,
+      72,
+      57,
+      8
+    ],
+    [
+      1542,
+      80,
+      58,
+      8
+    ],
+    [
+      1541,
+      88,
+      59,
+      8
+    ],
+    [
+      1539,
+      96,
+      61,
+      8
+    ],
+    [
+      1538,
+      104,
+      62,
+      8
+    ],
+    [
+      1537,
+      112,
+      63,
+      8
+    ],
+    [
+      1536,
+      120,
+      64,
+      8
+    ],
+    [
+      1535,
+      128,
+      65,
+      8
+    ],
+    [
+      1533,
+      136,
+      67,
+      8
+    ],
+    [
+      1532,
+      144,
+      68,
+      8
+    ],
+    [
+      1531,
+      152,
+      69,
+      8
+    ],
+    [
+      1531,
+      160,
+      69,
+      8
+    ],
+    [
+      1532,
+      168,
+      68,
+      8
+    ],
+    [
+      1533,
+      176,
+      67,
+      8
+    ],
+    [
+      1535,
+      184,
+      65,
+      8
+    ],
+    [
+      1536,
+      192,
+      64,
+      8
+    ],
+    [
+      1537,
+      200,
+      63,
+      8
+    ],
+    [
+      1538,
+      208,
+      62,
+      8
+    ],
+    [
+      1539,
+      216,
+      61,
+      8
+    ],
+    [
+      1541,
+      224,
+      59,
+      8
+    ],
+    [
+      1542,
+      232,
+      58,
+      8
+    ],
+    [
+      1543,
+      240,
+      57,
+      8
+    ],
+    [
+      1544,
+      248,
+      56,
+      8
+    ],
+    [
+      1545,
+      256,
+      55,
+      8
+    ],
+    [
+      1547,
+      264,
+      53,
+      8
+    ],
+    [
+      1548,
+      272,
+      52,
+      8
+    ],
+    [
+      1547,
+      280,
+      53,
+      8
+    ],
+    [
+      1544,
+      288,
+      56,
+      8
+    ],
+    [
+      1542,
+      296,
+      58,
+      8
+    ],
+    [
+      1540,
+      304,
+      60,
+      8
+    ],
+    [
+      1537,
+      312,
+      63,
+      8
+    ],
+    [
+      1535,
+      320,
+      65,
+      8
+    ],
+    [
+      1533,
+      328,
+      67,
+      8
+    ],
+    [
+      1530,
+      336,
+      70,
+      8
+    ],
+    [
+      1528,
+      344,
+      72,
+      8
+    ],
+    [
+      1526,
+      352,
+      74,
+      8
+    ],
+    [
+      1523,
+      360,
+      77,
+      8
+    ],
+    [
+      1521,
+      368,
+      79,
+      8
+    ],
+    [
+      1519,
+      376,
+      81,
+      8
+    ],
+    [
+      1516,
+      384,
+      84,
+      8
+    ],
+    [
+      1514,
+      392,
+      86,
+      8
+    ],
+    [
+      1512,
+      400,
+      88,
+      8
+    ],
+    [
+      1512,
+      408,
+      88,
+      8
+    ],
+    [
+      1512,
+      416,
+      88,
+      8
+    ],
+    [
+      1513,
+      424,
+      87,
+      8
+    ],
+    [
+      1514,
+      432,
+      86,
+      8
+    ],
+    [
+      1515,
+      440,
+      85,
+      8
+    ],
+    [
+      1516,
+      448,
+      84,
+      8
+    ],
+    [
+      1517,
+      456,
+      83,
+      8
+    ],
+    [
+      1518,
+      464,
+      82,
+      8
+    ],
+    [
+      1520,
+      472,
+      80,
+      8
+    ],
+    [
+      1521,
+      480,
+      79,
+      8
+    ],
+    [
+      1522,
+      488,
+      78,
+      8
+    ],
+    [
+      1523,
+      496,
+      77,
+      8
+    ],
+    [
+      1524,
+      504,
+      76,
+      8
+    ],
+    [
+      1525,
+      512,
+      75,
+      8
+    ],
+    [
+      1526,
+      520,
+      74,
+      8
+    ],
+    [
+      1527,
+      528,
+      73,
+      8
+    ],
+    [
+      1528,
+      536,
+      72,
+      8
+    ],
+    [
+      1525,
+      544,
+      75,
+      8
+    ],
+    [
+      1523,
+      552,
+      77,
+      8
+    ],
+    [
+      1520,
+      560,
+      80,
+      8
+    ],
+    [
+      1518,
+      568,
+      82,
+      8
+    ],
+    [
+      1515,
+      576,
+      85,
+      8
+    ],
+    [
+      1513,
+      584,
+      87,
+      8
+    ],
+    [
+      1510,
+      592,
+      90,
+      8
+    ],
+    [
+      1508,
+      600,
+      92,
+      8
+    ],
+    [
+      1506,
+      608,
+      94,
+      8
+    ],
+    [
+      1503,
+      616,
+      97,
+      8
+    ],
+    [
+      1503,
+      680,
+      97,
+      8
+    ],
+    [
+      1505,
+      688,
+      95,
+      8
+    ],
+    [
+      1507,
+      696,
+      93,
+      8
+    ],
+    [
+      1509,
+      704,
+      91,
+      8
+    ],
+    [
+      1511,
+      712,
+      89,
+      8
+    ],
+    [
+      1513,
+      720,
+      87,
+      8
+    ],
+    [
+      1515,
+      728,
+      85,
+      8
+    ],
+    [
+      1517,
+      736,
+      83,
+      8
+    ],
+    [
+      1520,
+      744,
+      80,
+      8
+    ],
+    [
+      1522,
+      752,
+      78,
+      8
+    ],
+    [
+      1524,
+      760,
+      76,
+      8
+    ],
+    [
+      1526,
+      768,
+      74,
+      8
+    ],
+    [
+      1528,
+      776,
+      72,
+      8
+    ],
+    [
+      1529,
+      784,
+      71,
+      8
+    ],
+    [
+      1530,
+      792,
+      70,
+      8
+    ],
+    [
+      1530,
+      800,
+      70,
+      8
+    ],
+    [
+      1530,
+      808,
+      70,
+      8
+    ],
+    [
+      1531,
+      816,
+      69,
+      8
+    ],
+    [
+      1531,
+      824,
+      69,
+      8
+    ],
+    [
+      1531,
+      832,
+      69,
+      8
+    ],
+    [
+      1532,
+      840,
+      68,
+      8
+    ],
+    [
+      1532,
+      848,
+      68,
+      8
+    ],
+    [
+      1532,
+      856,
+      68,
+      8
+    ],
+    [
+      1533,
+      864,
+      67,
+      8
+    ],
+    [
+      1533,
+      872,
+      67,
+      8
+    ],
+    [
+      1533,
+      880,
+      67,
+      8
+    ],
+    [
+      1534,
+      888,
+      66,
+      8
+    ],
+    [
+      1534,
+      896,
+      66,
+      8
+    ],
+    [
+      1535,
+      904,
+      65,
+      8
+    ],
+    [
+      1535,
+      912,
+      65,
+      8
+    ],
+    [
+      1535,
+      920,
+      65,
+      8
+    ],
+    [
+      1536,
+      928,
+      64,
+      8
+    ],
+    [
+      1536,
+      936,
+      64,
+      8
+    ],
+    [
+      1536,
+      944,
+      64,
+      8
+    ],
+    [
+      1537,
+      952,
+      63,
+      8
+    ],
+    [
+      1535,
+      960,
+      65,
+      8
+    ],
+    [
+      1533,
+      968,
+      67,
+      8
+    ],
+    [
+      1531,
+      976,
+      69,
+      8
+    ],
+    [
+      1529,
+      984,
+      71,
+      8
+    ],
+    [
+      1527,
+      992,
+      73,
+      8
+    ],
+    [
+      1525,
+      1000,
+      75,
+      8
+    ],
+    [
+      1523,
+      1008,
+      77,
+      8
+    ],
+    [
+      1521,
+      1016,
+      79,
+      8
+    ],
+    [
+      1518,
+      1024,
+      82,
+      8
+    ],
+    [
+      1516,
+      1032,
+      84,
+      8
+    ],
+    [
+      1514,
+      1040,
+      86,
+      8
+    ],
+    [
+      1512,
+      1048,
+      88,
+      8
+    ],
+    [
+      1510,
+      1056,
+      90,
+      8
+    ],
+    [
+      1508,
+      1064,
+      92,
+      8
+    ],
+    [
+      1506,
+      1072,
+      94,
+      8
+    ],
+    [
+      1504,
+      1080,
+      96,
+      8
+    ],
+    [
+      1502,
+      1088,
+      98,
+      8
+    ],
+    [
+      1502,
+      1096,
+      98,
+      8
+    ],
+    [
+      1502,
+      1104,
+      98,
+      8
+    ],
+    [
+      1503,
+      1112,
+      97,
+      8
+    ],
+    [
+      1504,
+      1120,
+      96,
+      8
+    ],
+    [
+      1505,
+      1128,
+      95,
+      8
+    ],
+    [
+      1506,
+      1136,
+      94,
+      8
+    ],
+    [
+      1507,
+      1144,
+      93,
+      8
+    ],
+    [
+      1508,
+      1152,
+      92,
+      8
+    ],
+    [
+      1509,
+      1160,
+      91,
+      8
+    ],
+    [
+      1510,
+      1168,
+      90,
+      8
+    ],
+    [
+      1511,
+      1176,
+      89,
+      8
+    ],
+    [
+      1512,
+      1184,
+      88,
+      8
+    ],
+    [
+      1513,
+      1192,
+      87,
+      8
+    ],
+    [
+      1514,
+      1200,
+      86,
+      8
+    ],
+    [
+      1515,
+      1208,
+      85,
+      8
+    ],
+    [
+      1516,
+      1216,
+      84,
+      8
+    ],
+    [
+      1518,
+      1224,
+      82,
+      8
+    ],
+    [
+      1519,
+      1232,
+      81,
+      8
+    ],
+    [
+      1520,
+      1240,
+      80,
+      8
+    ],
+    [
+      1521,
+      1248,
+      79,
+      8
+    ],
+    [
+      1522,
+      1256,
+      78,
+      8
+    ],
+    [
+      1523,
+      1264,
+      77,
+      8
+    ],
+    [
+      1524,
+      1272,
+      76,
+      8
+    ],
+    [
+      1523,
+      1280,
+      77,
+      8
+    ],
+    [
+      1521,
+      1288,
+      79,
+      8
+    ],
+    [
+      1520,
+      1296,
+      80,
+      8
+    ],
+    [
+      1518,
+      1304,
+      82,
+      8
+    ],
+    [
+      1516,
+      1312,
+      84,
+      8
+    ],
+    [
+      1515,
+      1320,
+      85,
+      8
+    ],
+    [
+      1513,
+      1328,
+      87,
+      8
+    ],
+    [
+      1511,
+      1336,
+      89,
+      8
+    ],
+    [
+      1509,
+      1344,
+      91,
+      8
+    ],
+    [
+      1507,
+      1352,
+      93,
+      8
+    ],
+    [
+      1506,
+      1360,
+      94,
+      8
+    ],
+    [
+      1504,
+      1368,
+      96,
+      8
+    ],
+    [
+      1502,
+      1376,
+      98,
+      8
+    ],
+    [
+      1501,
+      1384,
+      99,
+      8
+    ],
+    [
+      1499,
+      1392,
+      101,
+      8
+    ],
+    [
+      1497,
+      1400,
+      103,
+      8
+    ],
+    [
+      1495,
+      1408,
+      105,
+      8
+    ],
+    [
+      1493,
+      1416,
+      107,
+      8
+    ],
+    [
+      1492,
+      1424,
+      108,
+      8
+    ],
+    [
+      1490,
+      1432,
+      110,
+      8
+    ],
+    [
+      1488,
+      1440,
+      112,
+      8
+    ],
+    [
+      1487,
+      1448,
+      113,
+      8
+    ],
+    [
+      1485,
+      1456,
+      115,
+      8
+    ],
+    [
+      1483,
+      1464,
+      117,
+      8
+    ],
+    [
+      1481,
+      1472,
+      119,
+      8
+    ],
+    [
+      1479,
+      1480,
+      121,
+      8
+    ],
+    [
+      1478,
+      1488,
+      122,
+      8
+    ],
+    [
+      1476,
+      1496,
+      124,
+      8
+    ],
+    [
+      1474,
+      1504,
+      126,
+      8
+    ],
+    [
+      1473,
+      1512,
+      127,
+      8
+    ],
+    [
+      1471,
+      1520,
+      129,
+      8
+    ],
+    [
+      1469,
+      1528,
+      131,
+      8
+    ]
+  ],
+  "districts": [
+    {
+      "name": "西郊农场道",
+      "point": [
+        58,
+        364
+      ]
+    },
+    {
+      "name": "月泉广场",
+      "point": [
+        620,
+        470
+      ]
+    },
+    {
+      "name": "余烬工坊",
+      "point": [
+        1020,
+        556
+      ]
+    },
+    {
+      "name": "南巷花园",
+      "point": [
+        590,
+        840
+      ]
+    },
+    {
+      "name": "河岸渡口",
+      "point": [
+        1480,
+        652
+      ]
+    },
+    {
+      "name": "东园花径",
+      "point": [
+        1308,
+        340
+      ]
+    },
+    {
+      "name": "南坡书街",
+      "point": [
+        536,
+        1216
+      ]
+    },
+    {
+      "name": "风车草甸",
+      "point": [
+        466,
+        1480
+      ]
+    },
+    {
+      "name": "芦苇河畔",
+      "point": [
+        1280,
+        1494
+      ]
+    }
+  ]
+}

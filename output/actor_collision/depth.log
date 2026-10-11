@@ -1,0 +1,487 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+TEST OVERLAYS: menu variable type and unfinished furniture-store sign only
+DEPTH 1 tools inherit player depth: PASS
+DEPTH 2 town labels above world: PASS
+DEPTH 3 resident 0 feet origin: PASS
+DEPTH 4 resident 1 feet origin: PASS
+DEPTH 5 residents 1/0 distinct stations: PASS
+DEPTH 6 resident 2 feet origin: PASS
+DEPTH 7 residents 2/0 distinct stations: PASS
+DEPTH 8 residents 2/1 distinct stations: PASS
+DEPTH 9 resident 3 feet origin: PASS
+DEPTH 10 residents 3/0 distinct stations: PASS
+DEPTH 11 residents 3/1 distinct stations: PASS
+DEPTH 12 residents 3/2 distinct stations: PASS
+DEPTH 13 resident 4 feet origin: PASS
+DEPTH 14 residents 4/0 distinct stations: PASS
+DEPTH 15 residents 4/1 distinct stations: PASS
+DEPTH 16 residents 4/2 distinct stations: PASS
+DEPTH 17 residents 4/3 distinct stations: PASS
+DEPTH 18 resident 5 feet origin: PASS
+DEPTH 19 residents 5/0 distinct stations: PASS
+DEPTH 20 residents 5/1 distinct stations: PASS
+DEPTH 21 residents 5/2 distinct stations: PASS
+DEPTH 22 residents 5/3 distinct stations: PASS
+DEPTH 23 residents 5/4 distinct stations: PASS
+DEPTH 24 resident 6 feet origin: PASS
+DEPTH 25 residents 6/0 distinct stations: PASS
+DEPTH 26 residents 6/1 distinct stations: PASS
+DEPTH 27 residents 6/2 distinct stations: PASS
+DEPTH 28 residents 6/3 distinct stations: PASS
+DEPTH 29 residents 6/4 distinct stations: PASS
+DEPTH 30 residents 6/5 distinct stations: PASS
+DEPTH 31 resident 7 feet origin: PASS
+DEPTH 32 residents 7/0 distinct stations: PASS
+DEPTH 33 residents 7/1 distinct stations: PASS
+DEPTH 34 residents 7/2 distinct stations: PASS
+DEPTH 35 residents 7/3 distinct stations: PASS
+DEPTH 36 residents 7/4 distinct stations: PASS
+DEPTH 37 residents 7/5 distinct stations: PASS
+DEPTH 38 residents 7/6 distinct stations: PASS
+DEPTH 39 resident 8 feet origin: PASS
+DEPTH 40 residents 8/0 distinct stations: PASS
+DEPTH 41 residents 8/1 distinct stations: PASS
+DEPTH 42 residents 8/2 distinct stations: PASS
+DEPTH 43 residents 8/3 distinct stations: PASS
+DEPTH 44 residents 8/4 distinct stations: PASS
+DEPTH 45 residents 8/5 distinct stations: PASS
+DEPTH 46 residents 8/6 distinct stations: PASS
+DEPTH 47 residents 8/7 distinct stations: PASS
+DEPTH 48 resident 9 feet origin: PASS
+DEPTH 49 residents 9/0 distinct stations: PASS
+DEPTH 50 residents 9/1 distinct stations: PASS
+DEPTH 51 residents 9/2 distinct stations: PASS
+DEPTH 52 residents 9/3 distinct stations: PASS
+DEPTH 53 residents 9/4 distinct stations: PASS
+DEPTH 54 residents 9/5 distinct stations: PASS
+DEPTH 55 residents 9/6 distinct stations: PASS
+DEPTH 56 residents 9/7 distinct stations: PASS
+DEPTH 57 residents 9/8 distinct stations: PASS
+DEPTH 58 town shared feet sort: PASS
+DEPTH 59 town @StaticBody2D@7 actor depth: PASS
+DEPTH 60 town @StaticBody2D@10 actor depth: PASS
+DEPTH 61 town @StaticBody2D@13 actor depth: PASS
+DEPTH 62 town @StaticBody2D@16 actor depth: PASS
+DEPTH 63 town @StaticBody2D@19 actor depth: PASS
+DEPTH 64 town @StaticBody2D@22 actor depth: PASS
+DEPTH 65 town @StaticBody2D@25 actor depth: PASS
+DEPTH 66 town @StaticBody2D@28 actor depth: PASS
+DEPTH 67 town @StaticBody2D@31 actor depth: PASS
+DEPTH 68 town @Node2D@34 actor depth: PASS
+DEPTH 69 town @Node2D@36 actor depth: PASS
+DEPTH 70 town @StaticBody2D@38 actor depth: PASS
+DEPTH 71 town @StaticBody2D@41 actor depth: PASS
+DEPTH 72 town @Node2D@44 actor depth: PASS
+DEPTH 73 town @StaticBody2D@46 actor depth: PASS
+DEPTH 74 town @Node2D@49 actor depth: PASS
+DEPTH 75 town @StaticBody2D@51 actor depth: PASS
+DEPTH 76 town @Node2D@54 actor depth: PASS
+DEPTH 77 town @StaticBody2D@56 actor depth: PASS
+DEPTH 78 town @StaticBody2D@59 actor depth: PASS
+DEPTH 79 town @StaticBody2D@62 actor depth: PASS
+DEPTH 80 town @Node2D@65 actor depth: PASS
+DEPTH 81 town @StaticBody2D@67 actor depth: PASS
+DEPTH 82 town @Node2D@70 actor depth: PASS
+DEPTH 83 town @StaticBody2D@72 actor depth: PASS
+DEPTH 84 town @StaticBody2D@75 actor depth: PASS
+DEPTH 85 town @StaticBody2D@78 actor depth: PASS
+DEPTH 86 town @StaticBody2D@81 actor depth: PASS
+DEPTH 87 town @Node2D@84 actor depth: PASS
+DEPTH 88 town @Node2D@86 actor depth: PASS
+DEPTH 89 town @StaticBody2D@88 actor depth: PASS
+DEPTH 90 town @StaticBody2D@91 actor depth: PASS
+DEPTH 91 town @Node2D@94 actor depth: PASS
+DEPTH 92 town @StaticBody2D@96 actor depth: PASS
+DEPTH 93 town @Node2D@99 actor depth: PASS
+DEPTH 94 town @StaticBody2D@101 actor depth: PASS
+DEPTH 95 town @Node2D@104 actor depth: PASS
+DEPTH 96 town @StaticBody2D@106 actor depth: PASS
+DEPTH 97 town @Node2D@109 actor depth: PASS
+DEPTH 98 town @StaticBody2D@111 actor depth: PASS
+DEPTH 99 town @StaticBody2D@114 actor depth: PASS
+DEPTH 100 town @Node2D@117 actor depth: PASS
+DEPTH 101 town @StaticBody2D@119 actor depth: PASS
+DEPTH 102 town @StaticBody2D@122 actor depth: PASS
+DEPTH 103 town @Node2D@125 actor depth: PASS
+DEPTH 104 town @Node2D@127 actor depth: PASS
+DEPTH 105 town @StaticBody2D@129 actor depth: PASS
+DEPTH 106 town @StaticBody2D@132 actor depth: PASS
+DEPTH 107 town @StaticBody2D@135 actor depth: PASS
+DEPTH 108 town @StaticBody2D@138 actor depth: PASS
+DEPTH 109 town @Node2D@141 actor depth: PASS
+DEPTH 110 town @Node2D@143 actor depth: PASS
+DEPTH 111 town @Node2D@145 actor depth: PASS
+DEPTH 112 town @StaticBody2D@147 actor depth: PASS
+DEPTH 113 town @StaticBody2D@150 actor depth: PASS
+DEPTH 114 town @StaticBody2D@153 actor depth: PASS
+DEPTH 115 town @StaticBody2D@156 actor depth: PASS
+DEPTH 116 town @StaticBody2D@159 actor depth: PASS
+DEPTH 117 town @Node2D@162 actor depth: PASS
+DEPTH 118 town @Node2D@164 actor depth: PASS
+DEPTH 119 town @StaticBody2D@166 actor depth: PASS
+DEPTH 120 town @StaticBody2D@169 actor depth: PASS
+DEPTH 121 town @StaticBody2D@172 actor depth: PASS
+DEPTH 122 town @StaticBody2D@175 actor depth: PASS
+DEPTH 123 town @StaticBody2D@178 actor depth: PASS
+DEPTH 124 town @StaticBody2D@181 actor depth: PASS
+DEPTH 125 town @StaticBody2D@184 actor depth: PASS
+DEPTH 126 town @StaticBody2D@187 actor depth: PASS
+DEPTH 127 town @StaticBody2D@190 actor depth: PASS
+DEPTH 128 town @StaticBody2D@193 actor depth: PASS
+DEPTH 129 town @StaticBody2D@196 actor depth: PASS
+DEPTH 130 town @StaticBody2D@199 actor depth: PASS
+DEPTH 131 town @StaticBody2D@202 actor depth: PASS
+DEPTH 132 town @StaticBody2D@205 actor depth: PASS
+DEPTH 133 town @StaticBody2D@208 actor depth: PASS
+DEPTH 134 town @StaticBody2D@211 actor depth: PASS
+DEPTH 135 town @StaticBody2D@214 actor depth: PASS
+DEPTH 136 town @StaticBody2D@217 actor depth: PASS
+DEPTH 137 town @StaticBody2D@220 actor depth: PASS
+DEPTH 138 town @StaticBody2D@223 actor depth: PASS
+DEPTH 139 town @StaticBody2D@226 actor depth: PASS
+DEPTH 140 town @StaticBody2D@229 actor depth: PASS
+DEPTH 141 town @StaticBody2D@232 actor depth: PASS
+DEPTH 142 town @StaticBody2D@235 actor depth: PASS
+DEPTH 143 town @Node2D@238 actor depth: PASS
+DEPTH 144 town @Node2D@240 actor depth: PASS
+DEPTH 145 town @Node2D@242 actor depth: PASS
+DEPTH 146 town @Node2D@244 actor depth: PASS
+DEPTH 147 town @Node2D@246 actor depth: PASS
+DEPTH 148 town @Node2D@248 actor depth: PASS
+DEPTH 149 town @Node2D@250 actor depth: PASS
+DEPTH 150 town @StaticBody2D@252 actor depth: PASS
+DEPTH 151 town @Node2D@726 actor depth: PASS
+DEPTH 152 town @Node2D@729 actor depth: PASS
+DEPTH 153 town @Node2D@732 actor depth: PASS
+DEPTH 154 town @Node2D@735 actor depth: PASS
+DEPTH 155 town @Node2D@738 actor depth: PASS
+DEPTH 156 town @Node2D@741 actor depth: PASS
+DEPTH 157 town @Node2D@744 actor depth: PASS
+DEPTH 158 town Resident_mori actor depth: PASS
+DEPTH 159 town Resident_ember actor depth: PASS
+DEPTH 160 town Resident_nagi actor depth: PASS
+DEPTH 161 town Resident_lumi actor depth: PASS
+DEPTH 162 town Resident_aster actor depth: PASS
+DEPTH 163 town Resident_toma actor depth: PASS
+DEPTH 164 town Resident_pip actor depth: PASS
+DEPTH 165 town Resident_reed actor depth: PASS
+DEPTH 166 town Resident_yuki actor depth: PASS
+DEPTH 167 town Resident_orla actor depth: PASS
+DEPTH 168 field shared feet sort: PASS
+DEPTH 169 field @StaticBody2D@854 actor depth: PASS
+DEPTH 170 field @StaticBody2D@860 actor depth: PASS
+DEPTH 171 field @StaticBody2D@860 resource bar above foliage: PASS
+DEPTH 172 field @StaticBody2D@864 actor depth: PASS
+DEPTH 173 field @StaticBody2D@864 resource bar above foliage: PASS
+DEPTH 174 field @StaticBody2D@868 actor depth: PASS
+DEPTH 175 field @StaticBody2D@868 resource bar above foliage: PASS
+DEPTH 176 field @StaticBody2D@872 actor depth: PASS
+DEPTH 177 field @StaticBody2D@872 resource bar above foliage: PASS
+DEPTH 178 field @StaticBody2D@876 actor depth: PASS
+DEPTH 179 field @StaticBody2D@876 resource bar above foliage: PASS
+DEPTH 180 field @StaticBody2D@877 actor depth: PASS
+DEPTH 181 field @StaticBody2D@883 actor depth: PASS
+DEPTH 182 field @StaticBody2D@883 resource bar above foliage: PASS
+DEPTH 183 field @StaticBody2D@884 actor depth: PASS
+DEPTH 184 field @StaticBody2D@887 actor depth: PASS
+DEPTH 185 field @Node2D@890 actor depth: PASS
+DEPTH 186 field @Node2D@892 actor depth: PASS
+DEPTH 187 field @Node2D@894 actor depth: PASS
+DEPTH 188 field @Node2D@896 actor depth: PASS
+DEPTH 189 field @Node2D@898 actor depth: PASS
+DEPTH 190 field @Node2D@900 actor depth: PASS
+DEPTH 191 field @Node2D@902 actor depth: PASS
+DEPTH 192 field @Node2D@904 actor depth: PASS
+DEPTH 193 field @StaticBody2D@906 actor depth: PASS
+DEPTH 194 field @StaticBody2D@912 actor depth: PASS
+DEPTH 195 field @StaticBody2D@912 resource bar above foliage: PASS
+DEPTH 196 field @StaticBody2D@916 actor depth: PASS
+DEPTH 197 field @StaticBody2D@916 resource bar above foliage: PASS
+DEPTH 198 field @StaticBody2D@920 actor depth: PASS
+DEPTH 199 field @StaticBody2D@920 resource bar above foliage: PASS
+DEPTH 200 field @Node2D@921 actor depth: PASS
+DEPTH 201 field @Node2D@923 actor depth: PASS
+DEPTH 202 field @Node2D@925 actor depth: PASS
+DEPTH 203 field @Node2D@927 actor depth: PASS
+DEPTH 204 field @Node2D@929 actor depth: PASS
+DEPTH 205 field @Node2D@931 actor depth: PASS
+DEPTH 206 field @Node2D@933 actor depth: PASS
+DEPTH 207 field @Node2D@935 actor depth: PASS
+DEPTH 208 field Gather_0 actor depth: PASS
+DEPTH 209 field Gather_1 actor depth: PASS
+DEPTH 210 field Gather_2 actor depth: PASS
+DEPTH 211 field Gather_3 actor depth: PASS
+DEPTH 212 field Gather_4 actor depth: PASS
+DEPTH 213 field Gather_5 actor depth: PASS
+DEPTH 214 field Gather_6 actor depth: PASS
+DEPTH 215 field Gather_7 actor depth: PASS
+DEPTH 216 field Gather_8 actor depth: PASS
+DEPTH 217 dock shared feet sort: PASS
+DEPTH 218 dock @StaticBody2D@954 actor depth: PASS
+DEPTH 219 dock @StaticBody2D@957 actor depth: PASS
+DEPTH 220 dock @StaticBody2D@960 actor depth: PASS
+DEPTH 221 dock @Node2D@963 actor depth: PASS
+DEPTH 222 dock @StaticBody2D@965 actor depth: PASS
+DEPTH 223 dock @StaticBody2D@968 actor depth: PASS
+DEPTH 224 dock @StaticBody2D@971 actor depth: PASS
+DEPTH 225 dock @StaticBody2D@974 actor depth: PASS
+DEPTH 226 dock @Node2D@977 actor depth: PASS
+DEPTH 227 dock @Node2D@979 actor depth: PASS
+DEPTH 228 dock @Node2D@981 actor depth: PASS
+DEPTH 229 dock @StaticBody2D@983 actor depth: PASS
+DEPTH 230 dock @StaticBody2D@986 actor depth: PASS
+DEPTH 231 dock @StaticBody2D@989 actor depth: PASS
+DEPTH 232 dock @StaticBody2D@992 actor depth: PASS
+DEPTH 233 dock @StaticBody2D@995 actor depth: PASS
+DEPTH 234 dock @StaticBody2D@998 actor depth: PASS
+DEPTH 235 dock @StaticBody2D@1001 actor depth: PASS
+DEPTH 236 dock @StaticBody2D@1004 actor depth: PASS
+DEPTH 237 dock @StaticBody2D@1007 actor depth: PASS
+DEPTH 238 dock @StaticBody2D@1010 actor depth: PASS
+DEPTH 239 dock @StaticBody2D@1016 actor depth: PASS
+DEPTH 240 dock @StaticBody2D@1016 resource bar above foliage: PASS
+DEPTH 241 dock @StaticBody2D@1020 actor depth: PASS
+DEPTH 242 dock @StaticBody2D@1020 resource bar above foliage: PASS
+DEPTH 243 dock @StaticBody2D@1024 actor depth: PASS
+DEPTH 244 dock @StaticBody2D@1024 resource bar above foliage: PASS
+DEPTH 245 home shared feet sort: PASS
+DEPTH 246 blacksmith shared feet sort: PASS
+DEPTH 247 blacksmith smith_furnace actor depth: PASS
+DEPTH 248 blacksmith smith_rack actor depth: PASS
+DEPTH 249 blacksmith smith_bellows actor depth: PASS
+DEPTH 250 blacksmith smith_workbench actor depth: PASS
+DEPTH 251 blacksmith smith_anvil actor depth: PASS
+DEPTH 252 blacksmith smith_quench actor depth: PASS
+DEPTH 253 blacksmith smith_ore_bin actor depth: PASS
+DEPTH 254 store shared feet sort: PASS
+DEPTH 255 store store_shelves actor depth: PASS
+DEPTH 256 store store_dry_shelves actor depth: PASS
+DEPTH 257 store @StaticBody2D@1110 actor depth: PASS
+DEPTH 258 store store_counter actor depth: PASS
+DEPTH 259 store store_sacks actor depth: PASS
+DEPTH 260 store store_produce actor depth: PASS
+DEPTH 261 farm shared feet sort: PASS
+DEPTH 262 farm @StaticBody2D@1137 actor depth: PASS
+DEPTH 263 farm @StaticBody2D@1140 actor depth: PASS
+DEPTH 264 farm @StaticBody2D@1143 actor depth: PASS
+DEPTH 265 farm @StaticBody2D@1146 actor depth: PASS
+DEPTH 266 farm @StaticBody2D@1149 actor depth: PASS
+DEPTH 267 farm @StaticBody2D@1152 actor depth: PASS
+DEPTH 268 farm @StaticBody2D@1155 actor depth: PASS
+DEPTH 269 farm @StaticBody2D@1158 actor depth: PASS
+DEPTH 270 farm @StaticBody2D@1161 actor depth: PASS
+DEPTH 271 farm @StaticBody2D@1164 actor depth: PASS
+DEPTH 272 farm @StaticBody2D@1167 actor depth: PASS
+DEPTH 273 farm @StaticBody2D@1170 actor depth: PASS
+DEPTH 274 farm @StaticBody2D@1173 actor depth: PASS
+DEPTH 275 farm @StaticBody2D@1176 actor depth: PASS
+DEPTH 276 farm @StaticBody2D@1179 actor depth: PASS
+DEPTH 277 farm @StaticBody2D@1182 actor depth: PASS
+DEPTH 278 farm @StaticBody2D@1185 actor depth: PASS
+DEPTH 279 farm @StaticBody2D@1188 actor depth: PASS
+DEPTH 280 farm @StaticBody2D@1191 actor depth: PASS
+DEPTH 281 farm @Node2D@1194 actor depth: PASS
+DEPTH 282 farm @StaticBody2D@1196 actor depth: PASS
+DEPTH 283 farm @StaticBody2D@1199 actor depth: PASS
+DEPTH 284 farm @StaticBody2D@1202 actor depth: PASS
+DEPTH 285 farm @StaticBody2D@1205 actor depth: PASS
+DEPTH 286 farm @StaticBody2D@1208 actor depth: PASS
+DEPTH 287 farm @StaticBody2D@1211 actor depth: PASS
+DEPTH 288 farm @Node2D@1214 actor depth: PASS
+DEPTH 289 farm @Node2D@1216 actor depth: PASS
+DEPTH 290 farm @Node2D@1218 actor depth: PASS
+DEPTH 291 farm @Node2D@1220 actor depth: PASS
+DEPTH 292 crop 0 independent ground contact: PASS
+DEPTH 293 crop 1 independent ground contact: PASS
+DEPTH 294 harvest removes crop visuals: PASS
+DEPTH 295 grove labels above foliage: PASS
+DEPTH 296 grove shared feet sort: PASS
+DEPTH 297 grove Gather_0 actor depth: PASS
+DEPTH 298 grove Gather_1 actor depth: PASS
+DEPTH 299 grove Gather_2 actor depth: PASS
+DEPTH 300 grove Gather_3 actor depth: PASS
+DEPTH 301 grove Gather_4 actor depth: PASS
+DEPTH 302 grove Gather_5 actor depth: PASS
+DEPTH 303 grove @StaticBody2D@1251 actor depth: PASS
+DEPTH 304 grove @StaticBody2D@1251 resource bar above foliage: PASS
+DEPTH 305 grove @StaticBody2D@1255 actor depth: PASS
+DEPTH 306 grove @StaticBody2D@1255 resource bar above foliage: PASS
+DEPTH 307 grove @StaticBody2D@1259 actor depth: PASS
+DEPTH 308 grove @StaticBody2D@1259 resource bar above foliage: PASS
+DEPTH 309 grove @Sprite2D@1260 actor depth: PASS
+DEPTH 310 grove @Sprite2D@1261 actor depth: PASS
+DEPTH 311 grove @Sprite2D@1262 actor depth: PASS
+DEPTH 312 grove @Sprite2D@1263 actor depth: PASS
+DEPTH 313 quarry labels above foliage: PASS
+DEPTH 314 quarry shared feet sort: PASS
+DEPTH 315 quarry Gather_0 actor depth: PASS
+DEPTH 316 quarry Gather_1 actor depth: PASS
+DEPTH 317 quarry Gather_2 actor depth: PASS
+DEPTH 318 quarry Gather_3 actor depth: PASS
+DEPTH 319 quarry Gather_4 actor depth: PASS
+DEPTH 320 quarry Gather_5 actor depth: PASS
+DEPTH 321 quarry @StaticBody2D@1251 actor depth: PASS
+DEPTH 322 quarry @StaticBody2D@1251 resource bar above foliage: PASS
+DEPTH 323 quarry @StaticBody2D@1255 actor depth: PASS
+DEPTH 324 quarry @StaticBody2D@1255 resource bar above foliage: PASS
+DEPTH 325 quarry @StaticBody2D@1259 actor depth: PASS
+DEPTH 326 quarry @StaticBody2D@1259 resource bar above foliage: PASS
+DEPTH 327 quarry @Sprite2D@1260 actor depth: PASS
+DEPTH 328 quarry @Sprite2D@1261 actor depth: PASS
+DEPTH 329 quarry @Sprite2D@1262 actor depth: PASS
+DEPTH 330 quarry @Sprite2D@1263 actor depth: PASS
+DEPTH 331 marsh labels above foliage: PASS
+DEPTH 332 marsh shared feet sort: PASS
+DEPTH 333 marsh Gather_0 actor depth: PASS
+DEPTH 334 marsh Gather_1 actor depth: PASS
+DEPTH 335 marsh Gather_2 actor depth: PASS
+DEPTH 336 marsh Gather_3 actor depth: PASS
+DEPTH 337 marsh Gather_4 actor depth: PASS
+DEPTH 338 marsh Gather_5 actor depth: PASS
+DEPTH 339 marsh @StaticBody2D@1251 actor depth: PASS
+DEPTH 340 marsh @StaticBody2D@1251 resource bar above foliage: PASS
+DEPTH 341 marsh @StaticBody2D@1255 actor depth: PASS
+DEPTH 342 marsh @StaticBody2D@1255 resource bar above foliage: PASS
+DEPTH 343 marsh @StaticBody2D@1259 actor depth: PASS
+DEPTH 344 marsh @StaticBody2D@1259 resource bar above foliage: PASS
+DEPTH 345 marsh @Sprite2D@1260 actor depth: PASS
+DEPTH 346 marsh @Sprite2D@1261 actor depth: PASS
+DEPTH 347 marsh @Sprite2D@1262 actor depth: PASS
+DEPTH 348 marsh @Sprite2D@1263 actor depth: PASS
+DEPTH 349 ruins labels above foliage: PASS
+DEPTH 350 ruins shared feet sort: PASS
+DEPTH 351 ruins Gather_0 actor depth: PASS
+DEPTH 352 ruins Gather_1 actor depth: PASS
+DEPTH 353 ruins Gather_2 actor depth: PASS
+DEPTH 354 ruins Gather_3 actor depth: PASS
+DEPTH 355 ruins Gather_4 actor depth: PASS
+DEPTH 356 ruins Gather_5 actor depth: PASS
+DEPTH 357 ruins @StaticBody2D@1251 actor depth: PASS
+DEPTH 358 ruins @StaticBody2D@1251 resource bar above foliage: PASS
+DEPTH 359 ruins @StaticBody2D@1255 actor depth: PASS
+DEPTH 360 ruins @StaticBody2D@1255 resource bar above foliage: PASS
+DEPTH 361 ruins @StaticBody2D@1259 actor depth: PASS
+DEPTH 362 ruins @StaticBody2D@1259 resource bar above foliage: PASS
+DEPTH 363 ruins @Sprite2D@1260 actor depth: PASS
+DEPTH 364 ruins @Sprite2D@1261 actor depth: PASS
+DEPTH 365 ruins @Sprite2D@1262 actor depth: PASS
+DEPTH 366 ruins @Sprite2D@1263 actor depth: PASS
+DEPTH 367 ridge labels above foliage: PASS
+DEPTH 368 ridge shared feet sort: PASS
+DEPTH 369 ridge Gather_0 actor depth: PASS
+DEPTH 370 ridge Gather_1 actor depth: PASS
+DEPTH 371 ridge Gather_2 actor depth: PASS
+DEPTH 372 ridge Gather_3 actor depth: PASS
+DEPTH 373 ridge Gather_4 actor depth: PASS
+DEPTH 374 ridge Gather_5 actor depth: PASS
+DEPTH 375 ridge @StaticBody2D@1251 actor depth: PASS
+DEPTH 376 ridge @StaticBody2D@1251 resource bar above foliage: PASS
+DEPTH 377 ridge @StaticBody2D@1255 actor depth: PASS
+DEPTH 378 ridge @StaticBody2D@1255 resource bar above foliage: PASS
+DEPTH 379 ridge @StaticBody2D@1259 actor depth: PASS
+DEPTH 380 ridge @StaticBody2D@1259 resource bar above foliage: PASS
+DEPTH 381 ridge @Sprite2D@1260 actor depth: PASS
+DEPTH 382 ridge @Sprite2D@1261 actor depth: PASS
+DEPTH 383 ridge @Sprite2D@1262 actor depth: PASS
+DEPTH 384 ridge @Sprite2D@1263 actor depth: PASS
+DEPTH 385 observatory labels above foliage: PASS
+DEPTH 386 observatory shared feet sort: PASS
+DEPTH 387 observatory Gather_0 actor depth: PASS
+DEPTH 388 observatory Gather_1 actor depth: PASS
+DEPTH 389 observatory Gather_2 actor depth: PASS
+DEPTH 390 observatory Gather_3 actor depth: PASS
+DEPTH 391 observatory Gather_4 actor depth: PASS
+DEPTH 392 observatory Gather_5 actor depth: PASS
+DEPTH 393 observatory @StaticBody2D@1251 actor depth: PASS
+DEPTH 394 observatory @StaticBody2D@1251 resource bar above foliage: PASS
+DEPTH 395 observatory @StaticBody2D@1255 actor depth: PASS
+DEPTH 396 observatory @StaticBody2D@1255 resource bar above foliage: PASS
+DEPTH 397 observatory @StaticBody2D@1259 actor depth: PASS
+DEPTH 398 observatory @StaticBody2D@1259 resource bar above foliage: PASS
+DEPTH 399 observatory @Sprite2D@1260 actor depth: PASS
+DEPTH 400 observatory @Sprite2D@1261 actor depth: PASS
+DEPTH 401 observatory @Sprite2D@1262 actor depth: PASS
+DEPTH 402 observatory @Sprite2D@1263 actor depth: PASS
+DEPTH 403 decor oak_chair individually sorted: PASS
+DEPTH 404 decor round_table individually sorted: PASS
+DEPTH 405 decor velvet_chair individually sorted: PASS
+DEPTH 406 decor moon_table individually sorted: PASS
+DEPTH 407 decor oak_bed individually sorted: PASS
+DEPTH 408 decor moon_bed individually sorted: PASS
+DEPTH 409 decor bookcase individually sorted: PASS
+DEPTH 410 decor tea_shelf individually sorted: PASS
+DEPTH 411 decor cupboard individually sorted: PASS
+DEPTH 412 decor pantry individually sorted: PASS
+DEPTH 413 decor lantern individually sorted: PASS
+DEPTH 414 decor floor_lamp individually sorted: PASS
+DEPTH 415 decor flowerpot individually sorted: PASS
+DEPTH 416 decor tea_planter individually sorted: PASS
+DEPTH 417 decor rug individually sorted: PASS
+DEPTH 418 rug rug lies under actors: PASS
+DEPTH 419 decor star_rug individually sorted: PASS
+DEPTH 420 rug star_rug lies under actors: PASS
+DEPTH 421 decor wall_clock individually sorted: PASS
+DEPTH 422 decor painting individually sorted: PASS
+DEPTH 423 decor sofa individually sorted: PASS
+DEPTH 424 decor bench individually sorted: PASS
+DEPTH 425 decor aquarium individually sorted: PASS
+DEPTH 426 decor fountain individually sorted: PASS
+DEPTH 427 decor sign individually sorted: PASS
+DEPTH 428 decor trophy individually sorted: PASS
+DEPTH 429 restaurant ground separate: PASS
+DEPTH 430 restaurant 0 matching table collision: PASS
+DEPTH 431 table 0/0 visibility and collision: PASS
+DEPTH 432 table 0/1 visibility and collision: PASS
+DEPTH 433 table 0/2 visibility and collision: PASS
+DEPTH 434 table 0/3 visibility and collision: PASS
+DEPTH 435 table 0/4 visibility and collision: PASS
+DEPTH 436 table 0/5 visibility and collision: PASS
+DEPTH 437 restaurant 1 matching table collision: PASS
+DEPTH 438 table 1/0 visibility and collision: PASS
+DEPTH 439 table 1/1 visibility and collision: PASS
+DEPTH 440 table 1/2 visibility and collision: PASS
+DEPTH 441 table 1/3 visibility and collision: PASS
+DEPTH 442 table 1/4 visibility and collision: PASS
+DEPTH 443 table 1/5 visibility and collision: PASS
+DEPTH 444 restaurant 2 matching table collision: PASS
+DEPTH 445 table 2/0 visibility and collision: PASS
+DEPTH 446 table 2/1 visibility and collision: PASS
+DEPTH 447 table 2/2 visibility and collision: PASS
+DEPTH 448 table 2/3 visibility and collision: PASS
+DEPTH 449 table 2/4 visibility and collision: PASS
+DEPTH 450 table 2/5 visibility and collision: PASS
+DEPTH 451 restaurant 3 matching table collision: PASS
+DEPTH 452 table 3/0 visibility and collision: PASS
+DEPTH 453 table 3/1 visibility and collision: PASS
+DEPTH 454 table 3/2 visibility and collision: PASS
+DEPTH 455 table 3/3 visibility and collision: PASS
+DEPTH 456 table 3/4 visibility and collision: PASS
+DEPTH 457 table 3/5 visibility and collision: PASS
+DEPTH 458 restaurant 4 matching table collision: PASS
+DEPTH 459 table 4/0 visibility and collision: PASS
+DEPTH 460 table 4/1 visibility and collision: PASS
+DEPTH 461 table 4/2 visibility and collision: PASS
+DEPTH 462 table 4/3 visibility and collision: PASS
+DEPTH 463 table 4/4 visibility and collision: PASS
+DEPTH 464 table 4/5 visibility and collision: PASS
+DEPTH 465 restaurant shared feet sort: PASS
+DEPTH 466 restaurant PrepCounter actor depth: PASS
+DEPTH 467 restaurant KitchenCounter actor depth: PASS
+DEPTH 468 restaurant Table_0 actor depth: PASS
+DEPTH 469 restaurant Guest_0 actor depth: PASS
+DEPTH 470 restaurant Table_1 actor depth: PASS
+DEPTH 471 restaurant Guest_1 actor depth: PASS
+DEPTH 472 restaurant Table_2 actor depth: PASS
+DEPTH 473 restaurant Guest_2 actor depth: PASS
+DEPTH 474 restaurant Table_3 actor depth: PASS
+DEPTH 475 restaurant Guest_3 actor depth: PASS
+DEPTH 476 restaurant Table_4 actor depth: PASS
+DEPTH 477 restaurant Guest_4 actor depth: PASS
+DEPTH 478 restaurant Table_5 actor depth: PASS
+DEPTH 479 restaurant Guest_5 actor depth: PASS
+DEPTH 480 held dish inherits player's feet: PASS
+DEPTH 481 restaurant orders above actors: PASS
+DEPTH 482 eating sprite frame: PASS
+DEPTH 483 departed guests disappear: PASS
+DEPTH COMPLETE checks=483 failures=0 unique_kinds=205

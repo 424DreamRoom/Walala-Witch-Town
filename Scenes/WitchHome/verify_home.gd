@@ -28,15 +28,8 @@ func key(code: int) -> void:
 		await frames()
 
 func walk_to(target: Vector2) -> void:
-	var count := 0
-	while lane.player.position.distance_to(target) > 2.0 and count < 600:
-		var diff: Vector2 = target - lane.player.position
-		lane.test_direction = Vector2(signf(diff.x), 0) if absf(diff.x) > 1.5 else Vector2(0, signf(diff.y))
-		await physics_frame
-		count += 1
-	lane.test_direction = Vector2.ZERO
-	await physics_frame
-	check("walk " + str(target), lane.player.position.distance_to(target) < 3.0)
+	var arrived: bool = await preload("res://Scenes/LanternLane/verification_navigation.gd").walk(lane, target)
+	check("real walk to " + str(target), arrived)
 
 func shot(title: String) -> void:
 	if not capture:
@@ -56,12 +49,15 @@ func run() -> void:
 	lane.automation = true
 	loop = lane.get_node("GameLoop")
 	loop.paused_for_test = true
+	# Retain the authored-home movement regression for migrated saves.
+	loop.state.furniture = preload("res://Scenes/Building/furniture_catalog.gd").legacy_data()
+	loop.enter("town")
 	loop.audio.music_muted = true
 	loop.audio.effects_muted = true
 	loop.audio.apply_volume()
 	check("new town textures", lane.ART == "res://Art/Environment/Hearthwood/")
-	check("character detailed native grid", lane.avatar.texture.get_size() == Vector2(160, 192) and lane.avatar.hframes == 5 and lane.avatar.vframes == 4)
-	check("character displayed at 32x48", lane.avatar.get_rect().size * lane.avatar.scale == Vector2(32, 48))
+	check("character detailed native grid", lane.avatar.texture.get_size() == lane.CHARACTER_SIZE * Vector2(5, 4) and lane.avatar.hframes == 5 and lane.avatar.vframes == 4)
+	check("character displayed at 32x32", lane.avatar.get_rect().size * lane.avatar.scale == lane.CHARACTER_SIZE)
 	check("character feet grounded", lane.avatar.position.y + lane.avatar.get_rect().end.y * lane.avatar.scale.y == 0)
 	check("town Y sorting", lane.actors.y_sort_enabled)
 	check("keyboard help removed", lane.viewport.get_node_or_null("TownHints") == null)
@@ -69,16 +65,20 @@ func run() -> void:
 	check("town HUD compact", loop.backgrounds[0].size.y == 26 and not loop.notice.visible and not loop.backgrounds[2].visible)
 	check("distant house label hidden", not loop.gate_labels[2].visible)
 	await shot("town_spawn")
-	await walk_to(Vector2(224, 364))
-	await walk_to(loop.HOME_GATE)
-	check("nearby house label visible", loop.gate_labels[2].visible)
+	await walk_to(loop.FARM_GATE + Vector2(34, 0))
+	check("nearby farm label visible", loop.gate_labels[2].visible)
+	await walk_to(loop.FARM_GATE)
+	check("farm contains relocated house", loop.location == "farm")
+	await walk_to(loop.area.stations.home + Vector2(0, 20))
 	await shot("home_exterior")
 	lane.weather.set_weather("rain")
 	await frames()
 	check("outdoor rain", loop.audio.current_ambient == "rain")
-	var return_position: Vector2 = lane.player.position
+	var return_position: Vector2 = loop.HOME_EXIT_POSITION
+	await walk_to(loop.area.stations.home)
+	check("walking to house door stays on farm", loop.location == "farm")
 	await key(KEY_E)
-	check("E enters home", loop.location == "home")
+	check("interacting enters home", loop.location == "home")
 	if loop.location != "home":
 		quit(1)
 		return
@@ -103,11 +103,12 @@ func run() -> void:
 	await key(KEY_R)
 	check("home R safe spawn", lane.player.position == loop.area.spawn)
 	await walk_to(loop.area.stations.exit)
+	check("walking to exit stays home", loop.location == "home")
 	await key(KEY_E)
-	check("E exits home", loop.location == "town" and lane.player.get_parent() == lane.actors)
-	check("town position restored", lane.player.position.distance_to(return_position) < 0.1)
-	check("town camera restored", lane.camera.limit_right == 1280 and lane.camera.limit_bottom == 960)
-	check("town stays uncluttered on return", not loop.sidebar_title.visible and not loop.inventory.visible and not loop.menu_buttons[0].visible)
+	check("interacting exits home to farm", loop.location == "farm" and lane.player.get_parent() == loop.area)
+	check("farm doorway restored", lane.player.position.distance_to(return_position) < 0.1)
+	check("farm camera restored", lane.camera.limit_right == 960 and lane.camera.limit_bottom == 720)
+	check("farm stays uncluttered on return", not loop.sidebar_title.visible and not loop.inventory.visible and not loop.menu_buttons[0].visible)
 	check("outdoor weather restores", lane.weather.visible and lane.weather.get_weather() == "rain" and loop.audio.current_ambient == "rain")
 	lane.weather.clear_weather()
 	loop.enter("home")
@@ -115,8 +116,11 @@ func run() -> void:
 	loop.state.tick(0.02)
 	loop._sync_phase()
 	await frames()
-	check("night transition from home", loop.location == "restaurant" and loop.state.phase == "night")
-	check("restaurant background", loop.area.background.resource_path.ends_with("restaurant_background.png"))
+	check("sunset preparation from home", loop.location == "restaurant" and loop.state.phase == "day" and loop.state.remaining == 0.0)
+	for dish in range(3): loop.state.set_menu_dish(dish, true)
+	loop.end_phase()
+	await frames()
+	check("restaurant background", loop.area.background.resource_path.ends_with("restaurant_ground.aseprite"))
 	check("all customer sheets loaded", loop.area.customer_sheets.size() == 6)
 	for sheet in loop.area.customer_sheets:
 		check("customer native frame grid", sheet.get_size() == Vector2(192, 48))
@@ -142,7 +146,7 @@ func run() -> void:
 	await shot("restaurant_menu")
 	loop.enter("field")
 	await frames()
-	check("field background", loop.area.background.resource_path.ends_with("field_background.png"))
+	check("field background", loop.area.background.resource_path.ends_with("field_background.aseprite"))
 	check("gather artwork", loop.area.gather_textures.size() == 4 and loop.area.gather_textures[0].get_size() == Vector2(32, 32))
 	check("field shows backpack only", loop.inventory.visible and not loop.sidebar_title.visible and not loop.menu_buttons[0].visible and not loop.cook_buttons[0].visible and loop.backgrounds[0].size.y == 46)
 	await shot("field")

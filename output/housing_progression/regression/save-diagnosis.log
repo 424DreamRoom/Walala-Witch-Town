@@ -1,0 +1,155 @@
+WorkerThreadPool: 16 threads, 4 max low-priority.
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+Loading resource: res://Art/UI/FramewrightLite/themes/walala_theme.tres remapped: res://Art/UI/FramewrightLite/themes/walala_theme.tres
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png
+Loading resource: res://.godot/imported/button_normal.png-531ec4017533c7c0cba08cf4fc3573e1.ctex remapped: res://.godot/imported/button_normal.png-531ec4017533c7c0cba08cf4fc3573e1.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png
+Loading resource: res://.godot/imported/button_hover.png-9eeeacf584e2ed9e01406d892171648f.ctex remapped: res://.godot/imported/button_hover.png-9eeeacf584e2ed9e01406d892171648f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png
+Loading resource: res://.godot/imported/button_pressed.png-23c8735604398720bc6b17cc6333eb0e.ctex remapped: res://.godot/imported/button_pressed.png-23c8735604398720bc6b17cc6333eb0e.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png
+Loading resource: res://.godot/imported/button_disabled.png-19fb1c8d9aa1122d51df357ae9cd923b.ctex remapped: res://.godot/imported/button_disabled.png-19fb1c8d9aa1122d51df357ae9cd923b.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png
+Loading resource: res://.godot/imported/focus_ring.png-72a35a5666634a146b75ebbc6479300f.ctex remapped: res://.godot/imported/focus_ring.png-72a35a5666634a146b75ebbc6479300f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png
+Loading resource: res://.godot/imported/dropdown_arrow.png-21f6dd415067572ec51da0f30ccb58cc.ctex remapped: res://.godot/imported/dropdown_arrow.png-21f6dd415067572ec51da0f30ccb58cc.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png
+Loading resource: res://.godot/imported/checkbox_on.png-0c1738fa3dbcfa5e6bea97696113fdd2.ctex remapped: res://.godot/imported/checkbox_on.png-0c1738fa3dbcfa5e6bea97696113fdd2.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png
+Loading resource: res://.godot/imported/checkbox_off.png-2ca229aad6bd2b3cb2c03bcad10b07d5.ctex remapped: res://.godot/imported/checkbox_off.png-2ca229aad6bd2b3cb2c03bcad10b07d5.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png
+Loading resource: res://.godot/imported/checkbox_on_disabled.png-c1abe627d116a725c150f5a7dc7e7d67.ctex remapped: res://.godot/imported/checkbox_on_disabled.png-c1abe627d116a725c150f5a7dc7e7d67.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png
+Loading resource: res://.godot/imported/checkbox_off_disabled.png-48297a030f8b5db78e1425eb3c656568.ctex remapped: res://.godot/imported/checkbox_off_disabled.png-48297a030f8b5db78e1425eb3c656568.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png
+Loading resource: res://.godot/imported/radio_on.png-92d4a2fd8c443eec9917ea6b80f33f59.ctex remapped: res://.godot/imported/radio_on.png-92d4a2fd8c443eec9917ea6b80f33f59.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png
+Loading resource: res://.godot/imported/radio_off.png-1c1679eba5a20624c3c822acc603ebe3.ctex remapped: res://.godot/imported/radio_off.png-1c1679eba5a20624c3c822acc603ebe3.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png
+Loading resource: res://.godot/imported/radio_on_disabled.png-e4de94e6bd49c478efd12ef009821d09.ctex remapped: res://.godot/imported/radio_on_disabled.png-e4de94e6bd49c478efd12ef009821d09.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png
+Loading resource: res://.godot/imported/radio_off_disabled.png-bd8f2b7b26c08db9f7b8f25e6a25253f.ctex remapped: res://.godot/imported/radio_off_disabled.png-bd8f2b7b26c08db9f7b8f25e6a25253f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png
+Loading resource: res://.godot/imported/toggle_on.png-2c9b465fedf174693e87089110486357.ctex remapped: res://.godot/imported/toggle_on.png-2c9b465fedf174693e87089110486357.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png
+Loading resource: res://.godot/imported/toggle_off.png-be416b7cd121d6ca5394c406d9472ff4.ctex remapped: res://.godot/imported/toggle_off.png-be416b7cd121d6ca5394c406d9472ff4.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png
+Loading resource: res://.godot/imported/toggle_on_disabled.png-fa2444ceee8a734e787a6f514745541d.ctex remapped: res://.godot/imported/toggle_on_disabled.png-fa2444ceee8a734e787a6f514745541d.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png
+Loading resource: res://.godot/imported/toggle_off_disabled.png-b2e989dcd5f23bc905eb95f1d8efe83f.ctex remapped: res://.godot/imported/toggle_off_disabled.png-b2e989dcd5f23bc905eb95f1d8efe83f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png
+Loading resource: res://.godot/imported/panel_window.png-af399ca0f538986b7b3268f63cde8935.ctex remapped: res://.godot/imported/panel_window.png-af399ca0f538986b7b3268f63cde8935.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png
+Loading resource: res://.godot/imported/panel_flat.png-1fb037e906586268275461aee095081f.ctex remapped: res://.godot/imported/panel_flat.png-1fb037e906586268275461aee095081f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png
+Loading resource: res://.godot/imported/tooltip.png-bbc3c9de55a981eb1cd5c4f455976bab.ctex remapped: res://.godot/imported/tooltip.png-bbc3c9de55a981eb1cd5c4f455976bab.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png
+Loading resource: res://.godot/imported/input.png-dae268aaae64b06d556b6066c784758d.ctex remapped: res://.godot/imported/input.png-dae268aaae64b06d556b6066c784758d.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png
+Loading resource: res://.godot/imported/input_focus.png-222d0d1c88d952d8cd922004fb618409.ctex remapped: res://.godot/imported/input_focus.png-222d0d1c88d952d8cd922004fb618409.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png
+Loading resource: res://.godot/imported/bar_frame.png-959b404448c9e8c1828bb0a866296163.ctex remapped: res://.godot/imported/bar_frame.png-959b404448c9e8c1828bb0a866296163.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png
+Loading resource: res://.godot/imported/bar_fill_accent.png-d538f8e422ea70b3ff097e428483ca4c.ctex remapped: res://.godot/imported/bar_fill_accent.png-d538f8e422ea70b3ff097e428483ca4c.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png
+Loading resource: res://.godot/imported/slider_track.png-2a97f6f8945dd1ad97f569aa08d54135.ctex remapped: res://.godot/imported/slider_track.png-2a97f6f8945dd1ad97f569aa08d54135.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png
+Loading resource: res://.godot/imported/slider_fill.png-6f248ab0da7d21fb8b779e24b7c19483.ctex remapped: res://.godot/imported/slider_fill.png-6f248ab0da7d21fb8b779e24b7c19483.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png
+Loading resource: res://.godot/imported/slider_knob.png-838e9d4a5c36f46b18adba4bddf8e716.ctex remapped: res://.godot/imported/slider_knob.png-838e9d4a5c36f46b18adba4bddf8e716.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png
+Loading resource: res://.godot/imported/slider_knob_hover.png-89cd8b4aee65f2689bc8c17164cac47b.ctex remapped: res://.godot/imported/slider_knob_hover.png-89cd8b4aee65f2689bc8c17164cac47b.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png
+Loading resource: res://.godot/imported/slider_track_v.png-2dc5e3cd4824d318fd290e917c3d05a6.ctex remapped: res://.godot/imported/slider_track_v.png-2dc5e3cd4824d318fd290e917c3d05a6.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png
+Loading resource: res://.godot/imported/slider_fill_v.png-893345b6ae5c96d3c78434864f6f5e53.ctex remapped: res://.godot/imported/slider_fill_v.png-893345b6ae5c96d3c78434864f6f5e53.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png
+Loading resource: res://.godot/imported/scroll_track_v.png-a4e7f71638ff3618a8f9883798a32b88.ctex remapped: res://.godot/imported/scroll_track_v.png-a4e7f71638ff3618a8f9883798a32b88.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png
+Loading resource: res://.godot/imported/scroll_thumb_v.png-994e06cbc198aee2978bbf221fb70fb2.ctex remapped: res://.godot/imported/scroll_thumb_v.png-994e06cbc198aee2978bbf221fb70fb2.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png
+Loading resource: res://.godot/imported/scroll_thumb_v_hover.png-0506268d1278ac347a880ff0668183cb.ctex remapped: res://.godot/imported/scroll_thumb_v_hover.png-0506268d1278ac347a880ff0668183cb.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png
+Loading resource: res://.godot/imported/scroll_track_h.png-effeb75b1b6736cf0e5678767e60a015.ctex remapped: res://.godot/imported/scroll_track_h.png-effeb75b1b6736cf0e5678767e60a015.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png
+Loading resource: res://.godot/imported/scroll_thumb_h.png-e777fc5a3290aeee905f1ad1b9a7575c.ctex remapped: res://.godot/imported/scroll_thumb_h.png-e777fc5a3290aeee905f1ad1b9a7575c.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png
+Loading resource: res://.godot/imported/scroll_thumb_h_hover.png-64e8daff75e9192012955ca27a570859.ctex remapped: res://.godot/imported/scroll_thumb_h_hover.png-64e8daff75e9192012955ca27a570859.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png
+Loading resource: res://.godot/imported/tab_active.png-7307d7f120330c5270e8deee9d3c70af.ctex remapped: res://.godot/imported/tab_active.png-7307d7f120330c5270e8deee9d3c70af.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png
+Loading resource: res://.godot/imported/tab_inactive.png-f7b3f44c48d5a17a2c2758716ea622d4.ctex remapped: res://.godot/imported/tab_inactive.png-f7b3f44c48d5a17a2c2758716ea622d4.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png
+Loading resource: res://.godot/imported/tab_hover.png-853bcc2332c5acd14e11cf9f2d311bf9.ctex remapped: res://.godot/imported/tab_hover.png-853bcc2332c5acd14e11cf9f2d311bf9.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png
+Loading resource: res://.godot/imported/divider.png-7e19a7c35bb2f0f3cf7b957edf62ea6c.ctex remapped: res://.godot/imported/divider.png-7e19a7c35bb2f0f3cf7b957edf62ea6c.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png
+Loading resource: res://.godot/imported/divider_v.png-d384bf0c1049426129aeb2966cb02e29.ctex remapped: res://.godot/imported/divider_v.png-d384bf0c1049426129aeb2966cb02e29.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png
+Loading resource: res://.godot/imported/panel_inset.png-d5756f68aba328ad243b0bcad4ba43ad.ctex remapped: res://.godot/imported/panel_inset.png-d5756f68aba328ad243b0bcad4ba43ad.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png
+Loading resource: res://.godot/imported/button_focus.png-5624c22dc0fb9f4e4c840d836de7c019.ctex remapped: res://.godot/imported/button_focus.png-5624c22dc0fb9f4e4c840d836de7c019.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png' at thread -1
+Loading resource: res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf remapped: res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf
+Loading resource: res://.godot/imported/FusionPixel12Proportional.ttf-9e212c1e04cd73458eb580bfa386d6da.fontdata remapped: res://.godot/imported/FusionPixel12Proportional.ttf-9e212c1e04cd73458eb580bfa386d6da.fontdata
+Completed load for: 'res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf' remapped 'res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf' at thread -1
+Completed load for: 'res://Art/UI/FramewrightLite/themes/walala_theme.tres' remapped 'res://Art/UI/FramewrightLite/themes/walala_theme.tres' at thread -1
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: res://output/housing_progression/diagnose_saves.gd remapped: res://output/housing_progression/diagnose_saves.gd
+SCRIPT ERROR: Parse Error: Used space character for indentation instead of tab as used before in the file.
+   at: GDScript::reload (res://output/housing_progression/diagnose_saves.gd:33)
+ERROR: Failed to load script "res://output/housing_progression/diagnose_saves.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+Completed load for: 'res://output/housing_progression/diagnose_saves.gd' remapped 'res://output/housing_progression/diagnose_saves.gd' at thread -1
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

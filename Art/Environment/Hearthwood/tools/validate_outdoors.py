@@ -52,12 +52,13 @@ def main():
             assert (OUT / (p["kind"] + ".png")).is_file()
             if p.get("solid", True):
                 assert p["w"] > 0 and p["h"] > 0
-    destinations = [(408, 334), (448, 384), (224, 314)]
+    destinations = list(town.get("gates", {}).values()) or [(408, 334), (448, 384), (224, 314)]
     destinations += [(b["x"], b["y"] + 26) for b in town["buildings"]]
     destinations += [(408, 684), (808, 364), (808, 684)]
-    town_check = reachable(town["size"], town["buildings"] + town["props"], (408, 364), destinations, (16, 16, 1264, 944))
-    field_targets = [(105 + x * 135, 115 + y * 66) for y in range(3) for x in range(3)] + [(60, 280)]
-    field_check = reachable(field["size"], field["props"], (60, 280), field_targets, (8, 72, 432, 302))
+    water = [dict(x=x + w/2, y=y+h, w=w, h=h) for x, y, w, h in town.get("barriers", [])]
+    town_check = reachable(town["size"], town["buildings"] + town["props"] + water, (408, 364), destinations, (0, 0, *town["size"]))
+    field_targets = [(105 + x * 135, 115 + y * 66) for y in range(3) for x in range(3)] + [field["spawn"], field["exit"]]
+    field_check = reachable(field["size"], field["props"], field["spawn"], field_targets, (8, 72, 432, 360))
     report = {"status": "PASS", "native_sprites": len(names), "town_decorations": manifest["outdoors"]["town_decorations"], "town_navigation": town_check, "field_navigation": field_check, "method": "4px cardinal flood fill against expanded solid footprints; excludes decorative foliage"}
     if args.screens:
         screenshots = ["town_entry", "home_garden", "pond_street", "south_street", "field_entry", "field_gathering", "field_behind_tree", "field_front_tree"]

@@ -1,0 +1,16 @@
+{
+  "existing_runtime": {
+    "Scenes\\Campaign\\content.json": "54e9d39b1f23feb2a4ce7e929a3c231b385759577a5a80dd7799fab70c3adf87",
+    "Scenes\\Campaign\\content.gd": "15b57e3ac5181803b4d3113d95a70cd6774730551d2c72a73d63ada7e23fb71e",
+    "Scenes\\Campaign\\build_content.py": "b2b81fc17f0f8ef90c9577be4e935683455d120b0bec8e9d00c1b781c1210545",
+    "Scenes\\Campaign\\guide_profile.gd": "a519d991fc05c413ee7d71d4e370d2eb8b4bc94076d9a10fa8d662097e4f05ab",
+    "Scenes\\Campaign\\campaign_controller.gd": "74a96ecaa1fead7732ef08bcd6192949d77505dad72abf2358d88d32e3daf35a",
+    "Localization\\messages.tsv": "ecafa6bf9ff4683be5b6f3f9bc5b0a31726a630fffb5917147cf0d0a8fb20160",
+    "Localization\\catalog.gd": "3e7fd24423cdd88948d283c50cd7b8a507caee75cea58361702a8cba4adcd93f"
+  },
+  "myart": {
+    "MyArt\\Icon\\Food\\bread.aseprite": "a927c5cf7235037d950d872d55ab8b74d54bb5da19e24d628fe42cb14ce912fc",
+    "MyArt\\Icon\\Food\\egg.aseprite": "c840e3e3b9be549cb649a46adc547f90729563ee3fa445ae5a84b9e26e98abf6",
+    "MyArt\\Icon\\Food\\tomato.aseprite": "030bd906466fb693e8a659ee79193ce1c663c91f2c7320c10b4ee1cb5f4b64cf"
+  }
+}

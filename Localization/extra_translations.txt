@@ -1,0 +1,35 @@
+语言|Language|言語|語言
+上菜成功 +%d 金币（营业结束入账）|Served! +%dg (paid at closing)|配膳成功！+%dG（営業終了時に入金）|上菜成功 +%d 金幣（營業結束入帳）
+做%s|Cook %s|作る：%s|做%s
+入镇指引 / %s|Welcome Guide / %s|町の案内 / %s|入鎮指引 / %s
+%s · 点击查看背包|%s · Open bag|%s · バッグを見る|%s · 點擊查看背包
+一周一|Mon|月|一
+Walala Witch Town 音频鸣谢|Walala Witch Town Audio Credits|わらら魔女の町 音楽と効果音|Walala Witch Town 音訊鳴謝
+以下下载音频：CC0 1.0 Universal（允许商用，无强制署名）|Downloaded audio: CC0 1.0 Universal (commercial use allowed; attribution optional)|ダウンロード音源：CC0 1.0 Universal（商用利用可、表示義務なし）|以下下載音訊：CC0 1.0 Universal（允許商用，無強制署名）
+法律全文：https://creativecommons.org/publicdomain/zero/1.0/legalcode|Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode|法律条文：https://creativecommons.org/publicdomain/zero/1.0/legalcode|法律全文：https://creativecommons.org/publicdomain/zero/1.0/legalcode
+核查日期：2026-10-10。不表示作者认可或代言本游戏。|Checked: 2026-10-10. No endorsement of this game by the authors is implied.|確認日：2026-10-10。作者による本ゲームの支持を示すものではありません。|核查日期：2026-10-10。不表示作者認可或代言本遊戲。
+砍树、挖矿、抛竿、咬钩、收鱼：本项目原创合成音效。|Chopping, mining, casting, bites and catches: original synthesized effects.|伐採、採掘、投げ、食いつき、釣り上げ：本プロジェクトのオリジナル合成音。|砍樹、挖礦、拋竿、咬鉤、收魚：本專案原創合成音效。
+生成源：Art/Character/Storybook/tools/build_tools.py|Generator: Art/Character/Storybook/tools/build_tools.py|生成元：Art/Character/Storybook/tools/build_tools.py|產生來源：Art/Character/Storybook/tools/build_tools.py
+白天/野外：Town — Alex McCulloch / Pro Sensory|Day / woods: Town — Alex McCulloch / Pro Sensory|昼間 / 森：Town — Alex McCulloch / Pro Sensory|白天/野外：Town — Alex McCulloch / Pro Sensory
+夜餐厅/结算：Town 3 — Alex McCulloch / Pro Sensory|Evening restaurant / results: Town 3 — Alex McCulloch / Pro Sensory|夜の食堂 / 決算：Town 3 — Alex McCulloch / Pro Sensory|夜餐廳/結算：Town 3 — Alex McCulloch / Pro Sensory
+采集 pluck_001、上菜 confirmation_001、UI click_001：|Gathering pluck_001, serving confirmation_001, UI click_001:|採集 pluck_001、配膳 confirmation_001、UI click_001：|採集 pluck_001、上菜 confirmation_001、UI click_001：
+加工 chop、做菜 metalPot1、金币 handleCoins：|Preparing chop, cooking metalPot1, coins handleCoins:|下ごしらえ chop、調理 metalPot1、お金 handleCoins：|加工 chop、做菜 metalPot1、金幣 handleCoins：
+雨循环：Rain (loopable), 1.ogg — Ylmir|Rain loop: Rain (loopable), 1.ogg — Ylmir|雨のループ：Rain (loopable), 1.ogg — Ylmir|雨循環：Rain (loopable), 1.ogg — Ylmir
+雪天气轻风环境（不是雪本身的声音）：Wind, Wind.ogg — IgnasD|Light wind in snowy weather: Wind, Wind.ogg — IgnasD|雪の日のそよ風：Wind, Wind.ogg — IgnasD|雪天氣輕風環境（不是雪本身的聲音）：Wind, Wind.ogg — IgnasD
+木地板、石路、草地（树叶）、泥地脚步：|Footsteps on wood, stone, grass (leaves) and dirt:|木の床、石道、草地（葉）、土の足音：|木地板、石路、草地（樹葉）、泥地腳步：
+选用 wood01/02/03、stone01、leaves01/02、mud02，保持原字节。|Uses wood01/02/03, stone01, leaves01/02 and mud02, unmodified.|wood01/02/03、stone01、leaves01/02、mud02 を無改変で使用。|選用 wood01/02/03、stone01、leaves01/02、mud02，保持原位元組。
+雪地脚步：42 Snow and Gravel Footsteps — Corsica_S|Snow footsteps: 42 Snow and Gravel Footsteps — Corsica_S|雪の足音：42 Snow and Gravel Footsteps — Corsica_S|雪地腳步：42 Snow and Gravel Footsteps — Corsica_S
+Iwan Gabovitch (qubodup) 经作者许可拆分并以 CC0 发布。|Split and released under CC0 by Iwan Gabovitch (qubodup), with the author's permission.|作者の許可のもと Iwan Gabovitch (qubodup) が分割し、CC0 で公開。|Iwan Gabovitch (qubodup) 經作者許可拆分並以 CC0 發布。
+选用 snow_covered_gravel 01–06；FLAC 转单声道 PCM16 WAV，|Uses snow_covered_gravel 01–06; FLAC converted to mono PCM16 WAV,|snow_covered_gravel 01–06 を使用。FLAC をモノラル PCM16 WAV に変換し、|選用 snow_covered_gravel 01–06；FLAC 轉單聲道 PCM16 WAV，
+裁去前导空白，最长 0.38 秒，峰值 0.55，首尾淡化 3/15 毫秒。|leading silence trimmed, max 0.38s, peak 0.55, fades 3/15ms.|先頭の無音を削除。最大0.38秒、ピーク0.55、フェード3/15ミリ秒。|裁去前導空白，最長 0.38 秒，峰值 0.55，首尾淡化 3/15 毫秒。
+除上述雪地脚步转换外，选用音频保持原字节；播放时调整音量与循环。|Except for the snow-step conversion, audio files are unmodified; volume and loops change at playback.|雪の足音以外は音源を無改変で使用。再生時に音量とループを調整。|除上述雪地腳步轉換外，選用音訊保持原位元組；播放時調整音量與循環。
+逐文件下载URL、包内文件名、SHA-256及大小见 manifest.json。|See manifest.json for download URLs, archive names, SHA-256 hashes and sizes.|各URL、収録名、SHA-256、サイズは manifest.json を参照。|逐檔案下載URL、包內檔案名稱、SHA-256及大小見 manifest.json。
+原网页证据与Kenney包内授权见 Licenses；原下载包见 Archives。|Source-page records and Kenney licenses: Licenses. Original downloads: Archives.|元ページの記録と Kenney の許諾は Licenses、元のパックは Archives。|原網頁證據與Kenney包內授權見 Licenses；原下載套件見 Archives。
+音乐按页面的分类/乐器与舒适小镇目标选择，未确认主观听感。|Music was selected by listed genre/instruments and the cozy-town brief; listening impressions weren't verified.|音楽は掲載ジャンル・楽器と町の雰囲気を基に選定。主観的な試聴評価は未確認。|音樂按頁面的分類/樂器與舒適小鎮目標選擇，未確認主觀聽感。
+字体鸣谢|Font Credits|フォントのクレジット|字型鳴謝
+Fusion Pixel Font 12px proportional / zh-Hans — TakWolf 及贡献者|Fusion Pixel Font 12px proportional / zh-Hans — TakWolf and contributors|Fusion Pixel Font 12px proportional / zh-Hans — TakWolf と貢献者|Fusion Pixel Font 12px proportional / zh-Hans — TakWolf 及貢獻者
+SIL Open Font License 1.1；字体随本游戏嵌入，完整许可证与来源见 Art/Fonts/FusionPixel/README.md。|SIL Open Font License 1.1. Embedded in this game; license and source: Art/Fonts/FusionPixel/README.md.|SIL Open Font License 1.1。本ゲームに同梱。許諾と出典は Art/Fonts/FusionPixel/README.md。|SIL Open Font License 1.1；字型隨本遊戲嵌入，完整授權條款與來源見 Art/Fonts/FusionPixel/README.md。
+UI 界面音效（新增 11 个原始 OGG，CC0）：|UI effects (11 original OGG files, CC0):|UI効果音（11個の無改変OGG、CC0）：|UI 介面音效（新增 11 個原始 OGG，CC0）：
+bookOpen、bookClose、bookFlip2（手记开合、翻页和对话推进）。|bookOpen, bookClose, bookFlip2 (journal, pages and dialogue).|bookOpen、bookClose、bookFlip2（手帳、ページ、会話の操作）。|bookOpen、bookClose、bookFlip2（手記開合、翻頁和對話推進）。
+选用文件保持原字节，运行时调低音量；详细映射和哈希见|Files are unmodified; playback volume is reduced. Mapping and hashes:|音源は無改変で使用し、再生音量を調整。対応表とハッシュは|選用檔案保持原位元組，執行時調低音量；詳細對應和雜湊值見
+Sounds/Walala/UI/manifest.json，原包授权见 UI/*_LICENSE.txt。|Sounds/Walala/UI/manifest.json; source licenses: UI/*_LICENSE.txt.|Sounds/Walala/UI/manifest.json、元パックの許諾は UI/*_LICENSE.txt。|Sounds/Walala/UI/manifest.json，原套件授權見 UI/*_LICENSE.txt。

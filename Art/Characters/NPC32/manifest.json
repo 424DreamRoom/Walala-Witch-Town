@@ -1,0 +1,1301 @@
+{
+  "authoring": "Aseprite native Lua Image:drawPixel and Sprite:saveAs; no raster imports, resizing or binary source-file writer",
+  "aseprite": "C:/steam/steamapps/common/Aseprite/Aseprite.exe",
+  "assets": [
+    {
+      "id": "mori",
+      "name": "茉莉",
+      "kind": "resident",
+      "source": "residents/mori.aseprite",
+      "png": "residents/mori.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 20,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "df5c36aef277a08e64eb75874d1e1ca72f11183dee63b5a5a81120ebc7ec2464",
+      "png_sha256": "0f25053501676115b3b038bc61602fcb3889fa7ec7fecd1f2649fad8be967627"
+    },
+    {
+      "id": "ember",
+      "name": "余烬",
+      "kind": "resident",
+      "source": "residents/ember.aseprite",
+      "png": "residents/ember.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 21,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "2719d3b0db76a132d43b4468f2cfab63e81af5134bb85b789e27cb6f140507b5",
+      "png_sha256": "60ac7159cd7881b4ae1474ceac4421f16be2af5b2c1294b57a03b3abccbc06b0"
+    },
+    {
+      "id": "nagi",
+      "name": "澪",
+      "kind": "resident",
+      "source": "residents/nagi.aseprite",
+      "png": "residents/nagi.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 18,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "3b53bed038b1fd0afb5a9a24a7d425f0ec27d1a45b318142901915493bf52387",
+      "png_sha256": "93cde2afa06c3949932c79470d5053ad503d2740111a9e630ade08c5a12d23a4"
+    },
+    {
+      "id": "lumi",
+      "name": "露米",
+      "kind": "resident",
+      "source": "residents/lumi.aseprite",
+      "png": "residents/lumi.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 18,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "a5084204cafc90de41c79577d5a4df3519a9d5c5cb2aef1a4b5c24e7d436dc26",
+      "png_sha256": "74069d22d0dee5019c7338a1dfb9132c29469e1113256802865cb5e69e9777cb"
+    },
+    {
+      "id": "aster",
+      "name": "星芒",
+      "kind": "resident",
+      "source": "residents/aster.aseprite",
+      "png": "residents/aster.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 17,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "ea5ba4b2b882dc153b9b6e60cbf751beb015511e0dfb611a7e64bbfed3a867e8",
+      "png_sha256": "a2f1a1b3946eac1386fc5ced7dcbc33cc0175555a56700d08798f6aa1c25699f"
+    },
+    {
+      "id": "toma",
+      "name": "陶陶",
+      "kind": "resident",
+      "source": "residents/toma.aseprite",
+      "png": "residents/toma.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 18,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "85adea4b89e76ccbe6f2fc3ee5da1b0245af3465171b1b8d5c2e6101888ac739",
+      "png_sha256": "91d0137d1cb85255733e40acf98e78cd7ade7ceb3baacb294c240b0b4882053c"
+    },
+    {
+      "id": "pip",
+      "name": "皮普",
+      "kind": "resident",
+      "source": "residents/pip.aseprite",
+      "png": "residents/pip.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 20,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "53f773f057f8426e561b20577bb93ca609257c117d2d20800088606c77b34d29",
+      "png_sha256": "6e292bc76cd2f7fee05a02e42ba06545323412c771d0a3e91cad17a711803d8a"
+    },
+    {
+      "id": "reed",
+      "name": "芦苇",
+      "kind": "resident",
+      "source": "residents/reed.aseprite",
+      "png": "residents/reed.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 18,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "4b7ce4c5f975e99908eb658476a98331eec8b6dd85b81e1db7d6201618c44ee9",
+      "png_sha256": "dadfdd233b458273e9f3b00fea556c260acf5d02c13d7dae2a3cb904e91e8b4a"
+    },
+    {
+      "id": "yuki",
+      "name": "霜铃",
+      "kind": "resident",
+      "source": "residents/yuki.aseprite",
+      "png": "residents/yuki.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 19,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "6da313d3a16a6a83b6ecd31650dc1bdf914b6069535729c4231b42c8a2397ae5",
+      "png_sha256": "44e763eb70422af20b62983788bdbad8d15e366dd8fe1e4726b1c3415ef541ec"
+    },
+    {
+      "id": "orla",
+      "name": "奥萝",
+      "kind": "resident",
+      "source": "residents/orla.aseprite",
+      "png": "residents/orla.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 22,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "walk_down",
+          "from": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 18,
+          "to": 21,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 18,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "80b4d5ae69e0e48722bc715defd64c4e2706c46fc3bd3f63c8b5398abe061fda",
+      "png_sha256": "21fbf5f7456e301d609247fd5093269973c163eddc787711a196ece6f23dde09"
+    },
+    {
+      "id": "green_braids",
+      "name": "绿帽棕辫",
+      "kind": "customer",
+      "source": "customers/green_braids.aseprite",
+      "png": "customers/green_braids.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 23,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "a50a3ead20894b97bd2c240a1cca538a111f7ca5481d81e00c7989011ed9774b",
+      "png_sha256": "5b417911438f541cee3e5ef0dfe294015312de6802b2e751d250c1b22e17ec17"
+    },
+    {
+      "id": "blue_blonde",
+      "name": "蓝帽浅金",
+      "kind": "customer",
+      "source": "customers/blue_blonde.aseprite",
+      "png": "customers/blue_blonde.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 21,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "decca6ebb0f15f9d63e3b992271b14055ffc6c453bcf42df6a5a970ae8da6e68",
+      "png_sha256": "f99643847d2c1c30508787589bfcad49edfbb9857d282cbde5fbba63eeccd1ce"
+    },
+    {
+      "id": "burgundy_curls",
+      "name": "酒红帽卷发",
+      "kind": "customer",
+      "source": "customers/burgundy_curls.aseprite",
+      "png": "customers/burgundy_curls.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 21,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "e633018e0d336bcb200ce34e10b23ba2b86b0137b61aa8fe32fc90e4b263df6a",
+      "png_sha256": "0c9d106bd8ce215d04dbe0068c6c9d9e9986280869e11e175a4b5c78073ed238"
+    },
+    {
+      "id": "orange_short",
+      "name": "橙帽短发",
+      "kind": "customer",
+      "source": "customers/orange_short.aseprite",
+      "png": "customers/orange_short.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 21,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "dec0d33050446c5689213db34981663b2aaddf42e71e7e03a9036db0dd893e3e",
+      "png_sha256": "6b883444378f9cb1b7b956c772430ff9e879282e149c4a50d24b3b2cfb91140b"
+    },
+    {
+      "id": "cyan_gray",
+      "name": "青帽灰发",
+      "kind": "customer",
+      "source": "customers/cyan_gray.aseprite",
+      "png": "customers/cyan_gray.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 21,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "fc5b8fd5490a4a9469408934b3656bfc4f31e629a0b557cfb84c39d4432da5c8",
+      "png_sha256": "ae209c19cd9cbb8a05a5c1c249fab16e2506dc285d5012519f1ec51318287190"
+    },
+    {
+      "id": "pink_longblue",
+      "name": "粉帽深蓝长发",
+      "kind": "customer",
+      "source": "customers/pink_longblue.aseprite",
+      "png": "customers/pink_longblue.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 1,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "eat",
+          "from": 2,
+          "to": 5,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        900,
+        160,
+        500,
+        500,
+        500,
+        500
+      ],
+      "palette_colors": 22,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "74e166a3da2d044c170a0ac4678bff7d8b0d682f11e072d7e73ff9b0e49fa4ce",
+      "png_sha256": "44dc46e64821753eb550e604f512c4c009dfc01b3472fcdf5e6aa5ded23a4e9f"
+    },
+    {
+      "id": "yingluo",
+      "name": "萤萝",
+      "kind": "guide",
+      "source": "guides/yingluo.aseprite",
+      "png": "guides/yingluo.png",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "layers": [
+        "Boots",
+        "Clothing",
+        "Face and hands",
+        "Hair",
+        "Headwear",
+        "Accessories"
+      ],
+      "tags": [
+        {
+          "name": "idle",
+          "from": 0,
+          "to": 0,
+          "direction": "forward",
+          "color": "#000000ff"
+        }
+      ],
+      "durations_ms": [
+        1000
+      ],
+      "palette_colors": 20,
+      "anchor": [
+        16,
+        32
+      ],
+      "source_sha256": "d07ef883aba52f35dd4f2ab9e2022986bfd3775f1189ff303e58cb6b119cdd05",
+      "png_sha256": "7f50044c0b1eb07f0e80136d8e8e319eabeac8edf4b18b9a703db7ba58536ec7"
+    }
+  ]
+}

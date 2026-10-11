@@ -1,0 +1,554 @@
+[
+  {
+    "source": "res://Art/Building/icons/aquarium.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\aquarium.png"
+  },
+  {
+    "source": "res://Art/Building/icons/armchair.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\armchair.png"
+  },
+  {
+    "source": "res://Art/Building/icons/barrel.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\barrel.png"
+  },
+  {
+    "source": "res://Art/Building/icons/bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\bed.png"
+  },
+  {
+    "source": "res://Art/Building/icons/bench.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\bench.png"
+  },
+  {
+    "source": "res://Art/Building/icons/birdbath.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\birdbath.png"
+  },
+  {
+    "source": "res://Art/Building/icons/bookcase.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\bookcase.png"
+  },
+  {
+    "source": "res://Art/Building/icons/brick_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\brick_path.png"
+  },
+  {
+    "source": "res://Art/Building/icons/candle.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\candle.png"
+  },
+  {
+    "source": "res://Art/Building/icons/canopy_bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\canopy_bed.png"
+  },
+  {
+    "source": "res://Art/Building/icons/cauldron.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\cauldron.png"
+  },
+  {
+    "source": "res://Art/Building/icons/chair.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\chair.png"
+  },
+  {
+    "source": "res://Art/Building/icons/chest.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\chest.png"
+  },
+  {
+    "source": "res://Art/Building/icons/clay_planter.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\clay_planter.png"
+  },
+  {
+    "source": "res://Art/Building/icons/clock.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\clock.png"
+  },
+  {
+    "source": "res://Art/Building/icons/crystal_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\crystal_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/icons/cupboard.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\cupboard.png"
+  },
+  {
+    "source": "res://Art/Building/icons/desk.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\desk.png"
+  },
+  {
+    "source": "res://Art/Building/icons/double_bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\double_bed.png"
+  },
+  {
+    "source": "res://Art/Building/icons/floor_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\floor_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/icons/flower_box.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\flower_box.png"
+  },
+  {
+    "source": "res://Art/Building/icons/garden_bench.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\garden_bench.png"
+  },
+  {
+    "source": "res://Art/Building/icons/globe.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\globe.png"
+  },
+  {
+    "source": "res://Art/Building/icons/gravel_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\gravel_path.png"
+  },
+  {
+    "source": "res://Art/Building/icons/hammock.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\hammock.png"
+  },
+  {
+    "source": "res://Art/Building/icons/hedge.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\hedge.png"
+  },
+  {
+    "source": "res://Art/Building/icons/herb_planter.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\herb_planter.png"
+  },
+  {
+    "source": "res://Art/Building/icons/iron_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\iron_fence.png"
+  },
+  {
+    "source": "res://Art/Building/icons/iron_gate.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\iron_gate.png"
+  },
+  {
+    "source": "res://Art/Building/icons/kiln.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\kiln.png"
+  },
+  {
+    "source": "res://Art/Building/icons/lantern.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\lantern.png"
+  },
+  {
+    "source": "res://Art/Building/icons/lattice_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\lattice_fence.png"
+  },
+  {
+    "source": "res://Art/Building/icons/log_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\log_fence.png"
+  },
+  {
+    "source": "res://Art/Building/icons/long_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\long_table.png"
+  },
+  {
+    "source": "res://Art/Building/icons/loom.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\loom.png"
+  },
+  {
+    "source": "res://Art/Building/icons/low_shelf.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\low_shelf.png"
+  },
+  {
+    "source": "res://Art/Building/icons/mirror.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\mirror.png"
+  },
+  {
+    "source": "res://Art/Building/icons/moss_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\moss_path.png"
+  },
+  {
+    "source": "res://Art/Building/icons/mushroom_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\mushroom_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/icons/music_box.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\music_box.png"
+  },
+  {
+    "source": "res://Art/Building/icons/oval_rug.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\oval_rug.png"
+  },
+  {
+    "source": "res://Art/Building/icons/painting.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\painting.png"
+  },
+  {
+    "source": "res://Art/Building/icons/picket_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\picket_fence.png"
+  },
+  {
+    "source": "res://Art/Building/icons/picnic_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\picnic_table.png"
+  },
+  {
+    "source": "res://Art/Building/icons/rocking_chair.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\rocking_chair.png"
+  },
+  {
+    "source": "res://Art/Building/icons/rose_arch.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\rose_arch.png"
+  },
+  {
+    "source": "res://Art/Building/icons/round_rug.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\round_rug.png"
+  },
+  {
+    "source": "res://Art/Building/icons/scarecrow.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\scarecrow.png"
+  },
+  {
+    "source": "res://Art/Building/icons/single_bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\single_bed.png"
+  },
+  {
+    "source": "res://Art/Building/icons/sofa.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\sofa.png"
+  },
+  {
+    "source": "res://Art/Building/icons/spinning_wheel.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\spinning_wheel.png"
+  },
+  {
+    "source": "res://Art/Building/icons/square_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\square_table.png"
+  },
+  {
+    "source": "res://Art/Building/icons/star_rug.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\star_rug.png"
+  },
+  {
+    "source": "res://Art/Building/icons/stepping_stones.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\stepping_stones.png"
+  },
+  {
+    "source": "res://Art/Building/icons/stone_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\stone_path.png"
+  },
+  {
+    "source": "res://Art/Building/icons/stone_wall.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\stone_wall.png"
+  },
+  {
+    "source": "res://Art/Building/icons/stool.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\stool.png"
+  },
+  {
+    "source": "res://Art/Building/icons/street_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\street_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/icons/sundial.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\sundial.png"
+  },
+  {
+    "source": "res://Art/Building/icons/table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\table.png"
+  },
+  {
+    "source": "res://Art/Building/icons/tea_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\tea_table.png"
+  },
+  {
+    "source": "res://Art/Building/icons/vase.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\vase.png"
+  },
+  {
+    "source": "res://Art/Building/icons/wall_shelf.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\wall_shelf.png"
+  },
+  {
+    "source": "res://Art/Building/icons/wardrobe.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\wardrobe.png"
+  },
+  {
+    "source": "res://Art/Building/icons/well.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\well.png"
+  },
+  {
+    "source": "res://Art/Building/icons/wood_gate.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\wood_gate.png"
+  },
+  {
+    "source": "res://Art/Building/icons/wood_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\wood_path.png"
+  },
+  {
+    "source": "res://Art/Building/icons/workbench.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\icons\\workbench.png"
+  },
+  {
+    "source": "res://Art/Building/objects/aquarium.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\aquarium.png"
+  },
+  {
+    "source": "res://Art/Building/objects/armchair.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\armchair.png"
+  },
+  {
+    "source": "res://Art/Building/objects/barrel.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\barrel.png"
+  },
+  {
+    "source": "res://Art/Building/objects/bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\bed.png"
+  },
+  {
+    "source": "res://Art/Building/objects/bench.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\bench.png"
+  },
+  {
+    "source": "res://Art/Building/objects/birdbath.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\birdbath.png"
+  },
+  {
+    "source": "res://Art/Building/objects/bookcase.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\bookcase.png"
+  },
+  {
+    "source": "res://Art/Building/objects/brick_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\brick_path.png"
+  },
+  {
+    "source": "res://Art/Building/objects/candle.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\candle.png"
+  },
+  {
+    "source": "res://Art/Building/objects/canopy_bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\canopy_bed.png"
+  },
+  {
+    "source": "res://Art/Building/objects/cauldron.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\cauldron.png"
+  },
+  {
+    "source": "res://Art/Building/objects/chair.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\chair.png"
+  },
+  {
+    "source": "res://Art/Building/objects/chest.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\chest.png"
+  },
+  {
+    "source": "res://Art/Building/objects/clay_planter.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\clay_planter.png"
+  },
+  {
+    "source": "res://Art/Building/objects/clock.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\clock.png"
+  },
+  {
+    "source": "res://Art/Building/objects/crystal_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\crystal_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/objects/cupboard.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\cupboard.png"
+  },
+  {
+    "source": "res://Art/Building/objects/desk.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\desk.png"
+  },
+  {
+    "source": "res://Art/Building/objects/double_bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\double_bed.png"
+  },
+  {
+    "source": "res://Art/Building/objects/floor_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\floor_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/objects/flower_box.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\flower_box.png"
+  },
+  {
+    "source": "res://Art/Building/objects/garden_bench.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\garden_bench.png"
+  },
+  {
+    "source": "res://Art/Building/objects/globe.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\globe.png"
+  },
+  {
+    "source": "res://Art/Building/objects/gravel_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\gravel_path.png"
+  },
+  {
+    "source": "res://Art/Building/objects/hammock.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\hammock.png"
+  },
+  {
+    "source": "res://Art/Building/objects/hedge.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\hedge.png"
+  },
+  {
+    "source": "res://Art/Building/objects/herb_planter.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\herb_planter.png"
+  },
+  {
+    "source": "res://Art/Building/objects/iron_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\iron_fence.png"
+  },
+  {
+    "source": "res://Art/Building/objects/iron_gate.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\iron_gate.png"
+  },
+  {
+    "source": "res://Art/Building/objects/kiln.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\kiln.png"
+  },
+  {
+    "source": "res://Art/Building/objects/lantern.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\lantern.png"
+  },
+  {
+    "source": "res://Art/Building/objects/lattice_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\lattice_fence.png"
+  },
+  {
+    "source": "res://Art/Building/objects/log_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\log_fence.png"
+  },
+  {
+    "source": "res://Art/Building/objects/long_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\long_table.png"
+  },
+  {
+    "source": "res://Art/Building/objects/loom.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\loom.png"
+  },
+  {
+    "source": "res://Art/Building/objects/low_shelf.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\low_shelf.png"
+  },
+  {
+    "source": "res://Art/Building/objects/mirror.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\mirror.png"
+  },
+  {
+    "source": "res://Art/Building/objects/moss_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\moss_path.png"
+  },
+  {
+    "source": "res://Art/Building/objects/mushroom_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\mushroom_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/objects/music_box.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\music_box.png"
+  },
+  {
+    "source": "res://Art/Building/objects/oval_rug.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\oval_rug.png"
+  },
+  {
+    "source": "res://Art/Building/objects/painting.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\painting.png"
+  },
+  {
+    "source": "res://Art/Building/objects/picket_fence.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\picket_fence.png"
+  },
+  {
+    "source": "res://Art/Building/objects/picnic_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\picnic_table.png"
+  },
+  {
+    "source": "res://Art/Building/objects/rocking_chair.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\rocking_chair.png"
+  },
+  {
+    "source": "res://Art/Building/objects/rose_arch.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\rose_arch.png"
+  },
+  {
+    "source": "res://Art/Building/objects/round_rug.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\round_rug.png"
+  },
+  {
+    "source": "res://Art/Building/objects/scarecrow.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\scarecrow.png"
+  },
+  {
+    "source": "res://Art/Building/objects/single_bed.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\single_bed.png"
+  },
+  {
+    "source": "res://Art/Building/objects/sofa.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\sofa.png"
+  },
+  {
+    "source": "res://Art/Building/objects/spinning_wheel.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\spinning_wheel.png"
+  },
+  {
+    "source": "res://Art/Building/objects/square_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\square_table.png"
+  },
+  {
+    "source": "res://Art/Building/objects/star_rug.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\star_rug.png"
+  },
+  {
+    "source": "res://Art/Building/objects/stepping_stones.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\stepping_stones.png"
+  },
+  {
+    "source": "res://Art/Building/objects/stone_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\stone_path.png"
+  },
+  {
+    "source": "res://Art/Building/objects/stone_wall.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\stone_wall.png"
+  },
+  {
+    "source": "res://Art/Building/objects/stool.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\stool.png"
+  },
+  {
+    "source": "res://Art/Building/objects/street_lamp.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\street_lamp.png"
+  },
+  {
+    "source": "res://Art/Building/objects/sundial.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\sundial.png"
+  },
+  {
+    "source": "res://Art/Building/objects/table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\table.png"
+  },
+  {
+    "source": "res://Art/Building/objects/tea_table.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\tea_table.png"
+  },
+  {
+    "source": "res://Art/Building/objects/vase.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\vase.png"
+  },
+  {
+    "source": "res://Art/Building/objects/wall_shelf.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\wall_shelf.png"
+  },
+  {
+    "source": "res://Art/Building/objects/wardrobe.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\wardrobe.png"
+  },
+  {
+    "source": "res://Art/Building/objects/well.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\well.png"
+  },
+  {
+    "source": "res://Art/Building/objects/wood_gate.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\wood_gate.png"
+  },
+  {
+    "source": "res://Art/Building/objects/wood_path.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\wood_path.png"
+  },
+  {
+    "source": "res://Art/Building/objects/workbench.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Building\\objects\\workbench.png"
+  },
+  {
+    "source": "res://Art/Environment/Hearthwood/home_chest.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\Art\\Environment\\Hearthwood\\home_chest.png"
+  },
+  {
+    "source": "res://icon.svg",
+    "target": "C:\\Godot\\Walala-Witch-Town\\output\\aseprite_migration\\vectors\\icon.png"
+  }
+]

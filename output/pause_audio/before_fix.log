@@ -1,0 +1,63 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+PAUSE AUDIO DRIVER WASAPI
+ERROR: Resource file not found: res://Art/Environment/Hearthwood/home_empty_0.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/WitchHome/witch_home.gd:24)
+       [1] enter (res://Scenes/Gameplay/game_loop.gd:467)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:123)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:114)
+       [4] run (res://Sounds/Walala/verify_pause_audio.gd:86)
+PAUSE AUDIO rain menu background channels playing: FAIL
+PAUSE AUDIO rain menu native music advances: FAIL
+PAUSE AUDIO rain menu native ambience advances: FAIL
+PAUSE AUDIO rain pause freezes clock and movement: PASS
+PAUSE AUDIO rain pause completes music crossfade: FAIL
+PAUSE AUDIO rain paused music slider mutes independently: PASS
+PAUSE AUDIO rain paused ambience slider mutes independently: PASS
+PAUSE AUDIO rain paused master slider mutes background: PASS
+PAUSE AUDIO rain settings background channels playing: PASS
+PAUSE AUDIO rain settings native music advances: PASS
+PAUSE AUDIO rain settings native ambience advances: PASS
+PAUSE AUDIO rain settings remain paused: PASS
+PAUSE AUDIO rain settings return to paused menu: PASS
+PAUSE AUDIO rain resumed background channels playing: PASS
+PAUSE AUDIO rain resumed native music advances: PASS
+PAUSE AUDIO rain resumed native ambience advances: PASS
+PAUSE AUDIO rain resume keeps current music voice: PASS
+PAUSE AUDIO snow menu background channels playing: FAIL
+PAUSE AUDIO snow menu native music advances: FAIL
+PAUSE AUDIO snow menu native ambience advances: FAIL
+PAUSE AUDIO snow pause freezes clock and movement: PASS
+PAUSE AUDIO snow pause completes music crossfade: FAIL
+PAUSE AUDIO snow paused music slider mutes independently: PASS
+PAUSE AUDIO snow paused ambience slider mutes independently: PASS
+PAUSE AUDIO snow paused master slider mutes background: PASS
+PAUSE AUDIO snow settings background channels playing: PASS
+PAUSE AUDIO snow settings native music advances: PASS
+PAUSE AUDIO snow settings native ambience advances: PASS
+PAUSE AUDIO snow settings remain paused: PASS
+PAUSE AUDIO snow settings return to paused menu: PASS
+PAUSE AUDIO snow resumed background channels playing: PASS
+PAUSE AUDIO snow resumed native music advances: PASS
+PAUSE AUDIO snow resumed native ambience advances: PASS
+PAUSE AUDIO snow resume keeps current music voice: PASS
+PAUSE AUDIO backpack background channels playing: FAIL
+PAUSE AUDIO backpack native music advances: FAIL
+PAUSE AUDIO backpack native ambience advances: FAIL
+PAUSE AUDIO backpack remains paused: PASS
+PAUSE AUDIO journal background channels playing: FAIL
+PAUSE AUDIO journal native music advances: FAIL
+PAUSE AUDIO journal native ambience advances: FAIL
+PAUSE AUDIO journal remains paused: PASS
+ERROR: Resource file not found: res://Art/Environment/Hearthwood/home_empty_0.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/WitchHome/witch_home.gd:24)
+       [1] enter (res://Scenes/Gameplay/game_loop.gd:467)
+       [2] run (res://Sounds/Walala/verify_pause_audio.gd:102)
+       [3] background_advances (res://Sounds/Walala/verify_pause_audio.gd:42)
+       [4] wait_for (res://Sounds/Walala/verify_pause_audio.gd:22)
+PAUSE AUDIO indoor pause keeps ambience silent: FAIL
+PAUSE AUDIO VERIFY END failures=15 checks=43

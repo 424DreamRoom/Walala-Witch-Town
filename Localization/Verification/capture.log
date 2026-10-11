@@ -1,0 +1,1341 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+LOCALIZATION TEST default simplified Chinese: PASS
+MISSING GLYPHS []
+LOCALIZATION TEST font covers all four languages: PASS
+LOCALIZATION TEST complete runtime catalog zh_CN: PASS
+LOCALIZATION TEST complete runtime catalog en: PASS
+LOCALIZATION TEST complete runtime catalog ja: PASS
+LOCALIZATION TEST complete runtime catalog zh_TW: PASS
+LOCALIZATION TEST four native language names: PASS
+LOCALIZATION TEST language dropdown opens: PASS
+LOCALIZATION TEST capture language_dropdown: PASS
+LOCALIZATION TEST real popup selects English: PASS
+LOCALIZATION TEST selector applies and saves zh_CN: PASS
+LOCALIZATION TEST zh_CN settings label fits @Label@32: PASS
+LOCALIZATION TEST zh_CN settings label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_CN settings fits Close: PASS
+LOCALIZATION TEST zh_CN settings fits AudioTab: PASS
+LOCALIZATION TEST zh_CN settings fits DisplayTab: PASS
+LOCALIZATION TEST zh_CN settings fits GameTab: PASS
+LOCALIZATION TEST zh_CN settings fits ControlsTab: PASS
+LOCALIZATION TEST zh_CN settings fits ResetPage: PASS
+LOCALIZATION TEST zh_CN settings fits Credits: PASS
+LOCALIZATION TEST zh_CN settings fits Back: PASS
+LOCALIZATION TEST zh_CN settings label fits @Label@76: PASS
+LOCALIZATION TEST zh_CN settings label stays inside @Label@76: PASS
+LOCALIZATION TEST zh_CN settings label fits @Label@77: PASS
+LOCALIZATION TEST zh_CN settings label stays inside @Label@77: PASS
+LOCALIZATION TEST zh_CN settings fits Language: PASS
+LOCALIZATION TEST zh_CN settings label fits @Label@88: PASS
+LOCALIZATION TEST zh_CN settings label stays inside @Label@88: PASS
+LOCALIZATION TEST zh_CN settings fits DialogueSpeed: PASS
+LOCALIZATION TEST zh_CN settings label fits @Label@99: PASS
+LOCALIZATION TEST zh_CN settings label stays inside @Label@99: PASS
+LOCALIZATION TEST zh_CN settings fits AutoRun: PASS
+LOCALIZATION TEST zh_CN settings label fits @Label@100: PASS
+LOCALIZATION TEST zh_CN settings label stays inside @Label@100: PASS
+LOCALIZATION TEST zh_CN settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture zh_CN_settings: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@32: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_CN page0 fits Close: PASS
+LOCALIZATION TEST zh_CN page0 fits AudioTab: PASS
+LOCALIZATION TEST zh_CN page0 fits DisplayTab: PASS
+LOCALIZATION TEST zh_CN page0 fits GameTab: PASS
+LOCALIZATION TEST zh_CN page0 fits ControlsTab: PASS
+LOCALIZATION TEST zh_CN page0 fits ResetPage: PASS
+LOCALIZATION TEST zh_CN page0 fits Credits: PASS
+LOCALIZATION TEST zh_CN page0 fits Back: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@44: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@44: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@45: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@45: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@46: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@46: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@47: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@47: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@48: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@48: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@49: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@49: PASS
+LOCALIZATION TEST zh_CN page0 fits MusicMute: PASS
+LOCALIZATION TEST zh_CN page0 label fits @Label@50: PASS
+LOCALIZATION TEST zh_CN page0 label stays inside @Label@50: PASS
+LOCALIZATION TEST zh_CN page0 fits EffectsMute: PASS
+LOCALIZATION TEST zh_CN page1 label fits @Label@32: PASS
+LOCALIZATION TEST zh_CN page1 label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_CN page1 fits Close: PASS
+LOCALIZATION TEST zh_CN page1 fits AudioTab: PASS
+LOCALIZATION TEST zh_CN page1 fits DisplayTab: PASS
+LOCALIZATION TEST zh_CN page1 fits GameTab: PASS
+LOCALIZATION TEST zh_CN page1 fits ControlsTab: PASS
+LOCALIZATION TEST zh_CN page1 fits ResetPage: PASS
+LOCALIZATION TEST zh_CN page1 fits Credits: PASS
+LOCALIZATION TEST zh_CN page1 fits Back: PASS
+LOCALIZATION TEST zh_CN page1 label fits @Label@51: PASS
+LOCALIZATION TEST zh_CN page1 label stays inside @Label@51: PASS
+LOCALIZATION TEST zh_CN page1 label fits @Label@52: PASS
+LOCALIZATION TEST zh_CN page1 label stays inside @Label@52: PASS
+LOCALIZATION TEST zh_CN page1 fits FullscreenToggle: PASS
+LOCALIZATION TEST zh_CN page1 label fits @Label@53: PASS
+LOCALIZATION TEST zh_CN page1 label stays inside @Label@53: PASS
+LOCALIZATION TEST zh_CN page1 fits WindowSize: PASS
+LOCALIZATION TEST zh_CN page1 label fits @Label@64: PASS
+LOCALIZATION TEST zh_CN page1 label stays inside @Label@64: PASS
+LOCALIZATION TEST zh_CN page1 fits VSync: PASS
+LOCALIZATION TEST zh_CN page1 label fits @Label@65: PASS
+LOCALIZATION TEST zh_CN page1 label stays inside @Label@65: PASS
+LOCALIZATION TEST zh_CN page1 fits FrameLimit: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@32: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_CN page3 fits Close: PASS
+LOCALIZATION TEST zh_CN page3 fits AudioTab: PASS
+LOCALIZATION TEST zh_CN page3 fits DisplayTab: PASS
+LOCALIZATION TEST zh_CN page3 fits GameTab: PASS
+LOCALIZATION TEST zh_CN page3 fits ControlsTab: PASS
+LOCALIZATION TEST zh_CN page3 fits ResetPage: PASS
+LOCALIZATION TEST zh_CN page3 fits Credits: PASS
+LOCALIZATION TEST zh_CN page3 fits Back: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@101: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@101: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@102: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@102: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@103: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@103: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@104: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@104: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@105: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@105: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@106: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@106: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@107: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@107: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@108: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@108: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@109: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@109: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@110: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@110: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@111: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@111: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@112: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@112: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@113: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@113: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@114: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@114: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@115: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@115: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@116: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@116: PASS
+LOCALIZATION TEST zh_CN page3 label fits @Label@117: PASS
+LOCALIZATION TEST zh_CN page3 label stays inside @Label@117: PASS
+LOCALIZATION TEST selector applies and saves en: PASS
+LOCALIZATION TEST en settings label fits @Label@32: PASS
+LOCALIZATION TEST en settings label stays inside @Label@32: PASS
+LOCALIZATION TEST en settings fits Close: PASS
+LOCALIZATION TEST en settings fits AudioTab: PASS
+LOCALIZATION TEST en settings fits DisplayTab: PASS
+LOCALIZATION TEST en settings fits GameTab: PASS
+LOCALIZATION TEST en settings fits ControlsTab: PASS
+LOCALIZATION TEST en settings fits ResetPage: PASS
+LOCALIZATION TEST en settings fits Credits: PASS
+LOCALIZATION TEST en settings fits Back: PASS
+LOCALIZATION TEST en settings label fits @Label@76: PASS
+LOCALIZATION TEST en settings label stays inside @Label@76: PASS
+LOCALIZATION TEST en settings label fits @Label@77: PASS
+LOCALIZATION TEST en settings label stays inside @Label@77: PASS
+LOCALIZATION TEST en settings fits Language: PASS
+LOCALIZATION TEST en settings label fits @Label@88: PASS
+LOCALIZATION TEST en settings label stays inside @Label@88: PASS
+LOCALIZATION TEST en settings fits DialogueSpeed: PASS
+LOCALIZATION TEST en settings label fits @Label@99: PASS
+LOCALIZATION TEST en settings label stays inside @Label@99: PASS
+LOCALIZATION TEST en settings fits AutoRun: PASS
+LOCALIZATION TEST en settings label fits @Label@100: PASS
+LOCALIZATION TEST en settings label stays inside @Label@100: PASS
+LOCALIZATION TEST en settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture en_settings: PASS
+LOCALIZATION TEST en page0 label fits @Label@32: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@32: PASS
+LOCALIZATION TEST en page0 fits Close: PASS
+LOCALIZATION TEST en page0 fits AudioTab: PASS
+LOCALIZATION TEST en page0 fits DisplayTab: PASS
+LOCALIZATION TEST en page0 fits GameTab: PASS
+LOCALIZATION TEST en page0 fits ControlsTab: PASS
+LOCALIZATION TEST en page0 fits ResetPage: PASS
+LOCALIZATION TEST en page0 fits Credits: PASS
+LOCALIZATION TEST en page0 fits Back: PASS
+LOCALIZATION TEST en page0 label fits @Label@44: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@44: PASS
+LOCALIZATION TEST en page0 label fits @Label@45: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@45: PASS
+LOCALIZATION TEST en page0 label fits @Label@46: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@46: PASS
+LOCALIZATION TEST en page0 label fits @Label@47: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@47: PASS
+LOCALIZATION TEST en page0 label fits @Label@48: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@48: PASS
+LOCALIZATION TEST en page0 label fits @Label@49: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@49: PASS
+LOCALIZATION TEST en page0 fits MusicMute: PASS
+LOCALIZATION TEST en page0 label fits @Label@50: PASS
+LOCALIZATION TEST en page0 label stays inside @Label@50: PASS
+LOCALIZATION TEST en page0 fits EffectsMute: PASS
+LOCALIZATION TEST en page1 label fits @Label@32: PASS
+LOCALIZATION TEST en page1 label stays inside @Label@32: PASS
+LOCALIZATION TEST en page1 fits Close: PASS
+LOCALIZATION TEST en page1 fits AudioTab: PASS
+LOCALIZATION TEST en page1 fits DisplayTab: PASS
+LOCALIZATION TEST en page1 fits GameTab: PASS
+LOCALIZATION TEST en page1 fits ControlsTab: PASS
+LOCALIZATION TEST en page1 fits ResetPage: PASS
+LOCALIZATION TEST en page1 fits Credits: PASS
+LOCALIZATION TEST en page1 fits Back: PASS
+LOCALIZATION TEST en page1 label fits @Label@51: PASS
+LOCALIZATION TEST en page1 label stays inside @Label@51: PASS
+LOCALIZATION TEST en page1 label fits @Label@52: PASS
+LOCALIZATION TEST en page1 label stays inside @Label@52: PASS
+LOCALIZATION TEST en page1 fits FullscreenToggle: PASS
+LOCALIZATION TEST en page1 label fits @Label@53: PASS
+LOCALIZATION TEST en page1 label stays inside @Label@53: PASS
+LOCALIZATION TEST en page1 fits WindowSize: PASS
+LOCALIZATION TEST en page1 label fits @Label@64: PASS
+LOCALIZATION TEST en page1 label stays inside @Label@64: PASS
+LOCALIZATION TEST en page1 fits VSync: PASS
+LOCALIZATION TEST en page1 label fits @Label@65: PASS
+LOCALIZATION TEST en page1 label stays inside @Label@65: PASS
+LOCALIZATION TEST en page1 fits FrameLimit: PASS
+LOCALIZATION TEST en page3 label fits @Label@32: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@32: PASS
+LOCALIZATION TEST en page3 fits Close: PASS
+LOCALIZATION TEST en page3 fits AudioTab: PASS
+LOCALIZATION TEST en page3 fits DisplayTab: PASS
+LOCALIZATION TEST en page3 fits GameTab: PASS
+LOCALIZATION TEST en page3 fits ControlsTab: PASS
+LOCALIZATION TEST en page3 fits ResetPage: PASS
+LOCALIZATION TEST en page3 fits Credits: PASS
+LOCALIZATION TEST en page3 fits Back: PASS
+LOCALIZATION TEST en page3 label fits @Label@101: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@101: PASS
+LOCALIZATION TEST en page3 label fits @Label@102: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@102: PASS
+LOCALIZATION TEST en page3 label fits @Label@103: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@103: PASS
+LOCALIZATION TEST en page3 label fits @Label@104: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@104: PASS
+LOCALIZATION TEST en page3 label fits @Label@105: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@105: PASS
+LOCALIZATION TEST en page3 label fits @Label@106: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@106: PASS
+LOCALIZATION TEST en page3 label fits @Label@107: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@107: PASS
+LOCALIZATION TEST en page3 label fits @Label@108: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@108: PASS
+LOCALIZATION TEST en page3 label fits @Label@109: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@109: PASS
+LOCALIZATION TEST en page3 label fits @Label@110: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@110: PASS
+LOCALIZATION TEST en page3 label fits @Label@111: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@111: PASS
+LOCALIZATION TEST en page3 label fits @Label@112: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@112: PASS
+LOCALIZATION TEST en page3 label fits @Label@113: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@113: PASS
+LOCALIZATION TEST en page3 label fits @Label@114: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@114: PASS
+LOCALIZATION TEST en page3 label fits @Label@115: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@115: PASS
+LOCALIZATION TEST en page3 label fits @Label@116: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@116: PASS
+LOCALIZATION TEST en page3 label fits @Label@117: PASS
+LOCALIZATION TEST en page3 label stays inside @Label@117: PASS
+LOCALIZATION TEST selector applies and saves ja: PASS
+LOCALIZATION TEST ja settings label fits @Label@32: PASS
+LOCALIZATION TEST ja settings label stays inside @Label@32: PASS
+LOCALIZATION TEST ja settings fits Close: PASS
+LOCALIZATION TEST ja settings fits AudioTab: PASS
+LOCALIZATION TEST ja settings fits DisplayTab: PASS
+LOCALIZATION TEST ja settings fits GameTab: PASS
+LOCALIZATION TEST ja settings fits ControlsTab: PASS
+LOCALIZATION TEST ja settings fits ResetPage: PASS
+LOCALIZATION TEST ja settings fits Credits: PASS
+LOCALIZATION TEST ja settings fits Back: PASS
+LOCALIZATION TEST ja settings label fits @Label@76: PASS
+LOCALIZATION TEST ja settings label stays inside @Label@76: PASS
+LOCALIZATION TEST ja settings label fits @Label@77: PASS
+LOCALIZATION TEST ja settings label stays inside @Label@77: PASS
+LOCALIZATION TEST ja settings fits Language: PASS
+LOCALIZATION TEST ja settings label fits @Label@88: PASS
+LOCALIZATION TEST ja settings label stays inside @Label@88: PASS
+LOCALIZATION TEST ja settings fits DialogueSpeed: PASS
+LOCALIZATION TEST ja settings label fits @Label@99: PASS
+LOCALIZATION TEST ja settings label stays inside @Label@99: PASS
+LOCALIZATION TEST ja settings fits AutoRun: PASS
+LOCALIZATION TEST ja settings label fits @Label@100: PASS
+LOCALIZATION TEST ja settings label stays inside @Label@100: PASS
+LOCALIZATION TEST ja settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture ja_settings: PASS
+LOCALIZATION TEST ja page0 label fits @Label@32: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@32: PASS
+LOCALIZATION TEST ja page0 fits Close: PASS
+LOCALIZATION TEST ja page0 fits AudioTab: PASS
+LOCALIZATION TEST ja page0 fits DisplayTab: PASS
+LOCALIZATION TEST ja page0 fits GameTab: PASS
+LOCALIZATION TEST ja page0 fits ControlsTab: PASS
+LOCALIZATION TEST ja page0 fits ResetPage: PASS
+LOCALIZATION TEST ja page0 fits Credits: PASS
+LOCALIZATION TEST ja page0 fits Back: PASS
+LOCALIZATION TEST ja page0 label fits @Label@44: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@44: PASS
+LOCALIZATION TEST ja page0 label fits @Label@45: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@45: PASS
+LOCALIZATION TEST ja page0 label fits @Label@46: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@46: PASS
+LOCALIZATION TEST ja page0 label fits @Label@47: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@47: PASS
+LOCALIZATION TEST ja page0 label fits @Label@48: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@48: PASS
+LOCALIZATION TEST ja page0 label fits @Label@49: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@49: PASS
+LOCALIZATION TEST ja page0 fits MusicMute: PASS
+LOCALIZATION TEST ja page0 label fits @Label@50: PASS
+LOCALIZATION TEST ja page0 label stays inside @Label@50: PASS
+LOCALIZATION TEST ja page0 fits EffectsMute: PASS
+LOCALIZATION TEST ja page1 label fits @Label@32: PASS
+LOCALIZATION TEST ja page1 label stays inside @Label@32: PASS
+LOCALIZATION TEST ja page1 fits Close: PASS
+LOCALIZATION TEST ja page1 fits AudioTab: PASS
+LOCALIZATION TEST ja page1 fits DisplayTab: PASS
+LOCALIZATION TEST ja page1 fits GameTab: PASS
+LOCALIZATION TEST ja page1 fits ControlsTab: PASS
+LOCALIZATION TEST ja page1 fits ResetPage: PASS
+LOCALIZATION TEST ja page1 fits Credits: PASS
+LOCALIZATION TEST ja page1 fits Back: PASS
+LOCALIZATION TEST ja page1 label fits @Label@51: PASS
+LOCALIZATION TEST ja page1 label stays inside @Label@51: PASS
+LOCALIZATION TEST ja page1 label fits @Label@52: PASS
+LOCALIZATION TEST ja page1 label stays inside @Label@52: PASS
+LOCALIZATION TEST ja page1 fits FullscreenToggle: PASS
+LOCALIZATION TEST ja page1 label fits @Label@53: PASS
+LOCALIZATION TEST ja page1 label stays inside @Label@53: PASS
+LOCALIZATION TEST ja page1 fits WindowSize: PASS
+LOCALIZATION TEST ja page1 label fits @Label@64: PASS
+LOCALIZATION TEST ja page1 label stays inside @Label@64: PASS
+LOCALIZATION TEST ja page1 fits VSync: PASS
+LOCALIZATION TEST ja page1 label fits @Label@65: PASS
+LOCALIZATION TEST ja page1 label stays inside @Label@65: PASS
+LOCALIZATION TEST ja page1 fits FrameLimit: PASS
+LOCALIZATION TEST ja page3 label fits @Label@32: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@32: PASS
+LOCALIZATION TEST ja page3 fits Close: PASS
+LOCALIZATION TEST ja page3 fits AudioTab: PASS
+LOCALIZATION TEST ja page3 fits DisplayTab: PASS
+LOCALIZATION TEST ja page3 fits GameTab: PASS
+LOCALIZATION TEST ja page3 fits ControlsTab: PASS
+LOCALIZATION TEST ja page3 fits ResetPage: PASS
+LOCALIZATION TEST ja page3 fits Credits: PASS
+LOCALIZATION TEST ja page3 fits Back: PASS
+LOCALIZATION TEST ja page3 label fits @Label@101: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@101: PASS
+LOCALIZATION TEST ja page3 label fits @Label@102: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@102: PASS
+LOCALIZATION TEST ja page3 label fits @Label@103: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@103: PASS
+LOCALIZATION TEST ja page3 label fits @Label@104: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@104: PASS
+LOCALIZATION TEST ja page3 label fits @Label@105: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@105: PASS
+LOCALIZATION TEST ja page3 label fits @Label@106: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@106: PASS
+LOCALIZATION TEST ja page3 label fits @Label@107: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@107: PASS
+LOCALIZATION TEST ja page3 label fits @Label@108: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@108: PASS
+LOCALIZATION TEST ja page3 label fits @Label@109: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@109: PASS
+LOCALIZATION TEST ja page3 label fits @Label@110: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@110: PASS
+LOCALIZATION TEST ja page3 label fits @Label@111: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@111: PASS
+LOCALIZATION TEST ja page3 label fits @Label@112: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@112: PASS
+LOCALIZATION TEST ja page3 label fits @Label@113: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@113: PASS
+LOCALIZATION TEST ja page3 label fits @Label@114: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@114: PASS
+LOCALIZATION TEST ja page3 label fits @Label@115: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@115: PASS
+LOCALIZATION TEST ja page3 label fits @Label@116: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@116: PASS
+LOCALIZATION TEST ja page3 label fits @Label@117: PASS
+LOCALIZATION TEST ja page3 label stays inside @Label@117: PASS
+LOCALIZATION TEST selector applies and saves zh_TW: PASS
+LOCALIZATION TEST zh_TW settings label fits @Label@32: PASS
+LOCALIZATION TEST zh_TW settings label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_TW settings fits Close: PASS
+LOCALIZATION TEST zh_TW settings fits AudioTab: PASS
+LOCALIZATION TEST zh_TW settings fits DisplayTab: PASS
+LOCALIZATION TEST zh_TW settings fits GameTab: PASS
+LOCALIZATION TEST zh_TW settings fits ControlsTab: PASS
+LOCALIZATION TEST zh_TW settings fits ResetPage: PASS
+LOCALIZATION TEST zh_TW settings fits Credits: PASS
+LOCALIZATION TEST zh_TW settings fits Back: PASS
+LOCALIZATION TEST zh_TW settings label fits @Label@76: PASS
+LOCALIZATION TEST zh_TW settings label stays inside @Label@76: PASS
+LOCALIZATION TEST zh_TW settings label fits @Label@77: PASS
+LOCALIZATION TEST zh_TW settings label stays inside @Label@77: PASS
+LOCALIZATION TEST zh_TW settings fits Language: PASS
+LOCALIZATION TEST zh_TW settings label fits @Label@88: PASS
+LOCALIZATION TEST zh_TW settings label stays inside @Label@88: PASS
+LOCALIZATION TEST zh_TW settings fits DialogueSpeed: PASS
+LOCALIZATION TEST zh_TW settings label fits @Label@99: PASS
+LOCALIZATION TEST zh_TW settings label stays inside @Label@99: PASS
+LOCALIZATION TEST zh_TW settings fits AutoRun: PASS
+LOCALIZATION TEST zh_TW settings label fits @Label@100: PASS
+LOCALIZATION TEST zh_TW settings label stays inside @Label@100: PASS
+LOCALIZATION TEST zh_TW settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture zh_TW_settings: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@32: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_TW page0 fits Close: PASS
+LOCALIZATION TEST zh_TW page0 fits AudioTab: PASS
+LOCALIZATION TEST zh_TW page0 fits DisplayTab: PASS
+LOCALIZATION TEST zh_TW page0 fits GameTab: PASS
+LOCALIZATION TEST zh_TW page0 fits ControlsTab: PASS
+LOCALIZATION TEST zh_TW page0 fits ResetPage: PASS
+LOCALIZATION TEST zh_TW page0 fits Credits: PASS
+LOCALIZATION TEST zh_TW page0 fits Back: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@44: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@44: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@45: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@45: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@46: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@46: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@47: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@47: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@48: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@48: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@49: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@49: PASS
+LOCALIZATION TEST zh_TW page0 fits MusicMute: PASS
+LOCALIZATION TEST zh_TW page0 label fits @Label@50: PASS
+LOCALIZATION TEST zh_TW page0 label stays inside @Label@50: PASS
+LOCALIZATION TEST zh_TW page0 fits EffectsMute: PASS
+LOCALIZATION TEST zh_TW page1 label fits @Label@32: PASS
+LOCALIZATION TEST zh_TW page1 label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_TW page1 fits Close: PASS
+LOCALIZATION TEST zh_TW page1 fits AudioTab: PASS
+LOCALIZATION TEST zh_TW page1 fits DisplayTab: PASS
+LOCALIZATION TEST zh_TW page1 fits GameTab: PASS
+LOCALIZATION TEST zh_TW page1 fits ControlsTab: PASS
+LOCALIZATION TEST zh_TW page1 fits ResetPage: PASS
+LOCALIZATION TEST zh_TW page1 fits Credits: PASS
+LOCALIZATION TEST zh_TW page1 fits Back: PASS
+LOCALIZATION TEST zh_TW page1 label fits @Label@51: PASS
+LOCALIZATION TEST zh_TW page1 label stays inside @Label@51: PASS
+LOCALIZATION TEST zh_TW page1 label fits @Label@52: PASS
+LOCALIZATION TEST zh_TW page1 label stays inside @Label@52: PASS
+LOCALIZATION TEST zh_TW page1 fits FullscreenToggle: PASS
+LOCALIZATION TEST zh_TW page1 label fits @Label@53: PASS
+LOCALIZATION TEST zh_TW page1 label stays inside @Label@53: PASS
+LOCALIZATION TEST zh_TW page1 fits WindowSize: PASS
+LOCALIZATION TEST zh_TW page1 label fits @Label@64: PASS
+LOCALIZATION TEST zh_TW page1 label stays inside @Label@64: PASS
+LOCALIZATION TEST zh_TW page1 fits VSync: PASS
+LOCALIZATION TEST zh_TW page1 label fits @Label@65: PASS
+LOCALIZATION TEST zh_TW page1 label stays inside @Label@65: PASS
+LOCALIZATION TEST zh_TW page1 fits FrameLimit: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@32: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@32: PASS
+LOCALIZATION TEST zh_TW page3 fits Close: PASS
+LOCALIZATION TEST zh_TW page3 fits AudioTab: PASS
+LOCALIZATION TEST zh_TW page3 fits DisplayTab: PASS
+LOCALIZATION TEST zh_TW page3 fits GameTab: PASS
+LOCALIZATION TEST zh_TW page3 fits ControlsTab: PASS
+LOCALIZATION TEST zh_TW page3 fits ResetPage: PASS
+LOCALIZATION TEST zh_TW page3 fits Credits: PASS
+LOCALIZATION TEST zh_TW page3 fits Back: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@101: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@101: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@102: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@102: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@103: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@103: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@104: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@104: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@105: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@105: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@106: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@106: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@107: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@107: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@108: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@108: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@109: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@109: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@110: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@110: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@111: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@111: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@112: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@112: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@113: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@113: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@114: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@114: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@115: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@115: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@116: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@116: PASS
+LOCALIZATION TEST zh_TW page3 label fits @Label@117: PASS
+LOCALIZATION TEST zh_TW page3 label stays inside @Label@117: PASS
+LOCALIZATION TEST language keeps other preferences: PASS
+LOCALIZATION TEST game reset preserves language: PASS
+LOCALIZATION TEST zh_CN title label fits @Label@25: PASS
+LOCALIZATION TEST zh_CN title label stays inside @Label@25: PASS
+LOCALIZATION TEST zh_CN title label fits GameTitle: PASS
+LOCALIZATION TEST zh_CN title label stays inside GameTitle: PASS
+LOCALIZATION TEST zh_CN title fits StartGame: PASS
+LOCALIZATION TEST zh_CN title fits Settings: PASS
+LOCALIZATION TEST zh_CN title fits Credits: PASS
+LOCALIZATION TEST zh_CN title fits QuitGame: PASS
+LOCALIZATION TEST zh_CN game title fits: PASS
+LOCALIZATION TEST capture zh_CN_title: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@143: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@143: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@144: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@144: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@146: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@146: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@147: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@147: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@148: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@148: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@150: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@150: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@151: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@151: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@152: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@152: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@154: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@154: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@155: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@155: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@156: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@156: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@158: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@158: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@159: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@159: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@160: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@160: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@162: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@162: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@163: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@163: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@164: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@164: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@166: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@166: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@167: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@167: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@168: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@168: PASS
+LOCALIZATION TEST zh_CN slots fits Back: PASS
+LOCALIZATION TEST zh_CN slots label fits @Label@170: PASS
+LOCALIZATION TEST zh_CN slots label stays inside @Label@170: PASS
+LOCALIZATION TEST capture zh_CN_slots_empty: PASS
+LOCALIZATION TEST zh_CN keeps credit attributions: PASS
+LOCALIZATION TEST en title label fits @Label@25: PASS
+LOCALIZATION TEST en title label stays inside @Label@25: PASS
+LOCALIZATION TEST en title label fits GameTitle: PASS
+LOCALIZATION TEST en title label stays inside GameTitle: PASS
+LOCALIZATION TEST en title fits StartGame: PASS
+LOCALIZATION TEST en title fits Settings: PASS
+LOCALIZATION TEST en title fits Credits: PASS
+LOCALIZATION TEST en title fits QuitGame: PASS
+LOCALIZATION TEST en game title fits: PASS
+LOCALIZATION TEST capture en_title: PASS
+LOCALIZATION TEST en slots label fits @Label@176: PASS
+LOCALIZATION TEST en slots label stays inside @Label@176: PASS
+LOCALIZATION TEST en slots label fits @Label@177: PASS
+LOCALIZATION TEST en slots label stays inside @Label@177: PASS
+LOCALIZATION TEST en slots label fits @Label@179: PASS
+LOCALIZATION TEST en slots label stays inside @Label@179: PASS
+LOCALIZATION TEST en slots label fits @Label@180: PASS
+LOCALIZATION TEST en slots label stays inside @Label@180: PASS
+LOCALIZATION TEST en slots label fits @Label@181: PASS
+LOCALIZATION TEST en slots label stays inside @Label@181: PASS
+LOCALIZATION TEST en slots label fits @Label@183: PASS
+LOCALIZATION TEST en slots label stays inside @Label@183: PASS
+LOCALIZATION TEST en slots label fits @Label@184: PASS
+LOCALIZATION TEST en slots label stays inside @Label@184: PASS
+LOCALIZATION TEST en slots label fits @Label@185: PASS
+LOCALIZATION TEST en slots label stays inside @Label@185: PASS
+LOCALIZATION TEST en slots label fits @Label@187: PASS
+LOCALIZATION TEST en slots label stays inside @Label@187: PASS
+LOCALIZATION TEST en slots label fits @Label@188: PASS
+LOCALIZATION TEST en slots label stays inside @Label@188: PASS
+LOCALIZATION TEST en slots label fits @Label@189: PASS
+LOCALIZATION TEST en slots label stays inside @Label@189: PASS
+LOCALIZATION TEST en slots label fits @Label@191: PASS
+LOCALIZATION TEST en slots label stays inside @Label@191: PASS
+LOCALIZATION TEST en slots label fits @Label@192: PASS
+LOCALIZATION TEST en slots label stays inside @Label@192: PASS
+LOCALIZATION TEST en slots label fits @Label@193: PASS
+LOCALIZATION TEST en slots label stays inside @Label@193: PASS
+LOCALIZATION TEST en slots label fits @Label@195: PASS
+LOCALIZATION TEST en slots label stays inside @Label@195: PASS
+LOCALIZATION TEST en slots label fits @Label@196: PASS
+LOCALIZATION TEST en slots label stays inside @Label@196: PASS
+LOCALIZATION TEST en slots label fits @Label@197: PASS
+LOCALIZATION TEST en slots label stays inside @Label@197: PASS
+LOCALIZATION TEST en slots label fits @Label@199: PASS
+LOCALIZATION TEST en slots label stays inside @Label@199: PASS
+LOCALIZATION TEST en slots label fits @Label@200: PASS
+LOCALIZATION TEST en slots label stays inside @Label@200: PASS
+LOCALIZATION TEST en slots label fits @Label@201: PASS
+LOCALIZATION TEST en slots label stays inside @Label@201: PASS
+LOCALIZATION TEST en slots fits Back: PASS
+LOCALIZATION TEST en slots label fits @Label@203: PASS
+LOCALIZATION TEST en slots label stays inside @Label@203: PASS
+LOCALIZATION TEST capture en_slots_empty: PASS
+LOCALIZATION TEST en keeps credit attributions: PASS
+LOCALIZATION TEST ja title label fits @Label@25: PASS
+LOCALIZATION TEST ja title label stays inside @Label@25: PASS
+LOCALIZATION TEST ja title label fits GameTitle: PASS
+LOCALIZATION TEST ja title label stays inside GameTitle: PASS
+LOCALIZATION TEST ja title fits StartGame: PASS
+LOCALIZATION TEST ja title fits Settings: PASS
+LOCALIZATION TEST ja title fits Credits: PASS
+LOCALIZATION TEST ja title fits QuitGame: PASS
+LOCALIZATION TEST ja game title fits: PASS
+LOCALIZATION TEST capture ja_title: PASS
+LOCALIZATION TEST ja slots label fits @Label@209: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@209: PASS
+LOCALIZATION TEST ja slots label fits @Label@210: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@210: PASS
+LOCALIZATION TEST ja slots label fits @Label@212: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@212: PASS
+LOCALIZATION TEST ja slots label fits @Label@213: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@213: PASS
+LOCALIZATION TEST ja slots label fits @Label@214: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@214: PASS
+LOCALIZATION TEST ja slots label fits @Label@216: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@216: PASS
+LOCALIZATION TEST ja slots label fits @Label@217: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@217: PASS
+LOCALIZATION TEST ja slots label fits @Label@218: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@218: PASS
+LOCALIZATION TEST ja slots label fits @Label@220: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@220: PASS
+LOCALIZATION TEST ja slots label fits @Label@221: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@221: PASS
+LOCALIZATION TEST ja slots label fits @Label@222: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@222: PASS
+LOCALIZATION TEST ja slots label fits @Label@224: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@224: PASS
+LOCALIZATION TEST ja slots label fits @Label@225: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@225: PASS
+LOCALIZATION TEST ja slots label fits @Label@226: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@226: PASS
+LOCALIZATION TEST ja slots label fits @Label@228: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@228: PASS
+LOCALIZATION TEST ja slots label fits @Label@229: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@229: PASS
+LOCALIZATION TEST ja slots label fits @Label@230: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@230: PASS
+LOCALIZATION TEST ja slots label fits @Label@232: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@232: PASS
+LOCALIZATION TEST ja slots label fits @Label@233: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@233: PASS
+LOCALIZATION TEST ja slots label fits @Label@234: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@234: PASS
+LOCALIZATION TEST ja slots fits Back: PASS
+LOCALIZATION TEST ja slots label fits @Label@236: PASS
+LOCALIZATION TEST ja slots label stays inside @Label@236: PASS
+LOCALIZATION TEST capture ja_slots_empty: PASS
+LOCALIZATION TEST ja keeps credit attributions: PASS
+LOCALIZATION TEST zh_TW title label fits @Label@25: PASS
+LOCALIZATION TEST zh_TW title label stays inside @Label@25: PASS
+LOCALIZATION TEST zh_TW title label fits GameTitle: PASS
+LOCALIZATION TEST zh_TW title label stays inside GameTitle: PASS
+LOCALIZATION TEST zh_TW title fits StartGame: PASS
+LOCALIZATION TEST zh_TW title fits Settings: PASS
+LOCALIZATION TEST zh_TW title fits Credits: PASS
+LOCALIZATION TEST zh_TW title fits QuitGame: PASS
+LOCALIZATION TEST zh_TW game title fits: PASS
+LOCALIZATION TEST capture zh_TW_title: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@242: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@242: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@243: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@243: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@245: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@245: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@246: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@246: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@247: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@247: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@249: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@249: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@250: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@250: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@251: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@251: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@253: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@253: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@254: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@254: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@255: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@255: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@257: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@257: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@258: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@258: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@259: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@259: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@261: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@261: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@262: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@262: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@263: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@263: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@265: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@265: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@266: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@266: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@267: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@267: PASS
+LOCALIZATION TEST zh_TW slots fits Back: PASS
+LOCALIZATION TEST zh_TW slots label fits @Label@269: PASS
+LOCALIZATION TEST zh_TW slots label stays inside @Label@269: PASS
+LOCALIZATION TEST capture zh_TW_slots_empty: PASS
+LOCALIZATION TEST zh_TW keeps credit attributions: PASS
+LOCALIZATION TEST new slot starts: PASS
+LOCALIZATION TEST scene handoff keeps English: PASS
+LOCALIZATION TEST dynamic ingredient notice: PASS
+LOCALIZATION TEST progress can be saved in English: PASS
+LOCALIZATION TEST zh_CN paused settings uses native names: PASS
+LOCALIZATION TEST zh_CN switching preserves state: PASS
+LOCALIZATION TEST zh_CN pause slot updates: PASS
+LOCALIZATION TEST zh_CN saved notice updates: PASS
+LOCALIZATION TEST zh_CN paused settings label fits @Label@827: PASS
+LOCALIZATION TEST zh_CN paused settings label stays inside @Label@827: PASS
+LOCALIZATION TEST zh_CN paused settings fits Close: PASS
+LOCALIZATION TEST zh_CN paused settings fits AudioTab: PASS
+LOCALIZATION TEST zh_CN paused settings fits DisplayTab: PASS
+LOCALIZATION TEST zh_CN paused settings fits GameTab: PASS
+LOCALIZATION TEST zh_CN paused settings fits ControlsTab: PASS
+LOCALIZATION TEST zh_CN paused settings fits ResetPage: PASS
+LOCALIZATION TEST zh_CN paused settings fits Credits: PASS
+LOCALIZATION TEST zh_CN paused settings fits CloseAudioSettings: PASS
+LOCALIZATION TEST zh_CN paused settings label fits @Label@871: PASS
+LOCALIZATION TEST zh_CN paused settings label stays inside @Label@871: PASS
+LOCALIZATION TEST zh_CN paused settings label fits @Label@872: PASS
+LOCALIZATION TEST zh_CN paused settings label stays inside @Label@872: PASS
+LOCALIZATION TEST zh_CN paused settings fits Language: PASS
+LOCALIZATION TEST zh_CN paused settings label fits @Label@883: PASS
+LOCALIZATION TEST zh_CN paused settings label stays inside @Label@883: PASS
+LOCALIZATION TEST zh_CN paused settings fits DialogueSpeed: PASS
+LOCALIZATION TEST zh_CN paused settings label fits @Label@894: PASS
+LOCALIZATION TEST zh_CN paused settings label stays inside @Label@894: PASS
+LOCALIZATION TEST zh_CN paused settings fits AutoRun: PASS
+LOCALIZATION TEST zh_CN paused settings label fits @Label@895: PASS
+LOCALIZATION TEST zh_CN paused settings label stays inside @Label@895: PASS
+LOCALIZATION TEST zh_CN paused settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture zh_CN_paused_settings: PASS
+LOCALIZATION TEST en paused settings uses native names: PASS
+LOCALIZATION TEST en switching preserves state: PASS
+LOCALIZATION TEST en pause slot updates: PASS
+LOCALIZATION TEST en saved notice updates: PASS
+LOCALIZATION TEST en paused settings label fits @Label@827: PASS
+LOCALIZATION TEST en paused settings label stays inside @Label@827: PASS
+LOCALIZATION TEST en paused settings fits Close: PASS
+LOCALIZATION TEST en paused settings fits AudioTab: PASS
+LOCALIZATION TEST en paused settings fits DisplayTab: PASS
+LOCALIZATION TEST en paused settings fits GameTab: PASS
+LOCALIZATION TEST en paused settings fits ControlsTab: PASS
+LOCALIZATION TEST en paused settings fits ResetPage: PASS
+LOCALIZATION TEST en paused settings fits Credits: PASS
+LOCALIZATION TEST en paused settings fits CloseAudioSettings: PASS
+LOCALIZATION TEST en paused settings label fits @Label@871: PASS
+LOCALIZATION TEST en paused settings label stays inside @Label@871: PASS
+LOCALIZATION TEST en paused settings label fits @Label@872: PASS
+LOCALIZATION TEST en paused settings label stays inside @Label@872: PASS
+LOCALIZATION TEST en paused settings fits Language: PASS
+LOCALIZATION TEST en paused settings label fits @Label@883: PASS
+LOCALIZATION TEST en paused settings label stays inside @Label@883: PASS
+LOCALIZATION TEST en paused settings fits DialogueSpeed: PASS
+LOCALIZATION TEST en paused settings label fits @Label@894: PASS
+LOCALIZATION TEST en paused settings label stays inside @Label@894: PASS
+LOCALIZATION TEST en paused settings fits AutoRun: PASS
+LOCALIZATION TEST en paused settings label fits @Label@895: PASS
+LOCALIZATION TEST en paused settings label stays inside @Label@895: PASS
+LOCALIZATION TEST en paused settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture en_paused_settings: PASS
+LOCALIZATION TEST ja paused settings uses native names: PASS
+LOCALIZATION TEST ja switching preserves state: PASS
+LOCALIZATION TEST ja pause slot updates: PASS
+LOCALIZATION TEST ja saved notice updates: PASS
+LOCALIZATION TEST ja paused settings label fits @Label@827: PASS
+LOCALIZATION TEST ja paused settings label stays inside @Label@827: PASS
+LOCALIZATION TEST ja paused settings fits Close: PASS
+LOCALIZATION TEST ja paused settings fits AudioTab: PASS
+LOCALIZATION TEST ja paused settings fits DisplayTab: PASS
+LOCALIZATION TEST ja paused settings fits GameTab: PASS
+LOCALIZATION TEST ja paused settings fits ControlsTab: PASS
+LOCALIZATION TEST ja paused settings fits ResetPage: PASS
+LOCALIZATION TEST ja paused settings fits Credits: PASS
+LOCALIZATION TEST ja paused settings fits CloseAudioSettings: PASS
+LOCALIZATION TEST ja paused settings label fits @Label@871: PASS
+LOCALIZATION TEST ja paused settings label stays inside @Label@871: PASS
+LOCALIZATION TEST ja paused settings label fits @Label@872: PASS
+LOCALIZATION TEST ja paused settings label stays inside @Label@872: PASS
+LOCALIZATION TEST ja paused settings fits Language: PASS
+LOCALIZATION TEST ja paused settings label fits @Label@883: PASS
+LOCALIZATION TEST ja paused settings label stays inside @Label@883: PASS
+LOCALIZATION TEST ja paused settings fits DialogueSpeed: PASS
+LOCALIZATION TEST ja paused settings label fits @Label@894: PASS
+LOCALIZATION TEST ja paused settings label stays inside @Label@894: PASS
+LOCALIZATION TEST ja paused settings fits AutoRun: PASS
+LOCALIZATION TEST ja paused settings label fits @Label@895: PASS
+LOCALIZATION TEST ja paused settings label stays inside @Label@895: PASS
+LOCALIZATION TEST ja paused settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture ja_paused_settings: PASS
+LOCALIZATION TEST zh_TW paused settings uses native names: PASS
+LOCALIZATION TEST zh_TW switching preserves state: PASS
+LOCALIZATION TEST zh_TW pause slot updates: PASS
+LOCALIZATION TEST zh_TW saved notice updates: PASS
+LOCALIZATION TEST zh_TW paused settings label fits @Label@827: PASS
+LOCALIZATION TEST zh_TW paused settings label stays inside @Label@827: PASS
+LOCALIZATION TEST zh_TW paused settings fits Close: PASS
+LOCALIZATION TEST zh_TW paused settings fits AudioTab: PASS
+LOCALIZATION TEST zh_TW paused settings fits DisplayTab: PASS
+LOCALIZATION TEST zh_TW paused settings fits GameTab: PASS
+LOCALIZATION TEST zh_TW paused settings fits ControlsTab: PASS
+LOCALIZATION TEST zh_TW paused settings fits ResetPage: PASS
+LOCALIZATION TEST zh_TW paused settings fits Credits: PASS
+LOCALIZATION TEST zh_TW paused settings fits CloseAudioSettings: PASS
+LOCALIZATION TEST zh_TW paused settings label fits @Label@871: PASS
+LOCALIZATION TEST zh_TW paused settings label stays inside @Label@871: PASS
+LOCALIZATION TEST zh_TW paused settings label fits @Label@872: PASS
+LOCALIZATION TEST zh_TW paused settings label stays inside @Label@872: PASS
+LOCALIZATION TEST zh_TW paused settings fits Language: PASS
+LOCALIZATION TEST zh_TW paused settings label fits @Label@883: PASS
+LOCALIZATION TEST zh_TW paused settings label stays inside @Label@883: PASS
+LOCALIZATION TEST zh_TW paused settings fits DialogueSpeed: PASS
+LOCALIZATION TEST zh_TW paused settings label fits @Label@894: PASS
+LOCALIZATION TEST zh_TW paused settings label stays inside @Label@894: PASS
+LOCALIZATION TEST zh_TW paused settings fits AutoRun: PASS
+LOCALIZATION TEST zh_TW paused settings label fits @Label@895: PASS
+LOCALIZATION TEST zh_TW paused settings label stays inside @Label@895: PASS
+LOCALIZATION TEST zh_TW paused settings fits ShowHotbar: PASS
+LOCALIZATION TEST capture zh_TW_paused_settings: PASS
+LOCALIZATION TEST capture zh_TW_pause: PASS
+LOCALIZATION TEST zh_CN clock fits: PASS
+LOCALIZATION TEST zh_CN bag count: PASS
+LOCALIZATION TEST zh_CN open bag refreshes immediately: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@990: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@990: PASS
+LOCALIZATION TEST zh_CN bag fits @Button@991: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@992: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@992: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@995: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@995: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@996: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@996: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@999: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@999: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1000: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1000: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1003: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1003: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1004: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1004: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1007: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1007: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1008: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1008: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1011: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1011: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1012: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1012: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1015: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1015: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1016: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1016: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1019: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1019: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1020: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1020: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1023: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1023: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1024: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1024: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1027: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1027: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1028: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1028: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1031: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1031: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1032: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1032: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1035: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1035: PASS
+LOCALIZATION TEST zh_CN bag label fits @Label@1036: PASS
+LOCALIZATION TEST zh_CN bag label stays inside @Label@1036: PASS
+LOCALIZATION TEST capture zh_CN_bag: PASS
+LOCALIZATION TEST zh_CN open journal refreshes immediately: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1039: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1039: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1040: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1040: PASS
+LOCALIZATION TEST zh_CN journal fits @Button@1041: PASS
+LOCALIZATION TEST zh_CN journal fits @Button@1042: PASS
+LOCALIZATION TEST zh_CN journal fits @Button@1043: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1080: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1080: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1081: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1081: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1083: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1083: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1084: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1084: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1086: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1086: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1087: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1087: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1088: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1089: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1091: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1092: PASS
+LOCALIZATION TEST zh_CN journal fits @Button@1094: PASS
+LOCALIZATION TEST zh_CN journal label fits @Label@1062: PASS
+LOCALIZATION TEST zh_CN journal label stays inside @Label@1062: PASS
+LOCALIZATION TEST capture zh_CN_journal: PASS
+LOCALIZATION TEST zh_CN dialogue reveals translated length: PASS
+LOCALIZATION TEST zh_CN dialogue history translated: PASS
+LOCALIZATION TEST zh_CN open dialogue refreshes immediately: PASS
+LOCALIZATION TEST zh_CN dialogue label fits @Label@1097: PASS
+LOCALIZATION TEST zh_CN dialogue label stays inside @Label@1097: PASS
+LOCALIZATION TEST zh_CN dialogue fits @Button@1098: PASS
+LOCALIZATION TEST zh_CN dialogue label fits @Label@1101: PASS
+LOCALIZATION TEST zh_CN dialogue label stays inside @Label@1101: PASS
+LOCALIZATION TEST zh_CN dialogue fits @Button@1102: PASS
+LOCALIZATION TEST zh_CN dialogue label fits @Label@1103: PASS
+LOCALIZATION TEST zh_CN dialogue label stays inside @Label@1103: PASS
+LOCALIZATION TEST zh_CN dialogue fits DialogueChoice0: PASS
+LOCALIZATION TEST zh_CN dialogue fits DialogueChoice1: PASS
+LOCALIZATION TEST zh_CN dialogue fits DialogueChoice2: PASS
+LOCALIZATION TEST capture zh_CN_dialogue: PASS
+LOCALIZATION TEST zh_CN blacksmith panel opens: PASS
+LOCALIZATION TEST zh_CN blacksmith label fits @Label@1148: PASS
+LOCALIZATION TEST zh_CN blacksmith label stays inside @Label@1148: PASS
+LOCALIZATION TEST zh_CN blacksmith label fits @Label@1149: PASS
+LOCALIZATION TEST zh_CN blacksmith label stays inside @Label@1149: PASS
+LOCALIZATION TEST zh_CN blacksmith fits @Button@1150: PASS
+LOCALIZATION TEST zh_CN blacksmith fits @Button@1151: PASS
+LOCALIZATION TEST zh_CN blacksmith fits @Button@1152: PASS
+LOCALIZATION TEST zh_CN blacksmith label fits @Label@1153: PASS
+LOCALIZATION TEST zh_CN blacksmith label stays inside @Label@1153: PASS
+LOCALIZATION TEST capture zh_CN_blacksmith: PASS
+LOCALIZATION TEST zh_CN store panel opens: PASS
+LOCALIZATION TEST zh_CN store label fits @Label@1189: PASS
+LOCALIZATION TEST zh_CN store label stays inside @Label@1189: PASS
+LOCALIZATION TEST zh_CN store label fits @Label@1190: PASS
+LOCALIZATION TEST zh_CN store label stays inside @Label@1190: PASS
+LOCALIZATION TEST zh_CN store fits @Button@1191: PASS
+LOCALIZATION TEST zh_CN store fits @Button@1192: PASS
+LOCALIZATION TEST zh_CN store fits @Button@1193: PASS
+LOCALIZATION TEST zh_CN store fits @Button@1194: PASS
+LOCALIZATION TEST zh_CN store fits @Button@1195: PASS
+LOCALIZATION TEST zh_CN store label fits @Label@1196: PASS
+LOCALIZATION TEST zh_CN store label stays inside @Label@1196: PASS
+LOCALIZATION TEST capture zh_CN_store: PASS
+LOCALIZATION TEST capture zh_CN_dock: PASS
+LOCALIZATION TEST capture zh_CN_field: PASS
+LOCALIZATION TEST zh_CN dish and price localized: PASS
+LOCALIZATION TEST capture zh_CN_restaurant: PASS
+LOCALIZATION TEST en clock fits: PASS
+LOCALIZATION TEST en bag count: PASS
+LOCALIZATION TEST en open bag refreshes immediately: PASS
+LOCALIZATION TEST en bag label fits @Label@1399: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1399: PASS
+LOCALIZATION TEST en bag fits @Button@1400: PASS
+LOCALIZATION TEST en bag label fits @Label@1401: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1401: PASS
+LOCALIZATION TEST en bag label fits @Label@1404: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1404: PASS
+LOCALIZATION TEST en bag label fits @Label@1405: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1405: PASS
+LOCALIZATION TEST en bag label fits @Label@1408: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1408: PASS
+LOCALIZATION TEST en bag label fits @Label@1409: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1409: PASS
+LOCALIZATION TEST en bag label fits @Label@1412: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1412: PASS
+LOCALIZATION TEST en bag label fits @Label@1413: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1413: PASS
+LOCALIZATION TEST en bag label fits @Label@1416: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1416: PASS
+LOCALIZATION TEST en bag label fits @Label@1417: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1417: PASS
+LOCALIZATION TEST en bag label fits @Label@1420: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1420: PASS
+LOCALIZATION TEST en bag label fits @Label@1421: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1421: PASS
+LOCALIZATION TEST en bag label fits @Label@1424: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1424: PASS
+LOCALIZATION TEST en bag label fits @Label@1425: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1425: PASS
+LOCALIZATION TEST en bag label fits @Label@1428: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1428: PASS
+LOCALIZATION TEST en bag label fits @Label@1429: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1429: PASS
+LOCALIZATION TEST en bag label fits @Label@1432: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1432: PASS
+LOCALIZATION TEST en bag label fits @Label@1433: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1433: PASS
+LOCALIZATION TEST en bag label fits @Label@1436: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1436: PASS
+LOCALIZATION TEST en bag label fits @Label@1437: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1437: PASS
+LOCALIZATION TEST en bag label fits @Label@1440: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1440: PASS
+LOCALIZATION TEST en bag label fits @Label@1441: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1441: PASS
+LOCALIZATION TEST en bag label fits @Label@1444: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1444: PASS
+LOCALIZATION TEST en bag label fits @Label@1445: PASS
+LOCALIZATION TEST en bag label stays inside @Label@1445: PASS
+LOCALIZATION TEST capture en_bag: PASS
+LOCALIZATION TEST en open journal refreshes immediately: PASS
+LOCALIZATION TEST en journal label fits @Label@1448: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1448: PASS
+LOCALIZATION TEST en journal label fits @Label@1449: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1449: PASS
+LOCALIZATION TEST en journal fits @Button@1450: PASS
+LOCALIZATION TEST en journal fits @Button@1451: PASS
+LOCALIZATION TEST en journal fits @Button@1452: PASS
+LOCALIZATION TEST en journal label fits @Label@1489: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1489: PASS
+LOCALIZATION TEST en journal label fits @Label@1490: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1490: PASS
+LOCALIZATION TEST en journal label fits @Label@1492: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1492: PASS
+LOCALIZATION TEST en journal label fits @Label@1493: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1493: PASS
+LOCALIZATION TEST en journal label fits @Label@1495: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1495: PASS
+LOCALIZATION TEST en journal label fits @Label@1496: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1496: PASS
+LOCALIZATION TEST en journal label fits @Label@1497: PASS
+LOCALIZATION TEST en journal label fits @Label@1498: PASS
+LOCALIZATION TEST en journal label fits @Label@1500: PASS
+LOCALIZATION TEST en journal label fits @Label@1501: PASS
+LOCALIZATION TEST en journal fits @Button@1503: PASS
+LOCALIZATION TEST en journal label fits @Label@1471: PASS
+LOCALIZATION TEST en journal label stays inside @Label@1471: PASS
+LOCALIZATION TEST capture en_journal: PASS
+LOCALIZATION TEST en dialogue reveals translated length: PASS
+LOCALIZATION TEST en dialogue history translated: PASS
+LOCALIZATION TEST en open dialogue refreshes immediately: PASS
+LOCALIZATION TEST en dialogue label fits @Label@1506: PASS
+LOCALIZATION TEST en dialogue label stays inside @Label@1506: PASS
+LOCALIZATION TEST en dialogue fits @Button@1507: PASS
+LOCALIZATION TEST en dialogue label fits @Label@1510: PASS
+LOCALIZATION TEST en dialogue label stays inside @Label@1510: PASS
+LOCALIZATION TEST en dialogue fits @Button@1511: PASS
+LOCALIZATION TEST en dialogue label fits @Label@1512: PASS
+LOCALIZATION TEST en dialogue label stays inside @Label@1512: PASS
+LOCALIZATION TEST en dialogue fits DialogueChoice0: PASS
+LOCALIZATION TEST en dialogue fits DialogueChoice1: PASS
+LOCALIZATION TEST en dialogue fits DialogueChoice2: PASS
+LOCALIZATION TEST capture en_dialogue: PASS
+LOCALIZATION TEST en blacksmith panel opens: PASS
+LOCALIZATION TEST en blacksmith label fits @Label@1557: PASS
+LOCALIZATION TEST en blacksmith label stays inside @Label@1557: PASS
+LOCALIZATION TEST en blacksmith label fits @Label@1558: PASS
+LOCALIZATION TEST en blacksmith label stays inside @Label@1558: PASS
+LOCALIZATION TEST en blacksmith fits @Button@1559: PASS
+LOCALIZATION TEST en blacksmith fits @Button@1560: PASS
+LOCALIZATION TEST en blacksmith fits @Button@1561: PASS
+LOCALIZATION TEST en blacksmith label fits @Label@1562: PASS
+LOCALIZATION TEST en blacksmith label stays inside @Label@1562: PASS
+LOCALIZATION TEST capture en_blacksmith: PASS
+LOCALIZATION TEST en store panel opens: PASS
+LOCALIZATION TEST en store label fits @Label@1598: PASS
+LOCALIZATION TEST en store label stays inside @Label@1598: PASS
+LOCALIZATION TEST en store label fits @Label@1599: PASS
+LOCALIZATION TEST en store label stays inside @Label@1599: PASS
+LOCALIZATION TEST en store fits @Button@1600: PASS
+LOCALIZATION TEST en store fits @Button@1601: PASS
+LOCALIZATION TEST en store fits @Button@1602: PASS
+LOCALIZATION TEST en store fits @Button@1603: PASS
+LOCALIZATION TEST en store fits @Button@1604: PASS
+LOCALIZATION TEST en store label fits @Label@1605: PASS
+LOCALIZATION TEST en store label stays inside @Label@1605: PASS
+LOCALIZATION TEST capture en_store: PASS
+LOCALIZATION TEST capture en_dock: PASS
+LOCALIZATION TEST capture en_field: PASS
+LOCALIZATION TEST en dish and price localized: PASS
+LOCALIZATION TEST capture en_restaurant: PASS
+LOCALIZATION TEST ja clock fits: PASS
+LOCALIZATION TEST ja bag count: PASS
+LOCALIZATION TEST ja open bag refreshes immediately: PASS
+LOCALIZATION TEST ja bag label fits @Label@1808: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1808: PASS
+LOCALIZATION TEST ja bag fits @Button@1809: PASS
+LOCALIZATION TEST ja bag label fits @Label@1810: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1810: PASS
+LOCALIZATION TEST ja bag label fits @Label@1813: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1813: PASS
+LOCALIZATION TEST ja bag label fits @Label@1814: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1814: PASS
+LOCALIZATION TEST ja bag label fits @Label@1817: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1817: PASS
+LOCALIZATION TEST ja bag label fits @Label@1818: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1818: PASS
+LOCALIZATION TEST ja bag label fits @Label@1821: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1821: PASS
+LOCALIZATION TEST ja bag label fits @Label@1822: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1822: PASS
+LOCALIZATION TEST ja bag label fits @Label@1825: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1825: PASS
+LOCALIZATION TEST ja bag label fits @Label@1826: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1826: PASS
+LOCALIZATION TEST ja bag label fits @Label@1829: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1829: PASS
+LOCALIZATION TEST ja bag label fits @Label@1830: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1830: PASS
+LOCALIZATION TEST ja bag label fits @Label@1833: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1833: PASS
+LOCALIZATION TEST ja bag label fits @Label@1834: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1834: PASS
+LOCALIZATION TEST ja bag label fits @Label@1837: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1837: PASS
+LOCALIZATION TEST ja bag label fits @Label@1838: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1838: PASS
+LOCALIZATION TEST ja bag label fits @Label@1841: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1841: PASS
+LOCALIZATION TEST ja bag label fits @Label@1842: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1842: PASS
+LOCALIZATION TEST ja bag label fits @Label@1845: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1845: PASS
+LOCALIZATION TEST ja bag label fits @Label@1846: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1846: PASS
+LOCALIZATION TEST ja bag label fits @Label@1849: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1849: PASS
+LOCALIZATION TEST ja bag label fits @Label@1850: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1850: PASS
+LOCALIZATION TEST ja bag label fits @Label@1853: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1853: PASS
+LOCALIZATION TEST ja bag label fits @Label@1854: PASS
+LOCALIZATION TEST ja bag label stays inside @Label@1854: PASS
+LOCALIZATION TEST capture ja_bag: PASS
+LOCALIZATION TEST ja open journal refreshes immediately: PASS
+LOCALIZATION TEST ja journal label fits @Label@1857: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1857: PASS
+LOCALIZATION TEST ja journal label fits @Label@1858: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1858: PASS
+LOCALIZATION TEST ja journal fits @Button@1859: PASS
+LOCALIZATION TEST ja journal fits @Button@1860: PASS
+LOCALIZATION TEST ja journal fits @Button@1861: PASS
+LOCALIZATION TEST ja journal label fits @Label@1898: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1898: PASS
+LOCALIZATION TEST ja journal label fits @Label@1899: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1899: PASS
+LOCALIZATION TEST ja journal label fits @Label@1901: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1901: PASS
+LOCALIZATION TEST ja journal label fits @Label@1902: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1902: PASS
+LOCALIZATION TEST ja journal label fits @Label@1904: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1904: PASS
+LOCALIZATION TEST ja journal label fits @Label@1905: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1905: PASS
+LOCALIZATION TEST ja journal label fits @Label@1906: PASS
+LOCALIZATION TEST ja journal label fits @Label@1907: PASS
+LOCALIZATION TEST ja journal label fits @Label@1909: PASS
+LOCALIZATION TEST ja journal label fits @Label@1910: PASS
+LOCALIZATION TEST ja journal fits @Button@1912: PASS
+LOCALIZATION TEST ja journal label fits @Label@1880: PASS
+LOCALIZATION TEST ja journal label stays inside @Label@1880: PASS
+LOCALIZATION TEST capture ja_journal: PASS
+LOCALIZATION TEST ja dialogue reveals translated length: PASS
+LOCALIZATION TEST ja dialogue history translated: PASS
+LOCALIZATION TEST ja open dialogue refreshes immediately: PASS
+LOCALIZATION TEST ja dialogue label fits @Label@1915: PASS
+LOCALIZATION TEST ja dialogue label stays inside @Label@1915: PASS
+LOCALIZATION TEST ja dialogue fits @Button@1916: PASS
+LOCALIZATION TEST ja dialogue label fits @Label@1919: PASS
+LOCALIZATION TEST ja dialogue label stays inside @Label@1919: PASS
+LOCALIZATION TEST ja dialogue fits @Button@1920: PASS
+LOCALIZATION TEST ja dialogue label fits @Label@1921: PASS
+LOCALIZATION TEST ja dialogue label stays inside @Label@1921: PASS
+LOCALIZATION TEST ja dialogue fits DialogueChoice0: PASS
+LOCALIZATION TEST ja dialogue fits DialogueChoice1: PASS
+LOCALIZATION TEST ja dialogue fits DialogueChoice2: PASS
+LOCALIZATION TEST capture ja_dialogue: PASS
+LOCALIZATION TEST ja blacksmith panel opens: PASS
+LOCALIZATION TEST ja blacksmith label fits @Label@1966: PASS
+LOCALIZATION TEST ja blacksmith label stays inside @Label@1966: PASS
+LOCALIZATION TEST ja blacksmith label fits @Label@1967: PASS
+LOCALIZATION TEST ja blacksmith label stays inside @Label@1967: PASS
+LOCALIZATION TEST ja blacksmith fits @Button@1968: PASS
+LOCALIZATION TEST ja blacksmith fits @Button@1969: PASS
+LOCALIZATION TEST ja blacksmith fits @Button@1970: PASS
+LOCALIZATION TEST ja blacksmith label fits @Label@1971: PASS
+LOCALIZATION TEST ja blacksmith label stays inside @Label@1971: PASS
+LOCALIZATION TEST capture ja_blacksmith: PASS
+LOCALIZATION TEST ja store panel opens: PASS
+LOCALIZATION TEST ja store label fits @Label@2007: PASS
+LOCALIZATION TEST ja store label stays inside @Label@2007: PASS
+LOCALIZATION TEST ja store label fits @Label@2008: PASS
+LOCALIZATION TEST ja store label stays inside @Label@2008: PASS
+LOCALIZATION TEST ja store fits @Button@2009: PASS
+LOCALIZATION TEST ja store fits @Button@2010: PASS
+LOCALIZATION TEST ja store fits @Button@2011: PASS
+LOCALIZATION TEST ja store fits @Button@2012: PASS
+LOCALIZATION TEST ja store fits @Button@2013: PASS
+LOCALIZATION TEST ja store label fits @Label@2014: PASS
+LOCALIZATION TEST ja store label stays inside @Label@2014: PASS
+LOCALIZATION TEST capture ja_store: PASS
+LOCALIZATION TEST capture ja_dock: PASS
+LOCALIZATION TEST capture ja_field: PASS
+LOCALIZATION TEST ja dish and price localized: PASS
+LOCALIZATION TEST capture ja_restaurant: PASS
+LOCALIZATION TEST zh_TW clock fits: PASS
+LOCALIZATION TEST zh_TW bag count: PASS
+LOCALIZATION TEST zh_TW open bag refreshes immediately: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2217: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2217: PASS
+LOCALIZATION TEST zh_TW bag fits @Button@2218: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2219: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2219: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2222: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2222: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2223: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2223: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2226: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2226: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2227: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2227: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2230: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2230: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2231: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2231: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2234: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2234: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2235: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2235: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2238: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2238: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2239: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2239: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2242: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2242: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2243: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2243: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2246: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2246: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2247: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2247: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2250: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2250: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2251: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2251: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2254: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2254: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2255: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2255: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2258: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2258: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2259: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2259: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2262: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2262: PASS
+LOCALIZATION TEST zh_TW bag label fits @Label@2263: PASS
+LOCALIZATION TEST zh_TW bag label stays inside @Label@2263: PASS
+LOCALIZATION TEST capture zh_TW_bag: PASS
+LOCALIZATION TEST zh_TW open journal refreshes immediately: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2266: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2266: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2267: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2267: PASS
+LOCALIZATION TEST zh_TW journal fits @Button@2268: PASS
+LOCALIZATION TEST zh_TW journal fits @Button@2269: PASS
+LOCALIZATION TEST zh_TW journal fits @Button@2270: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2307: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2307: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2308: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2308: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2310: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2310: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2311: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2311: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2313: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2313: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2314: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2314: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2315: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2316: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2318: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2319: PASS
+LOCALIZATION TEST zh_TW journal fits @Button@2321: PASS
+LOCALIZATION TEST zh_TW journal label fits @Label@2289: PASS
+LOCALIZATION TEST zh_TW journal label stays inside @Label@2289: PASS
+LOCALIZATION TEST capture zh_TW_journal: PASS
+LOCALIZATION TEST zh_TW dialogue reveals translated length: PASS
+LOCALIZATION TEST zh_TW dialogue history translated: PASS
+LOCALIZATION TEST zh_TW open dialogue refreshes immediately: PASS
+LOCALIZATION TEST zh_TW dialogue label fits @Label@2324: PASS
+LOCALIZATION TEST zh_TW dialogue label stays inside @Label@2324: PASS
+LOCALIZATION TEST zh_TW dialogue fits @Button@2325: PASS
+LOCALIZATION TEST zh_TW dialogue label fits @Label@2328: PASS
+LOCALIZATION TEST zh_TW dialogue label stays inside @Label@2328: PASS
+LOCALIZATION TEST zh_TW dialogue fits @Button@2329: PASS
+LOCALIZATION TEST zh_TW dialogue label fits @Label@2330: PASS
+LOCALIZATION TEST zh_TW dialogue label stays inside @Label@2330: PASS
+LOCALIZATION TEST zh_TW dialogue fits DialogueChoice0: PASS
+LOCALIZATION TEST zh_TW dialogue fits DialogueChoice1: PASS
+LOCALIZATION TEST zh_TW dialogue fits DialogueChoice2: PASS
+LOCALIZATION TEST capture zh_TW_dialogue: PASS
+LOCALIZATION TEST zh_TW blacksmith panel opens: PASS
+LOCALIZATION TEST zh_TW blacksmith label fits @Label@2375: PASS
+LOCALIZATION TEST zh_TW blacksmith label stays inside @Label@2375: PASS
+LOCALIZATION TEST zh_TW blacksmith label fits @Label@2376: PASS
+LOCALIZATION TEST zh_TW blacksmith label stays inside @Label@2376: PASS
+LOCALIZATION TEST zh_TW blacksmith fits @Button@2377: PASS
+LOCALIZATION TEST zh_TW blacksmith fits @Button@2378: PASS
+LOCALIZATION TEST zh_TW blacksmith fits @Button@2379: PASS
+LOCALIZATION TEST zh_TW blacksmith label fits @Label@2380: PASS
+LOCALIZATION TEST zh_TW blacksmith label stays inside @Label@2380: PASS
+LOCALIZATION TEST capture zh_TW_blacksmith: PASS
+LOCALIZATION TEST zh_TW store panel opens: PASS
+LOCALIZATION TEST zh_TW store label fits @Label@2416: PASS
+LOCALIZATION TEST zh_TW store label stays inside @Label@2416: PASS
+LOCALIZATION TEST zh_TW store label fits @Label@2417: PASS
+LOCALIZATION TEST zh_TW store label stays inside @Label@2417: PASS
+LOCALIZATION TEST zh_TW store fits @Button@2418: PASS
+LOCALIZATION TEST zh_TW store fits @Button@2419: PASS
+LOCALIZATION TEST zh_TW store fits @Button@2420: PASS
+LOCALIZATION TEST zh_TW store fits @Button@2421: PASS
+LOCALIZATION TEST zh_TW store fits @Button@2422: PASS
+LOCALIZATION TEST zh_TW store label fits @Label@2423: PASS
+LOCALIZATION TEST zh_TW store label stays inside @Label@2423: PASS
+LOCALIZATION TEST capture zh_TW_store: PASS
+LOCALIZATION TEST capture zh_TW_dock: PASS
+LOCALIZATION TEST capture zh_TW_field: PASS
+LOCALIZATION TEST zh_TW dish and price localized: PASS
+LOCALIZATION TEST capture zh_TW_restaurant: PASS
+LOCALIZATION TEST save compatible across languages: PASS
+LOCALIZATION TEST save format independent of locale: PASS
+LOCALIZATION TEST settlement uses localized numbers: PASS
+LOCALIZATION TEST capture en_settlement: PASS
+LOCALIZATION TEST unknown language falls back safely: PASS
+LOCALIZATION TEST saved slot summary translated: PASS
+LOCALIZATION TEST capture en_slots_saved: PASS
+LOCALIZATION VERIFY END failures=0

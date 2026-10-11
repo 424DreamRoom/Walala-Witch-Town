@@ -1,0 +1,1084 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD Sound System: Live update enabled!
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+SCRIPT ERROR: Invalid access to property or key 'unplantable' on a base object of type 'Dictionary'.
+   at: _make_obstacles (res://Scenes/Farm/farm_terrain.gd:41)
+   GDScript backtrace (most recent call first):
+       [0] _make_obstacles (res://Scenes/Farm/farm_terrain.gd:41)
+       [1] @static_initializer (res://Scenes/Farm/farm_terrain.gd:13)
+PAUSE AUDIO DRIVER Dummy
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+PAUSE AUDIO rain menu background channels playing: PASS
+PAUSE AUDIO rain menu FMOD music channel retained: PASS
+PAUSE AUDIO rain menu FMOD ambience channel retained: PASS
+PAUSE AUDIO rain pause freezes clock and movement: PASS
+PAUSE AUDIO rain pause completes music crossfade: PASS
+PAUSE AUDIO rain paused music slider mutes independently: PASS
+PAUSE AUDIO rain paused ambience slider mutes independently: PASS
+PAUSE AUDIO rain paused master slider mutes background: PASS
+PAUSE AUDIO rain settings background channels playing: PASS
+PAUSE AUDIO rain settings FMOD music channel retained: PASS
+PAUSE AUDIO rain settings FMOD ambience channel retained: PASS
+PAUSE AUDIO rain settings remain paused: PASS
+PAUSE AUDIO rain settings return to paused menu: PASS
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+ERROR: Rect2 size is negative, this is not supported. Use Rect2.abs() to get a Rect2 with a positive size.
+   at: has_point (./core/math/rect2.h:185)
+   GDScript backtrace (most recent call first):
+       [0] resolve (res://Sounds/Walala/footstep_surfaces.gd:57)
+       [1] _on_player_moved (res://Scenes/Gameplay/game_loop.gd:529)
+       [2] _physics_process (res://Scenes/LanternLane/lantern_lane.gd:170)
+PAUSE AUDIO rain resumed background channels playing: PASS
+PAUSE AUDIO rain resumed FMOD music channel retained: PASS
+PAUSE AUDIO rain resumed FMOD ambience channel retained: PASS
+PAUSE AUDIO rain resume keeps current music voice: PASS
+PAUSE AUDIO snow menu background channels playing: PASS
+PAUSE AUDIO snow menu FMOD music channel retained: PASS
+PAUSE AUDIO snow menu FMOD ambience channel retained: PASS
+PAUSE AUDIO snow pause freezes clock and movement: PASS
+PAUSE AUDIO snow pause completes music crossfade: PASS
+PAUSE AUDIO snow paused music slider mutes independently: PASS
+PAUSE AUDIO snow paused ambience slider mutes independently: PASS
+PAUSE AUDIO snow paused master slider mutes background: PASS
+PAUSE AUDIO snow settings background channels playing: PASS
+PAUSE AUDIO snow settings FMOD music channel retained: PASS
+PAUSE AUDIO snow settings FMOD ambience channel retained: PASS
+PAUSE AUDIO snow settings remain paused: PASS
+PAUSE AUDIO snow settings return to paused menu: PASS
+PAUSE AUDIO snow resumed background channels playing: PASS
+PAUSE AUDIO snow resumed FMOD music channel retained: PASS
+PAUSE AUDIO snow resumed FMOD ambience channel retained: PASS
+PAUSE AUDIO snow resume keeps current music voice: PASS
+PAUSE AUDIO keyboard opens backpack with sound: PASS
+PAUSE AUDIO backpack preserves active action sound: PASS
+PAUSE AUDIO FMOD action channel survives backpack pause: PASS
+PAUSE AUDIO backpack background channels playing: PASS
+PAUSE AUDIO backpack FMOD music channel retained: PASS
+PAUSE AUDIO backpack FMOD ambience channel retained: PASS
+PAUSE AUDIO backpack freezes clock and movement: PASS
+PAUSE AUDIO native action sound finishes during backpack pause: PASS
+PAUSE AUDIO backpack slot hover plays sound: PASS
+PAUSE AUDIO backpack keyboard focus plays sound: PASS
+PAUSE AUDIO backpack pickup plays one sound: PASS
+PAUSE AUDIO FMOD backpack click survives pause: PASS
+PAUSE AUDIO backpack placement plays one sound: PASS
+PAUSE AUDIO keyboard closes backpack with sound: PASS
+PAUSE AUDIO hotbar opens backpack with sound: PASS
+PAUSE AUDIO hotbar backpack background channels playing: PASS
+PAUSE AUDIO hotbar backpack FMOD music channel retained: PASS
+PAUSE AUDIO hotbar backpack FMOD ambience channel retained: PASS
+PAUSE AUDIO close button resumes world: PASS
+PAUSE AUDIO journal background channels playing: PASS
+PAUSE AUDIO journal FMOD music channel retained: PASS
+PAUSE AUDIO journal FMOD ambience channel retained: PASS
+PAUSE AUDIO journal remains paused: PASS
+PAUSE AUDIO indoor pause keeps ambience silent: PASS
+PAUSE AUDIO VERIFY END failures=0 checks=58
+FMOD Sound System: System released

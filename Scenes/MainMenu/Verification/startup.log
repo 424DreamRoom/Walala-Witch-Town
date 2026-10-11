@@ -1,0 +1,32 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+STARTUP TEST project launches notice before title: PASS
+STARTUP TEST notice is the first visible scene: PASS
+STARTUP TEST launch input cannot dismiss the notice immediately: PASS
+STARTUP TEST continue becomes available after short read: PASS
+STARTUP TEST demo uses animated hat without a false saving label: PASS
+STARTUP TEST notice never creates a save slot: PASS
+STARTUP TEST translated title zh_CN: PASS
+STARTUP TEST translated body fits zh_CN 0: PASS
+STARTUP TEST translated body fits zh_CN 1: PASS
+STARTUP TEST translated body fits zh_CN 2: PASS
+STARTUP TEST translated title en: PASS
+STARTUP TEST translated body fits en 0: PASS
+STARTUP TEST translated body fits en 1: PASS
+STARTUP TEST translated body fits en 2: PASS
+STARTUP TEST translated title ja: PASS
+STARTUP TEST translated body fits ja 0: PASS
+STARTUP TEST translated body fits ja 1: PASS
+STARTUP TEST translated body fits ja 2: PASS
+STARTUP TEST translated title zh_TW: PASS
+STARTUP TEST translated body fits zh_TW 0: PASS
+STARTUP TEST translated body fits zh_TW 1: PASS
+STARTUP TEST translated body fits zh_TW 2: PASS
+STARTUP TEST native canvas stays centered 1280: PASS
+STARTUP TEST native canvas stays centered 1920: PASS
+STARTUP TEST continue enters main menu: PASS
+STARTUP TEST main menu does not repeat the launch notice: PASS
+STARTUP TEST notice automatically advances without input: PASS
+STARTUP VERIFY END failures=0
+FMOD Sound System: System released

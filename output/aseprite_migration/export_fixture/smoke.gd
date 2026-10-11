@@ -1,0 +1,17 @@
+extends Node
+const Source = preload("res://Art/Source/aseprite_source.gd")
+func _ready() -> void:
+    Source.install()
+    var wand := Source.texture("res://Art/UI/NativeIcons/wand.aseprite")
+    assert(wand.get_width() == 24)
+    assert(not FileAccess.file_exists("res://Art/UI/NativeIcons/wand.png"))
+    assert(Source.texture("res://MyArt/Icon/Food/bread.aseprite").get_width() > 0)
+    var witch := Source.texture("res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.aseprite")
+    assert(witch.get_size() == Vector2(256, 608))
+    assert(witch.get_meta("aseprite_tags").size() == 28)
+    var map: TileMapLayer = load("res://Art/Environment/Hearthwood/home_empty_0.tilemap.tscn").instantiate()
+    assert(map.get_used_cells().size() > 100)
+    assert(map.tile_set.get_source(0).texture.resource_path.ends_with(".aseprite"))
+    map.free()
+    print("PACKED ASEPRITE SOURCES PASS")
+    get_tree().quit()

@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+WITCH V2 RENDER down pixels=0/591 FAIL
+WITCH V2 RENDER up pixels=0/581 FAIL
+WITCH V2 RENDER right pixels=0/534 FAIL
+WITCH V2 RENDER left pixels=0/535 FAIL
+WITCH V2 RENDER walk-1 pixels=0/588 FAIL
+WITCH V2 RENDER walk-2 pixels=0/588 FAIL
+WITCH V2 RENDER walk-3 pixels=0/588 FAIL
+WITCH V2 RENDER walk-4 pixels=0/590 FAIL
+WITCH V2 RENDER tool-10 pixels=0/585 FAIL
+WITCH V2 RENDER tool-26 pixels=0/585 FAIL
+WITCH V2 RENDER tool-38 pixels=0/544 FAIL
+WITCH V2 RENDER tool-47 pixels=0/600 FAIL
+WITCH V2 RENDER END failures=12

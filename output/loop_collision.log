@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+ACTOR COLLISION all ten residents have real collision bodies: PASS
+ACTOR COLLISION player has a rounded 10 by 6 ground footprint: PASS
+ACTOR COLLISION player detects both scenery and people: PASS
+ACTOR COLLISION walk stops at resident (1.0, 0.0): PASS
+ACTOR COLLISION walk stops at resident (-1.0, 0.0): PASS
+ACTOR COLLISION walk stops at resident (0.0, 1.0): PASS
+ACTOR COLLISION walk stops at resident (0.0, -1.0): PASS
+ACTOR COLLISION run stops at resident (1.0, 0.0): PASS
+ACTOR COLLISION run stops at resident (-1.0, 0.0): PASS
+ACTOR COLLISION run stops at resident (0.0, 1.0): PASS
+ACTOR COLLISION run stops at resident (0.0, -1.0): PASS
+ACTOR COLLISION upper sprites can overlap while feet pass behind: PASS
+ACTOR COLLISION diagonal contact slides around rounded feet: PASS
+ACTOR COLLISION resident body also stops against player: PASS
+ACTOR COLLISION resident detours around a stationary player: PASS
+ACTOR COLLISION town oncoming residents never overlap or jump: PASS
+ACTOR COLLISION town oncoming residents pass each other: PASS
+ACTOR COLLISION offscreen oncoming residents never overlap or jump: PASS
+ACTOR COLLISION offscreen oncoming residents pass each other: PASS
+ACTOR COLLISION detached town removes resident bodies from active space: PASS
+ACTOR COLLISION store staff has one solid feet body: PASS
+ACTOR COLLISION blacksmith staff has one solid feet body: PASS
+ACTOR COLLISION furniture_store staff has one solid feet body: PASS
+ACTOR COLLISION night residents leave no invisible blockers: PASS
+ACTOR COLLISION next morning restores resident collision: PASS
+ACTOR COLLISION occupied restaurant seat blocks at guest feet: PASS
+ACTOR COLLISION eating guest keeps collision: PASS
+ACTOR COLLISION departed guest leaves seat walkable: PASS
+ACTOR COLLISION locked tables leave no guest collision: PASS
+ACTOR COLLISION scene change frees old guest collision: PASS
+ACTOR COLLISION VERIFY END checks=30 failures=0

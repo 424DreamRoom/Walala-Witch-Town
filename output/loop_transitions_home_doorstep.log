@@ -1,0 +1,218 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+SCENE EXIT scene preview starts at home: PASS
+SCENE EXIT walk to door approach home to farm: PASS
+SCENE EXIT distant interaction stays in scene home to farm: PASS
+SCENE EXIT walk to doorway home to farm: PASS
+SCENE EXIT walking and idling at door stays in scene home to farm: PASS
+SCENE EXIT held interaction at door stays in scene home to farm: PASS
+SCENE EXIT paused interaction cannot use door home to farm: PASS
+SCENE EXIT fresh stationary interaction uses door home to farm: PASS
+SCENE EXIT held interaction after travel stays in destination home to farm: PASS
+SCENE EXIT home start exits to farm: PASS
+SCENE EXIT first home exit matches front doorstep: PASS
+SCENE EXIT home exit arrival has no solid overlap: PASS
+SCENE EXIT home exit arrival stays on farm while idle: PASS
+SCENE EXIT home exit arrival rearms town crossing: PASS
+SCENE EXIT walk from doorstep to town road: PASS
+SCENE EXIT walking right from farm road enters town: PASS
+SCENE EXIT farm arrives at marked town entrance: PASS
+SCENE EXIT marked town entrance stays in town while idle: PASS
+SCENE EXIT marked town entrance has no solid overlap: PASS
+SCENE EXIT legacy farm save arrives at marked town entrance: PASS
+SCENE EXIT forest connection reaches north edge: PASS
+SCENE EXIT dock connection reaches east edge: PASS
+SCENE EXIT farm connection reaches west edge: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT walk actual town route to field: PASS
+SCENE EXIT E at road approach stays in town field: PASS
+SCENE EXIT walking automatically enters field: PASS
+SCENE EXIT town collision bodies detached field: PASS
+SCENE EXIT matching return direction field: PASS
+SCENE EXIT arrival is on matching road surface field: PASS
+SCENE EXIT held entry direction does not bounce field: PASS
+SCENE EXIT walk actual road route to exit field: PASS
+SCENE EXIT E at road exit approach stays inside field: PASS
+SCENE EXIT pause freezes crossing field: PASS
+SCENE EXIT walking automatically returns field: PASS
+SCENE EXIT safe town arrival field: PASS
+SCENE EXIT held return direction does not reenter field: PASS
+SCENE EXIT town camera restored field: PASS
+SCENE EXIT idle arrival remains stable field: PASS
+SCENE EXIT walk actual town route to dock: PASS
+SCENE EXIT E at road approach stays in town dock: PASS
+SCENE EXIT walking automatically enters dock: PASS
+SCENE EXIT town collision bodies detached dock: PASS
+SCENE EXIT matching return direction dock: PASS
+SCENE EXIT arrival is on matching road surface dock: PASS
+SCENE EXIT held entry direction does not bounce dock: PASS
+SCENE EXIT walk actual road route to exit dock: PASS
+SCENE EXIT E at road exit approach stays inside dock: PASS
+SCENE EXIT pause freezes crossing dock: PASS
+SCENE EXIT walking automatically returns dock: PASS
+SCENE EXIT safe town arrival dock: PASS
+SCENE EXIT held return direction does not reenter dock: PASS
+SCENE EXIT town camera restored dock: PASS
+SCENE EXIT idle arrival remains stable dock: PASS
+SCENE EXIT walk actual town route to farm: PASS
+SCENE EXIT E at road approach stays in town farm: PASS
+SCENE EXIT walking automatically enters farm: PASS
+SCENE EXIT town collision bodies detached farm: PASS
+SCENE EXIT matching return direction farm: PASS
+SCENE EXIT arrival is on matching road surface farm: PASS
+SCENE EXIT held entry direction does not bounce farm: PASS
+SCENE EXIT walk to door approach farm to home: PASS
+SCENE EXIT distant interaction stays in scene farm to home: PASS
+SCENE EXIT walk to doorway farm to home: PASS
+SCENE EXIT walking and idling at door stays in scene farm to home: PASS
+SCENE EXIT held interaction at door stays in scene farm to home: PASS
+SCENE EXIT paused interaction cannot use door farm to home: PASS
+SCENE EXIT fresh stationary interaction uses door farm to home: PASS
+SCENE EXIT held interaction after travel stays in destination farm to home: PASS
+SCENE EXIT walk to door approach home to farm: PASS
+SCENE EXIT distant interaction stays in scene home to farm: PASS
+SCENE EXIT walk to doorway home to farm: PASS
+SCENE EXIT walking and idling at door stays in scene home to farm: PASS
+SCENE EXIT held interaction at door stays in scene home to farm: PASS
+SCENE EXIT paused interaction cannot use door home to farm: PASS
+SCENE EXIT fresh stationary interaction uses door home to farm: PASS
+SCENE EXIT held interaction after travel stays in destination home to farm: PASS
+SCENE EXIT house returns to front doorstep: PASS
+SCENE EXIT walk actual road route to exit farm: PASS
+SCENE EXIT E at road exit approach stays inside farm: PASS
+SCENE EXIT pause freezes crossing farm: PASS
+SCENE EXIT walking automatically returns farm: PASS
+SCENE EXIT safe town arrival farm: PASS
+SCENE EXIT held return direction does not reenter farm: PASS
+SCENE EXIT town camera restored farm: PASS
+SCENE EXIT idle arrival remains stable farm: PASS
+SCENE EXIT walk actual town route to restaurant: PASS
+SCENE EXIT walk to door approach town to restaurant: PASS
+SCENE EXIT distant interaction stays in scene town to restaurant: PASS
+SCENE EXIT walk to doorway town to restaurant: PASS
+SCENE EXIT walking and idling at door stays in scene town to restaurant: PASS
+SCENE EXIT held interaction at door stays in scene town to restaurant: PASS
+SCENE EXIT paused interaction cannot use door town to restaurant: PASS
+SCENE EXIT fresh stationary interaction uses door town to restaurant: PASS
+SCENE EXIT held interaction after travel stays in destination town to restaurant: PASS
+SCENE EXIT town collision bodies detached restaurant: PASS
+SCENE EXIT held entry direction does not bounce restaurant: PASS
+SCENE EXIT walk to door approach restaurant to town: PASS
+SCENE EXIT distant interaction stays in scene restaurant to town: PASS
+SCENE EXIT walk to doorway restaurant to town: PASS
+SCENE EXIT walking and idling at door stays in scene restaurant to town: PASS
+SCENE EXIT held interaction at door stays in scene restaurant to town: PASS
+SCENE EXIT paused interaction cannot use door restaurant to town: PASS
+SCENE EXIT fresh stationary interaction uses door restaurant to town: PASS
+SCENE EXIT held interaction after travel stays in destination restaurant to town: PASS
+SCENE EXIT safe town arrival restaurant: PASS
+SCENE EXIT held return direction does not reenter restaurant: PASS
+SCENE EXIT town camera restored restaurant: PASS
+SCENE EXIT idle arrival remains stable restaurant: PASS
+SCENE EXIT walk actual town route to blacksmith: PASS
+SCENE EXIT walk to door approach town to blacksmith: PASS
+SCENE EXIT distant interaction stays in scene town to blacksmith: PASS
+SCENE EXIT walk to doorway town to blacksmith: PASS
+SCENE EXIT walking and idling at door stays in scene town to blacksmith: PASS
+SCENE EXIT held interaction at door stays in scene town to blacksmith: PASS
+SCENE EXIT paused interaction cannot use door town to blacksmith: PASS
+SCENE EXIT fresh stationary interaction uses door town to blacksmith: PASS
+SCENE EXIT held interaction after travel stays in destination town to blacksmith: PASS
+SCENE EXIT town collision bodies detached blacksmith: PASS
+SCENE EXIT held entry direction does not bounce blacksmith: PASS
+SCENE EXIT walk to door approach blacksmith to town: PASS
+SCENE EXIT distant interaction stays in scene blacksmith to town: PASS
+SCENE EXIT walk to doorway blacksmith to town: PASS
+SCENE EXIT walking and idling at door stays in scene blacksmith to town: PASS
+SCENE EXIT held interaction at door stays in scene blacksmith to town: PASS
+SCENE EXIT paused interaction cannot use door blacksmith to town: PASS
+SCENE EXIT fresh stationary interaction uses door blacksmith to town: PASS
+SCENE EXIT held interaction after travel stays in destination blacksmith to town: PASS
+SCENE EXIT safe town arrival blacksmith: PASS
+SCENE EXIT held return direction does not reenter blacksmith: PASS
+SCENE EXIT town camera restored blacksmith: PASS
+SCENE EXIT idle arrival remains stable blacksmith: PASS
+SCENE EXIT walk actual town route to store: PASS
+SCENE EXIT walk to door approach town to store: PASS
+SCENE EXIT distant interaction stays in scene town to store: PASS
+SCENE EXIT walk to doorway town to store: PASS
+SCENE EXIT walking and idling at door stays in scene town to store: PASS
+SCENE EXIT held interaction at door stays in scene town to store: PASS
+SCENE EXIT paused interaction cannot use door town to store: PASS
+SCENE EXIT fresh stationary interaction uses door town to store: PASS
+SCENE EXIT held interaction after travel stays in destination town to store: PASS
+SCENE EXIT town collision bodies detached store: PASS
+SCENE EXIT held entry direction does not bounce store: PASS
+SCENE EXIT walk to door approach store to town: PASS
+SCENE EXIT distant interaction stays in scene store to town: PASS
+SCENE EXIT walk to doorway store to town: PASS
+SCENE EXIT walking and idling at door stays in scene store to town: PASS
+SCENE EXIT held interaction at door stays in scene store to town: PASS
+SCENE EXIT paused interaction cannot use door store to town: PASS
+SCENE EXIT fresh stationary interaction uses door store to town: PASS
+SCENE EXIT held interaction after travel stays in destination store to town: PASS
+SCENE EXIT safe town arrival store: PASS
+SCENE EXIT held return direction does not reenter store: PASS
+SCENE EXIT town camera restored store: PASS
+SCENE EXIT idle arrival remains stable store: PASS
+SCENE EXIT walk actual town route to furniture_store: PASS
+SCENE EXIT walk to door approach town to furniture_store: PASS
+SCENE EXIT distant interaction stays in scene town to furniture_store: PASS
+SCENE EXIT walk to doorway town to furniture_store: PASS
+SCENE EXIT walking and idling at door stays in scene town to furniture_store: PASS
+SCENE EXIT held interaction at door stays in scene town to furniture_store: PASS
+SCENE EXIT paused interaction cannot use door town to furniture_store: PASS
+SCENE EXIT fresh stationary interaction uses door town to furniture_store: PASS
+SCENE EXIT held interaction after travel stays in destination town to furniture_store: PASS
+SCENE EXIT town collision bodies detached furniture_store: PASS
+SCENE EXIT held entry direction does not bounce furniture_store: PASS
+SCENE EXIT walk to door approach furniture_store to town: PASS
+SCENE EXIT distant interaction stays in scene furniture_store to town: PASS
+SCENE EXIT walk to doorway furniture_store to town: PASS
+SCENE EXIT walking and idling at door stays in scene furniture_store to town: PASS
+SCENE EXIT held interaction at door stays in scene furniture_store to town: PASS
+SCENE EXIT paused interaction cannot use door furniture_store to town: PASS
+SCENE EXIT fresh stationary interaction uses door furniture_store to town: PASS
+SCENE EXIT held interaction after travel stays in destination furniture_store to town: PASS
+SCENE EXIT safe town arrival furniture_store: PASS
+SCENE EXIT held return direction does not reenter furniture_store: PASS
+SCENE EXIT town camera restored furniture_store: PASS
+SCENE EXIT idle arrival remains stable furniture_store: PASS
+SCENE EXIT restored trigger does not auto travel: PASS
+SCENE EXIT leave restored trigger: PASS
+SCENE EXIT restored trigger rearms after leaving: PASS
+SCENE EXIT passing a doorway sideways stays in town: PASS
+SCENE EXIT restored exterior door stays outside restaurant: PASS
+SCENE EXIT restored exterior door accepts interaction restaurant: PASS
+SCENE EXIT restored interior door stays inside restaurant: PASS
+SCENE EXIT restored interior door accepts interaction restaurant: PASS
+SCENE EXIT restored exterior door stays outside blacksmith: PASS
+SCENE EXIT restored exterior door accepts interaction blacksmith: PASS
+SCENE EXIT restored interior door stays inside blacksmith: PASS
+SCENE EXIT restored interior door accepts interaction blacksmith: PASS
+SCENE EXIT restored exterior door stays outside store: PASS
+SCENE EXIT restored exterior door accepts interaction store: PASS
+SCENE EXIT restored interior door stays inside store: PASS
+SCENE EXIT restored interior door accepts interaction store: PASS
+SCENE EXIT restored exterior door stays outside home: PASS
+SCENE EXIT restored exterior door accepts interaction home: PASS
+SCENE EXIT restored interior door stays inside home: PASS
+SCENE EXIT restored interior door accepts interaction home: PASS
+SCENE EXIT legacy home save exits at front doorstep: PASS
+SCENE EXIT rebind interaction in isolated preferences: PASS
+SCENE EXIT old interaction key cannot open door: PASS
+SCENE EXIT rebound interaction key opens door: PASS
+SCENE EXIT restore default test binding: PASS
+SCENE EXIT night entrance remains closed 野外: PASS
+SCENE EXIT closed entrance does not repeat feedback 野外: PASS
+SCENE EXIT night entrance remains closed 码头: PASS
+SCENE EXIT closed entrance does not repeat feedback 码头: PASS
+SCENE EXIT settlement blocks door interaction: PASS
+SCENE EXIT settlement blocks automatic travel: PASS
+SCENE EXIT VERIFY END failures=0

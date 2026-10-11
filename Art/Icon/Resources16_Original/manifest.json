@@ -1,0 +1,92 @@
+{
+  "revision": 2,
+  "canvas": [
+    16,
+    16
+  ],
+  "light": "upper-left",
+  "alpha": [
+    0,
+    255
+  ],
+  "method": "Authored native pixel maps; no image resampling or reference pixel extraction",
+  "assets": {
+    "wood": {
+      "png": "wood.png",
+      "source": "wood.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "730c15d7a4a79f788d8f18a4cbd7c41d76b914dcadfe2d6e29fb04de86bcad42"
+    },
+    "stone": {
+      "png": "stone.png",
+      "source": "stone.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "e0704d3f83b0b44b323869fcfb467ae0d439c80ad3d846583eb0a5eab4b1ec2a"
+    },
+    "gold": {
+      "png": "gold.png",
+      "source": "gold.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "071f78a95d07b843e937b8656a808a4c81a7cb1e10b51aa1364dea5c4f0ccb16"
+    },
+    "iron_ore": {
+      "png": "iron_ore.png",
+      "source": "iron_ore.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "a0896658d3e861b1fe1e69836a9fdf8933edff668399806f94804869d12d4a20"
+    },
+    "iron": {
+      "png": "iron.png",
+      "source": "iron.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "1ffeb32919cc455817d6c149885d1f18592709092f67946f7ff3927ca1c467f0"
+    },
+    "fish": {
+      "png": "fish.png",
+      "source": "fish.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "bb7b4b5d827b9fabacb7ff52b120ee960c44477e3b4cfd43b7218e98373c97f6"
+    },
+    "witch_coin": {
+      "png": "witch_coin.png",
+      "source": "witch_coin.aseprite",
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "png_sha256": "56067ffdaaee166a85c619e18831191b896ae51b73166e2dcaa5172fb3c201da"
+    }
+  }
+}

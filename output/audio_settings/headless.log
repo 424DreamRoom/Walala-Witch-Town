@@ -1,0 +1,80 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+AUDIO SETTINGS old preferences inherit all three effects: PASS
+AUDIO SETTINGS master multiplies music: PASS
+AUDIO SETTINGS master multiplies weather: PASS
+AUDIO SETTINGS master multiplies actions: PASS
+AUDIO SETTINGS master multiplies footsteps: PASS
+AUDIO SETTINGS master multiplies UI: PASS
+AUDIO SETTINGS weather zero leaves other channels playing: PASS
+AUDIO SETTINGS character zero stops actions and steps: PASS
+AUDIO SETTINGS character zero prevents new action and step voices: PASS
+AUDIO SETTINGS legacy UI cue ignores character zero: PASS
+AUDIO SETTINGS character restore does not replay stale effects: PASS
+AUDIO SETTINGS UI zero leaves music and weather: PASS
+AUDIO SETTINGS UI zero leaves character actions: PASS
+AUDIO SETTINGS master zero silences every channel: PASS
+AUDIO SETTINGS master restore retains channel values: PASS
+AUDIO SETTINGS phase change still crossfades: PASS
+AUDIO SETTINGS master adjustment survives active music fade: PASS
+AUDIO SETTINGS character adjustment preserves music fade: PASS
+AUDIO SETTINGS paused settings update UI gain: PASS
+AUDIO SETTINGS menu inherits five saved channels: PASS
+AUDIO SETTINGS real mouse adjusts MasterSlider: PASS
+AUDIO SETTINGS numeric value follows MasterSlider: PASS
+AUDIO SETTINGS real mouse adjusts MusicSlider: PASS
+AUDIO SETTINGS numeric value follows MusicSlider: PASS
+AUDIO SETTINGS real mouse adjusts CharacterSlider: PASS
+AUDIO SETTINGS numeric value follows CharacterSlider: PASS
+AUDIO SETTINGS real mouse adjusts EnvironmentSlider: PASS
+AUDIO SETTINGS numeric value follows EnvironmentSlider: PASS
+AUDIO SETTINGS real mouse adjusts UISlider: PASS
+AUDIO SETTINGS numeric value follows UISlider: PASS
+AUDIO SETTINGS existing keyboard navigation adjusts slider: PASS
+AUDIO SETTINGS reset restores all five defaults: PASS
+AUDIO SETTINGS audio reset preserves unrelated preferences: PASS
+AUDIO SETTINGS label fits zh_CN @Label@234: PASS
+AUDIO SETTINGS label fits zh_CN MasterSliderValue: PASS
+AUDIO SETTINGS label fits zh_CN @Label@236: PASS
+AUDIO SETTINGS label fits zh_CN MusicSliderValue: PASS
+AUDIO SETTINGS label fits zh_CN @Label@238: PASS
+AUDIO SETTINGS label fits zh_CN CharacterSliderValue: PASS
+AUDIO SETTINGS label fits zh_CN @Label@240: PASS
+AUDIO SETTINGS label fits zh_CN EnvironmentSliderValue: PASS
+AUDIO SETTINGS label fits zh_CN @Label@242: PASS
+AUDIO SETTINGS label fits zh_CN UISliderValue: PASS
+AUDIO SETTINGS label fits en @Label@234: PASS
+AUDIO SETTINGS label fits en MasterSliderValue: PASS
+AUDIO SETTINGS label fits en @Label@236: PASS
+AUDIO SETTINGS label fits en MusicSliderValue: PASS
+AUDIO SETTINGS label fits en @Label@238: PASS
+AUDIO SETTINGS label fits en CharacterSliderValue: PASS
+AUDIO SETTINGS label fits en @Label@240: PASS
+AUDIO SETTINGS label fits en EnvironmentSliderValue: PASS
+AUDIO SETTINGS label fits en @Label@242: PASS
+AUDIO SETTINGS label fits en UISliderValue: PASS
+AUDIO SETTINGS label fits ja @Label@234: PASS
+AUDIO SETTINGS label fits ja MasterSliderValue: PASS
+AUDIO SETTINGS label fits ja @Label@236: PASS
+AUDIO SETTINGS label fits ja MusicSliderValue: PASS
+AUDIO SETTINGS label fits ja @Label@238: PASS
+AUDIO SETTINGS label fits ja CharacterSliderValue: PASS
+AUDIO SETTINGS label fits ja @Label@240: PASS
+AUDIO SETTINGS label fits ja EnvironmentSliderValue: PASS
+AUDIO SETTINGS label fits ja @Label@242: PASS
+AUDIO SETTINGS label fits ja UISliderValue: PASS
+AUDIO SETTINGS label fits zh_TW @Label@234: PASS
+AUDIO SETTINGS label fits zh_TW MasterSliderValue: PASS
+AUDIO SETTINGS label fits zh_TW @Label@236: PASS
+AUDIO SETTINGS label fits zh_TW MusicSliderValue: PASS
+AUDIO SETTINGS label fits zh_TW @Label@238: PASS
+AUDIO SETTINGS label fits zh_TW CharacterSliderValue: PASS
+AUDIO SETTINGS label fits zh_TW @Label@240: PASS
+AUDIO SETTINGS label fits zh_TW EnvironmentSliderValue: PASS
+AUDIO SETTINGS label fits zh_TW @Label@242: PASS
+AUDIO SETTINGS label fits zh_TW UISliderValue: PASS
+AUDIO SETTINGS legacy mute clears only the adjusted channel: PASS
+AUDIO SETTINGS legacy music mute clears on slider change: PASS
+AUDIO SETTINGS VERIFY END failures=0 checks=75
+FMOD Sound System: System released

@@ -1,0 +1,36 @@
+{
+  "size": [
+    1600,
+    1536
+  ],
+  "area_multiplier": 2,
+  "buildings": 16,
+  "paths": 30,
+  "props": 142,
+  "districts": 9,
+  "myart_unchanged": true,
+  "checks": {
+    "town_expansion_routes": {
+      "passed": 115,
+      "failed": 0,
+      "script_errors": false
+    },
+    "town_capture_expansion": {
+      "passed": 145,
+      "failed": 0,
+      "script_errors": false
+    },
+    "map_town_expansion_final": {
+      "passed": 42,
+      "failed": 0,
+      "script_errors": false
+    },
+    "transitions_town_expansion_final": {
+      "passed": 216,
+      "failed": 0,
+      "script_errors": false
+    }
+  },
+  "static_navigation_targets": 33,
+  "nearest_neighbor_capture_pairs": 15
+}

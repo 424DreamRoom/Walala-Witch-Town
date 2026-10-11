@@ -1,0 +1,39 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+bread source hash unchanged: PASS
+bread native 16px texture: PASS
+egg source hash unchanged: PASS
+egg native 16px texture: PASS
+tomato source hash unchanged: PASS
+tomato native 16px texture: PASS
+store has three cards and all seven existing trades: PASS
+compact trade rows do not overlap: PASS
+food display belongs to the existing colliding counter: PASS
+bread card uses authored icon with nearest filtering: PASS
+bread actual purchase enters bag and deducts exact price: PASS
+bread stack survives repeated inventory sync: PASS
+egg card uses authored icon with nearest filtering: PASS
+egg actual purchase enters bag and deducts exact price: PASS
+egg stack survives repeated inventory sync: PASS
+tomato card uses authored icon with nearest filtering: PASS
+tomato actual purchase enters bag and deducts exact price: PASS
+tomato stack survives repeated inventory sync: PASS
+all shop labels fit zh_CN: PASS
+all shop labels fit en: PASS
+all shop labels fit ja: PASS
+all shop labels fit zh_TW: PASS
+new foods round trip through isolated disk save: PASS
+new foods restore through validated state: PASS
+bread chest deposit and withdrawal conserve quantity: PASS
+egg chest deposit and withdrawal conserve quantity: PASS
+tomato chest deposit and withdrawal conserve quantity: PASS
+insufficient funds do not deduct or add food: PASS
+night purchases rejected: PASS
+full bag rejects food without charge: PASS
+food stacks to 99 even with no empty slot: PASS
+full food stack rejects without charge: PASS
+remote food purchase rejected: PASS
+bread source still unchanged after engine verification: PASS
+egg source still unchanged after engine verification: PASS
+tomato source still unchanged after engine verification: PASS
+MYART SHOP VERIFY END failures=0 checks=36

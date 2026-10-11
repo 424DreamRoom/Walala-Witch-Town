@@ -1,0 +1,96 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+CONTROLLER HARDWARE []
+CONTROLLER TEST DualSense detection: PASS
+CONTROLLER TEST DualShock detection: PASS
+CONTROLLER TEST Sony vendor detection: PASS
+CONTROLLER TEST Xbox detection: PASS
+CONTROLLER TEST Switch Pro detection: PASS
+CONTROLLER TEST Joy-Con pair detection: PASS
+CONTROLLER TEST Nintendo vendor detection: PASS
+CONTROLLER TEST generic normalized fallback: PASS
+CONTROLLER TEST simultaneous PlayStation confirm: PASS
+CONTROLLER TEST simultaneous Switch cancel stays device-specific: PASS
+CONTROLLER TEST simultaneous Switch confirm stays device-specific: PASS
+CONTROLLER TEST invalid settings recover: PASS
+CONTROLLER TEST xbox menu direction: PASS
+CONTROLLER TEST xbox opens settings: PASS
+CONTROLLER TEST xbox settings reflect actual confirm: PASS
+CONTROLLER TEST xbox cancel restores focus: PASS
+CONTROLLER TEST xbox menu button does not confirm: PASS
+CONTROLLER TEST playstation menu direction: PASS
+CONTROLLER TEST playstation opens settings: PASS
+CONTROLLER TEST playstation settings reflect actual confirm: PASS
+CONTROLLER TEST playstation cancel restores focus: PASS
+CONTROLLER TEST playstation menu button does not confirm: PASS
+CONTROLLER TEST switch menu direction: PASS
+CONTROLLER TEST switch opens settings: PASS
+CONTROLLER TEST switch settings reflect actual confirm: PASS
+CONTROLLER TEST switch cancel restores focus: PASS
+CONTROLLER TEST switch menu button does not confirm: PASS
+CONTROLLER TEST left stick navigates menu: PASS
+CONTROLLER TEST held stick repeats: PASS
+CONTROLLER TEST controller cancels keyboard capture: PASS
+CONTROLLER TEST deadzone prevents drift: PASS
+CONTROLLER TEST partial stick preserves analog speed: PASS
+CONTROLLER TEST diagonal speed capped: PASS
+CONTROLLER TEST movement does not steal HUD focus: PASS
+CONTROLLER TEST stick click runs: PASS
+CONTROLLER TEST xbox world interaction: PASS
+CONTROLLER TEST xbox bag pauses: PASS
+CONTROLLER TEST xbox confirm picks inventory stack: PASS
+CONTROLLER TEST xbox confirm returns inventory stack: PASS
+CONTROLLER TEST xbox splits focused stack: PASS
+CONTROLLER TEST xbox quick transfers focused stack: PASS
+CONTROLLER TEST xbox closes bag: PASS
+CONTROLLER TEST xbox opens map: PASS
+CONTROLLER TEST xbox opens journal: PASS
+CONTROLLER TEST xbox opens guide dialogue: PASS
+CONTROLLER TEST xbox reveals dialogue: PASS
+CONTROLLER TEST xbox dialogue history: PASS
+CONTROLLER TEST xbox pauses: PASS
+CONTROLLER TEST xbox pause freezes player: PASS
+CONTROLLER TEST playstation world interaction: PASS
+CONTROLLER TEST playstation bag pauses: PASS
+CONTROLLER TEST playstation confirm picks inventory stack: PASS
+CONTROLLER TEST playstation confirm returns inventory stack: PASS
+CONTROLLER TEST playstation splits focused stack: PASS
+CONTROLLER TEST playstation quick transfers focused stack: PASS
+CONTROLLER TEST playstation closes bag: PASS
+CONTROLLER TEST playstation opens map: PASS
+CONTROLLER TEST playstation opens journal: PASS
+CONTROLLER TEST playstation opens guide dialogue: PASS
+CONTROLLER TEST playstation reveals dialogue: PASS
+CONTROLLER TEST playstation dialogue history: PASS
+CONTROLLER TEST playstation pauses: PASS
+CONTROLLER TEST playstation pause freezes player: PASS
+CONTROLLER TEST switch world interaction: PASS
+CONTROLLER TEST switch bag pauses: PASS
+CONTROLLER TEST switch confirm picks inventory stack: PASS
+CONTROLLER TEST switch confirm returns inventory stack: PASS
+CONTROLLER TEST switch splits focused stack: PASS
+CONTROLLER TEST switch quick transfers focused stack: PASS
+CONTROLLER TEST switch closes bag: PASS
+CONTROLLER TEST switch opens map: PASS
+CONTROLLER TEST switch opens journal: PASS
+CONTROLLER TEST switch opens guide dialogue: PASS
+CONTROLLER TEST switch reveals dialogue: PASS
+CONTROLLER TEST switch dialogue history: PASS
+CONTROLLER TEST switch pauses: PASS
+CONTROLLER TEST switch pause freezes player: PASS
+CONTROLLER TEST controller confirms dialogue choice: PASS
+CONTROLLER TEST building D-pad moves one grid: PASS
+CONTROLLER TEST building left stick moves one grid: PASS
+CONTROLLER TEST right stick moves pointer: PASS
+CONTROLLER TEST trigger presses virtual mouse: PASS
+CONTROLLER TEST trigger release clears virtual mouse: PASS
+CONTROLLER TEST trigger operates mouse-only restaurant UI: PASS
+CONTROLLER TEST disconnect releases input and pointer: PASS
+CONTROLLER TEST reconnect restores controller mapping: PASS
+CONTROLLER TEST keyboard restores input mode: PASS
+CONTROLLER TEST keyboard remapping still works: PASS
+CONTROLLER TEST layout preserves keyboard remap: PASS
+CONTROLLER TEST save excludes controller settings: PASS
+CONTROLLER VERIFY END failures=0
+FMOD Sound System: System released

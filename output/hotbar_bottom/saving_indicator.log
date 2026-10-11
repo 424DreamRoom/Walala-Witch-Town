@@ -1,0 +1,26 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+INDICATOR TEST scene preview does not show a false save: PASS
+INDICATOR TEST isolated slot opens: PASS
+INDICATOR TEST map change does not start a save cue: PASS
+INDICATOR TEST manual disk write succeeds: PASS
+INDICATOR TEST manual save starts cue above all menus: PASS
+INDICATOR TEST animation advances while gameplay is paused: PASS
+INDICATOR TEST bottom right cue clears inventory: PASS
+INDICATOR TEST cue and text pass through mouse input: PASS
+INDICATOR TEST successful save announces completion: PASS
+INDICATOR TEST idle cue hides and stops processing: PASS
+INDICATOR TEST unfinished save keeps animating: PASS
+INDICATOR TEST long save completes after result arrives: PASS
+INDICATOR TEST another save restarts cue without hiding: PASS
+INDICATOR TEST write failure prevents leaving: PASS
+INDICATOR TEST real disk failure shows error cue: PASS
+INDICATOR TEST translated cue zh_CN: PASS
+INDICATOR TEST translated cue en: PASS
+INDICATOR TEST translated cue ja: PASS
+INDICATOR TEST translated cue zh_TW: PASS
+INDICATOR TEST exit freezes world while showing cue: PASS
+INDICATOR TEST exit reaches title after cue: FAIL
+SAVING INDICATOR VERIFY END failures=1
+FMOD Sound System: System released

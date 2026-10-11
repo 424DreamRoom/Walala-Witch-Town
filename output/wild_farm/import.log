@@ -1,0 +1,93 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+WARNING: Detected another project.godot at res://output/fmod_baseline. The folder will be ignored.
+   at: _should_skip_directory (editor/file_system/editor_file_system.cpp:3497)
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+WARNING: Cannot find master strings bank at res:///Master.strings.bank
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] reload_all_banks (res://addons/fmod/tool/FmodBankDatabase.gd:18)
+       [1] _init (res://addons/fmod/FmodPlugin.gd:18)
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] update_scripts_classes | Started Registering global classes... (20 steps)
+[   0% ] update_scripts_classes | 
+[   4% ] update_scripts_classes | 
+[   9% ] update_scripts_classes | 
+[  14% ] update_scripts_classes | 
+[  19% ] update_scripts_classes | 
+[  23% ] update_scripts_classes | 
+[  28% ] update_scripts_classes | 
+[  33% ] update_scripts_classes | 
+[  38% ] update_scripts_classes | 
+[  42% ] update_scripts_classes | 
+[  47% ] update_scripts_classes | 
+[  52% ] update_scripts_classes | 
+[  57% ] update_scripts_classes | 
+[  61% ] update_scripts_classes | 
+[  66% ] update_scripts_classes | 
+[  71% ] update_scripts_classes | 
+[  76% ] update_scripts_classes | 
+[  80% ] update_scripts_classes | 
+[  85% ] update_scripts_classes | 
+[  90% ] update_scripts_classes | 
+[ DONE ] update_scripts_classes
+
+[   0% ] _update_scan_actions | Started Scanning actions... (10 steps)
+[   0% ] _update_scan_actions | farm_ground.png
+[   9% ] _update_scan_actions | farm_overview.png
+[  18% ] _update_scan_actions | map_chests.png
+[  27% ] _update_scan_actions | map_chests_native.png
+[  36% ] _update_scan_actions | room_closed.png
+[  45% ] _update_scan_actions | room_closed_native.png
+[  54% ] _update_scan_actions | room_open.png
+[  63% ] _update_scan_actions | room_open_native.png
+[  72% ] _update_scan_actions | storage_open.png
+[  81% ] _update_scan_actions | storage_open_native.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (10 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | farm_ground.png
+[   9% ] reimport | farm_overview.png
+[  18% ] reimport | map_chests.png
+[  27% ] reimport | map_chests_native.png
+[  36% ] reimport | room_closed.png
+[  45% ] reimport | room_closed_native.png
+[  54% ] reimport | room_open.png
+[  63% ] reimport | room_open_native.png
+[  72% ] reimport | storage_open.png
+[  81% ] reimport | storage_open_native.png
+[  90% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (10 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[  33% ] loading_editor_layout | Reopening scenes...
+[  50% ] loading_editor_layout | Loading central editor layout...
+[  66% ] loading_editor_layout | Loading plugin window layout...
+[  83% ] loading_editor_layout | Editor layout ready.
+[ DONE ] loading_editor_layout
+

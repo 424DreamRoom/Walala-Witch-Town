@@ -1,0 +1,43 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD Sound System: Live update enabled!
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+FMOD native server registered: PASS
+FMOD OUTPUT DRIVERS [{ "id": 0, "name": "è³æº (4- iKF-King-S)", "sample_rate": 48000, "speaker_mode": 3, "number_of_channels": 2 }, { "id": 1, "name": "Speaker (2- Realtek(R) Audio)", "sample_rate": 48000, "speaker_mode": 3, "number_of_channels": 2 }, { "id": 2, "name": "27S2 Plus (NVIDIA High Definition Audio)", "sample_rate": 48000, "speaker_mode": 3, "number_of_channels": 2 }, { "id": 3, "name": "æ¬å£°å¨ (ToDesk Virtual Audio)", "sample_rate": 44100, "speaker_mode": 3, "number_of_channels": 2 }, { "id": 4, "name": "æ¬å£°å¨ (Steam Streaming Microphone)", "sample_rate": 48000, "speaker_mode": 3, "number_of_channels": 2 }, { "id": 5, "name": "æ¬å£°å¨ (Steam Streaming Speakers)", "sample_rate": 48000, "speaker_mode": 3, "number_of_channels": 2 }]
+FMOD cache initially empty: PASS
+FMOD real FMOD voices overlap: PASS
+FMOD file shared across voices: PASS
+FMOD native gain matches dB: PASS
+FMOD native pitch applied: PASS
+FMOD live native gain update: PASS
+FMOD one shots finish while world paused: PASS
+FMOD one owner keeps shared file: PASS
+FMOD last owner releases file: PASS
+FMOD native music starts title: PASS
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+FMOD native music loops during pause title: PASS
+FMOD native music starts day_town: PASS
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+FMOD native music loops during pause day_town: PASS
+FMOD native music starts night_town3: PASS
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+FMOD native music loops during pause night_town3: PASS
+FMOD all native files released: PASS
+FMOD title native channel starts: PASS
+FMOD title slider changes native gain: PASS
+FMOD title handoff stops native channel: PASS
+FMOD title frees native files: PASS
+FMOD VERIFY END failures=0 checks=21
+FMOD Sound System: System released

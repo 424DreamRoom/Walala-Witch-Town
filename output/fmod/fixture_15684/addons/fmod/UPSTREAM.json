@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/utopia-rise/fmod-gdextension",
+  "release": "6.1.0-4.5.0",
+  "fmod_version": "2.03.06",
+  "download": "https://github.com/utopia-rise/fmod-gdextension/releases/download/6.1.0-4.5.0/addons.zip",
+  "archive_sha256": "8796f6cd1cb38bf7ff4da2648f8af2695244ffdb80a7ac4ab8a171ca44895713",
+  "integration_license": "MIT",
+  "integration_license_source": "https://raw.githubusercontent.com/utopia-rise/fmod-gdextension/6.1.0-4.5.0/LICENSE",
+  "fmod_license": "https://www.fmod.com/licensing",
+  "notes": "Official release binaries and assets unchanged. GDScript instance calls resolve FmodServer via Engine.get_singleton for Godot 4.7 editor compatibility. LICENSE and UPSTREAM.json added for provenance. FMOD native libraries are proprietary and covered separately from the integration MIT license.",
+  "patched_scripts": [
+    "addons\\fmod\\FmodManager.gd",
+    "addons\\fmod\\tool\\FmodBankDatabase.gd",
+    "addons\\fmod\\tool\\performances\\PerformancesDisplay.gd",
+    "addons\\fmod\\tool\\property_editors\\FmodEventEditorProperty.gd",
+    "addons\\fmod\\tool\\ui\\EventPlayControls.gd",
+    "addons\\fmod\\tool\\ui\\FmodBankExplorer.gd"
+  ]
+}

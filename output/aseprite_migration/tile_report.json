@@ -1,0 +1,57 @@
+[
+  {
+    "map": "blacksmith_ground",
+    "cells": 1200,
+    "unique_tiles": 768
+  },
+  {
+    "map": "dock_ground",
+    "cells": 920,
+    "unique_tiles": 887
+  },
+  {
+    "map": "farm_ground",
+    "cells": 5400,
+    "unique_tiles": 5334
+  },
+  {
+    "map": "field_background",
+    "cells": 920,
+    "unique_tiles": 738
+  },
+  {
+    "map": "home_empty_0",
+    "cells": 1360,
+    "unique_tiles": 183
+  },
+  {
+    "map": "home_empty_1",
+    "cells": 1240,
+    "unique_tiles": 371
+  },
+  {
+    "map": "home_empty_2",
+    "cells": 1200,
+    "unique_tiles": 744
+  },
+  {
+    "map": "home_ground",
+    "cells": 1200,
+    "unique_tiles": 917
+  },
+  {
+    "map": "restaurant_ground",
+    "cells": 920,
+    "unique_tiles": 330
+  },
+  {
+    "map": "store_ground",
+    "cells": 1200,
+    "unique_tiles": 809
+  },
+  {
+    "map": "town_ground",
+    "cells": 9600,
+    "unique_tiles": 6553
+  }
+]

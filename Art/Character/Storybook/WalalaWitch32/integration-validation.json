@@ -1,0 +1,28 @@
+{
+  "godot": "4.7.2.stable.steam",
+  "isolated_settings_and_saves": true,
+  "asset_validation": "PASS",
+  "import": "PASS",
+  "render": {
+    "status": "PASS",
+    "checks": 95,
+    "frames": 80,
+    "all_opaque_pixels_exact": true
+  },
+  "movement_collision": {
+    "status": "PASS",
+    "checks": 51
+  },
+  "harvest": {
+    "passed": 126,
+    "failed": [
+      "HARVEST TEST day end cancels action and moves to restaurant: FAIL",
+      "HARVEST TEST resources carry into next day: FAIL",
+      "HARVEST TEST nodes and fish refresh next day: FAIL",
+      "HARVEST TEST refreshed tree art: FAIL"
+    ],
+    "same_as_original_texture_baseline": true,
+    "baseline_log": "output/witch-v2/baseline-harvest.log"
+  },
+  "myart_hashes_unchanged": true
+}

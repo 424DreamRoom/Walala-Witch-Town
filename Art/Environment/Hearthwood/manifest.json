@@ -123,36 +123,36 @@
       192
     ],
     "shop_3.png": [
-      192,
+      224,
       192
     ],
     "shop_4.png": [
       192,
-      192
+      256
     ],
     "shop_5.png": [
-      192,
-      192
+      224,
+      208
     ],
     "shop_6.png": [
       192,
-      192
+      208
     ],
     "shop_7.png": [
       192,
-      192
+      208
     ],
     "shop_8.png": [
       192,
       192
     ],
     "town_ground.png": [
-      1280,
-      960
+      1600,
+      1536
     ],
     "town_overview.png": [
-      1280,
-      960
+      1600,
+      1536
     ],
     "town_tree.png": [
       64,
@@ -253,13 +253,201 @@
     "harvest_fish.png": [
       16,
       10
+    ],
+    "smith_furnace.png": [
+      112,
+      140
+    ],
+    "smith_workbench.png": [
+      126,
+      78
+    ],
+    "smith_rack.png": [
+      96,
+      64
+    ],
+    "smith_anvil.png": [
+      72,
+      58
+    ],
+    "smith_quench.png": [
+      48,
+      40
+    ],
+    "smith_ore_bin.png": [
+      76,
+      50
+    ],
+    "smith_bellows.png": [
+      50,
+      46
+    ],
+    "store_shelves.png": [
+      112,
+      122
+    ],
+    "store_dry_shelves.png": [
+      112,
+      114
+    ],
+    "store_counter.png": [
+      164,
+      72
+    ],
+    "store_produce.png": [
+      90,
+      54
+    ],
+    "store_sacks.png": [
+      70,
+      58
+    ],
+    "blacksmith_sign.png": [
+      34,
+      44
+    ],
+    "store_sign.png": [
+      34,
+      44
+    ],
+    "blacksmith_exterior.png": [
+      192,
+      192
+    ],
+    "blacksmith_ground.png": [
+      640,
+      480
+    ],
+    "blacksmith_overview.png": [
+      640,
+      480
+    ],
+    "store_exterior.png": [
+      192,
+      192
+    ],
+    "store_ground.png": [
+      640,
+      480
+    ],
+    "store_overview.png": [
+      640,
+      480
+    ],
+    "smith_fire.png": [
+      448,
+      140
+    ],
+    "town_fountain.png": [
+      96,
+      84
+    ],
+    "outdoor_sign_dock.png": [
+      56,
+      48
+    ],
+    "farm_ground.png": [
+      1440,
+      960
+    ],
+    "farm_overview.png": [
+      1440,
+      960
+    ],
+    "town_greenhouse.png": [
+      224,
+      192
+    ],
+    "town_atelier.png": [
+      192,
+      224
+    ],
+    "town_bakery.png": [
+      224,
+      192
+    ],
+    "town_library.png": [
+      224,
+      224
+    ],
+    "town_manor.png": [
+      224,
+      240
+    ],
+    "town_windmill.png": [
+      224,
+      280
+    ],
+    "town_cottage.png": [
+      192,
+      192
+    ],
+    "town_boathouse.png": [
+      224,
+      176
     ]
   },
   "outdoors": {
     "seed": 10102026,
-    "town_decorations": 57,
+    "town_decorations": 165,
     "field_objects": 30,
     "field_foreground": "independent Y-sorted sprites",
     "rebuild": "python Art/Environment/Hearthwood/tools/build_outdoors.py"
+  },
+  "businesses": {
+    "seed": 101020264,
+    "buildings": [
+      "blacksmith",
+      "store"
+    ],
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_businesses.py"
+  },
+  "town_plan": {
+    "revision": 4,
+    "seed": 101020267,
+    "districts": 9,
+    "size": [
+      1600,
+      1536
+    ],
+    "area_multiplier": 2,
+    "buildings": 16,
+    "architecture": "fourteen authored variants in ten structural families plus smithy and general store",
+    "roads": "connected east garden lane and southern street loops around the original market square",
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_town_layout.py",
+    "references": [
+      "https://wiki.stardewvalley.net/Pelican_Town",
+      "https://fieldsofmistria.grandwiki.com/map/"
+    ],
+    "landscape": {
+      "revision": 1,
+      "grouped_gardens": 9,
+      "principles": "quiet lawns, clustered accents, clear road centres, footprint-sized yards and a landmark collar",
+      "references": [
+        "https://www.slynyrd.com/blog/2019/8/27/pixelblog-20-top-down-tiles",
+        "https://www.slynyrd.com/blog/2023/3/26/pixelblog-43-top-down-tiles-part-2",
+        "https://www.gamedeveloper.com/design/gdc-2018-level-design-workshop-an-expert-roundtable-q-a",
+        "https://media.gdcvault.com/gdc2017/Presentations/Brown_Lisa_Applying_3D_Level.pdf"
+      ]
+    }
+  },
+  "farm": {
+    "size": [
+      1440,
+      960
+    ],
+    "plantable_tiles": 1247,
+    "crop": "herb",
+    "growth_days": 3,
+    "house": "shop_0.png, relocated from town",
+    "seed": 11102026,
+    "initial_state": "overgrown",
+    "obstacles": {
+      "wood": 72,
+      "ore": 50,
+      "weed": 149
+    },
+    "tile_ids": "0..95 preserve the old field; remaining cells follow row order",
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_farm.py"
   }
 }

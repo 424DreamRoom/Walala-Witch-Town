@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+EQUIPMENT TEST legacy four tools merge into one wand: PASS
+EQUIPMENT TEST migration preserves water, fish progress and ordinary slot positions: PASS
+EQUIPMENT TEST migration frees redundant tool slots: PASS
+EQUIPMENT TEST migrated save is idempotent: PASS
+EQUIPMENT TEST stored legacy tools stay stored as one upgraded wand: FAIL
+EQUIPMENT TEST stored migration preserves ordinary chest positions: FAIL
+EQUIPMENT TEST migration rejects duplicate old ownership: PASS
+EQUIPMENT TEST migration rejects mismatched chest mirrors: PASS
+EQUIPMENT TEST overflow migrates without losing deferred resources: PASS
+EQUIPMENT TEST legacy fishing upgrade contributes to wand rank: PASS
+EQUIPMENT TEST implicit basic fishing rod migrates when other old tools are absent: PASS
+EQUIPMENT TEST missing wand blocks all gathering actions: PASS
+BASELINE MIGRATION failures=2
+FMOD Sound System: System released

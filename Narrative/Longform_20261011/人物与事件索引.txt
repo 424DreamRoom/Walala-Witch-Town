@@ -1,0 +1,1138 @@
+人物与事件索引
+
+章节编号为零基：0为第一章，12为宴会完成后。requires均指本包场景ID。新增店铺为叙事设计。
+
+【茉莉】 mori · 温室种子研究员
+语气：先报具体观察再承认情绪；会纠正自己的结论，不用植物比喻劝人。
+想要：让母亲留下的种子发芽，也建立自己的研究记录。
+盲点：把等待误当成必须证明自己没有放弃。
+实际出场：16场 / 独立支线与日常4场 / 本人对白2034汉字
+关系：芦苇 · 核对湿地供水
+关系：北栗 · 讨论授粉与蜜源
+  main_03_before｜畦边的名字牌｜章≥2｜any｜月芽农场｜前置：main_02_after
+  main_03_after｜不太整齐的第一筐｜章≥2｜any｜月芽农场｜前置：main_03_before
+  main_10_before｜图鉴里的十二个空格｜章≥9｜any｜月芽农场｜前置：main_09_after
+  main_10_after｜纸上的四个季节｜章≥9｜any｜月灯食堂｜前置：main_10_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  interlude_weight｜少的那三克｜章≥6｜any｜月灯食堂备料台｜前置：main_05_after
+  core_mori_01｜三号盘没有动静｜章≥0｜spring｜温室｜前置：无
+  core_mori_02｜两封没有日期的便条｜章≥1｜any｜温室｜前置：core_mori_01
+  core_mori_03｜一排空花盆｜章≥3｜summer｜温室后棚｜前置：core_mori_02
+  core_mori_04｜没有掌声的清晨｜章≥12｜spring｜温室｜前置：core_mori_03, main_12_after, core_reed_03
+  core_reed_04｜清单留下空行｜章≥12｜summer｜湿地木道｜前置：core_reed_03, main_12_after, core_mori_04
+  core_bei_01｜今年不是去年的味道｜章≥0｜spring｜蜂场｜前置：无
+  core_bei_02｜空箱不能只晒太阳｜章≥2｜summer｜蜂场边坡｜前置：core_bei_01
+  core_bei_04｜瓶子上的小字变大了｜章≥12｜spring｜蜂场小柜台｜前置：core_bei_03, main_12_after, core_mori_04
+  core_winter_blanket_01｜一块被子到底有多大｜章≥12｜winter｜观星台｜前置：main_12_after, core_aster_04, core_mori_04, core_reed_04, core_ember_04
+
+【余烬】 ember · 铁匠
+语气：短句、直说尺寸与代价；尴尬时做小修理，笑点落在自己的手艺执拗。
+想要：把事故责任查清，为自己造一条小船。
+盲点：把造过零件等同于造成所有后果。
+实际出场：22场 / 独立支线与日常4场 / 本人对白2554汉字
+关系：皮普 · 师徒式互相纠错
+关系：舟生 · 交换船体与金属经验
+  main_04_before｜铁砧边的工价｜章≥3｜any｜铁匠铺｜前置：main_03_after
+  main_04_after｜少了一角的齿轮｜章≥3｜any｜旧闸门｜前置：main_04_before
+  main_06_after｜钥匙没有换主人｜章≥5｜any｜月灯食堂｜前置：main_06_before
+  main_07_before｜八只盒子｜章≥6｜any｜旧械遗址资料间｜前置：main_06_after
+  main_07_after｜停下来以后｜章≥6｜any｜旧械遗址｜前置：main_07_before
+  main_11_before｜最后一片没有名字｜章≥10｜any｜月环观星台｜前置：main_10_after
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  core_ember_01｜不肯收钱的铰链｜章≥0｜any｜铁匠铺｜前置：无
+  core_ember_02｜锤子歇半天｜章≥10｜summer｜铁匠铺｜前置：core_ember_01, main_11_before
+  core_ember_03｜徽章最后的重量｜章≥10｜autumn｜镇钟旁｜前置：core_ember_02
+  core_ember_04｜船身上那道补痕｜章≥12｜summer｜码头船棚｜前置：core_ember_03, main_12_after
+  core_pip_01｜玉米闻起来不对｜章≥0｜any｜旧械棚｜前置：无
+  core_pip_02｜比祖父慢一圈｜章≥2｜summer｜铁匠铺｜前置：core_pip_01
+  core_pip_04｜无须剪彩的磨粉机｜章≥12｜winter｜米铺后院｜前置：core_pip_03, main_12_after
+  core_reed_02｜支渠旧闸后的旧枝｜章≥4｜summer｜湿地支渠旧闸｜前置：core_reed_01
+  core_orla_03｜修复计划上那块空白｜章≥4｜autumn｜镇广场｜前置：core_orla_02
+  core_zhou_02｜不是船主付的那枚钱｜章≥2｜summer｜船棚｜前置：core_zhou_01
+  core_zhou_04｜第二张工单比较小｜章≥12｜winter｜船棚｜前置：core_zhou_03, main_12_after
+  core_winter_blanket_01｜一块被子到底有多大｜章≥12｜winter｜观星台｜前置：main_12_after, core_aster_04, core_mori_04, core_reed_04, core_ember_04
+
+【澪】 nagi · 码头联络员
+语气：语气干脆，讲日期位置比讲心情多；熟人面前会突然说一句很直的真话。
+想要：重开航线，得到可以写在日历上的归期。
+盲点：把守在原地当成唯一不会错过亲人的办法。
+实际出场：18场 / 独立支线与日常4场 / 本人对白2250汉字
+关系：舟生 · 堂弟，既照顾又放不开手
+关系：霜铃 · 互相信任的信件交接人
+  main_02_before｜有客人的位置｜章≥1｜any｜月灯食堂｜前置：main_01_after
+  main_02_after｜最后那碗没有葱｜章≥1｜any｜月灯食堂｜前置：main_02_before
+  main_05_before｜水先到了谁家｜章≥4｜any｜莲雾湿地｜前置：main_04_after
+  main_05_after｜鱼鳞背面的光｜章≥4｜any｜码头｜前置：main_05_before
+  main_08_after｜新凳子第一晚｜章≥7｜any｜月灯食堂｜前置：main_08_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  interlude_dock_meal｜船上的饭在岸上吃｜章≥8｜any｜码头｜前置：main_08_after
+  core_ember_04｜船身上那道补痕｜章≥12｜summer｜码头船棚｜前置：core_ember_03, main_12_after
+  core_nagi_01｜潮表后面那一格｜章≥0｜spring｜码头｜前置：无
+  core_nagi_02｜漂流来的折痕｜章≥2｜summer｜码头小屋｜前置：core_nagi_01
+  core_nagi_03｜开航日还没决定｜章≥4｜autumn｜码头公告棚｜前置：core_nagi_02
+  core_nagi_04｜这回写下回程｜章≥12｜summer｜启航后的码头｜前置：core_nagi_03, main_12_after, core_toma_04
+  core_dou_02｜鸭子不能当路标｜章≥2｜summer｜码头边｜前置：core_dou_01
+  core_zhou_01｜签名先占半张纸｜章≥0｜any｜船棚｜前置：无
+  core_zhou_03｜一个人签，三个人看｜章≥4｜autumn｜码头｜前置：core_zhou_02
+  core_summer_shift_01｜阴影挪得比凳子快｜章≥12｜summer｜码头凉棚｜前置：main_12_after, core_nagi_04, core_zhou_04, core_yingluo_04, core_yan_04
+
+【露米】 lumi · 家具工匠
+语气：说材料、接缝与客人实际用法；被夸时先挑一个小毛病，慢慢学会报自己的名字。
+想要：让原创家具用自己的名字出售。
+盲点：以为只要作品像别人，就不会因自己的品味被拒绝。
+实际出场：18场 / 独立支线与日常4场 / 本人对白1866汉字
+关系：乔叔 · 木工同行，交换修旧方法
+关系：寒枝 · 共同处理家居布料
+  main_02_before｜有客人的位置｜章≥1｜any｜月灯食堂｜前置：main_01_after
+  main_02_after｜最后那碗没有葱｜章≥1｜any｜月灯食堂｜前置：main_02_before
+  main_06_before｜预留的一角｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  main_08_before｜大一点到底多大｜章≥7｜any｜月灯食堂｜前置：main_07_after
+  main_08_after｜新凳子第一晚｜章≥7｜any｜月灯食堂｜前置：main_08_before
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  core_lumi_01｜桌子下面的名字｜章≥0｜any｜家具作坊｜前置：无
+  core_lumi_02｜照着做的第十四张｜章≥2｜summer｜家具作坊｜前置：core_lumi_01
+  core_lumi_03｜一张退回的图｜章≥4｜autumn｜月灯食堂｜前置：core_lumi_02
+  core_lumi_04｜签在看得见的地方｜章≥12｜winter｜家具作坊｜前置：core_lumi_03, main_12_after
+  core_qiao_01｜那把椅子不出售｜章≥0｜any｜旧木工房｜前置：无
+  core_qiao_04｜一把椅子的两个地址｜章≥12｜winter｜木工房后院｜前置：core_qiao_03, main_12_after
+  core_han_01｜袖子长出来的一寸｜章≥0｜spring｜裁缝铺｜前置：无
+  core_han_03｜门口少了一双鞋｜章≥4｜autumn｜裁缝铺｜前置：core_han_02
+  core_spring_table_01｜三件不相干的失物｜章≥12｜spring｜月灯食堂｜前置：main_12_after, core_han_04, core_qiao_04, core_lumi_04
+
+【星芒】 aster · 月环观测员
+语气：说话准确，主动区分证据与猜测；疲倦时有冷幽默，不把星空当万能安慰。
+想要：知道姐姐留在月环的记忆，并让观星台向镇民开放。
+盲点：把专业门槛当成保护他人和保护自己的同一堵墙。
+实际出场：14场 / 独立支线与日常4场 / 本人对白2313汉字
+关系：奥萝 · 修复资料互相监督
+关系：豆豆 · 接纳孩子普通而持续的观察
+  main_10_before｜图鉴里的十二个空格｜章≥9｜any｜月芽农场｜前置：main_09_after
+  main_10_after｜纸上的四个季节｜章≥9｜any｜月灯食堂｜前置：main_10_before
+  main_11_before｜最后一片没有名字｜章≥10｜any｜月环观星台｜前置：main_10_after
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  core_aster_01｜被锁起来的第二把椅子｜章≥10｜any｜观星台｜前置：无
+  core_aster_02｜不属于机器的那一页｜章≥10｜summer｜观星台资料室｜前置：core_aster_01
+  core_aster_03｜五个名额太少｜章≥10｜autumn｜观星台｜前置：core_aster_02
+  core_aster_04｜观星台今晚有人｜章≥12｜winter｜观星台｜前置：core_aster_03, main_12_after
+  core_orla_03｜修复计划上那块空白｜章≥4｜autumn｜镇广场｜前置：core_orla_02
+  core_winter_blanket_01｜一块被子到底有多大｜章≥12｜winter｜观星台｜前置：main_12_after, core_aster_04, core_mori_04, core_reed_04, core_ember_04
+  core_summer_laundry_01｜午后四点的那阵雨｜章≥12｜summer｜镇后公共晾场｜前置：main_12_after, core_han_04, core_aster_04, core_yuki_04, core_bei_04
+
+【陶陶】 toma · 旧食堂厨师与早餐摊主
+语气：爱报碗数和火候，嘴硬但不羞辱人；回忆不自动美化食物。
+想要：在记不起全部旧味的情况下做出自己的新早餐。
+盲点：把客人认可旧味误当成自己必须复原一切的合同。
+实际出场：30场 / 独立支线与日常4场 / 本人对白3245汉字
+关系：杏枝 · 早餐摊伙伴，尊重她的学习节奏
+关系：穗婶 · 长期有分歧但信得过的供货人
+  main_01_before｜锅底的旧灰｜章≥0｜any｜月灯食堂｜前置：main_arrival
+  main_01_after｜三份食材，一口小锅｜章≥0｜any｜月灯食堂｜前置：main_01_before
+  main_02_before｜有客人的位置｜章≥1｜any｜月灯食堂｜前置：main_01_after
+  main_02_after｜最后那碗没有葱｜章≥1｜any｜月灯食堂｜前置：main_02_before
+  main_03_after｜不太整齐的第一筐｜章≥2｜any｜月芽农场｜前置：main_03_before
+  main_06_before｜预留的一角｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  main_08_before｜大一点到底多大｜章≥7｜any｜月灯食堂｜前置：main_07_after
+  main_08_after｜新凳子第一晚｜章≥7｜any｜月灯食堂｜前置：main_08_before
+  main_10_after｜纸上的四个季节｜章≥9｜any｜月灯食堂｜前置：main_10_before
+  main_11_before｜最后一片没有名字｜章≥10｜any｜月环观星台｜前置：main_10_after
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  interlude_half_soup｜半碗汤不等于半价｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  interlude_weight｜少的那三克｜章≥6｜any｜月灯食堂备料台｜前置：main_05_after
+  core_lumi_03｜一张退回的图｜章≥4｜autumn｜月灯食堂｜前置：core_lumi_02
+  core_toma_01｜少了一行的南瓜汤｜章≥0｜any｜月灯食堂厨房｜前置：无
+  core_toma_02｜备注写在账页背面｜章≥2｜summer｜米铺后间｜前置：core_toma_01
+  core_toma_03｜被退回来的两只碗｜章≥4｜autumn｜月灯食堂｜前置：core_toma_02
+  core_toma_04｜早餐摊第一天不够忙｜章≥12｜winter｜食堂前早餐摊｜前置：core_toma_03, main_12_after
+  core_yuki_03｜回信改了三遍｜章≥4｜summer｜月灯食堂侧桌｜前置：core_yuki_02
+  core_sui_03｜利润那一格没有罪｜章≥4｜autumn｜月灯食堂｜前置：core_sui_02
+  core_dou_03｜意见多得装不进书包｜章≥4｜autumn｜月灯食堂｜前置：core_dou_02
+  core_bai_03｜淡汤里也能有味道｜章≥4｜autumn｜食堂试卖早餐处｜前置：core_bai_02
+  core_xing_01｜两种不同的记号｜章≥0｜spring｜月灯食堂｜前置：无
+  core_xing_02｜不需要当众念完｜章≥2｜summer｜食堂侧门｜前置：core_xing_01
+  core_xing_04｜不为别人写的那一页｜章≥12｜winter｜早餐摊｜前置：core_xing_03, main_12_after, core_toma_04
+  core_bei_03｜少一勺不是少一点名声｜章≥4｜autumn｜月灯食堂厨房｜前置：core_bei_02
+  core_autumn_jars_01｜十五罐和两只不肯松口的盖｜章≥12｜autumn｜月灯食堂后院｜前置：main_12_after, core_toma_04, core_xing_04, core_pip_04, core_bei_04
+
+【皮普】 pip · 机械学徒
+语气：说得快，常补一句自我纠正；夸张来自机械想象，遇到实际错误肯细看。
+想要：做一台稳定且有用的磨粉机。
+盲点：误以为速度越快就越配得上祖父的设计。
+实际出场：14场 / 独立支线与日常4场 / 本人对白1811汉字
+关系：余烬 · 学习制造安全与检修
+关系：穗婶 · 试用磨粉机的严厉客户
+  main_06_after｜钥匙没有换主人｜章≥5｜any｜月灯食堂｜前置：main_06_before
+  main_07_before｜八只盒子｜章≥6｜any｜旧械遗址资料间｜前置：main_06_after
+  main_07_after｜停下来以后｜章≥6｜any｜旧械遗址｜前置：main_07_before
+  main_11_before｜最后一片没有名字｜章≥10｜any｜月环观星台｜前置：main_10_after
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  core_ember_02｜锤子歇半天｜章≥10｜summer｜铁匠铺｜前置：core_ember_01, main_11_before
+  core_pip_01｜玉米闻起来不对｜章≥0｜any｜旧械棚｜前置：无
+  core_pip_02｜比祖父慢一圈｜章≥2｜summer｜铁匠铺｜前置：core_pip_01
+  core_pip_03｜两只布袋的差别｜章≥4｜autumn｜米铺｜前置：core_pip_02
+  core_pip_04｜无须剪彩的磨粉机｜章≥12｜winter｜米铺后院｜前置：core_pip_03, main_12_after
+  core_autumn_jars_01｜十五罐和两只不肯松口的盖｜章≥12｜autumn｜月灯食堂后院｜前置：main_12_after, core_toma_04, core_xing_04, core_pip_04, core_bei_04
+
+【芦苇】 reed · 湿地管护员
+语气：把清单说得具体，先讲水位再讲担忧；不拿自然替人类作道德裁判。
+想要：让被堵住的水重新流通，恢复真实可查的湿地记录。
+盲点：怕给镇里添麻烦，把逐渐缩短的清单藏得过久。
+实际出场：11场 / 独立支线与日常4场 / 本人对白1865汉字
+关系：茉莉 · 共享土壤与水样
+关系：严婆 · 井渠边界争议的熟人
+  main_05_before｜水先到了谁家｜章≥4｜any｜莲雾湿地｜前置：main_04_after
+  main_05_after｜鱼鳞背面的光｜章≥4｜any｜码头｜前置：main_05_before
+  core_mori_02｜两封没有日期的便条｜章≥1｜any｜温室｜前置：core_mori_01
+  core_mori_04｜没有掌声的清晨｜章≥12｜spring｜温室｜前置：core_mori_03, main_12_after, core_reed_03
+  core_reed_01｜少了一行的荷花单｜章≥4｜summer｜湿地木道｜前置：无
+  core_reed_02｜支渠旧闸后的旧枝｜章≥4｜summer｜湿地支渠旧闸｜前置：core_reed_01
+  core_reed_03｜流水来了以后｜章≥4｜autumn｜湿地入口｜前置：core_reed_02
+  core_reed_04｜清单留下空行｜章≥12｜summer｜湿地木道｜前置：core_reed_03, main_12_after, core_mori_04
+  core_yan_03｜牌子写给所有人｜章≥4｜winter｜旧井｜前置：core_yan_02
+  core_bei_02｜空箱不能只晒太阳｜章≥2｜summer｜蜂场边坡｜前置：core_bei_01
+  core_winter_blanket_01｜一块被子到底有多大｜章≥12｜winter｜观星台｜前置：main_12_after, core_aster_04, core_mori_04, core_reed_04, core_ember_04
+
+【霜铃】 yuki · 邮递员
+语气：交接时严谨，私下会承认小别扭；不替收件人决定信的意义。
+想要：拆开寄给自己的母亲来信，并认真回复。
+盲点：把替别人保管消息的熟练误认为自己也善于面对消息。
+实际出场：15场 / 独立支线与日常4场 / 本人对白2097汉字
+关系：澪 · 为远海回信核对路线
+关系：寒枝 · 长途通信与衣物托寄互助
+  main_06_before｜预留的一角｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  main_08_after｜新凳子第一晚｜章≥7｜any｜月灯食堂｜前置：main_08_before
+  main_09_before｜山上那封没写完的信｜章≥8｜any｜霜铃山径｜前置：main_08_after
+  main_09_after｜六处印记｜章≥8｜any｜霜铃山径值守站外｜前置：main_09_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  core_nagi_02｜漂流来的折痕｜章≥2｜summer｜码头小屋｜前置：core_nagi_01
+  core_yuki_01｜收件人是自己｜章≥0｜winter｜邮亭｜前置：无
+  core_yuki_02｜不是坏消息也会难读｜章≥2｜spring｜邮亭后间｜前置：core_yuki_01
+  core_yuki_03｜回信改了三遍｜章≥4｜summer｜月灯食堂侧桌｜前置：core_yuki_02
+  core_yuki_04｜一声铃的距离｜章≥12｜autumn｜邮亭｜前置：core_yuki_03, main_12_after
+  core_qiao_02｜家信只写没什么事｜章≥2｜summer｜木工房后院｜前置：core_qiao_01
+  core_han_02｜不是每个口袋都装得下担心｜章≥2｜summer｜裁缝铺｜前置：core_han_01
+  core_han_04｜远行衣也有第二次修改｜章≥12｜winter｜裁缝铺｜前置：core_han_03, main_12_after
+  core_summer_laundry_01｜午后四点的那阵雨｜章≥12｜summer｜镇后公共晾场｜前置：main_12_after, core_han_04, core_aster_04, core_yuki_04, core_bei_04
+
+【奥萝】 orla · 镇长
+语气：习惯用公事包住情绪，解释账目时很清楚；学会承认不知道与请求分担，不作长篇致辞。
+想要：公开匿名邀请与修复账本，让镇民共同参与。
+盲点：以为承担所有决定就能避免别人失望。
+实际出场：34场 / 独立支线与日常4场 / 本人对白3673汉字
+关系：星芒 · 共同公开月环证据
+关系：穗婶 · 预算监督，彼此不留情面
+  main_01_before｜锅底的旧灰｜章≥0｜any｜月灯食堂｜前置：main_arrival
+  main_01_after｜三份食材，一口小锅｜章≥0｜any｜月灯食堂｜前置：main_01_before
+  main_02_before｜有客人的位置｜章≥1｜any｜月灯食堂｜前置：main_01_after
+  main_02_after｜最后那碗没有葱｜章≥1｜any｜月灯食堂｜前置：main_02_before
+  main_03_before｜畦边的名字牌｜章≥2｜any｜月芽农场｜前置：main_02_after
+  main_03_after｜不太整齐的第一筐｜章≥2｜any｜月芽农场｜前置：main_03_before
+  main_04_before｜铁砧边的工价｜章≥3｜any｜铁匠铺｜前置：main_03_after
+  main_04_after｜少了一角的齿轮｜章≥3｜any｜旧闸门｜前置：main_04_before
+  main_06_before｜预留的一角｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  main_06_after｜钥匙没有换主人｜章≥5｜any｜月灯食堂｜前置：main_06_before
+  main_07_before｜八只盒子｜章≥6｜any｜旧械遗址资料间｜前置：main_06_after
+  main_07_after｜停下来以后｜章≥6｜any｜旧械遗址｜前置：main_07_before
+  main_08_before｜大一点到底多大｜章≥7｜any｜月灯食堂｜前置：main_07_after
+  main_08_after｜新凳子第一晚｜章≥7｜any｜月灯食堂｜前置：main_08_before
+  main_09_before｜山上那封没写完的信｜章≥8｜any｜霜铃山径｜前置：main_08_after
+  main_09_after｜六处印记｜章≥8｜any｜霜铃山径值守站外｜前置：main_09_before
+  main_10_before｜图鉴里的十二个空格｜章≥9｜any｜月芽农场｜前置：main_09_after
+  main_10_after｜纸上的四个季节｜章≥9｜any｜月灯食堂｜前置：main_10_before
+  main_11_before｜最后一片没有名字｜章≥10｜any｜月环观星台｜前置：main_10_after
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  interlude_unread_page｜档案里的空白行｜章≥10｜any｜月环观星台｜前置：main_10_after
+  core_ember_03｜徽章最后的重量｜章≥10｜autumn｜镇钟旁｜前置：core_ember_02
+  core_nagi_03｜开航日还没决定｜章≥4｜autumn｜码头公告棚｜前置：core_nagi_02
+  core_aster_02｜不属于机器的那一页｜章≥10｜summer｜观星台资料室｜前置：core_aster_01
+  core_orla_01｜落款被裁掉的信纸｜章≥0｜spring｜镇务室｜前置：无
+  core_orla_02｜一本不该只有一个人的账｜章≥2｜summer｜镇务室｜前置：core_orla_01
+  core_orla_03｜修复计划上那块空白｜章≥4｜autumn｜镇广场｜前置：core_orla_02
+  core_orla_04｜宴席散后还要付的账｜章≥12｜winter｜月灯食堂｜前置：core_orla_03, main_12_after
+  core_yingluo_03｜宴前没有万能的晚上｜章≥5｜autumn｜镇广场｜前置：core_yingluo_02
+  core_sui_02｜赊账栏不能擦成空白｜章≥2｜summer｜米铺柜台｜前置：core_sui_01
+  core_yan_02｜旧回执没有丢｜章≥2｜autumn｜旧井管理棚｜前置：core_yan_01
+
+【萤萝】 yingluo · 巡灯员
+语气：亲切但不过度热络，以实际见闻承接章节；讲自己的班次与小烦恼，不评判玩家表现。
+想要：让镇里的灯按时有人照看，也给自己留一段白天生活。
+盲点：习惯把陪伴当成随时在场，忽略自己的休息。
+实际出场：23场 / 独立支线与日常4场 / 本人对白2566汉字
+关系：奥萝 · 灯油预算与值班协作
+关系：豆豆 · 认真接住孩子的地图意见
+  main_arrival｜门槛下的一只拖鞋｜章≥0｜any｜月芽农场｜前置：无
+  main_01_before｜锅底的旧灰｜章≥0｜any｜月灯食堂｜前置：main_arrival
+  main_01_after｜三份食材，一口小锅｜章≥0｜any｜月灯食堂｜前置：main_01_before
+  main_02_before｜有客人的位置｜章≥1｜any｜月灯食堂｜前置：main_01_after
+  main_02_after｜最后那碗没有葱｜章≥1｜any｜月灯食堂｜前置：main_02_before
+  main_03_before｜畦边的名字牌｜章≥2｜any｜月芽农场｜前置：main_02_after
+  main_03_after｜不太整齐的第一筐｜章≥2｜any｜月芽农场｜前置：main_03_before
+  main_04_before｜铁砧边的工价｜章≥3｜any｜铁匠铺｜前置：main_03_after
+  main_04_after｜少了一角的齿轮｜章≥3｜any｜旧闸门｜前置：main_04_before
+  main_09_before｜山上那封没写完的信｜章≥8｜any｜霜铃山径｜前置：main_08_after
+  main_09_after｜六处印记｜章≥8｜any｜霜铃山径值守站外｜前置：main_09_before
+  main_11_before｜最后一片没有名字｜章≥10｜any｜月环观星台｜前置：main_10_after
+  main_11_after｜拼回去的不是答案｜章≥10｜any｜月环观星台｜前置：main_11_before
+  main_12_before｜宴会前的分工纸｜章≥11｜any｜月灯食堂门前｜前置：main_11_after
+  main_12_after｜灯亮了，饭还没有吃完｜章≥12｜any｜月灯食堂｜前置：main_12_before
+  main_next_morning｜第二天的水盆｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  interlude_rain_coats｜谁的外套先干｜章≥2｜any｜月灯食堂｜前置：main_02_after
+  core_yingluo_01｜欢迎不是一串问题｜章≥0｜spring｜镇口灯架｜前置：无
+  core_yingluo_02｜灯油只剩半瓶的时候｜章≥2｜summer｜巡灯棚｜前置：core_yingluo_01
+  core_yingluo_03｜宴前没有万能的晚上｜章≥5｜autumn｜镇广场｜前置：core_yingluo_02
+  core_yingluo_04｜灯照旧亮到早晨｜章≥12｜winter｜月灯食堂门外｜前置：core_yingluo_03, main_12_after
+  core_dou_04｜第七版也会画错｜章≥12｜winter｜镇广场｜前置：core_dou_03, main_12_after, core_toma_04
+  core_summer_shift_01｜阴影挪得比凳子快｜章≥12｜summer｜码头凉棚｜前置：main_12_after, core_nagi_04, core_zhou_04, core_yingluo_04, core_yan_04
+
+【穗婶】 sui · 米铺掌柜
+语气：数字准确，笑话干燥；谈钱不羞怯，也不将善意做成让别人欠情的方式。
+想要：让米铺赚合理的钱，也能坦然参与镇里的互助。
+盲点：别人一句只认钱，就会逼她用亏本证明自己。
+实际出场：14场 / 独立支线与日常4场 / 本人对白2204汉字
+关系：陶陶 · 旧食堂的长期供货人
+关系：严婆 · 公开收费争议的老邻居
+  interlude_different_grain｜两种米混不混｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  core_toma_02｜备注写在账页背面｜章≥2｜summer｜米铺后间｜前置：core_toma_01
+  core_pip_03｜两只布袋的差别｜章≥4｜autumn｜米铺｜前置：core_pip_02
+  core_pip_04｜无须剪彩的磨粉机｜章≥12｜winter｜米铺后院｜前置：core_pip_03, main_12_after
+  core_orla_02｜一本不该只有一个人的账｜章≥2｜summer｜镇务室｜前置：core_orla_01
+  core_orla_04｜宴席散后还要付的账｜章≥12｜winter｜月灯食堂｜前置：core_orla_03, main_12_after
+  core_sui_01｜短了一两的秤砣｜章≥0｜any｜米铺｜前置：无
+  core_sui_02｜赊账栏不能擦成空白｜章≥2｜summer｜米铺柜台｜前置：core_sui_01
+  core_sui_03｜利润那一格没有罪｜章≥4｜autumn｜月灯食堂｜前置：core_sui_02
+  core_sui_04｜一张明码的谢礼｜章≥12｜winter｜米铺｜前置：core_sui_03, main_12_after
+  core_xing_03｜一行自己核过的价钱｜章≥4｜autumn｜米铺｜前置：core_xing_02
+  core_yan_01｜井沿上的第三只桶｜章≥0｜summer｜旧井｜前置：无
+  core_yan_04｜晚一点也有水｜章≥12｜spring｜旧井｜前置：core_yan_03, main_12_after
+  core_autumn_jars_01｜十五罐和两只不肯松口的盖｜章≥12｜autumn｜月灯食堂后院｜前置：main_12_after, core_toma_04, core_xing_04, core_pip_04, core_bei_04
+
+【乔叔】 qiao · 木匠
+语气：耳背时确认词义，不假装听清；会看口型但不无误，幽默来自经验与慢半拍反应。
+想要：让家中空椅重新成为可以坐人的椅子。
+盲点：把不打扰远方家人的体谅做成从不主动联系。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1704汉字
+关系：露米 · 从互相挑毛病转为承认原创
+关系：豆豆 · 请孩子实测地图，不将其当神童
+  interlude_wrong_map｜地图上那个大圆｜章≥4｜any｜小镇树荫下｜前置：main_03_after
+  interlude_rest_day｜宴会后的空椅子｜章≥12｜any｜小镇树荫下｜前置：main_12_after
+  core_lumi_01｜桌子下面的名字｜章≥0｜any｜家具作坊｜前置：无
+  core_lumi_04｜签在看得见的地方｜章≥12｜winter｜家具作坊｜前置：core_lumi_03, main_12_after
+  core_qiao_01｜那把椅子不出售｜章≥0｜any｜旧木工房｜前置：无
+  core_qiao_02｜家信只写没什么事｜章≥2｜summer｜木工房后院｜前置：core_qiao_01
+  core_qiao_03｜空椅坐了半天｜章≥4｜autumn｜木工房｜前置：core_qiao_02
+  core_qiao_04｜一把椅子的两个地址｜章≥12｜winter｜木工房后院｜前置：core_qiao_03, main_12_after
+  core_spring_table_01｜三件不相干的失物｜章≥12｜spring｜月灯食堂｜前置：main_12_after, core_han_04, core_qiao_04, core_lumi_04
+
+【豆豆】 dou · 十一岁孩子与歪地图作者
+语气：具体、直接，有时误会成年人；能抱怨也会普通地分心，不用童言替主题作总结。
+想要：画出镇里人真能看懂的地图。
+盲点：把每一处别人没看懂都当成自己不够聪明。
+实际出场：10场 / 独立支线与日常4场 / 本人对白1538汉字
+关系：星芒 · 学观察，不被封为天才
+关系：乔叔 · 用画说明双方没听清的地方
+  interlude_wrong_map｜地图上那个大圆｜章≥4｜any｜小镇树荫下｜前置：main_03_after
+  core_aster_03｜五个名额太少｜章≥10｜autumn｜观星台｜前置：core_aster_02
+  core_aster_04｜观星台今晚有人｜章≥12｜winter｜观星台｜前置：core_aster_03, main_12_after
+  core_yingluo_02｜灯油只剩半瓶的时候｜章≥2｜summer｜巡灯棚｜前置：core_yingluo_01
+  core_yingluo_04｜灯照旧亮到早晨｜章≥12｜winter｜月灯食堂门外｜前置：core_yingluo_03, main_12_after
+  core_qiao_03｜空椅坐了半天｜章≥4｜autumn｜木工房｜前置：core_qiao_02
+  core_dou_01｜地图上不该有八个井｜章≥0｜spring｜镇广场｜前置：无
+  core_dou_02｜鸭子不能当路标｜章≥2｜summer｜码头边｜前置：core_dou_01
+  core_dou_03｜意见多得装不进书包｜章≥4｜autumn｜月灯食堂｜前置：core_dou_02
+  core_dou_04｜第七版也会画错｜章≥12｜winter｜镇广场｜前置：core_dou_03, main_12_after, core_toma_04
+
+【白榆】 bai · 诊所医生
+语气：先说症状与安排，容易把私下关心说成公事；不随意诊断情绪，也能接受别人照顾。
+想要：让诊所的照顾是双方能说明白的事。
+盲点：以为关心只有写进值班表才不显得冒昧。
+实际出场：4场 / 独立支线与日常4场 / 本人对白1117汉字
+关系：严婆 · 对健康建议有分歧但彼此信任
+关系：陶陶 · 清淡口味争执与日常照顾
+  core_bai_01｜值班表上没有晚饭｜章≥0｜any｜诊所｜前置：无
+  core_bai_02｜请假不是请全镇原谅｜章≥2｜summer｜诊所后门｜前置：core_bai_01
+  core_bai_03｜淡汤里也能有味道｜章≥4｜autumn｜食堂试卖早餐处｜前置：core_bai_02
+  core_bai_04｜给医生留的一把椅子｜章≥12｜winter｜诊所后院｜前置：core_bai_03, main_12_after
+
+【寒枝】 han · 裁缝
+语气：说话利落，先谈布料与身体舒适度；担心亲人时变得挑剔，能承认自己在找借口。
+想要：让弟弟穿合身的衣服远行，也让自己愿意听他谈归程。
+盲点：把多准备一件衣服当成多留人一天的理由。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1616汉字
+关系：霜铃 · 通信与托寄衣物
+关系：露米 · 家具布料搭配伙伴
+  core_lumi_02｜照着做的第十四张｜章≥2｜summer｜家具作坊｜前置：core_lumi_01
+  core_yuki_02｜不是坏消息也会难读｜章≥2｜spring｜邮亭后间｜前置：core_yuki_01
+  core_yuki_04｜一声铃的距离｜章≥12｜autumn｜邮亭｜前置：core_yuki_03, main_12_after
+  core_han_01｜袖子长出来的一寸｜章≥0｜spring｜裁缝铺｜前置：无
+  core_han_02｜不是每个口袋都装得下担心｜章≥2｜summer｜裁缝铺｜前置：core_han_01
+  core_han_03｜门口少了一双鞋｜章≥4｜autumn｜裁缝铺｜前置：core_han_02
+  core_han_04｜远行衣也有第二次修改｜章≥12｜winter｜裁缝铺｜前置：core_han_03, main_12_after
+  core_spring_table_01｜三件不相干的失物｜章≥12｜spring｜月灯食堂｜前置：main_12_after, core_han_04, core_qiao_04, core_lumi_04
+  core_summer_laundry_01｜午后四点的那阵雨｜章≥12｜summer｜镇后公共晾场｜前置：main_12_after, core_han_04, core_aster_04, core_yuki_04, core_bei_04
+
+【舟生】 zhou · 船厂修船工与澪的堂弟
+语气：工单用语清楚，私下有一点逞强；被纠正会先嘴硬再复核，不把独立等同独自干完。
+想要：独立签下一张自己承担责任的修船工单。
+盲点：想摆脱堂姐照看，于是把合理的复核也当成不信任。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1323汉字
+关系：澪 · 既亲近又争取责任边界
+关系：余烬 · 小船合作与检修互审
+  core_ember_04｜船身上那道补痕｜章≥12｜summer｜码头船棚｜前置：core_ember_03, main_12_after
+  core_nagi_01｜潮表后面那一格｜章≥0｜spring｜码头｜前置：无
+  core_nagi_03｜开航日还没决定｜章≥4｜autumn｜码头公告棚｜前置：core_nagi_02
+  core_nagi_04｜这回写下回程｜章≥12｜summer｜启航后的码头｜前置：core_nagi_03, main_12_after, core_toma_04
+  core_zhou_01｜签名先占半张纸｜章≥0｜any｜船棚｜前置：无
+  core_zhou_02｜不是船主付的那枚钱｜章≥2｜summer｜船棚｜前置：core_zhou_01
+  core_zhou_03｜一个人签，三个人看｜章≥4｜autumn｜码头｜前置：core_zhou_02
+  core_zhou_04｜第二张工单比较小｜章≥12｜winter｜船棚｜前置：core_zhou_03, main_12_after
+  core_summer_shift_01｜阴影挪得比凳子快｜章≥12｜summer｜码头凉棚｜前置：main_12_after, core_nagi_04, core_zhou_04, core_yingluo_04, core_yan_04
+
+【杏枝】 xing · 早餐帮工与夜校学生
+语气：说话清楚有自己的判断，识字进度具体且允许慢；不以读错字取乐，不让别人替她决定学习意义。
+想要：能自己核对排班、菜单和报酬，并写下想写的话。
+盲点：怕麻烦别人，会把不确定的字默默绕开。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1493汉字
+关系：陶陶 · 早餐合作者，重新明确工作与学习边界
+关系：皮普 · 实测磨粉装袋流程
+  core_toma_03｜被退回来的两只碗｜章≥4｜autumn｜月灯食堂｜前置：core_toma_02
+  core_toma_04｜早餐摊第一天不够忙｜章≥12｜winter｜食堂前早餐摊｜前置：core_toma_03, main_12_after
+  core_pip_03｜两只布袋的差别｜章≥4｜autumn｜米铺｜前置：core_pip_02
+  core_bai_03｜淡汤里也能有味道｜章≥4｜autumn｜食堂试卖早餐处｜前置：core_bai_02
+  core_xing_01｜两种不同的记号｜章≥0｜spring｜月灯食堂｜前置：无
+  core_xing_02｜不需要当众念完｜章≥2｜summer｜食堂侧门｜前置：core_xing_01
+  core_xing_03｜一行自己核过的价钱｜章≥4｜autumn｜米铺｜前置：core_xing_02
+  core_xing_04｜不为别人写的那一页｜章≥12｜winter｜早餐摊｜前置：core_xing_03, main_12_after, core_toma_04
+  core_autumn_jars_01｜十五罐和两只不肯松口的盖｜章≥12｜autumn｜月灯食堂后院｜前置：main_12_after, core_toma_04, core_xing_04, core_pip_04, core_bei_04
+
+【严婆】 yan · 旧井管理员
+语气：字句短，较真但承认查实的错；关心常藏在留一只干净水桶或记一个时间里。
+想要：让井口秩序与水费都经得起核对。
+盲点：太相信自己记得，发现自己也漏缴时先拿规矩挡人。
+实际出场：11场 / 独立支线与日常4场 / 本人对白1650汉字
+关系：穗婶 · 互相监督收费
+关系：芦苇 · 从争井沿到共享水位资料
+  core_reed_03｜流水来了以后｜章≥4｜autumn｜湿地入口｜前置：core_reed_02
+  core_sui_01｜短了一两的秤砣｜章≥0｜any｜米铺｜前置：无
+  core_sui_04｜一张明码的谢礼｜章≥12｜winter｜米铺｜前置：core_sui_03, main_12_after
+  core_dou_01｜地图上不该有八个井｜章≥0｜spring｜镇广场｜前置：无
+  core_bai_02｜请假不是请全镇原谅｜章≥2｜summer｜诊所后门｜前置：core_bai_01
+  core_bai_04｜给医生留的一把椅子｜章≥12｜winter｜诊所后院｜前置：core_bai_03, main_12_after
+  core_yan_01｜井沿上的第三只桶｜章≥0｜summer｜旧井｜前置：无
+  core_yan_02｜旧回执没有丢｜章≥2｜autumn｜旧井管理棚｜前置：core_yan_01
+  core_yan_03｜牌子写给所有人｜章≥4｜winter｜旧井｜前置：core_yan_02
+  core_yan_04｜晚一点也有水｜章≥12｜spring｜旧井｜前置：core_yan_03, main_12_after
+  core_summer_shift_01｜阴影挪得比凳子快｜章≥12｜summer｜码头凉棚｜前置：main_12_after, core_nagi_04, core_zhou_04, core_yingluo_04, core_yan_04
+
+【北栗】 bei · 蜂农
+语气：产品说明直白，会让人尝但不夸保证；谈蜂像谈需要照料的工友，允许蜜不好卖。
+想要：弄清蜜源变化，卖出与标签相符的蜂蜜。
+盲点：怕诚实会丢订单，偶尔想用含糊的好名字遮过差异。
+实际出场：7场 / 独立支线与日常4场 / 本人对白1400汉字
+关系：茉莉 · 授粉与花期记录伙伴
+关系：芦苇 · 蜜源地调查协作
+  core_mori_03｜一排空花盆｜章≥3｜summer｜温室后棚｜前置：core_mori_02
+  core_bei_01｜今年不是去年的味道｜章≥0｜spring｜蜂场｜前置：无
+  core_bei_02｜空箱不能只晒太阳｜章≥2｜summer｜蜂场边坡｜前置：core_bei_01
+  core_bei_03｜少一勺不是少一点名声｜章≥4｜autumn｜月灯食堂厨房｜前置：core_bei_02
+  core_bei_04｜瓶子上的小字变大了｜章≥12｜spring｜蜂场小柜台｜前置：core_bei_03, main_12_after, core_mori_04
+  core_autumn_jars_01｜十五罐和两只不肯松口的盖｜章≥12｜autumn｜月灯食堂后院｜前置：main_12_after, core_toma_04, core_xing_04, core_pip_04, core_bei_04
+  core_summer_laundry_01｜午后四点的那阵雨｜章≥12｜summer｜镇后公共晾场｜前置：main_12_after, core_han_04, core_aster_04, core_yuki_04, core_bei_04
+
+【邵禾】 shao · 杂货店进货员
+语气：先说数目再说判断，生气时反而压低声音，愿意自嘲但不接受含糊账目。
+想要：独自签下一批可信的货
+盲点：把误差都看作自己的无能
+实际出场：10场 / 独立支线与日常4场 / 本人对白1387汉字
+关系：令夏 · 请她复核进货簿，起初误以为她在挑错
+关系：阮青 · 洗衣店常订整箱皂角，欠条写法引起争执
+关系：木棉 · 为澡堂采购，逐渐接受公开误差
+  interlude_half_soup｜半碗汤不等于半价｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  town_shao_01｜少了半袋的皂角｜章≥0｜any｜杂货店后院｜前置：无
+  town_shao_02｜秤盘底下的旧钉｜章≥0｜any｜杂货店后院｜前置：town_shao_01
+  town_shao_03｜谁签在下面｜章≥0｜any｜澡堂储物间｜前置：town_shao_02
+  town_shao_04｜准许差两分｜章≥12｜any｜月灯食堂后厨｜前置：town_shao_03, main_12_after
+  town_ling_01｜红笔放在谁手里｜章≥0｜any｜杂货店账桌｜前置：无
+  town_ling_02｜不是递一把刀｜章≥0｜any｜月灯食堂角桌｜前置：town_ling_01
+  town_ling_04｜第一页的名字｜章≥0｜any｜杂货店账桌｜前置：town_ling_03, town_mu_03
+  town_ruan_04｜灯宴后的围裙｜章≥12｜any｜月灯食堂清洗角｜前置：town_ruan_03, town_mu_03, main_12_after
+  town_mu_03｜别人替她烧的水｜章≥0｜any｜澡堂炉房｜前置：town_mu_02, town_shao_03
+
+【令夏】 ling · 账房学徒
+语气：说话常先加可能，熟悉数字时句子短而利落；愤怒会变成过分工整的措辞。
+想要：拥有署自己名字的账本
+盲点：把尊重师傅和不许纠错混在一起
+实际出场：11场 / 独立支线与日常4场 / 本人对白1638汉字
+关系：邵禾 · 一起核对货单，学会各自承担签名
+关系：木棉 · 受托算轮休日的成本
+关系：阮青 · 从洗衣簿里学到数字背后还有时间
+  interlude_unread_page｜档案里的空白行｜章≥10｜any｜月环观星台｜前置：main_10_after
+  town_shao_02｜秤盘底下的旧钉｜章≥0｜any｜杂货店后院｜前置：town_shao_01
+  town_shao_03｜谁签在下面｜章≥0｜any｜澡堂储物间｜前置：town_shao_02
+  town_shao_04｜准许差两分｜章≥12｜any｜月灯食堂后厨｜前置：town_shao_03, main_12_after
+  town_ling_01｜红笔放在谁手里｜章≥0｜any｜杂货店账桌｜前置：无
+  town_ling_02｜不是递一把刀｜章≥0｜any｜月灯食堂角桌｜前置：town_ling_01
+  town_ling_03｜轮休日不等于零｜章≥0｜any｜澡堂小账间｜前置：town_ling_02, town_mu_01
+  town_ling_04｜第一页的名字｜章≥0｜any｜杂货店账桌｜前置：town_ling_03, town_mu_03
+  town_ruan_02｜没写姓名的裙子｜章≥0｜any｜洗衣店柜台｜前置：town_ruan_01
+  town_ruan_03｜重新洗一次的价｜章≥0｜any｜洗衣店后房｜前置：town_ruan_02
+  town_mu_02｜第一位不满意的客人｜章≥0｜any｜澡堂门廊｜前置：town_mu_01, town_ling_03
+
+【阮青】 ruan · 洗衣店主
+语气：嘴快，爱反问；做活时话少，涉及流言先下结论，冷静后会补充具体事实。
+想要：守住生意也守住私人日子
+盲点：把邻居每句话都听成评价
+实际出场：11场 / 独立支线与日常4场 / 本人对白1787汉字
+关系：木棉 · 互相借热水，也会因闲话闹别扭
+关系：邵禾 · 对皂角欠条有分歧
+关系：令夏 · 借她的新账式记录返洗工时
+  town_shao_01｜少了半袋的皂角｜章≥0｜any｜杂货店后院｜前置：无
+  town_shao_04｜准许差两分｜章≥12｜any｜月灯食堂后厨｜前置：town_shao_03, main_12_after
+  town_ling_03｜轮休日不等于零｜章≥0｜any｜澡堂小账间｜前置：town_ling_02, town_mu_01
+  town_ruan_01｜袖口那圈白｜章≥0｜any｜洗衣店晾架下｜前置：无
+  town_ruan_02｜没写姓名的裙子｜章≥0｜any｜洗衣店柜台｜前置：town_ruan_01
+  town_ruan_03｜重新洗一次的价｜章≥0｜any｜洗衣店后房｜前置：town_ruan_02
+  town_ruan_04｜灯宴后的围裙｜章≥12｜any｜月灯食堂清洗角｜前置：town_ruan_03, town_mu_03, main_12_after
+  town_mu_01｜门上没有日期｜章≥0｜any｜澡堂炉房｜前置：无
+  town_mu_03｜别人替她烧的水｜章≥0｜any｜澡堂炉房｜前置：town_mu_02, town_shao_03
+  town_mu_04｜缺一只耳朵的杯｜章≥12｜any｜河边石阶｜前置：town_mu_03, main_12_after
+  town_feng_03｜桶还没有买来｜章≥0｜any｜月灯食堂侧巷｜前置：town_feng_02
+
+【木棉】 mu · 澡堂管理员
+语气：语气平平，偶尔一针见血；累时只回答字面问题，对自己的愿望说得比别人的小声。
+想要：有一个不必随叫随到的休息日
+盲点：觉得别人习惯了就不能改变
+实际出场：13场 / 独立支线与日常4场 / 本人对白1917汉字
+关系：阮青 · 长年的热水邻居，既亲近又互相嫌弃
+关系：令夏 · 请她核算休息日，发现无需证明疲惫值多少钱
+关系：邵禾 · 采购商，误差账让她也愿意留下自己的要求
+  interlude_rain_coats｜谁的外套先干｜章≥2｜any｜月灯食堂｜前置：main_02_after
+  town_shao_03｜谁签在下面｜章≥0｜any｜澡堂储物间｜前置：town_shao_02
+  town_ling_03｜轮休日不等于零｜章≥0｜any｜澡堂小账间｜前置：town_ling_02, town_mu_01
+  town_ling_04｜第一页的名字｜章≥0｜any｜杂货店账桌｜前置：town_ling_03, town_mu_03
+  town_ruan_01｜袖口那圈白｜章≥0｜any｜洗衣店晾架下｜前置：无
+  town_ruan_03｜重新洗一次的价｜章≥0｜any｜洗衣店后房｜前置：town_ruan_02
+  town_ruan_04｜灯宴后的围裙｜章≥12｜any｜月灯食堂清洗角｜前置：town_ruan_03, town_mu_03, main_12_after
+  town_mu_01｜门上没有日期｜章≥0｜any｜澡堂炉房｜前置：无
+  town_mu_02｜第一位不满意的客人｜章≥0｜any｜澡堂门廊｜前置：town_mu_01, town_ling_03
+  town_mu_03｜别人替她烧的水｜章≥0｜any｜澡堂炉房｜前置：town_mu_02, town_shao_03
+  town_mu_04｜缺一只耳朵的杯｜章≥12｜any｜河边石阶｜前置：town_mu_03, main_12_after
+  town_miao_03｜领唱不是单独一碟｜章≥0｜any｜月灯食堂长桌｜前置：town_miao_02, town_mei_03
+  town_lin_03｜晚上的敲门声｜章≥0｜any｜月灯食堂角桌｜前置：town_lin_02, town_an_01
+
+【陆砚】 lu · 小学教员
+语气：喜欢完整句和确切时间，急躁时会抢答；道歉时直接说做错了什么。
+想要：把学生教明白而不是压服
+盲点：以为备课足够就不会失去耐心
+实际出场：9场 / 独立支线与日常4场 / 本人对白1491汉字
+关系：糖梨 · 请糖画摊参与课堂，起初轻视她的经验
+关系：春砚 · 借书时熟练，说到自家坏习惯就含糊
+  town_lu_01｜擦不净的一道横｜章≥0｜any｜小学教室｜前置：无
+  town_lu_02｜老师也坐后排｜章≥0｜any｜小学教室｜前置：town_lu_01
+  town_lu_03｜备课本的空页｜章≥0｜any｜图书馆侧桌｜前置：town_lu_02
+  town_lu_04｜迟到的粉笔盒｜章≥0｜any｜小学走廊｜前置：town_lu_03
+  town_tang_02｜一只不卖的糖虾｜章≥0｜any｜月灯食堂门廊｜前置：town_tang_01
+  town_tang_04｜留给晚班的一份｜章≥0｜any｜月灯食堂门口｜前置：town_tang_03
+  town_chun_01｜已经过期的私人借阅｜章≥0｜any｜图书馆修补桌｜前置：无
+  town_chun_03｜一个合理的延期｜章≥0｜any｜图书馆柜台｜前置：town_chun_02
+  town_chun_04｜归还时有风｜章≥0｜any｜图书馆门廊｜前置：town_chun_03
+
+【糖梨】 tang · 成年糖画摊主
+语气：话里有工厂文书留下的归纳习惯，卖糖时利落，谈手艺时喜欢假装随便。
+想要：让糖画作为正经手艺被记住
+盲点：把成年人买糖的犹豫当成嫌弃
+实际出场：9场 / 独立支线与日常4场 / 本人对白1792汉字
+关系：陆砚 · 合作上课，对教员的失言不肯轻轻带过
+关系：春砚 · 制作图书馆展签，抵触被叫儿童趣味
+  town_lu_01｜擦不净的一道横｜章≥0｜any｜小学教室｜前置：无
+  town_lu_02｜老师也坐后排｜章≥0｜any｜小学教室｜前置：town_lu_01
+  town_lu_04｜迟到的粉笔盒｜章≥0｜any｜小学走廊｜前置：town_lu_03
+  town_tang_01｜儿童趣味四个字｜章≥0｜any｜糖画摊｜前置：无
+  town_tang_02｜一只不卖的糖虾｜章≥0｜any｜月灯食堂门廊｜前置：town_tang_01
+  town_tang_03｜厂里的直尺｜章≥0｜any｜图书馆工艺展桌｜前置：town_tang_02
+  town_tang_04｜留给晚班的一份｜章≥0｜any｜月灯食堂门口｜前置：town_tang_03
+  town_chun_02｜油印也有目录｜章≥0｜any｜图书馆修补桌｜前置：town_chun_01
+  town_chun_04｜归还时有风｜章≥0｜any｜图书馆门廊｜前置：town_chun_03
+
+【甄陶】 zhen · 陶器作坊主
+语气：每次只讲一件事，沉默不是默认；说器物时具体，说感受时会换成器物。
+想要：做出自己愿意署名的常用碗
+盲点：把不对称和不合格一概混同
+实际出场：9场 / 独立支线与日常4场 / 本人对白1429汉字
+关系：温芷 · 通过食物记录器皿的实际使用
+关系：石小满 · 向他请教平面与坡面的实用区别
+  interlude_weight｜少的那三克｜章≥6｜any｜月灯食堂备料台｜前置：main_05_after
+  town_zhen_01｜卖得最好的坏碗｜章≥0｜any｜陶器作坊｜前置：无
+  town_zhen_02｜三只里有两只漏｜章≥0｜any｜陶器作坊试水台｜前置：town_zhen_01
+  town_zhen_03｜正架多了一行｜章≥0｜any｜陶器作坊前厅｜前置：town_zhen_02
+  town_zhen_04｜一只回家的饭碗｜章≥0｜any｜月灯食堂后厨｜前置：town_zhen_03
+  town_wen_01｜照着写却不一样｜章≥0｜any｜月灯食堂小灶｜前置：无
+  town_wen_03｜不参加评分的晚饭｜章≥0｜any｜月灯食堂角桌｜前置：town_wen_02, town_zhen_03
+  town_wen_04｜食谱最后那张空纸｜章≥0｜any｜月芽农场餐桌｜前置：town_wen_03, town_zhen_03
+  town_shi_03｜新客人要的是小台面｜章≥0｜any｜月灯食堂后院｜前置：town_shi_02, town_he_02
+
+【梅舟】 mei · 驻镇戏班道具师
+语气：爱用道具名称定位一切，嘴上说不稀罕，准备比谁都细；窘时会挑别人的活。
+想要：在台上说一次完整台词
+盲点：以为得到角色便能洗去后台身份
+实际出场：10场 / 独立支线与日常4场 / 本人对白1763汉字
+关系：苗音 · 从借衣架开始互相训练舞台经验
+关系：朱砂 · 借印章修补道具上的旧字
+  town_mei_01｜一把不会倒的椅子｜章≥0｜any｜戏班后台｜前置：无
+  town_mei_02｜帽子比人先到｜章≥0｜any｜戏班排练台｜前置：town_mei_01
+  town_mei_03｜演完还得卸门｜章≥0｜any｜戏班后台｜前置：town_mei_02
+  town_mei_04｜卖油的人少了一句｜章≥0｜any｜戏班库房｜前置：town_mei_03, town_zhu_02
+  town_miao_01｜那颗没上去的音｜章≥0｜any｜合唱排练室｜前置：无
+  town_miao_02｜换到右边以后｜章≥0｜any｜合唱排练室｜前置：town_miao_01
+  town_miao_03｜领唱不是单独一碟｜章≥0｜any｜月灯食堂长桌｜前置：town_miao_02, town_mei_03
+  town_miao_04｜有人替她起了音｜章≥0｜any｜戏班侧台｜前置：town_miao_03, town_mei_04
+  town_zhu_02｜那张有折痕的纸｜章≥0｜any｜印章刻铺｜前置：town_zhu_01, town_an_03
+  town_zhu_04｜给别人看的印样｜章≥0｜any｜印章刻铺｜前置：town_zhu_03, town_an_04, town_mei_04
+
+【春砚】 chun · 图书管理员
+语气：公事有标准措辞，心虚时列举不相干的分类；喜欢冷笑话但不解释。
+想要：让借阅规则可以由所有人遵守
+盲点：对自己破例却把他人延期看成怠慢
+实际出场：8场 / 独立支线与日常4场 / 本人对白1637汉字
+关系：陆砚 · 常借教育书，也帮她面对损坏书页
+关系：糖梨 · 一起做材料与工艺小展
+  town_lu_03｜备课本的空页｜章≥0｜any｜图书馆侧桌｜前置：town_lu_02
+  town_tang_01｜儿童趣味四个字｜章≥0｜any｜糖画摊｜前置：无
+  town_tang_03｜厂里的直尺｜章≥0｜any｜图书馆工艺展桌｜前置：town_tang_02
+  town_tang_04｜留给晚班的一份｜章≥0｜any｜月灯食堂门口｜前置：town_tang_03
+  town_chun_01｜已经过期的私人借阅｜章≥0｜any｜图书馆修补桌｜前置：无
+  town_chun_02｜油印也有目录｜章≥0｜any｜图书馆修补桌｜前置：town_chun_01
+  town_chun_03｜一个合理的延期｜章≥0｜any｜图书馆柜台｜前置：town_chun_02
+  town_chun_04｜归还时有风｜章≥0｜any｜图书馆门廊｜前置：town_chun_03
+
+【余桥】 yu · 旧桥收费亭退休员
+语气：习惯报告来往数量，爱说以前；新工作上笨拙得坦然，偶尔固执地占着旧亭。
+想要：在免费桥边找到被需要的位置
+盲点：把收费权当成别人尊重他的来源
+实际出场：10场 / 独立支线与日常4场 / 本人对白1477汉字
+关系：贺雨 · 一起看雨水，起先意见相左
+关系：石小满 · 支持修石桥但必须学会不替人答应义工
+  town_yu_01｜免费以后那只铁盒｜章≥0｜any｜旧桥收费亭｜前置：无
+  town_yu_02｜亭里的新东西｜章≥0｜any｜旧桥东口｜前置：town_yu_01, town_he_01, town_shi_01
+  town_yu_03｜不收费也能说不｜章≥0｜any｜旧桥收费亭｜前置：town_yu_02, town_shi_02
+  town_yu_04｜亭子也要下班｜章≥0｜any｜旧桥收费亭｜前置：town_yu_03, town_shi_02
+  town_he_01｜一整天都在滴｜章≥0｜any｜屋顶修缮棚｜前置：无
+  town_he_02｜第一把先赔回来｜章≥0｜any｜旧桥亭旁｜前置：town_he_01
+  town_he_04｜雨天收到的一张单｜章≥0｜any｜屋顶修缮棚｜前置：town_he_03
+  town_shi_01｜免费桥和免费工｜章≥0｜any｜旧桥石阶｜前置：无
+  town_shi_02｜旧石头不能全留下｜章≥0｜any｜旧桥桥脚｜前置：town_shi_01, town_yu_02
+  town_shi_04｜石工的休息凳｜章≥0｜any｜旧桥旁石凳｜前置：town_shi_03, town_yu_04, town_he_04
+
+【顾芽】 gu · 种苗检验员
+语气：先报观察后给结论，遮掩失败时术语变多；熟人面前会露出没耐心。
+想要：拿出经得住复种的试验记录
+盲点：害怕一次失败抹掉所有专业信用
+实际出场：8场 / 独立支线与日常4场 / 本人对白1355汉字
+关系：秦牧 · 借牧场空地做试验，必须说明种苗风险
+关系：温芷 · 讨论食用品种时坚持记录但也接受口味
+  town_wen_02｜母亲说的少许｜章≥0｜any｜月灯食堂备料台｜前置：town_wen_01
+  town_gu_01｜蓝布下面那块地｜章≥0｜any｜牧场试验角｜前置：无
+  town_gu_02｜原因还没有名字｜章≥0｜any｜种苗检验棚｜前置：town_gu_01
+  town_gu_03｜不能发出去的苗｜章≥0｜any｜月芽农场苗棚｜前置：town_gu_02
+  town_gu_04｜补上的不是空地｜章≥0｜any｜牧场试验角｜前置：town_gu_03, town_qin_02
+  town_qin_02｜羊啃过的那一排｜章≥0｜any｜月芽农场外栏｜前置：town_qin_01, town_gu_02
+  town_qin_03｜桌子下面没有羊｜章≥0｜any｜月灯食堂长桌｜前置：town_qin_02, town_gu_04
+  town_qin_04｜写在袋口的人名｜章≥0｜any｜牧棚门口｜前置：town_qin_03
+
+【秦牧】 qin · 牧羊人
+语气：句子短，沉默有明确对象，谈羊时能突然说很长；不懂客套就按字面回答。
+想要：有被人记得的名字而不只是羊的主人
+盲点：把不擅寒暄当成不需要邻居
+实际出场：11场 / 独立支线与日常4场 / 本人对白1574汉字
+关系：顾芽 · 租出牧场一角，要求她把坏消息也讲明白
+关系：枫桥 · 羊认得他的扫帚声，两人先从赔苗钱熟悉
+  town_gu_01｜蓝布下面那块地｜章≥0｜any｜牧场试验角｜前置：无
+  town_gu_02｜原因还没有名字｜章≥0｜any｜种苗检验棚｜前置：town_gu_01
+  town_gu_03｜不能发出去的苗｜章≥0｜any｜月芽农场苗棚｜前置：town_gu_02
+  town_gu_04｜补上的不是空地｜章≥0｜any｜牧场试验角｜前置：town_gu_03, town_qin_02
+  town_qin_01｜认识桶，不认识人｜章≥0｜any｜洗衣店后巷｜前置：无
+  town_qin_02｜羊啃过的那一排｜章≥0｜any｜月芽农场外栏｜前置：town_qin_01, town_gu_02
+  town_qin_03｜桌子下面没有羊｜章≥0｜any｜月灯食堂长桌｜前置：town_qin_02, town_gu_04
+  town_qin_04｜写在袋口的人名｜章≥0｜any｜牧棚门口｜前置：town_qin_03
+  town_feng_02｜没人认领的三枚钱｜章≥0｜any｜客栈后巷｜前置：town_feng_01, town_lin_02
+  town_feng_03｜桶还没有买来｜章≥0｜any｜月灯食堂侧巷｜前置：town_feng_02
+  town_feng_04｜不合手的新扫帚｜章≥0｜any｜街巷工具间｜前置：town_feng_03
+
+【贺雨】 he · 屋顶修缮工
+语气：报价直接，讲漏水会模仿声音；试卖伞时生硬地学广告腔，熟悉后恢复本色。
+想要：雨天也有稳定收入
+盲点：以为改行必须否认原来的手艺
+实际出场：11场 / 独立支线与日常4场 / 本人对白1587汉字
+关系：余桥 · 共同查看旧桥积水，嫌他把义工算作理所当然
+关系：石小满 · 互相转介生意，也为工钱起过冲突
+  town_yu_01｜免费以后那只铁盒｜章≥0｜any｜旧桥收费亭｜前置：无
+  town_yu_02｜亭里的新东西｜章≥0｜any｜旧桥东口｜前置：town_yu_01, town_he_01, town_shi_01
+  town_yu_03｜不收费也能说不｜章≥0｜any｜旧桥收费亭｜前置：town_yu_02, town_shi_02
+  town_yu_04｜亭子也要下班｜章≥0｜any｜旧桥收费亭｜前置：town_yu_03, town_shi_02
+  town_he_01｜一整天都在滴｜章≥0｜any｜屋顶修缮棚｜前置：无
+  town_he_02｜第一把先赔回来｜章≥0｜any｜旧桥亭旁｜前置：town_he_01
+  town_he_03｜两门手艺两张单｜章≥0｜any｜月芽农场檐下｜前置：town_he_02
+  town_he_04｜雨天收到的一张单｜章≥0｜any｜屋顶修缮棚｜前置：town_he_03
+  town_shi_02｜旧石头不能全留下｜章≥0｜any｜旧桥桥脚｜前置：town_shi_01, town_yu_02
+  town_shi_03｜新客人要的是小台面｜章≥0｜any｜月灯食堂后院｜前置：town_shi_02, town_he_02
+  town_shi_04｜石工的休息凳｜章≥0｜any｜旧桥旁石凳｜前置：town_shi_03, town_yu_04, town_he_04
+
+【温芷】 wen · 料理记录员
+语气：常追问多少与多久，记录之外的话会慢半拍；逐渐学会把偏好当成有效信息。
+想要：写出家人真会照着煮的食谱
+盲点：把精确重量当成唯一可复现条件
+实际出场：11场 / 独立支线与日常4场 / 本人对白2077汉字
+关系：甄陶 · 试不同碗盛同一份汤
+关系：顾芽 · 记录种苗品尝结果，提醒她记失败批次
+  interlude_weight｜少的那三克｜章≥6｜any｜月灯食堂备料台｜前置：main_05_after
+  town_zhen_01｜卖得最好的坏碗｜章≥0｜any｜陶器作坊｜前置：无
+  town_zhen_02｜三只里有两只漏｜章≥0｜any｜陶器作坊试水台｜前置：town_zhen_01
+  town_zhen_03｜正架多了一行｜章≥0｜any｜陶器作坊前厅｜前置：town_zhen_02
+  town_zhen_04｜一只回家的饭碗｜章≥0｜any｜月灯食堂后厨｜前置：town_zhen_03
+  town_wen_01｜照着写却不一样｜章≥0｜any｜月灯食堂小灶｜前置：无
+  town_wen_02｜母亲说的少许｜章≥0｜any｜月灯食堂备料台｜前置：town_wen_01
+  town_wen_03｜不参加评分的晚饭｜章≥0｜any｜月灯食堂角桌｜前置：town_wen_02, town_zhen_03
+  town_wen_04｜食谱最后那张空纸｜章≥0｜any｜月芽农场餐桌｜前置：town_wen_03, town_zhen_03
+  town_gu_02｜原因还没有名字｜章≥0｜any｜种苗检验棚｜前置：town_gu_01
+  town_gu_04｜补上的不是空地｜章≥0｜any｜牧场试验角｜前置：town_gu_03, town_qin_02
+
+【林晓】 lin · 成年客栈新人
+语气：接待语很熟，私人语气会卡壳；界限变清楚后依然礼貌但减少无谓道歉。
+想要：成为可靠的客栈员工并保住自己的晚上
+盲点：把住客所有愿望都算作职责
+实际出场：9场 / 独立支线与日常4场 / 本人对白1822汉字
+关系：枫桥 · 误解他的沉默，后来信任其保密分寸
+关系：木棉 · 借她休息日经验写值班交接
+  town_lin_01｜一张越加越长的纸｜章≥0｜any｜客栈柜台｜前置：无
+  town_lin_02｜不是每个信封都要打开｜章≥0｜any｜客栈后廊｜前置：town_lin_01
+  town_lin_03｜晚上的敲门声｜章≥0｜any｜月灯食堂角桌｜前置：town_lin_02, town_an_01
+  town_lin_04｜客人只要一条被子｜章≥0｜any｜客栈布草间｜前置：town_lin_03, town_an_02
+  town_feng_01｜扫帚捡到的东西｜章≥0｜any｜街巷工具间｜前置：无
+  town_feng_02｜没人认领的三枚钱｜章≥0｜any｜客栈后巷｜前置：town_feng_01, town_lin_02
+  town_feng_04｜不合手的新扫帚｜章≥0｜any｜街巷工具间｜前置：town_feng_03
+  town_an_02｜客栈钟并不负责叫醒｜章≥0｜any｜客栈大厅｜前置：town_an_01, town_lin_03
+  town_an_04｜店门关了半个时辰｜章≥0｜any｜钟表铺门前｜前置：town_an_03, town_lin_04, town_zhu_03
+
+【安棠】 an · 钟表修理师
+语气：时间精确到刻，习惯打断模糊描述；不谈心时其实肯分享食物。
+想要：修好被人真正用着的钟
+盲点：认为自己的身体也应服从排好的时刻
+实际出场：9场 / 独立支线与日常4场 / 本人对白1416汉字
+关系：朱砂 · 为纪念钟配字，两人争论错误如何保留
+关系：林晓 · 修客栈钟时学会明确预约范围
+  town_lin_03｜晚上的敲门声｜章≥0｜any｜月灯食堂角桌｜前置：town_lin_02, town_an_01
+  town_lin_04｜客人只要一条被子｜章≥0｜any｜客栈布草间｜前置：town_lin_03, town_an_02
+  town_an_01｜过了饭点的准确钟｜章≥0｜any｜钟表铺｜前置：无
+  town_an_02｜客栈钟并不负责叫醒｜章≥0｜any｜客栈大厅｜前置：town_an_01, town_lin_03
+  town_an_03｜不能修回去的一道痕｜章≥0｜any｜钟表铺｜前置：town_an_02, town_zhu_01
+  town_an_04｜店门关了半个时辰｜章≥0｜any｜钟表铺门前｜前置：town_an_03, town_lin_04, town_zhu_03
+  town_zhu_01｜母亲少了一笔｜章≥0｜any｜印章刻铺｜前置：无
+  town_zhu_03｜不是一枚全新的章｜章≥0｜any｜印章刻铺｜前置：town_zhu_02
+  town_zhu_04｜给别人看的印样｜章≥0｜any｜印章刻铺｜前置：town_zhu_03, town_an_04, town_mei_04
+
+【枫桥】 feng · 街巷清扫员
+语气：只描述看见的部分，爱用街名回答去向；幽默简短，不替别人解释隐私。
+想要：自己的劳动也被当作一份职业
+盲点：太擅长沉默，以至于需求也不说
+实际出场：10场 / 独立支线与日常4场 / 本人对白1485汉字
+关系：林晓 · 帮她处理遗落信封，建立边界
+关系：秦牧 · 熟悉羊群路径，与牧羊人谈过赔偿
+  town_qin_01｜认识桶，不认识人｜章≥0｜any｜洗衣店后巷｜前置：无
+  town_qin_03｜桌子下面没有羊｜章≥0｜any｜月灯食堂长桌｜前置：town_qin_02, town_gu_04
+  town_qin_04｜写在袋口的人名｜章≥0｜any｜牧棚门口｜前置：town_qin_03
+  town_lin_01｜一张越加越长的纸｜章≥0｜any｜客栈柜台｜前置：无
+  town_lin_02｜不是每个信封都要打开｜章≥0｜any｜客栈后廊｜前置：town_lin_01
+  town_lin_04｜客人只要一条被子｜章≥0｜any｜客栈布草间｜前置：town_lin_03, town_an_02
+  town_feng_01｜扫帚捡到的东西｜章≥0｜any｜街巷工具间｜前置：无
+  town_feng_02｜没人认领的三枚钱｜章≥0｜any｜客栈后巷｜前置：town_feng_01, town_lin_02
+  town_feng_03｜桶还没有买来｜章≥0｜any｜月灯食堂侧巷｜前置：town_feng_02
+  town_feng_04｜不合手的新扫帚｜章≥0｜any｜街巷工具间｜前置：town_feng_03
+
+【朱砂】 zhu · 印章刻工
+语气：讲笔画细，讲家事粗略；烦躁时数刀，愿意承认看错却不喜欢被安慰。
+想要：重新刻好母亲的名字
+盲点：把更正当成必须销毁过去
+实际出场：8场 / 独立支线与日常4场 / 本人对白1587汉字
+关系：安棠 · 修纪念钟与刻牌时互相校对
+关系：梅舟 · 给戏班旧道具刻可辨的新字
+  town_mei_04｜卖油的人少了一句｜章≥0｜any｜戏班库房｜前置：town_mei_03, town_zhu_02
+  town_an_01｜过了饭点的准确钟｜章≥0｜any｜钟表铺｜前置：无
+  town_an_03｜不能修回去的一道痕｜章≥0｜any｜钟表铺｜前置：town_an_02, town_zhu_01
+  town_an_04｜店门关了半个时辰｜章≥0｜any｜钟表铺门前｜前置：town_an_03, town_lin_04, town_zhu_03
+  town_zhu_01｜母亲少了一笔｜章≥0｜any｜印章刻铺｜前置：无
+  town_zhu_02｜那张有折痕的纸｜章≥0｜any｜印章刻铺｜前置：town_zhu_01, town_an_03
+  town_zhu_03｜不是一枚全新的章｜章≥0｜any｜印章刻铺｜前置：town_zhu_02
+  town_zhu_04｜给别人看的印样｜章≥0｜any｜印章刻铺｜前置：town_zhu_03, town_an_04, town_mei_04
+
+【苗音】 miao · 合唱团领唱
+语气：习惯替人起音，说话能高能低；声变后先用玩笑挡住失落，逐渐学会分声部。
+想要：继续唱歌同时保住身体
+盲点：以为领唱只允许一个位置与一种声音
+实际出场：8场 / 独立支线与日常4场 / 本人对白1415汉字
+关系：梅舟 · 让道具师站到台上，也接受后台视角
+关系：木棉 · 澡堂中听见不同的回音但不拿它当疗方
+  town_mei_01｜一把不会倒的椅子｜章≥0｜any｜戏班后台｜前置：无
+  town_mei_02｜帽子比人先到｜章≥0｜any｜戏班排练台｜前置：town_mei_01
+  town_mei_03｜演完还得卸门｜章≥0｜any｜戏班后台｜前置：town_mei_02
+  town_mei_04｜卖油的人少了一句｜章≥0｜any｜戏班库房｜前置：town_mei_03, town_zhu_02
+  town_miao_01｜那颗没上去的音｜章≥0｜any｜合唱排练室｜前置：无
+  town_miao_02｜换到右边以后｜章≥0｜any｜合唱排练室｜前置：town_miao_01
+  town_miao_03｜领唱不是单独一碟｜章≥0｜any｜月灯食堂长桌｜前置：town_miao_02, town_mei_03
+  town_miao_04｜有人替她起了音｜章≥0｜any｜戏班侧台｜前置：town_miao_03, town_mei_04
+
+【石小满】 shi · 成年石工
+语气：按面与寸说话，报价前看现场；怕失业时答应得太快，事后会生硬地补条件。
+想要：靠石工手艺赚稳定工钱
+盲点：把拒绝低价看作放弃小镇
+实际出场：10场 / 独立支线与日常4场 / 本人对白1748汉字
+关系：余桥 · 修桥时要求免费通行不等于免费劳动
+关系：贺雨 · 共同承包排水，互相划清工种
+  town_zhen_03｜正架多了一行｜章≥0｜any｜陶器作坊前厅｜前置：town_zhen_02
+  town_yu_02｜亭里的新东西｜章≥0｜any｜旧桥东口｜前置：town_yu_01, town_he_01, town_shi_01
+  town_yu_04｜亭子也要下班｜章≥0｜any｜旧桥收费亭｜前置：town_yu_03, town_shi_02
+  town_he_02｜第一把先赔回来｜章≥0｜any｜旧桥亭旁｜前置：town_he_01
+  town_he_03｜两门手艺两张单｜章≥0｜any｜月芽农场檐下｜前置：town_he_02
+  town_he_04｜雨天收到的一张单｜章≥0｜any｜屋顶修缮棚｜前置：town_he_03
+  town_shi_01｜免费桥和免费工｜章≥0｜any｜旧桥石阶｜前置：无
+  town_shi_02｜旧石头不能全留下｜章≥0｜any｜旧桥桥脚｜前置：town_shi_01, town_yu_02
+  town_shi_03｜新客人要的是小台面｜章≥0｜any｜月灯食堂后院｜前置：town_shi_02, town_he_02
+  town_shi_04｜石工的休息凳｜章≥0｜any｜旧桥旁石凳｜前置：town_shi_03, town_yu_04, town_he_04
+
+【洛桑】 luo · 山间货车司机
+语气：用机械坏脾气掩饰花费，正事报实际重量。
+想要：建立不靠欠情的运输合伙。
+盲点：把能撑一趟当成节省。
+实际出场：10场 / 独立支线与日常5场 / 本人对白1192汉字
+关系：芙蓉 · 与芙蓉以分趟运输、仓租和明确合同合伙，不再靠展示劳累获得运费。
+  valley_luo_01｜坏脾气的第三挡｜章≥0｜spring｜山口茶棚外｜前置：无
+  valley_luo_02｜不载人的空座｜章≥0｜summer｜货车停场｜前置：valley_luo_01
+  valley_luo_03｜南瓜和一段退路｜章≥8｜autumn｜山道转弯处｜前置：valley_luo_02
+  valley_luo_04｜两把钥匙｜章≥8｜winter｜山口茶棚后房｜前置：valley_luo_03
+  valley_luo_05｜宴席后的一车碗｜章≥12｜any｜月灯食堂外｜前置：valley_luo_04, main_12_after
+  valley_fu_01｜茶棚开门以前｜章≥0｜spring｜山口茶棚｜前置：无
+  valley_fu_02｜收下的一篮橘子｜章≥0｜summer｜茶棚厨房｜前置：valley_fu_01
+  valley_fu_04｜一整上午｜章≥0｜winter｜茶棚后房｜前置：valley_fu_03
+  valley_fu_05｜菜单背面的空格｜章≥12｜any｜山口茶棚｜前置：valley_fu_04, main_12_after
+  valley_jiang_04｜冬天的空车位｜章≥0｜winter｜山口货车停场｜前置：valley_jiang_03
+
+【芙蓉】 fu · 山口茶棚老板
+语气：困时短句，账目细，说感谢不用客套承诺。
+想要：有固定的休息上午。
+盲点：会连合理互助也推开。
+实际出场：13场 / 独立支线与日常5场 / 本人对白2214汉字
+关系：洛桑 · 与洛桑互相计较成本，也约定茶棚休息时不由货车司机擅自开门营业。
+  interlude_rain_coats｜谁的外套先干｜章≥2｜any｜月灯食堂｜前置：main_02_after
+  valley_luo_01｜坏脾气的第三挡｜章≥0｜spring｜山口茶棚外｜前置：无
+  valley_luo_02｜不载人的空座｜章≥0｜summer｜货车停场｜前置：valley_luo_01
+  valley_luo_03｜南瓜和一段退路｜章≥8｜autumn｜山道转弯处｜前置：valley_luo_02
+  valley_luo_04｜两把钥匙｜章≥8｜winter｜山口茶棚后房｜前置：valley_luo_03
+  valley_luo_05｜宴席后的一车碗｜章≥12｜any｜月灯食堂外｜前置：valley_luo_04, main_12_after
+  valley_fu_01｜茶棚开门以前｜章≥0｜spring｜山口茶棚｜前置：无
+  valley_fu_02｜收下的一篮橘子｜章≥0｜summer｜茶棚厨房｜前置：valley_fu_01
+  valley_fu_03｜桌子不是借出去的｜章≥0｜autumn｜茶棚前檐｜前置：valley_fu_02
+  valley_fu_04｜一整上午｜章≥0｜winter｜茶棚后房｜前置：valley_fu_03
+  valley_fu_05｜菜单背面的空格｜章≥12｜any｜山口茶棚｜前置：valley_fu_04, main_12_after
+  valley_jiang_02｜诚实涨价｜章≥0｜summer｜山口茶棚旁｜前置：valley_jiang_01
+  valley_song_03｜姐姐没等到的礼物｜章≥8｜autumn｜山口茶棚长凳｜前置：valley_song_02
+
+【陈漪】 chen · 湿地测水员
+语气：报日期位置，认错逐项更正。
+想要：留下可被质疑和使用的水源记录。
+盲点：以为数字正确解释就充分。
+实际出场：11场 / 独立支线与日常5场 / 本人对白1447汉字
+关系：墨池 · 起初公告影响墨池卖鱼；接受他的在地观察，同时区分实测与居民记录。
+  valley_fu_03｜桌子不是借出去的｜章≥0｜autumn｜茶棚前檐｜前置：valley_fu_02
+  valley_chen_01｜贴错位置的红纸｜章≥4｜spring｜湿地旧渡口｜前置：无
+  valley_chen_02｜涨水以前的刻度｜章≥4｜summer｜湿地水尺旁｜前置：valley_chen_01
+  valley_chen_03｜有鱼的空白日｜章≥4｜autumn｜湿地测水小屋｜前置：valley_chen_02
+  valley_chen_04｜这口井不属于表格｜章≥4｜winter｜湿地边居民井台｜前置：valley_chen_03
+  valley_chen_05｜当日河水｜章≥12｜any｜月灯食堂门廊｜前置：valley_chen_04, main_12_after
+  valley_mo_01｜太快的那一卷线｜章≥0｜spring｜码头补网摊｜前置：无
+  valley_mo_02｜补洞以外的工钱｜章≥4｜summer｜湿地旧渡口｜前置：valley_mo_01
+  valley_mo_03｜不收徒的下午｜章≥4｜autumn｜补网摊后院｜前置：valley_mo_02
+  valley_mo_04｜名字留在修过的地方｜章≥4｜winter｜补网屋｜前置：valley_mo_03
+  valley_mo_05｜没有网的一顿饭｜章≥12｜any｜月灯食堂｜前置：valley_mo_04, main_12_after
+
+【墨池】 mo · 渔网修补人
+语气：手艺词具体，不爱被称匠心。
+想要：获得稳定报酬。
+盲点：把机器都当成否定。
+实际出场：10场 / 独立支线与日常5场 / 本人对白1912汉字
+关系：陈漪 · 陈漪购买机器网做试验，与墨池约定改边绳的实际用途和付费，仍会争水尺位置。
+  valley_chen_01｜贴错位置的红纸｜章≥4｜spring｜湿地旧渡口｜前置：无
+  valley_chen_02｜涨水以前的刻度｜章≥4｜summer｜湿地水尺旁｜前置：valley_chen_01
+  valley_chen_03｜有鱼的空白日｜章≥4｜autumn｜湿地测水小屋｜前置：valley_chen_02
+  valley_chen_04｜这口井不属于表格｜章≥4｜winter｜湿地边居民井台｜前置：valley_chen_03
+  valley_chen_05｜当日河水｜章≥12｜any｜月灯食堂门廊｜前置：valley_chen_04, main_12_after
+  valley_mo_01｜太快的那一卷线｜章≥0｜spring｜码头补网摊｜前置：无
+  valley_mo_02｜补洞以外的工钱｜章≥4｜summer｜湿地旧渡口｜前置：valley_mo_01
+  valley_mo_03｜不收徒的下午｜章≥4｜autumn｜补网摊后院｜前置：valley_mo_02
+  valley_mo_04｜名字留在修过的地方｜章≥4｜winter｜补网屋｜前置：valley_mo_03
+  valley_mo_05｜没有网的一顿饭｜章≥12｜any｜月灯食堂｜前置：valley_mo_04, main_12_after
+
+【姜禾】 jiang · 流动药草商
+语气：讲疗效先讲不能治什么，讲价嘴利。
+想要：诚实也能挣钱。
+盲点：羞于承认需要利润。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1462汉字
+关系：胡岑 · 识破胡岑隐瞒腿痛，不替他诊断或夸大药草作用；巡山员也尊重她自己谈退货。
+  valley_jiang_01｜不能写的三个字｜章≥0｜spring｜山口药草摊｜前置：无
+  valley_jiang_02｜诚实涨价｜章≥0｜summer｜山口茶棚旁｜前置：valley_jiang_01
+  valley_jiang_03｜一张退货单｜章≥0｜autumn｜山口临时摊位｜前置：valley_jiang_02
+  valley_jiang_04｜冬天的空车位｜章≥0｜winter｜山口货车停场｜前置：valley_jiang_03
+  valley_hu_02｜谁在最后一班｜章≥8｜summer｜巡山屋廊下｜前置：valley_hu_01
+  valley_hu_04｜轮到别人认出脚印｜章≥8｜winter｜巡山屋｜前置：valley_hu_03
+  valley_song_02｜不算药的草｜章≥8｜summer｜姜禾药草摊｜前置：valley_song_01
+  valley_song_04｜回信里的瓜子壳｜章≥8｜winter｜山间住屋｜前置：valley_song_03
+
+【胡岑】 hu · 巡山员
+语气：方向距离准确，身体状况含糊。
+想要：建立巡山轮班。
+盲点：将求助当成年老判词。
+实际出场：8场 / 独立支线与日常4场 / 本人对白904汉字
+关系：松果 · 松果会指出他缩减路线遗漏的居民；胡岑不把孩子当免费巡山帮手。
+  valley_jiang_01｜不能写的三个字｜章≥0｜spring｜山口药草摊｜前置：无
+  valley_jiang_03｜一张退货单｜章≥0｜autumn｜山口临时摊位｜前置：valley_jiang_02
+  valley_jiang_04｜冬天的空车位｜章≥0｜winter｜山口货车停场｜前置：valley_jiang_03
+  valley_hu_01｜短了一截的巡路｜章≥8｜spring｜山间巡山屋｜前置：无
+  valley_hu_02｜谁在最后一班｜章≥8｜summer｜巡山屋廊下｜前置：valley_hu_01
+  valley_hu_03｜一只空饭盒｜章≥8｜autumn｜山道休息棚｜前置：valley_hu_02
+  valley_hu_04｜轮到别人认出脚印｜章≥8｜winter｜巡山屋｜前置：valley_hu_03
+  valley_song_01｜石头的价钱｜章≥8｜spring｜山间住屋前｜前置：无
+
+【松果】 song · 十二岁山民孩子
+语气：想到就说，谈姐姐偷偷改口。
+想要：做一件姐姐用得上的礼物。
+盲点：觉得罕见才贵重。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1152汉字
+关系：姜禾 · 姜禾不收误认的药草，按折纸袋的劳动付钱，帮助他分清礼物与夸大的付出。
+  interlude_wrong_map｜地图上那个大圆｜章≥4｜any｜小镇树荫下｜前置：main_03_after
+  valley_hu_01｜短了一截的巡路｜章≥8｜spring｜山间巡山屋｜前置：无
+  valley_hu_03｜一只空饭盒｜章≥8｜autumn｜山道休息棚｜前置：valley_hu_02
+  valley_hu_04｜轮到别人认出脚印｜章≥8｜winter｜巡山屋｜前置：valley_hu_03
+  valley_song_01｜石头的价钱｜章≥8｜spring｜山间住屋前｜前置：无
+  valley_song_02｜不算药的草｜章≥8｜summer｜姜禾药草摊｜前置：valley_song_01
+  valley_song_03｜姐姐没等到的礼物｜章≥8｜autumn｜山口茶棚长凳｜前置：valley_song_02
+  valley_song_04｜回信里的瓜子壳｜章≥8｜winter｜山间住屋｜前置：valley_song_03
+
+【鸟笛】 niao · 成年候鸟记录员
+语气：鸟名准确，谈漏记先绕两句。
+想要：留下含局限的可靠记录。
+盲点：怕遗漏损害一切。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1353汉字
+关系：鹿野 · 与鹿野互相核对记录缺口和地图权限，公开图不把借用土地变成公共通路。
+  valley_niao_01｜少了十一只的那一页｜章≥4｜spring｜湿地观鸟棚｜前置：无
+  valley_niao_02｜借来的名字｜章≥4｜summer｜湿地记录小屋｜前置：valley_niao_01
+  valley_niao_03｜观鸟也要付地租｜章≥4｜autumn｜收割后的浅田｜前置：valley_niao_02
+  valley_niao_04｜鸟没有按册过冬｜章≥4｜winter｜湿地观鸟棚｜前置：valley_niao_03
+  valley_luye_01｜最短的不是那一条｜章≥4｜spring｜湿地小桥｜前置：无
+  valley_luye_02｜树荫算不算距离｜章≥8｜summer｜山道岔口｜前置：valley_luye_01
+  valley_luye_03｜不画进去的门｜章≥8｜autumn｜镇边测绘桌｜前置：valley_luye_02
+  valley_luye_04｜地图背面的饭店｜章≥8｜winter｜月灯食堂｜前置：valley_luye_03
+
+【夏满】 xia · 季节旅居画师
+语气：爱谈构图价钱，拒绝悲情想象。
+想要：画出能被认领的肖像。
+盲点：把画不好当审美。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1219汉字
+关系：秋水 · 向秋水付模特费，按约定用途画衣样，拒绝将她返乡编成悲情推销。
+  interlude_rest_day｜宴会后的空椅子｜章≥12｜any｜小镇树荫下｜前置：main_12_after
+  valley_xia_01｜画里的人看不见脸｜章≥0｜spring｜山口临时画摊｜前置：无
+  valley_xia_02｜不画成故事的人｜章≥0｜summer｜月灯食堂窗边｜前置：valley_xia_01
+  valley_xia_03｜雨里没卖掉的山｜章≥0｜autumn｜山口画摊｜前置：valley_xia_02
+  valley_xia_04｜留下一张没完成的椅子｜章≥0｜winter｜旅居画师租屋｜前置：valley_xia_03
+  valley_qiu_01｜不合身的旧袖口｜章≥0｜spring｜秋水旧家｜前置：无
+  valley_qiu_02｜家乡的低价｜章≥0｜summer｜月灯食堂侧间｜前置：valley_qiu_01
+  valley_qiu_03｜回来也会错过｜章≥0｜autumn｜山口车站｜前置：valley_qiu_02
+  valley_qiu_04｜两地都不是退路｜章≥0｜winter｜秋水旧家｜前置：valley_qiu_03
+
+【赵汐】 zhao · 码头货票员
+语气：数字越乱语速越快，计较半勺糖。
+想要：分清工作和婚后责任。
+盲点：把复核当能力否定。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1334汉字
+关系：闻潮 · 与配偶闻潮从错票争执走到明确家务、工作材料和小额自由支出的试行规则。
+  interlude_dock_meal｜船上的饭在岸上吃｜章≥8｜any｜码头｜前置：main_08_after
+  valley_zhao_01｜多出来的零｜章≥0｜spring｜码头货票间｜前置：无
+  valley_zhao_02｜复核不等于代做｜章≥0｜summer｜码头货票间｜前置：valley_zhao_01
+  valley_zhao_03｜谁写在家用那一栏｜章≥0｜autumn｜赵汐与闻潮家｜前置：valley_zhao_02
+  valley_zhao_04｜下班的货票员｜章≥0｜winter｜码头货票间｜前置：valley_zhao_03
+  valley_wenchao_02｜家里有两把锅铲｜章≥0｜summer｜赵汐与闻潮家｜前置：valley_wenchao_01
+  valley_wenchao_03｜有盐味的工作表｜章≥0｜autumn｜临时宴席厨房｜前置：valley_wenchao_02
+  valley_wenchao_04｜剩菜的星期二｜章≥0｜winter｜赵汐与闻潮家｜前置：valley_wenchao_03
+
+【海葵】 hai · 旧灯罩清洁师
+语气：品相兴致高，安全干脆。
+想要：旧灯罩继续使用。
+盲点：高估收藏空间。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1162汉字
+关系：季平 · 与季平试卖磨边装饰片，接受绿褐色滞销，保留喜欢也承担占用空间的成本。
+  valley_hai_01｜不卖的碎玻璃｜章≥0｜spring｜旧灯罩清洁屋｜前置：无
+  valley_hai_02｜三盒变成两盒｜章≥0｜summer｜旧灯罩清洁屋｜前置：valley_hai_01
+  valley_hai_03｜没被喜欢的颜色｜章≥0｜autumn｜山口小型集市｜前置：valley_hai_02
+  valley_hai_04｜窗台的限额｜章≥0｜winter｜旧灯罩清洁屋｜前置：valley_hai_03
+  valley_ji_01｜不是同一个圆｜章≥0｜spring｜月灯食堂侧桌｜前置：无
+  valley_ji_02｜不能承诺的五十套｜章≥0｜summer｜码头货箱旁｜前置：valley_ji_01
+  valley_ji_03｜退货不是对人的评价｜章≥0｜autumn｜山口货物验收桌｜前置：valley_ji_02
+  valley_ji_04｜回程箱里的私物｜章≥0｜winter｜山口货车停场｜前置：valley_ji_03
+
+【闻潮】 wenchao · 船上厨师
+语气：用饭菜班次说事，玩笑后补真要求。
+想要：有自己的工作并分担家务。
+盲点：把会做饭当包办照料。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1343汉字
+关系：赵汐 · 与配偶赵汐学习询问需要，不以包办饭菜换取赞赏，短航线工作提前分配家事。
+  interlude_dock_meal｜船上的饭在岸上吃｜章≥8｜any｜码头｜前置：main_08_after
+  valley_zhao_01｜多出来的零｜章≥0｜spring｜码头货票间｜前置：无
+  valley_zhao_02｜复核不等于代做｜章≥0｜summer｜码头货票间｜前置：valley_zhao_01
+  valley_zhao_03｜谁写在家用那一栏｜章≥0｜autumn｜赵汐与闻潮家｜前置：valley_zhao_02
+  valley_zhao_04｜下班的货票员｜章≥0｜winter｜码头货票间｜前置：valley_zhao_03
+  valley_wenchao_01｜回家不是一顿大餐｜章≥0｜spring｜船厨休息舱｜前置：无
+  valley_wenchao_02｜家里有两把锅铲｜章≥0｜summer｜赵汐与闻潮家｜前置：valley_wenchao_01
+  valley_wenchao_03｜有盐味的工作表｜章≥0｜autumn｜临时宴席厨房｜前置：valley_wenchao_02
+  valley_wenchao_04｜剩菜的星期二｜章≥0｜winter｜赵汐与闻潮家｜前置：valley_wenchao_03
+
+【柏安】 bo · 石谷矿工
+语气：工时列事实，厌恶悲壮讲法。
+想要：争取明确停工条件。
+盲点：证据齐才说不适。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1254汉字
+关系：铁桃 · 与铁桃公开工时证据和反对意见，争取最低收入与停工规则，也接受真实收入差额。
+  interlude_different_grain｜两种米混不混｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  valley_bo_01｜四个半钟头以后｜章≥2｜spring｜石谷合作社门廊｜前置：无
+  valley_bo_02｜反对的人也得有一页｜章≥2｜summer｜石谷合作社会议桌｜前置：valley_bo_01
+  valley_bo_03｜少掉的那一笔钱｜章≥2｜autumn｜石谷休息棚｜前置：valley_bo_02
+  valley_bo_04｜没有英勇名字的条款｜章≥2｜winter｜石谷合作社门廊｜前置：valley_bo_03
+  valley_tie_01｜账本里的菜籽｜章≥2｜spring｜石谷合作社办公室｜前置：无
+  valley_tie_02｜没有来帮忙的那一天｜章≥2｜summer｜铁桃屋后菜圃｜前置：valley_tie_01
+  valley_tie_03｜算错的不是一棵菜｜章≥2｜autumn｜石谷合作社办公室｜前置：valley_tie_02
+  valley_tie_04｜私人菜圃不招募理事｜章≥2｜winter｜铁桃屋后菜圃｜前置：valley_tie_03
+
+【铁桃】 tie · 矿工合作社理事
+语气：争吵仍记诉求，账边夹菜种。
+想要：算清账也有菜圃。
+盲点：空闲都给公事。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1527汉字
+关系：柏安 · 柏安支持她设定菜圃时间，不将自己的私地变成另一个合作社项目。
+  interlude_different_grain｜两种米混不混｜章≥12｜any｜月灯食堂｜前置：main_12_after
+  valley_bo_01｜四个半钟头以后｜章≥2｜spring｜石谷合作社门廊｜前置：无
+  valley_bo_02｜反对的人也得有一页｜章≥2｜summer｜石谷合作社会议桌｜前置：valley_bo_01
+  valley_bo_03｜少掉的那一笔钱｜章≥2｜autumn｜石谷休息棚｜前置：valley_bo_02
+  valley_bo_04｜没有英勇名字的条款｜章≥2｜winter｜石谷合作社门廊｜前置：valley_bo_03
+  valley_tie_01｜账本里的菜籽｜章≥2｜spring｜石谷合作社办公室｜前置：无
+  valley_tie_02｜没有来帮忙的那一天｜章≥2｜summer｜铁桃屋后菜圃｜前置：valley_tie_01
+  valley_tie_03｜算错的不是一棵菜｜章≥2｜autumn｜石谷合作社办公室｜前置：valley_tie_02
+  valley_tie_04｜私人菜圃不招募理事｜章≥2｜winter｜铁桃屋后菜圃｜前置：valley_tie_03
+
+【岑月】 cen · 观星台档案修补员
+语气：严格区分原文推测，私下嫌旧纸味。
+想要：保留可核对的无结尾史料。
+盲点：把困惑当读者不认真。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1483汉字
+关系：荀叶 · 与荀叶互读说明和预报，指出术语不清与不确定范围，约定各自工作的边界。
+  interlude_unread_page｜档案里的空白行｜章≥10｜any｜月环观星台｜前置：main_10_after
+  valley_cen_01｜没有最后一页｜章≥10｜spring｜观星台档案室｜前置：无
+  valley_cen_02｜看不懂的说明牌｜章≥10｜summer｜观星台小展室｜前置：valley_cen_01
+  valley_cen_03｜父亲没有说过的那句话｜章≥10｜autumn｜观星台档案室｜前置：valley_cen_02
+  valley_cen_04｜修补记录也会被留下｜章≥10｜winter｜观星台档案室｜前置：valley_cen_03
+  valley_xun_01｜没有下在本站的雨｜章≥10｜spring｜气象站门口｜前置：无
+  valley_xun_02｜问号没有领工资｜章≥10｜summer｜气象站值班室｜前置：valley_xun_01
+  valley_xun_03｜一张湿掉的更正纸｜章≥10｜autumn｜气象站外走廊｜前置：valley_xun_02
+  valley_xun_04｜晴天也做更正｜章≥10｜winter｜气象站值班室｜前置：valley_xun_03
+
+【荀叶】 xun · 气象站见习
+语气：预报过于肯定，更正逐字斟酌。
+想要：发布有范围的预报。
+盲点：把不知道当不配任职。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1238汉字
+关系：岑月 · 岑月陪他面对更正，但不替他张贴或承担预报；荀叶也指出档案说明的长句。
+  valley_cen_01｜没有最后一页｜章≥10｜spring｜观星台档案室｜前置：无
+  valley_cen_02｜看不懂的说明牌｜章≥10｜summer｜观星台小展室｜前置：valley_cen_01
+  valley_cen_03｜父亲没有说过的那句话｜章≥10｜autumn｜观星台档案室｜前置：valley_cen_02
+  valley_cen_04｜修补记录也会被留下｜章≥10｜winter｜观星台档案室｜前置：valley_cen_03
+  valley_xun_01｜没有下在本站的雨｜章≥10｜spring｜气象站门口｜前置：无
+  valley_xun_02｜问号没有领工资｜章≥10｜summer｜气象站值班室｜前置：valley_xun_01
+  valley_xun_03｜一张湿掉的更正纸｜章≥10｜autumn｜气象站外走廊｜前置：valley_xun_02
+  valley_xun_04｜晴天也做更正｜章≥10｜winter｜气象站值班室｜前置：valley_xun_03
+
+【泡桐】 pao · 旧械仓库守门人
+语气：用往事定位物件，找不到先嫌人急。
+想要：按期退休。
+盲点：把需要与无法离开混淆。
+实际出场：4场 / 独立支线与日常4场 / 本人对白893汉字
+关系：季平 · 季平要求盘点按工时付费、找不到给明确答复，不把退休交接叫无偿贡献。
+  valley_pao_01｜放在那年漏雨的下面｜章≥6｜spring｜旧械仓库｜前置：无
+  valley_pao_02｜泡桐不在的时候｜章≥6｜summer｜旧械仓库｜前置：valley_pao_01
+  valley_pao_03｜清出去的不是年月｜章≥6｜autumn｜旧械仓库后间｜前置：valley_pao_02
+  valley_pao_04｜最后一次不是最后一切｜章≥6｜winter｜旧械仓库门口｜前置：valley_pao_03
+
+【鹿野】 luye · 测绘员
+语气：先算最短，反问时摸尺。
+想要：画实际走得通的地图。
+盲点：忽略绕路理由。
+实际出场：8场 / 独立支线与日常4场 / 本人对白1238汉字
+关系：鸟笛 · 鸟笛用绕路、田地借用和观测缺口纠正最短路线思维，鹿野也核对公开信息范围。
+  valley_niao_01｜少了十一只的那一页｜章≥4｜spring｜湿地观鸟棚｜前置：无
+  valley_niao_02｜借来的名字｜章≥4｜summer｜湿地记录小屋｜前置：valley_niao_01
+  valley_niao_03｜观鸟也要付地租｜章≥4｜autumn｜收割后的浅田｜前置：valley_niao_02
+  valley_niao_04｜鸟没有按册过冬｜章≥4｜winter｜湿地观鸟棚｜前置：valley_niao_03
+  valley_luye_01｜最短的不是那一条｜章≥4｜spring｜湿地小桥｜前置：无
+  valley_luye_02｜树荫算不算距离｜章≥8｜summer｜山道岔口｜前置：valley_luye_01
+  valley_luye_03｜不画进去的门｜章≥8｜autumn｜镇边测绘桌｜前置：valley_luye_02
+  valley_luye_04｜地图背面的饭店｜章≥8｜winter｜月灯食堂｜前置：valley_luye_03
+
+【秋水】 qiu · 成年裁衣模特
+语气：谈衣料边界直接，亲近有坏笑话。
+想要：带回经验也保留自己的去处。
+盲点：受评判就急着证明离开正确。
+实际出场：9场 / 独立支线与日常4场 / 本人对白1698汉字
+关系：夏满 · 与夏满按合同合作衣样，允许朋友来往而拒绝免费充当人物素材或返乡象征。
+  interlude_rest_day｜宴会后的空椅子｜章≥12｜any｜小镇树荫下｜前置：main_12_after
+  valley_xia_01｜画里的人看不见脸｜章≥0｜spring｜山口临时画摊｜前置：无
+  valley_xia_02｜不画成故事的人｜章≥0｜summer｜月灯食堂窗边｜前置：valley_xia_01
+  valley_xia_03｜雨里没卖掉的山｜章≥0｜autumn｜山口画摊｜前置：valley_xia_02
+  valley_xia_04｜留下一张没完成的椅子｜章≥0｜winter｜旅居画师租屋｜前置：valley_xia_03
+  valley_qiu_01｜不合身的旧袖口｜章≥0｜spring｜秋水旧家｜前置：无
+  valley_qiu_02｜家乡的低价｜章≥0｜summer｜月灯食堂侧间｜前置：valley_qiu_01
+  valley_qiu_03｜回来也会错过｜章≥0｜autumn｜山口车站｜前置：valley_qiu_02
+  valley_qiu_04｜两地都不是退路｜章≥0｜winter｜秋水旧家｜前置：valley_qiu_03
+
+【季平】 ji · 外来餐具采购员
+语气：拆项报价，承诺具体日期。
+想要：长期采购手工餐具。
+盲点：将可量化当全部成本。
+实际出场：13场 / 独立支线与日常4场 / 本人对白2042汉字
+关系：海葵 · 海葵指出报价、颜色与物件安全的具体问题，季平承担库存与包装试错的采购风险。
+  interlude_half_soup｜半碗汤不等于半价｜章≥5｜any｜月灯食堂｜前置：main_05_after
+  valley_hai_01｜不卖的碎玻璃｜章≥0｜spring｜旧灯罩清洁屋｜前置：无
+  valley_hai_02｜三盒变成两盒｜章≥0｜summer｜旧灯罩清洁屋｜前置：valley_hai_01
+  valley_hai_03｜没被喜欢的颜色｜章≥0｜autumn｜山口小型集市｜前置：valley_hai_02
+  valley_hai_04｜窗台的限额｜章≥0｜winter｜旧灯罩清洁屋｜前置：valley_hai_03
+  valley_ji_01｜不是同一个圆｜章≥0｜spring｜月灯食堂侧桌｜前置：无
+  valley_ji_02｜不能承诺的五十套｜章≥0｜summer｜码头货箱旁｜前置：valley_ji_01
+  valley_ji_03｜退货不是对人的评价｜章≥0｜autumn｜山口货物验收桌｜前置：valley_ji_02
+  valley_ji_04｜回程箱里的私物｜章≥0｜winter｜山口货车停场｜前置：valley_ji_03
+  valley_pao_01｜放在那年漏雨的下面｜章≥6｜spring｜旧械仓库｜前置：无
+  valley_pao_02｜泡桐不在的时候｜章≥6｜summer｜旧械仓库｜前置：valley_pao_01
+  valley_pao_03｜清出去的不是年月｜章≥6｜autumn｜旧械仓库后间｜前置：valley_pao_02
+  valley_pao_04｜最后一次不是最后一切｜章≥6｜winter｜旧械仓库门口｜前置：valley_pao_03

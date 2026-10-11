@@ -1,0 +1,102 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+LOOP TEST Chinese system font available: PASS
+LOOP TEST day 1: PASS
+LOOP TEST real walk to (454.0, 10.0): PASS
+LOOP TEST walking enters independent field: PASS
+LOOP TEST real walk to (60.0, 115.0): PASS
+LOOP TEST real walk to (105.0, 115.0): PASS
+LOOP TEST gather and exhausted point: PASS
+LOOP TEST real walk to (60.0, 115.0): PASS
+LOOP TEST real walk to (78.0, 352.0): PASS
+LOOP TEST field exit restores town: PASS
+LOOP TEST real walk to (448.0, 334.0): PASS
+LOOP TEST real walk to (570.0, 718.0): PASS
+LOOP TEST walking to restaurant door stays outside: PASS
+LOOP TEST interacting enters restaurant: PASS
+LOOP TEST real walk to (60.0, 130.0): PASS
+LOOP TEST real walk to (110.0, 130.0): PASS
+LOOP TEST processing separates inventories: PASS
+LOOP TEST processing cannot duplicate: PASS
+LOOP TEST new menu starts empty: PASS
+LOOP TEST mouse menu selection: PASS
+LOOP TEST player confirms opening: PASS
+LOOP TEST customer orders from menu: PASS
+LOOP TEST remote cook rejected: PASS
+LOOP TEST real walk to (270.0, 130.0): PASS
+LOOP TEST cook subtracts once: PASS
+LOOP TEST repeat cook rejected: PASS
+LOOP TEST real cooking timer yields held dish: PASS
+LOOP TEST real walk to (60.0, 130.0): PASS
+LOOP TEST real walk to (60.0, 225.0): PASS
+LOOP TEST real walk to (110.0, 245.0): PASS
+LOOP TEST E served and earned: PASS
+LOOP TEST out of stock stops arrivals: PASS
+LOOP TEST settlement credits once: PASS
+LOOP TEST no duplicate income: PASS
+LOOP TEST next day refresh and balances: PASS
+LOOP TEST real walk to (408.0, 384.0): PASS
+LOOP TEST day 2: PASS
+LOOP TEST real walk to (454.0, 10.0): PASS
+LOOP TEST walking enters independent field: PASS
+LOOP TEST real walk to (60.0, 115.0): PASS
+LOOP TEST real walk to (105.0, 115.0): PASS
+LOOP TEST gather and exhausted point: PASS
+LOOP TEST real walk to (60.0, 115.0): PASS
+LOOP TEST real walk to (78.0, 352.0): PASS
+LOOP TEST field exit restores town: PASS
+LOOP TEST real walk to (448.0, 334.0): PASS
+LOOP TEST real walk to (570.0, 718.0): PASS
+LOOP TEST walking to restaurant door stays outside: PASS
+LOOP TEST interacting enters restaurant: PASS
+LOOP TEST real walk to (60.0, 130.0): PASS
+LOOP TEST real walk to (110.0, 130.0): PASS
+LOOP TEST processing separates inventories: PASS
+LOOP TEST processing cannot duplicate: PASS
+LOOP TEST mouse menu selection: PASS
+LOOP TEST player confirms opening: PASS
+LOOP TEST customer orders from menu: PASS
+LOOP TEST remote cook rejected: PASS
+LOOP TEST real walk to (270.0, 130.0): PASS
+LOOP TEST cook subtracts once: PASS
+LOOP TEST repeat cook rejected: PASS
+LOOP TEST real cooking timer yields held dish: PASS
+LOOP TEST real walk to (60.0, 130.0): PASS
+LOOP TEST real walk to (60.0, 225.0): PASS
+LOOP TEST real walk to (110.0, 245.0): PASS
+LOOP TEST E served and earned: PASS
+LOOP TEST out of stock stops arrivals: PASS
+LOOP TEST settlement credits once: PASS
+LOOP TEST no duplicate income: PASS
+LOOP TEST next day refresh and balances: PASS
+LOOP TEST real walk to (408.0, 384.0): PASS
+LOOP TEST recipe 0 starts: PASS
+LOOP TEST recipe 0 exact inventory: PASS
+LOOP TEST recipe 0 serve price: PASS
+LOOP TEST recipe 1 starts: PASS
+LOOP TEST recipe 1 exact inventory: PASS
+LOOP TEST recipe 1 serve price: PASS
+LOOP TEST recipe 2 starts: PASS
+LOOP TEST recipe 2 exact inventory: PASS
+LOOP TEST recipe 2 serve price: PASS
+LOOP TEST empty menu no arrivals: PASS
+LOOP TEST full backpack non-consuming: PASS
+LOOP TEST sunset waits in restaurant: PASS
+LOOP TEST menu confirmation begins service: PASS
+LOOP TEST three seats and full rejection: PASS
+LOOP TEST wrong order preserved: PASS
+LOOP TEST discard frees hand: PASS
+LOOP TEST patience timeout clears seats: PASS
+LOOP TEST night automatic end cancels cooking: PASS
+LOOP TEST carryover stock and refresh: PASS
+LOOP TEST zero ingredient night no deadlock: PASS
+LOOP TEST zero ingredient can reach next day: PASS
+LOOP TEST rain input after transition: PASS
+LOOP TEST town collision after transition: PASS
+LOOP TEST snow input after transition: PASS
+LOOP TEST town R preserved: PASS
+LOOP TEST interior R safe spawn: PASS
+LOOP TEST F3 preserved: PASS
+LOOP VERIFY END failures=0
+FMOD Sound System: System released

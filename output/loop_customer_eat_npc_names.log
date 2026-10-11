@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+LOOP TEST viewport screenshot customers_idle_012: PASS
+LOOP TEST window screenshot customers_idle_012: PASS
+LOOP TEST variants 0-2 visible: PASS
+LOOP TEST viewport screenshot customers_idle_345: PASS
+LOOP TEST window screenshot customers_idle_345: PASS
+LOOP TEST variants 3-5 visible: PASS
+LOOP TEST serve starts eating: PASS
+LOOP TEST viewport screenshot customer_eating_start: PASS
+LOOP TEST window screenshot customer_eating_start: PASS
+LOOP TEST eating frame advances: PASS
+LOOP TEST viewport screenshot customer_eating_mid: PASS
+LOOP TEST window screenshot customer_eating_mid: PASS
+LOOP TEST eating blocks second serve: PASS
+LOOP TEST three seconds removes customer: PASS
+LOOP TEST income remains once after eating: PASS
+CUSTOMER EAT VERIFY END failures=0

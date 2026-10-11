@@ -1,0 +1,530 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (6 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (363 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | 000-body.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | 000-equipment.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | 000-fx.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | 000-hair.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | 000-outfit.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | 000-shadow.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | 001-body.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | 001-equipment.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | 001-fx.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | 001-hair.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | 001-outfit.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | 001-shadow.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | 002-body.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | 002-equipment.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | 002-fx.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | 002-hair.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | 002-outfit.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | 002-shadow.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | 003-body.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | 003-equipment.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | 003-fx.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | 003-hair.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | 003-outfit.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | 003-shadow.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | 004-body.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | 004-equipment.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | 004-fx.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | 004-hair.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | 004-outfit.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | 004-shadow.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | 005-body.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | 005-equipment.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | 005-fx.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | 005-hair.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | 005-outfit.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | 005-shadow.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | 006-body.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | 006-equipment.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | 006-fx.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | 006-hair.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | 006-outfit.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | 006-shadow.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | 007-body.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | 007-equipment.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | 007-fx.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | 007-hair.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | 007-outfit.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | 007-shadow.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | 008-body.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | 008-equipment.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | 008-fx.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | 008-hair.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | 008-outfit.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | 008-shadow.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | 009-body.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | 009-equipment.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | 009-fx.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | 009-hair.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | 009-outfit.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | 009-shadow.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | 010-body.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | 010-equipment.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | 010-fx.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | 010-hair.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | 010-outfit.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | 010-shadow.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | 011-body.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | 011-equipment.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | 011-fx.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | 011-hair.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | 011-outfit.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | 011-shadow.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | 012-body.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | 012-equipment.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | 012-fx.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | 012-hair.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | 012-outfit.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | 012-shadow.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | 013-body.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | 013-equipment.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | 013-fx.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | 013-hair.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | 013-outfit.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | 013-shadow.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | 014-body.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | 014-equipment.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | 014-fx.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | 014-hair.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | 014-outfit.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | 014-shadow.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | 015-body.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | 015-equipment.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | 015-fx.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | 015-hair.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | 015-outfit.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | 015-shadow.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | 016-body.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | 016-equipment.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | 016-fx.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | 016-hair.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | 016-outfit.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | 016-shadow.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 017-body.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 017-equipment.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 017-fx.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 017-hair.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | 017-outfit.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | 017-shadow.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | 018-body.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | 018-equipment.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | 018-fx.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | 018-hair.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | 018-outfit.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | 018-shadow.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | 019-body.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | 019-equipment.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | 019-fx.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | 019-hair.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | 019-outfit.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | 019-shadow.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | 020-body.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | 020-equipment.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | 020-fx.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | 020-hair.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | 020-outfit.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | 020-shadow.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | 021-body.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | 021-equipment.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | 021-fx.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | 021-hair.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | 021-outfit.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | 021-shadow.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | 022-body.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | 022-equipment.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | 022-fx.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | 022-hair.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | 022-outfit.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | 022-shadow.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | 023-body.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | 023-equipment.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | 023-fx.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | 023-hair.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | 023-outfit.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | 023-shadow.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | 024-body.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | 024-equipment.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | 024-fx.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | 024-hair.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | 024-outfit.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | 024-shadow.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | 025-body.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | 025-equipment.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | 025-fx.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 025-hair.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 025-outfit.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 025-shadow.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 026-body.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | 026-equipment.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | 026-fx.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | 026-hair.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | 026-outfit.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | 026-shadow.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | 027-body.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | 027-equipment.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | 027-fx.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | 027-hair.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | 027-outfit.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | 027-shadow.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | 028-body.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | 028-equipment.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | 028-fx.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | 028-hair.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | 028-outfit.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | 028-shadow.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | 029-body.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | 029-equipment.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | 029-fx.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | 029-hair.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | 029-outfit.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | 029-shadow.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | 030-body.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | 030-equipment.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | 030-fx.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | 030-hair.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | 030-outfit.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | 030-shadow.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | 031-body.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | 031-equipment.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | 031-fx.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | 031-hair.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | 031-outfit.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | 031-shadow.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | 032-body.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | 032-equipment.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | 032-fx.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | 032-hair.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | 032-outfit.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | 032-shadow.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | 033-body.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | 033-equipment.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | 033-fx.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | 033-hair.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | 033-outfit.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | 033-shadow.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | 034-body.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | 034-equipment.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | 034-fx.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | 034-hair.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 034-outfit.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 034-shadow.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 035-body.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 035-equipment.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | 035-fx.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | 035-hair.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | 035-outfit.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | 035-shadow.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | 036-body.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | 036-equipment.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | 036-fx.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | 036-hair.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | 036-outfit.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | 036-shadow.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | 037-body.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | 037-equipment.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | 037-fx.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | 037-hair.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | 037-outfit.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | 037-shadow.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | 038-body.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | 038-equipment.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | 038-fx.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | 038-hair.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | 038-outfit.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | 038-shadow.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | 039-body.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | 039-equipment.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | 039-fx.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | 039-hair.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | 039-outfit.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | 039-shadow.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | 040-body.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | 040-equipment.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | 040-fx.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | 040-hair.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | 040-outfit.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | 040-shadow.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | 041-body.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | 041-equipment.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | 041-fx.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | 041-hair.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | 041-outfit.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | 041-shadow.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | 042-body.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | 042-equipment.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | 042-fx.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | 042-hair.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | 042-outfit.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | 042-shadow.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | 043-body.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | 043-equipment.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | 043-fx.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | 043-hair.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | 043-outfit.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | 043-shadow.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | 044-body.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | 044-equipment.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | 044-fx.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | 044-hair.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | 044-outfit.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | 044-shadow.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | 045-body.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | 045-equipment.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | 045-fx.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | 045-hair.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | 045-outfit.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | 045-shadow.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | 046-body.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | 046-equipment.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | 046-fx.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | 046-hair.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | 046-outfit.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | 046-shadow.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | 047-body.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | 047-equipment.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | 047-fx.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | 047-hair.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | 047-outfit.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | 047-shadow.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | 048-body.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | 048-equipment.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | 048-fx.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | 048-hair.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | 048-outfit.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | 048-shadow.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | 049-body.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | 049-equipment.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | 049-fx.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | 049-hair.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | 049-outfit.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | 049-shadow.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | 050-body.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | 050-equipment.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | 050-fx.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | 050-hair.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | 050-outfit.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | 050-shadow.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | 051-body.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | 051-equipment.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | 051-fx.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | 051-hair.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | 051-outfit.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | 051-shadow.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | 052-body.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | 052-equipment.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | 052-fx.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | 052-hair.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | 052-outfit.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | 052-shadow.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | 053-body.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | 053-equipment.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | 053-fx.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | 053-hair.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | 053-outfit.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | 053-shadow.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | 054-body.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | 054-equipment.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | 054-fx.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | 054-hair.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | 054-outfit.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | 054-shadow.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | 055-body.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | 055-equipment.png[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | 055-fx.png[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | 055-hair.png[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | 055-outfit.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | 055-shadow.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | 056-body.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | 056-equipment.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | 056-fx.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | 056-hair.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | 056-outfit.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | 056-shadow.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | 057-body.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | 057-equipment.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | 057-fx.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | 057-hair.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | 057-outfit.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | 057-shadow.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | 058-body.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | 058-equipment.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | 058-fx.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | 058-hair.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | 058-outfit.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | 058-shadow.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | 059-body.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | 059-equipment.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | 059-fx.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | 059-hair.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | 059-outfit.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | 059-shadow.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | actions-preview.png[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | contact-sheet.png[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | witch-tools.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (63 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | 032-equipment.png[39m[0m
+[   1% ] [90m[1mreimport[22m | 033-equipment.png[39m[0m
+[   3% ] [90m[1mreimport[22m | 034-equipment.png[39m[0m
+[   4% ] [90m[1mreimport[22m | 035-equipment.png[39m[0m
+[   6% ] [90m[1mreimport[22m | 036-equipment.png[39m[0m
+[   7% ] [90m[1mreimport[22m | 037-equipment.png[39m[0m
+[   9% ] [90m[1mreimport[22m | 038-equipment.png[39m[0m
+[  10% ] [90m[1mreimport[22m | 039-equipment.png[39m[0m
+[  12% ] [90m[1mreimport[22m | 040-equipment.png[39m[0m
+[  14% ] [90m[1mreimport[22m | 041-equipment.png[39m[0m
+[  15% ] [90m[1mreimport[22m | 042-equipment.png[39m[0m
+[  17% ] [90m[1mreimport[22m | 043-equipment.png[39m[0m
+[  18% ] [90m[1mreimport[22m | 044-equipment.png[39m[0m
+[  20% ] [90m[1mreimport[22m | 045-equipment.png[39m[0m
+[  21% ] [90m[1mreimport[22m | 046-equipment.png[39m[0m
+[  23% ] [90m[1mreimport[22m | 047-equipment.png[39m[0m
+[  25% ] [90m[1mreimport[22m | 048-equipment.png[39m[0m
+[  26% ] [90m[1mreimport[22m | 049-equipment.png[39m[0m
+[  28% ] [90m[1mreimport[22m | 050-equipment.png[39m[0m
+[  29% ] [90m[1mreimport[22m | 051-equipment.png[39m[0m
+[  31% ] [90m[1mreimport[22m | 052-equipment.png[39m[0m
+[  32% ] [90m[1mreimport[22m | 053-equipment.png[39m[0m
+[  34% ] [90m[1mreimport[22m | 054-equipment.png[39m[0m
+[  35% ] [90m[1mreimport[22m | 055-equipment.png[39m[0m
+[  37% ] [90m[1mreimport[22m | 056-equipment.png[39m[0m
+[  39% ] [90m[1mreimport[22m | 057-equipment.png[39m[0m
+[  40% ] [90m[1mreimport[22m | 058-equipment.png[39m[0m
+[  42% ] [90m[1mreimport[22m | 059-equipment.png[39m[0m
+[  43% ] [90m[1mreimport[22m | actions-preview.png[39m[0m
+[  45% ] [90m[1mreimport[22m | contact-sheet.png[39m[0m
+[  46% ] [90m[1mreimport[22m | witch-tools.png[39m[0m
+[  48% ] [90m[1mreimport[22m | 000-equipment.png[39m[0m
+[  50% ] [90m[1mreimport[22m | 001-equipment.png[39m[0m
+[  51% ] [90m[1mreimport[22m | 002-equipment.png[39m[0m
+[  53% ] [90m[1mreimport[22m | 003-equipment.png[39m[0m
+[  54% ] [90m[1mreimport[22m | 004-equipment.png[39m[0m
+[  56% ] [90m[1mreimport[22m | 005-equipment.png[39m[0m
+[  57% ] [90m[1mreimport[22m | 006-equipment.png[39m[0m
+[  59% ] [90m[1mreimport[22m | 007-equipment.png[39m[0m
+[  60% ] [90m[1mreimport[22m | 008-equipment.png[39m[0m
+[  62% ] [90m[1mreimport[22m | 009-equipment.png[39m[0m
+[  64% ] [90m[1mreimport[22m | 010-equipment.png[39m[0m
+[  65% ] [90m[1mreimport[22m | 011-equipment.png[39m[0m
+[  67% ] [90m[1mreimport[22m | 012-equipment.png[39m[0m
+[  68% ] [90m[1mreimport[22m | 013-equipment.png[39m[0m
+[  70% ] [90m[1mreimport[22m | 014-equipment.png[39m[0m
+[  71% ] [90m[1mreimport[22m | 015-equipment.png[39m[0m
+[  73% ] [90m[1mreimport[22m | 016-equipment.png[39m[0m
+[  75% ] [90m[1mreimport[22m | 017-equipment.png[39m[0m
+[  76% ] [90m[1mreimport[22m | 018-equipment.png[39m[0m
+[  78% ] [90m[1mreimport[22m | 019-equipment.png[39m[0m
+[  79% ] [90m[1mreimport[22m | 020-equipment.png[39m[0m
+[  81% ] [90m[1mreimport[22m | 021-equipment.png[39m[0m
+[  82% ] [90m[1mreimport[22m | 022-equipment.png[39m[0m
+[  84% ] [90m[1mreimport[22m | 023-equipment.png[39m[0m
+[  85% ] [90m[1mreimport[22m | 024-equipment.png[39m[0m
+[  87% ] [90m[1mreimport[22m | 025-equipment.png[39m[0m
+[  89% ] [90m[1mreimport[22m | 026-equipment.png[39m[0m
+[  90% ] [90m[1mreimport[22m | 027-equipment.png[39m[0m
+[  92% ] [90m[1mreimport[22m | 028-equipment.png[39m[0m
+[  93% ] [90m[1mreimport[22m | 029-equipment.png[39m[0m
+[  95% ] [90m[1mreimport[22m | 030-equipment.png[39m[0m
+[  96% ] [90m[1mreimport[22m | 031-equipment.png[39m[0m
+[  98% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (63 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[  33% ] [90m[1mloading_editor_layout[22m | Reopening scenes...[39m[0m
+[  50% ] [90m[1mloading_editor_layout[22m | Loading central editor layout...[39m[0m
+[  66% ] [90m[1mloading_editor_layout[22m | Loading plugin window layout...[39m[0m
+[  83% ] [90m[1mloading_editor_layout[22m | Editor layout ready.[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+INDICATOR TEST scene preview does not show a false save: PASS
+INDICATOR TEST isolated slot opens: PASS
+INDICATOR TEST initial autosave cue finishes: PASS
+INDICATOR TEST manual disk write succeeds: PASS
+INDICATOR TEST manual save starts cue above all menus: PASS
+INDICATOR TEST animation advances while gameplay is paused: PASS
+INDICATOR TEST bottom right cue clears inventory: PASS
+INDICATOR TEST cue and text pass through mouse input: PASS
+INDICATOR TEST successful save announces completion: PASS
+INDICATOR TEST capture completed: PASS
+INDICATOR TEST idle cue hides and stops processing: PASS
+INDICATOR TEST unfinished save keeps animating: PASS
+INDICATOR TEST long save completes after result arrives: PASS
+INDICATOR TEST another save restarts cue without hiding: PASS
+INDICATOR TEST write failure prevents leaving: PASS
+INDICATOR TEST real disk failure shows error cue: PASS
+INDICATOR TEST capture failed: PASS
+INDICATOR TEST translated cue zh_CN: PASS
+INDICATOR TEST translated cue en: PASS
+INDICATOR TEST translated cue ja: PASS
+INDICATOR TEST translated cue zh_TW: PASS
+INDICATOR TEST capture frames/00: PASS
+INDICATOR TEST capture frames/01: PASS
+INDICATOR TEST capture frames/02: PASS
+INDICATOR TEST capture frames/03: PASS
+INDICATOR TEST capture in_game: PASS
+INDICATOR TEST capture frames/04: PASS
+INDICATOR TEST capture frames/05: PASS
+INDICATOR TEST capture frames/06: PASS
+INDICATOR TEST capture frames/07: PASS
+INDICATOR TEST capture frames/08: PASS
+INDICATOR TEST capture frames/09: PASS
+INDICATOR TEST capture frames/10: PASS
+INDICATOR TEST capture frames/11: PASS
+INDICATOR TEST capture frames/12: PASS
+INDICATOR TEST capture frames/13: PASS
+INDICATOR TEST capture frames/14: PASS
+INDICATOR TEST capture frames/15: PASS
+INDICATOR TEST capture frames/16: PASS
+INDICATOR TEST capture frames/17: PASS
+INDICATOR TEST capture frames/18: PASS
+INDICATOR TEST capture paused: PASS
+INDICATOR TEST exit freezes world while showing cue: PASS
+INDICATOR TEST exit reaches title after cue: PASS
+SAVING INDICATOR VERIFY END failures=0

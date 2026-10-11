@@ -391,7 +391,13 @@ def terrain(layout):
             flower(d, x, y, rng.choice([P["cream"], P["rose_light"], P["violet"]]))
     base.save(ground, "town_ground")
 
+    build_field()
+
+
+def build_field():
+    """Rebuild the north-connected gathering area without touching town art."""
     base.RNG.seed(SEED + 7)
+    rng = random.Random(SEED + 31)
     field = base.field(grass_marks=5500, include_trees=False)
     d = ImageDraw.Draw(field)
     d.rectangle((440, 64, 639, 359), fill="#4d6555")
@@ -404,6 +410,11 @@ def terrain(layout):
         d.line((438, y + 1, 449, y - 2), fill=P["stone_light"])
         d.line((447, y + 8, 450, y + 16), fill=P["grain"])
     base.save(field, "field_background")
+    field_layout = dict(size=[640, 360], spawn=[78, 318], exit=[78, 352],
+                        paths=[dict(points=[[78, 258], [78, 392]], width=34, surface="dirt")],
+                        props=field_objects())
+    (OUT / "field_layout.json").write_text(json.dumps(field_layout, indent=2) + "\n", encoding="utf-8")
+    base.compose(field_layout["props"], "field_background", "field_overview")
 
 
 def build():
@@ -414,7 +425,7 @@ def build():
     layout = json.loads((OUT / "town_layout.json").read_text(encoding="utf-8"))
     layout["props"] = [p for p in layout["props"] if not p.get("outdoor_decoration", False)] + town_objects(layout)
     terrain(layout)
-    field_layout = {"size": [640, 360], "props": field_objects()}
+    field_layout = json.loads((OUT / "field_layout.json").read_text(encoding="utf-8"))
     for name, data in [("town_layout", layout), ("field_layout", field_layout)]:
         (OUT / (name + ".json")).write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     base.compose(layout["buildings"] + layout["props"], "town_ground", "town_overview")
@@ -427,6 +438,12 @@ def build():
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     import build_ambient
     build_ambient.build()
+    import build_businesses
+    build_businesses.build()
+    import build_town_layout
+    build_town_layout.build()
+    import build_farm
+    build_farm.build()
     print("OUTDOORS ART", len(SIZES), "new sprite types;", manifest["outdoors"]["town_decorations"], "town decorations;", len(field_layout["props"]), "field objects")
 
 

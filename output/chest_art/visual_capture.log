@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FMOD Sound System: Successfully initialized
+CHEST ART isolated slot: PASS
+CHEST ART place first real chest: PASS
+CHEST ART place second real chest: PASS
+CHEST ART original canvas and foot anchor: PASS
+CHEST ART collision unchanged: PASS
+CHEST ART closed sprite and shared preview: PASS
+CHEST ART capture room_closed: PASS
+CHEST ART capture scaled room_closed: PASS
+CHEST ART storage pauses world: PASS
+CHEST ART animation completes while paused: PASS
+CHEST ART other chest stays closed: PASS
+CHEST ART storage transfer still works: PASS
+CHEST ART capture storage_open: PASS
+CHEST ART capture scaled storage_open: PASS
+CHEST ART capture room_open: PASS
+CHEST ART capture scaled room_open: PASS
+CHEST ART close animation settles: PASS
+CHEST ART second chest opens independently: PASS
+CHEST ART map shares original chest texture: PASS
+CHEST ART capture map_chests: PASS
+CHEST ART capture scaled map_chests: PASS
+CHEST ART save preserves contents: PASS
+CHEST ART scene reentry restores closed chest and contents: PASS
+CHEST ART END checks=23 failures=0
+FMOD Sound System: System released

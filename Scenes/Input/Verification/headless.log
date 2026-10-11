@@ -1,0 +1,68 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+BINDINGS TEST default game movement includes arrows: PASS
+BINDINGS TEST menu follows primary movement: PASS
+BINDINGS TEST controller menu events retained: PASS
+BINDINGS TEST thirteen editable actions including map: PASS
+BINDINGS TEST keyboard focus scrolls the mapping list: PASS
+BINDINGS TEST mouse opens capture interact: PASS
+BINDINGS TEST captured key applies without triggering action: PASS
+BINDINGS TEST primary persists: PASS
+BINDINGS TEST mouse opens capture interact: PASS
+BINDINGS TEST alternate applies: PASS
+BINDINGS TEST mouse opens capture bag: PASS
+BINDINGS TEST Esc cancels capture without closing settings: PASS
+BINDINGS TEST mouse opens capture bag: PASS
+BINDINGS TEST conflict leaves both bindings unchanged: PASS
+BINDINGS TEST keyboard confirms atomic swap: PASS
+BINDINGS TEST both swapped actions saved: PASS
+BINDINGS TEST mouse opens capture bag: PASS
+BINDINGS TEST retry chooses a different key: PASS
+BINDINGS TEST mouse opens capture bag: PASS
+BINDINGS TEST reserved menu key rejected: PASS
+BINDINGS TEST mouse opens capture interact: PASS
+BINDINGS TEST alternate clears without removing primary: PASS
+BINDINGS TEST restore defaults updates every action: PASS
+BINDINGS TEST same action keys exchange: PASS
+BINDINGS TEST change interaction: PASS
+BINDINGS TEST reuse freed original key: PASS
+BINDINGS TEST prompt replacement never cascades: PASS
+BINDINGS TEST set gameplay move_up: PASS
+BINDINGS TEST set gameplay move_right: PASS
+BINDINGS TEST set gameplay run: PASS
+BINDINGS TEST set gameplay interact: PASS
+BINDINGS TEST set gameplay bag: PASS
+BINDINGS TEST set gameplay journal: PASS
+BINDINGS TEST set gameplay guide: PASS
+BINDINGS TEST set gameplay pause: PASS
+BINDINGS TEST set gameplay dialogue_next: PASS
+BINDINGS TEST set gameplay history: PASS
+BINDINGS TEST mouse opens capture history: PASS
+BINDINGS TEST freeing capture owner cancels safely: PASS
+BINDINGS TEST isolated slot starts: PASS
+BINDINGS TEST scene handoff retains bindings: PASS
+BINDINGS TEST remapped keys walk diagonally at normal speed: PASS
+BINDINGS TEST remapped run modifier works diagonally: PASS
+BINDINGS TEST old bag key no longer opens bag: PASS
+BINDINGS TEST new bag key opens and pauses: PASS
+BINDINGS TEST new bag key toggles closed: PASS
+BINDINGS TEST new journal key opens: PASS
+BINDINGS TEST Esc remains an emergency return: PASS
+BINDINGS TEST new dialogue key reveals full translated line: PASS
+BINDINGS TEST new history key opens history: PASS
+BINDINGS TEST dialogue has no operation prompts after rebinding: PASS
+BINDINGS TEST old interaction key does nothing: PASS
+BINDINGS TEST new interaction key gathers ingredients: PASS
+BINDINGS TEST new pause key opens menu: PASS
+BINDINGS TEST mouse opens capture bag: PASS
+BINDINGS TEST pause key during capture checks conflict without leaving: PASS
+BINDINGS TEST capture cancel preserves paused settings: PASS
+BINDINGS TEST mouse opens capture bag: PASS
+BINDINGS TEST remapping freezes progress and position: PASS
+BINDINGS TEST mapped back returns to pause menu: PASS
+BINDINGS TEST Esc resumes game: PASS
+BINDINGS TEST remapping inside game applies immediately: PASS
+BINDINGS TEST progress save independent of bindings: PASS
+BINDINGS TEST invalid configuration falls back safely: PASS
+BINDINGS TEST reset preserves language and sound: PASS
+BINDINGS VERIFY END failures=0

@@ -1,0 +1,74 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+MENU TEST project starts at menu: PASS
+MENU TEST game title: PASS
+MENU TEST four requested buttons: PASS
+MENU TEST centered vertical button 0: PASS
+MENU TEST centered vertical button 1: PASS
+MENU TEST centered vertical button 2: PASS
+MENU TEST centered vertical button 3: PASS
+MENU TEST start initially focused: PASS
+MENU TEST capture main_menu: PASS
+MENU TEST preview main_menu: PASS
+MENU TEST window capture main_menu: PASS
+MENU TEST keyboard moves down: PASS
+MENU TEST keyboard opens settings: PASS
+MENU TEST modal blocks main buttons: PASS
+MENU TEST music mute uses mouse input: PASS
+MENU TEST saved audio preferences: PASS
+MENU TEST capture settings: PASS
+MENU TEST preview settings: PASS
+MENU TEST four settings categories: PASS
+MENU TEST category switches content: PASS
+MENU TEST Esc dismisses dropdown before settings: PASS
+MENU TEST dropdown opens with mouse: PASS
+MENU TEST capture settings_dropdown: PASS
+MENU TEST preview settings_dropdown: PASS
+MENU TEST frame limit applies immediately: PASS
+MENU TEST vsync preference persists: PASS
+MENU TEST window size actually changes: PASS
+MENU TEST capture settings_display: PASS
+MENU TEST preview settings_display: PASS
+MENU TEST display defaults restore: PASS
+MENU TEST game preferences persist: PASS
+MENU TEST capture settings_game: PASS
+MENU TEST preview settings_game: PASS
+MENU TEST reset affects only current page: PASS
+MENU TEST shortcut page has editable bindings: PASS
+MENU TEST capture settings_controls: PASS
+MENU TEST preview settings_controls: PASS
+MENU TEST escape closes and restores focus: PASS
+MENU TEST settings retain values: PASS
+MENU TEST credits button opens scrollable text: PASS
+MENU TEST credits include existing sources: PASS
+MENU TEST capture credits: PASS
+MENU TEST preview credits: PASS
+MENU TEST capture credits_bottom: PASS
+MENU TEST preview credits_bottom: PASS
+MENU TEST quit asks for confirmation: PASS
+MENU TEST capture quit: PASS
+MENU TEST preview quit: PASS
+MENU TEST quit cancel returns to menu: PASS
+MENU TEST integer 1080p scale: PASS
+MENU TEST capture main_menu_1080p: PASS
+MENU TEST preview main_menu_1080p: PASS
+MENU TEST window capture main_menu_1080p: PASS
+MENU TEST integer 720p scale: PASS
+MENU TEST capture main_menu_720p: PASS
+MENU TEST preview main_menu_720p: PASS
+MENU TEST window capture main_menu_720p: PASS
+MENU TEST start opens six save slots: PASS
+MENU TEST save slots have no operation instructions: PASS
+MENU TEST three rows two columns 0: PASS
+MENU TEST three rows two columns 1: PASS
+MENU TEST three rows two columns 2: PASS
+MENU TEST three rows two columns 3: PASS
+MENU TEST three rows two columns 4: PASS
+MENU TEST three rows two columns 5: PASS
+MENU TEST capture save_slots: PASS
+MENU TEST preview save_slots: PASS
+MENU TEST start enters actual town scene: PASS
+MENU TEST gameplay ready: PASS
+MENU TEST audio preferences survive scene change: PASS
+MENU VERIFY END failures=0

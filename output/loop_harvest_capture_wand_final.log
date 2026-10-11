@@ -1,0 +1,139 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+HARVEST TEST real walk to (454.0, 10.0): PASS
+HARVEST TEST enter field: PASS
+HARVEST TEST resource count: PASS
+HARVEST TEST native action sheet: PASS
+HARVEST TEST tool foot anchor: PASS
+HARVEST TEST capture field_resources: PASS
+HARVEST TEST window field_resources: PASS
+HARVEST TEST nonblank field_resources: PASS
+HARVEST TEST real walk to (60.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 229.0): PASS
+HARVEST TEST missing wand blocks chopping before animation: PASS
+HARVEST TEST missing wand blocks direct resource mutation: PASS
+HARVEST TEST chop starts via E: PASS
+HARVEST TEST chop swing locks movement: PASS
+HARVEST TEST chop repeated E does not restart: PASS
+HARVEST TEST capture chop: PASS
+HARVEST TEST window chop: PASS
+HARVEST TEST nonblank chop: PASS
+HARVEST TEST action pixels visible chop: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST chop one hit only: PASS
+HARVEST TEST partial tree gives no wood: PASS
+HARVEST TEST partial tree persists across areas: PASS
+HARVEST TEST real walk to (60.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 256.0): PASS
+HARVEST TEST real walk to (423.0, 229.0): PASS
+HARVEST TEST chop_second starts via E: PASS
+HARVEST TEST chop_second swing locks movement: PASS
+HARVEST TEST chop_second repeated E does not restart: PASS
+HARVEST TEST capture chop_second: PASS
+HARVEST TEST window chop_second: PASS
+HARVEST TEST nonblank chop_second: PASS
+HARVEST TEST action pixels visible chop_second: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST chop_second one hit only: PASS
+HARVEST TEST chop_finish starts via E: PASS
+HARVEST TEST chop_finish swing locks movement: PASS
+HARVEST TEST chop_finish repeated E does not restart: PASS
+HARVEST TEST capture chop_finish: PASS
+HARVEST TEST window chop_finish: PASS
+HARVEST TEST nonblank chop_finish: PASS
+HARVEST TEST action pixels visible chop_finish: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST chop_finish one hit only: PASS
+HARVEST TEST tree rewards three wood: PASS
+HARVEST TEST chopping keeps starter tools: PASS
+HARVEST TEST tree changes to stump: PASS
+HARVEST TEST capture stump: PASS
+HARVEST TEST window stump: PASS
+HARVEST TEST nonblank stump: PASS
+HARVEST TEST stump cannot give duplicate reward: PASS
+HARVEST TEST real walk to (350.0, 198.0): PASS
+HARVEST TEST missing wand blocks mining before animation: PASS
+HARVEST TEST mine_0 starts via E: PASS
+HARVEST TEST mine_0 swing locks movement: PASS
+HARVEST TEST mine_0 repeated E does not restart: PASS
+HARVEST TEST capture mine_0: PASS
+HARVEST TEST window mine_0: PASS
+HARVEST TEST nonblank mine_0: PASS
+HARVEST TEST action pixels visible mine_0: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST mine_0 one hit only: PASS
+HARVEST TEST mine_1 starts via E: PASS
+HARVEST TEST mine_1 swing locks movement: PASS
+HARVEST TEST mine_1 repeated E does not restart: PASS
+HARVEST TEST capture mine_1: PASS
+HARVEST TEST window mine_1: PASS
+HARVEST TEST nonblank mine_1: PASS
+HARVEST TEST action pixels visible mine_1: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST mine_1 one hit only: PASS
+HARVEST TEST mine_2 starts via E: PASS
+HARVEST TEST mine_2 swing locks movement: PASS
+HARVEST TEST mine_2 repeated E does not restart: PASS
+HARVEST TEST capture mine_2: PASS
+ERROR: Can't save PNG at path: 'res://Scenes/Gameplay/Verification/Harvest/mine_2_window.png'.
+   at: save_image (drivers/png/resource_saver_png.cpp:56)
+   GDScript backtrace (most recent call first):
+       [0] shot (res://Scenes/Gameplay/verify_harvest.gd:48)
+       [1] frames (res://Scenes/Gameplay/verify_harvest.gd:21)
+HARVEST TEST window mine_2: FAIL
+HARVEST TEST nonblank mine_2: PASS
+HARVEST TEST action pixels visible mine_2: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST mine_2 one hit only: PASS
+HARVEST TEST ore rewards two minerals: PASS
+HARVEST TEST mining keeps starter tools: PASS
+HARVEST TEST ore changes to rubble: PASS
+HARVEST TEST rubble cannot give duplicate reward: PASS
+HARVEST TEST real walk to (350.0, 256.0): PASS
+HARVEST TEST real walk to (300.0, 266.0): PASS
+HARVEST TEST reached action wait: PASS
+HARVEST TEST early reel fails without reward: PASS
+HARVEST TEST reached action wait: PASS
+HARVEST TEST capture fishing_wait: PASS
+HARVEST TEST window fishing_wait: PASS
+HARVEST TEST nonblank fishing_wait: PASS
+HARVEST TEST action pixels visible fishing_wait: PASS
+HARVEST TEST reached action bite: PASS
+HARVEST TEST capture fishing_bite: PASS
+HARVEST TEST window fishing_bite: PASS
+HARVEST TEST nonblank fishing_bite: PASS
+HARVEST TEST action pixels visible fishing_bite: PASS
+HARVEST TEST bite E begins reel: PASS
+HARVEST TEST capture fishing_reel: PASS
+HARVEST TEST window fishing_reel: PASS
+HARVEST TEST nonblank fishing_reel: PASS
+HARVEST TEST action pixels visible fishing_reel: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST successful reel rewards one fish: PASS
+HARVEST TEST collected resources appear in UI: PASS
+HARVEST TEST capture resources_collected: PASS
+HARVEST TEST window resources_collected: PASS
+HARVEST TEST nonblank resources_collected: PASS
+HARVEST TEST reached action bite: PASS
+HARVEST TEST reached action : PASS
+HARVEST TEST missed bite gives no fish: PASS
+HARVEST TEST Escape cancels: PASS
+HARVEST TEST movement cancels fishing: PASS
+HARVEST TEST real walk to (300.0, 266.0): PASS
+HARVEST TEST reset cancels action: PASS
+HARVEST TEST scene switch cancels pending hit: PASS
+HARVEST TEST day end cancels action and moves to restaurant: PASS
+HARVEST TEST day end gives no pending reward: PASS
+HARVEST TEST resources carry into next day: PASS
+HARVEST TEST nodes and fish refresh next day: PASS
+HARVEST TEST refreshed tree art: PASS
+HARVEST TEST fish stock catch 0: PASS
+HARVEST TEST fish stock catch 1: PASS
+HARVEST TEST fish stock catch 2: PASS
+HARVEST TEST exhausted pond rejects duplicate fish: PASS
+HARVEST TEST night rejects harvest: PASS
+HARVEST TEST invalid kind rejected: PASS
+HARVEST TEST new sounds triggered: PASS
+HARVEST VERIFY END failures=1

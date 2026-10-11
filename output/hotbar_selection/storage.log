@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+STORAGE TEST old six-recipe saves migrate with no losses: PASS
+STORAGE TEST eight wood builds and places an empty chest: PASS
+STORAGE TEST deposit removes exact food from backpack: PASS
+STORAGE TEST full backpack rejects withdrawal without loss: FAIL
+STORAGE TEST partial withdrawal respects shared food capacity: FAIL
+STORAGE TEST upgraded bag capacity is respected: FAIL
+STORAGE TEST chest stack limit leaves remainder in bag: FAIL
+STORAGE TEST full stack never deletes inventory: FAIL
+STORAGE TEST resource maximum permits only safe partial retrieval: FAIL
+STORAGE TEST seed deposit shares real farm inventory: PASS
+STORAGE TEST seed retrieval restores exact quantity: PASS
+STORAGE TEST upgraded tools can be stored: PASS
+STORAGE TEST stored upgraded tool is valid save data: PASS
+STORAGE TEST storage save round trip restores ownership and rank: PASS
+STORAGE TEST tool retrieval retains upgrade: PASS
+STORAGE TEST nonempty chest cannot be packed: PASS
+STORAGE TEST filled chest can move without losing contents: PASS
+STORAGE TEST separate chests have separate inventories: PASS
+STORAGE TEST unknown destination and items do not transfer: FAIL
+STORAGE TEST zero and negative quantities cannot duplicate: FAIL
+STORAGE TEST storage does not count as gathering: PASS
+STORAGE TEST chests remain usable at night: PASS
+STORAGE TEST settlement blocks item mutations: PASS
+STORAGE TEST save rejects bad chest count -1: PASS
+STORAGE TEST save rejects bad chest count 0: PASS
+STORAGE TEST save rejects bad chest count 1.5: PASS
+STORAGE TEST save rejects bad chest count 100: PASS
+STORAGE TEST save rejects bad chest count 3: PASS
+STORAGE TEST save rejects unknown item ID: PASS
+STORAGE TEST save rejects non-dictionary contents: PASS
+STORAGE TEST save rejects duplicate owned tools: PASS
+STORAGE TEST save rejects contents attached to other furniture: PASS
+STORAGE TEST empty chest packs back to furniture stock: FAIL
+STORAGE TEST packing twice cannot duplicate chest: FAIL
+STORAGE TEST isolated slot opens: PASS
+STORAGE TEST chest is visible in real building catalog: FAIL
+STORAGE TEST mouse crafts chest using eight wood: FAIL
+STORAGE TEST mouse places chest body: FAIL

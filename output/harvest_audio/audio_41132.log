@@ -1,0 +1,99 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+DRIVER WASAPI
+HARVEST AUDIO short one-shot gather 0: PASS
+DECODE gather 0 frames=18777/18781 energy=0.45110181624097 peak=0.07165228575468
+HARVEST AUDIO full PCM and headroom gather 0: PASS
+HARVEST AUDIO short one-shot gather 1: PASS
+DECODE gather 1 frames=22762/22766 energy=0.14419965816763 peak=0.03067489899695
+HARVEST AUDIO full PCM and headroom gather 1: PASS
+HARVEST AUDIO variants and bounded pitch gather: PASS
+HARVEST AUDIO single event count gather: PASS
+HARVEST AUDIO event gain gather: PASS
+HARVEST AUDIO FMOD channel gain and pitch gather: PASS
+HARVEST AUDIO frame volume preserves gain gather: PASS
+HARVEST AUDIO short one-shot chop 0: PASS
+DECODE chop 0 frames=15965/15969 energy=87.7011553730751 peak=0.88806307315826
+HARVEST AUDIO full PCM and headroom chop 0: PASS
+HARVEST AUDIO short one-shot chop 1: PASS
+DECODE chop 1 frames=15965/15969 energy=88.7144087295904 peak=0.88661104440689
+HARVEST AUDIO full PCM and headroom chop 1: PASS
+HARVEST AUDIO short one-shot chop 2: PASS
+DECODE chop 2 frames=15965/15969 energy=87.4050387628934 peak=0.88381516933441
+HARVEST AUDIO full PCM and headroom chop 2: PASS
+HARVEST AUDIO variants and bounded pitch chop: PASS
+HARVEST AUDIO single event count chop: PASS
+HARVEST AUDIO event gain chop: PASS
+HARVEST AUDIO FMOD channel gain and pitch chop: PASS
+HARVEST AUDIO frame volume preserves gain chop: PASS
+HARVEST AUDIO short one-shot mine 0: PASS
+DECODE mine 0 frames=44993/44998 energy=393.096199515671 peak=0.88680768013
+HARVEST AUDIO full PCM and headroom mine 0: PASS
+HARVEST AUDIO short one-shot mine 1: PASS
+DECODE mine 1 frames=41728/41732 energy=326.971692182835 peak=0.884994328022
+HARVEST AUDIO full PCM and headroom mine 1: PASS
+HARVEST AUDIO short one-shot mine 2: PASS
+DECODE mine 2 frames=38620/38625 energy=197.406610935506 peak=0.87363564968109
+HARVEST AUDIO full PCM and headroom mine 2: PASS
+HARVEST AUDIO variants and bounded pitch mine: PASS
+HARVEST AUDIO single event count mine: PASS
+HARVEST AUDIO event gain mine: PASS
+HARVEST AUDIO FMOD channel gain and pitch mine: PASS
+HARVEST AUDIO frame volume preserves gain mine: PASS
+HARVEST AUDIO short one-shot cast 0: PASS
+DECODE cast 0 frames=34453/34457 energy=47.7502774146566 peak=0.80136400461197
+HARVEST AUDIO full PCM and headroom cast 0: PASS
+HARVEST AUDIO short one-shot cast 1: PASS
+DECODE cast 1 frames=37051/37055 energy=27.9772142013222 peak=0.90727758407593
+HARVEST AUDIO full PCM and headroom cast 1: PASS
+HARVEST AUDIO variants and bounded pitch cast: PASS
+HARVEST AUDIO single event count cast: PASS
+HARVEST AUDIO event gain cast: PASS
+HARVEST AUDIO FMOD channel gain and pitch cast: PASS
+HARVEST AUDIO frame volume preserves gain cast: PASS
+HARVEST AUDIO short one-shot bite 0: PASS
+DECODE bite 0 frames=17293/17297 energy=118.950005702318 peak=0.45628872513771
+HARVEST AUDIO full PCM and headroom bite 0: PASS
+HARVEST AUDIO variants and bounded pitch bite: PASS
+HARVEST AUDIO single event count bite: PASS
+HARVEST AUDIO event gain bite: PASS
+HARVEST AUDIO FMOD channel gain and pitch bite: PASS
+HARVEST AUDIO frame volume preserves gain bite: PASS
+HARVEST AUDIO short one-shot catch 0: PASS
+DECODE catch 0 frames=21909/21913 energy=76.2858380264234 peak=0.82903134822845
+HARVEST AUDIO full PCM and headroom catch 0: PASS
+HARVEST AUDIO short one-shot catch 1: PASS
+DECODE catch 1 frames=33257/33261 energy=144.630666061297 peak=0.94846326112747
+HARVEST AUDIO full PCM and headroom catch 1: PASS
+HARVEST AUDIO variants and bounded pitch catch: PASS
+HARVEST AUDIO single event count catch: PASS
+HARVEST AUDIO event gain catch: PASS
+HARVEST AUDIO FMOD channel gain and pitch catch: PASS
+HARVEST AUDIO frame volume preserves gain catch: PASS
+HARVEST AUDIO live channel gain: PASS
+HARVEST AUDIO zero character volume: PASS
+HARVEST AUDIO zero master volume: PASS
+HARVEST AUDIO legacy mute: PASS
+HARVEST AUDIO unmute has no stale replay: PASS
+HARVEST AUDIO eight voices bounded without stealing: PASS
+HARVEST AUDIO tail continues while paused: PASS
+HARVEST AUDIO one-shot reaches end during pause: PASS
+HARVEST AUDIO plant success emits once: PASS
+HARVEST AUDIO depleted plant silent: PASS
+HARVEST AUDIO before impact silent chop: PASS
+HARVEST AUDIO one impact one cue chop: PASS
+HARVEST AUDIO missing tool silent chop: PASS
+HARVEST AUDIO before impact silent mine: PASS
+HARVEST AUDIO one impact one cue mine: PASS
+HARVEST AUDIO missing tool silent mine: PASS
+HARVEST AUDIO cast arc has no early splash: PASS
+HARVEST AUDIO cancelled cast silent: PASS
+HARVEST AUDIO bobber landing emits splash once: PASS
+HARVEST AUDIO bite emits once: PASS
+HARVEST AUDIO successful catch emits once: PASS
+HARVEST AUDIO early reel gives no catch cue: PASS
+HARVEST AUDIO missed bite gives no catch cue: PASS
+HARVEST AUDIO idle frames do not replay cues: PASS
+HARVEST AUDIO END failures=0 checks=80
+FMOD Sound System: System released

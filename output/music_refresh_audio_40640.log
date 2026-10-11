@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Compile Error: Identifier not found: Localization
+   at: GDScript::reload (res://Sounds/Walala/audio_manager.gd:242)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Sounds/Walala/verify_music_refresh.gd:0)
+ERROR: Failed to load script "res://Sounds/Walala/verify_music_refresh.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+MUSIC REFRESH DRIVER WASAPI
+MUSIC REFRESH valid OGG title: PASS
+MUSIC REFRESH nonzero full PCM title: PASS
+MUSIC REFRESH end wraps title: FAIL
+MUSIC REFRESH valid OGG day_town: PASS
+MUSIC REFRESH nonzero full PCM day_town: PASS
+MUSIC REFRESH end wraps day_town: PASS
+MUSIC REFRESH valid OGG night_town3: PASS
+MUSIC REFRESH nonzero full PCM night_town3: PASS
+MUSIC REFRESH end wraps night_town3: PASS
+MUSIC REFRESH METRICS {"day_town":{"peak":1.00324261188507,"rms_db":-15.5557408758523,"seconds":64.0},"night_town3":{"peak":0.957955598831177,"rms_db":-15.8870026878906,"seconds":65.4545593261719},"title":{"peak":0.795371294021606,"rms_db":-18.2305710309208,"seconds":46.4516334533691}}
+MUSIC REFRESH title uses separate looping track: PASS
+MUSIC REFRESH title playing with saved gain: PASS
+MUSIC REFRESH title mute: PASS
+MUSIC REFRESH title stops before gameplay: PASS
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: run (res://Sounds/Walala/verify_music_refresh.gd:68)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_music_refresh.gd:68)

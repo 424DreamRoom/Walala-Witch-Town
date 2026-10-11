@@ -1,0 +1,1477 @@
+{
+  "downloaded_on": "2026-10-11",
+  "assets": [
+    {
+      "id": "forest_whisper",
+      "title": "Forest Whisper Theme",
+      "author": "Cleyton Kauffman",
+      "source": "https://opengameart.org/content/forest-whisper-theme",
+      "url": "https://opengameart.org/sites/default/files/forest_whisper_theme.zip",
+      "file": "Archives/forest_whisper_theme.zip",
+      "extract": "Music/ForestWhisperTheme",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "Archives/forest_whisper_theme.zip",
+        "bytes": 14110876,
+        "sha256": "11516801f38f4b004fa9e3641ff287fa39cb998fc805d376b372cc03db4d573f"
+      },
+      "actual_download_url": "https://opengameart.org/sites/default/files/forest_whisper_theme.zip?download=1",
+      "archive_crc_verified": true,
+      "files": [
+        {
+          "file": "Music/ForestWhisperTheme/Forest Whisper Theme/Forest Whisper.ogg",
+          "bytes": 2001071,
+          "sha256": "995d13d3bb050066c607730a9f637cc7c38f0678512efab89b9e0322a803c283",
+          "format": "OGG",
+          "archive_member": "Forest Whisper Theme/Forest Whisper.ogg"
+        },
+        {
+          "file": "Music/ForestWhisperTheme/Forest Whisper Theme/Forest Whisper.wav",
+          "bytes": 14515472,
+          "sha256": "cd834fafd028bb882500c49e7e766d50f9de337d644951bfdc4e68b09b91fadf",
+          "format": "WAV",
+          "duration_seconds": 82.2857,
+          "sample_rate": 44100,
+          "channels": 2,
+          "archive_member": "Forest Whisper Theme/Forest Whisper.wav"
+        },
+        {
+          "file": "Music/ForestWhisperTheme/Forest Whisper Theme/readme.txt",
+          "bytes": 493,
+          "sha256": "ce0df0e059c780cd4fd905d3a73c86f21ac548002c82db448334cb34a57f8291",
+          "archive_member": "Forest Whisper Theme/readme.txt"
+        }
+      ],
+      "status": "downloaded_original"
+    },
+    {
+      "id": "gone_fishin",
+      "title": "Gone Fishin'",
+      "author": "iamoneabe",
+      "source": "https://opengameart.org/content/gone-fishin-0",
+      "url": "https://opengameart.org/sites/default/files/gonefishin.wav",
+      "file": "Music/GoneFishin/gonefishin.wav",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "Music/GoneFishin/gonefishin.wav",
+        "bytes": 5376734,
+        "sha256": "37aa1f97fdb47ef37e7e7cf685224911ef5f1d0300814462c0ff5593c5eba3b5",
+        "format": "WAV",
+        "duration_seconds": 30.4762,
+        "sample_rate": 44100,
+        "channels": 2
+      },
+      "actual_download_url": "https://opengameart.org/sites/default/files/gonefishin.wav",
+      "files": [
+        {
+          "file": "Music/GoneFishin/gonefishin.wav",
+          "bytes": 5376734,
+          "sha256": "37aa1f97fdb47ef37e7e7cf685224911ef5f1d0300814462c0ff5593c5eba3b5",
+          "format": "WAV",
+          "duration_seconds": 30.4762,
+          "sample_rate": 44100,
+          "channels": 2
+        }
+      ],
+      "status": "downloaded_original"
+    },
+    {
+      "id": "cave_theme",
+      "title": "Mysterious Cave Theme Loop",
+      "author": "beardalaxy",
+      "source": "https://opengameart.org/content/mysterious-cave-theme-loop",
+      "url": "https://opengameart.org/sites/default/files/cave_in_game.ogg",
+      "file": "Music/MysteriousCaveTheme/cave_in_game.ogg",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "Music/MysteriousCaveTheme/cave_in_game.ogg",
+        "bytes": 920032,
+        "sha256": "c02d1600b403c1430d177cd95ed2bd1a4251ad445ec682711f31778a549df5e1",
+        "format": "OGG"
+      },
+      "actual_download_url": "https://opengameart.org/sites/default/files/cave_in_game.ogg",
+      "files": [
+        {
+          "file": "Music/MysteriousCaveTheme/cave_in_game.ogg",
+          "bytes": 920032,
+          "sha256": "c02d1600b403c1430d177cd95ed2bd1a4251ad445ec682711f31778a549df5e1",
+          "format": "OGG"
+        }
+      ],
+      "status": "downloaded_original"
+    },
+    {
+      "id": "water_splash",
+      "title": "40 CC0 water / splash / slime SFX",
+      "author": "rubberduck",
+      "source": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip",
+      "file": "Archives/water-splash-slime-sfx.zip",
+      "extract": "SFX/WaterSplashSlime",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "Archives/water-splash-slime-sfx.zip",
+        "bytes": 2259262,
+        "sha256": "7cd39abb49d4362a37ba18dc0e454c7dc1d08029d4e5b683149046bc237b2eba"
+      },
+      "actual_download_url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip",
+      "archive_crc_verified": true,
+      "files": [
+        {
+          "file": "SFX/WaterSplashSlime/bubble_01.ogg",
+          "bytes": 30671,
+          "sha256": "1d03d72347019be889280efc6de5ca5ea439d0b24b235e6db87e5bf7583ecb2b",
+          "format": "OGG",
+          "archive_member": "bubble_01.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/bubble_02.ogg",
+          "bytes": 16017,
+          "sha256": "7992a1a4637ea727b177b3edbc086ec280167d67a8fad010bb8fb58893b2e2f2",
+          "format": "OGG",
+          "archive_member": "bubble_02.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/bubble_03.ogg",
+          "bytes": 34871,
+          "sha256": "6189106305ab917f1a260b66a74380ed7d6e5be0fb4f5eba3ac93aeb89d9b7ca",
+          "format": "OGG",
+          "archive_member": "bubble_03.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/loop_bubbles_1.ogg",
+          "bytes": 187538,
+          "sha256": "5ae25a9734a05f60e57a1b1db2fa9afaddf972c1a2927c1e743e720fcdaaccfe",
+          "format": "OGG",
+          "archive_member": "loop_bubbles_1.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/loop_bubbles_02.ogg",
+          "bytes": 316960,
+          "sha256": "e1b572a7a0ed264313b1ed3e66c3ee9839bcc04fd0bea913ff68158208623166",
+          "format": "OGG",
+          "archive_member": "loop_bubbles_02.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/loop_rain.ogg",
+          "bytes": 290435,
+          "sha256": "4e836ff06b7d88b97c17ec08f43c3678201bee1ec414bcb456252f784a7be4a4",
+          "format": "OGG",
+          "archive_member": "loop_rain.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/loop_water_01.ogg",
+          "bytes": 176039,
+          "sha256": "11ebdc63e0178f4de48167570e51a60a9ce968451ce60ff49a3c1faceabf1e0b",
+          "format": "OGG",
+          "archive_member": "loop_water_01.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/loop_water_02.ogg",
+          "bytes": 269372,
+          "sha256": "2a39d9c6d3069e94f15b092f15bcfac7de54ca1bdc7c0b9a02b151bda6f3a29d",
+          "format": "OGG",
+          "archive_member": "loop_water_02.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/loop_water_03.ogg",
+          "bytes": 172397,
+          "sha256": "39b165ed0b2eda87e8db6176d8c3f4c7eb791e009d83481a2b4d7483c725d818",
+          "format": "OGG",
+          "archive_member": "loop_water_03.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_01.ogg",
+          "bytes": 18630,
+          "sha256": "4273c9510b03c3cc6b2d901fbd20de62ff4f537e4077a368355039c3081099a1",
+          "format": "OGG",
+          "archive_member": "slime_01.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_02.ogg",
+          "bytes": 21187,
+          "sha256": "a4ba1530c081706cb7ce8a08702c3552437561c33b851fe46e97d3232574320c",
+          "format": "OGG",
+          "archive_member": "slime_02.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_03.ogg",
+          "bytes": 32308,
+          "sha256": "e78e0702ac671ae098537266cb6f9106d2402ed99b6554b1429327ec603c3dae",
+          "format": "OGG",
+          "archive_member": "slime_03.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_04.ogg",
+          "bytes": 19374,
+          "sha256": "56f914928bf8f81662a1c4f354ef690600abd5172bb1cf259f55cb38ed7e4a1d",
+          "format": "OGG",
+          "archive_member": "slime_04.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_05.ogg",
+          "bytes": 21790,
+          "sha256": "6127939fac0319d821e13c54c14b6ccb16544f5ac1c5e4057ea6e75fc308f70f",
+          "format": "OGG",
+          "archive_member": "slime_05.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_06.ogg",
+          "bytes": 24107,
+          "sha256": "4b01dbfa60ed6d134680023fe61911f91a04e0739c991d45338b004c4f230b6d",
+          "format": "OGG",
+          "archive_member": "slime_06.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_07.ogg",
+          "bytes": 22392,
+          "sha256": "c9b1cfeaed0b9d65a04a67cac302861bd6ee750a054b55f0a6b9ac4ddb0ada36",
+          "format": "OGG",
+          "archive_member": "slime_07.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_08.ogg",
+          "bytes": 29924,
+          "sha256": "d658b872438737d4bfd0b3b7c1b325f94a4467796266e02ff6f79cf8f3001666",
+          "format": "OGG",
+          "archive_member": "slime_08.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_09.ogg",
+          "bytes": 32747,
+          "sha256": "a3e04bf955878cc5316e9c480739504ee6fb2f7a3a94aba8ca4efa1c4b74fb3c",
+          "format": "OGG",
+          "archive_member": "slime_09.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_10.ogg",
+          "bytes": 27324,
+          "sha256": "162ef7a48c3088c117bdd5c07d7eac76b790bd06412d85c1d5907ece86dafec1",
+          "format": "OGG",
+          "archive_member": "slime_10.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_11.ogg",
+          "bytes": 21546,
+          "sha256": "949f2d48602ac23a2697626b574a5bc782cb2e4f0e03931d0ae57455c73eaabe",
+          "format": "OGG",
+          "archive_member": "slime_11.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_12.ogg",
+          "bytes": 13644,
+          "sha256": "de5437b5ad2af49f6914679011bb212934986c1e13e9a4c9cf45537490f66f6e",
+          "format": "OGG",
+          "archive_member": "slime_12.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_13.ogg",
+          "bytes": 28613,
+          "sha256": "d6e64612d1b539971ef9ea0ba8c803841b71a144d5e04491d7019be10087a931",
+          "format": "OGG",
+          "archive_member": "slime_13.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_14.ogg",
+          "bytes": 20054,
+          "sha256": "37215c6a71c3f97c87c6e687346dd4c1542276c9d22eb1c0488ba1e15ea93b79",
+          "format": "OGG",
+          "archive_member": "slime_14.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_15.ogg",
+          "bytes": 23204,
+          "sha256": "5e1581251516ed8e0e86f013cac317cfd574ffd5740e82798f5c4561915e8294",
+          "format": "OGG",
+          "archive_member": "slime_15.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/slime_16.ogg",
+          "bytes": 19115,
+          "sha256": "9f50f3732420288170866ad29afb46bccfc1eae5f7474937f02d4ed6ada69725",
+          "format": "OGG",
+          "archive_member": "slime_16.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_01.ogg",
+          "bytes": 64822,
+          "sha256": "156f4df0fa1a552d1c4e451284a55000417ea871954dc4b5e0d4302a49e228a8",
+          "format": "OGG",
+          "archive_member": "splash_01.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_02.ogg",
+          "bytes": 37895,
+          "sha256": "eab0bb4bc01386528ba1e6244c6fd8940ee8d3c91ddb9e9cfea186e8560e04de",
+          "format": "OGG",
+          "archive_member": "splash_02.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_03.ogg",
+          "bytes": 32013,
+          "sha256": "ae2cff9a47934ece590dda45ff18acf89c5c98cb5497ce71c50b3a315b225a94",
+          "format": "OGG",
+          "archive_member": "splash_03.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_04.ogg",
+          "bytes": 46571,
+          "sha256": "58dddea3843b89e9504e6f174ea49cd061b1002bb6ae8a94f358409fabb8340a",
+          "format": "OGG",
+          "archive_member": "splash_04.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_05.ogg",
+          "bytes": 49582,
+          "sha256": "7aeaf4ac236629cf71042f56592ffc50e36f552df12c8442600839ce10156ca3",
+          "format": "OGG",
+          "archive_member": "splash_05.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_06.ogg",
+          "bytes": 25975,
+          "sha256": "3581e5bee7307cbe6be17715714029259685ba283cb3423938378506b386afb4",
+          "format": "OGG",
+          "archive_member": "splash_06.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_07.ogg",
+          "bytes": 62804,
+          "sha256": "307e6ea8d4ed122d1f54377437194daf4c2d6103d3a04dd9128c3d7a342d46b8",
+          "format": "OGG",
+          "archive_member": "splash_07.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_08.ogg",
+          "bytes": 36747,
+          "sha256": "fd4c9c8fbfe4ac7348644918a73b1d004b037bac3ef24a1303549b705624828a",
+          "format": "OGG",
+          "archive_member": "splash_08.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_09.ogg",
+          "bytes": 14795,
+          "sha256": "123f78e6bef82b5dfb24f0a93f759b309bd12b21d05905ab401756fc588a31dc",
+          "format": "OGG",
+          "archive_member": "splash_09.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_10.ogg",
+          "bytes": 18959,
+          "sha256": "69ec352dc6c0ea4691435e692063f903c98e5292579ba71297d4fbdb51c33649",
+          "format": "OGG",
+          "archive_member": "splash_10.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_11.ogg",
+          "bytes": 56216,
+          "sha256": "408bd00463f8aba63b470c424b90672c71e8b8596d2cbc23b0d467752b18199a",
+          "format": "OGG",
+          "archive_member": "splash_11.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_12.ogg",
+          "bytes": 36732,
+          "sha256": "59d425f60046afd9c4ea15e85037bcc4e4a0172b5d267852ab1b0571d06d5604",
+          "format": "OGG",
+          "archive_member": "splash_12.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_13.ogg",
+          "bytes": 38631,
+          "sha256": "10bf42f906ea0366c2091405b7d355e74a496b1fe1c4bd40d8965d703c0db2d7",
+          "format": "OGG",
+          "archive_member": "splash_13.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_14.ogg",
+          "bytes": 27752,
+          "sha256": "018984c8e03488b65d4c2dd6e08a9c2115b395ded80cf7209f893e7e664c5d0e",
+          "format": "OGG",
+          "archive_member": "splash_14.ogg"
+        },
+        {
+          "file": "SFX/WaterSplashSlime/splash_15.ogg",
+          "bytes": 25671,
+          "sha256": "9b0ef483f0d8939199c10ecf26d952fda92637cb7e1f323decb9388a07a79b03",
+          "format": "OGG",
+          "archive_member": "splash_15.ogg"
+        }
+      ],
+      "status": "downloaded_original"
+    },
+    {
+      "id": "kenney_impact",
+      "title": "Impact Sounds",
+      "author": "Kenney",
+      "source": "https://kenney.nl/assets/impact-sounds",
+      "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "file": "Archives/kenney_impact-sounds.zip",
+      "extract": "SFX/KenneyImpactSounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "Archives/kenney_impact-sounds.zip",
+        "bytes": 800850,
+        "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
+      },
+      "actual_download_url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "archive_crc_verified": true,
+      "files": [
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_carpet_000.ogg",
+          "bytes": 6353,
+          "sha256": "b9524658b52a99a20590f8feefc103088637fd13ea8ec35811aee785e1f2f330",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_carpet_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_carpet_001.ogg",
+          "bytes": 6411,
+          "sha256": "9af3c3f76705107339e72036e4053bdca3eaa50ad31c8c929f42ce8d40e5d781",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_carpet_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_carpet_002.ogg",
+          "bytes": 6411,
+          "sha256": "9af3c3f76705107339e72036e4053bdca3eaa50ad31c8c929f42ce8d40e5d781",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_carpet_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_carpet_003.ogg",
+          "bytes": 6301,
+          "sha256": "4ae7454338d57c7d102145919ae653c7d010eb542797c4f25a1c7470be3a7e4c",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_carpet_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_carpet_004.ogg",
+          "bytes": 6301,
+          "sha256": "4ae7454338d57c7d102145919ae653c7d010eb542797c4f25a1c7470be3a7e4c",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_carpet_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_concrete_000.ogg",
+          "bytes": 5808,
+          "sha256": "d7267e183067757c92c169de2a379abea592cfca6b39bb2e8feea15221ad79fe",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_concrete_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_concrete_001.ogg",
+          "bytes": 6308,
+          "sha256": "507a75eb19b897087855a3be3cf11a12d7fa37d143ad535eeebe0b8031c7325d",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_concrete_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_concrete_002.ogg",
+          "bytes": 6255,
+          "sha256": "b21fa546d74941196b25da8a20b7010abd8c05c4fcf93545d1f344e66a664e13",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_concrete_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_concrete_003.ogg",
+          "bytes": 5805,
+          "sha256": "8b513c2f0316324060b9174b8f28df6c2147418c506e6a53b77f18e149a5547b",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_concrete_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_concrete_004.ogg",
+          "bytes": 5912,
+          "sha256": "24dd8db2413e5b81ad181e1205c12a1c7801da5f85715d471b92a4b2f632e45e",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_concrete_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_grass_000.ogg",
+          "bytes": 8290,
+          "sha256": "9d49497777405d78d7cf7f2888e28277f3a23192300cfd1d79d54876b20f479f",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_grass_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_grass_001.ogg",
+          "bytes": 8313,
+          "sha256": "fb28781bd22b2eefdc14077f1adf5c94d7fe9c3a130194633b55f3e0d39d9f04",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_grass_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_grass_002.ogg",
+          "bytes": 8278,
+          "sha256": "73a520139f5be716a403bfe9c80e0e94d1e61d8e9de04a354b336392164b53dc",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_grass_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_grass_003.ogg",
+          "bytes": 8129,
+          "sha256": "0546e1d8ab2def714425701a18bd34c5ee2794b12e858e5b595aabcf38a34137",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_grass_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_grass_004.ogg",
+          "bytes": 7800,
+          "sha256": "086fd4ab3546a507ea5f5c759a9a10e535c95ade13705c238bc0eeffd7d4e8ba",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_grass_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_snow_000.ogg",
+          "bytes": 7880,
+          "sha256": "c05fa4a9dc9a7aabc04996466fb589537e49af76de9998d8f9e6270ec92dcef7",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_snow_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_snow_001.ogg",
+          "bytes": 7794,
+          "sha256": "980fb9a1c9227aed7995067b0357f373053337f2416316db8ea0438418542fb4",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_snow_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_snow_002.ogg",
+          "bytes": 7694,
+          "sha256": "db52bafdc66304f3b999f2c29227826c65993916e630ac2ffbca17d07b263178",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_snow_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_snow_003.ogg",
+          "bytes": 7860,
+          "sha256": "68272e3f1cabcabd02d328fd344454d7c04cb58b5a86972fcdd858f845e3d007",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_snow_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_snow_004.ogg",
+          "bytes": 7630,
+          "sha256": "7fe9ce5f5732aaa0a50ef02bb1ac162c27f6bd85214e86aaea6e13e7a41dbc00",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_snow_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_wood_000.ogg",
+          "bytes": 5949,
+          "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_wood_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_wood_001.ogg",
+          "bytes": 5929,
+          "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_wood_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_wood_002.ogg",
+          "bytes": 5895,
+          "sha256": "9ff095b05cee5eec40b081defe3f0eef7232bb16d4865ce03b9f6dbab875cfdd",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_wood_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_wood_003.ogg",
+          "bytes": 6207,
+          "sha256": "2a68a083daa9eda08fed0ea5da5280dfbe0de226196c576be02f95259dd139d9",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_wood_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/footstep_wood_004.ogg",
+          "bytes": 5799,
+          "sha256": "b33e0854e2b3f6b6492e25c25ef8f90447a332f7c6bb25dd02edced9581d3441",
+          "format": "OGG",
+          "archive_member": "Audio/footstep_wood_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactBell_heavy_000.ogg",
+          "bytes": 13915,
+          "sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+          "format": "OGG",
+          "archive_member": "Audio/impactBell_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactBell_heavy_001.ogg",
+          "bytes": 15577,
+          "sha256": "9df61e3ae9a83dc65e5a1fd3ed19d480876f3b22b963a1b9ef6fa293592dcec4",
+          "format": "OGG",
+          "archive_member": "Audio/impactBell_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactBell_heavy_002.ogg",
+          "bytes": 9252,
+          "sha256": "a4171ed1a4a17fb858a38de1c59b5b42e50d8f046c525706c0e3ac8671f189f5",
+          "format": "OGG",
+          "archive_member": "Audio/impactBell_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactBell_heavy_003.ogg",
+          "bytes": 9429,
+          "sha256": "5572ccdeb3b62373b86fa955355b3a222c36e815f0636ba16165189a21cf2514",
+          "format": "OGG",
+          "archive_member": "Audio/impactBell_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactBell_heavy_004.ogg",
+          "bytes": 6529,
+          "sha256": "49fe4fafa2001bd0d312976796824571ca8429851f285997e1327d17bb34fd00",
+          "format": "OGG",
+          "archive_member": "Audio/impactBell_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGeneric_light_000.ogg",
+          "bytes": 5827,
+          "sha256": "f0e982611e97512fee5f777986b67e8b435434b601f94992ec044f7e89fb5acb",
+          "format": "OGG",
+          "archive_member": "Audio/impactGeneric_light_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGeneric_light_001.ogg",
+          "bytes": 5636,
+          "sha256": "c3cd1c073d186ae8fa35788ba94de581f1826e7427a7bb26490b2695fac18efa",
+          "format": "OGG",
+          "archive_member": "Audio/impactGeneric_light_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGeneric_light_002.ogg",
+          "bytes": 5795,
+          "sha256": "d0bf60905b59ff630ffe01eb0edeeacd2504eaa8fb6523aeef7d2458b78264d3",
+          "format": "OGG",
+          "archive_member": "Audio/impactGeneric_light_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGeneric_light_003.ogg",
+          "bytes": 5792,
+          "sha256": "0e8896706130f6bc88cdf1f0157aaacdbe88dce86cf0330f9136e44eb1209e81",
+          "format": "OGG",
+          "archive_member": "Audio/impactGeneric_light_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGeneric_light_004.ogg",
+          "bytes": 5747,
+          "sha256": "f906fa3a37acc4372787b496efcedefa2856045d5ec9456a3bd6c303c0eabb41",
+          "format": "OGG",
+          "archive_member": "Audio/impactGeneric_light_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_heavy_000.ogg",
+          "bytes": 7403,
+          "sha256": "b44b39a940e8948e74b9bd3776bff980df43cf220abdaf0d467dc4c43c0244a5",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_heavy_001.ogg",
+          "bytes": 8946,
+          "sha256": "58686e0e562612cc566791844a10e269f8d1921f4766c14ba43976fd0a429f4e",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_heavy_002.ogg",
+          "bytes": 7661,
+          "sha256": "4978654ac840ad519692d5d5ba48a8101cabce13b9a577be73ad589185e5e9ed",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_heavy_003.ogg",
+          "bytes": 6956,
+          "sha256": "aed07b154f24410c17e5262bbef832842fb275d41fe297f721af7501d0e9c23a",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_heavy_004.ogg",
+          "bytes": 8300,
+          "sha256": "c7742b0e33c1733ddaf902aa68464a4f5364e4d4cb6ff11b76a7aa4151a138dd",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_light_000.ogg",
+          "bytes": 6526,
+          "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_light_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_light_001.ogg",
+          "bytes": 6544,
+          "sha256": "05e513fbd42829060eb37855f8c3866722ec5c39a8937c9bfde518cc609effa2",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_light_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_light_002.ogg",
+          "bytes": 6562,
+          "sha256": "710db7451bb7857b9140dfe6afe4621ea2188ad65eda3919c569d1bb285b933d",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_light_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_light_003.ogg",
+          "bytes": 6618,
+          "sha256": "765290ce32fa108c939a0dbd6fbacbcd05abde622b57b708eb8a64058ef4225a",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_light_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_light_004.ogg",
+          "bytes": 6641,
+          "sha256": "f535b7cb7835400d8d28bcf9e1cf047ce3c0eb7a6456bdb1a4a27acbec1ed2cb",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_light_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_medium_000.ogg",
+          "bytes": 8400,
+          "sha256": "9252d50bfb85edb17d6073c4a7806e10cdb9de56d3dbfc93a4b9727146d2df6d",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_medium_001.ogg",
+          "bytes": 8605,
+          "sha256": "d3d806cb3012c9ddd87010b30295ccb74d6d8b690077d19e67afd09a9d8feb03",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_medium_002.ogg",
+          "bytes": 8341,
+          "sha256": "48616f22c95589ed9fe55babf0fd012721d7b2ef1b9e85c2ad6408a2cd7c164f",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_medium_003.ogg",
+          "bytes": 8596,
+          "sha256": "dccea1ecc3d942ee5fd217c684632638f6c039c97cd3ae59c75ab15d0c3f0b59",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactGlass_medium_004.ogg",
+          "bytes": 8397,
+          "sha256": "853fe77ad46bd0cf106e40e741b039e15b90f73edecd92cde524fbad9e3ebe00",
+          "format": "OGG",
+          "archive_member": "Audio/impactGlass_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_heavy_000.ogg",
+          "bytes": 6110,
+          "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_heavy_001.ogg",
+          "bytes": 7279,
+          "sha256": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_heavy_002.ogg",
+          "bytes": 5634,
+          "sha256": "b914c8f1eb7c0f34bb165d7c77f4be0351f6be0660c13c53e65424e262e2c093",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_heavy_003.ogg",
+          "bytes": 6209,
+          "sha256": "b0f2ba4dabde9a87eb9c188a19d31e0c2300fd321adeba08d3b9b8aa011d7037",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_heavy_004.ogg",
+          "bytes": 5788,
+          "sha256": "6d65b463c0555dd5be16b8db6d2cbe23a94e07a4637779b8ad17d0db3e500a87",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_light_000.ogg",
+          "bytes": 7651,
+          "sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_light_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_light_001.ogg",
+          "bytes": 6967,
+          "sha256": "fba69c467ddd85da7b1d82e259f936b876d9ba6a3d6f1b24bdd10468e46bfe08",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_light_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_light_002.ogg",
+          "bytes": 6804,
+          "sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_light_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_light_003.ogg",
+          "bytes": 9023,
+          "sha256": "92d5db6bfc672d9dc1b4f390b2900504f013187fa36335472554fafefa9050b1",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_light_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_light_004.ogg",
+          "bytes": 6675,
+          "sha256": "9b1c35820fba507081261f19ab5f461f69a5e2627a7d91acdb73ca3cfc997979",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_light_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_medium_000.ogg",
+          "bytes": 7117,
+          "sha256": "a96f879fec0864a8938e0c745b6996a6c5679c16a234ce31a01cc995e8401003",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_medium_001.ogg",
+          "bytes": 6151,
+          "sha256": "e8a9eaba7c4d27422e4eeb3e6c7100d5d7dc0f83e005efc98c960adcc5265337",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_medium_002.ogg",
+          "bytes": 5857,
+          "sha256": "7e89ce2ca0dbda95ea2b78d4b50791cab35c10d20e9f5ccd45dd0b00e99ff548",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_medium_003.ogg",
+          "bytes": 6964,
+          "sha256": "2a185e2e57211d02c1bdd33b872d6b6a2fe83e6c14f4e56f426a95e717acf08e",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMetal_medium_004.ogg",
+          "bytes": 5744,
+          "sha256": "03e10f800199c7166208e41c11cf4acfac6cc265467f02357da71972bc967295",
+          "format": "OGG",
+          "archive_member": "Audio/impactMetal_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMining_000.ogg",
+          "bytes": 12035,
+          "sha256": "36b4ea107222d073c67ca64dde26944975609202d5090b2f2021213c1a7e35cd",
+          "format": "OGG",
+          "archive_member": "Audio/impactMining_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMining_001.ogg",
+          "bytes": 11481,
+          "sha256": "61235a18de3f3d92118235398222dbf51d448f1be70b1c8bc962b10b86f2d9c6",
+          "format": "OGG",
+          "archive_member": "Audio/impactMining_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMining_002.ogg",
+          "bytes": 11235,
+          "sha256": "059558ec751115ca6b1441e00f0adc837c1a3eeb0a066b109e0fd879fc5d0b0c",
+          "format": "OGG",
+          "archive_member": "Audio/impactMining_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMining_003.ogg",
+          "bytes": 12160,
+          "sha256": "4237fa2cd80364ad81cd0af44f67d7497f1c5edcc7bdb02cd22be2ba4580c83d",
+          "format": "OGG",
+          "archive_member": "Audio/impactMining_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactMining_004.ogg",
+          "bytes": 11668,
+          "sha256": "8ca3a99d85d845751ad8ce7b40509da58263a62e48cde70e5a30b5ccef4c9a3b",
+          "format": "OGG",
+          "archive_member": "Audio/impactMining_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlank_medium_000.ogg",
+          "bytes": 12016,
+          "sha256": "8403cd7a043f0391574c88c55dd205743725b5363d2407f6de145f201690b68f",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlank_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlank_medium_001.ogg",
+          "bytes": 12082,
+          "sha256": "d7c304319f8beac616231b62041fa8da74045b62d7155965516efb9b19303df4",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlank_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlank_medium_002.ogg",
+          "bytes": 12313,
+          "sha256": "f6a14da45994229676b4f29e6a35f504b5c2ec2b8166fb1a3b1aa004bc6911ef",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlank_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlank_medium_003.ogg",
+          "bytes": 12138,
+          "sha256": "0602a7b3eab5f53484f10fe775ee4204e7a2ba9703c886b302e012f7f6fab8de",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlank_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlank_medium_004.ogg",
+          "bytes": 12084,
+          "sha256": "6a51318c1c63821ea757622b57fafbf44c16c28129f6d39406a784260d87c447",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlank_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_heavy_000.ogg",
+          "bytes": 10032,
+          "sha256": "112d4f93ddcc370b410630f971c0f5d991856102da9c76bc5c5540d388e75aaa",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_heavy_001.ogg",
+          "bytes": 8713,
+          "sha256": "142fd6c77f13d25f318265901163f70f8dfe12f87829169a570025be43de7011",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_heavy_002.ogg",
+          "bytes": 10188,
+          "sha256": "b0cab75d1befa32b4cf215d8ee7e1c400a39182e8b105963b8e310f825b198a1",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_heavy_003.ogg",
+          "bytes": 8490,
+          "sha256": "59775f8979a396c8a793b0a1db206d5bdc651eae808d858e9acaee8ebda5bc6d",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_heavy_004.ogg",
+          "bytes": 11092,
+          "sha256": "e31bfec90630155bcc6af541d1d14ae8202c435c52b42e6b6183fdb6ffb248b0",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_light_000.ogg",
+          "bytes": 10474,
+          "sha256": "6e797cf8a5bfc52d7ed5eb47c227974c1cf2a674954fec5b539cea7d62c7282c",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_light_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_light_001.ogg",
+          "bytes": 11730,
+          "sha256": "947915c2eb6ac57ee08fd3a48b297fd108d69abc72076e79882c21cad0eef56e",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_light_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_light_002.ogg",
+          "bytes": 9932,
+          "sha256": "8ac5869ea434cf0d364872774efe70b2d666a4f02ba35ddfc1e051d336721be8",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_light_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_light_003.ogg",
+          "bytes": 10626,
+          "sha256": "dbfb7c1d002576696df3e9a43d6639ee3f342068398b5e7b55bc2389d20508a9",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_light_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_light_004.ogg",
+          "bytes": 11928,
+          "sha256": "9cb33b0c0cce948313f078b60769d2f8e4075472494fc8f8129aa4a23c951897",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_light_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_medium_000.ogg",
+          "bytes": 10921,
+          "sha256": "b670d30452983369771081319c268475edaaafe782bf4e8d70bd7eef09d8823c",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_medium_001.ogg",
+          "bytes": 11491,
+          "sha256": "68ba7701b71ef620f498f3038e832157d71ac8db7ad59424545890b250ceb24e",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_medium_002.ogg",
+          "bytes": 10250,
+          "sha256": "68762e1ed49bb59ae6602fad6ce2ebac61958478ddb2668de9106f010cd4b6b0",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_medium_003.ogg",
+          "bytes": 11616,
+          "sha256": "964c5fcfb91e7710e2af25c2243c8b7160756b223b0984bacc9eb25bfeea057b",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPlate_medium_004.ogg",
+          "bytes": 10803,
+          "sha256": "f0e8164081190839caff6c2958361b22780ffba5617f77f2d4ee3a4275b318bf",
+          "format": "OGG",
+          "archive_member": "Audio/impactPlate_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_heavy_000.ogg",
+          "bytes": 11617,
+          "sha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_heavy_001.ogg",
+          "bytes": 10861,
+          "sha256": "f92f5cb6ba4ff2766497292ffd90865654317eeca976f5652e0708dbdcdc0dd9",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_heavy_002.ogg",
+          "bytes": 9025,
+          "sha256": "7993dd4c156b9979ad69f17be5ebe31850b16039a3857f8477141be54dfee1b3",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_heavy_003.ogg",
+          "bytes": 10029,
+          "sha256": "4ab53b26f4ea575120dcc1348526c9e0db2afc6af7a442aa0489bdead2ca80b6",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_heavy_004.ogg",
+          "bytes": 10452,
+          "sha256": "f4c0c3eb8ab6517583b8218ed03f28923d1b687379aab4c1d5a6d4c10cf8e500",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_medium_000.ogg",
+          "bytes": 8800,
+          "sha256": "486988aa2d6440ffc4c62a0e8ccf3c23673ba84424bd4723378d451b7255eb5c",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_medium_001.ogg",
+          "bytes": 8701,
+          "sha256": "e71d23abcc3f10d9d6bc9615b2a431fff70b12333a5fcdd9964457564ace4349",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_medium_002.ogg",
+          "bytes": 10399,
+          "sha256": "6492f9ccbc8d24dcef607bb1b48790b7870961474561f7fe5601e1c73a3018ef",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_medium_003.ogg",
+          "bytes": 9509,
+          "sha256": "2d7c719c05999e0532f4384e1018e04cd916db715140bf16dee2dff3f820e908",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactPunch_medium_004.ogg",
+          "bytes": 10032,
+          "sha256": "4a256878a3afb994ec9a4399336687748e68c7c136872c08c9c797d8c4e2464a",
+          "format": "OGG",
+          "archive_member": "Audio/impactPunch_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_heavy_000.ogg",
+          "bytes": 6570,
+          "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_heavy_001.ogg",
+          "bytes": 6689,
+          "sha256": "4d0096364ba9e46119d2ff6df493fdc101bd2e1efae061da5e5f77a53b3fdcb6",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_heavy_002.ogg",
+          "bytes": 6749,
+          "sha256": "d130ae541951243d3f6ed963d0057450a445ffe117fbf9a084d34eb1635cb563",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_heavy_003.ogg",
+          "bytes": 6665,
+          "sha256": "d00286a2dc62ee5cb4d42bf56120e7050a855f69e655fc1294410aadd337eba3",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_heavy_004.ogg",
+          "bytes": 6478,
+          "sha256": "e008f0b6b14f62339c8fe9f9b45cbd6317ba4f66604c4899053b8017020a36f0",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_medium_000.ogg",
+          "bytes": 5351,
+          "sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_medium_001.ogg",
+          "bytes": 5506,
+          "sha256": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_medium_002.ogg",
+          "bytes": 5358,
+          "sha256": "5069e3571a77d7f7aae9ef71d0364aa245fb7d64a7c8cc9956f221d03088c089",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_medium_003.ogg",
+          "bytes": 5392,
+          "sha256": "5c4a1f35fde7e14046931da7bc3d1b23736541b7190ba107e08a379c4ca43cd6",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactSoft_medium_004.ogg",
+          "bytes": 5438,
+          "sha256": "b0a4dea90eed47accf50b768beff1166f2f1486fb139e4d025b2427637624bca",
+          "format": "OGG",
+          "archive_member": "Audio/impactSoft_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactTin_medium_000.ogg",
+          "bytes": 6509,
+          "sha256": "f4bbee66ca191ec744b84fc07ac9ed2a6fda955d51cfed8360f12b62815d3cbd",
+          "format": "OGG",
+          "archive_member": "Audio/impactTin_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactTin_medium_001.ogg",
+          "bytes": 6603,
+          "sha256": "84253095543c094d83cd749f42ecfbc96e356b60385f18a192c18eafb25b3cc6",
+          "format": "OGG",
+          "archive_member": "Audio/impactTin_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactTin_medium_002.ogg",
+          "bytes": 6156,
+          "sha256": "c1d2c4f9910d4529581ae56a9a9a01454c4619fbb7d6da7616221d8ec58cc0c4",
+          "format": "OGG",
+          "archive_member": "Audio/impactTin_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactTin_medium_003.ogg",
+          "bytes": 6541,
+          "sha256": "0d18737d93ba7aa0669f751094cbc1671bbebac4fe207783922938ce75e24334",
+          "format": "OGG",
+          "archive_member": "Audio/impactTin_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactTin_medium_004.ogg",
+          "bytes": 6362,
+          "sha256": "fd53e24efec3d5c1cee5a46fee70f97efd4bd01e53ac5d9b5f3b6719dfe9f5aa",
+          "format": "OGG",
+          "archive_member": "Audio/impactTin_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_heavy_000.ogg",
+          "bytes": 6233,
+          "sha256": "15ff82332f342c30e469215539e1cc57e11b221aa2cf7e11e811d313a9927f3d",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_heavy_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_heavy_001.ogg",
+          "bytes": 6239,
+          "sha256": "f1b07a53ac10c615fff9ba470511fdeb722b5902e1a8520759fc20ad6f546015",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_heavy_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_heavy_002.ogg",
+          "bytes": 6146,
+          "sha256": "ce1e06f2a05f2634c645cb72f6a1623e64bc2d92be34917430a61031fb6597d4",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_heavy_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_heavy_003.ogg",
+          "bytes": 6181,
+          "sha256": "af07511902b309b3f6d8f0e1fafbe93869127fb88099ebdc0aa6a00a98dc3cb0",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_heavy_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_heavy_004.ogg",
+          "bytes": 6253,
+          "sha256": "2c647ae6bd29c72ae2523f7e16e325d8d331b75cc99ab4f637c48a0e11c34677",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_heavy_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_light_000.ogg",
+          "bytes": 6343,
+          "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_light_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_light_001.ogg",
+          "bytes": 6373,
+          "sha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_light_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_light_002.ogg",
+          "bytes": 6366,
+          "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_light_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_light_003.ogg",
+          "bytes": 6381,
+          "sha256": "cdfbe8af2fe7ff9ee28f337a0a989deee0f327620da456c8413644880e9d0004",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_light_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_light_004.ogg",
+          "bytes": 6395,
+          "sha256": "e10009f67ddaeb3a59a3e1129cfc1615d84ba60ab578eae07e7092ac223f099c",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_light_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_medium_000.ogg",
+          "bytes": 6575,
+          "sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_medium_000.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_medium_001.ogg",
+          "bytes": 6555,
+          "sha256": "15271dbe8e2872dbb0ff1aeb7b12b2d2b92b7c1951c88532b9ab9158c36dfc73",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_medium_001.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_medium_002.ogg",
+          "bytes": 6607,
+          "sha256": "3f3f1917428b828f733a963167833c707bf88296ff158e1559c57c5cb813d799",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_medium_002.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_medium_003.ogg",
+          "bytes": 6598,
+          "sha256": "635c37cfcd854b187d643d450ff0397798dcc29ae94da32192b814fae6bd854c",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_medium_003.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/Audio/impactWood_medium_004.ogg",
+          "bytes": 6481,
+          "sha256": "7ba48f2f99c91c71be420841a91f1e69c0cbc4fe887fcd7213144d67bb87b13a",
+          "format": "OGG",
+          "archive_member": "Audio/impactWood_medium_004.ogg"
+        },
+        {
+          "file": "SFX/KenneyImpactSounds/License.txt",
+          "bytes": 608,
+          "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+          "archive_member": "License.txt"
+        }
+      ],
+      "status": "downloaded_original"
+    },
+    {
+      "id": "chopping_wood",
+      "title": "chopping wood with axe.wav",
+      "author": "21100495",
+      "source": "https://freesound.org/people/21100495/sounds/655325/",
+      "url": "https://cdn.freesound.org/previews/655/655325_13723333-hq.mp3",
+      "file": "SFX/FreesoundPreviews/chopping_wood_655325_hq.mp3",
+      "preview": true,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "SFX/FreesoundPreviews/chopping_wood_655325_hq.mp3",
+        "bytes": 327648,
+        "sha256": "eed1cde19e170f0f4f5dfc21918accdfb1e4744defef218ea5c53090c504520b",
+        "format": "MP3"
+      },
+      "actual_download_url": "https://cdn.freesound.org/previews/655/655325_13723333-hq.mp3",
+      "files": [
+        {
+          "file": "SFX/FreesoundPreviews/chopping_wood_655325_hq.mp3",
+          "bytes": 327648,
+          "sha256": "eed1cde19e170f0f4f5dfc21918accdfb1e4744defef218ea5c53090c504520b",
+          "format": "MP3"
+        }
+      ],
+      "status": "downloaded_public_preview"
+    },
+    {
+      "id": "fishing_reel",
+      "title": "FishingReel.wav",
+      "author": "Harrisando",
+      "source": "https://freesound.org/people/Harrisando/sounds/466205/",
+      "url": "https://cdn.freesound.org/previews/466/466205_9855691-hq.mp3",
+      "file": "SFX/FreesoundPreviews/fishing_reel_466205_hq.mp3",
+      "preview": true,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "SFX/FreesoundPreviews/fishing_reel_466205_hq.mp3",
+        "bytes": 112608,
+        "sha256": "f7a826766a2b309f1bd5bc8d785b604071ad62ca88dbbb366da2c5db229c874c",
+        "format": "MP3"
+      },
+      "actual_download_url": "https://cdn.freesound.org/previews/466/466205_9855691-hq.mp3",
+      "files": [
+        {
+          "file": "SFX/FreesoundPreviews/fishing_reel_466205_hq.mp3",
+          "bytes": 112608,
+          "sha256": "f7a826766a2b309f1bd5bc8d785b604071ad62ca88dbbb366da2c5db229c874c",
+          "format": "MP3"
+        }
+      ],
+      "status": "downloaded_public_preview"
+    },
+    {
+      "id": "pickaxe",
+      "title": "Pickaxe",
+      "author": "CaptainYulef",
+      "source": "https://freesound.org/people/CaptainYulef/sounds/638696/",
+      "url": "https://cdn.freesound.org/previews/638/638696_13383190-hq.mp3",
+      "file": "SFX/FreesoundPreviews/pickaxe_638696_hq.mp3",
+      "preview": true,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloaded_on": "2026-10-11",
+      "download": {
+        "file": "SFX/FreesoundPreviews/pickaxe_638696_hq.mp3",
+        "bytes": 9342,
+        "sha256": "0ed7d0e2909f2cff7080613bca5327890597001897400fc187008011e5002150",
+        "format": "MP3"
+      },
+      "actual_download_url": "https://cdn.freesound.org/previews/638/638696_13383190-hq.mp3",
+      "files": [
+        {
+          "file": "SFX/FreesoundPreviews/pickaxe_638696_hq.mp3",
+          "bytes": 9342,
+          "sha256": "0ed7d0e2909f2cff7080613bca5327890597001897400fc187008011e5002150",
+          "format": "MP3"
+        }
+      ],
+      "status": "downloaded_public_preview"
+    }
+  ],
+  "source_evidence": [
+    {
+      "id": "forest_whisper",
+      "status": "saved",
+      "file": "Licenses/forest_whisper_source.html"
+    },
+    {
+      "id": "gone_fishin",
+      "status": "saved",
+      "file": "Licenses/gone_fishin_source.html"
+    },
+    {
+      "id": "cave_theme",
+      "status": "saved",
+      "file": "Licenses/cave_theme_source.html"
+    },
+    {
+      "id": "water_splash",
+      "status": "saved",
+      "file": "Licenses/water_splash_source.html"
+    },
+    {
+      "id": "kenney_impact",
+      "status": "saved",
+      "file": "Licenses/kenney_impact_source.html"
+    },
+    {
+      "id": "chopping_wood",
+      "status": "saved",
+      "file": "Licenses/chopping_wood_source.html"
+    },
+    {
+      "id": "fishing_reel",
+      "status": "saved",
+      "file": "Licenses/fishing_reel_source.html"
+    },
+    {
+      "id": "pickaxe",
+      "status": "saved",
+      "file": "Licenses/pickaxe_source.html"
+    }
+  ],
+  "note": "Freesound files are the openly published high-quality MP3 previews, not original WAV downloads. Original WAV downloads require login. No runtime audio references were changed."
+}

@@ -1,0 +1,48 @@
+Walala - harvest audio candidates (2026-10-11)
+All selected source pages identify these assets as CC0-1.0.
+https://creativecommons.org/publicdomain/zero/1.0/
+Freesound files: public high-quality MP3 previews; original WAV downloads require login.
+Music/ contains background music; SFX/ contains sound effects; Archives/ retains source ZIPs.
+Licenses/ retains source HTML for evidence only; do not execute archived HTML.
+No runtime mapping, settings, or saves were changed. Files retain original downloaded bytes.
+manifest.json records source URLs, download URLs, file sizes and SHA-256 hashes.
+
+Forest Whisper Theme - Cleyton Kauffman
+Source: https://opengameart.org/content/forest-whisper-theme
+Download: https://opengameart.org/sites/default/files/forest_whisper_theme.zip
+Status: downloaded_original
+
+Gone Fishin' - iamoneabe
+Source: https://opengameart.org/content/gone-fishin-0
+Download: https://opengameart.org/sites/default/files/gonefishin.wav
+Status: downloaded_original
+
+Mysterious Cave Theme Loop - beardalaxy
+Source: https://opengameart.org/content/mysterious-cave-theme-loop
+Download: https://opengameart.org/sites/default/files/cave_in_game.ogg
+Status: downloaded_original
+
+40 CC0 water / splash / slime SFX - rubberduck
+Source: https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+Download: https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip
+Status: downloaded_original
+
+Impact Sounds - Kenney
+Source: https://kenney.nl/assets/impact-sounds
+Download: https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip
+Status: downloaded_original
+
+chopping wood with axe.wav - 21100495
+Source: https://freesound.org/people/21100495/sounds/655325/
+Download: https://cdn.freesound.org/previews/655/655325_13723333-hq.mp3
+Status: downloaded_public_preview
+
+FishingReel.wav - Harrisando
+Source: https://freesound.org/people/Harrisando/sounds/466205/
+Download: https://cdn.freesound.org/previews/466/466205_9855691-hq.mp3
+Status: downloaded_public_preview
+
+Pickaxe - CaptainYulef
+Source: https://freesound.org/people/CaptainYulef/sounds/638696/
+Download: https://cdn.freesound.org/previews/638/638696_13383190-hq.mp3
+Status: downloaded_public_preview

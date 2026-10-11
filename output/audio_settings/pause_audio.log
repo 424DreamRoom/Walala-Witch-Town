@@ -1,0 +1,72 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+PAUSE AUDIO DRIVER WASAPI
+SCRIPT ERROR: Parse Error: Cannot infer the type of "building" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://Scenes/Save/save_menu.gd:111)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_pause_audio.gd:170)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Scenes/Gameplay/game_loop.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_pause_audio.gd:170)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Scenes/LanternLane/lantern_lane.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_pause_audio.gd:170)
+ERROR: Failed to load script "res://Scenes/LanternLane/lantern_lane.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_pause_audio.gd:170)
+ERROR: Resource file not found: res://Art/Environment/Hearthwood/outdoor_sign_furniture_store.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Gameplay/game_loop.gd:113)
+       [1] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [2] run (res://Sounds/Walala/verify_pause_audio.gd:171)
+SCRIPT ERROR: Cannot call method 'get_height' on a null value.
+   at: _ready (res://Scenes/Gameplay/game_loop.gd:114)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Gameplay/game_loop.gd:114)
+       [1] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [2] run (res://Sounds/Walala/verify_pause_audio.gd:171)
+PAUSE AUDIO rain menu background channels playing: PASS
+PAUSE AUDIO rain menu native music advances: PASS
+PAUSE AUDIO rain menu native ambience advances: PASS
+PAUSE AUDIO rain pause freezes clock and movement: FAIL
+PAUSE AUDIO rain pause completes music crossfade: PASS
+SCRIPT ERROR: Invalid call. Nonexistent function 'show_settings' in base 'Nil'.
+   at: menu_pause (res://Sounds/Walala/verify_pause_audio.gd:139)
+   GDScript backtrace (most recent call first):
+       [0] menu_pause (res://Sounds/Walala/verify_pause_audio.gd:139)
+       [1] background_advances (res://Sounds/Walala/verify_pause_audio.gd:122)
+       [2] wait_for (res://Sounds/Walala/verify_pause_audio.gd:22)
+PAUSE AUDIO snow menu background channels playing: PASS
+PAUSE AUDIO snow menu native music advances: PASS
+PAUSE AUDIO snow menu native ambience advances: PASS
+PAUSE AUDIO snow pause freezes clock and movement: FAIL
+PAUSE AUDIO snow pause completes music crossfade: PASS
+SCRIPT ERROR: Invalid call. Nonexistent function 'show_settings' in base 'Nil'.
+   at: menu_pause (res://Sounds/Walala/verify_pause_audio.gd:139)
+   GDScript backtrace (most recent call first):
+       [0] menu_pause (res://Sounds/Walala/verify_pause_audio.gd:139)
+       [1] background_advances (res://Sounds/Walala/verify_pause_audio.gd:122)
+       [2] wait_for (res://Sounds/Walala/verify_pause_audio.gd:22)
+PAUSE AUDIO keyboard opens backpack with sound: FAIL
+PAUSE AUDIO backpack preserves active action sound: PASS
+PAUSE AUDIO native action sound advances in backpack: PASS
+PAUSE AUDIO backpack background channels playing: PASS
+PAUSE AUDIO backpack native music advances: PASS
+PAUSE AUDIO backpack native ambience advances: PASS
+PAUSE AUDIO backpack freezes clock and movement: FAIL
+PAUSE AUDIO native action sound finishes during backpack pause: PASS
+SCRIPT ERROR: Invalid access to property or key 'chest_view' on a base object of type 'Nil'.
+   at: backpack_pause (res://Sounds/Walala/verify_pause_audio.gd:75)
+   GDScript backtrace (most recent call first):
+       [0] backpack_pause (res://Sounds/Walala/verify_pause_audio.gd:75)
+       [1] wait_for (res://Sounds/Walala/verify_pause_audio.gd:22)
+SCRIPT ERROR: Invalid call. Nonexistent function 'open' in base 'Nil'.
+   at: run (res://Sounds/Walala/verify_pause_audio.gd:180)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_pause_audio.gd:180)
+       [1] backpack_pause (res://Sounds/Walala/verify_pause_audio.gd:75)
+       [2] wait_for (res://Sounds/Walala/verify_pause_audio.gd:22)

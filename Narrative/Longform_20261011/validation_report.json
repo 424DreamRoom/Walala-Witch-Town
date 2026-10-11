@@ -1,0 +1,486 @@
+{
+  "status": "pass",
+  "counting_rule": "Only U+4E00–U+9FFF in scene lines[].text; exclude metadata, titles, speaker fields, punctuation and exact repeated line bodies from unique counts.",
+  "npc_count": 60,
+  "scene_count": 283,
+  "line_count": 4390,
+  "spoken_line_count": 3973,
+  "body_han": 121455,
+  "unique_body_han": 121435,
+  "spoken_han": 108325,
+  "unique_spoken_han": 108305,
+  "stage_han": 13130,
+  "body_unicode_characters": 137771,
+  "per_group": {
+    "mainline.json": {
+      "body_han": 17035,
+      "stage_han": 1892,
+      "spoken_han": 15143
+    },
+    "core_residents.json": {
+      "body_han": 34334,
+      "stage_han": 3012,
+      "spoken_han": 31322
+    },
+    "town_residents.json": {
+      "body_han": 35759,
+      "stage_han": 2308,
+      "spoken_han": 33451
+    },
+    "valley_residents.json": {
+      "body_han": 34327,
+      "stage_han": 5918,
+      "spoken_han": 28409
+    }
+  },
+  "per_npc": {
+    "yingluo": {
+      "spoken_han": 2566,
+      "spoken_lines": 91,
+      "scenes": 23,
+      "personal_scenes": 5,
+      "own_arc_scenes": 4
+    },
+    "toma": {
+      "spoken_han": 3245,
+      "spoken_lines": 130,
+      "scenes": 30,
+      "personal_scenes": 13,
+      "own_arc_scenes": 4
+    },
+    "orla": {
+      "spoken_han": 3673,
+      "spoken_lines": 153,
+      "scenes": 34,
+      "personal_scenes": 10,
+      "own_arc_scenes": 4
+    },
+    "lumi": {
+      "spoken_han": 1866,
+      "spoken_lines": 65,
+      "scenes": 18,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "nagi": {
+      "spoken_han": 2250,
+      "spoken_lines": 77,
+      "scenes": 18,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "mori": {
+      "spoken_han": 2034,
+      "spoken_lines": 63,
+      "scenes": 16,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "ember": {
+      "spoken_han": 2554,
+      "spoken_lines": 98,
+      "scenes": 22,
+      "personal_scenes": 11,
+      "own_arc_scenes": 4
+    },
+    "reed": {
+      "spoken_han": 1865,
+      "spoken_lines": 55,
+      "scenes": 11,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "yuki": {
+      "spoken_han": 2097,
+      "spoken_lines": 62,
+      "scenes": 15,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "pip": {
+      "spoken_han": 1811,
+      "spoken_lines": 64,
+      "scenes": 14,
+      "personal_scenes": 5,
+      "own_arc_scenes": 4
+    },
+    "aster": {
+      "spoken_han": 2313,
+      "spoken_lines": 66,
+      "scenes": 14,
+      "personal_scenes": 5,
+      "own_arc_scenes": 4
+    },
+    "fu": {
+      "spoken_han": 2214,
+      "spoken_lines": 103,
+      "scenes": 13,
+      "personal_scenes": 10,
+      "own_arc_scenes": 5
+    },
+    "mu": {
+      "spoken_han": 1917,
+      "spoken_lines": 50,
+      "scenes": 13,
+      "personal_scenes": 9,
+      "own_arc_scenes": 4
+    },
+    "dou": {
+      "spoken_han": 1538,
+      "spoken_lines": 51,
+      "scenes": 10,
+      "personal_scenes": 9,
+      "own_arc_scenes": 4
+    },
+    "song": {
+      "spoken_han": 1152,
+      "spoken_lines": 53,
+      "scenes": 8,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "qiao": {
+      "spoken_han": 1704,
+      "spoken_lines": 53,
+      "scenes": 9,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "ji": {
+      "spoken_han": 2042,
+      "spoken_lines": 72,
+      "scenes": 13,
+      "personal_scenes": 12,
+      "own_arc_scenes": 4
+    },
+    "shao": {
+      "spoken_han": 1387,
+      "spoken_lines": 34,
+      "scenes": 10,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "wen": {
+      "spoken_han": 2077,
+      "spoken_lines": 52,
+      "scenes": 11,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "zhen": {
+      "spoken_han": 1429,
+      "spoken_lines": 34,
+      "scenes": 9,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "wenchao": {
+      "spoken_han": 1343,
+      "spoken_lines": 57,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "zhao": {
+      "spoken_han": 1334,
+      "spoken_lines": 56,
+      "scenes": 8,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "cen": {
+      "spoken_han": 1483,
+      "spoken_lines": 51,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "ling": {
+      "spoken_han": 1638,
+      "spoken_lines": 39,
+      "scenes": 11,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "sui": {
+      "spoken_han": 2204,
+      "spoken_lines": 59,
+      "scenes": 14,
+      "personal_scenes": 12,
+      "own_arc_scenes": 4
+    },
+    "tie": {
+      "spoken_han": 1527,
+      "spoken_lines": 54,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "bo": {
+      "spoken_han": 1254,
+      "spoken_lines": 47,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "xia": {
+      "spoken_han": 1219,
+      "spoken_lines": 53,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "qiu": {
+      "spoken_han": 1698,
+      "spoken_lines": 59,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "bei": {
+      "spoken_han": 1400,
+      "spoken_lines": 32,
+      "scenes": 7,
+      "personal_scenes": 5,
+      "own_arc_scenes": 4
+    },
+    "zhou": {
+      "spoken_han": 1323,
+      "spoken_lines": 36,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "han": {
+      "spoken_han": 1616,
+      "spoken_lines": 40,
+      "scenes": 9,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "xing": {
+      "spoken_han": 1493,
+      "spoken_lines": 36,
+      "scenes": 9,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "yan": {
+      "spoken_han": 1650,
+      "spoken_lines": 45,
+      "scenes": 11,
+      "personal_scenes": 10,
+      "own_arc_scenes": 4
+    },
+    "bai": {
+      "spoken_han": 1117,
+      "spoken_lines": 25,
+      "scenes": 4,
+      "personal_scenes": 4,
+      "own_arc_scenes": 4
+    },
+    "ruan": {
+      "spoken_han": 1787,
+      "spoken_lines": 38,
+      "scenes": 11,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "lu": {
+      "spoken_han": 1491,
+      "spoken_lines": 31,
+      "scenes": 9,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "tang": {
+      "spoken_han": 1792,
+      "spoken_lines": 34,
+      "scenes": 9,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "chun": {
+      "spoken_han": 1637,
+      "spoken_lines": 31,
+      "scenes": 8,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "shi": {
+      "spoken_han": 1748,
+      "spoken_lines": 37,
+      "scenes": 10,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "gu": {
+      "spoken_han": 1355,
+      "spoken_lines": 31,
+      "scenes": 8,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "mei": {
+      "spoken_han": 1763,
+      "spoken_lines": 41,
+      "scenes": 10,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "miao": {
+      "spoken_han": 1415,
+      "spoken_lines": 34,
+      "scenes": 8,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "zhu": {
+      "spoken_han": 1587,
+      "spoken_lines": 33,
+      "scenes": 8,
+      "personal_scenes": 5,
+      "own_arc_scenes": 4
+    },
+    "yu": {
+      "spoken_han": 1477,
+      "spoken_lines": 35,
+      "scenes": 10,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "he": {
+      "spoken_han": 1587,
+      "spoken_lines": 38,
+      "scenes": 11,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "qin": {
+      "spoken_han": 1574,
+      "spoken_lines": 46,
+      "scenes": 11,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "feng": {
+      "spoken_han": 1485,
+      "spoken_lines": 36,
+      "scenes": 10,
+      "personal_scenes": 7,
+      "own_arc_scenes": 4
+    },
+    "lin": {
+      "spoken_han": 1822,
+      "spoken_lines": 36,
+      "scenes": 9,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "an": {
+      "spoken_han": 1416,
+      "spoken_lines": 34,
+      "scenes": 9,
+      "personal_scenes": 6,
+      "own_arc_scenes": 4
+    },
+    "luo": {
+      "spoken_han": 1192,
+      "spoken_lines": 70,
+      "scenes": 10,
+      "personal_scenes": 8,
+      "own_arc_scenes": 5
+    },
+    "chen": {
+      "spoken_han": 1447,
+      "spoken_lines": 70,
+      "scenes": 11,
+      "personal_scenes": 9,
+      "own_arc_scenes": 5
+    },
+    "mo": {
+      "spoken_han": 1912,
+      "spoken_lines": 79,
+      "scenes": 10,
+      "personal_scenes": 8,
+      "own_arc_scenes": 5
+    },
+    "jiang": {
+      "spoken_han": 1462,
+      "spoken_lines": 56,
+      "scenes": 8,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "hu": {
+      "spoken_han": 904,
+      "spoken_lines": 48,
+      "scenes": 8,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "niao": {
+      "spoken_han": 1353,
+      "spoken_lines": 47,
+      "scenes": 8,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "luye": {
+      "spoken_han": 1238,
+      "spoken_lines": 42,
+      "scenes": 8,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "hai": {
+      "spoken_han": 1162,
+      "spoken_lines": 43,
+      "scenes": 8,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "xun": {
+      "spoken_han": 1238,
+      "spoken_lines": 45,
+      "scenes": 8,
+      "personal_scenes": 8,
+      "own_arc_scenes": 4
+    },
+    "pao": {
+      "spoken_han": 893,
+      "spoken_lines": 29,
+      "scenes": 4,
+      "personal_scenes": 4,
+      "own_arc_scenes": 4
+    }
+  },
+  "repeated_long_lines": [],
+  "long_spoken_lines": [],
+  "source_sha256": {
+    "mainline.json": "b0f9dca07e910c39120d0a123463122dd392b410bcbea4f008de99a76d25e3c7",
+    "core_residents.json": "8d6b08fb410cd7ed3b88131f5531a8512c775fc731b150902f772f66b221ea1a",
+    "town_residents.json": "72518e7d40eaf5e30c8051eef1c8b2d926c11d7cc56b96ec6b7d585f047877ed",
+    "valley_residents.json": "3f8fd1bf479f4e3079ff20cebf775f0ddaf376b4984e995b8b760058b6c5ec1d"
+  },
+  "protection": {
+    "checked": true,
+    "myart_files": 3,
+    "myart_unchanged": true,
+    "existing_runtime_unchanged": false,
+    "changed_runtime": [
+      "Scenes\\Campaign\\content.json",
+      "Scenes\\Campaign\\content.gd",
+      "Scenes\\Campaign\\build_content.py",
+      "Scenes\\Campaign\\campaign_controller.gd",
+      "Localization\\messages.tsv",
+      "Localization\\catalog.gd"
+    ]
+  },
+  "errors": [],
+  "warnings": [
+    "Existing runtime files changed concurrently after baseline. This packaging workflow writes only inside its own content directory; preserve and inspect those changes without reverting them."
+  ],
+  "integration_status": "Independent authored Chinese content package; no runtime/UI/save/localization integration performed.",
+  "review_scope": "Automated schema, IDs, speakers, references, acyclic prerequisites, chapter ordering, control-copy screening, counts and protection hashes. Literary quality and nuanced continuity need editorial judgment; manual sample review recorded separately."
+}

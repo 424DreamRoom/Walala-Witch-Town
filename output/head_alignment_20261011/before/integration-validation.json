@@ -1,0 +1,43 @@
+{
+  "status": "PASS_WITH_EXISTING_DAY_FLOW_FAILURES",
+  "source_and_render_pass": true,
+  "godot": "4.7.2.stable.steam",
+  "aseprite": "1.3.18.6-x64",
+  "lane": {
+    "passed": 67,
+    "failed": 0,
+    "failures": []
+  },
+  "render": {
+    "passed": 192,
+    "failed": 0,
+    "failures": []
+  },
+  "harvest": {
+    "passed": 466,
+    "failed": 5,
+    "failures": [
+      "HARVEST TEST day end cancels action and moves to restaurant preparation: FAIL",
+      "HARVEST TEST confirmed opening starts service: FAIL",
+      "HARVEST TEST resources carry into next day: FAIL",
+      "HARVEST TEST nodes and fish refresh next day: FAIL",
+      "HARVEST TEST refreshed tree art: FAIL"
+    ]
+  },
+  "prior_harvest_animation_baseline": {
+    "passed": 82,
+    "failed": 5,
+    "failures": [
+      "HARVEST TEST day end cancels action and moves to restaurant preparation: FAIL",
+      "HARVEST TEST confirmed opening starts service: FAIL",
+      "HARVEST TEST resources carry into next day: FAIL",
+      "HARVEST TEST nodes and fish refresh next day: FAIL",
+      "HARVEST TEST refreshed tree art: FAIL"
+    ]
+  },
+  "same_baseline_failures": true,
+  "myart_hashes_unchanged": true,
+  "isolated_settings_and_saves": true,
+  "import_note": "Import completed; existing editor FMOD library-copy errors were logged. Runtime checks initialized FMOD successfully.",
+  "logs": "../../../../output/witch-aseprite32/"
+}

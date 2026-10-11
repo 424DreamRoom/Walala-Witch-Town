@@ -1,0 +1,91 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+DAY NIGHT TEST one game day lasts fifteen real minutes: PASS
+DAY NIGHT TEST new day starts at 06:00: PASS
+DAY NIGHT TEST half-hour clock at 360.0: PASS
+DAY NIGHT TEST half-hour clock at 373.0: PASS
+DAY NIGHT TEST half-hour clock at 389.99: PASS
+DAY NIGHT TEST half-hour clock at 390.0: PASS
+DAY NIGHT TEST half-hour clock at 419.99: PASS
+DAY NIGHT TEST half-hour clock at 420.0: PASS
+DAY NIGHT TEST half-hour clock at 1439.0: PASS
+DAY NIGHT TEST period boundary 360: PASS
+DAY NIGHT TEST saved clock restores 360: PASS
+DAY NIGHT TEST period boundary 539: PASS
+DAY NIGHT TEST saved clock restores 539: PASS
+DAY NIGHT TEST period boundary 540: PASS
+DAY NIGHT TEST saved clock restores 540: PASS
+DAY NIGHT TEST period boundary 1019: PASS
+DAY NIGHT TEST saved clock restores 1019: PASS
+DAY NIGHT TEST period boundary 1020: PASS
+DAY NIGHT TEST saved clock restores 1020: PASS
+DAY NIGHT TEST period boundary 1080: PASS
+DAY NIGHT TEST saved clock restores 1080: PASS
+DAY NIGHT TEST period boundary 1199: PASS
+DAY NIGHT TEST saved clock restores 1199: PASS
+DAY NIGHT TEST period boundary 1200: PASS
+DAY NIGHT TEST saved clock restores 1200: PASS
+DAY NIGHT TEST period boundary 1439: PASS
+DAY NIGHT TEST saved clock restores 1439: PASS
+DAY NIGHT TEST legacy save keeps clock in day: PASS
+DAY NIGHT TEST save normalization scales only once in day: PASS
+DAY NIGHT TEST legacy save keeps clock in night: PASS
+DAY NIGHT TEST save normalization scales only once in night: PASS
+DAY NIGHT TEST legacy save keeps clock in result: PASS
+DAY NIGHT TEST save normalization scales only once in result: PASS
+DAY NIGHT TEST timer reaches daytime at 09:00: PASS
+DAY NIGHT TEST timer reaches evening at 17:00: PASS
+DAY NIGHT TEST automatic service begins at 18:00: PASS
+DAY NIGHT TEST timer reaches night at 20:00: PASS
+DAY NIGHT TEST day is still active after 899 real seconds: PASS
+DAY NIGHT TEST settlement freezes at 24:00: PASS
+DAY NIGHT TEST settlement clock does not advance: PASS
+DAY NIGHT TEST next day resets to morning: PASS
+DAY NIGHT TEST manual service jumps clock to 18:00: PASS
+DAY NIGHT TEST continuous lighting at 540.0: PASS
+DAY NIGHT TEST continuous lighting at 960.0: PASS
+DAY NIGHT TEST continuous lighting at 1020.0: PASS
+DAY NIGHT TEST continuous lighting at 1080.0: PASS
+DAY NIGHT TEST continuous lighting at 1200.0: PASS
+DAY NIGHT TEST continuous lighting at 1320.0: PASS
+DAY NIGHT TEST one canvas modulator in gameplay viewport: PASS
+DAY NIGHT TEST town lamps follow six map fixtures: PASS
+DAY NIGHT TEST HUD text and hands update together at 373.0: PASS
+DAY NIGHT TEST HUD text and hands update together at 389.99: PASS
+DAY NIGHT TEST HUD text and hands update together at 390.0: PASS
+DAY NIGHT TEST HUD text and hands update together at 419.99: PASS
+DAY NIGHT TEST HUD text and hands update together at 420.0: PASS
+DAY NIGHT TEST scene and HUD share morning: PASS
+DAY NIGHT TEST sun and moon match morning: PASS
+DAY NIGHT TEST world tint matches morning: PASS
+DAY NIGHT TEST scene and HUD share day: PASS
+DAY NIGHT TEST sun and moon match day: PASS
+DAY NIGHT TEST world tint matches day: PASS
+DAY NIGHT TEST scene and HUD share evening: PASS
+DAY NIGHT TEST sun and moon match evening: PASS
+DAY NIGHT TEST world tint matches evening: PASS
+DAY NIGHT TEST scene and HUD share night: PASS
+DAY NIGHT TEST sun and moon match night: PASS
+DAY NIGHT TEST world tint matches night: PASS
+DAY NIGHT TEST night lamps emit light: PASS
+DAY NIGHT TEST indoor light readable in home: PASS
+DAY NIGHT TEST indoor light readable in restaurant: PASS
+DAY NIGHT TEST indoor light readable in blacksmith: PASS
+DAY NIGHT TEST indoor light readable in store: PASS
+DAY NIGHT TEST return outdoors restores night lighting: PASS
+DAY NIGHT TEST farm shares outdoor night and has two lamps: PASS
+DAY NIGHT TEST weather retains nighttime tint rain: PASS
+DAY NIGHT TEST weather retains nighttime tint snow: PASS
+DAY NIGHT TEST weather retains nighttime tint clear: PASS
+DAY NIGHT TEST outdoor daylight in field: PASS
+DAY NIGHT TEST outdoor daylight in dock: PASS
+DAY NIGHT TEST outdoor daylight in farm: PASS
+DAY NIGHT TEST outdoor daylight in town: PASS
+DAY NIGHT TEST daytime lamps switch off after rebuild: PASS
+DAY NIGHT TEST real timer changes period: PASS
+DAY NIGHT TEST journal pauses clock and lighting: PASS
+DAY NIGHT TEST fresh scene loads saved night and weather: PASS
+DAY NIGHT TEST night ends at dark settlement: PASS
+DAY NIGHT TEST next day restores morning HUD and lamps: PASS
+DAY NIGHT TEST automatic day end enters lit restaurant at evening: PASS
+DAY NIGHT VERIFY END failures=0

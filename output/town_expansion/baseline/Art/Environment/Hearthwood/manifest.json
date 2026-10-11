@@ -1,0 +1,396 @@
+{
+  "reference": "game reference screenshot: Touhou Mystia's Izakaya home interior",
+  "method": "original native-resolution Pillow raster pixel drawing; no reference pixels copied",
+  "pixel_grid": 1,
+  "character_cell": [
+    32,
+    48
+  ],
+  "seed": 10102026,
+  "palette": {
+    "ink": "#30251f",
+    "deep": "#453022",
+    "bark": "#624329",
+    "wood": "#96613d",
+    "wood_mid": "#ad7750",
+    "wood_light": "#c28c60",
+    "grain": "#825433",
+    "gold": "#d3ab71",
+    "cream": "#ead6ad",
+    "linen": "#d9c6a0",
+    "stone": "#8b8976",
+    "stone_light": "#b4b09a",
+    "leaf_dark": "#354b3e",
+    "leaf": "#587457",
+    "leaf_light": "#819467",
+    "sage": "#99a188",
+    "teal": "#647e7b",
+    "teal_light": "#9baea0",
+    "rose": "#b87779",
+    "rose_light": "#dba899",
+    "wine": "#7c414c",
+    "red": "#a35748",
+    "violet": "#87778e",
+    "blue": "#7b91a0"
+  },
+  "assets": {
+    "field_background.png": [
+      640,
+      360
+    ],
+    "gather_berry.png": [
+      32,
+      32
+    ],
+    "gather_depleted.png": [
+      32,
+      32
+    ],
+    "gather_herb.png": [
+      32,
+      32
+    ],
+    "gather_mushroom.png": [
+      32,
+      32
+    ],
+    "home_alchemy.png": [
+      120,
+      88
+    ],
+    "home_bed.png": [
+      96,
+      100
+    ],
+    "home_bookcase.png": [
+      112,
+      112
+    ],
+    "home_desk.png": [
+      88,
+      72
+    ],
+    "home_ground.png": [
+      640,
+      480
+    ],
+    "home_kitchen.png": [
+      100,
+      100
+    ],
+    "home_overview.png": [
+      640,
+      480
+    ],
+    "home_sofa.png": [
+      98,
+      70
+    ],
+    "home_stool.png": [
+      24,
+      24
+    ],
+    "home_table.png": [
+      88,
+      76
+    ],
+    "home_with_witch.png": [
+      640,
+      480
+    ],
+    "menu.png": [
+      48,
+      64
+    ],
+    "planter.png": [
+      48,
+      64
+    ],
+    "restaurant_background.png": [
+      640,
+      360
+    ],
+    "shop_0.png": [
+      192,
+      192
+    ],
+    "shop_1.png": [
+      192,
+      192
+    ],
+    "shop_2.png": [
+      192,
+      192
+    ],
+    "shop_3.png": [
+      192,
+      192
+    ],
+    "shop_4.png": [
+      192,
+      192
+    ],
+    "shop_5.png": [
+      192,
+      192
+    ],
+    "shop_6.png": [
+      192,
+      192
+    ],
+    "shop_7.png": [
+      192,
+      192
+    ],
+    "shop_8.png": [
+      192,
+      192
+    ],
+    "town_ground.png": [
+      1280,
+      960
+    ],
+    "town_overview.png": [
+      1280,
+      960
+    ],
+    "town_tree.png": [
+      64,
+      88
+    ],
+    "outdoor_lamp.png": [
+      32,
+      76
+    ],
+    "outdoor_bench.png": [
+      64,
+      38
+    ],
+    "outdoor_flowerbed.png": [
+      64,
+      32
+    ],
+    "outdoor_fence.png": [
+      64,
+      32
+    ],
+    "outdoor_mailbox.png": [
+      32,
+      44
+    ],
+    "outdoor_well.png": [
+      64,
+      68
+    ],
+    "outdoor_pond.png": [
+      80,
+      54
+    ],
+    "outdoor_barrel.png": [
+      32,
+      38
+    ],
+    "outdoor_crates.png": [
+      48,
+      38
+    ],
+    "outdoor_herbs.png": [
+      48,
+      28
+    ],
+    "outdoor_bush.png": [
+      48,
+      40
+    ],
+    "outdoor_fern.png": [
+      24,
+      20
+    ],
+    "outdoor_rock.png": [
+      40,
+      24
+    ],
+    "outdoor_log.png": [
+      56,
+      30
+    ],
+    "outdoor_birch.png": [
+      72,
+      104
+    ],
+    "outdoor_pine.png": [
+      64,
+      112
+    ],
+    "outdoor_sign_field.png": [
+      32,
+      40
+    ],
+    "outdoor_sign_restaurant.png": [
+      32,
+      40
+    ],
+    "outdoor_sign_home.png": [
+      32,
+      40
+    ],
+    "field_overview.png": [
+      640,
+      360
+    ],
+    "outdoor_ore.png": [
+      40,
+      24
+    ],
+    "harvest_stump.png": [
+      28,
+      18
+    ],
+    "harvest_rubble.png": [
+      40,
+      24
+    ],
+    "harvest_fish.png": [
+      16,
+      10
+    ],
+    "smith_furnace.png": [
+      112,
+      140
+    ],
+    "smith_workbench.png": [
+      126,
+      78
+    ],
+    "smith_rack.png": [
+      96,
+      64
+    ],
+    "smith_anvil.png": [
+      72,
+      58
+    ],
+    "smith_quench.png": [
+      48,
+      40
+    ],
+    "smith_ore_bin.png": [
+      76,
+      50
+    ],
+    "smith_bellows.png": [
+      50,
+      46
+    ],
+    "store_shelves.png": [
+      112,
+      122
+    ],
+    "store_dry_shelves.png": [
+      112,
+      114
+    ],
+    "store_counter.png": [
+      164,
+      72
+    ],
+    "store_produce.png": [
+      90,
+      54
+    ],
+    "store_sacks.png": [
+      70,
+      58
+    ],
+    "blacksmith_sign.png": [
+      34,
+      44
+    ],
+    "store_sign.png": [
+      34,
+      44
+    ],
+    "blacksmith_exterior.png": [
+      192,
+      192
+    ],
+    "blacksmith_ground.png": [
+      640,
+      480
+    ],
+    "blacksmith_overview.png": [
+      640,
+      480
+    ],
+    "store_exterior.png": [
+      192,
+      192
+    ],
+    "store_ground.png": [
+      640,
+      480
+    ],
+    "store_overview.png": [
+      640,
+      480
+    ],
+    "smith_fire.png": [
+      448,
+      140
+    ],
+    "town_fountain.png": [
+      96,
+      84
+    ],
+    "outdoor_sign_dock.png": [
+      56,
+      48
+    ],
+    "farm_ground.png": [
+      960,
+      720
+    ],
+    "farm_overview.png": [
+      960,
+      720
+    ]
+  },
+  "outdoors": {
+    "seed": 10102026,
+    "town_decorations": 84,
+    "field_objects": 30,
+    "field_foreground": "independent Y-sorted sprites",
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_outdoors.py"
+  },
+  "businesses": {
+    "seed": 101020264,
+    "buildings": [
+      "blacksmith",
+      "store"
+    ],
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_businesses.py"
+  },
+  "town_plan": {
+    "revision": 3,
+    "seed": 101020267,
+    "districts": 5,
+    "roads": "variable-width branching lanes around an irregular public square",
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_town_layout.py",
+    "references": [
+      "https://wiki.stardewvalley.net/Pelican_Town",
+      "https://fieldsofmistria.grandwiki.com/map/"
+    ]
+  },
+  "farm": {
+    "size": [
+      960,
+      720
+    ],
+    "plantable_tiles": 96,
+    "crop": "herb",
+    "growth_days": 3,
+    "house": "shop_0.png, relocated from town",
+    "seed": 11102026,
+    "rebuild": "python Art/Environment/Hearthwood/tools/build_farm.py"
+  }
+}

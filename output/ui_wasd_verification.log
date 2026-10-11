@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+WASD arrows leave main-menu focus unchanged: PASS
+WASD S moves main-menu focus down: PASS
+WASD W moves main-menu focus up: PASS
+WASD D selects right slot: PASS
+WASD S selects lower slot: PASS
+WASD A selects left slot: PASS
+WASD W selects upper slot: PASS
+WASD arrows leave slot focus unchanged: PASS
+POPUP initial 1
+POPUP after S 2
+WASD S navigates settings dropdown: PASS
+WASD W navigates settings dropdown: PASS
+WASD arrow leaves dropdown focus unchanged: PASS
+WASD S scrolls credits down: PASS
+WASD W scrolls credits up: PASS
+WASD arrow leaves credits scroll unchanged: PASS
+WASD VERIFY END failures=0

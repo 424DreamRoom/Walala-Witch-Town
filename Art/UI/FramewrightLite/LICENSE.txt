@@ -1,0 +1,5 @@
+Framewright license
+
+You may use these graphics in any number of your own games and apps, free or commercial, and modify them as you like. No credit is required (but it's appreciated).
+You may not resell or redistribute the graphics as standalone assets, or as part of another asset pack, template or UI kit, even if modified.
+Provided "as is", without warranty of any kind.

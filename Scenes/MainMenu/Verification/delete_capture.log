@@ -1,0 +1,61 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+SAVE DELETE TEST isolated paths: PASS
+SAVE DELETE TEST create fixture 1: PASS
+SAVE DELETE TEST create backup 1: PASS
+SAVE DELETE TEST create fixture 2: PASS
+SAVE DELETE TEST create backup 2: PASS
+SAVE DELETE TEST delete rejects invalid slots: PASS
+SAVE DELETE TEST delete complete slot: PASS
+SAVE DELETE TEST deleted slot cannot recover a backup: PASS
+SAVE DELETE TEST deleting an empty slot is harmless: PASS
+SAVE DELETE TEST other files unchanged: PASS
+SAVE DELETE TEST begin protected slot: PASS
+SAVE DELETE TEST active progress protected: PASS
+SAVE DELETE TEST create fixture 1: PASS
+SAVE DELETE TEST create backup 1: PASS
+SAVE DELETE TEST create fixture 4: PASS
+SAVE DELETE TEST create backup 4: PASS
+SAVE DELETE TEST occupied unreadable and backup slots can be deleted: PASS
+SAVE DELETE TEST save card layout preserved: PASS
+SAVE DELETE TEST delete buttons do not cover details: PASS
+SAVE DELETE TEST screenshot save_slots_delete: PASS
+SAVE DELETE TEST delete click does not start the game: PASS
+SAVE DELETE TEST confirmation identifies named slot: PASS
+SAVE DELETE TEST cancel focused by default: PASS
+SAVE DELETE TEST background is disabled: PASS
+SAVE DELETE TEST screenshot delete_confirmation: PASS
+SAVE DELETE TEST confirmation blocks background slot selection: PASS
+SAVE DELETE TEST default confirmation cancels without changing disk: PASS
+SAVE DELETE TEST cancel restores deletion focus: PASS
+SAVE DELETE TEST escape closes only confirmation: PASS
+SAVE DELETE TEST directional navigation reaches delete: PASS
+SAVE DELETE TEST tab reaches confirm: PASS
+SAVE DELETE TEST confirmation focus stays within dialog: PASS
+SAVE DELETE TEST confirmed deletion removes primary backup and temporary: PASS
+SAVE DELETE TEST deleted card refreshes in place: PASS
+SAVE DELETE TEST success status identifies slot: PASS
+SAVE DELETE TEST neighbor progress survives UI deletion: PASS
+SAVE DELETE TEST screenshot deleted_slot: PASS
+SAVE DELETE TEST deleted slot can start a fresh game: PASS
+SAVE DELETE TEST failed delete reports error without losing slot: PASS
+SAVE DELETE TEST directory collision is never removed: PASS
+SAVE DELETE TEST delete can be retried: PASS
+SAVE DELETE TEST delete damaged backup-only or incompatible slot 3: PASS
+SAVE DELETE TEST delete damaged backup-only or incompatible slot 4: PASS
+SAVE DELETE TEST delete damaged backup-only or incompatible slot 5: PASS
+SAVE DELETE TEST localized confirmation en: PASS
+SAVE DELETE TEST localized button fits en CancelDelete: PASS
+SAVE DELETE TEST localized button fits en ConfirmDelete: PASS
+SAVE DELETE TEST screenshot delete_confirmation_en: PASS
+SAVE DELETE TEST localized confirmation ja: PASS
+SAVE DELETE TEST localized button fits ja CancelDelete: PASS
+SAVE DELETE TEST localized button fits ja ConfirmDelete: PASS
+SAVE DELETE TEST screenshot delete_confirmation_ja: PASS
+SAVE DELETE TEST localized confirmation zh_TW: PASS
+SAVE DELETE TEST localized button fits zh_TW CancelDelete: PASS
+SAVE DELETE TEST localized button fits zh_TW ConfirmDelete: PASS
+SAVE DELETE TEST screenshot delete_confirmation_zh_TW: PASS
+SAVE DELETE TEST back still returns to menu: PASS
+SAVE DELETE VERIFY END failures=0

@@ -1,0 +1,12 @@
+config_version=5
+[application]
+config/name="Walala FMOD release verification"
+run/main_scene="res://verify.tscn"
+[Fmod]
+General/is_live_update_enabled=false
+[autoload]
+WalalaFmod="*res://Sounds/Walala/fmod_runtime.gd"
+[editor_plugins]
+enabled=PackedStringArray("res://addons/walala_fmod/plugin.cfg")
+[rendering]
+renderer/rendering_method="gl_compatibility"

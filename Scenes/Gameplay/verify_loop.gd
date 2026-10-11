@@ -17,17 +17,23 @@ func check(title: String, ok: bool) -> void:
 		failures += 1
 
 func frames(count: int) -> void:
+	if root.get_node("SceneTransition").active:
+		await root.get_node("SceneTransition").finished
 	for i in range(count):
 		await process_frame
+	if root.get_node("SceneTransition").active:
+		await root.get_node("SceneTransition").finished
 
 func key(code: int) -> void:
 	var e = InputEventKey.new()
 	e.physical_keycode = code
+	e.keycode = code
 	e.pressed = true
 	Input.parse_input_event(e)
 	await frames(2)
 	e = InputEventKey.new()
 	e.physical_keycode = code
+	e.keycode = code
 	e.pressed = false
 	Input.parse_input_event(e)
 	await frames(2)
@@ -36,32 +42,36 @@ func click(button: Button) -> void:
 	loop._refresh()
 	# Input delivered inside the real SubViewport (same hit testing as a mouse).
 	var motion = InputEventMouseMotion.new()
-	motion.position = lane.viewport.get_parent().position + (button.position + button.size * 0.5) * lane.viewport.get_parent().scale
+	motion.position = lane.viewport.get_parent().position + button.get_global_rect().get_center() * lane.viewport.get_parent().scale
 	root.push_input(motion, true)
 	await frames(2)
 	var e = InputEventMouseButton.new()
-	e.position = lane.viewport.get_parent().position + (button.position + button.size * 0.5) * lane.viewport.get_parent().scale
+	e.position = lane.viewport.get_parent().position + button.get_global_rect().get_center() * lane.viewport.get_parent().scale
 	e.button_index = MOUSE_BUTTON_LEFT
 	e.pressed = true
 	root.push_input(e, true)
 	await frames(2)
 	e = InputEventMouseButton.new()
-	e.position = lane.viewport.get_parent().position + (button.position + button.size * 0.5) * lane.viewport.get_parent().scale
+	e.position = lane.viewport.get_parent().position + button.get_global_rect().get_center() * lane.viewport.get_parent().scale
 	e.button_index = MOUSE_BUTTON_LEFT
 	e.pressed = false
 	root.push_input(e, true)
 	await frames(2)
 
+func advance_phase() -> void:
+	if loop.state.phase in ["day", "result"]:
+		await click(loop.end_button)
+	else:
+		var paused_for_test_before: bool = loop.paused_for_test
+		loop.state.remaining = 0.01
+		loop.paused_for_test = false
+		await create_timer(0.1).timeout
+		loop.paused_for_test = paused_for_test_before
+
 func walk_to(target: Vector2) -> void:
-	var count = 0
-	while lane.player.position.distance_to(target) > 2.0 and count < 700:
-		var diff = target - lane.player.position
-		lane.test_direction = Vector2(signf(diff.x), 0) if absf(diff.x) > 1.5 else Vector2(0, signf(diff.y))
-		await physics_frame
-		count += 1
-	lane.test_direction = Vector2.ZERO
-	await physics_frame
-	check("real walk to " + str(target), lane.player.position.distance_to(target) < 3.0)
+	var arrived: bool = await preload("res://Scenes/LanternLane/verification_navigation.gd").walk(lane, target)
+	await frames(1)
+	check("real walk to " + str(target), arrived)
 
 func shot(title: String) -> void:
 	if not render:
@@ -79,6 +89,7 @@ func _customer_eat_test() -> void:
 	root.add_child(lane)
 	await frames(5)
 	lane.automation = true
+	lane.test_running = true
 	loop = lane.get_node("GameLoop")
 	loop.enter("restaurant")
 	await frames(5)
@@ -123,14 +134,15 @@ func _run() -> void:
 	root.add_child(lane)
 	await frames(5)
 	lane.automation = true
+	lane.test_running = true
 	loop = lane.get_node("GameLoop")
 	check("Chinese system font available", loop.font.get_string_size("小女巫餐厅", HORIZONTAL_ALIGNMENT_LEFT, -1, 12).x > 0)
+	loop.enter("town")
 	await shot("town")
 	for day in range(1, 3):
 		check("day " + str(day), loop.state.day == day and loop.state.phase == "day")
 		await walk_to(loop.FIELD_GATE)
-		await key(KEY_E)
-		check("E enters independent field", loop.location == "field" and not lane.world.is_inside_tree())
+		check("walking enters independent field", loop.location == "field" and not lane.world.is_inside_tree())
 		await walk_to(Vector2(60,115))
 		await walk_to(loop.area.points[0])
 		await key(KEY_E)
@@ -140,12 +152,12 @@ func _run() -> void:
 		await shot("field_day" + str(day))
 		await walk_to(Vector2(60,115))
 		await walk_to(loop.area.stations.exit)
-		await key(KEY_E)
 		check("field exit restores town", loop.location == "town" and lane.player.get_parent() == lane.actors)
 		await walk_to(Vector2(448,334))
 		await walk_to(loop.REST_GATE)
+		check("walking to restaurant door stays outside", loop.location == "town")
 		await key(KEY_E)
-		check("E restaurant entrance", loop.location == "restaurant")
+		check("interacting enters restaurant", loop.location == "restaurant")
 		await walk_to(Vector2(60,130))
 		await walk_to(loop.area.stations.prep)
 		await key(KEY_E)
@@ -153,12 +165,12 @@ func _run() -> void:
 		await key(KEY_E)
 		check("processing cannot duplicate", loop.state.materials == [2,0,0])
 		if day == 1:
-			await click(loop.menu_buttons[1])
-			await click(loop.menu_buttons[2])
-		check("mouse menu selection", loop.state.menu == [true,false,false])
+			check("new menu starts empty", loop.state.menu.count(true) == 0 and loop.end_button.disabled)
+			await click(loop.menu_buttons[0])
+		check("mouse menu selection", loop.state.menu.slice(0,3) == [true,false,false] and loop.state.menu.count(true) == 1)
 		await shot("prep_day" + str(day))
-		await click(loop.end_button)
-		check("manual day end", loop.state.phase == "night" and loop.location == "restaurant")
+		await advance_phase()
+		check("player confirms opening", loop.state.phase == "night" and loop.location == "restaurant")
 		await frames(5)
 		check("customer orders from menu", loop.state.customers.size() == 1 and loop.state.customers[0].dish == 0)
 		var before = loop.state.materials.duplicate()
@@ -174,17 +186,17 @@ func _run() -> void:
 		check("real cooking timer yields held dish", loop.state.held == 0 and loop.state.cooking == -1)
 		await walk_to(Vector2(60,130))
 		await walk_to(Vector2(60,225))
-		await walk_to(loop.area.seats[0])
+		await walk_to(loop.area.seats[0] + Vector2(0, 20))
 		await shot("serving_day" + str(day))
 		await key(KEY_E)
 		check("E served and earned", loop.state.held == -1 and loop.state.served == 1 and loop.state.income == 12)
 		check("out of stock stops arrivals", not loop.state.admit() and not loop.state.start_cook(0))
-		await click(loop.end_button)
+		await advance_phase()
 		check("settlement credits once", loop.state.phase == "result" and loop.state.coins == day * 12)
 		loop.state.end_phase()
 		check("no duplicate income", loop.state.coins == day * 12)
 		await shot("result_day" + str(day))
-		await click(loop.end_button)
+		await advance_phase()
 		check("next day refresh and balances", loop.state.day == day+1 and loop.state.nodes == [2,2,2,2,2,2,2,2,2] and loop.state.materials == [0,0,0])
 		# Return next-day town spawn to gate via actual walking.
 		await walk_to(Vector2(408,384))
@@ -193,6 +205,7 @@ func _run() -> void:
 	loop.paused_for_test = true
 	var s = loop.state
 	var recipe_state = preload("res://Scenes/Gameplay/loop_state.gd").new()
+	recipe_state.menu = [true,true,true]
 	for dish in range(3):
 		recipe_state.phase = "night"
 		recipe_state.materials = [4,4,4]
@@ -208,15 +221,22 @@ func _run() -> void:
 		check("recipe " + str(dish) + " serve price", recipe_state.serve(0) and recipe_state.income == [12,26,44][dish])
 	recipe_state.menu = [false,false,false]
 	check("empty menu no arrivals", not recipe_state.admit())
-	s.raw = [4,4,4]
-	check("full backpack non-consuming", not s.gather(0) and s.nodes[0] == 2)
+	var full_state = preload("res://Scenes/Gameplay/loop_state.gd").new()
+	full_state.Items.ensure_bag(full_state)
+	for index in range(full_state.bag_slots.size()):
+		if full_state.bag_slots[index].is_empty(): full_state.bag_slots[index] = {"id":"mushroom","count":99}
+	full_state.Items.sync(full_state)
+	check("full backpack non-consuming", not full_state.gather(0) and full_state.nodes[0] == 2)
 	s.raw = [0,0,0]
 	s.materials = [6,2,1]
 	s.menu = [true,true,true]
 	s.remaining = 0.01
 	s.tick(0.02)
 	loop._sync_phase()
-	check("automatic day conversion", s.phase == "night" and loop.location == "restaurant")
+	await frames(1)
+	check("sunset waits in restaurant", s.phase == "day" and s.remaining == 0.0 and loop.location == "restaurant")
+	loop.end_phase()
+	check("menu confirmation begins service", s.phase == "night" and s.remaining == 300.0)
 	s.admit()
 	s.admit()
 	s.admit()
@@ -239,22 +259,25 @@ func _run() -> void:
 	check("night automatic end cancels cooking", s.phase == "result" and s.cooking == -1 and s.held == -1 and s.wasted == 2)
 	await shot("timeout_result")
 	loop.end_phase()
+	await frames(1)
 	check("carryover stock and refresh", s.materials == inventory and s.raw == [1,0,0] and s.nodes[0] == 2)
 	s.raw = [0,0,0]
 	s.materials = [0,0,0]
+	loop.enter("restaurant")
 	loop.end_phase()
 	check("zero ingredient night no deadlock", s.phase == "night" and not s.admit())
 	loop.end_phase()
 	loop.end_phase()
+	await frames(1)
 	check("zero ingredient can reach next day", s.phase == "day" and s.day == 5)
 	# Weather and movement still work after returning from interiors.
-	await key(KEY_2)
+	await key(KEY_F7)
 	check("rain input after transition", lane.weather.get_weather() == "rain")
-	var pos: Vector2 = await lane._walk(Vector2(224,340),Vector2.UP,60)
-	check("town collision after transition", pos.y >= 293.9 and pos.y < 296)
-	await key(KEY_3)
+	var pos: Vector2 = await lane._walk(Vector2(646,402),Vector2.UP,60)
+	check("town collision after transition", pos.y >= 355.9 and pos.y < 358)
+	await key(KEY_F8)
 	check("snow input after transition", lane.weather.get_weather() == "snow")
-	await key(KEY_1)
+	await key(KEY_F6)
 	await key(KEY_R)
 	check("town R preserved", lane.player.position == lane.SPAWN)
 	loop.enter("restaurant")
@@ -263,4 +286,12 @@ func _run() -> void:
 	await key(KEY_F3)
 	check("F3 preserved", lane.world.get_node_or_null("CollisionOverlay") != null)
 	print("LOOP VERIFY END failures=", failures)
+	full_state = null
+	recipe_state = null
+	s = null
+	lane.queue_free()
+	await frames(4)
+	loop = null
+	lane = null
+	await create_timer(0.2).timeout
 	quit(0 if failures == 0 else 1)

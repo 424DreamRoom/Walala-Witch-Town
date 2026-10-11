@@ -1,0 +1,68 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+STORAGE TEST starter items occupy two of twelve slots: PASS
+STORAGE TEST 151 wood forms separate stacks: PASS
+STORAGE TEST eight wood crafts twelve-slot chest: PASS
+STORAGE TEST right click takes rounded-up half: PASS
+STORAGE TEST right click places one: PASS
+STORAGE TEST left click merges remainder: PASS
+STORAGE TEST different items swap: PASS
+STORAGE TEST swapped stack returns to bag: PASS
+STORAGE TEST merge stops at 99: PASS
+STORAGE TEST same item uses independent chest slots: PASS
+STORAGE TEST quick move stores upgraded tool: PASS
+STORAGE TEST JSON round trip preserves exact positions: PASS
+STORAGE TEST quick retrieval retains tool rank: PASS
+STORAGE TEST save while holding retains last commit: PASS
+STORAGE TEST closing returns remainder and keeps placed item: PASS
+STORAGE TEST nonempty chest cannot be packed: PASS
+STORAGE TEST moving chest preserves slot positions: PASS
+STORAGE TEST separate chests retain separate grids: PASS
+STORAGE TEST quick transfer fills partial destination: PASS
+STORAGE TEST full chest keeps remainder in bag: PASS
+STORAGE TEST full grid preserves gather nodes: PASS
+STORAGE TEST full grid accepts matching partial stack: PASS
+STORAGE TEST full grid keeps fishing allowance: PASS
+STORAGE TEST failed purchase keeps coins: PASS
+STORAGE TEST failed harvest preserves crop and seeds: PASS
+STORAGE TEST full grid preserves final resource hit: PASS
+STORAGE TEST smelting uses freed ingredient slots: PASS
+STORAGE TEST upgrade expands grid preserving positions: PASS
+STORAGE TEST bag Shift transfers between rows: PASS
+STORAGE TEST legacy unlimited inventory is preserved: PASS
+STORAGE TEST overflow claims use freed slots: PASS
+STORAGE TEST overflow remains valid save data: PASS
+STORAGE TEST reject invalid slot { "id": "unknown", "count": 1 }: PASS
+STORAGE TEST reject invalid slot { "id": "wood", "count": 100 }: PASS
+STORAGE TEST reject invalid slot { "id": "wood", "count": 1.5 }: PASS
+STORAGE TEST reject invalid slot { "id": "wand", "count": 2 }: PASS
+STORAGE TEST reject mismatched quantity mirrors: PASS
+STORAGE TEST reject incorrect grid length: PASS
+STORAGE TEST reject duplicated tool across containers: PASS
+STORAGE TEST old chest dictionaries migrate: PASS
+STORAGE TEST 1000 mixed slot actions conserve every item: PASS
+STORAGE TEST isolated slot opens: PASS
+STORAGE TEST E opens native paused storage: PASS
+STORAGE TEST square chest and bag cells created: PASS
+STORAGE TEST upgrade cells are locked: PASS
+STORAGE TEST native right click takes half: PASS
+STORAGE TEST native right click places one: PASS
+STORAGE TEST native left click places remainder: PASS
+STORAGE TEST native Shift transfers stack: PASS
+STORAGE TEST native drag drops at chosen position: PASS
+STORAGE TEST native click swaps unlike items: PASS
+STORAGE TEST tool transfer updates gameplay ownership: PASS
+STORAGE TEST hotbar follows real first-row slot: PASS
+STORAGE TEST grid language en: PASS
+STORAGE TEST grid language ja: PASS
+STORAGE TEST grid language zh_TW: PASS
+STORAGE TEST grid language zh_CN: PASS
+STORAGE TEST save while holding stays valid: PASS
+STORAGE TEST Esc returns hand and resumes: PASS
+STORAGE TEST B opens same backpack grid: PASS
+STORAGE TEST backpack rearranges into empty slot: PASS
+STORAGE TEST B closes grid: PASS
+STORAGE TEST manual save preserves exact positions: PASS
+STORAGE VERIFY END failures=0
+FMOD Sound System: System released

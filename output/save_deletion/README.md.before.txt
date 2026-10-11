@@ -1,0 +1,66 @@
+# 六栏位存档
+
+F5 运行项目，点击“开始游戏”后显示固定 **6 个栏位，三行两列**，编号从左到右、从上到下为 01–06。空栏位开启新游戏，已有栏位继续对应进度；卡片显示天数、阶段、金币、地点与最近保存时间。支持鼠标、WASD 和 Enter，Esc 返回。
+
+游戏中按 Esc，打开“小镇菜单”：
+
+- 继续游戏。
+- 保存进度。
+- 设置。
+- 保存并返回主菜单。
+
+手记打开时，移动、经营计时、顾客和烹饪一起暂停。Esc 优先取消正在进行的采集，或关闭已有交易/声音面板；再次按 Esc 才打开手记。
+
+自动保存仅按游戏时钟每 6 小时触发一次，对应 06:00、12:00、18:00、24:00；新游戏首次为 12:00。切换地图、建造、仓储转移、升级、任务和开场命名均不再额外即时保存。手动保存与退出保存保留。暂停时游戏时钟停止；到点时若采集动作尚未结束，完成动作后补存。读档继续沿用下一个六小时时刻，手动保存不推迟下一个自动保存时刻。自动保存失败保留待存状态，并在继续游玩 30 秒后重试。关闭游戏窗口前先保存。写入失败会显示提示；返回主菜单或关闭窗口时若保存失败，保留当前游戏供玩家重试。直接 F6 运行游戏场景属于预览模式，不会擅自占用或覆盖某个栏位。
+
+## 保存内容
+
+天数、白天/营业/结算阶段与剩余时间、金币、当晚经营统计、原食材、厨房原料、菜单、材料资源、采集点余量、树木/矿石受击次数、各钓点收获次数、顾客订单与耐心/用餐时间、正在烹饪的菜与剩余时间、手持菜、所在地图、玩家位置与朝向、小镇返回位置、天气、累计游玩时间、创建和保存时间。
+
+角色工具动作和粒子动画不续播；已完成的采集伤害和收获会保留，读档不会再次结算一笔已完成的奖励。读档先恢复数据，再创建对应场景，因此枯竭的资源节点和营业中的顾客直接按保存状态出现。
+
+## 文件与恢复
+
+存档保存在 Godot 的 `user://saves/`，不写入项目资源目录。文件名为 `slot_01.json` 至 `slot_06.json`。这采用 Godot 官方推荐的[用户数据目录](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html)。
+
+格式版本为 1，仅保存经过类型和范围检查的 JSON 数据，不加载对象或执行存档内容。写入先产生 `.tmp`，刷新并校验后保存旧文件为 `.bak`，再替换主文件。SHA-256 校验用于发现意外损坏；主文件损坏时可自动读取上一次有效备份。版本不兼容的文件会显示错误并保留，不会当作空栏位重新覆盖。
+
+`save_store.gd` 管理磁盘和当前栏位，`loop_state.gd` 管理经营数据的序列化，`game_loop.gd` 管理世界恢复和自动保存，`save_menu.gd` 管理暂停与手动保存。
+
+## 验证
+
+在项目根目录运行，可用 `--godot "绝对路径"` 指定引擎：
+
+```powershell
+python Scenes/Save/run_verification.py headless
+python Scenes/Save/run_verification.py schedule
+python Scenes/Save/run_verification.py capture
+python Scenes/Save/run_verification.py restart
+python Scenes/Save/run_verification.py close
+python Scenes/Save/run_verification.py regression
+python Scenes/Save/run_verification.py harvest
+python Scenes/Save/run_verification.py businesses
+```
+
+测试使用独立的 `user://save_verification/` 和偏好文件，不操作玩家的六个存档。覆盖数据往返、栏位隔离、损坏恢复、版本保护、磁盘失败、真实 GUI 输入、暂停、全部地图、夜间地图、自动保存、完整返回/读档流程、重新启动进程和窗口关闭。截图与日志在 `Verification/`。未验证导出包和其他操作系统。
+
+## 右下角保存动画
+
+`saving_indicator.gd` 绘制原创淡紫色像素魔女帽，与角色帽子和现有 HUD 保持一致。帽子位于 640×360 画布的右下角，距右、下边缘各 12 像素，不遮挡底部道具栏，也不接收鼠标或键盘焦点。
+
+- 保存中：帽子轻浮、帽尖摆动、金色星点闪烁，至少播放 0.9 秒。
+- 保存成功：显示小勾与“已保存”，短暂停留后淡出。
+- 保存失败：显示感叹号与“保存失败”，保留较长时间，同时保留原有详细错误信息。
+- 手动保存、游戏时钟每 6 小时自动保存、返回主菜单以及关闭窗口前的保存，共用一个提示。暂停时动画仍运行，连续保存会刷新提示。F6 预览模式没有选定栏位时不显示保存成功。
+- 数据仍即时写入并校验；动画不延迟磁盘写入。退出前会暂停游戏并等待提示播放完毕，避免等待期间产生新的未保存进度。
+
+参考了 [《Burnout Paradise》官方手册](https://eaassets-a.akamaihd.net/eahelp/manuals/bpr-pc-en.pdf)中角落旋转箭头的保存反馈方式，美术和动画由本项目独立绘制。提示支持简体中文、繁体中文、英语和日语。
+
+独立验证使用进程专属测试存档，不操作玩家存档：
+
+```powershell
+python Scenes/Save/run_indicator_verification.py headless
+python Scenes/Save/run_indicator_verification.py capture
+```
+
+日志、游戏截图和 19 帧动画渲染结果保存在 `output/saving_indicator/`，其中 `.gdignore` 避免预览文件进入资源导入。

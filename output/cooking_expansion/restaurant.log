@@ -1,0 +1,59 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+RESTAURANT TEST new game has no automatic menu: PASS
+RESTAURANT TEST empty menu cannot open: PASS
+RESTAURANT TEST sunset waits without customers or lost service time: PASS
+RESTAURANT TEST preparation can be saved and restored: PASS
+RESTAURANT TEST invalid and locked recipe changes are atomic: PASS
+RESTAURANT TEST player selects unlocked recipes: PASS
+RESTAURANT TEST menu choices consume no ingredients: PASS
+RESTAURANT TEST menu capacity is enforced: PASS
+RESTAURANT TEST confirmed opening starts a full five-minute service: PASS
+RESTAURANT TEST menu locks and repeat opening cannot restart timer: PASS
+RESTAURANT TEST orders use only listed recipes: PASS
+RESTAURANT TEST cooking debits exactly once: PASS
+RESTAURANT TEST serving keeps existing pricing: PASS
+RESTAURANT TEST mid-service save preserves orders and time: PASS
+RESTAURANT TEST half of service is 20:00: PASS
+RESTAURANT TEST service remains active at 299 seconds: PASS
+RESTAURANT TEST 22:00 closes automatically and pays once: PASS
+RESTAURANT TEST closing clears unfinished service and counts only waiting guests: PASS
+RESTAURANT TEST settlement is frozen and cannot double pay: PASS
+RESTAURANT TEST next morning keeps stock and chosen menu: PASS
+RESTAURANT TEST empty stock allows a zero-income service: PASS
+RESTAURANT TEST zero-income service can reach the next day: PASS
+RESTAURANT TEST legacy migration 300.0 day: PASS
+RESTAURANT TEST migration is idempotent 300.0 day: PASS
+RESTAURANT TEST legacy migration 300.0 night: PASS
+RESTAURANT TEST migration is idempotent 300.0 night: PASS
+RESTAURANT TEST legacy migration 300.0 result: PASS
+RESTAURANT TEST migration is idempotent 300.0 result: PASS
+RESTAURANT TEST legacy migration 900.0 day: PASS
+RESTAURANT TEST migration is idempotent 900.0 day: PASS
+RESTAURANT TEST legacy migration 900.0 night: PASS
+RESTAURANT TEST migration is idempotent 900.0 night: PASS
+RESTAURANT TEST legacy migration 900.0 result: PASS
+RESTAURANT TEST migration is idempotent 900.0 result: PASS
+RESTAURANT TEST isolated save slot opens: PASS
+RESTAURANT TEST opening action belongs to restaurant: PASS
+RESTAURANT TEST sunset returns to restaurant without auto opening: PASS
+RESTAURANT TEST disabled empty-menu action cannot open: PASS
+RESTAURANT TEST real menu button enables opening: PASS
+RESTAURANT TEST recipe button opens full cookbook and pauses world: PASS
+RESTAURANT TEST cookbook selection shares the same menu: PASS
+RESTAURANT TEST localized preparation controls zh_CN: PASS
+RESTAURANT TEST preparation controls fit sidebar zh_CN: PASS
+RESTAURANT TEST localized preparation controls en: PASS
+RESTAURANT TEST preparation controls fit sidebar en: PASS
+RESTAURANT TEST localized preparation controls ja: PASS
+RESTAURANT TEST preparation controls fit sidebar ja: PASS
+RESTAURANT TEST localized preparation controls zh_TW: PASS
+RESTAURANT TEST preparation controls fit sidebar zh_TW: PASS
+RESTAURANT TEST real opening button starts full service: PASS
+RESTAURANT TEST service save is valid: PASS
+RESTAURANT TEST 22:00 writes settlement automatically: PASS
+RESTAURANT TEST closing clock hands match 22:00: PASS
+RESTAURANT TEST next-day action restores morning and menu editing: PASS
+RESTAURANT VERIFY END checks=54 failures=0
+FMOD Sound System: System released

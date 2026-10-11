@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "name": "baseline_residents",
+      "passed": false,
+      "checks": 27,
+      "exit": 1,
+      "failures": [
+        "RESIDENT TEST rain residents reach separate shelters safely: FAIL",
+        "RESIDENT TEST snow residents reach separate shelters safely: FAIL"
+      ],
+      "log": "output/npc32/baseline_residents.log",
+      "completed": true
+    },
+    {
+      "name": "baseline_businesses",
+      "passed": false,
+      "checks": 10,
+      "exit": 1,
+      "failures": [
+        "interacting enters blacksmith: FAIL"
+      ],
+      "log": "output/npc32/baseline_businesses.log",
+      "completed": false
+    }
+  ],
+  "myart_unchanged": true,
+  "isolated_profiles": true
+}

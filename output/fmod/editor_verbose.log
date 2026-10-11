@@ -1,0 +1,472 @@
+WorkerThreadPool: 16 threads, 12 max low-priority.
+Loaded SteamAPI library
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+FMOD Sound System: Successfully set DSP buffer size
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.cbSize                   = 104
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.defaultDecodeBufferSize  = 400
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.distanceFilterCenterFreq = 1500.000000
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.DSPBufferPoolSize        = 8
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.resamplerMethod          = 2
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.randomSeed               = 1791716977
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::setAdvancedSettings(): mAdvancedSettings.maxConvolutionThreads    = 3
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_runtime_manager.cpp in Manager::init(): maxchannels = 1024 studioflags = 00000000 flags 00000004 extradriverdata 0000000000000000.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp in SystemI::init(): Initialize version=20306 (149358), maxchannels=1024, flags=0x00020004
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi_driver.cpp in SystemI::setOutputInternal(): Setting output to 'FMOD WASAPI Output'
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\platforms\win\src\fmod_output_wasapi.cpp in OutputWASAPI::init(): Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\platforms\win\src\fmod_output_wasapi.cpp in OutputWASAPI::init(): Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\platforms\win\src\fmod_output_wasapi.cpp in OutputWASAPI::init(): Output buffer size: 2048 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 512 * 4
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_thread.cpp in Thread::initThread(): Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_systemi_dsp.cpp in SystemI::DSPCodecPoolRegister(): register codec pool for pool type 0
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_thread.cpp in Thread::initThread(): Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_asyncmanager.cpp in AsyncManager::init(): manager 0000027D529BFCD8 isAsync 1 updatePeriod 0.02
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_thread.cpp in Thread::initThread(): Init FMOD Studio update thread. Affinity: 0x4000000000000002, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_asyncmanager.cpp in AsyncManager::init(): done
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_playback_system.cpp in PlaybackSystem::init(): 
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_thread.cpp in Thread::initThread(): Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_playback_system.cpp in PlaybackSystem::init(): done
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_thread.cpp in Thread::initThread(): Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+
+[FMOD INFO] C:\buildagent1\work\c1c3f17eb167c494\studio_api\src\fmod_runtime_manager.cpp in Manager::init(): done.
+
+FMOD Sound System: Successfully initialized
+Custom File System enabled.
+FMOD Sound System: Successfully set global 3D settings
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: C:/steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres remapped: C:/steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres
+Completed load for: 'C:/steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres' remapped 'C:/steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres' at thread -1
+EditorSettings: Load OK!
+EditorTheme: Generating new theme for the config '3810048042'.
+EditorTheme: Generating new icons.
+EditorTheme: Generating new fonts.
+EditorTheme: Generating new styles.
+Loading resource: C:/steam/steamapps/common/Godot Engine/editor_data/cache/editor_doc_cache-4.7.res remapped: C:/steam/steamapps/common/Godot Engine/editor_data/cache/editor_doc_cache-4.7.res
+Loaded system CA certificates
+Completed load for: 'C:/steam/steamapps/common/Godot Engine/editor_data/cache/editor_doc_cache-4.7.res' remapped 'C:/steam/steamapps/common/Godot Engine/editor_data/cache/editor_doc_cache-4.7.res' at thread -1
+Failed to bind socket. Error: 3.
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+Loading resource: res://addons/fmod/FmodManager.gd remapped: res://addons/fmod/FmodManager.gd
+Completed load for: 'res://addons/fmod/FmodManager.gd' remapped 'res://addons/fmod/FmodManager.gd' at thread -1
+Loading resource: res://Sounds/Walala/fmod_runtime.gd remapped: res://Sounds/Walala/fmod_runtime.gd
+Completed load for: 'res://Sounds/Walala/fmod_runtime.gd' remapped 'res://Sounds/Walala/fmod_runtime.gd' at thread -1
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+Loading resource: res://addons/fmod/FmodPlugin.gd remapped: res://addons/fmod/FmodPlugin.gd
+Completed load for: 'res://addons/fmod/FmodPlugin.gd' remapped 'res://addons/fmod/FmodPlugin.gd' at thread -1
+Loading resource: res://addons/fmod/tool/ui/FmodBankExplorer.tscn remapped: res://addons/fmod/tool/ui/FmodBankExplorer.tscn
+Loading resource: res://addons/fmod/tool/ui/EventPlayControls.gd remapped: res://addons/fmod/tool/ui/EventPlayControls.gd
+Completed load for: 'res://addons/fmod/tool/ui/EventPlayControls.gd' remapped 'res://addons/fmod/tool/ui/EventPlayControls.gd' at thread -1
+Loading resource: res://addons/fmod/tool/ui/EventParametersDisplay.tscn remapped: res://addons/fmod/tool/ui/EventParametersDisplay.tscn
+Loading resource: res://addons/fmod/tool/ui/EventParametersDisplay.gd remapped: res://addons/fmod/tool/ui/EventParametersDisplay.gd
+Loading resource: res://addons/fmod/tool/ui/ParameterDisplay.tscn remapped: res://addons/fmod/tool/ui/ParameterDisplay.tscn
+Completed load for: 'res://addons/fmod/tool/ui/ParameterDisplay.tscn' remapped 'res://addons/fmod/tool/ui/ParameterDisplay.tscn' at thread -1
+Completed load for: 'res://addons/fmod/tool/ui/EventParametersDisplay.gd' remapped 'res://addons/fmod/tool/ui/EventParametersDisplay.gd' at thread -1
+Completed load for: 'res://addons/fmod/tool/ui/EventParametersDisplay.tscn' remapped 'res://addons/fmod/tool/ui/EventParametersDisplay.tscn' at thread -1
+Completed load for: 'res://addons/fmod/tool/ui/FmodBankExplorer.tscn' remapped 'res://addons/fmod/tool/ui/FmodBankExplorer.tscn' at thread -1
+Loading resource: res://addons/fmod/tool/property_editors/FmodEventEditorProperty.tscn remapped: res://addons/fmod/tool/property_editors/FmodEventEditorProperty.tscn
+Loading resource: res://addons/fmod/tool/property_editors/FmodPathEditorProperty.tscn remapped: res://addons/fmod/tool/property_editors/FmodPathEditorProperty.tscn
+Loading resource: res://addons/fmod/tool/property_editors/FmodPathEditorProperty.gd remapped: res://addons/fmod/tool/property_editors/FmodPathEditorProperty.gd
+Completed load for: 'res://addons/fmod/tool/property_editors/FmodPathEditorProperty.gd' remapped 'res://addons/fmod/tool/property_editors/FmodPathEditorProperty.gd' at thread -1
+Loading resource: res://addons/fmod/tool/property_editors/FmodGuidAndPathPropertyEditorUi.tscn remapped: res://addons/fmod/tool/property_editors/FmodGuidAndPathPropertyEditorUi.tscn
+Loading resource: res://addons/fmod/icons/event_icon.svg remapped: res://addons/fmod/icons/event_icon.svg
+Loading resource: res://.godot/imported/event_icon.svg-4e6e2103d076f95b7bef82f079e433e6.editor.ctex remapped: res://.godot/imported/event_icon.svg-4e6e2103d076f95b7bef82f079e433e6.editor.ctex
+Completed load for: 'res://addons/fmod/icons/event_icon.svg' remapped 'res://addons/fmod/icons/event_icon.svg' at thread -1
+Completed load for: 'res://addons/fmod/tool/property_editors/FmodGuidAndPathPropertyEditorUi.tscn' remapped 'res://addons/fmod/tool/property_editors/FmodGuidAndPathPropertyEditorUi.tscn' at thread -1
+Completed load for: 'res://addons/fmod/tool/property_editors/FmodPathEditorProperty.tscn' remapped 'res://addons/fmod/tool/property_editors/FmodPathEditorProperty.tscn' at thread -1
+Loading resource: res://addons/fmod/tool/property_editors/FmodEventEditorProperty.gd remapped: res://addons/fmod/tool/property_editors/FmodEventEditorProperty.gd
+Completed load for: 'res://addons/fmod/tool/property_editors/FmodEventEditorProperty.gd' remapped 'res://addons/fmod/tool/property_editors/FmodEventEditorProperty.gd' at thread -1
+Completed load for: 'res://addons/fmod/tool/property_editors/FmodEventEditorProperty.tscn' remapped 'res://addons/fmod/tool/property_editors/FmodEventEditorProperty.tscn' at thread -1
+WARNING: Cannot find master strings bank at res:///Master.strings.bank
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] reload_all_banks (res://addons/fmod/tool/FmodBankDatabase.gd:19)
+       [1] _init (res://addons/fmod/FmodPlugin.gd:18)
+Loading resource: res://addons/fmod/icons/fmod_icon.svg remapped: res://addons/fmod/icons/fmod_icon.svg
+Loading resource: res://.godot/imported/fmod_icon.svg-cca7eb13231881fafaea0d598d407ea3.editor.ctex remapped: res://.godot/imported/fmod_icon.svg-cca7eb13231881fafaea0d598d407ea3.editor.ctex
+Completed load for: 'res://addons/fmod/icons/fmod_icon.svg' remapped 'res://addons/fmod/icons/fmod_icon.svg' at thread -1
+Loading resource: res://addons/fmod/icons/vca_icon.svg remapped: res://addons/fmod/icons/vca_icon.svg
+Loading resource: res://.godot/imported/vca_icon.svg-def43f27fe148a7a0b18c7dcaab20c79.editor.ctex remapped: res://.godot/imported/vca_icon.svg-def43f27fe148a7a0b18c7dcaab20c79.editor.ctex
+Completed load for: 'res://addons/fmod/icons/vca_icon.svg' remapped 'res://addons/fmod/icons/vca_icon.svg' at thread -1
+Loading resource: res://addons/fmod/icons/bank_icon.svg remapped: res://addons/fmod/icons/bank_icon.svg
+Loading resource: res://.godot/imported/bank_icon.svg-8de6c7bff09a67352e162b3c61b601de.editor.ctex remapped: res://.godot/imported/bank_icon.svg-8de6c7bff09a67352e162b3c61b601de.editor.ctex
+Completed load for: 'res://addons/fmod/icons/bank_icon.svg' remapped 'res://addons/fmod/icons/bank_icon.svg' at thread -1
+Loading resource: res://addons/fmod/icons/bus_icon.svg remapped: res://addons/fmod/icons/bus_icon.svg
+Loading resource: res://.godot/imported/bus_icon.svg-f536ffd3c4893e79a9d3cb9a1b4fb50c.editor.ctex remapped: res://.godot/imported/bus_icon.svg-f536ffd3c4893e79a9d3cb9a1b4fb50c.editor.ctex
+Completed load for: 'res://addons/fmod/icons/bus_icon.svg' remapped 'res://addons/fmod/icons/bus_icon.svg' at thread -1
+Loading resource: res://addons/fmod/icons/snapshot_icon.svg remapped: res://addons/fmod/icons/snapshot_icon.svg
+Loading resource: res://.godot/imported/snapshot_icon.svg-7b517248819b3685844766808fbce2a5.editor.ctex remapped: res://.godot/imported/snapshot_icon.svg-7b517248819b3685844766808fbce2a5.editor.ctex
+Completed load for: 'res://addons/fmod/icons/snapshot_icon.svg' remapped 'res://addons/fmod/icons/snapshot_icon.svg' at thread -1
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Loading resource: res://verify.tscn remapped: res://verify.tscn
+Loading resource: res://Sounds/Walala/verify_fmod_export.gd remapped: res://Sounds/Walala/verify_fmod_export.gd
+Loading resource: res://Sounds/Walala/UI/Organic/hover.wav remapped: res://Sounds/Walala/UI/Organic/hover.wav
+Loading resource: res://.godot/imported/hover.wav-887b13da25815d2539f35a1e95b77391.sample remapped: res://.godot/imported/hover.wav-887b13da25815d2539f35a1e95b77391.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/hover.wav' remapped 'res://Sounds/Walala/UI/Organic/hover.wav' at thread -1
+Loading resource: res://Sounds/Walala/Music/title.ogg remapped: res://Sounds/Walala/Music/title.ogg
+Loading resource: res://.godot/imported/title.ogg-915989a44ec07a3a1cfa8f4b3fd531f4.oggvorbisstr remapped: res://.godot/imported/title.ogg-915989a44ec07a3a1cfa8f4b3fd531f4.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Music/title.ogg' remapped 'res://Sounds/Walala/Music/title.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Music/day.ogg remapped: res://Sounds/Walala/Music/day.ogg
+Loading resource: res://.godot/imported/day.ogg-ecf70a08ec91b73d4114bc97a4b60e7c.oggvorbisstr remapped: res://.godot/imported/day.ogg-ecf70a08ec91b73d4114bc97a4b60e7c.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Music/day.ogg' remapped 'res://Sounds/Walala/Music/day.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Music/night.ogg remapped: res://Sounds/Walala/Music/night.ogg
+Loading resource: res://.godot/imported/night.ogg-c2f68f921e3772b87d466e17085f2f74.oggvorbisstr remapped: res://.godot/imported/night.ogg-c2f68f921e3772b87d466e17085f2f74.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Music/night.ogg' remapped 'res://Sounds/Walala/Music/night.ogg' at thread -1
+Completed load for: 'res://Sounds/Walala/verify_fmod_export.gd' remapped 'res://Sounds/Walala/verify_fmod_export.gd' at thread -1
+Completed load for: 'res://verify.tscn' remapped 'res://verify.tscn' at thread -1
+Failed to bind socket. Error: 3.
+Unloading addon: res://addons/fmod/plugin.cfg
+Script docs haven't been properly loaded or regenerated, so don't save them to disk.
+EditorSettings: Save OK!
+XR: Clearing primary interface
+FMOD Sound System: System released
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Leaked instance: GDScriptNativeClass:9223372043867652461 - Reference count: 2
+Leaked instance: GDScriptNativeClass:9223372044991726000 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372045729923548 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372045880918501 - Reference count: 2
+Leaked instance: GDScriptNativeClass:9223372045964804586 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372045981581803 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372046619116049 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372046686224917 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372046870774304 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372048246506098 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372048934371995 - Reference count: 3
+Leaked instance: GDScriptNativeClass:9223372049437688505 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372049521574590 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372050461098742 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372051887162187 - Reference count: 3
+Leaked instance: GDScriptNativeClass:9223372054705734643 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372056249238607 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372056769332334 - Reference count: 1
+Leaked instance: GDScriptNativeClass:9223372059386578186 - Reference count: 1
+Leaked instance: GDScript:9223373510431282882 - Reference count: 2
+Leaked instance: GDScript:9223373511135925961 - Reference count: 2
+Leaked instance: GDScript:9223373511236589258 - Reference count: 2
+Leaked instance: GDScript:9223373511337252555 - Reference count: 2
+Leaked instance: GDScript:9223373511437915852 - Reference count: 2
+Leaked instance: GDScript:9223373511572133581 - Reference count: 3
+Leaked instance: GDScript:9223373511974786767 - Reference count: 1
+Leaked instance: GDScript:9223373512863979223 - Reference count: 1
+Leaked instance: GDScript:9223373513149191897 - Reference count: 2
+Leaked instance: PackedScene:9223373513367295710 - Reference count: 1
+Leaked instance: SceneState:9223373513384072927 - Reference count: 1
+Hint: Leaked instances typically happen when nodes are removed from the scene tree (with `remove_child()`) but not freed (with `free()` or `queue_free()`).
+Resource still in use: res://addons/fmod/tool/FmodBankDatabase.gd (GDScript)
+Resource still in use: res://addons/fmod/tool/ui/FmodBankExplorer.gd (GDScript)
+Resource still in use: res://addons/fmod/FmodAndroidExportPlugin.gd (GDScript)
+Resource still in use: res://addons/fmod/tool/inspectors/FmodEmitterPropertyInspectorPlugin.gd (GDScript)
+Resource still in use: res://addons/fmod/tool/property_editors/FmodBankPathEditorProperty.gd (GDScript)
+Resource still in use: res://addons/fmod/tool/inspectors/FmodBankLoaderPropertyInspectorPlugin.gd (GDScript)
+Resource still in use: res://addons/fmod/FmodPlugin.gd (GDScript)
+Resource still in use: res://addons/fmod/tool/ui/ParameterDisplay.gd (GDScript)
+Resource still in use: res://addons/fmod/tool/ui/ParameterDisplay.tscn (PackedScene)
+Resource still in use: res://addons/fmod/tool/ui/EventParametersDisplay.gd (GDScript)
+Orphan StringName: %PathLabel (static: 0, total: 6)
+Orphan StringName: insert (static: 0, total: 1)
+Orphan StringName: call (static: 0, total: 1)
+Orphan StringName: _on_copy_name_button (static: 0, total: 4)
+Orphan StringName: _on_copy_path_button (static: 0, total: 4)
+Orphan StringName: res://addons/fmod/tool/inspectors/FmodEmitterPropertyInspectorPlugin.gd (static: 0, total: 5)
+Orphan StringName: CurrentValueTitleLabel (static: 0, total: 1)
+Orphan StringName: event_description (static: 0, total: 3)
+Orphan StringName: _enter_tree (static: 1, total: 4)
+Orphan StringName: anchor_top (static: 0, total: 2)
+Orphan StringName: @static_initializer (static: 1, total: 4)
+Orphan StringName: print (static: 0, total: 1)
+Orphan StringName: %ValueSetterContainer (static: 0, total: 2)
+Orphan StringName: FmodEventDescription (static: 0, total: 7)
+Orphan StringName: path_property_name (static: 0, total: 4)
+Orphan StringName: _ready (static: 1, total: 7)
+Orphan StringName: plugin_name (static: 0, total: 4)
+Orphan StringName: script (static: 0, total: 1)
+Orphan StringName: Tree (static: 22, total: 25)
+Orphan StringName: FmodServer (static: 0, total: 2)
+Orphan StringName: search (static: 1, total: 5)
+Orphan StringName: _exit_tree (static: 1, total: 4)
+Orphan StringName: LineEdit (static: 9, total: 10)
+Orphan StringName: %EventPlayControls (static: 0, total: 4)
+Orphan StringName: columns (static: 0, total: 1)
+Orphan StringName: _on_default_value_button (static: 0, total: 4)
+Orphan StringName: anchors_preset (static: 0, total: 2)
+Orphan StringName: last_selected_index (static: 0, total: 4)
+Orphan StringName: res://addons/fmod/FmodPlugin.gd (static: 0, total: 14)
+Orphan StringName: DefaultValueLabel (static: 0, total: 1)
+Orphan StringName: _bank_icon (static: 0, total: 3)
+Orphan StringName: base_color (static: 1, total: 4)
+Orphan StringName: _supports_platform (static: 1, total: 4)
+Orphan StringName: bank_loader_inspector_plugin (static: 0, total: 3)
+Orphan StringName: res://addons/fmod/tool/ui/EventParametersDisplay.gd (static: 0, total: 3)
+Orphan StringName: NameTitle (static: 0, total: 1)
+Orphan StringName: set_event_description (static: 0, total: 4)
+Orphan StringName: size_flags_vertical (static: 0, total: 11)
+Orphan StringName: _on_text_edit_text_submitted (static: 0, total: 3)
+Orphan StringName: offset_top (static: 0, total: 2)
+Orphan StringName: Label (static: 13, total: 25)
+Orphan StringName: EditorProperty (static: 8, total: 10)
+Orphan StringName: _get_android_libraries (static: 0, total: 3)
+Orphan StringName: background_color (static: 0, total: 3)
+Orphan StringName: _popup_project_explorer (static: 0, total: 5)
+Orphan StringName: _on_copy_id_button (static: 0, total: 4)
+Orphan StringName: theme_override_constants/margin_left (static: 0, total: 1)
+Orphan StringName: _event_editor_property_scene (static: 0, total: 3)
+Orphan StringName: FmodEmitterPropertyInspectorPlugin (static: 0, total: 5)
+Orphan StringName: EventParametersDisplay (static: 0, total: 3)
+Orphan StringName: _on_project_explorer_button_clicked (static: 0, total: 4)
+Orphan StringName: EditorExportPlugin (static: 0, total: 2)
+Orphan StringName: _update_property (static: 0, total: 3)
+Orphan StringName: should_display_copy_buttons (static: 0, total: 6)
+Orphan StringName: max_value (static: 0, total: 1)
+Orphan StringName: BackToDefaultButton (static: 0, total: 1)
+Orphan StringName: res://addons/fmod/tool/ui/ParameterDisplay.gd (static: 0, total: 9)
+Orphan StringName: Control (static: 3, total: 6)
+Orphan StringName: bank_explorer (static: 0, total: 3)
+Orphan StringName: anchor_bottom (static: 0, total: 2)
+Orphan StringName: MASTER_BANK_NAME (static: 0, total: 2)
+Orphan StringName: push_warning (static: 0, total: 1)
+Orphan StringName: disconnect (static: 1, total: 2)
+Orphan StringName: %IdCopyButton (static: 0, total: 2)
+Orphan StringName: EditorExportPlatformAndroid (static: 0, total: 1)
+Orphan StringName: _event_icon (static: 0, total: 3)
+Orphan StringName: RangeLabel (static: 0, total: 1)
+Orphan StringName: split (static: 0, total: 1)
+Orphan StringName: offset_left (static: 0, total: 2)
+Orphan StringName: %RemoveButton (static: 0, total: 2)
+Orphan StringName: append (static: 0, total: 2)
+Orphan StringName: Button (static: 2, total: 10)
+Orphan StringName: grow_vertical (static: 0, total: 2)
+Orphan StringName: IdCopyButton (static: 0, total: 1)
+Orphan StringName: _snapshot_icon (static: 0, total: 3)
+Orphan StringName: FmodBankDatabase (static: 0, total: 3)
+Orphan StringName: FmodParameterDescription (static: 0, total: 5)
+Orphan StringName: connect (static: 1, total: 6)
+Orphan StringName: emit (static: 0, total: 1)
+Orphan StringName: FmodAndroidExportPlugin (static: 0, total: 4)
+Orphan StringName: generate_tree (static: 0, total: 6)
+Orphan StringName: %ManualAddButton (static: 0, total: 2)
+Orphan StringName: _on_item_selected (static: 0, total: 4)
+Orphan StringName: display_value_selector (static: 0, total: 3)
+Orphan StringName: emit_path_and_guid_callable (static: 0, total: 1)
+Orphan StringName: parameter_display_scene (static: 0, total: 2)
+Orphan StringName: stop_event (static: 0, total: 1)
+Orphan StringName: icon (static: 3, total: 6)
+Orphan StringName: value (static: 0, total: 2)
+Orphan StringName: PropertyHint (static: 0, total: 2)
+Orphan StringName: set_fmod_event (static: 0, total: 4)
+Orphan StringName: _on_remove_button (static: 0, total: 4)
+Orphan StringName: VBoxContainer (static: 0, total: 41)
+Orphan StringName: _set_path_and_guid (static: 0, total: 5)
+Orphan StringName: get_metadata (static: 0, total: 1)
+Orphan StringName: _bus_icon (static: 0, total: 3)
+Orphan StringName: MASTER_STRINGS_BANK_NAME (static: 0, total: 2)
+Orphan StringName: %RangeLabel (static: 0, total: 2)
+Orphan StringName: _current_select_callable (static: 0, total: 3)
+Orphan StringName: HSeparator (static: 0, total: 3)
+Orphan StringName: rsplit (static: 0, total: 1)
+Orphan StringName: theme_override_constants/margin_top (static: 0, total: 1)
+Orphan StringName: get_godot_res_path (static: 0, total: 1)
+Orphan StringName: %IdLabel (static: 0, total: 4)
+Orphan StringName: ValueSlider (static: 0, total: 1)
+Orphan StringName: res://addons/fmod/tool/ui/FmodBankExplorer.gd (static: 0, total: 17)
+Orphan StringName: should_display_select_button (static: 0, total: 6)
+Orphan StringName: %UpButton (static: 0, total: 2)
+Orphan StringName: ToDisplayFlags (static: 0, total: 2)
+Orphan StringName: text (static: 0, total: 18)
+Orphan StringName: IdTitle (static: 0, total: 1)
+Orphan StringName: FmodBankExplorer (static: 0, total: 4)
+Orphan StringName: FmodBank (static: 0, total: 2)
+Orphan StringName: sort_custom (static: 0, total: 1)
+Orphan StringName: %GuidLabel (static: 0, total: 8)
+Orphan StringName: FmodEventEmitter2D (static: 0, total: 1)
+Orphan StringName: FmodEventEmitter3D (static: 0, total: 1)
+Orphan StringName: %SelectButton (static: 0, total: 6)
+Orphan StringName: offset_bottom (static: 0, total: 3)
+Orphan StringName: FmodManager (static: 0, total: 1)
+Orphan StringName: export_plugin (static: 0, total: 3)
+Orphan StringName: emit_path_and_guid (static: 0, total: 4)
+Orphan StringName: unique_name_in_owner (static: 0, total: 11)
+Orphan StringName: banks (static: 0, total: 5)
+Orphan StringName: item_selected (static: 0, total: 1)
+Orphan StringName: _add_explorer_button (static: 0, total: 4)
+Orphan StringName: %RefreshBanksButton (static: 0, total: 2)
+Orphan StringName: ItemList (static: 1, total: 2)
+Orphan StringName: %ParameterDisplaysContainer (static: 0, total: 2)
+Orphan StringName: ui (static: 0, total: 3)
+Orphan StringName: has (static: 0, total: 2)
+Orphan StringName: anchor_left (static: 0, total: 2)
+Orphan StringName: min_value (static: 0, total: 1)
+Orphan StringName: ADDON_PATH (static: 0, total: 2)
+Orphan StringName: get_path (static: 0, total: 5)
+Orphan StringName: Variant.Type (static: 0, total: 2)
+Orphan StringName: size_flags_horizontal (static: 0, total: 6)
+Orphan StringName: HSlider (static: 0, total: 1)
+Orphan StringName: NameCopyButton (static: 0, total: 1)
+Orphan StringName: fmod_bank_explorer_window (static: 0, total: 3)
+Orphan StringName: %PathsBG (static: 0, total: 2)
+Orphan StringName: %BackToDefaultButton (static: 0, total: 2)
+Orphan StringName: open_project_explorer_event (static: 0, total: 1)
+Orphan StringName: instantiate (static: 0, total: 1)
+Orphan StringName: _add_elements_as_tree (static: 0, total: 4)
+Orphan StringName: close_window (static: 0, total: 5)
+Orphan StringName: res://addons/fmod/tool/inspectors/FmodBankLoaderPropertyInspectorPlugin.gd (static: 0, total: 6)
+Orphan StringName: %Tree (static: 0, total: 2)
+Orphan StringName: android_export_plugin (static: 0, total: 3)
+Orphan StringName: visible (static: 0, total: 9)
+Orphan StringName: _init (static: 0, total: 12)
+Orphan StringName: emitter_inspector_plugin (static: 0, total: 3)
+Orphan StringName: DefaultValueTitle (static: 0, total: 1)
+Orphan StringName: HBoxContainer2 (static: 0, total: 3)
+Orphan StringName: new (static: 4, total: 7)
+Orphan StringName: _get_name (static: 0, total: 3)
+Orphan StringName: %CurrentValueLabel (static: 0, total: 2)
+Orphan StringName: %NameCopyButton (static: 0, total: 2)
+Orphan StringName: ActionCopy (static: 12, total: 14)
+Orphan StringName: bind (static: 0, total: 1)
+Orphan StringName: theme_override_constants/margin_bottom (static: 0, total: 1)
+Orphan StringName: casecmp_to (static: 0, total: 1)
+Orphan StringName: tree (static: 0, total: 3)
+Orphan StringName: ScrollContainer (static: 0, total: 1)
+Orphan StringName: res://addons/fmod/tool/FmodBankDatabase.gd (static: 0, total: 3)
+Orphan StringName: open_project_explorer_bank (static: 0, total: 4)
+Orphan StringName: remove_at (static: 0, total: 2)
+Orphan StringName: _on_slider_value_changed (static: 0, total: 4)
+Orphan StringName: ValueSetterContainer (static: 0, total: 10)
+Orphan StringName: flags (static: 0, total: 5)
+Orphan StringName: open_project_explorer_events (static: 0, total: 4)
+Orphan StringName: FmodPlugin (static: 0, total: 6)
+Orphan StringName: ParameterDisplay (static: 0, total: 4)
+Orphan StringName: str (static: 0, total: 2)
+Orphan StringName: set_icon (static: 0, total: 1)
+Orphan StringName: NameLabel (static: 0, total: 2)
+Orphan StringName: FmodBankLoaderPropertyInspectorPlugin (static: 0, total: 5)
+Orphan StringName: res://addons/fmod (static: 0, total: 1)
+Orphan StringName: MarginContainer (static: 0, total: 2)
+Orphan StringName: ContentContainer (static: 0, total: 7)
+Orphan StringName: %AddButton (static: 0, total: 2)
+Orphan StringName: CurrentValueLabel (static: 0, total: 1)
+Orphan StringName: reset_search (static: 0, total: 4)
+Orphan StringName: contrast (static: 0, total: 3)
+Orphan StringName: . (static: 1, total: 25)
+Orphan StringName: _enable_plugin (static: 0, total: 3)
+Orphan StringName: _on_move_button (static: 0, total: 4)
+Orphan StringName: %ParametersContainer (static: 0, total: 2)
+Orphan StringName: FmodBankPathEditorProperty (static: 0, total: 4)
+Orphan StringName: RangeTitle (static: 0, total: 1)
+Orphan StringName: Node (static: 8, total: 14)
+Orphan StringName: set_metadata (static: 0, total: 1)
+Orphan StringName: %ManualAddLineEdit (static: 0, total: 2)
+Orphan StringName: set_text (static: 0, total: 1)
+Orphan StringName: copy_guid_button (static: 0, total: 3)
+Orphan StringName: _parse_category (static: 0, total: 6)
+Orphan StringName: @implicit_ready (static: 0, total: 2)
+Orphan StringName: res://addons/fmod/tool/property_editors/FmodBankPathEditorProperty.gd (static: 0, total: 8)
+Orphan StringName: EditorIcons (static: 3, total: 5)
+Orphan StringName: anchor_right (static: 0, total: 2)
+Orphan StringName: FmodBankLoader (static: 0, total: 1)
+Orphan StringName: _disable_plugin (static: 0, total: 3)
+Orphan StringName: grow_horizontal (static: 0, total: 2)
+Orphan StringName: get_all_banks (static: 0, total: 1)
+Orphan StringName: initialize (static: 0, total: 1)
+Orphan StringName: set_parameter (static: 0, total: 4)
+Orphan StringName: res://addons/fmod/FmodAndroidExportPlugin.gd (static: 0, total: 4)
+Orphan StringName: sort_by_path (static: 0, total: 4)
+Orphan StringName: _get_icon_for_fmod_path (static: 0, total: 5)
+Orphan StringName: EditorPlugin (static: 1, total: 5)
+Orphan StringName: close_requested (static: 0, total: 1)
+Orphan StringName: %CloseButton (static: 0, total: 2)
+Orphan StringName: Object (static: 5, total: 17)
+Orphan StringName: find (static: 0, total: 2)
+Orphan StringName: theme_override_constants/margin_right (static: 0, total: 1)
+Orphan StringName: %ParametersLabel (static: 0, total: 2)
+Orphan StringName: _on_copy_guid_button (static: 0, total: 4)
+Orphan StringName: _parse_property (static: 0, total: 6)
+Orphan StringName: regenerate_tree (static: 0, total: 5)
+Orphan StringName: Theme (static: 0, total: 2)
+Orphan StringName: _open_project_explorer (static: 0, total: 5)
+Orphan StringName: _add_elements_as_items (static: 0, total: 4)
+Orphan StringName: %RangeTitle (static: 0, total: 2)
+Orphan StringName: _can_handle (static: 0, total: 6)
+Orphan StringName: HBoxContainer (static: 0, total: 7)
+Orphan StringName: fmod_button (static: 0, total: 3)
+Orphan StringName: value_changed (static: 0, total: 1)
+Orphan StringName: _add_bank_explorer_window (static: 0, total: 4)
+Orphan StringName: _on_manual_add_button (static: 0, total: 4)
+Orphan StringName: %DownButton (static: 0, total: 2)
+Orphan StringName: _vca_icon (static: 0, total: 3)
+Orphan StringName: theme (static: 0, total: 4)
+Orphan StringName: %ValueSlider (static: 0, total: 4)
+Orphan StringName: hide (static: 0, total: 1)
+Orphan StringName: parameter (static: 0, total: 3)
+Orphan StringName: layout_mode (static: 0, total: 24)
+Orphan StringName: get_guid (static: 0, total: 2)
+Orphan StringName: PackedScene (static: 0, total: 7)
+Orphan StringName: @implicit_new (static: 0, total: 9)
+Orphan StringName: TreeItem (static: 0, total: 4)
+Orphan StringName: EditorInspectorPlugin (static: 0, total: 5)
+Orphan StringName: show (static: 0, total: 1)
+Orphan StringName: load_bank (static: 0, total: 1)
+Orphan StringName: offset_right (static: 0, total: 3)
+Orphan StringName: Texture2D (static: 0, total: 3)
+Orphan StringName: Window (static: 5, total: 7)
+Orphan StringName: %SearchField (static: 0, total: 2)
+Orphan StringName: _open_project_explorer_callable (static: 0, total: 6)
+Orphan StringName: bank_icon (static: 0, total: 2)
+Orphan StringName: reload_all_banks (static: 0, total: 5)
+Orphan StringName: FmodEditorExportPlugin (static: 0, total: 3)
+Orphan StringName: size (static: 0, total: 1)
+Orphan StringName: free (static: 0, total: 1)
+Orphan StringName: TitleContainer (static: 0, total: 5)
+Orphan StringName: IdLabel (static: 0, total: 2)
+Orphan StringName: %BankList (static: 0, total: 6)
+Orphan StringName: copy_path_button (static: 0, total: 3)
+Orphan StringName: FmodManager_Autoload_Name (static: 0, total: 2)
+Orphan StringName: pressed (static: 0, total: 4)
+Orphan StringName: _fmod_icon (static: 0, total: 3)
+Orphan StringName: theme_override_constants/separation (static: 0, total: 2)
+Orphan StringName: %NameLabel (static: 0, total: 4)
+Orphan StringName: %EventParametersDisplay (static: 0, total: 2)
+Orphan StringName: %DefaultValueLabel (static: 0, total: 2)
+Orphan StringName: on_refresh_banks_button_pressed (static: 0, total: 4)
+StringName: 265 unclaimed string names at exit.
+WARNING: 30 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 10 resources still in use at exit.
+   at: clear (core/io/resource.cpp:817)

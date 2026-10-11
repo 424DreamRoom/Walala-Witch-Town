@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "name": "art",
+      "passed": true,
+      "checks": 173,
+      "exit": 0,
+      "failures": [],
+      "log": "output/npc32/art.log"
+    }
+  ],
+  "myart_unchanged": true,
+  "isolated_profiles": true
+}

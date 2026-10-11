@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "canvas": [
+    32,
+    32
+  ],
+  "frames": 152,
+  "layers": [
+    "hair_back",
+    "legs",
+    "cape",
+    "outfit",
+    "face",
+    "hair_front",
+    "hat",
+    "hands_wand",
+    "magic"
+  ],
+  "tags": 28,
+  "opaque_colors": 24,
+  "binary_alpha": true,
+  "aseprite_created_and_reopened": true,
+  "reopened_pixels_exact": true,
+  "run_has_independent_poses": true,
+  "source_sha256": "56b0e03eb2ca12437a805c1a632389fed0efe1925c0fa3f28846e0ccc6c030db",
+  "myart_hashes_unchanged": true
+}

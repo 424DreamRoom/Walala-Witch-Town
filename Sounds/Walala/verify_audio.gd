@@ -54,7 +54,7 @@ func run():
 	check("rain playing loop", a.current_ambient == "rain" and a.ambient.playing and a.ambient.stream.loop)
 	lane.weather.set_weather("snow")
 	await wait_for(0.1)
-	check("snow low wind", a.current_ambient == "wind" and a.ambient.playing and a.ambient.volume_db < -30)
+	check("snow calibrated wind", a.current_ambient == "wind" and a.ambient.playing and not a.ambient.stream_paused and absf(a.ambient.volume_db - (linear_to_db(a.channel_gain(a.environment_volume)) + 6.0)) < 0.1)
 	lane.weather.clear_weather()
 	await wait_for(0.1)
 	check("clear stops ambience", not a.ambient.playing)

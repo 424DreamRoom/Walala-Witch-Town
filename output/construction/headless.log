@@ -1,0 +1,334 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+CONSTRUCTION at least sixty distinct recipes: PASS
+CONSTRUCTION remote crafting rejected without charges: PASS
+CONSTRUCTION other maps cannot supply a workbench: PASS
+CONSTRUCTION distant workbench cannot supply crafting: PASS
+CONSTRUCTION icon and world sprite stool: PASS
+CONSTRUCTION craft exact materials stool: PASS
+CONSTRUCTION place and validate save stool: PASS
+CONSTRUCTION move then reclaim stool: PASS
+CONSTRUCTION icon and world sprite table: PASS
+CONSTRUCTION craft exact materials table: PASS
+CONSTRUCTION place and validate save table: PASS
+CONSTRUCTION move then reclaim table: PASS
+CONSTRUCTION icon and world sprite bookcase: PASS
+CONSTRUCTION craft exact materials bookcase: PASS
+CONSTRUCTION place and validate save bookcase: PASS
+CONSTRUCTION move then reclaim bookcase: PASS
+CONSTRUCTION icon and world sprite sofa: PASS
+CONSTRUCTION craft exact materials sofa: PASS
+CONSTRUCTION place and validate save sofa: PASS
+CONSTRUCTION move then reclaim sofa: PASS
+CONSTRUCTION icon and world sprite desk: PASS
+CONSTRUCTION craft exact materials desk: PASS
+CONSTRUCTION place and validate save desk: PASS
+CONSTRUCTION move then reclaim desk: PASS
+CONSTRUCTION icon and world sprite bed: PASS
+CONSTRUCTION craft exact materials bed: PASS
+CONSTRUCTION place and validate save bed: PASS
+CONSTRUCTION move then reclaim bed: PASS
+CONSTRUCTION icon and world sprite chest: PASS
+CONSTRUCTION craft exact materials chest: PASS
+CONSTRUCTION place and validate save chest: PASS
+CONSTRUCTION move then reclaim chest: PASS
+CONSTRUCTION icon and world sprite workbench: PASS
+CONSTRUCTION craft exact materials workbench: PASS
+CONSTRUCTION place and validate save workbench: PASS
+CONSTRUCTION move then reclaim workbench: PASS
+CONSTRUCTION icon and world sprite picket_fence: PASS
+CONSTRUCTION craft exact materials picket_fence: PASS
+CONSTRUCTION place and validate save picket_fence: PASS
+CONSTRUCTION move then reclaim picket_fence: PASS
+CONSTRUCTION icon and world sprite log_fence: PASS
+CONSTRUCTION craft exact materials log_fence: PASS
+CONSTRUCTION place and validate save log_fence: PASS
+CONSTRUCTION move then reclaim log_fence: PASS
+CONSTRUCTION icon and world sprite lattice_fence: PASS
+CONSTRUCTION craft exact materials lattice_fence: PASS
+CONSTRUCTION place and validate save lattice_fence: PASS
+CONSTRUCTION move then reclaim lattice_fence: PASS
+CONSTRUCTION icon and world sprite stone_wall: PASS
+CONSTRUCTION craft exact materials stone_wall: PASS
+CONSTRUCTION place and validate save stone_wall: PASS
+CONSTRUCTION move then reclaim stone_wall: PASS
+CONSTRUCTION icon and world sprite iron_fence: PASS
+CONSTRUCTION craft exact materials iron_fence: PASS
+CONSTRUCTION place and validate save iron_fence: PASS
+CONSTRUCTION move then reclaim iron_fence: PASS
+CONSTRUCTION icon and world sprite hedge: PASS
+CONSTRUCTION craft exact materials hedge: PASS
+CONSTRUCTION place and validate save hedge: PASS
+CONSTRUCTION move then reclaim hedge: PASS
+CONSTRUCTION icon and world sprite wood_gate: PASS
+CONSTRUCTION craft exact materials wood_gate: PASS
+CONSTRUCTION place and validate save wood_gate: PASS
+CONSTRUCTION move then reclaim wood_gate: PASS
+CONSTRUCTION icon and world sprite iron_gate: PASS
+CONSTRUCTION craft exact materials iron_gate: PASS
+CONSTRUCTION place and validate save iron_gate: PASS
+CONSTRUCTION move then reclaim iron_gate: PASS
+CONSTRUCTION icon and world sprite wood_path: PASS
+CONSTRUCTION craft exact materials wood_path: PASS
+CONSTRUCTION place and validate save wood_path: PASS
+CONSTRUCTION move then reclaim wood_path: PASS
+CONSTRUCTION icon and world sprite stone_path: PASS
+CONSTRUCTION craft exact materials stone_path: PASS
+CONSTRUCTION place and validate save stone_path: PASS
+CONSTRUCTION move then reclaim stone_path: PASS
+CONSTRUCTION icon and world sprite brick_path: PASS
+CONSTRUCTION craft exact materials brick_path: PASS
+CONSTRUCTION place and validate save brick_path: PASS
+CONSTRUCTION move then reclaim brick_path: PASS
+CONSTRUCTION icon and world sprite gravel_path: PASS
+CONSTRUCTION craft exact materials gravel_path: PASS
+CONSTRUCTION place and validate save gravel_path: PASS
+CONSTRUCTION move then reclaim gravel_path: PASS
+CONSTRUCTION icon and world sprite moss_path: PASS
+CONSTRUCTION craft exact materials moss_path: PASS
+CONSTRUCTION place and validate save moss_path: PASS
+CONSTRUCTION move then reclaim moss_path: PASS
+CONSTRUCTION icon and world sprite stepping_stones: PASS
+CONSTRUCTION craft exact materials stepping_stones: PASS
+CONSTRUCTION place and validate save stepping_stones: PASS
+CONSTRUCTION move then reclaim stepping_stones: PASS
+CONSTRUCTION icon and world sprite single_bed: PASS
+CONSTRUCTION craft exact materials single_bed: PASS
+CONSTRUCTION place and validate save single_bed: PASS
+CONSTRUCTION move then reclaim single_bed: PASS
+CONSTRUCTION icon and world sprite double_bed: PASS
+CONSTRUCTION craft exact materials double_bed: PASS
+CONSTRUCTION place and validate save double_bed: PASS
+CONSTRUCTION move then reclaim double_bed: PASS
+CONSTRUCTION icon and world sprite canopy_bed: PASS
+CONSTRUCTION craft exact materials canopy_bed: PASS
+CONSTRUCTION place and validate save canopy_bed: PASS
+CONSTRUCTION move then reclaim canopy_bed: PASS
+CONSTRUCTION icon and world sprite hammock: PASS
+CONSTRUCTION craft exact materials hammock: PASS
+CONSTRUCTION place and validate save hammock: PASS
+CONSTRUCTION move then reclaim hammock: PASS
+CONSTRUCTION icon and world sprite chair: PASS
+CONSTRUCTION craft exact materials chair: PASS
+CONSTRUCTION place and validate save chair: PASS
+CONSTRUCTION move then reclaim chair: PASS
+CONSTRUCTION icon and world sprite armchair: PASS
+CONSTRUCTION craft exact materials armchair: PASS
+CONSTRUCTION place and validate save armchair: PASS
+CONSTRUCTION move then reclaim armchair: PASS
+CONSTRUCTION icon and world sprite bench: PASS
+CONSTRUCTION craft exact materials bench: PASS
+CONSTRUCTION place and validate save bench: PASS
+CONSTRUCTION move then reclaim bench: PASS
+CONSTRUCTION icon and world sprite rocking_chair: PASS
+CONSTRUCTION craft exact materials rocking_chair: PASS
+CONSTRUCTION place and validate save rocking_chair: PASS
+CONSTRUCTION move then reclaim rocking_chair: PASS
+CONSTRUCTION icon and world sprite garden_bench: PASS
+CONSTRUCTION craft exact materials garden_bench: PASS
+CONSTRUCTION place and validate save garden_bench: PASS
+CONSTRUCTION move then reclaim garden_bench: PASS
+CONSTRUCTION icon and world sprite square_table: PASS
+CONSTRUCTION craft exact materials square_table: PASS
+CONSTRUCTION place and validate save square_table: PASS
+CONSTRUCTION move then reclaim square_table: PASS
+CONSTRUCTION icon and world sprite long_table: PASS
+CONSTRUCTION craft exact materials long_table: PASS
+CONSTRUCTION place and validate save long_table: PASS
+CONSTRUCTION move then reclaim long_table: PASS
+CONSTRUCTION icon and world sprite tea_table: PASS
+CONSTRUCTION craft exact materials tea_table: PASS
+CONSTRUCTION place and validate save tea_table: PASS
+CONSTRUCTION move then reclaim tea_table: PASS
+CONSTRUCTION icon and world sprite picnic_table: PASS
+CONSTRUCTION craft exact materials picnic_table: PASS
+CONSTRUCTION place and validate save picnic_table: PASS
+CONSTRUCTION move then reclaim picnic_table: PASS
+CONSTRUCTION icon and world sprite wardrobe: PASS
+CONSTRUCTION craft exact materials wardrobe: PASS
+CONSTRUCTION place and validate save wardrobe: PASS
+CONSTRUCTION move then reclaim wardrobe: PASS
+CONSTRUCTION icon and world sprite cupboard: PASS
+CONSTRUCTION craft exact materials cupboard: PASS
+CONSTRUCTION place and validate save cupboard: PASS
+CONSTRUCTION move then reclaim cupboard: PASS
+CONSTRUCTION icon and world sprite low_shelf: PASS
+CONSTRUCTION craft exact materials low_shelf: PASS
+CONSTRUCTION place and validate save low_shelf: PASS
+CONSTRUCTION move then reclaim low_shelf: PASS
+CONSTRUCTION icon and world sprite wall_shelf: PASS
+CONSTRUCTION craft exact materials wall_shelf: PASS
+CONSTRUCTION place and validate save wall_shelf: PASS
+CONSTRUCTION move then reclaim wall_shelf: PASS
+CONSTRUCTION icon and world sprite barrel: PASS
+CONSTRUCTION craft exact materials barrel: PASS
+CONSTRUCTION place and validate save barrel: PASS
+CONSTRUCTION move then reclaim barrel: PASS
+CONSTRUCTION icon and world sprite candle: PASS
+CONSTRUCTION craft exact materials candle: PASS
+CONSTRUCTION place and validate save candle: PASS
+CONSTRUCTION move then reclaim candle: PASS
+CONSTRUCTION icon and world sprite lantern: PASS
+CONSTRUCTION craft exact materials lantern: PASS
+CONSTRUCTION place and validate save lantern: PASS
+CONSTRUCTION move then reclaim lantern: PASS
+CONSTRUCTION icon and world sprite floor_lamp: PASS
+CONSTRUCTION craft exact materials floor_lamp: PASS
+CONSTRUCTION place and validate save floor_lamp: PASS
+CONSTRUCTION move then reclaim floor_lamp: PASS
+CONSTRUCTION icon and world sprite street_lamp: PASS
+CONSTRUCTION craft exact materials street_lamp: PASS
+CONSTRUCTION place and validate save street_lamp: PASS
+CONSTRUCTION move then reclaim street_lamp: PASS
+CONSTRUCTION icon and world sprite mushroom_lamp: PASS
+CONSTRUCTION craft exact materials mushroom_lamp: PASS
+CONSTRUCTION place and validate save mushroom_lamp: PASS
+CONSTRUCTION move then reclaim mushroom_lamp: PASS
+CONSTRUCTION icon and world sprite crystal_lamp: PASS
+CONSTRUCTION craft exact materials crystal_lamp: PASS
+CONSTRUCTION place and validate save crystal_lamp: PASS
+CONSTRUCTION move then reclaim crystal_lamp: PASS
+CONSTRUCTION icon and world sprite oval_rug: PASS
+CONSTRUCTION craft exact materials oval_rug: PASS
+CONSTRUCTION place and validate save oval_rug: PASS
+CONSTRUCTION move then reclaim oval_rug: PASS
+CONSTRUCTION icon and world sprite round_rug: PASS
+CONSTRUCTION craft exact materials round_rug: PASS
+CONSTRUCTION place and validate save round_rug: PASS
+CONSTRUCTION move then reclaim round_rug: PASS
+CONSTRUCTION icon and world sprite star_rug: PASS
+CONSTRUCTION craft exact materials star_rug: PASS
+CONSTRUCTION place and validate save star_rug: PASS
+CONSTRUCTION move then reclaim star_rug: PASS
+CONSTRUCTION icon and world sprite mirror: PASS
+CONSTRUCTION craft exact materials mirror: PASS
+CONSTRUCTION place and validate save mirror: PASS
+CONSTRUCTION move then reclaim mirror: PASS
+CONSTRUCTION icon and world sprite clock: PASS
+CONSTRUCTION craft exact materials clock: PASS
+CONSTRUCTION place and validate save clock: PASS
+CONSTRUCTION move then reclaim clock: PASS
+CONSTRUCTION icon and world sprite painting: PASS
+CONSTRUCTION craft exact materials painting: PASS
+CONSTRUCTION place and validate save painting: PASS
+CONSTRUCTION move then reclaim painting: PASS
+CONSTRUCTION icon and world sprite globe: PASS
+CONSTRUCTION craft exact materials globe: PASS
+CONSTRUCTION place and validate save globe: PASS
+CONSTRUCTION move then reclaim globe: PASS
+CONSTRUCTION icon and world sprite vase: PASS
+CONSTRUCTION craft exact materials vase: PASS
+CONSTRUCTION place and validate save vase: PASS
+CONSTRUCTION move then reclaim vase: PASS
+CONSTRUCTION icon and world sprite aquarium: PASS
+CONSTRUCTION craft exact materials aquarium: PASS
+CONSTRUCTION place and validate save aquarium: PASS
+CONSTRUCTION move then reclaim aquarium: PASS
+CONSTRUCTION icon and world sprite music_box: PASS
+CONSTRUCTION craft exact materials music_box: PASS
+CONSTRUCTION place and validate save music_box: PASS
+CONSTRUCTION move then reclaim music_box: PASS
+CONSTRUCTION icon and world sprite flower_box: PASS
+CONSTRUCTION craft exact materials flower_box: PASS
+CONSTRUCTION place and validate save flower_box: PASS
+CONSTRUCTION move then reclaim flower_box: PASS
+CONSTRUCTION icon and world sprite clay_planter: PASS
+CONSTRUCTION craft exact materials clay_planter: PASS
+CONSTRUCTION place and validate save clay_planter: PASS
+CONSTRUCTION move then reclaim clay_planter: PASS
+CONSTRUCTION icon and world sprite herb_planter: PASS
+CONSTRUCTION craft exact materials herb_planter: PASS
+CONSTRUCTION place and validate save herb_planter: PASS
+CONSTRUCTION move then reclaim herb_planter: PASS
+CONSTRUCTION icon and world sprite rose_arch: PASS
+CONSTRUCTION craft exact materials rose_arch: PASS
+CONSTRUCTION place and validate save rose_arch: PASS
+CONSTRUCTION move then reclaim rose_arch: PASS
+CONSTRUCTION icon and world sprite birdbath: PASS
+CONSTRUCTION craft exact materials birdbath: PASS
+CONSTRUCTION place and validate save birdbath: PASS
+CONSTRUCTION move then reclaim birdbath: PASS
+CONSTRUCTION icon and world sprite scarecrow: PASS
+CONSTRUCTION craft exact materials scarecrow: PASS
+CONSTRUCTION place and validate save scarecrow: PASS
+CONSTRUCTION move then reclaim scarecrow: PASS
+CONSTRUCTION icon and world sprite well: PASS
+CONSTRUCTION craft exact materials well: PASS
+CONSTRUCTION place and validate save well: PASS
+CONSTRUCTION move then reclaim well: PASS
+CONSTRUCTION icon and world sprite sundial: PASS
+CONSTRUCTION craft exact materials sundial: PASS
+CONSTRUCTION place and validate save sundial: PASS
+CONSTRUCTION move then reclaim sundial: PASS
+CONSTRUCTION icon and world sprite loom: PASS
+CONSTRUCTION craft exact materials loom: PASS
+CONSTRUCTION place and validate save loom: PASS
+CONSTRUCTION move then reclaim loom: PASS
+CONSTRUCTION icon and world sprite spinning_wheel: PASS
+CONSTRUCTION craft exact materials spinning_wheel: PASS
+CONSTRUCTION place and validate save spinning_wheel: PASS
+CONSTRUCTION move then reclaim spinning_wheel: PASS
+CONSTRUCTION icon and world sprite kiln: PASS
+CONSTRUCTION craft exact materials kiln: PASS
+CONSTRUCTION place and validate save kiln: PASS
+CONSTRUCTION move then reclaim kiln: PASS
+CONSTRUCTION icon and world sprite cauldron: PASS
+CONSTRUCTION craft exact materials cauldron: PASS
+CONSTRUCTION place and validate save cauldron: PASS
+CONSTRUCTION move then reclaim cauldron: PASS
+CONSTRUCTION one missing material prevents all charges: PASS
+CONSTRUCTION home workbench can be placed: PASS
+CONSTRUCTION placed home workbench enables crafting: PASS
+CONSTRUCTION home workbench cannot work across maps: PASS
+CONSTRUCTION removing workbench immediately removes access: PASS
+CONSTRUCTION outdoor fence cannot be placed inside: PASS
+CONSTRUCTION entrance road stays open: PASS
+CONSTRUCTION workbench footprint protected: PASS
+CONSTRUCTION outdoor perimeter protected: PASS
+CONSTRUCTION existing crops protected: PASS
+CONSTRUCTION cleared farm supports fence: PASS
+CONSTRUCTION built footprint blocks tilling: PASS
+CONSTRUCTION path can pass beneath fence: PASS
+CONSTRUCTION stock is shared across maps: PASS
+CONSTRUCTION outdoor area persists: PASS
+CONSTRUCTION unknown construction area rejected: PASS
+CONSTRUCTION overlap between crops and buildings rejected on load: PASS
+CONSTRUCTION duplicate building IDs rejected: PASS
+CONSTRUCTION seven-recipe saves migrate with original furniture: PASS
+CONSTRUCTION night crafting never charges: PASS
+CONSTRUCTION isolated save slot opens: PASS
+CONSTRUCTION real interaction opens workbench catalog: PASS
+CONSTRUCTION catalog has eight icon entries per page: PASS
+CONSTRUCTION all sixty-eight recipes accessible through pages: PASS
+CONSTRUCTION category filters bed recipes: PASS
+CONSTRUCTION name filter keeps matching icons: PASS
+CONSTRUCTION real paging exposes fences: PASS
+CONSTRUCTION real craft consumes listed materials: PASS
+CONSTRUCTION real mouse placement creates collision: PASS
+CONSTRUCTION real keyboard moves fence atomically: PASS
+CONSTRUCTION real reclaim removes collision: PASS
+CONSTRUCTION large farm keyboard placement pans camera: PASS
+CONSTRUCTION world resumes and HUD returns: PASS
+CONSTRUCTION outdoor fence restored for collision check: PASS
+CONSTRUCTION outdoor fence physically blocks walking: PASS
+CONSTRUCTION outdoor scene furnishing wood_gate: PASS
+CONSTRUCTION outdoor scene furnishing street_lamp: PASS
+CONSTRUCTION outdoor scene furnishing flower_box: PASS
+CONSTRUCTION outdoor scene furnishing stone_path: PASS
+CONSTRUCTION outdoor scene furnishing chest: PASS
+CONSTRUCTION outdoor chest stores inventory: PASS
+CONSTRUCTION outdoor chest opens actual inventory: PASS
+CONSTRUCTION nonempty outdoor chest cannot be reclaimed: PASS
+CONSTRUCTION outdoor lamps are dim during daytime: PASS
+CONSTRUCTION outdoor lamps brighten at dusk: PASS
+CONSTRUCTION outdoor objects do not leak into home: PASS
+CONSTRUCTION starter room accepts bed and workbench: PASS
+CONSTRUCTION placed home bench opens actual catalog: PASS
+CONSTRUCTION craft button unavailable away from bench: PASS
+CONSTRUCTION map displays outdoor construction: PASS
+CONSTRUCTION save construction to isolated disk: PASS
+CONSTRUCTION disk round trip retains areas and storage: PASS
+CONSTRUCTION returning to farm preserves collisions: PASS
+CONSTRUCTION VERIFY END checks=329 failures=0
+FMOD Sound System: System released

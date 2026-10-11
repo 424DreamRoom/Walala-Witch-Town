@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+CONTROLLER HARDWARE []
+CONTROLLER TEST fresh process restores layout: PASS
+CONTROLLER TEST fresh process restores deadzone: PASS
+CONTROLLER TEST fresh process preserves keyboard: PASS
+CONTROLLER VERIFY END failures=0

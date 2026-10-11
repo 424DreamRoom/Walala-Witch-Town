@@ -1,0 +1,58 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+ERROR: Resource file not found: res://Art/Environment/Hearthwood/home_empty_0.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/WitchHome/witch_home.gd:24)
+       [1] enter (res://Scenes/Gameplay/game_loop.gd:467)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:123)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [4] run (res://Scenes/Campaign/verify_residents.gd:71)
+RESIDENT TEST all ten residents installed with feet origins: PASS
+RESIDENT TEST all residents have no overhead names: PASS
+RESIDENT TEST every activity and shelter reachable from town: PASS
+RESIDENT TEST all residents act within first five seconds: PASS
+RESIDENT TEST opening movement avoids buildings and gates: PASS
+RESIDENT TEST whole day has no wall crossings or teleportation: FAIL
+RESIDENT TEST whole day uses valid authored frames: PASS
+RESIDENT DIAGNOSTIC low distance ember 0.0
+RESIDENT DIAGNOSTIC low distance toma 0.0
+RESIDENT DIAGNOSTIC low distance pip 150.713899970055
+RESIDENT TEST every resident has sustained daily activity: FAIL
+RESIDENT TEST night hands residents to existing restaurant loop: PASS
+RESIDENT TEST next morning resumes without position jumps: PASS
+RESIDENT TEST work destinations match resident roles: PASS
+RESIDENT TEST schedule change replans without teleporting: PASS
+RESIDENT TEST rain changes destination without teleporting: PASS
+RESIDENT DIAGNOSTIC shelter mori at (536.0, 453.2058) target (568.0, 368.0) path 0/6
+RESIDENT DIAGNOSTIC shelter ember at (776.0, 531.3313) target (512.0, 712.0) path 0/24
+RESIDENT DIAGNOSTIC shelter nagi at (656.0, 398.0048) target (664.0, 368.0) path 14/17
+RESIDENT DIAGNOSTIC shelter lumi at (558.261, 384.0) target (608.0, 712.0) path 0/30
+RESIDENT DIAGNOSTIC shelter aster at (931.0, 296.0) target (968.0, 552.0) path 38/38
+RESIDENT DIAGNOSTIC shelter toma at (576.0, 443.3312) target (896.0, 280.0) path 0/31
+RESIDENT DIAGNOSTIC shelter pip at (784.0, 537.75) target (720.0, 840.0) path 36/36
+RESIDENT DIAGNOSTIC shelter reed at (647.4719, 504.0) target (816.0, 840.0) path 0/34
+RESIDENT DIAGNOSTIC shelter orla at (919.0, 296.0) target (296.0, 888.0) path 58/58
+RESIDENT TEST rain residents reach separate shelters safely: FAIL
+RESIDENT TEST snow changes destination without teleporting: PASS
+RESIDENT DIAGNOSTIC shelter mori at (536.0, 453.2058) target (568.0, 368.0) path 0/6
+RESIDENT DIAGNOSTIC shelter ember at (776.0, 531.3313) target (512.0, 712.0) path 0/24
+RESIDENT DIAGNOSTIC shelter nagi at (656.0, 398.0048) target (664.0, 368.0) path 14/17
+RESIDENT DIAGNOSTIC shelter lumi at (558.261, 384.0) target (608.0, 712.0) path 0/30
+RESIDENT DIAGNOSTIC shelter aster at (931.0, 296.0) target (968.0, 552.0) path 38/38
+RESIDENT DIAGNOSTIC shelter toma at (576.0, 443.3312) target (896.0, 280.0) path 0/31
+RESIDENT DIAGNOSTIC shelter pip at (784.0, 537.75) target (720.0, 840.0) path 36/36
+RESIDENT DIAGNOSTIC shelter reed at (647.4719, 504.0) target (816.0, 840.0) path 0/34
+RESIDENT DIAGNOSTIC shelter orla at (919.0, 296.0) target (296.0, 888.0) path 58/58
+RESIDENT TEST snow residents reach separate shelters safely: FAIL
+RESIDENT TEST clear weather restores daily activities: PASS
+RESIDENT TEST existing save schema remains compatible: PASS
+RESIDENT TEST town detached in interior: PASS
+RESIDENT TEST offscreen residents keep their routines: PASS
+RESIDENT TEST return restores same resident nodes: PASS
+RESIDENT TEST nearest visible resident selected: PASS
+RESIDENT TEST moving resident interaction succeeds: PASS
+RESIDENT TEST dialogue freezes all resident positions: PASS
+RESIDENT TEST dialogue close resumes activities: PASS
+RESIDENT TEST controller keeps real frame updates: PASS
+RESIDENT VERIFY END checks=26 failures=4

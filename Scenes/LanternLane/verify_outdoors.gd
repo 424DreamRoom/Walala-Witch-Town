@@ -28,15 +28,8 @@ func key(code: int) -> void:
 		await frames()
 
 func walk_to(target: Vector2) -> void:
-	var count := 0
-	while lane.player.position.distance_to(target) > 2.0 and count < 400:
-		var difference: Vector2 = target - lane.player.position
-		lane.test_direction = Vector2(signf(difference.x), 0) if absf(difference.x) > 1.5 else Vector2(0, signf(difference.y))
-		await physics_frame
-		count += 1
-	lane.test_direction = Vector2.ZERO
-	await physics_frame
-	check("walk " + str(target), lane.player.position.distance_to(target) < 3.0)
+	var arrived: bool = await preload("res://Scenes/LanternLane/verification_navigation.gd").walk(lane, target)
+	check("real walk to " + str(target), arrived)
 
 func shot(title: String) -> Image:
 	if not capture:
@@ -49,12 +42,13 @@ func shot(title: String) -> Image:
 	return image
 
 func visible_hero_pixels(image: Image, feet: Vector2i) -> int:
-	var source: Image = lane.avatar.texture.get_image().get_region(Rect2i(0, 0, 32, 48))
+	var cell := Vector2i(lane.CHARACTER_SIZE)
+	var source: Image = lane.avatar.texture.get_image().get_region(Rect2i(Vector2i.ZERO, cell))
 	var count := 0
-	for y in range(48):
-		for x in range(32):
+	for y in range(cell.y):
+		for x in range(cell.x):
 			var color := source.get_pixel(x, y)
-			if color.a == 1.0 and image.get_pixel(feet.x - 16 + x, feet.y - 48 + y) == color:
+			if color.a == 1.0 and image.get_pixel(feet.x - cell.x / 2 + x, feet.y - cell.y + y) == color:
 				count += 1
 	return count
 
@@ -65,12 +59,13 @@ func run() -> void:
 	lane.automation = true
 	loop = lane.get_node("GameLoop")
 	loop.paused_for_test = true
+	loop.enter("town")
 	loop.audio.music_muted = true
 	loop.audio.effects_muted = true
 	loop.audio.apply_volume()
 	var layout: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(lane.ART + "town_layout.json"))
-	check("town decorations loaded", lane.actors.get_child_count() == layout.buildings.size() + layout.props.size() + 4)
-	check("building weather cover", lane.weather.roof_rects.size() == 9)
+	check("town decorations loaded", lane.actors.get_child_count() == layout.buildings.size() + layout.props.size() + 1 + loop.gate_labels.size())
+	check("building weather cover", lane.weather.roof_rects.size() == layout.buildings.size())
 	check("town Y sorting", lane.actors.y_sort_enabled)
 	await shot("outdoor_town_entry")
 	if capture:
@@ -85,7 +80,6 @@ func run() -> void:
 		await shot("outdoor_south_street")
 	lane.player.position = lane.SPAWN
 	await walk_to(loop.FIELD_GATE)
-	await key(KEY_E)
 	check("field entrance works", loop.location == "field")
 	if loop.location != "field":
 		quit(1)
@@ -122,17 +116,18 @@ func run() -> void:
 		lane.player.position = Vector2(422, 235)
 		var front: Image = await shot("outdoor_field_front_tree")
 		var front_count := visible_hero_pixels(front, Vector2i(422, 235))
-		var source: Image = lane.avatar.texture.get_image().get_region(Rect2i(0, 0, 32, 48))
+		var cell := Vector2i(lane.CHARACTER_SIZE)
+		var source: Image = lane.avatar.texture.get_image().get_region(Rect2i(Vector2i.ZERO, cell))
 		var opaque_count := 0
-		for y in range(48):
-			for x in range(32):
+		for y in range(cell.y):
+			for x in range(cell.x):
 				if source.get_pixel(x, y).a == 1.0:
 					opaque_count += 1
 		check("tree covers character from behind", behind_count < opaque_count / 2)
 		check("character covers tree from front", front_count == opaque_count)
 		lane.set_physics_process(true)
 	lane.player.position = Vector2(60, 280)
-	await key(KEY_E)
+	await walk_to(loop.area.stations.exit)
 	check("field exit works", loop.location == "town")
 	lane.queue_free()
 	await frames()

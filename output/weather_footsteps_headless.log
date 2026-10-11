@@ -1,0 +1,117 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "building" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://Scenes/Save/save_menu.gd:111)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_weather_footsteps.gd:69)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Scenes/Gameplay/game_loop.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_weather_footsteps.gd:69)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Scenes/LanternLane/lantern_lane.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_weather_footsteps.gd:69)
+ERROR: Failed to load script "res://Scenes/LanternLane/lantern_lane.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_weather_footsteps.gd:69)
+ERROR: Resource file not found: res://Art/Environment/Hearthwood/outdoor_sign_furniture_store.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Gameplay/game_loop.gd:113)
+       [1] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [2] run (res://Sounds/Walala/verify_weather_footsteps.gd:70)
+SCRIPT ERROR: Cannot call method 'get_height' on a null value.
+   at: _ready (res://Scenes/Gameplay/game_loop.gd:114)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Gameplay/game_loop.gd:114)
+       [1] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [2] run (res://Sounds/Walala/verify_weather_footsteps.gd:70)
+AUDIO DRIVER Dummy
+WEATHER FOOTSTEPS loaded wood0: PASS
+WEATHER FOOTSTEPS nonzero PCM wood0: PASS
+WEATHER FOOTSTEPS loaded wood1: PASS
+WEATHER FOOTSTEPS nonzero PCM wood1: PASS
+WEATHER FOOTSTEPS loaded wood2: PASS
+WEATHER FOOTSTEPS nonzero PCM wood2: PASS
+WEATHER FOOTSTEPS loaded stone0: PASS
+WEATHER FOOTSTEPS nonzero PCM stone0: PASS
+WEATHER FOOTSTEPS loaded grass0: PASS
+WEATHER FOOTSTEPS nonzero PCM grass0: PASS
+WEATHER FOOTSTEPS loaded grass1: PASS
+WEATHER FOOTSTEPS nonzero PCM grass1: PASS
+WEATHER FOOTSTEPS loaded dirt0: PASS
+WEATHER FOOTSTEPS nonzero PCM dirt0: PASS
+WEATHER FOOTSTEPS loaded snow0: PASS
+WEATHER FOOTSTEPS nonzero PCM snow0: PASS
+WEATHER FOOTSTEPS loaded snow1: PASS
+WEATHER FOOTSTEPS nonzero PCM snow1: PASS
+WEATHER FOOTSTEPS loaded snow2: PASS
+WEATHER FOOTSTEPS nonzero PCM snow2: PASS
+WEATHER FOOTSTEPS loaded snow3: PASS
+WEATHER FOOTSTEPS nonzero PCM snow3: PASS
+WEATHER FOOTSTEPS loaded snow4: PASS
+WEATHER FOOTSTEPS nonzero PCM snow4: PASS
+WEATHER FOOTSTEPS loaded snow5: PASS
+WEATHER FOOTSTEPS nonzero PCM snow5: PASS
+WEATHER FOOTSTEPS surface ["town", (408.0, 364.0), "clear", "stone"]: PASS
+WEATHER FOOTSTEPS surface ["town", (108.0, 450.0), "clear", "dirt"]: PASS
+WEATHER FOOTSTEPS surface ["town", (224.0, 307.0), "clear", "dirt"]: PASS
+WEATHER FOOTSTEPS surface ["field", (60.0, 280.0), "clear", "dirt"]: PASS
+WEATHER FOOTSTEPS surface ["field", (140.0, 150.0), "clear", "grass"]: PASS
+WEATHER FOOTSTEPS surface ["town", (408.0, 364.0), "snow", "snow"]: PASS
+WEATHER FOOTSTEPS surface ["home", (320.0, 405.0), "snow", "wood"]: PASS
+WEATHER FOOTSTEPS surface ["restaurant", (60.0, 280.0), "snow", "wood"]: PASS
+WEATHER FOOTSTEPS surface ["blacksmith", (300.0, 300.0), "snow", "stone"]: PASS
+WEATHER FOOTSTEPS surface ["blacksmith", (450.0, 390.0), "snow", "wood"]: PASS
+WEATHER FOOTSTEPS surface ["store", (300.0, 300.0), "snow", "wood"]: PASS
+WEATHER FOOTSTEPS surface ["dock", (400.0, 230.0), "clear", "wood"]: PASS
+WEATHER FOOTSTEPS surface ["dock", (64.0, 276.0), "clear", "dirt"]: PASS
+WEATHER FOOTSTEPS surface ["dock", (400.0, 230.0), "snow", "snow"]: PASS
+WEATHER FOOTSTEPS real walking starts steps: PASS
+WEATHER FOOTSTEPS idle adds no steps: PASS
+WEATHER FOOTSTEPS running cadence faster: PASS
+WEATHER FOOTSTEPS pushing wall stays silent: PASS
+WEATHER FOOTSTEPS teleport adds no steps: PASS
+WEATHER FOOTSTEPS rain loop starts: PASS
+WEATHER FOOTSTEPS rain loop not restarted each frame: PASS
+WEATHER FOOTSTEPS snow uses wind loop: PASS
+WEATHER LEVELS rain_rms_db=-43.3728071732225 snow_rms_db=-40.3388668736562 music_rms_db=-34.4928840627642
+WEATHER FOOTSTEPS default snow has audible decoded level: PASS
+WEATHER FOOTSTEPS snow remains present beside default music: PASS
+WEATHER FOOTSTEPS snow and rain levels stay balanced: PASS
+WEATHER FOOTSTEPS snow loop not restarted each frame: PASS
+WEATHER FOOTSTEPS snow loop wraps at end: PASS
+WEATHER FOOTSTEPS maximum snow volume retains headroom: PASS
+WEATHER FOOTSTEPS snow environment zero pauses weather only: PASS
+WEATHER FOOTSTEPS snow environment restore resumes loop: PASS
+WEATHER FOOTSTEPS master zero silences snow: PASS
+WEATHER FOOTSTEPS effects mute silences snow: PASS
+WEATHER FOOTSTEPS effects unmute resumes snow: PASS
+WEATHER FOOTSTEPS snow steps selected while moving: PASS
+WEATHER FOOTSTEPS enter interior immediately stops weather and steps: PASS
+WEATHER FOOTSTEPS interior selects wood during snow: PASS
+WEATHER FOOTSTEPS snow silent inside restaurant: PASS
+WEATHER FOOTSTEPS snow silent inside blacksmith: PASS
+WEATHER FOOTSTEPS snow silent inside store: PASS
+WEATHER FOOTSTEPS snow resumes outside town: PASS
+WEATHER FOOTSTEPS snow resumes outside farm: PASS
+WEATHER FOOTSTEPS snow resumes outside field: PASS
+WEATHER FOOTSTEPS snow resumes outside dock: PASS
+WEATHER FOOTSTEPS wood variants do not repeat consecutively: PASS
+WEATHER FOOTSTEPS footsteps preserve interaction voice: PASS
+WEATHER FOOTSTEPS mute stops current footsteps: PASS
+WEATHER FOOTSTEPS muted walking starts no voice: PASS
+WEATHER FOOTSTEPS unmute does not replay old footsteps: PASS
+WEATHER FOOTSTEPS zero volume starts no voice: PASS
+WEATHER FOOTSTEPS slider updates footstep gain: PASS
+WEATHER FOOTSTEPS clear stops weather: PASS
+WEATHER FOOTSTEPS result stops movement and step voices: PASS
+WEATHER FOOTSTEPS result stops snow ambience: PASS
+WEATHER FOOTSTEPS bounded footstep and event voices: PASS
+WEATHER FOOTSTEPS VERIFY END failures=0
+WARNING: 1 RID of type "CanvasItem" was leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2733)
+WARNING: 1 ObjectDB instance was leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

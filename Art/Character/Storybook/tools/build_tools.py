@@ -46,17 +46,12 @@ def pose(action, direction, step):
     # One-pixel outlines and a warm wooden handle keep tools in the map palette.
     for dx, color in [(-1, "#655154"), (0, "#cba77b"), (1, "#8f725d")]:
         p.line("equipment", [xy((grip[0] + dx, grip[1])), xy((head[0] + dx, head[1]))], color)
-    if action == "chop":
-        points = [(head[0] - 4, head[1] - 2), (head[0] + 1, head[1] - 2), (head[0] + 2, head[1] + 2), (head[0] - 3, head[1] + 3)]
-        p.poly("equipment", [xy(point) for point in points], "#91aaa5", "#4b6267")
-        p.line("equipment", [xy((head[0] - 4, head[1] - 1)), xy((head[0] - 3, head[1] + 2))], "#e0e3cb")
-    elif action == "mine":
-        points = [(head[0] - 7, head[1] + 2), (head[0] - 4, head[1] - 2), (head[0] + 1, head[1] - 2), (head[0] + 2, head[1] + 2), (head[0], head[1])]
-        p.poly("equipment", [xy(point) for point in points], "#88a4ad", "#4b6267")
-        p.line("equipment", [xy((head[0] - 5, head[1])), xy((head[0], head[1] - 1))], "#e0e3cb")
-    else:
-        p.dot("equipment", *xy(head), "#e2c08b")
-        p.dot("equipment", *xy((grip[0] + 2, grip[1])), "#779a9c")
+    # Every action uses the same violet crystal wand, including fishing.
+    points = [(head[0], head[1] - 4), (head[0] + 2, head[1]),
+              (head[0], head[1] + 3), (head[0] - 2, head[1])]
+    p.poly("equipment", [xy(point) for point in points], "#b39dcf", "#655174")
+    p.line("equipment", [xy((head[0] - 1, head[1] - 2)), xy((head[0] - 1, head[1]))], "#ede1f3")
+    p.line("equipment", [xy((head[0] - 1, head[1] + 3)), xy((head[0] + 1, head[1] + 3))], "#e2c08b")
     if action in ("chop", "mine") and step == 2:
         for x, y in [(29, 30), (30, 32), (30, 40)]:
             p.dot("fx", *xy((x, y)), "#eddfb8")
@@ -127,13 +122,12 @@ def build():
     for tag in (tags[2], tags[6], tags[10], tags[14], tags[18]):
         preview.extend(images[tag["from"]:tag["to"] + 1])
     base.contact_sheet(preview, ["chop"] * 4 + ["mine"] * 4 + ["cast"] * 3 + ["wait"] + ["reel"] * 3, 4, 5, OUT / "actions-preview.png")
-    sounds()
     for im in images:
         assert im.size == (32, 48)
         assert set(im.getchannel("A").get_flattened_data()) == {0, 255}
         assert any(im.getpixel((x, 47))[3] == 255 for x in range(32))
         assert len(set(im.get_flattened_data())) <= 65
-    print("TOOLS ART PASS: 60 native frames, 20 directional tags, 6 editable layers, 5 original sounds")
+    print("WAND ART PASS: 60 native frames, 20 directional tags, 6 editable layers; existing sounds retained")
 
 
 def runtime_preview():

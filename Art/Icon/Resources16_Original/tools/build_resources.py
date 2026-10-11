@@ -1,8 +1,11 @@
 """Original native-resolution sprite authoring; no input image or resampling.
 Run from project root: python Art/Icon/Resources16_Original/tools/build_resources.py
-Outputs are guarded against overwriting. Only preview uses nearest-neighbor enlargement.
+Use --replace to refresh existing exports. Only review previews are enlarged.
 """
 from pathlib import Path
+import argparse
+import hashlib
+import json
 import struct
 import zlib
 from PIL import Image, ImageDraw, ImageFont
@@ -12,45 +15,61 @@ LAYERS = ['Outline', 'Base color', 'Light and shadow', 'Details']
 # Each character is one authored pixel. D/d/e are material or emblem details.
 SPECS = {
     'wood': {
-        'palette': {'O':'51473f', 'B':'907455', 'S':'705d49', 'H':'b49a72', 'D':'c4a67b', 'd':'8a694c', 'e':'a58660'},
+        'palette': {'O':'493338', 'B':'a66e49', 'S':'774934', 'H':'c99460', 'D':'e5bd80', 'd':'835034', 'e':'b17b4e'},
         'rows': [
-            '', '', '        OOOO', '     OOOHHBBO', '   OOHBBBBBBBO',
-            '  OHDHOBBddBBSO', ' OHDDeOBBBBBBSO', ' OHDeDdOBddBBSO',
-            ' OHDeDeOBBBSSSO', ' OBDeDdOBddSSSO', ' OBDDeeOBSSSSO',
-            '  OBeeOBSSSSO', '   OOOOSSSOO', '      OOOO', '', ''],
+            '', '', '        OOOO', '      OOHBBBO', '    OOHBBBBBO',
+            '   ODDOBddBBSO', '  ODHDDOBBBBSO', ' ODHdeDOBddBSO',
+            ' ODHeeDOBBBSSO', ' ODHedDOBdSSSO', ' OBDeeDOBSSSO',
+            '  OBDDOOSSSO', '   OOOOSSOO', '      OOO', '', ''],
     },
     'stone': {
-        'palette': {'O':'4f5054', 'B':'92968f', 'S':'707873', 'H':'b6b9aa', 'D':'a4a99d', 'd':'666e6b'},
+        'palette': {'O':'41424e', 'B':'89959d', 'S':'596878', 'H':'b5c0ba', 'D':'d4d8c2', 'd':'6d7c87'},
         'rows': [
-            '', '', '      OOO', '    OOHHHOO', '   OHHHHHBBBO',
-            '  OHHHDBBBBBBO', '  OHDBBBBBBBBBO', ' OBBBBDDBBBSSSO',
-            ' OBBBBBBBDSSSSO', ' OBBDdBBSSSSSSO', '  OBBdSSSSSSSO',
-            '   OSSSSSSSSO', '    OOOOOOOO', '', '', ''],
+            '', '', '       OOO', '     OOHHHO', '    OHDDHHBOO',
+            '   OHDDHHBBBBBO', '  OHHHHBBBBBBBO', '  OHBBBBBBddBSO',
+            ' OBBBBBBddBBSSO', ' OBBBBdBBBSSSSO', '  OBBdBBSSSSSO',
+            '   OBBSSSSSSO', '    OOSSSSOO', '      OOOO', '', ''],
     },
     'gold': {
-        'palette': {'O':'69573e', 'B':'c5aa69', 'S':'9b8050', 'H':'e0ca8d', 'D':'eee0ad', 'd':'b69959'},
+        'palette': {'O':'654039', 'B':'d89f49', 'S':'a96539', 'H':'f0cb72', 'D':'fff0ae', 'd':'b77c38'},
         'rows': [
-            '', '', '', '     OOOOOOO', '    OHHDHHHHO',
-            '   OHHHHHHHHO', '  OHHHHHHHHHBO', ' OOOOOOOOOOOBBO',
-            ' OBBBBBBBBBBBSO', '  OBBdBBBBBBSSO', '  OBBBBBBBSSSO',
-            '   OSSSSSSSSO', '    OOOOOOOO', '', '', ''],
+            '', '', '', '      OOOOOOO', '     OHDDHHHHO',
+            '    OHHHHHHHHO', '   OHHHHHHHHBO', '  ODDHHHHHHBBSO',
+            ' OHHBBBBBBBSSSO', ' OBBBBBdBBSSSSO', ' OBBBddBSSSSSO',
+            '  OBBBSSSSSSO', '   OOOOOOOOO', '', '', ''],
     },
     'iron_ore': {
-        'palette': {'O':'454951', 'B':'777f87', 'S':'59636c', 'H':'9ba5a7', 'D':'c49a78', 'd':'936d57', 'e':'ddbd94'},
+        'palette': {'O':'423d4d', 'B':'767f92', 'S':'505a71', 'H':'a0afbb', 'D':'c98d60', 'd':'8f5943', 'e':'f0c18a'},
         'rows': [
-            '', '', '     OOOO', '   OOHBBBOO', '  OHHeDBBBBO',
-            '  OHBDdBBHBBO', ' OHBBBBBHeDBBO', ' OBBBBSBBBDdBO',
-            ' OHBeDBBSSBSSO', ' OBBDdSSBSSSSO', '  OBBSSSDeSSO',
-            '   OSSSSdSSO', '    OOOOOOO', '', '', ''],
+            '', '', '      OOO', '    OOHBBOO', '   OHHeeDBBO',
+            '  OHHHeDDdBBO', '  OHBBBddBBBO', ' OHBBBBBBeDDSO',
+            ' OBeDDBBBDDdSO', ' OBDDdBSSddSSO', '  OddBBSSSSSO',
+            '   OBSSSSSSO', '    OOSSSOO', '      OOO', '', ''],
+    },
+    'iron': {
+        'palette': {'O':'3b3e50', 'B':'94adb5', 'S':'5b7188', 'H':'ccd8ce', 'D':'f1f0d8', 'd':'7793a4'},
+        'rows': [
+            '', '', '', '      OOOOOOO', '     OHDDHHHHO',
+            '    OHHHHHHHHO', '   OHHHHHHHHBO', '  ODDHHHHHHBBSO',
+            ' OHHBBBBBBBSSSO', ' OBBBBBdBBSSSSO', ' OBBBddBSSSSSO',
+            '  OBBBSSSSSSO', '   OOOOOOOOO', '', '', ''],
+    },
+    'fish': {
+        'palette': {'O':'35404b', 'B':'719f9e', 'S':'4e6e82', 'H':'a9c6b3', 'D':'e4dfb5', 'd':'263b49', 'e':'ca9b73'},
+        'rows': [
+            '', '', '', '         OO', '        OHSO',
+            '  OO  OOHHHBOO', '  OBSOHBBBBBBBO', '  OBBSHBBBBdBBO',
+            '   OSHBBBBBdBeO', '  OBBSBBBBBBBBO', '  OBSODDDDDDdO',
+            '  OO  OOSSSOO', '        OSO', '         O', '', ''],
     },
     'witch_coin': {
-        'palette': {'O':'554b62', 'B':'ada0b7', 'S':'80758f', 'H':'d0bfd0', 'D':'51465d', 'd':'ead3a4', 'e':'b99b74'},
+        'palette': {'O':'493846', 'B':'d9ab62', 'S':'a46b45', 'H':'f4d88d', 'D':'68516f', 'd':'fff0b8', 'e':'99768d'},
         'rows': [
-            '', '     OOOOOO', '   OOHHHHHBOO', '  OHHBBBBBBBBO',
-            '  OHBBBDDBddBO', ' OHBBBDDBdBBBSO', ' OHBBDDDDBddBSO',
-            ' OHBBDDDDBBBBSO', ' OHBDDeeDBBBBSO',
-            ' OHBDDDDDDBBBSO', '  OBBBBBBBBBSO', '  OBSSSSSSSSSO',
-            '   OOSSSSSSOO', '     OOOOOO', '', ''],
+            '', '      OOOO', '    OOHHHBOO', '   OHdHHBBBBO',
+            '  OHdBBBBBBBSO', '  OHBBBBDBdBSO', ' OHBBBBDDBBBBSO',
+            ' OHBBBDDeDBBBSO', ' OHBBBDDDDBBBSO', ' OHBBDDeeDDBBSO',
+            '  OBDDDDDDBBSO',
+            '  OBBBBBBBBSSO', '   OBSSSSSSSO', '    OOSSSSOO', '      OOOO', ''],
     },
 }
 
@@ -91,10 +110,13 @@ def author(spec):
     return images, composite
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--replace', action='store_true', help='Explicitly refresh this resource set')
+    args = parser.parse_args()
     targets = [ROOT / (name + ext) for name in SPECS for ext in ('.png', '.aseprite')]
     targets += [ROOT/'preview_nearest_16x.png']
     for path in targets:
-        if path.exists():
+        if path.exists() and not args.replace:
             raise FileExistsError(f'Refusing to overwrite {path}')
     sprites = {}
     for name, spec in SPECS.items():
@@ -103,20 +125,35 @@ def main():
         image.save(ROOT/(name+'.png'))
         sprites[name] = image
     # Checkerboard is confined to this review image, not the asset PNGs.
-    preview = Image.new('RGB', (1440, 348), '#24252c')
+    preview = Image.new('RGB', (len(sprites)*200+24, 392), '#24252c')
     draw = ImageDraw.Draw(preview)
     font = ImageFont.load_default(size=18)
     for i, (name, image) in enumerate(sprites.items()):
-        left, top = 16 + i*288, 20
+        left, top = 24 + i*200, 20
         for y in range(16):
             for x in range(16):
                 fill = '#44454d' if (x//2+y//2)%2 else '#383940'
-                draw.rectangle((left+x*16,top+y*16,left+x*16+15,top+y*16+15), fill=fill)
-        preview.paste(image.resize((256,256), Image.Resampling.NEAREST), (left,top), image.resize((256,256), Image.Resampling.NEAREST))
-        draw.text((left, 290), name.replace('_',' ').upper(), fill='#ded6c9', font=font)
-        draw.text((left, 317), '16 x 16 / RGBA / 4 layers', fill='#9a989f', font=ImageFont.load_default(size=13))
+                draw.rectangle((left+x*10,top+y*10,left+x*10+9,top+y*10+9), fill=fill)
+        enlarged = image.resize((160,160), Image.Resampling.NEAREST)
+        preview.paste(enlarged, (left,top), enlarged)
+        draw.text((left, 198), name.replace('_',' ').upper(), fill='#ded6c9', font=font)
+        draw.text((left, 226), '16 x 16 / RGBA / 4 layers', fill='#9a989f', font=ImageFont.load_default(size=13))
+        for column, background in enumerate(('#f3e2bd', '#302839')):
+            x = left+column*84
+            draw.rectangle((x,260,x+71,331),fill=background)
+            actual = image.resize((48,48), Image.Resampling.NEAREST)
+            preview.paste(actual,(x+12,272),actual)
+        preview.paste(image,(left+12,352),image)
+        draw.text((left+40,354),'1x native',fill='#9a989f',font=ImageFont.load_default(size=13))
     preview.save(ROOT/'preview_nearest_16x.png')
-    print('Created 5 native 16x16 PNGs, 5 four-layer Aseprite sources, and preview.')
+    # Preserve the established preview filename for existing links.
+    manifest = {'revision':2, 'canvas':[16,16], 'light':'upper-left', 'alpha':[0,255],
+                'method':'Authored native pixel maps; no image resampling or reference pixel extraction',
+                'assets':{name:{'png':name+'.png','source':name+'.aseprite',
+                               'layers':LAYERS,'png_sha256':hashlib.sha256((ROOT/(name+'.png')).read_bytes()).hexdigest()}
+                          for name in SPECS}}
+    (ROOT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+    print(f'Created {len(sprites)} native 16x16 PNGs, layered Aseprite sources, manifest and preview.')
 
 if __name__ == '__main__':
     main()

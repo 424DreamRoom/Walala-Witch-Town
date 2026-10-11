@@ -1,0 +1,38 @@
+MUSIC REFRESH original-byte hashes verified: 3
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+MUSIC REFRESH DRIVER WASAPI
+MUSIC REFRESH valid OGG title: PASS
+MUSIC REFRESH nonzero full PCM title: PASS
+MUSIC REFRESH FMOD loops beyond source duration title: PASS
+MUSIC REFRESH valid OGG day_town: PASS
+MUSIC REFRESH nonzero full PCM day_town: PASS
+MUSIC REFRESH FMOD loops beyond source duration day_town: PASS
+MUSIC REFRESH valid OGG night_town3: PASS
+MUSIC REFRESH nonzero full PCM night_town3: PASS
+MUSIC REFRESH FMOD loops beyond source duration night_town3: PASS
+MUSIC REFRESH METRICS {"day_town":{"peak":1.00324261188507,"rms_db":-15.5557408758523,"seconds":64.0},"night_town3":{"peak":0.957955598831177,"rms_db":-15.8870026878906,"seconds":65.4545593261719},"title":{"peak":0.795371294021606,"rms_db":-18.2305710309208,"seconds":46.4516334533691}}
+MUSIC REFRESH title uses separate looping track: PASS
+MUSIC REFRESH title playing with saved gain: PASS
+MUSIC REFRESH title mute: PASS
+MUSIC REFRESH title stops before gameplay: PASS
+MUSIC REFRESH day uses new OGG: PASS
+MUSIC REFRESH location keeps current music voice: PASS
+MUSIC REFRESH location preserves native channel: PASS
+MUSIC REFRESH day and night overlap during fade: PASS
+MUSIC REFRESH night transition completes: PASS
+MUSIC REFRESH night uses new OGG: PASS
+MUSIC REFRESH result retains night music: PASS
+MUSIC REFRESH muted phase change stays silent: PASS
+MUSIC REFRESH outdoor rain preserved: PASS
+MUSIC REFRESH gain survives phase change: PASS
+MUSIC REFRESH effects mute independent from music: PASS
+MUSIC REFRESH zero music volume silent: PASS
+MUSIC REFRESH rapid switching leaves one music voice: PASS
+MUSIC REFRESH indoor environment silent: PASS
+MUSIC REFRESH settings persist to title: PASS
+MUSIC REFRESH VERIFY END failures=0 checks=28
+FMOD Sound System: System released
+
+LOG C:\Godot\Walala-Witch-Town\output\music_refresh_audio_39052.log

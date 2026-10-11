@@ -1,0 +1,85 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FARM starter seeds and full water: PASS
+FARM hoe required without modifying soil: PASS
+FARM till soil: PASS
+FARM plant consumes one seed: PASS
+FARM dry crop survives without growing: PASS
+FARM watering can required: PASS
+FARM empty can leaves crop dry: PASS
+FARM refill capacity: PASS
+FARM water consumes one unit: PASS
+FARM repeated water cannot drain can: PASS
+FARM JSON restores watered crop and supplies: PASS
+FARM watered growth day 1: PASS
+FARM watered growth day 2: PASS
+FARM watered growth day 3: PASS
+FARM full backpack preserves mature crop: FAIL
+FARM harvest shares herb inventory and returns seeds: FAIL
+FARM harvest preserves tilled soil: FAIL
+FARM empty seed bag does not plant: FAIL
+FARM sell crop to shared wallet: FAIL
+FARM buy four seeds: FAIL
+FARM insufficient gold cannot buy seeds: FAIL
+FARM replant harvested plot: FAIL
+FARM night prevents farming and seed purchases: PASS
+FARM out of bounds tile rejected: PASS
+FARM existing save receives starter farm: FAIL
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM old home removed from town: PASS
+FARM west road farm entrance: PASS
+FARM real walk from town to farm: PASS
+FARM independent farm owns player: PASS
+FARM farm camera bounds: PASS
+FARM outdoor weather and roof shelter: PASS
+FARM farm daylight controller and lamps: PASS
+FARM farm soil footsteps: PASS
+FARM farm snow footsteps: PASS
+FARM capture farm_arrival: PASS
+FARM window capture farm_arrival: PASS
+FARM real walk to relocated home: PASS
+FARM home interior reached from farm: PASS
+FARM home saves return to farm door: PASS
+FARM real walk out of home: PASS
+FARM home returns to farm: PASS
+FARM capture farm_house: PASS
+FARM window capture farm_house: PASS
+FARM clear farm route (208.0, 384.0): PASS
+FARM clear farm route (560.0, 384.0): PASS
+FARM clear farm route (208.0, 608.0): PASS
+FARM clear farm route (560.0, 608.0): PASS
+FARM clear farm route (774.0, 580.0): PASS
+FARM clear farm route (480.0, 310.0): PASS
+FARM real walk to first tile: PASS
+FARM facing selects reachable first tile: PASS
+FARM E tills actual farm tile: PASS
+FARM E plants actual farm tile: PASS
+FARM E waters actual farm tile: PASS
+FARM capture farm_planted: PASS
+FARM window capture farm_planted: PASS
+FARM real walk to pond refill: PASS
+FARM pond E refills shared watering can: PASS
+FARM capture farm_pond: PASS
+FARM window capture farm_pond: PASS
+FARM pond collision keeps feet out of water: PASS
+FARM rain waters farm while player is indoors: PASS
+FARM home with farm state can save: PASS
+FARM disk save retains crop and supplies: PASS
+FARM disk save retains home return: PASS
+FARM restored home exits to farm: PASS
+FARM farm itself can save: PASS
+FARM farm location accepted in save schema: PASS
+FARM farm load restores player and camera: PASS
+FARM planted crop matures across three days: PASS
+FARM capture farm_mature: PASS
+FARM window capture farm_mature: PASS
+FARM E harvest puts crop in existing backpack: PASS
+FARM real walk back to town: PASS
+FARM return reaches farm road with town collisions restored: PASS
+FARM crops persist after farm is detached: PASS
+FARM VERIFY END failures=9

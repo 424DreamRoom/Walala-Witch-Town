@@ -1,0 +1,99 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FOOD ICON TEST ingredient herb: PASS
+FOOD ICON TEST ingredient turnip: PASS
+FOOD ICON TEST ingredient carrot: PASS
+FOOD ICON TEST ingredient lettuce: PASS
+FOOD ICON TEST ingredient pea: PASS
+FOOD ICON TEST ingredient strawberry: PASS
+FOOD ICON TEST ingredient rice: PASS
+FOOD ICON TEST ingredient tomato: PASS
+FOOD ICON TEST ingredient corn: PASS
+FOOD ICON TEST ingredient cucumber: PASS
+FOOD ICON TEST ingredient pepper: PASS
+FOOD ICON TEST ingredient melon: PASS
+FOOD ICON TEST ingredient eggplant: PASS
+FOOD ICON TEST ingredient pumpkin: PASS
+FOOD ICON TEST ingredient sweet_potato: PASS
+FOOD ICON TEST ingredient wheat: PASS
+FOOD ICON TEST ingredient tea: PASS
+FOOD ICON TEST ingredient snow_cabbage: PASS
+FOOD ICON TEST ingredient winter_radish: PASS
+FOOD ICON TEST ingredient moonflower: PASS
+FOOD ICON TEST ingredient mushroom: PASS
+FOOD ICON TEST ingredient berry: PASS
+FOOD ICON TEST ingredient egg: PASS
+FOOD ICON TEST ingredient milk: PASS
+FOOD ICON TEST ingredient flour: PASS
+FOOD ICON TEST ingredient oil: PASS
+FOOD ICON TEST ingredient salt: PASS
+FOOD ICON TEST ingredient honey: PASS
+FOOD ICON TEST ingredient bamboo: PASS
+FOOD ICON TEST ingredient lotus: PASS
+FOOD ICON TEST ingredient chestnut: PASS
+FOOD ICON TEST ingredient truffle: PASS
+FOOD ICON TEST ingredient silverfin: PASS
+FOOD ICON TEST ingredient brook_carp: PASS
+FOOD ICON TEST ingredient moon_bass: PASS
+FOOD ICON TEST ingredient prawn: PASS
+FOOD ICON TEST ingredient eel: PASS
+FOOD ICON TEST ingredient lotus_fish: PASS
+FOOD ICON TEST ingredient ice_char: PASS
+FOOD ICON TEST ingredient star_koi: PASS
+FOOD ICON TEST recipe mushroom_soup: PASS
+FOOD ICON TEST recipe berry_pie: PASS
+FOOD ICON TEST recipe herb_stew: PASS
+FOOD ICON TEST recipe turnip_soup: PASS
+FOOD ICON TEST recipe carrot_salad: PASS
+FOOD ICON TEST recipe pea_rice: PASS
+FOOD ICON TEST recipe strawberry_tart: PASS
+FOOD ICON TEST recipe bamboo_rice: PASS
+FOOD ICON TEST recipe herb_omelet: PASS
+FOOD ICON TEST recipe berry_milk: PASS
+FOOD ICON TEST recipe tomato_noodle: PASS
+FOOD ICON TEST recipe corn_soup: PASS
+FOOD ICON TEST recipe cucumber_roll: PASS
+FOOD ICON TEST recipe pepper_fish: PASS
+FOOD ICON TEST recipe melon_ice: PASS
+FOOD ICON TEST recipe prawn_rice: PASS
+FOOD ICON TEST recipe lotus_salad: PASS
+FOOD ICON TEST recipe eggplant_pan: PASS
+FOOD ICON TEST recipe pumpkin_stew: PASS
+FOOD ICON TEST recipe sweet_potato_roast: PASS
+FOOD ICON TEST recipe chestnut_rice: PASS
+FOOD ICON TEST recipe wheat_bread: PASS
+FOOD ICON TEST recipe truffle_pasta: PASS
+FOOD ICON TEST recipe snow_cabbage_pot: PASS
+FOOD ICON TEST recipe winter_radish_broth: PASS
+FOOD ICON TEST recipe moonflower_cake: PASS
+FOOD ICON TEST recipe mist_tea: PASS
+FOOD ICON TEST recipe honey_tea: PASS
+FOOD ICON TEST recipe carp_broth: PASS
+FOOD ICON TEST recipe moon_bass_grill: PASS
+FOOD ICON TEST recipe eel_rice: PASS
+FOOD ICON TEST recipe lotus_fish_steam: PASS
+FOOD ICON TEST recipe ice_char_roast: PASS
+FOOD ICON TEST recipe star_koi_banquet: PASS
+FOOD ICON TEST recipe four_seasons_platter: PASS
+FOOD ICON TEST recipe lantern_dessert: PASS
+FOOD ICON TEST MyArt native canvas egg: PASS
+FOOD ICON TEST MyArt native canvas tomato: PASS
+FOOD ICON TEST MyArt native canvas bread: PASS
+FOOD ICON TEST MyArt native canvas dish_wheat_bread: PASS
+FOOD ICON TEST bread recipe uses hand-drawn pixels: PASS
+FOOD ICON TEST legacy ingredient aliases: PASS
+FOOD ICON TEST non-food art remains available: PASS
+FOOD ICON TEST real recipe UI opens: PASS
+FOOD ICON TEST capture recipes: PASS
+FOOD ICON TEST cookbook bread prefers MyArt: PASS
+FOOD ICON TEST capture recipes_bread: PASS
+FOOD ICON TEST capture pantry: PASS
+FOOD ICON TEST pantry prefers MyArt tomato: PASS
+FOOD ICON TEST capture pantry_tomato: PASS
+FOOD ICON TEST pantry prefers MyArt egg: PASS
+FOOD ICON TEST capture pantry_egg: PASS
+FOOD ICON TEST capture backpack: PASS
+FOOD ICON TEST held bread uses shared food texture: PASS
+FOOD ICON TEST capture held_bread: PASS
+FOOD ICON VERIFY END checks=95 failures=0

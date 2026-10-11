@@ -1,0 +1,71 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+UI SKIN TEST global theme: PASS
+UI SKIN TEST capture town_hud: PASS
+UI SKIN TEST preview town_hud: PASS
+UI SKIN TEST restaurant menu uses original pixel texture: PASS
+UI SKIN TEST restaurant menu text fits: PASS
+UI SKIN TEST restaurant menu keeps Chinese font: PASS
+UI SKIN TEST restaurant menu uses original pixel texture: PASS
+UI SKIN TEST restaurant menu text fits: PASS
+UI SKIN TEST restaurant menu keeps Chinese font: PASS
+UI SKIN TEST restaurant menu uses original pixel texture: PASS
+UI SKIN TEST restaurant menu text fits: PASS
+UI SKIN TEST restaurant menu keeps Chinese font: PASS
+UI SKIN TEST phase controls uses original pixel texture: PASS
+UI SKIN TEST phase controls text fits: PASS
+UI SKIN TEST phase controls keeps Chinese font: PASS
+UI SKIN TEST phase controls uses original pixel texture: PASS
+UI SKIN TEST phase controls text fits: PASS
+UI SKIN TEST phase controls keeps Chinese font: PASS
+UI SKIN TEST capture restaurant_menu: PASS
+UI SKIN TEST preview restaurant_menu: PASS
+UI SKIN TEST capture restaurant_menu_states: PASS
+UI SKIN TEST preview restaurant_menu_states: PASS
+UI SKIN TEST cooking uses original pixel texture: PASS
+UI SKIN TEST cooking text fits: PASS
+UI SKIN TEST cooking keeps Chinese font: PASS
+UI SKIN TEST cooking uses original pixel texture: PASS
+UI SKIN TEST cooking text fits: PASS
+UI SKIN TEST cooking keeps Chinese font: PASS
+UI SKIN TEST cooking uses original pixel texture: PASS
+UI SKIN TEST cooking text fits: PASS
+UI SKIN TEST cooking keeps Chinese font: PASS
+UI SKIN TEST capture restaurant_cooking: PASS
+UI SKIN TEST preview restaurant_cooking: PASS
+UI SKIN TEST capture restaurant_result: PASS
+UI SKIN TEST preview restaurant_result: PASS
+UI SKIN TEST blacksmith uses original pixel texture: PASS
+UI SKIN TEST blacksmith text fits: PASS
+UI SKIN TEST blacksmith keeps Chinese font: PASS
+UI SKIN TEST blacksmith uses original pixel texture: PASS
+UI SKIN TEST blacksmith text fits: PASS
+UI SKIN TEST blacksmith keeps Chinese font: PASS
+UI SKIN TEST blacksmith uses original pixel texture: PASS
+UI SKIN TEST blacksmith text fits: PASS
+UI SKIN TEST blacksmith keeps Chinese font: PASS
+UI SKIN TEST blacksmith panel within canvas: PASS
+UI SKIN TEST capture blacksmith_panel: PASS
+UI SKIN TEST preview blacksmith_panel: PASS
+UI SKIN TEST store uses original pixel texture: PASS
+UI SKIN TEST store text fits: PASS
+UI SKIN TEST store keeps Chinese font: PASS
+UI SKIN TEST store uses original pixel texture: PASS
+UI SKIN TEST store text fits: PASS
+UI SKIN TEST store keeps Chinese font: PASS
+UI SKIN TEST store uses original pixel texture: PASS
+UI SKIN TEST store text fits: PASS
+UI SKIN TEST store keeps Chinese font: PASS
+UI SKIN TEST store uses original pixel texture: PASS
+UI SKIN TEST store text fits: PASS
+UI SKIN TEST store keeps Chinese font: PASS
+UI SKIN TEST store uses original pixel texture: PASS
+UI SKIN TEST store text fits: PASS
+UI SKIN TEST store keeps Chinese font: PASS
+UI SKIN TEST store panel within canvas: PASS
+UI SKIN TEST capture store_panel: PASS
+UI SKIN TEST preview store_panel: PASS
+UI SKIN TEST capture sound_settings: PASS
+UI SKIN TEST preview sound_settings: PASS
+UI SKIN VERIFY END failures=0

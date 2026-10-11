@@ -1,0 +1,2511 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FMOD Sound System: Successfully initialized
+COOKING 120 food ingredients exclude construction resources: PASS
+COOKING 324 appended recipes retain 36 legacy indices: PASS
+COOKING 36-dish save grows without losing progress: PASS
+COOKING missing legacy ingredient still rejected: PASS
+COOKING unknown ingredient still rejected: PASS
+COOKING buy exact cost potato: PASS
+COOKING unaffordable purchase atomic potato: PASS
+COOKING sell exact return potato: PASS
+COOKING night purchase rejected potato: PASS
+COOKING buy exact cost onion: PASS
+COOKING unaffordable purchase atomic onion: PASS
+COOKING sell exact return onion: PASS
+COOKING night purchase rejected onion: PASS
+COOKING buy exact cost garlic: PASS
+COOKING unaffordable purchase atomic garlic: PASS
+COOKING sell exact return garlic: PASS
+COOKING night purchase rejected garlic: PASS
+COOKING buy exact cost ginger: PASS
+COOKING unaffordable purchase atomic ginger: PASS
+COOKING sell exact return ginger: PASS
+COOKING night purchase rejected ginger: PASS
+COOKING buy exact cost scallion: PASS
+COOKING unaffordable purchase atomic scallion: PASS
+COOKING sell exact return scallion: PASS
+COOKING night purchase rejected scallion: PASS
+COOKING buy exact cost spinach: PASS
+COOKING unaffordable purchase atomic spinach: PASS
+COOKING sell exact return spinach: PASS
+COOKING night purchase rejected spinach: PASS
+COOKING buy exact cost broccoli: PASS
+COOKING unaffordable purchase atomic broccoli: PASS
+COOKING sell exact return broccoli: PASS
+COOKING night purchase rejected broccoli: PASS
+COOKING buy exact cost cauliflower: PASS
+COOKING unaffordable purchase atomic cauliflower: PASS
+COOKING sell exact return cauliflower: PASS
+COOKING night purchase rejected cauliflower: PASS
+COOKING buy exact cost beet: PASS
+COOKING unaffordable purchase atomic beet: PASS
+COOKING sell exact return beet: PASS
+COOKING night purchase rejected beet: PASS
+COOKING buy exact cost celery: PASS
+COOKING unaffordable purchase atomic celery: PASS
+COOKING sell exact return celery: PASS
+COOKING night purchase rejected celery: PASS
+COOKING buy exact cost asparagus: PASS
+COOKING unaffordable purchase atomic asparagus: PASS
+COOKING sell exact return asparagus: PASS
+COOKING night purchase rejected asparagus: PASS
+COOKING buy exact cost leek: PASS
+COOKING unaffordable purchase atomic leek: PASS
+COOKING sell exact return leek: PASS
+COOKING night purchase rejected leek: PASS
+COOKING buy exact cost zucchini: PASS
+COOKING unaffordable purchase atomic zucchini: PASS
+COOKING sell exact return zucchini: PASS
+COOKING night purchase rejected zucchini: PASS
+COOKING buy exact cost bell_pepper: PASS
+COOKING unaffordable purchase atomic bell_pepper: PASS
+COOKING sell exact return bell_pepper: PASS
+COOKING night purchase rejected bell_pepper: PASS
+COOKING buy exact cost cabbage: PASS
+COOKING unaffordable purchase atomic cabbage: PASS
+COOKING sell exact return cabbage: PASS
+COOKING night purchase rejected cabbage: PASS
+COOKING buy exact cost shiitake: PASS
+COOKING unaffordable purchase atomic shiitake: PASS
+COOKING sell exact return shiitake: PASS
+COOKING night purchase rejected shiitake: PASS
+COOKING buy exact cost enoki: PASS
+COOKING unaffordable purchase atomic enoki: PASS
+COOKING sell exact return enoki: PASS
+COOKING night purchase rejected enoki: PASS
+COOKING buy exact cost taro: PASS
+COOKING unaffordable purchase atomic taro: PASS
+COOKING sell exact return taro: PASS
+COOKING night purchase rejected taro: PASS
+COOKING buy exact cost apple: PASS
+COOKING unaffordable purchase atomic apple: PASS
+COOKING sell exact return apple: PASS
+COOKING night purchase rejected apple: PASS
+COOKING buy exact cost pear: PASS
+COOKING unaffordable purchase atomic pear: PASS
+COOKING sell exact return pear: PASS
+COOKING night purchase rejected pear: PASS
+COOKING buy exact cost peach: PASS
+COOKING unaffordable purchase atomic peach: PASS
+COOKING sell exact return peach: PASS
+COOKING night purchase rejected peach: PASS
+COOKING buy exact cost cherry: PASS
+COOKING unaffordable purchase atomic cherry: PASS
+COOKING sell exact return cherry: PASS
+COOKING night purchase rejected cherry: PASS
+COOKING buy exact cost grape: PASS
+COOKING unaffordable purchase atomic grape: PASS
+COOKING sell exact return grape: PASS
+COOKING night purchase rejected grape: PASS
+COOKING buy exact cost orange: PASS
+COOKING unaffordable purchase atomic orange: PASS
+COOKING sell exact return orange: PASS
+COOKING night purchase rejected orange: PASS
+COOKING buy exact cost lemon: PASS
+COOKING unaffordable purchase atomic lemon: PASS
+COOKING sell exact return lemon: PASS
+COOKING night purchase rejected lemon: PASS
+COOKING buy exact cost lime: PASS
+COOKING unaffordable purchase atomic lime: PASS
+COOKING sell exact return lime: PASS
+COOKING night purchase rejected lime: PASS
+COOKING buy exact cost banana: PASS
+COOKING unaffordable purchase atomic banana: PASS
+COOKING sell exact return banana: PASS
+COOKING night purchase rejected banana: PASS
+COOKING buy exact cost pineapple: PASS
+COOKING unaffordable purchase atomic pineapple: PASS
+COOKING sell exact return pineapple: PASS
+COOKING night purchase rejected pineapple: PASS
+COOKING buy exact cost coconut: PASS
+COOKING unaffordable purchase atomic coconut: PASS
+COOKING sell exact return coconut: PASS
+COOKING night purchase rejected coconut: PASS
+COOKING buy exact cost mango: PASS
+COOKING unaffordable purchase atomic mango: PASS
+COOKING sell exact return mango: PASS
+COOKING night purchase rejected mango: PASS
+COOKING buy exact cost kiwi: PASS
+COOKING unaffordable purchase atomic kiwi: PASS
+COOKING sell exact return kiwi: PASS
+COOKING night purchase rejected kiwi: PASS
+COOKING buy exact cost blueberry: PASS
+COOKING unaffordable purchase atomic blueberry: PASS
+COOKING sell exact return blueberry: PASS
+COOKING night purchase rejected blueberry: PASS
+COOKING buy exact cost raspberry: PASS
+COOKING unaffordable purchase atomic raspberry: PASS
+COOKING sell exact return raspberry: PASS
+COOKING night purchase rejected raspberry: PASS
+COOKING buy exact cost blackberry: PASS
+COOKING unaffordable purchase atomic blackberry: PASS
+COOKING sell exact return blackberry: PASS
+COOKING night purchase rejected blackberry: PASS
+COOKING buy exact cost cranberry: PASS
+COOKING unaffordable purchase atomic cranberry: PASS
+COOKING sell exact return cranberry: PASS
+COOKING night purchase rejected cranberry: PASS
+COOKING buy exact cost plum: PASS
+COOKING unaffordable purchase atomic plum: PASS
+COOKING sell exact return plum: PASS
+COOKING night purchase rejected plum: PASS
+COOKING buy exact cost apricot: PASS
+COOKING unaffordable purchase atomic apricot: PASS
+COOKING sell exact return apricot: PASS
+COOKING night purchase rejected apricot: PASS
+COOKING buy exact cost fig: PASS
+COOKING unaffordable purchase atomic fig: PASS
+COOKING sell exact return fig: PASS
+COOKING night purchase rejected fig: PASS
+COOKING buy exact cost persimmon: PASS
+COOKING unaffordable purchase atomic persimmon: PASS
+COOKING sell exact return persimmon: PASS
+COOKING night purchase rejected persimmon: PASS
+COOKING buy exact cost watermelon: PASS
+COOKING unaffordable purchase atomic watermelon: PASS
+COOKING sell exact return watermelon: PASS
+COOKING night purchase rejected watermelon: PASS
+COOKING buy exact cost chicken: PASS
+COOKING unaffordable purchase atomic chicken: PASS
+COOKING sell exact return chicken: PASS
+COOKING night purchase rejected chicken: PASS
+COOKING buy exact cost beef: PASS
+COOKING unaffordable purchase atomic beef: PASS
+COOKING sell exact return beef: PASS
+COOKING night purchase rejected beef: PASS
+COOKING buy exact cost pork: PASS
+COOKING unaffordable purchase atomic pork: PASS
+COOKING sell exact return pork: PASS
+COOKING night purchase rejected pork: PASS
+COOKING buy exact cost duck: PASS
+COOKING unaffordable purchase atomic duck: PASS
+COOKING sell exact return duck: PASS
+COOKING night purchase rejected duck: PASS
+COOKING buy exact cost lamb: PASS
+COOKING unaffordable purchase atomic lamb: PASS
+COOKING sell exact return lamb: PASS
+COOKING night purchase rejected lamb: PASS
+COOKING buy exact cost bacon: PASS
+COOKING unaffordable purchase atomic bacon: PASS
+COOKING sell exact return bacon: PASS
+COOKING night purchase rejected bacon: PASS
+COOKING buy exact cost ham: PASS
+COOKING unaffordable purchase atomic ham: PASS
+COOKING sell exact return ham: PASS
+COOKING night purchase rejected ham: PASS
+COOKING buy exact cost sausage: PASS
+COOKING unaffordable purchase atomic sausage: PASS
+COOKING sell exact return sausage: PASS
+COOKING night purchase rejected sausage: PASS
+COOKING buy exact cost tofu: PASS
+COOKING unaffordable purchase atomic tofu: PASS
+COOKING sell exact return tofu: PASS
+COOKING night purchase rejected tofu: PASS
+COOKING buy exact cost salmon: PASS
+COOKING unaffordable purchase atomic salmon: PASS
+COOKING sell exact return salmon: PASS
+COOKING night purchase rejected salmon: PASS
+COOKING buy exact cost tuna: PASS
+COOKING unaffordable purchase atomic tuna: PASS
+COOKING sell exact return tuna: PASS
+COOKING night purchase rejected tuna: PASS
+COOKING buy exact cost crab: PASS
+COOKING unaffordable purchase atomic crab: PASS
+COOKING sell exact return crab: PASS
+COOKING night purchase rejected crab: PASS
+COOKING buy exact cost clam: PASS
+COOKING unaffordable purchase atomic clam: PASS
+COOKING sell exact return clam: PASS
+COOKING night purchase rejected clam: PASS
+COOKING buy exact cost scallop: PASS
+COOKING unaffordable purchase atomic scallop: PASS
+COOKING sell exact return scallop: PASS
+COOKING night purchase rejected scallop: PASS
+COOKING buy exact cost barley: PASS
+COOKING unaffordable purchase atomic barley: PASS
+COOKING sell exact return barley: PASS
+COOKING night purchase rejected barley: PASS
+COOKING buy exact cost oat: PASS
+COOKING unaffordable purchase atomic oat: PASS
+COOKING sell exact return oat: PASS
+COOKING night purchase rejected oat: PASS
+COOKING buy exact cost buckwheat: PASS
+COOKING unaffordable purchase atomic buckwheat: PASS
+COOKING sell exact return buckwheat: PASS
+COOKING night purchase rejected buckwheat: PASS
+COOKING buy exact cost millet: PASS
+COOKING unaffordable purchase atomic millet: PASS
+COOKING sell exact return millet: PASS
+COOKING night purchase rejected millet: PASS
+COOKING buy exact cost soybean: PASS
+COOKING unaffordable purchase atomic soybean: PASS
+COOKING sell exact return soybean: PASS
+COOKING night purchase rejected soybean: PASS
+COOKING buy exact cost red_bean: PASS
+COOKING unaffordable purchase atomic red_bean: PASS
+COOKING sell exact return red_bean: PASS
+COOKING night purchase rejected red_bean: PASS
+COOKING buy exact cost mung_bean: PASS
+COOKING unaffordable purchase atomic mung_bean: PASS
+COOKING sell exact return mung_bean: PASS
+COOKING night purchase rejected mung_bean: PASS
+COOKING buy exact cost chickpea: PASS
+COOKING unaffordable purchase atomic chickpea: PASS
+COOKING sell exact return chickpea: PASS
+COOKING night purchase rejected chickpea: PASS
+COOKING buy exact cost lentil: PASS
+COOKING unaffordable purchase atomic lentil: PASS
+COOKING sell exact return lentil: PASS
+COOKING night purchase rejected lentil: PASS
+COOKING buy exact cost glutinous_rice: PASS
+COOKING unaffordable purchase atomic glutinous_rice: PASS
+COOKING sell exact return glutinous_rice: PASS
+COOKING night purchase rejected glutinous_rice: PASS
+COOKING buy exact cost sugar: PASS
+COOKING unaffordable purchase atomic sugar: PASS
+COOKING sell exact return sugar: PASS
+COOKING night purchase rejected sugar: PASS
+COOKING buy exact cost butter: PASS
+COOKING unaffordable purchase atomic butter: PASS
+COOKING sell exact return butter: PASS
+COOKING night purchase rejected butter: PASS
+COOKING buy exact cost cream: PASS
+COOKING unaffordable purchase atomic cream: PASS
+COOKING sell exact return cream: PASS
+COOKING night purchase rejected cream: PASS
+COOKING buy exact cost cheese: PASS
+COOKING unaffordable purchase atomic cheese: PASS
+COOKING sell exact return cheese: PASS
+COOKING night purchase rejected cheese: PASS
+COOKING buy exact cost yogurt: PASS
+COOKING unaffordable purchase atomic yogurt: PASS
+COOKING sell exact return yogurt: PASS
+COOKING night purchase rejected yogurt: PASS
+COOKING buy exact cost cocoa: PASS
+COOKING unaffordable purchase atomic cocoa: PASS
+COOKING sell exact return cocoa: PASS
+COOKING night purchase rejected cocoa: PASS
+COOKING buy exact cost coffee: PASS
+COOKING unaffordable purchase atomic coffee: PASS
+COOKING sell exact return coffee: PASS
+COOKING night purchase rejected coffee: PASS
+COOKING buy exact cost cinnamon: PASS
+COOKING unaffordable purchase atomic cinnamon: PASS
+COOKING sell exact return cinnamon: PASS
+COOKING night purchase rejected cinnamon: PASS
+COOKING buy exact cost vanilla: PASS
+COOKING unaffordable purchase atomic vanilla: PASS
+COOKING sell exact return vanilla: PASS
+COOKING night purchase rejected vanilla: PASS
+COOKING buy exact cost mint: PASS
+COOKING unaffordable purchase atomic mint: PASS
+COOKING sell exact return mint: PASS
+COOKING night purchase rejected mint: PASS
+COOKING buy exact cost sesame: PASS
+COOKING unaffordable purchase atomic sesame: PASS
+COOKING sell exact return sesame: PASS
+COOKING night purchase rejected sesame: PASS
+COOKING buy exact cost peanut: PASS
+COOKING unaffordable purchase atomic peanut: PASS
+COOKING sell exact return peanut: PASS
+COOKING night purchase rejected peanut: PASS
+COOKING buy exact cost walnut: PASS
+COOKING unaffordable purchase atomic walnut: PASS
+COOKING sell exact return walnut: PASS
+COOKING night purchase rejected walnut: PASS
+COOKING buy exact cost almond: PASS
+COOKING unaffordable purchase atomic almond: PASS
+COOKING sell exact return almond: PASS
+COOKING night purchase rejected almond: PASS
+COOKING buy exact cost soy_sauce: PASS
+COOKING unaffordable purchase atomic soy_sauce: PASS
+COOKING sell exact return soy_sauce: PASS
+COOKING night purchase rejected soy_sauce: PASS
+COOKING buy exact cost vinegar: PASS
+COOKING unaffordable purchase atomic vinegar: PASS
+COOKING sell exact return vinegar: PASS
+COOKING night purchase rejected vinegar: PASS
+COOKING starts with exact materials turnip_soup: PASS
+COOKING only recipe materials debited turnip_soup: PASS
+COOKING ready turnip_soup: PASS
+COOKING cooking save roundtrip turnip_soup: PASS
+COOKING serve and pay turnip_soup: PASS
+COOKING missing ingredient atomic turnip_soup: PASS
+COOKING starts with exact materials carrot_salad: PASS
+COOKING only recipe materials debited carrot_salad: PASS
+COOKING ready carrot_salad: PASS
+COOKING cooking save roundtrip carrot_salad: PASS
+COOKING serve and pay carrot_salad: PASS
+COOKING missing ingredient atomic carrot_salad: PASS
+COOKING starts with exact materials pea_rice: PASS
+COOKING only recipe materials debited pea_rice: PASS
+COOKING ready pea_rice: PASS
+COOKING cooking save roundtrip pea_rice: PASS
+COOKING serve and pay pea_rice: PASS
+COOKING missing ingredient atomic pea_rice: PASS
+COOKING starts with exact materials strawberry_tart: PASS
+COOKING only recipe materials debited strawberry_tart: PASS
+COOKING ready strawberry_tart: PASS
+COOKING cooking save roundtrip strawberry_tart: PASS
+COOKING serve and pay strawberry_tart: PASS
+COOKING missing ingredient atomic strawberry_tart: PASS
+COOKING starts with exact materials bamboo_rice: PASS
+COOKING only recipe materials debited bamboo_rice: PASS
+COOKING ready bamboo_rice: PASS
+COOKING cooking save roundtrip bamboo_rice: PASS
+COOKING serve and pay bamboo_rice: PASS
+COOKING missing ingredient atomic bamboo_rice: PASS
+COOKING starts with exact materials herb_omelet: PASS
+COOKING only recipe materials debited herb_omelet: PASS
+COOKING ready herb_omelet: PASS
+COOKING cooking save roundtrip herb_omelet: PASS
+COOKING serve and pay herb_omelet: PASS
+COOKING missing ingredient atomic herb_omelet: PASS
+COOKING starts with exact materials berry_milk: PASS
+COOKING only recipe materials debited berry_milk: PASS
+COOKING ready berry_milk: PASS
+COOKING cooking save roundtrip berry_milk: PASS
+COOKING serve and pay berry_milk: PASS
+COOKING missing ingredient atomic berry_milk: PASS
+COOKING starts with exact materials tomato_noodle: PASS
+COOKING only recipe materials debited tomato_noodle: PASS
+COOKING ready tomato_noodle: PASS
+COOKING cooking save roundtrip tomato_noodle: PASS
+COOKING serve and pay tomato_noodle: PASS
+COOKING missing ingredient atomic tomato_noodle: PASS
+COOKING starts with exact materials corn_soup: PASS
+COOKING only recipe materials debited corn_soup: PASS
+COOKING ready corn_soup: PASS
+COOKING cooking save roundtrip corn_soup: PASS
+COOKING serve and pay corn_soup: PASS
+COOKING missing ingredient atomic corn_soup: PASS
+COOKING starts with exact materials cucumber_roll: PASS
+COOKING only recipe materials debited cucumber_roll: PASS
+COOKING ready cucumber_roll: PASS
+COOKING cooking save roundtrip cucumber_roll: PASS
+COOKING serve and pay cucumber_roll: PASS
+COOKING missing ingredient atomic cucumber_roll: PASS
+COOKING starts with exact materials pepper_fish: PASS
+COOKING only recipe materials debited pepper_fish: PASS
+COOKING ready pepper_fish: PASS
+COOKING cooking save roundtrip pepper_fish: PASS
+COOKING serve and pay pepper_fish: PASS
+COOKING missing ingredient atomic pepper_fish: PASS
+COOKING starts with exact materials melon_ice: PASS
+COOKING only recipe materials debited melon_ice: PASS
+COOKING ready melon_ice: PASS
+COOKING cooking save roundtrip melon_ice: PASS
+COOKING serve and pay melon_ice: PASS
+COOKING missing ingredient atomic melon_ice: PASS
+COOKING starts with exact materials prawn_rice: PASS
+COOKING only recipe materials debited prawn_rice: PASS
+COOKING ready prawn_rice: PASS
+COOKING cooking save roundtrip prawn_rice: PASS
+COOKING serve and pay prawn_rice: PASS
+COOKING missing ingredient atomic prawn_rice: PASS
+COOKING starts with exact materials lotus_salad: PASS
+COOKING only recipe materials debited lotus_salad: PASS
+COOKING ready lotus_salad: PASS
+COOKING cooking save roundtrip lotus_salad: PASS
+COOKING serve and pay lotus_salad: PASS
+COOKING missing ingredient atomic lotus_salad: PASS
+COOKING starts with exact materials eggplant_pan: PASS
+COOKING only recipe materials debited eggplant_pan: PASS
+COOKING ready eggplant_pan: PASS
+COOKING cooking save roundtrip eggplant_pan: PASS
+COOKING serve and pay eggplant_pan: PASS
+COOKING missing ingredient atomic eggplant_pan: PASS
+COOKING starts with exact materials pumpkin_stew: PASS
+COOKING only recipe materials debited pumpkin_stew: PASS
+COOKING ready pumpkin_stew: PASS
+COOKING cooking save roundtrip pumpkin_stew: PASS
+COOKING serve and pay pumpkin_stew: PASS
+COOKING missing ingredient atomic pumpkin_stew: PASS
+COOKING starts with exact materials sweet_potato_roast: PASS
+COOKING only recipe materials debited sweet_potato_roast: PASS
+COOKING ready sweet_potato_roast: PASS
+COOKING cooking save roundtrip sweet_potato_roast: PASS
+COOKING serve and pay sweet_potato_roast: PASS
+COOKING missing ingredient atomic sweet_potato_roast: PASS
+COOKING starts with exact materials chestnut_rice: PASS
+COOKING only recipe materials debited chestnut_rice: PASS
+COOKING ready chestnut_rice: PASS
+COOKING cooking save roundtrip chestnut_rice: PASS
+COOKING serve and pay chestnut_rice: PASS
+COOKING missing ingredient atomic chestnut_rice: PASS
+COOKING starts with exact materials wheat_bread: PASS
+COOKING only recipe materials debited wheat_bread: PASS
+COOKING ready wheat_bread: PASS
+COOKING cooking save roundtrip wheat_bread: PASS
+COOKING serve and pay wheat_bread: PASS
+COOKING missing ingredient atomic wheat_bread: PASS
+COOKING starts with exact materials truffle_pasta: PASS
+COOKING only recipe materials debited truffle_pasta: PASS
+COOKING ready truffle_pasta: PASS
+COOKING cooking save roundtrip truffle_pasta: PASS
+COOKING serve and pay truffle_pasta: PASS
+COOKING missing ingredient atomic truffle_pasta: PASS
+COOKING starts with exact materials snow_cabbage_pot: PASS
+COOKING only recipe materials debited snow_cabbage_pot: PASS
+COOKING ready snow_cabbage_pot: PASS
+COOKING cooking save roundtrip snow_cabbage_pot: PASS
+COOKING serve and pay snow_cabbage_pot: PASS
+COOKING missing ingredient atomic snow_cabbage_pot: PASS
+COOKING starts with exact materials winter_radish_broth: PASS
+COOKING only recipe materials debited winter_radish_broth: PASS
+COOKING ready winter_radish_broth: PASS
+COOKING cooking save roundtrip winter_radish_broth: PASS
+COOKING serve and pay winter_radish_broth: PASS
+COOKING missing ingredient atomic winter_radish_broth: PASS
+COOKING starts with exact materials moonflower_cake: PASS
+COOKING only recipe materials debited moonflower_cake: PASS
+COOKING ready moonflower_cake: PASS
+COOKING cooking save roundtrip moonflower_cake: PASS
+COOKING serve and pay moonflower_cake: PASS
+COOKING missing ingredient atomic moonflower_cake: PASS
+COOKING starts with exact materials mist_tea: PASS
+COOKING only recipe materials debited mist_tea: PASS
+COOKING ready mist_tea: PASS
+COOKING cooking save roundtrip mist_tea: PASS
+COOKING serve and pay mist_tea: PASS
+COOKING missing ingredient atomic mist_tea: PASS
+COOKING starts with exact materials honey_tea: PASS
+COOKING only recipe materials debited honey_tea: PASS
+COOKING ready honey_tea: PASS
+COOKING cooking save roundtrip honey_tea: PASS
+COOKING serve and pay honey_tea: PASS
+COOKING missing ingredient atomic honey_tea: PASS
+COOKING starts with exact materials carp_broth: PASS
+COOKING only recipe materials debited carp_broth: PASS
+COOKING ready carp_broth: PASS
+COOKING cooking save roundtrip carp_broth: PASS
+COOKING serve and pay carp_broth: PASS
+COOKING missing ingredient atomic carp_broth: PASS
+COOKING starts with exact materials moon_bass_grill: PASS
+COOKING only recipe materials debited moon_bass_grill: PASS
+COOKING ready moon_bass_grill: PASS
+COOKING cooking save roundtrip moon_bass_grill: PASS
+COOKING serve and pay moon_bass_grill: PASS
+COOKING missing ingredient atomic moon_bass_grill: PASS
+COOKING starts with exact materials eel_rice: PASS
+COOKING only recipe materials debited eel_rice: PASS
+COOKING ready eel_rice: PASS
+COOKING cooking save roundtrip eel_rice: PASS
+COOKING serve and pay eel_rice: PASS
+COOKING missing ingredient atomic eel_rice: PASS
+COOKING starts with exact materials lotus_fish_steam: PASS
+COOKING only recipe materials debited lotus_fish_steam: PASS
+COOKING ready lotus_fish_steam: PASS
+COOKING cooking save roundtrip lotus_fish_steam: PASS
+COOKING serve and pay lotus_fish_steam: PASS
+COOKING missing ingredient atomic lotus_fish_steam: PASS
+COOKING starts with exact materials ice_char_roast: PASS
+COOKING only recipe materials debited ice_char_roast: PASS
+COOKING ready ice_char_roast: PASS
+COOKING cooking save roundtrip ice_char_roast: PASS
+COOKING serve and pay ice_char_roast: PASS
+COOKING missing ingredient atomic ice_char_roast: PASS
+COOKING starts with exact materials star_koi_banquet: PASS
+COOKING only recipe materials debited star_koi_banquet: PASS
+COOKING ready star_koi_banquet: PASS
+COOKING cooking save roundtrip star_koi_banquet: PASS
+COOKING serve and pay star_koi_banquet: PASS
+COOKING missing ingredient atomic star_koi_banquet: PASS
+COOKING starts with exact materials four_seasons_platter: PASS
+COOKING only recipe materials debited four_seasons_platter: PASS
+COOKING ready four_seasons_platter: PASS
+COOKING cooking save roundtrip four_seasons_platter: PASS
+COOKING serve and pay four_seasons_platter: PASS
+COOKING missing ingredient atomic four_seasons_platter: PASS
+COOKING starts with exact materials lantern_dessert: PASS
+COOKING only recipe materials debited lantern_dessert: PASS
+COOKING ready lantern_dessert: PASS
+COOKING cooking save roundtrip lantern_dessert: PASS
+COOKING serve and pay lantern_dessert: PASS
+COOKING missing ingredient atomic lantern_dessert: PASS
+COOKING starts with exact materials apple_yogurt: PASS
+COOKING only recipe materials debited apple_yogurt: PASS
+COOKING ready apple_yogurt: PASS
+COOKING cooking save roundtrip apple_yogurt: PASS
+COOKING serve and pay apple_yogurt: PASS
+COOKING missing ingredient atomic apple_yogurt: PASS
+COOKING starts with exact materials apple_smoothie: PASS
+COOKING only recipe materials debited apple_smoothie: PASS
+COOKING ready apple_smoothie: PASS
+COOKING cooking save roundtrip apple_smoothie: PASS
+COOKING serve and pay apple_smoothie: PASS
+COOKING missing ingredient atomic apple_smoothie: PASS
+COOKING starts with exact materials apple_butter_tart: PASS
+COOKING only recipe materials debited apple_butter_tart: PASS
+COOKING ready apple_butter_tart: PASS
+COOKING cooking save roundtrip apple_butter_tart: PASS
+COOKING serve and pay apple_butter_tart: PASS
+COOKING missing ingredient atomic apple_butter_tart: PASS
+COOKING starts with exact materials apple_compote: PASS
+COOKING only recipe materials debited apple_compote: PASS
+COOKING ready apple_compote: PASS
+COOKING cooking save roundtrip apple_compote: PASS
+COOKING serve and pay apple_compote: PASS
+COOKING missing ingredient atomic apple_compote: PASS
+COOKING starts with exact materials apple_fruit_tea: PASS
+COOKING only recipe materials debited apple_fruit_tea: PASS
+COOKING ready apple_fruit_tea: PASS
+COOKING cooking save roundtrip apple_fruit_tea: PASS
+COOKING serve and pay apple_fruit_tea: PASS
+COOKING missing ingredient atomic apple_fruit_tea: PASS
+COOKING starts with exact materials pear_yogurt: PASS
+COOKING only recipe materials debited pear_yogurt: PASS
+COOKING ready pear_yogurt: PASS
+COOKING cooking save roundtrip pear_yogurt: PASS
+COOKING serve and pay pear_yogurt: PASS
+COOKING missing ingredient atomic pear_yogurt: PASS
+COOKING starts with exact materials pear_smoothie: PASS
+COOKING only recipe materials debited pear_smoothie: PASS
+COOKING ready pear_smoothie: PASS
+COOKING cooking save roundtrip pear_smoothie: PASS
+COOKING serve and pay pear_smoothie: PASS
+COOKING missing ingredient atomic pear_smoothie: PASS
+COOKING starts with exact materials pear_butter_tart: PASS
+COOKING only recipe materials debited pear_butter_tart: PASS
+COOKING ready pear_butter_tart: PASS
+COOKING cooking save roundtrip pear_butter_tart: PASS
+COOKING serve and pay pear_butter_tart: PASS
+COOKING missing ingredient atomic pear_butter_tart: PASS
+COOKING starts with exact materials pear_compote: PASS
+COOKING only recipe materials debited pear_compote: PASS
+COOKING ready pear_compote: PASS
+COOKING cooking save roundtrip pear_compote: PASS
+COOKING serve and pay pear_compote: PASS
+COOKING missing ingredient atomic pear_compote: PASS
+COOKING starts with exact materials pear_fruit_tea: PASS
+COOKING only recipe materials debited pear_fruit_tea: PASS
+COOKING ready pear_fruit_tea: PASS
+COOKING cooking save roundtrip pear_fruit_tea: PASS
+COOKING serve and pay pear_fruit_tea: PASS
+COOKING missing ingredient atomic pear_fruit_tea: PASS
+COOKING starts with exact materials peach_yogurt: PASS
+COOKING only recipe materials debited peach_yogurt: PASS
+COOKING ready peach_yogurt: PASS
+COOKING cooking save roundtrip peach_yogurt: PASS
+COOKING serve and pay peach_yogurt: PASS
+COOKING missing ingredient atomic peach_yogurt: PASS
+COOKING starts with exact materials peach_smoothie: PASS
+COOKING only recipe materials debited peach_smoothie: PASS
+COOKING ready peach_smoothie: PASS
+COOKING cooking save roundtrip peach_smoothie: PASS
+COOKING serve and pay peach_smoothie: PASS
+COOKING missing ingredient atomic peach_smoothie: PASS
+COOKING starts with exact materials peach_butter_tart: PASS
+COOKING only recipe materials debited peach_butter_tart: PASS
+COOKING ready peach_butter_tart: PASS
+COOKING cooking save roundtrip peach_butter_tart: PASS
+COOKING serve and pay peach_butter_tart: PASS
+COOKING missing ingredient atomic peach_butter_tart: PASS
+COOKING starts with exact materials peach_compote: PASS
+COOKING only recipe materials debited peach_compote: PASS
+COOKING ready peach_compote: PASS
+COOKING cooking save roundtrip peach_compote: PASS
+COOKING serve and pay peach_compote: PASS
+COOKING missing ingredient atomic peach_compote: PASS
+COOKING starts with exact materials peach_fruit_tea: PASS
+COOKING only recipe materials debited peach_fruit_tea: PASS
+COOKING ready peach_fruit_tea: PASS
+COOKING cooking save roundtrip peach_fruit_tea: PASS
+COOKING serve and pay peach_fruit_tea: PASS
+COOKING missing ingredient atomic peach_fruit_tea: PASS
+COOKING starts with exact materials cherry_yogurt: PASS
+COOKING only recipe materials debited cherry_yogurt: PASS
+COOKING ready cherry_yogurt: PASS
+COOKING cooking save roundtrip cherry_yogurt: PASS
+COOKING serve and pay cherry_yogurt: PASS
+COOKING missing ingredient atomic cherry_yogurt: PASS
+COOKING starts with exact materials cherry_smoothie: PASS
+COOKING only recipe materials debited cherry_smoothie: PASS
+COOKING ready cherry_smoothie: PASS
+COOKING cooking save roundtrip cherry_smoothie: PASS
+COOKING serve and pay cherry_smoothie: PASS
+COOKING missing ingredient atomic cherry_smoothie: PASS
+COOKING starts with exact materials cherry_butter_tart: PASS
+COOKING only recipe materials debited cherry_butter_tart: PASS
+COOKING ready cherry_butter_tart: PASS
+COOKING cooking save roundtrip cherry_butter_tart: PASS
+COOKING serve and pay cherry_butter_tart: PASS
+COOKING missing ingredient atomic cherry_butter_tart: PASS
+COOKING starts with exact materials cherry_compote: PASS
+COOKING only recipe materials debited cherry_compote: PASS
+COOKING ready cherry_compote: PASS
+COOKING cooking save roundtrip cherry_compote: PASS
+COOKING serve and pay cherry_compote: PASS
+COOKING missing ingredient atomic cherry_compote: PASS
+COOKING starts with exact materials cherry_fruit_tea: PASS
+COOKING only recipe materials debited cherry_fruit_tea: PASS
+COOKING ready cherry_fruit_tea: PASS
+COOKING cooking save roundtrip cherry_fruit_tea: PASS
+COOKING serve and pay cherry_fruit_tea: PASS
+COOKING missing ingredient atomic cherry_fruit_tea: PASS
+COOKING starts with exact materials grape_yogurt: PASS
+COOKING only recipe materials debited grape_yogurt: PASS
+COOKING ready grape_yogurt: PASS
+COOKING cooking save roundtrip grape_yogurt: PASS
+COOKING serve and pay grape_yogurt: PASS
+COOKING missing ingredient atomic grape_yogurt: PASS
+COOKING starts with exact materials grape_smoothie: PASS
+COOKING only recipe materials debited grape_smoothie: PASS
+COOKING ready grape_smoothie: PASS
+COOKING cooking save roundtrip grape_smoothie: PASS
+COOKING serve and pay grape_smoothie: PASS
+COOKING missing ingredient atomic grape_smoothie: PASS
+COOKING starts with exact materials grape_butter_tart: PASS
+COOKING only recipe materials debited grape_butter_tart: PASS
+COOKING ready grape_butter_tart: PASS
+COOKING cooking save roundtrip grape_butter_tart: PASS
+COOKING serve and pay grape_butter_tart: PASS
+COOKING missing ingredient atomic grape_butter_tart: PASS
+COOKING starts with exact materials grape_compote: PASS
+COOKING only recipe materials debited grape_compote: PASS
+COOKING ready grape_compote: PASS
+COOKING cooking save roundtrip grape_compote: PASS
+COOKING serve and pay grape_compote: PASS
+COOKING missing ingredient atomic grape_compote: PASS
+COOKING starts with exact materials grape_fruit_tea: PASS
+COOKING only recipe materials debited grape_fruit_tea: PASS
+COOKING ready grape_fruit_tea: PASS
+COOKING cooking save roundtrip grape_fruit_tea: PASS
+COOKING serve and pay grape_fruit_tea: PASS
+COOKING missing ingredient atomic grape_fruit_tea: PASS
+COOKING starts with exact materials orange_yogurt: PASS
+COOKING only recipe materials debited orange_yogurt: PASS
+COOKING ready orange_yogurt: PASS
+COOKING cooking save roundtrip orange_yogurt: PASS
+COOKING serve and pay orange_yogurt: PASS
+COOKING missing ingredient atomic orange_yogurt: PASS
+COOKING starts with exact materials orange_smoothie: PASS
+COOKING only recipe materials debited orange_smoothie: PASS
+COOKING ready orange_smoothie: PASS
+COOKING cooking save roundtrip orange_smoothie: PASS
+COOKING serve and pay orange_smoothie: PASS
+COOKING missing ingredient atomic orange_smoothie: PASS
+COOKING starts with exact materials orange_butter_tart: PASS
+COOKING only recipe materials debited orange_butter_tart: PASS
+COOKING ready orange_butter_tart: PASS
+COOKING cooking save roundtrip orange_butter_tart: PASS
+COOKING serve and pay orange_butter_tart: PASS
+COOKING missing ingredient atomic orange_butter_tart: PASS
+COOKING starts with exact materials orange_compote: PASS
+COOKING only recipe materials debited orange_compote: PASS
+COOKING ready orange_compote: PASS
+COOKING cooking save roundtrip orange_compote: PASS
+COOKING serve and pay orange_compote: PASS
+COOKING missing ingredient atomic orange_compote: PASS
+COOKING starts with exact materials orange_fruit_tea: PASS
+COOKING only recipe materials debited orange_fruit_tea: PASS
+COOKING ready orange_fruit_tea: PASS
+COOKING cooking save roundtrip orange_fruit_tea: PASS
+COOKING serve and pay orange_fruit_tea: PASS
+COOKING missing ingredient atomic orange_fruit_tea: PASS
+COOKING starts with exact materials lemon_yogurt: PASS
+COOKING only recipe materials debited lemon_yogurt: PASS
+COOKING ready lemon_yogurt: PASS
+COOKING cooking save roundtrip lemon_yogurt: PASS
+COOKING serve and pay lemon_yogurt: PASS
+COOKING missing ingredient atomic lemon_yogurt: PASS
+COOKING starts with exact materials lemon_smoothie: PASS
+COOKING only recipe materials debited lemon_smoothie: PASS
+COOKING ready lemon_smoothie: PASS
+COOKING cooking save roundtrip lemon_smoothie: PASS
+COOKING serve and pay lemon_smoothie: PASS
+COOKING missing ingredient atomic lemon_smoothie: PASS
+COOKING starts with exact materials lemon_butter_tart: PASS
+COOKING only recipe materials debited lemon_butter_tart: PASS
+COOKING ready lemon_butter_tart: PASS
+COOKING cooking save roundtrip lemon_butter_tart: PASS
+COOKING serve and pay lemon_butter_tart: PASS
+COOKING missing ingredient atomic lemon_butter_tart: PASS
+COOKING starts with exact materials lemon_compote: PASS
+COOKING only recipe materials debited lemon_compote: PASS
+COOKING ready lemon_compote: PASS
+COOKING cooking save roundtrip lemon_compote: PASS
+COOKING serve and pay lemon_compote: PASS
+COOKING missing ingredient atomic lemon_compote: PASS
+COOKING starts with exact materials lemon_fruit_tea: PASS
+COOKING only recipe materials debited lemon_fruit_tea: PASS
+COOKING ready lemon_fruit_tea: PASS
+COOKING cooking save roundtrip lemon_fruit_tea: PASS
+COOKING serve and pay lemon_fruit_tea: PASS
+COOKING missing ingredient atomic lemon_fruit_tea: PASS
+COOKING starts with exact materials lime_yogurt: PASS
+COOKING only recipe materials debited lime_yogurt: PASS
+COOKING ready lime_yogurt: PASS
+COOKING cooking save roundtrip lime_yogurt: PASS
+COOKING serve and pay lime_yogurt: PASS
+COOKING missing ingredient atomic lime_yogurt: PASS
+COOKING starts with exact materials lime_smoothie: PASS
+COOKING only recipe materials debited lime_smoothie: PASS
+COOKING ready lime_smoothie: PASS
+COOKING cooking save roundtrip lime_smoothie: PASS
+COOKING serve and pay lime_smoothie: PASS
+COOKING missing ingredient atomic lime_smoothie: PASS
+COOKING starts with exact materials lime_butter_tart: PASS
+COOKING only recipe materials debited lime_butter_tart: PASS
+COOKING ready lime_butter_tart: PASS
+COOKING cooking save roundtrip lime_butter_tart: PASS
+COOKING serve and pay lime_butter_tart: PASS
+COOKING missing ingredient atomic lime_butter_tart: PASS
+COOKING starts with exact materials lime_compote: PASS
+COOKING only recipe materials debited lime_compote: PASS
+COOKING ready lime_compote: PASS
+COOKING cooking save roundtrip lime_compote: PASS
+COOKING serve and pay lime_compote: PASS
+COOKING missing ingredient atomic lime_compote: PASS
+COOKING starts with exact materials lime_fruit_tea: PASS
+COOKING only recipe materials debited lime_fruit_tea: PASS
+COOKING ready lime_fruit_tea: PASS
+COOKING cooking save roundtrip lime_fruit_tea: PASS
+COOKING serve and pay lime_fruit_tea: PASS
+COOKING missing ingredient atomic lime_fruit_tea: PASS
+COOKING starts with exact materials banana_yogurt: PASS
+COOKING only recipe materials debited banana_yogurt: PASS
+COOKING ready banana_yogurt: PASS
+COOKING cooking save roundtrip banana_yogurt: PASS
+COOKING serve and pay banana_yogurt: PASS
+COOKING missing ingredient atomic banana_yogurt: PASS
+COOKING starts with exact materials banana_smoothie: PASS
+COOKING only recipe materials debited banana_smoothie: PASS
+COOKING ready banana_smoothie: PASS
+COOKING cooking save roundtrip banana_smoothie: PASS
+COOKING serve and pay banana_smoothie: PASS
+COOKING missing ingredient atomic banana_smoothie: PASS
+COOKING starts with exact materials banana_butter_tart: PASS
+COOKING only recipe materials debited banana_butter_tart: PASS
+COOKING ready banana_butter_tart: PASS
+COOKING cooking save roundtrip banana_butter_tart: PASS
+COOKING serve and pay banana_butter_tart: PASS
+COOKING missing ingredient atomic banana_butter_tart: PASS
+COOKING starts with exact materials banana_compote: PASS
+COOKING only recipe materials debited banana_compote: PASS
+COOKING ready banana_compote: PASS
+COOKING cooking save roundtrip banana_compote: PASS
+COOKING serve and pay banana_compote: PASS
+COOKING missing ingredient atomic banana_compote: PASS
+COOKING starts with exact materials banana_fruit_tea: PASS
+COOKING only recipe materials debited banana_fruit_tea: PASS
+COOKING ready banana_fruit_tea: PASS
+COOKING cooking save roundtrip banana_fruit_tea: PASS
+COOKING serve and pay banana_fruit_tea: PASS
+COOKING missing ingredient atomic banana_fruit_tea: PASS
+COOKING starts with exact materials pineapple_yogurt: PASS
+COOKING only recipe materials debited pineapple_yogurt: PASS
+COOKING ready pineapple_yogurt: PASS
+COOKING cooking save roundtrip pineapple_yogurt: PASS
+COOKING serve and pay pineapple_yogurt: PASS
+COOKING missing ingredient atomic pineapple_yogurt: PASS
+COOKING starts with exact materials pineapple_smoothie: PASS
+COOKING only recipe materials debited pineapple_smoothie: PASS
+COOKING ready pineapple_smoothie: PASS
+COOKING cooking save roundtrip pineapple_smoothie: PASS
+COOKING serve and pay pineapple_smoothie: PASS
+COOKING missing ingredient atomic pineapple_smoothie: PASS
+COOKING starts with exact materials pineapple_butter_tart: PASS
+COOKING only recipe materials debited pineapple_butter_tart: PASS
+COOKING ready pineapple_butter_tart: PASS
+COOKING cooking save roundtrip pineapple_butter_tart: PASS
+COOKING serve and pay pineapple_butter_tart: PASS
+COOKING missing ingredient atomic pineapple_butter_tart: PASS
+COOKING starts with exact materials pineapple_compote: PASS
+COOKING only recipe materials debited pineapple_compote: PASS
+COOKING ready pineapple_compote: PASS
+COOKING cooking save roundtrip pineapple_compote: PASS
+COOKING serve and pay pineapple_compote: PASS
+COOKING missing ingredient atomic pineapple_compote: PASS
+COOKING starts with exact materials pineapple_fruit_tea: PASS
+COOKING only recipe materials debited pineapple_fruit_tea: PASS
+COOKING ready pineapple_fruit_tea: PASS
+COOKING cooking save roundtrip pineapple_fruit_tea: PASS
+COOKING serve and pay pineapple_fruit_tea: PASS
+COOKING missing ingredient atomic pineapple_fruit_tea: PASS
+COOKING starts with exact materials coconut_yogurt: PASS
+COOKING only recipe materials debited coconut_yogurt: PASS
+COOKING ready coconut_yogurt: PASS
+COOKING cooking save roundtrip coconut_yogurt: PASS
+COOKING serve and pay coconut_yogurt: PASS
+COOKING missing ingredient atomic coconut_yogurt: PASS
+COOKING starts with exact materials coconut_smoothie: PASS
+COOKING only recipe materials debited coconut_smoothie: PASS
+COOKING ready coconut_smoothie: PASS
+COOKING cooking save roundtrip coconut_smoothie: PASS
+COOKING serve and pay coconut_smoothie: PASS
+COOKING missing ingredient atomic coconut_smoothie: PASS
+COOKING starts with exact materials coconut_butter_tart: PASS
+COOKING only recipe materials debited coconut_butter_tart: PASS
+COOKING ready coconut_butter_tart: PASS
+COOKING cooking save roundtrip coconut_butter_tart: PASS
+COOKING serve and pay coconut_butter_tart: PASS
+COOKING missing ingredient atomic coconut_butter_tart: PASS
+COOKING starts with exact materials coconut_compote: PASS
+COOKING only recipe materials debited coconut_compote: PASS
+COOKING ready coconut_compote: PASS
+COOKING cooking save roundtrip coconut_compote: PASS
+COOKING serve and pay coconut_compote: PASS
+COOKING missing ingredient atomic coconut_compote: PASS
+COOKING starts with exact materials coconut_fruit_tea: PASS
+COOKING only recipe materials debited coconut_fruit_tea: PASS
+COOKING ready coconut_fruit_tea: PASS
+COOKING cooking save roundtrip coconut_fruit_tea: PASS
+COOKING serve and pay coconut_fruit_tea: PASS
+COOKING missing ingredient atomic coconut_fruit_tea: PASS
+COOKING starts with exact materials mango_yogurt: PASS
+COOKING only recipe materials debited mango_yogurt: PASS
+COOKING ready mango_yogurt: PASS
+COOKING cooking save roundtrip mango_yogurt: PASS
+COOKING serve and pay mango_yogurt: PASS
+COOKING missing ingredient atomic mango_yogurt: PASS
+COOKING starts with exact materials mango_smoothie: PASS
+COOKING only recipe materials debited mango_smoothie: PASS
+COOKING ready mango_smoothie: PASS
+COOKING cooking save roundtrip mango_smoothie: PASS
+COOKING serve and pay mango_smoothie: PASS
+COOKING missing ingredient atomic mango_smoothie: PASS
+COOKING starts with exact materials mango_butter_tart: PASS
+COOKING only recipe materials debited mango_butter_tart: PASS
+COOKING ready mango_butter_tart: PASS
+COOKING cooking save roundtrip mango_butter_tart: PASS
+COOKING serve and pay mango_butter_tart: PASS
+COOKING missing ingredient atomic mango_butter_tart: PASS
+COOKING starts with exact materials mango_compote: PASS
+COOKING only recipe materials debited mango_compote: PASS
+COOKING ready mango_compote: PASS
+COOKING cooking save roundtrip mango_compote: PASS
+COOKING serve and pay mango_compote: PASS
+COOKING missing ingredient atomic mango_compote: PASS
+COOKING starts with exact materials mango_fruit_tea: PASS
+COOKING only recipe materials debited mango_fruit_tea: PASS
+COOKING ready mango_fruit_tea: PASS
+COOKING cooking save roundtrip mango_fruit_tea: PASS
+COOKING serve and pay mango_fruit_tea: PASS
+COOKING missing ingredient atomic mango_fruit_tea: PASS
+COOKING starts with exact materials kiwi_yogurt: PASS
+COOKING only recipe materials debited kiwi_yogurt: PASS
+COOKING ready kiwi_yogurt: PASS
+COOKING cooking save roundtrip kiwi_yogurt: PASS
+COOKING serve and pay kiwi_yogurt: PASS
+COOKING missing ingredient atomic kiwi_yogurt: PASS
+COOKING starts with exact materials kiwi_smoothie: PASS
+COOKING only recipe materials debited kiwi_smoothie: PASS
+COOKING ready kiwi_smoothie: PASS
+COOKING cooking save roundtrip kiwi_smoothie: PASS
+COOKING serve and pay kiwi_smoothie: PASS
+COOKING missing ingredient atomic kiwi_smoothie: PASS
+COOKING starts with exact materials kiwi_butter_tart: PASS
+COOKING only recipe materials debited kiwi_butter_tart: PASS
+COOKING ready kiwi_butter_tart: PASS
+COOKING cooking save roundtrip kiwi_butter_tart: PASS
+COOKING serve and pay kiwi_butter_tart: PASS
+COOKING missing ingredient atomic kiwi_butter_tart: PASS
+COOKING starts with exact materials kiwi_compote: PASS
+COOKING only recipe materials debited kiwi_compote: PASS
+COOKING ready kiwi_compote: PASS
+COOKING cooking save roundtrip kiwi_compote: PASS
+COOKING serve and pay kiwi_compote: PASS
+COOKING missing ingredient atomic kiwi_compote: PASS
+COOKING starts with exact materials kiwi_fruit_tea: PASS
+COOKING only recipe materials debited kiwi_fruit_tea: PASS
+COOKING ready kiwi_fruit_tea: PASS
+COOKING cooking save roundtrip kiwi_fruit_tea: PASS
+COOKING serve and pay kiwi_fruit_tea: PASS
+COOKING missing ingredient atomic kiwi_fruit_tea: PASS
+COOKING starts with exact materials blueberry_yogurt: PASS
+COOKING only recipe materials debited blueberry_yogurt: PASS
+COOKING ready blueberry_yogurt: PASS
+COOKING cooking save roundtrip blueberry_yogurt: PASS
+COOKING serve and pay blueberry_yogurt: PASS
+COOKING missing ingredient atomic blueberry_yogurt: PASS
+COOKING starts with exact materials blueberry_smoothie: PASS
+COOKING only recipe materials debited blueberry_smoothie: PASS
+COOKING ready blueberry_smoothie: PASS
+COOKING cooking save roundtrip blueberry_smoothie: PASS
+COOKING serve and pay blueberry_smoothie: PASS
+COOKING missing ingredient atomic blueberry_smoothie: PASS
+COOKING starts with exact materials blueberry_butter_tart: PASS
+COOKING only recipe materials debited blueberry_butter_tart: PASS
+COOKING ready blueberry_butter_tart: PASS
+COOKING cooking save roundtrip blueberry_butter_tart: PASS
+COOKING serve and pay blueberry_butter_tart: PASS
+COOKING missing ingredient atomic blueberry_butter_tart: PASS
+COOKING starts with exact materials blueberry_compote: PASS
+COOKING only recipe materials debited blueberry_compote: PASS
+COOKING ready blueberry_compote: PASS
+COOKING cooking save roundtrip blueberry_compote: PASS
+COOKING serve and pay blueberry_compote: PASS
+COOKING missing ingredient atomic blueberry_compote: PASS
+COOKING starts with exact materials blueberry_fruit_tea: PASS
+COOKING only recipe materials debited blueberry_fruit_tea: PASS
+COOKING ready blueberry_fruit_tea: PASS
+COOKING cooking save roundtrip blueberry_fruit_tea: PASS
+COOKING serve and pay blueberry_fruit_tea: PASS
+COOKING missing ingredient atomic blueberry_fruit_tea: PASS
+COOKING starts with exact materials raspberry_yogurt: PASS
+COOKING only recipe materials debited raspberry_yogurt: PASS
+COOKING ready raspberry_yogurt: PASS
+COOKING cooking save roundtrip raspberry_yogurt: PASS
+COOKING serve and pay raspberry_yogurt: PASS
+COOKING missing ingredient atomic raspberry_yogurt: PASS
+COOKING starts with exact materials raspberry_smoothie: PASS
+COOKING only recipe materials debited raspberry_smoothie: PASS
+COOKING ready raspberry_smoothie: PASS
+COOKING cooking save roundtrip raspberry_smoothie: PASS
+COOKING serve and pay raspberry_smoothie: PASS
+COOKING missing ingredient atomic raspberry_smoothie: PASS
+COOKING starts with exact materials raspberry_butter_tart: PASS
+COOKING only recipe materials debited raspberry_butter_tart: PASS
+COOKING ready raspberry_butter_tart: PASS
+COOKING cooking save roundtrip raspberry_butter_tart: PASS
+COOKING serve and pay raspberry_butter_tart: PASS
+COOKING missing ingredient atomic raspberry_butter_tart: PASS
+COOKING starts with exact materials raspberry_compote: PASS
+COOKING only recipe materials debited raspberry_compote: PASS
+COOKING ready raspberry_compote: PASS
+COOKING cooking save roundtrip raspberry_compote: PASS
+COOKING serve and pay raspberry_compote: PASS
+COOKING missing ingredient atomic raspberry_compote: PASS
+COOKING starts with exact materials raspberry_fruit_tea: PASS
+COOKING only recipe materials debited raspberry_fruit_tea: PASS
+COOKING ready raspberry_fruit_tea: PASS
+COOKING cooking save roundtrip raspberry_fruit_tea: PASS
+COOKING serve and pay raspberry_fruit_tea: PASS
+COOKING missing ingredient atomic raspberry_fruit_tea: PASS
+COOKING starts with exact materials blackberry_yogurt: PASS
+COOKING only recipe materials debited blackberry_yogurt: PASS
+COOKING ready blackberry_yogurt: PASS
+COOKING cooking save roundtrip blackberry_yogurt: PASS
+COOKING serve and pay blackberry_yogurt: PASS
+COOKING missing ingredient atomic blackberry_yogurt: PASS
+COOKING starts with exact materials blackberry_smoothie: PASS
+COOKING only recipe materials debited blackberry_smoothie: PASS
+COOKING ready blackberry_smoothie: PASS
+COOKING cooking save roundtrip blackberry_smoothie: PASS
+COOKING serve and pay blackberry_smoothie: PASS
+COOKING missing ingredient atomic blackberry_smoothie: PASS
+COOKING starts with exact materials blackberry_butter_tart: PASS
+COOKING only recipe materials debited blackberry_butter_tart: PASS
+COOKING ready blackberry_butter_tart: PASS
+COOKING cooking save roundtrip blackberry_butter_tart: PASS
+COOKING serve and pay blackberry_butter_tart: PASS
+COOKING missing ingredient atomic blackberry_butter_tart: PASS
+COOKING starts with exact materials blackberry_compote: PASS
+COOKING only recipe materials debited blackberry_compote: PASS
+COOKING ready blackberry_compote: PASS
+COOKING cooking save roundtrip blackberry_compote: PASS
+COOKING serve and pay blackberry_compote: PASS
+COOKING missing ingredient atomic blackberry_compote: PASS
+COOKING starts with exact materials blackberry_fruit_tea: PASS
+COOKING only recipe materials debited blackberry_fruit_tea: PASS
+COOKING ready blackberry_fruit_tea: PASS
+COOKING cooking save roundtrip blackberry_fruit_tea: PASS
+COOKING serve and pay blackberry_fruit_tea: PASS
+COOKING missing ingredient atomic blackberry_fruit_tea: PASS
+COOKING starts with exact materials cranberry_yogurt: PASS
+COOKING only recipe materials debited cranberry_yogurt: PASS
+COOKING ready cranberry_yogurt: PASS
+COOKING cooking save roundtrip cranberry_yogurt: PASS
+COOKING serve and pay cranberry_yogurt: PASS
+COOKING missing ingredient atomic cranberry_yogurt: PASS
+COOKING starts with exact materials cranberry_smoothie: PASS
+COOKING only recipe materials debited cranberry_smoothie: PASS
+COOKING ready cranberry_smoothie: PASS
+COOKING cooking save roundtrip cranberry_smoothie: PASS
+COOKING serve and pay cranberry_smoothie: PASS
+COOKING missing ingredient atomic cranberry_smoothie: PASS
+COOKING starts with exact materials cranberry_butter_tart: PASS
+COOKING only recipe materials debited cranberry_butter_tart: PASS
+COOKING ready cranberry_butter_tart: PASS
+COOKING cooking save roundtrip cranberry_butter_tart: PASS
+COOKING serve and pay cranberry_butter_tart: PASS
+COOKING missing ingredient atomic cranberry_butter_tart: PASS
+COOKING starts with exact materials cranberry_compote: PASS
+COOKING only recipe materials debited cranberry_compote: PASS
+COOKING ready cranberry_compote: PASS
+COOKING cooking save roundtrip cranberry_compote: PASS
+COOKING serve and pay cranberry_compote: PASS
+COOKING missing ingredient atomic cranberry_compote: PASS
+COOKING starts with exact materials cranberry_fruit_tea: PASS
+COOKING only recipe materials debited cranberry_fruit_tea: PASS
+COOKING ready cranberry_fruit_tea: PASS
+COOKING cooking save roundtrip cranberry_fruit_tea: PASS
+COOKING serve and pay cranberry_fruit_tea: PASS
+COOKING missing ingredient atomic cranberry_fruit_tea: PASS
+COOKING starts with exact materials plum_yogurt: PASS
+COOKING only recipe materials debited plum_yogurt: PASS
+COOKING ready plum_yogurt: PASS
+COOKING cooking save roundtrip plum_yogurt: PASS
+COOKING serve and pay plum_yogurt: PASS
+COOKING missing ingredient atomic plum_yogurt: PASS
+COOKING starts with exact materials plum_smoothie: PASS
+COOKING only recipe materials debited plum_smoothie: PASS
+COOKING ready plum_smoothie: PASS
+COOKING cooking save roundtrip plum_smoothie: PASS
+COOKING serve and pay plum_smoothie: PASS
+COOKING missing ingredient atomic plum_smoothie: PASS
+COOKING starts with exact materials plum_butter_tart: PASS
+COOKING only recipe materials debited plum_butter_tart: PASS
+COOKING ready plum_butter_tart: PASS
+COOKING cooking save roundtrip plum_butter_tart: PASS
+COOKING serve and pay plum_butter_tart: PASS
+COOKING missing ingredient atomic plum_butter_tart: PASS
+COOKING starts with exact materials plum_compote: PASS
+COOKING only recipe materials debited plum_compote: PASS
+COOKING ready plum_compote: PASS
+COOKING cooking save roundtrip plum_compote: PASS
+COOKING serve and pay plum_compote: PASS
+COOKING missing ingredient atomic plum_compote: PASS
+COOKING starts with exact materials plum_fruit_tea: PASS
+COOKING only recipe materials debited plum_fruit_tea: PASS
+COOKING ready plum_fruit_tea: PASS
+COOKING cooking save roundtrip plum_fruit_tea: PASS
+COOKING serve and pay plum_fruit_tea: PASS
+COOKING missing ingredient atomic plum_fruit_tea: PASS
+COOKING starts with exact materials apricot_yogurt: PASS
+COOKING only recipe materials debited apricot_yogurt: PASS
+COOKING ready apricot_yogurt: PASS
+COOKING cooking save roundtrip apricot_yogurt: PASS
+COOKING serve and pay apricot_yogurt: PASS
+COOKING missing ingredient atomic apricot_yogurt: PASS
+COOKING starts with exact materials apricot_smoothie: PASS
+COOKING only recipe materials debited apricot_smoothie: PASS
+COOKING ready apricot_smoothie: PASS
+COOKING cooking save roundtrip apricot_smoothie: PASS
+COOKING serve and pay apricot_smoothie: PASS
+COOKING missing ingredient atomic apricot_smoothie: PASS
+COOKING starts with exact materials apricot_butter_tart: PASS
+COOKING only recipe materials debited apricot_butter_tart: PASS
+COOKING ready apricot_butter_tart: PASS
+COOKING cooking save roundtrip apricot_butter_tart: PASS
+COOKING serve and pay apricot_butter_tart: PASS
+COOKING missing ingredient atomic apricot_butter_tart: PASS
+COOKING starts with exact materials apricot_compote: PASS
+COOKING only recipe materials debited apricot_compote: PASS
+COOKING ready apricot_compote: PASS
+COOKING cooking save roundtrip apricot_compote: PASS
+COOKING serve and pay apricot_compote: PASS
+COOKING missing ingredient atomic apricot_compote: PASS
+COOKING starts with exact materials apricot_fruit_tea: PASS
+COOKING only recipe materials debited apricot_fruit_tea: PASS
+COOKING ready apricot_fruit_tea: PASS
+COOKING cooking save roundtrip apricot_fruit_tea: PASS
+COOKING serve and pay apricot_fruit_tea: PASS
+COOKING missing ingredient atomic apricot_fruit_tea: PASS
+COOKING starts with exact materials fig_yogurt: PASS
+COOKING only recipe materials debited fig_yogurt: PASS
+COOKING ready fig_yogurt: PASS
+COOKING cooking save roundtrip fig_yogurt: PASS
+COOKING serve and pay fig_yogurt: PASS
+COOKING missing ingredient atomic fig_yogurt: PASS
+COOKING starts with exact materials fig_smoothie: PASS
+COOKING only recipe materials debited fig_smoothie: PASS
+COOKING ready fig_smoothie: PASS
+COOKING cooking save roundtrip fig_smoothie: PASS
+COOKING serve and pay fig_smoothie: PASS
+COOKING missing ingredient atomic fig_smoothie: PASS
+COOKING starts with exact materials fig_butter_tart: PASS
+COOKING only recipe materials debited fig_butter_tart: PASS
+COOKING ready fig_butter_tart: PASS
+COOKING cooking save roundtrip fig_butter_tart: PASS
+COOKING serve and pay fig_butter_tart: PASS
+COOKING missing ingredient atomic fig_butter_tart: PASS
+COOKING starts with exact materials fig_compote: PASS
+COOKING only recipe materials debited fig_compote: PASS
+COOKING ready fig_compote: PASS
+COOKING cooking save roundtrip fig_compote: PASS
+COOKING serve and pay fig_compote: PASS
+COOKING missing ingredient atomic fig_compote: PASS
+COOKING starts with exact materials fig_fruit_tea: PASS
+COOKING only recipe materials debited fig_fruit_tea: PASS
+COOKING ready fig_fruit_tea: PASS
+COOKING cooking save roundtrip fig_fruit_tea: PASS
+COOKING serve and pay fig_fruit_tea: PASS
+COOKING missing ingredient atomic fig_fruit_tea: PASS
+COOKING starts with exact materials persimmon_yogurt: PASS
+COOKING only recipe materials debited persimmon_yogurt: PASS
+COOKING ready persimmon_yogurt: PASS
+COOKING cooking save roundtrip persimmon_yogurt: PASS
+COOKING serve and pay persimmon_yogurt: PASS
+COOKING missing ingredient atomic persimmon_yogurt: PASS
+COOKING starts with exact materials persimmon_smoothie: PASS
+COOKING only recipe materials debited persimmon_smoothie: PASS
+COOKING ready persimmon_smoothie: PASS
+COOKING cooking save roundtrip persimmon_smoothie: PASS
+COOKING serve and pay persimmon_smoothie: PASS
+COOKING missing ingredient atomic persimmon_smoothie: PASS
+COOKING starts with exact materials persimmon_butter_tart: PASS
+COOKING only recipe materials debited persimmon_butter_tart: PASS
+COOKING ready persimmon_butter_tart: PASS
+COOKING cooking save roundtrip persimmon_butter_tart: PASS
+COOKING serve and pay persimmon_butter_tart: PASS
+COOKING missing ingredient atomic persimmon_butter_tart: PASS
+COOKING starts with exact materials persimmon_compote: PASS
+COOKING only recipe materials debited persimmon_compote: PASS
+COOKING ready persimmon_compote: PASS
+COOKING cooking save roundtrip persimmon_compote: PASS
+COOKING serve and pay persimmon_compote: PASS
+COOKING missing ingredient atomic persimmon_compote: PASS
+COOKING starts with exact materials persimmon_fruit_tea: PASS
+COOKING only recipe materials debited persimmon_fruit_tea: PASS
+COOKING ready persimmon_fruit_tea: PASS
+COOKING cooking save roundtrip persimmon_fruit_tea: PASS
+COOKING serve and pay persimmon_fruit_tea: PASS
+COOKING missing ingredient atomic persimmon_fruit_tea: PASS
+COOKING starts with exact materials watermelon_yogurt: PASS
+COOKING only recipe materials debited watermelon_yogurt: PASS
+COOKING ready watermelon_yogurt: PASS
+COOKING cooking save roundtrip watermelon_yogurt: PASS
+COOKING serve and pay watermelon_yogurt: PASS
+COOKING missing ingredient atomic watermelon_yogurt: PASS
+COOKING starts with exact materials watermelon_smoothie: PASS
+COOKING only recipe materials debited watermelon_smoothie: PASS
+COOKING ready watermelon_smoothie: PASS
+COOKING cooking save roundtrip watermelon_smoothie: PASS
+COOKING serve and pay watermelon_smoothie: PASS
+COOKING missing ingredient atomic watermelon_smoothie: PASS
+COOKING starts with exact materials watermelon_butter_tart: PASS
+COOKING only recipe materials debited watermelon_butter_tart: PASS
+COOKING ready watermelon_butter_tart: PASS
+COOKING cooking save roundtrip watermelon_butter_tart: PASS
+COOKING serve and pay watermelon_butter_tart: PASS
+COOKING missing ingredient atomic watermelon_butter_tart: PASS
+COOKING starts with exact materials watermelon_compote: PASS
+COOKING only recipe materials debited watermelon_compote: PASS
+COOKING ready watermelon_compote: PASS
+COOKING cooking save roundtrip watermelon_compote: PASS
+COOKING serve and pay watermelon_compote: PASS
+COOKING missing ingredient atomic watermelon_compote: PASS
+COOKING starts with exact materials watermelon_fruit_tea: PASS
+COOKING only recipe materials debited watermelon_fruit_tea: PASS
+COOKING ready watermelon_fruit_tea: PASS
+COOKING cooking save roundtrip watermelon_fruit_tea: PASS
+COOKING serve and pay watermelon_fruit_tea: PASS
+COOKING missing ingredient atomic watermelon_fruit_tea: PASS
+COOKING starts with exact materials potato_cream_soup: PASS
+COOKING only recipe materials debited potato_cream_soup: PASS
+COOKING ready potato_cream_soup: PASS
+COOKING cooking save roundtrip potato_cream_soup: PASS
+COOKING serve and pay potato_cream_soup: PASS
+COOKING missing ingredient atomic potato_cream_soup: PASS
+COOKING starts with exact materials potato_stir_fry: PASS
+COOKING only recipe materials debited potato_stir_fry: PASS
+COOKING ready potato_stir_fry: PASS
+COOKING cooking save roundtrip potato_stir_fry: PASS
+COOKING serve and pay potato_stir_fry: PASS
+COOKING missing ingredient atomic potato_stir_fry: PASS
+COOKING starts with exact materials potato_garden_rice: PASS
+COOKING only recipe materials debited potato_garden_rice: PASS
+COOKING ready potato_garden_rice: PASS
+COOKING cooking save roundtrip potato_garden_rice: PASS
+COOKING serve and pay potato_garden_rice: PASS
+COOKING missing ingredient atomic potato_garden_rice: PASS
+COOKING starts with exact materials potato_herb_roast: PASS
+COOKING only recipe materials debited potato_herb_roast: PASS
+COOKING ready potato_herb_roast: PASS
+COOKING cooking save roundtrip potato_herb_roast: PASS
+COOKING serve and pay potato_herb_roast: PASS
+COOKING missing ingredient atomic potato_herb_roast: PASS
+COOKING starts with exact materials onion_cream_soup: PASS
+COOKING only recipe materials debited onion_cream_soup: PASS
+COOKING ready onion_cream_soup: PASS
+COOKING cooking save roundtrip onion_cream_soup: PASS
+COOKING serve and pay onion_cream_soup: PASS
+COOKING missing ingredient atomic onion_cream_soup: PASS
+COOKING starts with exact materials onion_stir_fry: PASS
+COOKING only recipe materials debited onion_stir_fry: PASS
+COOKING ready onion_stir_fry: PASS
+COOKING cooking save roundtrip onion_stir_fry: PASS
+COOKING serve and pay onion_stir_fry: PASS
+COOKING missing ingredient atomic onion_stir_fry: PASS
+COOKING starts with exact materials onion_garden_rice: PASS
+COOKING only recipe materials debited onion_garden_rice: PASS
+COOKING ready onion_garden_rice: PASS
+COOKING cooking save roundtrip onion_garden_rice: PASS
+COOKING serve and pay onion_garden_rice: PASS
+COOKING missing ingredient atomic onion_garden_rice: PASS
+COOKING starts with exact materials onion_herb_roast: PASS
+COOKING only recipe materials debited onion_herb_roast: PASS
+COOKING ready onion_herb_roast: PASS
+COOKING cooking save roundtrip onion_herb_roast: PASS
+COOKING serve and pay onion_herb_roast: PASS
+COOKING missing ingredient atomic onion_herb_roast: PASS
+COOKING starts with exact materials garlic_cream_soup: PASS
+COOKING only recipe materials debited garlic_cream_soup: PASS
+COOKING ready garlic_cream_soup: PASS
+COOKING cooking save roundtrip garlic_cream_soup: PASS
+COOKING serve and pay garlic_cream_soup: PASS
+COOKING missing ingredient atomic garlic_cream_soup: PASS
+COOKING starts with exact materials garlic_stir_fry: PASS
+COOKING only recipe materials debited garlic_stir_fry: PASS
+COOKING ready garlic_stir_fry: PASS
+COOKING cooking save roundtrip garlic_stir_fry: PASS
+COOKING serve and pay garlic_stir_fry: PASS
+COOKING missing ingredient atomic garlic_stir_fry: PASS
+COOKING starts with exact materials garlic_garden_rice: PASS
+COOKING only recipe materials debited garlic_garden_rice: PASS
+COOKING ready garlic_garden_rice: PASS
+COOKING cooking save roundtrip garlic_garden_rice: PASS
+COOKING serve and pay garlic_garden_rice: PASS
+COOKING missing ingredient atomic garlic_garden_rice: PASS
+COOKING starts with exact materials garlic_herb_roast: PASS
+COOKING only recipe materials debited garlic_herb_roast: PASS
+COOKING ready garlic_herb_roast: PASS
+COOKING cooking save roundtrip garlic_herb_roast: PASS
+COOKING serve and pay garlic_herb_roast: PASS
+COOKING missing ingredient atomic garlic_herb_roast: PASS
+COOKING starts with exact materials ginger_cream_soup: PASS
+COOKING only recipe materials debited ginger_cream_soup: PASS
+COOKING ready ginger_cream_soup: PASS
+COOKING cooking save roundtrip ginger_cream_soup: PASS
+COOKING serve and pay ginger_cream_soup: PASS
+COOKING missing ingredient atomic ginger_cream_soup: PASS
+COOKING starts with exact materials ginger_stir_fry: PASS
+COOKING only recipe materials debited ginger_stir_fry: PASS
+COOKING ready ginger_stir_fry: PASS
+COOKING cooking save roundtrip ginger_stir_fry: PASS
+COOKING serve and pay ginger_stir_fry: PASS
+COOKING missing ingredient atomic ginger_stir_fry: PASS
+COOKING starts with exact materials ginger_garden_rice: PASS
+COOKING only recipe materials debited ginger_garden_rice: PASS
+COOKING ready ginger_garden_rice: PASS
+COOKING cooking save roundtrip ginger_garden_rice: PASS
+COOKING serve and pay ginger_garden_rice: PASS
+COOKING missing ingredient atomic ginger_garden_rice: PASS
+COOKING starts with exact materials ginger_herb_roast: PASS
+COOKING only recipe materials debited ginger_herb_roast: PASS
+COOKING ready ginger_herb_roast: PASS
+COOKING cooking save roundtrip ginger_herb_roast: PASS
+COOKING serve and pay ginger_herb_roast: PASS
+COOKING missing ingredient atomic ginger_herb_roast: PASS
+COOKING starts with exact materials scallion_cream_soup: PASS
+COOKING only recipe materials debited scallion_cream_soup: PASS
+COOKING ready scallion_cream_soup: PASS
+COOKING cooking save roundtrip scallion_cream_soup: PASS
+COOKING serve and pay scallion_cream_soup: PASS
+COOKING missing ingredient atomic scallion_cream_soup: PASS
+COOKING starts with exact materials scallion_stir_fry: PASS
+COOKING only recipe materials debited scallion_stir_fry: PASS
+COOKING ready scallion_stir_fry: PASS
+COOKING cooking save roundtrip scallion_stir_fry: PASS
+COOKING serve and pay scallion_stir_fry: PASS
+COOKING missing ingredient atomic scallion_stir_fry: PASS
+COOKING starts with exact materials scallion_garden_rice: PASS
+COOKING only recipe materials debited scallion_garden_rice: PASS
+COOKING ready scallion_garden_rice: PASS
+COOKING cooking save roundtrip scallion_garden_rice: PASS
+COOKING serve and pay scallion_garden_rice: PASS
+COOKING missing ingredient atomic scallion_garden_rice: PASS
+COOKING starts with exact materials scallion_herb_roast: PASS
+COOKING only recipe materials debited scallion_herb_roast: PASS
+COOKING ready scallion_herb_roast: PASS
+COOKING cooking save roundtrip scallion_herb_roast: PASS
+COOKING serve and pay scallion_herb_roast: PASS
+COOKING missing ingredient atomic scallion_herb_roast: PASS
+COOKING starts with exact materials spinach_cream_soup: PASS
+COOKING only recipe materials debited spinach_cream_soup: PASS
+COOKING ready spinach_cream_soup: PASS
+COOKING cooking save roundtrip spinach_cream_soup: PASS
+COOKING serve and pay spinach_cream_soup: PASS
+COOKING missing ingredient atomic spinach_cream_soup: PASS
+COOKING starts with exact materials spinach_stir_fry: PASS
+COOKING only recipe materials debited spinach_stir_fry: PASS
+COOKING ready spinach_stir_fry: PASS
+COOKING cooking save roundtrip spinach_stir_fry: PASS
+COOKING serve and pay spinach_stir_fry: PASS
+COOKING missing ingredient atomic spinach_stir_fry: PASS
+COOKING starts with exact materials spinach_garden_rice: PASS
+COOKING only recipe materials debited spinach_garden_rice: PASS
+COOKING ready spinach_garden_rice: PASS
+COOKING cooking save roundtrip spinach_garden_rice: PASS
+COOKING serve and pay spinach_garden_rice: PASS
+COOKING missing ingredient atomic spinach_garden_rice: PASS
+COOKING starts with exact materials spinach_herb_roast: PASS
+COOKING only recipe materials debited spinach_herb_roast: PASS
+COOKING ready spinach_herb_roast: PASS
+COOKING cooking save roundtrip spinach_herb_roast: PASS
+COOKING serve and pay spinach_herb_roast: PASS
+COOKING missing ingredient atomic spinach_herb_roast: PASS
+COOKING starts with exact materials broccoli_cream_soup: PASS
+COOKING only recipe materials debited broccoli_cream_soup: PASS
+COOKING ready broccoli_cream_soup: PASS
+COOKING cooking save roundtrip broccoli_cream_soup: PASS
+COOKING serve and pay broccoli_cream_soup: PASS
+COOKING missing ingredient atomic broccoli_cream_soup: PASS
+COOKING starts with exact materials broccoli_stir_fry: PASS
+COOKING only recipe materials debited broccoli_stir_fry: PASS
+COOKING ready broccoli_stir_fry: PASS
+COOKING cooking save roundtrip broccoli_stir_fry: PASS
+COOKING serve and pay broccoli_stir_fry: PASS
+COOKING missing ingredient atomic broccoli_stir_fry: PASS
+COOKING starts with exact materials broccoli_garden_rice: PASS
+COOKING only recipe materials debited broccoli_garden_rice: PASS
+COOKING ready broccoli_garden_rice: PASS
+COOKING cooking save roundtrip broccoli_garden_rice: PASS
+COOKING serve and pay broccoli_garden_rice: PASS
+COOKING missing ingredient atomic broccoli_garden_rice: PASS
+COOKING starts with exact materials broccoli_herb_roast: PASS
+COOKING only recipe materials debited broccoli_herb_roast: PASS
+COOKING ready broccoli_herb_roast: PASS
+COOKING cooking save roundtrip broccoli_herb_roast: PASS
+COOKING serve and pay broccoli_herb_roast: PASS
+COOKING missing ingredient atomic broccoli_herb_roast: PASS
+COOKING starts with exact materials cauliflower_cream_soup: PASS
+COOKING only recipe materials debited cauliflower_cream_soup: PASS
+COOKING ready cauliflower_cream_soup: PASS
+COOKING cooking save roundtrip cauliflower_cream_soup: PASS
+COOKING serve and pay cauliflower_cream_soup: PASS
+COOKING missing ingredient atomic cauliflower_cream_soup: PASS
+COOKING starts with exact materials cauliflower_stir_fry: PASS
+COOKING only recipe materials debited cauliflower_stir_fry: PASS
+COOKING ready cauliflower_stir_fry: PASS
+COOKING cooking save roundtrip cauliflower_stir_fry: PASS
+COOKING serve and pay cauliflower_stir_fry: PASS
+COOKING missing ingredient atomic cauliflower_stir_fry: PASS
+COOKING starts with exact materials cauliflower_garden_rice: PASS
+COOKING only recipe materials debited cauliflower_garden_rice: PASS
+COOKING ready cauliflower_garden_rice: PASS
+COOKING cooking save roundtrip cauliflower_garden_rice: PASS
+COOKING serve and pay cauliflower_garden_rice: PASS
+COOKING missing ingredient atomic cauliflower_garden_rice: PASS
+COOKING starts with exact materials cauliflower_herb_roast: PASS
+COOKING only recipe materials debited cauliflower_herb_roast: PASS
+COOKING ready cauliflower_herb_roast: PASS
+COOKING cooking save roundtrip cauliflower_herb_roast: PASS
+COOKING serve and pay cauliflower_herb_roast: PASS
+COOKING missing ingredient atomic cauliflower_herb_roast: PASS
+COOKING starts with exact materials beet_cream_soup: PASS
+COOKING only recipe materials debited beet_cream_soup: PASS
+COOKING ready beet_cream_soup: PASS
+COOKING cooking save roundtrip beet_cream_soup: PASS
+COOKING serve and pay beet_cream_soup: PASS
+COOKING missing ingredient atomic beet_cream_soup: PASS
+COOKING starts with exact materials beet_stir_fry: PASS
+COOKING only recipe materials debited beet_stir_fry: PASS
+COOKING ready beet_stir_fry: PASS
+COOKING cooking save roundtrip beet_stir_fry: PASS
+COOKING serve and pay beet_stir_fry: PASS
+COOKING missing ingredient atomic beet_stir_fry: PASS
+COOKING starts with exact materials beet_garden_rice: PASS
+COOKING only recipe materials debited beet_garden_rice: PASS
+COOKING ready beet_garden_rice: PASS
+COOKING cooking save roundtrip beet_garden_rice: PASS
+COOKING serve and pay beet_garden_rice: PASS
+COOKING missing ingredient atomic beet_garden_rice: PASS
+COOKING starts with exact materials beet_herb_roast: PASS
+COOKING only recipe materials debited beet_herb_roast: PASS
+COOKING ready beet_herb_roast: PASS
+COOKING cooking save roundtrip beet_herb_roast: PASS
+COOKING serve and pay beet_herb_roast: PASS
+COOKING missing ingredient atomic beet_herb_roast: PASS
+COOKING starts with exact materials celery_cream_soup: PASS
+COOKING only recipe materials debited celery_cream_soup: PASS
+COOKING ready celery_cream_soup: PASS
+COOKING cooking save roundtrip celery_cream_soup: PASS
+COOKING serve and pay celery_cream_soup: PASS
+COOKING missing ingredient atomic celery_cream_soup: PASS
+COOKING starts with exact materials celery_stir_fry: PASS
+COOKING only recipe materials debited celery_stir_fry: PASS
+COOKING ready celery_stir_fry: PASS
+COOKING cooking save roundtrip celery_stir_fry: PASS
+COOKING serve and pay celery_stir_fry: PASS
+COOKING missing ingredient atomic celery_stir_fry: PASS
+COOKING starts with exact materials celery_garden_rice: PASS
+COOKING only recipe materials debited celery_garden_rice: PASS
+COOKING ready celery_garden_rice: PASS
+COOKING cooking save roundtrip celery_garden_rice: PASS
+COOKING serve and pay celery_garden_rice: PASS
+COOKING missing ingredient atomic celery_garden_rice: PASS
+COOKING starts with exact materials celery_herb_roast: PASS
+COOKING only recipe materials debited celery_herb_roast: PASS
+COOKING ready celery_herb_roast: PASS
+COOKING cooking save roundtrip celery_herb_roast: PASS
+COOKING serve and pay celery_herb_roast: PASS
+COOKING missing ingredient atomic celery_herb_roast: PASS
+COOKING starts with exact materials asparagus_cream_soup: PASS
+COOKING only recipe materials debited asparagus_cream_soup: PASS
+COOKING ready asparagus_cream_soup: PASS
+COOKING cooking save roundtrip asparagus_cream_soup: PASS
+COOKING serve and pay asparagus_cream_soup: PASS
+COOKING missing ingredient atomic asparagus_cream_soup: PASS
+COOKING starts with exact materials asparagus_stir_fry: PASS
+COOKING only recipe materials debited asparagus_stir_fry: PASS
+COOKING ready asparagus_stir_fry: PASS
+COOKING cooking save roundtrip asparagus_stir_fry: PASS
+COOKING serve and pay asparagus_stir_fry: PASS
+COOKING missing ingredient atomic asparagus_stir_fry: PASS
+COOKING starts with exact materials asparagus_garden_rice: PASS
+COOKING only recipe materials debited asparagus_garden_rice: PASS
+COOKING ready asparagus_garden_rice: PASS
+COOKING cooking save roundtrip asparagus_garden_rice: PASS
+COOKING serve and pay asparagus_garden_rice: PASS
+COOKING missing ingredient atomic asparagus_garden_rice: PASS
+COOKING starts with exact materials asparagus_herb_roast: PASS
+COOKING only recipe materials debited asparagus_herb_roast: PASS
+COOKING ready asparagus_herb_roast: PASS
+COOKING cooking save roundtrip asparagus_herb_roast: PASS
+COOKING serve and pay asparagus_herb_roast: PASS
+COOKING missing ingredient atomic asparagus_herb_roast: PASS
+COOKING starts with exact materials leek_cream_soup: PASS
+COOKING only recipe materials debited leek_cream_soup: PASS
+COOKING ready leek_cream_soup: PASS
+COOKING cooking save roundtrip leek_cream_soup: PASS
+COOKING serve and pay leek_cream_soup: PASS
+COOKING missing ingredient atomic leek_cream_soup: PASS
+COOKING starts with exact materials leek_stir_fry: PASS
+COOKING only recipe materials debited leek_stir_fry: PASS
+COOKING ready leek_stir_fry: PASS
+COOKING cooking save roundtrip leek_stir_fry: PASS
+COOKING serve and pay leek_stir_fry: PASS
+COOKING missing ingredient atomic leek_stir_fry: PASS
+COOKING starts with exact materials leek_garden_rice: PASS
+COOKING only recipe materials debited leek_garden_rice: PASS
+COOKING ready leek_garden_rice: PASS
+COOKING cooking save roundtrip leek_garden_rice: PASS
+COOKING serve and pay leek_garden_rice: PASS
+COOKING missing ingredient atomic leek_garden_rice: PASS
+COOKING starts with exact materials leek_herb_roast: PASS
+COOKING only recipe materials debited leek_herb_roast: PASS
+COOKING ready leek_herb_roast: PASS
+COOKING cooking save roundtrip leek_herb_roast: PASS
+COOKING serve and pay leek_herb_roast: PASS
+COOKING missing ingredient atomic leek_herb_roast: PASS
+COOKING starts with exact materials zucchini_cream_soup: PASS
+COOKING only recipe materials debited zucchini_cream_soup: PASS
+COOKING ready zucchini_cream_soup: PASS
+COOKING cooking save roundtrip zucchini_cream_soup: PASS
+COOKING serve and pay zucchini_cream_soup: PASS
+COOKING missing ingredient atomic zucchini_cream_soup: PASS
+COOKING starts with exact materials zucchini_stir_fry: PASS
+COOKING only recipe materials debited zucchini_stir_fry: PASS
+COOKING ready zucchini_stir_fry: PASS
+COOKING cooking save roundtrip zucchini_stir_fry: PASS
+COOKING serve and pay zucchini_stir_fry: PASS
+COOKING missing ingredient atomic zucchini_stir_fry: PASS
+COOKING starts with exact materials zucchini_garden_rice: PASS
+COOKING only recipe materials debited zucchini_garden_rice: PASS
+COOKING ready zucchini_garden_rice: PASS
+COOKING cooking save roundtrip zucchini_garden_rice: PASS
+COOKING serve and pay zucchini_garden_rice: PASS
+COOKING missing ingredient atomic zucchini_garden_rice: PASS
+COOKING starts with exact materials zucchini_herb_roast: PASS
+COOKING only recipe materials debited zucchini_herb_roast: PASS
+COOKING ready zucchini_herb_roast: PASS
+COOKING cooking save roundtrip zucchini_herb_roast: PASS
+COOKING serve and pay zucchini_herb_roast: PASS
+COOKING missing ingredient atomic zucchini_herb_roast: PASS
+COOKING starts with exact materials bell_pepper_cream_soup: PASS
+COOKING only recipe materials debited bell_pepper_cream_soup: PASS
+COOKING ready bell_pepper_cream_soup: PASS
+COOKING cooking save roundtrip bell_pepper_cream_soup: PASS
+COOKING serve and pay bell_pepper_cream_soup: PASS
+COOKING missing ingredient atomic bell_pepper_cream_soup: PASS
+COOKING starts with exact materials bell_pepper_stir_fry: PASS
+COOKING only recipe materials debited bell_pepper_stir_fry: PASS
+COOKING ready bell_pepper_stir_fry: PASS
+COOKING cooking save roundtrip bell_pepper_stir_fry: PASS
+COOKING serve and pay bell_pepper_stir_fry: PASS
+COOKING missing ingredient atomic bell_pepper_stir_fry: PASS
+COOKING starts with exact materials bell_pepper_garden_rice: PASS
+COOKING only recipe materials debited bell_pepper_garden_rice: PASS
+COOKING ready bell_pepper_garden_rice: PASS
+COOKING cooking save roundtrip bell_pepper_garden_rice: PASS
+COOKING serve and pay bell_pepper_garden_rice: PASS
+COOKING missing ingredient atomic bell_pepper_garden_rice: PASS
+COOKING starts with exact materials bell_pepper_herb_roast: PASS
+COOKING only recipe materials debited bell_pepper_herb_roast: PASS
+COOKING ready bell_pepper_herb_roast: PASS
+COOKING cooking save roundtrip bell_pepper_herb_roast: PASS
+COOKING serve and pay bell_pepper_herb_roast: PASS
+COOKING missing ingredient atomic bell_pepper_herb_roast: PASS
+COOKING starts with exact materials cabbage_cream_soup: PASS
+COOKING only recipe materials debited cabbage_cream_soup: PASS
+COOKING ready cabbage_cream_soup: PASS
+COOKING cooking save roundtrip cabbage_cream_soup: PASS
+COOKING serve and pay cabbage_cream_soup: PASS
+COOKING missing ingredient atomic cabbage_cream_soup: PASS
+COOKING starts with exact materials cabbage_stir_fry: PASS
+COOKING only recipe materials debited cabbage_stir_fry: PASS
+COOKING ready cabbage_stir_fry: PASS
+COOKING cooking save roundtrip cabbage_stir_fry: PASS
+COOKING serve and pay cabbage_stir_fry: PASS
+COOKING missing ingredient atomic cabbage_stir_fry: PASS
+COOKING starts with exact materials cabbage_garden_rice: PASS
+COOKING only recipe materials debited cabbage_garden_rice: PASS
+COOKING ready cabbage_garden_rice: PASS
+COOKING cooking save roundtrip cabbage_garden_rice: PASS
+COOKING serve and pay cabbage_garden_rice: PASS
+COOKING missing ingredient atomic cabbage_garden_rice: PASS
+COOKING starts with exact materials cabbage_herb_roast: PASS
+COOKING only recipe materials debited cabbage_herb_roast: PASS
+COOKING ready cabbage_herb_roast: PASS
+COOKING cooking save roundtrip cabbage_herb_roast: PASS
+COOKING serve and pay cabbage_herb_roast: PASS
+COOKING missing ingredient atomic cabbage_herb_roast: PASS
+COOKING starts with exact materials shiitake_cream_soup: PASS
+COOKING only recipe materials debited shiitake_cream_soup: PASS
+COOKING ready shiitake_cream_soup: PASS
+COOKING cooking save roundtrip shiitake_cream_soup: PASS
+COOKING serve and pay shiitake_cream_soup: PASS
+COOKING missing ingredient atomic shiitake_cream_soup: PASS
+COOKING starts with exact materials shiitake_stir_fry: PASS
+COOKING only recipe materials debited shiitake_stir_fry: PASS
+COOKING ready shiitake_stir_fry: PASS
+COOKING cooking save roundtrip shiitake_stir_fry: PASS
+COOKING serve and pay shiitake_stir_fry: PASS
+COOKING missing ingredient atomic shiitake_stir_fry: PASS
+COOKING starts with exact materials shiitake_garden_rice: PASS
+COOKING only recipe materials debited shiitake_garden_rice: PASS
+COOKING ready shiitake_garden_rice: PASS
+COOKING cooking save roundtrip shiitake_garden_rice: PASS
+COOKING serve and pay shiitake_garden_rice: PASS
+COOKING missing ingredient atomic shiitake_garden_rice: PASS
+COOKING starts with exact materials shiitake_herb_roast: PASS
+COOKING only recipe materials debited shiitake_herb_roast: PASS
+COOKING ready shiitake_herb_roast: PASS
+COOKING cooking save roundtrip shiitake_herb_roast: PASS
+COOKING serve and pay shiitake_herb_roast: PASS
+COOKING missing ingredient atomic shiitake_herb_roast: PASS
+COOKING starts with exact materials enoki_cream_soup: PASS
+COOKING only recipe materials debited enoki_cream_soup: PASS
+COOKING ready enoki_cream_soup: PASS
+COOKING cooking save roundtrip enoki_cream_soup: PASS
+COOKING serve and pay enoki_cream_soup: PASS
+COOKING missing ingredient atomic enoki_cream_soup: PASS
+COOKING starts with exact materials enoki_stir_fry: PASS
+COOKING only recipe materials debited enoki_stir_fry: PASS
+COOKING ready enoki_stir_fry: PASS
+COOKING cooking save roundtrip enoki_stir_fry: PASS
+COOKING serve and pay enoki_stir_fry: PASS
+COOKING missing ingredient atomic enoki_stir_fry: PASS
+COOKING starts with exact materials enoki_garden_rice: PASS
+COOKING only recipe materials debited enoki_garden_rice: PASS
+COOKING ready enoki_garden_rice: PASS
+COOKING cooking save roundtrip enoki_garden_rice: PASS
+COOKING serve and pay enoki_garden_rice: PASS
+COOKING missing ingredient atomic enoki_garden_rice: PASS
+COOKING starts with exact materials enoki_herb_roast: PASS
+COOKING only recipe materials debited enoki_herb_roast: PASS
+COOKING ready enoki_herb_roast: PASS
+COOKING cooking save roundtrip enoki_herb_roast: PASS
+COOKING serve and pay enoki_herb_roast: PASS
+COOKING missing ingredient atomic enoki_herb_roast: PASS
+COOKING starts with exact materials taro_cream_soup: PASS
+COOKING only recipe materials debited taro_cream_soup: PASS
+COOKING ready taro_cream_soup: PASS
+COOKING cooking save roundtrip taro_cream_soup: PASS
+COOKING serve and pay taro_cream_soup: PASS
+COOKING missing ingredient atomic taro_cream_soup: PASS
+COOKING starts with exact materials taro_stir_fry: PASS
+COOKING only recipe materials debited taro_stir_fry: PASS
+COOKING ready taro_stir_fry: PASS
+COOKING cooking save roundtrip taro_stir_fry: PASS
+COOKING serve and pay taro_stir_fry: PASS
+COOKING missing ingredient atomic taro_stir_fry: PASS
+COOKING starts with exact materials taro_garden_rice: PASS
+COOKING only recipe materials debited taro_garden_rice: PASS
+COOKING ready taro_garden_rice: PASS
+COOKING cooking save roundtrip taro_garden_rice: PASS
+COOKING serve and pay taro_garden_rice: PASS
+COOKING missing ingredient atomic taro_garden_rice: PASS
+COOKING starts with exact materials taro_herb_roast: PASS
+COOKING only recipe materials debited taro_herb_roast: PASS
+COOKING ready taro_herb_roast: PASS
+COOKING cooking save roundtrip taro_herb_roast: PASS
+COOKING serve and pay taro_herb_roast: PASS
+COOKING missing ingredient atomic taro_herb_roast: PASS
+COOKING starts with exact materials chicken_braised_rice: PASS
+COOKING only recipe materials debited chicken_braised_rice: PASS
+COOKING ready chicken_braised_rice: PASS
+COOKING cooking save roundtrip chicken_braised_rice: PASS
+COOKING serve and pay chicken_braised_rice: PASS
+COOKING missing ingredient atomic chicken_braised_rice: PASS
+COOKING starts with exact materials chicken_ginger_broth: PASS
+COOKING only recipe materials debited chicken_ginger_broth: PASS
+COOKING ready chicken_ginger_broth: PASS
+COOKING cooking save roundtrip chicken_ginger_broth: PASS
+COOKING serve and pay chicken_ginger_broth: PASS
+COOKING missing ingredient atomic chicken_ginger_broth: PASS
+COOKING starts with exact materials chicken_garlic_pan: PASS
+COOKING only recipe materials debited chicken_garlic_pan: PASS
+COOKING ready chicken_garlic_pan: PASS
+COOKING cooking save roundtrip chicken_garlic_pan: PASS
+COOKING serve and pay chicken_garlic_pan: PASS
+COOKING missing ingredient atomic chicken_garlic_pan: PASS
+COOKING starts with exact materials chicken_pepper_fritter: PASS
+COOKING only recipe materials debited chicken_pepper_fritter: PASS
+COOKING ready chicken_pepper_fritter: PASS
+COOKING cooking save roundtrip chicken_pepper_fritter: PASS
+COOKING serve and pay chicken_pepper_fritter: PASS
+COOKING missing ingredient atomic chicken_pepper_fritter: PASS
+COOKING starts with exact materials beef_braised_rice: PASS
+COOKING only recipe materials debited beef_braised_rice: PASS
+COOKING ready beef_braised_rice: PASS
+COOKING cooking save roundtrip beef_braised_rice: PASS
+COOKING serve and pay beef_braised_rice: PASS
+COOKING missing ingredient atomic beef_braised_rice: PASS
+COOKING starts with exact materials beef_ginger_broth: PASS
+COOKING only recipe materials debited beef_ginger_broth: PASS
+COOKING ready beef_ginger_broth: PASS
+COOKING cooking save roundtrip beef_ginger_broth: PASS
+COOKING serve and pay beef_ginger_broth: PASS
+COOKING missing ingredient atomic beef_ginger_broth: PASS
+COOKING starts with exact materials beef_garlic_pan: PASS
+COOKING only recipe materials debited beef_garlic_pan: PASS
+COOKING ready beef_garlic_pan: PASS
+COOKING cooking save roundtrip beef_garlic_pan: PASS
+COOKING serve and pay beef_garlic_pan: PASS
+COOKING missing ingredient atomic beef_garlic_pan: PASS
+COOKING starts with exact materials beef_pepper_fritter: PASS
+COOKING only recipe materials debited beef_pepper_fritter: PASS
+COOKING ready beef_pepper_fritter: PASS
+COOKING cooking save roundtrip beef_pepper_fritter: PASS
+COOKING serve and pay beef_pepper_fritter: PASS
+COOKING missing ingredient atomic beef_pepper_fritter: PASS
+COOKING starts with exact materials pork_braised_rice: PASS
+COOKING only recipe materials debited pork_braised_rice: PASS
+COOKING ready pork_braised_rice: PASS
+COOKING cooking save roundtrip pork_braised_rice: PASS
+COOKING serve and pay pork_braised_rice: PASS
+COOKING missing ingredient atomic pork_braised_rice: PASS
+COOKING starts with exact materials pork_ginger_broth: PASS
+COOKING only recipe materials debited pork_ginger_broth: PASS
+COOKING ready pork_ginger_broth: PASS
+COOKING cooking save roundtrip pork_ginger_broth: PASS
+COOKING serve and pay pork_ginger_broth: PASS
+COOKING missing ingredient atomic pork_ginger_broth: PASS
+COOKING starts with exact materials pork_garlic_pan: PASS
+COOKING only recipe materials debited pork_garlic_pan: PASS
+COOKING ready pork_garlic_pan: PASS
+COOKING cooking save roundtrip pork_garlic_pan: PASS
+COOKING serve and pay pork_garlic_pan: PASS
+COOKING missing ingredient atomic pork_garlic_pan: PASS
+COOKING starts with exact materials pork_pepper_fritter: PASS
+COOKING only recipe materials debited pork_pepper_fritter: PASS
+COOKING ready pork_pepper_fritter: PASS
+COOKING cooking save roundtrip pork_pepper_fritter: PASS
+COOKING serve and pay pork_pepper_fritter: PASS
+COOKING missing ingredient atomic pork_pepper_fritter: PASS
+COOKING starts with exact materials duck_braised_rice: PASS
+COOKING only recipe materials debited duck_braised_rice: PASS
+COOKING ready duck_braised_rice: PASS
+COOKING cooking save roundtrip duck_braised_rice: PASS
+COOKING serve and pay duck_braised_rice: PASS
+COOKING missing ingredient atomic duck_braised_rice: PASS
+COOKING starts with exact materials duck_ginger_broth: PASS
+COOKING only recipe materials debited duck_ginger_broth: PASS
+COOKING ready duck_ginger_broth: PASS
+COOKING cooking save roundtrip duck_ginger_broth: PASS
+COOKING serve and pay duck_ginger_broth: PASS
+COOKING missing ingredient atomic duck_ginger_broth: PASS
+COOKING starts with exact materials duck_garlic_pan: PASS
+COOKING only recipe materials debited duck_garlic_pan: PASS
+COOKING ready duck_garlic_pan: PASS
+COOKING cooking save roundtrip duck_garlic_pan: PASS
+COOKING serve and pay duck_garlic_pan: PASS
+COOKING missing ingredient atomic duck_garlic_pan: PASS
+COOKING starts with exact materials duck_pepper_fritter: PASS
+COOKING only recipe materials debited duck_pepper_fritter: PASS
+COOKING ready duck_pepper_fritter: PASS
+COOKING cooking save roundtrip duck_pepper_fritter: PASS
+COOKING serve and pay duck_pepper_fritter: PASS
+COOKING missing ingredient atomic duck_pepper_fritter: PASS
+COOKING starts with exact materials lamb_braised_rice: PASS
+COOKING only recipe materials debited lamb_braised_rice: PASS
+COOKING ready lamb_braised_rice: PASS
+COOKING cooking save roundtrip lamb_braised_rice: PASS
+COOKING serve and pay lamb_braised_rice: PASS
+COOKING missing ingredient atomic lamb_braised_rice: PASS
+COOKING starts with exact materials lamb_ginger_broth: PASS
+COOKING only recipe materials debited lamb_ginger_broth: PASS
+COOKING ready lamb_ginger_broth: PASS
+COOKING cooking save roundtrip lamb_ginger_broth: PASS
+COOKING serve and pay lamb_ginger_broth: PASS
+COOKING missing ingredient atomic lamb_ginger_broth: PASS
+COOKING starts with exact materials lamb_garlic_pan: PASS
+COOKING only recipe materials debited lamb_garlic_pan: PASS
+COOKING ready lamb_garlic_pan: PASS
+COOKING cooking save roundtrip lamb_garlic_pan: PASS
+COOKING serve and pay lamb_garlic_pan: PASS
+COOKING missing ingredient atomic lamb_garlic_pan: PASS
+COOKING starts with exact materials lamb_pepper_fritter: PASS
+COOKING only recipe materials debited lamb_pepper_fritter: PASS
+COOKING ready lamb_pepper_fritter: PASS
+COOKING cooking save roundtrip lamb_pepper_fritter: PASS
+COOKING serve and pay lamb_pepper_fritter: PASS
+COOKING missing ingredient atomic lamb_pepper_fritter: PASS
+COOKING starts with exact materials bacon_braised_rice: PASS
+COOKING only recipe materials debited bacon_braised_rice: PASS
+COOKING ready bacon_braised_rice: PASS
+COOKING cooking save roundtrip bacon_braised_rice: PASS
+COOKING serve and pay bacon_braised_rice: PASS
+COOKING missing ingredient atomic bacon_braised_rice: PASS
+COOKING starts with exact materials bacon_ginger_broth: PASS
+COOKING only recipe materials debited bacon_ginger_broth: PASS
+COOKING ready bacon_ginger_broth: PASS
+COOKING cooking save roundtrip bacon_ginger_broth: PASS
+COOKING serve and pay bacon_ginger_broth: PASS
+COOKING missing ingredient atomic bacon_ginger_broth: PASS
+COOKING starts with exact materials bacon_garlic_pan: PASS
+COOKING only recipe materials debited bacon_garlic_pan: PASS
+COOKING ready bacon_garlic_pan: PASS
+COOKING cooking save roundtrip bacon_garlic_pan: PASS
+COOKING serve and pay bacon_garlic_pan: PASS
+COOKING missing ingredient atomic bacon_garlic_pan: PASS
+COOKING starts with exact materials bacon_pepper_fritter: PASS
+COOKING only recipe materials debited bacon_pepper_fritter: PASS
+COOKING ready bacon_pepper_fritter: PASS
+COOKING cooking save roundtrip bacon_pepper_fritter: PASS
+COOKING serve and pay bacon_pepper_fritter: PASS
+COOKING missing ingredient atomic bacon_pepper_fritter: PASS
+COOKING starts with exact materials ham_braised_rice: PASS
+COOKING only recipe materials debited ham_braised_rice: PASS
+COOKING ready ham_braised_rice: PASS
+COOKING cooking save roundtrip ham_braised_rice: PASS
+COOKING serve and pay ham_braised_rice: PASS
+COOKING missing ingredient atomic ham_braised_rice: PASS
+COOKING starts with exact materials ham_ginger_broth: PASS
+COOKING only recipe materials debited ham_ginger_broth: PASS
+COOKING ready ham_ginger_broth: PASS
+COOKING cooking save roundtrip ham_ginger_broth: PASS
+COOKING serve and pay ham_ginger_broth: PASS
+COOKING missing ingredient atomic ham_ginger_broth: PASS
+COOKING starts with exact materials ham_garlic_pan: PASS
+COOKING only recipe materials debited ham_garlic_pan: PASS
+COOKING ready ham_garlic_pan: PASS
+COOKING cooking save roundtrip ham_garlic_pan: PASS
+COOKING serve and pay ham_garlic_pan: PASS
+COOKING missing ingredient atomic ham_garlic_pan: PASS
+COOKING starts with exact materials ham_pepper_fritter: PASS
+COOKING only recipe materials debited ham_pepper_fritter: PASS
+COOKING ready ham_pepper_fritter: PASS
+COOKING cooking save roundtrip ham_pepper_fritter: PASS
+COOKING serve and pay ham_pepper_fritter: PASS
+COOKING missing ingredient atomic ham_pepper_fritter: PASS
+COOKING starts with exact materials sausage_braised_rice: PASS
+COOKING only recipe materials debited sausage_braised_rice: PASS
+COOKING ready sausage_braised_rice: PASS
+COOKING cooking save roundtrip sausage_braised_rice: PASS
+COOKING serve and pay sausage_braised_rice: PASS
+COOKING missing ingredient atomic sausage_braised_rice: PASS
+COOKING starts with exact materials sausage_ginger_broth: PASS
+COOKING only recipe materials debited sausage_ginger_broth: PASS
+COOKING ready sausage_ginger_broth: PASS
+COOKING cooking save roundtrip sausage_ginger_broth: PASS
+COOKING serve and pay sausage_ginger_broth: PASS
+COOKING missing ingredient atomic sausage_ginger_broth: PASS
+COOKING starts with exact materials sausage_garlic_pan: PASS
+COOKING only recipe materials debited sausage_garlic_pan: PASS
+COOKING ready sausage_garlic_pan: PASS
+COOKING cooking save roundtrip sausage_garlic_pan: PASS
+COOKING serve and pay sausage_garlic_pan: PASS
+COOKING missing ingredient atomic sausage_garlic_pan: PASS
+COOKING starts with exact materials sausage_pepper_fritter: PASS
+COOKING only recipe materials debited sausage_pepper_fritter: PASS
+COOKING ready sausage_pepper_fritter: PASS
+COOKING cooking save roundtrip sausage_pepper_fritter: PASS
+COOKING serve and pay sausage_pepper_fritter: PASS
+COOKING missing ingredient atomic sausage_pepper_fritter: PASS
+COOKING starts with exact materials tofu_braised_rice: PASS
+COOKING only recipe materials debited tofu_braised_rice: PASS
+COOKING ready tofu_braised_rice: PASS
+COOKING cooking save roundtrip tofu_braised_rice: PASS
+COOKING serve and pay tofu_braised_rice: PASS
+COOKING missing ingredient atomic tofu_braised_rice: PASS
+COOKING starts with exact materials tofu_ginger_broth: PASS
+COOKING only recipe materials debited tofu_ginger_broth: PASS
+COOKING ready tofu_ginger_broth: PASS
+COOKING cooking save roundtrip tofu_ginger_broth: PASS
+COOKING serve and pay tofu_ginger_broth: PASS
+COOKING missing ingredient atomic tofu_ginger_broth: PASS
+COOKING starts with exact materials tofu_garlic_pan: PASS
+COOKING only recipe materials debited tofu_garlic_pan: PASS
+COOKING ready tofu_garlic_pan: PASS
+COOKING cooking save roundtrip tofu_garlic_pan: PASS
+COOKING serve and pay tofu_garlic_pan: PASS
+COOKING missing ingredient atomic tofu_garlic_pan: PASS
+COOKING starts with exact materials tofu_pepper_fritter: PASS
+COOKING only recipe materials debited tofu_pepper_fritter: PASS
+COOKING ready tofu_pepper_fritter: PASS
+COOKING cooking save roundtrip tofu_pepper_fritter: PASS
+COOKING serve and pay tofu_pepper_fritter: PASS
+COOKING missing ingredient atomic tofu_pepper_fritter: PASS
+COOKING starts with exact materials salmon_braised_rice: PASS
+COOKING only recipe materials debited salmon_braised_rice: PASS
+COOKING ready salmon_braised_rice: PASS
+COOKING cooking save roundtrip salmon_braised_rice: PASS
+COOKING serve and pay salmon_braised_rice: PASS
+COOKING missing ingredient atomic salmon_braised_rice: PASS
+COOKING starts with exact materials salmon_ginger_broth: PASS
+COOKING only recipe materials debited salmon_ginger_broth: PASS
+COOKING ready salmon_ginger_broth: PASS
+COOKING cooking save roundtrip salmon_ginger_broth: PASS
+COOKING serve and pay salmon_ginger_broth: PASS
+COOKING missing ingredient atomic salmon_ginger_broth: PASS
+COOKING starts with exact materials salmon_garlic_pan: PASS
+COOKING only recipe materials debited salmon_garlic_pan: PASS
+COOKING ready salmon_garlic_pan: PASS
+COOKING cooking save roundtrip salmon_garlic_pan: PASS
+COOKING serve and pay salmon_garlic_pan: PASS
+COOKING missing ingredient atomic salmon_garlic_pan: PASS
+COOKING starts with exact materials salmon_pepper_fritter: PASS
+COOKING only recipe materials debited salmon_pepper_fritter: PASS
+COOKING ready salmon_pepper_fritter: PASS
+COOKING cooking save roundtrip salmon_pepper_fritter: PASS
+COOKING serve and pay salmon_pepper_fritter: PASS
+COOKING missing ingredient atomic salmon_pepper_fritter: PASS
+COOKING starts with exact materials tuna_braised_rice: PASS
+COOKING only recipe materials debited tuna_braised_rice: PASS
+COOKING ready tuna_braised_rice: PASS
+COOKING cooking save roundtrip tuna_braised_rice: PASS
+COOKING serve and pay tuna_braised_rice: PASS
+COOKING missing ingredient atomic tuna_braised_rice: PASS
+COOKING starts with exact materials tuna_ginger_broth: PASS
+COOKING only recipe materials debited tuna_ginger_broth: PASS
+COOKING ready tuna_ginger_broth: PASS
+COOKING cooking save roundtrip tuna_ginger_broth: PASS
+COOKING serve and pay tuna_ginger_broth: PASS
+COOKING missing ingredient atomic tuna_ginger_broth: PASS
+COOKING starts with exact materials tuna_garlic_pan: PASS
+COOKING only recipe materials debited tuna_garlic_pan: PASS
+COOKING ready tuna_garlic_pan: PASS
+COOKING cooking save roundtrip tuna_garlic_pan: PASS
+COOKING serve and pay tuna_garlic_pan: PASS
+COOKING missing ingredient atomic tuna_garlic_pan: PASS
+COOKING starts with exact materials tuna_pepper_fritter: PASS
+COOKING only recipe materials debited tuna_pepper_fritter: PASS
+COOKING ready tuna_pepper_fritter: PASS
+COOKING cooking save roundtrip tuna_pepper_fritter: PASS
+COOKING serve and pay tuna_pepper_fritter: PASS
+COOKING missing ingredient atomic tuna_pepper_fritter: PASS
+COOKING starts with exact materials crab_braised_rice: PASS
+COOKING only recipe materials debited crab_braised_rice: PASS
+COOKING ready crab_braised_rice: PASS
+COOKING cooking save roundtrip crab_braised_rice: PASS
+COOKING serve and pay crab_braised_rice: PASS
+COOKING missing ingredient atomic crab_braised_rice: PASS
+COOKING starts with exact materials crab_ginger_broth: PASS
+COOKING only recipe materials debited crab_ginger_broth: PASS
+COOKING ready crab_ginger_broth: PASS
+COOKING cooking save roundtrip crab_ginger_broth: PASS
+COOKING serve and pay crab_ginger_broth: PASS
+COOKING missing ingredient atomic crab_ginger_broth: PASS
+COOKING starts with exact materials crab_garlic_pan: PASS
+COOKING only recipe materials debited crab_garlic_pan: PASS
+COOKING ready crab_garlic_pan: PASS
+COOKING cooking save roundtrip crab_garlic_pan: PASS
+COOKING serve and pay crab_garlic_pan: PASS
+COOKING missing ingredient atomic crab_garlic_pan: PASS
+COOKING starts with exact materials crab_pepper_fritter: PASS
+COOKING only recipe materials debited crab_pepper_fritter: PASS
+COOKING ready crab_pepper_fritter: PASS
+COOKING cooking save roundtrip crab_pepper_fritter: PASS
+COOKING serve and pay crab_pepper_fritter: PASS
+COOKING missing ingredient atomic crab_pepper_fritter: PASS
+COOKING starts with exact materials clam_braised_rice: PASS
+COOKING only recipe materials debited clam_braised_rice: PASS
+COOKING ready clam_braised_rice: PASS
+COOKING cooking save roundtrip clam_braised_rice: PASS
+COOKING serve and pay clam_braised_rice: PASS
+COOKING missing ingredient atomic clam_braised_rice: PASS
+COOKING starts with exact materials clam_ginger_broth: PASS
+COOKING only recipe materials debited clam_ginger_broth: PASS
+COOKING ready clam_ginger_broth: PASS
+COOKING cooking save roundtrip clam_ginger_broth: PASS
+COOKING serve and pay clam_ginger_broth: PASS
+COOKING missing ingredient atomic clam_ginger_broth: PASS
+COOKING starts with exact materials clam_garlic_pan: PASS
+COOKING only recipe materials debited clam_garlic_pan: PASS
+COOKING ready clam_garlic_pan: PASS
+COOKING cooking save roundtrip clam_garlic_pan: PASS
+COOKING serve and pay clam_garlic_pan: PASS
+COOKING missing ingredient atomic clam_garlic_pan: PASS
+COOKING starts with exact materials clam_pepper_fritter: PASS
+COOKING only recipe materials debited clam_pepper_fritter: PASS
+COOKING ready clam_pepper_fritter: PASS
+COOKING cooking save roundtrip clam_pepper_fritter: PASS
+COOKING serve and pay clam_pepper_fritter: PASS
+COOKING missing ingredient atomic clam_pepper_fritter: PASS
+COOKING starts with exact materials scallop_braised_rice: PASS
+COOKING only recipe materials debited scallop_braised_rice: PASS
+COOKING ready scallop_braised_rice: PASS
+COOKING cooking save roundtrip scallop_braised_rice: PASS
+COOKING serve and pay scallop_braised_rice: PASS
+COOKING missing ingredient atomic scallop_braised_rice: PASS
+COOKING starts with exact materials scallop_ginger_broth: PASS
+COOKING only recipe materials debited scallop_ginger_broth: PASS
+COOKING ready scallop_ginger_broth: PASS
+COOKING cooking save roundtrip scallop_ginger_broth: PASS
+COOKING serve and pay scallop_ginger_broth: PASS
+COOKING missing ingredient atomic scallop_ginger_broth: PASS
+COOKING starts with exact materials scallop_garlic_pan: PASS
+COOKING only recipe materials debited scallop_garlic_pan: PASS
+COOKING ready scallop_garlic_pan: PASS
+COOKING cooking save roundtrip scallop_garlic_pan: PASS
+COOKING serve and pay scallop_garlic_pan: PASS
+COOKING missing ingredient atomic scallop_garlic_pan: PASS
+COOKING starts with exact materials scallop_pepper_fritter: PASS
+COOKING only recipe materials debited scallop_pepper_fritter: PASS
+COOKING ready scallop_pepper_fritter: PASS
+COOKING cooking save roundtrip scallop_pepper_fritter: PASS
+COOKING serve and pay scallop_pepper_fritter: PASS
+COOKING missing ingredient atomic scallop_pepper_fritter: PASS
+COOKING starts with exact materials barley_porridge: PASS
+COOKING only recipe materials debited barley_porridge: PASS
+COOKING ready barley_porridge: PASS
+COOKING cooking save roundtrip barley_porridge: PASS
+COOKING serve and pay barley_porridge: PASS
+COOKING missing ingredient atomic barley_porridge: PASS
+COOKING starts with exact materials barley_pumpkin_rice: PASS
+COOKING only recipe materials debited barley_pumpkin_rice: PASS
+COOKING ready barley_pumpkin_rice: PASS
+COOKING cooking save roundtrip barley_pumpkin_rice: PASS
+COOKING serve and pay barley_pumpkin_rice: PASS
+COOKING missing ingredient atomic barley_pumpkin_rice: PASS
+COOKING starts with exact materials barley_sesame_cake: PASS
+COOKING only recipe materials debited barley_sesame_cake: PASS
+COOKING ready barley_sesame_cake: PASS
+COOKING cooking save roundtrip barley_sesame_cake: PASS
+COOKING serve and pay barley_sesame_cake: PASS
+COOKING missing ingredient atomic barley_sesame_cake: PASS
+COOKING starts with exact materials barley_honey_bun: PASS
+COOKING only recipe materials debited barley_honey_bun: PASS
+COOKING ready barley_honey_bun: PASS
+COOKING cooking save roundtrip barley_honey_bun: PASS
+COOKING serve and pay barley_honey_bun: PASS
+COOKING missing ingredient atomic barley_honey_bun: PASS
+COOKING starts with exact materials oat_porridge: PASS
+COOKING only recipe materials debited oat_porridge: PASS
+COOKING ready oat_porridge: PASS
+COOKING cooking save roundtrip oat_porridge: PASS
+COOKING serve and pay oat_porridge: PASS
+COOKING missing ingredient atomic oat_porridge: PASS
+COOKING starts with exact materials oat_pumpkin_rice: PASS
+COOKING only recipe materials debited oat_pumpkin_rice: PASS
+COOKING ready oat_pumpkin_rice: PASS
+COOKING cooking save roundtrip oat_pumpkin_rice: PASS
+COOKING serve and pay oat_pumpkin_rice: PASS
+COOKING missing ingredient atomic oat_pumpkin_rice: PASS
+COOKING starts with exact materials oat_sesame_cake: PASS
+COOKING only recipe materials debited oat_sesame_cake: PASS
+COOKING ready oat_sesame_cake: PASS
+COOKING cooking save roundtrip oat_sesame_cake: PASS
+COOKING serve and pay oat_sesame_cake: PASS
+COOKING missing ingredient atomic oat_sesame_cake: PASS
+COOKING starts with exact materials oat_honey_bun: PASS
+COOKING only recipe materials debited oat_honey_bun: PASS
+COOKING ready oat_honey_bun: PASS
+COOKING cooking save roundtrip oat_honey_bun: PASS
+COOKING serve and pay oat_honey_bun: PASS
+COOKING missing ingredient atomic oat_honey_bun: PASS
+COOKING starts with exact materials buckwheat_porridge: PASS
+COOKING only recipe materials debited buckwheat_porridge: PASS
+COOKING ready buckwheat_porridge: PASS
+COOKING cooking save roundtrip buckwheat_porridge: PASS
+COOKING serve and pay buckwheat_porridge: PASS
+COOKING missing ingredient atomic buckwheat_porridge: PASS
+COOKING starts with exact materials buckwheat_pumpkin_rice: PASS
+COOKING only recipe materials debited buckwheat_pumpkin_rice: PASS
+COOKING ready buckwheat_pumpkin_rice: PASS
+COOKING cooking save roundtrip buckwheat_pumpkin_rice: PASS
+COOKING serve and pay buckwheat_pumpkin_rice: PASS
+COOKING missing ingredient atomic buckwheat_pumpkin_rice: PASS
+COOKING starts with exact materials buckwheat_sesame_cake: PASS
+COOKING only recipe materials debited buckwheat_sesame_cake: PASS
+COOKING ready buckwheat_sesame_cake: PASS
+COOKING cooking save roundtrip buckwheat_sesame_cake: PASS
+COOKING serve and pay buckwheat_sesame_cake: PASS
+COOKING missing ingredient atomic buckwheat_sesame_cake: PASS
+COOKING starts with exact materials buckwheat_honey_bun: PASS
+COOKING only recipe materials debited buckwheat_honey_bun: PASS
+COOKING ready buckwheat_honey_bun: PASS
+COOKING cooking save roundtrip buckwheat_honey_bun: PASS
+COOKING serve and pay buckwheat_honey_bun: PASS
+COOKING missing ingredient atomic buckwheat_honey_bun: PASS
+COOKING starts with exact materials millet_porridge: PASS
+COOKING only recipe materials debited millet_porridge: PASS
+COOKING ready millet_porridge: PASS
+COOKING cooking save roundtrip millet_porridge: PASS
+COOKING serve and pay millet_porridge: PASS
+COOKING missing ingredient atomic millet_porridge: PASS
+COOKING starts with exact materials millet_pumpkin_rice: PASS
+COOKING only recipe materials debited millet_pumpkin_rice: PASS
+COOKING ready millet_pumpkin_rice: PASS
+COOKING cooking save roundtrip millet_pumpkin_rice: PASS
+COOKING serve and pay millet_pumpkin_rice: PASS
+COOKING missing ingredient atomic millet_pumpkin_rice: PASS
+COOKING starts with exact materials millet_sesame_cake: PASS
+COOKING only recipe materials debited millet_sesame_cake: PASS
+COOKING ready millet_sesame_cake: PASS
+COOKING cooking save roundtrip millet_sesame_cake: PASS
+COOKING serve and pay millet_sesame_cake: PASS
+COOKING missing ingredient atomic millet_sesame_cake: PASS
+COOKING starts with exact materials millet_honey_bun: PASS
+COOKING only recipe materials debited millet_honey_bun: PASS
+COOKING ready millet_honey_bun: PASS
+COOKING cooking save roundtrip millet_honey_bun: PASS
+COOKING serve and pay millet_honey_bun: PASS
+COOKING missing ingredient atomic millet_honey_bun: PASS
+COOKING starts with exact materials soybean_porridge: PASS
+COOKING only recipe materials debited soybean_porridge: PASS
+COOKING ready soybean_porridge: PASS
+COOKING cooking save roundtrip soybean_porridge: PASS
+COOKING serve and pay soybean_porridge: PASS
+COOKING missing ingredient atomic soybean_porridge: PASS
+COOKING starts with exact materials soybean_pumpkin_rice: PASS
+COOKING only recipe materials debited soybean_pumpkin_rice: PASS
+COOKING ready soybean_pumpkin_rice: PASS
+COOKING cooking save roundtrip soybean_pumpkin_rice: PASS
+COOKING serve and pay soybean_pumpkin_rice: PASS
+COOKING missing ingredient atomic soybean_pumpkin_rice: PASS
+COOKING starts with exact materials soybean_sesame_cake: PASS
+COOKING only recipe materials debited soybean_sesame_cake: PASS
+COOKING ready soybean_sesame_cake: PASS
+COOKING cooking save roundtrip soybean_sesame_cake: PASS
+COOKING serve and pay soybean_sesame_cake: PASS
+COOKING missing ingredient atomic soybean_sesame_cake: PASS
+COOKING starts with exact materials soybean_honey_bun: PASS
+COOKING only recipe materials debited soybean_honey_bun: PASS
+COOKING ready soybean_honey_bun: PASS
+COOKING cooking save roundtrip soybean_honey_bun: PASS
+COOKING serve and pay soybean_honey_bun: PASS
+COOKING missing ingredient atomic soybean_honey_bun: PASS
+COOKING starts with exact materials red_bean_porridge: PASS
+COOKING only recipe materials debited red_bean_porridge: PASS
+COOKING ready red_bean_porridge: PASS
+COOKING cooking save roundtrip red_bean_porridge: PASS
+COOKING serve and pay red_bean_porridge: PASS
+COOKING missing ingredient atomic red_bean_porridge: PASS
+COOKING starts with exact materials red_bean_pumpkin_rice: PASS
+COOKING only recipe materials debited red_bean_pumpkin_rice: PASS
+COOKING ready red_bean_pumpkin_rice: PASS
+COOKING cooking save roundtrip red_bean_pumpkin_rice: PASS
+COOKING serve and pay red_bean_pumpkin_rice: PASS
+COOKING missing ingredient atomic red_bean_pumpkin_rice: PASS
+COOKING starts with exact materials red_bean_sesame_cake: PASS
+COOKING only recipe materials debited red_bean_sesame_cake: PASS
+COOKING ready red_bean_sesame_cake: PASS
+COOKING cooking save roundtrip red_bean_sesame_cake: PASS
+COOKING serve and pay red_bean_sesame_cake: PASS
+COOKING missing ingredient atomic red_bean_sesame_cake: PASS
+COOKING starts with exact materials red_bean_honey_bun: PASS
+COOKING only recipe materials debited red_bean_honey_bun: PASS
+COOKING ready red_bean_honey_bun: PASS
+COOKING cooking save roundtrip red_bean_honey_bun: PASS
+COOKING serve and pay red_bean_honey_bun: PASS
+COOKING missing ingredient atomic red_bean_honey_bun: PASS
+COOKING starts with exact materials mung_bean_porridge: PASS
+COOKING only recipe materials debited mung_bean_porridge: PASS
+COOKING ready mung_bean_porridge: PASS
+COOKING cooking save roundtrip mung_bean_porridge: PASS
+COOKING serve and pay mung_bean_porridge: PASS
+COOKING missing ingredient atomic mung_bean_porridge: PASS
+COOKING starts with exact materials mung_bean_pumpkin_rice: PASS
+COOKING only recipe materials debited mung_bean_pumpkin_rice: PASS
+COOKING ready mung_bean_pumpkin_rice: PASS
+COOKING cooking save roundtrip mung_bean_pumpkin_rice: PASS
+COOKING serve and pay mung_bean_pumpkin_rice: PASS
+COOKING missing ingredient atomic mung_bean_pumpkin_rice: PASS
+COOKING starts with exact materials mung_bean_sesame_cake: PASS
+COOKING only recipe materials debited mung_bean_sesame_cake: PASS
+COOKING ready mung_bean_sesame_cake: PASS
+COOKING cooking save roundtrip mung_bean_sesame_cake: PASS
+COOKING serve and pay mung_bean_sesame_cake: PASS
+COOKING missing ingredient atomic mung_bean_sesame_cake: PASS
+COOKING starts with exact materials mung_bean_honey_bun: PASS
+COOKING only recipe materials debited mung_bean_honey_bun: PASS
+COOKING ready mung_bean_honey_bun: PASS
+COOKING cooking save roundtrip mung_bean_honey_bun: PASS
+COOKING serve and pay mung_bean_honey_bun: PASS
+COOKING missing ingredient atomic mung_bean_honey_bun: PASS
+COOKING starts with exact materials chickpea_porridge: PASS
+COOKING only recipe materials debited chickpea_porridge: PASS
+COOKING ready chickpea_porridge: PASS
+COOKING cooking save roundtrip chickpea_porridge: PASS
+COOKING serve and pay chickpea_porridge: PASS
+COOKING missing ingredient atomic chickpea_porridge: PASS
+COOKING starts with exact materials chickpea_pumpkin_rice: PASS
+COOKING only recipe materials debited chickpea_pumpkin_rice: PASS
+COOKING ready chickpea_pumpkin_rice: PASS
+COOKING cooking save roundtrip chickpea_pumpkin_rice: PASS
+COOKING serve and pay chickpea_pumpkin_rice: PASS
+COOKING missing ingredient atomic chickpea_pumpkin_rice: PASS
+COOKING starts with exact materials chickpea_sesame_cake: PASS
+COOKING only recipe materials debited chickpea_sesame_cake: PASS
+COOKING ready chickpea_sesame_cake: PASS
+COOKING cooking save roundtrip chickpea_sesame_cake: PASS
+COOKING serve and pay chickpea_sesame_cake: PASS
+COOKING missing ingredient atomic chickpea_sesame_cake: PASS
+COOKING starts with exact materials chickpea_honey_bun: PASS
+COOKING only recipe materials debited chickpea_honey_bun: PASS
+COOKING ready chickpea_honey_bun: PASS
+COOKING cooking save roundtrip chickpea_honey_bun: PASS
+COOKING serve and pay chickpea_honey_bun: PASS
+COOKING missing ingredient atomic chickpea_honey_bun: PASS
+COOKING starts with exact materials lentil_porridge: PASS
+COOKING only recipe materials debited lentil_porridge: PASS
+COOKING ready lentil_porridge: PASS
+COOKING cooking save roundtrip lentil_porridge: PASS
+COOKING serve and pay lentil_porridge: PASS
+COOKING missing ingredient atomic lentil_porridge: PASS
+COOKING starts with exact materials lentil_pumpkin_rice: PASS
+COOKING only recipe materials debited lentil_pumpkin_rice: PASS
+COOKING ready lentil_pumpkin_rice: PASS
+COOKING cooking save roundtrip lentil_pumpkin_rice: PASS
+COOKING serve and pay lentil_pumpkin_rice: PASS
+COOKING missing ingredient atomic lentil_pumpkin_rice: PASS
+COOKING starts with exact materials lentil_sesame_cake: PASS
+COOKING only recipe materials debited lentil_sesame_cake: PASS
+COOKING ready lentil_sesame_cake: PASS
+COOKING cooking save roundtrip lentil_sesame_cake: PASS
+COOKING serve and pay lentil_sesame_cake: PASS
+COOKING missing ingredient atomic lentil_sesame_cake: PASS
+COOKING starts with exact materials lentil_honey_bun: PASS
+COOKING only recipe materials debited lentil_honey_bun: PASS
+COOKING ready lentil_honey_bun: PASS
+COOKING cooking save roundtrip lentil_honey_bun: PASS
+COOKING serve and pay lentil_honey_bun: PASS
+COOKING missing ingredient atomic lentil_honey_bun: PASS
+COOKING starts with exact materials glutinous_rice_porridge: PASS
+COOKING only recipe materials debited glutinous_rice_porridge: PASS
+COOKING ready glutinous_rice_porridge: PASS
+COOKING cooking save roundtrip glutinous_rice_porridge: PASS
+COOKING serve and pay glutinous_rice_porridge: PASS
+COOKING missing ingredient atomic glutinous_rice_porridge: PASS
+COOKING starts with exact materials glutinous_rice_pumpkin_rice: PASS
+COOKING only recipe materials debited glutinous_rice_pumpkin_rice: PASS
+COOKING ready glutinous_rice_pumpkin_rice: PASS
+COOKING cooking save roundtrip glutinous_rice_pumpkin_rice: PASS
+COOKING serve and pay glutinous_rice_pumpkin_rice: PASS
+COOKING missing ingredient atomic glutinous_rice_pumpkin_rice: PASS
+COOKING starts with exact materials glutinous_rice_sesame_cake: PASS
+COOKING only recipe materials debited glutinous_rice_sesame_cake: PASS
+COOKING ready glutinous_rice_sesame_cake: PASS
+COOKING cooking save roundtrip glutinous_rice_sesame_cake: PASS
+COOKING serve and pay glutinous_rice_sesame_cake: PASS
+COOKING missing ingredient atomic glutinous_rice_sesame_cake: PASS
+COOKING starts with exact materials glutinous_rice_honey_bun: PASS
+COOKING only recipe materials debited glutinous_rice_honey_bun: PASS
+COOKING ready glutinous_rice_honey_bun: PASS
+COOKING cooking save roundtrip glutinous_rice_honey_bun: PASS
+COOKING serve and pay glutinous_rice_honey_bun: PASS
+COOKING missing ingredient atomic glutinous_rice_honey_bun: PASS
+COOKING starts with exact materials cheese_omelet: PASS
+COOKING only recipe materials debited cheese_omelet: PASS
+COOKING ready cheese_omelet: PASS
+COOKING cooking save roundtrip cheese_omelet: PASS
+COOKING serve and pay cheese_omelet: PASS
+COOKING missing ingredient atomic cheese_omelet: PASS
+COOKING starts with exact materials tomato_egg_rice: PASS
+COOKING only recipe materials debited tomato_egg_rice: PASS
+COOKING ready tomato_egg_rice: PASS
+COOKING cooking save roundtrip tomato_egg_rice: PASS
+COOKING serve and pay tomato_egg_rice: PASS
+COOKING missing ingredient atomic tomato_egg_rice: PASS
+COOKING starts with exact materials butter_mushroom: PASS
+COOKING only recipe materials debited butter_mushroom: PASS
+COOKING ready butter_mushroom: PASS
+COOKING cooking save roundtrip butter_mushroom: PASS
+COOKING serve and pay butter_mushroom: PASS
+COOKING missing ingredient atomic butter_mushroom: PASS
+COOKING starts with exact materials cream_pasta: PASS
+COOKING only recipe materials debited cream_pasta: PASS
+COOKING ready cream_pasta: PASS
+COOKING cooking save roundtrip cream_pasta: PASS
+COOKING serve and pay cream_pasta: PASS
+COOKING missing ingredient atomic cream_pasta: PASS
+COOKING starts with exact materials garlic_flatbread: PASS
+COOKING only recipe materials debited garlic_flatbread: PASS
+COOKING ready garlic_flatbread: PASS
+COOKING cooking save roundtrip garlic_flatbread: PASS
+COOKING serve and pay garlic_flatbread: PASS
+COOKING missing ingredient atomic garlic_flatbread: PASS
+COOKING starts with exact materials scallion_pancake: PASS
+COOKING only recipe materials debited scallion_pancake: PASS
+COOKING ready scallion_pancake: PASS
+COOKING cooking save roundtrip scallion_pancake: PASS
+COOKING serve and pay scallion_pancake: PASS
+COOKING missing ingredient atomic scallion_pancake: PASS
+COOKING starts with exact materials vinegar_cucumber: PASS
+COOKING only recipe materials debited vinegar_cucumber: PASS
+COOKING ready vinegar_cucumber: PASS
+COOKING cooking save roundtrip vinegar_cucumber: PASS
+COOKING serve and pay vinegar_cucumber: PASS
+COOKING missing ingredient atomic vinegar_cucumber: PASS
+COOKING starts with exact materials soy_braised_egg: PASS
+COOKING only recipe materials debited soy_braised_egg: PASS
+COOKING ready soy_braised_egg: PASS
+COOKING cooking save roundtrip soy_braised_egg: PASS
+COOKING serve and pay soy_braised_egg: PASS
+COOKING missing ingredient atomic soy_braised_egg: PASS
+COOKING starts with exact materials sesame_tofu: PASS
+COOKING only recipe materials debited sesame_tofu: PASS
+COOKING ready sesame_tofu: PASS
+COOKING cooking save roundtrip sesame_tofu: PASS
+COOKING serve and pay sesame_tofu: PASS
+COOKING missing ingredient atomic sesame_tofu: PASS
+COOKING starts with exact materials peanut_noodles: PASS
+COOKING only recipe materials debited peanut_noodles: PASS
+COOKING ready peanut_noodles: PASS
+COOKING cooking save roundtrip peanut_noodles: PASS
+COOKING serve and pay peanut_noodles: PASS
+COOKING missing ingredient atomic peanut_noodles: PASS
+COOKING starts with exact materials walnut_bread: PASS
+COOKING only recipe materials debited walnut_bread: PASS
+COOKING ready walnut_bread: PASS
+COOKING cooking save roundtrip walnut_bread: PASS
+COOKING serve and pay walnut_bread: PASS
+COOKING missing ingredient atomic walnut_bread: PASS
+COOKING starts with exact materials almond_cookie: PASS
+COOKING only recipe materials debited almond_cookie: PASS
+COOKING ready almond_cookie: PASS
+COOKING cooking save roundtrip almond_cookie: PASS
+COOKING serve and pay almond_cookie: PASS
+COOKING missing ingredient atomic almond_cookie: PASS
+COOKING starts with exact materials cocoa_cookie: PASS
+COOKING only recipe materials debited cocoa_cookie: PASS
+COOKING ready cocoa_cookie: PASS
+COOKING cooking save roundtrip cocoa_cookie: PASS
+COOKING serve and pay cocoa_cookie: PASS
+COOKING missing ingredient atomic cocoa_cookie: PASS
+COOKING starts with exact materials cinnamon_roll: PASS
+COOKING only recipe materials debited cinnamon_roll: PASS
+COOKING ready cinnamon_roll: PASS
+COOKING cooking save roundtrip cinnamon_roll: PASS
+COOKING serve and pay cinnamon_roll: PASS
+COOKING missing ingredient atomic cinnamon_roll: PASS
+COOKING starts with exact materials vanilla_pudding: PASS
+COOKING only recipe materials debited vanilla_pudding: PASS
+COOKING ready vanilla_pudding: PASS
+COOKING cooking save roundtrip vanilla_pudding: PASS
+COOKING serve and pay vanilla_pudding: PASS
+COOKING missing ingredient atomic vanilla_pudding: PASS
+COOKING starts with exact materials mint_chocolate: PASS
+COOKING only recipe materials debited mint_chocolate: PASS
+COOKING ready mint_chocolate: PASS
+COOKING cooking save roundtrip mint_chocolate: PASS
+COOKING serve and pay mint_chocolate: PASS
+COOKING missing ingredient atomic mint_chocolate: PASS
+COOKING starts with exact materials cheese_cake: PASS
+COOKING only recipe materials debited cheese_cake: PASS
+COOKING ready cheese_cake: PASS
+COOKING cooking save roundtrip cheese_cake: PASS
+COOKING serve and pay cheese_cake: PASS
+COOKING missing ingredient atomic cheese_cake: PASS
+COOKING starts with exact materials cream_scone: PASS
+COOKING only recipe materials debited cream_scone: PASS
+COOKING ready cream_scone: PASS
+COOKING cooking save roundtrip cream_scone: PASS
+COOKING serve and pay cream_scone: PASS
+COOKING missing ingredient atomic cream_scone: PASS
+COOKING starts with exact materials yogurt_honey: PASS
+COOKING only recipe materials debited yogurt_honey: PASS
+COOKING ready yogurt_honey: PASS
+COOKING cooking save roundtrip yogurt_honey: PASS
+COOKING serve and pay yogurt_honey: PASS
+COOKING missing ingredient atomic yogurt_honey: PASS
+COOKING starts with exact materials sesame_rice_ball: PASS
+COOKING only recipe materials debited sesame_rice_ball: PASS
+COOKING ready sesame_rice_ball: PASS
+COOKING cooking save roundtrip sesame_rice_ball: PASS
+COOKING serve and pay sesame_rice_ball: PASS
+COOKING missing ingredient atomic sesame_rice_ball: PASS
+COOKING starts with exact materials red_bean_mochi: PASS
+COOKING only recipe materials debited red_bean_mochi: PASS
+COOKING ready red_bean_mochi: PASS
+COOKING cooking save roundtrip red_bean_mochi: PASS
+COOKING serve and pay red_bean_mochi: PASS
+COOKING missing ingredient atomic red_bean_mochi: PASS
+COOKING starts with exact materials peanut_brittle: PASS
+COOKING only recipe materials debited peanut_brittle: PASS
+COOKING ready peanut_brittle: PASS
+COOKING cooking save roundtrip peanut_brittle: PASS
+COOKING serve and pay peanut_brittle: PASS
+COOKING missing ingredient atomic peanut_brittle: PASS
+COOKING starts with exact materials walnut_honey_cake: PASS
+COOKING only recipe materials debited walnut_honey_cake: PASS
+COOKING ready walnut_honey_cake: PASS
+COOKING cooking save roundtrip walnut_honey_cake: PASS
+COOKING serve and pay walnut_honey_cake: PASS
+COOKING missing ingredient atomic walnut_honey_cake: PASS
+COOKING starts with exact materials almond_milk: PASS
+COOKING only recipe materials debited almond_milk: PASS
+COOKING ready almond_milk: PASS
+COOKING cooking save roundtrip almond_milk: PASS
+COOKING serve and pay almond_milk: PASS
+COOKING missing ingredient atomic almond_milk: PASS
+COOKING starts with exact materials black_coffee: PASS
+COOKING only recipe materials debited black_coffee: PASS
+COOKING ready black_coffee: PASS
+COOKING cooking save roundtrip black_coffee: PASS
+COOKING serve and pay black_coffee: PASS
+COOKING missing ingredient atomic black_coffee: PASS
+COOKING starts with exact materials milk_coffee: PASS
+COOKING only recipe materials debited milk_coffee: PASS
+COOKING ready milk_coffee: PASS
+COOKING cooking save roundtrip milk_coffee: PASS
+COOKING serve and pay milk_coffee: PASS
+COOKING missing ingredient atomic milk_coffee: PASS
+COOKING starts with exact materials cocoa_milk: PASS
+COOKING only recipe materials debited cocoa_milk: PASS
+COOKING ready cocoa_milk: PASS
+COOKING cooking save roundtrip cocoa_milk: PASS
+COOKING serve and pay cocoa_milk: PASS
+COOKING missing ingredient atomic cocoa_milk: PASS
+COOKING starts with exact materials cinnamon_coffee: PASS
+COOKING only recipe materials debited cinnamon_coffee: PASS
+COOKING ready cinnamon_coffee: PASS
+COOKING cooking save roundtrip cinnamon_coffee: PASS
+COOKING serve and pay cinnamon_coffee: PASS
+COOKING missing ingredient atomic cinnamon_coffee: PASS
+COOKING starts with exact materials vanilla_latte: PASS
+COOKING only recipe materials debited vanilla_latte: PASS
+COOKING ready vanilla_latte: PASS
+COOKING cooking save roundtrip vanilla_latte: PASS
+COOKING serve and pay vanilla_latte: PASS
+COOKING missing ingredient atomic vanilla_latte: PASS
+COOKING starts with exact materials mint_tea: PASS
+COOKING only recipe materials debited mint_tea: PASS
+COOKING ready mint_tea: PASS
+COOKING cooking save roundtrip mint_tea: PASS
+COOKING serve and pay mint_tea: PASS
+COOKING missing ingredient atomic mint_tea: PASS
+COOKING starts with exact materials ginger_honey_tea: PASS
+COOKING only recipe materials debited ginger_honey_tea: PASS
+COOKING ready ginger_honey_tea: PASS
+COOKING cooking save roundtrip ginger_honey_tea: PASS
+COOKING serve and pay ginger_honey_tea: PASS
+COOKING missing ingredient atomic ginger_honey_tea: PASS
+COOKING starts with exact materials salted_caramel_milk: PASS
+COOKING only recipe materials debited salted_caramel_milk: PASS
+COOKING ready salted_caramel_milk: PASS
+COOKING cooking save roundtrip salted_caramel_milk: PASS
+COOKING serve and pay salted_caramel_milk: PASS
+COOKING missing ingredient atomic salted_caramel_milk: PASS
+COOKING starts with exact materials corn_cheese_bake: PASS
+COOKING only recipe materials debited corn_cheese_bake: PASS
+COOKING ready corn_cheese_bake: PASS
+COOKING cooking save roundtrip corn_cheese_bake: PASS
+COOKING serve and pay corn_cheese_bake: PASS
+COOKING missing ingredient atomic corn_cheese_bake: PASS
+COOKING starts with exact materials pea_potato_salad: PASS
+COOKING only recipe materials debited pea_potato_salad: PASS
+COOKING ready pea_potato_salad: PASS
+COOKING cooking save roundtrip pea_potato_salad: PASS
+COOKING serve and pay pea_potato_salad: PASS
+COOKING missing ingredient atomic pea_potato_salad: PASS
+COOKING starts with exact materials bamboo_mushroom_soup: PASS
+COOKING only recipe materials debited bamboo_mushroom_soup: PASS
+COOKING ready bamboo_mushroom_soup: PASS
+COOKING cooking save roundtrip bamboo_mushroom_soup: PASS
+COOKING serve and pay bamboo_mushroom_soup: PASS
+COOKING missing ingredient atomic bamboo_mushroom_soup: PASS
+COOKING starts with exact materials lotus_pork_soup: PASS
+COOKING only recipe materials debited lotus_pork_soup: PASS
+COOKING ready lotus_pork_soup: PASS
+COOKING cooking save roundtrip lotus_pork_soup: PASS
+COOKING serve and pay lotus_pork_soup: PASS
+COOKING missing ingredient atomic lotus_pork_soup: PASS
+COOKING starts with exact materials chestnut_chicken: PASS
+COOKING only recipe materials debited chestnut_chicken: PASS
+COOKING ready chestnut_chicken: PASS
+COOKING cooking save roundtrip chestnut_chicken: PASS
+COOKING serve and pay chestnut_chicken: PASS
+COOKING missing ingredient atomic chestnut_chicken: PASS
+COOKING starts with exact materials truffle_cheese_rice: PASS
+COOKING only recipe materials debited truffle_cheese_rice: PASS
+COOKING ready truffle_cheese_rice: PASS
+COOKING cooking save roundtrip truffle_cheese_rice: PASS
+COOKING serve and pay truffle_cheese_rice: PASS
+COOKING missing ingredient atomic truffle_cheese_rice: PASS
+COOKING starts with exact materials moonflower_almond_cake: PASS
+COOKING only recipe materials debited moonflower_almond_cake: PASS
+COOKING ready moonflower_almond_cake: PASS
+COOKING cooking save roundtrip moonflower_almond_cake: PASS
+COOKING serve and pay moonflower_almond_cake: PASS
+COOKING missing ingredient atomic moonflower_almond_cake: PASS
+COOKING starts with exact materials snow_cabbage_dumpling: PASS
+COOKING only recipe materials debited snow_cabbage_dumpling: PASS
+COOKING ready snow_cabbage_dumpling: PASS
+COOKING cooking save roundtrip snow_cabbage_dumpling: PASS
+COOKING serve and pay snow_cabbage_dumpling: PASS
+COOKING missing ingredient atomic snow_cabbage_dumpling: PASS
+COOKING starts with exact materials radish_beef_stew: PASS
+COOKING only recipe materials debited radish_beef_stew: PASS
+COOKING ready radish_beef_stew: PASS
+COOKING cooking save roundtrip radish_beef_stew: PASS
+COOKING serve and pay radish_beef_stew: PASS
+COOKING missing ingredient atomic radish_beef_stew: PASS
+COOKING starts with exact materials prawn_garlic_noodle: PASS
+COOKING only recipe materials debited prawn_garlic_noodle: PASS
+COOKING ready prawn_garlic_noodle: PASS
+COOKING cooking save roundtrip prawn_garlic_noodle: PASS
+COOKING serve and pay prawn_garlic_noodle: PASS
+COOKING missing ingredient atomic prawn_garlic_noodle: PASS
+COOKING starts with exact materials silverfin_lemon: PASS
+COOKING only recipe materials debited silverfin_lemon: PASS
+COOKING ready silverfin_lemon: PASS
+COOKING cooking save roundtrip silverfin_lemon: PASS
+COOKING serve and pay silverfin_lemon: PASS
+COOKING missing ingredient atomic silverfin_lemon: PASS
+COOKING starts with exact materials carp_tofu_soup: PASS
+COOKING only recipe materials debited carp_tofu_soup: PASS
+COOKING ready carp_tofu_soup: PASS
+COOKING cooking save roundtrip carp_tofu_soup: PASS
+COOKING serve and pay carp_tofu_soup: PASS
+COOKING missing ingredient atomic carp_tofu_soup: PASS
+COOKING starts with exact materials pumpkin_milk_pudding: PASS
+COOKING only recipe materials debited pumpkin_milk_pudding: PASS
+COOKING ready pumpkin_milk_pudding: PASS
+COOKING cooking save roundtrip pumpkin_milk_pudding: PASS
+COOKING serve and pay pumpkin_milk_pudding: PASS
+COOKING missing ingredient atomic pumpkin_milk_pudding: PASS
+COOKING starts with exact materials sweet_potato_cheese: PASS
+COOKING only recipe materials debited sweet_potato_cheese: PASS
+COOKING ready sweet_potato_cheese: PASS
+COOKING cooking save roundtrip sweet_potato_cheese: PASS
+COOKING serve and pay sweet_potato_cheese: PASS
+COOKING missing ingredient atomic sweet_potato_cheese: PASS
+COOKING new dishes never satisfy legacy banquet: PASS
+COOKING three original banquet dishes still complete objective: PASS
+COOKING save expanded menu slot: PASS
+COOKING JSON roundtrip preserves new food and final recipe: PASS
+COOKING all 360 rows zh_CN: PASS
+COOKING translated name search zh_CN: PASS
+COOKING capture recipes_zh_CN: PASS
+COOKING drink category zh_CN: PASS
+COOKING pantry localized search zh_CN: PASS
+COOKING new ingredient purchase button enabled zh_CN: PASS
+COOKING UI purchase reaches persistent pantry zh_CN: PASS
+COOKING capture pantry_zh_CN: PASS
+COOKING all 360 rows en: PASS
+COOKING translated name search en: PASS
+COOKING capture recipes_en: PASS
+COOKING drink category en: PASS
+COOKING pantry localized search en: PASS
+COOKING new ingredient purchase button enabled en: PASS
+COOKING UI purchase reaches persistent pantry en: PASS
+COOKING capture pantry_en: PASS
+COOKING all 360 rows ja: PASS
+COOKING translated name search ja: PASS
+COOKING capture recipes_ja: PASS
+COOKING drink category ja: PASS
+COOKING pantry localized search ja: PASS
+COOKING new ingredient purchase button enabled ja: PASS
+COOKING UI purchase reaches persistent pantry ja: PASS
+COOKING capture pantry_ja: PASS
+COOKING all 360 rows zh_TW: PASS
+COOKING translated name search zh_TW: PASS
+COOKING capture recipes_zh_TW: PASS
+COOKING drink category zh_TW: PASS
+COOKING pantry localized search zh_TW: PASS
+COOKING new ingredient purchase button enabled zh_TW: PASS
+COOKING UI purchase reaches persistent pantry zh_TW: PASS
+COOKING capture pantry_zh_TW: PASS
+COOKING pantry fruit category: PASS
+COOKING capture pantry_fruit: PASS
+COOKING COMPLETE checks=2505 failures=0
+FMOD Sound System: System released

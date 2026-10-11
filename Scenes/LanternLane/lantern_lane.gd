@@ -1,13 +1,18 @@
 extends Node2D
+signal player_moved(distance: float, running: bool)
 ## Orthogonal top-down town, self-contained input and pixel viewport.
 const ART := "res://Art/Environment/Hearthwood/"
 const Ambient = preload("res://Scenes/Gameplay/ambient_animation.gd")
+const ActorCollision = preload("res://Scenes/Gameplay/actor_collision.gd")
+const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const SPAWN := Vector2(408, 364)
 var verify_path := "res://Scenes/LanternLane/Verification/topdown/"
-const WITCH_TEXTURE := "res://Art/Character/Storybook/WalalaWitch/walala-witch.png"
-const CHARACTER_SIZE := Vector2(32, 48)
+const WitchAnimation = preload("res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd")
+const WITCH_TEXTURE := WitchAnimation.SHEET
+const CHARACTER_SIZE := Vector2(32, 32)
 const WITCH_FOOT_OFFSET := Vector2(0, -CHARACTER_SIZE.y / 2)
 var world: Node2D
+var world_size := Vector2i.ZERO
 var actors: Node2D
 var player: CharacterBody2D
 var avatar: Sprite2D
@@ -21,18 +26,23 @@ var automation := false
 var test_direction := Vector2.ZERO
 var test_running := false
 var was_moving := false
+var was_running := false
 var solid_rects: Array[Rect2] = []
 var failures := 0
 
 func _ready() -> void:
+	Localization.apply_saved_language()
+	InputBindings.apply_saved_bindings()
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	automation = "--lane-test" in OS.get_cmdline_user_args() or "--lane-capture" in OS.get_cmdline_user_args() or "--witch-capture" in OS.get_cmdline_user_args()
 	if "--witch-capture" in OS.get_cmdline_user_args():
 		verify_path = "res://Art/Character/Storybook/Verification/"
 	var container := SubViewportContainer.new()
 	add_child(container)
+	Preferences.attach_brightness(container)
 	viewport = SubViewport.new()
 	viewport.size = Vector2i(640, 360)
+	viewport.gui_embed_subwindows = true
 	viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 	viewport.canvas_item_default_texture_filter = Viewport.DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_NEAREST
 	container.add_child(viewport)
@@ -40,17 +50,23 @@ func _ready() -> void:
 	_fit_canvas(container)
 	world = Node2D.new()
 	viewport.add_child(world)
-	var ground := Sprite2D.new()
-	ground.texture = load(ART + "town_ground.png")
-	ground.centered = false
+	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + "town_ground.aseprite")
 	world.add_child(ground)
 	actors = Node2D.new()
 	actors.y_sort_enabled = true
 	world.add_child(actors)
 	var layout: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(ART + "town_layout.json"))
+	world_size = Vector2i(layout.size[0], layout.size[1])
 	for entry in layout.buildings + layout.props:
 		_add_object(entry)
-	for rect in [Rect2(-16,-16,1312,32), Rect2(-16,944,1312,32), Rect2(-16,0,32,960), Rect2(1264,0,32,960)]:
+	for values in layout.get("barriers", []):
+		var rect := Rect2(values[0], values[1], values[2], values[3])
+		var bank := StaticBody2D.new()
+		bank.position = rect.get_center()
+		world.add_child(bank)
+		_collision(bank, rect.size, Vector2.ZERO)
+		solid_rects.append(rect)
+	for rect in [Rect2(-16,-16,world_size.x + 32,16), Rect2(-16,world_size.y,world_size.x + 32,16), Rect2(-16,0,16,world_size.y), Rect2(world_size.x,0,16,world_size.y)]:
 		var body := StaticBody2D.new()
 		world.add_child(body)
 		body.position = rect.get_center()
@@ -61,24 +77,22 @@ func _ready() -> void:
 	player.position = SPAWN
 	player.motion_mode = CharacterBody2D.MOTION_MODE_FLOATING
 	actors.add_child(player)
-	_collision(player, Vector2(10,6), Vector2(0,-3))
+	ActorCollision.attach(player)
 	var shadow := Polygon2D.new()
 	shadow.polygon = PackedVector2Array([Vector2(-10,-3),Vector2(-6,-7),Vector2(6,-7),Vector2(10,-3),Vector2(6,0),Vector2(-6,0)])
 	shadow.color = Color(0.12,0.2,0.18,0.4)
 	player.add_child(shadow)
 	avatar = Sprite2D.new()
-	avatar.texture = load(WITCH_TEXTURE)
-	avatar.hframes = 5
-	avatar.vframes = 4
-	# Native 32x48 art shares the feet origin used by movement and Y sorting.
+	WitchAnimation.configure(avatar)
+	# Native 32x32 art shares the feet origin used by movement and Y sorting.
 	avatar.position = WITCH_FOOT_OFFSET
 	player.add_child(avatar)
 	camera = Camera2D.new()
 	camera.position_smoothing_enabled = false
 	camera.limit_left = 0
 	camera.limit_top = 0
-	camera.limit_right = 1280
-	camera.limit_bottom = 960
+	camera.limit_right = world_size.x
+	camera.limit_bottom = world_size.y
 	player.add_child(camera)
 	weather = preload("res://Scenes/LanternLane/Effect/Weather/weather.tscn").instantiate()
 	weather.name = "WeatherEffect"
@@ -86,7 +100,7 @@ func _ready() -> void:
 	viewport.add_child(weather)
 	var weather_blockers: Array[Rect2] = []
 	for building in layout.buildings:
-		var texture: Texture2D = load(ART + building.kind + ".png")
+		var texture: Texture2D = load(ART + building.kind + ".aseprite")
 		weather_blockers.append(Rect2(Vector2(building.x - texture.get_width() / 2.0, building.y - texture.get_height()), texture.get_size()))
 	weather.configure(camera, player, weather_blockers)
 	for object in actors.get_children():
@@ -125,7 +139,7 @@ func _add_object(entry: Dictionary) -> void:
 	body.set_meta("outdoor_kind", entry.kind)
 	actors.add_child(body)
 	var sprite := Sprite2D.new()
-	sprite.texture = load(ART + entry.kind + ".png")
+	sprite.texture = load(ART + entry.kind + ".aseprite")
 	# Building sprite bottom and trunk/prop feet define painter's order.
 	var height := float(sprite.texture.get_height())
 	sprite.position = Vector2(0,-height / 2.0)
@@ -137,22 +151,21 @@ func _add_object(entry: Dictionary) -> void:
 		_collision(body,size,Vector2(0,-size.y/2))
 		solid_rects.append(Rect2(body.position-Vector2(size.x/2,size.y),size))
 
-func _cardinal(raw: Vector2) -> Vector2:
-	# Vertical priority when two axes are held; never diagonal movement.
-	return Vector2(0,signf(raw.y)) if raw.y != 0 else Vector2(signf(raw.x),0)
-
 func _physics_process(delta: float) -> void:
 	var raw := test_direction
 	if not automation:
-		raw = Vector2(float(Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT))-float(Input.is_physical_key_pressed(KEY_A) or Input.is_physical_key_pressed(KEY_LEFT)),float(Input.is_physical_key_pressed(KEY_S) or Input.is_physical_key_pressed(KEY_DOWN))-float(Input.is_physical_key_pressed(KEY_W) or Input.is_physical_key_pressed(KEY_UP)))
-	var running := test_running if automation else Input.is_physical_key_pressed(KEY_SHIFT)
+		raw = Input.get_vector("move_left", "move_right", "move_up", "move_down") if not InputBindings.capture_active else Vector2.ZERO
+	var running := test_running if automation else Input.is_action_pressed("run") != bool(Preferences.value("game", "auto_run", false))
 	if harvest != null and harvest.busy():
 		if harvest.fishing() and raw != Vector2.ZERO:
 			harvest.cancel()
 		else:
 			raw = Vector2.ZERO
-	player.velocity = _cardinal(raw) * (140.0 if running else 90.0)
+	# Keep both axes and normalize so diagonal movement has the same speed.
+	player.velocity = raw.limit_length() * (140.0 if running else 90.0)
+	var previous_position := player.position
 	player.move_and_slide()
+	player_moved.emit(player.position.distance_to(previous_position), running)
 	if player.velocity.length() > 1:
 		if player.velocity.x != 0:
 			facing = 2 if player.velocity.x > 0 else 3
@@ -165,23 +178,24 @@ func _physics_process(delta: float) -> void:
 	camera.position = player.position.round() - player.position
 
 func _animate(moving: bool, running: bool, delta: float) -> void:
-	if moving != was_moving:
+	if moving != was_moving or (moving and running != was_running):
 		clock = 0.0
 	else:
 		clock += delta
 	was_moving = moving
-	# Column 0 is an authored idle; columns 1..4 are contact/passing steps.
-	avatar.frame = facing * 5 + (1 + int(clock * (13.0 if running else 9.0)) % 4 if moving else 0)
+	was_running = running
+	avatar.frame = WitchAnimation.frame_for(("run" if running else "walk") if moving else "idle", facing, clock)
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
+		if InputBindings.capture_active or InputBindings.is_bound_event(event): return
 		if event.physical_keycode == KEY_R:
 			player.position = SPAWN
-		if event.physical_keycode == KEY_1:
+		if event.physical_keycode == KEY_F6:
 			weather.clear_weather()
-		if event.physical_keycode == KEY_2:
+		if event.physical_keycode == KEY_F7:
 			weather.set_weather("rain")
-		if event.physical_keycode == KEY_3:
+		if event.physical_keycode == KEY_F8:
 			weather.set_weather("snow")
 		if event.physical_keycode == KEY_F3:
 			var overlay := world.get_node_or_null("CollisionOverlay")
@@ -215,21 +229,23 @@ func _walk(start: Vector2, direction: Vector2, frames: int) -> Vector2:
 
 func _run_tests() -> void:
 	await get_tree().physics_frame
-	_check("witch texture native grid", avatar.texture.get_size() == Vector2(160,192) and avatar.hframes == 5 and avatar.vframes == 4)
-	_check("witch display size", avatar.get_rect().size * avatar.scale == Vector2(32,48))
+	_check("witch texture native grid", avatar.texture.get_size() == Vector2(256,608) and avatar.hframes == WitchAnimation.COLUMNS and avatar.vframes == WitchAnimation.ROWS)
+	_check("witch display size", avatar.get_rect().size * avatar.scale == CHARACTER_SIZE)
 	_check("witch foot anchor", avatar.position + Vector2(avatar.get_rect().get_center().x, avatar.get_rect().end.y) * avatar.scale == Vector2.ZERO)
 	for row in range(4):
 		facing = row
 		_animate(false, false, 0.0)
-		_check("witch idle row " + str(row), avatar.frame == row * 5)
-		for step in range(4):
+		_check("witch idle row " + str(row), avatar.frame == int(WitchAnimation.tag_for("idle", row).from))
+		for step in range(8):
 			was_moving = true
-			clock = float(step) / 9.0 + 0.001
+			was_running = false
+			clock = float(step) * 0.1 + 0.001
 			_animate(true, false, 0.0)
-			_check("witch walk row/step " + str(row) + "/" + str(step), avatar.frame == row * 5 + step + 1)
-		clock = 1.0 / 13.0 + 0.001
+			_check("witch walk row/step " + str(row) + "/" + str(step), avatar.frame == int(WitchAnimation.tag_for("walk", row).from) + step)
+		was_running = true
+		clock = 0.066
 		_animate(true, true, 0.0)
-		_check("witch run cadence " + str(row), avatar.frame == row * 5 + 2)
+		_check("witch independent run " + str(row), avatar.frame == int(WitchAnimation.tag_for("run", row).from) + 1)
 	facing = 0
 	for direction in [Vector2.UP,Vector2.DOWN,Vector2.LEFT,Vector2.RIGHT]:
 		var end: Vector2 = await _walk(SPAWN,direction,40)
@@ -237,26 +253,29 @@ func _run_tests() -> void:
 		test_direction = Vector2.ZERO
 		await get_tree().physics_frame
 		var expected_row := 0 if direction == Vector2.DOWN else 1 if direction == Vector2.UP else 2 if direction == Vector2.RIGHT else 3
-		_check("witch stop keeps facing " + str(direction), facing == expected_row and avatar.frame == expected_row * 5)
+		_check("witch stop keeps facing " + str(direction), facing == expected_row and avatar.frame == int(WitchAnimation.tag_for("idle", expected_row).from))
 	test_running = true
 	var run_end: Vector2 = await _walk(SPAWN, Vector2.RIGHT, 30)
 	_check("witch run speed", absf(run_end.x - SPAWN.x - 70.0) < 3)
 	test_running = false
-	_check("diagonal input resolves to one axis",_cardinal(Vector2.ONE)==Vector2.DOWN)
-	var p: Vector2 = await _walk(Vector2(224,340),Vector2.UP,60)
-	_check("building front collision",p.y >= 293.9 and p.y < 296)
-	p = await _walk(Vector2(224,160),Vector2.DOWN,60)
-	_check("building rear collision",p.y > 190 and p.y <= 192.1)
-	p = await _walk(Vector2(120,240),Vector2.RIGHT,60)
-	_check("building left collision",p.x > 137 and p.x <= 139.1)
-	p = await _walk(Vector2(340,240),Vector2.LEFT,60)
-	_check("building right collision",p.x >= 308.9 and p.x < 311)
+	var diagonal_end: Vector2 = await _walk(SPAWN, Vector2.ONE, 20)
+	_check("diagonal movement keeps walking speed", diagonal_end.distance_to(SPAWN + Vector2.ONE.normalized() * 30.0) < 3)
+	var p: Vector2 = await _walk(Vector2(620,402),Vector2.UP,60)
+	_check("building front collision",p.y >= 355.9 and p.y < 358)
+	p = await _walk(Vector2(620,222),Vector2.DOWN,60)
+	_check("building rear collision",p.y > 252 and p.y <= 254.1)
+	p = await _walk(Vector2(516,302),Vector2.RIGHT,60)
+	_check("building left collision",p.x > 533 and p.x <= 535.1)
+	p = await _walk(Vector2(736,302),Vector2.LEFT,60)
+	_check("building right collision",p.x >= 704.9 and p.x < 707)
 	p = await _walk(SPAWN,Vector2.DOWN,210)
 	_check("multi-screen north-south route",p.y > 675)
 	camera.force_update_scroll()
 	_check("camera follows vertical route",camera.get_screen_center_position().distance_to(player.position.round()) < 2)
-	p = await _walk(Vector2(408,364),Vector2.RIGHT,260)
-	_check("multi-screen east-west route",p.x > 795)
+	player.position = SPAWN
+	var crossed: bool = await preload("res://Scenes/LanternLane/verification_navigation.gd").walk(self, Vector2(904, 610))
+	p = player.position
+	_check("multi-screen east-west route", crossed and p.x > 895)
 	camera.force_update_scroll()
 	_check("camera follows horizontal route",camera.get_screen_center_position().distance_to(player.position.round()) < 2)
 	player.position = Vector2(24,24)
@@ -301,10 +320,10 @@ func _capture() -> void:
 			facing = row
 			_animate(false, false, 0.0)
 			await _shot("idle_" + ["down","up","right","left"][row], SPAWN)
-			for step in range(4):
+			for step in range(8):
 				# Freeze only the screenshot's animation; movement tests use physics above.
 				set_physics_process(false)
-				avatar.frame = row * 5 + step + 1
+				avatar.frame = int(WitchAnimation.tag_for("walk", row).from) + step
 				await _shot("walk_" + ["down","up","right","left"][row] + "_" + str(step + 1), SPAWN)
 				set_physics_process(true)
 	get_tree().quit(0 if failures == 0 else 1)

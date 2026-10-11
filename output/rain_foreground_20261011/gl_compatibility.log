@@ -1,0 +1,50 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FMOD Sound System: Successfully initialized
+RAIN FOREGROUND rain moves: PASS
+RAIN FOREGROUND snow moves: PASS
+RAIN FOREGROUND farm_house screen coverage: PASS
+RAIN FOREGROUND farm_house has house splash exclusion: PASS
+RAIN FOREGROUND farm_house house visible: PASS
+RAIN FOREGROUND farm_house rain across house 0: PASS
+RAIN FOREGROUND farm_house rain across house 1: PASS
+RAIN FOREGROUND farm_house rain across house 2: PASS
+RAIN FOREGROUND farm_house rain across house 3: PASS
+RAIN FOREGROUND farm_house rain across house 4: PASS
+RAIN FOREGROUND farm_house rain across house 5: PASS
+RAIN FOREGROUND farm_house ground rain: PASS
+RAIN FOREGROUND farm_house no ground splash on house: PASS
+RAIN FOREGROUND farm_house player stays readable: PASS
+RAIN FOREGROUND farm_house save natural rain: PASS
+RAIN FOREGROUND farm_camera_moved screen coverage: PASS
+RAIN FOREGROUND farm_camera_moved has house splash exclusion: PASS
+RAIN FOREGROUND farm_camera_moved house visible: PASS
+RAIN FOREGROUND farm_camera_moved rain across house 0: PASS
+RAIN FOREGROUND farm_camera_moved rain across house 1: PASS
+RAIN FOREGROUND farm_camera_moved rain across house 2: PASS
+RAIN FOREGROUND farm_camera_moved rain across house 3: PASS
+RAIN FOREGROUND farm_camera_moved rain across house 4: PASS
+RAIN FOREGROUND farm_camera_moved rain across house 5: PASS
+RAIN FOREGROUND farm_camera_moved ground rain: PASS
+RAIN FOREGROUND farm_camera_moved no ground splash on house: PASS
+RAIN FOREGROUND farm_camera_moved player stays readable: PASS
+RAIN FOREGROUND farm_camera_moved save natural rain: PASS
+RAIN FOREGROUND indoor weather hidden: PASS
+RAIN FOREGROUND farm restores rain: PASS
+RAIN FOREGROUND town_house screen coverage: PASS
+RAIN FOREGROUND town_house has house splash exclusion: PASS
+RAIN FOREGROUND town_house house visible: PASS
+RAIN FOREGROUND town_house rain across house 0: PASS
+RAIN FOREGROUND town_house rain across house 1: PASS
+RAIN FOREGROUND town_house rain across house 2: PASS
+RAIN FOREGROUND town_house rain across house 3: PASS
+RAIN FOREGROUND town_house rain across house 4: PASS
+RAIN FOREGROUND town_house rain across house 5: PASS
+RAIN FOREGROUND town_house ground rain: PASS
+RAIN FOREGROUND town_house no ground splash on house: PASS
+RAIN FOREGROUND town_house player stays readable: PASS
+RAIN FOREGROUND town_house save natural rain: PASS
+RAIN FOREGROUND clear weather: PASS
+RAIN FOREGROUND VERIFY END checks=44 failures=0
+FMOD Sound System: System released

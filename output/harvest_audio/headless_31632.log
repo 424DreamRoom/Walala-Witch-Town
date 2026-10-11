@@ -1,0 +1,88 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD Sound System: Live update enabled!
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+SCRIPT ERROR: Invalid access to property or key 'unplantable' on a base object of type 'Dictionary'.
+   at: _make_obstacles (res://Scenes/Farm/farm_terrain.gd:41)
+   GDScript backtrace (most recent call first):
+       [0] _make_obstacles (res://Scenes/Farm/farm_terrain.gd:41)
+       [1] @static_initializer (res://Scenes/Farm/farm_terrain.gd:13)
+DRIVER Dummy
+HARVEST AUDIO short one-shot gather 0: PASS
+HARVEST AUDIO full PCM and headroom gather 0: FAIL
+HARVEST AUDIO short one-shot gather 1: PASS
+HARVEST AUDIO full PCM and headroom gather 1: FAIL
+HARVEST AUDIO variants and bounded pitch gather: PASS
+HARVEST AUDIO single event count gather: PASS
+HARVEST AUDIO event gain gather: PASS
+HARVEST AUDIO frame volume preserves gain gather: PASS
+HARVEST AUDIO short one-shot chop 0: PASS
+HARVEST AUDIO full PCM and headroom chop 0: FAIL
+HARVEST AUDIO short one-shot chop 1: PASS
+HARVEST AUDIO full PCM and headroom chop 1: FAIL
+HARVEST AUDIO short one-shot chop 2: PASS
+HARVEST AUDIO full PCM and headroom chop 2: FAIL
+HARVEST AUDIO variants and bounded pitch chop: PASS
+HARVEST AUDIO single event count chop: PASS
+HARVEST AUDIO event gain chop: PASS
+HARVEST AUDIO frame volume preserves gain chop: PASS
+HARVEST AUDIO short one-shot mine 0: PASS
+HARVEST AUDIO full PCM and headroom mine 0: FAIL
+HARVEST AUDIO short one-shot mine 1: PASS
+HARVEST AUDIO full PCM and headroom mine 1: FAIL
+HARVEST AUDIO short one-shot mine 2: PASS
+HARVEST AUDIO full PCM and headroom mine 2: FAIL
+HARVEST AUDIO variants and bounded pitch mine: PASS
+HARVEST AUDIO single event count mine: PASS
+HARVEST AUDIO event gain mine: PASS
+HARVEST AUDIO frame volume preserves gain mine: PASS
+HARVEST AUDIO short one-shot cast 0: PASS
+HARVEST AUDIO full PCM and headroom cast 0: FAIL
+HARVEST AUDIO short one-shot cast 1: PASS
+HARVEST AUDIO full PCM and headroom cast 1: FAIL
+HARVEST AUDIO variants and bounded pitch cast: PASS
+HARVEST AUDIO single event count cast: PASS
+HARVEST AUDIO event gain cast: PASS
+HARVEST AUDIO frame volume preserves gain cast: PASS
+HARVEST AUDIO short one-shot bite 0: PASS
+HARVEST AUDIO full PCM and headroom bite 0: FAIL
+HARVEST AUDIO variants and bounded pitch bite: PASS
+HARVEST AUDIO single event count bite: PASS
+HARVEST AUDIO event gain bite: PASS
+HARVEST AUDIO frame volume preserves gain bite: PASS
+HARVEST AUDIO short one-shot catch 0: PASS
+HARVEST AUDIO full PCM and headroom catch 0: FAIL
+HARVEST AUDIO short one-shot catch 1: PASS
+HARVEST AUDIO full PCM and headroom catch 1: FAIL
+HARVEST AUDIO variants and bounded pitch catch: PASS
+HARVEST AUDIO single event count catch: PASS
+HARVEST AUDIO event gain catch: PASS
+HARVEST AUDIO frame volume preserves gain catch: PASS
+HARVEST AUDIO live channel gain: PASS
+HARVEST AUDIO zero character volume: PASS
+HARVEST AUDIO zero master volume: PASS
+HARVEST AUDIO legacy mute: PASS
+HARVEST AUDIO unmute has no stale replay: PASS
+HARVEST AUDIO eight voices bounded without stealing: PASS
+HARVEST AUDIO tail continues while paused: PASS
+HARVEST AUDIO plant success emits once: PASS
+HARVEST AUDIO depleted plant silent: PASS
+HARVEST AUDIO before impact silent chop: PASS
+HARVEST AUDIO one impact one cue chop: PASS
+HARVEST AUDIO missing tool silent chop: PASS
+HARVEST AUDIO before impact silent mine: PASS
+HARVEST AUDIO one impact one cue mine: PASS
+HARVEST AUDIO missing tool silent mine: PASS
+HARVEST AUDIO cast arc has no early splash: PASS
+HARVEST AUDIO cancelled cast silent: PASS
+HARVEST AUDIO bobber landing emits splash once: PASS
+HARVEST AUDIO bite emits once: PASS
+HARVEST AUDIO successful catch emits once: PASS
+HARVEST AUDIO early reel gives no catch cue: PASS
+HARVEST AUDIO missed bite gives no catch cue: PASS
+HARVEST AUDIO idle frames do not replay cues: PASS
+HARVEST AUDIO END failures=13 checks=73
+FMOD Sound System: System released

@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD EXPORT release native library loads: PASS
+FMOD EXPORT original bytes included wav: PASS
+FMOD EXPORT original bytes included ogg: PASS
+FMOD EXPORT WAV plays through FMOD: PASS
+FMOD EXPORT WAV ends naturally: PASS
+FMOD EXPORT OGG plays through FMOD: PASS
+FMOD EXPORT native gain matches settings: PASS
+FMOD EXPORT OGG loops while paused: PASS
+FMOD EXPORT release cache fully freed: PASS
+FMOD EXPORT VERIFY END failures=0 checks=9
+FMOD Sound System: System released

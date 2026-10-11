@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FMOD Sound System: Successfully initialized
+HOTBAR LAYOUT zh_CN slots=10 rect=[P: (186.0, 328.0), S: (268.0, 32.0)] viewport=(640, 360)
+HOTBAR LAYOUT en slots=10 rect=[P: (186.0, 328.0), S: (268.0, 32.0)] viewport=(640, 360)
+HOTBAR LAYOUT ja slots=10 rect=[P: (186.0, 328.0), S: (268.0, 32.0)] viewport=(640, 360)
+HOTBAR LAYOUT zh_TW slots=10 rect=[P: (186.0, 328.0), S: (268.0, 32.0)] viewport=(640, 360)
+HOTBAR BOTTOM CAPTURE COMPLETE
+FMOD Sound System: System released

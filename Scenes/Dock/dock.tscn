@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scenes/Dock/dock.gd" id="1_dock"]
+
+[node name="TideDock" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_dock")

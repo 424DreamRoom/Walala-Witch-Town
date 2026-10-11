@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-11",
+  "godot": "4.7.2",
+  "tests": {
+    "town": {
+      "checks": 117,
+      "status": "PASS",
+      "log": "output/loop_town_map_art_pass.log"
+    },
+    "transitions": {
+      "checks": 216,
+      "status": "PASS",
+      "log": "output/loop_transitions_map_art_pass.log"
+    },
+    "map": {
+      "checks": 41,
+      "status": "PASS",
+      "log": "output/loop_map_map_art_pass.log"
+    }
+  },
+  "runtime_checks": 374,
+  "road_centre_samples": 11387,
+  "navigation_targets": 33,
+  "nearest_scaling_views": 14,
+  "protected_originals": {
+    "MyArt/Icon/Food/bread.aseprite": "a927c5cf7235037d950d872d55ab8b74d54bb5da19e24d628fe42cb14ce912fc",
+    "MyArt/Icon/Food/egg.aseprite": "c840e3e3b9be549cb649a46adc547f90729563ee3fa445ae5a84b9e26e98abf6",
+    "MyArt/Icon/Food/tomato.aseprite": "030bd906466fb693e8a659ee79193ce1c663c91f2c7320c10b4ee1cb5f4b64cf"
+  },
+  "protected_originals_status": "PASS",
+  "unchanged_originals_and_sprites": 100,
+  "town_size": [
+    1600,
+    1536
+  ],
+  "landscape_groups": 9,
+  "new_props": 23,
+  "relocated_road_obstacles": 8,
+  "changed_baseline_files": [
+    "Art/Environment/Hearthwood/README.md",
+    "Art/Environment/Hearthwood/farm_ground.png",
+    "Art/Environment/Hearthwood/farm_overview.png",
+    "Art/Environment/Hearthwood/manifest.json",
+    "Art/Environment/Hearthwood/tools/build_farm.py",
+    "Art/Environment/Hearthwood/tools/build_town_layout.py",
+    "Art/Environment/Hearthwood/town_ground.png",
+    "Art/Environment/Hearthwood/town_layout.json",
+    "Art/Environment/Hearthwood/town_overview.png",
+    "Scenes/LanternLane/README.md",
+    "Scenes/LanternLane/verification_navigation.gd",
+    "Scenes/LanternLane/verify_town_plan.gd",
+    "Sounds/Walala/footstep_surfaces.gd"
+  ],
+  "new_source_files": [
+    "Art/Environment/Hearthwood/tools/build_town_landscape.py",
+    "Art/Environment/Hearthwood/tools/validate_town_landscape.py",
+    "Art/Environment/Hearthwood/MAP_ART_NOTES.md"
+  ]
+}

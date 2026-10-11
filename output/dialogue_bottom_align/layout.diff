@@ -1,0 +1,42 @@
+--- before/game_hud.gd
++++ Scenes/UI/game_hud.gd
+@@ -322,8 +322,15 @@
+ 	choices = dialogue_choices.duplicate()
+ 	line_index = 0
+ 	history.clear()
++	var dialogue_layout := Control.new()
++	dialogue_layout.name = "DialogueLayout"
++	dialogue_layout.size = Vector2(640,310)
++	# Align the portrait and text frames with the bottom edge of the item bar.
++	dialogue_layout.position.y = hotbar_art.get_rect().end.y - dialogue_layout.size.y
++	dialogue_layout.mouse_filter = Control.MOUSE_FILTER_IGNORE
++	modal.add_child(dialogue_layout)
+ 	# Portrait stamp and name plate echo the journal's wood and parchment.
+-	var portrait := panel(Rect2(56,206,88,104),modal)
++	var portrait := panel(Rect2(56,206,88,104),dialogue_layout)
+ 	var stamp := TextureRect.new()
+ 	stamp.name = "DialoguePortrait"
+ 	var texture: Texture2D = load(portrait_path)
+@@ -342,17 +349,17 @@
+ 	stamp.mouse_filter = Control.MOUSE_FILTER_IGNORE
+ 	portrait.add_child(stamp)
+ 	label("小镇来信",Rect2(8,82,72,16),portrait,UISkin.MUTED_INK)
+-	var name_plate := button(speaker,Rect2(152,200,220,22),modal,func(): pass)
++	var name_plate := button(speaker,Rect2(152,200,220,22),dialogue_layout,func(): pass)
+ 	name_plate.mouse_filter = Control.MOUSE_FILTER_IGNORE
+-	var text_panel := panel(Rect2(152,226,432,84),modal)
++	var text_panel := panel(Rect2(152,226,432,84),dialogue_layout)
+ 	dialogue_text = rich_label("",Rect2(14,10,404,64),text_panel)
+ 	dialogue_text.name = "DialogueText"
+-	button("回看",Rect2(520,200,64,22),modal,toggle_history,"")
++	button("回看",Rect2(520,200,64,22),dialogue_layout,toggle_history,"")
+ 	choices_root = Control.new()
+ 	# Four guide choices extend upward, leaving the history/name row unobscured.
+ 	choices_root.position = Vector2(364,86 - maxi(0, choices.size() - 3) * 29)
+-	modal.add_child(choices_root)
+-	history_panel = panel(Rect2(152,72,432,120),modal)
++	dialogue_layout.add_child(choices_root)
++	history_panel = panel(Rect2(152,72,432,120),dialogue_layout)
+ 	history_panel.mouse_filter = Control.MOUSE_FILTER_STOP
+ 	history_label = rich_label("",Rect2(14,10,404,100),history_panel)
+ 	history_label.name = "DialogueHistory"

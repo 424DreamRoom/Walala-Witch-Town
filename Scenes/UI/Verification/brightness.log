@@ -1,0 +1,20 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+BRIGHTNESS TEST old preferences default to neutral: PASS
+BRIGHTNESS TEST display page has centered brightness control: PASS
+BRIGHTNESS TEST real mouse adjusts and saves brightness: PASS
+BRIGHTNESS TEST existing keyboard input adjusts brightness: PASS
+BRIGHTNESS TEST reopened menu restores saved slider: PASS
+BRIGHTNESS TEST gameplay inherits saved brightness: PASS
+BRIGHTNESS TEST pause settings restore brightness: PASS
+BRIGHTNESS TEST paused adjustment applies and saves immediately: PASS
+BRIGHTNESS TEST brightness preserves time-of-day lighting: PASS
+BRIGHTNESS TEST fresh title scene restores saved brightness: PASS
+BRIGHTNESS TEST display reset restores neutral rendering and slider: PASS
+BRIGHTNESS TEST display reset preserves game and audio settings: PASS
+BRIGHTNESS TEST brightness label translated and fits zh_CN: PASS
+BRIGHTNESS TEST brightness label translated and fits en: PASS
+BRIGHTNESS TEST brightness label translated and fits ja: PASS
+BRIGHTNESS TEST brightness label translated and fits zh_TW: PASS
+BRIGHTNESS TEST startup notice inherits saved brightness: PASS
+BRIGHTNESS VERIFY END failures=0 checks=17

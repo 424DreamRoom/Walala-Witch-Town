@@ -1,0 +1,60 @@
+{
+  "farm_size": [
+    1440,
+    960
+  ],
+  "area_multiplier": 2,
+  "initial_plots": 0,
+  "structures": [
+    "witch_home"
+  ],
+  "persistent_clearing": true,
+  "old_plot_coordinates_preserved": true,
+  "verification": {
+    "farm_capture": {
+      "log": "output/loop_farm_capture_wild_farm.log",
+      "passed_checks": 186,
+      "failed_checks": [],
+      "script_errors": []
+    },
+    "map": {
+      "log": "output/loop_map_wild_farm.log",
+      "passed_checks": 42,
+      "failed_checks": [],
+      "script_errors": []
+    },
+    "harvest": {
+      "log": "output/loop_harvest_wild_farm.log",
+      "passed_checks": 87,
+      "failed_checks": [],
+      "script_errors": []
+    },
+    "scene_transitions": {
+      "log": "output/loop_transitions_wild_farm.log",
+      "passed_checks": 216,
+      "failed_checks": [],
+      "script_errors": []
+    },
+    "equipment": {
+      "log": "Scenes/Equipment/Verification/headless.log",
+      "passed_checks": 169,
+      "failed_checks": [
+        "EQUIPMENT TEST stored legacy tools stay stored as one upgraded wand: FAIL",
+        "EQUIPMENT TEST stored migration preserves ordinary chest positions: FAIL"
+      ],
+      "script_errors": []
+    },
+    "equipment_before_changes": {
+      "log": "output/wild_farm/baseline_equipment.log",
+      "passed_checks": 10,
+      "failed_checks": [
+        "EQUIPMENT TEST stored legacy tools stay stored as one upgraded wand: FAIL",
+        "EQUIPMENT TEST stored migration preserves ordinary chest positions: FAIL"
+      ],
+      "script_errors": []
+    }
+  },
+  "myart_hashes_match": true,
+  "myart_hash_baseline": "output/wild_farm/myart_before.json",
+  "existing_failures": "Two legacy chest-tool migration checks also fail with the pre-change state and verifier backups."
+}

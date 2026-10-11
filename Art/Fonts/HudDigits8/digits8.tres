@@ -1,0 +1,82 @@
+[gd_resource type="FontFile" format=4]
+
+[sub_resource type="Image" id="Image_fwa3q"]
+data = {
+"data": PackedByteArray("////AP//////////////AP///wD///8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP///////////////////wD///8A////AP///wD///8A////////////////////AP///wD///8A////AP///wD/////////AP///wD/////////AP///wD///8A////AP////////////////////////8A////AP///wD///8A////AP///////////////////wD///8A////AP///wD/////////////////////////AP///wD///8A////AP///wD//////////////wD///8A////AP///wD///8A////AP//////////////AP///wD///8A////AP///wD/////////AP///wD/////////AP///wD///8A////AP//////////////AP///wD///8A////AP///wD///8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP////////8A////AP////////8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////////8A////AP///wD///8A/////////wD///8A/////////wD///8A////AP///wD/////////AP///wD/////////AP///wD///8A////AP////////8A////AP////////8A////AP///wD///8A////AP////////8A////AP///wD///8A////AP///wD///8A////AP////////8A////AP///wD///8A////AP///wD//////////////wD///8A////AP///wD///8A/////////////////////////wD///8A////AP///wD///////////////////8A////AP///wD///8A////AP///////////////////wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A//////////////8A////AP///wD///8A////AP////////8A////AP////////8A////AP///wD///8A/////////wD///8A/////////wD///8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A////AP////////8A////AP///wD///8A/////////wD///8A/////////wD///8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP////////8A////AP////////8A////AP///wD///8A////AP///////////////////wD///8A////AP///wD/////////AP///wD/////////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A/////////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A////AP////////8A////AP///wD///8A////AP///wD///8A/////////wD///8A////AP///wD/////////AP///wD/////////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD///8A/////////wD///8A/////////wD///8A////AP///wD///8A////AP///wD/////////AP///wD///8A////AP///wD//////////////wD///8A////AP///wD///8A////////////////////AP///wD///8A////AP///wD/////////////////////////AP///wD///8A////AP///////////////////wD///8A////AP///wD///8A////AP///wD///8A/////////wD///8A////AP///wD///////////////////8A////AP///wD///8A////AP///wD//////////////wD///8A////AP///wD///8A////AP////////8A////AP///wD///8A////AP///wD///8A//////////////8A////AP///wD///8A////AP///////////////////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AA=="),
+"format": "RGBA8",
+"height": 8,
+"mipmaps": false,
+"width": 80
+}
+
+[resource]
+resource_name = "Walala HUD Digits 8"
+antialiasing = 0
+allow_system_fallback = false
+fixed_size = 8
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/8/0/ascent = 7.0
+cache/0/8/0/descent = 1.0
+cache/0/8/0/underline_position = 0.0
+cache/0/8/0/underline_thickness = 0.0
+cache/0/8/0/scale = 1.0
+cache/0/8/0/textures/0/offsets = PackedInt32Array()
+cache/0/8/0/textures/0/image = SubResource("Image_fwa3q")
+cache/0/8/0/glyphs/48/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/48/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/48/size = Vector2(4, 6)
+cache/0/8/0/glyphs/48/uv_rect = Rect2(0, 0, 4, 6)
+cache/0/8/0/glyphs/48/texture_idx = 0
+cache/0/8/0/glyphs/49/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/49/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/49/size = Vector2(4, 6)
+cache/0/8/0/glyphs/49/uv_rect = Rect2(8, 0, 4, 6)
+cache/0/8/0/glyphs/49/texture_idx = 0
+cache/0/8/0/glyphs/50/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/50/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/50/size = Vector2(4, 6)
+cache/0/8/0/glyphs/50/uv_rect = Rect2(16, 0, 4, 6)
+cache/0/8/0/glyphs/50/texture_idx = 0
+cache/0/8/0/glyphs/51/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/51/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/51/size = Vector2(4, 6)
+cache/0/8/0/glyphs/51/uv_rect = Rect2(24, 0, 4, 6)
+cache/0/8/0/glyphs/51/texture_idx = 0
+cache/0/8/0/glyphs/52/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/52/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/52/size = Vector2(4, 6)
+cache/0/8/0/glyphs/52/uv_rect = Rect2(32, 0, 4, 6)
+cache/0/8/0/glyphs/52/texture_idx = 0
+cache/0/8/0/glyphs/53/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/53/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/53/size = Vector2(4, 6)
+cache/0/8/0/glyphs/53/uv_rect = Rect2(40, 0, 4, 6)
+cache/0/8/0/glyphs/53/texture_idx = 0
+cache/0/8/0/glyphs/54/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/54/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/54/size = Vector2(4, 6)
+cache/0/8/0/glyphs/54/uv_rect = Rect2(48, 0, 4, 6)
+cache/0/8/0/glyphs/54/texture_idx = 0
+cache/0/8/0/glyphs/55/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/55/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/55/size = Vector2(4, 6)
+cache/0/8/0/glyphs/55/uv_rect = Rect2(56, 0, 4, 6)
+cache/0/8/0/glyphs/55/texture_idx = 0
+cache/0/8/0/glyphs/56/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/56/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/56/size = Vector2(4, 6)
+cache/0/8/0/glyphs/56/uv_rect = Rect2(64, 0, 4, 6)
+cache/0/8/0/glyphs/56/texture_idx = 0
+cache/0/8/0/glyphs/57/advance = Vector2(5, 0)
+cache/0/8/0/glyphs/57/offset = Vector2(0, -6)
+cache/0/8/0/glyphs/57/size = Vector2(4, 6)
+cache/0/8/0/glyphs/57/uv_rect = Rect2(72, 0, 4, 6)
+cache/0/8/0/glyphs/57/texture_idx = 0

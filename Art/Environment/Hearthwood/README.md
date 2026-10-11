@@ -1,10 +1,30 @@
 # 木香小镇环境美术
 
+2026-10-11 景观优化：现有建筑与道路坐标保留，新增 23 个景物，组成 9 组树丛及花草；小镇共有 165 个独立装饰。草地减弱均匀散点、庭院按地基改变轮廓，喷泉增加铺地圆环，河岸增加芦苇，8 处路中物件移到路边。农场入口砖缝补齐石路底色。参考教程、源码、前后实机截图和验证结果见 [地图场景美术记录](MAP_ART_NOTES.md)。
+
+当前小镇为1600×1536，是原1280×960面积的两倍。保留中央月泉广场和原八栋建筑的位置，向东和向南增加花房、画室、书屋、风车与住宅，共16栋建筑、30条道路、9片街区和165个独立装饰。东侧河岸外移，木栈道连接新的地图东缘 `(1592,652)`。玩家房屋 `shop_0.png` 位于独立月芽农场，小镇西侧道路继续通往农场；农场规则见 `Scenes/Farm/README.md`。小镇布局与地面绘制源为 `tools/build_town_layout.py`；入口、河岸碰撞和脚步声均读取 `town_layout.json`。
+
+`tools/build_town_architecture.py` 在原生像素网格上分别绘制低坡餐厅、钟楼会馆、双山墙家具店、尖顶木屋、折坡屋、河岸小屋和玻璃花房等外观；轮廓、材质、开窗和门廊均有区别。铁匠铺、杂货店和农场主屋原图保留。新增建筑当前是可绕行的景观建筑，没有添加室内、交易或新的按键提示。全部输出仅位于 `Art/`；`MyArt/` 保持只读。
+
+小镇单独重建与验证：
+
+```powershell
+python Art/Environment/Hearthwood/tools/build_town_layout.py
+python Art/Environment/Hearthwood/tools/validate_town_layout.py --rebuild
+python Scenes/Gameplay/run_verification.py town
+python Scenes/Gameplay/run_verification.py town_capture
+python Art/Environment/Hearthwood/tools/validate_town_layout.py --screens
+```
+
+验证设置、存档和截图位于 `output/verification_profiles/` 和 `output/town_expansion/`，不使用玩家正式进度。地图面板、镜头和地图边界从布局读取尺寸；存档校验接受新范围并保留旧坐标。构建验证同时检查原稿哈希、建筑轮廓区别、屋顶无重叠、33处目标连通及确定性重建。
+
+余烬铁匠铺位于东侧河边，橡果杂货店位于广场北面，两者都有独立外观与640×480室内。原创逐像素绘制源为 `tools/build_businesses.py`。铁匠铺有四帧炉火、石地工区与锻造家具；商店有条纹遮棚、货架、柜台和食材陈列。两者均接入 E 进出、家具碰撞、Y 排序、白天柜台服务和共享库存。操作、交易规则及验证入口见 `Scenes/Businesses/README.md`；导出时还须包含 `blacksmith_layout.json` 与 `store_layout.json`。
+
 根据 `游戏参考截屏/东方夜雀食堂/主角的家（加上主角）.png` 的视觉特征制作的原创 PNG 像素素材：斜俯视、深色细轮廓、木纹和织物纹样、柔和的灰绿与玫瑰色家具、窗边暖光。截图仅提供室内参考，室外屋顶、树木与石路据此延伸设计。没有复制截图像素、原作角色或 UI。
 
 制作方式为用户确认的逐像素绘制，使用 Pillow 在原生分辨率落点，不调用图像生成 API。`tools/build_art.py` 为可重建的绘制源，`manifest.json` 记录固定随机种子、调色板和资源尺寸。
 
-- 小镇：`town_ground.png`、九间 `shop_*.png`、`town_tree.png`、`planter.png`、`menu.png`；1280×960 世界，沿用既有建筑和道路位置。
+- 小镇：`town_ground.png`、`shop_3.png` 至 `shop_8.png`、`town_*` 新建筑及原铁匠铺、杂货店；1600×1536 世界，沿用原街区坐标并增加东园与南坡环路。
 - 野外与餐厅：`field_background.png`、`restaurant_background.png`，以及四种 `gather_*.png`；640×360 原生画布。
 - 小女巫之家：`home_ground.png` 和独立的 `home_*.png` 家具；640×480 世界。床、书架、药剂台、厨房、沙发、圆桌、木凳和书桌使用同一材质与像素尺度。
 - `town_layout.json`、`home_layout.json`、`field_layout.json`：地图对象、碰撞、入口与出生点数据。
@@ -45,7 +65,7 @@ python Art/Environment/Hearthwood/tools/build_ambient.py --runtime-preview
 
 ## 进入小女巫之家
 
-F5 运行项目，从出生点向西走到第一间绿屋顶住宅，在门前“家 E”路标处按 E。室内底部台阶处按 E 回到小镇；R 回到室内安全出生点。家具独立加载并参与碰撞和 Y 排序，镜头随角色滚动，室内停止雨雪绘制与雨声。
+F5 运行项目，从出生点沿西侧石路走到尽头进入月芽农场，再走到北侧绿屋顶住宅门口自动进屋。室内底部台阶向下走回到农场；R 回到室内安全出生点。家具独立加载并参与碰撞和 Y 排序，镜头随角色滚动，室内停止雨雪绘制与雨声。
 
 ## 验证记录
 

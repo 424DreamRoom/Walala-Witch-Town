@@ -1,0 +1,53 @@
+{
+  "checked": "2026-10-11",
+  "assets": [
+    {
+      "file": "title.ogg",
+      "title": "A Place I Call Home",
+      "author": "Juhani Junkala / SubspaceAudio",
+      "source": "https://opengameart.org/content/jrpg-pack-4-calm",
+      "download": "https://opengameart.org/sites/default/files/JRPG%20Music%20Pack%20%234%20%5BCalm%5D%20by%20Juhani%20Junkala_0.zip",
+      "archive": "jrpg_calm.zip",
+      "archive_member": "Calm1 - A Place I Call Home.ogg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Original audio bytes; renamed, runtime gain/loop only",
+      "sha256": "23ccb48a41d9cb8c5c8d9e9e14b6db2a55190042e5928489da0464d4b1d97ca1",
+      "bytes": 1501500,
+      "context": "title",
+      "gain_db": -6.0
+    },
+    {
+      "file": "day.ogg",
+      "title": "Peaceful Days",
+      "author": "Juhani Junkala / SubspaceAudio",
+      "source": "https://opengameart.org/content/jrpg-pack-4-calm",
+      "download": "https://opengameart.org/sites/default/files/JRPG%20Music%20Pack%20%234%20%5BCalm%5D%20by%20Juhani%20Junkala_0.zip",
+      "archive": "jrpg_calm.zip",
+      "archive_member": "Calm3 - Peaceful Days.ogg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Original audio bytes; renamed, runtime gain/loop only",
+      "sha256": "4a0cda1f31344bd742c77c6b8af36e379802b28ae84f4ef2f7a86d6cab56cda8",
+      "bytes": 1938371,
+      "context": "day_town",
+      "gain_db": -6.0
+    },
+    {
+      "file": "night.ogg",
+      "title": "Summer Memories",
+      "author": "Juhani Junkala / SubspaceAudio",
+      "source": "https://opengameart.org/content/jrpg-pack-4-calm",
+      "download": "https://opengameart.org/sites/default/files/JRPG%20Music%20Pack%20%234%20%5BCalm%5D%20by%20Juhani%20Junkala_0.zip",
+      "archive": "jrpg_calm.zip",
+      "archive_member": "Calm5 - Summer Memories.ogg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Original audio bytes; renamed, runtime gain/loop only",
+      "sha256": "f46c88b234dedd03aec38e83c8ae8760da9b9e6405563f3d327127dfb0e9e368",
+      "bytes": 2239428,
+      "context": "night_town3",
+      "gain_db": -6.0
+    }
+  ]
+}

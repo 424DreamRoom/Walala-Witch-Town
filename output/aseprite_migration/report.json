@@ -1,0 +1,36 @@
+{
+  "assets": 3076,
+  "existing_sources_not_overwritten": 247,
+  "protected_myart_sources": 3,
+  "preserved_concurrent_sources": [
+    "Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.aseprite"
+  ],
+  "aseprite_reopen": true,
+  "png_pixels_exact": true,
+  "tilemap_gpu_pixels_exact": 11,
+  "png_free_export": true,
+  "town": {
+    "checks": 117,
+    "failures": 0
+  },
+  "transitions": {
+    "checks": 216,
+    "failures": 0
+  },
+  "map": {
+    "checks": 41,
+    "failures": 0
+  },
+  "farm": {
+    "checks": 180,
+    "failures": 0
+  },
+  "food": {
+    "checks": 492,
+    "failures": 0
+  },
+  "businesses": {
+    "checks": 96,
+    "failures": 0
+  }
+}

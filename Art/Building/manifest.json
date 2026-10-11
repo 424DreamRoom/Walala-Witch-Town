@@ -1,0 +1,346 @@
+{
+  "count": 68,
+  "icons": [
+    {
+      "id": "stool",
+      "path": "icons/stool.svg",
+      "sha256": "99768474c3001bc41890088c2bc77458748b2e85c1dcfd2811ef02691678e48b"
+    },
+    {
+      "id": "table",
+      "path": "icons/table.svg",
+      "sha256": "2c1e8aa43c4a43e8700be0441b388abb8f67d5f920c27128eec732787fbf2c20"
+    },
+    {
+      "id": "bookcase",
+      "path": "icons/bookcase.svg",
+      "sha256": "7f0417dc7738d3fe4678b38a9b9456cac1b41c09707af5b4a133656742bb0a0b"
+    },
+    {
+      "id": "sofa",
+      "path": "icons/sofa.svg",
+      "sha256": "576106852e37df62c472568d5704a227149207958655c9118bbd1c97af1399e1"
+    },
+    {
+      "id": "desk",
+      "path": "icons/desk.svg",
+      "sha256": "4d3d5160aaa83ffffca0474c7ea828e78ebde2014ea53c0a5089b14be8ccc4f1"
+    },
+    {
+      "id": "bed",
+      "path": "icons/bed.svg",
+      "sha256": "34a8f933ea744b58f64f3efbf413a677724cb3deb542d1143b2e798393fc4a70"
+    },
+    {
+      "id": "chest",
+      "path": "icons/chest.svg",
+      "sha256": "8a739f959a43e7da098d7d61cde216d7abfc4aef10686833b3f4302fdc07eba9"
+    },
+    {
+      "id": "workbench",
+      "path": "icons/workbench.svg",
+      "sha256": "b2e59edfda39b3f7d4a3f618f0d2e15195f367034f6d535898138ab4e506efc9"
+    },
+    {
+      "id": "picket_fence",
+      "path": "icons/picket_fence.svg",
+      "sha256": "bfd203ed772005d652a3a34ff4be03ae1acff407c1f6d67ceabec86671e2f853"
+    },
+    {
+      "id": "log_fence",
+      "path": "icons/log_fence.svg",
+      "sha256": "2526621931ec6c7494a41623d8502287517ac4bc66f2db41cb73fb4be2586ac7"
+    },
+    {
+      "id": "lattice_fence",
+      "path": "icons/lattice_fence.svg",
+      "sha256": "8c8a5d095f9a461ee81ae4dc45cbc6e7616272c7b25bb6475e355e3e0b4caf7d"
+    },
+    {
+      "id": "stone_wall",
+      "path": "icons/stone_wall.svg",
+      "sha256": "5232f2ef267097f4596a58220127e5ee9242c6ce8bae55a03539c25c5e5911e9"
+    },
+    {
+      "id": "iron_fence",
+      "path": "icons/iron_fence.svg",
+      "sha256": "aed8daeacfc500d67b8e2ceb36d3b1e27c59b9c9e07125a7fc487a6463012f4d"
+    },
+    {
+      "id": "hedge",
+      "path": "icons/hedge.svg",
+      "sha256": "f2de1e487b1522ddd196a0c25168b65b5c6cbb0d6d901e6f1f70135383356d7e"
+    },
+    {
+      "id": "wood_gate",
+      "path": "icons/wood_gate.svg",
+      "sha256": "bff41969a6c312f98aa105d44fd8823e3b04045d84ca122b6a8fccfbc7f13427"
+    },
+    {
+      "id": "iron_gate",
+      "path": "icons/iron_gate.svg",
+      "sha256": "4f64f1adf0195cd0bf6569f38b021557e2c03ea4f44ef810fbc95dfdecca6a49"
+    },
+    {
+      "id": "wood_path",
+      "path": "icons/wood_path.svg",
+      "sha256": "98e19ff4e82f5fafd99b95adc422f7f19d97941b4eb5cb0e9ab1959b908653b7"
+    },
+    {
+      "id": "stone_path",
+      "path": "icons/stone_path.svg",
+      "sha256": "8dc3471710843cd7495d843474b8ac1ec670fe6e939e2b902bab3af750f38ade"
+    },
+    {
+      "id": "brick_path",
+      "path": "icons/brick_path.svg",
+      "sha256": "e5c767f0020c5a0c70a925f89141c5cce43cae7071ceceab14930dd21360e5cd"
+    },
+    {
+      "id": "gravel_path",
+      "path": "icons/gravel_path.svg",
+      "sha256": "b09903a161282e30d0f86477ab997ef38302e8d6ffb69384a846c541429c429e"
+    },
+    {
+      "id": "moss_path",
+      "path": "icons/moss_path.svg",
+      "sha256": "ee147cb673d00c71989c0f17787b25ecda79e05110d8cbcf5d909b7964ffb505"
+    },
+    {
+      "id": "stepping_stones",
+      "path": "icons/stepping_stones.svg",
+      "sha256": "c98bd34b8167923b9ae88a1b90edeaeab5d9381f0b69753c698d9e61cc1d509c"
+    },
+    {
+      "id": "single_bed",
+      "path": "icons/single_bed.svg",
+      "sha256": "9af55002dfe1be26b732051d4ad55225686fd7ceb20f3323659f5c669009af70"
+    },
+    {
+      "id": "double_bed",
+      "path": "icons/double_bed.svg",
+      "sha256": "035ecd24dbd86b6bf2a32df4332ddb9b770c8ae3c75698e4cd8ecce9eda689c8"
+    },
+    {
+      "id": "canopy_bed",
+      "path": "icons/canopy_bed.svg",
+      "sha256": "580af1681c198ac726e9d88c7d3e24a72fd26f539eb22bddb0dac7976ec6268d"
+    },
+    {
+      "id": "hammock",
+      "path": "icons/hammock.svg",
+      "sha256": "7e435a0e594f76eda2234f2589fa39d780f1278dc89868795a3811c617455626"
+    },
+    {
+      "id": "chair",
+      "path": "icons/chair.svg",
+      "sha256": "6596a3fb2a373b2d740b3a39e24289bc2252b342c94e63952bd50306ab57e1d0"
+    },
+    {
+      "id": "armchair",
+      "path": "icons/armchair.svg",
+      "sha256": "00429c74b78e68afb1eab7b5456b4ffc5fde9e1316668644699f711a4e84e4d5"
+    },
+    {
+      "id": "bench",
+      "path": "icons/bench.svg",
+      "sha256": "39edd53d9dc6ec4f0e796d122bad5bad080679055489068ffa612bb74d05c497"
+    },
+    {
+      "id": "rocking_chair",
+      "path": "icons/rocking_chair.svg",
+      "sha256": "4a5610d3e370eb15ff7e94f4c3b37e46b0d7d72da80ee0f8399409e6fec9cbbb"
+    },
+    {
+      "id": "garden_bench",
+      "path": "icons/garden_bench.svg",
+      "sha256": "49a616f273b831e5bc35477c11553fb2c959810e266ebce9f76a3d6a6af4926d"
+    },
+    {
+      "id": "square_table",
+      "path": "icons/square_table.svg",
+      "sha256": "11fc42869f58f8d7f1c2f3aa16cd5a9d5e3ae12cedf0bc877f5cdc24ba7c4b22"
+    },
+    {
+      "id": "long_table",
+      "path": "icons/long_table.svg",
+      "sha256": "3c2f467389e124a6e884eba5ff73b4384a7cbe1e1a52f4b2952709da0983d3f0"
+    },
+    {
+      "id": "tea_table",
+      "path": "icons/tea_table.svg",
+      "sha256": "059b14f51953e7a6fb80f7a9050ad6b68e3fa2969d06c7ee4e6f57217a61316c"
+    },
+    {
+      "id": "picnic_table",
+      "path": "icons/picnic_table.svg",
+      "sha256": "9d4a692eec5dccf98c7955ad539ea85283cf189b5e9bdac0724421c32faf6ac8"
+    },
+    {
+      "id": "wardrobe",
+      "path": "icons/wardrobe.svg",
+      "sha256": "9e5ab3370cf8310fb65f1695711d773523856138b475f06b60b3b729cc622e5d"
+    },
+    {
+      "id": "cupboard",
+      "path": "icons/cupboard.svg",
+      "sha256": "268f33ee6444dd0788d0ca0d14dae87aac6ccc7ab13182e099717a07893ad37f"
+    },
+    {
+      "id": "low_shelf",
+      "path": "icons/low_shelf.svg",
+      "sha256": "7d6bfd0e717caaa692ce36af9d92f67052be19b7ee2b3474447e3e638c596ce1"
+    },
+    {
+      "id": "wall_shelf",
+      "path": "icons/wall_shelf.svg",
+      "sha256": "01d00ccb55930552e08a50f36ad32c98b91551576e98f4b5b0fb426180bdb54e"
+    },
+    {
+      "id": "barrel",
+      "path": "icons/barrel.svg",
+      "sha256": "601f68ed505b59bae945f772a67ee81dd238148d8a04023248f4a13a9996e37f"
+    },
+    {
+      "id": "candle",
+      "path": "icons/candle.svg",
+      "sha256": "5635c7653d42784e4d8219f7870b460e63823156978faefb51c3fb9fa7d1e667"
+    },
+    {
+      "id": "lantern",
+      "path": "icons/lantern.svg",
+      "sha256": "3a04575aba3bb6b529722df42cf58ed543ecec9ccbdf0d104e96d590730ed26c"
+    },
+    {
+      "id": "floor_lamp",
+      "path": "icons/floor_lamp.svg",
+      "sha256": "f88301a2791f841918c9c6bfcd658b46472d0f205b3e797762d421657026efec"
+    },
+    {
+      "id": "street_lamp",
+      "path": "icons/street_lamp.svg",
+      "sha256": "a80562bb0f16fdb0a709fdb9e7e16ed858eb7d57f7aa1ff713d71840e8db2726"
+    },
+    {
+      "id": "mushroom_lamp",
+      "path": "icons/mushroom_lamp.svg",
+      "sha256": "078798707f2a16d95ee15af26c69b937e2cb8fecc5cdd2d2b54900b552a40558"
+    },
+    {
+      "id": "crystal_lamp",
+      "path": "icons/crystal_lamp.svg",
+      "sha256": "1f86ece485a144189f4179444e520a869a5e36e505a3d492708e211aa7c25d74"
+    },
+    {
+      "id": "oval_rug",
+      "path": "icons/oval_rug.svg",
+      "sha256": "508c84d61dea6a7bcc23dfda780ce50d7659e869da02cfd2d8a1f405c322d10e"
+    },
+    {
+      "id": "round_rug",
+      "path": "icons/round_rug.svg",
+      "sha256": "fefcaf250b8a50b68e93ca27785e9133b4e6852cca02edb03548788ad23921b1"
+    },
+    {
+      "id": "star_rug",
+      "path": "icons/star_rug.svg",
+      "sha256": "e63b0f919d24176358de51b353186060197add9432db6f46de24b24524aa7b13"
+    },
+    {
+      "id": "mirror",
+      "path": "icons/mirror.svg",
+      "sha256": "38834cdf2de9e6bf378e5de58d3f0c4d93b22aad9ebe69635a224c03e19f1fd8"
+    },
+    {
+      "id": "clock",
+      "path": "icons/clock.svg",
+      "sha256": "b113d8d0308831590387959299923f0934fc9f73be7b81625cd5e538cb8f640a"
+    },
+    {
+      "id": "painting",
+      "path": "icons/painting.svg",
+      "sha256": "e2dc4bf660404f99fae407e34892f609405d749ae91e1d10c5b26020170feec9"
+    },
+    {
+      "id": "globe",
+      "path": "icons/globe.svg",
+      "sha256": "c4607c5959eeb020a2c143bd94e2b93dbedc71e40b3a852706aa1e58696e1795"
+    },
+    {
+      "id": "vase",
+      "path": "icons/vase.svg",
+      "sha256": "2b0ad0594ba693566e066196857cc99e4cdc7ee50bfb56f69cb310a69d3ae4f2"
+    },
+    {
+      "id": "aquarium",
+      "path": "icons/aquarium.svg",
+      "sha256": "de965f5d5f9c62766052feb13a4164615dcc4baa097658d12c59477fd6468d21"
+    },
+    {
+      "id": "music_box",
+      "path": "icons/music_box.svg",
+      "sha256": "5392e04588baaafb78e9ce3571ae1899f1b47abd702126aa7dbbe3346efd199d"
+    },
+    {
+      "id": "flower_box",
+      "path": "icons/flower_box.svg",
+      "sha256": "f6b3cfda6d00247bf728e615e82b29266c5498c107593ec25e82b6cff931b3f6"
+    },
+    {
+      "id": "clay_planter",
+      "path": "icons/clay_planter.svg",
+      "sha256": "2754c941ca1195bcdf0c823adcd8e636e308a2103325cad3a102f450278bf4ab"
+    },
+    {
+      "id": "herb_planter",
+      "path": "icons/herb_planter.svg",
+      "sha256": "63ab7a218cff088297878e94c3c1d656c05230979c5e13066aa426ecb281c5d9"
+    },
+    {
+      "id": "rose_arch",
+      "path": "icons/rose_arch.svg",
+      "sha256": "927ce390165a755bea7a83d02f9cc86b1146c880d0f6547fe5c0d9cc8d557902"
+    },
+    {
+      "id": "birdbath",
+      "path": "icons/birdbath.svg",
+      "sha256": "9110ef0440583ddb3e9d57e8839d16fcf15ffae4e04e1dd2a5b388872ed5a0bd"
+    },
+    {
+      "id": "scarecrow",
+      "path": "icons/scarecrow.svg",
+      "sha256": "6ce1218823a7f970214974c3e740787667d987bc32f023b42378751d2cb671c7"
+    },
+    {
+      "id": "well",
+      "path": "icons/well.svg",
+      "sha256": "80c1022fc3dc703bc632602f55a4b3bd1c35b88b7c555744c5bcd96eb45e966d"
+    },
+    {
+      "id": "sundial",
+      "path": "icons/sundial.svg",
+      "sha256": "afbb01792b275400ef865f0b20da616ff80d2b879a7319fc0d0a404ecebd94c3"
+    },
+    {
+      "id": "loom",
+      "path": "icons/loom.svg",
+      "sha256": "bcbcdbf3e100a5b61e63e22f5989501774def6de73e80e44dea84b1e9d0e3630"
+    },
+    {
+      "id": "spinning_wheel",
+      "path": "icons/spinning_wheel.svg",
+      "sha256": "37154d993fce829b1401cf03f555ccd7af9c90d38f50c75c6ed8faf82622a735"
+    },
+    {
+      "id": "kiln",
+      "path": "icons/kiln.svg",
+      "sha256": "0043af2f22d4a2abeb1beb922ad48e7f057487a9c5fbce1e00502e5fb983397b"
+    },
+    {
+      "id": "cauldron",
+      "path": "icons/cauldron.svg",
+      "sha256": "600f749b6807aefce25bbd60e9f1e113d1e120a5870670609c2860bf39879de6"
+    }
+  ],
+  "source": "Original code-native SVG silhouettes; no external game assets"
+}

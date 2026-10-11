@@ -3,6 +3,30 @@
     640,
     360
   ],
+  "spawn": [
+    78,
+    318
+  ],
+  "exit": [
+    78,
+    352
+  ],
+  "paths": [
+    {
+      "points": [
+        [
+          78,
+          258
+        ],
+        [
+          78,
+          392
+        ]
+      ],
+      "width": 34,
+      "surface": "dirt"
+    }
+  ],
   "props": [
     {
       "kind": "outdoor_birch",

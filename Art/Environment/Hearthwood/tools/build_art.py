@@ -637,11 +637,12 @@ def plants():
 def field(grass_marks=11500, include_trees=True):
     im = canvas((640, 360), "#34443b")
     d = ImageDraw.Draw(im)
-    d.rectangle((8, 72, 431, 301), fill="#637856")
+    d.rectangle((8, 72, 431, 359), fill="#637856")
     for _ in range(grass_marks):
-        x, y = RNG.randint(9, 429), RNG.randint(74, 299)
+        x, y = RNG.randint(9, 429), RNG.randint(74, 359)
         d.line((x, y, x + RNG.randint(1, 3), y), fill=RNG.choice(["#58704f", "#71835c", "#839269", "#667d57"]))
     d.polygon([(25, 282), (62, 256), (47, 130), (65, 86), (95, 85), (75, 135), (87, 245), (417, 250), (420, 275), (77, 273), (45, 297)], fill="#aa9770")
+    d.rectangle((61, 258, 95, 359), fill="#b3a07b")
     for _ in range(260):
         x, y = RNG.randint(13, 425), RNG.randint(78, 295)
         if im.getpixel((x, y))[:3] == (170, 151, 112):
@@ -659,11 +660,6 @@ def field(grass_marks=11500, include_trees=True):
         if RNG.random() < 0.65:
             d.rectangle((x, y, x + 1, y + 1), fill=RNG.choice([P["cream"], P["rose"], P["violet"]]))
             d.line((x, y + 2, x, y + 4), fill=P["leaf_dark"])
-    wood(d, (34, 273, 86, 287))
-    wood(d, (45, 286, 49, 299), vertical=True)
-    wood(d, (73, 286, 77, 299), vertical=True)
-    d.line((39, 280, 67, 280), fill=P["cream"])
-    d.polygon([(39, 280), (46, 276), (46, 284)], fill=P["cream"])
     return save(im, "field_background")
 
 

@@ -1,0 +1,1225 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+DEPTH 1 tools inherit player depth: PASS
+DEPTH 2 town labels above world: PASS
+DEPTH 3 resident 0 feet origin: PASS
+DEPTH 4 resident 1 feet origin: PASS
+DEPTH 5 residents 1/0 distinct stations: PASS
+DEPTH 6 resident 2 feet origin: PASS
+DEPTH 7 residents 2/0 distinct stations: PASS
+DEPTH 8 residents 2/1 distinct stations: PASS
+DEPTH 9 resident 3 feet origin: PASS
+DEPTH 10 residents 3/0 distinct stations: PASS
+DEPTH 11 residents 3/1 distinct stations: PASS
+DEPTH 12 residents 3/2 distinct stations: PASS
+DEPTH 13 resident 4 feet origin: PASS
+DEPTH 14 residents 4/0 distinct stations: PASS
+DEPTH 15 residents 4/1 distinct stations: PASS
+DEPTH 16 residents 4/2 distinct stations: PASS
+DEPTH 17 residents 4/3 distinct stations: PASS
+DEPTH 18 resident 5 feet origin: PASS
+DEPTH 19 residents 5/0 distinct stations: PASS
+DEPTH 20 residents 5/1 distinct stations: PASS
+DEPTH 21 residents 5/2 distinct stations: PASS
+DEPTH 22 residents 5/3 distinct stations: PASS
+DEPTH 23 residents 5/4 distinct stations: PASS
+DEPTH 24 resident 6 feet origin: PASS
+DEPTH 25 residents 6/0 distinct stations: PASS
+DEPTH 26 residents 6/1 distinct stations: PASS
+DEPTH 27 residents 6/2 distinct stations: PASS
+DEPTH 28 residents 6/3 distinct stations: PASS
+DEPTH 29 residents 6/4 distinct stations: PASS
+DEPTH 30 residents 6/5 distinct stations: PASS
+DEPTH 31 resident 7 feet origin: PASS
+DEPTH 32 residents 7/0 distinct stations: PASS
+DEPTH 33 residents 7/1 distinct stations: PASS
+DEPTH 34 residents 7/2 distinct stations: PASS
+DEPTH 35 residents 7/3 distinct stations: PASS
+DEPTH 36 residents 7/4 distinct stations: PASS
+DEPTH 37 residents 7/5 distinct stations: PASS
+DEPTH 38 residents 7/6 distinct stations: PASS
+DEPTH 39 resident 8 feet origin: PASS
+DEPTH 40 residents 8/0 distinct stations: PASS
+DEPTH 41 residents 8/1 distinct stations: PASS
+DEPTH 42 residents 8/2 distinct stations: PASS
+DEPTH 43 residents 8/3 distinct stations: PASS
+DEPTH 44 residents 8/4 distinct stations: PASS
+DEPTH 45 residents 8/5 distinct stations: PASS
+DEPTH 46 residents 8/6 distinct stations: PASS
+DEPTH 47 residents 8/7 distinct stations: PASS
+DEPTH 48 resident 9 feet origin: PASS
+DEPTH 49 residents 9/0 distinct stations: PASS
+DEPTH 50 residents 9/1 distinct stations: PASS
+DEPTH 51 residents 9/2 distinct stations: PASS
+DEPTH 52 residents 9/3 distinct stations: PASS
+DEPTH 53 residents 9/4 distinct stations: PASS
+DEPTH 54 residents 9/5 distinct stations: PASS
+DEPTH 55 residents 9/6 distinct stations: PASS
+DEPTH 56 residents 9/7 distinct stations: PASS
+DEPTH 57 residents 9/8 distinct stations: PASS
+DEPTH 58 town shared feet sort: PASS
+DEPTH 59 town @StaticBody2D@7 actor depth: PASS
+DEPTH 60 town:blacksmith_exterior opaque probe point: PASS
+DEPTH 61 town:blacksmith_exterior behind is occluded: PASS
+DEPTH 62 town:blacksmith_exterior in front is visible: PASS
+DEPTH 63 town @StaticBody2D@10 actor depth: PASS
+DEPTH 64 town:store_exterior opaque probe point: PASS
+DEPTH 65 town:store_exterior behind is occluded: PASS
+DEPTH 66 town:store_exterior in front is visible: PASS
+DEPTH 67 town @StaticBody2D@13 actor depth: PASS
+DEPTH 68 town:shop_3 opaque probe point: PASS
+DEPTH 69 town:shop_3 behind is occluded: PASS
+DEPTH 70 town:shop_3 in front is visible: PASS
+DEPTH 71 town @StaticBody2D@16 actor depth: PASS
+DEPTH 72 town:shop_4 opaque probe point: PASS
+DEPTH 73 town:shop_4 behind is occluded: PASS
+DEPTH 74 town:shop_4 in front is visible: PASS
+DEPTH 75 town @StaticBody2D@19 actor depth: PASS
+DEPTH 76 town:shop_5 opaque probe point: PASS
+DEPTH 77 town:shop_5 behind is occluded: PASS
+DEPTH 78 town:shop_5 in front is visible: PASS
+DEPTH 79 town @StaticBody2D@22 actor depth: PASS
+DEPTH 80 town:shop_6 opaque probe point: PASS
+DEPTH 81 town:shop_6 behind is occluded: PASS
+DEPTH 82 town:shop_6 in front is visible: PASS
+DEPTH 83 town @StaticBody2D@25 actor depth: PASS
+DEPTH 84 town:shop_7 opaque probe point: PASS
+DEPTH 85 town:shop_7 behind is occluded: PASS
+DEPTH 86 town:shop_7 in front is visible: PASS
+DEPTH 87 town @StaticBody2D@28 actor depth: PASS
+DEPTH 88 town:shop_8 opaque probe point: PASS
+DEPTH 89 town:shop_8 behind is occluded: PASS
+DEPTH 90 town:shop_8 in front is visible: PASS
+DEPTH 91 town @StaticBody2D@31 actor depth: PASS
+DEPTH 92 town:outdoor_mailbox opaque probe point: PASS
+DEPTH 93 town:outdoor_mailbox behind is occluded: PASS
+DEPTH 94 town:outdoor_mailbox in front is visible: PASS
+DEPTH 95 town @Node2D@34 actor depth: PASS
+DEPTH 96 town:outdoor_flowerbed opaque probe point: PASS
+DEPTH 97 town:outdoor_flowerbed behind is occluded: PASS
+DEPTH 98 town:outdoor_flowerbed in front is visible: PASS
+DEPTH 99 town @Node2D@36 actor depth: PASS
+DEPTH 100 town:outdoor_bush opaque probe point: PASS
+DEPTH 101 town:outdoor_bush behind is occluded: PASS
+DEPTH 102 town:outdoor_bush in front is visible: PASS
+DEPTH 103 town @StaticBody2D@38 actor depth: PASS
+DEPTH 104 town:outdoor_fence opaque probe point: PASS
+DEPTH 105 town:outdoor_fence behind is occluded: PASS
+DEPTH 106 town:outdoor_fence in front is visible: PASS
+DEPTH 107 town @StaticBody2D@41 actor depth: PASS
+DEPTH 108 town:outdoor_bench opaque probe point: PASS
+DEPTH 109 town:outdoor_bench behind is occluded: PASS
+DEPTH 110 town:outdoor_bench in front is visible: PASS
+DEPTH 111 town @Node2D@44 actor depth: PASS
+DEPTH 112 town:outdoor_herbs opaque probe point: PASS
+DEPTH 113 town:outdoor_herbs behind is occluded: PASS
+DEPTH 114 town:outdoor_herbs in front is visible: PASS
+DEPTH 115 town @StaticBody2D@46 actor depth: PASS
+DEPTH 116 town:outdoor_lamp opaque probe point: PASS
+DEPTH 117 town:outdoor_lamp behind is occluded: PASS
+DEPTH 118 town:outdoor_lamp in front is visible: PASS
+DEPTH 119 town @Node2D@49 actor depth: PASS
+DEPTH 120 town @StaticBody2D@51 actor depth: PASS
+DEPTH 121 town:outdoor_crates opaque probe point: PASS
+DEPTH 122 town:outdoor_crates behind is occluded: PASS
+DEPTH 123 town:outdoor_crates in front is visible: PASS
+DEPTH 124 town @Node2D@54 actor depth: PASS
+DEPTH 125 town @StaticBody2D@56 actor depth: PASS
+DEPTH 126 town @StaticBody2D@59 actor depth: PASS
+DEPTH 127 town @StaticBody2D@62 actor depth: PASS
+DEPTH 128 town:outdoor_barrel opaque probe point: PASS
+DEPTH 129 town:outdoor_barrel behind is occluded: PASS
+DEPTH 130 town:outdoor_barrel in front is visible: PASS
+DEPTH 131 town @Node2D@65 actor depth: PASS
+DEPTH 132 town @StaticBody2D@67 actor depth: PASS
+DEPTH 133 town @Node2D@70 actor depth: PASS
+DEPTH 134 town @StaticBody2D@72 actor depth: PASS
+DEPTH 135 town @StaticBody2D@75 actor depth: PASS
+DEPTH 136 town @StaticBody2D@78 actor depth: PASS
+DEPTH 137 town @StaticBody2D@81 actor depth: PASS
+DEPTH 138 town @Node2D@84 actor depth: PASS
+DEPTH 139 town @Node2D@86 actor depth: PASS
+DEPTH 140 town @StaticBody2D@88 actor depth: PASS
+DEPTH 141 town @StaticBody2D@91 actor depth: PASS
+DEPTH 142 town @Node2D@94 actor depth: PASS
+DEPTH 143 town @StaticBody2D@96 actor depth: PASS
+DEPTH 144 town @Node2D@99 actor depth: PASS
+DEPTH 145 town @StaticBody2D@101 actor depth: PASS
+DEPTH 146 town @Node2D@104 actor depth: PASS
+DEPTH 147 town @StaticBody2D@106 actor depth: PASS
+DEPTH 148 town @Node2D@109 actor depth: PASS
+DEPTH 149 town @StaticBody2D@111 actor depth: PASS
+DEPTH 150 town @StaticBody2D@114 actor depth: PASS
+DEPTH 151 town @Node2D@117 actor depth: PASS
+DEPTH 152 town @StaticBody2D@119 actor depth: PASS
+DEPTH 153 town @StaticBody2D@122 actor depth: PASS
+DEPTH 154 town @Node2D@125 actor depth: PASS
+DEPTH 155 town @Node2D@127 actor depth: PASS
+DEPTH 156 town @StaticBody2D@129 actor depth: PASS
+DEPTH 157 town @StaticBody2D@132 actor depth: PASS
+DEPTH 158 town @StaticBody2D@135 actor depth: PASS
+DEPTH 159 town:outdoor_pond opaque probe point: PASS
+DEPTH 160 town:outdoor_pond behind is occluded: PASS
+DEPTH 161 town:outdoor_pond in front is visible: PASS
+DEPTH 162 town @StaticBody2D@138 actor depth: PASS
+DEPTH 163 town @Node2D@141 actor depth: PASS
+DEPTH 164 town @Node2D@143 actor depth: PASS
+DEPTH 165 town @Node2D@145 actor depth: PASS
+DEPTH 166 town @StaticBody2D@147 actor depth: PASS
+DEPTH 167 town @StaticBody2D@150 actor depth: PASS
+DEPTH 168 town @StaticBody2D@153 actor depth: PASS
+DEPTH 169 town @StaticBody2D@156 actor depth: PASS
+DEPTH 170 town @StaticBody2D@159 actor depth: PASS
+DEPTH 171 town @Node2D@162 actor depth: PASS
+DEPTH 172 town @Node2D@164 actor depth: PASS
+DEPTH 173 town @StaticBody2D@166 actor depth: PASS
+DEPTH 174 town:outdoor_birch opaque probe point: PASS
+DEPTH 175 town:outdoor_birch behind is occluded: PASS
+DEPTH 176 town:outdoor_birch in front is visible: PASS
+DEPTH 177 town @StaticBody2D@169 actor depth: PASS
+DEPTH 178 town:outdoor_pine opaque probe point: PASS
+DEPTH 179 town:outdoor_pine behind is occluded: PASS
+DEPTH 180 town:outdoor_pine in front is visible: PASS
+DEPTH 181 town @StaticBody2D@172 actor depth: PASS
+DEPTH 182 town @StaticBody2D@175 actor depth: PASS
+DEPTH 183 town @StaticBody2D@178 actor depth: PASS
+DEPTH 184 town @StaticBody2D@181 actor depth: PASS
+DEPTH 185 town @StaticBody2D@184 actor depth: PASS
+DEPTH 186 town @StaticBody2D@187 actor depth: PASS
+DEPTH 187 town @StaticBody2D@190 actor depth: PASS
+DEPTH 188 town @StaticBody2D@193 actor depth: PASS
+DEPTH 189 town @StaticBody2D@196 actor depth: PASS
+DEPTH 190 town @StaticBody2D@199 actor depth: PASS
+DEPTH 191 town @StaticBody2D@202 actor depth: PASS
+DEPTH 192 town @StaticBody2D@205 actor depth: PASS
+DEPTH 193 town @StaticBody2D@208 actor depth: PASS
+DEPTH 194 town @StaticBody2D@211 actor depth: PASS
+DEPTH 195 town @StaticBody2D@214 actor depth: PASS
+DEPTH 196 town @StaticBody2D@217 actor depth: PASS
+DEPTH 197 town @StaticBody2D@220 actor depth: PASS
+DEPTH 198 town @StaticBody2D@223 actor depth: PASS
+DEPTH 199 town @StaticBody2D@226 actor depth: PASS
+DEPTH 200 town @StaticBody2D@229 actor depth: PASS
+DEPTH 201 town @StaticBody2D@232 actor depth: PASS
+DEPTH 202 town @StaticBody2D@235 actor depth: PASS
+DEPTH 203 town @Node2D@238 actor depth: PASS
+DEPTH 204 town @Node2D@240 actor depth: PASS
+DEPTH 205 town @Node2D@242 actor depth: PASS
+DEPTH 206 town @Node2D@244 actor depth: PASS
+DEPTH 207 town @Node2D@246 actor depth: PASS
+DEPTH 208 town @Node2D@248 actor depth: PASS
+DEPTH 209 town @Node2D@250 actor depth: PASS
+DEPTH 210 town @StaticBody2D@252 actor depth: PASS
+DEPTH 211 town:town_fountain opaque probe point: PASS
+DEPTH 212 town:town_fountain behind is occluded: PASS
+DEPTH 213 town:town_fountain in front is visible: PASS
+DEPTH 214 town @Node2D@646 actor depth: PASS
+DEPTH 215 town:@Node2D@646 opaque probe point: PASS
+DEPTH 216 town:@Node2D@646 behind is occluded: PASS
+DEPTH 217 town:@Node2D@646 in front is visible: PASS
+DEPTH 218 town @Node2D@649 actor depth: PASS
+DEPTH 219 town:@Node2D@649 opaque probe point: PASS
+DEPTH 220 town:@Node2D@649 behind is occluded: PASS
+DEPTH 221 town:@Node2D@649 in front is visible: PASS
+DEPTH 222 town @Node2D@652 actor depth: PASS
+DEPTH 223 town:@Node2D@652 opaque probe point: PASS
+DEPTH 224 town:@Node2D@652 behind is occluded: PASS
+DEPTH 225 town:@Node2D@652 in front is visible: PASS
+DEPTH 226 town @Node2D@655 actor depth: PASS
+DEPTH 227 town:@Node2D@655 opaque probe point: PASS
+DEPTH 228 town:@Node2D@655 behind is occluded: PASS
+DEPTH 229 town:@Node2D@655 in front is visible: PASS
+DEPTH 230 town @Node2D@658 actor depth: PASS
+DEPTH 231 town:@Node2D@658 opaque probe point: PASS
+DEPTH 232 town:@Node2D@658 behind is occluded: PASS
+DEPTH 233 town:@Node2D@658 in front is visible: PASS
+DEPTH 234 town @Node2D@661 actor depth: PASS
+DEPTH 235 town:@Node2D@661 opaque probe point: PASS
+DEPTH 236 town:@Node2D@661 behind is occluded: PASS
+DEPTH 237 town:@Node2D@661 in front is visible: PASS
+DEPTH 238 town Resident_mori actor depth: PASS
+DEPTH 239 town:Resident_mori opaque probe point: PASS
+DEPTH 240 town:Resident_mori behind is occluded: PASS
+DEPTH 241 town:Resident_mori in front is visible: PASS
+DEPTH 242 town Resident_ember actor depth: PASS
+DEPTH 243 town:Resident_ember opaque probe point: PASS
+DEPTH 244 town:Resident_ember behind is occluded: PASS
+DEPTH 245 town:Resident_ember in front is visible: PASS
+DEPTH 246 town Resident_nagi actor depth: PASS
+DEPTH 247 town:Resident_nagi opaque probe point: PASS
+DEPTH 248 town:Resident_nagi behind is occluded: PASS
+DEPTH 249 town:Resident_nagi in front is visible: PASS
+DEPTH 250 town Resident_lumi actor depth: PASS
+DEPTH 251 town:Resident_lumi opaque probe point: PASS
+DEPTH 252 town:Resident_lumi behind is occluded: PASS
+DEPTH 253 town:Resident_lumi in front is visible: PASS
+DEPTH 254 town Resident_aster actor depth: PASS
+DEPTH 255 town:Resident_aster opaque probe point: PASS
+DEPTH 256 town:Resident_aster behind is occluded: PASS
+DEPTH 257 town:Resident_aster in front is visible: PASS
+DEPTH 258 town Resident_toma actor depth: PASS
+DEPTH 259 town:Resident_toma opaque probe point: PASS
+DEPTH 260 town:Resident_toma behind is occluded: PASS
+DEPTH 261 town:Resident_toma in front is visible: PASS
+DEPTH 262 town Resident_pip actor depth: PASS
+DEPTH 263 town:Resident_pip opaque probe point: PASS
+DEPTH 264 town:Resident_pip behind is occluded: PASS
+DEPTH 265 town:Resident_pip in front is visible: PASS
+DEPTH 266 town Resident_reed actor depth: PASS
+DEPTH 267 town:Resident_reed opaque probe point: PASS
+DEPTH 268 town:Resident_reed behind is occluded: PASS
+DEPTH 269 town:Resident_reed in front is visible: PASS
+DEPTH 270 town Resident_yuki actor depth: PASS
+DEPTH 271 town:Resident_yuki opaque probe point: PASS
+DEPTH 272 town:Resident_yuki behind is occluded: PASS
+DEPTH 273 town:Resident_yuki in front is visible: PASS
+DEPTH 274 town Resident_orla actor depth: PASS
+DEPTH 275 town:Resident_orla opaque probe point: PASS
+DEPTH 276 town:Resident_orla behind is occluded: PASS
+DEPTH 277 town:Resident_orla in front is visible: PASS
+DEPTH 278 field shared feet sort: PASS
+DEPTH 279 field @StaticBody2D@746 actor depth: PASS
+DEPTH 280 field:outdoor_birch opaque probe point: PASS
+DEPTH 281 field:outdoor_birch behind is occluded: PASS
+DEPTH 282 field:outdoor_birch in front is visible: PASS
+DEPTH 283 field @StaticBody2D@752 actor depth: PASS
+DEPTH 284 field @StaticBody2D@752 resource bar above foliage: PASS
+DEPTH 285 field:outdoor_pine opaque probe point: PASS
+DEPTH 286 field:outdoor_pine behind is occluded: PASS
+DEPTH 287 field:outdoor_pine in front is visible: PASS
+DEPTH 288 field @StaticBody2D@756 actor depth: PASS
+DEPTH 289 field @StaticBody2D@756 resource bar above foliage: PASS
+DEPTH 290 field @StaticBody2D@760 actor depth: PASS
+DEPTH 291 field @StaticBody2D@760 resource bar above foliage: PASS
+DEPTH 292 field @StaticBody2D@764 actor depth: PASS
+DEPTH 293 field @StaticBody2D@764 resource bar above foliage: PASS
+DEPTH 294 field @StaticBody2D@768 actor depth: PASS
+DEPTH 295 field @StaticBody2D@768 resource bar above foliage: PASS
+DEPTH 296 field @StaticBody2D@769 actor depth: PASS
+DEPTH 297 field @StaticBody2D@775 actor depth: PASS
+DEPTH 298 field @StaticBody2D@775 resource bar above foliage: PASS
+DEPTH 299 field @StaticBody2D@776 actor depth: PASS
+DEPTH 300 field @StaticBody2D@779 actor depth: PASS
+DEPTH 301 field @Node2D@782 actor depth: PASS
+DEPTH 302 field:outdoor_fern opaque probe point: PASS
+DEPTH 303 field:outdoor_fern behind is occluded: PASS
+DEPTH 304 field:outdoor_fern in front is visible: PASS
+DEPTH 305 field @Node2D@784 actor depth: PASS
+DEPTH 306 field @Node2D@786 actor depth: PASS
+DEPTH 307 field @Node2D@788 actor depth: PASS
+DEPTH 308 field @Node2D@790 actor depth: PASS
+DEPTH 309 field @Node2D@792 actor depth: PASS
+DEPTH 310 field @Node2D@794 actor depth: PASS
+DEPTH 311 field:outdoor_bush opaque probe point: PASS
+DEPTH 312 field:outdoor_bush behind is occluded: PASS
+DEPTH 313 field:outdoor_bush in front is visible: PASS
+DEPTH 314 field @Node2D@796 actor depth: PASS
+DEPTH 315 field @StaticBody2D@798 actor depth: PASS
+DEPTH 316 field:outdoor_log opaque probe point: PASS
+DEPTH 317 field:outdoor_log behind is occluded: PASS
+DEPTH 318 field:outdoor_log in front is visible: PASS
+DEPTH 319 field @StaticBody2D@804 actor depth: PASS
+DEPTH 320 field @StaticBody2D@804 resource bar above foliage: PASS
+DEPTH 321 field:outdoor_ore opaque probe point: PASS
+DEPTH 322 field:outdoor_ore behind is occluded: PASS
+DEPTH 323 field:outdoor_ore in front is visible: PASS
+DEPTH 324 field @StaticBody2D@808 actor depth: PASS
+DEPTH 325 field @StaticBody2D@808 resource bar above foliage: PASS
+DEPTH 326 field @StaticBody2D@812 actor depth: PASS
+DEPTH 327 field @StaticBody2D@812 resource bar above foliage: PASS
+DEPTH 328 field:outdoor_pond opaque probe point: PASS
+DEPTH 329 field:outdoor_pond behind is occluded: PASS
+DEPTH 330 field:outdoor_pond in front is visible: PASS
+DEPTH 331 field @Node2D@813 actor depth: PASS
+DEPTH 332 field @Node2D@815 actor depth: PASS
+DEPTH 333 field @Node2D@817 actor depth: PASS
+DEPTH 334 field @Node2D@819 actor depth: PASS
+DEPTH 335 field @Node2D@821 actor depth: PASS
+DEPTH 336 field @Node2D@823 actor depth: PASS
+DEPTH 337 field @Node2D@825 actor depth: PASS
+DEPTH 338 field @Node2D@827 actor depth: PASS
+DEPTH 339 field Gather_0 actor depth: PASS
+DEPTH 340 field:Gather_0 opaque probe point: PASS
+DEPTH 341 field:Gather_0 behind is occluded: PASS
+DEPTH 342 field:Gather_0 in front is visible: PASS
+DEPTH 343 field Gather_1 actor depth: PASS
+DEPTH 344 field:Gather_1 opaque probe point: PASS
+DEPTH 345 field:Gather_1 behind is occluded: PASS
+DEPTH 346 field:Gather_1 in front is visible: PASS
+DEPTH 347 field Gather_2 actor depth: PASS
+DEPTH 348 field:Gather_2 opaque probe point: PASS
+DEPTH 349 field:Gather_2 behind is occluded: PASS
+DEPTH 350 field:Gather_2 in front is visible: PASS
+DEPTH 351 field Gather_3 actor depth: PASS
+DEPTH 352 field:Gather_3 opaque probe point: PASS
+DEPTH 353 field:Gather_3 behind is occluded: PASS
+DEPTH 354 field:Gather_3 in front is visible: PASS
+DEPTH 355 field Gather_4 actor depth: PASS
+DEPTH 356 field:Gather_4 opaque probe point: PASS
+DEPTH 357 field:Gather_4 behind is occluded: PASS
+DEPTH 358 field:Gather_4 in front is visible: PASS
+DEPTH 359 field Gather_5 actor depth: PASS
+DEPTH 360 field:Gather_5 opaque probe point: PASS
+DEPTH 361 field:Gather_5 behind is occluded: PASS
+DEPTH 362 field:Gather_5 in front is visible: PASS
+DEPTH 363 field Gather_6 actor depth: PASS
+DEPTH 364 field:Gather_6 opaque probe point: PASS
+DEPTH 365 field:Gather_6 behind is occluded: PASS
+DEPTH 366 field:Gather_6 in front is visible: PASS
+DEPTH 367 field Gather_7 actor depth: PASS
+DEPTH 368 field:Gather_7 opaque probe point: PASS
+DEPTH 369 field:Gather_7 behind is occluded: PASS
+DEPTH 370 field:Gather_7 in front is visible: PASS
+DEPTH 371 field Gather_8 actor depth: PASS
+DEPTH 372 field:Gather_8 opaque probe point: PASS
+DEPTH 373 field:Gather_8 behind is occluded: PASS
+DEPTH 374 field:Gather_8 in front is visible: PASS
+DEPTH 375 dock shared feet sort: PASS
+DEPTH 376 dock @StaticBody2D@846 actor depth: PASS
+DEPTH 377 dock:@StaticBody2D@846 opaque probe point: PASS
+DEPTH 378 dock:@StaticBody2D@846 behind is occluded: PASS
+DEPTH 379 dock:@StaticBody2D@846 in front is visible: PASS
+DEPTH 380 dock @StaticBody2D@849 actor depth: PASS
+DEPTH 381 dock:@StaticBody2D@849 opaque probe point: PASS
+DEPTH 382 dock:@StaticBody2D@849 behind is occluded: PASS
+DEPTH 383 dock:@StaticBody2D@849 in front is visible: PASS
+DEPTH 384 dock @StaticBody2D@852 actor depth: PASS
+DEPTH 385 dock:@StaticBody2D@852 opaque probe point: PASS
+DEPTH 386 dock:@StaticBody2D@852 behind is occluded: PASS
+DEPTH 387 dock:@StaticBody2D@852 in front is visible: PASS
+DEPTH 388 dock @Node2D@855 actor depth: PASS
+DEPTH 389 dock:@Node2D@855 opaque probe point: PASS
+DEPTH 390 dock:@Node2D@855 behind is occluded: PASS
+DEPTH 391 dock:@Node2D@855 in front is visible: PASS
+DEPTH 392 dock @StaticBody2D@857 actor depth: PASS
+DEPTH 393 dock:@StaticBody2D@857 opaque probe point: PASS
+DEPTH 394 dock:@StaticBody2D@857 behind is occluded: PASS
+DEPTH 395 dock:@StaticBody2D@857 in front is visible: PASS
+DEPTH 396 dock @StaticBody2D@860 actor depth: PASS
+DEPTH 397 dock:@StaticBody2D@860 opaque probe point: PASS
+DEPTH 398 dock:@StaticBody2D@860 behind is occluded: PASS
+DEPTH 399 dock:@StaticBody2D@860 in front is visible: PASS
+DEPTH 400 dock @StaticBody2D@863 actor depth: PASS
+DEPTH 401 dock:@StaticBody2D@863 opaque probe point: PASS
+DEPTH 402 dock:@StaticBody2D@863 behind is occluded: PASS
+DEPTH 403 dock:@StaticBody2D@863 in front is visible: PASS
+DEPTH 404 dock @StaticBody2D@866 actor depth: PASS
+DEPTH 405 dock:@StaticBody2D@866 opaque probe point: PASS
+DEPTH 406 dock:@StaticBody2D@866 behind is occluded: PASS
+DEPTH 407 dock:@StaticBody2D@866 in front is visible: PASS
+DEPTH 408 dock @Node2D@869 actor depth: PASS
+DEPTH 409 dock:@Node2D@869 opaque probe point: PASS
+DEPTH 410 dock:@Node2D@869 behind is occluded: PASS
+DEPTH 411 dock:@Node2D@869 in front is visible: PASS
+DEPTH 412 dock @Node2D@871 actor depth: PASS
+DEPTH 413 dock:@Node2D@871 opaque probe point: PASS
+DEPTH 414 dock:@Node2D@871 behind is occluded: PASS
+DEPTH 415 dock:@Node2D@871 in front is visible: PASS
+DEPTH 416 dock @Node2D@873 actor depth: PASS
+DEPTH 417 dock:@Node2D@873 opaque probe point: PASS
+DEPTH 418 dock:@Node2D@873 behind is occluded: PASS
+DEPTH 419 dock:@Node2D@873 in front is visible: PASS
+DEPTH 420 dock @StaticBody2D@875 actor depth: PASS
+DEPTH 421 dock:@StaticBody2D@875 opaque probe point: PASS
+DEPTH 422 dock:@StaticBody2D@875 behind is occluded: PASS
+DEPTH 423 dock:@StaticBody2D@875 in front is visible: PASS
+DEPTH 424 dock @StaticBody2D@878 actor depth: PASS
+DEPTH 425 dock:@StaticBody2D@878 opaque probe point: PASS
+DEPTH 426 dock:@StaticBody2D@878 behind is occluded: PASS
+DEPTH 427 dock:@StaticBody2D@878 in front is visible: PASS
+DEPTH 428 dock @StaticBody2D@881 actor depth: PASS
+DEPTH 429 dock:@StaticBody2D@881 opaque probe point: PASS
+DEPTH 430 dock:@StaticBody2D@881 behind is occluded: PASS
+DEPTH 431 dock:@StaticBody2D@881 in front is visible: PASS
+DEPTH 432 dock @StaticBody2D@884 actor depth: PASS
+DEPTH 433 dock:@StaticBody2D@884 opaque probe point: PASS
+DEPTH 434 dock:@StaticBody2D@884 behind is occluded: PASS
+DEPTH 435 dock:@StaticBody2D@884 in front is visible: PASS
+DEPTH 436 dock @StaticBody2D@887 actor depth: PASS
+DEPTH 437 dock:@StaticBody2D@887 opaque probe point: PASS
+DEPTH 438 dock:@StaticBody2D@887 behind is occluded: PASS
+DEPTH 439 dock:@StaticBody2D@887 in front is visible: PASS
+DEPTH 440 dock @StaticBody2D@890 actor depth: PASS
+DEPTH 441 dock:@StaticBody2D@890 opaque probe point: PASS
+DEPTH 442 dock:@StaticBody2D@890 behind is occluded: PASS
+DEPTH 443 dock:@StaticBody2D@890 in front is visible: PASS
+DEPTH 444 dock @StaticBody2D@893 actor depth: PASS
+DEPTH 445 dock:@StaticBody2D@893 opaque probe point: PASS
+DEPTH 446 dock:@StaticBody2D@893 behind is occluded: PASS
+DEPTH 447 dock:@StaticBody2D@893 in front is visible: PASS
+DEPTH 448 dock @StaticBody2D@896 actor depth: PASS
+DEPTH 449 dock:@StaticBody2D@896 opaque probe point: PASS
+DEPTH 450 dock:@StaticBody2D@896 behind is occluded: PASS
+DEPTH 451 dock:@StaticBody2D@896 in front is visible: PASS
+DEPTH 452 dock @StaticBody2D@899 actor depth: PASS
+DEPTH 453 dock:@StaticBody2D@899 opaque probe point: PASS
+DEPTH 454 dock:@StaticBody2D@899 behind is occluded: PASS
+DEPTH 455 dock:@StaticBody2D@899 in front is visible: PASS
+DEPTH 456 dock @StaticBody2D@902 actor depth: PASS
+DEPTH 457 dock:@StaticBody2D@902 opaque probe point: PASS
+DEPTH 458 dock:@StaticBody2D@902 behind is occluded: PASS
+DEPTH 459 dock:@StaticBody2D@902 in front is visible: PASS
+DEPTH 460 dock @StaticBody2D@908 actor depth: PASS
+DEPTH 461 dock @StaticBody2D@908 resource bar above foliage: PASS
+DEPTH 462 dock:dock_fishing_post opaque probe point: PASS
+DEPTH 463 dock:dock_fishing_post behind is occluded: PASS
+DEPTH 464 dock:dock_fishing_post in front is visible: PASS
+DEPTH 465 dock @StaticBody2D@912 actor depth: PASS
+DEPTH 466 dock @StaticBody2D@912 resource bar above foliage: PASS
+DEPTH 467 dock @StaticBody2D@916 actor depth: PASS
+DEPTH 468 dock @StaticBody2D@916 resource bar above foliage: PASS
+DEPTH 469 home shared feet sort: PASS
+DEPTH 470 home @StaticBody2D@936 actor depth: PASS
+DEPTH 471 home:@StaticBody2D@936 opaque probe point: PASS
+DEPTH 472 home:@StaticBody2D@936 behind is occluded: PASS
+DEPTH 473 home:@StaticBody2D@936 in front is visible: PASS
+DEPTH 474 home @StaticBody2D@939 actor depth: PASS
+DEPTH 475 home:@StaticBody2D@939 opaque probe point: PASS
+DEPTH 476 home:@StaticBody2D@939 behind is occluded: PASS
+DEPTH 477 home:@StaticBody2D@939 in front is visible: PASS
+DEPTH 478 home Furniture1 actor depth: PASS
+DEPTH 479 home:Furniture1 opaque probe point: PASS
+DEPTH 480 home:Furniture1 behind is occluded: PASS
+DEPTH 481 home:Furniture1 in front is visible: PASS
+DEPTH 482 home Furniture2 actor depth: PASS
+DEPTH 483 home:Furniture2 opaque probe point: PASS
+DEPTH 484 home:Furniture2 behind is occluded: PASS
+DEPTH 485 home:Furniture2 in front is visible: PASS
+DEPTH 486 home Furniture3 actor depth: PASS
+DEPTH 487 home:Furniture3 opaque probe point: PASS
+DEPTH 488 home:Furniture3 behind is occluded: PASS
+DEPTH 489 home:Furniture3 in front is visible: PASS
+DEPTH 490 home Furniture4 actor depth: PASS
+DEPTH 491 home:Furniture4 opaque probe point: PASS
+DEPTH 492 home:Furniture4 behind is occluded: PASS
+DEPTH 493 home:Furniture4 in front is visible: PASS
+DEPTH 494 home Furniture5 actor depth: PASS
+DEPTH 495 home:Furniture5 opaque probe point: PASS
+DEPTH 496 home:Furniture5 behind is occluded: PASS
+DEPTH 497 home:Furniture5 in front is visible: PASS
+DEPTH 498 home Furniture6 actor depth: PASS
+DEPTH 499 home:Furniture6 opaque probe point: PASS
+DEPTH 500 home:Furniture6 behind is occluded: PASS
+DEPTH 501 home:Furniture6 in front is visible: PASS
+DEPTH 502 home Furniture7 actor depth: PASS
+DEPTH 503 home:Furniture7 opaque probe point: PASS
+DEPTH 504 home:Furniture7 behind is occluded: PASS
+DEPTH 505 home:Furniture7 in front is visible: PASS
+DEPTH 506 home Furniture8 actor depth: PASS
+DEPTH 507 home:Furniture8 opaque probe point: PASS
+DEPTH 508 home:Furniture8 behind is occluded: PASS
+DEPTH 509 home:Furniture8 in front is visible: PASS
+DEPTH 510 home Furniture9 actor depth: PASS
+DEPTH 511 home:Furniture9 opaque probe point: PASS
+DEPTH 512 home:Furniture9 behind is occluded: PASS
+DEPTH 513 home:Furniture9 in front is visible: PASS
+DEPTH 514 blacksmith shared feet sort: PASS
+DEPTH 515 blacksmith smith_furnace actor depth: PASS
+DEPTH 516 blacksmith:smith_furnace opaque probe point: PASS
+DEPTH 517 blacksmith:smith_furnace behind is occluded: PASS
+DEPTH 518 blacksmith:smith_furnace in front is visible: PASS
+DEPTH 519 blacksmith smith_rack actor depth: PASS
+DEPTH 520 blacksmith:smith_rack opaque probe point: PASS
+DEPTH 521 blacksmith:smith_rack behind is occluded: PASS
+DEPTH 522 blacksmith:smith_rack in front is visible: PASS
+DEPTH 523 blacksmith smith_bellows actor depth: PASS
+DEPTH 524 blacksmith:smith_bellows opaque probe point: PASS
+DEPTH 525 blacksmith:smith_bellows behind is occluded: PASS
+DEPTH 526 blacksmith:smith_bellows in front is visible: PASS
+DEPTH 527 blacksmith smith_workbench actor depth: PASS
+DEPTH 528 blacksmith:smith_workbench opaque probe point: PASS
+DEPTH 529 blacksmith:smith_workbench behind is occluded: PASS
+DEPTH 530 blacksmith:smith_workbench in front is visible: PASS
+DEPTH 531 blacksmith smith_anvil actor depth: PASS
+DEPTH 532 blacksmith:smith_anvil opaque probe point: PASS
+DEPTH 533 blacksmith:smith_anvil behind is occluded: PASS
+DEPTH 534 blacksmith:smith_anvil in front is visible: PASS
+DEPTH 535 blacksmith smith_quench actor depth: PASS
+DEPTH 536 blacksmith:smith_quench opaque probe point: PASS
+DEPTH 537 blacksmith:smith_quench behind is occluded: PASS
+DEPTH 538 blacksmith:smith_quench in front is visible: PASS
+DEPTH 539 blacksmith smith_ore_bin actor depth: PASS
+DEPTH 540 blacksmith:smith_ore_bin opaque probe point: PASS
+DEPTH 541 blacksmith:smith_ore_bin behind is occluded: PASS
+DEPTH 542 blacksmith:smith_ore_bin in front is visible: PASS
+DEPTH 543 blacksmith BlacksmithNPC actor depth: PASS
+DEPTH 544 blacksmith:BlacksmithNPC opaque probe point: PASS
+DEPTH 545 blacksmith:BlacksmithNPC behind is occluded: PASS
+DEPTH 546 blacksmith:BlacksmithNPC in front is visible: PASS
+DEPTH 547 store shared feet sort: PASS
+DEPTH 548 store store_shelves actor depth: PASS
+DEPTH 549 store:store_shelves opaque probe point: PASS
+DEPTH 550 store:store_shelves behind is occluded: PASS
+DEPTH 551 store:store_shelves in front is visible: PASS
+DEPTH 552 store store_dry_shelves actor depth: PASS
+DEPTH 553 store:store_dry_shelves opaque probe point: PASS
+DEPTH 554 store:store_dry_shelves behind is occluded: PASS
+DEPTH 555 store:store_dry_shelves in front is visible: PASS
+DEPTH 556 store @StaticBody2D@1026 actor depth: PASS
+DEPTH 557 store:@StaticBody2D@1026 opaque probe point: PASS
+DEPTH 558 store:@StaticBody2D@1026 behind is occluded: PASS
+DEPTH 559 store:@StaticBody2D@1026 in front is visible: PASS
+DEPTH 560 store store_counter actor depth: PASS
+DEPTH 561 store:store_counter opaque probe point: PASS
+DEPTH 562 store:store_counter behind is occluded: PASS
+DEPTH 563 store:store_counter in front is visible: PASS
+DEPTH 564 store store_sacks actor depth: PASS
+DEPTH 565 store:store_sacks opaque probe point: PASS
+DEPTH 566 store:store_sacks behind is occluded: PASS
+DEPTH 567 store:store_sacks in front is visible: PASS
+DEPTH 568 store store_produce actor depth: PASS
+DEPTH 569 store:store_produce opaque probe point: PASS
+DEPTH 570 store:store_produce behind is occluded: PASS
+DEPTH 571 store:store_produce in front is visible: PASS
+DEPTH 572 farm shared feet sort: PASS
+DEPTH 573 farm @StaticBody2D@1051 actor depth: PASS
+DEPTH 574 farm:@StaticBody2D@1051 opaque probe point: PASS
+DEPTH 575 farm:@StaticBody2D@1051 behind is occluded: PASS
+DEPTH 576 farm:@StaticBody2D@1051 in front is visible: PASS
+DEPTH 577 farm @StaticBody2D@1054 actor depth: PASS
+DEPTH 578 farm:@StaticBody2D@1054 opaque probe point: PASS
+DEPTH 579 farm:@StaticBody2D@1054 behind is occluded: PASS
+DEPTH 580 farm:@StaticBody2D@1054 in front is visible: PASS
+DEPTH 581 farm @StaticBody2D@1057 actor depth: PASS
+DEPTH 582 farm:@StaticBody2D@1057 opaque probe point: PASS
+DEPTH 583 farm:@StaticBody2D@1057 behind is occluded: PASS
+DEPTH 584 farm:@StaticBody2D@1057 in front is visible: PASS
+DEPTH 585 farm @StaticBody2D@1060 actor depth: PASS
+DEPTH 586 farm:@StaticBody2D@1060 opaque probe point: PASS
+DEPTH 587 farm:@StaticBody2D@1060 behind is occluded: PASS
+DEPTH 588 farm:@StaticBody2D@1060 in front is visible: PASS
+DEPTH 589 farm @StaticBody2D@1063 actor depth: PASS
+DEPTH 590 farm:@StaticBody2D@1063 opaque probe point: PASS
+DEPTH 591 farm:@StaticBody2D@1063 behind is occluded: PASS
+DEPTH 592 farm:@StaticBody2D@1063 in front is visible: PASS
+DEPTH 593 farm @StaticBody2D@1066 actor depth: PASS
+DEPTH 594 farm:@StaticBody2D@1066 opaque probe point: PASS
+DEPTH 595 farm:@StaticBody2D@1066 behind is occluded: PASS
+DEPTH 596 farm:@StaticBody2D@1066 in front is visible: PASS
+DEPTH 597 farm @StaticBody2D@1069 actor depth: PASS
+DEPTH 598 farm:@StaticBody2D@1069 opaque probe point: PASS
+DEPTH 599 farm:@StaticBody2D@1069 behind is occluded: PASS
+DEPTH 600 farm:@StaticBody2D@1069 in front is visible: PASS
+DEPTH 601 farm @StaticBody2D@1072 actor depth: PASS
+DEPTH 602 farm:@StaticBody2D@1072 opaque probe point: PASS
+DEPTH 603 farm:@StaticBody2D@1072 behind is occluded: PASS
+DEPTH 604 farm:@StaticBody2D@1072 in front is visible: PASS
+DEPTH 605 farm @StaticBody2D@1075 actor depth: PASS
+DEPTH 606 farm:@StaticBody2D@1075 opaque probe point: PASS
+DEPTH 607 farm:@StaticBody2D@1075 behind is occluded: PASS
+DEPTH 608 farm:@StaticBody2D@1075 in front is visible: PASS
+DEPTH 609 farm @StaticBody2D@1078 actor depth: PASS
+DEPTH 610 farm:@StaticBody2D@1078 opaque probe point: PASS
+DEPTH 611 farm:@StaticBody2D@1078 behind is occluded: PASS
+DEPTH 612 farm:@StaticBody2D@1078 in front is visible: PASS
+DEPTH 613 farm @StaticBody2D@1081 actor depth: PASS
+DEPTH 614 farm:@StaticBody2D@1081 opaque probe point: PASS
+DEPTH 615 farm:@StaticBody2D@1081 behind is occluded: PASS
+DEPTH 616 farm:@StaticBody2D@1081 in front is visible: PASS
+DEPTH 617 farm @StaticBody2D@1084 actor depth: PASS
+DEPTH 618 farm:@StaticBody2D@1084 opaque probe point: PASS
+DEPTH 619 farm:@StaticBody2D@1084 behind is occluded: PASS
+DEPTH 620 farm:@StaticBody2D@1084 in front is visible: PASS
+DEPTH 621 farm @StaticBody2D@1087 actor depth: PASS
+DEPTH 622 farm:@StaticBody2D@1087 opaque probe point: PASS
+DEPTH 623 farm:@StaticBody2D@1087 behind is occluded: PASS
+DEPTH 624 farm:@StaticBody2D@1087 in front is visible: PASS
+DEPTH 625 farm @StaticBody2D@1090 actor depth: PASS
+DEPTH 626 farm:@StaticBody2D@1090 opaque probe point: PASS
+DEPTH 627 farm:@StaticBody2D@1090 behind is occluded: PASS
+DEPTH 628 farm:@StaticBody2D@1090 in front is visible: PASS
+DEPTH 629 farm @StaticBody2D@1093 actor depth: PASS
+DEPTH 630 farm:@StaticBody2D@1093 opaque probe point: PASS
+DEPTH 631 farm:@StaticBody2D@1093 behind is occluded: PASS
+DEPTH 632 farm:@StaticBody2D@1093 in front is visible: PASS
+DEPTH 633 farm @StaticBody2D@1096 actor depth: PASS
+DEPTH 634 farm:@StaticBody2D@1096 opaque probe point: PASS
+DEPTH 635 farm:@StaticBody2D@1096 behind is occluded: PASS
+DEPTH 636 farm:@StaticBody2D@1096 in front is visible: PASS
+DEPTH 637 farm @StaticBody2D@1099 actor depth: PASS
+DEPTH 638 farm:@StaticBody2D@1099 opaque probe point: PASS
+DEPTH 639 farm:@StaticBody2D@1099 behind is occluded: PASS
+DEPTH 640 farm:@StaticBody2D@1099 in front is visible: PASS
+DEPTH 641 farm @StaticBody2D@1102 actor depth: PASS
+DEPTH 642 farm:@StaticBody2D@1102 opaque probe point: PASS
+DEPTH 643 farm:@StaticBody2D@1102 behind is occluded: PASS
+DEPTH 644 farm:@StaticBody2D@1102 in front is visible: PASS
+DEPTH 645 farm @StaticBody2D@1105 actor depth: PASS
+DEPTH 646 farm:@StaticBody2D@1105 opaque probe point: PASS
+DEPTH 647 farm:@StaticBody2D@1105 behind is occluded: PASS
+DEPTH 648 farm:@StaticBody2D@1105 in front is visible: PASS
+DEPTH 649 farm @Node2D@1108 actor depth: PASS
+DEPTH 650 farm:@Node2D@1108 opaque probe point: PASS
+DEPTH 651 farm:@Node2D@1108 behind is occluded: PASS
+DEPTH 652 farm:@Node2D@1108 in front is visible: PASS
+DEPTH 653 farm @StaticBody2D@1110 actor depth: PASS
+DEPTH 654 farm:@StaticBody2D@1110 opaque probe point: PASS
+DEPTH 655 farm:@StaticBody2D@1110 behind is occluded: PASS
+DEPTH 656 farm:@StaticBody2D@1110 in front is visible: PASS
+DEPTH 657 farm @StaticBody2D@1113 actor depth: PASS
+DEPTH 658 farm:@StaticBody2D@1113 opaque probe point: PASS
+DEPTH 659 farm:@StaticBody2D@1113 behind is occluded: PASS
+DEPTH 660 farm:@StaticBody2D@1113 in front is visible: PASS
+DEPTH 661 farm @StaticBody2D@1116 actor depth: PASS
+DEPTH 662 farm:@StaticBody2D@1116 opaque probe point: PASS
+DEPTH 663 farm:@StaticBody2D@1116 behind is occluded: PASS
+DEPTH 664 farm:@StaticBody2D@1116 in front is visible: PASS
+DEPTH 665 farm @StaticBody2D@1119 actor depth: PASS
+DEPTH 666 farm:@StaticBody2D@1119 opaque probe point: PASS
+DEPTH 667 farm:@StaticBody2D@1119 behind is occluded: PASS
+DEPTH 668 farm:@StaticBody2D@1119 in front is visible: PASS
+DEPTH 669 farm @StaticBody2D@1122 actor depth: PASS
+DEPTH 670 farm:@StaticBody2D@1122 opaque probe point: PASS
+DEPTH 671 farm:@StaticBody2D@1122 behind is occluded: PASS
+DEPTH 672 farm:@StaticBody2D@1122 in front is visible: PASS
+DEPTH 673 farm @StaticBody2D@1125 actor depth: PASS
+DEPTH 674 farm:@StaticBody2D@1125 opaque probe point: PASS
+DEPTH 675 farm:@StaticBody2D@1125 behind is occluded: PASS
+DEPTH 676 farm:@StaticBody2D@1125 in front is visible: PASS
+DEPTH 677 farm @Node2D@1128 actor depth: PASS
+DEPTH 678 farm:@Node2D@1128 opaque probe point: PASS
+DEPTH 679 farm:@Node2D@1128 behind is occluded: PASS
+DEPTH 680 farm:@Node2D@1128 in front is visible: PASS
+DEPTH 681 farm @Node2D@1130 actor depth: PASS
+DEPTH 682 farm:@Node2D@1130 opaque probe point: PASS
+DEPTH 683 farm:@Node2D@1130 behind is occluded: PASS
+DEPTH 684 farm:@Node2D@1130 in front is visible: PASS
+DEPTH 685 farm @Node2D@1132 actor depth: PASS
+DEPTH 686 farm:@Node2D@1132 opaque probe point: PASS
+DEPTH 687 farm:@Node2D@1132 behind is occluded: PASS
+DEPTH 688 farm:@Node2D@1132 in front is visible: PASS
+DEPTH 689 farm @Node2D@1134 actor depth: PASS
+DEPTH 690 farm:@Node2D@1134 opaque probe point: PASS
+DEPTH 691 farm:@Node2D@1134 behind is occluded: PASS
+DEPTH 692 farm:@Node2D@1134 in front is visible: PASS
+DEPTH 693 crop 0 independent ground contact: PASS
+DEPTH 694 farm crop 0 opaque probe point: PASS
+DEPTH 695 farm crop 0 behind is occluded: PASS
+DEPTH 696 farm crop 0 in front is visible: PASS
+DEPTH 697 crop 1 independent ground contact: PASS
+DEPTH 698 farm crop 1 opaque probe point: PASS
+DEPTH 699 farm crop 1 behind is occluded: PASS
+DEPTH 700 farm crop 1 in front is visible: PASS
+DEPTH 701 harvest removes crop visuals: PASS
+DEPTH 702 grove labels above foliage: PASS
+DEPTH 703 grove shared feet sort: PASS
+DEPTH 704 grove Gather_0 actor depth: PASS
+DEPTH 705 grove:Gather_0 opaque probe point: PASS
+DEPTH 706 grove:Gather_0 behind is occluded: PASS
+DEPTH 707 grove:Gather_0 in front is visible: PASS
+DEPTH 708 grove Gather_1 actor depth: PASS
+DEPTH 709 grove:Gather_1 opaque probe point: PASS
+DEPTH 710 grove:Gather_1 behind is occluded: PASS
+DEPTH 711 grove:Gather_1 in front is visible: PASS
+DEPTH 712 grove Gather_2 actor depth: PASS
+DEPTH 713 grove:Gather_2 opaque probe point: PASS
+DEPTH 714 grove:Gather_2 behind is occluded: PASS
+DEPTH 715 grove:Gather_2 in front is visible: PASS
+DEPTH 716 grove Gather_3 actor depth: PASS
+DEPTH 717 grove:Gather_3 opaque probe point: PASS
+DEPTH 718 grove:Gather_3 behind is occluded: PASS
+DEPTH 719 grove:Gather_3 in front is visible: PASS
+DEPTH 720 grove Gather_4 actor depth: PASS
+DEPTH 721 grove:Gather_4 opaque probe point: PASS
+DEPTH 722 grove:Gather_4 behind is occluded: PASS
+DEPTH 723 grove:Gather_4 in front is visible: PASS
+DEPTH 724 grove Gather_5 actor depth: PASS
+DEPTH 725 grove:Gather_5 opaque probe point: PASS
+DEPTH 726 grove:Gather_5 behind is occluded: PASS
+DEPTH 727 grove:Gather_5 in front is visible: PASS
+DEPTH 728 grove @StaticBody2D@1165 actor depth: PASS
+DEPTH 729 grove @StaticBody2D@1165 resource bar above foliage: PASS
+DEPTH 730 grove:outdoor_pine opaque probe point: PASS
+DEPTH 731 grove:outdoor_pine behind is occluded: PASS
+DEPTH 732 grove:outdoor_pine in front is visible: PASS
+DEPTH 733 grove @StaticBody2D@1169 actor depth: PASS
+DEPTH 734 grove @StaticBody2D@1169 resource bar above foliage: PASS
+DEPTH 735 grove @StaticBody2D@1173 actor depth: PASS
+DEPTH 736 grove @StaticBody2D@1173 resource bar above foliage: PASS
+DEPTH 737 grove:dock_fishing_post opaque probe point: PASS
+DEPTH 738 grove:dock_fishing_post behind is occluded: PASS
+DEPTH 739 grove:dock_fishing_post in front is visible: PASS
+DEPTH 740 grove @Sprite2D@1174 actor depth: PASS
+DEPTH 741 grove:@Sprite2D@1174 opaque probe point: PASS
+DEPTH 742 grove:@Sprite2D@1174 behind is occluded: PASS
+DEPTH 743 grove:@Sprite2D@1174 in front is visible: PASS
+DEPTH 744 grove @Sprite2D@1175 actor depth: PASS
+DEPTH 745 grove:@Sprite2D@1175 opaque probe point: PASS
+DEPTH 746 grove:@Sprite2D@1175 behind is occluded: PASS
+DEPTH 747 grove:@Sprite2D@1175 in front is visible: PASS
+DEPTH 748 grove @Sprite2D@1176 actor depth: PASS
+DEPTH 749 grove:@Sprite2D@1176 opaque probe point: PASS
+DEPTH 750 grove:@Sprite2D@1176 behind is occluded: PASS
+DEPTH 751 grove:@Sprite2D@1176 in front is visible: PASS
+DEPTH 752 grove @Sprite2D@1177 actor depth: PASS
+DEPTH 753 grove:@Sprite2D@1177 opaque probe point: PASS
+DEPTH 754 grove:@Sprite2D@1177 behind is occluded: PASS
+DEPTH 755 grove:@Sprite2D@1177 in front is visible: PASS
+DEPTH 756 quarry labels above foliage: PASS
+DEPTH 757 quarry shared feet sort: PASS
+DEPTH 758 quarry Gather_0 actor depth: PASS
+DEPTH 759 quarry:Gather_0 opaque probe point: PASS
+DEPTH 760 quarry:Gather_0 behind is occluded: PASS
+DEPTH 761 quarry:Gather_0 in front is visible: PASS
+DEPTH 762 quarry Gather_1 actor depth: PASS
+DEPTH 763 quarry:Gather_1 opaque probe point: PASS
+DEPTH 764 quarry:Gather_1 behind is occluded: PASS
+DEPTH 765 quarry:Gather_1 in front is visible: PASS
+DEPTH 766 quarry Gather_2 actor depth: PASS
+DEPTH 767 quarry:Gather_2 opaque probe point: PASS
+DEPTH 768 quarry:Gather_2 behind is occluded: PASS
+DEPTH 769 quarry:Gather_2 in front is visible: PASS
+DEPTH 770 quarry Gather_3 actor depth: PASS
+DEPTH 771 quarry:Gather_3 opaque probe point: PASS
+DEPTH 772 quarry:Gather_3 behind is occluded: PASS
+DEPTH 773 quarry:Gather_3 in front is visible: PASS
+DEPTH 774 quarry Gather_4 actor depth: PASS
+DEPTH 775 quarry:Gather_4 opaque probe point: PASS
+DEPTH 776 quarry:Gather_4 behind is occluded: PASS
+DEPTH 777 quarry:Gather_4 in front is visible: PASS
+DEPTH 778 quarry Gather_5 actor depth: PASS
+DEPTH 779 quarry:Gather_5 opaque probe point: PASS
+DEPTH 780 quarry:Gather_5 behind is occluded: PASS
+DEPTH 781 quarry:Gather_5 in front is visible: PASS
+DEPTH 782 quarry @StaticBody2D@1165 actor depth: PASS
+DEPTH 783 quarry @StaticBody2D@1165 resource bar above foliage: PASS
+DEPTH 784 quarry:outdoor_pine opaque probe point: PASS
+DEPTH 785 quarry:outdoor_pine behind is occluded: PASS
+DEPTH 786 quarry:outdoor_pine in front is visible: PASS
+DEPTH 787 quarry @StaticBody2D@1169 actor depth: PASS
+DEPTH 788 quarry @StaticBody2D@1169 resource bar above foliage: PASS
+DEPTH 789 quarry @StaticBody2D@1173 actor depth: PASS
+DEPTH 790 quarry @StaticBody2D@1173 resource bar above foliage: PASS
+DEPTH 791 quarry:dock_fishing_post opaque probe point: PASS
+DEPTH 792 quarry:dock_fishing_post behind is occluded: PASS
+DEPTH 793 quarry:dock_fishing_post in front is visible: PASS
+DEPTH 794 quarry @Sprite2D@1174 actor depth: PASS
+DEPTH 795 quarry:@Sprite2D@1174 opaque probe point: PASS
+DEPTH 796 quarry:@Sprite2D@1174 behind is occluded: PASS
+DEPTH 797 quarry:@Sprite2D@1174 in front is visible: PASS
+DEPTH 798 quarry @Sprite2D@1175 actor depth: PASS
+DEPTH 799 quarry:@Sprite2D@1175 opaque probe point: PASS
+DEPTH 800 quarry:@Sprite2D@1175 behind is occluded: PASS
+DEPTH 801 quarry:@Sprite2D@1175 in front is visible: PASS
+DEPTH 802 quarry @Sprite2D@1176 actor depth: PASS
+DEPTH 803 quarry:@Sprite2D@1176 opaque probe point: PASS
+DEPTH 804 quarry:@Sprite2D@1176 behind is occluded: PASS
+DEPTH 805 quarry:@Sprite2D@1176 in front is visible: PASS
+DEPTH 806 quarry @Sprite2D@1177 actor depth: PASS
+DEPTH 807 quarry:@Sprite2D@1177 opaque probe point: PASS
+DEPTH 808 quarry:@Sprite2D@1177 behind is occluded: PASS
+DEPTH 809 quarry:@Sprite2D@1177 in front is visible: PASS
+DEPTH 810 marsh labels above foliage: PASS
+DEPTH 811 marsh shared feet sort: PASS
+DEPTH 812 marsh Gather_0 actor depth: PASS
+DEPTH 813 marsh:Gather_0 opaque probe point: PASS
+DEPTH 814 marsh:Gather_0 behind is occluded: PASS
+DEPTH 815 marsh:Gather_0 in front is visible: PASS
+DEPTH 816 marsh Gather_1 actor depth: PASS
+DEPTH 817 marsh:Gather_1 opaque probe point: PASS
+DEPTH 818 marsh:Gather_1 behind is occluded: PASS
+DEPTH 819 marsh:Gather_1 in front is visible: PASS
+DEPTH 820 marsh Gather_2 actor depth: PASS
+DEPTH 821 marsh:Gather_2 opaque probe point: PASS
+DEPTH 822 marsh:Gather_2 behind is occluded: PASS
+DEPTH 823 marsh:Gather_2 in front is visible: PASS
+DEPTH 824 marsh Gather_3 actor depth: PASS
+DEPTH 825 marsh:Gather_3 opaque probe point: PASS
+DEPTH 826 marsh:Gather_3 behind is occluded: PASS
+DEPTH 827 marsh:Gather_3 in front is visible: PASS
+DEPTH 828 marsh Gather_4 actor depth: PASS
+DEPTH 829 marsh:Gather_4 opaque probe point: PASS
+DEPTH 830 marsh:Gather_4 behind is occluded: PASS
+DEPTH 831 marsh:Gather_4 in front is visible: PASS
+DEPTH 832 marsh Gather_5 actor depth: PASS
+DEPTH 833 marsh:Gather_5 opaque probe point: PASS
+DEPTH 834 marsh:Gather_5 behind is occluded: PASS
+DEPTH 835 marsh:Gather_5 in front is visible: PASS
+DEPTH 836 marsh @StaticBody2D@1165 actor depth: PASS
+DEPTH 837 marsh @StaticBody2D@1165 resource bar above foliage: PASS
+DEPTH 838 marsh:outdoor_pine opaque probe point: PASS
+DEPTH 839 marsh:outdoor_pine behind is occluded: PASS
+DEPTH 840 marsh:outdoor_pine in front is visible: PASS
+DEPTH 841 marsh @StaticBody2D@1169 actor depth: PASS
+DEPTH 842 marsh @StaticBody2D@1169 resource bar above foliage: PASS
+DEPTH 843 marsh @StaticBody2D@1173 actor depth: PASS
+DEPTH 844 marsh @StaticBody2D@1173 resource bar above foliage: PASS
+DEPTH 845 marsh:dock_fishing_post opaque probe point: PASS
+DEPTH 846 marsh:dock_fishing_post behind is occluded: PASS
+DEPTH 847 marsh:dock_fishing_post in front is visible: PASS
+DEPTH 848 marsh @Sprite2D@1174 actor depth: PASS
+DEPTH 849 marsh:@Sprite2D@1174 opaque probe point: PASS
+DEPTH 850 marsh:@Sprite2D@1174 behind is occluded: PASS
+DEPTH 851 marsh:@Sprite2D@1174 in front is visible: PASS
+DEPTH 852 marsh @Sprite2D@1175 actor depth: PASS
+DEPTH 853 marsh:@Sprite2D@1175 opaque probe point: PASS
+DEPTH 854 marsh:@Sprite2D@1175 behind is occluded: PASS
+DEPTH 855 marsh:@Sprite2D@1175 in front is visible: PASS
+DEPTH 856 marsh @Sprite2D@1176 actor depth: PASS
+DEPTH 857 marsh:@Sprite2D@1176 opaque probe point: PASS
+DEPTH 858 marsh:@Sprite2D@1176 behind is occluded: PASS
+DEPTH 859 marsh:@Sprite2D@1176 in front is visible: PASS
+DEPTH 860 marsh @Sprite2D@1177 actor depth: PASS
+DEPTH 861 marsh:@Sprite2D@1177 opaque probe point: PASS
+DEPTH 862 marsh:@Sprite2D@1177 behind is occluded: PASS
+DEPTH 863 marsh:@Sprite2D@1177 in front is visible: PASS
+DEPTH 864 ruins labels above foliage: PASS
+DEPTH 865 ruins shared feet sort: PASS
+DEPTH 866 ruins Gather_0 actor depth: PASS
+DEPTH 867 ruins:Gather_0 opaque probe point: PASS
+DEPTH 868 ruins:Gather_0 behind is occluded: PASS
+DEPTH 869 ruins:Gather_0 in front is visible: PASS
+DEPTH 870 ruins Gather_1 actor depth: PASS
+DEPTH 871 ruins:Gather_1 opaque probe point: PASS
+DEPTH 872 ruins:Gather_1 behind is occluded: PASS
+DEPTH 873 ruins:Gather_1 in front is visible: PASS
+DEPTH 874 ruins Gather_2 actor depth: PASS
+DEPTH 875 ruins:Gather_2 opaque probe point: PASS
+DEPTH 876 ruins:Gather_2 behind is occluded: PASS
+DEPTH 877 ruins:Gather_2 in front is visible: PASS
+DEPTH 878 ruins Gather_3 actor depth: PASS
+DEPTH 879 ruins:Gather_3 opaque probe point: PASS
+DEPTH 880 ruins:Gather_3 behind is occluded: PASS
+DEPTH 881 ruins:Gather_3 in front is visible: PASS
+DEPTH 882 ruins Gather_4 actor depth: PASS
+DEPTH 883 ruins:Gather_4 opaque probe point: PASS
+DEPTH 884 ruins:Gather_4 behind is occluded: PASS
+DEPTH 885 ruins:Gather_4 in front is visible: PASS
+DEPTH 886 ruins Gather_5 actor depth: PASS
+DEPTH 887 ruins:Gather_5 opaque probe point: PASS
+DEPTH 888 ruins:Gather_5 behind is occluded: PASS
+DEPTH 889 ruins:Gather_5 in front is visible: PASS
+DEPTH 890 ruins @StaticBody2D@1165 actor depth: PASS
+DEPTH 891 ruins @StaticBody2D@1165 resource bar above foliage: PASS
+DEPTH 892 ruins:outdoor_pine opaque probe point: PASS
+DEPTH 893 ruins:outdoor_pine behind is occluded: PASS
+DEPTH 894 ruins:outdoor_pine in front is visible: PASS
+DEPTH 895 ruins @StaticBody2D@1169 actor depth: PASS
+DEPTH 896 ruins @StaticBody2D@1169 resource bar above foliage: PASS
+DEPTH 897 ruins @StaticBody2D@1173 actor depth: PASS
+DEPTH 898 ruins @StaticBody2D@1173 resource bar above foliage: PASS
+DEPTH 899 ruins:dock_fishing_post opaque probe point: PASS
+DEPTH 900 ruins:dock_fishing_post behind is occluded: PASS
+DEPTH 901 ruins:dock_fishing_post in front is visible: PASS
+DEPTH 902 ruins @Sprite2D@1174 actor depth: PASS
+DEPTH 903 ruins:@Sprite2D@1174 opaque probe point: PASS
+DEPTH 904 ruins:@Sprite2D@1174 behind is occluded: PASS
+DEPTH 905 ruins:@Sprite2D@1174 in front is visible: PASS
+DEPTH 906 ruins @Sprite2D@1175 actor depth: PASS
+DEPTH 907 ruins:@Sprite2D@1175 opaque probe point: PASS
+DEPTH 908 ruins:@Sprite2D@1175 behind is occluded: PASS
+DEPTH 909 ruins:@Sprite2D@1175 in front is visible: PASS
+DEPTH 910 ruins @Sprite2D@1176 actor depth: PASS
+DEPTH 911 ruins:@Sprite2D@1176 opaque probe point: PASS
+DEPTH 912 ruins:@Sprite2D@1176 behind is occluded: PASS
+DEPTH 913 ruins:@Sprite2D@1176 in front is visible: PASS
+DEPTH 914 ruins @Sprite2D@1177 actor depth: PASS
+DEPTH 915 ruins:@Sprite2D@1177 opaque probe point: PASS
+DEPTH 916 ruins:@Sprite2D@1177 behind is occluded: PASS
+DEPTH 917 ruins:@Sprite2D@1177 in front is visible: PASS
+DEPTH 918 ridge labels above foliage: PASS
+DEPTH 919 ridge shared feet sort: PASS
+DEPTH 920 ridge Gather_0 actor depth: PASS
+DEPTH 921 ridge:Gather_0 opaque probe point: PASS
+DEPTH 922 ridge:Gather_0 behind is occluded: PASS
+DEPTH 923 ridge:Gather_0 in front is visible: PASS
+DEPTH 924 ridge Gather_1 actor depth: PASS
+DEPTH 925 ridge:Gather_1 opaque probe point: PASS
+DEPTH 926 ridge:Gather_1 behind is occluded: PASS
+DEPTH 927 ridge:Gather_1 in front is visible: PASS
+DEPTH 928 ridge Gather_2 actor depth: PASS
+DEPTH 929 ridge:Gather_2 opaque probe point: PASS
+DEPTH 930 ridge:Gather_2 behind is occluded: PASS
+DEPTH 931 ridge:Gather_2 in front is visible: PASS
+DEPTH 932 ridge Gather_3 actor depth: PASS
+DEPTH 933 ridge:Gather_3 opaque probe point: PASS
+DEPTH 934 ridge:Gather_3 behind is occluded: PASS
+DEPTH 935 ridge:Gather_3 in front is visible: PASS
+DEPTH 936 ridge Gather_4 actor depth: PASS
+DEPTH 937 ridge:Gather_4 opaque probe point: PASS
+DEPTH 938 ridge:Gather_4 behind is occluded: PASS
+DEPTH 939 ridge:Gather_4 in front is visible: PASS
+DEPTH 940 ridge Gather_5 actor depth: PASS
+DEPTH 941 ridge:Gather_5 opaque probe point: PASS
+DEPTH 942 ridge:Gather_5 behind is occluded: PASS
+DEPTH 943 ridge:Gather_5 in front is visible: PASS
+DEPTH 944 ridge @StaticBody2D@1165 actor depth: PASS
+DEPTH 945 ridge @StaticBody2D@1165 resource bar above foliage: PASS
+DEPTH 946 ridge:outdoor_pine opaque probe point: PASS
+DEPTH 947 ridge:outdoor_pine behind is occluded: PASS
+DEPTH 948 ridge:outdoor_pine in front is visible: PASS
+DEPTH 949 ridge @StaticBody2D@1169 actor depth: PASS
+DEPTH 950 ridge @StaticBody2D@1169 resource bar above foliage: PASS
+DEPTH 951 ridge @StaticBody2D@1173 actor depth: PASS
+DEPTH 952 ridge @StaticBody2D@1173 resource bar above foliage: PASS
+DEPTH 953 ridge:dock_fishing_post opaque probe point: PASS
+DEPTH 954 ridge:dock_fishing_post behind is occluded: PASS
+DEPTH 955 ridge:dock_fishing_post in front is visible: PASS
+DEPTH 956 ridge @Sprite2D@1174 actor depth: PASS
+DEPTH 957 ridge:@Sprite2D@1174 opaque probe point: PASS
+DEPTH 958 ridge:@Sprite2D@1174 behind is occluded: PASS
+DEPTH 959 ridge:@Sprite2D@1174 in front is visible: PASS
+DEPTH 960 ridge @Sprite2D@1175 actor depth: PASS
+DEPTH 961 ridge:@Sprite2D@1175 opaque probe point: PASS
+DEPTH 962 ridge:@Sprite2D@1175 behind is occluded: PASS
+DEPTH 963 ridge:@Sprite2D@1175 in front is visible: PASS
+DEPTH 964 ridge @Sprite2D@1176 actor depth: PASS
+DEPTH 965 ridge:@Sprite2D@1176 opaque probe point: PASS
+DEPTH 966 ridge:@Sprite2D@1176 behind is occluded: PASS
+DEPTH 967 ridge:@Sprite2D@1176 in front is visible: PASS
+DEPTH 968 ridge @Sprite2D@1177 actor depth: PASS
+DEPTH 969 ridge:@Sprite2D@1177 opaque probe point: PASS
+DEPTH 970 ridge:@Sprite2D@1177 behind is occluded: PASS
+DEPTH 971 ridge:@Sprite2D@1177 in front is visible: PASS
+DEPTH 972 observatory labels above foliage: PASS
+DEPTH 973 observatory shared feet sort: PASS
+DEPTH 974 observatory Gather_0 actor depth: PASS
+DEPTH 975 observatory:Gather_0 opaque probe point: PASS
+DEPTH 976 observatory:Gather_0 behind is occluded: PASS
+DEPTH 977 observatory:Gather_0 in front is visible: PASS
+DEPTH 978 observatory Gather_1 actor depth: PASS
+DEPTH 979 observatory:Gather_1 opaque probe point: PASS
+DEPTH 980 observatory:Gather_1 behind is occluded: PASS
+DEPTH 981 observatory:Gather_1 in front is visible: PASS
+DEPTH 982 observatory Gather_2 actor depth: PASS
+DEPTH 983 observatory:Gather_2 opaque probe point: PASS
+DEPTH 984 observatory:Gather_2 behind is occluded: PASS
+DEPTH 985 observatory:Gather_2 in front is visible: PASS
+DEPTH 986 observatory Gather_3 actor depth: PASS
+DEPTH 987 observatory:Gather_3 opaque probe point: PASS
+DEPTH 988 observatory:Gather_3 behind is occluded: PASS
+DEPTH 989 observatory:Gather_3 in front is visible: PASS
+DEPTH 990 observatory Gather_4 actor depth: PASS
+DEPTH 991 observatory:Gather_4 opaque probe point: PASS
+DEPTH 992 observatory:Gather_4 behind is occluded: PASS
+DEPTH 993 observatory:Gather_4 in front is visible: PASS
+DEPTH 994 observatory Gather_5 actor depth: PASS
+DEPTH 995 observatory:Gather_5 opaque probe point: PASS
+DEPTH 996 observatory:Gather_5 behind is occluded: PASS
+DEPTH 997 observatory:Gather_5 in front is visible: PASS
+DEPTH 998 observatory @StaticBody2D@1165 actor depth: PASS
+DEPTH 999 observatory @StaticBody2D@1165 resource bar above foliage: PASS
+DEPTH 1000 observatory:outdoor_pine opaque probe point: PASS
+DEPTH 1001 observatory:outdoor_pine behind is occluded: PASS
+DEPTH 1002 observatory:outdoor_pine in front is visible: PASS
+DEPTH 1003 observatory @StaticBody2D@1169 actor depth: PASS
+DEPTH 1004 observatory @StaticBody2D@1169 resource bar above foliage: PASS
+DEPTH 1005 observatory @StaticBody2D@1173 actor depth: PASS
+DEPTH 1006 observatory @StaticBody2D@1173 resource bar above foliage: PASS
+DEPTH 1007 observatory:dock_fishing_post opaque probe point: PASS
+DEPTH 1008 observatory:dock_fishing_post behind is occluded: PASS
+DEPTH 1009 observatory:dock_fishing_post in front is visible: PASS
+DEPTH 1010 observatory @Sprite2D@1174 actor depth: PASS
+DEPTH 1011 observatory:@Sprite2D@1174 opaque probe point: PASS
+DEPTH 1012 observatory:@Sprite2D@1174 behind is occluded: PASS
+DEPTH 1013 observatory:@Sprite2D@1174 in front is visible: PASS
+DEPTH 1014 observatory @Sprite2D@1175 actor depth: PASS
+DEPTH 1015 observatory:@Sprite2D@1175 opaque probe point: PASS
+DEPTH 1016 observatory:@Sprite2D@1175 behind is occluded: PASS
+DEPTH 1017 observatory:@Sprite2D@1175 in front is visible: PASS
+DEPTH 1018 observatory @Sprite2D@1176 actor depth: PASS
+DEPTH 1019 observatory:@Sprite2D@1176 opaque probe point: PASS
+DEPTH 1020 observatory:@Sprite2D@1176 behind is occluded: PASS
+DEPTH 1021 observatory:@Sprite2D@1176 in front is visible: PASS
+DEPTH 1022 observatory @Sprite2D@1177 actor depth: PASS
+DEPTH 1023 observatory:@Sprite2D@1177 opaque probe point: PASS
+DEPTH 1024 observatory:@Sprite2D@1177 behind is occluded: PASS
+DEPTH 1025 observatory:@Sprite2D@1177 in front is visible: PASS
+DEPTH 1026 decor oak_chair individually sorted: PASS
+DEPTH 1027 decor oak_chair opaque probe point: PASS
+DEPTH 1028 decor oak_chair behind is occluded: PASS
+DEPTH 1029 decor oak_chair in front is visible: PASS
+DEPTH 1030 decor round_table individually sorted: PASS
+DEPTH 1031 decor round_table opaque probe point: PASS
+DEPTH 1032 decor round_table behind is occluded: PASS
+DEPTH 1033 decor round_table in front is visible: PASS
+DEPTH 1034 decor velvet_chair individually sorted: PASS
+DEPTH 1035 decor velvet_chair opaque probe point: PASS
+DEPTH 1036 decor velvet_chair behind is occluded: PASS
+DEPTH 1037 decor velvet_chair in front is visible: PASS
+DEPTH 1038 decor moon_table individually sorted: PASS
+DEPTH 1039 decor moon_table opaque probe point: PASS
+DEPTH 1040 decor moon_table behind is occluded: PASS
+DEPTH 1041 decor moon_table in front is visible: PASS
+DEPTH 1042 decor oak_bed individually sorted: PASS
+DEPTH 1043 decor oak_bed opaque probe point: PASS
+DEPTH 1044 decor oak_bed behind is occluded: PASS
+DEPTH 1045 decor oak_bed in front is visible: PASS
+DEPTH 1046 decor moon_bed individually sorted: PASS
+DEPTH 1047 decor moon_bed opaque probe point: PASS
+DEPTH 1048 decor moon_bed behind is occluded: PASS
+DEPTH 1049 decor moon_bed in front is visible: PASS
+DEPTH 1050 decor bookcase individually sorted: PASS
+DEPTH 1051 decor bookcase opaque probe point: PASS
+DEPTH 1052 decor bookcase behind is occluded: PASS
+DEPTH 1053 decor bookcase in front is visible: PASS
+DEPTH 1054 decor tea_shelf individually sorted: PASS
+DEPTH 1055 decor tea_shelf opaque probe point: PASS
+DEPTH 1056 decor tea_shelf behind is occluded: PASS
+DEPTH 1057 decor tea_shelf in front is visible: PASS
+DEPTH 1058 decor cupboard individually sorted: PASS
+DEPTH 1059 decor cupboard opaque probe point: PASS
+DEPTH 1060 decor cupboard behind is occluded: PASS
+DEPTH 1061 decor cupboard in front is visible: PASS
+DEPTH 1062 decor pantry individually sorted: PASS
+DEPTH 1063 decor pantry opaque probe point: PASS
+DEPTH 1064 decor pantry behind is occluded: PASS
+DEPTH 1065 decor pantry in front is visible: PASS
+DEPTH 1066 decor lantern individually sorted: PASS
+DEPTH 1067 decor lantern opaque probe point: PASS
+DEPTH 1068 decor lantern behind is occluded: PASS
+DEPTH 1069 decor lantern in front is visible: PASS
+DEPTH 1070 decor floor_lamp individually sorted: PASS
+DEPTH 1071 decor floor_lamp opaque probe point: PASS
+DEPTH 1072 decor floor_lamp behind is occluded: PASS
+DEPTH 1073 decor floor_lamp in front is visible: PASS
+DEPTH 1074 decor flowerpot individually sorted: PASS
+DEPTH 1075 decor flowerpot opaque probe point: PASS
+DEPTH 1076 decor flowerpot behind is occluded: PASS
+DEPTH 1077 decor flowerpot in front is visible: PASS
+DEPTH 1078 decor tea_planter individually sorted: PASS
+DEPTH 1079 decor tea_planter opaque probe point: PASS
+DEPTH 1080 decor tea_planter behind is occluded: PASS
+DEPTH 1081 decor tea_planter in front is visible: PASS
+DEPTH 1082 decor rug individually sorted: PASS
+DEPTH 1083 rug rug lies under actors: PASS
+DEPTH 1084 decor star_rug individually sorted: PASS
+DEPTH 1085 rug star_rug lies under actors: PASS
+DEPTH 1086 decor wall_clock individually sorted: PASS
+DEPTH 1087 decor wall_clock opaque probe point: PASS
+DEPTH 1088 decor wall_clock behind is occluded: PASS
+DEPTH 1089 decor wall_clock in front is visible: PASS
+DEPTH 1090 decor painting individually sorted: PASS
+DEPTH 1091 decor painting opaque probe point: PASS
+DEPTH 1092 decor painting behind is occluded: PASS
+DEPTH 1093 decor painting in front is visible: PASS
+DEPTH 1094 decor sofa individually sorted: PASS
+DEPTH 1095 decor sofa opaque probe point: PASS
+DEPTH 1096 decor sofa behind is occluded: PASS
+DEPTH 1097 decor sofa in front is visible: PASS
+DEPTH 1098 decor bench individually sorted: PASS
+DEPTH 1099 decor bench opaque probe point: PASS
+DEPTH 1100 decor bench behind is occluded: PASS
+DEPTH 1101 decor bench in front is visible: PASS
+DEPTH 1102 decor aquarium individually sorted: PASS
+DEPTH 1103 decor aquarium opaque probe point: PASS
+DEPTH 1104 decor aquarium behind is occluded: PASS
+DEPTH 1105 decor aquarium in front is visible: PASS
+DEPTH 1106 decor fountain individually sorted: PASS
+DEPTH 1107 decor fountain opaque probe point: PASS
+DEPTH 1108 decor fountain behind is occluded: PASS
+DEPTH 1109 decor fountain in front is visible: PASS
+DEPTH 1110 decor sign individually sorted: PASS
+DEPTH 1111 decor sign opaque probe point: PASS
+DEPTH 1112 decor sign behind is occluded: PASS
+DEPTH 1113 decor sign in front is visible: PASS
+DEPTH 1114 decor trophy individually sorted: PASS
+DEPTH 1115 decor trophy opaque probe point: PASS
+DEPTH 1116 decor trophy behind is occluded: PASS
+DEPTH 1117 decor trophy in front is visible: PASS
+DEPTH 1118 restaurant ground separate: PASS
+DEPTH 1119 restaurant 0 matching table collision: PASS
+DEPTH 1120 table 0/0 visibility and collision: PASS
+DEPTH 1121 table 0/1 visibility and collision: PASS
+DEPTH 1122 table 0/2 visibility and collision: PASS
+DEPTH 1123 table 0/3 visibility and collision: PASS
+DEPTH 1124 table 0/4 visibility and collision: PASS
+DEPTH 1125 table 0/5 visibility and collision: PASS
+DEPTH 1126 restaurant 1 matching table collision: PASS
+DEPTH 1127 table 1/0 visibility and collision: PASS
+DEPTH 1128 table 1/1 visibility and collision: PASS
+DEPTH 1129 table 1/2 visibility and collision: PASS
+DEPTH 1130 table 1/3 visibility and collision: PASS
+DEPTH 1131 table 1/4 visibility and collision: PASS
+DEPTH 1132 table 1/5 visibility and collision: PASS
+DEPTH 1133 restaurant 2 matching table collision: PASS
+DEPTH 1134 table 2/0 visibility and collision: PASS
+DEPTH 1135 table 2/1 visibility and collision: PASS
+DEPTH 1136 table 2/2 visibility and collision: PASS
+DEPTH 1137 table 2/3 visibility and collision: PASS
+DEPTH 1138 table 2/4 visibility and collision: PASS
+DEPTH 1139 table 2/5 visibility and collision: PASS
+DEPTH 1140 restaurant 3 matching table collision: PASS
+DEPTH 1141 table 3/0 visibility and collision: PASS
+DEPTH 1142 table 3/1 visibility and collision: PASS
+DEPTH 1143 table 3/2 visibility and collision: PASS
+DEPTH 1144 table 3/3 visibility and collision: PASS
+DEPTH 1145 table 3/4 visibility and collision: PASS
+DEPTH 1146 table 3/5 visibility and collision: PASS
+DEPTH 1147 restaurant 4 matching table collision: PASS
+DEPTH 1148 table 4/0 visibility and collision: PASS
+DEPTH 1149 table 4/1 visibility and collision: PASS
+DEPTH 1150 table 4/2 visibility and collision: PASS
+DEPTH 1151 table 4/3 visibility and collision: PASS
+DEPTH 1152 table 4/4 visibility and collision: PASS
+DEPTH 1153 table 4/5 visibility and collision: PASS
+DEPTH 1154 restaurant shared feet sort: PASS
+DEPTH 1155 restaurant PrepCounter actor depth: PASS
+DEPTH 1156 restaurant:PrepCounter opaque probe point: PASS
+DEPTH 1157 restaurant:PrepCounter behind is occluded: PASS
+DEPTH 1158 restaurant:PrepCounter in front is visible: PASS
+DEPTH 1159 restaurant KitchenCounter actor depth: PASS
+DEPTH 1160 restaurant:KitchenCounter opaque probe point: PASS
+DEPTH 1161 restaurant:KitchenCounter behind is occluded: PASS
+DEPTH 1162 restaurant:KitchenCounter in front is visible: PASS
+DEPTH 1163 restaurant Table_0 actor depth: PASS
+DEPTH 1164 restaurant:Table_0 opaque probe point: PASS
+DEPTH 1165 restaurant:Table_0 behind is occluded: PASS
+DEPTH 1166 restaurant:Table_0 in front is visible: PASS
+DEPTH 1167 restaurant Guest_0 actor depth: PASS
+DEPTH 1168 restaurant:Guest_0 opaque probe point: PASS
+DEPTH 1169 restaurant:Guest_0 behind is occluded: PASS
+DEPTH 1170 restaurant:Guest_0 in front is visible: PASS
+DEPTH 1171 restaurant Table_1 actor depth: PASS
+DEPTH 1172 restaurant:Table_1 opaque probe point: PASS
+DEPTH 1173 restaurant:Table_1 behind is occluded: PASS
+DEPTH 1174 restaurant:Table_1 in front is visible: PASS
+DEPTH 1175 restaurant Guest_1 actor depth: PASS
+DEPTH 1176 restaurant:Guest_1 opaque probe point: PASS
+DEPTH 1177 restaurant:Guest_1 behind is occluded: PASS
+DEPTH 1178 restaurant:Guest_1 in front is visible: PASS
+DEPTH 1179 restaurant Table_2 actor depth: PASS
+DEPTH 1180 restaurant:Table_2 opaque probe point: PASS
+DEPTH 1181 restaurant:Table_2 behind is occluded: PASS
+DEPTH 1182 restaurant:Table_2 in front is visible: PASS
+DEPTH 1183 restaurant Guest_2 actor depth: PASS
+DEPTH 1184 restaurant:Guest_2 opaque probe point: PASS
+DEPTH 1185 restaurant:Guest_2 behind is occluded: PASS
+DEPTH 1186 restaurant:Guest_2 in front is visible: PASS
+DEPTH 1187 restaurant Table_3 actor depth: PASS
+DEPTH 1188 restaurant:Table_3 opaque probe point: PASS
+DEPTH 1189 restaurant:Table_3 behind is occluded: PASS
+DEPTH 1190 restaurant:Table_3 in front is visible: PASS
+DEPTH 1191 restaurant Guest_3 actor depth: PASS
+DEPTH 1192 restaurant:Guest_3 opaque probe point: PASS
+DEPTH 1193 restaurant:Guest_3 behind is occluded: PASS
+DEPTH 1194 restaurant:Guest_3 in front is visible: PASS
+DEPTH 1195 restaurant Table_4 actor depth: PASS
+DEPTH 1196 restaurant:Table_4 opaque probe point: PASS
+DEPTH 1197 restaurant:Table_4 behind is occluded: PASS
+DEPTH 1198 restaurant:Table_4 in front is visible: PASS
+DEPTH 1199 restaurant Guest_4 actor depth: PASS
+DEPTH 1200 restaurant:Guest_4 opaque probe point: PASS
+DEPTH 1201 restaurant:Guest_4 behind is occluded: PASS
+DEPTH 1202 restaurant:Guest_4 in front is visible: PASS
+DEPTH 1203 restaurant Table_5 actor depth: PASS
+DEPTH 1204 restaurant:Table_5 opaque probe point: PASS
+DEPTH 1205 restaurant:Table_5 behind is occluded: PASS
+DEPTH 1206 restaurant:Table_5 in front is visible: PASS
+DEPTH 1207 restaurant Guest_5 actor depth: PASS
+DEPTH 1208 restaurant:Guest_5 opaque probe point: PASS
+DEPTH 1209 restaurant:Guest_5 behind is occluded: PASS
+DEPTH 1210 restaurant:Guest_5 in front is visible: PASS
+DEPTH 1211 held dish inherits player's feet: PASS
+DEPTH 1212 restaurant orders above actors: PASS
+DEPTH 1213 eating sprite frame: PASS
+DEPTH 1214 departed guests disappear: PASS
+DEPTH 1215 capture town: PASS
+DEPTH 1216 capture tree_behind: PASS
+DEPTH 1217 capture tree_front: PASS
+DEPTH 1218 capture restaurant_behind_guest: PASS
+DEPTH 1219 capture restaurant_front_guest: PASS
+DEPTH 1220 capture crops_behind: PASS
+DEPTH 1221 capture crops_front: PASS
+DEPTH COMPLETE checks=1221 failures=0 unique_kinds=216

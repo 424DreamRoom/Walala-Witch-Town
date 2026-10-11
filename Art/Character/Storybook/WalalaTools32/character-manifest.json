@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "character_id": "witch-tools-32",
+  "family": "map-actions",
+  "canvas": {
+    "width": 32,
+    "height": 32
+  },
+  "pivot": {
+    "x": 16,
+    "y": 32
+  },
+  "layers": [
+    "shadow",
+    "body",
+    "outfit",
+    "hair",
+    "equipment",
+    "fx"
+  ],
+  "frame_source": {
+    "count": 60,
+    "layers": {
+      "shadow": "frames/{index:03d}-shadow.png",
+      "body": "frames/{index:03d}-body.png",
+      "outfit": "frames/{index:03d}-outfit.png",
+      "hair": "frames/{index:03d}-hair.png",
+      "equipment": "frames/{index:03d}-equipment.png",
+      "fx": "frames/{index:03d}-fx.png"
+    }
+  },
+  "required_animation_tags": [
+    "chop-down",
+    "chop-up",
+    "chop-right",
+    "chop-left",
+    "mine-down",
+    "mine-up",
+    "mine-right",
+    "mine-left",
+    "cast-down",
+    "cast-up",
+    "cast-right",
+    "cast-left",
+    "wait-down",
+    "wait-up",
+    "wait-right",
+    "wait-left",
+    "reel-down",
+    "reel-up",
+    "reel-right",
+    "reel-left"
+  ],
+  "animations": [
+    {
+      "name": "chop-down",
+      "from": 0,
+      "to": 3,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "chop-up",
+      "from": 4,
+      "to": 7,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "chop-right",
+      "from": 8,
+      "to": 11,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "chop-left",
+      "from": 12,
+      "to": 15,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "mine-down",
+      "from": 16,
+      "to": 19,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "mine-up",
+      "from": 20,
+      "to": 23,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "mine-right",
+      "from": 24,
+      "to": 27,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "mine-left",
+      "from": 28,
+      "to": 31,
+      "duration_ms": 170,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "cast-down",
+      "from": 32,
+      "to": 34,
+      "duration_ms": 150,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "cast-up",
+      "from": 35,
+      "to": 37,
+      "duration_ms": 150,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "cast-right",
+      "from": 38,
+      "to": 40,
+      "duration_ms": 150,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "cast-left",
+      "from": 41,
+      "to": 43,
+      "duration_ms": 150,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "wait-down",
+      "from": 44,
+      "to": 44,
+      "duration_ms": 300,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "wait-up",
+      "from": 45,
+      "to": 45,
+      "duration_ms": 300,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "wait-right",
+      "from": 46,
+      "to": 46,
+      "duration_ms": 300,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "wait-left",
+      "from": 47,
+      "to": 47,
+      "duration_ms": 300,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "reel-down",
+      "from": 48,
+      "to": 50,
+      "duration_ms": 200,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "reel-up",
+      "from": 51,
+      "to": 53,
+      "duration_ms": 200,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "reel-right",
+      "from": 54,
+      "to": 56,
+      "duration_ms": 200,
+      "direction": "forward",
+      "loop": false
+    },
+    {
+      "name": "reel-left",
+      "from": 57,
+      "to": 59,
+      "duration_ms": 200,
+      "direction": "forward",
+      "loop": false
+    }
+  ],
+  "export": {
+    "columns": 5
+  },
+  "validation": {
+    "binary_alpha": true,
+    "palette_max_per_frame": 48,
+    "expected_baseline": 31
+  },
+  "design": {
+    "id": "walala-witch",
+    "hair_style": "silver-bob",
+    "hat": "#a080b7",
+    "hair": "#e6e3ed",
+    "skin": "#f7dcc4",
+    "outfit": "#a78db5",
+    "key_source": "../WalalaWitch32/character-keys.png"
+  },
+  "reference_note": "New full-body 32x32 imagegen keys and pixel-part animation; see ../WalalaWitch32/README.md"
+}

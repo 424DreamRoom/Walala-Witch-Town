@@ -1,0 +1,59 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD Sound System: Live update enabled!
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+SCRIPT ERROR: Invalid access to property or key 'unplantable' on a base object of type 'Dictionary'.
+   at: _make_obstacles (res://Scenes/Farm/farm_terrain.gd:41)
+   GDScript backtrace (most recent call first):
+       [0] _make_obstacles (res://Scenes/Farm/farm_terrain.gd:41)
+       [1] @static_initializer (res://Scenes/Farm/farm_terrain.gd:13)
+MAP TEST legacy custom keys survive new map action: PASS
+MAP TEST M opens a paused world overview: PASS
+MAP TEST map freezes clock and player: PASS
+MAP TEST town projection reads expanded layout: PASS
+MAP TEST world locates player at actual coordinates: PASS
+MAP TEST clicking farm shows its detail without travel: PASS
+MAP TEST map door pin opens destination detail: PASS
+MAP TEST select region town: PASS
+MAP TEST select region farm: PASS
+MAP TEST select region field: PASS
+MAP TEST select region dock: PASS
+MAP TEST select region home: PASS
+MAP TEST select region restaurant: PASS
+MAP TEST select region store: PASS
+MAP TEST select region blacksmith: PASS
+MAP TEST select region furniture_store: PASS
+MAP TEST M closes and resumes: PASS
+MAP TEST HUD button opens map: PASS
+MAP TEST mouse close resumes gameplay: PASS
+MAP TEST Esc closes map without opening pause menu: PASS
+MAP TEST reopened map updates position: PASS
+MAP TEST farm player point uses farm dimensions: PASS
+MAP TEST map inspection leaves crops untouched: PASS
+MAP TEST stored furniture disappears from map: PASS
+MAP TEST moved furniture uses saved coordinates: PASS
+MAP TEST indoor world point is placed at house door: PASS
+MAP TEST store world point is placed at town door: PASS
+MAP TEST map key can be rebound: PASS
+MAP TEST rebinding preserves map title without a key hint: PASS
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+MAP TEST old map key no longer opens map: PASS
+MAP TEST new map key opens map: PASS
+MAP TEST map binding persists independently of progress: PASS
+MAP TEST map language en: PASS
+MAP TEST map language ja: PASS
+MAP TEST map language zh_TW: PASS
+MAP TEST map language zh_CN: PASS
+MAP TEST map does not override backpack: PASS
+MAP TEST map does not override dialogue: PASS
+MAP TEST map does not override pause menu: PASS
+MAP TEST furniture catalog opens: PASS
+MAP TEST map respects furniture session: PASS
+MAP TEST settlement blocks map: PASS
+MAP VERIFY END failures=0
+FMOD Sound System: System released

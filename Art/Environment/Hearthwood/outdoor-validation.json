@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "native_sprites": 20,
-  "town_decorations": 57,
+  "native_sprites": 21,
+  "town_decorations": 84,
   "town_navigation": {
-    "targets": 15,
-    "reachable_cells": 60279,
+    "targets": 17,
+    "reachable_cells": 60845,
     "foot_collision": [
       10,
       6
@@ -12,19 +12,13 @@
     "status": "PASS"
   },
   "field_navigation": {
-    "targets": 10,
-    "reachable_cells": 5364,
+    "targets": 11,
+    "reachable_cells": 6877,
     "foot_collision": [
       10,
       6
     ],
     "status": "PASS"
   },
-  "method": "4px cardinal flood fill against expanded solid footprints; excludes decorative foliage",
-  "window_scaling": {
-    "status": "PASS",
-    "screenshots": 8,
-    "scale": 2,
-    "method": "Exact rendered PNG comparison"
-  }
+  "method": "4px cardinal flood fill against expanded solid footprints; excludes decorative foliage"
 }

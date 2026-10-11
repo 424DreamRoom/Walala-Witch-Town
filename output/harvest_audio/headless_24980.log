@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD Sound System: Live update enabled!
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "looping" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://Sounds/Walala/fmod_voice.gd:37)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_harvest_audio.gd:34)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Sounds/Walala/audio_manager.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_harvest_audio.gd:34)
+ERROR: Failed to load script "res://Sounds/Walala/audio_manager.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_harvest_audio.gd:34)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: _ready (res://Sounds/Walala/ui_audio.gd:28)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Sounds/Walala/ui_audio.gd:28)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:43)
+       [2] run (res://Sounds/Walala/verify_harvest_audio.gd:35)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: _ready (res://Sounds/Walala/audio_manager.gd:63)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Sounds/Walala/audio_manager.gd:63)
+       [1] run (res://Sounds/Walala/verify_harvest_audio.gd:35)
+DRIVER Dummy
+HARVEST AUDIO short one-shot gather 0: PASS
+HARVEST AUDIO full PCM and headroom gather 0: FAIL
+HARVEST AUDIO short one-shot gather 1: PASS
+HARVEST AUDIO full PCM and headroom gather 1: FAIL
+SCRIPT ERROR: Invalid access of index '0' on a base object of type: 'Array[Node]'.
+   at: run (res://Sounds/Walala/verify_harvest_audio.gd:64)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Sounds/Walala/verify_harvest_audio.gd:64)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+WARNING: [FMOD WARN] C:\buildagent1\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp in FMOD_OS_Net_Listen(): Cannot listen for connections, port 9264 is currently in use.
+
+   at: push_warning (core/variant/variant_utility.cpp:1033)

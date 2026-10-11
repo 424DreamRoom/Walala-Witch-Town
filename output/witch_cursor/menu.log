@@ -1,0 +1,36 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+MENU TEST project starts at save notice: PASS
+MENU TEST game title: PASS
+MENU TEST four requested buttons: PASS
+MENU TEST centered vertical button 0: PASS
+MENU TEST centered vertical button 1: PASS
+MENU TEST centered vertical button 2: PASS
+MENU TEST centered vertical button 3: PASS
+MENU TEST start initially focused: PASS
+MENU TEST keyboard moves down: PASS
+MENU TEST keyboard opens settings: PASS
+MENU TEST modal blocks main buttons: PASS
+MENU TEST master volume uses mouse input: PASS
+MENU TEST five audio sliders: PASS
+MENU TEST saved audio preferences: PASS
+MENU TEST four settings categories: PASS
+MENU TEST category switches content: PASS
+MENU TEST frame limit applies immediately: PASS
+MENU TEST vsync preference persists: PASS
+MENU TEST fullscreen disables window sizing: PASS
+MENU TEST display defaults restore: PASS
+MENU TEST text motion defaults enabled: PASS
+MENU TEST text motion preferences persist from title settings: PASS
+MENU TEST game preferences persist: PASS
+MENU TEST reset affects only current page: PASS
+MENU TEST game reset restores text motion: PASS
+MENU TEST shortcut page has editable bindings: PASS
+MENU TEST escape closes and restores focus: PASS
+MENU TEST settings retain values: PASS
+MENU TEST credits button opens scrollable text: PASS
+MENU TEST credits include existing sources: PASS
+MENU TEST quit asks for confirmation: PASS
+MENU TEST quit cancel returns to menu: PASS
+MENU VERIFY END failures=0

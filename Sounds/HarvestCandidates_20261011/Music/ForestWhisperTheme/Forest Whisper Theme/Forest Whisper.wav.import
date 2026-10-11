@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvs1pfsyaj84p"
+path="res://.godot/imported/Forest Whisper.wav-4973c0e6704512ba17474d762c5c604c.sample"
+
+[deps]
+
+source_file="res://Sounds/HarvestCandidates_20261011/Music/ForestWhisperTheme/Forest Whisper Theme/Forest Whisper.wav"
+dest_files=["res://.godot/imported/Forest Whisper.wav-4973c0e6704512ba17474d762c5c604c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

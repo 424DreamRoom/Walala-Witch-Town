@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+FMOD METHOD is_valid []
+FMOD METHOD release []
+FMOD METHOD play []
+FMOD METHOD stop []
+FMOD METHOD set_paused [{ "name": "paused", "class_name": &"", "type": 1, "hint": 0, "hint_string": "", "usage": 6 }]
+FMOD METHOD is_playing []
+FMOD METHOD set_volume [{ "name": "volume", "class_name": &"", "type": 3, "hint": 0, "hint_string": "", "usage": 6 }]
+FMOD METHOD get_volume []
+FMOD METHOD set_pitch [{ "name": "pitch", "class_name": &"", "type": 3, "hint": 0, "hint_string": "", "usage": 6 }]
+FMOD METHOD get_pitch []
+FMOD Sound System: System released

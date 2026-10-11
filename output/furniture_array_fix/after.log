@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FURNITURE SAVE fixed geometry false: PASS
+FURNITURE SAVE placement validation false: PASS
+FURNITURE SAVE fixed geometry true: PASS
+FURNITURE SAVE placement validation true: PASS
+FURNITURE SAVE JSON furniture normalization: PASS
+FURNITURE SAVE pre-expansion save migration: PASS
+FURNITURE SAVE write slot 1: PASS
+FURNITURE SAVE read slot 1: PASS
+FURNITURE SAVE preserve furniture and chest contents 1: PASS
+FURNITURE SAVE restore loaded state 1: PASS
+FURNITURE SAVE overwrite existing slot 1: PASS
+FURNITURE SAVE verify backup 1: PASS
+FURNITURE SAVE small house normalizes placed furniture: PASS
+FURNITURE SAVE write slot 2: PASS
+FURNITURE SAVE read slot 2: PASS
+FURNITURE SAVE preserve furniture and chest contents 2: PASS
+FURNITURE SAVE restore loaded state 2: PASS
+FURNITURE SAVE overwrite existing slot 2: PASS
+FURNITURE SAVE verify backup 2: PASS
+FURNITURE SAVE overlapping furniture still rejected: PASS
+FURNITURE SAVE VERIFY END failures=0 checks=20

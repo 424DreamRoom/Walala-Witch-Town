@@ -1,0 +1,66 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+NAMING invalid name : PASS
+NAMING invalid name    : PASS
+NAMING invalid name abcdefghijklmnop: PASS
+NAMING invalid name a\nb: PASS
+NAMING invalid name a\tb: PASS
+NAMING invalid name a: PASS
+NAMING invalid name 42: PASS
+NAMING unicode name accepted: PASS
+NAMING name trims outer whitespace: PASS
+NAMING confirmed name is immutable: PASS
+NAMING old campaign migrates false: PASS
+NAMING old campaign migrates true: PASS
+NAMING bad saved name rejected: PASS
+NAMING new slot opens: PASS
+NAMING new slot starts paused film: PASS
+NAMING natural film end opens naming: PASS
+NAMING naming freezes world clock: PASS
+NAMING unfinished naming saved: PASS
+NAMING game shortcuts type into name: PASS
+NAMING escape cannot bypass naming: PASS
+NAMING blank name cannot continue: PASS
+NAMING second confirmation leaves save unnamed: PASS
+NAMING cancel restores editable name and focus: PASS
+NAMING interrupted slot opens: PASS
+NAMING interrupted naming resumes without film: PASS
+NAMING capture input_zh_CN: PASS
+NAMING name stays literal zh_CN: PASS
+NAMING capture confirm_zh_CN: PASS
+NAMING capture input_en: PASS
+NAMING name stays literal en: PASS
+NAMING capture confirm_en: PASS
+NAMING capture input_ja: PASS
+NAMING name stays literal ja: PASS
+NAMING capture confirm_ja: PASS
+NAMING capture input_zh_TW: PASS
+NAMING name stays literal zh_TW: PASS
+NAMING capture confirm_zh_TW: PASS
+NAMING integer pixel scaling 1080: PASS
+NAMING window capture 1080: PASS
+NAMING integer pixel scaling 720: PASS
+NAMING window capture 720: PASS
+NAMING mouse opens confirmation: PASS
+NAMING mouse cancel preserves text: PASS
+NAMING enter opens confirmation: PASS
+ERROR: Could not create directory: 'C:/Godot/Walala-Witch-Town/output/player_naming/blocked_30576/child'.
+   at: make_dir_recursive (core/io/dir_access.cpp:179)
+   GDScript backtrace (most recent call first):
+       [0] write_slot (res://Scenes/Save/save_store.gd:105)
+       [1] save_progress (res://Scenes/Gameplay/game_loop.gd:184)
+       [2] _complete_naming (res://Scenes/Campaign/campaign_controller.gd:354)
+       [3] _confirm (res://Scenes/Campaign/player_naming.gd:187)
+       [4] run (res://Scenes/Campaign/verify_player_naming.gd:168)
+       [5] key (res://Scenes/Campaign/verify_player_naming.gd:39)
+       [6] frames (res://Scenes/Campaign/verify_player_naming.gd:29)
+NAMING save failure keeps confirmation and rolls back name: PASS
+NAMING keyboard confirmation saves and resumes: PASS
+NAMING chosen name persisted in JSON: PASS
+NAMING named slot opens: PASS
+NAMING named save has no opening prompts: PASS
+NAMING second empty slot opens: PASS
+NAMING skipped film still requires naming: PASS
+NAMING slot card displays saved name: PASS
+NAMING COMPLETE checks=52 failures=0

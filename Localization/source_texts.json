@@ -1,0 +1,843 @@
+{
+  "铁砧 E": [
+    "Scenes/Businesses/business_interior.gd:60"
+  ],
+  "柜台 E": [
+    "Scenes/Businesses/business_interior.gd:60"
+  ],
+  "回小镇 E": [
+    "Scenes/Businesses/business_interior.gd:61"
+  ],
+  "余烬铁匠铺": [
+    "Scenes/Businesses/business_interior.gd:91",
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  "橡果杂货店": [
+    "Scenes/Businesses/business_interior.gd:91",
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  "熔炼铁锭  矿2 + 木1": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "售出矿石 ×1   +3金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "售出木材 ×1   +1金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "买蘑菇 ×1    3金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "买莓果 ×1    3金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "买香草 ×1    3金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "售出铁锭 ×1   +8金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "售出鱼 ×1     +4金": [
+    "Scenes/Businesses/business_interior.gd:93"
+  ],
+  "白天营业 · E / Esc 收起": [
+    "Scenes/Businesses/business_interior.gd:107"
+  ],
+  "柜台白天营业，明天再来吧。": [
+    "Scenes/Businesses/business_interior.gd:115"
+  ],
+  "木%d  矿%d  铁%d  鱼%d\n背包 %d/12 · %d金": [
+    "Scenes/Businesses/business_interior.gd:131"
+  ],
+  "小镇 E": [
+    "Scenes/Dock/dock.gd:105",
+    "Scenes/Gameplay/play_area.gd:115",
+    "Scenes/Gameplay/play_area.gd:161"
+  ],
+  "钓鱼 E · %d/3": [
+    "Scenes/Dock/dock.gd:110"
+  ],
+  "鱼儿散去 · 次日刷新": [
+    "Scenes/Dock/dock.gd:112"
+  ],
+  "野外 E": [
+    "Scenes/Gameplay/game_loop.gd:92"
+  ],
+  "餐厅 E": [
+    "Scenes/Gameplay/game_loop.gd:92"
+  ],
+  "家 E": [
+    "Scenes/Gameplay/game_loop.gd:92"
+  ],
+  "码头 E": [
+    "Scenes/Gameplay/game_loop.gd:92"
+  ],
+  "铁匠铺 E": [
+    "Scenes/Gameplay/game_loop.gd:92"
+  ],
+  "杂货店 E": [
+    "Scenes/Gameplay/game_loop.gd:92"
+  ],
+  "请先从主菜单选择存档栏位。": [
+    "Scenes/Gameplay/game_loop.gd:148"
+  ],
+  "蘑菇汤：切片菇2 / 12金": [
+    "Scenes/Gameplay/game_loop.gd:201"
+  ],
+  "莓果派：莓果酱2 / 14金": [
+    "Scenes/Gameplay/game_loop.gd:201"
+  ],
+  "炖菇：切片菇1+草料1 / 18金": [
+    "Scenes/Gameplay/game_loop.gd:201"
+  ],
+  "%s  %d金": [
+    "Scenes/Gameplay/game_loop.gd:203"
+  ],
+  "做": [
+    "Scenes/Gameplay/game_loop.gd:209"
+  ],
+  "丢弃手中菜": [
+    "Scenes/Gameplay/game_loop.gd:212"
+  ],
+  "提前结束白天": [
+    "Scenes/Gameplay/game_loop.gd:213"
+  ],
+  "请走到料理台前。": [
+    "Scenes/Gameplay/game_loop.gd:238"
+  ],
+  "野外夜间关闭，请进餐厅营业。": [
+    "Scenes/Gameplay/game_loop.gd:256"
+  ],
+  "码头夜间关闭，明早再来钓鱼吧。": [
+    "Scenes/Gameplay/game_loop.gd:270"
+  ],
+  "潮汐码头：走近鱼牌按 E 抛竿，咬钩后按 E 收竿。": [
+    "Scenes/Gameplay/game_loop.gd:351"
+  ],
+  "白天": [
+    "Scenes/Gameplay/game_loop.gd:420",
+    "Scenes/Gameplay/loop_state.gd:13",
+    "Scenes/MainMenu/main_menu.gd:223"
+  ],
+  "营业": [
+    "Scenes/Gameplay/game_loop.gd:420",
+    "Scenes/MainMenu/main_menu.gd:223"
+  ],
+  "结算": [
+    "Scenes/Gameplay/game_loop.gd:420",
+    "Scenes/MainMenu/main_menu.gd:223"
+  ],
+  "第%d天 · %s %03d秒 · %s · %d金": [
+    "Scenes/Gameplay/game_loop.gd:421"
+  ],
+  "小镇": [
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/Save/save_store.gd:7"
+  ],
+  "野外": [
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/Save/save_store.gd:7"
+  ],
+  "餐厅": [
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/Save/save_store.gd:7"
+  ],
+  "小女巫的家": [
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  "潮汐码头": [
+    "Scenes/Gameplay/game_loop.gd:421",
+    "Scenes/Save/save_store.gd:7",
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  "菜单": [
+    "Scenes/Gameplay/game_loop.gd:429"
+  ],
+  "料理": [
+    "Scenes/Gameplay/game_loop.gd:429"
+  ],
+  "背包 %d/12：蘑菇%d  莓果%d  香草%d": [
+    "Scenes/Gameplay/game_loop.gd:433"
+  ],
+  "菇%d  莓%d  草%d（%d/12）  |  木材%d  矿石%d  鱼%d": [
+    "Scenes/Gameplay/game_loop.gd:436"
+  ],
+  "%s　|　厨房：菇%d  莓%d  草%d\n本晚 %d金": [
+    "Scenes/Gameplay/game_loop.gd:438"
+  ],
+  "　%s %.1f秒": [
+    "Scenes/Gameplay/game_loop.gd:440"
+  ],
+  "　手中：": [
+    "Scenes/Gameplay/game_loop.gd:442"
+  ],
+  "开始营业": [
+    "Scenes/Gameplay/game_loop.gd:457",
+    "Scenes/Save/save_menu.gd:85"
+  ],
+  "结束营业": [
+    "Scenes/Gameplay/game_loop.gd:457",
+    "Scenes/Save/save_menu.gd:85"
+  ],
+  "进入次日": [
+    "Scenes/Gameplay/game_loop.gd:457",
+    "Scenes/Save/save_menu.gd:85"
+  ],
+  "鱼儿已散去，次日再来。": [
+    "Scenes/Gameplay/harvest_actions.gd:44",
+    "Scenes/Gameplay/loop_state.gd:157"
+  ],
+  "这里已采完，次日刷新。": [
+    "Scenes/Gameplay/harvest_actions.gd:44",
+    "Scenes/Gameplay/loop_state.gd:115",
+    "Scenes/Gameplay/loop_state.gd:142"
+  ],
+  "收竿太早，鱼儿还没咬钩。": [
+    "Scenes/Gameplay/harvest_actions.gd:68"
+  ],
+  "鱼儿溜走了。": [
+    "Scenes/Gameplay/harvest_actions.gd:112"
+  ],
+  "砍伐": [
+    "Scenes/Gameplay/harvest_actions.gd:138"
+  ],
+  "开采": [
+    "Scenes/Gameplay/harvest_actions.gd:138"
+  ],
+  "抛竿": [
+    "Scenes/Gameplay/harvest_actions.gd:138"
+  ],
+  "等待咬钩": [
+    "Scenes/Gameplay/harvest_actions.gd:138"
+  ],
+  "咬钩！E": [
+    "Scenes/Gameplay/harvest_actions.gd:138"
+  ],
+  "收竿": [
+    "Scenes/Gameplay/harvest_actions.gd:138"
+  ],
+  "蘑菇": [
+    "Scenes/Gameplay/loop_state.gd:3",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "莓果": [
+    "Scenes/Gameplay/loop_state.gd:3",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "香草": [
+    "Scenes/Gameplay/loop_state.gd:3",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "切片菇": [
+    "Scenes/Gameplay/loop_state.gd:4"
+  ],
+  "莓果酱": [
+    "Scenes/Gameplay/loop_state.gd:4"
+  ],
+  "香草料": [
+    "Scenes/Gameplay/loop_state.gd:4"
+  ],
+  "蘑菇汤": [
+    "Scenes/Gameplay/loop_state.gd:5"
+  ],
+  "莓果派": [
+    "Scenes/Gameplay/loop_state.gd:5"
+  ],
+  "香草炖菇": [
+    "Scenes/Gameplay/loop_state.gd:5"
+  ],
+  "早上": [
+    "Scenes/Gameplay/loop_state.gd:13"
+  ],
+  "傍晚": [
+    "Scenes/Gameplay/loop_state.gd:13"
+  ],
+  "夜晚": [
+    "Scenes/Gameplay/loop_state.gd:13"
+  ],
+  "木材": [
+    "Scenes/Gameplay/loop_state.gd:23",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "矿石": [
+    "Scenes/Gameplay/loop_state.gd:23",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "鱼": [
+    "Scenes/Gameplay/loop_state.gd:23",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "铁锭": [
+    "Scenes/Gameplay/loop_state.gd:23",
+    "Scenes/UI/game_hud.gd:10"
+  ],
+  "沿小镇路标去野外采集，再回餐厅备料。": [
+    "Scenes/Gameplay/loop_state.gd:41"
+  ],
+  "暂时无法交易：请检查营业时间、金币、材料和背包容量。": [
+    "Scenes/Gameplay/loop_state.gd:91"
+  ],
+  "熔炼完成：矿石2 + 木材1 → 铁锭1。": [
+    "Scenes/Gameplay/loop_state.gd:97"
+  ],
+  "售出%s ×1，获得%d金。": [
+    "Scenes/Gameplay/loop_state.gd:102"
+  ],
+  "购入%s ×1，花费3金。": [
+    "Scenes/Gameplay/loop_state.gd:107"
+  ],
+  "仅白天可以采集。": [
+    "Scenes/Gameplay/loop_state.gd:112",
+    "Scenes/Gameplay/loop_state.gd:142"
+  ],
+  "背包已满（12），回餐厅加工腾出空间。": [
+    "Scenes/Gameplay/loop_state.gd:118"
+  ],
+  "采得": [
+    "Scenes/Gameplay/loop_state.gd:123"
+  ],
+  "加工完成：原食材 1:1 转为厨房原料。": [
+    "Scenes/Gameplay/loop_state.gd:134"
+  ],
+  "背包没有原食材；可去采集或直接结束阶段。": [
+    "Scenes/Gameplay/loop_state.gd:134"
+  ],
+  "采得%s ×%d": [
+    "Scenes/Gameplay/loop_state.gd:149"
+  ],
+  "仅白天可以钓鱼。": [
+    "Scenes/Gameplay/loop_state.gd:157"
+  ],
+  "钓到鱼 ×1": [
+    "Scenes/Gameplay/loop_state.gd:162"
+  ],
+  "仅夜间烹饪；请先送出手中的菜，或等待当前料理完成。": [
+    "Scenes/Gameplay/loop_state.gd:173"
+  ],
+  "此菜未上菜单或原料不足，不扣库存。": [
+    "Scenes/Gameplay/loop_state.gd:176"
+  ],
+  "料理开始，原料已扣一次；3 秒后自动端起。": [
+    "Scenes/Gameplay/loop_state.gd:182"
+  ],
+  "没有可送的菜或此座位为空。": [
+    "Scenes/Gameplay/loop_state.gd:188"
+  ],
+  "这位客人正在用餐，暂不接单。": [
+    "Scenes/Gameplay/loop_state.gd:191"
+  ],
+  "订单不符！菜仍在手上，找正确客人或丢弃。": [
+    "Scenes/Gameplay/loop_state.gd:194"
+  ],
+  "上菜成功 +": [
+    "Scenes/Gameplay/loop_state.gd:199"
+  ],
+  " 金币（营业结束入账）": [
+    "Scenes/Gameplay/loop_state.gd:199"
+  ],
+  "菜做好了！走近对应客人按 E 上菜。": [
+    "Scenes/Gameplay/loop_state.gd:251"
+  ],
+  "夜间营业开始！E 备料；走近料理台选菜。缺货可随时结束。": [
+    "Scenes/Gameplay/loop_state.gd:262"
+  ],
+  "第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n原食材和厨房原料保留；采集点次日刷新。": [
+    "Scenes/Gameplay/loop_state.gd:275"
+  ],
+  "营业结束，点击「进入次日」继续。": [
+    "Scenes/Gameplay/loop_state.gd:276"
+  ],
+  "新的一天！库存与菜单保留，野外采集点已刷新。": [
+    "Scenes/Gameplay/loop_state.gd:291"
+  ],
+  "已丢弃手中的菜（不退原料）。": [
+    "Scenes/Gameplay/loop_state.gd:297"
+  ],
+  "砍树 E": [
+    "Scenes/Gameplay/play_area.gd:105"
+  ],
+  "挖矿 E": [
+    "Scenes/Gameplay/play_area.gd:105"
+  ],
+  "钓鱼 E": [
+    "Scenes/Gameplay/play_area.gd:105"
+  ],
+  "次日刷新": [
+    "Scenes/Gameplay/play_area.gd:107"
+  ],
+  "备料 E": [
+    "Scenes/Gameplay/play_area.gd:140"
+  ],
+  "哗啦啦魔女镇": [
+    "Scenes/MainMenu/main_menu.gd:97",
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  "灯火将亮，故事将启": [
+    "Scenes/MainMenu/main_menu.gd:104"
+  ],
+  "开始游戏": [
+    "Scenes/MainMenu/main_menu.gd:106"
+  ],
+  "设置": [
+    "Scenes/MainMenu/main_menu.gd:106",
+    "Scenes/Save/save_menu.gd:90",
+    "Scenes/UI/settings_panel.gd:27"
+  ],
+  "鸣谢": [
+    "Scenes/MainMenu/main_menu.gd:106",
+    "Scenes/MainMenu/main_menu.gd:158",
+    "Scenes/UI/settings_panel.gd:44"
+  ],
+  "退出游戏": [
+    "Scenes/MainMenu/main_menu.gd:106",
+    "Scenes/MainMenu/main_menu.gd:177"
+  ],
+  "W / S 选择  ·  Enter 确认": [
+    "Scenes/MainMenu/main_menu.gd:117"
+  ],
+  "哗啦啦魔女镇\n\n感谢每一位来到小镇的你。\n\n角色与场景\n本项目原创像素美术。\n\n界面素材\nFramewright Lite — Cabin Circuit\nhttps://cabincircuit.itch.io/framewright-lite\n\n引擎\nGodot Engine — MIT License\nhttps://godotengine.org/license/\n\n": [
+    "Scenes/MainMenu/main_menu.gd:166"
+  ],
+  "返回": [
+    "Scenes/MainMenu/main_menu.gd:168",
+    "Scenes/MainMenu/main_menu.gd:238",
+    "Scenes/UI/settings_panel.gd:45"
+  ],
+  "退出游戏？": [
+    "Scenes/MainMenu/main_menu.gd:173"
+  ],
+  "下次再来小镇坐坐吧。": [
+    "Scenes/MainMenu/main_menu.gd:174"
+  ],
+  "再待一会": [
+    "Scenes/MainMenu/main_menu.gd:175"
+  ],
+  "选择存档": [
+    "Scenes/MainMenu/main_menu.gd:207"
+  ],
+  "选择已有存档继续，或从空栏位开启新生活": [
+    "Scenes/MainMenu/main_menu.gd:208"
+  ],
+  "存档 %02d": [
+    "Scenes/MainMenu/main_menu.gd:215"
+  ],
+  "— 空存档 —": [
+    "Scenes/MainMenu/main_menu.gd:216"
+  ],
+  "开启新的小镇生活": [
+    "Scenes/MainMenu/main_menu.gd:217"
+  ],
+  "无法读取存档": [
+    "Scenes/MainMenu/main_menu.gd:219"
+  ],
+  "点击查看原因": [
+    "Scenes/MainMenu/main_menu.gd:220"
+  ],
+  "第 %d 天 · %s · %d 金": [
+    "Scenes/MainMenu/main_menu.gd:223"
+  ],
+  "已找到可恢复的备份": [
+    "Scenes/MainMenu/main_menu.gd:226"
+  ],
+  "WASD 选择 · Enter 进入 · Esc 返回": [
+    "Scenes/MainMenu/main_menu.gd:240"
+  ],
+  "无法进入游戏：": [
+    "Scenes/MainMenu/main_menu.gd:274"
+  ],
+  "无法保存设置。": [
+    "Scenes/MainMenu/menu_preferences.gd:23"
+  ],
+  "无法保存声音设置。": [
+    "Scenes/MainMenu/menu_preferences.gd:58"
+  ],
+  "小镇菜单": [
+    "Scenes/Save/save_menu.gd:81"
+  ],
+  "存档 %02d · 第 %d 天": [
+    "Scenes/Save/save_menu.gd:82"
+  ],
+  "请从主菜单选择存档后游玩": [
+    "Scenes/Save/save_menu.gd:82"
+  ],
+  "继续游戏": [
+    "Scenes/Save/save_menu.gd:83"
+  ],
+  "保存进度": [
+    "Scenes/Save/save_menu.gd:87"
+  ],
+  "保存并返回主菜单": [
+    "Scenes/Save/save_menu.gd:92"
+  ],
+  "返回主菜单": [
+    "Scenes/Save/save_menu.gd:94"
+  ],
+  "游戏已暂停 · Esc 继续": [
+    "Scenes/Save/save_menu.gd:95"
+  ],
+  "自动保存完成": [
+    "Scenes/Save/save_menu.gd:133"
+  ],
+  "已保存到存档 %02d": [
+    "Scenes/Save/save_menu.gd:133"
+  ],
+  "魔女之家": [
+    "Scenes/Save/save_store.gd:7"
+  ],
+  "铁匠铺": [
+    "Scenes/Save/save_store.gd:7"
+  ],
+  "杂货店": [
+    "Scenes/Save/save_store.gd:7"
+  ],
+  "无法读取存档文件。": [
+    "Scenes/Save/save_store.gd:55"
+  ],
+  "存档文件过大，无法读取。": [
+    "Scenes/Save/save_store.gd:57"
+  ],
+  "存档内容损坏。": [
+    "Scenes/Save/save_store.gd:62",
+    "Scenes/Save/save_store.gd:65",
+    "Scenes/Save/save_store.gd:73"
+  ],
+  "存档版本不兼容，请使用对应的游戏版本。": [
+    "Scenes/Save/save_store.gd:67"
+  ],
+  "存档信息不完整。": [
+    "Scenes/Save/save_store.gd:69"
+  ],
+  "存档校验失败。": [
+    "Scenes/Save/save_store.gd:71"
+  ],
+  "存档数据无效。": [
+    "Scenes/Save/save_store.gd:76"
+  ],
+  "不存在这个存档栏位。": [
+    "Scenes/Save/save_store.gd:81",
+    "Scenes/Save/save_store.gd:97"
+  ],
+  "主存档缺失。": [
+    "Scenes/Save/save_store.gd:85"
+  ],
+  "当前进度无法保存。": [
+    "Scenes/Save/save_store.gd:100"
+  ],
+  "无法创建存档目录，请检查磁盘权限。": [
+    "Scenes/Save/save_store.gd:103"
+  ],
+  "存档版本不兼容，已保留原文件。": [
+    "Scenes/Save/save_store.gd:107"
+  ],
+  "写入失败，请检查磁盘空间和权限。": [
+    "Scenes/Save/save_store.gd:111"
+  ],
+  "存档写入未完成，原存档已保留。": [
+    "Scenes/Save/save_store.gd:117"
+  ],
+  "无法备份旧存档，原存档已保留。": [
+    "Scenes/Save/save_store.gd:122"
+  ],
+  "无法更新存档，原存档已保留。": [
+    "Scenes/Save/save_store.gd:125"
+  ],
+  "微光采集地": [
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  "小镇餐厅": [
+    "Scenes/UI/game_hud.gd:8"
+  ],
+  " · 点击查看背包": [
+    "Scenes/UI/game_hud.gd:109"
+  ],
+  "第%d天·周%s": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "一": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "二": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "三": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "四": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "五": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "六": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "日": [
+    "Scenes/UI/game_hud.gd:138"
+  ],
+  "时钟每半小时更新 · 早上 06–09 · 白天 09–17 · 傍晚 17–20 · 夜晚 20–06": [
+    "Scenes/UI/game_hud.gd:141"
+  ],
+  "小镇手记": [
+    "Scenes/UI/game_hud.gd:200"
+  ],
+  "WALALA · 入镇指引": [
+    "Scenes/UI/game_hud.gd:201"
+  ],
+  "进行中": [
+    "Scenes/UI/game_hud.gd:204",
+    "Scenes/UI/game_hud.gd:250"
+  ],
+  "已完成": [
+    "Scenes/UI/game_hud.gd:205",
+    "Scenes/UI/game_hud.gd:250",
+    "Scenes/UI/game_hud.gd:257"
+  ],
+  "J / Esc 合上手记 · 阅读时暂停": [
+    "Scenes/UI/game_hud.gd:215"
+  ],
+  "这里还没有手记。\n去小镇走走吧！": [
+    "Scenes/UI/game_hud.gd:238"
+  ],
+  "每一次小小的尝试，\n都会成为小镇的回忆。": [
+    "Scenes/UI/game_hud.gd:246"
+  ],
+  "入镇指引 / ": [
+    "Scenes/UI/game_hud.gd:250"
+  ],
+  "追踪这项任务": [
+    "Scenes/UI/game_hud.gd:257"
+  ],
+  "女巫的随身背包": [
+    "Scenes/UI/game_hud.gd:264"
+  ],
+  "原食材 %d / 12 · 金币 %d": [
+    "Scenes/UI/game_hud.gd:266"
+  ],
+  "欢迎来到哗啦啦魔女镇！白天可以沿路标去采集、钓鱼，也能拜访铁匠铺和杂货店。准备好以后，就回餐厅点亮炉火吧。": [
+    "Scenes/UI/game_hud.gd:278"
+  ],
+  "森林给的礼物，要记得放进篮子里。走近食材按 E 就能采集；树木和矿石也可以互动。背包满了就回餐厅备料吧。": [
+    "Scenes/UI/game_hud.gd:279"
+  ],
+  "白天在左侧备料台按 E 加工食材，再挑选今晚的菜单。营业后在料理台选菜，做好后按订单送到客人面前。": [
+    "Scenes/UI/game_hud.gd:280"
+  ],
+  "欢迎回家。忙碌之前，不妨翻翻手记，看看今天想完成什么。你可以随时从 Esc 菜单保存这段小镇时光。": [
+    "Scenes/UI/game_hud.gd:281"
+  ],
+  "海风今天也很温柔。白天走近鱼牌按 E 抛竿，看到咬钩提示后再按 E 收竿，别让鱼儿等太久哦。": [
+    "Scenes/UI/game_hud.gd:282"
+  ],
+  "余烬铁匠铺白天营业。矿石和木材可以熔炼成铁锭，资源也能出售换取金币。走近柜台按 E 看看吧。": [
+    "Scenes/UI/game_hud.gd:283"
+  ],
+  "橡果杂货店白天营业。这里可以用金币购买食材，也收购木材、矿石、铁锭和鱼。走近柜台按 E 交易。": [
+    "Scenes/UI/game_hud.gd:284"
+  ],
+  "小镇向导 · 莉叶": [
+    "Scenes/UI/game_hud.gd:286"
+  ],
+  "我想看看今天的任务": [
+    "Scenes/UI/game_hud.gd:287"
+  ],
+  "看看我的随身物品": [
+    "Scenes/UI/game_hud.gd:288"
+  ],
+  "我准备好了，去小镇走走": [
+    "Scenes/UI/game_hud.gd:289"
+  ],
+  "小镇来信": [
+    "Scenes/UI/game_hud.gd:311"
+  ],
+  "回看 L": [
+    "Scenes/UI/game_hud.gd:319"
+  ],
+  "E / 空格 继续 · Esc 结束对话": [
+    "Scenes/UI/game_hud.gd:320"
+  ],
+  "对话回看\n": [
+    "Scenes/UI/game_hud.gd:340"
+  ],
+  "E / 空格 显示整段": [
+    "Scenes/UI/game_hud.gd:341"
+  ],
+  "▼ E / 空格 继续": [
+    "Scenes/UI/game_hud.gd:362"
+  ],
+  "请选择回答 · W / S 选择 / Enter 确认": [
+    "Scenes/UI/game_hud.gd:362"
+  ],
+  "森林里的第一篮": [
+    "Scenes/UI/journal_data.gd:3"
+  ],
+  "野外采集区": [
+    "Scenes/UI/journal_data.gd:3"
+  ],
+  "餐厅的香气，从新鲜食材开始。\n去野外收集三份蘑菇、莓果或香草。": [
+    "Scenes/UI/journal_data.gd:3"
+  ],
+  "采集食材": [
+    "Scenes/UI/journal_data.gd:3"
+  ],
+  "沿小镇北侧路标进入野外，\n走近食材按 E 采集。": [
+    "Scenes/UI/journal_data.gd:3"
+  ],
+  "让厨房准备就绪": [
+    "Scenes/UI/journal_data.gd:4"
+  ],
+  "小镇餐厅 · 备料台": [
+    "Scenes/UI/journal_data.gd:4"
+  ],
+  "把采回的食材处理好，\n今晚就能端出热腾腾的料理。": [
+    "Scenes/UI/journal_data.gd:4"
+  ],
+  "加工食材": [
+    "Scenes/UI/journal_data.gd:4"
+  ],
+  "进入餐厅，走到左侧备料台按 E。\n原食材会转为对应的厨房原料。": [
+    "Scenes/UI/journal_data.gd:4"
+  ],
+  "第一位客人的晚餐": [
+    "Scenes/UI/journal_data.gd:5"
+  ],
+  "小镇餐厅 · 夜间营业": [
+    "Scenes/UI/journal_data.gd:5"
+  ],
+  "准备菜单、点亮炉火，\n让第一位客人带着满足离开。": [
+    "Scenes/UI/journal_data.gd:5"
+  ],
+  "成功上菜": [
+    "Scenes/UI/journal_data.gd:5"
+  ],
+  "开始营业后，在料理台选菜。\n做好后走近对应订单的客人按 E。": [
+    "Scenes/UI/journal_data.gd:5"
+  ],
+  "来自潮汐的礼物": [
+    "Scenes/UI/journal_data.gd:6"
+  ],
+  "潮汐码头 · 白天": [
+    "Scenes/UI/journal_data.gd:6"
+  ],
+  "偶尔放下锅铲，去听听海风吧。\n码头的鱼群也在等着你。": [
+    "Scenes/UI/journal_data.gd:6"
+  ],
+  "钓到一条鱼": [
+    "Scenes/UI/journal_data.gd:6"
+  ],
+  "走近码头鱼牌按 E 抛竿。\n看到咬钩提示后，再按 E 收竿。": [
+    "Scenes/UI/journal_data.gd:6"
+  ],
+  "声音": [
+    "Scenes/UI/settings_panel.gd:8"
+  ],
+  "画面": [
+    "Scenes/UI/settings_panel.gd:8"
+  ],
+  "游戏": [
+    "Scenes/UI/settings_panel.gd:8"
+  ],
+  "按键": [
+    "Scenes/UI/settings_panel.gd:8"
+  ],
+  "恢复本页": [
+    "Scenes/UI/settings_panel.gd:42"
+  ],
+  "开": [
+    "Scenes/UI/settings_panel.gd:119",
+    "Scenes/UI/settings_panel.gd:127"
+  ],
+  "关": [
+    "Scenes/UI/settings_panel.gd:119",
+    "Scenes/UI/settings_panel.gd:127"
+  ],
+  "小镇的声音": [
+    "Scenes/UI/settings_panel.gd:160"
+  ],
+  "音乐音量": [
+    "Scenes/UI/settings_panel.gd:161"
+  ],
+  "音效音量": [
+    "Scenes/UI/settings_panel.gd:162"
+  ],
+  "音乐静音": [
+    "Scenes/UI/settings_panel.gd:163"
+  ],
+  "音效静音": [
+    "Scenes/UI/settings_panel.gd:164"
+  ],
+  "画面显示": [
+    "Scenes/UI/settings_panel.gd:167"
+  ],
+  "全屏显示": [
+    "Scenes/UI/settings_panel.gd:168"
+  ],
+  "窗口尺寸": [
+    "Scenes/UI/settings_panel.gd:171"
+  ],
+  "垂直同步": [
+    "Scenes/UI/settings_panel.gd:173"
+  ],
+  "帧率上限": [
+    "Scenes/UI/settings_panel.gd:174"
+  ],
+  "不限": [
+    "Scenes/UI/settings_panel.gd:174"
+  ],
+  "游玩偏好": [
+    "Scenes/UI/settings_panel.gd:177"
+  ],
+  "对话速度": [
+    "Scenes/UI/settings_panel.gd:178"
+  ],
+  "慢": [
+    "Scenes/UI/settings_panel.gd:178"
+  ],
+  "标准": [
+    "Scenes/UI/settings_panel.gd:178"
+  ],
+  "快": [
+    "Scenes/UI/settings_panel.gd:178"
+  ],
+  "即时": [
+    "Scenes/UI/settings_panel.gd:178"
+  ],
+  "默认跑步": [
+    "Scenes/UI/settings_panel.gd:179"
+  ],
+  "道具栏显示": [
+    "Scenes/UI/settings_panel.gd:180"
+  ],
+  "键盘操作": [
+    "Scenes/UI/settings_panel.gd:183"
+  ],
+  "移动": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "跑步 / 步行": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "场景互动": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "随身背包": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "任务手记": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "小镇指南": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "暂停 / 返回": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "对话继续": [
+    "Scenes/UI/settings_panel.gd:184"
+  ],
+  "关闭鸣谢": [
+    "Sounds/Walala/audio_manager.gd:227"
+  ]
+}

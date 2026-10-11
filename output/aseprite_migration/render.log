@@ -1,0 +1,50 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+FMOD Sound System: Successfully initialized
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/blacksmith_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/dock_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/farm_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/field_background.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/home_empty_0.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/home_empty_1.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/home_empty_2.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/home_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/restaurant_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/store_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Environment/Hearthwood/town_ground.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Source/verify_render.gd:19)
+SOURCE TILE GPU RENDER PASS 11; gameplay captures 3
+FMOD Sound System: System released

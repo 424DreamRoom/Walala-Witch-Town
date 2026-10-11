@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+HUD TEST HUD attached to native canvas: PASS
+HUD TEST actual initial time: PASS
+HUD TEST clock and item slots created: PASS
+HUD TEST new game starts with one wand: PASS
+HUD TEST hotbar stays centered on canvas: PASS
+HUD TEST no permanent bottom menu toolbar: PASS
+HUD TEST tool slot opens backpack: PASS
+HUD TEST home keeps clock and item slots: PASS
+HUD TEST J opens journal and pauses: PASS
+HUD TEST journal freezes time and world: PASS
+HUD TEST journal presents only the active main: PASS
+HUD TEST Esc closes journal without pause menu: PASS
+HUD TEST gather quest counts successes: PASS
+HUD TEST prepare quest counts transferred ingredients: PASS
+HUD TEST empty prep never adds progress: PASS
+HUD TEST fish quest records real catch: PASS
+HUD TEST HUD inventory reflects shared data: PASS
+HUD TEST B opens paused bag: PASS
+HUD TEST all tools and materials fit in backpack: PASS
+HUD TEST B toggles bag closed: PASS
+HUD TEST H opens dialogue with typewriter: PASS
+HUD TEST E reveals and presents choices: PASS
+HUD TEST dialogue history contains current line: PASS
+HUD TEST dialogue choice opens task journal: FAIL
+HUD TEST switching modals restores original pause: PASS
+HUD TEST keyboard confirms dialogue choice: FAIL
+HUD TEST multi-line dialogue advances: PASS
+HUD TEST last line resumes play: PASS
+HUD TEST weather HUD uses live weather: PASS
+HUD TEST day menu remains available without global phase button: FAIL
+HUD TEST real menu input still works: FAIL
+HUD TEST night cooking panel visible: FAIL
+HUD TEST real cooking input spends stock: FAIL
+HUD TEST served quest increments once: FAIL
+HUD TEST real six-slot save contains journal: PASS
+HUD TEST journal restores with state: PASS
+HUD TEST pre-HUD saves remain compatible: PASS
+HUD TEST invalid journal data rejected: PASS
+HUD TEST quest progress survives next day: FAIL
+HUD TEST active main can complete from accumulated progress: FAIL
+HUD TEST completed filter lists only finished chapters: PASS
+HUD TEST Esc still opens normal pause menu: PASS
+HUD TEST settings available inside pause menu: PASS
+HUD TEST hotbar preference changes actual HUD: PASS
+HUD TEST instant dialogue is fully revealed: PASS
+HUD TEST auto run and Shift change actual locomotion: PASS
+HUD TEST game defaults restore visible hotbar: PASS
+HUD TEST settings returns to paused menu: PASS
+HUD TEST Esc closes settings before resuming: PASS
+HUD TEST Esc resumes normal pause menu: PASS
+HUD TEST pause menu safely takes modal ownership: PASS
+HUD TEST ownership change resumes correctly: PASS
+HUD VERIFY END failures=9
+FMOD Sound System: System released

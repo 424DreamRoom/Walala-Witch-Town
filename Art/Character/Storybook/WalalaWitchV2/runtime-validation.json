@@ -1,0 +1,31 @@
+{
+  "art_status": "PASS",
+  "date": "2026-10-11",
+  "engine": "Godot 4.7.2.stable.steam",
+  "asset_frames": 80,
+  "exact_render_pixel_comparisons": [
+    "WITCH V2 RENDER down pixels=591/591 PASS",
+    "WITCH V2 RENDER up pixels=581/581 PASS",
+    "WITCH V2 RENDER right pixels=534/534 PASS",
+    "WITCH V2 RENDER left pixels=535/535 PASS",
+    "WITCH V2 RENDER walk-1 pixels=588/588 PASS",
+    "WITCH V2 RENDER walk-2 pixels=588/588 PASS",
+    "WITCH V2 RENDER walk-3 pixels=588/588 PASS",
+    "WITCH V2 RENDER walk-4 pixels=590/590 PASS",
+    "WITCH V2 RENDER tool-10 pixels=585/585 PASS",
+    "WITCH V2 RENDER tool-26 pixels=585/585 PASS",
+    "WITCH V2 RENDER tool-38 pixels=544/544 PASS",
+    "WITCH V2 RENDER tool-47 pixels=600/600 PASS"
+  ],
+  "harvest_checks_passed": 126,
+  "full_harvest_regression_status": "PREEXISTING_FAILURES",
+  "failures_identical_with_original_textures": [
+    "HARVEST TEST day end cancels action and moves to restaurant: FAIL",
+    "HARVEST TEST resources carry into next day: FAIL",
+    "HARVEST TEST nodes and fish refresh next day: FAIL",
+    "HARVEST TEST refreshed tree art: FAIL"
+  ],
+  "baseline_used_original_movement_and_wand_textures": true,
+  "settings_and_saves_isolated": true,
+  "logs_directory": "res://output/witch-v2/"
+}

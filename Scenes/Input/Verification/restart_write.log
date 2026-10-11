@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+BINDINGS TEST write primary: PASS
+BINDINGS TEST write alternate: PASS
+BINDINGS TEST write map key: PASS
+BINDINGS VERIFY END failures=0

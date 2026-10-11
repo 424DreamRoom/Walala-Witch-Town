@@ -6,9 +6,11 @@ var loop
 var harvest
 var failures := 0
 var capture := false
+var capture_output := OUT
 
 func _initialize() -> void:
 	capture = "--harvest-capture" in OS.get_cmdline_user_args()
+	if "--wand-capture" in OS.get_cmdline_user_args(): capture_output = "res://output/wand/harvest/"
 	run.call_deferred()
 
 func check(title: String, ok: bool) -> void:
@@ -29,15 +31,8 @@ func key(code: int) -> void:
 		await frames(2)
 
 func walk_to(target: Vector2) -> void:
-	var count := 0
-	while lane.player.position.distance_to(target) > 2.0 and count < 500:
-		var difference: Vector2 = target - lane.player.position
-		lane.test_direction = Vector2(signf(difference.x), 0) if absf(difference.x) > 1.5 else Vector2(0, signf(difference.y))
-		await physics_frame
-		count += 1
-	lane.test_direction = Vector2.ZERO
-	await physics_frame
-	check("walk " + str(target), lane.player.position.distance_to(target) < 3.0)
+	var arrived: bool = await preload("res://Scenes/LanternLane/verification_navigation.gd").walk(lane, target)
+	check("real walk to " + str(target), arrived)
 
 func resource(id: String):
 	for node in loop.area.resource_nodes:
@@ -51,8 +46,8 @@ func shot(title: String) -> void:
 	await frames()
 	RenderingServer.force_draw(false)
 	var image: Image = lane.viewport.get_texture().get_image()
-	check("capture " + title, image.save_png(OUT + title + ".png") == OK)
-	check("window " + title, root.get_texture().get_image().save_png(OUT + title + "_window.png") == OK)
+	check("capture " + title, image.save_png(capture_output + title + ".png") == OK)
+	check("window " + title, root.get_texture().get_image().save_png(capture_output + title + "_window.png") == OK)
 	var colors := {}
 	for y in range(0, image.get_height(), 8):
 		for x in range(0, image.get_width(), 8):
@@ -60,16 +55,18 @@ func shot(title: String) -> void:
 	check("nonblank " + title, colors.size() > 40)
 	if harvest.actor.visible:
 		var index: int = harvest.actor.frame
-		var source: Image = harvest.actor.texture.get_image().get_region(Rect2i(index % 5 * 32, index / 5 * 48, 32, 48))
-		var feet: Vector2i = Vector2i(lane.player.position.round())
+		var cell := Vector2i(lane.CHARACTER_SIZE)
+		var columns: int = harvest.actor.hframes
+		var source: Image = harvest.actor.texture.get_image().get_region(Rect2i(Vector2i(index % columns * cell.x, index / columns * cell.y), cell))
+		var corner: Vector2i = Vector2i((harvest.actor.get_global_transform_with_canvas() * (-lane.CHARACTER_SIZE / 2)).round())
 		var opaque := 0
 		var matching := 0
-		for y in range(48):
-			for x in range(32):
+		for y in range(cell.y):
+			for x in range(cell.x):
 				var color := source.get_pixel(x, y)
 				if color.a == 1.0:
 					opaque += 1
-					if image.get_pixel(feet.x - 16 + x, feet.y - 48 + y) == color:
+					if image.get_pixel(corner.x + x, corner.y + y) == color:
 						matching += 1
 		check("action pixels visible " + title, matching > opaque * 0.85)
 
@@ -100,28 +97,35 @@ func swing(node, name: String) -> void:
 	check(name + " one hit only", loop.state.resource_left(node.resource_id) == before - 1)
 
 func run() -> void:
-	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(OUT))
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(capture_output))
 	lane = load("res://Scenes/LanternLane/lantern_lane.tscn").instantiate()
 	root.add_child(lane)
 	await frames(5)
 	lane.automation = true
 	loop = lane.get_node("GameLoop")
 	loop.paused_for_test = true
+	loop.enter("town")
+	# Neutral noon light keeps the sprite pixel comparison independent of dawn tint.
+	loop.state.remaining = loop.state.DAY_SECONDS * 0.5
 	loop.audio.music_muted = true
 	loop.audio.effects_muted = true
 	loop.audio.apply_volume()
 	harvest = loop.harvest
 	await walk_to(loop.FIELD_GATE)
-	await key(KEY_E)
 	check("enter field", loop.location == "field")
 	check("resource count", loop.area.resource_nodes.size() == 9)
-	check("native action sheet", harvest.actor.texture.get_size() == Vector2(160, 576) and harvest.actor.get_rect().size == Vector2(32, 48))
-	check("tool foot anchor", harvest.actor.position + Vector2(0, 24) == Vector2.ZERO)
+	check("native action sheet", harvest.actor.texture.get_size() == lane.CHARACTER_SIZE * Vector2(8, 19) and harvest.actor.get_rect().size == lane.CHARACTER_SIZE)
+	check("tool foot anchor", harvest.actor.position == lane.WITCH_FOOT_OFFSET)
 	await shot("field_resources")
 	await walk_to(Vector2(60, 256))
 	await walk_to(Vector2(423, 256))
 	var tree = resource("field_tree_7")
 	await walk_to(tree.anchor)
+	loop.state.tools.wand = 0
+	await key(KEY_E)
+	check("missing wand blocks chopping before animation", not harvest.busy() and loop.state.resource_left(tree.resource_id) == 3 and loop.state.resources.wood == 0)
+	check("missing wand blocks direct resource mutation", loop.state.strike_resource(tree.resource_id, "wood") == -1 and loop.state.resource_left(tree.resource_id) == 3)
+	loop.state.tools.wand = 1
 	await swing(tree, "chop")
 	check("partial tree gives no wood", loop.state.resources.wood == 0)
 	loop.enter("town")
@@ -135,15 +139,21 @@ func run() -> void:
 	await swing(tree, "chop_second")
 	await swing(tree, "chop_finish")
 	check("tree rewards three wood", loop.state.resources.wood == 3)
+	check("chopping keeps starter tools", loop.state.tools == loop.state.STARTING_TOOLS)
 	check("tree changes to stump", not tree.available() and tree.sprite.texture == tree.depleted)
 	await shot("stump")
 	await key(KEY_E)
 	check("stump cannot give duplicate reward", not harvest.busy() and loop.state.resources.wood == 3)
 	var ore = resource("field_ore_0")
 	await walk_to(ore.anchor)
+	loop.state.tools.wand = 0
+	await key(KEY_E)
+	check("missing wand blocks mining before animation", not harvest.busy() and loop.state.resource_left(ore.resource_id) == 3 and loop.state.resources.ore == 0)
+	loop.state.tools.wand = 1
 	for i in range(3):
 		await swing(ore, "mine_" + str(i))
 	check("ore rewards two minerals", loop.state.resources.ore == 2)
+	check("mining keeps starter tools", loop.state.tools == loop.state.STARTING_TOOLS)
 	check("ore changes to rubble", not ore.available() and ore.sprite.texture == ore.depleted)
 	await key(KEY_E)
 	check("rubble cannot give duplicate reward", not harvest.busy() and loop.state.resources.ore == 2)
@@ -188,7 +198,7 @@ func run() -> void:
 	await walk_to(pond.anchor)
 	await key(KEY_E)
 	await key(KEY_R)
-	check("reset cancels action", not harvest.busy() and lane.player.position.distance_to(Vector2(60, 280)) < 1)
+	check("reset cancels action", not harvest.busy() and lane.player.position.distance_to(loop.area.spawn) < 1)
 	# Isolate day/scene boundaries before the first tool impact.
 	var ore2 = resource("field_ore_1")
 	lane.player.position = ore2.anchor
@@ -204,12 +214,17 @@ func run() -> void:
 	loop.state.remaining = 0.01
 	loop.paused_for_test = false
 	await create_timer(0.1).timeout
-	check("day end cancels action and moves to restaurant", not harvest.busy() and loop.location == "restaurant" and loop.state.phase == "night")
+	check("day end cancels action and moves to restaurant preparation", not harvest.busy() and loop.location == "restaurant" and loop.state.phase == "day" and loop.state.remaining <= 0.0)
 	check("day end gives no pending reward", loop.state.resource_left("field_ore_1") == 3 and loop.state.resources.ore == 2)
 	loop.paused_for_test = true
+	# Sunset now waits for a menu and explicit opening before the night phase.
+	check("select opening menu", loop.state.set_menu_dish(0, true))
+	loop.end_phase()
+	check("confirmed opening starts service", loop.state.phase == "night")
+	var carried_resources: Dictionary = loop.state.resources.duplicate()
 	loop.end_phase()
 	loop.end_phase()
-	check("resources carry into next day", loop.state.day == 2 and loop.state.resources == {"wood": 3, "ore": 2, "fish": 1})
+	check("resources carry into next day", loop.state.day == 2 and loop.state.resources == carried_resources)
 	check("nodes and fish refresh next day", loop.state.resource_left("field_tree_7") == 3 and loop.state.fish_left("field_pond") == 3)
 	loop.enter("field")
 	await frames()
@@ -224,7 +239,20 @@ func run() -> void:
 	check("night rejects harvest", state.strike_resource("tree", "wood") == -1 and not state.catch_fish("other_pond"))
 	check("invalid kind rejected", state.strike_resource("tree", "unknown") == -1)
 	check("new sounds triggered", loop.audio.counts.get("chop", 0) == 3 and loop.audio.counts.get("mine", 0) == 3 and loop.audio.counts.get("bite", 0) >= 2 and loop.audio.counts.get("catch", 0) == 1)
+	state = null
+	# Release active streams before headless shutdown, as in the dock verifier.
+	loop.audio.set_process(false)
+	if is_instance_valid(loop.audio.fade):
+		loop.audio.fade.kill()
+	for player in loop.audio.get_children():
+		if player is AudioStreamPlayer:
+			player.stop()
+	await create_timer(0.1).timeout
 	lane.queue_free()
 	await frames()
+	harvest = null
+	loop = null
+	lane = null
+	await create_timer(0.2).timeout
 	print("HARVEST VERIFY END failures=", failures)
 	quit(0 if failures == 0 else 1)

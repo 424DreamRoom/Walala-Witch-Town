@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+SCHEDULE TEST isolated new slot opens: PASS
+SCHEDULE TEST new game schedules noon: PASS
+SCHEDULE TEST manual save remains immediate: PASS
+SCHEDULE TEST thirty real seconds do not save: PASS
+SCHEDULE TEST map changes do not save early: PASS
+SCHEDULE TEST gameplay requests wait for six-hour boundary: PASS
+SCHEDULE TEST clock just before noon does not save: PASS
+SCHEDULE TEST crossing noon saves progress: PASS
+SCHEDULE TEST scheduled save uses animated hat: PASS
+SCHEDULE TEST same boundary only writes once: PASS
+SCHEDULE TEST manual save between boundaries preserves evening deadline: PASS
+SCHEDULE TEST paused gameplay defers automatic writes: PASS
+SCHEDULE TEST unfinished harvesting defers boundary save: PASS
+SCHEDULE TEST pending evening save runs after action finishes: PASS
+SCHEDULE TEST 22:00 settlement saves once: PASS
+SCHEDULE TEST settlement waiting does not save again: PASS
+SCHEDULE TEST next day six o'clock saves and advances: PASS
+SCHEDULE TEST near-boundary save fixture succeeds: PASS
+SCHEDULE TEST saved game reopens: PASS
+SCHEDULE TEST loading keeps next clock boundary: PASS
+SCHEDULE TEST failed automatic save keeps boundary pending: PASS
+SCHEDULE TEST failed save retry is throttled: PASS
+SCHEDULE TEST retry saves pending progress: PASS
+SCHEDULE TEST manual save bypasses pause and retry delay: PASS
+SCHEDULE TEST exit writes unscheduled changes immediately: PASS
+SCHEDULE TEST exit reaches title normally: PASS
+AUTOSAVE SCHEDULE VERIFY END failures=0

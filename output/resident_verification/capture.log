@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+RESIDENT TEST all ten residents installed with feet origins: PASS
+RESIDENT TEST all residents have no overhead names: PASS
+RESIDENT TEST every activity and shelter reachable from town: PASS
+RESIDENT TEST capture opening_00: PASS
+RESIDENT TEST all residents act within first five seconds: PASS
+RESIDENT TEST opening movement avoids buildings and gates: PASS
+RESIDENT TEST capture opening_05: PASS
+RESIDENT TEST whole day has no wall crossings or teleportation: PASS
+RESIDENT TEST whole day uses valid authored frames: PASS
+RESIDENT TEST every resident has sustained daily activity: PASS
+RESIDENT TEST night hands residents to existing restaurant loop: PASS
+RESIDENT TEST next morning resumes without position jumps: PASS
+RESIDENT TEST work destinations match resident roles: PASS
+RESIDENT TEST schedule change replans without teleporting: PASS
+RESIDENT TEST rain changes destination without teleporting: PASS
+RESIDENT TEST rain residents reach separate shelters safely: PASS
+RESIDENT TEST snow changes destination without teleporting: PASS
+RESIDENT TEST snow residents reach separate shelters safely: PASS
+RESIDENT TEST clear weather restores daily activities: PASS
+RESIDENT TEST existing save schema remains compatible: PASS
+RESIDENT TEST town detached in interior: PASS
+RESIDENT TEST offscreen residents keep their routines: PASS
+RESIDENT TEST return restores same resident nodes: PASS
+RESIDENT TEST capture workday: PASS
+RESIDENT TEST nearest visible resident selected: PASS
+RESIDENT TEST moving resident interaction succeeds: PASS
+RESIDENT TEST dialogue freezes all resident positions: PASS
+RESIDENT TEST capture conversation: PASS
+RESIDENT TEST dialogue close resumes activities: PASS
+RESIDENT TEST controller keeps real frame updates: PASS
+RESIDENT VERIFY END checks=30 failures=0

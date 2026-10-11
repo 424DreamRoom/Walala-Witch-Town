@@ -1,0 +1,49 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+MENU TEST project starts at save notice: PASS
+MENU TEST game title: PASS
+MENU TEST four requested buttons: PASS
+MENU TEST centered vertical button 0: PASS
+MENU TEST centered vertical button 1: PASS
+MENU TEST centered vertical button 2: PASS
+MENU TEST centered vertical button 3: PASS
+MENU TEST start initially focused: PASS
+MENU TEST keyboard moves down: PASS
+MENU TEST keyboard opens settings: PASS
+MENU TEST modal blocks main buttons: PASS
+MENU TEST master volume uses mouse input: PASS
+MENU TEST five audio sliders: PASS
+MENU TEST saved audio preferences: PASS
+MENU TEST five settings categories: PASS
+MENU TEST category switches content: PASS
+MENU TEST frame limit applies immediately: PASS
+MENU TEST vsync preference persists: PASS
+MENU TEST fullscreen disables window sizing: PASS
+MENU TEST display defaults restore: PASS
+MENU TEST text motion defaults enabled: PASS
+MENU TEST text motion preferences persist from title settings: PASS
+MENU TEST game preferences persist: PASS
+MENU TEST reset affects only current page: PASS
+MENU TEST game reset restores text motion: PASS
+MENU TEST shortcut page has editable bindings: PASS
+MENU TEST escape closes and restores focus: PASS
+MENU TEST settings retain values: PASS
+MENU TEST credits button opens scrollable text: PASS
+MENU TEST credits include existing sources: PASS
+MENU TEST quit asks for confirmation: PASS
+MENU TEST quit cancel returns to menu: PASS
+MENU TEST display preference persisted: PASS
+MENU TEST start opens six save slots: PASS
+MENU TEST save slots have no operation instructions: PASS
+MENU TEST three rows two columns 0: PASS
+MENU TEST three rows two columns 1: PASS
+MENU TEST three rows two columns 2: PASS
+MENU TEST three rows two columns 3: PASS
+MENU TEST three rows two columns 4: PASS
+MENU TEST three rows two columns 5: PASS
+MENU TEST start enters gameplay scene: PASS
+MENU TEST gameplay ready outside home: PASS
+MENU TEST audio preferences survive scene change: PASS
+MENU VERIFY END failures=0
+FMOD Sound System: System released

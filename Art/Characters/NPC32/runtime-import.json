@@ -1,0 +1,13 @@
+{
+  "results": {
+    "name": "import",
+    "passed": true,
+    "checks": 0,
+    "exit": 0,
+    "failures": [],
+    "log": "output/npc32/import.log",
+    "runtime_textures": 27
+  },
+  "myart_unchanged": true,
+  "isolated_profiles": true
+}

@@ -1,0 +1,42 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+QUEST PACING opening has one main and no sides: PASS
+QUEST PACING meeting before chapter gate does not assign a side: PASS
+QUEST PACING main advances only one chapter: PASS
+QUEST PACING eligible conversations discover two sides: PASS
+QUEST PACING third side waits at its resident: PASS
+QUEST PACING side cannot finish without materials: PASS
+QUEST PACING side completes and pays once: PASS
+QUEST PACING same episode cannot pay twice: PASS
+QUEST PACING next episode does not appear the same day: PASS
+QUEST PACING later conversation uses the free slot: PASS
+QUEST PACING later day discovers next episode: PASS
+QUEST PACING active sides survive save roundtrip: PASS
+QUEST PACING legacy save keeps chapter and finished episodes: PASS
+QUEST PACING invalid active state rejected { "mori": 3 }: PASS
+QUEST PACING invalid active state rejected { "unknown": 0 }: PASS
+QUEST PACING invalid active state rejected { "mori": 1, "toma": 0, "lumi": 0 }: PASS
+QUEST PACING ridge survey action 0: PASS
+QUEST PACING ridge survey action 1: PASS
+QUEST PACING ridge survey action 2: PASS
+QUEST PACING ridge survey action 3: PASS
+QUEST PACING ridge survey action 4: PASS
+QUEST PACING ridge survey action 5: PASS
+QUEST PACING main story does not require optional resident stories: PASS
+QUEST PACING later episode respects its chapter gate: PASS
+QUEST PACING daily dialogue does not reveal future events: PASS
+QUEST PACING side can be deferred without cost or completion: PASS
+QUEST PACING deferred side stays quiet for the day: PASS
+QUEST PACING deferred side can be rediscovered: PASS
+QUEST PACING old task entrance opens unified journal: PASS
+QUEST PACING future main titles hidden: PASS
+QUEST PACING journal key closes and restores time: PASS
+QUEST PACING localized main and two sides zh_CN: PASS
+QUEST PACING localized main and two sides en: PASS
+QUEST PACING localized main and two sides ja: PASS
+QUEST PACING localized main and two sides zh_TW: PASS
+QUEST PACING resident page hides later episode titles: PASS
+QUEST PACING archive shows only completed main: PASS
+QUEST PACING isolated disk save: PASS
+QUEST PACING disk save preserves discovered sides: PASS
+QUEST PACING COMPLETE checks=39 failures=0

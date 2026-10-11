@@ -1,0 +1,98 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+SCENE EXIT forest connection is at north road end: PASS
+SCENE EXIT dock connection is at landing end: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
+SCENE EXIT walk actual town route to field: PASS
+SCENE EXIT E at approach stays in town field: PASS
+SCENE EXIT walking automatically enters field: PASS
+SCENE EXIT town collision bodies detached field: PASS
+SCENE EXIT held entry direction does not bounce field: PASS
+SCENE EXIT walk actual interior route to exit field: PASS
+SCENE EXIT E at exit approach stays inside field: PASS
+SCENE EXIT pause freezes crossing field: PASS
+SCENE EXIT walking automatically returns field: PASS
+SCENE EXIT safe town arrival field: PASS
+SCENE EXIT held return direction does not reenter field: PASS
+SCENE EXIT town camera restored field: PASS
+SCENE EXIT idle arrival remains stable field: PASS
+SCENE EXIT walk actual town route to dock: PASS
+SCENE EXIT E at approach stays in town dock: PASS
+SCENE EXIT walking automatically enters dock: PASS
+SCENE EXIT town collision bodies detached dock: PASS
+SCENE EXIT held entry direction does not bounce dock: PASS
+SCENE EXIT walk actual interior route to exit dock: PASS
+SCENE EXIT E at exit approach stays inside dock: PASS
+SCENE EXIT pause freezes crossing dock: PASS
+SCENE EXIT walking automatically returns dock: PASS
+SCENE EXIT safe town arrival dock: PASS
+SCENE EXIT held return direction does not reenter dock: PASS
+SCENE EXIT town camera restored dock: PASS
+SCENE EXIT idle arrival remains stable dock: PASS
+SCENE EXIT walk actual town route to restaurant: PASS
+SCENE EXIT E at approach stays in town restaurant: PASS
+SCENE EXIT walking automatically enters restaurant: PASS
+SCENE EXIT town collision bodies detached restaurant: PASS
+SCENE EXIT held entry direction does not bounce restaurant: PASS
+SCENE EXIT walk actual interior route to exit restaurant: PASS
+SCENE EXIT E at exit approach stays inside restaurant: PASS
+SCENE EXIT pause freezes crossing restaurant: PASS
+SCENE EXIT walking automatically returns restaurant: PASS
+SCENE EXIT safe town arrival restaurant: PASS
+SCENE EXIT held return direction does not reenter restaurant: PASS
+SCENE EXIT town camera restored restaurant: PASS
+SCENE EXIT idle arrival remains stable restaurant: PASS
+SCENE EXIT walk actual town route to home: PASS
+SCENE EXIT E at approach stays in town home: PASS
+SCENE EXIT walking automatically enters home: PASS
+SCENE EXIT town collision bodies detached home: PASS
+SCENE EXIT held entry direction does not bounce home: PASS
+SCENE EXIT walk actual interior route to exit home: PASS
+SCENE EXIT E at exit approach stays inside home: PASS
+SCENE EXIT pause freezes crossing home: PASS
+SCENE EXIT walking automatically returns home: PASS
+SCENE EXIT safe town arrival home: PASS
+SCENE EXIT held return direction does not reenter home: PASS
+SCENE EXIT town camera restored home: PASS
+SCENE EXIT idle arrival remains stable home: PASS
+SCENE EXIT walk actual town route to blacksmith: PASS
+SCENE EXIT E at approach stays in town blacksmith: PASS
+SCENE EXIT walking automatically enters blacksmith: PASS
+SCENE EXIT town collision bodies detached blacksmith: PASS
+SCENE EXIT held entry direction does not bounce blacksmith: PASS
+SCENE EXIT walk actual interior route to exit blacksmith: PASS
+SCENE EXIT E at exit approach stays inside blacksmith: PASS
+SCENE EXIT pause freezes crossing blacksmith: PASS
+SCENE EXIT walking automatically returns blacksmith: PASS
+SCENE EXIT safe town arrival blacksmith: PASS
+SCENE EXIT held return direction does not reenter blacksmith: PASS
+SCENE EXIT town camera restored blacksmith: PASS
+SCENE EXIT idle arrival remains stable blacksmith: PASS
+SCENE EXIT walk actual town route to store: PASS
+SCENE EXIT E at approach stays in town store: PASS
+SCENE EXIT walking automatically enters store: PASS
+SCENE EXIT town collision bodies detached store: PASS
+SCENE EXIT held entry direction does not bounce store: PASS
+SCENE EXIT walk actual interior route to exit store: PASS
+SCENE EXIT E at exit approach stays inside store: PASS
+SCENE EXIT pause freezes crossing store: PASS
+SCENE EXIT walking automatically returns store: PASS
+SCENE EXIT safe town arrival store: PASS
+SCENE EXIT held return direction does not reenter store: PASS
+SCENE EXIT town camera restored store: PASS
+SCENE EXIT idle arrival remains stable store: PASS
+SCENE EXIT restored trigger does not auto travel: PASS
+SCENE EXIT leave restored trigger: PASS
+SCENE EXIT restored trigger rearms after leaving: PASS
+SCENE EXIT passing a doorway sideways stays in town: PASS
+SCENE EXIT night entrance remains closed 野外: PASS
+SCENE EXIT closed entrance does not repeat feedback 野外: PASS
+SCENE EXIT night entrance remains closed 码头: PASS
+SCENE EXIT closed entrance does not repeat feedback 码头: PASS
+SCENE EXIT settlement blocks automatic travel: PASS
+SCENE EXIT VERIFY END failures=0

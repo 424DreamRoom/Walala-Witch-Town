@@ -1,0 +1,476 @@
+{
+  "source": "https://cabincircuit.itch.io/framewright-lite",
+  "author": "Cabin Circuit",
+  "archive": "Framewright-Lite.zip",
+  "archive_sha256": "3cc46bd3c0e80ef374d4466dc410bbe54f2a44c37b292ba34fe1da7dfd22a9ce",
+  "license": "LICENSE.txt",
+  "imported": "2026-10-10",
+  "changes": "Official 1x PNGs unchanged; resource paths rebased to this folder.",
+  "files": [
+    {
+      "file": "README.txt",
+      "archive_member": "Framewright-Lite/README.txt",
+      "sha256": "a6a32e15db4f2c4a31c6e1440a0cba5778521a26d699a11896bbc9dfa09e44c7"
+    },
+    {
+      "file": "NINE-SLICE-MARGINS.txt",
+      "archive_member": "Framewright-Lite/NINE-SLICE-MARGINS.txt",
+      "sha256": "48a10e25a4bdb58b3341fb033f39d974d61ca36d222543d7bb56bb793ce9456b"
+    },
+    {
+      "file": "Preview-Oakhold.png",
+      "archive_member": "Framewright-Lite/Preview-Oakhold.png",
+      "sha256": "edf61d023ee1285331ecd374c7fd58beb06d93b3903c49bf55dbda1963a1735f"
+    },
+    {
+      "file": "LICENSE.txt",
+      "archive_member": "Framewright-Lite/LICENSE.txt",
+      "sha256": "74c110f3ace8a69bb62c04f69b3f4387f5325d0e5cb3df508cd73ecd140c406f"
+    },
+    {
+      "file": "themes/oakhold_1x.tres",
+      "archive_member": "Framewright-Lite/Godot4/framewright/themes/oakhold_1x.tres",
+      "sha256": "c0c3b3423046b6a060db8b19543d6bf08ec7e37a12e7448c9abe579bef3e781a"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_left_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_left_normal.png",
+      "sha256": "f8bbfcdcd5d5746a65a913cb01ee36a33fb3261c717e4ad2f28b6cdd8f4325a2"
+    },
+    {
+      "file": "textures/oakhold/1x/slider_track_v.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slider_track_v.png",
+      "sha256": "d53a1b8d51e59b30a2bfb8d81b4fd1e7ea4302d28bbed65fb3b366704e9b2157"
+    },
+    {
+      "file": "textures/oakhold/1x/slot_uncommon.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot_uncommon.png",
+      "sha256": "6dace1269f4acb97f1003963ab703361c1d057b24ed70d1e9d2cb445229b0f96"
+    },
+    {
+      "file": "textures/oakhold/1x/divider_v.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/divider_v.png",
+      "sha256": "26f54ef979a7533eedb062bbc5cd95662ecf451cb064bf5a644deec7cffda305"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_frame.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_frame.png",
+      "sha256": "dbc2f481e44352129be3b56cf9ae29b93a146f887ec6a4ba70dd597a26ee7954"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_fill_green.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_fill_green.png",
+      "sha256": "524affbd5ad44a23e761a4605059d5b29cfad5d4a56d0ec0bf7c2d320e530695"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_up_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_up_normal.png",
+      "sha256": "f3d1807796544b35fb2f88c119bf97e5d0404bbe9a524072dc420b1bee0ea70c"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_fill_accent.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_fill_accent.png",
+      "sha256": "cc0e000c0e10b19ae6b1f485bae69c2292974fa76be912c708ea8e054d311d24"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_right_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_right_hover.png",
+      "sha256": "82207b3a55dc04d9efa5eaf9c4fed3b512f599ce6e75c5d9cbfdcc0db1f6947d"
+    },
+    {
+      "file": "textures/oakhold/1x/dropdown_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/dropdown_normal.png",
+      "sha256": "306aa1972c6d057972fededf4ca2bf175511668e44d834cda85a4fe8ba5fd1e9"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_down_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_down_hover.png",
+      "sha256": "248e1e47a796aa8c2763465b33b359c134f4bcfb5a737e55b4fb53551fb96c7b"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_down_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_down_pressed.png",
+      "sha256": "2cbc5e3fb7993b909d50596a0ca041cb435d5fd32af9f15b494298c17350acc7"
+    },
+    {
+      "file": "textures/oakhold/1x/dropdown_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/dropdown_pressed.png",
+      "sha256": "575da1ff23fa914174472b44625f66403a566061d9837598704a833a01d5be82"
+    },
+    {
+      "file": "textures/oakhold/1x/button_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_normal.png",
+      "sha256": "3882c8057f17c09c8c4f3fd7d5794f53ee55db70e572b30bc43b02e80ee5196b"
+    },
+    {
+      "file": "textures/oakhold/1x/button_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_hover.png",
+      "sha256": "a017b6be3f65e114d1049da1a5c55d5b873c57e437c2dc2909d3f4735cc7cf55"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_up_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_up_hover.png",
+      "sha256": "73d4cd5f26f215d82abc775ca34cffd15d8b83ddd9935c3881cf0d81baff0fc0"
+    },
+    {
+      "file": "textures/oakhold/1x/scroll_track_h.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/scroll_track_h.png",
+      "sha256": "dac272b7215ef4ff06535b850d8ccaa1f1e95fca38b05115316c4591ea8c1448"
+    },
+    {
+      "file": "textures/oakhold/1x/slot_selected.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot_selected.png",
+      "sha256": "da78c25de7882319f1e49a05c27e79ff61e4d4665ebde2ce08d3f9fe01668bce"
+    },
+    {
+      "file": "textures/oakhold/1x/panel_header.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/panel_header.png",
+      "sha256": "29bf90d5522a6ca70b7a8b49b170d00df1e3fdb10e48e2fab726081e2716740c"
+    },
+    {
+      "file": "textures/oakhold/1x/button_square_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_square_disabled.png",
+      "sha256": "31bda548678edf724be3459a95e441e8be57eca9bba182c11d47580c58540158"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_close_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_close_hover.png",
+      "sha256": "4cfac77ed2de799d86ec03b6b336bc52c2759f1bd7eac84f82594f83792451e1"
+    },
+    {
+      "file": "textures/oakhold/1x/toggle_off_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/toggle_off_disabled.png",
+      "sha256": "7ecccd8c111e4e266a01d08995b3124e98db486df138f521eff063231a6a42a4"
+    },
+    {
+      "file": "textures/oakhold/1x/dropdown_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/dropdown_hover.png",
+      "sha256": "026f3a7f0c25b37d392e2ce288e1fd041715681f1e519281786e231111d70193"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_up_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_up_pressed.png",
+      "sha256": "19fa9a3564f21ff085eeb4293e1ae1598b01c036d277b17b617a3dc1314edacf"
+    },
+    {
+      "file": "textures/oakhold/1x/input.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/input.png",
+      "sha256": "da0406079cd91766bf80b428bedf3356adb643562ff7ec6e9042e65b00b091eb"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_empty.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_empty.png",
+      "sha256": "1b808e8addca2dbc5ea2fffc58e1ac9dffda7285f8d92cbff8866ac74c1127b1"
+    },
+    {
+      "file": "textures/oakhold/1x/input_focus.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/input_focus.png",
+      "sha256": "f9d8e487b72a93972f6188e42ccc43d29348c7ac4d50c4e36f5015d528a4090c"
+    },
+    {
+      "file": "textures/oakhold/1x/radio_on.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/radio_on.png",
+      "sha256": "6a2e73baed5eb60abd3e91ba060d3acab69658e37a607f2676c3df97282ec55a"
+    },
+    {
+      "file": "textures/oakhold/1x/tab_inactive.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/tab_inactive.png",
+      "sha256": "397b08f4c628ed2b5fa3432aaaaa437d32ba0237dbc42743ec987ef6ec6637fd"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_left_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_left_hover.png",
+      "sha256": "153f75b53f9329db9861fde5db549f4c15a1a602bbf2ab408f54526131032602"
+    },
+    {
+      "file": "textures/oakhold/1x/button_focus.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_focus.png",
+      "sha256": "2c6bcc9430910bcfcbbff53fcad242c8ee260ac14af6f52b025820a270fd1268"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_right_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_right_pressed.png",
+      "sha256": "2f68dccb69651919657d4b736ad183c3669af23479a3dc6a9aeab37b3b6134f2"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_down_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_down_normal.png",
+      "sha256": "139f85b38f8332fd4d9889465a6a81f4730489a6e23b6701cadd42d94907b4b8"
+    },
+    {
+      "file": "textures/oakhold/1x/scroll_track_v.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/scroll_track_v.png",
+      "sha256": "d4a36ac1c2b8fe43918788554600d07cbe67234af6a5e5c9fdde62012ec29987"
+    },
+    {
+      "file": "textures/oakhold/1x/checkbox_on.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/checkbox_on.png",
+      "sha256": "ae32699fabd11547b8a860ad68c5898ea69687d2c5a927c0b7dccefbd44287a9"
+    },
+    {
+      "file": "textures/oakhold/1x/slot_common.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot_common.png",
+      "sha256": "bfd1ebac9720ab4ad20d065a6ef907608a5080be04098a49f5013d84c7ccacb5"
+    },
+    {
+      "file": "textures/oakhold/1x/portrait_frame.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/portrait_frame.png",
+      "sha256": "8e1cf00cee5dce2a277540a1fecd35e59e21a2a29d484718f18dec0ce82a1fc5"
+    },
+    {
+      "file": "textures/oakhold/1x/scroll_thumb_v_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/scroll_thumb_v_hover.png",
+      "sha256": "d5e631081efb657094dec30ff5f0c95f9e5e5e118e59d82c41132852ae48b5a7"
+    },
+    {
+      "file": "textures/oakhold/1x/slot_rare.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot_rare.png",
+      "sha256": "22e92702a30dda197c759fa7914c290e3bec0cfaf8baab8b4d706e71ada78ef1"
+    },
+    {
+      "file": "textures/oakhold/1x/slot_legendary.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot_legendary.png",
+      "sha256": "fae4a843411adff39aa58bc1bb1c60874e180b78a2247451ac7ba5e69bd9ad9b"
+    },
+    {
+      "file": "textures/oakhold/1x/checkbox_off_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/checkbox_off_hover.png",
+      "sha256": "82c5309d42d5700ab0eb505eaa7d49a96760d7f1a4546bb9e4f98120efc012e9"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_close_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_close_normal.png",
+      "sha256": "128ca2cd18498eab14ed38ed195a832eeb9ca355d64692e556a3e484fc900fa8"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_dropdown_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_dropdown_normal.png",
+      "sha256": "4bc18d210383b054b996f55525dfb44db87174f3b1512d63b2f59d2d6add3a9f"
+    },
+    {
+      "file": "textures/oakhold/1x/divider.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/divider.png",
+      "sha256": "a7aba7005c2d8e729bf85a9d3ac47ac646bbdb9797dae45a6c578c7ed5fa385e"
+    },
+    {
+      "file": "textures/oakhold/1x/panel_flat.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/panel_flat.png",
+      "sha256": "7447cf7f41ddb6c29408fbee7a0b41b793b03ae1ca458305a392cbf172b2747f"
+    },
+    {
+      "file": "textures/oakhold/1x/radio_on_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/radio_on_disabled.png",
+      "sha256": "94098cc67d29ed4ab1f35285eab63e1bc1323dbec9c50c519d5578b1a774b0cd"
+    },
+    {
+      "file": "textures/oakhold/1x/slot.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot.png",
+      "sha256": "0cd8dd12e5dc71f6d2dc720c691de4f9c2be42f067736bb9256324c836415342"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_fill_yellow.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_fill_yellow.png",
+      "sha256": "454658b56d334a730492310208acfe04ab8bc39bbf1be51c10bdc3399c25940a"
+    },
+    {
+      "file": "textures/oakhold/1x/radio_off.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/radio_off.png",
+      "sha256": "b52d15af15ace470c49b2cd29e690693a3444e7166cd204e7c18b27305b9adb7"
+    },
+    {
+      "file": "textures/oakhold/1x/scroll_thumb_h.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/scroll_thumb_h.png",
+      "sha256": "29ec2d5819a5ac7853f667a0daf1ec204de8b5e1fa03aa6aecc31bd500a54ee1"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_close_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_close_pressed.png",
+      "sha256": "5e443858b8618e7c3031d47736c0ff9e44d0c716efe6c3b7cabea27367d9a27f"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_fill_purple.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_fill_purple.png",
+      "sha256": "87e0b372559466576624fe796809b5620624c462d35018dcd3ff86f75045a82b"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_fill_blue.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_fill_blue.png",
+      "sha256": "7565a27d09ea34ee7bd92d6f659853034e9757c1ac2ad8364819851da2b89c63"
+    },
+    {
+      "file": "textures/oakhold/1x/radio_off_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/radio_off_disabled.png",
+      "sha256": "c29977220d5d2590b628892fdb86864ae55984f59115044bf8dc0c4cf5f4b8e5"
+    },
+    {
+      "file": "textures/oakhold/1x/bar_fill_red.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/bar_fill_red.png",
+      "sha256": "295d8353f3a3bddb54efdc1747d036d4ef2261e472914ccee6284834069890fe"
+    },
+    {
+      "file": "textures/oakhold/1x/tab_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/tab_hover.png",
+      "sha256": "379016d78af9002dea3a88378c15fb7dcfac1f03932dbe66310ddc566e8155b4"
+    },
+    {
+      "file": "textures/oakhold/1x/toggle_on.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/toggle_on.png",
+      "sha256": "e4cf5a6ebef507f63acb086083cb3ad0901b631c2a51fdb67ba817f1fe875fe3"
+    },
+    {
+      "file": "textures/oakhold/1x/slider_track.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slider_track.png",
+      "sha256": "f0acd43f75fc3d5fafdc00ef9fc1641836be4fb4fa1d72bec80daf982a291098"
+    },
+    {
+      "file": "textures/oakhold/1x/toggle_on_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/toggle_on_disabled.png",
+      "sha256": "36aba0617d952e37b478e39b7334d81d33b51630e0c7c92369c0aabaa73895fe"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_dropdown_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_dropdown_hover.png",
+      "sha256": "636da00b21183d8a2dcd2094511a738299d9ca7547da88bd710a01e3db5bb57f"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_right_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_right_normal.png",
+      "sha256": "4f53c1ccef2c887cd697b2322f6454a3101cf7ae16a96f40d4d86cf9581f1c4c"
+    },
+    {
+      "file": "textures/oakhold/1x/slider_fill.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slider_fill.png",
+      "sha256": "f5939d2ce269926d730c9de363172d6cdda4d76b36cd0c6befe9f24cbfeb5eed"
+    },
+    {
+      "file": "textures/oakhold/1x/banner.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/banner.png",
+      "sha256": "7b209670643b7d0638f88b5cecb5e9e5957afc8b94e2327b1a307b14bba7c7d6"
+    },
+    {
+      "file": "textures/oakhold/1x/slider_fill_v.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slider_fill_v.png",
+      "sha256": "3449cbb9acae93e7f0df06cd18969631c2bfd67ef84439ee02c9256e13464177"
+    },
+    {
+      "file": "textures/oakhold/1x/scroll_thumb_h_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/scroll_thumb_h_hover.png",
+      "sha256": "c5c492ccee71b690a27dd5a3085cd322f17efdabbead28310e67664d51104a89"
+    },
+    {
+      "file": "textures/oakhold/1x/toggle_off.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/toggle_off.png",
+      "sha256": "14adb349dc1653190e2cee683e4358f31bfb22a5a7faa0ba8ce84b79be667ede"
+    },
+    {
+      "file": "textures/oakhold/1x/button_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_disabled.png",
+      "sha256": "25887ca984f64b521322512efdc4a90920f91dfbdff536176d67b81f5804d922"
+    },
+    {
+      "file": "textures/oakhold/1x/checkbox_on_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/checkbox_on_hover.png",
+      "sha256": "94af41a8cd615b996287e20fb2b7de0dafce0ac619499820e074f3cf21348c0c"
+    },
+    {
+      "file": "textures/oakhold/1x/focus_ring.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/focus_ring.png",
+      "sha256": "e923e586fb861bc1ea8cd7faf2357784dde990a968aee8f453827e7a2364c46b"
+    },
+    {
+      "file": "textures/oakhold/1x/scroll_thumb_v.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/scroll_thumb_v.png",
+      "sha256": "573cecb2ad112f6be7198cd2cd8d0f36d0974542337666d24334da869141da65"
+    },
+    {
+      "file": "textures/oakhold/1x/slider_knob.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slider_knob.png",
+      "sha256": "5470045f3fdeaa616851256fd1862a4910360abafc2d58a82bc40273d844b507"
+    },
+    {
+      "file": "textures/oakhold/1x/badge.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/badge.png",
+      "sha256": "11c66576ddaf99e4edf7b84c0b9dd0103932aae9247e4a75a75081a28ce304c7"
+    },
+    {
+      "file": "textures/oakhold/1x/button_square_normal.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_square_normal.png",
+      "sha256": "e540d5140c5371b1a640a4649d03999c4b36fa0b65fbb8641895f2fc97f57bef"
+    },
+    {
+      "file": "textures/oakhold/1x/slot_epic.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slot_epic.png",
+      "sha256": "1327dcd17096a798db8a1cc08fd076b534a3a8503708094c444e32af3b8b3d7d"
+    },
+    {
+      "file": "textures/oakhold/1x/checkbox_off.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/checkbox_off.png",
+      "sha256": "8cf4581a5ee54b7e3f8ea67c4816fa425e4f33e7c346fe45c3fe2f5a5259fad6"
+    },
+    {
+      "file": "textures/oakhold/1x/checkbox_on_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/checkbox_on_disabled.png",
+      "sha256": "3d7a4e8a7e1d548759f0913aeb7e3ff865f24b31b2d401845167cfe89888ede7"
+    },
+    {
+      "file": "textures/oakhold/1x/button_square_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_square_pressed.png",
+      "sha256": "be31828b4f4f1e6bd140f81cd2eb9ea24b4bd8057083abb101c678f720d8be87"
+    },
+    {
+      "file": "textures/oakhold/1x/panel_window.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/panel_window.png",
+      "sha256": "64fe4fd09fa7e5dfdc736abe0d1f7ef1f4d7693a1f7d5e44c5b62b56518f1453"
+    },
+    {
+      "file": "textures/oakhold/1x/slider_knob_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/slider_knob_hover.png",
+      "sha256": "fa86d5e5d5ae092b7f9d4409d63a804ac5ba95657aaa3b4e9c627820f2f60601"
+    },
+    {
+      "file": "textures/oakhold/1x/checkbox_off_disabled.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/checkbox_off_disabled.png",
+      "sha256": "0d0e05acbcf34c747d56fa33a64043195458390835c58c10579f190a70821373"
+    },
+    {
+      "file": "textures/oakhold/1x/tab_active.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/tab_active.png",
+      "sha256": "8807b01874daa8b383c9f89f69b17a4398829a368db67a81decaa2cbcb687574"
+    },
+    {
+      "file": "textures/oakhold/1x/button_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_pressed.png",
+      "sha256": "206ec6c8b3ba6cfd54b042393a075894ad14d29b6c6cb34c59c31e24bf1d5f8c"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_dropdown_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_dropdown_pressed.png",
+      "sha256": "c6100e454c2923cc2e9e02501efa7cc4c104bce9796b45a7a1c348c554d8026a"
+    },
+    {
+      "file": "textures/oakhold/1x/icon_button_left_pressed.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/icon_button_left_pressed.png",
+      "sha256": "1e5fc2a64bf4ddebdf7216878b8cabae6009ec97a1aa9c2bc0e4b8c5e9643730"
+    },
+    {
+      "file": "textures/oakhold/1x/panel_inset.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/panel_inset.png",
+      "sha256": "e1376ed920e5987cca626630a06ce6075f0817ff505cb4fb2cfead5bcfbe572e"
+    },
+    {
+      "file": "textures/oakhold/1x/button_square_hover.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/button_square_hover.png",
+      "sha256": "1b9fba5aa029e63c3f1677e787b9ec5307b2d0f02fca4bbef3cdfb24059adb88"
+    },
+    {
+      "file": "textures/oakhold/1x/dropdown_arrow.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/dropdown_arrow.png",
+      "sha256": "dcbde8c75bebe619b8fa94fe8ec45e11242b104980f5f06237a8386842fe85c7"
+    },
+    {
+      "file": "textures/oakhold/1x/tooltip.png",
+      "archive_member": "Framewright-Lite/Godot4/framewright/textures/oakhold/1x/tooltip.png",
+      "sha256": "70dc0812432776de41682572586a132c65a1e5a46caaa4d06d974e859692a96d"
+    }
+  ]
+}

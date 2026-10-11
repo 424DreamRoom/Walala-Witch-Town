@@ -1,0 +1,46 @@
+{
+  "yingluo.png": {
+    "alpha_extrema": [
+      0.0,
+      254.0
+    ],
+    "mode": "RGBA",
+    "sha256": "ec74421bef1a9ac79cd7239dfb61ea31c8be784b43ddac6a145b109013bb173b",
+    "size": [
+      1024.0,
+      1536.0
+    ]
+  },
+  "yingluo_world.png": {
+    "alpha_extrema": [
+      0.0,
+      254.0
+    ],
+    "mode": "RGBA",
+    "sha256": "1c5d18e5b7b54571eef40ad2d62d44139215e88cb3e61b43bc04f8d80cadcc52",
+    "size": [
+      1024.0,
+      1536.0
+    ]
+  },
+  "yingluo_world_32.png": {
+    "mode": "RGBA",
+    "resampling": "nearest",
+    "sha256": "6008a07fda0c0d007f94e6dff984adb7a064dcf41c5db61837c512db672c94b0",
+    "size": [
+      32,
+      32
+    ],
+    "source": "yingluo_world_32_source.png",
+    "world_scale": 1
+  },
+  "yingluo_world_32_source.png": {
+    "generator": "built-in image_gen",
+    "mode": "RGBA",
+    "sha256": "b788a88fbb3892ab2df40b0e81b990abd7c0dda512ba95c5b6b5312388bdfc55",
+    "size": [
+      1254,
+      1254
+    ]
+  }
+}

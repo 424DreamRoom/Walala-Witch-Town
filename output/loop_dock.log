@@ -1,0 +1,78 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+DOCK TEST walk (568.0, 364.0): PASS
+DOCK TEST dock gate prompt: PASS
+DOCK TEST gate E enters dock: PASS
+DOCK TEST town collision world detached: PASS
+DOCK TEST dock camera bounds: PASS
+DOCK TEST three fishing spots: PASS
+DOCK TEST dock UI and weather: PASS
+DOCK TEST walk (64.0, 236.0): PASS
+DOCK TEST walk (250.0, 236.0): PASS
+DOCK TEST bridge edge blocks water: PASS
+DOCK TEST walk (250.0, 236.0): PASS
+DOCK TEST walk (388.0, 236.0): PASS
+DOCK TEST walk (388.0, 174.0): PASS
+DOCK TEST action wait: PASS
+DOCK TEST cast waits 2 to 4 seconds: PASS
+DOCK TEST early reel gives no fish: PASS
+DOCK TEST action bite: PASS
+DOCK TEST bite E begins reel: PASS
+DOCK TEST action : PASS
+DOCK TEST first catch and UI: PASS
+DOCK TEST action bite: PASS
+DOCK TEST action : PASS
+DOCK TEST missed bite does not consume stock: PASS
+DOCK TEST Escape cancels at dock: PASS
+DOCK TEST walking cancels at dock: PASS
+DOCK TEST walk (388.0, 174.0): PASS
+DOCK TEST E casts: PASS
+DOCK TEST action bite: PASS
+DOCK TEST bite E reels: PASS
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: PASS
+DOCK TEST E casts: PASS
+DOCK TEST action bite: PASS
+DOCK TEST bite E reels: PASS
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: PASS
+DOCK TEST north stock exhausted independently: PASS
+DOCK TEST exhausted dock spot gives no duplicate: PASS
+DOCK TEST walk (388.0, 220.0): PASS
+DOCK TEST walk (492.0, 220.0): PASS
+DOCK TEST E casts: PASS
+DOCK TEST action bite: PASS
+DOCK TEST bite E reels: PASS
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: PASS
+DOCK TEST eastward fishing uses correct water position: PASS
+DOCK TEST walk (492.0, 252.0): PASS
+DOCK TEST east pier edge blocks water: PASS
+DOCK TEST walk (440.0, 252.0): PASS
+DOCK TEST walk (440.0, 260.0): PASS
+DOCK TEST E casts: PASS
+DOCK TEST action bite: PASS
+DOCK TEST bite E reels: PASS
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: PASS
+DOCK TEST south fishing works: PASS
+DOCK TEST walk (388.0, 236.0): PASS
+DOCK TEST walk (64.0, 236.0): PASS
+DOCK TEST walk (48.0, 276.0): PASS
+DOCK TEST exit E returns to town gate: PASS
+DOCK TEST fish and depleted stock survive reentry: PASS
+DOCK TEST R cancels and resets to dock spawn: PASS
+DOCK TEST leaving dock cancels pending rewards: PASS
+DOCK TEST action bite: PASS
+DOCK TEST day timer cancels reel and returns to restaurant: PASS
+DOCK TEST night gate closed with feedback: PASS
+DOCK TEST direct night entry also rejected: PASS
+DOCK TEST next day opens dock and keeps fish: PASS
+DOCK TEST all dock spots refresh next day: PASS
+DOCK TEST rain works at dock: PASS
+DOCK TEST snow works at dock: PASS
+DOCK TEST clear works at dock: PASS
+DOCK TEST fishing sounds triggered: PASS
+DOCK VERIFY END failures=0
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

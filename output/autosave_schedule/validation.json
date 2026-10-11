@@ -1,0 +1,12 @@
+{
+  "schedule": "26 passed",
+  "save_integration": "109 passed",
+  "equipment": "198 passed",
+  "storage": "63 passed",
+  "day_night": "passed",
+  "saving_indicator": "21 passed",
+  "naming": "41 passed",
+  "naming_fresh_process": "3 passed",
+  "window_close": "passed",
+  "localization": "825 entries verified"
+}

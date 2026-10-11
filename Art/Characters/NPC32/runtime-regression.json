@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "name": "guide",
+      "passed": true,
+      "completed": true,
+      "checks_passed": 133,
+      "failures": [],
+      "log": "output/npc32/test_guide.log"
+    },
+    {
+      "name": "depth",
+      "passed": true,
+      "completed": true,
+      "checks_passed": 1064,
+      "failures": [],
+      "log": "output/npc32/test_depth.log"
+    },
+    {
+      "name": "residents",
+      "passed": false,
+      "completed": true,
+      "checks_passed": 27,
+      "failures": [
+        "RESIDENT TEST rain residents reach separate shelters safely: FAIL",
+        "RESIDENT TEST snow residents reach separate shelters safely: FAIL"
+      ],
+      "log": "output/npc32/test_residents.log",
+      "old_npc_art_same_failures": true
+    },
+    {
+      "name": "businesses",
+      "passed": false,
+      "completed": false,
+      "checks_passed": 10,
+      "failures": [
+        "interacting enters blacksmith: FAIL"
+      ],
+      "log": "output/npc32/test_businesses.log",
+      "old_npc_art_same_failures": true
+    },
+    {
+      "name": "restaurant",
+      "passed": false,
+      "completed": false,
+      "checks_passed": 37,
+      "failures": [
+        "RESTAURANT TEST sunset returns to restaurant without auto opening: FAIL",
+        "RESTAURANT TEST real menu button enables opening: FAIL",
+        "RESTAURANT TEST recipe button opens full cookbook and pauses world: FAIL",
+        "SCRIPT ERROR: Invalid call. Nonexistent function 'get_child' in base 'Nil'."
+      ],
+      "log": "output/npc32/test_restaurant.log",
+      "old_art_comparison_completed": false
+    }
+  ],
+  "gameplay_changes": false,
+  "note": "Art-specific 173 checks pass. Broader gameplay regressions are not all passing; resident weather and business entrance failures also reproduce with old resident art."
+}

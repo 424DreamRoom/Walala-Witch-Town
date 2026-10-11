@@ -75,6 +75,7 @@ func run() -> void:
 	lane.automation = true
 	loop = lane.get_node("GameLoop")
 	loop.paused_for_test = true
+	loop.enter("town")
 	loop.audio.music_muted = true
 	loop.audio.effects_muted = true
 	loop.audio.apply_volume()

@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+both business markers installed: PASS
+smith stone floor sound: PASS
+smith wooden floor sound: PASS
+store wooden floor sound: PASS
+business markers hidden at distance: PASS
+real walk to (624.0, 420.0): PASS
+real walk to (1020.0, 576.0): PASS
+near blacksmith marker: PASS
+real walk to (1020.0, 556.0): PASS
+walking to smith door stays outside: PASS
+interacting enters blacksmith: FAIL
+FMOD Sound System: System released

@@ -37,6 +37,10 @@ func _run() -> void:
 	root.add_child(lane)
 	lane.automation = true
 	await frames(5)
+	var loop = lane.get_node("GameLoop")
+	loop.paused_for_test = true
+	loop.enter("town")
+	await frames(3)
 	var weather = lane.weather
 	check("default clear", weather.get_weather() == "clear")
 	if render:
@@ -45,35 +49,37 @@ func _run() -> void:
 	var baseline: Image
 	if render:
 		baseline = await shot("clear")
-	key(KEY_2)
+	key(KEY_F7)
 	await frames(3)
-	check("input 2 rain", weather.get_weather() == "rain")
+	check("input F7 rain", weather.get_weather() == "rain")
 	var rain_y: float = weather.rain[0].y
 	await frames(20)
 	check("rain process moves", weather.rain[0].y != rain_y)
 	if render:
 		var image := await shot("rain")
 		check("rain changes pixels", image.get_data() != baseline.get_data())
-	key(KEY_3)
+	key(KEY_F8)
 	await frames(3)
-	check("input 3 snow", weather.get_weather() == "snow")
+	check("input F8 snow", weather.get_weather() == "snow")
 	var snow_y: float = weather.snow[0].y
 	await frames(20)
 	check("snow process moves", weather.snow[0].y != snow_y)
 	if render:
 		await shot("snow")
-	key(KEY_1)
+	key(KEY_F6)
 	await frames(3)
-	check("input 1 clear", weather.get_weather() == "clear")
+	check("input F6 clear", weather.get_weather() == "clear")
 	if render:
 		var cleared := await shot("clear_after")
 		check("clear removes all weather pixels", cleared.get_data() == baseline.get_data())
+	var building: Rect2 = lane.solid_rects[0]
+	var approach := Vector2(building.get_center().x, building.end.y + 52.0)
 	for mode in ["rain", "snow"]:
 		weather.set_weather(mode)
 		var pos: Vector2 = await lane._walk(Vector2(408,364), Vector2.RIGHT, 40)
 		check(mode + " movement", absf(pos.x - 468.0) < 3.0)
-		pos = await lane._walk(Vector2(224,340), Vector2.UP, 60)
-		check(mode + " building collision", pos.y >= 293.9 and pos.y < 296.0)
+		pos = await lane._walk(approach, Vector2.UP, 60)
+		check(mode + " building collision", absf(pos.x - approach.x) < 1.0 and pos.y >= building.end.y + 5.9 and pos.y < building.end.y + 8.0)
 		for corner in [Vector2(24,24), Vector2(1256,936), Vector2(808,684)]:
 			lane.player.position = corner
 			lane.camera.force_update_scroll()

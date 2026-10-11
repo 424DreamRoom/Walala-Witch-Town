@@ -1,0 +1,11 @@
+--- Scenes/Storage/verify_grid.gd (before)
++++ Scenes/Storage/verify_grid.gd
+@@ -306,7 +306,7 @@
+ 	await shot("backpack_grid")
+ 	await key(KEY_B)
+ 	check("B closes grid", hud.mode.is_empty() and not paused)
+-	check("autosave preserves exact positions", Saves.read_slot(1).ok and Saves.read_slot(1).data.state.bag_slots == loop.state.bag_slots)
++	check("manual save preserves exact positions", loop.save_progress().ok and Saves.read_slot(1).ok and Saves.read_slot(1).data.state.bag_slots == loop.state.bag_slots)
+ 	await clean()
+ 	print("STORAGE VERIFY END failures=", failures)
+ 	quit(failures)

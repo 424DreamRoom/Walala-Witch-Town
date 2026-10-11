@@ -1,0 +1,22 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+WEATHER VERIFY START
+WEATHER TEST default clear: PASS
+WEATHER TEST input F7 rain: PASS
+WEATHER TEST rain process moves: PASS
+WEATHER TEST input F8 snow: PASS
+WEATHER TEST snow process moves: PASS
+WEATHER TEST input F6 clear: PASS
+WEATHER TEST rain movement: PASS
+WEATHER TEST rain building collision: PASS
+WEATHER TEST rain screen overlay transform (24.0, 24.0): PASS
+WEATHER TEST rain screen overlay transform (1256.0, 936.0): PASS
+WEATHER TEST rain screen overlay transform (808.0, 684.0): PASS
+WEATHER TEST snow movement: PASS
+WEATHER TEST snow building collision: PASS
+WEATHER TEST snow screen overlay transform (24.0, 24.0): PASS
+WEATHER TEST snow screen overlay transform (1256.0, 936.0): PASS
+WEATHER TEST snow screen overlay transform (808.0, 684.0): PASS
+WEATHER VERIFY END failures=0
+FMOD Sound System: System released

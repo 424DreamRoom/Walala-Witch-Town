@@ -1,0 +1,11 @@
+--- Scenes/Storage/verify_storage.gd (before)
++++ Scenes/Storage/verify_storage.gd
+@@ -250,7 +250,7 @@
+ 		await frames()
+ 		check("live storage language " + locale, hud.chest_view.title.text == TranslationServer.translate("木箱 #%d") % id and hud.mode == "chest" and paused)
+ 		await shot("storage_" + locale)
+-	check("storage autosave preserves items and upgraded tool", Saves.read_slot(1).ok and Saves.read_slot(1).data.state.furniture == loop.state.furniture and Saves.read_slot(1).data.state.equipment.axe == 2)
++	check("manual save preserves items and upgraded tool", loop.save_progress().ok and Saves.read_slot(1).ok and Saves.read_slot(1).data.state.furniture == loop.state.furniture and Saves.read_slot(1).data.state.equipment.axe == 2)
+ 	await key(KEY_M)
+ 	await key(KEY_J)
+ 	check("storage blocks other modal shortcuts", hud.mode == "chest" and paused)

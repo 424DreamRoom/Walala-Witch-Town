@@ -1,0 +1,29 @@
+--- Scenes/Save/verify_saving_indicator.gd (before)
++++ Scenes/Save/verify_saving_indicator.gd
+@@ -44,7 +44,7 @@
+ 	loop.enter("home")
+ 	paused = true
+ 	await create_timer(1.7).timeout
+-	check("initial autosave cue finishes", not indicator.visible)
++	check("map change does not start a save cue", not indicator.visible)
+ 	check("manual disk write succeeds", loop.save_progress().ok and Saves.read_slot(1).ok)
+ 	check("manual save starts cue above all menus", indicator.visible and loop.save_menu.indicator_layer.layer > loop.hud.layer.layer)
+ 	var before: float = indicator.motion_time
+@@ -65,7 +65,7 @@
+ 	indicator.finish_save(true)
+ 	await frames()
+ 	check("long save completes after result arrives", indicator.phase == "success")
+-	loop._autosave()
++	loop.save_progress()
+ 	check("another save restarts cue without hiding", indicator.visible and indicator.phase == "saving")
+ 	await create_timer(1.7).timeout
+ 	var good_directory: String = Saves.directory
+@@ -85,7 +85,7 @@
+ 	DirAccess.remove_absolute(ProjectSettings.globalize_path(blocker))
+ 	loop.save_menu.close_menu()
+ 	paused = true
+-	loop._autosave()
++	loop.save_progress()
+ 	for locale in ["zh_CN", "en", "ja", "zh_TW"]:
+ 		root.get_node("Localization").set_language(locale, false)
+ 		check("translated cue " + locale, indicator.caption.text == tr("保存中") and indicator.caption.get_minimum_size().x <= indicator.size.x)

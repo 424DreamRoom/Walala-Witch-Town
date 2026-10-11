@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+DOCK TEST real walk to (1200.0, 652.0): PASS
+DOCK TEST dock gate prompt: PASS
+DOCK TEST real walk to (1224.0, 652.0): PASS
+DOCK TEST walking enters dock: PASS
+DOCK TEST town collision world detached: PASS
+DOCK TEST dock camera bounds: PASS
+DOCK TEST three fishing spots: PASS
+SCRIPT ERROR: Invalid access to property or key 'place_label' on a base object of type 'Node (game_hud.gd)'.
+   at: run (res://Scenes/Dock/verify_dock.gd:103)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Dock/verify_dock.gd:103)
+       [1] walk_to (res://Scenes/Dock/verify_dock.gd:33)
+       [2] walk (res://Scenes/LanternLane/verification_navigation.gd:68)

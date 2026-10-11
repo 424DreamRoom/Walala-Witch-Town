@@ -1,0 +1,51 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+HOUSING TEST starter house is empty including fixtures and stock: PASS
+HOUSING TEST insufficient funds cannot expand: PASS
+HOUSING TEST starter still supports crafting: PASS
+HOUSING TEST larger floor is locked before purchase: PASS
+HOUSING TEST starter supports real furniture: PASS
+HOUSING TEST chest accepts real inventory: PASS
+HOUSING TEST expansion charges exact cost 0: PASS
+HOUSING TEST expansion preserves IDs positions and contents 0: PASS
+HOUSING TEST expansion charges exact cost 1: PASS
+HOUSING TEST expansion preserves IDs positions and contents 1: PASS
+HOUSING TEST maximum cannot charge again: PASS
+HOUSING TEST reject invalid house level -1: PASS
+HOUSING TEST reject invalid house level 3: PASS
+HOUSING TEST reject invalid house level 0.5: PASS
+HOUSING TEST reject invalid house level 1: PASS
+HOUSING TEST save validates level-specific furniture bounds: PASS
+HOUSING TEST pre-furniture saves retain authored house: PASS
+HOUSING TEST pre-expansion saves retain every furnishing: PASS
+HOUSING TEST one missing material prevents all charges: PASS
+HOUSING TEST night expansion cannot mutate: PASS
+HOUSING TEST small room still protects escape route: PASS
+HOUSING TEST fresh slot opens: PASS
+HOUSING TEST starter has only its eight wall bodies: PASS
+HOUSING TEST starter floor is one sixth of former floor: PASS
+HOUSING TEST starter side wall physically blocks movement: PASS
+HOUSING TEST home pause menu exposes construction: PASS
+HOUSING TEST construction safely takes pause ownership: PASS
+HOUSING TEST real input crafts and places first furnishing: PASS
+HOUSING TEST real input builds chest in starter: PASS
+HOUSING TEST starter chest stores materials: PASS
+HOUSING TEST map mirrors empty shell and crafted furniture: PASS
+HOUSING TEST starter doorway remains reachable: PASS
+HOUSING TEST starter exits to farm: PASS
+HOUSING TEST town door enters actual furniture store: PASS
+HOUSING TEST shop service is reachable: PASS
+HOUSING TEST shop interaction opens paused expansion panel: PASS
+HOUSING TEST first purchase charges only listed resources: PASS
+HOUSING TEST second tier is unavailable without its price: PASS
+HOUSING TEST closed service cannot charge stale click: PASS
+HOUSING TEST first expansion changes geometry and keeps furniture: PASS
+HOUSING TEST upgrades are unavailable remotely from home: PASS
+HOUSING TEST second purchase unlocks full room without furnishings: PASS
+HOUSING TEST maximum disables purchase: PASS
+HOUSING TEST new shop location persists to disk: PASS
+HOUSING TEST expanded room keeps crafted collisions and contents: PASS
+HOUSING TEST expanded home saves: PASS
+HOUSING TEST saved slot reopens: PASS
+HOUSING TEST disk reload restores house size furniture and chest: PASS
+HOUSING VERIFY END failures=0

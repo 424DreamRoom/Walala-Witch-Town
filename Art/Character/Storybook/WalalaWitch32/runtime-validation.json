@@ -1,0 +1,8 @@
+{
+	"exact_source_pixels": true,
+	"failures": 0,
+	"isolated_profile": true,
+	"rendered_frames": 80,
+	"renderer": "gl_compatibility",
+	"status": "PASS"
+}

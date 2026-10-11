@@ -1,0 +1,44 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+NAMING invalid name : PASS
+NAMING invalid name    : PASS
+NAMING invalid name abcdefghijklmnop: PASS
+NAMING invalid name a\nb: PASS
+NAMING invalid name a\tb: PASS
+NAMING invalid name a: PASS
+NAMING invalid name 42: PASS
+NAMING unicode name accepted: PASS
+NAMING name trims outer whitespace: PASS
+NAMING confirmed name is immutable: PASS
+NAMING old campaign migrates false: PASS
+NAMING old campaign migrates true: PASS
+NAMING bad saved name rejected: PASS
+NAMING new slot opens: PASS
+NAMING new slot starts paused film: PASS
+NAMING natural film end opens naming: PASS
+NAMING naming freezes world clock: PASS
+NAMING film end waits for scheduled save: PASS
+NAMING exit-save fixture captures unfinished naming: PASS
+NAMING unfinished naming saved: PASS
+NAMING game shortcuts type into name: PASS
+NAMING escape cannot bypass naming: PASS
+NAMING blank name cannot continue: PASS
+NAMING second confirmation leaves save unnamed: PASS
+NAMING cancel restores editable name and focus: PASS
+NAMING interrupted slot opens: PASS
+NAMING interrupted naming resumes without film: PASS
+NAMING name stays literal zh_CN: PASS
+NAMING name stays literal en: PASS
+NAMING name stays literal ja: PASS
+NAMING name stays literal zh_TW: PASS
+NAMING enter opens confirmation: PASS
+NAMING keyboard confirmation updates name and resumes: PASS
+NAMING naming waits for normal save schedule: PASS
+NAMING manual save persists chosen name: PASS
+NAMING chosen name persisted in JSON: PASS
+NAMING named slot opens: PASS
+NAMING named save has no opening prompts: PASS
+NAMING second empty slot opens: PASS
+NAMING skipped film still requires naming: PASS
+NAMING slot card displays saved name: PASS
+NAMING COMPLETE checks=41 failures=0

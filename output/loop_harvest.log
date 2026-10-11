@@ -70,7 +70,7 @@ HARVEST TEST reset cancels action: PASS
 HARVEST TEST scene switch cancels pending hit: PASS
 HARVEST TEST day end cancels action and moves to restaurant: PASS
 HARVEST TEST day end gives no pending reward: PASS
-HARVEST TEST resources carry into next day: PASS
+HARVEST TEST resources carry into next day: FAIL
 HARVEST TEST nodes and fish refresh next day: PASS
 HARVEST TEST refreshed tree art: PASS
 HARVEST TEST fish stock catch 0: PASS
@@ -80,4 +80,6 @@ HARVEST TEST exhausted pond rejects duplicate fish: PASS
 HARVEST TEST night rejects harvest: PASS
 HARVEST TEST invalid kind rejected: PASS
 HARVEST TEST new sounds triggered: PASS
-HARVEST VERIFY END failures=0
+HARVEST VERIFY END failures=1
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

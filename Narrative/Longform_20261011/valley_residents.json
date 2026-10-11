@@ -1,0 +1,8024 @@
+{
+  "group": "valley",
+  "npcs": [
+    {
+      "id": "luo",
+      "name": "洛桑",
+      "role": "山间货车司机",
+      "voice": "用机械坏脾气掩饰花费，正事报实际重量。",
+      "desire": "建立不靠欠情的运输合伙。",
+      "blind_spot": "把能撑一趟当成节省。",
+      "relationships": [
+        {
+          "npc_id": "fu",
+          "note": "与芙蓉以分趟运输、仓租和明确合同合伙，不再靠展示劳累获得运费。"
+        }
+      ]
+    },
+    {
+      "id": "fu",
+      "name": "芙蓉",
+      "role": "山口茶棚老板",
+      "voice": "困时短句，账目细，说感谢不用客套承诺。",
+      "desire": "有固定的休息上午。",
+      "blind_spot": "会连合理互助也推开。",
+      "relationships": [
+        {
+          "npc_id": "luo",
+          "note": "与洛桑互相计较成本，也约定茶棚休息时不由货车司机擅自开门营业。"
+        }
+      ]
+    },
+    {
+      "id": "chen",
+      "name": "陈漪",
+      "role": "湿地测水员",
+      "voice": "报日期位置，认错逐项更正。",
+      "desire": "留下可被质疑和使用的水源记录。",
+      "blind_spot": "以为数字正确解释就充分。",
+      "relationships": [
+        {
+          "npc_id": "mo",
+          "note": "起初公告影响墨池卖鱼；接受他的在地观察，同时区分实测与居民记录。"
+        }
+      ]
+    },
+    {
+      "id": "mo",
+      "name": "墨池",
+      "role": "渔网修补人",
+      "voice": "手艺词具体，不爱被称匠心。",
+      "desire": "获得稳定报酬。",
+      "blind_spot": "把机器都当成否定。",
+      "relationships": [
+        {
+          "npc_id": "chen",
+          "note": "陈漪购买机器网做试验，与墨池约定改边绳的实际用途和付费，仍会争水尺位置。"
+        }
+      ]
+    },
+    {
+      "id": "jiang",
+      "name": "姜禾",
+      "role": "流动药草商",
+      "voice": "讲疗效先讲不能治什么，讲价嘴利。",
+      "desire": "诚实也能挣钱。",
+      "blind_spot": "羞于承认需要利润。",
+      "relationships": [
+        {
+          "npc_id": "hu",
+          "note": "识破胡岑隐瞒腿痛，不替他诊断或夸大药草作用；巡山员也尊重她自己谈退货。"
+        }
+      ]
+    },
+    {
+      "id": "hu",
+      "name": "胡岑",
+      "role": "巡山员",
+      "voice": "方向距离准确，身体状况含糊。",
+      "desire": "建立巡山轮班。",
+      "blind_spot": "将求助当成年老判词。",
+      "relationships": [
+        {
+          "npc_id": "song",
+          "note": "松果会指出他缩减路线遗漏的居民；胡岑不把孩子当免费巡山帮手。"
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "name": "松果",
+      "role": "十二岁山民孩子",
+      "voice": "想到就说，谈姐姐偷偷改口。",
+      "desire": "做一件姐姐用得上的礼物。",
+      "blind_spot": "觉得罕见才贵重。",
+      "relationships": [
+        {
+          "npc_id": "jiang",
+          "note": "姜禾不收误认的药草，按折纸袋的劳动付钱，帮助他分清礼物与夸大的付出。"
+        }
+      ]
+    },
+    {
+      "id": "niao",
+      "name": "鸟笛",
+      "role": "成年候鸟记录员",
+      "voice": "鸟名准确，谈漏记先绕两句。",
+      "desire": "留下含局限的可靠记录。",
+      "blind_spot": "怕遗漏损害一切。",
+      "relationships": [
+        {
+          "npc_id": "luye",
+          "note": "与鹿野互相核对记录缺口和地图权限，公开图不把借用土地变成公共通路。"
+        }
+      ]
+    },
+    {
+      "id": "xia",
+      "name": "夏满",
+      "role": "季节旅居画师",
+      "voice": "爱谈构图价钱，拒绝悲情想象。",
+      "desire": "画出能被认领的肖像。",
+      "blind_spot": "把画不好当审美。",
+      "relationships": [
+        {
+          "npc_id": "qiu",
+          "note": "向秋水付模特费，按约定用途画衣样，拒绝将她返乡编成悲情推销。"
+        }
+      ]
+    },
+    {
+      "id": "zhao",
+      "name": "赵汐",
+      "role": "码头货票员",
+      "voice": "数字越乱语速越快，计较半勺糖。",
+      "desire": "分清工作和婚后责任。",
+      "blind_spot": "把复核当能力否定。",
+      "relationships": [
+        {
+          "npc_id": "wenchao",
+          "note": "与配偶闻潮从错票争执走到明确家务、工作材料和小额自由支出的试行规则。"
+        }
+      ]
+    },
+    {
+      "id": "hai",
+      "name": "海葵",
+      "role": "旧灯罩清洁师",
+      "voice": "品相兴致高，安全干脆。",
+      "desire": "旧灯罩继续使用。",
+      "blind_spot": "高估收藏空间。",
+      "relationships": [
+        {
+          "npc_id": "ji",
+          "note": "与季平试卖磨边装饰片，接受绿褐色滞销，保留喜欢也承担占用空间的成本。"
+        }
+      ]
+    },
+    {
+      "id": "wenchao",
+      "name": "闻潮",
+      "role": "船上厨师",
+      "voice": "用饭菜班次说事，玩笑后补真要求。",
+      "desire": "有自己的工作并分担家务。",
+      "blind_spot": "把会做饭当包办照料。",
+      "relationships": [
+        {
+          "npc_id": "zhao",
+          "note": "与配偶赵汐学习询问需要，不以包办饭菜换取赞赏，短航线工作提前分配家事。"
+        }
+      ]
+    },
+    {
+      "id": "bo",
+      "name": "柏安",
+      "role": "石谷矿工",
+      "voice": "工时列事实，厌恶悲壮讲法。",
+      "desire": "争取明确停工条件。",
+      "blind_spot": "证据齐才说不适。",
+      "relationships": [
+        {
+          "npc_id": "tie",
+          "note": "与铁桃公开工时证据和反对意见，争取最低收入与停工规则，也接受真实收入差额。"
+        }
+      ]
+    },
+    {
+      "id": "tie",
+      "name": "铁桃",
+      "role": "矿工合作社理事",
+      "voice": "争吵仍记诉求，账边夹菜种。",
+      "desire": "算清账也有菜圃。",
+      "blind_spot": "空闲都给公事。",
+      "relationships": [
+        {
+          "npc_id": "bo",
+          "note": "柏安支持她设定菜圃时间，不将自己的私地变成另一个合作社项目。"
+        }
+      ]
+    },
+    {
+      "id": "cen",
+      "name": "岑月",
+      "role": "观星台档案修补员",
+      "voice": "严格区分原文推测，私下嫌旧纸味。",
+      "desire": "保留可核对的无结尾史料。",
+      "blind_spot": "把困惑当读者不认真。",
+      "relationships": [
+        {
+          "npc_id": "xun",
+          "note": "与荀叶互读说明和预报，指出术语不清与不确定范围，约定各自工作的边界。"
+        }
+      ]
+    },
+    {
+      "id": "xun",
+      "name": "荀叶",
+      "role": "气象站见习",
+      "voice": "预报过于肯定，更正逐字斟酌。",
+      "desire": "发布有范围的预报。",
+      "blind_spot": "把不知道当不配任职。",
+      "relationships": [
+        {
+          "npc_id": "cen",
+          "note": "岑月陪他面对更正，但不替他张贴或承担预报；荀叶也指出档案说明的长句。"
+        }
+      ]
+    },
+    {
+      "id": "pao",
+      "name": "泡桐",
+      "role": "旧械仓库守门人",
+      "voice": "用往事定位物件，找不到先嫌人急。",
+      "desire": "按期退休。",
+      "blind_spot": "把需要与无法离开混淆。",
+      "relationships": [
+        {
+          "npc_id": "ji",
+          "note": "季平要求盘点按工时付费、找不到给明确答复，不把退休交接叫无偿贡献。"
+        }
+      ]
+    },
+    {
+      "id": "luye",
+      "name": "鹿野",
+      "role": "测绘员",
+      "voice": "先算最短，反问时摸尺。",
+      "desire": "画实际走得通的地图。",
+      "blind_spot": "忽略绕路理由。",
+      "relationships": [
+        {
+          "npc_id": "niao",
+          "note": "鸟笛用绕路、田地借用和观测缺口纠正最短路线思维，鹿野也核对公开信息范围。"
+        }
+      ]
+    },
+    {
+      "id": "qiu",
+      "name": "秋水",
+      "role": "成年裁衣模特",
+      "voice": "谈衣料边界直接，亲近有坏笑话。",
+      "desire": "带回经验也保留自己的去处。",
+      "blind_spot": "受评判就急着证明离开正确。",
+      "relationships": [
+        {
+          "npc_id": "xia",
+          "note": "与夏满按合同合作衣样，允许朋友来往而拒绝免费充当人物素材或返乡象征。"
+        }
+      ]
+    },
+    {
+      "id": "ji",
+      "name": "季平",
+      "role": "外来餐具采购员",
+      "voice": "拆项报价，承诺具体日期。",
+      "desire": "长期采购手工餐具。",
+      "blind_spot": "将可量化当全部成本。",
+      "relationships": [
+        {
+          "npc_id": "hai",
+          "note": "海葵指出报价、颜色与物件安全的具体问题，季平承担库存与包装试错的采购风险。"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "valley_luo_01",
+      "title": "坏脾气的第三挡",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "山口茶棚外",
+      "participants": [
+        "luo",
+        "player",
+        "fu"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_luo_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "货车停在茶棚前，左侧车门用一条褪色围巾系着。洛桑把两袋面粉搬到阴处。"
+        },
+        {
+          "speaker": "luo",
+          "text": "总共二百六十斤。我先说清楚，少掉那四斤是袋子皮重，不是我路上吃了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你上回来时也先说这个？"
+        },
+        {
+          "speaker": "luo",
+          "text": "上回是两斤。芙蓉拿的秤太灵，车里带过来的山风都想算钱。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我听得见。你这次迟了一个多钟头，山风也堵在路上了？"
+        },
+        {
+          "speaker": "luo",
+          "text": "第三挡犯脾气。遇到那道坡，就爱想以前的事。"
+        },
+        {
+          "speaker": "fu",
+          "text": "它以前的事里有没有人按时把货送到？"
+        },
+        {
+          "speaker": "luo",
+          "text": "有，我。车还新的时候。"
+        },
+        {
+          "speaker": "player",
+          "text": "门为什么绑着？"
+        },
+        {
+          "speaker": "luo",
+          "text": "门锁松，围巾挺结实。我原本要拿铁丝，怕刮了面粉袋。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你每件坏东西都有一个原本。刹车昨天修没有？"
+        },
+        {
+          "speaker": "luo",
+          "text": "修了，那不是能凑合的。离合还没，报价比我想的多。"
+        },
+        {
+          "speaker": "fu",
+          "text": "多少？"
+        },
+        {
+          "speaker": "luo",
+          "text": "三趟茶叶的运费。你把下个月的钱预付，我给你便宜些。"
+        },
+        {
+          "speaker": "fu",
+          "text": "下个月山路封不封都不知道。你要借钱就说借钱，别给它穿运输合同的衣服。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我没想让你白帮忙。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那把需要换的件、修车的日子写清楚。我看能不能把这半月的货并成两趟。少开一趟总有余钱。"
+        },
+        {
+          "speaker": "luo",
+          "text": "两趟，茶叶不能和腌鱼同车。上次那罐春茶闻着像退潮，我还以为是新口味。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那罐你全喝了。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我不能一边赔你一边承认难喝。"
+        },
+        {
+          "speaker": "stage",
+          "text": "芙蓉把空账纸压在茶壶底下。洛桑没有马上写，先去解开了车门上的围巾。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luo_02",
+      "title": "不载人的空座",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "货车停场",
+      "participants": [
+        "luo",
+        "player",
+        "fu"
+      ],
+      "requires": [
+        "valley_luo_01"
+      ],
+      "sets": [
+        "valley_luo_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "车停在平地，后轮垫了木楔。新离合的包装纸还放在驾驶座上。"
+        },
+        {
+          "speaker": "luo",
+          "text": "这回响的是座椅，不是离合。修好了以后，车里反倒多出三个响声。"
+        },
+        {
+          "speaker": "player",
+          "text": "以前被盖住了？"
+        },
+        {
+          "speaker": "luo",
+          "text": "嗯。老车跟一屋子人似的，谁嗓门最大，就以为只有谁在讲话。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我来拿合同。你写了三页，运费倒只写半行。"
+        },
+        {
+          "speaker": "luo",
+          "text": "后边是雨天处理。进山途中落石，停在外头等，不能扣迟到钱。"
+        },
+        {
+          "speaker": "fu",
+          "text": "这个可以。为什么还写我不能搭便车？"
+        },
+        {
+          "speaker": "luo",
+          "text": "没有座位。右边放捆绳、工具、干粮。"
+        },
+        {
+          "speaker": "fu",
+          "text": "一张座位上放十样东西，不算一张座位？"
+        },
+        {
+          "speaker": "luo",
+          "text": "我上山得看路，你要是说茶棚的事，我容易分神。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我搭车是去山下睡觉。我妹妹家有一张不漏风的床，她答应别在上午喊我。"
+        },
+        {
+          "speaker": "luo",
+          "text": "哦。"
+        },
+        {
+          "speaker": "player",
+          "text": "工具箱能放座椅下面。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我知道。但你要是跟着跑了一趟，发现我没那么累，运费还给这么多吗？"
+        },
+        {
+          "speaker": "fu",
+          "text": "洛桑，我给你的是运货钱，不是看你苦不苦的钱。"
+        },
+        {
+          "speaker": "luo",
+          "text": "山下有的人不是这样算的。他说路只有十五里，怎么就这么贵。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那你把油钱、磨损和工时给他看。别拿不洗澡和没吃饭当凭据，看着也怪难受。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我洗了。今天还洗了头。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那更好，我能放心睡。"
+        },
+        {
+          "speaker": "stage",
+          "text": "洛桑把工具箱塞进座椅底，动作慢得像在安置一位不愿搬家的租客。"
+        },
+        {
+          "speaker": "luo",
+          "text": "明早六点半。到了我叫你，路上不聊天。"
+        },
+        {
+          "speaker": "fu",
+          "text": "六点半？合同给我，我把休息日那一项再改改。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luo_03",
+      "title": "南瓜和一段退路",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "autumn",
+      "location": "山道转弯处",
+      "participants": [
+        "luo",
+        "player",
+        "fu"
+      ],
+      "requires": [
+        "valley_luo_02"
+      ],
+      "sets": [
+        "valley_luo_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "三只滚下袋子的南瓜躺在路边，货车离弯口还有一段距离。洛桑蹲着，鞋带泡在泥水里。"
+        },
+        {
+          "speaker": "luo",
+          "text": "前面过不了弯，半幅路塌了，我已经插了枝条。那三个瓜自己逃出来的，没有人受伤。"
+        },
+        {
+          "speaker": "player",
+          "text": "还剩多少货？"
+        },
+        {
+          "speaker": "luo",
+          "text": "十八袋瓜，四箱干蘑菇。干蘑菇现在不那么干了，车篷漏了一条。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我收到你留在路口的字条。写着退回，我还以为你终于不送货了。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我想把车调回去，试了两次。第三次不能试，后轮再偏一点会陷。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你能说这句，今天就算你有长进。"
+        },
+        {
+          "speaker": "luo",
+          "text": "也不是长进。我看见一袋瓜滑下去，心里算出得赔多少，忽然觉得我自己的赔法贵多了。"
+        },
+        {
+          "speaker": "player",
+          "text": "茶棚有空地方放货吗？"
+        },
+        {
+          "speaker": "fu",
+          "text": "有，后房。这两晚我睡前边，不过得付仓租。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我知道，多少？"
+        },
+        {
+          "speaker": "fu",
+          "text": "按我们合同上的数。路封不是你的错，剩下的瓜也不是我的。"
+        },
+        {
+          "speaker": "luo",
+          "text": "那就放。湿蘑菇不能闷，我把箱子拆开铺起来。"
+        },
+        {
+          "speaker": "fu",
+          "text": "铺之前把南瓜数好，别明天说茶棚的老鼠会扛麻袋。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我只说过它会拖馒头。"
+        },
+        {
+          "speaker": "player",
+          "text": "那三个瓜呢？"
+        },
+        {
+          "speaker": "luo",
+          "text": "裂的归我，能吃。我娘以前拿这种瓜煮稠粥，胡椒多放，第二天嗓子都发辣。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你别把我茶棚也煮得发辣。我先弄碗面，吃完再搬，你刚才答话都没力气。"
+        },
+        {
+          "speaker": "luo",
+          "text": "面钱记着。"
+        },
+        {
+          "speaker": "fu",
+          "text": "当然记。我这回在账上把你名字写大点，省得你还钱时装没看见。"
+        },
+        {
+          "speaker": "stage",
+          "text": "洛桑站起来解鞋带，松开以后才发现鞋里装着一整片叶子。他把叶子扔到南瓜上，没再去看弯口。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luo_04",
+      "title": "两把钥匙",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "winter",
+      "location": "山口茶棚后房",
+      "participants": [
+        "fu",
+        "luo",
+        "player"
+      ],
+      "requires": [
+        "valley_luo_03"
+      ],
+      "sets": [
+        "valley_luo_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "桌上有两把新钥匙，一叠运货单和一碟已经凉透的炒豆。芙蓉将账本转向洛桑。"
+        },
+        {
+          "speaker": "fu",
+          "text": "秋天那批货，仓租结了，坏蘑菇赔款也收回来了。剩下这笔，是我们合伙账里的钱。"
+        },
+        {
+          "speaker": "luo",
+          "text": "你把倒货那几个人的工钱漏了？"
+        },
+        {
+          "speaker": "fu",
+          "text": "在上一页。你别每见到结余就疑心我忘记付钱。"
+        },
+        {
+          "speaker": "luo",
+          "text": "以前都是看见结余，再过三天发现还欠车轮。"
+        },
+        {
+          "speaker": "player",
+          "text": "两把钥匙都开后房？"
+        },
+        {
+          "speaker": "fu",
+          "text": "一把后房，一把货柜。他收货不必等我起床。"
+        },
+        {
+          "speaker": "luo",
+          "text": "那我七点来？"
+        },
+        {
+          "speaker": "fu",
+          "text": "你爱几点来几点来，货柜里不许放早饭。上回那块油饼把秤盘染得像铜的。"
+        },
+        {
+          "speaker": "luo",
+          "text": "七点半好了。你不是要睡懒觉？"
+        },
+        {
+          "speaker": "fu",
+          "text": "我睡到九点，你不需要守在前边替我迎客。门上会挂休息的牌子。"
+        },
+        {
+          "speaker": "luo",
+          "text": "山口的人看见门关着，会去别处买。"
+        },
+        {
+          "speaker": "fu",
+          "text": "知道。我算过了，少卖那三壶茶，比我每周骂人划算。"
+        },
+        {
+          "speaker": "luo",
+          "text": "你骂人又不收钱。"
+        },
+        {
+          "speaker": "fu",
+          "text": "再说下去我就收。"
+        },
+        {
+          "speaker": "player",
+          "text": "车冬天还进山吗？"
+        },
+        {
+          "speaker": "luo",
+          "text": "看路况，只运急用那几趟。合伙的第一笔钱，先买备用篷布，不买漂亮招牌。"
+        },
+        {
+          "speaker": "fu",
+          "text": "招牌也要换。现在一半写山口茶，一半写什么看不清，远处的人以为卖山羊。"
+        },
+        {
+          "speaker": "luo",
+          "text": "留那块木头给我，垫货好用。"
+        },
+        {
+          "speaker": "stage",
+          "text": "洛桑拿走钥匙，又从兜里摸出半块油饼，看看货柜，改放进了自己的工具箱。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luo_05",
+      "title": "宴席后的一车碗",
+      "kind": "daily",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "月灯食堂外",
+      "participants": [
+        "luo",
+        "player",
+        "fu"
+      ],
+      "requires": [
+        "valley_luo_04",
+        "main_12_after"
+      ],
+      "sets": [
+        "valley_luo_05"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "万家灯火宴已经散了，洗过的碗叠在门边。洛桑给货车垫了一层旧棉布。"
+        },
+        {
+          "speaker": "luo",
+          "text": "灯亮了以后，大家说话都大声了些。我一晚上听见七个人说，这点碗不会碎的。"
+        },
+        {
+          "speaker": "player",
+          "text": "听起来你很担心。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我不担心碗，我担心那七个人都想把箱子堆在最上边。破了只算我的。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我的茶杯放在最下面。这回借出三十六只，回来三十五只，还有一只盛着半杯豆子。"
+        },
+        {
+          "speaker": "luo",
+          "text": "豆子是我的。那只杯子怎么就混进来了？"
+        },
+        {
+          "speaker": "fu",
+          "text": "你拿去喝汤，想起来没有？"
+        },
+        {
+          "speaker": "luo",
+          "text": "想起来了。汤咸，我一直以为杯子小。"
+        },
+        {
+          "speaker": "player",
+          "text": "我把杯子洗好还你。"
+        },
+        {
+          "speaker": "fu",
+          "text": "明天再说。现在水凉了，少洗一只不会让月环再暗下去。"
+        },
+        {
+          "speaker": "luo",
+          "text": "有人今晚已经问，灯亮是不是以后运费能便宜。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你怎么答的？"
+        },
+        {
+          "speaker": "luo",
+          "text": "我说车还是吃油。月环又不替我踩离合。"
+        },
+        {
+          "speaker": "fu",
+          "text": "答得好。明天上午我休息，你别忘。"
+        },
+        {
+          "speaker": "luo",
+          "text": "记着。货单交接改到下午。合伙这一季你睡了几个懒觉？"
+        },
+        {
+          "speaker": "fu",
+          "text": "五个。有一个你在窗外卸白菜，喊得整条街都知道每棵重几斤。"
+        },
+        {
+          "speaker": "luo",
+          "text": "那不是怕少算你。"
+        },
+        {
+          "speaker": "fu",
+          "text": "下回纸上算。我已经把铅笔系在秤上了，你再丢就是故意的。"
+        },
+        {
+          "speaker": "stage",
+          "text": "车慢慢驶过亮着灯的窗户。最后一只茶杯留在食堂柜上，杯底贴了一张写着芙蓉名字的纸。"
+        }
+      ]
+    },
+    {
+      "id": "valley_fu_01",
+      "title": "茶棚开门以前",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "山口茶棚",
+      "participants": [
+        "fu",
+        "player",
+        "luo"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_fu_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "芙蓉掀开锅盖，茶叶蛋的热气扑到脸上。她把刚贴好的价目纸撕下，重新写了一张。"
+        },
+        {
+          "speaker": "fu",
+          "text": "鸡蛋涨了三回价，我只改了一回。有个人昨天夸我厚道，我听完特别想让他补差价。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在补在新价里？"
+        },
+        {
+          "speaker": "fu",
+          "text": "一只多两枚铜币。壶茶也涨一点，路边那张长凳不收费。"
+        },
+        {
+          "speaker": "player",
+          "text": "还有人专门问凳子？"
+        },
+        {
+          "speaker": "fu",
+          "text": "有。问了反而好，有人什么也不问，坐三小时，把我留给自己的午饭吃了。"
+        },
+        {
+          "speaker": "luo",
+          "text": "那个人是我。午饭放在客人桌上，旁边还有筷子。"
+        },
+        {
+          "speaker": "fu",
+          "text": "筷子插在饭里，碗上盖着我名字，你识字。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我以为是你留给我的，还写名字怕别人拿。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那时候我还真给你留过。现在不了，先问。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天几点开门？"
+        },
+        {
+          "speaker": "fu",
+          "text": "其实已经开了。我五点起来煮蛋，六点扫地，七点刚想坐下，第一辆车就到了。"
+        },
+        {
+          "speaker": "luo",
+          "text": "山路的客人来得早。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我知道，但我不是太阳，不能因为他们来得早就负责升起来。"
+        },
+        {
+          "speaker": "luo",
+          "text": "你可以每周关半天。我下山那天，捎你去买米。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我不买米。我想坐着，什么也不干。"
+        },
+        {
+          "speaker": "player",
+          "text": "这也得写进日程？"
+        },
+        {
+          "speaker": "fu",
+          "text": "不写别人就给我写满。下周三吧，蛋少煮十只，前晚的锅别泡着等早上洗。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她把新价目纸贴回原处，在背面写了周三休息。洛桑凑过去读，嘴里那个免费的蛋终于没有拿起来。"
+        }
+      ]
+    },
+    {
+      "id": "valley_fu_02",
+      "title": "收下的一篮橘子",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "茶棚厨房",
+      "participants": [
+        "fu",
+        "player",
+        "luo"
+      ],
+      "requires": [
+        "valley_fu_01"
+      ],
+      "sets": [
+        "valley_fu_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "橘子篮放在灶边，最上层的三个被蒸汽熏得发亮。芙蓉把篮子往门口推了推。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我不收。你替送橘子那个人带回去，他每回给东西，后面都跟着件事。"
+        },
+        {
+          "speaker": "player",
+          "text": "这回只是谢你前天留了一壶热水。"
+        },
+        {
+          "speaker": "fu",
+          "text": "前天热水，昨天问能不能借后房，今天橘子。顺序够明白了。"
+        },
+        {
+          "speaker": "luo",
+          "text": "人家没问我带话。我车上放着还招小飞虫，你先收下，再说明不借后房。"
+        },
+        {
+          "speaker": "fu",
+          "text": "收了再拒绝，人家会觉得我吞了橘子不办事。"
+        },
+        {
+          "speaker": "luo",
+          "text": "你现在不收，人家也许觉得你热水都不愿意给。"
+        },
+        {
+          "speaker": "fu",
+          "text": "所以我说麻烦。一壶水我卖他不就完了。"
+        },
+        {
+          "speaker": "player",
+          "text": "水钱当时你没收。"
+        },
+        {
+          "speaker": "fu",
+          "text": "他孩子吐了一身，我拿不出账本。现在也拿不出。烦的是这个。"
+        },
+        {
+          "speaker": "stage",
+          "text": "洛桑拣出一只裂皮橘子，掰开时汁水溅到袖口。"
+        },
+        {
+          "speaker": "luo",
+          "text": "这只快坏了，我吃。剩下的你自己跟他说，我只负责开车。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你说得轻巧。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我说了不想当中间人，也算说得不轻巧。"
+        },
+        {
+          "speaker": "fu",
+          "text": "行。篮子先放冷处。后房堆着茶，确实借不了；山口空屋的钥匙在管事处，这我知道。"
+        },
+        {
+          "speaker": "player",
+          "text": "要写回条？"
+        },
+        {
+          "speaker": "fu",
+          "text": "写感谢橘子，后房不借，别写以后有什么尽管说。我就没有这个意思。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我替你带回去？"
+        },
+        {
+          "speaker": "fu",
+          "text": "可以。车费多少？"
+        },
+        {
+          "speaker": "luo",
+          "text": "同路，不收。你要非欠我，留一只橘子。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你已经吃了一只。"
+        },
+        {
+          "speaker": "luo",
+          "text": "那我们结清了。"
+        }
+      ]
+    },
+    {
+      "id": "valley_fu_03",
+      "title": "桌子不是借出去的",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "茶棚前檐",
+      "participants": [
+        "chen",
+        "fu",
+        "player"
+      ],
+      "requires": [
+        "valley_fu_02"
+      ],
+      "sets": [
+        "valley_fu_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "两张桌子被拼在一起，摊满湿地的水样图。茶客只剩墙角的一张小桌能用。"
+        },
+        {
+          "speaker": "chen",
+          "text": "再半个钟头，我们把各处的水色记完就收。"
+        },
+        {
+          "speaker": "fu",
+          "text": "半个钟头是你上回说的。到现在已经卖不出第二轮茶了。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我以为这段时间客人少。"
+        },
+        {
+          "speaker": "fu",
+          "text": "客人少是因为你把桌子占了。那个端碗的走出去三回，你一直拿他碗底压纸。"
+        },
+        {
+          "speaker": "player",
+          "text": "我可以帮着挪到后边。"
+        },
+        {
+          "speaker": "fu",
+          "text": "后边没桌子，也不用立刻替我把事圆起来。我问的是，谁答应你们在这儿开会？"
+        },
+        {
+          "speaker": "chen",
+          "text": "我昨天问过能不能带水样来，你说成。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我以为你来两个人，坐一张桌。你现在把七只瓶子排得像要给河结婚。"
+        },
+        {
+          "speaker": "chen",
+          "text": "那是我没说明白。今天按两张桌的茶钱补，纸马上收。"
+        },
+        {
+          "speaker": "fu",
+          "text": "桌钱和茶钱分开。你们也没喝这么多茶，我不想账上写假的。"
+        },
+        {
+          "speaker": "player",
+          "text": "以后包桌写清时段？"
+        },
+        {
+          "speaker": "fu",
+          "text": "对，热水另算，湿瓶子要垫布。这事我能做，但不能每次都装作顺便。"
+        },
+        {
+          "speaker": "chen",
+          "text": "可以。还有一处水样，我们在路边看完。"
+        },
+        {
+          "speaker": "fu",
+          "text": "别在路边打碎瓶子。我还有个折叠小架，付押金借你们。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你刚才不是在生气？"
+        },
+        {
+          "speaker": "fu",
+          "text": "现在也气。不耽误我做生意。"
+        },
+        {
+          "speaker": "stage",
+          "text": "陈漪收起图纸时，碗底在一处留下圆圆的茶渍。芙蓉看了看，拿笔在包桌纸上添上擦桌两字。"
+        }
+      ]
+    },
+    {
+      "id": "valley_fu_04",
+      "title": "一整上午",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "茶棚后房",
+      "participants": [
+        "fu",
+        "player",
+        "luo"
+      ],
+      "requires": [
+        "valley_fu_03"
+      ],
+      "sets": [
+        "valley_fu_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "前门挂着休息牌，锅里只有芙蓉自己的一小碗粥。她穿厚袜子，把脚架在矮凳上。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我睡到八点四十七。醒来先想鸡蛋煮糊了，后来想起今天没煮。"
+        },
+        {
+          "speaker": "player",
+          "text": "那又睡了？"
+        },
+        {
+          "speaker": "fu",
+          "text": "没有。我不太会。躺久了还觉得有人在外面等着，耳朵尽干活。"
+        },
+        {
+          "speaker": "luo",
+          "text": "外面没客人。我七点半送来两袋炭，放在柜子里。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我听见了，你把一袋放倒，另一袋骂了一句。"
+        },
+        {
+          "speaker": "luo",
+          "text": "骂的是绑绳。不是我想把你吵醒。"
+        },
+        {
+          "speaker": "fu",
+          "text": "知道。我没开门，也没起来看。以前我肯定起来看看是不是少了。"
+        },
+        {
+          "speaker": "player",
+          "text": "休息的上午做什么？"
+        },
+        {
+          "speaker": "fu",
+          "text": "想把抽屉理完，后来又想，抽屉凭什么跟着我放假。我就看了半本旧笑话，没一则好笑。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我车上有本路书。"
+        },
+        {
+          "speaker": "fu",
+          "text": "不要。你推荐娱乐像分配劳役。"
+        },
+        {
+          "speaker": "stage",
+          "text": "洛桑放下包裹，里面露出一截松木。"
+        },
+        {
+          "speaker": "luo",
+          "text": "新门牌。休息那几个字刻大了，省得有人贴着门问今天开不开。"
+        },
+        {
+          "speaker": "fu",
+          "text": "多少钱？"
+        },
+        {
+          "speaker": "luo",
+          "text": "从合伙账出，账单在包里。这回你不用欠我。"
+        },
+        {
+          "speaker": "fu",
+          "text": "倒也不用每句话都提这个。我上次是怕……算了，木头很好。"
+        },
+        {
+          "speaker": "player",
+          "text": "挂现在这边？"
+        },
+        {
+          "speaker": "fu",
+          "text": "午后再挂。粥我多煮了一点，谁要自己拿碗。白粥，没有蛋，没有另外收费。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我记着了，先问。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你已经问过了，快吃，等凉了我又得听你说它像浆糊。"
+        }
+      ]
+    },
+    {
+      "id": "valley_fu_05",
+      "title": "菜单背面的空格",
+      "kind": "daily",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "山口茶棚",
+      "participants": [
+        "fu",
+        "player",
+        "luo"
+      ],
+      "requires": [
+        "valley_fu_04",
+        "main_12_after"
+      ],
+      "sets": [
+        "valley_fu_05"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "万家灯火宴后，茶棚墙上多了一张画着月环的小纸。芙蓉在纸背面列下下月支出。"
+        },
+        {
+          "speaker": "fu",
+          "text": "有人想让我每晚都开，山口看月环方便。听上去很美，煤油和人却都不免费。"
+        },
+        {
+          "speaker": "player",
+          "text": "你答应了吗？"
+        },
+        {
+          "speaker": "fu",
+          "text": "周末多开一个钟头，另一个下午关门。不然我这辈子只有把月环熬灭那天能睡够。"
+        },
+        {
+          "speaker": "luo",
+          "text": "那话收一收，人家听了会替月环捏把汗。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我替我自己捏。你这车冬季停运时，我还想离开山口两天。"
+        },
+        {
+          "speaker": "luo",
+          "text": "去妹妹那儿？"
+        },
+        {
+          "speaker": "fu",
+          "text": "嗯。她上次说给我留床，结果床上堆着晒被单。我替她叠了半下午，觉没睡，饭也迟。"
+        },
+        {
+          "speaker": "player",
+          "text": "这回说清楚？"
+        },
+        {
+          "speaker": "fu",
+          "text": "说了，我只来住，不承包家务。她回信笑了我半页，又把炖肉菜单写了半页。"
+        },
+        {
+          "speaker": "luo",
+          "text": "菜单给我看看，我知道该送什么货。"
+        },
+        {
+          "speaker": "fu",
+          "text": "不用你送，她自己买。你留下看仓库就行，前门关着，钥匙不等于你可以营业。"
+        },
+        {
+          "speaker": "luo",
+          "text": "我不会煮茶，放心。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你上回拿大汤锅煮，当然不会。"
+        },
+        {
+          "speaker": "stage",
+          "text": "芙蓉算完支出，在菜单背面留出两行空格，写上自己的两天。"
+        },
+        {
+          "speaker": "player",
+          "text": "这两天空着就行？"
+        },
+        {
+          "speaker": "fu",
+          "text": "对。回来了想写什么再写。我花钱换来的空白，还得立刻拿事情填上，亏不亏。"
+        },
+        {
+          "speaker": "luo",
+          "text": "回来那天我接你。下午，吃过饭以后。"
+        },
+        {
+          "speaker": "fu",
+          "text": "这次可算会挑时辰了。"
+        }
+      ]
+    },
+    {
+      "id": "valley_chen_01",
+      "title": "贴错位置的红纸",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "spring",
+      "location": "湿地旧渡口",
+      "participants": [
+        "chen",
+        "mo",
+        "player"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_chen_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "陈漪把三瓶水排成一线。最清的一瓶贴着红纸，最浑的一瓶没有标签。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这是上游的，这是芦苇滩的，这是旧渡口的。红纸表示数值偏离本月常态，并不表示有毒。"
+        },
+        {
+          "speaker": "mo",
+          "text": "岸上贴的也是红纸。上午三个买鱼的掉头走了，他们可没空猜你心里的常态。"
+        },
+        {
+          "speaker": "chen",
+          "text": "公告写了暂未发现异常污染。"
+        },
+        {
+          "speaker": "mo",
+          "text": "字在红纸底下，贴得比我的膝盖还低。大家先看见水样红标，再看见我这张摊。"
+        },
+        {
+          "speaker": "player",
+          "text": "公告是谁定的位置？"
+        },
+        {
+          "speaker": "chen",
+          "text": "我。那根柱子干，浆糊能粘住。湿地的其他木头全在冒水。"
+        },
+        {
+          "speaker": "mo",
+          "text": "挺好，浆糊舒服，我不舒服。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你今天少卖多少？"
+        },
+        {
+          "speaker": "mo",
+          "text": "不知道。我没办法把没来的人都抓来问问。不过两条鱼已经不新鲜了。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我能更换标记，把数值图放高，说明红纸的含义。"
+        },
+        {
+          "speaker": "mo",
+          "text": "图又是给谁看？你那上头一小格一小格，我还以为在卖织网样式。"
+        },
+        {
+          "speaker": "player",
+          "text": "瓶子看着浑，不一定就是坏？"
+        },
+        {
+          "speaker": "chen",
+          "text": "对。昨夜雨把泥沙冲下来了，透明不透明和能不能用，是两回事。我应该把这个写在第一行。"
+        },
+        {
+          "speaker": "mo",
+          "text": "先写鱼没有查出问题。我不能保证你河里的所有水，我卖的鱼是今天清早收的。"
+        },
+        {
+          "speaker": "chen",
+          "text": "那需要取样，不能我说没问题就没问题。"
+        },
+        {
+          "speaker": "mo",
+          "text": "那就取。我生气归生气，还不至于怕一只瓶子。"
+        },
+        {
+          "speaker": "stage",
+          "text": "墨池拎起鱼桶，发现桶把上缠着自己的补网线。他绕了半天才解开，陈漪把这段时间也记了下来。"
+        },
+        {
+          "speaker": "mo",
+          "text": "这个别写进污染调查。纯粹是我懒得换桶把。"
+        }
+      ]
+    },
+    {
+      "id": "valley_chen_02",
+      "title": "涨水以前的刻度",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "summer",
+      "location": "湿地水尺旁",
+      "participants": [
+        "chen",
+        "mo",
+        "player"
+      ],
+      "requires": [
+        "valley_chen_01"
+      ],
+      "sets": [
+        "valley_chen_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "新水尺旁有两排旧划痕。陈漪抬起袖子对齐刻度，墨池站在浅水边看了很久。"
+        },
+        {
+          "speaker": "chen",
+          "text": "连续三日，上涨不到半掌，趋势仍然平稳。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你量的是这个时辰。晚饭后它涨得最快，昨天水已经漫过那块扁石。"
+        },
+        {
+          "speaker": "chen",
+          "text": "扁石在我记录里。昨晚没有越过，可能是风把水推过去。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我在那儿收网，水没问我是不是可能。靴筒里还倒出半碗泥。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们昨天都在？"
+        },
+        {
+          "speaker": "chen",
+          "text": "我下午四点离开。夜间记录是按附近水位推算。"
+        },
+        {
+          "speaker": "mo",
+          "text": "那就写推算。你说没有越过，像我鞋里那碗泥是偷来的。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你说得对，我把两种记录混在同一栏了。但你的扁石也需要一个固定位置，石头会被冲动。"
+        },
+        {
+          "speaker": "mo",
+          "text": "石头不行，我屋门槛总行？门槛去年就碰过水，那时候你还没来。"
+        },
+        {
+          "speaker": "chen",
+          "text": "可以作为居民记录点，和仪器水尺并列，不能直接换成同一数值。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你看，又有不能。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这回不能很有用。两处地势不同，混写以后，明年有人会以为涨水没那么高。"
+        },
+        {
+          "speaker": "player",
+          "text": "夜里记录谁来做？"
+        },
+        {
+          "speaker": "chen",
+          "text": "我加两次，晚饭后一次，天亮前一次。需要计算工时，不能就这样算成我爱湿地。"
+        },
+        {
+          "speaker": "mo",
+          "text": "那你晚饭来我这边吃。热饭按价付，水位你自己记，我不替你背表格。"
+        },
+        {
+          "speaker": "chen",
+          "text": "能不放那么多盐吗？上回我喝了三杯水。"
+        },
+        {
+          "speaker": "mo",
+          "text": "那是腌鱼，本来一小块配一碗饭。你吃了半条，我还以为测水的都重口。"
+        },
+        {
+          "speaker": "stage",
+          "text": "陈漪在表上添出夜间观测栏，把原来的实测二字划掉，写成推算。"
+        }
+      ]
+    },
+    {
+      "id": "valley_chen_03",
+      "title": "有鱼的空白日",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "autumn",
+      "location": "湿地测水小屋",
+      "participants": [
+        "chen",
+        "player",
+        "mo"
+      ],
+      "requires": [
+        "valley_chen_02"
+      ],
+      "sets": [
+        "valley_chen_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "桌上摊着七个月的表格，一格用铅笔画了问号。窗外晾着陈漪昨夜弄湿的外套。"
+        },
+        {
+          "speaker": "chen",
+          "text": "九月十七，样本瓶的塞子裂了。数据不能使用，那一天得留空。"
+        },
+        {
+          "speaker": "player",
+          "text": "只有一天？"
+        },
+        {
+          "speaker": "chen",
+          "text": "只有一天。我翻了三遍，想用前后两天平均补进去。这样画出来的线会好看一点。"
+        },
+        {
+          "speaker": "mo",
+          "text": "补完以后，哪天塞子裂的还看得出？"
+        },
+        {
+          "speaker": "chen",
+          "text": "看不出。所以我还没有补。只是报告要交，我不想让人觉得我连瓶子都管不好。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你确实没管好瓶子，跟河水是什么样是两件事。十七那天我记得，鱼市吵价吵得厉害。"
+        },
+        {
+          "speaker": "player",
+          "text": "能写进旁注吗？"
+        },
+        {
+          "speaker": "chen",
+          "text": "鱼市情况可以，但不能代替测量。我会写样本损坏和当日居民观察。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我说水浅，你也写？"
+        },
+        {
+          "speaker": "chen",
+          "text": "写你在哪里看见水浅。你只说浅，我不知道是和上个月还是和昨夜比。"
+        },
+        {
+          "speaker": "mo",
+          "text": "和前一天同一根木桩比，低一个网坠。那天我补了一面蓝网，坠子上缺个角，没记错。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这比我那句水位较低更清楚。"
+        },
+        {
+          "speaker": "stage",
+          "text": "墨池翻了翻空白格旁边的纸，手指上留下一点灰色铅笔屑。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你这报告交了以后，谁会读？"
+        },
+        {
+          "speaker": "chen",
+          "text": "管水的人，修渠的人，也该给你们留一份。以前我只想着上交。"
+        },
+        {
+          "speaker": "mo",
+          "text": "留在茶棚，别再占两张桌。芙蓉一提你就把擦桌布拧得很响。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我会付包桌费，半个钟头说清哪几格不能当保证。空白这一格也算内容。"
+        },
+        {
+          "speaker": "player",
+          "text": "你今晚还翻吗？"
+        },
+        {
+          "speaker": "chen",
+          "text": "不翻了。塞子坏在第十七日，没法翻成十六日。今晚我要洗外套，明天穿它去见人。"
+        }
+      ]
+    },
+    {
+      "id": "valley_chen_04",
+      "title": "这口井不属于表格",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "winter",
+      "location": "湿地边居民井台",
+      "participants": [
+        "chen",
+        "mo",
+        "player"
+      ],
+      "requires": [
+        "valley_chen_03"
+      ],
+      "sets": [
+        "valley_chen_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "井沿覆了一圈薄霜。陈漪抱着温度计，纸上记着五户人家的取水时间。"
+        },
+        {
+          "speaker": "chen",
+          "text": "早间水温差异很大，我先前建议大家都在七点取水，能减少误差。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你倒省误差了。烧早饭的五点就来，晚班回来的八点才睡。谁替他们改日子？"
+        },
+        {
+          "speaker": "chen",
+          "text": "我不是规定。我写的是建议时段。"
+        },
+        {
+          "speaker": "mo",
+          "text": "盖章的建议，贴在井边，别人看见就怕不照办会出什么事。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在要测的是井，还是大家几点取水？"
+        },
+        {
+          "speaker": "chen",
+          "text": "井水温度和周边地温的关系。取水时间只是我控制的条件。"
+        },
+        {
+          "speaker": "mo",
+          "text": "人也是条件，但人会困。你看那边的水桶，都冻住边了，还等着你的七点。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我明白了。我自己在固定时段取样，居民正常取水，另记实际时间。"
+        },
+        {
+          "speaker": "mo",
+          "text": "会多做多少？"
+        },
+        {
+          "speaker": "chen",
+          "text": "一旬，多三十六次。可以减少站在井口的频率，改用连续读数，但要申请仪器。"
+        },
+        {
+          "speaker": "player",
+          "text": "申请会批吗？"
+        },
+        {
+          "speaker": "chen",
+          "text": "不一定。不过我的申请理由不能只写提高准确度，得写避免打乱居民取水。"
+        },
+        {
+          "speaker": "mo",
+          "text": "这句我看得懂，比优化观测环境看得懂。"
+        },
+        {
+          "speaker": "chen",
+          "text": "原来那张建议纸，我要带回去，背面还能写东西。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她揭纸时浆糊冻得很结实，一角留在井柱上。墨池用温水润湿那一角。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你看，贴得牢也不一定是好事。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这次我不记它的牢固程度了。你今天说得有点多。"
+        },
+        {
+          "speaker": "mo",
+          "text": "冻着呢，多说话省得牙打架。你要是回屋，把门口那壶水也带上，昨天放外面忘了。"
+        }
+      ]
+    },
+    {
+      "id": "valley_chen_05",
+      "title": "当日河水",
+      "kind": "daily",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "月灯食堂门廊",
+      "participants": [
+        "chen",
+        "player",
+        "mo"
+      ],
+      "requires": [
+        "valley_chen_04",
+        "main_12_after"
+      ],
+      "sets": [
+        "valley_chen_05"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "灯火宴后的小聚没有铺满桌，只有一盘煎鱼、几张水图和沾油的手指。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这张是最近的水位图。右下角写了适用日期，过一个月不能继续拿来判断。"
+        },
+        {
+          "speaker": "player",
+          "text": "你以前没写日期？"
+        },
+        {
+          "speaker": "chen",
+          "text": "写在背面，跟我名字和交表地点在一起。现在想来，日期比我名字有用。"
+        },
+        {
+          "speaker": "mo",
+          "text": "也不能不留名字。上次有人看不懂找我，我把箭头认反，你又得重新解释。"
+        },
+        {
+          "speaker": "chen",
+          "text": "所以旁边留了问询时段，每周两个下午。其他时间，我也得完成测量。"
+        },
+        {
+          "speaker": "player",
+          "text": "月环恢复后，测水会轻松些吗？"
+        },
+        {
+          "speaker": "chen",
+          "text": "夜里走路看得清，数据没有自动变齐。上周我少量了一瓶，是我拿水杯当样本杯了。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我差点喝掉。你们小屋杯子全是一个样，谁分得清。"
+        },
+        {
+          "speaker": "chen",
+          "text": "现在有把的都是饮用杯。样本不进厨房，贴纸也换了一种。"
+        },
+        {
+          "speaker": "mo",
+          "text": "这事能写进报告？"
+        },
+        {
+          "speaker": "chen",
+          "text": "内部记录能，没什么值得藏的。只是吃鱼的时候别讲杯子里的东西。"
+        },
+        {
+          "speaker": "stage",
+          "text": "墨池端走水图，下面露出食堂旧桌布上的一圈茶渍。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你看，这个也像水位线。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这是你刚才碰倒的茶，不需要推测。抹布在我手边。"
+        },
+        {
+          "speaker": "player",
+          "text": "图下周还摆这里？"
+        },
+        {
+          "speaker": "chen",
+          "text": "不摆，食堂下周有自己的事。已经借好小屋窗边的一面板子，雨天也看得到。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我给板子装了条绳，风大不会拍脸。这个费用算制作费，不能又说顺手。"
+        },
+        {
+          "speaker": "chen",
+          "text": "记在支出里了。你那一项比仪器维护写得清楚，我学了你的算法。"
+        }
+      ]
+    },
+    {
+      "id": "valley_mo_01",
+      "title": "太快的那一卷线",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "码头补网摊",
+      "participants": [
+        "mo",
+        "player",
+        "chen"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_mo_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "墨池脚边放着一卷机器织好的网，边缘整齐。他手里的旧网补得比平时慢。"
+        },
+        {
+          "speaker": "mo",
+          "text": "两顿饭的钱买这么一大卷，摆在我旁边，像专门来看我丢人的。"
+        },
+        {
+          "speaker": "player",
+          "text": "是谁买的？"
+        },
+        {
+          "speaker": "mo",
+          "text": "我。别人都买，我总得看看。花钱买来气自己，别在镇上给我宣传。"
+        },
+        {
+          "speaker": "chen",
+          "text": "网线直径和你常用的不同，能用在哪种水里？"
+        },
+        {
+          "speaker": "mo",
+          "text": "缓水。急水里这一种结容易滑，边绳也细。可大多数人不去急水，就够用了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你还能修它吗？"
+        },
+        {
+          "speaker": "mo",
+          "text": "能，但修一次的钱赶上再买半卷。人家不是不讲情分，是算得过来。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你原来的工钱怎么算？"
+        },
+        {
+          "speaker": "mo",
+          "text": "坏几处看几处。大洞贵，小洞便宜，熟人再便宜点。"
+        },
+        {
+          "speaker": "chen",
+          "text": "时间呢？你补了半个下午，未必比换一条边绳短。"
+        },
+        {
+          "speaker": "mo",
+          "text": "说小时人家嫌贵，说洞他们懂。这是我自己选的，不能怪人家。"
+        },
+        {
+          "speaker": "stage",
+          "text": "墨池把那卷新网举到光下，又用指甲掐了掐边绳。"
+        },
+        {
+          "speaker": "mo",
+          "text": "它真不差。我要说它用三天就烂，跟那些拿旧手艺唬人的没两样。"
+        },
+        {
+          "speaker": "player",
+          "text": "那你生气的是什么？"
+        },
+        {
+          "speaker": "mo",
+          "text": "我以前教徒弟，叫他先把结打直。现在直不直都不用人。我还有两袋线没还钱。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这卷能留给我做水流实验吗？照你买价付。"
+        },
+        {
+          "speaker": "mo",
+          "text": "拿去吧，但我得先截一尺，看看缝接能不能做得更稳。不是证明谁厉害，是有人真的要用。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我付整卷的钱，截下的算实验材料。"
+        },
+        {
+          "speaker": "mo",
+          "text": "别这么爽快，弄得我刚才那段牢骚像在抬价。"
+        }
+      ]
+    },
+    {
+      "id": "valley_mo_02",
+      "title": "补洞以外的工钱",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "summer",
+      "location": "湿地旧渡口",
+      "participants": [
+        "mo",
+        "chen",
+        "player"
+      ],
+      "requires": [
+        "valley_mo_01"
+      ],
+      "sets": [
+        "valley_mo_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "新网与旧网并排挂着，水把两种线染成相近的灰色。墨池在账纸上写下边绳二字。"
+        },
+        {
+          "speaker": "mo",
+          "text": "那种新网，加厚边绳以后能多用一季。可我给第一位客人报完价，他问我是不是故意说会坏。"
+        },
+        {
+          "speaker": "chen",
+          "text": "试验记录带了。普通流速和急流分开，没有把最坏的一项当成全部。"
+        },
+        {
+          "speaker": "player",
+          "text": "客人看懂了吗？"
+        },
+        {
+          "speaker": "mo",
+          "text": "他说我跟测水员合伙吓他。我差点把网扔回去，最后没扔，扔回去还得我捡。"
+        },
+        {
+          "speaker": "chen",
+          "text": "记录不是保证别人一定相信。我可以到场说明，不承诺卖多少。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我知道。今天有个人愿意试，先付一半，另一半用满十日再付。"
+        },
+        {
+          "speaker": "player",
+          "text": "这样你不怕收不到？"
+        },
+        {
+          "speaker": "mo",
+          "text": "怕。第一次先做两条，别把所有线搭进去。我以前就爱一下子把好东西全拿出来，觉得别人会记得。"
+        },
+        {
+          "speaker": "chen",
+          "text": "还需要写明什么情况重修。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我的接头松了，免费重修。石头割破另算，鱼咬的也另算，鱼不认识我。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他把两条边绳放在膝上，量了两回，第一次少算了网角的一截。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你别看这张。还没算完。"
+        },
+        {
+          "speaker": "chen",
+          "text": "没关系，我记录里也有划掉的数。"
+        },
+        {
+          "speaker": "mo",
+          "text": "有关系。你那是纸，我这少一截就得拆一整排。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天能做完？"
+        },
+        {
+          "speaker": "mo",
+          "text": "做完这条就收。晚饭煮蚕豆，泡了两天，再不煮真成实验了。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我带一只小碗，按你原来的饭价。"
+        },
+        {
+          "speaker": "mo",
+          "text": "饭价涨了。你别以为咱们合作，豆子就不用我劈柴了。"
+        }
+      ]
+    },
+    {
+      "id": "valley_mo_03",
+      "title": "不收徒的下午",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "autumn",
+      "location": "补网摊后院",
+      "participants": [
+        "mo",
+        "player",
+        "chen"
+      ],
+      "requires": [
+        "valley_mo_02"
+      ],
+      "sets": [
+        "valley_mo_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "院子里摆着三张矮凳，一张腿短，垫着折过的纸。墨池面前有一封没寄出的招徒信。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我原来想收徒。包两顿饭，不给工钱，教一年。写完自己读了读，觉得跟欠债收人没区别。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以不寄了？"
+        },
+        {
+          "speaker": "mo",
+          "text": "暂时不寄。上回一个孩子来问，说白天还要去扛货，他真不是不愿意学。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你可以把教的部分和做工的部分分开。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我自己都分不清。他帮我捻线，我一边说怎么做，算学还是算干？"
+        },
+        {
+          "speaker": "player",
+          "text": "捻出来的线最后能卖吗？"
+        },
+        {
+          "speaker": "mo",
+          "text": "能。那该付。没用的练习材料该由我出，是吧？"
+        },
+        {
+          "speaker": "chen",
+          "text": "这部分清楚。还有你的教学时间，也应当有费用来源，不可能全靠你白做。"
+        },
+        {
+          "speaker": "mo",
+          "text": "我不想教费一收，别人再说我手艺藏私。年轻时我师父也没收过。"
+        },
+        {
+          "speaker": "player",
+          "text": "你那时在他家做多少活？"
+        },
+        {
+          "speaker": "mo",
+          "text": "喂鱼，劈柴，修屋檐。冬天还替他送煤……好吧，也不是真没收。"
+        },
+        {
+          "speaker": "stage",
+          "text": "墨池把信翻过去，写下四次短课，又划掉短字。"
+        },
+        {
+          "speaker": "mo",
+          "text": "每周一下午，先四次。愿意继续的再谈，不签一年。不能保证学完能靠这个吃饭。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你这句最好当面说。"
+        },
+        {
+          "speaker": "mo",
+          "text": "会说。可别写到招牌最上头，人还没坐就走了。"
+        },
+        {
+          "speaker": "player",
+          "text": "那写什么？"
+        },
+        {
+          "speaker": "mo",
+          "text": "修网课，四次。别写传世、绝活。上回有人把我补好的网称为艺术品，接着问能不能算便宜。"
+        },
+        {
+          "speaker": "chen",
+          "text": "凳子这条腿也得修，学费不能包括摔一跤。"
+        },
+        {
+          "speaker": "mo",
+          "text": "这句倒真该写给我自己。"
+        }
+      ]
+    },
+    {
+      "id": "valley_mo_04",
+      "title": "名字留在修过的地方",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "winter",
+      "location": "补网屋",
+      "participants": [
+        "mo",
+        "player",
+        "chen"
+      ],
+      "requires": [
+        "valley_mo_03"
+      ],
+      "sets": [
+        "valley_mo_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "屋里烘着两条湿网。墨池把一小块布标签缝在网角，标签上不是花纹，是日期和两个字。"
+        },
+        {
+          "speaker": "mo",
+          "text": "以前补完就拿走，后来坏了，谁也不知道哪一块是我补的。现在有名字，骂也骂得准。"
+        },
+        {
+          "speaker": "player",
+          "text": "你不怕更容易被找回来？"
+        },
+        {
+          "speaker": "mo",
+          "text": "那是我的活，该找。上月有两条接头都松了，线打蜡过厚，手一热觉得牢，冷下来就滑。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你把那一批全查了？"
+        },
+        {
+          "speaker": "mo",
+          "text": "查了十一条，四条重做，三条没找到人，先留着钱。查的时候别人还以为我要追旧账。"
+        },
+        {
+          "speaker": "player",
+          "text": "损失大吗？"
+        },
+        {
+          "speaker": "mo",
+          "text": "够我过冬买一件新棉衣。我去旧衣摊挑了件，袖口短一点，也能穿。"
+        },
+        {
+          "speaker": "chen",
+          "text": "可以调整收费，把正常返修成本算进去。"
+        },
+        {
+          "speaker": "mo",
+          "text": "明年算，今年的错不能靠今天的客人全替我出。我没那么大方，也没那么赖。"
+        },
+        {
+          "speaker": "stage",
+          "text": "陈漪看了看标签，把名字下面一行潦草的小字辨认了两次。"
+        },
+        {
+          "speaker": "chen",
+          "text": "这是清洗方法？"
+        },
+        {
+          "speaker": "mo",
+          "text": "不是，是用了哪一批线。你别学我的字，写出来连我自己也得猜。"
+        },
+        {
+          "speaker": "player",
+          "text": "那四次课呢？"
+        },
+        {
+          "speaker": "mo",
+          "text": "结束了，留下两个人周末来做有工钱的小活。一个手快，一个爱问，问得我夜里还在想。"
+        },
+        {
+          "speaker": "chen",
+          "text": "问什么？"
+        },
+        {
+          "speaker": "mo",
+          "text": "为什么只教这一种结。我说这个够用，他说够用跟最好不一样。嘿，我年轻时也这么烦。"
+        },
+        {
+          "speaker": "player",
+          "text": "你怎么答？"
+        },
+        {
+          "speaker": "mo",
+          "text": "没答好。我把别的结拿出来一起试，第二天发现我的也不是每回最好。"
+        }
+      ]
+    },
+    {
+      "id": "valley_mo_05",
+      "title": "没有网的一顿饭",
+      "kind": "daily",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "mo",
+        "player",
+        "chen"
+      ],
+      "requires": [
+        "valley_mo_04",
+        "main_12_after"
+      ],
+      "sets": [
+        "valley_mo_05"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "墨池坐下时习惯性摸了摸腰间，那里没有线包。他笑了一下，又摸了一次。"
+        },
+        {
+          "speaker": "mo",
+          "text": "今天不带。上回吃到一半有人拿网来，我补着补着，饭上结了一层皮。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天他们知道？"
+        },
+        {
+          "speaker": "mo",
+          "text": "摊上挂了牌，休息半天。这不是芙蓉教我的，最多算看她没饿死，我也试试。"
+        },
+        {
+          "speaker": "chen",
+          "text": "你那牌的字写反了一横。"
+        },
+        {
+          "speaker": "mo",
+          "text": "休息的意思没反就行。你那张水图终于没有把我摊位盖住。"
+        },
+        {
+          "speaker": "chen",
+          "text": "换到小屋了。你装的挂绳很好，昨日风大，也没把图吹到泥里。"
+        },
+        {
+          "speaker": "mo",
+          "text": "那你这顿是请我？"
+        },
+        {
+          "speaker": "chen",
+          "text": "不，挂绳已经付过钱。今天轮到你选菜，我们各付各的。"
+        },
+        {
+          "speaker": "mo",
+          "text": "你这话学得挺快。要一盘炖萝卜，鱼我吃够了，别见我是补网的就替我点鱼。"
+        },
+        {
+          "speaker": "stage",
+          "text": "食堂窗外亮着月环的光，桌面上仍有一小处暗影，墨池把碗挪了过去。"
+        },
+        {
+          "speaker": "player",
+          "text": "那里看不清？"
+        },
+        {
+          "speaker": "mo",
+          "text": "不看，吃饭又不用数萝卜。我这几个月一天数那么多结，嘴巴还要接着干活？"
+        },
+        {
+          "speaker": "chen",
+          "text": "你刚才已经数了四块。"
+        },
+        {
+          "speaker": "mo",
+          "text": "第五块是你的，我数的其实是这个。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们现在不吵水样了？"
+        },
+        {
+          "speaker": "mo",
+          "text": "下星期再吵。她要在旧网仓旁放个新水尺，我觉得挡路。饭桌上先不定。"
+        },
+        {
+          "speaker": "chen",
+          "text": "我也没有答应改位置。今天只吃饭。"
+        }
+      ]
+    },
+    {
+      "id": "valley_jiang_01",
+      "title": "不能写的三个字",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "山口药草摊",
+      "participants": [
+        "jiang",
+        "player",
+        "hu"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_jiang_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "姜禾把一张印着包见效的旧纸揉成团，塞进空药草筐。纸团弹出来，被她一脚踩住。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "这是印坊自作主张。说别家都这么写，我写得不够响亮，人家不知道我卖什么。"
+        },
+        {
+          "speaker": "player",
+          "text": "你原来写什么？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "晒干的叶子，适合泡洗，不能代替诊治。字多，还不能让人高兴。"
+        },
+        {
+          "speaker": "hu",
+          "text": "你那舒腿包，去年我用过，热水泡完舒服些。这个总能写吧？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "能写使用后的感受，不能写治好了腿。你去年还歇了五天，谁知道主要是哪样管用。"
+        },
+        {
+          "speaker": "hu",
+          "text": "我没歇五天，三天半。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "好，三天半。连半天都记着，说明你平常真不肯歇。"
+        },
+        {
+          "speaker": "player",
+          "text": "改纸会多花钱？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "多一半。他已经印了二十张，我不给钱就说我临时变卦。可样稿上根本没这三个字。"
+        },
+        {
+          "speaker": "hu",
+          "text": "我帮你去说。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "不用。我能说，证据也带着。你去了一站，人家先怕你，再懒得听我。"
+        },
+        {
+          "speaker": "stage",
+          "text": "姜禾从袖口抽出折得很小的样稿，边缘沾着药草的绿色碎屑。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "麻烦的是旧纸已经给出两张。我得找到那两个人，讲清楚，他们也许觉得我不想负责任。"
+        },
+        {
+          "speaker": "player",
+          "text": "为什么不换一种好听的说法？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "因为没有。睡不好、走路疼，都够烦了，还叫人多花冤枉钱，我晚上会做梦骂自己。"
+        },
+        {
+          "speaker": "hu",
+          "text": "你做梦也说这么长？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "通常更凶。今天这篓便宜草卖完，我还得给车夫补运费，没精神装神医。"
+        },
+        {
+          "speaker": "player",
+          "text": "先吃点东西吧，饼都冷了。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "冷饼能吃。纸不能这么发出去。你看，我还是能分轻重的，就是看着不太体面。"
+        }
+      ]
+    },
+    {
+      "id": "valley_jiang_02",
+      "title": "诚实涨价",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "山口茶棚旁",
+      "participants": [
+        "jiang",
+        "fu",
+        "player"
+      ],
+      "requires": [
+        "valley_jiang_01"
+      ],
+      "sets": [
+        "valley_jiang_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "摊上新添了价签，姜禾坐得很直，像在等谁来与她吵架。日头已经晒蔫两片遮阴叶。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "小包涨两枚，大包涨五枚。有人骂我趁热赚钱，我说天热，草也不会自己跑进袋子。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你可以别把跟人吵架的话当成招呼。上午第三个客人一句没说，你先报了半天罪状。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "我怕他以为我偷偷涨了。"
+        },
+        {
+          "speaker": "player",
+          "text": "价签已经写着了。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "我知道，看着字还心虚。路费涨了，袋子涨了，连我住的那间屋都涨。我本人倒没有变大。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那也得吃饭。你别把所有合理的价都说得像要给人赔礼。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "有个老人只买半包，我多塞了些，回来一算，这张价签白改。"
+        },
+        {
+          "speaker": "player",
+          "text": "不能另留一点帮忙的份额吗？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "想过。每月留十包，送完就没有，不能看见谁难受都从货里掏。我也得有下个月。"
+        },
+        {
+          "speaker": "fu",
+          "text": "送出去那十包记实数，不许写成杂损。我看你账，所谓杂损都吃药了。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你看得太细了。我自己写得好看一点，也不行？"
+        },
+        {
+          "speaker": "fu",
+          "text": "给你自己看的账，骗完还得自己收拾。"
+        },
+        {
+          "speaker": "stage",
+          "text": "姜禾把价签放低一点，遮住袋口一片褐色的虫蛀叶，又立刻把叶子挑了出来。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "这片不能卖，留着做辨认样本。说着涨价，质量倒更不能糊弄。"
+        },
+        {
+          "speaker": "player",
+          "text": "你今天卖了多少？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "八包。比昨天少两包，钱反而多一点。中午总算能买碗带肉的面，不拿茶棚的酱菜当主食。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我听见了。那碟酱菜本来也不是免费添三次的。"
+        }
+      ]
+    },
+    {
+      "id": "valley_jiang_03",
+      "title": "一张退货单",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "山口临时摊位",
+      "participants": [
+        "jiang",
+        "hu",
+        "player"
+      ],
+      "requires": [
+        "valley_jiang_02"
+      ],
+      "sets": [
+        "valley_jiang_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "姜禾把退回来的药草包摆到桌上，绳结没有拆开。胡岑提着一篮山梨站在旁边。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "他说连用七天，腿还是疼，要退。我答应退未拆的，拆开的要看原因。不是为了那几枚钱，账得有说法。"
+        },
+        {
+          "speaker": "hu",
+          "text": "我作证，那包装上的确写了不能保证止痛。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你别替我作证，你没在场。我明天自己去，免得传成我带着巡山员压他。"
+        },
+        {
+          "speaker": "player",
+          "text": "他是在别处听了夸大的话？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "有个人用我的袋子装别的粉，说是秘方。客人以为跟我一家的。我一看里面颜色就不对。"
+        },
+        {
+          "speaker": "hu",
+          "text": "袋子上有你摊子的叶子图。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "所以我得查袋子从哪来的，不能只说不是我。我给过人空袋装干豆子，他转手又给了谁，不清楚。"
+        },
+        {
+          "speaker": "player",
+          "text": "以后不送空袋了？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "还送，但店名那一面剪掉。费一点事，比每次辩白强。现成的药包也加批次，别全靠我闻。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她拆开一包留样，闻过以后打了一个响亮的喷嚏。"
+        },
+        {
+          "speaker": "hu",
+          "text": "这下证据都飞了。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "没有，我避开了。你那梨是谢礼还是要我替你检查脚踝？"
+        },
+        {
+          "speaker": "hu",
+          "text": "梨。脚踝没什么。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你站着已经换了四回脚。疼多久了？"
+        },
+        {
+          "speaker": "hu",
+          "text": "三日，不肿，就是下坡会酸。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "我不能在这里替你判断。今天你说实话倒比去年快，我先把这个记在心里。"
+        },
+        {
+          "speaker": "player",
+          "text": "梨要放哪？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "后边，别挨药草。我待会儿切着吃，明天退货也得有力气。今天不送舒腿包，我不想让他以为我们又拿梨换药。"
+        }
+      ]
+    },
+    {
+      "id": "valley_jiang_04",
+      "title": "冬天的空车位",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "山口货车停场",
+      "participants": [
+        "jiang",
+        "luo",
+        "player",
+        "hu"
+      ],
+      "requires": [
+        "valley_jiang_03"
+      ],
+      "sets": [
+        "valley_jiang_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "姜禾给药草箱扣上最后一条带子，车上还空着一大块地方。她把账本夹在棉衣里。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "以前我非把车塞满，觉得空一寸都亏。冬天卖得慢，有些草放到春天就只剩味道，钱其实亏在那儿。"
+        },
+        {
+          "speaker": "luo",
+          "text": "这次按实际占的地方收，不替空气收。下个月那一趟不一定开，你的货够吗？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "够正常卖，不够每个人都忽然想买。我不能为了可能来的客人，把自己囤在屋里。"
+        },
+        {
+          "speaker": "player",
+          "text": "今年会留镇过冬？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "留半个月，再去南边。家里有老人，我回去一起腌点菜，亲戚少不了问这摊赚多少。"
+        },
+        {
+          "speaker": "luo",
+          "text": "你怎么说？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "照实说，有赚，没发财，也没白做。他们要说我心软，我就把退款和赠送那两栏给他们看。"
+        },
+        {
+          "speaker": "player",
+          "text": "那十包都送完了？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "九包。最后一包还在，不能因为年底就随便找人送掉，像赶账。"
+        },
+        {
+          "speaker": "stage",
+          "text": "胡岑走过来，递出一个包得歪歪扭扭的小纸袋。"
+        },
+        {
+          "speaker": "hu",
+          "text": "这是路上捡的树种，不是药。我知道你喜欢看这些，松果让我说清。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "他终于不拿石头冒充稀有药材了？"
+        },
+        {
+          "speaker": "hu",
+          "text": "他没冒充。他问石头能不能换一匹布，我说我做不了这种买卖。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你这话说得够硬。他姐姐最近回来，我给他们留的旧布，别说是施舍，是包箱子的余料。"
+        },
+        {
+          "speaker": "player",
+          "text": "你又想说得好看一点？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "被你抓住了。好吧，是礼物。他可以不要，想要就拿，别让我继续编箱子的故事。"
+        },
+        {
+          "speaker": "luo",
+          "text": "还有十分钟开车。你那饼上车再吃，碎屑归你打扫。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "今天是热饼，有葱。我已经不靠冷饼证明自己诚实了。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hu_01",
+      "title": "短了一截的巡路",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "spring",
+      "location": "山间巡山屋",
+      "participants": [
+        "hu",
+        "player",
+        "song"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_hu_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "胡岑在巡路表上画了一条新线，旧路绕过整片松林。他的拐杖靠在门后，被外套挡住。"
+        },
+        {
+          "speaker": "hu",
+          "text": "这条近，雨后走一趟够了。旧线一直绕很远，没必要每次都到。"
+        },
+        {
+          "speaker": "player",
+          "text": "旧线经过的护栏呢？"
+        },
+        {
+          "speaker": "hu",
+          "text": "上个月看过，结实。那个坡没人走。"
+        },
+        {
+          "speaker": "song",
+          "text": "我姐姐走。她回家不愿从大路绕，东西多，近道她早就知道。"
+        },
+        {
+          "speaker": "hu",
+          "text": "小孩子别把什么都往地图上说。"
+        },
+        {
+          "speaker": "song",
+          "text": "我说的是大人，姐姐二十六了。你上回说她走得比你快。"
+        },
+        {
+          "speaker": "stage",
+          "text": "胡岑将袖口拉下，露在外面的手背上有一片没褪的淤青。"
+        },
+        {
+          "speaker": "player",
+          "text": "新线少了多少距离？"
+        },
+        {
+          "speaker": "hu",
+          "text": "两里半。脚下好的两里半，不是难走的。"
+        },
+        {
+          "speaker": "song",
+          "text": "那你为什么要少？"
+        },
+        {
+          "speaker": "hu",
+          "text": "我每个转弯都得回答你为什么？"
+        },
+        {
+          "speaker": "player",
+          "text": "表上需要写改线原因。"
+        },
+        {
+          "speaker": "hu",
+          "text": "腿不舒服。没有别的原因。我怕他们看见，就把我整个换掉。换了路，我能继续做。"
+        },
+        {
+          "speaker": "song",
+          "text": "换一半也行。我帮你拿午饭，不算巡山。"
+        },
+        {
+          "speaker": "hu",
+          "text": "你还是得上课，别把自己塞进来。午饭我能拿。"
+        },
+        {
+          "speaker": "player",
+          "text": "护栏那段可以单独安排检查，不用你每次都绕完。"
+        },
+        {
+          "speaker": "hu",
+          "text": "分两段就得有人交接，我先把哪些地方必须到写清，不能光画一条直线。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他拿回表，重新标出护栏的位置。门后的外套滑下来一点，拐杖没再被藏住。"
+        },
+        {
+          "speaker": "song",
+          "text": "你午饭是白饭配咸菜？我闻见了。"
+        },
+        {
+          "speaker": "hu",
+          "text": "还有一个蛋。你鼻子别只往咸菜上使劲。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hu_02",
+      "title": "谁在最后一班",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "summer",
+      "location": "巡山屋廊下",
+      "participants": [
+        "player",
+        "hu",
+        "jiang"
+      ],
+      "requires": [
+        "valley_hu_01"
+      ],
+      "sets": [
+        "valley_hu_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "轮班纸挂在廊下，被风掀起一角。胡岑把自己的名字又填进最后一行。"
+        },
+        {
+          "speaker": "player",
+          "text": "你已经有两班了。"
+        },
+        {
+          "speaker": "hu",
+          "text": "最后那趟短。别人第一次做，不知道夜里哪块石头滑，我陪一陪。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你填的是单独值班，不是陪。字不会因为你解释就变。"
+        },
+        {
+          "speaker": "hu",
+          "text": "总得有人补。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "原来空出来的是休息时间，不是漏洞。你前天脚痛，今天把药草包退给我，说没用，那你到底用过没有？"
+        },
+        {
+          "speaker": "hu",
+          "text": "没用。不一定要用。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "那当然，但我问的不是这个。我不能看你走路一瘸一拐，还替你向别人说没事。"
+        },
+        {
+          "speaker": "player",
+          "text": "最后一班能白天先走熟吗？"
+        },
+        {
+          "speaker": "hu",
+          "text": "能，两个转弯、一道小沟，我有图。只是图没写那块石头下边空，踩上去听着不一样。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "那就写声音，不必每次把腿借出去当注释。"
+        },
+        {
+          "speaker": "stage",
+          "text": "胡岑看着轮班纸，抹了一下笔迹，墨还没干，手指黑了一块。"
+        },
+        {
+          "speaker": "hu",
+          "text": "我最怕他们走错，然后说，早知道还不如叫老胡。"
+        },
+        {
+          "speaker": "player",
+          "text": "你也有走错的时候。"
+        },
+        {
+          "speaker": "hu",
+          "text": "有。去年带路绕到废棚，半天才认出来。那天我一路骂别人把树砍了，其实树还在。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你终于肯讲这个了。"
+        },
+        {
+          "speaker": "hu",
+          "text": "别拿去当笑话。我会写进路线说明，辨认错的那处最该记。"
+        },
+        {
+          "speaker": "player",
+          "text": "你的最后一班呢？"
+        },
+        {
+          "speaker": "hu",
+          "text": "划掉。换成周二白天带路，两个人来。我只带一趟，不跟着走三个月。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "这话给他们听，也给你自己听。你中午吃什么？"
+        },
+        {
+          "speaker": "hu",
+          "text": "面。多放菜，少放盐。这回不是拿咸菜敷衍你。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hu_03",
+      "title": "一只空饭盒",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "autumn",
+      "location": "山道休息棚",
+      "participants": [
+        "hu",
+        "player",
+        "song"
+      ],
+      "requires": [
+        "valley_hu_02"
+      ],
+      "sets": [
+        "valley_hu_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "休息棚修好了半边屋顶，地上摆着新木料。胡岑的饭盒空着，旁边有一个完整的梨。"
+        },
+        {
+          "speaker": "hu",
+          "text": "饭被我弄翻了。不是野兽，我放在斜板上，自己转身碰的。你别把棚顶修完，连我的饭也修成传奇。"
+        },
+        {
+          "speaker": "player",
+          "text": "我只问你吃过没有。"
+        },
+        {
+          "speaker": "hu",
+          "text": "没有。有个梨，等会儿吃。"
+        },
+        {
+          "speaker": "song",
+          "text": "等会儿还是那个梨。你上午这么说，下午也这么说，梨比你的巡路还长。"
+        },
+        {
+          "speaker": "hu",
+          "text": "你怎么没回去？"
+        },
+        {
+          "speaker": "song",
+          "text": "木料到了，我跟车来。姐姐说我只能待到太阳离开那根柱子，已经快到了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果把两块蒸糕放在干净纸上，留了一块给自己。"
+        },
+        {
+          "speaker": "song",
+          "text": "这块是你的。我没有全给你，姐姐说不能把肚子空着装大方。"
+        },
+        {
+          "speaker": "hu",
+          "text": "她说得对。坐这一边，这边修过。"
+        },
+        {
+          "speaker": "player",
+          "text": "剩下半个屋顶什么时候修？"
+        },
+        {
+          "speaker": "hu",
+          "text": "下周。钱只够买这么多板，剩下的等账结清。不能图省事拿旧烂板凑。"
+        },
+        {
+          "speaker": "song",
+          "text": "有人说你现在总说不能，以前什么都说行。"
+        },
+        {
+          "speaker": "hu",
+          "text": "以前有些行，是回来再痛两天。你别学这个。"
+        },
+        {
+          "speaker": "player",
+          "text": "你觉得他们会失望？"
+        },
+        {
+          "speaker": "hu",
+          "text": "会，有些人以为我拿同一份工钱却少跑了。我把工时贴出来了，带路、检查和维护分开，他们能看。"
+        },
+        {
+          "speaker": "song",
+          "text": "那你今天吃饭也记？"
+        },
+        {
+          "speaker": "hu",
+          "text": "休息记，不细写吃了什么。免得有人照着来，说原来胡岑两块糕就能干到晚上。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他先吃了蒸糕，又把梨切成三块。一块最大，松果看了看，自己换了最小的一块。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hu_04",
+      "title": "轮到别人认出脚印",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "winter",
+      "location": "巡山屋",
+      "participants": [
+        "hu",
+        "player",
+        "jiang",
+        "song"
+      ],
+      "requires": [
+        "valley_hu_03"
+      ],
+      "sets": [
+        "valley_hu_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "屋里烧着小炉，门口有两对新脚印。胡岑把当天的巡路簿翻到一处带问号的记录。"
+        },
+        {
+          "speaker": "hu",
+          "text": "他说看见大兽脚印。我看过，是车辙边落下的两团雪。以前我会直接写他认错了。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在呢？"
+        },
+        {
+          "speaker": "hu",
+          "text": "让他画了形状，再记地点。下回有真脚印，才知道差在哪里。光写错，他又得猜我脑子。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你以前也爱让人猜，半条路线靠一句那儿你知道的。"
+        },
+        {
+          "speaker": "hu",
+          "text": "你总有旧账。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "因为你现在肯坐着听，我终于有机会收。腿怎么样？"
+        },
+        {
+          "speaker": "hu",
+          "text": "好些，冷天仍然僵。该少走的路就少走，医师说观察，我没打算跟他赌。"
+        },
+        {
+          "speaker": "player",
+          "text": "春天还带新班吗？"
+        },
+        {
+          "speaker": "hu",
+          "text": "带一个上午，之后他们轮着写记录。不是每张都经我改，写得难看也得让他们负责。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果从门外探头，手里抱着一卷包得鼓鼓的布。"
+        },
+        {
+          "speaker": "song",
+          "text": "姐姐的礼物做好了。你别夸好看，她说你连泥窝都能夸结实。"
+        },
+        {
+          "speaker": "hu",
+          "text": "我先看。针脚疏的地方是你缝的？"
+        },
+        {
+          "speaker": "song",
+          "text": "都是我缝的，疏的比较明显。"
+        },
+        {
+          "speaker": "hu",
+          "text": "能装东西就行，重的别放。想听好话还是实话？"
+        },
+        {
+          "speaker": "song",
+          "text": "先实话，后面要是还有好话再讲。"
+        },
+        {
+          "speaker": "hu",
+          "text": "这带子短了，她穿厚衣服勒肩。好话是你没拿我最好的巡路绳剪了，我发现了。"
+        },
+        {
+          "speaker": "song",
+          "text": "我问过你，你说别动。所以我换了旧腰带。"
+        },
+        {
+          "speaker": "stage",
+          "text": "胡岑把一段备用带放在桌上，旁边压着这季的交接簿。他没有连礼物也拿过去代缝。"
+        }
+      ]
+    },
+    {
+      "id": "valley_song_01",
+      "title": "石头的价钱",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "spring",
+      "location": "山间住屋前",
+      "participants": [
+        "song",
+        "player",
+        "hu"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_song_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "松果把石头排在木箱上，一半擦了水，一半没擦。他见薇尔莉娅走近，立刻把最小的一块攥起来。"
+        },
+        {
+          "speaker": "song",
+          "text": "你想买哪块？大的五枚，像鱼的八枚，小的不卖。"
+        },
+        {
+          "speaker": "player",
+          "text": "那块真的像鱼吗？"
+        },
+        {
+          "speaker": "song",
+          "text": "从这边看。你再偏一点，就不是鱼了。石头本来就不负责每面都像。"
+        },
+        {
+          "speaker": "player",
+          "text": "为什么忽然卖？"
+        },
+        {
+          "speaker": "song",
+          "text": "姐姐下个月回来，我想给她买礼物。她给我带过两次新鞋，我总不能每次送一块路边的石头。"
+        },
+        {
+          "speaker": "hu",
+          "text": "你上次送的她放在窗台上，没扔。"
+        },
+        {
+          "speaker": "song",
+          "text": "窗台上什么都有，死掉的花盆也在那里。放着不等于喜欢。"
+        },
+        {
+          "speaker": "player",
+          "text": "她想要什么？"
+        },
+        {
+          "speaker": "song",
+          "text": "她说不用买。大人说这句，有时候真不用，有时候买了又很高兴。我正在分是哪一种。"
+        },
+        {
+          "speaker": "stage",
+          "text": "胡岑拿起那块像鱼的石头，对着光看了半天，最后又转了个方向。"
+        },
+        {
+          "speaker": "hu",
+          "text": "我只能看出像半个馒头。"
+        },
+        {
+          "speaker": "song",
+          "text": "那你不适合买。我要卖给懂的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你攥着的小块呢？"
+        },
+        {
+          "speaker": "song",
+          "text": "以前她帮我洗的，缝里还有一点白色。这个不算货，是证据。"
+        },
+        {
+          "speaker": "hu",
+          "text": "证明她洗过石头？"
+        },
+        {
+          "speaker": "song",
+          "text": "证明我原来真的觉得石头就很好。现在不一样了，她出去上班，同事肯定送的都漂亮。"
+        },
+        {
+          "speaker": "player",
+          "text": "你见过同事的礼物？"
+        },
+        {
+          "speaker": "song",
+          "text": "没见。她写信说有人送一条围巾，蓝的。我只有灰的石头，蘸水也是灰。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果松开手，掌心留着石头压出的小印。他把不卖的那块放进衣袋，仍没把木箱收起来。"
+        }
+      ]
+    },
+    {
+      "id": "valley_song_02",
+      "title": "不算药的草",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "summer",
+      "location": "姜禾药草摊",
+      "participants": [
+        "song",
+        "jiang",
+        "player"
+      ],
+      "requires": [
+        "valley_song_01"
+      ],
+      "sets": [
+        "valley_song_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "松果背来一小捆草，底下夹着两块石头。姜禾没有称重，先把绑绳解开。"
+        },
+        {
+          "speaker": "song",
+          "text": "我查了书，这种能卖。我不说它治病，只卖草，总行吧？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "书上的叶背有细毛，你这个没有。长得像，不是同一种。也不能随便拿去煮。"
+        },
+        {
+          "speaker": "song",
+          "text": "我没煮。我姐姐会笑我，草都认不清还学买卖。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "认不清就来问，这不是丢人。你要是捡到什么都说是药，那才难办。"
+        },
+        {
+          "speaker": "player",
+          "text": "你还在攒礼物钱？"
+        },
+        {
+          "speaker": "song",
+          "text": "攒了十一枚。买不了围巾，买针线都差一点。我原来八枚卖的鱼石头，有人只肯给两枚。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你答应了？"
+        },
+        {
+          "speaker": "song",
+          "text": "没有。我后来想，给三枚也能卖，可他已经走了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "姜禾递给他一只空纸袋，将一片安全的辨认样本贴在袋外。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "今天这捆不收。你愿意的话，替我折十只空纸袋，按每只一枚付，半个钟头做不完也只做十只。"
+        },
+        {
+          "speaker": "song",
+          "text": "是因为你可怜我吗？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "因为袋子会用完。我不给你折两百只，你还得回家吃午饭，不能把我这儿当全年生意。"
+        },
+        {
+          "speaker": "player",
+          "text": "他的袋子角会不会歪？"
+        },
+        {
+          "speaker": "jiang",
+          "text": "歪一点能装，漏草不行。先做一只我看看，坏的练习纸不扣钱。"
+        },
+        {
+          "speaker": "song",
+          "text": "那我姐姐的礼物是靠折袋子赚的，不是卖药。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "对，也不用编成翻山找到奇草。她要问你累不累，半个钟头是多少就说多少。"
+        },
+        {
+          "speaker": "song",
+          "text": "我想说累了一上午，听上去值。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "那她下次还你一上午的担心，你自己算亏不亏。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果第一只袋子底粘反了，他没藏，把它留在桌边当参照。"
+        }
+      ]
+    },
+    {
+      "id": "valley_song_03",
+      "title": "姐姐没等到的礼物",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "autumn",
+      "location": "山口茶棚长凳",
+      "participants": [
+        "song",
+        "fu",
+        "player"
+      ],
+      "requires": [
+        "valley_song_02"
+      ],
+      "sets": [
+        "valley_song_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "松果抱着一块深蓝布，布角包着纸袋赚来的铜币。他姐姐坐过的长凳上只剩一圈杯印。"
+        },
+        {
+          "speaker": "song",
+          "text": "她走了。我做的袋子还没好，她说再晚一点车不等人。我以为礼物得她拆开才算。"
+        },
+        {
+          "speaker": "fu",
+          "text": "她留了地址。你那包东西不重，寄过去也行。"
+        },
+        {
+          "speaker": "song",
+          "text": "寄过去她就不知道我脸上是什么样了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你可以写封信。"
+        },
+        {
+          "speaker": "song",
+          "text": "我信写得不好，总像作业。第一句姐姐你好，她当然知道她是姐姐，为什么还要写。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那就不写。第一句写袋子还没缝完，免得她打开找了半天，以为少东西。"
+        },
+        {
+          "speaker": "song",
+          "text": "你们大人说话怎么都这么实在，我还想写点厉害的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你想让她知道什么？"
+        },
+        {
+          "speaker": "song",
+          "text": "我不是一直等她买东西回来。我也能做一点。还有，她以前那个布袋破了，带子勒得肩膀红。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果把蓝布摊开，线头横七竖八，里面已经缝上一个小石头袋。"
+        },
+        {
+          "speaker": "fu",
+          "text": "这边不用口袋，太重。她拿去上班，不是替你背展览。"
+        },
+        {
+          "speaker": "song",
+          "text": "石头就一块。小时候那块，她忘记带走的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你问过她是不是想带？"
+        },
+        {
+          "speaker": "song",
+          "text": "没有。我怕问了她说不用，我的礼物就没那么好了。"
+        },
+        {
+          "speaker": "fu",
+          "text": "那留个活动的袋子，能取下。喜欢就留，不喜欢就放家里，你别替她把喜欢缝死。"
+        },
+        {
+          "speaker": "song",
+          "text": "这句可不像你平时说的。"
+        },
+        {
+          "speaker": "fu",
+          "text": "平时你没让我看过这么乱的针脚。我一困就容易多说。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果把石头袋拆下一半，嘴里轻轻念起信的第一句，念了三次，没有再用姐姐你好开头。"
+        }
+      ]
+    },
+    {
+      "id": "valley_song_04",
+      "title": "回信里的瓜子壳",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "winter",
+      "location": "山间住屋",
+      "participants": [
+        "song",
+        "player",
+        "jiang"
+      ],
+      "requires": [
+        "valley_song_03"
+      ],
+      "sets": [
+        "valley_song_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "回信折得厚厚的，里面夹着一小包烤瓜子。松果把袋子在衣服上蹭干净才打开。"
+        },
+        {
+          "speaker": "song",
+          "text": "她说带子短了，要加一段。还说石头在抽屉里，上班不背，不然坐下来一磕可响。"
+        },
+        {
+          "speaker": "player",
+          "text": "你失望了？"
+        },
+        {
+          "speaker": "song",
+          "text": "一点点。我原来想她每天都背着，别人问，她就说我弟弟做的。她说已经这么说过了，哪怕没每天背。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "那很好，她没为了让你高兴，硬说什么都合适。"
+        },
+        {
+          "speaker": "song",
+          "text": "她还挑出四处漏针，画了图。你看，这个箭头跟她以前改我作业一模一样。"
+        },
+        {
+          "speaker": "player",
+          "text": "你打算拆了重做？"
+        },
+        {
+          "speaker": "song",
+          "text": "不全拆，那个好看的角我舍不得。她说先把能用的地方用起来，回家再一起补。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你这次不用跑山里找稀有石头了？"
+        },
+        {
+          "speaker": "song",
+          "text": "还是找，但不卖药，也不每块都标八枚。上回像鱼的那块，胡岑一直说馒头，我现在看也有点像。"
+        },
+        {
+          "speaker": "stage",
+          "text": "姜禾抓了两颗瓜子，被松果认真数了一遍。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "你怕我吃完？"
+        },
+        {
+          "speaker": "song",
+          "text": "一共就这么多。姐姐说是她上班那条街的，我得吃慢点。你可以再拿两颗，别一把抓。"
+        },
+        {
+          "speaker": "player",
+          "text": "这一包算回礼吗？"
+        },
+        {
+          "speaker": "song",
+          "text": "算她给我的吃的，不要什么都算互相扯平。我问过她礼物多少钱，她说布袋的事别变成账。"
+        },
+        {
+          "speaker": "jiang",
+          "text": "这话你倒记得清。"
+        },
+        {
+          "speaker": "song",
+          "text": "因为她下一句是，买布的欠款照样得还。我借了她三枚，她没有忘。"
+        },
+        {
+          "speaker": "stage",
+          "text": "松果把三枚铜币放进下封信的信封，想了想，又取出来，改在纸上记了以后还的日期。"
+        }
+      ]
+    },
+    {
+      "id": "valley_niao_01",
+      "title": "少了十一只的那一页",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "spring",
+      "location": "湿地观鸟棚",
+      "participants": [
+        "niao",
+        "player",
+        "luye"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_niao_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "鸟笛将记录簿压在膝上，嘴里数到一半又停住。棚外的浅滩只有一群不起眼的灰鸟。"
+        },
+        {
+          "speaker": "niao",
+          "text": "今年比去年少十一只。先别写减少，清晨雾没散，有一片滩我没看清。"
+        },
+        {
+          "speaker": "player",
+          "text": "去年那天看清了？"
+        },
+        {
+          "speaker": "niao",
+          "text": "看清了大半。我现在翻，发现去年写的是全天总数，没有标哪次观察。"
+        },
+        {
+          "speaker": "luye",
+          "text": "你让我在地图上圈的栖息地，就根据这张表？"
+        },
+        {
+          "speaker": "niao",
+          "text": "圈的是常见范围，不是每一只都在那里。你画得太整齐，鸟没学过我们的界线。"
+        },
+        {
+          "speaker": "luye",
+          "text": "那张图是你确认过的。"
+        },
+        {
+          "speaker": "niao",
+          "text": "我确认了位置，没仔细看你用实线还是虚线。这个我有责任。"
+        },
+        {
+          "speaker": "player",
+          "text": "今年能补记吗？"
+        },
+        {
+          "speaker": "niao",
+          "text": "能继续观察，不能把没看见的补成十一。也不能让人拿一页没分时段的数，去证明迁徙路完全不变。"
+        },
+        {
+          "speaker": "stage",
+          "text": "一只灰鸟从芦苇后跑出来，鸟笛抬起铅笔，又停了一瞬。"
+        },
+        {
+          "speaker": "niao",
+          "text": "这只可能数过，先记不确定。以前我会凭感觉归进去，觉得自己眼熟，眼熟也可能认错。"
+        },
+        {
+          "speaker": "luye",
+          "text": "图上得留说明，不能全是我看了才知道的例外。"
+        },
+        {
+          "speaker": "niao",
+          "text": "可以。我还想把棚旁边那条路标上，去年修路的声响大，鸟也许换到另一边。"
+        },
+        {
+          "speaker": "player",
+          "text": "你会把这本给其他人看？"
+        },
+        {
+          "speaker": "niao",
+          "text": "会，不过先说明涂改不是伪造。有些空格是我当年去给母亲买药，没来，不是那天没有鸟。"
+        },
+        {
+          "speaker": "luye",
+          "text": "那种空格我也有。地图上空着不代表没人住。"
+        },
+        {
+          "speaker": "niao",
+          "text": "先别让我们两个错误互相安慰了。那只灰鸟又出来，我这回还是认不出来是不是同一只。"
+        }
+      ]
+    },
+    {
+      "id": "valley_niao_02",
+      "title": "借来的名字",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "summer",
+      "location": "湿地记录小屋",
+      "participants": [
+        "niao",
+        "player",
+        "luye"
+      ],
+      "requires": [
+        "valley_niao_01"
+      ],
+      "sets": [
+        "valley_niao_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "鸟笛面前放着一本外地鸟册，夹页上画了两种近似的翅斑。鹿野端着一杯已经温凉的水。"
+        },
+        {
+          "speaker": "niao",
+          "text": "我把这两种混写了三年。个头像，叫声也像，可尾下的颜色不同。"
+        },
+        {
+          "speaker": "player",
+          "text": "确定吗？"
+        },
+        {
+          "speaker": "niao",
+          "text": "确定这次照片里是另一种。不确定旧记录有多少认错，不能全部改名字装作一直知道。"
+        },
+        {
+          "speaker": "luye",
+          "text": "印好的图册还有十七本，重新印很贵。"
+        },
+        {
+          "speaker": "niao",
+          "text": "加订正页，说明可能混记的年份。若有人要退，我把自己的报酬拿出来承担一部分。"
+        },
+        {
+          "speaker": "player",
+          "text": "你得承担全部吗？"
+        },
+        {
+          "speaker": "niao",
+          "text": "不一定。我还没跟印册的人谈，只是先想最坏，免得到时候只剩我嘴硬。"
+        },
+        {
+          "speaker": "stage",
+          "text": "鹿野拿起夹页，发现背面是鸟笛写到一半的家信。"
+        },
+        {
+          "speaker": "luye",
+          "text": "你把信也当草稿了。"
+        },
+        {
+          "speaker": "niao",
+          "text": "寄不出去。母亲总问今天见到多少鸟，我写出十几只就像在报平安。今天不想凑一个数。"
+        },
+        {
+          "speaker": "player",
+          "text": "写认错了两种鸟？"
+        },
+        {
+          "speaker": "niao",
+          "text": "她会问我是不是不适合做这个。我怕的不是她骂，是她认真给我找另一份活。"
+        },
+        {
+          "speaker": "luye",
+          "text": "也可能只是问你吃没吃晚饭。我以前寄测绘图回家，父亲用它包了一条冻鱼，说纸挺结实。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你还留着？"
+        },
+        {
+          "speaker": "luye",
+          "text": "没，鱼吃了，图腥了。倒不代表他不在意。"
+        },
+        {
+          "speaker": "niao",
+          "text": "我今晚寄信，说我在做订正，会花些时间，也说午饭吃的是豌豆饭。她至少能看懂后一段。"
+        },
+        {
+          "speaker": "player",
+          "text": "图册什么时候改？"
+        },
+        {
+          "speaker": "niao",
+          "text": "两天内把订正页写完，先找另一个记录人核对。不能靠我刚刚承认过错，就认为新版本自动可信。"
+        }
+      ]
+    },
+    {
+      "id": "valley_niao_03",
+      "title": "观鸟也要付地租",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "autumn",
+      "location": "收割后的浅田",
+      "participants": [
+        "niao",
+        "luye",
+        "player"
+      ],
+      "requires": [
+        "valley_niao_02"
+      ],
+      "sets": [
+        "valley_niao_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "田边插着新的木桩，鸟笛背来的观察板没有展开。鹿野蹲在沟边擦鞋上的泥。"
+        },
+        {
+          "speaker": "niao",
+          "text": "田主不肯我们再进，说三回都踩坏了田埂。我原来以为收割完了，影响不大。"
+        },
+        {
+          "speaker": "luye",
+          "text": "田埂秋天得补。我们只画种了什么，没画他什么时候还要干活。"
+        },
+        {
+          "speaker": "player",
+          "text": "旧棚在哪一块地？"
+        },
+        {
+          "speaker": "niao",
+          "text": "也是他的。以前他父亲口头答应，十几年过去了，我没重新问，就把愿意借当成一直愿意借。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在怎么谈？"
+        },
+        {
+          "speaker": "niao",
+          "text": "租一个小角，只在固定几日来，田忙时不进。观察看不到就少记一点，不能因为我要完整，把别人的路踩坏。"
+        },
+        {
+          "speaker": "luye",
+          "text": "绕渠边能到那棵柳树，视野小，至少不经过田埂。"
+        },
+        {
+          "speaker": "niao",
+          "text": "那边看不清东面的群落。我的秋季报告又得缺一块。"
+        },
+        {
+          "speaker": "stage",
+          "text": "一群鸟从田边飞起，鸟笛本能地举起观察镜，很快又放低。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你看，我明明在谈这个，鸟一出来，脚就想过去。"
+        },
+        {
+          "speaker": "player",
+          "text": "这次留在渠边。"
+        },
+        {
+          "speaker": "niao",
+          "text": "嗯。田主给我看过被踩塌的口，补那一段不是一脚泥那么简单，要搬土、压实，还误了他送菜。"
+        },
+        {
+          "speaker": "luye",
+          "text": "我想在图例里把借用通道和公路分开，不然别人照图走，也会以为哪里都能进。"
+        },
+        {
+          "speaker": "niao",
+          "text": "写上访问限制，不要标观鸟最佳点那种招人来的字。喜欢的人多了，不一定是田主的好事。"
+        },
+        {
+          "speaker": "player",
+          "text": "新租金你付得起？"
+        },
+        {
+          "speaker": "niao",
+          "text": "单靠记录费不够，准备做两次收费分享，但不保证看见多少鸟。保证讲清我们知道和不知道什么，座位只有八个。"
+        }
+      ]
+    },
+    {
+      "id": "valley_niao_04",
+      "title": "鸟没有按册过冬",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "winter",
+      "location": "湿地观鸟棚",
+      "participants": [
+        "niao",
+        "player",
+        "luye"
+      ],
+      "requires": [
+        "valley_niao_03"
+      ],
+      "sets": [
+        "valley_niao_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "新棚只有三面墙，风从背后穿过。鸟笛把热水壶放在脚边，记录本上多了一栏观察条件。"
+        },
+        {
+          "speaker": "niao",
+          "text": "第一场收费分享，来六个人，看见四只鸟。有人说不如去看鸡，我说鸡确实稳定，至少不会全部飞走。"
+        },
+        {
+          "speaker": "player",
+          "text": "他生气了吗？"
+        },
+        {
+          "speaker": "niao",
+          "text": "笑了，后来还是问能不能退一半。我退了，不是承认我骗人，是我招募写得让他误会了。"
+        },
+        {
+          "speaker": "luye",
+          "text": "你现在怎么写？"
+        },
+        {
+          "speaker": "niao",
+          "text": "记录工作介绍，含现场观察，不保证鸟种和数量。读起来像一张冷冰冰的票，可总比来了才失望好。"
+        },
+        {
+          "speaker": "player",
+          "text": "有愿意再来的人吗？"
+        },
+        {
+          "speaker": "niao",
+          "text": "有两个，问能不能看原始记录。我拿了被雨浇过那本，有一页糊得连我也认不出，他们反而问了更多。"
+        },
+        {
+          "speaker": "stage",
+          "text": "鹿野翻到新图的一角，那一处没有画鸟，只画了一条绕田的线。"
+        },
+        {
+          "speaker": "luye",
+          "text": "通道确认过了，冬天积水时暂时不用。田主说春天要再谈，不是永久授权。"
+        },
+        {
+          "speaker": "niao",
+          "text": "我记下。你地图的改动要不要署日期？"
+        },
+        {
+          "speaker": "luye",
+          "text": "已经署了。原来我老觉得地图有一个最终版，画完就轻松，现在知道只会有最近一版。"
+        },
+        {
+          "speaker": "player",
+          "text": "你那少十一只的一页呢？"
+        },
+        {
+          "speaker": "niao",
+          "text": "还在那里，没有改成零，也没追出一个神奇答案。这季比以往多记了观察时长，明年才能好好比较。"
+        },
+        {
+          "speaker": "stage",
+          "text": "风将一片枯叶吹进棚里，鸟笛抓了个空，叶子落到热水壶盖上。"
+        },
+        {
+          "speaker": "niao",
+          "text": "今天眼睛还是没那么快。你们喝水吗？不是湿地样本，我特意换了个带花的壶。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xia_01",
+      "title": "画里的人看不见脸",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "山口临时画摊",
+      "participants": [
+        "xia",
+        "player",
+        "qiu"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_xia_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "夏满的画铺了一地，山和屋顶占了大半。所有人物都背着身，或被帽沿遮住眼睛。"
+        },
+        {
+          "speaker": "xia",
+          "text": "这张二十，那张三十，带框另算。别挑有人的那张，脸还没画完。"
+        },
+        {
+          "speaker": "player",
+          "text": "他们都是背影，怎么知道没画完？"
+        },
+        {
+          "speaker": "xia",
+          "text": "正因为都是背影。那不是深意，是我画正脸不太行。你要买风景，我倒是很有信心。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你昨天可没这么说。昨天你说人物留白，给观者想象。"
+        },
+        {
+          "speaker": "xia",
+          "text": "有时候摊主得多一张嘴，画师少一张。今天你站在这儿，我不敢再说。"
+        },
+        {
+          "speaker": "player",
+          "text": "为什么不练？"
+        },
+        {
+          "speaker": "xia",
+          "text": "练了，摊位底下那一卷。拿出来影响春季销量，我还要付房租。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你可以找人坐一会儿。我以前拍衣样，半个钟头多少钱，先讲清。我不是免费参考资料。"
+        },
+        {
+          "speaker": "xia",
+          "text": "我预算只能付一刻钟，你的袖子倒要画很久。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "那先画头，衣服另谈。别把人的时间算成衣服附赠的。"
+        },
+        {
+          "speaker": "stage",
+          "text": "夏满从画夹下抽出一张人像，画中人的下巴比真人尖了一截。"
+        },
+        {
+          "speaker": "xia",
+          "text": "这张不是想把你画瘦。第一笔歪了，后面每一笔都在替它撒谎。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "挺像我赶着上班那张脸。只是我的耳朵没有搬家。"
+        },
+        {
+          "speaker": "player",
+          "text": "这张也能留着？"
+        },
+        {
+          "speaker": "xia",
+          "text": "留着，下张旁边对比。你别安慰我，说有独特风格，我见过拿这个词骗了自己十年的。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "一刻钟，明天下午。开始前给钱，结束后我有别的事，不能因为你最后一笔没好就坐到天黑。"
+        },
+        {
+          "speaker": "xia",
+          "text": "明白。我会先把铅笔削好，不能让你坐着看我找刀。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xia_02",
+      "title": "不画成故事的人",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "月灯食堂窗边",
+      "participants": [
+        "xia",
+        "qiu",
+        "player"
+      ],
+      "requires": [
+        "valley_xia_01"
+      ],
+      "sets": [
+        "valley_xia_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "桌上是秋水的第二张肖像和两盘凉面。夏满拿筷子的手指上还沾着蓝色颜料。"
+        },
+        {
+          "speaker": "xia",
+          "text": "有人想买这张，说看着像离乡的人终于回来了。我说她昨天还在抱怨这里没有合适的裁衣灯。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你连我抱怨都卖给他了？"
+        },
+        {
+          "speaker": "xia",
+          "text": "没卖。我只说她不是你想的故事，他就不买了。好像脸画得像，心情也必须一起打包。"
+        },
+        {
+          "speaker": "player",
+          "text": "你需要这笔钱？"
+        },
+        {
+          "speaker": "xia",
+          "text": "需要。这个月纸涨价，我多吃了四顿豆子。但不能把你画得眼里有泪，卖的时候说我懂你。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "眼里有泪也可能是厨房切葱。下回想画，你先问。"
+        },
+        {
+          "speaker": "xia",
+          "text": "我知道。还有个人说我一年走一个地方，肯定是心里有个回不去的家。"
+        },
+        {
+          "speaker": "player",
+          "text": "你怎么说？"
+        },
+        {
+          "speaker": "xia",
+          "text": "我说我家在南边，入冬就回，房租由我哥收，半点没客气。他听完很失望，仿佛我不苦，他白看画了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "秋水将一张新的衣样说明推到他面前，纸角压着油瓶。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "这批工作画衣服的人体比例，按张付，不能当艺术署你的名字，也不能拿我的照片另售。"
+        },
+        {
+          "speaker": "xia",
+          "text": "我能先试一张吗？收费可以少，但不要让我白试十张。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "一张，试稿也付钱。合格才谈后面的，我不能因为跟你熟就帮你向雇主保证。"
+        },
+        {
+          "speaker": "player",
+          "text": "那风景还画吗？"
+        },
+        {
+          "speaker": "xia",
+          "text": "画，今天就去画后山。画不好人也不能连会画的都停了。只是后山这回会有一张真正坐着吃面的人。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "先把我下巴改正。还有面要坨了，你现在再找蓝颜料，我就把第二盘也吃了。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xia_03",
+      "title": "雨里没卖掉的山",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "山口画摊",
+      "participants": [
+        "xia",
+        "player",
+        "qiu"
+      ],
+      "requires": [
+        "valley_xia_02"
+      ],
+      "sets": [
+        "valley_xia_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "连续的雨将摊布打得发沉。夏满把画夹竖在箱上，没卖掉的秋山比春天还多。"
+        },
+        {
+          "speaker": "xia",
+          "text": "今年这批画卖不动。大家忙着收东西，没谁需要把另一座山挂回家。我的观察慢了半季。"
+        },
+        {
+          "speaker": "player",
+          "text": "可以便宜些？"
+        },
+        {
+          "speaker": "xia",
+          "text": "能，但不能全按纸价出。我画了十天，下个月住的屋又不会因为秋景卖不掉免租。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你要不要画茶棚的新菜单？不需要把一只鸡蛋画出命运，有人看得懂就行。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你说话越来越像芙蓉了。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "因为菜单是她托我带来的，连那句鸡蛋都差不多是她的意思。我没答应价，你们自己谈。"
+        },
+        {
+          "speaker": "player",
+          "text": "衣样那边怎么样？"
+        },
+        {
+          "speaker": "xia",
+          "text": "收了六张，退两张。肩线我理解错了，画得像衣服挂在晾衣竿上。退回原因写得很细，倒让我知道怎么修。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你上一批手画得比脸好。我说过你不是只会山。"
+        },
+        {
+          "speaker": "xia",
+          "text": "可别立刻叫我人物画家，我还付不起那份自信。菜单稿按件收，改两次，第三次另算。"
+        },
+        {
+          "speaker": "stage",
+          "text": "秋水在一幅雨景前停下来，画里有人用一只大盆接漏水。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "这是谁？"
+        },
+        {
+          "speaker": "xia",
+          "text": "我房东。那天我想画雨，她想让我把窗关好。现在想想，画的是她比我实在。"
+        },
+        {
+          "speaker": "player",
+          "text": "她同意出售？"
+        },
+        {
+          "speaker": "xia",
+          "text": "问过，说不能把屋子画得像倒了。框边那点水迹是今天真漏的，不是效果，便宜一成。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "这张我买，做衣样的那笔钱到了。不是安慰你，盆画得很像，我想寄给外地同事笑一笑。"
+        },
+        {
+          "speaker": "xia",
+          "text": "寄之前让我把这里晾干。你收到的可别只剩一只盆。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xia_04",
+      "title": "留下一张没完成的椅子",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "旅居画师租屋",
+      "participants": [
+        "xia",
+        "player",
+        "qiu"
+      ],
+      "requires": [
+        "valley_xia_03"
+      ],
+      "sets": [
+        "valley_xia_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "夏满的行李已捆好，屋里只剩一张借来的椅子和一幅没完成的人像。秋水把借衣拿回布袋。"
+        },
+        {
+          "speaker": "xia",
+          "text": "我月底回南边，春天是否还来得看活。不能答应镇子比答应自己房租还快。"
+        },
+        {
+          "speaker": "player",
+          "text": "这张为什么没完成？"
+        },
+        {
+          "speaker": "xia",
+          "text": "画到一半，她赶最后一班车走了。我不能从别人的脸上借个结尾补进去，等下回来再问她。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你现在倒不乱找背影遮了。"
+        },
+        {
+          "speaker": "xia",
+          "text": "还找，有些构图就是背影。但我会写清没画正脸，不卖什么离别之深。"
+        },
+        {
+          "speaker": "player",
+          "text": "在这里最满意哪张？"
+        },
+        {
+          "speaker": "xia",
+          "text": "那张菜单。鸡蛋画得像鸡蛋，芙蓉说客人没再问是不是小土豆，我拿到全款，这就很满意。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "可你包行李时先包的是第一张肖像。"
+        },
+        {
+          "speaker": "xia",
+          "text": "它画得坏，我不想留给房东当柴烧。她真干得出来，还会问这纸是不是上了不能烧的涂料。"
+        },
+        {
+          "speaker": "stage",
+          "text": "夏满拿起椅子试了试，一条腿吱了一声，他在纸上记下返还前修理。"
+        },
+        {
+          "speaker": "player",
+          "text": "你会想念这里？"
+        },
+        {
+          "speaker": "xia",
+          "text": "会，早上那碗面，画摊旁边的树荫。也会想起洗澡水太冷、雨天纸起霉，不能只挑好听的讲。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "信给我寄一张山就行，别寄眼里有泪的故乡。"
+        },
+        {
+          "speaker": "xia",
+          "text": "我给你寄车站，那里人脸最多，够我忙一路。你在背面写最近穿什么衣服，我缺新样子。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "工作图另算钱。"
+        },
+        {
+          "speaker": "xia",
+          "text": "知道。我这回是朋友问信，不是隔着半座山继续讨免费参考。"
+        }
+      ]
+    },
+    {
+      "id": "valley_qiu_01",
+      "title": "不合身的旧袖口",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "秋水旧家",
+      "participants": [
+        "qiu",
+        "player",
+        "xia"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_qiu_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "秋水翻出以前穿的外套，手臂伸进去，袖口卡在小臂上。她先笑了一声，随后把衣服放平。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "家里说留着，回来还能穿。结果人长了，旧衣也不会跟着懂事。"
+        },
+        {
+          "speaker": "player",
+          "text": "你离开时多大？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "十八，觉得外头谁都不会问我吃几碗饭。后来住合租屋，连我洗多久澡都有人算钱。"
+        },
+        {
+          "speaker": "xia",
+          "text": "听起来一点也不浪漫。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你要浪漫去画窗。外面有难处，也有好老师，认真给我改过站姿，按时付钱，没把新人当免费衣架。"
+        },
+        {
+          "speaker": "player",
+          "text": "这次回来多久？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "先住两季，工作照接。我母亲听见住两季，就跟邻居说我以后不走了。还没过门槛，未来先被她安排完。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你说了吗？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "说了，她说不都是一家人。我说一家人也不能替我签新生活的合同，饭桌立刻安静得只剩嚼笋声。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她把旧袖口翻开，里面藏着一枚掉色的胸针。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "这东西我一直以为丢在外地。出门那天我怪她收拾得乱，她说没见，我当时没信。"
+        },
+        {
+          "speaker": "player",
+          "text": "要跟她说找到了？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "要，不能光记得她管得多，自己误会了还装不知道。可道歉不是我同意留下，她别混在一起。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你这段话我可画不出来。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "也不必。我回来不是供你们画成带着伤口的美人，我带回来两箱工作衣，还有一箱没交完的稿。"
+        },
+        {
+          "speaker": "player",
+          "text": "这件外套呢？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "改成短背心，袖子拆下当布样。别给我说旧东西不能动，它现在勒得我胳膊发麻。"
+        }
+      ]
+    },
+    {
+      "id": "valley_qiu_02",
+      "title": "家乡的低价",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "月灯食堂侧间",
+      "participants": [
+        "qiu",
+        "player",
+        "xia"
+      ],
+      "requires": [
+        "valley_qiu_01"
+      ],
+      "sets": [
+        "valley_qiu_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "秋水将一张报价单从茶杯底下抽出来，纸上的数字被水晕开了一小半。夏满安静地等她开口。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "她说都是乡亲，帮着拍几张衣样，哪用外面那个价。可她要换十二套，还要我自己熨好。"
+        },
+        {
+          "speaker": "player",
+          "text": "你接了？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "没有。我可以给一次熟人折扣，不能折到连洗衣费都没有。她说我回来以后讲究变多，我听了就想吵。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你已经把声音压得很低了。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "是，因为食堂有别人。真要吵也不是隔桌把人家饭里全洒进去。外面也有人压价，不是只有这里坏。"
+        },
+        {
+          "speaker": "player",
+          "text": "她接受你的折扣吗？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "改成四套，自己熨，我做两小时。这个能接。她还问拍完能不能随便用在别处，我说用途要写。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你给我那张说明就是这么来的？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "以前被人拿照片印过不相关的货，我才知道不能只说不许乱用。乱不乱，大家脑子里不是一把尺。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她把报价单翻面，列下场地、时长、服装数量和使用范围。"
+        },
+        {
+          "speaker": "player",
+          "text": "家里知道这些吗？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "母亲说我把好好的熟人关系弄成纸。我问她赊豆腐记不记，她说当然记。我说身体和时间也得记。"
+        },
+        {
+          "speaker": "xia",
+          "text": "她怎么答？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "给我夹了一筷子菜，没答。她不习惯，但今天她替我跟来客说，我下午有工作，不能陪他们逛。"
+        },
+        {
+          "speaker": "player",
+          "text": "算一点改变？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "算，不过别替她写成顿悟。她转头又把我小时候的糗事讲了，我气到吃了两碗饭。"
+        }
+      ]
+    },
+    {
+      "id": "valley_qiu_03",
+      "title": "回来也会错过",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "山口车站",
+      "participants": [
+        "qiu",
+        "player",
+        "xia"
+      ],
+      "requires": [
+        "valley_qiu_02"
+      ],
+      "sets": [
+        "valley_qiu_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "车站下过雨，秋水的箱子垫在一块干木板上。她手里拿着两封日期不同的邀请。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "外地有三天工作，镇上那场聚餐同一天。我已经答应工作，不能因为大家说你难得回来，就把别人晾着。"
+        },
+        {
+          "speaker": "player",
+          "text": "这边的人不高兴？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "有一个亲戚说，我心从来没回来。我差点问他心回来了能替我交租吗。后来没说，太冲。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你不说也能看出来在想这句。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "因为他一边说，一边问我能不能给他女儿找工作。外面既然那么不好，怎么又想去。"
+        },
+        {
+          "speaker": "player",
+          "text": "你帮吗？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "给公开的招工信息，提醒她看工钱和时长，不替她担保，也不说那条路只有我能走。她跟我当年想的未必一样。"
+        },
+        {
+          "speaker": "stage",
+          "text": "夏满递来一个纸筒，里面是画好的衣样，外层用了没卖掉的风景稿。"
+        },
+        {
+          "speaker": "xia",
+          "text": "这批交完我就够冬季车钱。你帮我带去，按包裹费算，不能又替朋友白跑。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "可以。你写了接收人和日期？"
+        },
+        {
+          "speaker": "xia",
+          "text": "都写了，纸筒里没有离乡的眼泪，只有两处需要确认的肩线。"
+        },
+        {
+          "speaker": "player",
+          "text": "你会提早回来赶聚餐？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "不赶。工作结束回来，多住一天看老同事。这两处我都想过日子，不想一直坐车证明我重视谁。"
+        },
+        {
+          "speaker": "xia",
+          "text": "那边现在冷了吗？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "晚间冷，我带了厚衣。在镇上我也有东西没带齐，比如一双不磨脚的雨鞋。回来以后谁也不是自动就会生活。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她合上箱扣，把聚餐邀请收在外袋，准备回信说明哪一天能再约。"
+        }
+      ]
+    },
+    {
+      "id": "valley_qiu_04",
+      "title": "两地都不是退路",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "秋水旧家",
+      "participants": [
+        "qiu",
+        "player",
+        "xia"
+      ],
+      "requires": [
+        "valley_qiu_03"
+      ],
+      "sets": [
+        "valley_qiu_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "改好的背心挂在门后，秋水把工作日历铺在饭桌上。桌另一头是家里留给她的热汤。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "明年春天有两个月在外面，这里也有两批衣样。我不是来回逃，是两边都有活，也都有想见的人。"
+        },
+        {
+          "speaker": "player",
+          "text": "家里同意了吗？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "他们不满意，但知道具体哪天走，哪天可能回来。以前我只会说别管我，谁也没法商量买几斤米。"
+        },
+        {
+          "speaker": "xia",
+          "text": "你最近把日历做得像货运表。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你昨天还问能不能蹭我的包裹位置。想讲艺术之前，先把纸筒直径报来。"
+        },
+        {
+          "speaker": "stage",
+          "text": "夏满抬手比了一下，秋水将软尺递给他，笑着摇头。"
+        },
+        {
+          "speaker": "player",
+          "text": "今年回来最意外的是什么？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "母亲学会把我那套工作衣单独晾。她没有说多好听的话，只是不再用大夹子夹在肩上，省我熨两遍。"
+        },
+        {
+          "speaker": "xia",
+          "text": "不好的呢？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "街上有人还叫我小时候的外号，说我出去装正经了。我纠正了两回，第三回不陪笑。关系差一点也就差一点。"
+        },
+        {
+          "speaker": "player",
+          "text": "你对家乡的要求变高了？"
+        },
+        {
+          "speaker": "qiu",
+          "text": "对自己也高了。不能一边嫌别人记着以前，一边把他们永远当成旧样子。可有些旧样子确实讨厌，我不会强迫自己喜欢。"
+        },
+        {
+          "speaker": "xia",
+          "text": "这句太长，等我回信再慢慢想。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "不用想，先喝汤，你那碗快凝油了。今天不是给你开人物研讨会。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她从背心口袋取出那枚旧胸针，别在衣领上。针扣有点松，她拿来小钳子修，并没有立刻穿着它出门。"
+        }
+      ]
+    },
+    {
+      "id": "valley_zhao_01",
+      "title": "多出来的零",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "码头货票间",
+      "participants": [
+        "zhao",
+        "player",
+        "wenchao"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_zhao_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "赵汐把一张货票压在肘下，另三张叠得很齐。闻潮端来的饭盒放了好一会儿，还没打开。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "总数一千二百，不可能错。少的那一百是上一批退回，不在今天，我刚才解释过。"
+        },
+        {
+          "speaker": "player",
+          "text": "这张小票写的是一千一百？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "因为装箱时还缺一箱，后来补了。补单……补单在某个夹层里，反正我见过。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "你先吃，算了一个上午，眼睛都红了。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我说先别管饭。你每回一来就叫我吃，好像我饿得连零都不会认。"
+        },
+        {
+          "speaker": "stage",
+          "text": "闻潮把饭盒往旁边挪，手碰倒了票夹，一张折票掉在桌下。"
+        },
+        {
+          "speaker": "player",
+          "text": "这个是补单吗？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "不是，是上月的。我把日期抄成了今天……等一下，这一百真不该加。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "那就改。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "你说得轻。船上的人都在等，我刚才还让别人再查一遍。"
+        },
+        {
+          "speaker": "player",
+          "text": "你也能告诉他们正在更正。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我会。可我得先想好是哪项错，不能发一句我算错了，大家跟着乱。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "你需要我做什么？不是吃饭，这句我收回。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "把桌上的旧票放进左边盒子，不按你看着顺眼的顺序，我还找得到。然后给我五分钟。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "好。饭是萝卜炖肉，没放你讨厌的那种甜酱。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "对不起，刚才冲你了。不是因为甜酱。今天我不想回去还讲一晚上票。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她将错误总数划掉，旁边写下原因和更正时刻。饭盒打开时，里面的汤已经不烫，但还没有凉透。"
+        }
+      ]
+    },
+    {
+      "id": "valley_zhao_02",
+      "title": "复核不等于代做",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "码头货票间",
+      "participants": [
+        "zhao",
+        "player",
+        "wenchao"
+      ],
+      "requires": [
+        "valley_zhao_01"
+      ],
+      "sets": [
+        "valley_zhao_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "赵汐的桌上多了一块分隔板，未核与已核分在两边。薇尔莉娅拿来的清单被她放在中间。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "农场这一批我先核重量，再核箱数。上次那张更正单挂了三天，现在谁见我都问零还在不在。"
+        },
+        {
+          "speaker": "player",
+          "text": "他们是在开玩笑？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "有些是，有些真的不放心。我不能只挑好听的听。可他们一问，我就想把整叠票全证明给他看。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "今天晚上有空吗？我那边想谈回镇的班次。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我以为你已经决定了。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "没有。你上封信写我随便，我不太确定随便是不是不许打扰你的意思。"
+        },
+        {
+          "speaker": "player",
+          "text": "这批可以明天拿，不急。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "不用替我们躲。闻潮，我今天下班以后能谈，但不在这里，我一坐这张椅子脑里就只有货。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "那饭后，你不洗碗，我也不开炉子，坐二十分钟。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "你先说你想回来，还是因为我一个人忙？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "都占一点。船上那套班次我累了，也想每天见你。不是回来救你的账。"
+        },
+        {
+          "speaker": "stage",
+          "text": "赵汐看向分隔板，伸手把清单从中间拿到未核的一侧。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "那工作你自己找，家里事我们分。不能你做完了又说你擅长，我一直欠着。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "好。我也不想每次吵架，都拿我做的饭出来当证据。"
+        },
+        {
+          "speaker": "player",
+          "text": "这张清单还要别人复核？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "要。不是你复核我的人，是复核这些数。我现在得逼自己把这两件事分开。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "晚饭你想吃什么？这次是问口味，不是问要不要人照顾。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "酸一点的面。二十分钟谈完，不谈到面干。"
+        }
+      ]
+    },
+    {
+      "id": "valley_zhao_03",
+      "title": "谁写在家用那一栏",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "赵汐与闻潮家",
+      "participants": [
+        "zhao",
+        "wenchao",
+        "player"
+      ],
+      "requires": [
+        "valley_zhao_02"
+      ],
+      "sets": [
+        "valley_zhao_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "家用本摊在窗台，闻潮买菜的小票卷得像葱叶。赵汐把其中一张展平，发现两笔糖钱。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "白糖一袋，黄糖一袋。你说都是做菜，我上周已经买了白糖。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "那袋在上层，我没看见。黄糖是试新点心，不算家用，挪到我工作材料。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们分这么细？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "不分，他试十个菜说都是我尝，我就得替他的菜单付钱。分太细也累，这本已经重抄两回。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "因为你连我随手买的葱都想追到哪顿饭。我不是不记，找不到的小票也不能从锅里捞。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我怕最后一算又是少钱。以前我父母一问开销，就有人开始吵谁多吃了一口。"
+        },
+        {
+          "speaker": "stage",
+          "text": "闻潮将两张糖票放到自己的材料本里，留下葱票没动。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我们可以定一个不用逐项追的小额，超过再记。这不是偷懒，是省一点晚上。"
+        },
+        {
+          "speaker": "player",
+          "text": "多少合适？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "先试十日，每人同样数额。我也有没说的，我买了两本旧故事书，怕你觉得不实用，写成纸张。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我有那么讨厌吗？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "你没有，是我先替你说了。书在床头，你翻过没问，我又以为你在等我认账。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我只是不想把油手印按上去。下回我借一本，别算租金。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天账还算吗？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "算到这里。葱归共同吃饭，糖归工作，书是我的。剩下一小格空着，不是一定有人欠谁。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她在空格上写了暂不追溯，闻潮看了看，补上试行十日。两个字写歪了，赵汐没有替他重写。"
+        }
+      ]
+    },
+    {
+      "id": "valley_zhao_04",
+      "title": "下班的货票员",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "码头货票间",
+      "participants": [
+        "zhao",
+        "player",
+        "wenchao"
+      ],
+      "requires": [
+        "valley_zhao_03"
+      ],
+      "sets": [
+        "valley_zhao_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "窗外结着薄冰，赵汐收好印章，将最后一张票留在未核盒里。门边有人带来了新的货单。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "今天接到这里，这张明早处理。急件有值班安排，不是放在我手里就都变急。"
+        },
+        {
+          "speaker": "player",
+          "text": "你以前会留着做？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "会，做完又觉得没人知道我多坐了一个钟头。第二天看见别人迟来，我就生气，自己都不好意思承认。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我今天提前下班，来等你。不是催，你可以按点走。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我知道。你先拿这个暖手的，我炉子熄了，手有点僵。"
+        },
+        {
+          "speaker": "stage",
+          "text": "闻潮接过空汤瓶，捂了捂，发现里面已经没有热气，笑着又还给她。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "这东西是让我们互相有点希望，不负责真暖，是吧？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "忘了。这上午的，你别传出去说我虐待船厨。"
+        },
+        {
+          "speaker": "player",
+          "text": "复核制度现在顺吗？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "少了几次错，也慢了一点。有位常客嫌麻烦，想让我私下先盖章，我没答应。他到现在不跟我闲聊。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "你在意？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "在意，但不改。我得承认不是每件做对的事都有人立刻夸。今天这句像岑月会说的，我就说一次。"
+        },
+        {
+          "speaker": "player",
+          "text": "晚上做什么？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "他值两天厨房班，我负责菜和碗。我们试了小额自由花费，我买第三本书，他买了一把奇怪的小勺。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "那是挖果肉用的，不奇怪。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "好，功能明确的小勺。我们今晚用它挖萝卜吗？"
+        },
+        {
+          "speaker": "stage",
+          "text": "她锁上货票间，把未核盒的位置交代给值班人，出了门以后没有再把钥匙拿出来。"
+        }
+      ]
+    },
+    {
+      "id": "valley_wenchao_01",
+      "title": "回家不是一顿大餐",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "船厨休息舱",
+      "participants": [
+        "wenchao",
+        "player"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_wenchao_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "闻潮的床下塞着一袋干豆，枕边是给赵汐的信。锅里只剩船上晚饭留下的一点汤。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "她说随便回来。我在海上听过许多随便，有时是欢迎，有时是你再猜。"
+        },
+        {
+          "speaker": "player",
+          "text": "你有问清楚吗？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "信写了半张，开头就说我回来给你做好的。后来觉得像船终于靠岸，只为换一座灶。"
+        },
+        {
+          "speaker": "player",
+          "text": "你不想做饭了？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "想，我靠这个吃饭。可结婚以后每回回镇，都急着买菜、炖肉、把冰箱塞满，坐下反而没话了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他舀起一勺剩汤，尝过以后把盐罐推远了一点。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "海上味道重，带回去她喝得猛灌水。我还一直说她最近吃淡了，好像锅没责任。"
+        },
+        {
+          "speaker": "player",
+          "text": "回来打算做什么工作？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "先找能固定下班的厨房，不求当天就有。船上的交接要两旬，不能一拍胸脯就走，把后面的人扔给一舱豆子。"
+        },
+        {
+          "speaker": "player",
+          "text": "赵汐会担心收入吗？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "会。我也担心，存的钱够两个月，不够让我装潇洒。信里得把这个写出来，不写成你只要等我。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他在那句给你做好的下面划了一条线，换成回来后我们谈谈班次与家用。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "这话太像账单，不过总算不是菜单。她还爱吃那种酸面吗？"
+        },
+        {
+          "speaker": "player",
+          "text": "应该问她。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "对。我半年没回去，还以为我一把勺子能代表最了解她。味道都得重新尝，人更得重新问。"
+        }
+      ]
+    },
+    {
+      "id": "valley_wenchao_02",
+      "title": "家里有两把锅铲",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "赵汐与闻潮家",
+      "participants": [
+        "zhao",
+        "wenchao",
+        "player"
+      ],
+      "requires": [
+        "valley_wenchao_01"
+      ],
+      "sets": [
+        "valley_wenchao_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "灶边添了一把小锅铲，闻潮把大的挂高，又把小的也挪了上去。赵汐站在灶前够了一次。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我的铲子原来在那里。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我想离炉子远一点，不沾油。哦，你够不着。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我够得着，是你把筷笼也挪了，每样东西都得重新找。你回来不是厨房换主人。"
+        },
+        {
+          "speaker": "player",
+          "text": "两把都挂原处？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "等等，她说得对。我这两天把家当成新厨房布置，一句没问。船上大家按我的习惯，这里不一样。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "饭我会煮，不用你先把米淘好，像怕我把整锅吃生的。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我只是顺手。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我知道，所以更不好说。一说像我嫌你好，一不说，我永远在接受你的顺手。"
+        },
+        {
+          "speaker": "stage",
+          "text": "闻潮将铲子放回原钉子，拿纸列起两人各自常用的物件。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "咱们先分做饭日，谁当日做谁收台面，洗碗另换。我也有要你帮的，我衣服的扣子掉了，缝得太丑。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我也缝得丑。你别以为货票字齐，针脚就齐。"
+        },
+        {
+          "speaker": "player",
+          "text": "镇上有修衣摊。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "那花钱修，不能回家了就以为所有事都有一个免费的人。晚饭轮到谁？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我。你把菜放下，再站旁边点评，今天就只有白饭。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "好，我去把工作申请写完。申请里也不写我家厨房如何整齐，免得你来拆穿。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他刚出灶间又折回，把自己放在炉边的信拿走。赵汐笑了一声，没有叫住他帮忙。"
+        }
+      ]
+    },
+    {
+      "id": "valley_wenchao_03",
+      "title": "有盐味的工作表",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "临时宴席厨房",
+      "participants": [
+        "wenchao",
+        "player",
+        "zhao"
+      ],
+      "requires": [
+        "valley_wenchao_02"
+      ],
+      "sets": [
+        "valley_wenchao_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "闻潮给临时帮厨分完工，桌上只有三张工时单。一口大锅盖开着，热气扑到单子上。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "今天十五桌，准备两天，正餐一天。算钱不能只算端上桌那三个钟头，菜还没自己长成丝呢。"
+        },
+        {
+          "speaker": "player",
+          "text": "报价被压了？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "他们按十五桌菜钱算，不把收尾放进去。我差点答应，怕刚回镇没活，显得我脾气大。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "你报价单没有写收尾，我看见也会以为全包。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "是，我不能只怪人家。我今天重报，有人说以后不用我，也有人说早写清就行。"
+        },
+        {
+          "speaker": "stage",
+          "text": "赵汐将一张工时单翻到背面，那里已经沾了半片葱。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "你别把账放切菜的地方。数字带葱味，还是错。"
+        },
+        {
+          "speaker": "player",
+          "text": "你一个人接得下吗？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "接不下，已经请两个人，按小时付。菜单少一道炸物，油锅顾不过来不是靠我喊两嗓子能解决。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "家里这两天我做饭，不过只这两天。后天你恢复自己的班。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "知道。我有个不太好听的要求，今晚别问我这一桌赚多少，我脑里全是火候，明天我带账给你看。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "可以，我也不想每天像复核一份你的人生货票。你今晚得洗澡，衣服真有油味。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "这个不用等明天，回去就洗。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在还紧张吗？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "紧张。三道菜得同时出，我不可能忽然不紧张。但工钱和时长说清楚，至少没人干完了才发现自己白站一天。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他把工作表移到门后的干处，回灶前尝汤。这回只加了一小撮盐，没有按船上的量倒。"
+        }
+      ]
+    },
+    {
+      "id": "valley_wenchao_04",
+      "title": "剩菜的星期二",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "赵汐与闻潮家",
+      "participants": [
+        "wenchao",
+        "zhao",
+        "player"
+      ],
+      "requires": [
+        "valley_wenchao_03"
+      ],
+      "sets": [
+        "valley_wenchao_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "桌上有半锅炖菜，一盘昨日剩饼。闻潮没有摆装饰叶，赵汐也没有拿出家用本。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "今天我的做饭日，只有剩菜。上周菜买多了，我不想为了显得我会照顾人，再做一桌把旧的放坏。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "这样挺好。不过饼要热，我不想咬一个冷盘子。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "在炉边了。你今天早回来？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "按时，不叫早。你这句话我纠正第三回了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你还想回船上吗？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "有时想。海上忙完一餐，能靠着舱门看水，不是谁都想逃。可我不想再做那种一连七天没完整睡觉的班。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "他们来信问你，明春短航线两旬，你没答。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "想跟你谈完再答。不是征批准，关系到那半个月的家事，我得提前安排。我也会想你，就说到这里，免得你笑。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我不会笑，顶多说你信别写成食谱。"
+        },
+        {
+          "speaker": "stage",
+          "text": "饼在炉边冒出一点热气，闻潮去翻面，回来时将最大的半块放在自己盘里。"
+        },
+        {
+          "speaker": "player",
+          "text": "这回没全分给她？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我也饿。以前自己吃小的，心里偷偷等一句你辛苦了，等不到还委屈。我现在想吃大半块就说。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我想要边上脆的，你把那一角给我。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "成交，不算家用往来。等明春的班次定了，我自己留交接，不把我的碗都托给她。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他们把锅留在桌中间，吃完各收一半。那盘饼剩了小小一角，第二天被放进闻潮的午饭盒。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hai_01",
+      "title": "不卖的碎玻璃",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "旧灯罩清洁屋",
+      "participants": [
+        "hai",
+        "player",
+        "ji"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_hai_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "海葵将一只带裂纹的灯罩放进厚木盒，另一个盒子里装着包好的彩玻璃碎片。"
+        },
+        {
+          "speaker": "hai",
+          "text": "完整的归左边，裂的归右边。中间那只不算完整，擦净以后裂纹才看得见。"
+        },
+        {
+          "speaker": "player",
+          "text": "不能再用？"
+        },
+        {
+          "speaker": "hai",
+          "text": "不能当灯罩受热用。好看是好看，掉下来谁负责？我不想站在一地玻璃边上解释它以前没事。"
+        },
+        {
+          "speaker": "ji",
+          "text": "那批旧罩只剩九只合格，比我们约的少三只。"
+        },
+        {
+          "speaker": "hai",
+          "text": "对。我把不合格的钱退你，工钱只收实际清过的。你要十二只凑一套，我现在凑不出来。"
+        },
+        {
+          "speaker": "ji",
+          "text": "少三只，装箱运费反而不划算。我可以等下一批，不能月底还没数。"
+        },
+        {
+          "speaker": "hai",
+          "text": "十天以内给你确定数量，到了十天仍不足，你可以取消，不扣定金。"
+        },
+        {
+          "speaker": "player",
+          "text": "碎片是你收的？"
+        },
+        {
+          "speaker": "hai",
+          "text": "这盒是。有一块像鱼鳞，红色那块像半片柿子，我每次想丢都把它拿起来再看。"
+        },
+        {
+          "speaker": "ji",
+          "text": "这些可以做装饰品？"
+        },
+        {
+          "speaker": "hai",
+          "text": "处理边缘之后可以，但不是拼起来就能卖。我手上活已经排到下周，不能把喜欢说成现成货。"
+        },
+        {
+          "speaker": "stage",
+          "text": "季平看了一眼窗边，那里有六只盒子，标签贴在同一个方向。"
+        },
+        {
+          "speaker": "ji",
+          "text": "你屋里还有多少？"
+        },
+        {
+          "speaker": "hai",
+          "text": "箱子还是碎片？问箱子我能答，问碎片得等我有一个长一点的冬天。"
+        },
+        {
+          "speaker": "player",
+          "text": "箱子占了洗灯罩的地方。"
+        },
+        {
+          "speaker": "hai",
+          "text": "知道。昨晚我拿自己的收藏给客人的东西让路，结果把洗盆挤到门外，来回端水更累。今天得分一点出去，不然生意也要碎了。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我只买处理完成、能说明用途的，不买你不舍得扔的那种情分。"
+        },
+        {
+          "speaker": "hai",
+          "text": "这句挺省事。那你先看九只好的，盒里的我自己慢慢犯愁。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hai_02",
+      "title": "三盒变成两盒",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "旧灯罩清洁屋",
+      "participants": [
+        "hai",
+        "player",
+        "ji"
+      ],
+      "requires": [
+        "valley_hai_01"
+      ],
+      "sets": [
+        "valley_hai_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "屋里空出一块能放水盆的地。海葵蹲在两盒玻璃之间，第三只空盒摆得很远。"
+        },
+        {
+          "speaker": "hai",
+          "text": "不能再有第三盒。规定是我定的，所以也只有我最会绕开，叫新盒临时周转，听着就不算。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在怎么分？"
+        },
+        {
+          "speaker": "hai",
+          "text": "能做样本的留，能给处理玻璃的人用的转过去，不能用的按回收去处送。喜欢不能一律算样本。"
+        },
+        {
+          "speaker": "ji",
+          "text": "上次说的装饰片做好了？"
+        },
+        {
+          "speaker": "hai",
+          "text": "四片。实际花时比预计多一倍，磨边就耗了一下午。我按原价交这次，下一批重新报价。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我愿意看新报价，但不会因为你辛苦就自动接。顾客愿意付多少，我那边也要试。"
+        },
+        {
+          "speaker": "hai",
+          "text": "明白。你别替我宣传全手工的旧镇灵魂，我听着就怕你回头不肯付磨边钱。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们定多少？"
+        },
+        {
+          "speaker": "ji",
+          "text": "先四片试卖，卖不完我承担库存；海葵承担这四片制作的成本。下一次不借本次的亏，假装可以一直这么做。"
+        },
+        {
+          "speaker": "stage",
+          "text": "海葵拿起一片蓝玻璃，指腹停在光滑的边缘上，没有伸向未处理的那盒。"
+        },
+        {
+          "speaker": "hai",
+          "text": "这块我舍不得，先不卖。允许我保留一块，不算毁约吧？"
+        },
+        {
+          "speaker": "ji",
+          "text": "约的是另外四块。留这一块你得自己给它占的位置定价，我不会帮你说划算。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你真是，连我自我安慰都不包售后。"
+        },
+        {
+          "speaker": "player",
+          "text": "空出的盒子给谁？"
+        },
+        {
+          "speaker": "hai",
+          "text": "先放回收物，不叫临时收藏。今天还得吃饭，我把萝卜饼放清洗台下边了……不对，食物不能搁这儿，我又得改自己的坏习惯。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hai_03",
+      "title": "没被喜欢的颜色",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "山口小型集市",
+      "participants": [
+        "hai",
+        "ji",
+        "player"
+      ],
+      "requires": [
+        "valley_hai_02"
+      ],
+      "sets": [
+        "valley_hai_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "四片装饰玻璃只卖出两片，剩下的绿与褐摆在灰布上。海葵把灰布换成白布，又换回去。"
+        },
+        {
+          "speaker": "hai",
+          "text": "白底看着太淡，灰底像没洗干净。原来我在窗边看时，觉得每块都值得人掏钱。"
+        },
+        {
+          "speaker": "ji",
+          "text": "买的人更喜欢蓝色。不是绿的做得差，是他们家里想配别的东西。"
+        },
+        {
+          "speaker": "player",
+          "text": "你很失望？"
+        },
+        {
+          "speaker": "hai",
+          "text": "有一点。我花最多时间的是褐色这片，边上有个拐角总磨不好。它现在像在跟我说，磨了也没人管。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我管，我付了制作费。但下一批我暂不订褐色，不然库存摆在我屋里也会跟我说话。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你这个人劝人还带账本。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我也有卖不掉的餐具，不劝自己它们终会遇见命中注定的客人，先算能放多久。"
+        },
+        {
+          "speaker": "stage",
+          "text": "一阵风掀起灰布，海葵按住边角，把碎片托盘往桌内挪。"
+        },
+        {
+          "speaker": "player",
+          "text": "剩下两片要降价吗？"
+        },
+        {
+          "speaker": "hai",
+          "text": "我想带回去换一下挂绳，不降到材料钱。若还是卖不掉，就保留一片当样，另一片拆分再用。"
+        },
+        {
+          "speaker": "ji",
+          "text": "改绳是新成本，你写给我。试卖不能无限延长，月底我们定这一批的处置。"
+        },
+        {
+          "speaker": "hai",
+          "text": "月底，行。你不用每次都提醒我不是永久展览，我自己也想看新东西。"
+        },
+        {
+          "speaker": "player",
+          "text": "灯罩那边忙吗？"
+        },
+        {
+          "speaker": "hai",
+          "text": "忙。有人把整个灶房的油都送来了，以为一擦就亮。我得写清去油和修复两回事，不然洗完仍旧有旧痕，他们说没洗。"
+        },
+        {
+          "speaker": "ji",
+          "text": "旧痕也不能都说成历史价值。"
+        },
+        {
+          "speaker": "hai",
+          "text": "对，有的只是污渍，我不替污渍编身世。你把褐色那片拿开一点，午饭油烟吹过来，我刚擦完。"
+        }
+      ]
+    },
+    {
+      "id": "valley_hai_04",
+      "title": "窗台的限额",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "旧灯罩清洁屋",
+      "participants": [
+        "hai",
+        "player",
+        "ji"
+      ],
+      "requires": [
+        "valley_hai_03"
+      ],
+      "sets": [
+        "valley_hai_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "窗台上只留下六片玻璃，每一片都固定在木座里。海葵在旁边放了一碗热豆花。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你要看收藏，就看这六片。别给我带一袋新的，说你知道我喜欢。喜欢也不是我全收。"
+        },
+        {
+          "speaker": "player",
+          "text": "那片褐色还在？"
+        },
+        {
+          "speaker": "hai",
+          "text": "在，没卖出去的那片。挂绳改过，试了第二次还是没卖。我给自己买回来，价格照季平实际成本算，不能只挑开心的结果。"
+        },
+        {
+          "speaker": "ji",
+          "text": "另一片拆成三片，卖掉两片。我的账不难看，你的制作时间也没全部白耗。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你不用总来给我算最好的一面，我已经不难受了。难受的是你吃豆花还看账，汁快滴上去了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "季平把账本收进袋里，坐到炉子边。海葵用厚布垫起一只待洗灯罩。"
+        },
+        {
+          "speaker": "player",
+          "text": "明年还做装饰片？"
+        },
+        {
+          "speaker": "hai",
+          "text": "做少量，另外留固定时间洗罩。不能为了新玩意让原来的客人一直等，我也靠原来的活交房钱。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我订货会早一点，不拿节日前三天来问能不能多做五十片。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你曾经真问过。"
+        },
+        {
+          "speaker": "ji",
+          "text": "所以现在记着。这次冬季灯罩我只报确认数量，剩的写不确定，省得两边都像欠谁一套梦想。"
+        },
+        {
+          "speaker": "player",
+          "text": "六片的限额以后会变吗？"
+        },
+        {
+          "speaker": "hai",
+          "text": "会，若有大屋子再说。眼下是六片，换进一片就得认真决定换掉哪片。我不能把明年的可能先占满今年的路。"
+        },
+        {
+          "speaker": "stage",
+          "text": "海葵喝了一口豆花，伸手想去拿第七片，摸到空处，笑着将手收回来，改拿了糖罐。"
+        }
+      ]
+    },
+    {
+      "id": "valley_ji_01",
+      "title": "不是同一个圆",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "spring",
+      "location": "月灯食堂侧桌",
+      "participants": [
+        "ji",
+        "player",
+        "hai"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_ji_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "季平在桌上排开六只手工碗，碗口看着都圆，摞起来却有一点摇晃。"
+        },
+        {
+          "speaker": "ji",
+          "text": "这两只我不能按一样的品级收。不是嫌手工有差别，是这只放热汤不稳，服务的人得一直拿住。"
+        },
+        {
+          "speaker": "player",
+          "text": "你会要求每只完全一样吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "不会。大小有范围，站得稳是底线。甄陶那边我已经发了测量方法，没替人家决定该怎么做碗。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你话说得挺好，上一张价单却拿整箱的平均数压人。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我得保证整箱能卖，但损耗该谁承担可以谈。这个月纸箱涨价，我一开口降收购价，确实方便自己，不方便做的人。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在报价怎么算？"
+        },
+        {
+          "speaker": "ji",
+          "text": "制作、合格筛选、包装、运输分开。我的利润也留着，不装作我来镇上就是献爱心。我不赚钱，下月就没有订单。"
+        },
+        {
+          "speaker": "stage",
+          "text": "海葵将最摇晃的那只碗拿开，桌下垫着的收据露出一角。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你这张桌自己也歪。先换张平的，再说碗。"
+        },
+        {
+          "speaker": "ji",
+          "text": "对，我刚才该检查。你看，这就是为什么要把检查条件写明，免得我的桌腿替别人判等级。"
+        },
+        {
+          "speaker": "player",
+          "text": "这只重新看还摇吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "轻一点，仍有。可以作干货碗，不能混进汤碗那一批，售价也应当不同。"
+        },
+        {
+          "speaker": "hai",
+          "text": "那我问你吃饭还是继续谈，已经过午了。"
+        },
+        {
+          "speaker": "ji",
+          "text": "吃饭。碗先收起来，我不想夹一筷子菜都像在检品。我点炖豆子，这几日肉吃得太多，报账都不好意思。"
+        }
+      ]
+    },
+    {
+      "id": "valley_ji_02",
+      "title": "不能承诺的五十套",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "summer",
+      "location": "码头货箱旁",
+      "participants": [
+        "ji",
+        "player",
+        "hai"
+      ],
+      "requires": [
+        "valley_ji_01"
+      ],
+      "sets": [
+        "valley_ji_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "货箱盖上有一张新订单，交期被圈了两次。季平的笔尖在数量上停了很久。"
+        },
+        {
+          "speaker": "ji",
+          "text": "五十套，月底前要。对方说只要我点头，后边还有更大的单。通常这种后边，比箱子还空。"
+        },
+        {
+          "speaker": "player",
+          "text": "镇里做得出吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "不按正常工时。要赶出来，有人得少睡，有人得拿没稳住的成品凑数。我不能替他们接了再说大家克服。"
+        },
+        {
+          "speaker": "hai",
+          "text": "那边会找别处。"
+        },
+        {
+          "speaker": "ji",
+          "text": "会，我会少赚。别把我讲得不在意，我这季也有一箱碗压着没卖，可压货不能都变成别人的夜班。"
+        },
+        {
+          "speaker": "player",
+          "text": "可以改交期？"
+        },
+        {
+          "speaker": "ji",
+          "text": "谈成分三批，先十套，后两批要确认排期。单价略降，客户愿意等，我承担少一点利润。还没签，明天才回。"
+        },
+        {
+          "speaker": "stage",
+          "text": "海葵翻到订单背面，发现有一个比正面更大的问号。"
+        },
+        {
+          "speaker": "hai",
+          "text": "这里是什么？"
+        },
+        {
+          "speaker": "ji",
+          "text": "怕他不要。我总得给自己留地方怕一下，再写明怎么承担，不然我会把怕包装成催你们快做。"
+        },
+        {
+          "speaker": "player",
+          "text": "你会提前付款吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "材料定金先付，阶段验收再付。尾款不拖到我卖完，这个风险我拿了采购利润，不能全部推回制作人。"
+        },
+        {
+          "speaker": "hai",
+          "text": "上次你可不是这样讲。"
+        },
+        {
+          "speaker": "ji",
+          "text": "是，上次我只想到自己现金不够。海葵，我也会改账，不用你逢我一次替我复习原话。"
+        },
+        {
+          "speaker": "hai",
+          "text": "我喜欢复习，记得比较牢。"
+        },
+        {
+          "speaker": "ji",
+          "text": "那你也复习明天给我的是六只，不是九只。我客户那边已经照六只谈，突然多三只我也会为难。"
+        },
+        {
+          "speaker": "stage",
+          "text": "季平把五十划成三批，没在客户还未确认的格子里填上完成。"
+        }
+      ]
+    },
+    {
+      "id": "valley_ji_03",
+      "title": "退货不是对人的评价",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "autumn",
+      "location": "山口货物验收桌",
+      "participants": [
+        "ji",
+        "player",
+        "hai"
+      ],
+      "requires": [
+        "valley_ji_02"
+      ],
+      "sets": [
+        "valley_ji_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "退回的箱子只装了七只碗，填充纸皱成一团。季平逐只拍照，海葵看着其中一只缺角。"
+        },
+        {
+          "speaker": "ji",
+          "text": "这个是运输磕的，我承担。另两只底部渗水，出货检查没查出来，我和制作方照协议分。"
+        },
+        {
+          "speaker": "player",
+          "text": "有人说你挑剔？"
+        },
+        {
+          "speaker": "ji",
+          "text": "有。还有人说我是来砸手艺招牌的。我理解人家心疼，也不能把漏汤的碗送回去说你们要懂欣赏。"
+        },
+        {
+          "speaker": "hai",
+          "text": "这只裂纹清洗前就有，可能当时太浅。你照片只拍坏处，别人看着会以为整批全坏。"
+        },
+        {
+          "speaker": "ji",
+          "text": "那我补一张全批数量，七只退、九十三只合格。局部给判定用，总数给说明用，不能拿局部替整体。"
+        },
+        {
+          "speaker": "stage",
+          "text": "季平记下补偿，手指在总损失上敲了两次。"
+        },
+        {
+          "speaker": "player",
+          "text": "这一批还赚吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "赚，比预计少。我准备把新包装换掉，里面隔板太软，便宜的那一点不够赔缺角。不能每回都怪山路颠。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你之前喜欢把运损固定算几个百分点。"
+        },
+        {
+          "speaker": "ji",
+          "text": "固定比例好算，不等于不能改善。新隔板钱从包装那栏出，先试一箱，不马上全换。"
+        },
+        {
+          "speaker": "player",
+          "text": "制作方会继续卖给你吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "得谈。不能我发完一封漂亮的解释就算关系修好了。我会拿原始检查记录，不加谁认真谁不认真的评价。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你今天午饭吃了吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "吃了，干饼。你别又把我当不会吃饭的生意人，我只是吃得不好，不是没吃。"
+        },
+        {
+          "speaker": "hai",
+          "text": "那等会儿去喝汤。汤碗我挑完整的，免得你当场又开始工作。"
+        },
+        {
+          "speaker": "ji",
+          "text": "说定了，喝完之前不问收购价。我眼下真的不想再看一个圆的边。"
+        }
+      ]
+    },
+    {
+      "id": "valley_ji_04",
+      "title": "回程箱里的私物",
+      "kind": "personal",
+      "chapter_min": 0,
+      "season": "winter",
+      "location": "山口货车停场",
+      "participants": [
+        "ji",
+        "hai",
+        "player"
+      ],
+      "requires": [
+        "valley_ji_03"
+      ],
+      "sets": [
+        "valley_ji_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "季平的回程箱中留了一角，放着一只尺寸不标准的杯子和两包茶。采购清单上没有它们。"
+        },
+        {
+          "speaker": "ji",
+          "text": "杯子我自己买，喝茶用。手柄小一点不影响我，不能因此改商用那批的标准，两边需求不同。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你终于有件不用算能卖多少的东西。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我还是算了价，买私人东西也不是钱包忽然失忆。只是决定喜欢它能值这个数，不拿给别人证明我有人情味。"
+        },
+        {
+          "speaker": "player",
+          "text": "下季还来吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "来三日，时间已写进单。我会先让对方报可做数量，不再拿希望卖出的数当成他们承诺的数。"
+        },
+        {
+          "speaker": "stage",
+          "text": "海葵递来一只包好的灯罩，包装纸上标明旧痕、清洁日期与不能受热的部位。"
+        },
+        {
+          "speaker": "hai",
+          "text": "这只是展样，不装进那批可用灯罩。我怕你急着回程，顺手混了。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我分开收，单上写展示。你工钱结过，等车钱也核完，我就算收工。"
+        },
+        {
+          "speaker": "player",
+          "text": "你觉得这镇的手艺怎样？"
+        },
+        {
+          "speaker": "ji",
+          "text": "有人做得稳，有人会迟，有人沟通快，有人收到退单就不说话。跟别处一样，不能用一句古朴替代所有人的工作。"
+        },
+        {
+          "speaker": "hai",
+          "text": "你这评价放宣传纸上，谁看了还想来。"
+        },
+        {
+          "speaker": "ji",
+          "text": "宣传纸写具体物件、交期和特点，别拿整座镇的善良给我担保。我也不能担保每季都卖得好。"
+        },
+        {
+          "speaker": "player",
+          "text": "那你为什么继续？"
+        },
+        {
+          "speaker": "ji",
+          "text": "这一年改过几次以后，合格率高了，我算下来能长期做。也因为那边有人愿意告诉我，哪一项报价不合理，没有只给我一个笑脸。"
+        },
+        {
+          "speaker": "stage",
+          "text": "洛桑的车鸣了一声，季平抱起私人杯子的箱子，没将它塞进最后一格商业库存。"
+        }
+      ]
+    },
+    {
+      "id": "valley_bo_01",
+      "title": "四个半钟头以后",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "spring",
+      "location": "石谷合作社门廊",
+      "participants": [
+        "bo",
+        "tie",
+        "player"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_bo_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "柏安将手套放在桌上，指缝里全是细灰。工时表在第四个半钟头的位置画了一道粗线。"
+        },
+        {
+          "speaker": "bo",
+          "text": "之后出错多。不是谁不认真，我记了十六日，错搬、漏记、工具归位，集中在这一段。"
+        },
+        {
+          "speaker": "tie",
+          "text": "你想把连续工时缩短，收入会受影响，按量分的那几个人未必同意。"
+        },
+        {
+          "speaker": "bo",
+          "text": "我知道，所以不是你替我宣布。我拿原始记录出来，大家可以查，不能只听我说累。"
+        },
+        {
+          "speaker": "player",
+          "text": "你自己也出过错？"
+        },
+        {
+          "speaker": "bo",
+          "text": "三次，都写了。上周把空筐算成满筐，幸好交班核对拦下。不能只记别人，不记我。"
+        },
+        {
+          "speaker": "tie",
+          "text": "设备检查和休息时段需要一起谈，光短半个钟头，再把产量挤回前面，照样赶得喘。"
+        },
+        {
+          "speaker": "bo",
+          "text": "还有停工条件。哪一种响声、哪种支撑异常，该由谁确认，停下来扣不扣钱，都得写。"
+        },
+        {
+          "speaker": "stage",
+          "text": "铁桃把纸往里挪，给柏安的手套让出一处地方，灰沾在一角。"
+        },
+        {
+          "speaker": "player",
+          "text": "以前为什么没提？"
+        },
+        {
+          "speaker": "bo",
+          "text": "怕一提他们说我不想干。现在我更怕大家都这么想，谁也不说，最后拿硬撑当合格。"
+        },
+        {
+          "speaker": "tie",
+          "text": "这话会上你自己讲，不用我替你变成悲壮的一段。"
+        },
+        {
+          "speaker": "bo",
+          "text": "我不会讲那种。我只是想晚上洗完脸，还能有力气去买菜。不是准备在门口挂我的画像。"
+        },
+        {
+          "speaker": "player",
+          "text": "明天开会？"
+        },
+        {
+          "speaker": "tie",
+          "text": "后天，留一天让人看记录。账目也一起带，不承诺收入完全不变，说清楚损失怎么分。"
+        },
+        {
+          "speaker": "bo",
+          "text": "那我今天不加班。先去睡，明天看记录还得有脑子。鞋我放外边，别让屋里全是灰。"
+        }
+      ]
+    },
+    {
+      "id": "valley_bo_02",
+      "title": "反对的人也得有一页",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "summer",
+      "location": "石谷合作社会议桌",
+      "participants": [
+        "bo",
+        "tie",
+        "player"
+      ],
+      "requires": [
+        "valley_bo_01"
+      ],
+      "sets": [
+        "valley_bo_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "桌上排着赞成与反对的记录，没有把反对那一页放在最下面。柏安的名字两边都出现了一次。"
+        },
+        {
+          "speaker": "bo",
+          "text": "我反对现在这个试行稿。休息写了，检查却塞到休息里，工具要看，人也没歇。"
+        },
+        {
+          "speaker": "tie",
+          "text": "那页不是我原稿，是大家改完的。我也看到这处，刚才还以为你会先赞成再说。"
+        },
+        {
+          "speaker": "bo",
+          "text": "先赞成以后就按这个做了。我宁可今天难听一点，不想下周又说当时不是这个意思。"
+        },
+        {
+          "speaker": "player",
+          "text": "按量分成的人怎么想？"
+        },
+        {
+          "speaker": "bo",
+          "text": "有人说家里等钱，不能少。我不能回他身体更重要，好像他的饭就不重要。试行四周，留最低收入，超出再按量。"
+        },
+        {
+          "speaker": "tie",
+          "text": "最低收入从公共余款出，只够四周，不够永久。四周以后要看产量和费用，不能拿一次结余当长期承诺。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安看了那一栏很久，在自己的发言下面加了一行。"
+        },
+        {
+          "speaker": "bo",
+          "text": "我愿意少拿一部分浮动分成，但不能让自愿变成谁不让就是自私。每人单独确认。"
+        },
+        {
+          "speaker": "player",
+          "text": "你担心分歧伤关系？"
+        },
+        {
+          "speaker": "bo",
+          "text": "已经有点。昨天有人不肯跟我同桌吃，说我管太多。我没有追出去解释，他想静一静，我也想吃完饭。"
+        },
+        {
+          "speaker": "tie",
+          "text": "以后他也可以写问题，不用站你这一边才有资格说。"
+        },
+        {
+          "speaker": "bo",
+          "text": "对。工具噪声要现场记录，不凭我一双耳朵决定。我听久了，有时反而分不清新响动。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天能定吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "能定试行，不能定成功。单上写清起止日，我去把遗漏的检查工时补上。"
+        },
+        {
+          "speaker": "bo",
+          "text": "我留下核一遍。核完就走，别又为了争取休息把今天坐成半夜。"
+        }
+      ]
+    },
+    {
+      "id": "valley_bo_03",
+      "title": "少掉的那一笔钱",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "autumn",
+      "location": "石谷休息棚",
+      "participants": [
+        "bo",
+        "player",
+        "tie"
+      ],
+      "requires": [
+        "valley_bo_02"
+      ],
+      "sets": [
+        "valley_bo_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "柏安面前放着这一季的收入单，比去年同月少了一行奖金。他正在剥一只煮熟的土豆。"
+        },
+        {
+          "speaker": "bo",
+          "text": "少了，实际就这些。试行后的产量没有全补上，大家不能只看错搬次数少了就说没人付代价。"
+        },
+        {
+          "speaker": "player",
+          "text": "你后悔提议？"
+        },
+        {
+          "speaker": "bo",
+          "text": "不后悔，也不高兴损失。我家冬衣先不换了，旧的补一补。但停工不扣当班底薪已经写实，这一项我想保住。"
+        },
+        {
+          "speaker": "tie",
+          "text": "有人建议把休息缩回去五分钟，换多一点量。我把建议留着，不能替你压掉。"
+        },
+        {
+          "speaker": "bo",
+          "text": "留。我会反对，并把这四周工具检查结果带上。哪项确实没效果，也承认，不能我的提议就不准改。"
+        },
+        {
+          "speaker": "stage",
+          "text": "铁桃拿过一只土豆，发现没有盐，去翻自己的布袋。"
+        },
+        {
+          "speaker": "tie",
+          "text": "你每天这么吃？"
+        },
+        {
+          "speaker": "bo",
+          "text": "不是，今天带菜的盒漏了。我不想为了证明自己过得好，硬说土豆原味最好。"
+        },
+        {
+          "speaker": "player",
+          "text": "安全规定执行得顺吗？"
+        },
+        {
+          "speaker": "bo",
+          "text": "前天新来的人听到异响，停了。查出来只是外面小车的轮子，他们笑他多事，我让那条记录留着。"
+        },
+        {
+          "speaker": "tie",
+          "text": "你说了不准笑？"
+        },
+        {
+          "speaker": "bo",
+          "text": "没。笑能随口，不该因此罚他或给他差班。要人肯报，就不能事后嫌他没把答案猜准。"
+        },
+        {
+          "speaker": "player",
+          "text": "你现在睡得好吗？"
+        },
+        {
+          "speaker": "bo",
+          "text": "比春天好，偶尔仍在想下一笔账。不是一张制度改完，家里就没有钱的烦恼。"
+        },
+        {
+          "speaker": "stage",
+          "text": "盐找到了，纸包却有些受潮。两个人将盐掰碎撒在土豆上，没把任何一份收入单收进炉子。"
+        }
+      ]
+    },
+    {
+      "id": "valley_bo_04",
+      "title": "没有英勇名字的条款",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "winter",
+      "location": "石谷合作社门廊",
+      "participants": [
+        "bo",
+        "tie",
+        "player"
+      ],
+      "requires": [
+        "valley_bo_03"
+      ],
+      "sets": [
+        "valley_bo_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "修订后的规定贴在门廊，最下面只有通过日期。柏安把自己草稿上的油渍擦了一下，没有擦掉。"
+        },
+        {
+          "speaker": "bo",
+          "text": "有人想把休息条款叫柏安条款，我说不要。下回要改，难道还得先问我高不高兴。"
+        },
+        {
+          "speaker": "tie",
+          "text": "名字好记，条文难读，他们是这个意思。"
+        },
+        {
+          "speaker": "bo",
+          "text": "那就把条文写短，别拿一个人替他们记。最长这一句三十多个字，连我看都得吸两次气。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在收入有改善？"
+        },
+        {
+          "speaker": "tie",
+          "text": "废料少了一些，结余补回部分，不够把所有人的差额抹平。后两月仍按确认后的方案分。"
+        },
+        {
+          "speaker": "bo",
+          "text": "我给家里说了准数，没拿可能的奖金当已经有。冬衣改了袖口，穿着不冷，明年再换。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安将一只没修好的椅子挪到墙边，给能坐的那只留在桌前。"
+        },
+        {
+          "speaker": "player",
+          "text": "明年还会提建议？"
+        },
+        {
+          "speaker": "bo",
+          "text": "提，不过轮着汇总，不是永远我站前面。有人比我更清楚运输那段，他说话慢，会上总被打断。"
+        },
+        {
+          "speaker": "tie",
+          "text": "下次每人完整说完一项，我来记，不能谁嗓门大谁占半本。"
+        },
+        {
+          "speaker": "bo",
+          "text": "你也得有人替记，不然你一整天都在替别人把话留下，自己的事没地方写。"
+        },
+        {
+          "speaker": "player",
+          "text": "她的菜圃？"
+        },
+        {
+          "speaker": "bo",
+          "text": "她把这事放在待办最后一行，压着八件公事。我今天来，就是把她那袋种子带回去，免得受潮。"
+        },
+        {
+          "speaker": "tie",
+          "text": "你别替我种完了，那样又变成我欠你一个春天。"
+        },
+        {
+          "speaker": "bo",
+          "text": "不种，袋子在你椅子上。明天我休息，想睡到饭香出来，不想当任何条款的画像。"
+        }
+      ]
+    },
+    {
+      "id": "valley_tie_01",
+      "title": "账本里的菜籽",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "spring",
+      "location": "石谷合作社办公室",
+      "participants": [
+        "tie",
+        "player",
+        "bo"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_tie_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "铁桃翻账时掉出一只菜种袋。她弯腰捡，桌上待答复的纸又滑下来三张。"
+        },
+        {
+          "speaker": "tie",
+          "text": "这是我的，不是合作社新产业。大家见我拿什么，都想替它开一个项目。"
+        },
+        {
+          "speaker": "player",
+          "text": "想种在哪里？"
+        },
+        {
+          "speaker": "tie",
+          "text": "屋后那块荒地，四步宽，六步长。去年说翻，今年还没翻，有人把旧木筐堆上去，已经说是公共角落了。"
+        },
+        {
+          "speaker": "bo",
+          "text": "你跟他们说没？"
+        },
+        {
+          "speaker": "tie",
+          "text": "没，地一直闲着，我开口显得计较。可地闲着是我没空，不是我送了。"
+        },
+        {
+          "speaker": "player",
+          "text": "种什么？"
+        },
+        {
+          "speaker": "tie",
+          "text": "青菜，葱，再留一行萝卜。不种合作社的收入增长曲线，没那么大地方。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安把种袋压回她手边，没替她夹进待办账里。"
+        },
+        {
+          "speaker": "bo",
+          "text": "你得给自己的事一个日期。"
+        },
+        {
+          "speaker": "tie",
+          "text": "周四下午。可周四有人来核运输账，挪到周五又要开会。我刚说就开始想改。"
+        },
+        {
+          "speaker": "player",
+          "text": "运输账能提前准备好吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "可以让经手的人先对，他们知道实际情况。我总抢过来，怕他们算错，结果每次还是得问他们。"
+        },
+        {
+          "speaker": "bo",
+          "text": "那不是多一道保证，是多等你一轮。"
+        },
+        {
+          "speaker": "tie",
+          "text": "你说得不好听，但有用。今晚我写清负责哪几页，周四我只留半小时答问题，不陪他们从头算。"
+        },
+        {
+          "speaker": "player",
+          "text": "木筐呢？"
+        },
+        {
+          "speaker": "tie",
+          "text": "我去说，给三天搬走。不能我一直笑着，回家对一堆筐生气，他们还以为我真不介意。"
+        },
+        {
+          "speaker": "stage",
+          "text": "铁桃把周四下午写在账本封面上，字不大，随后嫌太容易忽略，又描粗了一遍。"
+        }
+      ]
+    },
+    {
+      "id": "valley_tie_02",
+      "title": "没有来帮忙的那一天",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "summer",
+      "location": "铁桃屋后菜圃",
+      "participants": [
+        "tie",
+        "player",
+        "bo"
+      ],
+      "requires": [
+        "valley_tie_01"
+      ],
+      "sets": [
+        "valley_tie_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "菜地翻好一半，铁桃坐在小凳上揉手腕。原来堆筐的地方留了几个方印。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我说周四来翻，三个人说帮忙，最后谁都没来。我知道他们有事，还是想骂。"
+        },
+        {
+          "speaker": "player",
+          "text": "你确认过时间吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "只说有空就来。现在想想，我把客套当成名单了。自己心里排了三份活，他们一句准话没给。"
+        },
+        {
+          "speaker": "bo",
+          "text": "所以今天我只待一个钟头，已经说好。你别看我多铲两下，又把明天那块也分给我。"
+        },
+        {
+          "speaker": "tie",
+          "text": "知道，过一刻钟就去歇。我今天用人都开始记工时，怕你们说我把菜圃做成办公室。"
+        },
+        {
+          "speaker": "player",
+          "text": "你真的会记工钱？"
+        },
+        {
+          "speaker": "tie",
+          "text": "不用，我会请一顿饭，但得说清不是雇工，也不是谁不来以后我就不给他好脸。我确实想过后半句。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安铲到一截旧麻绳，拉了半天，铁桃拿刀剪开才松动。"
+        },
+        {
+          "speaker": "bo",
+          "text": "留这块先，绳下面可能还有东西，慢慢清，不抢今天。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我原来想一下午全种上，明晚就能告诉人我终于有菜圃。其实才刚翻土，有什么好报的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你是在向谁证明？"
+        },
+        {
+          "speaker": "tie",
+          "text": "可能向我自己。我怕除了替别人算钱，我没有一件说得出来的私事。"
+        },
+        {
+          "speaker": "bo",
+          "text": "有，你刚骂了好一会儿没来的帮手，很私。"
+        },
+        {
+          "speaker": "tie",
+          "text": "这也算，那我收获挺丰富。饭我煮豆子，另买一把青菜，不能因为以后要有菜，今天就假装已经有了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她把小凳挪到阴处，在剩下半块地上插了根木棍，写着下周，而没有写今天必须。"
+        }
+      ]
+    },
+    {
+      "id": "valley_tie_03",
+      "title": "算错的不是一棵菜",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "autumn",
+      "location": "石谷合作社办公室",
+      "participants": [
+        "tie",
+        "player",
+        "bo"
+      ],
+      "requires": [
+        "valley_tie_02"
+      ],
+      "sets": [
+        "valley_tie_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "铁桃把一笔补款圈了三圈，菜篮停在门边，叶片已经有点塌。柏安在另一头核原票。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我把两次搬运合在一起付，只算了一次装卸，少给了钱。今天有人找来，我第一句竟然是你是不是记错。"
+        },
+        {
+          "speaker": "player",
+          "text": "后来查到了？"
+        },
+        {
+          "speaker": "tie",
+          "text": "查到了。钱今天补，原因贴更正。我想另加一笔赔礼，又怕像花公共的钱替我买个好人印象。"
+        },
+        {
+          "speaker": "bo",
+          "text": "先把耽误的实际损失问清。若要你个人道歉，不能只让账本代说。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我知道。最不舒服的是，我平时总说账有问题来找我，人真来，我先防着。他要以后不信我，也不是他小心眼。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安翻过原票，指着同一张纸上两个相隔很近的日期。"
+        },
+        {
+          "speaker": "bo",
+          "text": "格式也改。两个日期挤着，不只有你会看漏，别把制度问题全扛成个人愧疚，扛完明年还漏。"
+        },
+        {
+          "speaker": "player",
+          "text": "这会影响菜圃吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "我刚想把周四取消，罚自己把旧账查完。其实这不是修错，是我觉得休息不配了。该查的分给两个人，我查自己那几页。"
+        },
+        {
+          "speaker": "bo",
+          "text": "菜篮要不要放阴处？"
+        },
+        {
+          "speaker": "tie",
+          "text": "放，别在门口晒。我拿来分一点给大家，但不是让他们吃完就原谅我。"
+        },
+        {
+          "speaker": "player",
+          "text": "收成好吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "葱好，萝卜小，青菜被虫吃了不少。我没种出别人夸的天赋，也没打算把地赔回公共角落。"
+        },
+        {
+          "speaker": "bo",
+          "text": "这几棵够你煮一锅。"
+        },
+        {
+          "speaker": "tie",
+          "text": "对。我先把补款单签了，然后回家煮。今天的饭不会替我解决错误，但我还是得吃。"
+        }
+      ]
+    },
+    {
+      "id": "valley_tie_04",
+      "title": "私人菜圃不招募理事",
+      "kind": "personal",
+      "chapter_min": 2,
+      "season": "winter",
+      "location": "铁桃屋后菜圃",
+      "participants": [
+        "tie",
+        "player",
+        "bo"
+      ],
+      "requires": [
+        "valley_tie_03"
+      ],
+      "sets": [
+        "valley_tie_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "菜地覆着稻草，只露出几根葱。铁桃把一块写着试验菜圃的牌子拿下来，换成一块空木板。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我自己吃的菜，为什么每次都想给它取个像公事的名字。刚才有人问能不能组织参观，我差点又答应。"
+        },
+        {
+          "speaker": "player",
+          "text": "这回没有？"
+        },
+        {
+          "speaker": "tie",
+          "text": "没有，说现在不接活动。我跟他说完，心跳还快，以为拒绝一次别人就不再喜欢我。"
+        },
+        {
+          "speaker": "bo",
+          "text": "他走的时候还问你借伞，至少没有那么快。"
+        },
+        {
+          "speaker": "tie",
+          "text": "伞借了，写了归还日期。我仍然是我，不会因为学会说不，就忽然不肯给人遮雨。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安把一小袋干菜放到门槛上，铁桃没往合作社收支本里记。"
+        },
+        {
+          "speaker": "player",
+          "text": "这季的账改好了？"
+        },
+        {
+          "speaker": "tie",
+          "text": "改了格式，增加第二人核对。更正单也留下，不撕掉。下一任理事得知道哪处出过问题，不能拿一本漂亮新账接锅。"
+        },
+        {
+          "speaker": "bo",
+          "text": "你说下一任，他们都问你是不是要走。"
+        },
+        {
+          "speaker": "tie",
+          "text": "还没定，不过不是终身。明年先轮两个月主持，我负责交接。我想有一周出门看看菜市场，买什么都不用替十个人议价。"
+        },
+        {
+          "speaker": "player",
+          "text": "你菜种还夹账里吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "搬到家里抽屉了。账本那个袋子现在装空白更正单，不能公私混得看起来很勤快。"
+        },
+        {
+          "speaker": "bo",
+          "text": "这葱要拔吗？"
+        },
+        {
+          "speaker": "tie",
+          "text": "拔三根够，剩的留着。我今晚做葱花饼，不开会，不评选最省油方案，你要吃就坐着等。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柏安坐到门边，铁桃拔了三根，又添一根，嘴里算了算两个人的饼量，把锄头留在地旁。"
+        }
+      ]
+    },
+    {
+      "id": "valley_cen_01",
+      "title": "没有最后一页",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "spring",
+      "location": "观星台档案室",
+      "participants": [
+        "cen",
+        "player",
+        "xun"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_cen_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "岑月将两页薄纸放在衬板上，纸缝间空着一条，像少了一根骨头。"
+        },
+        {
+          "speaker": "cen",
+          "text": "不是被撕掉的，是后面根本没找到。目录写三页，现在只有两页，第三页不能靠我们心情好补出来。"
+        },
+        {
+          "speaker": "player",
+          "text": "记的什么？"
+        },
+        {
+          "speaker": "cen",
+          "text": "一位巡夜人的交接，写到那天有人留了锅汤。他吃没吃，谁留的，后边都没有。"
+        },
+        {
+          "speaker": "xun",
+          "text": "展览的人说到这里太吊胃口，能不能用合理想象补个小结。"
+        },
+        {
+          "speaker": "cen",
+          "text": "可以另外标想象，不能印在原文底下，还用同一种字体。观众不会每个人都读注脚。"
+        },
+        {
+          "speaker": "player",
+          "text": "他们同意吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "他们问我是不是非要让人遗憾。可我管的是纸，不是替所有遗憾关门。说完太硬，他们不高兴了。"
+        },
+        {
+          "speaker": "xun",
+          "text": "你这句放招待会上，确实有点冷。"
+        },
+        {
+          "speaker": "cen",
+          "text": "知道。我准备重写说明，告诉他们缺页怎么认、还有哪几种可能，不只写不可补。"
+        },
+        {
+          "speaker": "stage",
+          "text": "荀叶凑近闻了闻，立刻皱起鼻子。"
+        },
+        {
+          "speaker": "xun",
+          "text": "这纸一股旧柜子味，展厅会不会也这样？"
+        },
+        {
+          "speaker": "cen",
+          "text": "会淡一点，不保证。要讲旧物的气息也随他们，有时候就是柜子潮，不用都说成岁月。"
+        },
+        {
+          "speaker": "player",
+          "text": "那锅汤很重要吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "对我挺重要。交接里前面全是器件，突然有人记了汤，说明日常也会留下来。但我不能因为喜欢，就替他加一个温暖结尾。"
+        },
+        {
+          "speaker": "xun",
+          "text": "名字能查吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "查过几本簿子，有相近的，不足以认定。你要帮忙，把目录日期核对就好，别一见同姓就找着祖先。"
+        },
+        {
+          "speaker": "player",
+          "text": "午饭到了。"
+        },
+        {
+          "speaker": "cen",
+          "text": "那先盖起来。今天我们有确切的饭，不用追着那锅没下文的汤饿到下午。"
+        }
+      ]
+    },
+    {
+      "id": "valley_cen_02",
+      "title": "看不懂的说明牌",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "summer",
+      "location": "观星台小展室",
+      "participants": [
+        "cen",
+        "player",
+        "xun"
+      ],
+      "requires": [
+        "valley_cen_01"
+      ],
+      "sets": [
+        "valley_cen_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "说明牌摆在入口，前两位来客读到第三行就转身去看窗。岑月一直站在侧边。"
+        },
+        {
+          "speaker": "cen",
+          "text": "八行，已经比原稿少一半。他们说看不懂，我不能再删到只剩纸很旧。"
+        },
+        {
+          "speaker": "player",
+          "text": "第三行的两个词什么意思？"
+        },
+        {
+          "speaker": "cen",
+          "text": "异文和补配。异文是不同抄本里的不同字，补配是后人添的纸……哦，问题在这儿。"
+        },
+        {
+          "speaker": "xun",
+          "text": "你以为大家学会两个词，才能看两张纸。其实他们先想知道那页为什么颜色不一样。"
+        },
+        {
+          "speaker": "cen",
+          "text": "我不是要考人。只是写白一点，怕把细节说错。"
+        },
+        {
+          "speaker": "player",
+          "text": "能先写颜色不同的原因，再放术语吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "能。也把不确定那部分单列，别跟确定的挤一段。你们刚才如果没问，我还会觉得是大家没耐心。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她将说明牌翻过来，在背面试写一句。荀叶读到一半举手，岑月把笔放下。"
+        },
+        {
+          "speaker": "xun",
+          "text": "你这里写后来补的。是哪年后来？读起来像昨天有人偷偷贴了。"
+        },
+        {
+          "speaker": "cen",
+          "text": "没有确切年份，最早见到它的记录在四十年前。应该这样说，我刚才又图省字。"
+        },
+        {
+          "speaker": "player",
+          "text": "改完要再让人读？"
+        },
+        {
+          "speaker": "cen",
+          "text": "要，找没看过原稿的人。你们被我讲了一个上午，已经不算。"
+        },
+        {
+          "speaker": "xun",
+          "text": "那你也读读我的预报。云量、阵风，我写得很熟，不知道人家以为是什么意思。"
+        },
+        {
+          "speaker": "cen",
+          "text": "可以，但午后。我现在饿得看什么都像后加的饼，注意力不值得信。"
+        },
+        {
+          "speaker": "stage",
+          "text": "岑月带走说明牌，没有让它继续站在入口等人证明自己读不懂。"
+        }
+      ]
+    },
+    {
+      "id": "valley_cen_03",
+      "title": "父亲没有说过的那句话",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "autumn",
+      "location": "观星台档案室",
+      "participants": [
+        "cen",
+        "player",
+        "xun"
+      ],
+      "requires": [
+        "valley_cen_02"
+      ],
+      "sets": [
+        "valley_cen_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "一封家信放在修补纸旁，岑月没有将它夹进公用档案。信纸干净，字却改了很多次。"
+        },
+        {
+          "speaker": "cen",
+          "text": "家里想给旧照片写一句话，说父亲年轻时立志守着观星台。他没说过，至少我没听过。"
+        },
+        {
+          "speaker": "player",
+          "text": "照片里他在这里工作？"
+        },
+        {
+          "speaker": "cen",
+          "text": "做过三个冬天的杂事，还嫌路远。家里觉得嫌路远不好听，我却记得他每次回来都先泡脚，那才是真的。"
+        },
+        {
+          "speaker": "xun",
+          "text": "你要在纪念册上写嫌路远？"
+        },
+        {
+          "speaker": "cen",
+          "text": "可以写在观星台做过冬工，常带着冻红的手回家，不替他编志向。我知道家里想体面，也不想把每个人都写成从小知道一生的人。"
+        },
+        {
+          "speaker": "stage",
+          "text": "荀叶将一只热茶杯推过来，停在离信两掌宽的地方。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我小时候说想做糕点，现在在看天。幸好没人给我出纪念册，前后都对不上。"
+        },
+        {
+          "speaker": "player",
+          "text": "家里会听你的意见吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "不一定。我可以说不以我的名义署那句，也给出能核实的文字，不能把我的版本叫唯一真相。"
+        },
+        {
+          "speaker": "xun",
+          "text": "你自己也有记错的时候？"
+        },
+        {
+          "speaker": "cen",
+          "text": "有。我记得他有件灰外套，照片里是褐色，母亲说灰的是另一个人。我没坚持回忆一定比照片可靠。"
+        },
+        {
+          "speaker": "player",
+          "text": "那封信要寄吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "要，删掉我写的你们这样不尊重他。太像指责，我也不知道父亲会不会喜欢那种漂亮话，只能说我不愿意代他认。"
+        },
+        {
+          "speaker": "xun",
+          "text": "茶快凉了。"
+        },
+        {
+          "speaker": "cen",
+          "text": "你今天提醒吃喝很勤。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我在拖着不回站里看预报结果。不是无缘无故体贴。"
+        },
+        {
+          "speaker": "cen",
+          "text": "那我们都先做自己的难事，茶留着。你回来要是只想骂天气，我能听十分钟，再长得明天。"
+        }
+      ]
+    },
+    {
+      "id": "valley_cen_04",
+      "title": "修补记录也会被留下",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "winter",
+      "location": "观星台档案室",
+      "participants": [
+        "cen",
+        "player",
+        "xun"
+      ],
+      "requires": [
+        "valley_cen_03"
+      ],
+      "sets": [
+        "valley_cen_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "岑月将新目录订好，在最末一页写上本次修补材料与日期。桌边摆着一盆凉掉的浆糊。"
+        },
+        {
+          "speaker": "cen",
+          "text": "这一盆调坏了，太稠，已经废了。别说可惜，省这点材料会把纸粘得像饼，后来拆更费。"
+        },
+        {
+          "speaker": "player",
+          "text": "要写进记录吗？"
+        },
+        {
+          "speaker": "cen",
+          "text": "写，未使用那一批也标上。别人看到我领了这么多材料却没用在纸上，不该靠猜我是不是偷懒。"
+        },
+        {
+          "speaker": "xun",
+          "text": "展览那边有人问到缺页，愿意去查家里的旧箱子。"
+        },
+        {
+          "speaker": "cen",
+          "text": "谢谢他们，不过不保证能找到。我给了原页特征，别把所有旧纸都搬来，里头可能还有他们不想给外人看的家事。"
+        },
+        {
+          "speaker": "stage",
+          "text": "荀叶把一份最近的预报放下，岑月没有立刻拿它去压卷起的档案。"
+        },
+        {
+          "speaker": "player",
+          "text": "你那封家信怎么样了？"
+        },
+        {
+          "speaker": "cen",
+          "text": "母亲删掉了立志，留下冬工。她另写了父亲最爱吃哪种糕，这个我也记得，我们就用那句。"
+        },
+        {
+          "speaker": "xun",
+          "text": "挺好，至少糕有证人。"
+        },
+        {
+          "speaker": "cen",
+          "text": "有，但她记得红豆，我记得白豆。最后写豆糕，不是什么都需要我们决出胜负。"
+        },
+        {
+          "speaker": "player",
+          "text": "第三页还是没找到？"
+        },
+        {
+          "speaker": "cen",
+          "text": "没有，目录现在明确标着缺页。明年的人来接，不会以为是我今天把它弄丢，也不会以为故事已经完整。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我明年还想来读那些巡夜记录，里面天气和站里的不一定一样。"
+        },
+        {
+          "speaker": "cen",
+          "text": "欢迎，提前告诉我日期。我也得休假，不能只因为我喜欢这些纸，就默认我一直坐在它们旁边。"
+        },
+        {
+          "speaker": "stage",
+          "text": "她盖好浆糊，拿起自己的旧围巾，找了两回才发现围巾一直搭在肩上。荀叶笑出声，这回她没急着解释。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xun_01",
+      "title": "没有下在本站的雨",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "spring",
+      "location": "气象站门口",
+      "participants": [
+        "xun",
+        "player",
+        "cen"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_xun_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "荀叶把昨日预报从板上取下，纸面上有两滴很小的水痕。站里的雨量筒几乎是空的。"
+        },
+        {
+          "speaker": "xun",
+          "text": "预报有雨，本站没有。我原来想写雨带提前转向，这是真的，也听着像我在替自己找人背锅。"
+        },
+        {
+          "speaker": "player",
+          "text": "山口下了？"
+        },
+        {
+          "speaker": "xun",
+          "text": "下了不到一刻钟。湿地那边多一些。所以不能拿那里下过，证明这张本站预报完全正确。"
+        },
+        {
+          "speaker": "cen",
+          "text": "你写的可能有雨，别人听见的却是会下。是哪里把可能讲丢了？"
+        },
+        {
+          "speaker": "xun",
+          "text": "早上有人问能不能晒豆子，我怕他觉得我没本事，说了最好别晒。他后来屋里没地方，豆子发潮了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你知道他损失多少？"
+        },
+        {
+          "speaker": "xun",
+          "text": "还不知道，得去问。也不能我一听就承诺全赔，我没有那个收入，站里需要按制度处理。"
+        },
+        {
+          "speaker": "stage",
+          "text": "岑月将新预报纸递来，荀叶在标题下写下时间，又停了很久。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我想每一项都加可能，结果读起来全是不确定，谁还用得上。"
+        },
+        {
+          "speaker": "cen",
+          "text": "具体说哪一片、哪段时辰、不确定在哪。不是在句尾撒一把可能就完了。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天这张怎么写？"
+        },
+        {
+          "speaker": "xun",
+          "text": "下午云多，短时雨仍有可能，位置不确定。风的变化较明确，另列。决定晒不晒还是居民的事，我要把依据给足。"
+        },
+        {
+          "speaker": "cen",
+          "text": "这一版我能看懂。不要为了补昨天，就把今天写得更肯定。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我差点真这么干。今早煮蛋也想精确到秒，结果忘了锅里原来是冷水。"
+        },
+        {
+          "speaker": "player",
+          "text": "熟了吗？"
+        },
+        {
+          "speaker": "xun",
+          "text": "熟得很老。至少这个结果不用等一整天才能知道。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xun_02",
+      "title": "问号没有领工资",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "summer",
+      "location": "气象站值班室",
+      "participants": [
+        "xun",
+        "player",
+        "cen"
+      ],
+      "requires": [
+        "valley_xun_01"
+      ],
+      "sets": [
+        "valley_xun_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "桌上的风向标维护记录压着半张新预报。荀叶从窗边看了第三次，云还是没按他的草图移动。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我说不知道的时候，总觉得今天的工钱白拿。知道一点的时候，又急着把一点说成全部。"
+        },
+        {
+          "speaker": "player",
+          "text": "这几天最确定什么？"
+        },
+        {
+          "speaker": "xun",
+          "text": "午后热，地面升温快。风向变动大，阵雨位置不好判。仪器没坏，但北边记录晚送了半日，判断少一块。"
+        },
+        {
+          "speaker": "cen",
+          "text": "少的那块写出来，不要藏在工作人员备注里。用预报的人也得知道今天依据不齐。"
+        },
+        {
+          "speaker": "xun",
+          "text": "有人会说那还看你做什么。"
+        },
+        {
+          "speaker": "player",
+          "text": "有人已经这样说了？"
+        },
+        {
+          "speaker": "xun",
+          "text": "有，昨天。我嘴上说您说得对，心里把他骂了三遍，回来还想发一张全对的让他看看。"
+        },
+        {
+          "speaker": "stage",
+          "text": "岑月将凳子搬到窗边，离堆满记录的桌子远了一点。"
+        },
+        {
+          "speaker": "cen",
+          "text": "你工作是发布今天的天气判断，不是每天赢回一个人的评价。可你生气也可以，不用装特别从容。"
+        },
+        {
+          "speaker": "xun",
+          "text": "我一点也不从容。我连午饭碗都放反，汤洒进盘里，还装作本来想拌饭。"
+        },
+        {
+          "speaker": "player",
+          "text": "新预报要延后吗？"
+        },
+        {
+          "speaker": "xun",
+          "text": "不延到过时。先按时发已有内容，标数据缺口，北边补来再更新，更新时间写清。不能等我有信心，大家一天都过去。"
+        },
+        {
+          "speaker": "cen",
+          "text": "你把旧版也留着？"
+        },
+        {
+          "speaker": "xun",
+          "text": "留，两版别混。更正不是把上一版悄悄撕了，像昨天的我根本没上班。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天会有人来问晒豆子吗？"
+        },
+        {
+          "speaker": "xun",
+          "text": "可能。我会把话讲具体，不替他做决定，也不因为上次错了就只说随你。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他将风向维护单归回原夹，露出下面那张预报，终于没有再往肯定那栏加重笔迹。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xun_03",
+      "title": "一张湿掉的更正纸",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "autumn",
+      "location": "气象站外走廊",
+      "participants": [
+        "xun",
+        "player",
+        "cen"
+      ],
+      "requires": [
+        "valley_xun_02"
+      ],
+      "sets": [
+        "valley_xun_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "更正纸被斜雨打湿，墨沿着木板流下。荀叶抱着新纸站在门里，鞋尖仍然是干的。"
+        },
+        {
+          "speaker": "xun",
+          "text": "旧告示写傍晚以后雨渐弱，现在偏东那片还会持续。我不想出去贴，像亲手把错送到大家眼前。"
+        },
+        {
+          "speaker": "player",
+          "text": "已经有人看过旧的了。"
+        },
+        {
+          "speaker": "xun",
+          "text": "知道，我在这儿躲了五分钟。五分钟听着短，可外头有人正按旧消息安排收东西。"
+        },
+        {
+          "speaker": "cen",
+          "text": "雨披在门后。我陪你到廊下，之后你自己贴。我替你贴，也改不了那张纸是谁写的。"
+        },
+        {
+          "speaker": "stage",
+          "text": "荀叶穿好雨披，出去时纸角碰到门框，撕出一个小缺口。"
+        },
+        {
+          "speaker": "xun",
+          "text": "这纸也不配合。"
+        },
+        {
+          "speaker": "cen",
+          "text": "纸没报过天气，今天别算它责任。"
+        },
+        {
+          "speaker": "xun",
+          "text": "好。新版写到午夜，明早六点再更新。我得把值班交接补好，不能我撑到午夜，以为后面自然有人懂。"
+        },
+        {
+          "speaker": "player",
+          "text": "已经连续值了多久？"
+        },
+        {
+          "speaker": "xun",
+          "text": "今天八个钟头，有中间休息，不能说我一直站着。但现在确实困，我该交班，不该越困越想证明能干。"
+        },
+        {
+          "speaker": "cen",
+          "text": "交接里哪些是实测，哪些是判断，分开。"
+        },
+        {
+          "speaker": "xun",
+          "text": "写了，还留了风向变化那项没看清。我以前最怕交给别人问号，觉得问号不该领工资。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在呢？"
+        },
+        {
+          "speaker": "xun",
+          "text": "问号放对地方，比句号放错地方好。哎，这句像说明牌，我删掉，不写在给居民的纸上。"
+        },
+        {
+          "speaker": "stage",
+          "text": "新纸贴高了一些，旧版留在旁边，盖上已更新的日期。荀叶回屋第一件事是倒掉冷茶，没有继续靠它提神。"
+        }
+      ]
+    },
+    {
+      "id": "valley_xun_04",
+      "title": "晴天也做更正",
+      "kind": "personal",
+      "chapter_min": 10,
+      "season": "winter",
+      "location": "气象站值班室",
+      "participants": [
+        "xun",
+        "player",
+        "cen"
+      ],
+      "requires": [
+        "valley_xun_03"
+      ],
+      "sets": [
+        "valley_xun_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "窗外晴着，荀叶面前却摆了一张更正单。昨日夜温的记录被重新核了两遍。"
+        },
+        {
+          "speaker": "xun",
+          "text": "读数抄错一位。没有影响那场雨的判断，也得改，不能只有闹出事情的错才算错。"
+        },
+        {
+          "speaker": "player",
+          "text": "你现在不紧张？"
+        },
+        {
+          "speaker": "xun",
+          "text": "紧张，还先看看有没有人站门外。可这回没拖五分钟，先写更正，再去烧水。"
+        },
+        {
+          "speaker": "cen",
+          "text": "站里的说明读起来短了，信息反而多一些。我把术语表单放一边，不逼每个人从头读。"
+        },
+        {
+          "speaker": "xun",
+          "text": "谢谢。不过你把冰点那句写得太像档案年代，我也得停一停才懂。咱们别互相只夸。"
+        },
+        {
+          "speaker": "stage",
+          "text": "岑月笑着把纸拿回来，荀叶指向一处长句，指腹上留着今天的蓝墨。"
+        },
+        {
+          "speaker": "player",
+          "text": "以后想留在气象站？"
+        },
+        {
+          "speaker": "xun",
+          "text": "想，得先通过考核，不是说我学会认错就自动合格。仪器维护我仍不熟，老师让我补做记录，我不能只练一张好看的告示。"
+        },
+        {
+          "speaker": "cen",
+          "text": "你过冬想要什么？"
+        },
+        {
+          "speaker": "xun",
+          "text": "一双不漏的靴子，半天没有人问会不会下雨。你呢？"
+        },
+        {
+          "speaker": "cen",
+          "text": "不用闻浆糊的一天。"
+        },
+        {
+          "speaker": "xun",
+          "text": "那我们可以去吃饭，选一个有窗的地方，看见云也不解释，闻见饭也不说它是哪年的。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天下班几点？"
+        },
+        {
+          "speaker": "xun",
+          "text": "按表六点，已经有人接。新来的记录不一定像我的，我只核需要交接的部分，不替他把每个字重写。"
+        },
+        {
+          "speaker": "stage",
+          "text": "水壶响了，荀叶去关炉子。回到桌边，他在更正单上补齐发布时刻，抬头看天时没有再把眉头皱起来。"
+        }
+      ]
+    },
+    {
+      "id": "valley_pao_01",
+      "title": "放在那年漏雨的下面",
+      "kind": "personal",
+      "chapter_min": 6,
+      "season": "spring",
+      "location": "旧械仓库",
+      "participants": [
+        "pao",
+        "player",
+        "ji"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_pao_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "泡桐在三排箱子之间走得很熟，停下来却没拿到要找的垫圈。他又退回两个箱子。"
+        },
+        {
+          "speaker": "pao",
+          "text": "原来在那年漏雨搬下来的箱子里。不是这年，是屋顶还没补那年，你应该没来过。"
+        },
+        {
+          "speaker": "player",
+          "text": "箱上没有编号？"
+        },
+        {
+          "speaker": "pao",
+          "text": "有，纸牌掉了。东西我记得，犯不着每只垫圈都给它取身份证。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我等了四十分钟。你可以记得，我的车不能跟着你一起回忆屋顶。"
+        },
+        {
+          "speaker": "pao",
+          "text": "急什么，还不是找到了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "箱里只有螺帽，泡桐的手停在半空。季平没有接话。"
+        },
+        {
+          "speaker": "pao",
+          "text": "没找到，刚才那句收回。你今天要的不是这些。"
+        },
+        {
+          "speaker": "player",
+          "text": "别的人怎么找东西？"
+        },
+        {
+          "speaker": "pao",
+          "text": "来问我。我不在就等一等。十几年这么过，也没……好，上个月就等过两天。"
+        },
+        {
+          "speaker": "ji",
+          "text": "你说想退休，我来谈盘点。若每件都得问你，退休以后还得住门口，这不是退，只是换把椅子。"
+        },
+        {
+          "speaker": "pao",
+          "text": "我知道。我怕一写完，大家发现随便谁都能干，我这些年就像只负责站着。"
+        },
+        {
+          "speaker": "player",
+          "text": "你知道哪些不能放一起，这个也需要写。"
+        },
+        {
+          "speaker": "pao",
+          "text": "油污件、受潮件、待检件，当然分开。光号码不够，有些东西名字相同，状态不同。"
+        },
+        {
+          "speaker": "ji",
+          "text": "先从这三排做，不是要你今晚把十几年写完。工时照付，盘点是工作，不叫你临退休贡献一下。"
+        },
+        {
+          "speaker": "pao",
+          "text": "这话好。那垫圈今天找不到，我先给你明确答复，明早十点再核，不让你一直站着听漏雨的故事。"
+        }
+      ]
+    },
+    {
+      "id": "valley_pao_02",
+      "title": "泡桐不在的时候",
+      "kind": "personal",
+      "chapter_min": 6,
+      "season": "summer",
+      "location": "旧械仓库",
+      "participants": [
+        "pao",
+        "player",
+        "ji"
+      ],
+      "requires": [
+        "valley_pao_01"
+      ],
+      "sets": [
+        "valley_pao_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "新牌子钉在架侧，泡桐把钥匙交到桌上，又收回来一次，才终于放下。"
+        },
+        {
+          "speaker": "pao",
+          "text": "今天试半天，我不在这里。两件货按清单发，待检那箱不能发，备注用红线圈了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你去哪里？"
+        },
+        {
+          "speaker": "pao",
+          "text": "茶棚，喝茶。说出来总觉得像偷懒，好像人坐在茶棚，仓库就会跑。"
+        },
+        {
+          "speaker": "ji",
+          "text": "若有不明白的，我记下来，不先把人全叫去找你。真涉及危险的停住，那不叫不会。"
+        },
+        {
+          "speaker": "pao",
+          "text": "知道。你们先找一遍，那只长柄量尺在哪？"
+        },
+        {
+          "speaker": "ji",
+          "text": "西二架，中层，编号十二。"
+        },
+        {
+          "speaker": "pao",
+          "text": "错，在东边，我昨天挪……等等，没改记录。那你答的没错，是我让清单说谎了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "泡桐拿起笔，写下移架时间。钥匙仍留在桌上，没跟着他的手一起走。"
+        },
+        {
+          "speaker": "player",
+          "text": "还有别的没记的？"
+        },
+        {
+          "speaker": "pao",
+          "text": "肯定有。不能我刚写了清单，就假定记忆全部变成纸。今天就是找这种错，不是考你们能不能猜我。"
+        },
+        {
+          "speaker": "ji",
+          "text": "下午五点把问题给你，没问题也给一张记录，免得你以为没人敢说。"
+        },
+        {
+          "speaker": "pao",
+          "text": "我会看，明天改。我如果四点跑回来，你们别笑，我可能只是茶喝多了。"
+        },
+        {
+          "speaker": "player",
+          "text": "茶棚也有地方。"
+        },
+        {
+          "speaker": "pao",
+          "text": "你把我借口堵得很快。好，我带一本旧书，真坐到五点。午饭谁的？"
+        },
+        {
+          "speaker": "ji",
+          "text": "各自的，仓库暂时没有因为你休息就没人吃饭。"
+        },
+        {
+          "speaker": "stage",
+          "text": "泡桐出了门，走到半道摸了摸空下来的钥匙袋，没有回头，改摸出买茶的钱数了一遍。"
+        }
+      ]
+    },
+    {
+      "id": "valley_pao_03",
+      "title": "清出去的不是年月",
+      "kind": "personal",
+      "chapter_min": 6,
+      "season": "autumn",
+      "location": "旧械仓库后间",
+      "participants": [
+        "pao",
+        "player",
+        "ji"
+      ],
+      "requires": [
+        "valley_pao_02"
+      ],
+      "sets": [
+        "valley_pao_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "后间分出待评估与可回收两堆，泡桐抱着一个锈空盒，找不到该往哪边放。"
+        },
+        {
+          "speaker": "pao",
+          "text": "这盒以前装一组小齿轮。那组早发走了，盒留下，看见它我还知道当时怎么摆。"
+        },
+        {
+          "speaker": "player",
+          "text": "盒子还能用吗？"
+        },
+        {
+          "speaker": "pao",
+          "text": "底穿了，拿着手会沾锈。不能用。我就是不想把那年的事也清了。"
+        },
+        {
+          "speaker": "ji",
+          "text": "拍一张，写用途，盒本身走回收。记录不是替你丢掉记忆，是让别人不必留一个穿底盒才能懂。"
+        },
+        {
+          "speaker": "pao",
+          "text": "你先别说得这么漂亮。我试着放下，真舍不得我自己拿回家，不占公共仓。"
+        },
+        {
+          "speaker": "stage",
+          "text": "季平把回收重量记上，留着空盒那一项没填，等泡桐自己决定。"
+        },
+        {
+          "speaker": "player",
+          "text": "皮普问的旧传动件找到了？"
+        },
+        {
+          "speaker": "pao",
+          "text": "找到了待检的三件，已经通知只有状态确认才能给。以前我会说拿去试试，反正他懂，责任就顺口飞过去了。"
+        },
+        {
+          "speaker": "ji",
+          "text": "新记录有损坏照片，这一点很好，我不用隔着三封信猜还能不能用。"
+        },
+        {
+          "speaker": "pao",
+          "text": "别夸太早，那照片忘拍尺寸，补了第二回。学这套比我想的费工夫，退休日期往后挪了两旬，但不无限挪。"
+        },
+        {
+          "speaker": "player",
+          "text": "你自己同意的？"
+        },
+        {
+          "speaker": "pao",
+          "text": "同意，工钱另算。不能嘴上说我愿意，然后回家怪大家不让我走。后续谁管，我已经交接一半。"
+        },
+        {
+          "speaker": "ji",
+          "text": "你这盒打算怎样？"
+        },
+        {
+          "speaker": "pao",
+          "text": "走回收。照片给我一张，我在背面写当年漏雨的位置，别人不用看，这个是我自己的。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他把空盒放下，抱了很久的手臂忽然空出来，不习惯似的甩了两下，又去端自己的茶缸。"
+        }
+      ]
+    },
+    {
+      "id": "valley_pao_04",
+      "title": "最后一次不是最后一切",
+      "kind": "personal",
+      "chapter_min": 6,
+      "season": "winter",
+      "location": "旧械仓库门口",
+      "participants": [
+        "pao",
+        "player",
+        "ji"
+      ],
+      "requires": [
+        "valley_pao_03"
+      ],
+      "sets": [
+        "valley_pao_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "泡桐将钥匙与交接本并排放在桌上。他的旧茶缸装进布袋，柜里空出一个圆印。"
+        },
+        {
+          "speaker": "pao",
+          "text": "今天交完，不安排以后每个周一来看看。来看看很快就变成顺手一干，我太知道自己了。"
+        },
+        {
+          "speaker": "player",
+          "text": "真的不来了吗？"
+        },
+        {
+          "speaker": "pao",
+          "text": "可以来探望，先约，不发货不代班。紧急情况按新值班表，不是谁越熟越先叫谁。"
+        },
+        {
+          "speaker": "ji",
+          "text": "你的最后一笔盘点费在这里，另有一处状态未确认，已经按待检交接，没有要求你退休前硬判。"
+        },
+        {
+          "speaker": "pao",
+          "text": "那一处我本来还想写大概可用，省得留尾巴。后来删了，不能为了我走得整齐，给别人一个假答案。"
+        },
+        {
+          "speaker": "stage",
+          "text": "季平递过单据，泡桐签完名字，将笔放回公用筒里，没有揣走。"
+        },
+        {
+          "speaker": "player",
+          "text": "明天做什么？"
+        },
+        {
+          "speaker": "pao",
+          "text": "睡到自然醒，之后去买豆腐。我跟家里说了，别一退休就给我排整天活，窗户、柴火、屋檐全等着我，多得像另一个仓库。"
+        },
+        {
+          "speaker": "ji",
+          "text": "他们答应？"
+        },
+        {
+          "speaker": "pao",
+          "text": "笑了，说总得做几样。我答应每天一件，剩下看体力。可别把我写成终于卸下重担，我有点空得难受，也是真的。"
+        },
+        {
+          "speaker": "player",
+          "text": "茶缸要换新的吗？"
+        },
+        {
+          "speaker": "pao",
+          "text": "这个够用，缺口不碰嘴。待检的是机械件，不是我家每一个旧物都得通过你们验收。"
+        },
+        {
+          "speaker": "ji",
+          "text": "明白，那就不检查。我来这里本来要提两只碗，你已经不用替我找。"
+        },
+        {
+          "speaker": "pao",
+          "text": "西一架下层，编号七……我最后说一次。你自己照清单核，我可没保证记忆还对。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他走到门外，摸了摸空钥匙袋，将它折进布袋。门仍开着，里面有人正按新牌子找货。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luye_01",
+      "title": "最短的不是那一条",
+      "kind": "personal",
+      "chapter_min": 4,
+      "season": "spring",
+      "location": "湿地小桥",
+      "participants": [
+        "luye",
+        "niao",
+        "player"
+      ],
+      "requires": [],
+      "sets": [
+        "valley_luye_01"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "鹿野的尺从桥头拉到路牌，图上画出一条细直线。鸟笛却从洗衣台那边绕过来。"
+        },
+        {
+          "speaker": "luye",
+          "text": "你刚才多走了一百八十步。那边有桥，为什么不直接过？"
+        },
+        {
+          "speaker": "niao",
+          "text": "桥板一颤，我记录箱里的玻璃片碰得响。那条绕路地平，跟我懒不懒没关系。"
+        },
+        {
+          "speaker": "player",
+          "text": "地图上标了桥板状态吗？"
+        },
+        {
+          "speaker": "luye",
+          "text": "只标木桥。承重没问题，我问过维修的人。"
+        },
+        {
+          "speaker": "niao",
+          "text": "能承重和人愿不愿意走不是一件事。抱婴儿的人、推小车的人，听见响也会慢下。"
+        },
+        {
+          "speaker": "luye",
+          "text": "那我写桥面有晃动，另标平缓通路。最短线还是留，给没有这个顾虑的人。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他在图角写了一行，字贴着边，差点挤到水里去。"
+        },
+        {
+          "speaker": "player",
+          "text": "你画路之前问过常走的人？"
+        },
+        {
+          "speaker": "luye",
+          "text": "问过去哪儿，没问为什么走这边。我以为那些理由太零碎，图上放不下。"
+        },
+        {
+          "speaker": "niao",
+          "text": "这儿去码头经过洗衣台，我能顺便给家里送布。你那条最短线，把我分成一个只负责走路的人。"
+        },
+        {
+          "speaker": "luye",
+          "text": "你说得有点好听，也有点气人。"
+        },
+        {
+          "speaker": "player",
+          "text": "旁边做一页通路说明？"
+        },
+        {
+          "speaker": "luye",
+          "text": "可以，常见需求分开，别假定一条线对所有人最好。不过得查实际情况，不能看一个人绕，就替所有人决定。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你查的时候先收尺，有人以为你来收回门前地，已经关门了。"
+        },
+        {
+          "speaker": "luye",
+          "text": "原来是这个。上午我还在想，这片居民都不爱聊天。"
+        },
+        {
+          "speaker": "stage",
+          "text": "鹿野把长尺收进袋，走向洗衣台那条路，到了转角才想起自己的午饭放在桥另一头。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luye_02",
+      "title": "树荫算不算距离",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "summer",
+      "location": "山道岔口",
+      "participants": [
+        "luye",
+        "player",
+        "niao"
+      ],
+      "requires": [
+        "valley_luye_01"
+      ],
+      "sets": [
+        "valley_luye_02"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "鹿野沿直路走回来，帽沿往下滴汗。树荫那条路上坐着两位未报姓名的挑担人。"
+        },
+        {
+          "speaker": "luye",
+          "text": "直路短三百步，热得我像在锅里走。中午两条路的差别，比春天测的时候大多了。"
+        },
+        {
+          "speaker": "player",
+          "text": "图要分季节？"
+        },
+        {
+          "speaker": "luye",
+          "text": "要写暴晒时段、坡度和能歇脚的位置。不是每样都画进主图，随图说明也行。我不能总拿版面小当借口。"
+        },
+        {
+          "speaker": "niao",
+          "text": "东边那处树荫在私人院外，别直接标休息点。昨天主人问为什么总有人把筐靠他门上。"
+        },
+        {
+          "speaker": "luye",
+          "text": "我去征求同意，不愿意就不标。图把地方变得容易找到，也可能给人增加麻烦。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他把帽子摘下来拧了一下，拧出的水落在自己的鞋尖。"
+        },
+        {
+          "speaker": "player",
+          "text": "你要喝水吗？"
+        },
+        {
+          "speaker": "luye",
+          "text": "要。我原以为带的够，还分半壶给人，剩下不够又不好意思说。这也不用写地图，是我算得太漂亮。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你图上的水源还得标是不是饮用水，有一处只是洗工具的。上回我差点按那符号去装壶。"
+        },
+        {
+          "speaker": "luye",
+          "text": "已核两处，还剩第三处，没核之前先不放可饮用标。我不亲口试，应该查管理记录和检测情况。"
+        },
+        {
+          "speaker": "player",
+          "text": "这季改图费用谁出？"
+        },
+        {
+          "speaker": "luye",
+          "text": "初稿遗漏由我出修订工时，新增调查另谈。不能全拿公共钱替我改错，也不能所有新需求都说是我漏了。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你终于开始谈钱了。"
+        },
+        {
+          "speaker": "luye",
+          "text": "鞋磨坏得比我预估快，总得有人付。你喝水慢点，那是我最后半壶，刚才逞过一回，我不想逞第二回。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luye_03",
+      "title": "不画进去的门",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "autumn",
+      "location": "镇边测绘桌",
+      "participants": [
+        "niao",
+        "luye",
+        "player"
+      ],
+      "requires": [
+        "valley_luye_02"
+      ],
+      "sets": [
+        "valley_luye_03"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "鹿野将一处院门从公开图上擦掉，另一张内部记录仍保留地界。鸟笛看着那片空白。"
+        },
+        {
+          "speaker": "niao",
+          "text": "位置确实在那里，为什么删？"
+        },
+        {
+          "speaker": "luye",
+          "text": "有人按图穿院，主人不同意。不是路的地方，我不该因为它能省二十步，就画得像可通行。"
+        },
+        {
+          "speaker": "player",
+          "text": "原图写了私有吗？"
+        },
+        {
+          "speaker": "luye",
+          "text": "小字写了，线却跟公路一样醒目。我不能指着小字，说是别人没认真看。图本身也在说话。"
+        },
+        {
+          "speaker": "niao",
+          "text": "内部的地界又得准确，两种图不能混。"
+        },
+        {
+          "speaker": "luye",
+          "text": "对，一张为导航，一张为管理，目的写在封面。不是删掉信息就万能，错误的是把一种信息当成另一种许可。"
+        },
+        {
+          "speaker": "stage",
+          "text": "他用橡皮擦了两次，纸薄出一小片，决定重画，不再往破处涂白。"
+        },
+        {
+          "speaker": "player",
+          "text": "居民对你还有意见？"
+        },
+        {
+          "speaker": "luye",
+          "text": "有位老人说旧图好，新图看不见以前的路。我原来觉得他念旧，后来问清，他在旧地名下找自家，不认识新编号。"
+        },
+        {
+          "speaker": "niao",
+          "text": "可以留旧地名索引。"
+        },
+        {
+          "speaker": "luye",
+          "text": "已经做，不过同名的两处要注明，不替他们选哪一个才正宗。地名不是我画图那天才开始活。"
+        },
+        {
+          "speaker": "player",
+          "text": "你会给每个人解释吗？"
+        },
+        {
+          "speaker": "luye",
+          "text": "做两场固定的核图，留意见表。不可能挨户永远说，我得有结束工时。鸟的那张分布图也要写日期。"
+        },
+        {
+          "speaker": "niao",
+          "text": "写了，还有观察缺口，别替我擦得像一张空白失误。"
+        },
+        {
+          "speaker": "luye",
+          "text": "不擦。你看，我这回先问一句：这片没有记录，还是确定没有鸟？"
+        },
+        {
+          "speaker": "stage",
+          "text": "鸟笛指了指标注空缺的线，鹿野将铅笔停在旁边，没有急着替她填色。"
+        }
+      ]
+    },
+    {
+      "id": "valley_luye_04",
+      "title": "地图背面的饭店",
+      "kind": "personal",
+      "chapter_min": 8,
+      "season": "winter",
+      "location": "月灯食堂",
+      "participants": [
+        "luye",
+        "player",
+        "niao"
+      ],
+      "requires": [
+        "valley_luye_03"
+      ],
+      "sets": [
+        "valley_luye_04"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "新图摊在干桌上，饭菜暂时放到旁桌。鹿野把压图的碗换成石镇纸，碗底仍留着一圈潮印。"
+        },
+        {
+          "speaker": "luye",
+          "text": "正式版今日交，有效日期和下次复核时间都写了。不叫永久精确地图，那名字我现在看着就发虚。"
+        },
+        {
+          "speaker": "player",
+          "text": "所有人都满意？"
+        },
+        {
+          "speaker": "luye",
+          "text": "没有。有人想把摊位画大，有人不愿意旁边那家也标。事实该核，竞争不能全靠我这支笔替他们吵完。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你把食堂放背面的索引了，他们说正面找不到。"
+        },
+        {
+          "speaker": "luye",
+          "text": "版面确实有限，正面给道路，背面给地点。我会在正面写索引位置，不加吃过都说好那种评价，那不是测绘结果。"
+        },
+        {
+          "speaker": "stage",
+          "text": "鸟笛把图翻过来，手指顺着数字找了一遍，点到一处印错的行号。"
+        },
+        {
+          "speaker": "niao",
+          "text": "这里指向的是洗衣台，想喝汤的人会带着碗迷路。"
+        },
+        {
+          "speaker": "luye",
+          "text": "印前核漏了，我现在出订正条。别说只是小错，找错地方的人不会因为我的错小，就少走半里。"
+        },
+        {
+          "speaker": "player",
+          "text": "要重印全部吗？"
+        },
+        {
+          "speaker": "luye",
+          "text": "这一批还没发完，先加订正、改电子底稿，费用我承担。等下一批印，不能把纸全扔了假装干净。"
+        },
+        {
+          "speaker": "niao",
+          "text": "你今晚又要加班？"
+        },
+        {
+          "speaker": "luye",
+          "text": "只做这个行号，一刻钟。其他意见明天整理，不拿每次发现问题当成取消晚饭的理由。"
+        },
+        {
+          "speaker": "player",
+          "text": "菜已经好了。"
+        },
+        {
+          "speaker": "luye",
+          "text": "那先收图。今天我想吃食堂，不想研究它离门口有多少步。饭店在地图背面，饭可不能一直放旁桌。"
+        },
+        {
+          "speaker": "stage",
+          "text": "鹿野将图卷回筒里，拿起筷子，发现自己坐的是别人惯坐的靠炉位置，问过以后才安心坐下。"
+        }
+      ]
+    }
+  ]
+}

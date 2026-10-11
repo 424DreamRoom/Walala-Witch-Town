@@ -1,0 +1,30 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4050 Laptop GPU
+
+THOUGHT TEST isolated new game starts: PASS
+THOUGHT TEST refill still fills shared watering can: PASS
+THOUGHT TEST refill reads as a short character thought: PASS
+THOUGHT TEST feedback uses a compact bubble: PASS
+THOUGHT TEST bubble sits above witch: PASS
+THOUGHT TEST bubble leaves movement input alone: PASS
+THOUGHT TEST capture refill_zh_CN: PASS
+THOUGHT TEST bubble follows player movement: PASS
+THOUGHT TEST pause hides the thought behind modals: PASS
+THOUGHT TEST closing modal restores an unexpired thought: PASS
+THOUGHT TEST live thought translation en: PASS
+THOUGHT TEST capture refill_en: PASS
+THOUGHT TEST live thought translation ja: PASS
+THOUGHT TEST capture refill_ja: PASS
+THOUGHT TEST live thought translation zh_TW: PASS
+THOUGHT TEST capture refill_zh_TW: PASS
+THOUGHT TEST live thought translation zh_CN: PASS
+THOUGHT TEST capture refill_zh_CN: PASS
+THOUGHT TEST long thoughts wrap inside compact bubble: PASS
+THOUGHT TEST capture wrapped_thought: PASS
+THOUGHT TEST edge position stays below clock and above hotbar: PASS
+THOUGHT TEST capture edge_thought: PASS
+THOUGHT TEST thought fades before expiry: PASS
+THOUGHT TEST thought disappears automatically: PASS
+THOUGHT TEST new thought replaces expired one: PASS
+THOUGHT TEST settlement hides character thought: PASS
+THOUGHT VERIFY END failures=0

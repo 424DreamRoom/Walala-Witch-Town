@@ -1,0 +1,3154 @@
+{
+  "icons/herb": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "c90f5fd3ad468f7b80bc6c829ac0a9cabe40be496d1dac96ab072e8f948cbca5"
+  },
+  "icons/turnip": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "fd1ea3f100ebd28955aa3042c40abf90cfa037b5df7e7c49ad3d3d60952758ed"
+  },
+  "icons/carrot": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "07d16729c59bca8736b3a83128d8acd44951d96c980ca3c282b3e7889c687c75"
+  },
+  "icons/lettuce": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "6b56456ceb4a90892b1d1f19b3bda23457a82de02e1789bbeda955b2c8876fa5"
+  },
+  "icons/pea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "30a183af35e0b053322aa468d40c0804816878249062fd2c85096882521de16e"
+  },
+  "icons/strawberry": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "66b9ef42529d306709fe40e78cee997b10c94453dde8bf7fae4fa745f34a3434"
+  },
+  "icons/rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "9d7fd3de627aed6939293914fd830ede79e179010c6c572a5aa1ccc20cc34186"
+  },
+  "icons/tomato": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b9cc89f2b0b0e3fe072b1a81ccf09f25317dfea630e0a6e7843217a6ab780439"
+  },
+  "icons/corn": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "e602b5e50975cd77ea02d9b95dda7c63d4dd0770e296f6df22b34b393ec4d251"
+  },
+  "icons/cucumber": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "7d9b5104a98fa870cc719f13b1dda7aa5ed82b564a2a1f031734868696f0b4f1"
+  },
+  "icons/pepper": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "8668e161b570b28e64ea29899af96a92337d2584a60897e71e4c6121598a48e1"
+  },
+  "icons/melon": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "972f3d261be17768bcfbf273a69c1c843e6ae5bb849e5082230c095b17660214"
+  },
+  "icons/eggplant": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "3ac7d727a26ed7fc098b76cba8fc77ff399a434c9a99c29c2ce02e95c32bd994"
+  },
+  "icons/pumpkin": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "7ce75964478bddf4ff01e5bb42c15c764e1e7331da15784f4d3dbd5561ed4922"
+  },
+  "icons/sweet_potato": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "9570e51bca082e33353991a82625bae8221a6b5ccddcb06b65742e7cf13359b7"
+  },
+  "icons/wheat": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "53a4854f730049b8080e380c09c51e073d9af64a45a951a21e74d1d9c0872776"
+  },
+  "icons/tea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "6d54adca0b53bc9a0aed1e290dd03bcbe29aea180889f93ba41c24931e57f690"
+  },
+  "icons/snow_cabbage": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "0a006c33267daf5c2671cbb282a8a8871a511c42ef2651ea60daeda2f79fa017"
+  },
+  "icons/winter_radish": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "88dd3c0f7918db570b0c5ecc92d8ac019236263c495ff0b48af863d8d5f7a4e3"
+  },
+  "icons/moonflower": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "284d83e7ba1a76e57457a14d23a8c9363cccf9df2cd5f745c26d068698815a8d"
+  },
+  "icons/mushroom": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "bf86f465926c586da9b1b44a42904c753a4dae338b508c57f80280d29a20545d"
+  },
+  "icons/berry": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "2f9fe579f1a376670c2e3dbe94cd54e5bfdad2d3f74d4dea564bd02f0ecf48f0"
+  },
+  "icons/egg": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "0126d8f744441f3303f14a4c5f9c33f56a9f903570bc6c84381d3eb8c4aef8a3"
+  },
+  "icons/milk": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "d03400168900b5d8609fec612192b5e3b2b8f02883785cbf2be7c1d02b254a4a"
+  },
+  "icons/flour": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "09fc353d0ce8d91ef42b944f324ec0fa8108b6aa9a9edeb0c5883dfd720adf59"
+  },
+  "icons/oil": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "5cb122946f1a9425fc9b475f79ce6213ac26fefabd6ef3cee0dd5ac6c0b4fc44"
+  },
+  "icons/salt": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "710e5d7ba8008369f99c0592e5d8bafd401516459415249e2e4f5e6d6ed9cbfd"
+  },
+  "icons/honey": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "c2d116ae68a24c277e17e20502b719cd4520a4a16e93cf1130d255f647cee55a"
+  },
+  "icons/bamboo": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "eb8ca6ce336926bd43e39a720e977dfa646dce801d284a78fd578aa4b05d8c6d"
+  },
+  "icons/lotus": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "7fe9042e09095bc847f85f2e668f4138fa9fedfbc5ca652be424d57472bd668d"
+  },
+  "icons/chestnut": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "d0573e370e6c621187e5bbe4a00a0a05a5e99e9ad05b11222e7095af7f4af72f"
+  },
+  "icons/truffle": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "a2f7db5f7f041effd7625846be17ed349f739e8cfce4d2a622bbd6ab99df7a5f"
+  },
+  "icons/crystal": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "75e95b79954493c06994a782daaade8576d37fadfce1382c754afb727920d15a"
+  },
+  "icons/scrap": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "c38d289b2592b627908e68688c6611e7b5dc39844c30a1cdffe7c50bae206065"
+  },
+  "icons/wood": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "8bd72274ced68eed4cc92a459b154df6e4875fcccd3c938a9956ccc3f42c49d9"
+  },
+  "icons/ore": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b5e654d26c42a2c8c13f9a2a2a7ae3583437c96a3459936658addf3b0f9fa39f"
+  },
+  "icons/iron": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "59ee1889c2f1844a5eda2e508a29d337f254ed4316a8abada7c8e467b1d81f9b"
+  },
+  "icons/silverfin": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "4105cfbfdbdf5ab1a4dd93f3b6b53331acf81ee4d9a4786e04ba833fc72a82bd"
+  },
+  "icons/brook_carp": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "d76621e0cb55115045b9070b5dc994f41b80a069baace45b60ae6624e28313bf"
+  },
+  "icons/moon_bass": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "af388a2361e94d590d8abee8f9f8ba52b2024517631742cb8cd29f3a1b553017"
+  },
+  "icons/prawn": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "1bf230f8fd0660b7a1ab041b9f193813d84151bd3443ac52ecbc09cf0cc0101f"
+  },
+  "icons/eel": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "711a718a082970636269424fd53a03934c15a73a09c91aa19d62d840a88c16ad"
+  },
+  "icons/lotus_fish": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "e10e370cd6ce1cd6814cac4c898c84249d972045171f93a78403b6d13902e663"
+  },
+  "icons/ice_char": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "1ce4d75532e596dc899a01d8d29bcb70829c229612000850282876c00b637848"
+  },
+  "icons/star_koi": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "7c3573df5a4f9b57ed2c745da7c15ccc20c374a67012200e62583bc12f997b50"
+  },
+  "icons/seed_herb": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "fc1711e76c623f1e16ad37be7e0baf6c731867d025fc551be8403d2db74e27f9"
+  },
+  "crops/herb": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "8b65fadbb64708caba56f0b144a87240cee9a5ca2a813a860432110f3de0fb2d"
+  },
+  "icons/seed_turnip": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "e45bd47a2ed281a1f0a94c6fe4da52c7c59e1df4fa5e0d3abc5a0580f15ff68c"
+  },
+  "crops/turnip": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "ef1541a483c7eb9cdf05127f0aa2443e38fc87c0e5a737fc6a035706cf7c6505"
+  },
+  "icons/seed_carrot": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "feb1c9fa69f6a638941f9fe6e87fb1297f3759b6da2e376c91a43811386508a5"
+  },
+  "crops/carrot": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "7829a398283bda16e0226319985f693edcba1231d38780a4d2904894c972a1b6"
+  },
+  "icons/seed_lettuce": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "df66e1278b06b5fcccd20dddd22e4d399a681ce2dd55b638a7bfa32627b35d74"
+  },
+  "crops/lettuce": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "262a1da2844391335f58eda42db966497bc19e65223e56b2faef7d465e965f8d"
+  },
+  "icons/seed_pea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "a602730e2f5a9aa13c3e0195a101ae70cf67d8f53204f738444378944b2a2df9"
+  },
+  "crops/pea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "2b7dac8d6b92b0f6ea0cc3ea8420376c9bd1e69f82feff5a55669c20b8536410"
+  },
+  "icons/seed_strawberry": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "9a939b9ff51feb021fdec470837584360f2808b081022bb7c8b266fabd62af09"
+  },
+  "crops/strawberry": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "c353bf772964d4d8e3b7a450473622cb3deb95b4a9086053bde4b54fb0475e9d"
+  },
+  "icons/seed_rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "5b0d051f58ed73002fa1d81788daccf74fead19a0286884edf44e5d239038a22"
+  },
+  "crops/rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "3a3ccb8e9760b7bde80766a522d81a20f3ce1b0139813d0d07c498c605e2e1d1"
+  },
+  "icons/seed_tomato": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "e00215aa0fcfbcef24ec6cd0fe64f55645335a641c66944c6f606d4aae186be5"
+  },
+  "crops/tomato": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "22884b8d0ec0d6fa1bb80ff5ea7a0e401b2a88edb57686cd5e6470229fa0a53f"
+  },
+  "icons/seed_corn": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "aae57a41076dbbe08756d68fb7226ccde763f6a07da2a5b7235eb3cd76d15fb6"
+  },
+  "crops/corn": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "ea22df02caa63a4c5720c914af45db5dc69b3a848e64f6c341cc31eab0baa3aa"
+  },
+  "icons/seed_cucumber": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "90fe38d15458cd5ae184ef294660ad4a4a19be287c0be6ff8b7fc2e42d34d3cb"
+  },
+  "crops/cucumber": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "b7ef311c2709e78b3ff63814ca24dca44ec0fb491cc9d57643d93d9126a2c80c"
+  },
+  "icons/seed_pepper": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "9d09e4bf4612eb80e3c41e9412a0bfc9684dfd28aeb20cece13dce412a93b04b"
+  },
+  "crops/pepper": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "7a4dc22f93617dc311279e8507cf11fdc75e415523560c5c6da08686405f4696"
+  },
+  "icons/seed_melon": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "c4dc5c102ba666033d59248cff133379e3901d124f39a88e20007d8d58d46fda"
+  },
+  "crops/melon": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "621c5d3fd25be504eb43c60bfcd33a9131462ea5c0967fc8fd1be204ccd0b474"
+  },
+  "icons/seed_eggplant": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "60626fe404dad71ff80517ccf74caccf074c669064bcccf50a8221b6cc34a16e"
+  },
+  "crops/eggplant": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "4daae85ba07a45d6c729889719ce08c9a3a3587d8401f380a68dd2944abab9ed"
+  },
+  "icons/seed_pumpkin": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "a18bdac55b510fbf89fdb22b85c8e17fbd42b3802a0b804f83c6ab7747e91c7e"
+  },
+  "crops/pumpkin": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "c0927353d9417ec59db8dbe9f943ca33ff6eb95c8bda700904565066c494461d"
+  },
+  "icons/seed_sweet_potato": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "9cae6e2e04f5f81ea1acd7b45604b37b9389fbc36efab4d6b906dcd23c149927"
+  },
+  "crops/sweet_potato": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "6437f86f848924da6d03fcd967071092af20895d26c25631496792ce62982f1b"
+  },
+  "icons/seed_wheat": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "0c097629a12f04c9a73a0a338f1cbe6b26de760ea843445635fee0c3b967be35"
+  },
+  "crops/wheat": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "304a69cdf35b703b4cdb92d2c1ac3b64f04021ac481cf4907ead21781cbb22fa"
+  },
+  "icons/seed_tea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "e459cd4b1489241985d92d379383d02a2dd59217e9b5f0b4a88ee8f73e88ef15"
+  },
+  "crops/tea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "db84dd240eb3d839d8e4fbd0af0894f035abaa807efda22cc29b747e5a8870a8"
+  },
+  "icons/seed_snow_cabbage": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "f6e7aa6f6dabd1c39690806a3e17b7e752a1df3253911d1b7a214fbf00985d98"
+  },
+  "crops/snow_cabbage": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "41d93dc9a78f6f5c6a9c6afd21a4b6c8a93c61097eab47f413b699468920543a"
+  },
+  "icons/seed_winter_radish": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "65d8f5bd82c239131a67622f040f7e135edcd9e5e44888231fb4cb3e5794c1ee"
+  },
+  "crops/winter_radish": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "09d0f1388b1effe93e6c5555bfa99b65c314fb626ed793f98a3c818e2a7e39f3"
+  },
+  "icons/seed_moonflower": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "ab049eed197db56bd4f8317d70d928cfc734f015899a3015f8563e58249a3dda"
+  },
+  "crops/moonflower": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "layers": [
+      "growth"
+    ],
+    "tags": [
+      [
+        "seedling",
+        0,
+        0
+      ],
+      [
+        "young",
+        1,
+        1
+      ],
+      [
+        "growing",
+        2,
+        2
+      ],
+      [
+        "ripe",
+        3,
+        3
+      ]
+    ],
+    "sha256": "9225eed44da875e39a806f0be09ccc5a5a04c5d29f29d09c699d8cc53e9d8f0e"
+  },
+  "icons/dish_mushroom_soup": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "2fa8a9a6b9bb0c12cf3be84d5ec9e0c15b49f3a320ccdc310b48ebd76d4c6b72"
+  },
+  "icons/dish_berry_pie": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "8cecaa918411d8d62de0178f06a952ef4cc683189b04086f90c3e276c2be8bd6"
+  },
+  "icons/dish_herb_stew": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "a4d087bc6d4fe3bca70a29ede6a6a10dbf9afbe3b99587aa784839db442c8621"
+  },
+  "icons/dish_turnip_soup": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "5cf764d0fd9a3453adabfad4c789cf82dfd62b1695e8c40311a6c0a977069fdd"
+  },
+  "icons/dish_carrot_salad": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "6f4e0a1b474f5897e6a03f9f9d6a5d3d38d030f9664c78e15642a4b58127bcbb"
+  },
+  "icons/dish_pea_rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "6dfd66fc8462977623410231761fac3d78e9c4dd57c8168bcf4d2189c9729bfc"
+  },
+  "icons/dish_strawberry_tart": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "8b493789289c35cac8d22a4719fb4a8ce921b9641f85a821fe7a93a0ebe7662c"
+  },
+  "icons/dish_bamboo_rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "5c776905d70d51e29f38b64cb2bc60b8e2a97b1b0f88e50317412e46743e6a69"
+  },
+  "icons/dish_herb_omelet": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "94a1483251415201fc6a310a9a607c1585bb429d0ca7df2ec8ba03c6d2acb320"
+  },
+  "icons/dish_berry_milk": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "8dd3c9903aeb3a3c1fba4c25c007b270b325cb7f3e92b1c03ae7016ac9d0a89f"
+  },
+  "icons/dish_tomato_noodle": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "03d05035e259d73843055e16d97542e846bf5bddd7125ac544660e9dd552e1b3"
+  },
+  "icons/dish_corn_soup": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "5155abe6bdf9e756344102a180166d77a808f4f10ce6235aeb1643a851495c6b"
+  },
+  "icons/dish_cucumber_roll": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "84258433d8a06935c23ba9d370e9ff8c46c7791ad071f4db6babce49e6d0d3ae"
+  },
+  "icons/dish_pepper_fish": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "fee3cfa65c589a4d3d8c254b4fc3c78771bb5a92e8200b7c7ad706be290e326b"
+  },
+  "icons/dish_melon_ice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "2488d1e11d3bb9861dd6a2a2f64dedfcb7c488853cc93afc9b5862b0044e38d8"
+  },
+  "icons/dish_prawn_rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "0e9d2c9c42be6f075eef4b34896d27803efac38d31053b7a3d85728a79a25875"
+  },
+  "icons/dish_lotus_salad": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "640d67e2f18500fe601dc6a8ddcb87bb7ac64a0767220d61512cfdf8aded317d"
+  },
+  "icons/dish_eggplant_pan": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "fbc5812ebefbbfd8c829c3402ba5d250bd9ce047a3d0b4bcf6a5ca0f250b2963"
+  },
+  "icons/dish_pumpkin_stew": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "92f048a4f79ba255ed752ddac523b41cf10ec7826769f7ed8636c9b3e734410f"
+  },
+  "icons/dish_sweet_potato_roast": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "e2f1c161046698b84cd1cbb81fa5e0b6158265a11e378d6b5beea05b436aeda8"
+  },
+  "icons/dish_chestnut_rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "a208ac8a323aa9af060f8ab5fbde574c305ec140c32cc7758c1df79a244c8809"
+  },
+  "icons/dish_wheat_bread": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "8da74ffeff63bda851a8652aca1ab2b22bcb4b214e3646f7d939c21abec7556e"
+  },
+  "icons/dish_truffle_pasta": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "e8519d34db87791c7c8ec58c49fa6c1b2d6c56457443097ea4c90392f2a73862"
+  },
+  "icons/dish_snow_cabbage_pot": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "8e31d8a12e250e6fd105f6cbacc810031d90b39a46ce0fa4d1d2d2fa574e8dea"
+  },
+  "icons/dish_winter_radish_broth": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "f501ccf9fb311a994cfd85a005e7519b992f85c43706dcd60c59e62db516ced4"
+  },
+  "icons/dish_moonflower_cake": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "13e7ee658c921b496c58d812c902802a93880672a91c8d66f382adf8ad8afed2"
+  },
+  "icons/dish_mist_tea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "87d29b3bc3edc2c9adaf68416f06186c97d2736540bee6769ac7704fc8a22156"
+  },
+  "icons/dish_honey_tea": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "bfd9ca0ce0360ea32ef84dbfeb4cc4a11702bb9f3956df89ccedf10937ea4f50"
+  },
+  "icons/dish_carp_broth": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "09be9dcef9ec6f382eaf1728ce45014789ee9a4385ac0a6474cd78c74801b4bc"
+  },
+  "icons/dish_moon_bass_grill": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "9fcdc40847ffeccc1c22b6a8e207f5d1b51353a951e52ce5c89862a6fb8cc3f4"
+  },
+  "icons/dish_eel_rice": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "b543dd495fc66157a53637bde350d8b63f5f72292362c211d5375738655f3e7b"
+  },
+  "icons/dish_lotus_fish_steam": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "35b323ed5e9a742aadfb64a42d96cf8a6a68ac7090adf888acb5d97e685ae9aa"
+  },
+  "icons/dish_ice_char_roast": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "1576af11e7a01f25d31317adb05a458028bfdef83ba7471d25cf1588b60d8af7"
+  },
+  "icons/dish_star_koi_banquet": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "d79586a43908218af812d4233c3aaba1eabc1cf42a40913dedb764e8303eb7a6"
+  },
+  "icons/dish_four_seasons_platter": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "5cf928adc8a4e23cd1f8125cb69344306689af0715fa8fc4c3f4a2149f4c5d32"
+  },
+  "icons/dish_lantern_dessert": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "dish-and-ingredients",
+      "glaze"
+    ],
+    "tags": [],
+    "sha256": "2d3bbb40d9ff08481757cc0a0409eed2575f20a779fde90dc2a8f45d2ee244d5"
+  },
+  "furniture/oak_chair": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "0deaf11693c9dfe507e9e911ee6b6642c4a8a842f0568948f53cde4ebd2517d1"
+  },
+  "furniture/round_table": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "27d00def36c279f829d4123c64b645e33a6bd42190e30b358d00439e33c0e488"
+  },
+  "furniture/velvet_chair": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "550cdc1d695df326eeb3b5a1f38432285945f7d5f171047c7529922a00563506"
+  },
+  "furniture/moon_table": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "49c6526f8137f8ed2af83c3e76e40011aba1e20f8689953fb01099f7630f1fa0"
+  },
+  "furniture/oak_bed": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "44bd03dcd07921665409188dc1a13a93739deb868d197ec1252e439e5e4c4c3e"
+  },
+  "furniture/moon_bed": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "ba6a4b36ed7176bcf90d94bf65ba09891fd1a7fa67c46544f71f9c3e6c8b4d03"
+  },
+  "furniture/bookcase": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "347cee3c7bfeafd013f8f5a1a2bc5baa30d90ed7cdf8339ce0a57edcf09a2bad"
+  },
+  "furniture/tea_shelf": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "ac63115c7d9f27205730fb5495c2e8af5b0376934fdb551739f92474e082abd4"
+  },
+  "furniture/cupboard": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "485f4b2e772474742026175c1db3783dd5186c1e0d16c52f49bb3e608924a429"
+  },
+  "furniture/pantry": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "b90ad950e8d654665f76d8bd002849496be6607120a9cac5afbd881b14fbc013"
+  },
+  "furniture/lantern": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "56da60e5e804040985f7ceb6224c84bf8ef5949b7bea118341735755492e3259"
+  },
+  "furniture/floor_lamp": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "9679e707cb8403eeb488c616a5f24426a76cdc04444cdf72d5f126941141b088"
+  },
+  "furniture/flowerpot": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "b7e8420787044cfc1b501691393ed73b336adee4a1c813c01cd8943807545991"
+  },
+  "furniture/tea_planter": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "1e4718e57d9637583205936e5c5778be6a82288c415d8fa00739f6db5b5947fa"
+  },
+  "furniture/rug": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "100f849a96e4d8a919ed6088f500c86b64eec11f50e6abb60b4b39914d9d336f"
+  },
+  "furniture/star_rug": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "7f7dadd93687c964a806017280791f7e61febdc81b995da4f28033e96eb3ea59"
+  },
+  "furniture/wall_clock": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "056770d9762f7f845731f749efee3348c31b35b7e601d58333e74b284e7c4dc6"
+  },
+  "furniture/painting": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "b90ad950e8d654665f76d8bd002849496be6607120a9cac5afbd881b14fbc013"
+  },
+  "furniture/sofa": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "550cdc1d695df326eeb3b5a1f38432285945f7d5f171047c7529922a00563506"
+  },
+  "furniture/bench": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "c4d42ccdc71ab63e683cdf84e6983db89231bc79f34981e0d7c826a33cd1b018"
+  },
+  "furniture/aquarium": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "12b850a4e37e867c9078499bff1b13c6f666e222a7d96e6a22e473437e55f5f7"
+  },
+  "furniture/fountain": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "1e4718e57d9637583205936e5c5778be6a82288c415d8fa00739f6db5b5947fa"
+  },
+  "furniture/sign": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "347cee3c7bfeafd013f8f5a1a2bc5baa30d90ed7cdf8339ce0a57edcf09a2bad"
+  },
+  "furniture/trophy": {
+    "size": [
+      64,
+      64
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "furniture"
+    ],
+    "tags": [],
+    "sha256": "9679e707cb8403eeb488c616a5f24426a76cdc04444cdf72d5f126941141b088"
+  },
+  "icons/pot": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b965c44007184e03c82aefd2f68332c3cf75db57cf5b52c103798b0f59b24e39"
+  },
+  "icons/pan": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "ea1384a29944a4eb9a2388cdff0209fa75bbbc220008269da05a075950a8ab11"
+  },
+  "icons/oven": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b4d54ddb785eebc7935c08ce2828c58a83db71fd75dde03da121d2c9868cf2b8"
+  },
+  "icons/board": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b965c44007184e03c82aefd2f68332c3cf75db57cf5b52c103798b0f59b24e39"
+  },
+  "icons/kettle": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "ea1384a29944a4eb9a2388cdff0209fa75bbbc220008269da05a075950a8ab11"
+  },
+  "icons/sprinkler": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b4d54ddb785eebc7935c08ce2828c58a83db71fd75dde03da121d2c9868cf2b8"
+  },
+  "icons/mill": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b965c44007184e03c82aefd2f68332c3cf75db57cf5b52c103798b0f59b24e39"
+  },
+  "icons/hive": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "ea1384a29944a4eb9a2388cdff0209fa75bbbc220008269da05a075950a8ab11"
+  },
+  "icons/greenhouse": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b4d54ddb785eebc7935c08ce2828c58a83db71fd75dde03da121d2c9868cf2b8"
+  },
+  "icons/rod": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "b965c44007184e03c82aefd2f68332c3cf75db57cf5b52c103798b0f59b24e39"
+  },
+  "icons/fertilizer": {
+    "size": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "layers": [
+      "shadow",
+      "outline-and-paint",
+      "highlights"
+    ],
+    "tags": [],
+    "sha256": "ea1384a29944a4eb9a2388cdff0209fa75bbbc220008269da05a075950a8ab11"
+  },
+  "npcs/mori": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "e862a88d2b94755d93bf8daa34b8c88ea25487af4ec0bb30f8c5e8189b6ab35d"
+  },
+  "portraits/mori_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "ed286c7d01ddc5e0d6c022fc155797fd883668b92006e2d13b345997742bc485"
+  },
+  "npcs/ember": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "7fcc5cabac9788a3da12fd70109057140b95002509ed79660ecfc6336d503160"
+  },
+  "portraits/ember_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "8b6d19e66b105ae802750d8cb319d47fa29eab08d1a858f31207516f0b410822"
+  },
+  "npcs/nagi": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "9046fb93b64fd7a2922b5fc5abf0ac310f2df36c4ffaeebb204e6858a9f383d0"
+  },
+  "portraits/nagi_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "533d4f463138e3836ee11c3b475c507288ec35fe7727afd9bdc166b50b52e333"
+  },
+  "npcs/lumi": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "06564acca084d7a694a16fb39164ed0a28a8e8c9b130613f5134bbb75791aa10"
+  },
+  "portraits/lumi_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "a81faedb987f8ea53cf99fdf83cb5370bd4f2b4fe66f97ea7522e3b0550dd5c2"
+  },
+  "npcs/aster": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "bb74558ecaaaa915269d36907acbd6afb1836ffd52844b229ebb9e75082a43d3"
+  },
+  "portraits/aster_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "5610612bdabc7edf91fcec3f3c1c08809b4f4ee5f95fe66fe3ef1ad1b07ea202"
+  },
+  "npcs/toma": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "f62955d01e37ed36b45227ec574bd3dfa49633298a5c864648e860c9179febf4"
+  },
+  "portraits/toma_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "9b552cdc78063cacf3dfd8123f3f3e1b574f1cfa0702501a6b99cba74e190073"
+  },
+  "npcs/pip": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "1d479d0ac2dfba92f97124bc7039b49e60e445cee9611a49d6336615f169a7a1"
+  },
+  "portraits/pip_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "6469019af5e1940e84abfc33de64a7df32e919c9c127573c024371be6011a91e"
+  },
+  "npcs/reed": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "cfcbcefb3aa98625830ea9ef8a7cfe322a59a825a2cdff2e7c56bf0bb0aa822a"
+  },
+  "portraits/reed_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "1aad30b6b42ae3df47a97683742999b2be9f838902b82aaf3d729f390d325353"
+  },
+  "npcs/yuki": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "98f06bc3ac4d1fcdb1dbe6b2f6bc8e54f700d4e66960299cbe929dade8d67193"
+  },
+  "portraits/yuki_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "d813360b9e23f8a25ab7a438d7fc3002553410ee6574d6ae2bf7b10bc43b98ad"
+  },
+  "npcs/orla": {
+    "size": [
+      32,
+      48
+    ],
+    "frames": 22,
+    "layers": [
+      "shadow",
+      "body",
+      "outfit",
+      "hair",
+      "equipment",
+      "fx"
+    ],
+    "tags": [
+      [
+        "walk_down",
+        0,
+        3
+      ],
+      [
+        "walk_up",
+        4,
+        7
+      ],
+      [
+        "walk_right",
+        8,
+        11
+      ],
+      [
+        "walk_left",
+        12,
+        15
+      ],
+      [
+        "idle",
+        16,
+        17
+      ],
+      [
+        "eat",
+        18,
+        21
+      ]
+    ],
+    "sha256": "208beb1db364fa57e31d7e98b58006b7c4abe2f4ef332d4582eac06fdc457d59"
+  },
+  "portraits/orla_portrait": {
+    "size": [
+      64,
+      96
+    ],
+    "frames": 1,
+    "layers": [
+      "portrait"
+    ],
+    "tags": [],
+    "sha256": "351a7c50e1210f5b93b3187d2fd19b5566511188155b9300e61c53db7405759d"
+  },
+  "tiles/terrain_atlas": {
+    "size": [
+      128,
+      128
+    ],
+    "frames": 1,
+    "layers": [
+      "terrain"
+    ],
+    "tags": [],
+    "sha256": "4fb35c3ec15be8ee31ef45422afb9027084e1b73d89c8f5f3c57e57c55f6f393"
+  }
+}

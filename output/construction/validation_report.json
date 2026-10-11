@@ -1,0 +1,52 @@
+{
+  "construction_capture": {
+    "passed": 340,
+    "errors": 0,
+    "log": "output/construction/capture.log"
+  },
+  "restart_write": {
+    "passed": 332,
+    "errors": 0,
+    "log": "output/construction/restart_write.log"
+  },
+  "restart_read": {
+    "passed": 5,
+    "errors": 0,
+    "log": "output/construction/restart_read.log"
+  },
+  "furniture_regression": {
+    "passed": 129,
+    "errors": 0,
+    "log": "Scenes/Building/Verification/headless.log"
+  },
+  "housing_regression": {
+    "passed": 48,
+    "errors": 0,
+    "log": "output/housing_progression/housing.log"
+  },
+  "storage_regression": {
+    "passed": 63,
+    "errors": 0,
+    "log": "Scenes/Storage/Verification/headless.log"
+  },
+  "farm_regression": {
+    "passed": 180,
+    "errors": 0,
+    "log": "output/loop_farm_construction-final.log"
+  },
+  "map_regression": {
+    "passed": 42,
+    "errors": 0,
+    "log": "output/loop_map_construction-final.log"
+  },
+  "save_regression": {
+    "passed": 109,
+    "errors": 0,
+    "log": "Scenes/Save/Verification/headless.log"
+  },
+  "assets": {
+    "recipes": 68,
+    "distinct_icons": 68,
+    "protected_originals_unchanged": 3
+  }
+}

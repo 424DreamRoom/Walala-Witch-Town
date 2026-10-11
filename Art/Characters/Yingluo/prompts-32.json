@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "edit_target": "yingluo_world.png",
+  "style_reference": "res://Art/Campaign/portraits/orla_portrait.png",
+  "prompt": "Use case: style-transfer. Image 1 is the edit target / Yingluo character identity. Image 2 is the supporting reference for the EXISTING GAME'S tiny simple pixel art style. Redraw image 1 as ONE genuine 32 by 32 logical-pixel RPG NPC sprite, matching image 2's extremely simple hand-placed pixel clusters. This is NOT a detailed illustration with a pixel filter. Output a SQUARE transparent image containing only the single sprite, enlarged with nearest-neighbor square blocks: exactly a 32-column by 32-row logical raster, each logical pixel a uniform block. Character must fit completely inside that 32x32 cell. Full height about 30 logical pixels, width about 23 logical pixels; feet on row 30. Front-facing short chibi proportions, oversized simple face and hat, very short torso and legs. Preserve ONLY the identity cues: soft bent sage-green witch hat with cream band and ONE tiny gold crescent; lavender bob hair; sage-green cape; cream sleeves; short plum skirt; two brown boots; tiny AMBER lantern on the viewer's left; small burgundy closed journal on the viewer's right. Simplify to around 16 solid flat colors, purple-brown one-logical-pixel outline, two shades per material, two tiny dark dot eyes. Hat 10 rows, face 7 rows, body 9 rows, boots 4 rows. No hat tassels, no embroidery, no belts, no decorative fabric dots, no flowing long cape, no facial rendering. Every edge must land on the logical pixel grid. Actual transparent background, NO glow halo, NO colored haze, NO shadow, NO floor, NO scene, NO grid lines, NO letters, NO labels, NO frame, NO extra poses. The result is a small functional 32x32 game sprite, a square thumbnail rather than a portrait; the source will be exported at exactly 32x32 pixels for the game. Keep all character pixels opaque and all surrounding pixels transparent.",
+  "export": {
+    "source": "yingluo_world_32_source.png",
+    "target": "yingluo_world_32.png",
+    "size": [
+      32,
+      32
+    ],
+    "resampling": "nearest",
+    "script": "export_world_32.gd"
+  }
+}

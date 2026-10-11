@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+SNOW OUTPUT DRIVER WASAPI
+SNOW OUTPUT snow starts a looping voice: PASS
+SNOW OUTPUT audio mixer produces a full wind cycle: PASS
+SNOW OUTPUT MIXED RMS_DBFS=-40.4008975659092 PEAK_DBFS=-23.8033307007526 FRAMES=323072
+SNOW OUTPUT mixed snow is audible at default volume: PASS
+SNOW OUTPUT mixed snow retains headroom: PASS
+SNOW OUTPUT unchanged weather preserves playback: PASS
+SNOW OUTPUT snow wraps without stopping: PASS
+SNOW OUTPUT other effects channels do not mute snow: PASS
+SNOW OUTPUT environment zero silences snow: PASS
+SNOW OUTPUT environment restore resumes snow: PASS
+SNOW OUTPUT master zero silences snow: PASS
+SNOW OUTPUT legacy effects mute silences snow: PASS
+SNOW OUTPUT unmute resumes snow: PASS
+SNOW OUTPUT snow stops inside home: PASS
+SNOW OUTPUT snow stops inside restaurant: PASS
+SNOW OUTPUT snow stops inside blacksmith: PASS
+SNOW OUTPUT snow stops inside store: PASS
+SNOW OUTPUT snow resumes outside town: PASS
+SNOW OUTPUT snow resumes outside farm: PASS
+SNOW OUTPUT snow resumes outside field: PASS
+SNOW OUTPUT snow resumes outside dock: PASS
+SNOW OUTPUT snow plays at night: PASS
+SNOW OUTPUT result stops snow: PASS
+SNOW OUTPUT rain still plays: PASS
+SNOW OUTPUT clear stops weather: PASS
+SNOW OUTPUT VERIFY END failures=0 checks=24

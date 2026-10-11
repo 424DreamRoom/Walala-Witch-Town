@@ -1,0 +1,37 @@
+{
+	"topics_zh_TW": {
+		"canvas_height": 360,
+		"dialogue_offset_y": 42.0,
+		"hotbar_bottom": 352.0,
+		"portrait_frame_bottom": 352.0,
+		"text_frame_bottom": 352.0
+	},
+	"welcome_en": {
+		"canvas_height": 360,
+		"dialogue_offset_y": 42.0,
+		"hotbar_bottom": 352.0,
+		"portrait_frame_bottom": 352.0,
+		"text_frame_bottom": 352.0
+	},
+	"welcome_ja": {
+		"canvas_height": 360,
+		"dialogue_offset_y": 42.0,
+		"hotbar_bottom": 352.0,
+		"portrait_frame_bottom": 352.0,
+		"text_frame_bottom": 352.0
+	},
+	"welcome_zh_CN": {
+		"canvas_height": 360,
+		"dialogue_offset_y": 42.0,
+		"hotbar_bottom": 352.0,
+		"portrait_frame_bottom": 352.0,
+		"text_frame_bottom": 352.0
+	},
+	"welcome_zh_TW": {
+		"canvas_height": 360,
+		"dialogue_offset_y": 42.0,
+		"hotbar_bottom": 352.0,
+		"portrait_frame_bottom": 352.0,
+		"text_frame_bottom": 352.0
+	}
+}

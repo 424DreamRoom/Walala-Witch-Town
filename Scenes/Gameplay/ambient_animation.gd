@@ -26,7 +26,7 @@ static func attach(target: Sprite2D, asset_kind: String, weather_effect = null) 
 	animation.weather = weather_effect
 	animation.spec = registry.assets[asset_kind]
 	animation.frames_per_bank = int(registry.frames_per_bank)
-	animation.atlas = load(ART + asset_kind + ".png")
+	animation.atlas = load(ART + asset_kind + ".aseprite")
 	var feet: Vector2 = target.get_parent().position
 	animation.elapsed = fposmod(feet.x * 0.019 + feet.y * 0.023, animation.frames_per_bank / float(animation.spec.fps))
 	target.add_child(animation)

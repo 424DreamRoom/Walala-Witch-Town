@@ -1,0 +1,5245 @@
+{
+  "size": [
+    1440,
+    960
+  ],
+  "spawn": [
+    1398,
+    364
+  ],
+  "home": [
+    270,
+    276
+  ],
+  "exit": [
+    1432,
+    364
+  ],
+  "refill": [
+    366,
+    276
+  ],
+  "plots": [
+    32,
+    16,
+    43,
+    29,
+    32
+  ],
+  "paths": [
+    {
+      "points": [
+        [
+          1328,
+          364
+        ],
+        [
+          1472,
+          364
+        ]
+      ],
+      "width": 52,
+      "surface": "stone"
+    }
+  ],
+  "clearance_routes": [
+    {
+      "points": [
+        [
+          270,
+          276
+        ],
+        [
+          270,
+          324
+        ],
+        [
+          1296,
+          324
+        ],
+        [
+          1376,
+          364
+        ],
+        [
+          1456,
+          364
+        ]
+      ],
+      "width": 52
+    }
+  ],
+  "lights": [
+    [
+      276,
+      218
+    ]
+  ],
+  "unplantable": [
+    [
+      174,
+      58,
+      192,
+      208
+    ]
+  ],
+  "buildings": [
+    {
+      "kind": "shop_0",
+      "x": 270,
+      "y": 250,
+      "w": 160,
+      "h": 96,
+      "role": "witch_home"
+    }
+  ],
+  "props": [
+    {
+      "kind": "outdoor_birch",
+      "x": 80,
+      "y": 168,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_269",
+      "resource_type": "wood",
+      "tiles": [
+        225,
+        226,
+        227,
+        268,
+        269,
+        270
+      ],
+      "anchor": [
+        80,
+        186
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 496,
+      "y": 168,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_282",
+      "resource_type": "wood",
+      "tiles": [
+        238,
+        239,
+        240,
+        281,
+        282,
+        283
+      ],
+      "anchor": [
+        496,
+        186
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 592,
+      "y": 200,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_328",
+      "resource_type": "wood",
+      "tiles": [
+        284,
+        285,
+        286,
+        327,
+        328,
+        329
+      ],
+      "anchor": [
+        592,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 688,
+      "y": 200,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_331",
+      "resource_type": "wood",
+      "tiles": [
+        287,
+        288,
+        289,
+        330,
+        331,
+        332
+      ],
+      "anchor": [
+        688,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 752,
+      "y": 136,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_247",
+      "resource_type": "wood",
+      "tiles": [
+        203,
+        204,
+        205,
+        246,
+        247,
+        248
+      ],
+      "anchor": [
+        752,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 880,
+      "y": 200,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_337",
+      "resource_type": "wood",
+      "tiles": [
+        293,
+        294,
+        295,
+        336,
+        337,
+        338
+      ],
+      "anchor": [
+        880,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 976,
+      "y": 200,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_340",
+      "resource_type": "wood",
+      "tiles": [
+        296,
+        297,
+        298,
+        339,
+        340,
+        341
+      ],
+      "anchor": [
+        976,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1040,
+      "y": 136,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_256",
+      "resource_type": "wood",
+      "tiles": [
+        212,
+        213,
+        214,
+        255,
+        256,
+        257
+      ],
+      "anchor": [
+        1040,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1168,
+      "y": 200,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_346",
+      "resource_type": "wood",
+      "tiles": [
+        302,
+        303,
+        304,
+        345,
+        346,
+        347
+      ],
+      "anchor": [
+        1168,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1264,
+      "y": 136,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_263",
+      "resource_type": "wood",
+      "tiles": [
+        219,
+        220,
+        221,
+        262,
+        263,
+        264
+      ],
+      "anchor": [
+        1264,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1360,
+      "y": 136,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_266",
+      "resource_type": "wood",
+      "tiles": [
+        222,
+        223,
+        224,
+        265,
+        266,
+        267
+      ],
+      "anchor": [
+        1360,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 80,
+      "y": 264,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_398",
+      "resource_type": "wood",
+      "tiles": [
+        354,
+        355,
+        356,
+        397,
+        398,
+        399
+      ],
+      "anchor": [
+        80,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 784,
+      "y": 264,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_420",
+      "resource_type": "wood",
+      "tiles": [
+        376,
+        377,
+        378,
+        419,
+        420,
+        421
+      ],
+      "anchor": [
+        784,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1328,
+      "y": 264,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_437",
+      "resource_type": "wood",
+      "tiles": [
+        393,
+        394,
+        395,
+        436,
+        437,
+        438
+      ],
+      "anchor": [
+        1328,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 112,
+      "y": 328,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_485",
+      "resource_type": "wood",
+      "tiles": [
+        441,
+        442,
+        443,
+        484,
+        485,
+        486
+      ],
+      "anchor": [
+        112,
+        346
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1136,
+      "y": 392,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_591",
+      "resource_type": "wood",
+      "tiles": [
+        559,
+        560,
+        561,
+        590,
+        591,
+        592
+      ],
+      "anchor": [
+        1136,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 80,
+      "y": 456,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_632",
+      "resource_type": "wood",
+      "tiles": [
+        600,
+        601,
+        602,
+        631,
+        632,
+        633
+      ],
+      "anchor": [
+        80,
+        474
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 176,
+      "y": 488,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_666",
+      "resource_type": "wood",
+      "tiles": [
+        24,
+        36,
+        634,
+        635,
+        665,
+        666
+      ],
+      "anchor": [
+        176,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 400,
+      "y": 456,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_30",
+      "resource_type": "wood",
+      "tiles": [
+        17,
+        18,
+        19,
+        29,
+        30,
+        31
+      ],
+      "anchor": [
+        400,
+        474
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 496,
+      "y": 424,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_21",
+      "resource_type": "wood",
+      "tiles": [
+        8,
+        9,
+        10,
+        20,
+        21,
+        22
+      ],
+      "anchor": [
+        496,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 656,
+      "y": 456,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_638",
+      "resource_type": "wood",
+      "tiles": [
+        606,
+        607,
+        608,
+        637,
+        638,
+        639
+      ],
+      "anchor": [
+        656,
+        474
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 752,
+      "y": 424,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_610",
+      "resource_type": "wood",
+      "tiles": [
+        578,
+        579,
+        580,
+        609,
+        610,
+        611
+      ],
+      "anchor": [
+        752,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 880,
+      "y": 424,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_614",
+      "resource_type": "wood",
+      "tiles": [
+        582,
+        583,
+        584,
+        613,
+        614,
+        615
+      ],
+      "anchor": [
+        880,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1040,
+      "y": 456,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_650",
+      "resource_type": "wood",
+      "tiles": [
+        618,
+        619,
+        620,
+        649,
+        650,
+        651
+      ],
+      "anchor": [
+        1040,
+        474
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1232,
+      "y": 488,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_687",
+      "resource_type": "wood",
+      "tiles": [
+        655,
+        656,
+        657,
+        686,
+        687,
+        688
+      ],
+      "anchor": [
+        1232,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1328,
+      "y": 424,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_628",
+      "resource_type": "wood",
+      "tiles": [
+        596,
+        597,
+        598,
+        627,
+        628,
+        629
+      ],
+      "anchor": [
+        1328,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 80,
+      "y": 584,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_756",
+      "resource_type": "wood",
+      "tiles": [
+        724,
+        725,
+        726,
+        755,
+        756,
+        757
+      ],
+      "anchor": [
+        80,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 368,
+      "y": 584,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_77",
+      "resource_type": "wood",
+      "tiles": [
+        64,
+        65,
+        66,
+        76,
+        77,
+        78
+      ],
+      "anchor": [
+        368,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 560,
+      "y": 584,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_83",
+      "resource_type": "wood",
+      "tiles": [
+        70,
+        71,
+        82,
+        83,
+        729,
+        760
+      ],
+      "anchor": [
+        560,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 656,
+      "y": 552,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_731",
+      "resource_type": "wood",
+      "tiles": [
+        699,
+        700,
+        701,
+        730,
+        731,
+        732
+      ],
+      "anchor": [
+        656,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 880,
+      "y": 520,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_707",
+      "resource_type": "wood",
+      "tiles": [
+        675,
+        676,
+        677,
+        706,
+        707,
+        708
+      ],
+      "anchor": [
+        880,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 976,
+      "y": 584,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_772",
+      "resource_type": "wood",
+      "tiles": [
+        740,
+        741,
+        742,
+        771,
+        772,
+        773
+      ],
+      "anchor": [
+        976,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1072,
+      "y": 520,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_713",
+      "resource_type": "wood",
+      "tiles": [
+        681,
+        682,
+        683,
+        712,
+        713,
+        714
+      ],
+      "anchor": [
+        1072,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1136,
+      "y": 584,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_777",
+      "resource_type": "wood",
+      "tiles": [
+        745,
+        746,
+        747,
+        776,
+        777,
+        778
+      ],
+      "anchor": [
+        1136,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1328,
+      "y": 520,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_721",
+      "resource_type": "wood",
+      "tiles": [
+        689,
+        690,
+        691,
+        720,
+        721,
+        722
+      ],
+      "anchor": [
+        1328,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 176,
+      "y": 648,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_821",
+      "resource_type": "wood",
+      "tiles": [
+        84,
+        789,
+        790,
+        820,
+        821,
+        822
+      ],
+      "anchor": [
+        176,
+        666
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 272,
+      "y": 680,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_867",
+      "resource_type": "wood",
+      "tiles": [
+        823,
+        824,
+        825,
+        866,
+        867,
+        868
+      ],
+      "anchor": [
+        272,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 400,
+      "y": 680,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_871",
+      "resource_type": "wood",
+      "tiles": [
+        827,
+        828,
+        829,
+        870,
+        871,
+        872
+      ],
+      "anchor": [
+        400,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 592,
+      "y": 680,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_877",
+      "resource_type": "wood",
+      "tiles": [
+        833,
+        834,
+        835,
+        876,
+        877,
+        878
+      ],
+      "anchor": [
+        592,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 688,
+      "y": 616,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_794",
+      "resource_type": "wood",
+      "tiles": [
+        762,
+        763,
+        764,
+        793,
+        794,
+        795
+      ],
+      "anchor": [
+        688,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 752,
+      "y": 680,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_882",
+      "resource_type": "wood",
+      "tiles": [
+        838,
+        839,
+        840,
+        881,
+        882,
+        883
+      ],
+      "anchor": [
+        752,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 848,
+      "y": 616,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_799",
+      "resource_type": "wood",
+      "tiles": [
+        767,
+        768,
+        769,
+        798,
+        799,
+        800
+      ],
+      "anchor": [
+        848,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 944,
+      "y": 680,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_888",
+      "resource_type": "wood",
+      "tiles": [
+        844,
+        845,
+        846,
+        887,
+        888,
+        889
+      ],
+      "anchor": [
+        944,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1168,
+      "y": 648,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_852",
+      "resource_type": "wood",
+      "tiles": [
+        808,
+        809,
+        810,
+        851,
+        852,
+        853
+      ],
+      "anchor": [
+        1168,
+        666
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1264,
+      "y": 680,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_898",
+      "resource_type": "wood",
+      "tiles": [
+        854,
+        855,
+        856,
+        897,
+        898,
+        899
+      ],
+      "anchor": [
+        1264,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 80,
+      "y": 712,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_904",
+      "resource_type": "wood",
+      "tiles": [
+        860,
+        861,
+        862,
+        903,
+        904,
+        905
+      ],
+      "anchor": [
+        80,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 176,
+      "y": 712,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_907",
+      "resource_type": "wood",
+      "tiles": [
+        863,
+        864,
+        865,
+        906,
+        907,
+        908
+      ],
+      "anchor": [
+        176,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 272,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_996",
+      "resource_type": "wood",
+      "tiles": [
+        952,
+        953,
+        954,
+        995,
+        996,
+        997
+      ],
+      "anchor": [
+        272,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 368,
+      "y": 744,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_956",
+      "resource_type": "wood",
+      "tiles": [
+        912,
+        913,
+        914,
+        955,
+        956,
+        957
+      ],
+      "anchor": [
+        368,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 464,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1002",
+      "resource_type": "wood",
+      "tiles": [
+        958,
+        959,
+        960,
+        1001,
+        1002,
+        1003
+      ],
+      "anchor": [
+        464,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 592,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1006",
+      "resource_type": "wood",
+      "tiles": [
+        962,
+        963,
+        964,
+        1005,
+        1006,
+        1007
+      ],
+      "anchor": [
+        592,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 752,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1011",
+      "resource_type": "wood",
+      "tiles": [
+        967,
+        968,
+        969,
+        1010,
+        1011,
+        1012
+      ],
+      "anchor": [
+        752,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 880,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1015",
+      "resource_type": "wood",
+      "tiles": [
+        971,
+        972,
+        973,
+        1014,
+        1015,
+        1016
+      ],
+      "anchor": [
+        880,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 976,
+      "y": 744,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_975",
+      "resource_type": "wood",
+      "tiles": [
+        931,
+        932,
+        933,
+        974,
+        975,
+        976
+      ],
+      "anchor": [
+        976,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1072,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1021",
+      "resource_type": "wood",
+      "tiles": [
+        977,
+        978,
+        979,
+        1020,
+        1021,
+        1022
+      ],
+      "anchor": [
+        1072,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1328,
+      "y": 776,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1029",
+      "resource_type": "wood",
+      "tiles": [
+        985,
+        986,
+        987,
+        1028,
+        1029,
+        1030
+      ],
+      "anchor": [
+        1328,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 80,
+      "y": 872,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1119",
+      "resource_type": "wood",
+      "tiles": [
+        1075,
+        1076,
+        1077,
+        1118,
+        1119,
+        1120
+      ],
+      "anchor": [
+        80,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 208,
+      "y": 840,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1080",
+      "resource_type": "wood",
+      "tiles": [
+        1036,
+        1037,
+        1038,
+        1079,
+        1080,
+        1081
+      ],
+      "anchor": [
+        208,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 304,
+      "y": 872,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1126",
+      "resource_type": "wood",
+      "tiles": [
+        1082,
+        1083,
+        1084,
+        1125,
+        1126,
+        1127
+      ],
+      "anchor": [
+        304,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 464,
+      "y": 840,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1088",
+      "resource_type": "wood",
+      "tiles": [
+        1044,
+        1045,
+        1046,
+        1087,
+        1088,
+        1089
+      ],
+      "anchor": [
+        464,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 976,
+      "y": 840,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1104",
+      "resource_type": "wood",
+      "tiles": [
+        1060,
+        1061,
+        1062,
+        1103,
+        1104,
+        1105
+      ],
+      "anchor": [
+        976,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1168,
+      "y": 808,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1067",
+      "resource_type": "wood",
+      "tiles": [
+        1023,
+        1024,
+        1025,
+        1066,
+        1067,
+        1068
+      ],
+      "anchor": [
+        1168,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 80,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1205",
+      "resource_type": "wood",
+      "tiles": [
+        1161,
+        1162,
+        1163,
+        1204,
+        1205,
+        1206
+      ],
+      "anchor": [
+        80,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 208,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1209",
+      "resource_type": "wood",
+      "tiles": [
+        1165,
+        1166,
+        1167,
+        1208,
+        1209,
+        1210
+      ],
+      "anchor": [
+        208,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 400,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1215",
+      "resource_type": "wood",
+      "tiles": [
+        1171,
+        1172,
+        1173,
+        1214,
+        1215,
+        1216
+      ],
+      "anchor": [
+        400,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 560,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1220",
+      "resource_type": "wood",
+      "tiles": [
+        1176,
+        1177,
+        1178,
+        1219,
+        1220,
+        1221
+      ],
+      "anchor": [
+        560,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 688,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1224",
+      "resource_type": "wood",
+      "tiles": [
+        1180,
+        1181,
+        1182,
+        1223,
+        1224,
+        1225
+      ],
+      "anchor": [
+        688,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 880,
+      "y": 904,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1187",
+      "resource_type": "wood",
+      "tiles": [
+        1143,
+        1144,
+        1145,
+        1186,
+        1187,
+        1188
+      ],
+      "anchor": [
+        880,
+        922
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1040,
+      "y": 904,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1192",
+      "resource_type": "wood",
+      "tiles": [
+        1148,
+        1149,
+        1150,
+        1191,
+        1192,
+        1193
+      ],
+      "anchor": [
+        1040,
+        922
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1136,
+      "y": 904,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1195",
+      "resource_type": "wood",
+      "tiles": [
+        1151,
+        1152,
+        1153,
+        1194,
+        1195,
+        1196
+      ],
+      "anchor": [
+        1136,
+        922
+      ]
+    },
+    {
+      "kind": "outdoor_birch",
+      "x": 1232,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1241",
+      "resource_type": "wood",
+      "tiles": [
+        1197,
+        1198,
+        1199,
+        1240,
+        1241,
+        1242
+      ],
+      "anchor": [
+        1232,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 1360,
+      "y": 936,
+      "w": 14,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_wood_1245",
+      "resource_type": "wood",
+      "tiles": [
+        1201,
+        1202,
+        1203,
+        1244,
+        1245,
+        1246
+      ],
+      "anchor": [
+        1360,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1168,
+      "y": 136,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_260",
+      "resource_type": "ore",
+      "tiles": [
+        217,
+        260
+      ],
+      "anchor": [
+        1168,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1072,
+      "y": 392,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_589",
+      "resource_type": "ore",
+      "tiles": [
+        558,
+        589
+      ],
+      "anchor": [
+        1072,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 560,
+      "y": 488,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_47",
+      "resource_type": "ore",
+      "tiles": [
+        35,
+        47
+      ],
+      "anchor": [
+        560,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 304,
+      "y": 552,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_63",
+      "resource_type": "ore",
+      "tiles": [
+        51,
+        63
+      ],
+      "anchor": [
+        304,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1232,
+      "y": 872,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1155",
+      "resource_type": "ore",
+      "tiles": [
+        1112,
+        1155
+      ],
+      "anchor": [
+        1232,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 656,
+      "y": 264,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_416",
+      "resource_type": "ore",
+      "tiles": [
+        373,
+        416
+      ],
+      "anchor": [
+        656,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 752,
+      "y": 584,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_765",
+      "resource_type": "ore",
+      "tiles": [
+        734,
+        765
+      ],
+      "anchor": [
+        752,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 720,
+      "y": 552,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_733",
+      "resource_type": "ore",
+      "tiles": [
+        702,
+        733
+      ],
+      "anchor": [
+        720,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 784,
+      "y": 488,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_673",
+      "resource_type": "ore",
+      "tiles": [
+        642,
+        673
+      ],
+      "anchor": [
+        784,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1104,
+      "y": 840,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1108",
+      "resource_type": "ore",
+      "tiles": [
+        1065,
+        1108
+      ],
+      "anchor": [
+        1104,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 688,
+      "y": 808,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1052",
+      "resource_type": "ore",
+      "tiles": [
+        1009,
+        1052
+      ],
+      "anchor": [
+        688,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 624,
+      "y": 104,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_200",
+      "resource_type": "ore",
+      "tiles": [
+        157,
+        200
+      ],
+      "anchor": [
+        624,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 624,
+      "y": 40,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_114",
+      "resource_type": "ore",
+      "tiles": [
+        114
+      ],
+      "anchor": [
+        624,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 144,
+      "y": 168,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_271",
+      "resource_type": "ore",
+      "tiles": [
+        228,
+        271
+      ],
+      "anchor": [
+        144,
+        186
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 432,
+      "y": 104,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_194",
+      "resource_type": "ore",
+      "tiles": [
+        151,
+        194
+      ],
+      "anchor": [
+        432,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 848,
+      "y": 40,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_121",
+      "resource_type": "ore",
+      "tiles": [
+        121
+      ],
+      "anchor": [
+        848,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 592,
+      "y": 40,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_113",
+      "resource_type": "ore",
+      "tiles": [
+        113
+      ],
+      "anchor": [
+        592,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 464,
+      "y": 584,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_80",
+      "resource_type": "ore",
+      "tiles": [
+        68,
+        80
+      ],
+      "anchor": [
+        464,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1328,
+      "y": 840,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1115",
+      "resource_type": "ore",
+      "tiles": [
+        1072,
+        1115
+      ],
+      "anchor": [
+        1328,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1072,
+      "y": 264,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_429",
+      "resource_type": "ore",
+      "tiles": [
+        386,
+        429
+      ],
+      "anchor": [
+        1072,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 784,
+      "y": 616,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_797",
+      "resource_type": "ore",
+      "tiles": [
+        766,
+        797
+      ],
+      "anchor": [
+        784,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1392,
+      "y": 776,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1031",
+      "resource_type": "ore",
+      "tiles": [
+        988,
+        1031
+      ],
+      "anchor": [
+        1392,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 816,
+      "y": 712,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_927",
+      "resource_type": "ore",
+      "tiles": [
+        884,
+        927
+      ],
+      "anchor": [
+        816,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1040,
+      "y": 680,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_891",
+      "resource_type": "ore",
+      "tiles": [
+        848,
+        891
+      ],
+      "anchor": [
+        1040,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 432,
+      "y": 200,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_323",
+      "resource_type": "ore",
+      "tiles": [
+        280,
+        323
+      ],
+      "anchor": [
+        432,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1264,
+      "y": 200,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_349",
+      "resource_type": "ore",
+      "tiles": [
+        306,
+        349
+      ],
+      "anchor": [
+        1264,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 144,
+      "y": 424,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_603",
+      "resource_type": "ore",
+      "tiles": [
+        572,
+        603
+      ],
+      "anchor": [
+        144,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 560,
+      "y": 840,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1091",
+      "resource_type": "ore",
+      "tiles": [
+        1048,
+        1091
+      ],
+      "anchor": [
+        560,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1392,
+      "y": 456,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_661",
+      "resource_type": "ore",
+      "tiles": [
+        630,
+        661
+      ],
+      "anchor": [
+        1392,
+        474
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1040,
+      "y": 392,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_588",
+      "resource_type": "ore",
+      "tiles": [
+        557,
+        588
+      ],
+      "anchor": [
+        1040,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 752,
+      "y": 904,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1183",
+      "resource_type": "ore",
+      "tiles": [
+        1140,
+        1183
+      ],
+      "anchor": [
+        752,
+        922
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 912,
+      "y": 104,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_209",
+      "resource_type": "ore",
+      "tiles": [
+        166,
+        209
+      ],
+      "anchor": [
+        912,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 496,
+      "y": 648,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_831",
+      "resource_type": "ore",
+      "tiles": [
+        93,
+        831
+      ],
+      "anchor": [
+        496,
+        666
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 848,
+      "y": 136,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_250",
+      "resource_type": "ore",
+      "tiles": [
+        207,
+        250
+      ],
+      "anchor": [
+        848,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1200,
+      "y": 712,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_939",
+      "resource_type": "ore",
+      "tiles": [
+        896,
+        939
+      ],
+      "anchor": [
+        1200,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 784,
+      "y": 40,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_119",
+      "resource_type": "ore",
+      "tiles": [
+        119
+      ],
+      "anchor": [
+        784,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 976,
+      "y": 936,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1233",
+      "resource_type": "ore",
+      "tiles": [
+        1190,
+        1233
+      ],
+      "anchor": [
+        976,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 464,
+      "y": 488,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_44",
+      "resource_type": "ore",
+      "tiles": [
+        32,
+        44
+      ],
+      "anchor": [
+        464,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1392,
+      "y": 872,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1160",
+      "resource_type": "ore",
+      "tiles": [
+        1117,
+        1160
+      ],
+      "anchor": [
+        1392,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 912,
+      "y": 584,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_770",
+      "resource_type": "ore",
+      "tiles": [
+        739,
+        770
+      ],
+      "anchor": [
+        912,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 1200,
+      "y": 392,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_593",
+      "resource_type": "ore",
+      "tiles": [
+        562,
+        593
+      ],
+      "anchor": [
+        1200,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 304,
+      "y": 936,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1212",
+      "resource_type": "ore",
+      "tiles": [
+        1169,
+        1212
+      ],
+      "anchor": [
+        304,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 272,
+      "y": 520,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_50",
+      "resource_type": "ore",
+      "tiles": [
+        38,
+        50
+      ],
+      "anchor": [
+        272,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 208,
+      "y": 776,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_994",
+      "resource_type": "ore",
+      "tiles": [
+        951,
+        994
+      ],
+      "anchor": [
+        208,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 336,
+      "y": 808,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1041",
+      "resource_type": "ore",
+      "tiles": [
+        998,
+        1041
+      ],
+      "anchor": [
+        336,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 976,
+      "y": 424,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_617",
+      "resource_type": "ore",
+      "tiles": [
+        586,
+        617
+      ],
+      "anchor": [
+        976,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 240,
+      "y": 520,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_49",
+      "resource_type": "ore",
+      "tiles": [
+        37,
+        49
+      ],
+      "anchor": [
+        240,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 560,
+      "y": 392,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_11",
+      "resource_type": "ore",
+      "tiles": [
+        11,
+        542
+      ],
+      "anchor": [
+        560,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 464,
+      "y": 936,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_1217",
+      "resource_type": "ore",
+      "tiles": [
+        1174,
+        1217
+      ],
+      "anchor": [
+        464,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 560,
+      "y": 72,
+      "w": 28,
+      "h": 16,
+      "solid": true,
+      "resource_id": "farm_ore_155",
+      "resource_type": "ore",
+      "tiles": [
+        112,
+        155
+      ],
+      "anchor": [
+        560,
+        90
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 816,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1142",
+      "resource_type": "weed",
+      "tiles": [
+        1099,
+        1142
+      ],
+      "anchor": [
+        816,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 592,
+      "y": 136,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_242",
+      "resource_type": "weed",
+      "tiles": [
+        199,
+        242
+      ],
+      "anchor": [
+        592,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 432,
+      "y": 584,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_79",
+      "resource_type": "weed",
+      "tiles": [
+        67,
+        79
+      ],
+      "anchor": [
+        432,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 592,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_667",
+      "resource_type": "weed",
+      "tiles": [
+        636,
+        667
+      ],
+      "anchor": [
+        592,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 720,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_418",
+      "resource_type": "weed",
+      "tiles": [
+        375,
+        418
+      ],
+      "anchor": [
+        720,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 656,
+      "y": 744,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_965",
+      "resource_type": "weed",
+      "tiles": [
+        922,
+        965
+      ],
+      "anchor": [
+        656,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 48,
+      "y": 360,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_526",
+      "resource_type": "weed",
+      "tiles": [
+        483,
+        526
+      ],
+      "anchor": [
+        48,
+        378
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 496,
+      "y": 712,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_917",
+      "resource_type": "weed",
+      "tiles": [
+        874,
+        917
+      ],
+      "anchor": [
+        496,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 304,
+      "y": 424,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_15",
+      "resource_type": "weed",
+      "tiles": [
+        3,
+        15
+      ],
+      "anchor": [
+        304,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 176,
+      "y": 776,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_993",
+      "resource_type": "weed",
+      "tiles": [
+        950,
+        993
+      ],
+      "anchor": [
+        176,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 432,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_7",
+      "resource_type": "weed",
+      "tiles": [
+        7,
+        538
+      ],
+      "anchor": [
+        432,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1232,
+      "y": 584,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_780",
+      "resource_type": "weed",
+      "tiles": [
+        749,
+        780
+      ],
+      "anchor": [
+        1232,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1200,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1154",
+      "resource_type": "weed",
+      "tiles": [
+        1111,
+        1154
+      ],
+      "anchor": [
+        1200,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 816,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_335",
+      "resource_type": "weed",
+      "tiles": [
+        292,
+        335
+      ],
+      "anchor": [
+        816,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1296,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_350",
+      "resource_type": "weed",
+      "tiles": [
+        307,
+        350
+      ],
+      "anchor": [
+        1296,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 464,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_109",
+      "resource_type": "weed",
+      "tiles": [
+        109
+      ],
+      "anchor": [
+        464,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 752,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_118",
+      "resource_type": "weed",
+      "tiles": [
+        118
+      ],
+      "anchor": [
+        752,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 304,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_39",
+      "resource_type": "weed",
+      "tiles": [
+        27,
+        39
+      ],
+      "anchor": [
+        304,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1072,
+      "y": 840,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1107",
+      "resource_type": "weed",
+      "tiles": [
+        1064,
+        1107
+      ],
+      "anchor": [
+        1072,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 560,
+      "y": 136,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_241",
+      "resource_type": "weed",
+      "tiles": [
+        198,
+        241
+      ],
+      "anchor": [
+        560,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 976,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_710",
+      "resource_type": "weed",
+      "tiles": [
+        679,
+        710
+      ],
+      "anchor": [
+        976,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1136,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_431",
+      "resource_type": "weed",
+      "tiles": [
+        388,
+        431
+      ],
+      "anchor": [
+        1136,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1104,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_430",
+      "resource_type": "weed",
+      "tiles": [
+        387,
+        430
+      ],
+      "anchor": [
+        1104,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1296,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_813",
+      "resource_type": "weed",
+      "tiles": [
+        782,
+        813
+      ],
+      "anchor": [
+        1296,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 816,
+      "y": 552,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_736",
+      "resource_type": "weed",
+      "tiles": [
+        705,
+        736
+      ],
+      "anchor": [
+        816,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1040,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_805",
+      "resource_type": "weed",
+      "tiles": [
+        774,
+        805
+      ],
+      "anchor": [
+        1040,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 464,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_195",
+      "resource_type": "weed",
+      "tiles": [
+        152,
+        195
+      ],
+      "anchor": [
+        464,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 144,
+      "y": 808,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1035",
+      "resource_type": "weed",
+      "tiles": [
+        992,
+        1035
+      ],
+      "anchor": [
+        144,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1136,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_216",
+      "resource_type": "weed",
+      "tiles": [
+        173,
+        216
+      ],
+      "anchor": [
+        1136,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 176,
+      "y": 584,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_759",
+      "resource_type": "weed",
+      "tiles": [
+        728,
+        759
+      ],
+      "anchor": [
+        176,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 656,
+      "y": 680,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_879",
+      "resource_type": "weed",
+      "tiles": [
+        836,
+        879
+      ],
+      "anchor": [
+        656,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1040,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_127",
+      "resource_type": "weed",
+      "tiles": [
+        127
+      ],
+      "anchor": [
+        1040,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 560,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_413",
+      "resource_type": "weed",
+      "tiles": [
+        370,
+        413
+      ],
+      "anchor": [
+        560,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 432,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_55",
+      "resource_type": "weed",
+      "tiles": [
+        43,
+        55
+      ],
+      "anchor": [
+        432,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1040,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_428",
+      "resource_type": "weed",
+      "tiles": [
+        385,
+        428
+      ],
+      "anchor": [
+        1040,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 80,
+      "y": 776,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_990",
+      "resource_type": "weed",
+      "tiles": [
+        947,
+        990
+      ],
+      "anchor": [
+        80,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1072,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_343",
+      "resource_type": "weed",
+      "tiles": [
+        300,
+        343
+      ],
+      "anchor": [
+        1072,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1392,
+      "y": 552,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_754",
+      "resource_type": "weed",
+      "tiles": [
+        723,
+        754
+      ],
+      "anchor": [
+        1392,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1104,
+      "y": 680,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_893",
+      "resource_type": "weed",
+      "tiles": [
+        850,
+        893
+      ],
+      "anchor": [
+        1104,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 624,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1136",
+      "resource_type": "weed",
+      "tiles": [
+        1093,
+        1136
+      ],
+      "anchor": [
+        624,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 48,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_693",
+      "resource_type": "weed",
+      "tiles": [
+        662,
+        693
+      ],
+      "anchor": [
+        48,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 240,
+      "y": 584,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_73",
+      "resource_type": "weed",
+      "tiles": [
+        61,
+        73
+      ],
+      "anchor": [
+        240,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1360,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_815",
+      "resource_type": "weed",
+      "tiles": [
+        784,
+        815
+      ],
+      "anchor": [
+        1360,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1040,
+      "y": 840,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1106",
+      "resource_type": "weed",
+      "tiles": [
+        1063,
+        1106
+      ],
+      "anchor": [
+        1040,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 848,
+      "y": 712,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_928",
+      "resource_type": "weed",
+      "tiles": [
+        885,
+        928
+      ],
+      "anchor": [
+        848,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 944,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_425",
+      "resource_type": "weed",
+      "tiles": [
+        382,
+        425
+      ],
+      "anchor": [
+        944,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 48,
+      "y": 648,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_817",
+      "resource_type": "weed",
+      "tiles": [
+        786,
+        817
+      ],
+      "anchor": [
+        48,
+        666
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 784,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_334",
+      "resource_type": "weed",
+      "tiles": [
+        291,
+        334
+      ],
+      "anchor": [
+        784,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1264,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_134",
+      "resource_type": "weed",
+      "tiles": [
+        134
+      ],
+      "anchor": [
+        1264,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1296,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1157",
+      "resource_type": "weed",
+      "tiles": [
+        1114,
+        1157
+      ],
+      "anchor": [
+        1296,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1200,
+      "y": 136,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_261",
+      "resource_type": "weed",
+      "tiles": [
+        218,
+        261
+      ],
+      "anchor": [
+        1200,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 112,
+      "y": 776,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_991",
+      "resource_type": "weed",
+      "tiles": [
+        948,
+        991
+      ],
+      "anchor": [
+        112,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 688,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_116",
+      "resource_type": "weed",
+      "tiles": [
+        116
+      ],
+      "anchor": [
+        688,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 464,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_410",
+      "resource_type": "weed",
+      "tiles": [
+        367,
+        410
+      ],
+      "anchor": [
+        464,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1360,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_137",
+      "resource_type": "weed",
+      "tiles": [
+        137
+      ],
+      "anchor": [
+        1360,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 816,
+      "y": 936,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1228",
+      "resource_type": "weed",
+      "tiles": [
+        1185,
+        1228
+      ],
+      "anchor": [
+        816,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1136,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_684",
+      "resource_type": "weed",
+      "tiles": [
+        653,
+        684
+      ],
+      "anchor": [
+        1136,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 528,
+      "y": 744,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_961",
+      "resource_type": "weed",
+      "tiles": [
+        918,
+        961
+      ],
+      "anchor": [
+        528,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1264,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_595",
+      "resource_type": "weed",
+      "tiles": [
+        564,
+        595
+      ],
+      "anchor": [
+        1264,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 528,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_412",
+      "resource_type": "weed",
+      "tiles": [
+        369,
+        412
+      ],
+      "anchor": [
+        528,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 624,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_792",
+      "resource_type": "weed",
+      "tiles": [
+        761,
+        792
+      ],
+      "anchor": [
+        624,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 112,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_184",
+      "resource_type": "weed",
+      "tiles": [
+        141,
+        184
+      ],
+      "anchor": [
+        112,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 944,
+      "y": 904,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1189",
+      "resource_type": "weed",
+      "tiles": [
+        1146,
+        1189
+      ],
+      "anchor": [
+        944,
+        922
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 368,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_106",
+      "resource_type": "weed",
+      "tiles": [
+        106
+      ],
+      "anchor": [
+        368,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1392,
+      "y": 72,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_181",
+      "resource_type": "weed",
+      "tiles": [
+        138,
+        181
+      ],
+      "anchor": [
+        1392,
+        90
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1392,
+      "y": 680,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_902",
+      "resource_type": "weed",
+      "tiles": [
+        859,
+        902
+      ],
+      "anchor": [
+        1392,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1168,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_685",
+      "resource_type": "weed",
+      "tiles": [
+        654,
+        685
+      ],
+      "anchor": [
+        1168,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 528,
+      "y": 808,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1047",
+      "resource_type": "weed",
+      "tiles": [
+        1004,
+        1047
+      ],
+      "anchor": [
+        528,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1104,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_344",
+      "resource_type": "weed",
+      "tiles": [
+        301,
+        344
+      ],
+      "anchor": [
+        1104,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1072,
+      "y": 680,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_892",
+      "resource_type": "weed",
+      "tiles": [
+        849,
+        892
+      ],
+      "anchor": [
+        1072,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1360,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_352",
+      "resource_type": "weed",
+      "tiles": [
+        309,
+        352
+      ],
+      "anchor": [
+        1360,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 816,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_581",
+      "resource_type": "weed",
+      "tiles": [
+        550,
+        581
+      ],
+      "anchor": [
+        816,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1392,
+      "y": 232,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_396",
+      "resource_type": "weed",
+      "tiles": [
+        353,
+        396
+      ],
+      "anchor": [
+        1392,
+        250
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 656,
+      "y": 840,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1094",
+      "resource_type": "weed",
+      "tiles": [
+        1051,
+        1094
+      ],
+      "anchor": [
+        656,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 464,
+      "y": 712,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_916",
+      "resource_type": "weed",
+      "tiles": [
+        873,
+        916
+      ],
+      "anchor": [
+        464,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 624,
+      "y": 936,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1222",
+      "resource_type": "weed",
+      "tiles": [
+        1179,
+        1222
+      ],
+      "anchor": [
+        624,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 944,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_585",
+      "resource_type": "weed",
+      "tiles": [
+        554,
+        585
+      ],
+      "anchor": [
+        944,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 496,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_57",
+      "resource_type": "weed",
+      "tiles": [
+        45,
+        57
+      ],
+      "anchor": [
+        496,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1296,
+      "y": 72,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_178",
+      "resource_type": "weed",
+      "tiles": [
+        135,
+        178
+      ],
+      "anchor": [
+        1296,
+        90
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1232,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_348",
+      "resource_type": "weed",
+      "tiles": [
+        305,
+        348
+      ],
+      "anchor": [
+        1232,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 144,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_400",
+      "resource_type": "weed",
+      "tiles": [
+        357,
+        400
+      ],
+      "anchor": [
+        144,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 144,
+      "y": 936,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1207",
+      "resource_type": "weed",
+      "tiles": [
+        1164,
+        1207
+      ],
+      "anchor": [
+        144,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1104,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_215",
+      "resource_type": "weed",
+      "tiles": [
+        172,
+        215
+      ],
+      "anchor": [
+        1104,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1232,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_133",
+      "resource_type": "weed",
+      "tiles": [
+        133
+      ],
+      "anchor": [
+        1232,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1264,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_435",
+      "resource_type": "weed",
+      "tiles": [
+        392,
+        435
+      ],
+      "anchor": [
+        1264,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 944,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_124",
+      "resource_type": "weed",
+      "tiles": [
+        124
+      ],
+      "anchor": [
+        944,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 528,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_197",
+      "resource_type": "weed",
+      "tiles": [
+        154,
+        197
+      ],
+      "anchor": [
+        528,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 336,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_105",
+      "resource_type": "weed",
+      "tiles": [
+        105
+      ],
+      "anchor": [
+        336,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 784,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1141",
+      "resource_type": "weed",
+      "tiles": [
+        1098,
+        1141
+      ],
+      "anchor": [
+        784,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 528,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1133",
+      "resource_type": "weed",
+      "tiles": [
+        1090,
+        1133
+      ],
+      "anchor": [
+        528,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 272,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_103",
+      "resource_type": "weed",
+      "tiles": [
+        103
+      ],
+      "anchor": [
+        272,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 720,
+      "y": 840,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1096",
+      "resource_type": "weed",
+      "tiles": [
+        1053,
+        1096
+      ],
+      "anchor": [
+        720,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 368,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1128",
+      "resource_type": "weed",
+      "tiles": [
+        1085,
+        1128
+      ],
+      "anchor": [
+        368,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 656,
+      "y": 136,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_244",
+      "resource_type": "weed",
+      "tiles": [
+        201,
+        244
+      ],
+      "anchor": [
+        656,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 976,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_426",
+      "resource_type": "weed",
+      "tiles": [
+        383,
+        426
+      ],
+      "anchor": [
+        976,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 176,
+      "y": 360,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_530",
+      "resource_type": "weed",
+      "tiles": [
+        487,
+        530
+      ],
+      "anchor": [
+        176,
+        378
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1392,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_816",
+      "resource_type": "weed",
+      "tiles": [
+        785,
+        816
+      ],
+      "anchor": [
+        1392,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 912,
+      "y": 840,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1102",
+      "resource_type": "weed",
+      "tiles": [
+        1059,
+        1102
+      ],
+      "anchor": [
+        912,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 848,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_422",
+      "resource_type": "weed",
+      "tiles": [
+        379,
+        422
+      ],
+      "anchor": [
+        848,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1328,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_136",
+      "resource_type": "weed",
+      "tiles": [
+        136
+      ],
+      "anchor": [
+        1328,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 656,
+      "y": 72,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_158",
+      "resource_type": "weed",
+      "tiles": [
+        115,
+        158
+      ],
+      "anchor": [
+        656,
+        90
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 304,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_87",
+      "resource_type": "weed",
+      "tiles": [
+        75,
+        87
+      ],
+      "anchor": [
+        304,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1232,
+      "y": 744,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_983",
+      "resource_type": "weed",
+      "tiles": [
+        940,
+        983
+      ],
+      "anchor": [
+        1232,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 272,
+      "y": 616,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_86",
+      "resource_type": "weed",
+      "tiles": [
+        74,
+        86
+      ],
+      "anchor": [
+        272,
+        634
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1200,
+      "y": 584,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_779",
+      "resource_type": "weed",
+      "tiles": [
+        748,
+        779
+      ],
+      "anchor": [
+        1200,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 752,
+      "y": 840,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1097",
+      "resource_type": "weed",
+      "tiles": [
+        1054,
+        1097
+      ],
+      "anchor": [
+        752,
+        858
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 432,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_409",
+      "resource_type": "weed",
+      "tiles": [
+        366,
+        409
+      ],
+      "anchor": [
+        432,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 592,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_414",
+      "resource_type": "weed",
+      "tiles": [
+        371,
+        414
+      ],
+      "anchor": [
+        592,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 752,
+      "y": 200,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_333",
+      "resource_type": "weed",
+      "tiles": [
+        290,
+        333
+      ],
+      "anchor": [
+        752,
+        218
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 176,
+      "y": 424,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_604",
+      "resource_type": "weed",
+      "tiles": [
+        573,
+        604
+      ],
+      "anchor": [
+        176,
+        442
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 496,
+      "y": 584,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_81",
+      "resource_type": "weed",
+      "tiles": [
+        69,
+        81
+      ],
+      "anchor": [
+        496,
+        602
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1264,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1156",
+      "resource_type": "weed",
+      "tiles": [
+        1113,
+        1156
+      ],
+      "anchor": [
+        1264,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 400,
+      "y": 808,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1043",
+      "resource_type": "weed",
+      "tiles": [
+        1000,
+        1043
+      ],
+      "anchor": [
+        400,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 336,
+      "y": 936,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1213",
+      "resource_type": "weed",
+      "tiles": [
+        1170,
+        1213
+      ],
+      "anchor": [
+        336,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 816,
+      "y": 72,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_163",
+      "resource_type": "weed",
+      "tiles": [
+        120,
+        163
+      ],
+      "anchor": [
+        816,
+        90
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1264,
+      "y": 552,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_750",
+      "resource_type": "weed",
+      "tiles": [
+        719,
+        750
+      ],
+      "anchor": [
+        1264,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1360,
+      "y": 680,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_901",
+      "resource_type": "weed",
+      "tiles": [
+        858,
+        901
+      ],
+      "anchor": [
+        1360,
+        698
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1360,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1159",
+      "resource_type": "weed",
+      "tiles": [
+        1116,
+        1159
+      ],
+      "anchor": [
+        1360,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 336,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_52",
+      "resource_type": "weed",
+      "tiles": [
+        40,
+        52
+      ],
+      "anchor": [
+        336,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 48,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_96",
+      "resource_type": "weed",
+      "tiles": [
+        96
+      ],
+      "anchor": [
+        48,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 272,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_2",
+      "resource_type": "weed",
+      "tiles": [
+        2,
+        533
+      ],
+      "anchor": [
+        272,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 400,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_54",
+      "resource_type": "weed",
+      "tiles": [
+        42,
+        54
+      ],
+      "anchor": [
+        400,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 752,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_672",
+      "resource_type": "weed",
+      "tiles": [
+        641,
+        672
+      ],
+      "anchor": [
+        752,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 880,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_423",
+      "resource_type": "weed",
+      "tiles": [
+        380,
+        423
+      ],
+      "anchor": [
+        880,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1232,
+      "y": 808,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1069",
+      "resource_type": "weed",
+      "tiles": [
+        1026,
+        1069
+      ],
+      "anchor": [
+        1232,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 48,
+      "y": 776,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_989",
+      "resource_type": "weed",
+      "tiles": [
+        946,
+        989
+      ],
+      "anchor": [
+        48,
+        794
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 816,
+      "y": 808,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1056",
+      "resource_type": "weed",
+      "tiles": [
+        1013,
+        1056
+      ],
+      "anchor": [
+        816,
+        826
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 400,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_6",
+      "resource_type": "weed",
+      "tiles": [
+        6,
+        537
+      ],
+      "anchor": [
+        400,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 144,
+      "y": 872,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1121",
+      "resource_type": "weed",
+      "tiles": [
+        1078,
+        1121
+      ],
+      "anchor": [
+        144,
+        890
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1008,
+      "y": 520,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_711",
+      "resource_type": "weed",
+      "tiles": [
+        680,
+        711
+      ],
+      "anchor": [
+        1008,
+        538
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 880,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_208",
+      "resource_type": "weed",
+      "tiles": [
+        165,
+        208
+      ],
+      "anchor": [
+        880,
+        122
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 816,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_674",
+      "resource_type": "weed",
+      "tiles": [
+        643,
+        674
+      ],
+      "anchor": [
+        816,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 688,
+      "y": 744,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_966",
+      "resource_type": "weed",
+      "tiles": [
+        923,
+        966
+      ],
+      "anchor": [
+        688,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 784,
+      "y": 936,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_1227",
+      "resource_type": "weed",
+      "tiles": [
+        1184,
+        1227
+      ],
+      "anchor": [
+        784,
+        954
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 80,
+      "y": 648,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_818",
+      "resource_type": "weed",
+      "tiles": [
+        787,
+        818
+      ],
+      "anchor": [
+        80,
+        666
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 720,
+      "y": 72,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_160",
+      "resource_type": "weed",
+      "tiles": [
+        117,
+        160
+      ],
+      "anchor": [
+        720,
+        90
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 688,
+      "y": 136,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_245",
+      "resource_type": "weed",
+      "tiles": [
+        202,
+        245
+      ],
+      "anchor": [
+        688,
+        154
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 496,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_110",
+      "resource_type": "weed",
+      "tiles": [
+        110
+      ],
+      "anchor": [
+        496,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1072,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_128",
+      "resource_type": "weed",
+      "tiles": [
+        128
+      ],
+      "anchor": [
+        1072,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 528,
+      "y": 488,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_46",
+      "resource_type": "weed",
+      "tiles": [
+        34,
+        46
+      ],
+      "anchor": [
+        528,
+        506
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1328,
+      "y": 712,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_943",
+      "resource_type": "weed",
+      "tiles": [
+        900,
+        943
+      ],
+      "anchor": [
+        1328,
+        730
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 208,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_0",
+      "resource_type": "weed",
+      "tiles": [
+        0,
+        531
+      ],
+      "anchor": [
+        208,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1104,
+      "y": 456,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_652",
+      "resource_type": "weed",
+      "tiles": [
+        621,
+        652
+      ],
+      "anchor": [
+        1104,
+        474
+      ]
+    },
+    {
+      "kind": "outdoor_fern",
+      "x": 1168,
+      "y": 264,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_432",
+      "resource_type": "weed",
+      "tiles": [
+        389,
+        432
+      ],
+      "anchor": [
+        1168,
+        282
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 592,
+      "y": 392,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_574",
+      "resource_type": "weed",
+      "tiles": [
+        543,
+        574
+      ],
+      "anchor": [
+        592,
+        410
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 912,
+      "y": 40,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_123",
+      "resource_type": "weed",
+      "tiles": [
+        123
+      ],
+      "anchor": [
+        912,
+        58
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 144,
+      "y": 552,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_727",
+      "resource_type": "weed",
+      "tiles": [
+        696,
+        727
+      ],
+      "anchor": [
+        144,
+        570
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 1264,
+      "y": 744,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_984",
+      "resource_type": "weed",
+      "tiles": [
+        941,
+        984
+      ],
+      "anchor": [
+        1264,
+        762
+      ]
+    },
+    {
+      "kind": "outdoor_bush",
+      "x": 944,
+      "y": 104,
+      "w": 18,
+      "h": 12,
+      "solid": true,
+      "resource_id": "farm_weed_210",
+      "resource_type": "weed",
+      "tiles": [
+        167,
+        210
+      ],
+      "anchor": [
+        944,
+        122
+      ]
+    }
+  ],
+  "water": []
+}

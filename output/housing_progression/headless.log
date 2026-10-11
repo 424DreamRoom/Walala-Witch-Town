@@ -1,0 +1,257 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+HOUSING TEST starter house is empty including fixtures and stock: PASS
+HOUSING TEST insufficient funds cannot expand: PASS
+HOUSING TEST starter still supports crafting: PASS
+HOUSING TEST larger floor is locked before purchase: PASS
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] place_furniture (res://Scenes/Gameplay/loop_state.gd:554)
+       [2] domain_checks (res://Scenes/Building/verify_housing.gd:71)
+       [3] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] place_furniture (res://Scenes/Gameplay/loop_state.gd:554)
+       [2] domain_checks (res://Scenes/Building/verify_housing.gd:71)
+       [3] run (res://Scenes/Building/verify_housing.gd:123)
+HOUSING TEST starter supports real furniture: PASS
+HOUSING TEST chest accepts real inventory: PASS
+HOUSING TEST expansion charges exact cost 0: PASS
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:81)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:81)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+HOUSING TEST expansion preserves IDs positions and contents 0: PASS
+HOUSING TEST expansion charges exact cost 1: PASS
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:81)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:81)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+HOUSING TEST expansion preserves IDs positions and contents 1: PASS
+HOUSING TEST maximum cannot charge again: PASS
+HOUSING TEST reject invalid house level -1: PASS
+HOUSING TEST reject invalid house level 3: PASS
+HOUSING TEST reject invalid house level 0.5: PASS
+HOUSING TEST reject invalid house level 1: PASS
+HOUSING TEST save validates level-specific furniture bounds: PASS
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:93)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+HOUSING TEST pre-furniture saves retain authored house: PASS
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+SCRIPT ERROR: Trying to assign an array of type "Array" to a variable of type "Array[Rect2]".
+   at: placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+   GDScript backtrace (most recent call first):
+       [0] placement_error (res://Scenes/Building/furniture_catalog.gd:61)
+       [1] normalize (res://Scenes/Building/furniture_catalog.gd:122)
+       [2] normalize_save_data (res://Scenes/Gameplay/loop_state.gd:669)
+       [3] domain_checks (res://Scenes/Building/verify_housing.gd:97)
+       [4] run (res://Scenes/Building/verify_housing.gd:123)
+HOUSING TEST pre-expansion saves retain every furnishing: PASS
+HOUSING TEST one missing material prevents all charges: PASS
+HOUSING TEST night expansion cannot mutate: PASS
+HOUSING TEST small room still protects escape route: PASS
+SCRIPT ERROR: Parse Error: Cannot infer the type of "building" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://Scenes/Save/save_menu.gd:111)
+   GDScript backtrace (most recent call first):
+       [0] load_lane (res://Scenes/Building/verify_housing.gd:110)
+       [1] run (res://Scenes/Building/verify_housing.gd:125)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Scenes/Gameplay/game_loop.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] load_lane (res://Scenes/Building/verify_housing.gd:110)
+       [1] run (res://Scenes/Building/verify_housing.gd:125)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://Scenes/LanternLane/lantern_lane.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] load_lane (res://Scenes/Building/verify_housing.gd:110)
+       [1] run (res://Scenes/Building/verify_housing.gd:125)
+ERROR: Failed to load script "res://Scenes/LanternLane/lantern_lane.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] load_lane (res://Scenes/Building/verify_housing.gd:110)
+       [1] run (res://Scenes/Building/verify_housing.gd:125)
+ERROR: Resource file not found: res://Art/Environment/Hearthwood/outdoor_sign_furniture_store.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Gameplay/game_loop.gd:113)
+       [1] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [2] load_lane (res://Scenes/Building/verify_housing.gd:111)
+       [3] run (res://Scenes/Building/verify_housing.gd:125)
+SCRIPT ERROR: Cannot call method 'get_height' on a null value.
+   at: _ready (res://Scenes/Gameplay/game_loop.gd:114)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Gameplay/game_loop.gd:114)
+       [1] _ready (res://Scenes/LanternLane/lantern_lane.gd:115)
+       [2] load_lane (res://Scenes/Building/verify_housing.gd:111)
+       [3] run (res://Scenes/Building/verify_housing.gd:125)
+HOUSING TEST fresh slot opens: PASS
+HOUSING TEST starter has only its eight wall bodies: PASS
+HOUSING TEST starter floor is one sixth of former floor: PASS
+HOUSING TEST starter side wall physically blocks movement: PASS
+SCRIPT ERROR: Invalid access to property or key 'open' on a base object of type 'Nil'.
+   at: run (res://Scenes/Building/verify_housing.gd:139)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Building/verify_housing.gd:139)
+       [1] key (res://Scenes/Building/verify_housing.gd:33)
+       [2] frames (res://Scenes/Building/verify_housing.gd:24)

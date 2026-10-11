@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "character_id": "walala-witch-v2",
+  "family": "ally-sheet",
+  "canvas": {
+    "width": 32,
+    "height": 48
+  },
+  "pivot": {
+    "x": 16,
+    "y": 48
+  },
+  "layers": [
+    "shadow",
+    "body",
+    "outfit",
+    "hair",
+    "equipment",
+    "fx"
+  ],
+  "frame_source": {
+    "count": 20,
+    "layers": {
+      "shadow": "frames/{index:03d}-shadow.png",
+      "body": "frames/{index:03d}-body.png",
+      "outfit": "frames/{index:03d}-outfit.png",
+      "hair": "frames/{index:03d}-hair.png",
+      "equipment": "frames/{index:03d}-equipment.png",
+      "fx": "frames/{index:03d}-fx.png"
+    }
+  },
+  "required_animation_tags": [
+    "idle-down",
+    "walk-down",
+    "idle-up",
+    "walk-up",
+    "idle-right",
+    "walk-right",
+    "idle-left",
+    "walk-left"
+  ],
+  "animations": [
+    {
+      "name": "idle-down",
+      "from": 0,
+      "to": 0,
+      "duration_ms": 400,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk-down",
+      "from": 1,
+      "to": 4,
+      "duration_ms": 110,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle-up",
+      "from": 5,
+      "to": 5,
+      "duration_ms": 400,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk-up",
+      "from": 6,
+      "to": 9,
+      "duration_ms": 110,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle-right",
+      "from": 10,
+      "to": 10,
+      "duration_ms": 400,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk-right",
+      "from": 11,
+      "to": 14,
+      "duration_ms": 110,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle-left",
+      "from": 15,
+      "to": 15,
+      "duration_ms": 400,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk-left",
+      "from": 16,
+      "to": 19,
+      "duration_ms": 110,
+      "direction": "forward",
+      "loop": true
+    }
+  ],
+  "export": {
+    "columns": 5
+  },
+  "validation": {
+    "binary_alpha": true,
+    "palette_max_per_frame": 80,
+    "expected_baseline": 47
+  },
+  "design": {
+    "id": "walala-witch",
+    "hair_style": "silver-bob",
+    "hat": "#a080b7",
+    "hair": "#e6e3ed",
+    "skin": "#f7dcc4",
+    "outfit": "#a78db5",
+    "head_source": "../WalalaWitchV2/head-keys.png"
+  },
+  "reference_note": "Generated head keys; existing authored lower body and wand poses. See ../WalalaWitchV2/README.md."
+}

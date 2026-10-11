@@ -1,0 +1,12 @@
+--- Scenes/Equipment/verify_equipment.gd (before)
++++ Scenes/Equipment/verify_equipment.gd
+@@ -223,7 +223,8 @@
+ 		await shot("upgrades_" + locale)
+ 	root.get_node("Localization").set_language("zh_CN", false)
+ 	check("upgrading freezes timers and position", loop.state.remaining == remaining and lane.player.position == position)
+-	check("NPC purchase autosaves ranks", Saves.read_slot(1).data.state.equipment == loop.state.equipment)
++	check("NPC purchase waits for scheduled save", Saves.read_slot(1).data.state.equipment != loop.state.equipment)
++	check("manual save preserves purchased ranks", loop.save_progress().ok and Saves.read_slot(1).data.state.equipment == loop.state.equipment)
+ 	loop.hud.close_modal()
+ 	panel.purchase()
+ 	check("queued closed service click does nothing", loop.state.coins == wallet)

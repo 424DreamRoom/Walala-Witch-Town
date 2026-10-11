@@ -13,7 +13,7 @@
         0,
         255
       ],
-      "opaque_pixels": 129,
+      "opaque_pixels": 115,
       "palette_colors": 7,
       "aseprite_magic": "0xA5E0",
       "frames": 1,
@@ -25,7 +25,7 @@
       ],
       "cel_count": 4,
       "source_png_pixel_match": true,
-      "source_sha256": "d8666f93b3ea74b37aa7b77adbb817888e9b628a21512043310722749c28bf8b"
+      "source_sha256": "43090e49b874c9b9f7e7d7d312eac62c5ae83c3d8c18eb2339abb13d64bba8f7"
     },
     {
       "asset": "stone",
@@ -38,7 +38,7 @@
         0,
         255
       ],
-      "opaque_pixels": 117,
+      "opaque_pixels": 118,
       "palette_colors": 6,
       "aseprite_magic": "0xA5E0",
       "frames": 1,
@@ -50,7 +50,7 @@
       ],
       "cel_count": 4,
       "source_png_pixel_match": true,
-      "source_sha256": "bb8e38f2095234122f9e3a1e8b2c104287682284a47395bfeb274293b1502501"
+      "source_sha256": "70d47824beedd5c4c07e66df2acaeda89ca5e646f3c1977f061066a48587667f"
     },
     {
       "asset": "gold",
@@ -63,7 +63,7 @@
         0,
         255
       ],
-      "opaque_pixels": 109,
+      "opaque_pixels": 111,
       "palette_colors": 6,
       "aseprite_magic": "0xA5E0",
       "frames": 1,
@@ -75,7 +75,7 @@
       ],
       "cel_count": 4,
       "source_png_pixel_match": true,
-      "source_sha256": "1af0b90497e011ae49e65160662fdab61c39ae4ca22e83257ca0b2fa8952cc95"
+      "source_sha256": "0fcf3f372638f1d64976e4d3cc2e7841d361b23d846fd2908105461015f01f49"
     },
     {
       "asset": "iron_ore",
@@ -88,7 +88,7 @@
         0,
         255
       ],
-      "opaque_pixels": 112,
+      "opaque_pixels": 110,
       "palette_colors": 7,
       "aseprite_magic": "0xA5E0",
       "frames": 1,
@@ -100,7 +100,57 @@
       ],
       "cel_count": 4,
       "source_png_pixel_match": true,
-      "source_sha256": "dfb82137caae907b030ebfeee95aeea6b1978fa08363ec1f3d7275a2038a36fb"
+      "source_sha256": "3492995342d3d21f23e54fcd8dff42196af63b031ec6fa2ef79bc70446390698"
+    },
+    {
+      "asset": "iron",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 111,
+      "palette_colors": 6,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "4286978494b73eea26820ab8122604fd9e6c5c85eba65c64327ff443f1ee09a9"
+    },
+    {
+      "asset": "fish",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_pixels": 92,
+      "palette_colors": 7,
+      "aseprite_magic": "0xA5E0",
+      "frames": 1,
+      "layers": [
+        "Outline",
+        "Base color",
+        "Light and shadow",
+        "Details"
+      ],
+      "cel_count": 4,
+      "source_png_pixel_match": true,
+      "source_sha256": "2bb3ea3320b70a199d0407e921d6af915855f2cc94a0b759365a42bbfe2afb86"
     },
     {
       "asset": "witch_coin",
@@ -113,7 +163,7 @@
         0,
         255
       ],
-      "opaque_pixels": 150,
+      "opaque_pixels": 148,
       "palette_colors": 7,
       "aseprite_magic": "0xA5E0",
       "frames": 1,
@@ -125,7 +175,7 @@
       ],
       "cel_count": 4,
       "source_png_pixel_match": true,
-      "source_sha256": "21803620043f0635f46d1b4e022d5375c24818c2613b2e15b2b1327971885b03"
+      "source_sha256": "3ede53ea9dc82f9994361213818b5155f20666041175234b039e0975f54b243d"
     }
   ]
 }

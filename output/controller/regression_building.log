@@ -1,0 +1,69 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+BUILD TEST authored room becomes nine movable furnishings: PASS
+BUILD TEST legacy saves retain the original room: PASS
+BUILD TEST insufficient materials never mutate resources: PASS
+BUILD TEST craft recipe stool: PASS
+BUILD TEST craft recipe table: PASS
+BUILD TEST craft recipe bookcase: PASS
+BUILD TEST craft recipe sofa: PASS
+BUILD TEST craft recipe desk: PASS
+BUILD TEST craft recipe bed: PASS
+BUILD TEST craft recipe chest: PASS
+BUILD TEST stock capacity blocks crafting without spending: PASS
+BUILD TEST outside floor cannot consume furniture: PASS
+BUILD TEST doorway stays open: PASS
+BUILD TEST fixed fixtures block placement: PASS
+BUILD TEST player cannot be covered: PASS
+BUILD TEST valid placement consumes exactly one: PASS
+BUILD TEST overlap rejects second furniture: PASS
+BUILD TEST invalid move leaves original position: PASS
+BUILD TEST valid move does not charge resources: PASS
+BUILD TEST storing preserves furniture and materials: PASS
+BUILD TEST storing twice cannot duplicate: PASS
+BUILD TEST night building cannot mutate: PASS
+BUILD TEST save rejects out-of-bounds furniture: PASS
+BUILD TEST save rejects duplicate IDs: PASS
+BUILD TEST save rejects negative inventory: PASS
+BUILD TEST save rejects unknown recipe IDs: PASS
+BUILD TEST save rejects overlapping furniture: PASS
+BUILD TEST path check catches sealed exit route: PASS
+BUILD TEST path check accepts the starting room: PASS
+BUILD TEST new slot initializes: PASS
+BUILD TEST building unavailable in town: PASS
+BUILD TEST original home collisions preserved: PASS
+BUILD TEST home catalog opens: PASS
+BUILD TEST catalog pauses game: PASS
+BUILD TEST craft disabled without materials: PASS
+BUILD TEST place disabled without stock: PASS
+BUILD TEST mouse crafts and updates stock: PASS
+BUILD TEST stock enters placement: PASS
+BUILD TEST building blocks unrelated modals: PASS
+BUILD TEST invalid mouse placement spends nothing: PASS
+BUILD TEST green preview matches mouse world position: PASS
+BUILD TEST mouse confirms real furniture body: PASS
+BUILD TEST new body included in navigation solids: PASS
+BUILD TEST keyboard shifts preview one grid cell: PASS
+BUILD TEST cancel move retains original furniture: PASS
+BUILD TEST keyboard confirms atomic move: PASS
+BUILD TEST moving replaces collision footprint: PASS
+BUILD TEST store removes body and returns item: PASS
+BUILD TEST original furniture can be selected: PASS
+BUILD TEST original furniture can be stored: PASS
+BUILD TEST remapped interaction applies: PASS
+BUILD TEST old interact cannot confirm placement: PASS
+BUILD TEST new interact confirms placement: PASS
+BUILD TEST building freezes world clock and player: PASS
+BUILD TEST save while building succeeds: PASS
+BUILD TEST disk round trip retains stock and positions: PASS
+BUILD TEST Esc exits building and restores HUD: PASS
+BUILD TEST placed furniture blocks real walking: PASS
+BUILD TEST collision test furniture stored: PASS
+BUILD TEST stored furniture releases real walking path: PASS
+BUILD TEST building frames room from north wall: PASS
+BUILD TEST closing restores camera position: PASS
+BUILD TEST reentering room preserves edits: PASS
+BUILD TEST catalog Esc closes without pause menu: PASS
+BUILD TEST saved slot begins again: PASS
+BUILD TEST loaded scene renders saved furniture: PASS
+BUILD VERIFY END failures=0

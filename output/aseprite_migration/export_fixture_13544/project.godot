@@ -1,0 +1,8 @@
+config_version=5
+[application]
+config/name="Aseprite Source Verification"
+run/main_scene="res://main.tscn"
+[editor_plugins]
+enabled=PackedStringArray("res://addons/walala_aseprite/plugin.cfg")
+[rendering]
+renderer/rendering_method="gl_compatibility"

@@ -1,0 +1,4572 @@
+{
+  "group": "main",
+  "npcs": [],
+  "scenes": [
+    {
+      "id": "main_arrival",
+      "title": "门槛下的一只拖鞋",
+      "kind": "main",
+      "chapter_min": 0,
+      "season": "any",
+      "location": "月芽农场",
+      "participants": [
+        "yingluo",
+        "player"
+      ],
+      "requires": [],
+      "sets": [
+        "main_arrival"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "小屋门槛下卡着一只拖鞋。萤萝提着一盏白天没有点亮的灯，鞋边沾满泥。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "薇尔莉娅？我刚才喊了三遍。最后一遍喊成薇尔莉萝了，你没答应是对的。"
+        },
+        {
+          "speaker": "player",
+          "text": "我在找另一只鞋。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "那只在门后。以前住这儿的人总用它顶门，鞋底都磨斜了。你穿着合适吗？"
+        },
+        {
+          "speaker": "player",
+          "text": "有点大。信里说屋子已经收拾好了。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "扫过。跟收拾好，还差一点。昨晚漏的那块屋顶已经补了，床上的被子是干的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你写的信？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我送的。写信的人——这话应该让她自己说。我是萤萝，巡灯的，管东边到旧桥这一片。"
+        },
+        {
+          "speaker": "player",
+          "text": "信里连落款都没有，我居然还是来了。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "你带了这么大的箱子，我猜你也不是出来散个步。"
+        },
+        {
+          "speaker": "player",
+          "text": "里面一半是锅。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "那剩下一半呢？"
+        },
+        {
+          "speaker": "player",
+          "text": "怕锅撞坏了，塞的衣服。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "嗯，你会在这儿用得上。食堂那口大锅还有，锅盖不见了。陶陶说是有人借走了，一说就是三年。"
+        },
+        {
+          "speaker": "player",
+          "text": "我以为我来种地。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "地在后头。食堂在镇上，钥匙和屋子的放在一起。信里那本旧食谱，你带着吗？"
+        },
+        {
+          "speaker": "player",
+          "text": "在锅底下。纸上说，一顿晚餐能让月环亮起来。这是这里招厨师的说法？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我第一次看见也不信。月环没亮以前，大家倒是真的在那儿吃饭。后来路坏了，灯也陆续暗下去，食堂最后只剩两个人。"
+        },
+        {
+          "speaker": "player",
+          "text": "后来呢？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "后来一个人不来了，另一个人把门锁上了。你要是饿，我包里有两块饼，有一块压碎了。"
+        },
+        {
+          "speaker": "player",
+          "text": "我还没答应开食堂。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "饼不算定金。你刚来就听了一堆事，肚子还空着，这不合适。"
+        },
+        {
+          "speaker": "stage",
+          "text": "萤萝掰开饼纸，把完整的一块留在自己手上。薇尔莉娅看了她一眼。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "碎的多一点。真的，你那份比我重。"
+        },
+        {
+          "speaker": "player",
+          "text": "另一只鞋里有颗石子。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "那是以前顶门时留下的。这个我倒知道，别的事我不敢说都知道。"
+        },
+        {
+          "speaker": "player",
+          "text": "你一会儿还要巡灯？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "先去旧桥。那盏没坏，只是灯罩松了，风一吹就响。镇上人嫌它吵，昨晚又有人往底下垫了半个馒头。"
+        },
+        {
+          "speaker": "player",
+          "text": "用馒头修灯？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "所以我要去。欢迎你来，薇尔莉娅。镇上的大事很多，这一件比较急。"
+        }
+      ]
+    },
+    {
+      "id": "main_01_before",
+      "title": "锅底的旧灰",
+      "kind": "main",
+      "chapter_min": 0,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "toma",
+        "orla",
+        "player",
+        "yingluo"
+      ],
+      "requires": [
+        "main_arrival"
+      ],
+      "sets": [
+        "main_01_before"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "食堂门一开，灰从门楣落下来。陶陶的围裙叠在窗台上，比窗台干净。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我没说这里不能开。我说的是烟道，烟道堵着，火大了会往屋里呛。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我昨天找人看过，里面那窝鸟已经搬走了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你找谁看的？"
+        },
+        {
+          "speaker": "orla",
+          "text": "我。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你上了屋顶？"
+        },
+        {
+          "speaker": "orla",
+          "text": "梯子有十二级，我上到第七级就看见了。别露出这个表情，第八级的木头确实不结实。"
+        },
+        {
+          "speaker": "player",
+          "text": "这张桌子还能用吗？"
+        },
+        {
+          "speaker": "toma",
+          "text": "能。右边这条腿短一点，以前底下垫的是菜谱。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以菜谱少了四页？"
+        },
+        {
+          "speaker": "toma",
+          "text": "不是所有少的纸都被拿去垫桌了。那四页是别人撕的，我记得很清楚。"
+        },
+        {
+          "speaker": "orla",
+          "text": "第一天不用把旧事都说完。储藏柜里的盐是新的，面粉也是。"
+        },
+        {
+          "speaker": "player",
+          "text": "我闻过了。盐袋子外面写着“借”。"
+        },
+        {
+          "speaker": "orla",
+          "text": "先记在镇上账里。等食堂有收入，再说怎么还。"
+        },
+        {
+          "speaker": "player",
+          "text": "要是没有收入？"
+        },
+        {
+          "speaker": "orla",
+          "text": "那也有一顿饭。"
+        },
+        {
+          "speaker": "toma",
+          "text": "这不是算账的方法。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我知道。今天让我先不算这一笔。"
+        },
+        {
+          "speaker": "player",
+          "text": "我也不想一来就欠一间食堂。先用我带来的小锅做，桌子只摆这一张。"
+        },
+        {
+          "speaker": "toma",
+          "text": "一张够。以前最冷那几天，来的人也坐不满一张。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "林边的蘑菇这几日长得好，莓果也熟了。我今早巡灯，袖子全染上了。"
+        },
+        {
+          "speaker": "player",
+          "text": "这是莓果汁？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "嗯。还有一点灯油，所以这一片布不能拿来擦锅。"
+        },
+        {
+          "speaker": "toma",
+          "text": "锅里没有什么最后的火种。都是灰。湿灰留着反而锈锅。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那本食谱上写——"
+        },
+        {
+          "speaker": "toma",
+          "text": "食谱也不能替人洗锅。字写得再漂亮，今晚也要有能吃的东西。"
+        },
+        {
+          "speaker": "player",
+          "text": "我同意这一句。"
+        },
+        {
+          "speaker": "stage",
+          "text": "奥萝把账本合上，拿起了另一块抹布。陶陶把围裙翻过来，拍掉边角的灰。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这块抹布也是我的。还有，今天我洗碗，别记成镇长检查卫生。"
+        }
+      ]
+    },
+    {
+      "id": "main_01_after",
+      "title": "三份食材，一口小锅",
+      "kind": "main",
+      "chapter_min": 0,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "player",
+        "toma",
+        "yingluo",
+        "orla"
+      ],
+      "requires": [
+        "main_01_before"
+      ],
+      "sets": [
+        "main_01_after"
+      ],
+      "lines": [
+        {
+          "speaker": "player",
+          "text": "只有这些。蘑菇比篮子看着少，下面垫了好多叶子。"
+        },
+        {
+          "speaker": "toma",
+          "text": "够了。叶子没有落进汤里，比我第一次好。"
+        },
+        {
+          "speaker": "player",
+          "text": "你第一次做的什么？"
+        },
+        {
+          "speaker": "toma",
+          "text": "那个不值得写进食谱。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "他第一次做的是面疙瘩，三个人吃完，谁也没承认饱了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你那时候才多大？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "够记住一碗面疙瘩。尤其是碗底那块。"
+        },
+        {
+          "speaker": "orla",
+          "text": "火着了。"
+        },
+        {
+          "speaker": "player",
+          "text": "我看见了，你不用站得那么近。"
+        },
+        {
+          "speaker": "orla",
+          "text": "以前这里每年第一场雨，烟都会从那根横梁下面冒出来。刚才一闻到味道，我就觉得要下雨。"
+        },
+        {
+          "speaker": "toma",
+          "text": "是你头发沾了柴灰。"
+        },
+        {
+          "speaker": "stage",
+          "text": "奥萝捻了捻头发，指尖黑了一点。她用账本的空白页接着，没有往衣服上擦。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这三十金是食堂重新开火的补助，已经留好，不是我临时从别处挪来的。"
+        },
+        {
+          "speaker": "player",
+          "text": "谢谢。我想先买一块能擦干净的桌布。"
+        },
+        {
+          "speaker": "toma",
+          "text": "桌布最后买。旧的破是破，煮过就干净。"
+        },
+        {
+          "speaker": "player",
+          "text": "那你觉得先买什么？"
+        },
+        {
+          "speaker": "toma",
+          "text": "锅盖。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "借锅盖的那个，听说已经还了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "还在哪里？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我明天问问。刚才他回话回得很快，我怕他又跑了。"
+        },
+        {
+          "speaker": "player",
+          "text": "今晚没盖子，也能做这锅汤。"
+        },
+        {
+          "speaker": "toma",
+          "text": "能。我只是提前把该生的气生了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "窗外那盏灯亮了一点。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我看见了，比昨天多了一圈。还不够照到门槛，灯芯也没换。"
+        },
+        {
+          "speaker": "player",
+          "text": "是不是炉火映的？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "也可能。明天白天我再记一次。总得把这两种弄清楚。"
+        },
+        {
+          "speaker": "toma",
+          "text": "汤先盛出来，等你们弄清楚，它就只剩半锅了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "给我小碗。今天午饭没吃，我不能一口气吃太急。"
+        },
+        {
+          "speaker": "player",
+          "text": "那为什么给你小碗？"
+        },
+        {
+          "speaker": "orla",
+          "text": "因为我一定会添第二碗。你看，我对自己还是有一点了解的。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "gather",
+        "minimum": 3,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_02_before",
+      "title": "有客人的位置",
+      "kind": "main",
+      "chapter_min": 1,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "lumi",
+        "player",
+        "toma",
+        "nagi",
+        "orla",
+        "yingluo"
+      ],
+      "requires": [
+        "main_01_after"
+      ],
+      "sets": [
+        "main_02_before"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "三只碗摆在长凳边，第四只扣在一张矮柜上。露米绕着柜子看了一圈。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "这个位置不能算座位。柜门一开，人的膝盖就没地方放。"
+        },
+        {
+          "speaker": "player",
+          "text": "我没算。我坐这里。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "那更不能算。你吃饭的时候也有膝盖。"
+        },
+        {
+          "speaker": "toma",
+          "text": "她吃饭得等客人走。"
+        },
+        {
+          "speaker": "player",
+          "text": "我知道。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "我没跟你争营业的规矩。我说等客人走了，这柜子照样不适合坐。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我带了两条干抹布。码头的绳子收完了，今晚可以晚一点回去。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那就别再端着碗站门外，上次你站着，我还以为汤有问题。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "门口看得见水面。里面这张凳子背对着。"
+        },
+        {
+          "speaker": "player",
+          "text": "可以把凳子转过来。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "转过来会挡路。我这边还有一只窄凳，边角不够齐，不过放窗边正合适。"
+        },
+        {
+          "speaker": "orla",
+          "text": "价钱记我——"
+        },
+        {
+          "speaker": "player",
+          "text": "先别记。我要知道我到底买了什么，再决定谁付钱。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "这只不卖，是我带来试摆的。真卖的话，我会写尺寸和价钱。"
+        },
+        {
+          "speaker": "orla",
+          "text": "好，刚才是我太快了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "今晚来几个人？"
+        },
+        {
+          "speaker": "player",
+          "text": "有人说一定来，有人说看天，还有人问能不能只喝热水。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "只喝热水的人也会冷，也占一个座位。"
+        },
+        {
+          "speaker": "player",
+          "text": "我会算进去。就是不知道准备多少汤。"
+        },
+        {
+          "speaker": "toma",
+          "text": "锅底留一份给你自己。这个不是食堂的规矩，是做饭的人不能最后只剩咸菜。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我那份可能晚一点，旧桥的馒头还没取出来。"
+        },
+        {
+          "speaker": "player",
+          "text": "那盏灯怎么还在修？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "馒头吸了水，变大了。现在连木楔都塞不进。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我明天带一截细钩过来。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "这件事不要出现在我的家具订单里。"
+        }
+      ]
+    },
+    {
+      "id": "main_02_after",
+      "title": "最后那碗没有葱",
+      "kind": "main",
+      "chapter_min": 1,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "player",
+        "toma",
+        "nagi",
+        "lumi",
+        "orla",
+        "yingluo"
+      ],
+      "requires": [
+        "main_02_before"
+      ],
+      "sets": [
+        "main_02_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "三张空盘叠在水盆里。窗边剩下一碗没撒葱的汤，已经不冒大股热气。"
+        },
+        {
+          "speaker": "player",
+          "text": "这碗是谁的？我是不是漏了一位？"
+        },
+        {
+          "speaker": "toma",
+          "text": "你的。你刚才说自己不爱吃生葱。"
+        },
+        {
+          "speaker": "player",
+          "text": "我说的是切葱时眼睛难受。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那是我听错了。下次有葱。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "今晚那位客人问你叫什么，你说“蘑菇汤”。"
+        },
+        {
+          "speaker": "player",
+          "text": "他前一句在问菜。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我知道。他也知道。他说这样比较好记。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "窗边的凳子呢？"
+        },
+        {
+          "speaker": "player",
+          "text": "很好用。澪坐了一会儿，后来被拿来放篮子了。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "它是凳子，不是篮子架。……不过放篮子确实合适，底下不沾水。"
+        },
+        {
+          "speaker": "orla",
+          "text": "你收到的饭钱够明天备料吗？"
+        },
+        {
+          "speaker": "player",
+          "text": "我还没数完。你要是现在问，我会把你的四十金补助也算进去。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那我晚一点问。"
+        },
+        {
+          "speaker": "toma",
+          "text": "她晚一点就回去了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我明天问。她能自己记账，我不必坐在旁边看。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "门口的灯，我记过了。炉火熄了以后，那圈光还在。"
+        },
+        {
+          "speaker": "player",
+          "text": "真的？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "嗯。不够照到路口，但照得到那块歪的门槛。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "今晚没有人绊倒。我提着碗出门时也看得清。"
+        },
+        {
+          "speaker": "toma",
+          "text": "以前每次绊到的人，都说是鞋底滑。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "门槛也要修，灯亮不是修门槛。"
+        },
+        {
+          "speaker": "player",
+          "text": "我明天把它写在账后面。"
+        },
+        {
+          "speaker": "orla",
+          "text": "也给我留个地方。东边路口的排水沟是镇上的事，不能全进你的账。"
+        },
+        {
+          "speaker": "stage",
+          "text": "薇尔莉娅喝了一口汤，抬头时看见陶陶还在等。"
+        },
+        {
+          "speaker": "player",
+          "text": "没葱也挺好。"
+        },
+        {
+          "speaker": "toma",
+          "text": "不用给我台阶。我真听错了。那碗里的蘑菇倒是我挑的，都是完整的。"
+        },
+        {
+          "speaker": "player",
+          "text": "这句我可以夸。今天最好的一碗。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你还没吃别的碗呢。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "serve",
+        "minimum": 3,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_03_before",
+      "title": "畦边的名字牌",
+      "kind": "main",
+      "chapter_min": 2,
+      "season": "any",
+      "location": "月芽农场",
+      "participants": [
+        "mori",
+        "player",
+        "orla",
+        "yingluo"
+      ],
+      "requires": [
+        "main_02_after"
+      ],
+      "sets": [
+        "main_03_before"
+      ],
+      "lines": [
+        {
+          "speaker": "mori",
+          "text": "这些名字牌是你写的？"
+        },
+        {
+          "speaker": "player",
+          "text": "嗯，左边萝卜，右边胡萝卜。现在看着长得差不多，我怕自己认错。"
+        },
+        {
+          "speaker": "mori",
+          "text": "右边那块写成“萝胡卜”了。"
+        },
+        {
+          "speaker": "player",
+          "text": "难怪我一直觉得不顺。"
+        },
+        {
+          "speaker": "mori",
+          "text": "你不必重新做，背面空着。木牌沾过水，写上去干得慢一点。"
+        },
+        {
+          "speaker": "orla",
+          "text": "去年这块地的石头多，我原来以为你会先嫌它。"
+        },
+        {
+          "speaker": "player",
+          "text": "我先嫌的是早上的露水。鞋刚晒干，走一圈又湿了。"
+        },
+        {
+          "speaker": "mori",
+          "text": "把地种起来，露水也不会少。这件事我得先说清楚。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "门口那条路稍微高一点，我巡灯时走那边。"
+        },
+        {
+          "speaker": "player",
+          "text": "那我得再买一双鞋。"
+        },
+        {
+          "speaker": "orla",
+          "text": "可以从建设——"
+        },
+        {
+          "speaker": "player",
+          "text": "我自己的鞋自己买。"
+        },
+        {
+          "speaker": "orla",
+          "text": "好。我只是想说建设仓库还有鞋刷。"
+        },
+        {
+          "speaker": "mori",
+          "text": "她现在听到你开头就戒备。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我已经发现了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "茉莉蹲在畦边，掀开一角土。她没有拔旁边那株歪着的小苗。"
+        },
+        {
+          "speaker": "player",
+          "text": "它是不是长不好？"
+        },
+        {
+          "speaker": "mori",
+          "text": "现在还看不出来。有的先长根，有的先长叶。这株旁边的土比较硬。"
+        },
+        {
+          "speaker": "player",
+          "text": "我以为你能一眼看出来。"
+        },
+        {
+          "speaker": "mori",
+          "text": "我能说出很多听着像一眼看出来的话。可它才长这么大，我不想骗你。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "以前路牌埋在这附近。我记得那时候去石谷的人，会在这里歇一下。"
+        },
+        {
+          "speaker": "orla",
+          "text": "路牌没找着。档案里只有一张旧图，边上画了棵树，现在树没了。"
+        },
+        {
+          "speaker": "player",
+          "text": "我今天挖到一块带漆的木头，在墙边。"
+        },
+        {
+          "speaker": "mori",
+          "text": "先看地吧。旧图不急，苗被踩了可不会等。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这句话说得对。我退到石头上，石头总不怕踩。"
+        },
+        {
+          "speaker": "player",
+          "text": "那块石头底下有蚂蚁。"
+        },
+        {
+          "speaker": "orla",
+          "text": "好，我再换一块。镇长今天看来站哪儿都不对。"
+        }
+      ]
+    },
+    {
+      "id": "main_03_after",
+      "title": "不太整齐的第一筐",
+      "kind": "main",
+      "chapter_min": 2,
+      "season": "any",
+      "location": "月芽农场",
+      "participants": [
+        "player",
+        "mori",
+        "toma",
+        "orla",
+        "yingluo"
+      ],
+      "requires": [
+        "main_03_before"
+      ],
+      "sets": [
+        "main_03_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "收获的萝卜摆成两排。一根分了岔，一根细得像把刷子。"
+        },
+        {
+          "speaker": "player",
+          "text": "这一根可以卖吗？"
+        },
+        {
+          "speaker": "mori",
+          "text": "能吃就可以卖，价钱和分量说清楚就行。分岔又不等于坏。"
+        },
+        {
+          "speaker": "toma",
+          "text": "细的给我。做汤切起来省事。"
+        },
+        {
+          "speaker": "player",
+          "text": "我还以为你会挑最大的。"
+        },
+        {
+          "speaker": "toma",
+          "text": "最大的中间可能空。切开才知道。你没有把它们每一根都答应得很好，这就够了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "旧路牌认出来了，上面是“余烬石谷”。最后一个字被水泡掉一半。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "原来真在这儿。我昨天绕着墙找了两圈，眼睛一直朝上。"
+        },
+        {
+          "speaker": "player",
+          "text": "你为什么朝上找？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "路牌以前是挂着的。我也会犯这种蠢。"
+        },
+        {
+          "speaker": "mori",
+          "text": "木头上的霉得晾干，别跟种子放同一个柜子。"
+        },
+        {
+          "speaker": "orla",
+          "text": "旧路还在，路牌可以重新立起来。修路的工时，我会另外开账，不从农场收入扣。"
+        },
+        {
+          "speaker": "player",
+          "text": "这次我还没戒备，你已经解释了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "多练几次，总会解释得比你戒备快。"
+        },
+        {
+          "speaker": "toma",
+          "text": "别把这当本事。萝卜汤要用盐，盐钱还得算。"
+        },
+        {
+          "speaker": "player",
+          "text": "我算了。除掉种子，今天挣得不多，不过比全放在篮子里看着多一点。"
+        },
+        {
+          "speaker": "mori",
+          "text": "第一筐本来就最容易舍不得卖。你会想每一根都是自己养的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你也这样？"
+        },
+        {
+          "speaker": "mori",
+          "text": "现在也会。有时我把卖相好的留下做种，回头又后悔没让人尝尝。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "路口那块菜地去年没人收，萝卜长老了，后来开了白花。挺好看，但不是大家想要的。"
+        },
+        {
+          "speaker": "player",
+          "text": "这一筐先送到食堂。分岔的那根留着，我想知道它切开是什么样。"
+        },
+        {
+          "speaker": "toma",
+          "text": "一样的白。你要是期待里面有两颗心，会失望。"
+        },
+        {
+          "speaker": "player",
+          "text": "你怎么知道我在想什么？"
+        },
+        {
+          "speaker": "toma",
+          "text": "第一次收萝卜的人，大多比萝卜想得多。"
+        },
+        {
+          "speaker": "stage",
+          "text": "奥萝把路牌翻过来。背面有一串钉眼，木头比新牌薄了一半。"
+        },
+        {
+          "speaker": "orla",
+          "text": "新牌用新木头。这块留档，不能再让它淋一回雨。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "harvest",
+        "minimum": 5,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_04_before",
+      "title": "铁砧边的工价",
+      "kind": "main",
+      "chapter_min": 3,
+      "season": "any",
+      "location": "铁匠铺",
+      "participants": [
+        "ember",
+        "orla",
+        "player",
+        "yingluo"
+      ],
+      "requires": [
+        "main_03_after"
+      ],
+      "sets": [
+        "main_04_before"
+      ],
+      "lines": [
+        {
+          "speaker": "ember",
+          "text": "齿轮能做。尺寸没量清楚，我不答应装上就能转。"
+        },
+        {
+          "speaker": "orla",
+          "text": "旧闸门的图在这儿。"
+        },
+        {
+          "speaker": "ember",
+          "text": "图上写的是原尺寸。铁锈、磨损、木头泡水，全没写进去。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以差的不是矿石？"
+        },
+        {
+          "speaker": "ember",
+          "text": "矿石也差。你看炉边这几块，熔完剩不下多少。可材料齐了，量错还会白做。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我记得你以前闭着眼也知道那道闸门——"
+        },
+        {
+          "speaker": "ember",
+          "text": "那是以前。"
+        },
+        {
+          "speaker": "stage",
+          "text": "炉膛里啪地响了一声。奥萝把图纸往远处挪开。"
+        },
+        {
+          "speaker": "orla",
+          "text": "对不起，这句话没用。"
+        },
+        {
+          "speaker": "ember",
+          "text": "量尺没坏，等我去看。费用里要算两趟路，我不想最后跟你争。"
+        },
+        {
+          "speaker": "player",
+          "text": "两趟？"
+        },
+        {
+          "speaker": "ember",
+          "text": "先看，再装。一次把所有工具背过去，背得动也不划算。"
+        },
+        {
+          "speaker": "orla",
+          "text": "工价写完整，镇里付。不能又只算铁，不算你的时间。"
+        },
+        {
+          "speaker": "ember",
+          "text": "你去年说过同样的话。"
+        },
+        {
+          "speaker": "orla",
+          "text": "去年我没有付全。我记得，账上欠着，不是忘了。"
+        },
+        {
+          "speaker": "player",
+          "text": "旧账和这回的账分两行。混在一起，谁看都费劲。"
+        },
+        {
+          "speaker": "ember",
+          "text": "她倒比你会说。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这个可以承认。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "闸门附近那盏灯，也不亮了。灯架没有断，底下积着水。"
+        },
+        {
+          "speaker": "ember",
+          "text": "灯架先别算进来。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我只是记情况。没说让你一起修。"
+        },
+        {
+          "speaker": "ember",
+          "text": "嗯。"
+        },
+        {
+          "speaker": "player",
+          "text": "我听说那边以前能听见水声。"
+        },
+        {
+          "speaker": "ember",
+          "text": "现在也有。贴着墙能听见，水就在墙后，出不来。"
+        },
+        {
+          "speaker": "orla",
+          "text": "湿地那边有人等了很久。"
+        },
+        {
+          "speaker": "ember",
+          "text": "那也不能把急写进尺寸里。我明早看。今晚铁先烧出来，别站在风口，灰全进你杯子里了。"
+        },
+        {
+          "speaker": "player",
+          "text": "这杯是你的。"
+        },
+        {
+          "speaker": "ember",
+          "text": "所以我才说。"
+        }
+      ]
+    },
+    {
+      "id": "main_04_after",
+      "title": "少了一角的齿轮",
+      "kind": "main",
+      "chapter_min": 3,
+      "season": "any",
+      "location": "旧闸门",
+      "participants": [
+        "ember",
+        "orla",
+        "player",
+        "yingluo"
+      ],
+      "requires": [
+        "main_04_before"
+      ],
+      "sets": [
+        "main_04_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "旧齿轮放在麻布上，缺角处磨得发亮。余烬手上套着厚手套，额头却一直冒汗。"
+        },
+        {
+          "speaker": "ember",
+          "text": "这不是昨天才坏的。缺口磨过，有人让它带着伤转了很久。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那时候怕一停就再也开不了。"
+        },
+        {
+          "speaker": "ember",
+          "text": "怕停，最后就停得更久。谁写的维持运转？"
+        },
+        {
+          "speaker": "orla",
+          "text": "我签的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们现在要算这件事吗？"
+        },
+        {
+          "speaker": "ember",
+          "text": "得算。不然下次又有人说先凑合。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我的字在上面，账不会推给你。那年的决定，我会补进修复记录。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "新齿轮和旧的颜色不一样。"
+        },
+        {
+          "speaker": "ember",
+          "text": "新铁亮，用几天就暗了。颜色好不好看不重要，齿能咬住才重要。"
+        },
+        {
+          "speaker": "player",
+          "text": "这回的矿石够了？"
+        },
+        {
+          "speaker": "ember",
+          "text": "够。多出来的小块我另外放着，写明归镇上，没掺进废铁里。"
+        },
+        {
+          "speaker": "orla",
+          "text": "你自己的剩料也留好。工钱里没有买走你整个炉子。"
+        },
+        {
+          "speaker": "ember",
+          "text": "你今天讲道理讲得有点突然。"
+        },
+        {
+          "speaker": "orla",
+          "text": "别夸，旧工钱还没付齐。"
+        },
+        {
+          "speaker": "stage",
+          "text": "闸门抬起一小段，水先挤出一条细线，随后冲出积了多年的泥。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "味道好重。"
+        },
+        {
+          "speaker": "player",
+          "text": "这和我想的流水不一样。"
+        },
+        {
+          "speaker": "ember",
+          "text": "先出来的当然是脏水。等它走。现在这道闸停在哪一格，都能停稳。"
+        },
+        {
+          "speaker": "orla",
+          "text": "芦苇那边会不会——"
+        },
+        {
+          "speaker": "ember",
+          "text": "水还得过弯。不是这里开了，那头马上就满。"
+        },
+        {
+          "speaker": "player",
+          "text": "你看着像没高兴。"
+        },
+        {
+          "speaker": "ember",
+          "text": "高兴。手刚才被扳手夹了一下，还没顾上。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我包里有布。"
+        },
+        {
+          "speaker": "ember",
+          "text": "布留着擦灯。没破皮，过一会儿就好。"
+        },
+        {
+          "speaker": "orla",
+          "text": "新记录的第一行写工时，第二行写费用，第三行写什么？"
+        },
+        {
+          "speaker": "ember",
+          "text": "写旧齿轮存在哪里。以后要知道它怎么坏的，得有东西看。"
+        },
+        {
+          "speaker": "player",
+          "text": "你不把它扔了？"
+        },
+        {
+          "speaker": "ember",
+          "text": "铁还能熔，可现在留着更有用。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "ore",
+        "minimum": 6,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_05_before",
+      "title": "水先到了谁家",
+      "kind": "main",
+      "chapter_min": 4,
+      "season": "any",
+      "location": "莲雾湿地",
+      "participants": [
+        "reed",
+        "nagi",
+        "player"
+      ],
+      "requires": [
+        "main_04_after"
+      ],
+      "sets": [
+        "main_05_before"
+      ],
+      "lines": [
+        {
+          "speaker": "reed",
+          "text": "这里昨天一指深，今天到第二节。涨了，但没涨多少。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "码头浮标也高了。我以为你会高兴。"
+        },
+        {
+          "speaker": "reed",
+          "text": "我正在高兴。可东边浅塘没有水，北边排沟反而满了，总得弄清楚。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们这两个消息，听着像不同一条河。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "本来就有岔口。以前靠一块木板分水，木板后来被人拿去补了船棚。"
+        },
+        {
+          "speaker": "reed",
+          "text": "是哪条船棚？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我的。那年棚顶掉下来，我以为废木头没人要。不是故意藏着不说。"
+        },
+        {
+          "speaker": "reed",
+          "text": "我也没说是你故意的。就是这种事，总到最后才知道。"
+        },
+        {
+          "speaker": "player",
+          "text": "木板还在吗？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "在，钉得很牢。但棚子不能再用它了，我会补一块新的进去。"
+        },
+        {
+          "speaker": "reed",
+          "text": "不用急着拆。我先把水位记满三天，有些地方只是淤泥压着，不能全怪那块板。"
+        },
+        {
+          "speaker": "player",
+          "text": "原来你也会替嫌疑物说话。"
+        },
+        {
+          "speaker": "reed",
+          "text": "我管的是水，不是抓一块木板归案。"
+        },
+        {
+          "speaker": "stage",
+          "text": "澪蹲在浅塘边，裤脚刚碰到水就卷了起来。水面闪过一个小小的银影。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "有鱼。"
+        },
+        {
+          "speaker": "reed",
+          "text": "昨天就有，它们先回来。莲根还没长起来。"
+        },
+        {
+          "speaker": "player",
+          "text": "这么小也能一路游回来？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "不是每条都从海边来。有些就在深水坑里等着，等到水路通了再出来。"
+        },
+        {
+          "speaker": "reed",
+          "text": "这点澪比我清楚。我以前看见水少，就把很多没看见的也当成没了。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我也分不清每条。光一闪，什么鱼都差不多。"
+        },
+        {
+          "speaker": "player",
+          "text": "今晚食堂的鱼，不会是这几条吧？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "不至于。锅比它们这一小群加起来还大。"
+        },
+        {
+          "speaker": "reed",
+          "text": "而且这片浅塘这几天只做记录。想吃鱼的人，总不能把刚回来的第一批都记成菜。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我码头那边还有鱼。这个规矩不妨碍晚饭。"
+        },
+        {
+          "speaker": "player",
+          "text": "好。我负责晚饭，你们别为了水先到了谁家吵到忘记吃。"
+        },
+        {
+          "speaker": "reed",
+          "text": "已经吵过一小回了，主要是棚顶的木板。现在说的是新的事。"
+        }
+      ]
+    },
+    {
+      "id": "main_05_after",
+      "title": "鱼鳞背面的光",
+      "kind": "main",
+      "chapter_min": 4,
+      "season": "any",
+      "location": "码头",
+      "participants": [
+        "nagi",
+        "player",
+        "reed"
+      ],
+      "requires": [
+        "main_05_before"
+      ],
+      "sets": [
+        "main_05_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "澪把空鱼筐倒过来晾。芦苇的记录板压在石头下面，纸角还在滴水。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "这几天鱼获不少。不是每条都大，倒有几种以前没留意过的。"
+        },
+        {
+          "speaker": "player",
+          "text": "你说的五份，我记下了。食堂今天的菜单里有鱼，也有不放鱼的。"
+        },
+        {
+          "speaker": "reed",
+          "text": "谢谢。上次我只喝了茶，陶陶以为我不饿。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "他问我是不是鱼腥气太重，我说你本来就不爱吃。他居然记得我小时候不吃鱼皮，忘了你的事。"
+        },
+        {
+          "speaker": "reed",
+          "text": "记错很正常。只要下一次别又给我那一碗。"
+        },
+        {
+          "speaker": "player",
+          "text": "你手边这个是什么？"
+        },
+        {
+          "speaker": "reed",
+          "text": "从分水口捞上来的。最先以为是碎玻璃，没敢直接攥。"
+        },
+        {
+          "speaker": "stage",
+          "text": "石头上放着一片弯曲的薄晶，背面有细细的刻痕。澪没有用抹布去擦它。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "跟观星台柜里的东西像。潮水一退，它还在发光。"
+        },
+        {
+          "speaker": "player",
+          "text": "月环的一片？"
+        },
+        {
+          "speaker": "reed",
+          "text": "有可能。这里的刻痕能对上旧图的一小段。还没拿到山上核过，不能说准。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "它不是从鱼肚子里找出来的。先把这句记上，不然今晚传着传着就会变。"
+        },
+        {
+          "speaker": "player",
+          "text": "怎么会传成那样？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "上次我捡到一枚旧扣子，第三天有人来问我那条吐金子的鱼卖不卖。"
+        },
+        {
+          "speaker": "reed",
+          "text": "明天我把捡到的位置画出来。那块木板也记上，东西都得有来处。"
+        },
+        {
+          "speaker": "player",
+          "text": "板子现在放回去了？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "换了一块。旧的我还放在棚里，省得它又被当成失踪物。"
+        },
+        {
+          "speaker": "reed",
+          "text": "浅塘今天也进水了。我那张候鸟清单旁边，终于能添个日期。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以你现在真的高兴了？"
+        },
+        {
+          "speaker": "reed",
+          "text": "现在还得看明天。……但今天是高兴的，你不用等明天才恭喜我。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "这话我记住了，下回你说“还得看明天”，我先问是不是能恭喜。"
+        },
+        {
+          "speaker": "player",
+          "text": "今晚那份莲塘凉拌，我多留一点。"
+        },
+        {
+          "speaker": "reed",
+          "text": "正常份就够。刚高兴也不代表胃跟着大一圈。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "fish",
+        "minimum": 5,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_06_before",
+      "title": "预留的一角",
+      "kind": "main",
+      "chapter_min": 5,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "player",
+        "lumi",
+        "yuki",
+        "toma",
+        "orla"
+      ],
+      "requires": [
+        "main_05_after"
+      ],
+      "sets": [
+        "main_06_before"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "一张折过的小纸放在桌边，上面写着“靠窗，别漏风”。下头没有姓名。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们谁留的？"
+        },
+        {
+          "speaker": "lumi",
+          "text": "看字像霜铃，但她不会把“漏”写得这么圆。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "不是我。我一般直接来，位置没了就算了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那是我写的。给她留的。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "给我？"
+        },
+        {
+          "speaker": "toma",
+          "text": "你这几天进门，手都是凉的。窗缝补过了，现在那边比门口暖。"
+        },
+        {
+          "speaker": "player",
+          "text": "你以前说预留座位会让别的客人没地方坐。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我说一整晚空着不合适。她这几天都是差不多的时候到，留一会儿不耽误。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "写名字就好。没名字，我还以为客人给我的凳子留了一条差评。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "也不用每天都留。山路有时耽误，空着我过意不去。"
+        },
+        {
+          "speaker": "player",
+          "text": "那就算一个约定。你来得早就坐，晚了我先招待别人。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "好。这比我每次在门口张望要好。"
+        },
+        {
+          "speaker": "orla",
+          "text": "听说已经有人在你这里赊过账了。"
+        },
+        {
+          "speaker": "player",
+          "text": "只有一次，对方第二天送回来了。钱还包了两层纸，生怕我看不见。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那倒省心。我不是要查你的账，只是以前食堂的赊账——"
+        },
+        {
+          "speaker": "toma",
+          "text": "以前的账别压她这里。她才开门几天。"
+        },
+        {
+          "speaker": "orla",
+          "text": "是。刚才我又想得太远了。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "熟客还会把自己的杯子留在架子上，你准备好了没有？"
+        },
+        {
+          "speaker": "player",
+          "text": "架子只有这么大。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "我不留杯子，包已经够占地方了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "杯子不急。谁肯说明天来吃什么，这个最管用。"
+        },
+        {
+          "speaker": "player",
+          "text": "我还以为你们要谈友情。"
+        },
+        {
+          "speaker": "toma",
+          "text": "谈明天吃什么也可以是友情。尤其是别让我又把南瓜熬多了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "霜铃把纸翻过来，写了自己的名字，又把“别漏风”三个字划掉。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "风是屋子的事，不是这张凳子的错。"
+        }
+      ]
+    },
+    {
+      "id": "main_06_after",
+      "title": "钥匙没有换主人",
+      "kind": "main",
+      "chapter_min": 5,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "pip",
+        "orla",
+        "ember",
+        "player"
+      ],
+      "requires": [
+        "main_06_before"
+      ],
+      "sets": [
+        "main_06_after"
+      ],
+      "lines": [
+        {
+          "speaker": "pip",
+          "text": "钥匙借我一晚上就行。我只看那几张原图，天亮之前回来。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那不是借多久的问题。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我知道，不安全。我带灯，带绳子，带——"
+        },
+        {
+          "speaker": "ember",
+          "text": "带晚饭了吗？"
+        },
+        {
+          "speaker": "pip",
+          "text": "我现在在吃。"
+        },
+        {
+          "speaker": "ember",
+          "text": "你从刚才说到现在，一口没吃。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们说的是什么钥匙？"
+        },
+        {
+          "speaker": "orla",
+          "text": "旧械遗址资料间。以前图纸和维修日志都在里面。事故以后，那把钥匙一直在镇上。"
+        },
+        {
+          "speaker": "pip",
+          "text": "你说镇上，其实就在你抽屉里。"
+        },
+        {
+          "speaker": "orla",
+          "text": "是。这个说法不够准确。"
+        },
+        {
+          "speaker": "ember",
+          "text": "资料间门外的地板塌过，晚上一盏灯不够。我的意思不是让你再带三盏，是那条路还没有看清。"
+        },
+        {
+          "speaker": "pip",
+          "text": "那我什么时候才能看？总不能等我头发白了。"
+        },
+        {
+          "speaker": "player",
+          "text": "你要看图，不是要证明自己敢晚上进去，对吗？"
+        },
+        {
+          "speaker": "pip",
+          "text": "对。但我也不想每次都是“以后”。"
+        },
+        {
+          "speaker": "orla",
+          "text": "明天白天我跟余烬一起核那条路，能进的资料先带出来。之后安排轮流查阅，钥匙登记，不再锁在我一个人的抽屉里。"
+        },
+        {
+          "speaker": "pip",
+          "text": "这话算数？"
+        },
+        {
+          "speaker": "orla",
+          "text": "写下来。谁查了什么、借出什么，也都写下来。这些东西不是我的私物。"
+        },
+        {
+          "speaker": "ember",
+          "text": "我先说清，我记得的不是整座遗址。要是我说那边不行，你也不能拿“以前”压我。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我没想压你。我就是等得……嗯，等得有点乱。"
+        },
+        {
+          "speaker": "stage",
+          "text": "皮普把碗挪近，吃了一大口饭，又烫得停住。没人替他接着说。"
+        },
+        {
+          "speaker": "player",
+          "text": "这桌人愿意等你把饭咽下去。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我不是怕没人等。我怕等来等去，最后又只剩我一个人去。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这次有具体日期，还有同行的人。如果改期，也得告诉你原因。"
+        },
+        {
+          "speaker": "ember",
+          "text": "饭吃完。我的那张图纸上有个错，明天我得先认出来，免得你拿它做一模一样的坏机器。"
+        },
+        {
+          "speaker": "pip",
+          "text": "你也画错过？"
+        },
+        {
+          "speaker": "ember",
+          "text": "当然。只是没每次都把玉米一起烧了。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "friend",
+        "minimum": 200,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_07_before",
+      "title": "八只盒子",
+      "kind": "main",
+      "chapter_min": 6,
+      "season": "any",
+      "location": "旧械遗址资料间",
+      "participants": [
+        "pip",
+        "player",
+        "ember",
+        "orla"
+      ],
+      "requires": [
+        "main_06_after"
+      ],
+      "sets": [
+        "main_07_before"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "资料间的桌上摆着八只浅盒。皮普给每只贴了纸条，第三只的纸条被贴反了。"
+        },
+        {
+          "speaker": "pip",
+          "text": "零件按位置分，别按像不像。我一开始也觉得这两个一样，后来发现轴孔差一点。"
+        },
+        {
+          "speaker": "player",
+          "text": "第三只写的是什么？"
+        },
+        {
+          "speaker": "pip",
+          "text": "回流阀。倒过来看不出来吗？"
+        },
+        {
+          "speaker": "ember",
+          "text": "不是字倒了，是你把回流阀放错盒子。"
+        },
+        {
+          "speaker": "pip",
+          "text": "……这个我等会儿改。"
+        },
+        {
+          "speaker": "orla",
+          "text": "里面那台还在转？"
+        },
+        {
+          "speaker": "ember",
+          "text": "转。不快，隔一会儿就卡一下。没有怪物，也没有谁在里面守门。"
+        },
+        {
+          "speaker": "player",
+          "text": "那声音像敲墙。"
+        },
+        {
+          "speaker": "pip",
+          "text": "卡住的连杆每次碰一下壳。我昨天听到，第一回也以为有人。"
+        },
+        {
+          "speaker": "orla",
+          "text": "它停了会怎样？"
+        },
+        {
+          "speaker": "ember",
+          "text": "先停，才能换卡住的部件。以前就是怕停，旁路一条接一条，最后谁都不敢认整张图。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我祖父的笔记上只画了前三层。第四层不是他的字，我原来一直当成也是。"
+        },
+        {
+          "speaker": "player",
+          "text": "你怎么认出来的？"
+        },
+        {
+          "speaker": "pip",
+          "text": "他写数字二，尾巴总往上翘。第四层没有。其实那么明显，我以前只看见姓氏签在第一页。"
+        },
+        {
+          "speaker": "orla",
+          "text": "维护记录后面还有我的批示。我没看懂图，却签了继续运行。"
+        },
+        {
+          "speaker": "ember",
+          "text": "你负责批示，我负责做件。哪一段出错，就查哪一段，不用抢着把整台机器背走。"
+        },
+        {
+          "speaker": "player",
+          "text": "这话听起来也像在说你自己。"
+        },
+        {
+          "speaker": "ember",
+          "text": "是。说给别人容易一点。"
+        },
+        {
+          "speaker": "stage",
+          "text": "皮普把第三只盒子重新摆好，没有扔掉贴反的纸条。他在背面写了日期。"
+        },
+        {
+          "speaker": "pip",
+          "text": "新零件都在这儿了。要是拆开以后又缺呢？"
+        },
+        {
+          "speaker": "ember",
+          "text": "那就停在安全的地方，说明缺什么。不是每一件事都必须今天做完。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我会把明天的工时也留进去。这次不写“临时处理”。"
+        },
+        {
+          "speaker": "player",
+          "text": "我带来的饭够今天，不够明天。"
+        },
+        {
+          "speaker": "pip",
+          "text": "那今天更得好好吃，明天换一种。遗址也不能天天吃冷玉米。"
+        }
+      ]
+    },
+    {
+      "id": "main_07_after",
+      "title": "停下来以后",
+      "kind": "main",
+      "chapter_min": 6,
+      "season": "any",
+      "location": "旧械遗址",
+      "participants": [
+        "pip",
+        "ember",
+        "orla",
+        "player"
+      ],
+      "requires": [
+        "main_07_before"
+      ],
+      "sets": [
+        "main_07_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "连杆最后碰了一下铁壳，声音停了。远处滴水的声音忽然清楚起来。"
+        },
+        {
+          "speaker": "pip",
+          "text": "原来里面有水声。"
+        },
+        {
+          "speaker": "ember",
+          "text": "一直有，机器太响。"
+        },
+        {
+          "speaker": "orla",
+          "text": "现在它是修好了，还是只停住了？"
+        },
+        {
+          "speaker": "ember",
+          "text": "卡住的地方修好了。要恢复什么用途，还得重新设计，不能照原来的压力全开。"
+        },
+        {
+          "speaker": "player",
+          "text": "那月环呢？"
+        },
+        {
+          "speaker": "pip",
+          "text": "这台机器只是供能的一部分。把它吵的这一段修好，不等于上面什么都好了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我以前总希望有人能说，换一个东西就全部好了。"
+        },
+        {
+          "speaker": "ember",
+          "text": "那样的人也有。价钱一般很高。"
+        },
+        {
+          "speaker": "pip",
+          "text": "而且会在你付款前说一定行，付款后说材料不合适。"
+        },
+        {
+          "speaker": "player",
+          "text": "你们两个人接得挺快。"
+        },
+        {
+          "speaker": "ember",
+          "text": "以前都吃过亏。吃的是不同的亏。"
+        },
+        {
+          "speaker": "stage",
+          "text": "资料柜底层拉开，一叠旧记录露出来。最上面那张纸被油浸得半透明。"
+        },
+        {
+          "speaker": "orla",
+          "text": "事故当晚的阀位记录还在。这里写的时间，比镇钟慢半刻。"
+        },
+        {
+          "speaker": "pip",
+          "text": "不是字写错了。钟表登记旁边写过这只表会慢，我见过。"
+        },
+        {
+          "speaker": "player",
+          "text": "这会影响你们判断当晚发生了什么？"
+        },
+        {
+          "speaker": "ember",
+          "text": "会。有人以为先发生的事，可能是在后头。以前我只看见自己的那张工单。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这些都得跟山上的观测记录对。不能拿一张纸替所有人定结论。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我今天不复制整台核心了。我想先做个小磨粉机，转得慢一点，壳子能拆，卡在哪里一眼就看见。"
+        },
+        {
+          "speaker": "player",
+          "text": "做出来再说它省不省力。"
+        },
+        {
+          "speaker": "pip",
+          "text": "对，先不吹。我已经吹坏过一锅玉米。"
+        },
+        {
+          "speaker": "ember",
+          "text": "炉里给你留小块铁。工钱照样算，你不能把学习都写成免费。"
+        },
+        {
+          "speaker": "orla",
+          "text": "今天的记录，谁签？"
+        },
+        {
+          "speaker": "ember",
+          "text": "谁做了什么，就谁签什么。"
+        },
+        {
+          "speaker": "stage",
+          "text": "三个人把名字写在不同的行里。皮普的那行挤了两次，才把“拆卸与编号”四个字写全。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "scrap",
+        "minimum": 8,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_08_before",
+      "title": "大一点到底多大",
+      "kind": "main",
+      "chapter_min": 7,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "lumi",
+        "player",
+        "orla",
+        "toma"
+      ],
+      "requires": [
+        "main_07_after"
+      ],
+      "sets": [
+        "main_08_before"
+      ],
+      "lines": [
+        {
+          "speaker": "lumi",
+          "text": "你画的这张桌子，端着盘子过不去。"
+        },
+        {
+          "speaker": "player",
+          "text": "我画得不好。旁边其实还有一条路。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "尺寸不能靠“其实”。门只有这么宽，厨房也不会因为你笔下多留一条线就长出来。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我今天只来吃饭，你们不用看我。"
+        },
+        {
+          "speaker": "toma",
+          "text": "没人看你。你把账本摆在盐罐旁边，大家才会觉得你要说话。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那我收起来。"
+        },
+        {
+          "speaker": "player",
+          "text": "升级以后能多一个座位。我想把窗边挪一挪，别再让等饭的人站门口。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "多一个座位，后头就多一副餐具、多一个挂衣服的地方。雨天大家把湿外套搭椅背上，走道会更窄。"
+        },
+        {
+          "speaker": "toma",
+          "text": "厨房也得算。现在我转身拿盐，有时先碰见她的胳膊。"
+        },
+        {
+          "speaker": "player",
+          "text": "是你放盐的位置天天变。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我那是找最顺手的地方。"
+        },
+        {
+          "speaker": "player",
+          "text": "对你顺手，对我每天都是新的。"
+        },
+        {
+          "speaker": "stage",
+          "text": "露米没有接着画桌子，先在厨房门边画了一个小方格。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "盐固定这儿。两个人都能拿到，离火远一点。扩建以前，先把旧地方弄顺。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这个想法好。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你不是只来吃饭吗？"
+        },
+        {
+          "speaker": "orla",
+          "text": "吃饭也能说一句。"
+        },
+        {
+          "speaker": "player",
+          "text": "我有一件事想问你们。食堂以后叫月灯食堂，大家会不会觉得我擅自把旧名字改了？"
+        },
+        {
+          "speaker": "toma",
+          "text": "以前就叫食堂。你知道吗？门上那两个字还是我写的。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "新名字比“旧食堂”好做招牌。我不想一开业就把它刻旧。"
+        },
+        {
+          "speaker": "orla",
+          "text": "有人会舍不得旧样子，也有人会嫌新名字长。你可以听，但最后招牌挂在你门口。"
+        },
+        {
+          "speaker": "player",
+          "text": "那就叫月灯食堂。盐的位置也一起定下来。"
+        },
+        {
+          "speaker": "toma",
+          "text": "这两件事被你说得一样大。"
+        },
+        {
+          "speaker": "player",
+          "text": "今天对我来说是。名字明天还能问，盐今晚就要用。"
+        }
+      ]
+    },
+    {
+      "id": "main_08_after",
+      "title": "新凳子第一晚",
+      "kind": "main",
+      "chapter_min": 7,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "nagi",
+        "lumi",
+        "player",
+        "toma",
+        "orla",
+        "yuki"
+      ],
+      "requires": [
+        "main_08_before"
+      ],
+      "sets": [
+        "main_08_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "门上的新牌还带着一点木屑。最先坐上新凳子的人没有说好看，先用脚试了试它晃不晃。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "稳。比码头那条好，码头那条有一条腿一直等我修。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "你每次都说等修。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我现在承认它需要修了，已经进了一步。"
+        },
+        {
+          "speaker": "player",
+          "text": "今晚多的那位客人坐下了，厨房没有挤得转不开。不过盐罐还是挪了一次。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我只是擦底下的水。"
+        },
+        {
+          "speaker": "player",
+          "text": "擦完没有放回去。"
+        },
+        {
+          "speaker": "toma",
+          "text": "好，第二次就会记得。"
+        },
+        {
+          "speaker": "orla",
+          "text": "山上来了一封信，地址写的是月灯食堂。不是镇长转交，名字写得很完整。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "是我带来的。差点拿错，跟另一封一样大的。"
+        },
+        {
+          "speaker": "player",
+          "text": "信里说什么？"
+        },
+        {
+          "speaker": "yuki",
+          "text": "我没拆。"
+        },
+        {
+          "speaker": "player",
+          "text": "对，我问错人了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "薇尔莉娅拆开信。纸里夹着一小块干净的布，缝线有点歪。"
+        },
+        {
+          "speaker": "player",
+          "text": "山上的值守人说，听说这里晚上有热汤。下回换班，他想带同事来，问厚外套有没有地方挂。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "看，我说了吧。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你可以得意一会儿。别把这封信钉在盐罐旁边就行。"
+        },
+        {
+          "speaker": "orla",
+          "text": "回信要算上山路的时间。以前食堂关门早，山上的人走到半路就往回赶。"
+        },
+        {
+          "speaker": "player",
+          "text": "我会把现在的营业时段写清楚。来不及的人也不能靠一封信让整间食堂晚一夜。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "写清楚就好。以前有人把“晚点来”理解成半夜，我得站在门外喊。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "今晚的新凳子，能不能转一点？"
+        },
+        {
+          "speaker": "lumi",
+          "text": "又要看水面？"
+        },
+        {
+          "speaker": "nagi",
+          "text": "嗯。刚才试它稳不稳，也是因为我想坐这里。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "只能一点。别转完又拿来放篮子。"
+        },
+        {
+          "speaker": "stage",
+          "text": "澪把篮子放在了自己脚下。门口来了下一位客人，她把宽大的外套挂到新钉好的木钩上。"
+        },
+        {
+          "speaker": "player",
+          "text": "这枚木钩也算工钱？"
+        },
+        {
+          "speaker": "lumi",
+          "text": "算。你的信要是夸到它，也不用另外给钱。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "restaurant",
+        "minimum": 2,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_09_before",
+      "title": "山上那封没写完的信",
+      "kind": "main",
+      "chapter_min": 8,
+      "season": "any",
+      "location": "霜铃山径",
+      "participants": [
+        "yuki",
+        "player",
+        "yingluo",
+        "orla"
+      ],
+      "requires": [
+        "main_08_after"
+      ],
+      "sets": [
+        "main_09_before"
+      ],
+      "lines": [
+        {
+          "speaker": "yuki",
+          "text": "这段路比下面冷。你还带着那顶帽子？"
+        },
+        {
+          "speaker": "player",
+          "text": "耳朵已经在抗议了，帽子没意见。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "这边的风铃有两只不响。我每年记一次，以前都记成冻住，今天想看看是不是绳结的问题。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "绳结有问题，也不代表以前没有冻住。山上的东西总不肯只出一种毛病。"
+        },
+        {
+          "speaker": "player",
+          "text": "信里说的旧值守站，就是这儿？"
+        },
+        {
+          "speaker": "yuki",
+          "text": "嗯。门早就打不开了，旁边的柜子还在。里面有些是没有寄出去的换班记录。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我这次不催你们找那一晚的证据。能确认的就记，认不出来的留着。"
+        },
+        {
+          "speaker": "player",
+          "text": "你说不催，脚已经走到我们前头了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我习惯了。好，我在后面等。"
+        },
+        {
+          "speaker": "stage",
+          "text": "柜子下面露出一块褪色木牌。纸张被压得紧紧的，霜铃把它们连着薄木板一起托出来。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "这封写了一半。不是私人信，是给镇上的报告，后面那页没了。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "上面说风雪突然加重，月灯的光在往上收。"
+        },
+        {
+          "speaker": "player",
+          "text": "这是什么意思？"
+        },
+        {
+          "speaker": "orla",
+          "text": "我当时收到的版本只有“月灯异常”，没有后面的描述。也许就是从这里断了。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "别现在就认定有人拿走了一页。纸泡过水，后面的字可能粘在木板上。"
+        },
+        {
+          "speaker": "player",
+          "text": "你经常帮旧纸说话。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "旧纸不能自己说。我经常见别人先替它讲完一个故事，真正的字倒没人读了。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "这句我得记一下。以前我也说过这座镇的灯都在等人，有几盏其实是坏了，修了就亮。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那其他的呢？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "其他的还不知道。今天先把知道的补上。"
+        },
+        {
+          "speaker": "stage",
+          "text": "一只不响的风铃被扶正，响了半声。薇尔莉娅被风吹得缩了缩脖子。"
+        },
+        {
+          "speaker": "player",
+          "text": "我现在知道，耳朵比证据先冷。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "值守站背面避风。饭也在那儿吃，信不会跑。"
+        }
+      ]
+    },
+    {
+      "id": "main_09_after",
+      "title": "六处印记",
+      "kind": "main",
+      "chapter_min": 8,
+      "season": "any",
+      "location": "霜铃山径值守站外",
+      "participants": [
+        "orla",
+        "player",
+        "yuki",
+        "yingluo"
+      ],
+      "requires": [
+        "main_09_before"
+      ],
+      "sets": [
+        "main_09_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "六处旧印记画在同一张纸上，有一道墨迹被手背蹭开。奥萝把自己的那份旧记录摆在旁边。"
+        },
+        {
+          "speaker": "orla",
+          "text": "山上的时刻记得更细。这里写风铃先停，接着灯光往观星台那边集中，最后才是下面的闸门异响。"
+        },
+        {
+          "speaker": "player",
+          "text": "跟遗址那张表对得上吗？"
+        },
+        {
+          "speaker": "orla",
+          "text": "把慢半刻的差额算进去，就能对上大部分。剩下两处还不敢说。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "你没有把那两处补成一样的。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我今天没有。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "有人在这里停留过，鞋底的印子有两种。太旧了，认不出是谁。"
+        },
+        {
+          "speaker": "player",
+          "text": "星芒会想看这些。"
+        },
+        {
+          "speaker": "orla",
+          "text": "会。但不是拿一张旧纸，叫她当场相信她姐姐最后发生了什么。观测记录还在上面，月晶也没拼齐。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "这封报告我会按能读出的字誊写。破损的地方标空，不替写信的人想一句更顺的话。"
+        },
+        {
+          "speaker": "player",
+          "text": "我能把这块玻璃也带回去吗？边缘有刻字。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "包好了就能。不要和吃剩的饼放一起，纸包看着一样。"
+        },
+        {
+          "speaker": "player",
+          "text": "刚才你是不是差点弄混？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "差点。所以我说得很具体。"
+        },
+        {
+          "speaker": "stage",
+          "text": "霜铃从邮袋底拿出一封新信，信封上是她自己的字。她没有递出去，只检查了一遍封口。"
+        },
+        {
+          "speaker": "orla",
+          "text": "你的信也在这趟里？"
+        },
+        {
+          "speaker": "yuki",
+          "text": "是。跟报告不是一回事，我没有把它们装同一个套子。"
+        },
+        {
+          "speaker": "player",
+          "text": "你不用解释这个。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "我知道。只是今天第一次一起带着，心里觉得有点挤。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "邮袋会慢慢习惯的。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "袋子倒是没问题，主要是我。"
+        },
+        {
+          "speaker": "orla",
+          "text": "下山以后，我把资料送去观星台登记。你的信照原来的路走，不用替镇上的事让位。"
+        },
+        {
+          "speaker": "player",
+          "text": "我们带的午饭吃完了吗？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "还有半块。它是饼，刚才我确认过。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "留给我吧。每次上山，我都高估自己会带多少，也低估自己会饿多少。"
+        },
+        {
+          "speaker": "stage",
+          "text": "山风吹过，刚才只响半声的铃又响了一下。这次没有人急着把声音写成征兆。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "ridge",
+        "minimum": 6,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_10_before",
+      "title": "图鉴里的十二个空格",
+      "kind": "main",
+      "chapter_min": 9,
+      "season": "any",
+      "location": "月芽农场",
+      "participants": [
+        "aster",
+        "player",
+        "mori",
+        "orla"
+      ],
+      "requires": [
+        "main_09_after"
+      ],
+      "sets": [
+        "main_10_before"
+      ],
+      "lines": [
+        {
+          "speaker": "aster",
+          "text": "图鉴上的颜色不能拿同一支笔涂。"
+        },
+        {
+          "speaker": "player",
+          "text": "我知道你们做观测讲究准确。但我只是在记自己种过什么，不是在画星图。"
+        },
+        {
+          "speaker": "aster",
+          "text": "我看见了，所以才来问。旧星图边上的季节标记，和这些作物有关系。"
+        },
+        {
+          "speaker": "mori",
+          "text": "有关系，也不是南瓜一熟，天上的星就必须换位置。"
+        },
+        {
+          "speaker": "aster",
+          "text": "不是那种关系。是以前记录的人，用这些收获来标注时节。同一种标记隔了很多年还能认出来。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以你需要的是种类，不是我哪一格收得多。"
+        },
+        {
+          "speaker": "aster",
+          "text": "对。还有日期、雨水和留种来源。只记颜色，我会把胡萝卜和南瓜看错。"
+        },
+        {
+          "speaker": "mori",
+          "text": "你会把它们看错？"
+        },
+        {
+          "speaker": "aster",
+          "text": "纸上涂成同一个圆，就会。"
+        },
+        {
+          "speaker": "stage",
+          "text": "薇尔莉娅把“萝胡卜”的旧木牌拿过来，压在图鉴旁边。茉莉假装没看见。"
+        },
+        {
+          "speaker": "player",
+          "text": "这个不必收入档案。"
+        },
+        {
+          "speaker": "aster",
+          "text": "没打算收。我今天带的是空白表，不是来收走你家的东西。"
+        },
+        {
+          "speaker": "orla",
+          "text": "十二种不同收获，能补上旧图里的大部分标记。还没种到的，不用为了赶时间硬写。"
+        },
+        {
+          "speaker": "player",
+          "text": "有些得等季节。冬天的菜，现在也不能从纸上长出来。"
+        },
+        {
+          "speaker": "mori",
+          "text": "等本来就算种地的一部分。只是人比较爱把等写成什么都没做。"
+        },
+        {
+          "speaker": "aster",
+          "text": "那我把预计补录的时间留空。等真实的收获来了，再填。"
+        },
+        {
+          "speaker": "player",
+          "text": "你这张表比我种得还齐。"
+        },
+        {
+          "speaker": "aster",
+          "text": "纸听话一点。但表也会写错，你别因为格子直就信它。"
+        },
+        {
+          "speaker": "orla",
+          "text": "等图补全，观星台就能继续核那一晚的记录。今天不必把所有结论都说出来。"
+        },
+        {
+          "speaker": "mori",
+          "text": "今天先把这页晾干。墨还湿，你们已经翻了三次。"
+        },
+        {
+          "speaker": "player",
+          "text": "我刚写了夏天，一滴水就把冬天糊了。"
+        },
+        {
+          "speaker": "aster",
+          "text": "这倒是很容易辨认的记录。我会在旁边注明，墨水事故。"
+        }
+      ]
+    },
+    {
+      "id": "main_10_after",
+      "title": "纸上的四个季节",
+      "kind": "main",
+      "chapter_min": 9,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "aster",
+        "player",
+        "mori",
+        "toma",
+        "orla"
+      ],
+      "requires": [
+        "main_10_before"
+      ],
+      "sets": [
+        "main_10_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "图鉴摊在擦干的桌子上。十二个标记都有了对应的收获记录，最边上一格还是歪的。"
+        },
+        {
+          "speaker": "aster",
+          "text": "缺的标记都对上了。这个不需要再涂深，颜色深不能让日期更准确。"
+        },
+        {
+          "speaker": "player",
+          "text": "我想把糊掉的地方遮一下。"
+        },
+        {
+          "speaker": "mori",
+          "text": "留着吧。旁边写清楚就行。你把每一页都修得像从来没有错过，来年也不知道哪里要小心。"
+        },
+        {
+          "speaker": "toma",
+          "text": "先说好，这张桌子半个时辰后要吃饭。图鉴不能在上面占一晚上。"
+        },
+        {
+          "speaker": "aster",
+          "text": "够了。我只核最后两处。"
+        },
+        {
+          "speaker": "player",
+          "text": "这下旧图能读了？"
+        },
+        {
+          "speaker": "aster",
+          "text": "季节这一层能读了。月晶记录还缺几片，能看清它们以前怎么对齐，才知道当晚哪一段被临时改过。"
+        },
+        {
+          "speaker": "orla",
+          "text": "有一段写着共同记忆，以前被我当成了仪式用语。"
+        },
+        {
+          "speaker": "aster",
+          "text": "现在看它旁边的编号，更像是记录类别。有人把同一顿饭、同一场劳动分别记在不同位置上。"
+        },
+        {
+          "speaker": "toma",
+          "text": "同一顿饭为什么要记好几遍？"
+        },
+        {
+          "speaker": "aster",
+          "text": "因为不是每个人记住的都一样。"
+        },
+        {
+          "speaker": "player",
+          "text": "比如那锅没葱的汤。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那件事你打算提多久？"
+        },
+        {
+          "speaker": "player",
+          "text": "至少提到下一次切葱。"
+        },
+        {
+          "speaker": "mori",
+          "text": "我第一次来的那晚，记住的是窗边很热。我以为凳子放得太靠近炉子。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那是你外套没脱。"
+        },
+        {
+          "speaker": "mori",
+          "text": "原来如此。你看，同一件事，自己也会记错。"
+        },
+        {
+          "speaker": "stage",
+          "text": "星芒在记录旁边加了一条备注，没有划去茉莉原先那句。"
+        },
+        {
+          "speaker": "aster",
+          "text": "我把两个都留着。解释是解释，那晚她确实觉得热。"
+        },
+        {
+          "speaker": "orla",
+          "text": "旧图也该这样读。不能知道最后出了事，就把以前所有好日子都涂掉。"
+        },
+        {
+          "speaker": "player",
+          "text": "这句话算你的结论吗？"
+        },
+        {
+          "speaker": "orla",
+          "text": "算我今天的一点想法。结论还得等资料齐。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那么现在，资料先收。锅里的饭已经齐了。"
+        },
+        {
+          "speaker": "aster",
+          "text": "我坐哪里？"
+        },
+        {
+          "speaker": "player",
+          "text": "窗边。你先脱外套，这次我们少留一条误会。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "crop_types",
+        "minimum": 12,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_11_before",
+      "title": "最后一片没有名字",
+      "kind": "main",
+      "chapter_min": 10,
+      "season": "any",
+      "location": "月环观星台",
+      "participants": [
+        "aster",
+        "pip",
+        "ember",
+        "orla",
+        "player",
+        "yingluo",
+        "toma"
+      ],
+      "requires": [
+        "main_10_after"
+      ],
+      "sets": [
+        "main_11_before"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "月晶按旧图摆成一个不完整的环。最边上一片装在浅盘里，还没有标号。"
+        },
+        {
+          "speaker": "aster",
+          "text": "不要按亮不亮排。亮的那片，不一定在最上面。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我没碰。我只是看它们靠在一起的时候，那边会闪。"
+        },
+        {
+          "speaker": "ember",
+          "text": "那是接触面。你把手里的螺丝刀放远一点，不是每道缝都需要撬。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我说了我没碰。……好，放这儿。"
+        },
+        {
+          "speaker": "orla",
+          "text": "山上的报告、遗址的阀位记录、四季标记都齐了。这里缺的，是最后几片原记录。"
+        },
+        {
+          "speaker": "player",
+          "text": "我们已经收了不少月晶，为什么有些用不上？"
+        },
+        {
+          "speaker": "aster",
+          "text": "不是同一块碎下来的。有些只能保存一小段声音，有些只是导光。我以前急着把亮的拼进去，形状越拼越错。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "听得到声音？"
+        },
+        {
+          "speaker": "aster",
+          "text": "偶尔。比风铃小声，不完整。我听过一句“汤别凉了”，认不出是谁。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那句话谁都说过。"
+        },
+        {
+          "speaker": "aster",
+          "text": "所以我没有给它写名字。"
+        },
+        {
+          "speaker": "player",
+          "text": "那你姐姐的记录呢？"
+        },
+        {
+          "speaker": "aster",
+          "text": "有她的标记，在事故前后几片里都出现了。能确认的是，她把自己的记忆接进了月环，帮忙保护山谷。不能确认的，今天不多说。"
+        },
+        {
+          "speaker": "orla",
+          "text": "以前我把这件事写成有人失踪，把其他情况都合在一行里了。"
+        },
+        {
+          "speaker": "aster",
+          "text": "那一行不能再作为结论。也不能因为这里能听见一点声音，就说她明天会从楼梯上下来。"
+        },
+        {
+          "speaker": "stage",
+          "text": "房间安静了一会儿。皮普把落在地上的纸捡起来，没有趁机检查浅盘里的月晶。"
+        },
+        {
+          "speaker": "player",
+          "text": "你现在还想继续拼吗？"
+        },
+        {
+          "speaker": "aster",
+          "text": "想。也会难受。这两件事能一起发生，你不必替我选一种。"
+        },
+        {
+          "speaker": "ember",
+          "text": "桌子还有一条腿不稳。我把底下的木片换了，不碰你的盘子。"
+        },
+        {
+          "speaker": "aster",
+          "text": "谢谢。刚才我一直拿膝盖顶着。"
+        },
+        {
+          "speaker": "orla",
+          "text": "匿名信是我写的，这件事也该在这里说明白。我怕写上镇长的名字，你会觉得是一份雇工通知，又怕把情况写得太清楚，你根本不来。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以你就写得像一个很好听的愿望。"
+        },
+        {
+          "speaker": "orla",
+          "text": "是。这一点不诚实，我不能说全是为了小镇，就把它说成没错。"
+        },
+        {
+          "speaker": "player",
+          "text": "我会生气。也会把最后这些记录看完。我已经在这里住下了，不能连自己的决定都只归给一封信。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "信我送的，里面的意思我也帮忙讲得太满。刚见你那天，我应该先说屋顶漏过。"
+        },
+        {
+          "speaker": "player",
+          "text": "屋顶你说了。你说“被子是干的”，那一句倒是真的。"
+        },
+        {
+          "speaker": "orla",
+          "text": "后面该写给你的信，我会署名，也会写清楚还不知道什么。"
+        },
+        {
+          "speaker": "toma",
+          "text": "这封不用现在写。大家先喝点热的，桌子底下那块木头都比我们的手暖。"
+        }
+      ]
+    },
+    {
+      "id": "main_11_after",
+      "title": "拼回去的不是答案",
+      "kind": "main",
+      "chapter_min": 10,
+      "season": "any",
+      "location": "月环观星台",
+      "participants": [
+        "pip",
+        "ember",
+        "aster",
+        "player",
+        "toma",
+        "orla",
+        "yingluo",
+        "lumi"
+      ],
+      "requires": [
+        "main_11_before"
+      ],
+      "sets": [
+        "main_11_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "第八枚可用的月晶放进浅槽。环形星图浮出一条细线，照亮了桌上的旧油渍。"
+        },
+        {
+          "speaker": "pip",
+          "text": "这回没有往旁边跳。"
+        },
+        {
+          "speaker": "ember",
+          "text": "接触面平了。不是你把盘子举高有用，先放下。"
+        },
+        {
+          "speaker": "aster",
+          "text": "位置对了。每一段的时间也对上了。"
+        },
+        {
+          "speaker": "player",
+          "text": "我能听见有人笑，但听不清说什么。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我听见锅盖响了一下。这个声音我认得，比人声好认。"
+        },
+        {
+          "speaker": "orla",
+          "text": "图纸上那句共同记忆，是真的。它保存的不是一个人那晚做了多少，而是很多人对同一段生活的记忆。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "街上的灯接到了一点光。不是全亮，下面拐角还暗着。"
+        },
+        {
+          "speaker": "aster",
+          "text": "结构拼回来了。旧记录也能读了。但如果以后只保存那些旧日子，新的部分还是空的。"
+        },
+        {
+          "speaker": "player",
+          "text": "所以要一场宴会？"
+        },
+        {
+          "speaker": "aster",
+          "text": "宴会合适，是因为大家会真的在同一张桌子附近吃饭、争位置、记住不同的事。不是摆三道菜就能交给机器算完。"
+        },
+        {
+          "speaker": "toma",
+          "text": "三道宴席菜，我有主意。可是人多了，洗菜和洗碗不能最后又只算在厨房头上。"
+        },
+        {
+          "speaker": "orla",
+          "text": "分工公开写，愿意做什么，能做多久，都写。没来的也不能被说成不愿意小镇好。"
+        },
+        {
+          "speaker": "ember",
+          "text": "天冷，山上的路不好走。有的人来不了，比来了的人还惦记。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我可以管搬桌。不是搬完就跑，我会把凳子也搬回去。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "我听见了。桌脚别拖，地上有石子，拖一回就是一道划。"
+        },
+        {
+          "speaker": "player",
+          "text": "你什么时候上来的？"
+        },
+        {
+          "speaker": "lumi",
+          "text": "从你们讨论洗碗的时候。我提着东西站门口，一直没人看见。"
+        },
+        {
+          "speaker": "stage",
+          "text": "露米放下一包杯垫，包得整整齐齐。皮普赶紧把门边那只凳子挪开。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "我没带什么能解释月环的东西，只带了杯垫。热碗一多，桌面留一圈一圈的印子，不好收拾。"
+        },
+        {
+          "speaker": "aster",
+          "text": "这就够了。没有规定每个人都得带能解释月环的东西。"
+        },
+        {
+          "speaker": "orla",
+          "text": "薇尔莉娅，宴会的钱，我们分开记。你的食堂收入不能自动变成整个镇的修复资金。"
+        },
+        {
+          "speaker": "player",
+          "text": "我会报食材和工时。还有，我要坐下吃一会儿，不能一整晚都站着。"
+        },
+        {
+          "speaker": "toma",
+          "text": "这次我也要。我们两个人轮换，别又互相说自己不饿。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我能看一会儿火，但我不会做新菜。"
+        },
+        {
+          "speaker": "player",
+          "text": "会看住别让汤扑出来，已经能省很多事。"
+        },
+        {
+          "speaker": "stage",
+          "text": "星图的光停在一条旧裂纹上，没有掩住它。星芒把浅盘移到稳妥的位置，第一次没有守着它吃饭。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "crystal",
+        "minimum": 8,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_12_before",
+      "title": "宴会前的分工纸",
+      "kind": "main",
+      "chapter_min": 11,
+      "season": "any",
+      "location": "月灯食堂门前",
+      "participants": [
+        "orla",
+        "yingluo",
+        "lumi",
+        "toma",
+        "player",
+        "pip",
+        "ember",
+        "nagi",
+        "yuki",
+        "mori",
+        "aster"
+      ],
+      "requires": [
+        "main_11_after"
+      ],
+      "sets": [
+        "main_12_before"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "分工纸贴在门侧，下端留着一整块空白。有人写了名字，有人只画了一只水桶。"
+        },
+        {
+          "speaker": "orla",
+          "text": "画水桶的人是谁？我得知道他是送水还是洗桶。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "是我。两样都能，不过开席后得换人。我今晚要坐下来把这顿饭吃完。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那我把时段写上。不是写了名字，就把一晚上都交出来。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "桌子三张，摆外面两张、里面一张。门口的路留着，迟到的人还要走，邻居回家也要走。"
+        },
+        {
+          "speaker": "toma",
+          "text": "南瓜已经切好了，稻米泡着。最后那道甜点等炉子空出来，别为了看颜色把炉门掀来掀去。"
+        },
+        {
+          "speaker": "player",
+          "text": "你这句话是说皮普吧？"
+        },
+        {
+          "speaker": "pip",
+          "text": "我今天没掀。我想把热气拿去——算了，我今天没有试验安排。"
+        },
+        {
+          "speaker": "ember",
+          "text": "很好，把那根铜管也从桌下拿走。"
+        },
+        {
+          "speaker": "pip",
+          "text": "你什么时候看见的？"
+        },
+        {
+          "speaker": "ember",
+          "text": "从你说没安排的时候。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "码头有两个人今晚赶不来。留不留饭，他们还没回话，先别按一定来备。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "山上的值守人换不了班，我带了他的信。不是不愿意来，他还写了想吃什么，后面又划掉了。"
+        },
+        {
+          "speaker": "player",
+          "text": "划掉的不用念。饭菜能留到安全的时候，我会留；实在不能，就另做一份。"
+        },
+        {
+          "speaker": "mori",
+          "text": "我带的菜有几根不太好看，已经把坏的挑出去了。别再为宴席把能吃的也挑出去。"
+        },
+        {
+          "speaker": "toma",
+          "text": "都用。锅里不看它长得像不像菜谱上的画。"
+        },
+        {
+          "speaker": "aster",
+          "text": "观星台那边我安排好了，不用守着。等下面真的开席，再看记录有没有反应。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我本来准备了一段开场的话。"
+        },
+        {
+          "speaker": "player",
+          "text": "多长？"
+        },
+        {
+          "speaker": "orla",
+          "text": "原来有两页，现在剩半页。"
+        },
+        {
+          "speaker": "toma",
+          "text": "还能少。汤凉得比话快。"
+        },
+        {
+          "speaker": "stage",
+          "text": "奥萝看了看纸，把中间一段折进去。霜铃把邮袋放到凳子底下，又检查有没有挡住别人的脚。"
+        },
+        {
+          "speaker": "orla",
+          "text": "好，只说费用公示在门边，明天还能核对。还有谢谢大家来，没来的也有名字。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "名字不用都念。人一多，念错一个，大家就只记得那个。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "这个我能证明。"
+        },
+        {
+          "speaker": "player",
+          "text": "那就开席。第一轮我端菜，第二轮陶陶来，写在纸上的，不许临时替我改。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你也不许。上回就是你说“我再忙一小会儿”。"
+        }
+      ]
+    },
+    {
+      "id": "main_12_after",
+      "title": "灯亮了，饭还没有吃完",
+      "kind": "main",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "yingluo",
+        "nagi",
+        "player",
+        "toma",
+        "aster",
+        "orla",
+        "ember",
+        "pip",
+        "lumi",
+        "mori",
+        "yuki"
+      ],
+      "requires": [
+        "main_12_before"
+      ],
+      "sets": [
+        "main_12_after"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "最后三道宴席料理都到了桌上。有人先盛汤，有人还在找自己的外套，第一声惊呼来自门外。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "路口亮了。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "不是你手里的灯？"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我的还没点。你看，光照到码头那边了。"
+        },
+        {
+          "speaker": "player",
+          "text": "月环也亮了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "环形的微光越过屋顶，沿着旧灯一盏盏传下来。陶陶站起来看了两眼，手里仍握着汤勺。"
+        },
+        {
+          "speaker": "toma",
+          "text": "真的。比我记得的亮，还是我以前没好好看？"
+        },
+        {
+          "speaker": "aster",
+          "text": "今晚湿气低，光看起来会清楚一点。也可能是你坐的位置不一样。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你连今天也要解释这个。"
+        },
+        {
+          "speaker": "aster",
+          "text": "我也在高兴。解释不会把高兴用掉。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这一次，街上的灯一盏也——"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "旧桥那盏没亮。灯芯坏了，昨天记过。"
+        },
+        {
+          "speaker": "orla",
+          "text": "对。那句不能说满。"
+        },
+        {
+          "speaker": "ember",
+          "text": "灯芯明天换。今晚没谁需要摸黑过桥，我在那里放了小灯。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我想说这也有我的功劳，刚才又觉得这么说有点……"
+        },
+        {
+          "speaker": "player",
+          "text": "有。你的那行工时在门边。你还可以把这碗饭当自己的功劳，米是你们磨的。"
+        },
+        {
+          "speaker": "pip",
+          "text": "那我说了，有我的功劳。还有余烬，还有搬桌子的人，还有——"
+        },
+        {
+          "speaker": "lumi",
+          "text": "搬桌子时磕掉的漆也记着，明天不许假装忘了。"
+        },
+        {
+          "speaker": "pip",
+          "text": "记着。连坏的也记。"
+        },
+        {
+          "speaker": "mori",
+          "text": "汤里这个分岔萝卜，是你第一筐那个吗？"
+        },
+        {
+          "speaker": "player",
+          "text": "早就吃完了。这个是后来收的，也分岔。"
+        },
+        {
+          "speaker": "mori",
+          "text": "我还以为你特地留到今天。那会放坏的，幸好没有。"
+        },
+        {
+          "speaker": "yuki",
+          "text": "刚才外面有人说今晚的事一定会被记住。我想，应该会，但谁也记不全。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我会记得我的汤被说话耽误凉了。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我会记得你明明能先喝，非要等我们一起。"
+        },
+        {
+          "speaker": "stage",
+          "text": "澪拿起碗，没有反驳。窗边凳子上，霜铃的邮袋只占了一小角。"
+        },
+        {
+          "speaker": "orla",
+          "text": "匿名信最后没写完的那句，我后来想过很多次。我本来想说，这里需要你。"
+        },
+        {
+          "speaker": "player",
+          "text": "现在呢？"
+        },
+        {
+          "speaker": "orla",
+          "text": "现在想问，你明天早饭想吃什么？陶陶准备重新开摊，他问我，我答不上。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你也别替她答。薇尔莉娅，我明天有热粥和饼，饼可能不够圆。"
+        },
+        {
+          "speaker": "player",
+          "text": "都要。我明天不想比你们起得早。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "那我巡灯回来正好赶上。今天不用写在什么最后一页，明天就有新的事。"
+        },
+        {
+          "speaker": "aster",
+          "text": "观星台的记录还在增加。我过会儿看，现在先吃。"
+        },
+        {
+          "speaker": "stage",
+          "text": "月环的光落在空盘边，照出一块没擦干净的汤渍。薇尔莉娅把自己的碗移过去，坐了下来。"
+        }
+      ],
+      "editor_gate": {
+        "metric": "banquet",
+        "minimum": 3,
+        "note": "仅编辑标注；沿用现有章节目标，不是新增运行逻辑"
+      }
+    },
+    {
+      "id": "main_next_morning",
+      "title": "第二天的水盆",
+      "kind": "main",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "player",
+        "toma",
+        "orla",
+        "lumi",
+        "pip",
+        "ember",
+        "yingluo",
+        "nagi",
+        "aster"
+      ],
+      "requires": [
+        "main_12_after"
+      ],
+      "sets": [
+        "main_next_morning"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "天亮后，三张桌子上还压着没带走的杯垫。水盆里最后一摞碗没有人碰过。"
+        },
+        {
+          "speaker": "player",
+          "text": "我就知道会剩这一盆。"
+        },
+        {
+          "speaker": "toma",
+          "text": "不是我们昨晚偷懒，是最后那壶热水凉了。冷水洗油，比我脾气还难对付。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我来了。昨天我在分工纸上写到午前，现在还没到。"
+        },
+        {
+          "speaker": "player",
+          "text": "你不用证明。围裙在门后，干的那条。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我这次看见了，没拿你的外套。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "谁把杯垫叠湿了？最下面两片粘一起，昨天白缝了。"
+        },
+        {
+          "speaker": "pip",
+          "text": "我。想收整齐一点。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "先晾着就行。整齐又不是一定要堆成一叠。"
+        },
+        {
+          "speaker": "pip",
+          "text": "这个算我今天学会的。还有桌角那块漆，我带工具了。"
+        },
+        {
+          "speaker": "ember",
+          "text": "我只看一眼。旧桥灯芯换好，外面的两张桌子也搬回去了。"
+        },
+        {
+          "speaker": "player",
+          "text": "吃过早饭吗？"
+        },
+        {
+          "speaker": "ember",
+          "text": "吃过。饼不圆，味道行。陶陶说不准我夸形状。"
+        },
+        {
+          "speaker": "toma",
+          "text": "因为你先说它像齿轮。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我带回来一只手套，有人昨天落在路口，不知道是谁的。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我的。另一只在篮子里，昨晚我还以为是被风吹进水里了。"
+        },
+        {
+          "speaker": "orla",
+          "text": "门边账目有人添了两行。一行说少算了半个工时，另一行说自己没有搬完桌，别记整份。"
+        },
+        {
+          "speaker": "player",
+          "text": "你打算怎么改？"
+        },
+        {
+          "speaker": "orla",
+          "text": "都核实。不因为昨晚高兴就不给人补钱，也不因为有人客气就少付。"
+        },
+        {
+          "speaker": "aster",
+          "text": "观星台记录有新的部分。字不多，里面连菜名都不统一，有人记成南瓜饭，有人记成栗子饭。"
+        },
+        {
+          "speaker": "toma",
+          "text": "那是两道菜。别把这条也解释成记忆的差异。"
+        },
+        {
+          "speaker": "aster",
+          "text": "……好，我回去加一条。"
+        },
+        {
+          "speaker": "stage",
+          "text": "大家笑了一小阵。皮普没笑，他正蹲着修桌角，等听清楚以后才笑出声。"
+        },
+        {
+          "speaker": "player",
+          "text": "食堂今晚照常开。今天我想少做两道菜，先把水盆清出来。"
+        },
+        {
+          "speaker": "toma",
+          "text": "行。新日子也不能一天把所有菜都吃完。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那我先洗盘子。昨晚那半页话，不念了，留着垫我那张摇晃的桌子。"
+        },
+        {
+          "speaker": "player",
+          "text": "纸太薄。"
+        },
+        {
+          "speaker": "lumi",
+          "text": "用木片。我明天带来。别又给旧食谱培养一个坏习惯。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_rain_coats",
+      "title": "谁的外套先干",
+      "kind": "ensemble",
+      "chapter_min": 2,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "fu",
+        "mu",
+        "yingluo",
+        "player"
+      ],
+      "requires": [
+        "main_02_after"
+      ],
+      "sets": [
+        "interlude_rain_coats"
+      ],
+      "lines": [
+        {
+          "speaker": "stage",
+          "text": "雨打在窗外。四件湿外套挂在同一排木钩上，最右边那件已经往地上滴了一小滩水。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我的袖口原来不往下垂，现在比别人长一截。"
+        },
+        {
+          "speaker": "mu",
+          "text": "吸了水。不是吃一顿饭还能长个子。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "我这件也湿，可我待会儿还得穿。"
+        },
+        {
+          "speaker": "fu",
+          "text": "巡灯的倒霉处，进门就知道一会儿还要出去。我今天关茶棚，心里踏实一点。"
+        },
+        {
+          "speaker": "mu",
+          "text": "我今天也休息。门口写了牌子，有人还是拍门，问我是不是忘了开。"
+        },
+        {
+          "speaker": "fu",
+          "text": "你答应了吗？"
+        },
+        {
+          "speaker": "mu",
+          "text": "隔着门说了休息。对方说知道了，又问能不能只进去一下。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "只进去一下也得烧水。"
+        },
+        {
+          "speaker": "mu",
+          "text": "我说了。他说他不洗澡，只借个桶。"
+        },
+        {
+          "speaker": "fu",
+          "text": "听得我都想把袖口拧他鞋上。"
+        },
+        {
+          "speaker": "mu",
+          "text": "桶已经借了。他是真的只借桶，我刚才那一口气白憋了。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "那你不算白休息，我的意思是——你没烧水。"
+        },
+        {
+          "speaker": "mu",
+          "text": "我知道你什么意思。不必把我的休息日说得像一场胜仗，我现在只是饿。"
+        },
+        {
+          "speaker": "player",
+          "text": "饭好了。你们谁要靠里面坐？炉子那边干一点。"
+        },
+        {
+          "speaker": "fu",
+          "text": "给萤萝。我们两个还有一顿饭的工夫，她那件先干。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "你们不介意？"
+        },
+        {
+          "speaker": "mu",
+          "text": "介意我就会说。你先坐，别挨个问到饭凉。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我有条件，临走把我的那件挪过来。不是所有体谅都得整晚一动不动。"
+        },
+        {
+          "speaker": "yingluo",
+          "text": "行。我今天巡的那段短，回去之前能把你们的衣服带到避雨处。"
+        },
+        {
+          "speaker": "mu",
+          "text": "不用。我的伞够大。"
+        },
+        {
+          "speaker": "fu",
+          "text": "我的不够。茶棚伞都给客人了，我留了最漂亮那把，结果骨架是坏的。"
+        },
+        {
+          "speaker": "player",
+          "text": "为什么留坏的？"
+        },
+        {
+          "speaker": "fu",
+          "text": "因为我每天都以为第二天能修。就像每天都以为第二天能睡晚一点。"
+        },
+        {
+          "speaker": "mu",
+          "text": "你明天打算几点起？"
+        },
+        {
+          "speaker": "fu",
+          "text": "我不说。说了以后，这桌人就都知道我失败了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "萤萝往里挪了半个位置，给另一件袖口留出空间。芙蓉把米饭拨开，终于找到了底下那片姜。"
+        },
+        {
+          "speaker": "fu",
+          "text": "这片我不吃。"
+        },
+        {
+          "speaker": "mu",
+          "text": "给我。你那件外套往下滴水，我的饭里倒是缺点热的。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_wrong_map",
+      "title": "地图上那个大圆",
+      "kind": "ensemble",
+      "chapter_min": 4,
+      "season": "any",
+      "location": "小镇树荫下",
+      "participants": [
+        "dou",
+        "song",
+        "qiao"
+      ],
+      "requires": [
+        "main_03_after"
+      ],
+      "sets": [
+        "interlude_wrong_map"
+      ],
+      "lines": [
+        {
+          "speaker": "dou",
+          "text": "这里不是湖，是食堂。"
+        },
+        {
+          "speaker": "song",
+          "text": "食堂为什么比桥大这么多？"
+        },
+        {
+          "speaker": "dou",
+          "text": "桥只让人走过去，食堂能坐很多人。"
+        },
+        {
+          "speaker": "song",
+          "text": "那我姐姐住的屋子应该画最大。我每次等她回家都等很久。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "我听见你们说大小。是要做框，还是又借我的尺？"
+        },
+        {
+          "speaker": "dou",
+          "text": "没有借。尺太直，不适合这张图。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "这理由倒新鲜。你对着我说，别一边指后面的树一边嘟囔，我看不见你的嘴。"
+        },
+        {
+          "speaker": "dou",
+          "text": "我说，尺太直。这张是吃饭用的地图，不是修路用的。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "那你为什么把我家画在饭桌里？"
+        },
+        {
+          "speaker": "dou",
+          "text": "你每天都来吃。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "我来吃也不住这里。别人看了，找我修门岂不是只来食堂等？"
+        },
+        {
+          "speaker": "song",
+          "text": "这样你可以多吃一顿。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "也可以半天都收不到修门的钱。钱和饭不是同一样东西。"
+        },
+        {
+          "speaker": "dou",
+          "text": "我添一行字，说你有时候在家。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "大部分时候。我大部分时候在家。"
+        },
+        {
+          "speaker": "song",
+          "text": "我想添一个石头标记，路边那块圆的。"
+        },
+        {
+          "speaker": "dou",
+          "text": "那里已经有树。"
+        },
+        {
+          "speaker": "song",
+          "text": "石头就在树旁边，没占它的地方。"
+        },
+        {
+          "speaker": "dou",
+          "text": "纸上没有地方了。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "翻过来还有。"
+        },
+        {
+          "speaker": "dou",
+          "text": "背面我写错过字，不想让人看见。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "错字不能影响树旁边真的有块石头。你可以先把错字框起来，写“这块不算”。"
+        },
+        {
+          "speaker": "song",
+          "text": "那我的石头就算？"
+        },
+        {
+          "speaker": "dou",
+          "text": "算。但不要画得比食堂大。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "你们两个人现在的争法，跟修桥的时候一样。"
+        },
+        {
+          "speaker": "dou",
+          "text": "他们也画不下？"
+        },
+        {
+          "speaker": "qiao",
+          "text": "他们画得下，就是谁都觉得别人占的地方太多。……这句话别往图上写，写了又要我解释。"
+        },
+        {
+          "speaker": "stage",
+          "text": "豆豆翻过纸，用手压着原先的错字。松果先画了石头，又在旁边添了一只小碗。"
+        },
+        {
+          "speaker": "dou",
+          "text": "这是什么？"
+        },
+        {
+          "speaker": "song",
+          "text": "到这儿会饿。你那张地图不是吃饭用的吗？"
+        },
+        {
+          "speaker": "qiao",
+          "text": "这个我同意。现在你们讨论完没有？我真的要去吃饭了。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_half_soup",
+      "title": "半碗汤不等于半价",
+      "kind": "ensemble",
+      "chapter_min": 5,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "ji",
+        "toma",
+        "shao",
+        "player"
+      ],
+      "requires": [
+        "main_05_after"
+      ],
+      "sets": [
+        "interlude_half_soup"
+      ],
+      "lines": [
+        {
+          "speaker": "ji",
+          "text": "半碗汤，算整碗的钱？"
+        },
+        {
+          "speaker": "toma",
+          "text": "你点的是一碗。刚才说少盛一点，锅里剩下的也还得算料。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我是问清楚，没有说你不该收。"
+        },
+        {
+          "speaker": "shao",
+          "text": "你这个开头听着不像问，像准备把谁的算盘拆了。"
+        },
+        {
+          "speaker": "ji",
+          "text": "你们这里做生意，都先评价客人怎么说话？"
+        },
+        {
+          "speaker": "shao",
+          "text": "我不在这里做生意。我在吃饭，说话暂时不用列进货单。"
+        },
+        {
+          "speaker": "player",
+          "text": "半碗也按一份备料。你要是开始就说想分一份，我们可以谈，盛出来以后就不好重新分。"
+        },
+        {
+          "speaker": "ji",
+          "text": "好，那还是照一份算。再给我一个小碗，我把剩下的留给同行的人。"
+        },
+        {
+          "speaker": "toma",
+          "text": "汤还在锅里，你同行的人来了吗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "马上。差不多。"
+        },
+        {
+          "speaker": "shao",
+          "text": "这两句话不能算到达时间。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我知道你对时间有意见，你对我的汤也有意见吗？"
+        },
+        {
+          "speaker": "shao",
+          "text": "没有。我这碗也还没喝完。"
+        },
+        {
+          "speaker": "stage",
+          "text": "陶陶拿来小碗，没有先盛。门外有人从屋檐下经过，季平抬头看了一眼，又坐回去。"
+        },
+        {
+          "speaker": "player",
+          "text": "要不你先喝自己的那半碗？"
+        },
+        {
+          "speaker": "ji",
+          "text": "我不喜欢人家到了，看我已经吃完一桌。"
+        },
+        {
+          "speaker": "toma",
+          "text": "你只点了一碗汤，没有一桌。"
+        },
+        {
+          "speaker": "ji",
+          "text": "你们今天都把我说得很不体面。"
+        },
+        {
+          "speaker": "shao",
+          "text": "没有。就是你说话太大，我们把它换成眼前的分量。"
+        },
+        {
+          "speaker": "ji",
+          "text": "那我换个小一点的。我不想先吃。"
+        },
+        {
+          "speaker": "player",
+          "text": "好。我把另一半先留在锅里，客人没来之前，别往空碗里盛，凉得快。"
+        },
+        {
+          "speaker": "ji",
+          "text": "谢谢。这个我愿意听。"
+        },
+        {
+          "speaker": "shao",
+          "text": "我再要一点咸菜，另外算。"
+        },
+        {
+          "speaker": "toma",
+          "text": "咸菜本来就配着饭，刚才漏给你了。"
+        },
+        {
+          "speaker": "shao",
+          "text": "那也写清楚，省得他以为熟客占便宜。"
+        },
+        {
+          "speaker": "ji",
+          "text": "我已经看见你付钱了。我没有时时刻刻怀疑全镇在合伙骗我。"
+        },
+        {
+          "speaker": "player",
+          "text": "那现在我们可以安静一小会儿。"
+        },
+        {
+          "speaker": "stage",
+          "text": "三个人各自安静。片刻后，季平把勺子放进汤里，先喝了一口。"
+        },
+        {
+          "speaker": "ji",
+          "text": "就一口。同行的人不会在门外数。"
+        },
+        {
+          "speaker": "toma",
+          "text": "汤也不会告状。小碗还在这儿，人来了我再盛。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_weight",
+      "title": "少的那三克",
+      "kind": "ensemble",
+      "chapter_min": 6,
+      "season": "any",
+      "location": "月灯食堂备料台",
+      "participants": [
+        "wen",
+        "mori",
+        "toma",
+        "zhen",
+        "player"
+      ],
+      "requires": [
+        "main_05_after"
+      ],
+      "sets": [
+        "interlude_weight"
+      ],
+      "lines": [
+        {
+          "speaker": "wen",
+          "text": "我记的配方没有错，可照着做，味道每次都差一点。"
+        },
+        {
+          "speaker": "mori",
+          "text": "今天的番茄比昨天酸，你记了吗？"
+        },
+        {
+          "speaker": "wen",
+          "text": "我记了重量。"
+        },
+        {
+          "speaker": "toma",
+          "text": "重量不管酸。也不管你这一勺是不是沾了上回的盐。"
+        },
+        {
+          "speaker": "wen",
+          "text": "勺子洗过。我没有那么不认真。"
+        },
+        {
+          "speaker": "toma",
+          "text": "我不是说你不认真。我是说同样重的东西，也会不一样。"
+        },
+        {
+          "speaker": "zhen",
+          "text": "碗也会。昨天你用我那个浅碗，今天换深的，看着就像少了一点。"
+        },
+        {
+          "speaker": "wen",
+          "text": "所以我才不用眼睛估。"
+        },
+        {
+          "speaker": "mori",
+          "text": "那你最后用什么判断？"
+        },
+        {
+          "speaker": "wen",
+          "text": "尝。但一尝就觉得我前面记的没有意义。"
+        },
+        {
+          "speaker": "player",
+          "text": "记了以后，你知道昨天盐没有多放。不记的话，今天可能还在怀疑盐。"
+        },
+        {
+          "speaker": "wen",
+          "text": "这个有一点道理。"
+        },
+        {
+          "speaker": "toma",
+          "text": "有一点就够，先别把她那句话写成新配方。"
+        },
+        {
+          "speaker": "zhen",
+          "text": "我这里少了三克。"
+        },
+        {
+          "speaker": "wen",
+          "text": "什么少了？"
+        },
+        {
+          "speaker": "zhen",
+          "text": "你说这只碗比那只轻。我做的时候，底刮多了一点，不是给你设计了一个精确的差额。"
+        },
+        {
+          "speaker": "wen",
+          "text": "我没有让你道歉。三克就是三克，我可以记。"
+        },
+        {
+          "speaker": "zhen",
+          "text": "可你刚才问我，下次能不能也少三克。那个我不能答应。"
+        },
+        {
+          "speaker": "wen",
+          "text": "……好，那我把“常规误差”写旁边。"
+        },
+        {
+          "speaker": "mori",
+          "text": "怎么什么都能写进你那本子？"
+        },
+        {
+          "speaker": "wen",
+          "text": "因为不写我会忘。我不是为了把所有人都写服。"
+        },
+        {
+          "speaker": "player",
+          "text": "你刚才这句也挺值得记。"
+        },
+        {
+          "speaker": "wen",
+          "text": "不记。再记下去，今晚就变成记自己怎么记。"
+        },
+        {
+          "speaker": "stage",
+          "text": "陶陶端来两只小碗，各盛了一勺汤。温芷喝完第一只，又回头喝了一口。"
+        },
+        {
+          "speaker": "wen",
+          "text": "第二只盐多一点。"
+        },
+        {
+          "speaker": "toma",
+          "text": "两只从同一锅舀的。"
+        },
+        {
+          "speaker": "wen",
+          "text": "那就是碗里有——"
+        },
+        {
+          "speaker": "zhen",
+          "text": "也许你第二口想找盐，就找得更认真。我的碗没给盐留暗格。"
+        },
+        {
+          "speaker": "mori",
+          "text": "我喝着一样。要是大家都说得不一样，你今天打算写谁的？"
+        },
+        {
+          "speaker": "wen",
+          "text": "都写，然后明天再做。你们可以笑我，但明天还得来尝。"
+        },
+        {
+          "speaker": "toma",
+          "text": "行，明天先洗勺子。这回不是说你，是说我自己，我刚才差点拿错。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_dock_meal",
+      "title": "船上的饭在岸上吃",
+      "kind": "ensemble",
+      "chapter_min": 8,
+      "season": "any",
+      "location": "码头",
+      "participants": [
+        "wenchao",
+        "zhao",
+        "nagi"
+      ],
+      "requires": [
+        "main_08_after"
+      ],
+      "sets": [
+        "interlude_dock_meal"
+      ],
+      "lines": [
+        {
+          "speaker": "wenchao",
+          "text": "我在船上做饭，锅里多一点少一点，大家最多抱怨一句。回岸上以后，一盘菜还要讨论摆哪里。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "因为你把菜摆在货票上了。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "货票旁边。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "汤已经流到票边，所以现在是货票上。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我这边有干木箱，可以先放。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "不用，我捧着。每次我一进来，这张桌子就没有一块地方给我。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "这张桌子是我的工作桌。家里那张一直有地方。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "家里那张上面也有票。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "三张，不是一桌。你在一张票旁边放半条鱼的时候，倒从来不觉得挤。"
+        },
+        {
+          "speaker": "stage",
+          "text": "澪拿走了桌角的一截绳子，又拿走半只旧杯。空出来的地方刚好容得下一只盘。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "这两样是我的。你们先各少说一句，我也不是完全无辜。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "你不用替我们分担吵架。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "我不是替你们。我真的占了地方，再说下去，我看起来就像在岸边看热闹。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "今天那批货，单子还差一张。我不是故意不让你吃。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我知道。可是我做了菜，一路捧过来，到了又像添乱。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "放错位置是真的，添乱是你自己加的。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "菜要凉了。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "你已经说第三遍。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "因为它第三遍还在凉。你们吵架的进度比较慢。"
+        },
+        {
+          "speaker": "stage",
+          "text": "闻潮把盘放到空处，赵汐用干布擦掉票边的汤。两个人都没有先拿筷子。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "你今天做的什么？"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "鱼。没有放你不爱吃的那种香草，我记着。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "那我也说一件。我不是看见你回来就只想着货票，我早上多留了一把椅子，放里面了。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "为什么放里面？"
+        },
+        {
+          "speaker": "zhao",
+          "text": "外面下雨会湿。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "我没看见。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "我也没看见你把香草挑掉了。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "现在各看见一件，可以吃了吗？我那边的绳子还等着，饭也真的凉了。"
+        },
+        {
+          "speaker": "wenchao",
+          "text": "给你这块，厚一点。"
+        },
+        {
+          "speaker": "nagi",
+          "text": "正常给。我没有收你们的调解费。"
+        },
+        {
+          "speaker": "zhao",
+          "text": "吃你的，澪。再说一句调解费，他会真的算鱼有多厚。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_unread_page",
+      "title": "档案里的空白行",
+      "kind": "ensemble",
+      "chapter_min": 10,
+      "season": "any",
+      "location": "月环观星台",
+      "participants": [
+        "cen",
+        "orla",
+        "ling"
+      ],
+      "requires": [
+        "main_10_after"
+      ],
+      "sets": [
+        "interlude_unread_page"
+      ],
+      "lines": [
+        {
+          "speaker": "cen",
+          "text": "这个空白不能补。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我不是要替原记录编一句。我只是觉得放在中间，读的人会以为我们漏抄了。"
+        },
+        {
+          "speaker": "ling",
+          "text": "旁边写“原件缺损”，就能说明。"
+        },
+        {
+          "speaker": "cen",
+          "text": "已经写了。在这儿，字小一点，但看得见。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我看漏了。你不用把它写大成公告。"
+        },
+        {
+          "speaker": "ling",
+          "text": "那费用说明呢？补纸和装订的工钱，放这本后面还是另外列？"
+        },
+        {
+          "speaker": "cen",
+          "text": "另外列。这本记事情怎么发生，账记我们怎么修它。别把我的胶水钱塞进事故那晚。"
+        },
+        {
+          "speaker": "orla",
+          "text": "听着是很荒唐，可我以前确实把不同年份的账记在同一页，怕页数不够。"
+        },
+        {
+          "speaker": "ling",
+          "text": "页数不够可以加纸。"
+        },
+        {
+          "speaker": "orla",
+          "text": "那时候连这个也舍不得。"
+        },
+        {
+          "speaker": "cen",
+          "text": "现在能加，不等于以前那页就该拆掉重写。你可以解释当时为什么，不要把当时的自己擦干净。"
+        },
+        {
+          "speaker": "ling",
+          "text": "我有一处想核。这里同一个人出现了两次，是重抄还是确实分了两趟？"
+        },
+        {
+          "speaker": "cen",
+          "text": "还不知道。"
+        },
+        {
+          "speaker": "ling",
+          "text": "我问的时候，好像默认它是错的。"
+        },
+        {
+          "speaker": "orla",
+          "text": "因为你在账房，经常遇见重记？"
+        },
+        {
+          "speaker": "ling",
+          "text": "嗯。我得先把这两行圈住，等别的记录，不直接删一行。"
+        },
+        {
+          "speaker": "stage",
+          "text": "奥萝拿起笔，又放下了。岑月把一张薄纸垫到缺损页下，空白处没有变少。"
+        },
+        {
+          "speaker": "orla",
+          "text": "这次我确实想写一段解释，解释为什么当初会同意继续运行。"
+        },
+        {
+          "speaker": "cen",
+          "text": "可以写，署今天的日期。解释也是资料，但它不是当年的记录。"
+        },
+        {
+          "speaker": "ling",
+          "text": "也不是判定谁没有错的凭据。"
+        },
+        {
+          "speaker": "orla",
+          "text": "我懂。你这句说得比刚才小声，是怕我不爱听？"
+        },
+        {
+          "speaker": "ling",
+          "text": "是。还有我不确定自己有没有资格说。"
+        },
+        {
+          "speaker": "orla",
+          "text": "资格不用从音量里找。你核到什么，就说什么。我不爱听，是我要处理的事。"
+        },
+        {
+          "speaker": "cen",
+          "text": "这句也不必写进记录。今天我们先把纸贴平，胶快干了。"
+        },
+        {
+          "speaker": "ling",
+          "text": "我帮你压哪边？"
+        },
+        {
+          "speaker": "cen",
+          "text": "这边。手别沾湿，纸边已经很脆。"
+        },
+        {
+          "speaker": "stage",
+          "text": "令夏把账本合起来，空出一只手。奥萝自己拿起另一本新册，在第一页写了当天的日期。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_different_grain",
+      "title": "两种米混不混",
+      "kind": "ensemble",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "月灯食堂",
+      "participants": [
+        "sui",
+        "tie",
+        "bo",
+        "player"
+      ],
+      "requires": [
+        "main_12_after"
+      ],
+      "sets": [
+        "interlude_different_grain"
+      ],
+      "lines": [
+        {
+          "speaker": "sui",
+          "text": "这袋米便宜，不是掺坏米，是颗粒小。你们合作社人多，煮饭用得上。"
+        },
+        {
+          "speaker": "tie",
+          "text": "便宜多少？"
+        },
+        {
+          "speaker": "sui",
+          "text": "一袋少四金。少的不是四分之一，别自己听着添。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我没有添。每次我问便宜多少，你就以为我要把整袋讲成白送。"
+        },
+        {
+          "speaker": "bo",
+          "text": "你上次确实问过能不能送半袋。"
+        },
+        {
+          "speaker": "tie",
+          "text": "那是开玩笑。"
+        },
+        {
+          "speaker": "sui",
+          "text": "你开玩笑的时候，手已经按在袋子上了，我很难放心笑。"
+        },
+        {
+          "speaker": "player",
+          "text": "我刚把饭蒸上，你们要是谈米，先坐着谈，别堵在门边。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我们不是吵架，是核价格。"
+        },
+        {
+          "speaker": "bo",
+          "text": "核的时候你把声音提到街对面了。"
+        },
+        {
+          "speaker": "stage",
+          "text": "铁桃把米袋靠在凳子边，袋口没有拆。穗婶从袖口拿出一小包米粒，放到桌上。"
+        },
+        {
+          "speaker": "sui",
+          "text": "样品在这儿。自己看，碎的多一点，煮粥也合适。我没说跟贵的完全一样。"
+        },
+        {
+          "speaker": "tie",
+          "text": "合作社午饭要顶饱，不是煮得好看。可是他们会问，为什么突然换米。"
+        },
+        {
+          "speaker": "bo",
+          "text": "你就说预算。我们也算得出每个月那笔钱，不用替我们编一个新口味更好的理由。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我怕说预算，大家以为又要省吃的。"
+        },
+        {
+          "speaker": "sui",
+          "text": "那你就别只换。两种一起比一回，多少人愿意，多少人不愿意，听完再定。"
+        },
+        {
+          "speaker": "player",
+          "text": "我今天正好煮了小颗粒的饭。你们各尝一点，不过这碗不是采购的证明。"
+        },
+        {
+          "speaker": "bo",
+          "text": "为什么？"
+        },
+        {
+          "speaker": "player",
+          "text": "因为我还放了南瓜。到你们锅里不放，不能回来说饭和今天不一样。"
+        },
+        {
+          "speaker": "tie",
+          "text": "你们现在每句话都先挡我一条路。"
+        },
+        {
+          "speaker": "sui",
+          "text": "不是挡路，是把我们各自负责的地方说清。米我负责，锅我不能负责。"
+        },
+        {
+          "speaker": "bo",
+          "text": "好吃。我能吃。但我不是全合作社的嘴，这句也得记上。"
+        },
+        {
+          "speaker": "tie",
+          "text": "不用每句话都给我加一条备注。我有纸，我会记。"
+        },
+        {
+          "speaker": "stage",
+          "text": "铁桃真的拿出纸，写了两个价钱，没有先写结论。穗婶把样品留在桌边，自己慢慢喝茶。"
+        },
+        {
+          "speaker": "sui",
+          "text": "下回不用一进门就说我这里贵。先问哪种米，不同的东西不能只比两个数。"
+        },
+        {
+          "speaker": "tie",
+          "text": "行。下回我先问。"
+        },
+        {
+          "speaker": "bo",
+          "text": "今天这袋你还没决定呢。"
+        },
+        {
+          "speaker": "tie",
+          "text": "我知道。我今天终于可以没决定就先吃完饭。"
+        }
+      ]
+    },
+    {
+      "id": "interlude_rest_day",
+      "title": "宴会后的空椅子",
+      "kind": "ensemble",
+      "chapter_min": 12,
+      "season": "any",
+      "location": "小镇树荫下",
+      "participants": [
+        "xia",
+        "qiu",
+        "qiao"
+      ],
+      "requires": [
+        "main_12_after"
+      ],
+      "sets": [
+        "interlude_rest_day"
+      ],
+      "lines": [
+        {
+          "speaker": "xia",
+          "text": "你别动，刚才那个角度好。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "我只是坐下吃块饼，不是答应你画了。"
+        },
+        {
+          "speaker": "xia",
+          "text": "抱歉。我看见椅背的影子，就顺口说了。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你可以画椅子。我的脸今天不想工作。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "椅子也没答应。它昨天才被搬回来，腿上还有划痕。"
+        },
+        {
+          "speaker": "xia",
+          "text": "那我画划痕，总行吧？"
+        },
+        {
+          "speaker": "qiao",
+          "text": "行，只要你不说是我做旧的。我做的时候它是新的。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你们为什么总想给东西编一个更好听的来历？新椅子搬了一夜，就有旧痕，也没什么不好看。"
+        },
+        {
+          "speaker": "xia",
+          "text": "因为不编一点来历，我有时不知道自己该画哪儿。风景倒是不用问我，看着山就能画。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "人需要问。问了以后还有可能不答应，比山麻烦。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "山也麻烦。木头从山上下来，一路都是价钱。"
+        },
+        {
+          "speaker": "stage",
+          "text": "夏满把画板放到膝上，先画了椅子最普通的一条横档。秋水掰下半块饼，放在干净纸上。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "吃不吃？"
+        },
+        {
+          "speaker": "xia",
+          "text": "吃。我今天还没吃早饭。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "都这个时候了。陶陶的摊在那边，你从那儿走过来的。"
+        },
+        {
+          "speaker": "xia",
+          "text": "我看见门口好几个人，以为已经卖完了。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "你看，这也是没问就先想了一段。"
+        },
+        {
+          "speaker": "xia",
+          "text": "好，这一句你可以赢。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "我没有比赛。你可以只说我说得对，不用把它变成谁赢。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "你们两个人说话，我坐着都觉得要被评分。"
+        },
+        {
+          "speaker": "xia",
+          "text": "那我们换一个。我这张画先不画人，画你做的椅子，卖出去的话署你的名字？"
+        },
+        {
+          "speaker": "qiao",
+          "text": "我做椅子的钱已经收了，画是你画的，不必把我硬塞进去。想写就写是谁做的，别弄成我也会画。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "我今天只负责吃饼，也不用署名。"
+        },
+        {
+          "speaker": "stage",
+          "text": "夏满在纸角写了一行很小的日期。乔叔拎起工具袋，走出几步又回头。"
+        },
+        {
+          "speaker": "qiao",
+          "text": "靠右边那张没干透，别把纸放上面。那个不是来历，是我刚刷的清漆。"
+        },
+        {
+          "speaker": "xia",
+          "text": "记住了。饼纸我放自己膝上。"
+        },
+        {
+          "speaker": "qiu",
+          "text": "画纸也是。别画完又来问我的袖子上为什么多了一块蓝。"
+        }
+      ]
+    }
+  ]
+}

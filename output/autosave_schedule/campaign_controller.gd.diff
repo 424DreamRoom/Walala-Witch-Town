@@ -1,0 +1,32 @@
+--- Scenes/Campaign/campaign_controller.gd (before)
++++ Scenes/Campaign/campaign_controller.gd
+@@ -81,6 +81,7 @@
+ 			actor.face(loop.lane.player.position - actor.position)
+ 			actor.pose(0.0, false)
+ 	var dialogue_lines := C.talk(loop.state,id)
++	loop._autosave()
+ 	var choices := [
+ 		{"text":"赠礼", "action":func(): C.gift(loop.state,id); loop.hud.close_modal(); loop._show_feedback()},
+ 		{"text":"继续", "action":loop.hud.close_modal}
+@@ -281,6 +282,7 @@
+ 		var box := row(caption,"res://Art/Campaign/portraits/"+id+"_portrait.png")
+ 		box.name = "SideQuest_"+id
+ 		action(box,"完成",complete_side.bind(id),C.side_ready(loop.state,id) and loop.location=="town")
++		action(box,"暂缓",mutate.bind(func(): C.defer_side(loop.state,id); loop._autosave()))
+ 	if q.is_empty() and loop.state.campaign.side_active.is_empty(): row(text("这里还没有手记。"))
+ 	if not C.festival(loop.state).is_empty():
+ 		var box := row(text("今日庆典")+" · "+text(C.festival(loop.state)))
+@@ -387,12 +389,7 @@
+ 
+ func _complete_naming(player_name: String) -> void:
+ 	if not is_instance_valid(naming) or not C.choose_player_name(loop.state, player_name): return
+-	if preload("res://Scenes/Save/save_store.gd").active_slot > 0:
+-		var result: Dictionary = loop.save_progress()
+-		if not result.ok:
+-			loop.state.campaign.player_name = ""
+-			naming.show_save_error(result.get("code", "invalid"))
+-			return
++	# Naming follows the normal six-hour / manual / exit save schedule.
+ 	loop.audio.play_event("ui_confirm")
+ 	naming.hide()
+ 	naming.queue_free()

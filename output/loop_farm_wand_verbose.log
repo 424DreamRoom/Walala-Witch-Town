@@ -1,0 +1,632 @@
+WorkerThreadPool: 16 threads, 4 max low-priority.
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+Loading resource: res://Art/UI/FramewrightLite/themes/walala_theme.tres remapped: res://Art/UI/FramewrightLite/themes/walala_theme.tres
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png
+Loading resource: res://.godot/imported/button_normal.png-531ec4017533c7c0cba08cf4fc3573e1.ctex remapped: res://.godot/imported/button_normal.png-531ec4017533c7c0cba08cf4fc3573e1.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_normal.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png
+Loading resource: res://.godot/imported/button_hover.png-9eeeacf584e2ed9e01406d892171648f.ctex remapped: res://.godot/imported/button_hover.png-9eeeacf584e2ed9e01406d892171648f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png
+Loading resource: res://.godot/imported/button_pressed.png-23c8735604398720bc6b17cc6333eb0e.ctex remapped: res://.godot/imported/button_pressed.png-23c8735604398720bc6b17cc6333eb0e.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_pressed.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png
+Loading resource: res://.godot/imported/button_disabled.png-19fb1c8d9aa1122d51df357ae9cd923b.ctex remapped: res://.godot/imported/button_disabled.png-19fb1c8d9aa1122d51df357ae9cd923b.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png
+Loading resource: res://.godot/imported/focus_ring.png-72a35a5666634a146b75ebbc6479300f.ctex remapped: res://.godot/imported/focus_ring.png-72a35a5666634a146b75ebbc6479300f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/focus_ring.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png
+Loading resource: res://.godot/imported/dropdown_arrow.png-21f6dd415067572ec51da0f30ccb58cc.ctex remapped: res://.godot/imported/dropdown_arrow.png-21f6dd415067572ec51da0f30ccb58cc.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/dropdown_arrow.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png
+Loading resource: res://.godot/imported/checkbox_on.png-0c1738fa3dbcfa5e6bea97696113fdd2.ctex remapped: res://.godot/imported/checkbox_on.png-0c1738fa3dbcfa5e6bea97696113fdd2.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png
+Loading resource: res://.godot/imported/checkbox_off.png-2ca229aad6bd2b3cb2c03bcad10b07d5.ctex remapped: res://.godot/imported/checkbox_off.png-2ca229aad6bd2b3cb2c03bcad10b07d5.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png
+Loading resource: res://.godot/imported/checkbox_on_disabled.png-c1abe627d116a725c150f5a7dc7e7d67.ctex remapped: res://.godot/imported/checkbox_on_disabled.png-c1abe627d116a725c150f5a7dc7e7d67.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_on_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png
+Loading resource: res://.godot/imported/checkbox_off_disabled.png-48297a030f8b5db78e1425eb3c656568.ctex remapped: res://.godot/imported/checkbox_off_disabled.png-48297a030f8b5db78e1425eb3c656568.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/checkbox_off_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png
+Loading resource: res://.godot/imported/radio_on.png-92d4a2fd8c443eec9917ea6b80f33f59.ctex remapped: res://.godot/imported/radio_on.png-92d4a2fd8c443eec9917ea6b80f33f59.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png
+Loading resource: res://.godot/imported/radio_off.png-1c1679eba5a20624c3c822acc603ebe3.ctex remapped: res://.godot/imported/radio_off.png-1c1679eba5a20624c3c822acc603ebe3.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png
+Loading resource: res://.godot/imported/radio_on_disabled.png-e4de94e6bd49c478efd12ef009821d09.ctex remapped: res://.godot/imported/radio_on_disabled.png-e4de94e6bd49c478efd12ef009821d09.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_on_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png
+Loading resource: res://.godot/imported/radio_off_disabled.png-bd8f2b7b26c08db9f7b8f25e6a25253f.ctex remapped: res://.godot/imported/radio_off_disabled.png-bd8f2b7b26c08db9f7b8f25e6a25253f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/radio_off_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png
+Loading resource: res://.godot/imported/toggle_on.png-2c9b465fedf174693e87089110486357.ctex remapped: res://.godot/imported/toggle_on.png-2c9b465fedf174693e87089110486357.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png
+Loading resource: res://.godot/imported/toggle_off.png-be416b7cd121d6ca5394c406d9472ff4.ctex remapped: res://.godot/imported/toggle_off.png-be416b7cd121d6ca5394c406d9472ff4.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png
+Loading resource: res://.godot/imported/toggle_on_disabled.png-fa2444ceee8a734e787a6f514745541d.ctex remapped: res://.godot/imported/toggle_on_disabled.png-fa2444ceee8a734e787a6f514745541d.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_on_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png
+Loading resource: res://.godot/imported/toggle_off_disabled.png-b2e989dcd5f23bc905eb95f1d8efe83f.ctex remapped: res://.godot/imported/toggle_off_disabled.png-b2e989dcd5f23bc905eb95f1d8efe83f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/toggle_off_disabled.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png
+Loading resource: res://.godot/imported/panel_window.png-af399ca0f538986b7b3268f63cde8935.ctex remapped: res://.godot/imported/panel_window.png-af399ca0f538986b7b3268f63cde8935.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_window.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png
+Loading resource: res://.godot/imported/panel_flat.png-1fb037e906586268275461aee095081f.ctex remapped: res://.godot/imported/panel_flat.png-1fb037e906586268275461aee095081f.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_flat.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png
+Loading resource: res://.godot/imported/tooltip.png-bbc3c9de55a981eb1cd5c4f455976bab.ctex remapped: res://.godot/imported/tooltip.png-bbc3c9de55a981eb1cd5c4f455976bab.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tooltip.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png
+Loading resource: res://.godot/imported/input.png-dae268aaae64b06d556b6066c784758d.ctex remapped: res://.godot/imported/input.png-dae268aaae64b06d556b6066c784758d.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png
+Loading resource: res://.godot/imported/input_focus.png-222d0d1c88d952d8cd922004fb618409.ctex remapped: res://.godot/imported/input_focus.png-222d0d1c88d952d8cd922004fb618409.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/input_focus.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png
+Loading resource: res://.godot/imported/bar_frame.png-959b404448c9e8c1828bb0a866296163.ctex remapped: res://.godot/imported/bar_frame.png-959b404448c9e8c1828bb0a866296163.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_frame.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png
+Loading resource: res://.godot/imported/bar_fill_accent.png-d538f8e422ea70b3ff097e428483ca4c.ctex remapped: res://.godot/imported/bar_fill_accent.png-d538f8e422ea70b3ff097e428483ca4c.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/bar_fill_accent.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png
+Loading resource: res://.godot/imported/slider_track.png-2a97f6f8945dd1ad97f569aa08d54135.ctex remapped: res://.godot/imported/slider_track.png-2a97f6f8945dd1ad97f569aa08d54135.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png
+Loading resource: res://.godot/imported/slider_fill.png-6f248ab0da7d21fb8b779e24b7c19483.ctex remapped: res://.godot/imported/slider_fill.png-6f248ab0da7d21fb8b779e24b7c19483.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png
+Loading resource: res://.godot/imported/slider_knob.png-838e9d4a5c36f46b18adba4bddf8e716.ctex remapped: res://.godot/imported/slider_knob.png-838e9d4a5c36f46b18adba4bddf8e716.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png
+Loading resource: res://.godot/imported/slider_knob_hover.png-89cd8b4aee65f2689bc8c17164cac47b.ctex remapped: res://.godot/imported/slider_knob_hover.png-89cd8b4aee65f2689bc8c17164cac47b.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_knob_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png
+Loading resource: res://.godot/imported/slider_track_v.png-2dc5e3cd4824d318fd290e917c3d05a6.ctex remapped: res://.godot/imported/slider_track_v.png-2dc5e3cd4824d318fd290e917c3d05a6.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_track_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png
+Loading resource: res://.godot/imported/slider_fill_v.png-893345b6ae5c96d3c78434864f6f5e53.ctex remapped: res://.godot/imported/slider_fill_v.png-893345b6ae5c96d3c78434864f6f5e53.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/slider_fill_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png
+Loading resource: res://.godot/imported/scroll_track_v.png-a4e7f71638ff3618a8f9883798a32b88.ctex remapped: res://.godot/imported/scroll_track_v.png-a4e7f71638ff3618a8f9883798a32b88.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png
+Loading resource: res://.godot/imported/scroll_thumb_v.png-994e06cbc198aee2978bbf221fb70fb2.ctex remapped: res://.godot/imported/scroll_thumb_v.png-994e06cbc198aee2978bbf221fb70fb2.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png
+Loading resource: res://.godot/imported/scroll_thumb_v_hover.png-0506268d1278ac347a880ff0668183cb.ctex remapped: res://.godot/imported/scroll_thumb_v_hover.png-0506268d1278ac347a880ff0668183cb.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_v_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png
+Loading resource: res://.godot/imported/scroll_track_h.png-effeb75b1b6736cf0e5678767e60a015.ctex remapped: res://.godot/imported/scroll_track_h.png-effeb75b1b6736cf0e5678767e60a015.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_track_h.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png
+Loading resource: res://.godot/imported/scroll_thumb_h.png-e777fc5a3290aeee905f1ad1b9a7575c.ctex remapped: res://.godot/imported/scroll_thumb_h.png-e777fc5a3290aeee905f1ad1b9a7575c.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png
+Loading resource: res://.godot/imported/scroll_thumb_h_hover.png-64e8daff75e9192012955ca27a570859.ctex remapped: res://.godot/imported/scroll_thumb_h_hover.png-64e8daff75e9192012955ca27a570859.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/scroll_thumb_h_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png
+Loading resource: res://.godot/imported/tab_active.png-7307d7f120330c5270e8deee9d3c70af.ctex remapped: res://.godot/imported/tab_active.png-7307d7f120330c5270e8deee9d3c70af.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_active.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png
+Loading resource: res://.godot/imported/tab_inactive.png-f7b3f44c48d5a17a2c2758716ea622d4.ctex remapped: res://.godot/imported/tab_inactive.png-f7b3f44c48d5a17a2c2758716ea622d4.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_inactive.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png
+Loading resource: res://.godot/imported/tab_hover.png-853bcc2332c5acd14e11cf9f2d311bf9.ctex remapped: res://.godot/imported/tab_hover.png-853bcc2332c5acd14e11cf9f2d311bf9.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/tab_hover.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png
+Loading resource: res://.godot/imported/divider.png-7e19a7c35bb2f0f3cf7b957edf62ea6c.ctex remapped: res://.godot/imported/divider.png-7e19a7c35bb2f0f3cf7b957edf62ea6c.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png
+Loading resource: res://.godot/imported/divider_v.png-d384bf0c1049426129aeb2966cb02e29.ctex remapped: res://.godot/imported/divider_v.png-d384bf0c1049426129aeb2966cb02e29.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/divider_v.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png
+Loading resource: res://.godot/imported/panel_inset.png-d5756f68aba328ad243b0bcad4ba43ad.ctex remapped: res://.godot/imported/panel_inset.png-d5756f68aba328ad243b0bcad4ba43ad.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/panel_inset.png' at thread -1
+Loading resource: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png remapped: res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png
+Loading resource: res://.godot/imported/button_focus.png-5624c22dc0fb9f4e4c840d836de7c019.ctex remapped: res://.godot/imported/button_focus.png-5624c22dc0fb9f4e4c840d836de7c019.ctex
+Completed load for: 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png' remapped 'res://Art/UI/FramewrightLite/textures/oakhold/1x/button_focus.png' at thread -1
+Loading resource: res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf remapped: res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf
+Loading resource: res://.godot/imported/FusionPixel12Proportional.ttf-9e212c1e04cd73458eb580bfa386d6da.fontdata remapped: res://.godot/imported/FusionPixel12Proportional.ttf-9e212c1e04cd73458eb580bfa386d6da.fontdata
+Completed load for: 'res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf' remapped 'res://Art/Fonts/FusionPixel/FusionPixel12Proportional.ttf' at thread -1
+Completed load for: 'res://Art/UI/FramewrightLite/themes/walala_theme.tres' remapped 'res://Art/UI/FramewrightLite/themes/walala_theme.tres' at thread -1
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: res://output/verification_profiles/farm_27100/isolated.gd remapped: res://output/verification_profiles/farm_27100/isolated.gd
+Loading resource: res://Scenes/UI/brightness.gdshader remapped: res://Scenes/UI/brightness.gdshader
+Completed load for: 'res://Scenes/UI/brightness.gdshader' remapped 'res://Scenes/UI/brightness.gdshader' at thread -1
+Completed load for: 'res://output/verification_profiles/farm_27100/isolated.gd' remapped 'res://output/verification_profiles/farm_27100/isolated.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://Localization/localization.gd remapped: res://Localization/localization.gd
+Completed load for: 'res://Localization/localization.gd' remapped 'res://Localization/localization.gd' at thread -1
+Loading resource: res://Scenes/Input/input_bindings.gd remapped: res://Scenes/Input/input_bindings.gd
+Completed load for: 'res://Scenes/Input/input_bindings.gd' remapped 'res://Scenes/Input/input_bindings.gd' at thread -1
+Loaded system CA certificates
+FARM starter seeds and full water: PASS
+FARM wand required without modifying soil: PASS
+FARM till soil: PASS
+FARM plant consumes one seed: PASS
+FARM dry crop survives without growing: PASS
+FARM watering can required: PASS
+FARM empty can leaves crop dry: PASS
+FARM refill capacity: PASS
+FARM water consumes one unit: PASS
+FARM repeated water cannot drain can: PASS
+FARM JSON restores watered crop and supplies: PASS
+FARM watered growth day 1: PASS
+FARM watered growth day 2: PASS
+FARM watered growth day 3: PASS
+FARM full backpack preserves mature crop: PASS
+FARM harvest shares herb inventory and returns seeds: PASS
+FARM harvest preserves tilled soil: PASS
+FARM empty seed bag does not plant: PASS
+FARM sell crop to shared wallet: PASS
+FARM buy four seeds: PASS
+FARM insufficient gold cannot buy seeds: PASS
+FARM replant harvested plot: PASS
+FARM night prevents farming and seed purchases: PASS
+FARM out of bounds tile rejected: PASS
+FARM existing save receives starter farm: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+FARM malformed farming data rejected: PASS
+Loading resource: res://Scenes/LanternLane/lantern_lane.tscn remapped: res://Scenes/LanternLane/lantern_lane.tscn
+Loading resource: res://Scenes/LanternLane/lantern_lane.gd remapped: res://Scenes/LanternLane/lantern_lane.gd
+Loading resource: res://Scenes/LanternLane/Effect/Weather/weather.tscn remapped: res://Scenes/LanternLane/Effect/Weather/weather.tscn
+Loading resource: res://Scenes/LanternLane/Effect/Weather/weather.gd remapped: res://Scenes/LanternLane/Effect/Weather/weather.gd
+Completed load for: 'res://Scenes/LanternLane/Effect/Weather/weather.gd' remapped 'res://Scenes/LanternLane/Effect/Weather/weather.gd' at thread -1
+Completed load for: 'res://Scenes/LanternLane/Effect/Weather/weather.tscn' remapped 'res://Scenes/LanternLane/Effect/Weather/weather.tscn' at thread -1
+Loading resource: res://Scenes/WitchHome/witch_home.tscn remapped: res://Scenes/WitchHome/witch_home.tscn
+Loading resource: res://Scenes/WitchHome/witch_home.gd remapped: res://Scenes/WitchHome/witch_home.gd
+Loading resource: res://Art/Environment/Hearthwood/home_ground.png remapped: res://Art/Environment/Hearthwood/home_ground.png
+Loading resource: res://.godot/imported/home_ground.png-66fbc9cf965b6d7c646f7d2c20deeec5.ctex remapped: res://.godot/imported/home_ground.png-66fbc9cf965b6d7c646f7d2c20deeec5.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_ground.png' remapped 'res://Art/Environment/Hearthwood/home_ground.png' at thread -1
+Completed load for: 'res://Scenes/WitchHome/witch_home.gd' remapped 'res://Scenes/WitchHome/witch_home.gd' at thread -1
+Completed load for: 'res://Scenes/WitchHome/witch_home.tscn' remapped 'res://Scenes/WitchHome/witch_home.tscn' at thread -1
+Loading resource: res://Scenes/Farm/farm.tscn remapped: res://Scenes/Farm/farm.tscn
+Loading resource: res://Scenes/Farm/farm.gd remapped: res://Scenes/Farm/farm.gd
+Completed load for: 'res://Scenes/Farm/farm.gd' remapped 'res://Scenes/Farm/farm.gd' at thread -1
+Completed load for: 'res://Scenes/Farm/farm.tscn' remapped 'res://Scenes/Farm/farm.tscn' at thread -1
+Loading resource: res://Scenes/Dock/dock.tscn remapped: res://Scenes/Dock/dock.tscn
+Loading resource: res://Scenes/Dock/dock.gd remapped: res://Scenes/Dock/dock.gd
+Completed load for: 'res://Scenes/Dock/dock.gd' remapped 'res://Scenes/Dock/dock.gd' at thread -1
+Completed load for: 'res://Scenes/Dock/dock.tscn' remapped 'res://Scenes/Dock/dock.tscn' at thread -1
+Loading resource: res://Scenes/Businesses/blacksmith.tscn remapped: res://Scenes/Businesses/blacksmith.tscn
+Loading resource: res://Scenes/Businesses/business_interior.gd remapped: res://Scenes/Businesses/business_interior.gd
+Completed load for: 'res://Scenes/Businesses/business_interior.gd' remapped 'res://Scenes/Businesses/business_interior.gd' at thread -1
+Completed load for: 'res://Scenes/Businesses/blacksmith.tscn' remapped 'res://Scenes/Businesses/blacksmith.tscn' at thread -1
+Loading resource: res://Scenes/Businesses/store.tscn remapped: res://Scenes/Businesses/store.tscn
+Completed load for: 'res://Scenes/Businesses/store.tscn' remapped 'res://Scenes/Businesses/store.tscn' at thread -1
+Loading resource: res://Sounds/Walala/Music/title.ogg remapped: res://Sounds/Walala/Music/title.ogg
+Loading resource: res://.godot/imported/title.ogg-915989a44ec07a3a1cfa8f4b3fd531f4.oggvorbisstr remapped: res://.godot/imported/title.ogg-915989a44ec07a3a1cfa8f4b3fd531f4.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Music/title.ogg' remapped 'res://Sounds/Walala/Music/title.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Music/day.ogg remapped: res://Sounds/Walala/Music/day.ogg
+Loading resource: res://.godot/imported/day.ogg-ecf70a08ec91b73d4114bc97a4b60e7c.oggvorbisstr remapped: res://.godot/imported/day.ogg-ecf70a08ec91b73d4114bc97a4b60e7c.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Music/day.ogg' remapped 'res://Sounds/Walala/Music/day.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Music/night.ogg remapped: res://Sounds/Walala/Music/night.ogg
+Loading resource: res://.godot/imported/night.ogg-c2f68f921e3772b87d466e17085f2f74.oggvorbisstr remapped: res://.godot/imported/night.ogg-c2f68f921e3772b87d466e17085f2f74.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Music/night.ogg' remapped 'res://Sounds/Walala/Music/night.ogg' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/hover.wav remapped: res://Sounds/Walala/UI/Organic/hover.wav
+Loading resource: res://.godot/imported/hover.wav-887b13da25815d2539f35a1e95b77391.sample remapped: res://.godot/imported/hover.wav-887b13da25815d2539f35a1e95b77391.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/hover.wav' remapped 'res://Sounds/Walala/UI/Organic/hover.wav' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/click.wav remapped: res://Sounds/Walala/UI/Organic/click.wav
+Loading resource: res://.godot/imported/click.wav-8c7d11274d2063086768ff29b0d08f70.sample remapped: res://.godot/imported/click.wav-8c7d11274d2063086768ff29b0d08f70.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/click.wav' remapped 'res://Sounds/Walala/UI/Organic/click.wav' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/open.wav remapped: res://Sounds/Walala/UI/Organic/open.wav
+Loading resource: res://.godot/imported/open.wav-548a015403f965d0afece0f1f18c452f.sample remapped: res://.godot/imported/open.wav-548a015403f965d0afece0f1f18c452f.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/open.wav' remapped 'res://Sounds/Walala/UI/Organic/open.wav' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/close.wav remapped: res://Sounds/Walala/UI/Organic/close.wav
+Loading resource: res://.godot/imported/close.wav-986705b597dafcf36cc97220dae845cc.sample remapped: res://.godot/imported/close.wav-986705b597dafcf36cc97220dae845cc.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/close.wav' remapped 'res://Sounds/Walala/UI/Organic/close.wav' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/confirm.ogg remapped: res://Sounds/Walala/UI/Organic/confirm.ogg
+Loading resource: res://.godot/imported/confirm.ogg-63cba53f1c035682144b94bb8c34351f.oggvorbisstr remapped: res://.godot/imported/confirm.ogg-63cba53f1c035682144b94bb8c34351f.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/UI/Organic/confirm.ogg' remapped 'res://Sounds/Walala/UI/Organic/confirm.ogg' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/error.ogg remapped: res://Sounds/Walala/UI/Organic/error.ogg
+Loading resource: res://.godot/imported/error.ogg-6d30eb196b268c7a4acd828c0f172053.oggvorbisstr remapped: res://.godot/imported/error.ogg-6d30eb196b268c7a4acd828c0f172053.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/UI/Organic/error.ogg' remapped 'res://Sounds/Walala/UI/Organic/error.ogg' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/toggle.wav remapped: res://Sounds/Walala/UI/Organic/toggle.wav
+Loading resource: res://.godot/imported/toggle.wav-4bd031bd6a438ceca58eac579cc6c8d3.sample remapped: res://.godot/imported/toggle.wav-4bd031bd6a438ceca58eac579cc6c8d3.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/toggle.wav' remapped 'res://Sounds/Walala/UI/Organic/toggle.wav' at thread -1
+Loading resource: res://Sounds/Walala/UI/Organic/slider.wav remapped: res://Sounds/Walala/UI/Organic/slider.wav
+Loading resource: res://.godot/imported/slider.wav-ed1287a875f0c932009e20261ef77d91.sample remapped: res://.godot/imported/slider.wav-ed1287a875f0c932009e20261ef77d91.sample
+Completed load for: 'res://Sounds/Walala/UI/Organic/slider.wav' remapped 'res://Sounds/Walala/UI/Organic/slider.wav' at thread -1
+Loading resource: res://Sounds/Walala/UI/page.ogg remapped: res://Sounds/Walala/UI/page.ogg
+Loading resource: res://.godot/imported/page.ogg-b04c0a18ccd43dd0961f955f5ad96182.oggvorbisstr remapped: res://.godot/imported/page.ogg-b04c0a18ccd43dd0961f955f5ad96182.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/UI/page.ogg' remapped 'res://Sounds/Walala/UI/page.ogg' at thread -1
+Loading resource: res://Sounds/Walala/UI/book_open.ogg remapped: res://Sounds/Walala/UI/book_open.ogg
+Loading resource: res://.godot/imported/book_open.ogg-528bdf49aae0a637552fe4c85b997b97.oggvorbisstr remapped: res://.godot/imported/book_open.ogg-528bdf49aae0a637552fe4c85b997b97.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/UI/book_open.ogg' remapped 'res://Sounds/Walala/UI/book_open.ogg' at thread -1
+Loading resource: res://Sounds/Walala/UI/book_close.ogg remapped: res://Sounds/Walala/UI/book_close.ogg
+Loading resource: res://.godot/imported/book_close.ogg-d1fd9ae939904d7553647b531825ff3b.oggvorbisstr remapped: res://.godot/imported/book_close.ogg-d1fd9ae939904d7553647b531825ff3b.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/UI/book_close.ogg' remapped 'res://Sounds/Walala/UI/book_close.ogg' at thread -1
+Loading resource: res://Art/Icon/Resources16_Original/witch_coin.png remapped: res://Art/Icon/Resources16_Original/witch_coin.png
+Loading resource: res://.godot/imported/witch_coin.png-ab88e19e425b3b5791cfed111c42ef8a.ctex remapped: res://.godot/imported/witch_coin.png-ab88e19e425b3b5791cfed111c42ef8a.ctex
+Completed load for: 'res://Art/Icon/Resources16_Original/witch_coin.png' remapped 'res://Art/Icon/Resources16_Original/witch_coin.png' at thread -1
+Loading resource: res://Art/Icon/Resources16_Original/wood.png remapped: res://Art/Icon/Resources16_Original/wood.png
+Loading resource: res://.godot/imported/wood.png-e6acb16c2ea2e61144e26ca77da4d94c.ctex remapped: res://.godot/imported/wood.png-e6acb16c2ea2e61144e26ca77da4d94c.ctex
+Completed load for: 'res://Art/Icon/Resources16_Original/wood.png' remapped 'res://Art/Icon/Resources16_Original/wood.png' at thread -1
+Loading resource: res://Art/Character/Storybook/WalalaWitch/walala-witch.png remapped: res://Art/Character/Storybook/WalalaWitch/walala-witch.png
+Loading resource: res://.godot/imported/walala-witch.png-2e1dd491253375c4b9a419c1feeab433.ctex remapped: res://.godot/imported/walala-witch.png-2e1dd491253375c4b9a419c1feeab433.ctex
+Completed load for: 'res://Art/Character/Storybook/WalalaWitch/walala-witch.png' remapped 'res://Art/Character/Storybook/WalalaWitch/walala-witch.png' at thread -1
+Completed load for: 'res://Scenes/LanternLane/lantern_lane.gd' remapped 'res://Scenes/LanternLane/lantern_lane.gd' at thread -1
+Completed load for: 'res://Scenes/LanternLane/lantern_lane.tscn' remapped 'res://Scenes/LanternLane/lantern_lane.tscn' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/town_ground.png remapped: res://Art/Environment/Hearthwood/town_ground.png
+Loading resource: res://.godot/imported/town_ground.png-90ee6528842998b811d2834d13ab6ffb.ctex remapped: res://.godot/imported/town_ground.png-90ee6528842998b811d2834d13ab6ffb.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/town_ground.png' remapped 'res://Art/Environment/Hearthwood/town_ground.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/blacksmith_exterior.png remapped: res://Art/Environment/Hearthwood/blacksmith_exterior.png
+Loading resource: res://.godot/imported/blacksmith_exterior.png-5a6a67e1b043bb9b60650b26bf4c2fc5.ctex remapped: res://.godot/imported/blacksmith_exterior.png-5a6a67e1b043bb9b60650b26bf4c2fc5.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/blacksmith_exterior.png' remapped 'res://Art/Environment/Hearthwood/blacksmith_exterior.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/store_exterior.png remapped: res://Art/Environment/Hearthwood/store_exterior.png
+Loading resource: res://.godot/imported/store_exterior.png-404d48a8abb58ce8cf73cab0203d0e35.ctex remapped: res://.godot/imported/store_exterior.png-404d48a8abb58ce8cf73cab0203d0e35.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/store_exterior.png' remapped 'res://Art/Environment/Hearthwood/store_exterior.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_3.png remapped: res://Art/Environment/Hearthwood/shop_3.png
+Loading resource: res://.godot/imported/shop_3.png-d3135731e753f33ebcfb83ac7ad31691.ctex remapped: res://.godot/imported/shop_3.png-d3135731e753f33ebcfb83ac7ad31691.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_3.png' remapped 'res://Art/Environment/Hearthwood/shop_3.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_4.png remapped: res://Art/Environment/Hearthwood/shop_4.png
+Loading resource: res://.godot/imported/shop_4.png-d54c9be0aeb9948b5e077d5d942d05ed.ctex remapped: res://.godot/imported/shop_4.png-d54c9be0aeb9948b5e077d5d942d05ed.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_4.png' remapped 'res://Art/Environment/Hearthwood/shop_4.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_5.png remapped: res://Art/Environment/Hearthwood/shop_5.png
+Loading resource: res://.godot/imported/shop_5.png-a958acc6881dcfada5b255b7470219b4.ctex remapped: res://.godot/imported/shop_5.png-a958acc6881dcfada5b255b7470219b4.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_5.png' remapped 'res://Art/Environment/Hearthwood/shop_5.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_6.png remapped: res://Art/Environment/Hearthwood/shop_6.png
+Loading resource: res://.godot/imported/shop_6.png-f1d355e59502bddff86e3d47e9d432d4.ctex remapped: res://.godot/imported/shop_6.png-f1d355e59502bddff86e3d47e9d432d4.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_6.png' remapped 'res://Art/Environment/Hearthwood/shop_6.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_7.png remapped: res://Art/Environment/Hearthwood/shop_7.png
+Loading resource: res://.godot/imported/shop_7.png-0187ac54fa7a042f47c6145f375aaaa1.ctex remapped: res://.godot/imported/shop_7.png-0187ac54fa7a042f47c6145f375aaaa1.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_7.png' remapped 'res://Art/Environment/Hearthwood/shop_7.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_8.png remapped: res://Art/Environment/Hearthwood/shop_8.png
+Loading resource: res://.godot/imported/shop_8.png-9aa2b78a6ce92b45d573a582a45247ec.ctex remapped: res://.godot/imported/shop_8.png-9aa2b78a6ce92b45d573a582a45247ec.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_8.png' remapped 'res://Art/Environment/Hearthwood/shop_8.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_mailbox.png remapped: res://Art/Environment/Hearthwood/outdoor_mailbox.png
+Loading resource: res://.godot/imported/outdoor_mailbox.png-bf85fc9c609222abfcc9083b4a70adcd.ctex remapped: res://.godot/imported/outdoor_mailbox.png-bf85fc9c609222abfcc9083b4a70adcd.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_mailbox.png' remapped 'res://Art/Environment/Hearthwood/outdoor_mailbox.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_flowerbed.png remapped: res://Art/Environment/Hearthwood/outdoor_flowerbed.png
+Loading resource: res://.godot/imported/outdoor_flowerbed.png-4c689e5187b64b44daa033c645f392d9.ctex remapped: res://.godot/imported/outdoor_flowerbed.png-4c689e5187b64b44daa033c645f392d9.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_flowerbed.png' remapped 'res://Art/Environment/Hearthwood/outdoor_flowerbed.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_bush.png remapped: res://Art/Environment/Hearthwood/outdoor_bush.png
+Loading resource: res://.godot/imported/outdoor_bush.png-72e24c9d6f4a82a1b21fd98e80cfbd62.ctex remapped: res://.godot/imported/outdoor_bush.png-72e24c9d6f4a82a1b21fd98e80cfbd62.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_bush.png' remapped 'res://Art/Environment/Hearthwood/outdoor_bush.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_fence.png remapped: res://Art/Environment/Hearthwood/outdoor_fence.png
+Loading resource: res://.godot/imported/outdoor_fence.png-03468f2c30d688fba16e8cbc242e3fe0.ctex remapped: res://.godot/imported/outdoor_fence.png-03468f2c30d688fba16e8cbc242e3fe0.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_fence.png' remapped 'res://Art/Environment/Hearthwood/outdoor_fence.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_bench.png remapped: res://Art/Environment/Hearthwood/outdoor_bench.png
+Loading resource: res://.godot/imported/outdoor_bench.png-36714797aeeb89b953bd89126dc1b40d.ctex remapped: res://.godot/imported/outdoor_bench.png-36714797aeeb89b953bd89126dc1b40d.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_bench.png' remapped 'res://Art/Environment/Hearthwood/outdoor_bench.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_herbs.png remapped: res://Art/Environment/Hearthwood/outdoor_herbs.png
+Loading resource: res://.godot/imported/outdoor_herbs.png-ae209b2e0fb37ef7817a6d25c626969f.ctex remapped: res://.godot/imported/outdoor_herbs.png-ae209b2e0fb37ef7817a6d25c626969f.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_herbs.png' remapped 'res://Art/Environment/Hearthwood/outdoor_herbs.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_lamp.png remapped: res://Art/Environment/Hearthwood/outdoor_lamp.png
+Loading resource: res://.godot/imported/outdoor_lamp.png-dbdfd60666439fa5be924b835defd577.ctex remapped: res://.godot/imported/outdoor_lamp.png-dbdfd60666439fa5be924b835defd577.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_lamp.png' remapped 'res://Art/Environment/Hearthwood/outdoor_lamp.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_crates.png remapped: res://Art/Environment/Hearthwood/outdoor_crates.png
+Loading resource: res://.godot/imported/outdoor_crates.png-74eea791f778effc09401a62e1d43403.ctex remapped: res://.godot/imported/outdoor_crates.png-74eea791f778effc09401a62e1d43403.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_crates.png' remapped 'res://Art/Environment/Hearthwood/outdoor_crates.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_barrel.png remapped: res://Art/Environment/Hearthwood/outdoor_barrel.png
+Loading resource: res://.godot/imported/outdoor_barrel.png-35130b3c632a2c142eceab6acd2247b5.ctex remapped: res://.godot/imported/outdoor_barrel.png-35130b3c632a2c142eceab6acd2247b5.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_barrel.png' remapped 'res://Art/Environment/Hearthwood/outdoor_barrel.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_pond.png remapped: res://Art/Environment/Hearthwood/outdoor_pond.png
+Loading resource: res://.godot/imported/outdoor_pond.png-63fdd649cd064a13a792980b0fb49bef.ctex remapped: res://.godot/imported/outdoor_pond.png-63fdd649cd064a13a792980b0fb49bef.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_pond.png' remapped 'res://Art/Environment/Hearthwood/outdoor_pond.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_birch.png remapped: res://Art/Environment/Hearthwood/outdoor_birch.png
+Loading resource: res://.godot/imported/outdoor_birch.png-2fc73420f637c3f41f53a476b6580290.ctex remapped: res://.godot/imported/outdoor_birch.png-2fc73420f637c3f41f53a476b6580290.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_birch.png' remapped 'res://Art/Environment/Hearthwood/outdoor_birch.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_pine.png remapped: res://Art/Environment/Hearthwood/outdoor_pine.png
+Loading resource: res://.godot/imported/outdoor_pine.png-5c39f32637150e473e26082aba6a2bcf.ctex remapped: res://.godot/imported/outdoor_pine.png-5c39f32637150e473e26082aba6a2bcf.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_pine.png' remapped 'res://Art/Environment/Hearthwood/outdoor_pine.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/town_fountain.png remapped: res://Art/Environment/Hearthwood/town_fountain.png
+Loading resource: res://.godot/imported/town_fountain.png-a6f405dfa5a521b3bca18ef7083599af.ctex remapped: res://.godot/imported/town_fountain.png-a6f405dfa5a521b3bca18ef7083599af.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/town_fountain.png' remapped 'res://Art/Environment/Hearthwood/town_fountain.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.png
+Loading resource: res://.godot/imported/outdoor_flowerbed.png-abce1cf587875d2fa4d0daf16729a4bd.ctex remapped: res://.godot/imported/outdoor_flowerbed.png-abce1cf587875d2fa4d0daf16729a4bd.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_bush.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_bush.png
+Loading resource: res://.godot/imported/outdoor_bush.png-3ed254db68d49ded6707c0e2234716a0.ctex remapped: res://.godot/imported/outdoor_bush.png-3ed254db68d49ded6707c0e2234716a0.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_bush.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_bush.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.png
+Loading resource: res://.godot/imported/outdoor_herbs.png-b1dd58d24801a0fa4641bfa15db6be1f.ctex remapped: res://.godot/imported/outdoor_herbs.png-b1dd58d24801a0fa4641bfa15db6be1f.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.png
+Loading resource: res://.godot/imported/outdoor_lamp.png-bc3d75c75cd4a577b784466740fad3cc.ctex remapped: res://.godot/imported/outdoor_lamp.png-bc3d75c75cd4a577b784466740fad3cc.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_pond.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_pond.png
+Loading resource: res://.godot/imported/outdoor_pond.png-05c900246b76d00c4ae87e030315e5fa.ctex remapped: res://.godot/imported/outdoor_pond.png-05c900246b76d00c4ae87e030315e5fa.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_pond.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_pond.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_birch.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_birch.png
+Loading resource: res://.godot/imported/outdoor_birch.png-5fd013df33e1996cf78cf74bd6c48d02.ctex remapped: res://.godot/imported/outdoor_birch.png-5fd013df33e1996cf78cf74bd6c48d02.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_birch.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_birch.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_pine.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_pine.png
+Loading resource: res://.godot/imported/outdoor_pine.png-9c80f5c58674252f308acdc4619f875e.ctex remapped: res://.godot/imported/outdoor_pine.png-9c80f5c58674252f308acdc4619f875e.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_pine.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_pine.png' at thread -1
+Loading resource: res://Sounds/Walala/gather.ogg remapped: res://Sounds/Walala/gather.ogg
+Loading resource: res://.godot/imported/gather.ogg-e8efd8db424e4c8c7b20af956b4815e1.oggvorbisstr remapped: res://.godot/imported/gather.ogg-e8efd8db424e4c8c7b20af956b4815e1.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/gather.ogg' remapped 'res://Sounds/Walala/gather.ogg' at thread -1
+Loading resource: res://Sounds/Walala/process.ogg remapped: res://Sounds/Walala/process.ogg
+Loading resource: res://.godot/imported/process.ogg-cdce16c078bce842dea95bf712db5b58.oggvorbisstr remapped: res://.godot/imported/process.ogg-cdce16c078bce842dea95bf712db5b58.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/process.ogg' remapped 'res://Sounds/Walala/process.ogg' at thread -1
+Loading resource: res://Sounds/Walala/cook.ogg remapped: res://Sounds/Walala/cook.ogg
+Loading resource: res://.godot/imported/cook.ogg-777f2ec66df8afaee352f68e249c331d.oggvorbisstr remapped: res://.godot/imported/cook.ogg-777f2ec66df8afaee352f68e249c331d.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/cook.ogg' remapped 'res://Sounds/Walala/cook.ogg' at thread -1
+Loading resource: res://Sounds/Walala/serve.ogg remapped: res://Sounds/Walala/serve.ogg
+Loading resource: res://.godot/imported/serve.ogg-cdb0a6944857662539815501c275d3c9.oggvorbisstr remapped: res://.godot/imported/serve.ogg-cdb0a6944857662539815501c275d3c9.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/serve.ogg' remapped 'res://Sounds/Walala/serve.ogg' at thread -1
+Loading resource: res://Sounds/Walala/coins.ogg remapped: res://Sounds/Walala/coins.ogg
+Loading resource: res://.godot/imported/coins.ogg-bf073a2924c555e04175e57b98003f0b.oggvorbisstr remapped: res://.godot/imported/coins.ogg-bf073a2924c555e04175e57b98003f0b.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/coins.ogg' remapped 'res://Sounds/Walala/coins.ogg' at thread -1
+Loading resource: res://Sounds/Walala/rain.ogg remapped: res://Sounds/Walala/rain.ogg
+Loading resource: res://.godot/imported/rain.ogg-40927fa5c51fe4fe44b3a1c3cecbf7a4.oggvorbisstr remapped: res://.godot/imported/rain.ogg-40927fa5c51fe4fe44b3a1c3cecbf7a4.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/rain.ogg' remapped 'res://Sounds/Walala/rain.ogg' at thread -1
+Loading resource: res://Sounds/Walala/wind.ogg remapped: res://Sounds/Walala/wind.ogg
+Loading resource: res://.godot/imported/wind.ogg-9f3e5fc526e3b7b1f4c0f7e224d5a70e.oggvorbisstr remapped: res://.godot/imported/wind.ogg-9f3e5fc526e3b7b1f4c0f7e224d5a70e.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/wind.ogg' remapped 'res://Sounds/Walala/wind.ogg' at thread -1
+Loading resource: res://Sounds/Walala/chop.wav remapped: res://Sounds/Walala/chop.wav
+Loading resource: res://.godot/imported/chop.wav-bc522ac92600737d9cf7822867757a19.sample remapped: res://.godot/imported/chop.wav-bc522ac92600737d9cf7822867757a19.sample
+Completed load for: 'res://Sounds/Walala/chop.wav' remapped 'res://Sounds/Walala/chop.wav' at thread -1
+Loading resource: res://Sounds/Walala/mine.wav remapped: res://Sounds/Walala/mine.wav
+Loading resource: res://.godot/imported/mine.wav-c95513a7b16bd0c8ea5d128f47531f69.sample remapped: res://.godot/imported/mine.wav-c95513a7b16bd0c8ea5d128f47531f69.sample
+Completed load for: 'res://Sounds/Walala/mine.wav' remapped 'res://Sounds/Walala/mine.wav' at thread -1
+Loading resource: res://Sounds/Walala/cast.wav remapped: res://Sounds/Walala/cast.wav
+Loading resource: res://.godot/imported/cast.wav-365a07e972b7a9f8fbf9f04e95cd7cd5.sample remapped: res://.godot/imported/cast.wav-365a07e972b7a9f8fbf9f04e95cd7cd5.sample
+Completed load for: 'res://Sounds/Walala/cast.wav' remapped 'res://Sounds/Walala/cast.wav' at thread -1
+Loading resource: res://Sounds/Walala/bite.wav remapped: res://Sounds/Walala/bite.wav
+Loading resource: res://.godot/imported/bite.wav-0a56311a1a07ae1ff6505f468d77fc42.sample remapped: res://.godot/imported/bite.wav-0a56311a1a07ae1ff6505f468d77fc42.sample
+Completed load for: 'res://Sounds/Walala/bite.wav' remapped 'res://Sounds/Walala/bite.wav' at thread -1
+Loading resource: res://Sounds/Walala/catch.wav remapped: res://Sounds/Walala/catch.wav
+Loading resource: res://.godot/imported/catch.wav-8c4ab0a720815e57aa6f7f934c657aa1.sample remapped: res://.godot/imported/catch.wav-8c4ab0a720815e57aa6f7f934c657aa1.sample
+Completed load for: 'res://Sounds/Walala/catch.wav' remapped 'res://Sounds/Walala/catch.wav' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/wood_01.ogg remapped: res://Sounds/Walala/Footsteps/wood_01.ogg
+Loading resource: res://.godot/imported/wood_01.ogg-09a9b46643ffc6c3885dcb08ec25256b.oggvorbisstr remapped: res://.godot/imported/wood_01.ogg-09a9b46643ffc6c3885dcb08ec25256b.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/wood_01.ogg' remapped 'res://Sounds/Walala/Footsteps/wood_01.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/wood_02.ogg remapped: res://Sounds/Walala/Footsteps/wood_02.ogg
+Loading resource: res://.godot/imported/wood_02.ogg-1b1de2f3eb22693382ee485639aac623.oggvorbisstr remapped: res://.godot/imported/wood_02.ogg-1b1de2f3eb22693382ee485639aac623.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/wood_02.ogg' remapped 'res://Sounds/Walala/Footsteps/wood_02.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/wood_03.ogg remapped: res://Sounds/Walala/Footsteps/wood_03.ogg
+Loading resource: res://.godot/imported/wood_03.ogg-d5f0895266f13ca15ce2e8f54de76ca5.oggvorbisstr remapped: res://.godot/imported/wood_03.ogg-d5f0895266f13ca15ce2e8f54de76ca5.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/wood_03.ogg' remapped 'res://Sounds/Walala/Footsteps/wood_03.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/stone_01.ogg remapped: res://Sounds/Walala/Footsteps/stone_01.ogg
+Loading resource: res://.godot/imported/stone_01.ogg-0b03fb3fb707f91cc5b43c1ec6a651f8.oggvorbisstr remapped: res://.godot/imported/stone_01.ogg-0b03fb3fb707f91cc5b43c1ec6a651f8.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/stone_01.ogg' remapped 'res://Sounds/Walala/Footsteps/stone_01.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/grass_01.ogg remapped: res://Sounds/Walala/Footsteps/grass_01.ogg
+Loading resource: res://.godot/imported/grass_01.ogg-a5eb0b6484058723c19fdc736a0d0543.oggvorbisstr remapped: res://.godot/imported/grass_01.ogg-a5eb0b6484058723c19fdc736a0d0543.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/grass_01.ogg' remapped 'res://Sounds/Walala/Footsteps/grass_01.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/grass_02.ogg remapped: res://Sounds/Walala/Footsteps/grass_02.ogg
+Loading resource: res://.godot/imported/grass_02.ogg-01a94f741fbaf204b095b04769a30114.oggvorbisstr remapped: res://.godot/imported/grass_02.ogg-01a94f741fbaf204b095b04769a30114.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/grass_02.ogg' remapped 'res://Sounds/Walala/Footsteps/grass_02.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/dirt_01.ogg remapped: res://Sounds/Walala/Footsteps/dirt_01.ogg
+Loading resource: res://.godot/imported/dirt_01.ogg-75c3a83a07430f41dae92d7e45129f61.oggvorbisstr remapped: res://.godot/imported/dirt_01.ogg-75c3a83a07430f41dae92d7e45129f61.oggvorbisstr
+Completed load for: 'res://Sounds/Walala/Footsteps/dirt_01.ogg' remapped 'res://Sounds/Walala/Footsteps/dirt_01.ogg' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/snow_01.wav remapped: res://Sounds/Walala/Footsteps/snow_01.wav
+Loading resource: res://.godot/imported/snow_01.wav-767cc9d2f516e7db0d9f478042d5f1d7.sample remapped: res://.godot/imported/snow_01.wav-767cc9d2f516e7db0d9f478042d5f1d7.sample
+Completed load for: 'res://Sounds/Walala/Footsteps/snow_01.wav' remapped 'res://Sounds/Walala/Footsteps/snow_01.wav' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/snow_02.wav remapped: res://Sounds/Walala/Footsteps/snow_02.wav
+Loading resource: res://.godot/imported/snow_02.wav-6e7f448359ac494fc279d321db35971e.sample remapped: res://.godot/imported/snow_02.wav-6e7f448359ac494fc279d321db35971e.sample
+Completed load for: 'res://Sounds/Walala/Footsteps/snow_02.wav' remapped 'res://Sounds/Walala/Footsteps/snow_02.wav' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/snow_03.wav remapped: res://Sounds/Walala/Footsteps/snow_03.wav
+Loading resource: res://.godot/imported/snow_03.wav-1bc38ab888f9794ccd2d67098b9d6121.sample remapped: res://.godot/imported/snow_03.wav-1bc38ab888f9794ccd2d67098b9d6121.sample
+Completed load for: 'res://Sounds/Walala/Footsteps/snow_03.wav' remapped 'res://Sounds/Walala/Footsteps/snow_03.wav' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/snow_04.wav remapped: res://Sounds/Walala/Footsteps/snow_04.wav
+Loading resource: res://.godot/imported/snow_04.wav-8a55fc4f962ef630cdd738dce2e77cc8.sample remapped: res://.godot/imported/snow_04.wav-8a55fc4f962ef630cdd738dce2e77cc8.sample
+Completed load for: 'res://Sounds/Walala/Footsteps/snow_04.wav' remapped 'res://Sounds/Walala/Footsteps/snow_04.wav' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/snow_05.wav remapped: res://Sounds/Walala/Footsteps/snow_05.wav
+Loading resource: res://.godot/imported/snow_05.wav-cb9e388b4e6a4299b4fbd289a211bd60.sample remapped: res://.godot/imported/snow_05.wav-cb9e388b4e6a4299b4fbd289a211bd60.sample
+Completed load for: 'res://Sounds/Walala/Footsteps/snow_05.wav' remapped 'res://Sounds/Walala/Footsteps/snow_05.wav' at thread -1
+Loading resource: res://Sounds/Walala/Footsteps/snow_06.wav remapped: res://Sounds/Walala/Footsteps/snow_06.wav
+Loading resource: res://.godot/imported/snow_06.wav-929e21df8d40941f5fc70390ccb169a3.sample remapped: res://.godot/imported/snow_06.wav-929e21df8d40941f5fc70390ccb169a3.sample
+Completed load for: 'res://Sounds/Walala/Footsteps/snow_06.wav' remapped 'res://Sounds/Walala/Footsteps/snow_06.wav' at thread -1
+Loading resource: res://Art/Character/Storybook/WalalaTools/witch-tools.png remapped: res://Art/Character/Storybook/WalalaTools/witch-tools.png
+Loading resource: res://.godot/imported/witch-tools.png-6ccd158dcd45b29a8c5d05a1941bd647.ctex remapped: res://.godot/imported/witch-tools.png-6ccd158dcd45b29a8c5d05a1941bd647.ctex
+Completed load for: 'res://Art/Character/Storybook/WalalaTools/witch-tools.png' remapped 'res://Art/Character/Storybook/WalalaTools/witch-tools.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/harvest_fish.png remapped: res://Art/Environment/Hearthwood/harvest_fish.png
+Loading resource: res://.godot/imported/harvest_fish.png-4c84dffed7dc0137913921e708ce11ed.ctex remapped: res://.godot/imported/harvest_fish.png-4c84dffed7dc0137913921e708ce11ed.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/harvest_fish.png' remapped 'res://Art/Environment/Hearthwood/harvest_fish.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_sign_field.png remapped: res://Art/Environment/Hearthwood/outdoor_sign_field.png
+Loading resource: res://.godot/imported/outdoor_sign_field.png-59f7255a72c8f82127bf1548e2875ea7.ctex remapped: res://.godot/imported/outdoor_sign_field.png-59f7255a72c8f82127bf1548e2875ea7.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_sign_field.png' remapped 'res://Art/Environment/Hearthwood/outdoor_sign_field.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_sign_restaurant.png remapped: res://Art/Environment/Hearthwood/outdoor_sign_restaurant.png
+Loading resource: res://.godot/imported/outdoor_sign_restaurant.png-4e6cd52b89147dc037e6ac6f1b4895fc.ctex remapped: res://.godot/imported/outdoor_sign_restaurant.png-4e6cd52b89147dc037e6ac6f1b4895fc.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_sign_restaurant.png' remapped 'res://Art/Environment/Hearthwood/outdoor_sign_restaurant.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_sign_home.png remapped: res://Art/Environment/Hearthwood/outdoor_sign_home.png
+Loading resource: res://.godot/imported/outdoor_sign_home.png-e2105452bed5df0e96fa80492e521c69.ctex remapped: res://.godot/imported/outdoor_sign_home.png-e2105452bed5df0e96fa80492e521c69.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_sign_home.png' remapped 'res://Art/Environment/Hearthwood/outdoor_sign_home.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_sign_dock.png remapped: res://Art/Environment/Hearthwood/outdoor_sign_dock.png
+Loading resource: res://.godot/imported/outdoor_sign_dock.png-77c56a1a53f4c68bbc0907640feabebb.ctex remapped: res://.godot/imported/outdoor_sign_dock.png-77c56a1a53f4c68bbc0907640feabebb.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_sign_dock.png' remapped 'res://Art/Environment/Hearthwood/outdoor_sign_dock.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/blacksmith_sign.png remapped: res://Art/Environment/Hearthwood/blacksmith_sign.png
+Loading resource: res://.godot/imported/blacksmith_sign.png-8ddbd2b15588f7eb51ad46e9bfff121a.ctex remapped: res://.godot/imported/blacksmith_sign.png-8ddbd2b15588f7eb51ad46e9bfff121a.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/blacksmith_sign.png' remapped 'res://Art/Environment/Hearthwood/blacksmith_sign.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/store_sign.png remapped: res://Art/Environment/Hearthwood/store_sign.png
+Loading resource: res://.godot/imported/store_sign.png-975216b2dffd3667fc0f32d5223eac6c.ctex remapped: res://.godot/imported/store_sign.png-975216b2dffd3667fc0f32d5223eac6c.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/store_sign.png' remapped 'res://Art/Environment/Hearthwood/store_sign.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/mori.png remapped: res://Art/Campaign/npcs/mori.png
+Loading resource: res://.godot/imported/mori.png-b1bdb26cc9aa5512761a358835e7cf7b.ctex remapped: res://.godot/imported/mori.png-b1bdb26cc9aa5512761a358835e7cf7b.ctex
+Completed load for: 'res://Art/Campaign/npcs/mori.png' remapped 'res://Art/Campaign/npcs/mori.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/ember.png remapped: res://Art/Campaign/npcs/ember.png
+Loading resource: res://.godot/imported/ember.png-ec9c5b74441a9cbce02c2faf14810680.ctex remapped: res://.godot/imported/ember.png-ec9c5b74441a9cbce02c2faf14810680.ctex
+Completed load for: 'res://Art/Campaign/npcs/ember.png' remapped 'res://Art/Campaign/npcs/ember.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/nagi.png remapped: res://Art/Campaign/npcs/nagi.png
+Loading resource: res://.godot/imported/nagi.png-826a399f8b47b97f2646dd6fbea2c589.ctex remapped: res://.godot/imported/nagi.png-826a399f8b47b97f2646dd6fbea2c589.ctex
+Completed load for: 'res://Art/Campaign/npcs/nagi.png' remapped 'res://Art/Campaign/npcs/nagi.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/lumi.png remapped: res://Art/Campaign/npcs/lumi.png
+Loading resource: res://.godot/imported/lumi.png-0ddd2964136bb361388e3a5617321852.ctex remapped: res://.godot/imported/lumi.png-0ddd2964136bb361388e3a5617321852.ctex
+Completed load for: 'res://Art/Campaign/npcs/lumi.png' remapped 'res://Art/Campaign/npcs/lumi.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/aster.png remapped: res://Art/Campaign/npcs/aster.png
+Loading resource: res://.godot/imported/aster.png-1937aa063180a2728adec6aa02d2919a.ctex remapped: res://.godot/imported/aster.png-1937aa063180a2728adec6aa02d2919a.ctex
+Completed load for: 'res://Art/Campaign/npcs/aster.png' remapped 'res://Art/Campaign/npcs/aster.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/toma.png remapped: res://Art/Campaign/npcs/toma.png
+Loading resource: res://.godot/imported/toma.png-0273eae2ee9af16adc394f52255fa708.ctex remapped: res://.godot/imported/toma.png-0273eae2ee9af16adc394f52255fa708.ctex
+Completed load for: 'res://Art/Campaign/npcs/toma.png' remapped 'res://Art/Campaign/npcs/toma.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/pip.png remapped: res://Art/Campaign/npcs/pip.png
+Loading resource: res://.godot/imported/pip.png-9946607d4d26432749c1fdc5b43ad822.ctex remapped: res://.godot/imported/pip.png-9946607d4d26432749c1fdc5b43ad822.ctex
+Completed load for: 'res://Art/Campaign/npcs/pip.png' remapped 'res://Art/Campaign/npcs/pip.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/reed.png remapped: res://Art/Campaign/npcs/reed.png
+Loading resource: res://.godot/imported/reed.png-2070e32777d84ba183f9194013c55448.ctex remapped: res://.godot/imported/reed.png-2070e32777d84ba183f9194013c55448.ctex
+Completed load for: 'res://Art/Campaign/npcs/reed.png' remapped 'res://Art/Campaign/npcs/reed.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/yuki.png remapped: res://Art/Campaign/npcs/yuki.png
+Loading resource: res://.godot/imported/yuki.png-a7fabb382d1e171a2d47b466f39361c5.ctex remapped: res://.godot/imported/yuki.png-a7fabb382d1e171a2d47b466f39361c5.ctex
+Completed load for: 'res://Art/Campaign/npcs/yuki.png' remapped 'res://Art/Campaign/npcs/yuki.png' at thread -1
+Loading resource: res://Art/Campaign/npcs/orla.png remapped: res://Art/Campaign/npcs/orla.png
+Loading resource: res://.godot/imported/orla.png-b156717f814d7fb771ac41b8c3421e45.ctex remapped: res://.godot/imported/orla.png-b156717f814d7fb771ac41b8c3421e45.ctex
+Completed load for: 'res://Art/Campaign/npcs/orla.png' remapped 'res://Art/Campaign/npcs/orla.png' at thread -1
+FARM old home removed from town: PASS
+FARM west road farm entrance: PASS
+Loading resource: res://Art/Environment/Hearthwood/farm_ground.png remapped: res://Art/Environment/Hearthwood/farm_ground.png
+Loading resource: res://.godot/imported/farm_ground.png-149b6cca6ab88c6e1259af3c572bbad9.ctex remapped: res://.godot/imported/farm_ground.png-149b6cca6ab88c6e1259af3c572bbad9.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/farm_ground.png' remapped 'res://Art/Environment/Hearthwood/farm_ground.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_0.png remapped: res://Art/Environment/Hearthwood/shop_0.png
+Loading resource: res://.godot/imported/shop_0.png-4788f98df7e5fd02f8ed0923b1b06548.ctex remapped: res://.godot/imported/shop_0.png-4788f98df7e5fd02f8ed0923b1b06548.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_0.png' remapped 'res://Art/Environment/Hearthwood/shop_0.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_well.png remapped: res://Art/Environment/Hearthwood/outdoor_well.png
+Loading resource: res://.godot/imported/outdoor_well.png-3cafea4c200c0b24f344563e79ec1d0d.ctex remapped: res://.godot/imported/outdoor_well.png-3cafea4c200c0b24f344563e79ec1d0d.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_well.png' remapped 'res://Art/Environment/Hearthwood/outdoor_well.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_fern.png remapped: res://Art/Environment/Hearthwood/outdoor_fern.png
+Loading resource: res://.godot/imported/outdoor_fern.png-0b9a948c113120ddeaca41f619a91aa2.ctex remapped: res://.godot/imported/outdoor_fern.png-0b9a948c113120ddeaca41f619a91aa2.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_fern.png' remapped 'res://Art/Environment/Hearthwood/outdoor_fern.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png
+Loading resource: res://.godot/imported/outdoor_fern.png-a102f7edc758434952fb371d5551d788.ctex remapped: res://.godot/imported/outdoor_fern.png-a102f7edc758434952fb371d5551d788.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png' at thread -1
+FARM real walk from town to farm: PASS
+FARM independent farm owns player: PASS
+FARM farm camera bounds: PASS
+FARM outdoor weather and roof shelter: PASS
+FARM farm daylight controller and lamps: PASS
+FARM farm soil footsteps: PASS
+FARM farm snow footsteps: PASS
+Loading resource: res://Art/Environment/Hearthwood/home_alchemy.png remapped: res://Art/Environment/Hearthwood/home_alchemy.png
+Loading resource: res://.godot/imported/home_alchemy.png-a359596ce2059aef33a9891be11c1fb1.ctex remapped: res://.godot/imported/home_alchemy.png-a359596ce2059aef33a9891be11c1fb1.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_alchemy.png' remapped 'res://Art/Environment/Hearthwood/home_alchemy.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_kitchen.png remapped: res://Art/Environment/Hearthwood/home_kitchen.png
+Loading resource: res://.godot/imported/home_kitchen.png-02d8a7841df2f2c7796ff75b72112951.ctex remapped: res://.godot/imported/home_kitchen.png-02d8a7841df2f2c7796ff75b72112951.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_kitchen.png' remapped 'res://Art/Environment/Hearthwood/home_kitchen.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_bookcase.png remapped: res://Art/Environment/Hearthwood/home_bookcase.png
+Loading resource: res://.godot/imported/home_bookcase.png-2ae84783f8eab3888e5c52c80b7736a8.ctex remapped: res://.godot/imported/home_bookcase.png-2ae84783f8eab3888e5c52c80b7736a8.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_bookcase.png' remapped 'res://Art/Environment/Hearthwood/home_bookcase.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_bed.png remapped: res://Art/Environment/Hearthwood/home_bed.png
+Loading resource: res://.godot/imported/home_bed.png-6bcc2c68811d0efb4c6517c960e1cee9.ctex remapped: res://.godot/imported/home_bed.png-6bcc2c68811d0efb4c6517c960e1cee9.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_bed.png' remapped 'res://Art/Environment/Hearthwood/home_bed.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_sofa.png remapped: res://Art/Environment/Hearthwood/home_sofa.png
+Loading resource: res://.godot/imported/home_sofa.png-b10ced90b9b80a6e12957e9f361504af.ctex remapped: res://.godot/imported/home_sofa.png-b10ced90b9b80a6e12957e9f361504af.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_sofa.png' remapped 'res://Art/Environment/Hearthwood/home_sofa.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_table.png remapped: res://Art/Environment/Hearthwood/home_table.png
+Loading resource: res://.godot/imported/home_table.png-9406c99c82e37410eaef1e85a67ede35.ctex remapped: res://.godot/imported/home_table.png-9406c99c82e37410eaef1e85a67ede35.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_table.png' remapped 'res://Art/Environment/Hearthwood/home_table.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_stool.png remapped: res://Art/Environment/Hearthwood/home_stool.png
+Loading resource: res://.godot/imported/home_stool.png-f25dc4a3020ec6e82a3db1643d1e9e0a.ctex remapped: res://.godot/imported/home_stool.png-f25dc4a3020ec6e82a3db1643d1e9e0a.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_stool.png' remapped 'res://Art/Environment/Hearthwood/home_stool.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_desk.png remapped: res://Art/Environment/Hearthwood/home_desk.png
+Loading resource: res://.godot/imported/home_desk.png-465a037a8ed9d202c230993fe5ba3592.ctex remapped: res://.godot/imported/home_desk.png-465a037a8ed9d202c230993fe5ba3592.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_desk.png' remapped 'res://Art/Environment/Hearthwood/home_desk.png' at thread -1
+FARM real walk to relocated home: PASS
+FARM home interior reached from farm: PASS
+FARM home saves return to farm door: PASS
+Loading resource: res://Art/Environment/Hearthwood/farm_ground.png remapped: res://Art/Environment/Hearthwood/farm_ground.png
+Loading resource: res://.godot/imported/farm_ground.png-149b6cca6ab88c6e1259af3c572bbad9.ctex remapped: res://.godot/imported/farm_ground.png-149b6cca6ab88c6e1259af3c572bbad9.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/farm_ground.png' remapped 'res://Art/Environment/Hearthwood/farm_ground.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_0.png remapped: res://Art/Environment/Hearthwood/shop_0.png
+Loading resource: res://.godot/imported/shop_0.png-4788f98df7e5fd02f8ed0923b1b06548.ctex remapped: res://.godot/imported/shop_0.png-4788f98df7e5fd02f8ed0923b1b06548.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_0.png' remapped 'res://Art/Environment/Hearthwood/shop_0.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_well.png remapped: res://Art/Environment/Hearthwood/outdoor_well.png
+Loading resource: res://.godot/imported/outdoor_well.png-3cafea4c200c0b24f344563e79ec1d0d.ctex remapped: res://.godot/imported/outdoor_well.png-3cafea4c200c0b24f344563e79ec1d0d.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_well.png' remapped 'res://Art/Environment/Hearthwood/outdoor_well.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_fern.png remapped: res://Art/Environment/Hearthwood/outdoor_fern.png
+Loading resource: res://.godot/imported/outdoor_fern.png-0b9a948c113120ddeaca41f619a91aa2.ctex remapped: res://.godot/imported/outdoor_fern.png-0b9a948c113120ddeaca41f619a91aa2.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_fern.png' remapped 'res://Art/Environment/Hearthwood/outdoor_fern.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png
+Loading resource: res://.godot/imported/outdoor_fern.png-a102f7edc758434952fb371d5551d788.ctex remapped: res://.godot/imported/outdoor_fern.png-a102f7edc758434952fb371d5551d788.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png' at thread -1
+FARM real walk out of home: PASS
+FARM home returns to farm: PASS
+FARM clear farm route (208.0, 384.0): PASS
+FARM clear farm route (560.0, 384.0): PASS
+FARM clear farm route (208.0, 608.0): PASS
+FARM clear farm route (560.0, 608.0): PASS
+FARM clear farm route (774.0, 580.0): PASS
+FARM clear farm route (480.0, 310.0): PASS
+FARM real walk to first tile: PASS
+FARM facing selects reachable first tile: PASS
+FARM E tills actual farm tile: PASS
+FARM E plants actual farm tile: PASS
+FARM E waters actual farm tile: PASS
+FARM real walk to pond refill: PASS
+FARM pond E refills shared watering can: PASS
+FARM pond collision keeps feet out of water: PASS
+Loading resource: res://Art/Environment/Hearthwood/home_alchemy.png remapped: res://Art/Environment/Hearthwood/home_alchemy.png
+Loading resource: res://.godot/imported/home_alchemy.png-a359596ce2059aef33a9891be11c1fb1.ctex remapped: res://.godot/imported/home_alchemy.png-a359596ce2059aef33a9891be11c1fb1.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_alchemy.png' remapped 'res://Art/Environment/Hearthwood/home_alchemy.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_kitchen.png remapped: res://Art/Environment/Hearthwood/home_kitchen.png
+Loading resource: res://.godot/imported/home_kitchen.png-02d8a7841df2f2c7796ff75b72112951.ctex remapped: res://.godot/imported/home_kitchen.png-02d8a7841df2f2c7796ff75b72112951.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_kitchen.png' remapped 'res://Art/Environment/Hearthwood/home_kitchen.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_bookcase.png remapped: res://Art/Environment/Hearthwood/home_bookcase.png
+Loading resource: res://.godot/imported/home_bookcase.png-2ae84783f8eab3888e5c52c80b7736a8.ctex remapped: res://.godot/imported/home_bookcase.png-2ae84783f8eab3888e5c52c80b7736a8.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_bookcase.png' remapped 'res://Art/Environment/Hearthwood/home_bookcase.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_bed.png remapped: res://Art/Environment/Hearthwood/home_bed.png
+Loading resource: res://.godot/imported/home_bed.png-6bcc2c68811d0efb4c6517c960e1cee9.ctex remapped: res://.godot/imported/home_bed.png-6bcc2c68811d0efb4c6517c960e1cee9.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_bed.png' remapped 'res://Art/Environment/Hearthwood/home_bed.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_sofa.png remapped: res://Art/Environment/Hearthwood/home_sofa.png
+Loading resource: res://.godot/imported/home_sofa.png-b10ced90b9b80a6e12957e9f361504af.ctex remapped: res://.godot/imported/home_sofa.png-b10ced90b9b80a6e12957e9f361504af.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_sofa.png' remapped 'res://Art/Environment/Hearthwood/home_sofa.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_table.png remapped: res://Art/Environment/Hearthwood/home_table.png
+Loading resource: res://.godot/imported/home_table.png-9406c99c82e37410eaef1e85a67ede35.ctex remapped: res://.godot/imported/home_table.png-9406c99c82e37410eaef1e85a67ede35.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_table.png' remapped 'res://Art/Environment/Hearthwood/home_table.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_stool.png remapped: res://Art/Environment/Hearthwood/home_stool.png
+Loading resource: res://.godot/imported/home_stool.png-f25dc4a3020ec6e82a3db1643d1e9e0a.ctex remapped: res://.godot/imported/home_stool.png-f25dc4a3020ec6e82a3db1643d1e9e0a.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_stool.png' remapped 'res://Art/Environment/Hearthwood/home_stool.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/home_desk.png remapped: res://Art/Environment/Hearthwood/home_desk.png
+Loading resource: res://.godot/imported/home_desk.png-465a037a8ed9d202c230993fe5ba3592.ctex remapped: res://.godot/imported/home_desk.png-465a037a8ed9d202c230993fe5ba3592.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/home_desk.png' remapped 'res://Art/Environment/Hearthwood/home_desk.png' at thread -1
+FARM rain waters farm while player is indoors: PASS
+FARM home with farm state can save: PASS
+FARM disk save retains crop and supplies: PASS
+FARM disk save retains home return: PASS
+Loading resource: res://Art/Environment/Hearthwood/farm_ground.png remapped: res://Art/Environment/Hearthwood/farm_ground.png
+Loading resource: res://.godot/imported/farm_ground.png-149b6cca6ab88c6e1259af3c572bbad9.ctex remapped: res://.godot/imported/farm_ground.png-149b6cca6ab88c6e1259af3c572bbad9.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/farm_ground.png' remapped 'res://Art/Environment/Hearthwood/farm_ground.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/shop_0.png remapped: res://Art/Environment/Hearthwood/shop_0.png
+Loading resource: res://.godot/imported/shop_0.png-4788f98df7e5fd02f8ed0923b1b06548.ctex remapped: res://.godot/imported/shop_0.png-4788f98df7e5fd02f8ed0923b1b06548.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/shop_0.png' remapped 'res://Art/Environment/Hearthwood/shop_0.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_well.png remapped: res://Art/Environment/Hearthwood/outdoor_well.png
+Loading resource: res://.godot/imported/outdoor_well.png-3cafea4c200c0b24f344563e79ec1d0d.ctex remapped: res://.godot/imported/outdoor_well.png-3cafea4c200c0b24f344563e79ec1d0d.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_well.png' remapped 'res://Art/Environment/Hearthwood/outdoor_well.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/outdoor_fern.png remapped: res://Art/Environment/Hearthwood/outdoor_fern.png
+Loading resource: res://.godot/imported/outdoor_fern.png-0b9a948c113120ddeaca41f619a91aa2.ctex remapped: res://.godot/imported/outdoor_fern.png-0b9a948c113120ddeaca41f619a91aa2.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/outdoor_fern.png' remapped 'res://Art/Environment/Hearthwood/outdoor_fern.png' at thread -1
+Loading resource: res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png remapped: res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png
+Loading resource: res://.godot/imported/outdoor_fern.png-a102f7edc758434952fb371d5551d788.ctex remapped: res://.godot/imported/outdoor_fern.png-a102f7edc758434952fb371d5551d788.ctex
+Completed load for: 'res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png' remapped 'res://Art/Environment/Hearthwood/Ambient/outdoor_fern.png' at thread -1
+FARM restored home exits to farm: PASS
+FARM farm itself can save: PASS
+FARM farm location accepted in save schema: PASS
+FARM farm load restores player and camera: PASS
+FARM planted crop matures across three days: PASS
+FARM E harvest puts crop in existing backpack: PASS
+FARM real walk back to town: PASS
+FARM return reaches farm road with town collisions restored: PASS
+FARM crops persist after farm is detached: PASS
+FARM VERIFY END failures=0
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Leaked instance: AudioStreamOggVorbis:9223372137585182309 - Reference count: 1
+Leaked instance: OggPacketSequence:9223372096380339918 - Reference count: 3
+Leaked instance: AudioStreamPlaybackOggVorbis:9223372166525881938 - Reference count: 1
+Leaked instance: OggPacketSequencePlayback:9223372166542659155 - Reference count: 1
+Hint: Leaked instances typically happen when nodes are removed from the scene tree (with `remove_child()`) but not freed (with `free()` or `queue_free()`).
+Resource still in use: res://Sounds/Walala/Music/day.ogg::OggPacketSequence_ifyty (OggPacketSequence)
+Orphan StringName: Master (static: 0, total: 2)
+StringName: 1 unclaimed string names at exit.
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 1 resources still in use at exit.
+   at: clear (core/io/resource.cpp:817)

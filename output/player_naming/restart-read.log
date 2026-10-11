@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+NAMING restart slot opens: PASS
+NAMING fresh process restores chosen name: PASS
+NAMING fresh process skips opening and naming: PASS
+NAMING COMPLETE checks=3 failures=0
