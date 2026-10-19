@@ -31,10 +31,11 @@ func key() -> void:
 	while root.get_node("SceneTransition").active:
 		await frames()
 	for pressed in [true, false]:
-		var event := InputEventKey.new()
-		event.physical_keycode = KEY_E
+		var event := InputEventMouseButton.new()
+		event.button_index = MOUSE_BUTTON_LEFT
+		event.position = root.get_visible_rect().size / 2.0
 		event.pressed = pressed
-		Input.parse_input_event(event)
+		root.push_input(event, true)
 		await frames()
 	await create_timer(0.28).timeout
 
@@ -162,6 +163,7 @@ func rain_checks() -> void:
 
 func bare_state():
 	var state = State.new()
+	state.wand_mode = "blue"
 	for entry in State.FarmTerrain.layout.props:
 		state.resource_damage[entry.resource_id] = State.RESOURCE_HITS
 	return state
@@ -169,6 +171,7 @@ func bare_state():
 func clearing_checks() -> void:
 	var terrain = State.FarmTerrain
 	for kind in ["wood", "ore", "weed"]:
+		loop.state.wand_mode = "red"
 		var candidates: Array = loop.area.resource_nodes.filter(func(node): return node.resource_kind == kind and node.available())
 		check("initial natural obstacle " + kind, not candidates.is_empty())
 		if candidates.is_empty(): continue
@@ -187,6 +190,7 @@ func clearing_checks() -> void:
 			loop.harvest.paused_for_test = true
 			if not node.available(): break
 		check("clearing removes sprite and physics " + kind, not node.available() and not node.visible and node.collision_layer == 0 and not loop.area.solids.has(node.footprint))
+		loop.state.wand_mode = "blue"
 		check("cleared land becomes plantable " + kind, terrain.can_till(loop.state, index) and loop.state.work_farm_tile(index))
 		if kind != "weed": check("clearing pays existing inventory " + kind, loop.state.resources[kind] == before + (3 if kind == "wood" else 2))
 		var reward: Dictionary = loop.state.resources.duplicate()

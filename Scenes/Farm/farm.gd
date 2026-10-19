@@ -256,8 +256,8 @@ func _draw_crop(painter: Node2D, key: String) -> void:
 
 func _draw_plots() -> void:
 	var s = loop.state
-	if selected >= 0 and s.is_item_selected("wand"):
-		terrain.draw_rect(Rect2(tile_center(selected) - Vector2(15, 15), Vector2(30, 30)), Color("f3dba0"), false, 1)
+	if selected >= 0 and s.is_item_selected("wand") and s.wand_mode == "blue":
+		terrain.draw_rect(Rect2(tile_center(selected) - Vector2(15, 15), Vector2(30, 30)), Color("73baff"), false, 1)
 	if sparkle_left > 0.0:
 		for offset in [Vector2(-8, -9), Vector2(8, -6), Vector2(0, -16)]:
-			terrain.draw_rect(Rect2(sparkle_position + offset - Vector2(0, (0.35 - sparkle_left) * 14), Vector2(2, 2)), Color("f3dba0"))
+			terrain.draw_rect(Rect2(sparkle_position + offset - Vector2(0, (0.35 - sparkle_left) * 14), Vector2(2, 2)), Color("a7d8ff"))

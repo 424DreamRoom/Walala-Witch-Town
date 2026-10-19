@@ -47,7 +47,12 @@ static func frame_for(action: String, facing: int, elapsed: float, duration_over
 static func fishing_tip(animation: String, facing: int, elapsed: float, duration: float = 0.0) -> Vector2:
 	var tag := tag_for(animation, facing)
 	var step := frame_for(animation, facing, elapsed, duration) - int(tag.from)
+	return Vector2(wand_tip(animation, facing, step)) - Vector2(16, 32)
+
+static func wand_tip(animation: String, facing: int, step: int) -> Vector2i:
+	# Native wand coordinates shared by fishing lines and the mode colour overlay.
 	var pose := step + 2 if animation == "fish-cast" else 6 - step if animation == "fish-reel" else 4 + step
+	if animation == "cast": pose = step
 	var tips := [Vector2(24,19), Vector2(23,15), Vector2(23,13), Vector2(25,15), Vector2(26,22), Vector2(26,23), Vector2(25,23), Vector2(24,20)]
 	if facing == 1:
 		tips = [Vector2(24,17), Vector2(23,13), Vector2(23,9), Vector2(25,10), Vector2(26,12), Vector2(26,13), Vector2(25,14), Vector2(24,17)]
@@ -56,4 +61,4 @@ static func fishing_tip(animation: String, facing: int, elapsed: float, duration
 	var tip: Vector2 = tips[pose]
 	if facing == 3:
 		tip.x = 31.0 - tip.x
-	return tip - Vector2(16, 32)
+	return Vector2i(tip)

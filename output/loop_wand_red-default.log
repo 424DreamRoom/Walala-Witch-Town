@@ -1,0 +1,133 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+WAND MODES TEST fresh game selects red wand: PASS
+WAND MODES TEST selected wand toggles blue: PASS
+WAND MODES TEST blue cannot destroy wood: PASS
+WAND MODES TEST blue cannot destroy ore: PASS
+WAND MODES TEST blue cannot destroy weed: PASS
+WAND MODES TEST selected wand toggles red: PASS
+WAND MODES TEST red destroys wood: PASS
+WAND MODES TEST red destroys ore: PASS
+WAND MODES TEST red destroys weed: PASS
+WAND MODES TEST red cannot till: PASS
+WAND MODES TEST red cannot refill: PASS
+WAND MODES TEST blue tills: PASS
+WAND MODES TEST blue wand plants from inventory: PASS
+WAND MODES TEST blue waters: PASS
+WAND MODES TEST repeated watering never drains water: PASS
+WAND MODES TEST blue refills to upgraded capacity: PASS
+WAND MODES TEST red cannot plant campaign crops: PASS
+WAND MODES TEST campaign API cannot bypass red mode: PASS
+WAND MODES TEST blue plants campaign crops: PASS
+WAND MODES TEST red cannot water campaign crops: PASS
+WAND MODES TEST blue waters campaign crops: PASS
+WAND MODES TEST blue harvests campaign crops: PASS
+WAND MODES TEST blue keeps fishing: PASS
+WAND MODES TEST red keeps fishing: PASS
+WAND MODES TEST unselected wand cannot toggle: PASS
+WAND MODES TEST selected seed stack retains planting: PASS
+WAND MODES TEST night still blocks destruction: PASS
+WAND MODES TEST settlement cannot toggle: PASS
+WAND MODES TEST colour survives JSON roundtrip: PASS
+WAND MODES TEST existing saves default red: PASS
+WAND MODES TEST saved blue overrides red default: PASS
+WAND MODES TEST invalid mode rejects atomically purple: PASS
+WAND MODES TEST invalid mode rejects atomically : PASS
+WAND MODES TEST invalid mode rejects atomically 0: PASS
+WAND MODES TEST invalid mode rejects atomically <null>: PASS
+WAND MODES TEST invalid mode rejects atomically []: PASS
+WAND MODES TEST invalid mode rejects atomically {  }: PASS
+WAND MODES TEST colour survives next day: PASS
+WAND MODES TEST stored wand cannot toggle: PASS
+WAND MODES TEST blue upgrade tills correct area 0: PASS
+WAND MODES TEST blue upgrade still blocks chopping 0: PASS
+WAND MODES TEST red upgrade retains speed and yield 0: PASS
+WAND MODES TEST blue upgrade tills correct area 1: PASS
+WAND MODES TEST blue upgrade still blocks chopping 1: PASS
+WAND MODES TEST red upgrade retains speed and yield 1: PASS
+WAND MODES TEST blue upgrade tills correct area 2: PASS
+WAND MODES TEST blue upgrade still blocks chopping 2: PASS
+WAND MODES TEST red upgrade retains speed and yield 2: PASS
+WAND MODES TEST blue upgrade tills correct area 3: PASS
+WAND MODES TEST blue upgrade still blocks chopping 3: PASS
+WAND MODES TEST red upgrade retains speed and yield 3: PASS
+WAND MODES TEST icon preserves canvas and transparency blue: PASS
+WAND MODES TEST icon preserves canvas and transparency red: PASS
+WAND MODES TEST icon colours visibly differ: PASS
+WAND MODES TEST action preserves canvas and transparency blue: PASS
+WAND MODES TEST body animation unchanged blueidle0: PASS
+WAND MODES TEST body animation unchanged bluewalk0: PASS
+WAND MODES TEST body animation unchanged bluerun0: PASS
+WAND MODES TEST body animation unchanged blueidle1: PASS
+WAND MODES TEST body animation unchanged bluewalk1: PASS
+WAND MODES TEST body animation unchanged bluerun1: PASS
+WAND MODES TEST body animation unchanged blueidle2: PASS
+WAND MODES TEST body animation unchanged bluewalk2: PASS
+WAND MODES TEST body animation unchanged bluerun2: PASS
+WAND MODES TEST body animation unchanged blueidle3: PASS
+WAND MODES TEST body animation unchanged bluewalk3: PASS
+WAND MODES TEST body animation unchanged bluerun3: PASS
+WAND MODES TEST cast has coloured magic blue0: PASS
+WAND MODES TEST cast has coloured magic blue1: PASS
+WAND MODES TEST cast has coloured magic blue2: PASS
+WAND MODES TEST cast has coloured magic blue3: PASS
+WAND MODES TEST action preserves canvas and transparency red: PASS
+WAND MODES TEST body animation unchanged redidle0: PASS
+WAND MODES TEST body animation unchanged redwalk0: PASS
+WAND MODES TEST body animation unchanged redrun0: PASS
+WAND MODES TEST body animation unchanged redidle1: PASS
+WAND MODES TEST body animation unchanged redwalk1: PASS
+WAND MODES TEST body animation unchanged redrun1: PASS
+WAND MODES TEST body animation unchanged redidle2: PASS
+WAND MODES TEST body animation unchanged redwalk2: PASS
+WAND MODES TEST body animation unchanged redrun2: PASS
+WAND MODES TEST body animation unchanged redidle3: PASS
+WAND MODES TEST body animation unchanged redwalk3: PASS
+WAND MODES TEST body animation unchanged redrun3: PASS
+WAND MODES TEST cast has coloured magic red0: PASS
+WAND MODES TEST cast has coloured magic red1: PASS
+WAND MODES TEST cast has coloured magic red2: PASS
+WAND MODES TEST cast has coloured magic red3: PASS
+WAND MODES TEST action colours visibly differ: PASS
+WAND MODES TEST fresh scene and hotbar default red: PASS
+WAND MODES TEST first E switches to blue without striking: PASS
+WAND MODES TEST E toggles red without striking: PASS
+WAND MODES TEST hotbar reflects red: PASS
+WAND MODES TEST held key echo does not toggle: PASS
+WAND MODES TEST right mouse does not cast: PASS
+WAND MODES TEST left mouse starts red chop: PASS
+WAND MODES TEST switch cancels before damage: PASS
+WAND MODES TEST blue blocks animation and reward: PASS
+WAND MODES TEST red cast uses red variant: PASS
+WAND MODES TEST one mouse press applies one strike: PASS
+WAND MODES TEST HUD click cannot cast through UI: PASS
+WAND MODES TEST modal E cannot switch colour: PASS
+WAND MODES TEST backpack icon reflects red: PASS
+WAND MODES TEST red mouse cannot till: PASS
+WAND MODES TEST blue mouse tills: PASS
+WAND MODES TEST blue farm cast uses blue variant: PASS
+WAND MODES TEST blue mouse plants without changing slots: PASS
+WAND MODES TEST blue mouse waters: PASS
+WAND MODES TEST left mouse casts fishing: PASS
+WAND MODES TEST left mouse reels and awards fish: PASS
+WAND MODES TEST colour switch cancels fishing: PASS
+WAND MODES TEST colour survives travel: PASS
+WAND MODES TEST localized colour name zh_CN: PASS
+WAND MODES TEST localized colour name en: PASS
+WAND MODES TEST localized colour name ja: PASS
+WAND MODES TEST localized colour name zh_TW: PASS
+WAND MODES TEST isolated save slot created: PASS
+WAND MODES TEST manual save records colour: PASS
+WAND MODES TEST upgrade panel opens for selected red wand: PASS
+WAND MODES TEST upgrade icon reflects red: PASS
+WAND MODES TEST real upgrade preserves colour and stored water: PASS
+WAND MODES TEST interaction key can be remapped: PASS
+WAND MODES TEST old key no longer switches: PASS
+WAND MODES TEST custom key switches: PASS
+WAND MODES TEST unselected wand keeps keyboard door interaction: PASS
+WAND MODES TEST selected wand keeps mouse door interaction: PASS
+WAND MODES TEST disk slot reopens: PASS
+WAND MODES TEST fresh scene restores saved red wand: PASS
+WAND MODES VERIFY END failures=0
+FMOD Sound System: System released

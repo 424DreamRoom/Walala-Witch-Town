@@ -1,0 +1,264 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+NPC32 mori frame size: PASS
+NPC32 ember frame size: PASS
+NPC32 nagi frame size: PASS
+NPC32 lumi frame size: PASS
+NPC32 aster frame size: PASS
+NPC32 toma frame size: PASS
+NPC32 pip frame size: PASS
+NPC32 reed frame size: PASS
+NPC32 yuki frame size: PASS
+NPC32 orla frame size: PASS
+NPC32 green_braids frame size: PASS
+NPC32 blue_blonde frame size: PASS
+NPC32 burgundy_curls frame size: PASS
+NPC32 orange_short frame size: PASS
+NPC32 cyan_gray frame size: PASS
+NPC32 pink_longblue frame size: PASS
+NPC32 yingluo frame size: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/mori.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 mori all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/ember.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 ember all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/nagi.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 nagi all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/lumi.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 lumi all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/aster.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 aster all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/toma.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 toma all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/pip.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 pip all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/reed.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 reed all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/yuki.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 yuki all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/residents/orla.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 orla all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/customers/green_braids.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 green_braids all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/customers/blue_blonde.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 blue_blonde all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/customers/burgundy_curls.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 burgundy_curls all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/customers/orange_short.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 orange_short all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/customers/cyan_gray.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 cyan_gray all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/customers/pink_longblue.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 pink_longblue all rendered frames match native Aseprite PNG: PASS
+WARNING: Loaded resource as image file, this will not work on export: 'res://Art/Characters/NPC32/guides/yingluo.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load_from_file (core/io/image.cpp:2780)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:54)
+NPC32 yingluo all rendered frames match native Aseprite PNG: PASS
+NPC32 mori world native size and feet: PASS
+NPC32 mori four-direction frame 0: PASS
+NPC32 mori four-direction frame 1: PASS
+NPC32 mori four-direction frame 2: PASS
+NPC32 mori four-direction frame 3: PASS
+NPC32 ember world native size and feet: PASS
+NPC32 ember four-direction frame 0: PASS
+NPC32 ember four-direction frame 1: PASS
+NPC32 ember four-direction frame 2: PASS
+NPC32 ember four-direction frame 3: PASS
+NPC32 nagi world native size and feet: PASS
+NPC32 nagi four-direction frame 0: PASS
+NPC32 nagi four-direction frame 1: PASS
+NPC32 nagi four-direction frame 2: PASS
+NPC32 nagi four-direction frame 3: PASS
+NPC32 lumi world native size and feet: PASS
+NPC32 lumi four-direction frame 0: PASS
+NPC32 lumi four-direction frame 1: PASS
+NPC32 lumi four-direction frame 2: PASS
+NPC32 lumi four-direction frame 3: PASS
+NPC32 aster world native size and feet: PASS
+NPC32 aster four-direction frame 0: PASS
+NPC32 aster four-direction frame 1: PASS
+NPC32 aster four-direction frame 2: PASS
+NPC32 aster four-direction frame 3: PASS
+NPC32 toma world native size and feet: PASS
+NPC32 toma four-direction frame 0: PASS
+NPC32 toma four-direction frame 1: PASS
+NPC32 toma four-direction frame 2: PASS
+NPC32 toma four-direction frame 3: PASS
+NPC32 pip world native size and feet: PASS
+NPC32 pip four-direction frame 0: PASS
+NPC32 pip four-direction frame 1: PASS
+NPC32 pip four-direction frame 2: PASS
+NPC32 pip four-direction frame 3: PASS
+NPC32 reed world native size and feet: PASS
+NPC32 reed four-direction frame 0: PASS
+NPC32 reed four-direction frame 1: PASS
+NPC32 reed four-direction frame 2: PASS
+NPC32 reed four-direction frame 3: PASS
+NPC32 yuki world native size and feet: PASS
+NPC32 yuki four-direction frame 0: PASS
+NPC32 yuki four-direction frame 1: PASS
+NPC32 yuki four-direction frame 2: PASS
+NPC32 yuki four-direction frame 3: PASS
+NPC32 orla world native size and feet: PASS
+NPC32 orla four-direction frame 0: PASS
+NPC32 orla four-direction frame 1: PASS
+NPC32 orla four-direction frame 2: PASS
+NPC32 orla four-direction frame 3: PASS
+NPC32 guide source installed: PASS
+NPC32 town: PASS
+NPC32 dialogue uses full 32x32 idle source: PASS
+NPC32 dialogue: PASS
+NPC32 blacksmith staff source and feet: PASS
+NPC32 blacksmith: PASS
+NPC32 store staff source and feet: PASS
+NPC32 store: PASS
+NPC32 mori restaurant waiting and feet: PASS
+NPC32 mori eating frame 0: PASS
+NPC32 mori eating frame 1: PASS
+NPC32 mori eating frame 2: PASS
+NPC32 mori eating frame 3: PASS
+NPC32 ember restaurant waiting and feet: PASS
+NPC32 ember eating frame 0: PASS
+NPC32 ember eating frame 1: PASS
+NPC32 ember eating frame 2: PASS
+NPC32 ember eating frame 3: PASS
+NPC32 nagi restaurant waiting and feet: PASS
+NPC32 nagi eating frame 0: PASS
+NPC32 nagi eating frame 1: PASS
+NPC32 nagi eating frame 2: PASS
+NPC32 nagi eating frame 3: PASS
+NPC32 lumi restaurant waiting and feet: PASS
+NPC32 lumi eating frame 0: PASS
+NPC32 lumi eating frame 1: PASS
+NPC32 lumi eating frame 2: PASS
+NPC32 lumi eating frame 3: PASS
+NPC32 aster restaurant waiting and feet: PASS
+NPC32 aster eating frame 0: PASS
+NPC32 aster eating frame 1: PASS
+NPC32 aster eating frame 2: PASS
+NPC32 aster eating frame 3: PASS
+NPC32 toma restaurant waiting and feet: PASS
+NPC32 toma eating frame 0: PASS
+NPC32 toma eating frame 1: PASS
+NPC32 toma eating frame 2: PASS
+NPC32 toma eating frame 3: PASS
+NPC32 pip restaurant waiting and feet: PASS
+NPC32 pip eating frame 0: PASS
+NPC32 pip eating frame 1: PASS
+NPC32 pip eating frame 2: PASS
+NPC32 pip eating frame 3: PASS
+NPC32 reed restaurant waiting and feet: PASS
+NPC32 reed eating frame 0: PASS
+NPC32 reed eating frame 1: PASS
+NPC32 reed eating frame 2: PASS
+NPC32 reed eating frame 3: PASS
+NPC32 yuki restaurant waiting and feet: PASS
+NPC32 yuki eating frame 0: PASS
+NPC32 yuki eating frame 1: PASS
+NPC32 yuki eating frame 2: PASS
+NPC32 yuki eating frame 3: PASS
+NPC32 orla restaurant waiting and feet: PASS
+NPC32 orla eating frame 0: PASS
+NPC32 orla eating frame 1: PASS
+NPC32 orla eating frame 2: PASS
+NPC32 orla eating frame 3: PASS
+NPC32 green_braids restaurant waiting and feet: PASS
+NPC32 green_braids eating frame 0: PASS
+NPC32 green_braids eating frame 1: PASS
+NPC32 green_braids eating frame 2: PASS
+NPC32 green_braids eating frame 3: PASS
+NPC32 blue_blonde restaurant waiting and feet: PASS
+NPC32 blue_blonde eating frame 0: PASS
+NPC32 blue_blonde eating frame 1: PASS
+NPC32 blue_blonde eating frame 2: PASS
+NPC32 blue_blonde eating frame 3: PASS
+NPC32 burgundy_curls restaurant waiting and feet: PASS
+NPC32 burgundy_curls eating frame 0: PASS
+NPC32 burgundy_curls eating frame 1: PASS
+NPC32 burgundy_curls eating frame 2: PASS
+NPC32 burgundy_curls eating frame 3: PASS
+NPC32 orange_short restaurant waiting and feet: PASS
+NPC32 orange_short eating frame 0: PASS
+NPC32 orange_short eating frame 1: PASS
+NPC32 orange_short eating frame 2: PASS
+NPC32 orange_short eating frame 3: PASS
+NPC32 cyan_gray restaurant waiting and feet: PASS
+NPC32 cyan_gray eating frame 0: PASS
+NPC32 cyan_gray eating frame 1: PASS
+NPC32 cyan_gray eating frame 2: PASS
+NPC32 cyan_gray eating frame 3: PASS
+NPC32 pink_longblue restaurant waiting and feet: PASS
+NPC32 pink_longblue eating frame 0: PASS
+NPC32 pink_longblue eating frame 1: PASS
+NPC32 pink_longblue eating frame 2: PASS
+NPC32 pink_longblue eating frame 3: PASS
+ERROR: Index p_frame = 11 is out of bounds (vframes * hframes = 6).
+   at: set_frame (scene/2d/sprite_2d.cpp:299)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Scenes/Gameplay/play_area.gd:206)
+       [1] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:119)
+       [2] frames (res://Art/Characters/NPC32/tools/verify_npc32.gd:24)
+ERROR: Index p_frame = 11 is out of bounds (vframes * hframes = 6).
+   at: set_frame (scene/2d/sprite_2d.cpp:299)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Scenes/Gameplay/play_area.gd:206)
+       [1] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:119)
+       [2] frames (res://Art/Characters/NPC32/tools/verify_npc32.gd:24)
+ERROR: Index p_frame = 11 is out of bounds (vframes * hframes = 6).
+   at: set_frame (scene/2d/sprite_2d.cpp:299)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://Scenes/Gameplay/play_area.gd:206)
+       [1] run (res://Art/Characters/NPC32/tools/verify_npc32.gd:119)
+       [2] frames (res://Art/Characters/NPC32/tools/verify_npc32.gd:24)
+NPC32 restaurant: PASS
+NPC32 VERIFY END checks=173 failures=0

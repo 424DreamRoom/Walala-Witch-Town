@@ -337,12 +337,15 @@ func _toggle_menu(dish: int) -> void:
 func near(pos: Vector2) -> bool:
 	return lane.player.position.distance_to(pos) <= 27.0
 
+func at_counter(which: String) -> bool:
+	return location == "restaurant" and area.at_counter(which)
+
 func _show_feedback() -> void:
 	last_message = state.message
 	message_left = 3.5
 
 func cook_dish(dish: int) -> void:
-	if location != "restaurant" or not near(area.stations.kitchen):
+	if location != "restaurant" or not at_counter("kitchen"):
 		state.message = "不在料理台旁"
 		_show_feedback()
 		return
@@ -442,7 +445,7 @@ func interact() -> void:
 	elif location in ["home", "farm", "blacksmith", "store", "furniture_store"]:
 		area.interact()
 	elif location == "restaurant":
-		if near(area.stations.prep):
+		if at_counter("prep"):
 			if state.process_raw():
 				audio.play_event("process")
 			_show_feedback()
@@ -619,10 +622,22 @@ func _process(delta: float) -> void:
 	_refresh()
 
 func _unhandled_input(event: InputEvent) -> void:
-	if InputBindings.capture_active: return
+	if InputBindings.capture_active or get_tree().paused or exit_pending or state.phase == "result": return
+	# GUI controls consume clicks before world actions reach this handler.
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		interact()
+		get_viewport().set_input_as_handled()
+		return
 	if InputBindings.is_action_press(event):
 		if event.is_action_pressed("interact"):
-			interact()
+			# A selected wand turns the interaction key into a colour switch; work uses the mouse.
+			if state.is_item_selected("wand") and state.has_tool("wand"):
+				if state.toggle_wand_mode():
+					harvest.cancel()
+					audio.play_event("ui_click")
+					hud.refresh()
+			else:
+				interact()
 			get_viewport().set_input_as_handled()
 		elif event is InputEventKey and event.physical_keycode == KEY_R:
 			if not InputBindings.is_bound_event(event): reset_player.call_deferred()
@@ -635,7 +650,7 @@ func _refresh() -> void:
 	var active: bool = state.phase != "result"
 	var in_restaurant: bool = location == "restaurant" and active
 	var show_menu: bool = in_restaurant and state.phase == "day"
-	var show_cooking: bool = in_restaurant and state.phase == "night" and near(area.stations.kitchen)
+	var show_cooking: bool = in_restaurant and state.phase == "night" and at_counter("kitchen")
 	backgrounds[0].size.y = 62 if in_restaurant else (46 if location in ["field", "dock"] and active else 26)
 	backgrounds[1].visible = show_menu or show_cooking
 	backgrounds[1].size.y = 222 if show_menu else 153
@@ -668,7 +683,7 @@ func _refresh() -> void:
 		if menu_buttons[i].button_pressed != state.menu[i] and not menu_buttons[i].is_hovered():
 			menu_buttons[i].set_pressed_no_signal(state.menu[i])
 		menu_buttons[i].disabled = state.phase != "day"
-		cook_buttons[i].disabled = state.phase != "night" or location != "restaurant" or not near(area.stations.kitchen) or state.cooking >= 0 or state.held >= 0 or not state.menu[i] or not state.can_cook(i)
+		cook_buttons[i].disabled = state.phase != "night" or location != "restaurant" or not at_counter("kitchen") or state.cooking >= 0 or state.held >= 0 or not state.menu[i] or not state.can_cook(i)
 	discard_button.disabled = state.held < 0
 	discard_button.visible = in_restaurant and state.held >= 0
 	end_button.text = {"day": "开始营业", "night": "结束营业", "result": "进入次日"}[state.phase]

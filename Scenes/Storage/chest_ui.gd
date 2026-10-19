@@ -132,10 +132,12 @@ func refresh_language() -> void:
 			cell.modulate.a = 0.35 if locked else 1.0
 			var icon = cell.get_node("Icon")
 			icon.kind = id
+			icon.wand_mode = state.wand_mode
 			icon.queue_redraw()
 			cell.get_node("Count").text = str(slot.count) if int(slot.get("count", 0)) > 1 else ""
 			cell.text = "·" if locked else ""
 			cell.tooltip_text = tr("未解锁") if locked else tr("空格子") if id.is_empty() else I18n.format("%s ×%d", [Items.NAMES[id], slot.count])
+			if id == "wand": cell.tooltip_text = tr(hud.Art.WandVisuals.NAMES[state.wand_mode])
 			if id in Items.TOOLS: cell.tooltip_text += " · " + tr(Equipment.TIERS[state.equipment[id]])
 	claim.text = tr("领取旧版物品")
 	claim.visible = not state.bag_overflow.is_empty()
@@ -143,6 +145,7 @@ func refresh_language() -> void:
 	claim.tooltip_text = tr("旧版溢出物品")
 	cursor.visible = not session.hand.is_empty()
 	cursor.kind = session.hand.get("id", "")
+	cursor.wand_mode = state.wand_mode
 	cursor.queue_redraw()
 	cursor_count.text = str(session.hand.count) if int(session.hand.get("count", 0)) > 1 else ""
 

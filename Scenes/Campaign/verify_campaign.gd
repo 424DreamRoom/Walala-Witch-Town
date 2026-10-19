@@ -56,6 +56,7 @@ func run() -> void:
 		if crop.id=="herb": continue
 		s = State.new()
 		s.day = 1 + int(crop.seasons[0])*28
+		s.wand_mode = "blue"
 		s.campaign.selected_crop = crop.id
 		s.campaign.seeds[crop.id] = 1
 		s.campaign.pantry[crop.id] = 0
@@ -70,6 +71,7 @@ func run() -> void:
 		if crop.regrow>0: check("regrow "+crop.id,s.farm.plots[str(tile)].growth==crop.days-crop.regrow)
 	s = State.new()
 	s.campaign.selected_crop="tomato"
+	s.wand_mode = "blue"
 	s.campaign.seeds.tomato=1
 	s.work_farm_tile(tile)
 	check("season rejects atomically",not s.work_farm_tile(tile) and s.campaign.seeds.tomato==1)
@@ -195,6 +197,7 @@ func run() -> void:
 		if region.id=="grove": await shot("grove")
 		loop.enter("town")
 	loop.enter("farm")
+	loop.state.wand_mode = "blue"
 	loop.state.campaign.selected_crop="turnip"
 	loop.state.work_farm_tile(tile)
 	loop.state.work_farm_tile(tile)

@@ -1,0 +1,120 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+OPENING guide atlas contains native 32x32 frames: PASS
+OPENING guide directional standing pose (0.0, 1.0): PASS
+OPENING guide four distinct walk poses (0.0, 1.0): PASS
+OPENING guide seamless walk loop (0.0, 1.0): PASS
+OPENING guide stops without shifting feet (0.0, 1.0): PASS
+OPENING guide directional standing pose (0.0, -1.0): PASS
+OPENING guide four distinct walk poses (0.0, -1.0): PASS
+OPENING guide seamless walk loop (0.0, -1.0): PASS
+OPENING guide stops without shifting feet (0.0, -1.0): PASS
+OPENING guide directional standing pose (1.0, 0.0): PASS
+OPENING guide four distinct walk poses (1.0, 0.0): PASS
+OPENING guide seamless walk loop (1.0, 0.0): PASS
+OPENING guide stops without shifting feet (1.0, 0.0): PASS
+OPENING guide directional standing pose (-1.0, 0.0): PASS
+OPENING guide four distinct walk poses (-1.0, 0.0): PASS
+OPENING guide seamless walk loop (-1.0, 0.0): PASS
+OPENING guide stops without shifting feet (-1.0, 0.0): PASS
+OPENING guide native walk timings: PASS
+OPENING guide portrait retains full standing frame: PASS
+OPENING protagonist defaults to Weierliya: PASS
+OPENING legacy default name [false, false]: PASS
+OPENING legacy welcome progress [false, false]: PASS
+OPENING legacy default name [false, true]: PASS
+OPENING legacy welcome progress [false, true]: PASS
+OPENING legacy default name [true, false]: PASS
+OPENING legacy welcome progress [true, false]: PASS
+OPENING legacy default name [true, true]: PASS
+OPENING legacy welcome progress [true, true]: PASS
+OPENING explicit welcome progress preserved false: PASS
+OPENING explicit welcome progress preserved true: PASS
+OPENING existing save name preserved: PASS
+OPENING invalid legacy name rejected 42: PASS
+OPENING invalid legacy name rejected a\nb: PASS
+OPENING new slot created: PASS
+OPENING new slot persists default name: PASS
+OPENING new snapshot starts outside home: PASS
+OPENING film starts over exterior spawn: PASS
+OPENING skipped film starts visible approach directly: PASS
+OPENING opening has no name input: PASS
+OPENING opening frames both characters: PASS
+OPENING NPC walks continuously: PASS
+OPENING approach faces left on the horizontal path: PASS
+OPENING approach plays all four left strides: PASS
+OPENING fractional frame budget finishes without spinning: PASS
+OPENING approach freezes clock and player: PASS
+OPENING approach blocks competing modals: PASS
+OPENING capture approach: PASS
+OPENING interrupted approach saves: PASS
+OPENING unloading approach restores pause: PASS
+OPENING interrupted slot reopens: PASS
+OPENING interrupted approach resumes directly: PASS
+OPENING whole approach clears farm obstacles: PASS
+OPENING approach turns from left to up: PASS
+OPENING arrival starts story beside the witch: PASS
+OPENING story introduces conflict and current goal: PASS
+OPENING story fits zh_CN 0: PASS
+OPENING story fits zh_CN 1: PASS
+OPENING story fits zh_CN 2: PASS
+OPENING story fits zh_CN 3: PASS
+OPENING story fits zh_CN 4: PASS
+OPENING story fits zh_CN 5: PASS
+OPENING story fits zh_CN 6: PASS
+OPENING story fits zh_CN 7: PASS
+OPENING story fits zh_CN 8: PASS
+OPENING capture story_zh_CN: PASS
+OPENING story fits en 0: PASS
+OPENING story fits en 1: PASS
+OPENING story fits en 2: PASS
+OPENING story fits en 3: PASS
+OPENING story fits en 4: PASS
+OPENING story fits en 5: PASS
+OPENING story fits en 6: PASS
+OPENING story fits en 7: PASS
+OPENING story fits en 8: PASS
+OPENING capture story_en: PASS
+OPENING story fits ja 0: PASS
+OPENING story fits ja 1: PASS
+OPENING story fits ja 2: PASS
+OPENING story fits ja 3: PASS
+OPENING story fits ja 4: PASS
+OPENING story fits ja 5: PASS
+OPENING story fits ja 6: PASS
+OPENING story fits ja 7: PASS
+OPENING story fits ja 8: PASS
+OPENING capture story_ja: PASS
+OPENING story fits zh_TW 0: PASS
+OPENING story fits zh_TW 1: PASS
+OPENING story fits zh_TW 2: PASS
+OPENING story fits zh_TW 3: PASS
+OPENING story fits zh_TW 4: PASS
+OPENING story fits zh_TW 5: PASS
+OPENING story fits zh_TW 6: PASS
+OPENING story fits zh_TW 7: PASS
+OPENING story fits zh_TW 8: PASS
+OPENING capture story_zh_TW: PASS
+OPENING story releases world and camera: PASS
+OPENING departing guide waits for player clearance: PASS
+OPENING blocked departure holds standing pose: PASS
+OPENING departure faces down before turning: PASS
+OPENING capture departure_down: PASS
+OPENING departure turns right on the horizontal path: PASS
+OPENING capture departure_right: PASS
+OPENING departure plays all four right strides: PASS
+OPENING NPC leaves along the path: PASS
+OPENING completed welcome saves: PASS
+OPENING completed slot reopens: PASS
+OPENING completed save skips approach: PASS
+OPENING existing interior position saves: PASS
+OPENING interior slot reopens: PASS
+OPENING existing save preserves its location: PASS
+OPENING second new slot created: PASS
+OPENING natural film end starts approach directly: PASS
+OPENING natural film end reaches welcome: PASS
+OPENING natural opening resumes play: PASS
+OPENING slot card displays default name: PASS
+OPENING COMPLETE checks=115 failures=0

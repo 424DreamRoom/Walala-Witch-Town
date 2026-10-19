@@ -19,23 +19,23 @@ OUT = Path(__file__).resolve().parents[1]
 PROJECT = OUT.parents[2]
 LAYERS = ["Boots", "Clothing", "Face and hands", "Hair", "Headwear", "Accessories"]
 SPECS = [
-    dict(id="mori", name="茉莉", kind="resident", style="braids", hat="7c9c7a", cloth="7c9c7a", hair="b98065", skin="ecc5a3", prop="leaf", apron="efdec1"),
-    dict(id="ember", name="余烬", kind="resident", style="short", head="cap", hat="b68b76", cloth="b68b76", hair="e0c28e", skin="f0d5bb", prop="hammer", apron="795759"),
-    dict(id="nagi", name="澪", kind="resident", style="bob", hat="7b9eb9", cloth="7b9eb9", hair="655575", skin="d09b88", prop="satchel", tip=-1),
-    dict(id="lumi", name="露米", kind="resident", style="long", hat="bc92ad", cloth="bc92ad", hair="d5d2dd", skin="ecc5a3", prop="book", tip=1),
-    dict(id="aster", name="星芒", kind="resident", style="locks", hat="8aa7ad", cloth="8aa7ad", hair="b98065", skin="f0d5bb", prop="star", tip=1),
-    dict(id="toma", name="陶陶", kind="resident", style="curls", head="beret", hat="b18499", cloth="b18499", hair="e0c28e", skin="d09b88", prop="spoon", apron="efdec1"),
-    dict(id="pip", name="皮普", kind="resident", style="short", head="cap", hat="c5a16f", cloth="c5a16f", hair="655575", skin="ecc5a3", prop="goggles"),
-    dict(id="reed", name="芦苇", kind="resident", style="braids", hat="89a590", cloth="89a590", hair="d5d2dd", skin="f0d5bb", prop="reeds", wide=True, tip=-1),
-    dict(id="yuki", name="霜铃", kind="resident", style="bob", hat="b4b8d2", cloth="b4b8d2", hair="b98065", skin="d09b88", prop="letter", tip=1),
-    dict(id="orla", name="奥萝", kind="resident", style="locks", hat="b9a481", cloth="b9a481", hair="e0c28e", skin="ecc5a3", prop="book", wide=True),
-    dict(id="green_braids", name="绿帽棕辫", kind="customer", style="braids", hat="77976e", cloth="88a47b", hair="ad7856", skin="ecc5a3", prop="leaf", apron="efdec1"),
-    dict(id="blue_blonde", name="蓝帽浅金", kind="customer", style="bob", hat="7898b8", cloth="8e9fbd", hair="edcc8a", skin="f5d9b7", prop="satchel", tip=-1),
-    dict(id="burgundy_curls", name="酒红帽卷发", kind="customer", style="curls", hat="ab7187", cloth="b08098", hair="69516d", skin="d09b88", prop="book", tip=1),
-    dict(id="orange_short", name="橙帽短发", kind="customer", style="short", hat="d2a079", cloth="c69b80", hair="555368", skin="e5b09a", prop="satchel"),
-    dict(id="cyan_gray", name="青帽灰发", kind="customer", style="locks", hat="77a8a2", cloth="89aaa7", hair="d0cbd9", skin="f0cbb3", prop="star", tip=-1),
-    dict(id="pink_longblue", name="粉帽深蓝长发", kind="customer", style="long", hat="c78ea5", cloth="b28ead", hair="707599", skin="e2b6a3", prop="letter", tip=1),
-    dict(id="yingluo", name="萤萝", kind="guide", style="bob", hat="668578", cloth="91a487", hair="a49bb7", skin="f0cbb3", prop="lantern", tip=-1),
+    dict(id="mori", name="茉莉", kind="resident", style="braids", hat="8fb07c", cloth="8fb07c", hair="d9926e", skin="ffd8b4", eye="7a5340", prop="leaf", apron="fff1d6"),
+    dict(id="ember", name="余烬", kind="resident", style="short", head="cap", hat="d4a27e", cloth="d4a27e", hair="f2d49a", skin="ffe4c8", eye="6e4e3c", prop="hammer", apron="8a5e5c"),
+    dict(id="nagi", name="澪", kind="resident", style="bob", hat="8ab4d2", cloth="8ab4d2", hair="7a6486", skin="e8b49e", eye="5e4638", prop="satchel", tip=-1),
+    dict(id="lumi", name="露米", kind="resident", style="long", hat="d8a6c4", cloth="d8a6c4", hair="eeeaf4", skin="ffd8b4", eye="7a5340", prop="book", tip=1),
+    dict(id="aster", name="星芒", kind="resident", style="locks", hat="9cc0c6", cloth="9cc0c6", hair="d9926e", skin="ffe4c8", eye="6e4e3c", prop="star", tip=1),
+    dict(id="toma", name="陶陶", kind="resident", style="curls", head="beret", hat="c898ae", cloth="c898ae", hair="f2d49a", skin="e8b49e", eye="5e4638", prop="spoon", apron="fff1d6"),
+    dict(id="pip", name="皮普", kind="resident", style="short", head="cap", hat="e0b87c", cloth="e0b87c", hair="7a6486", skin="ffd8b4", eye="7a5340", prop="goggles"),
+    dict(id="reed", name="芦苇", kind="resident", style="braids", hat="9cbc9e", cloth="9cbc9e", hair="eeeaf4", skin="ffe4c8", eye="6e4e3c", prop="reeds", wide=True, tip=-1),
+    dict(id="yuki", name="霜铃", kind="resident", style="bob", hat="c8cce6", cloth="c8cce6", hair="d9926e", skin="e8b49e", eye="5e4638", prop="letter", tip=1),
+    dict(id="orla", name="奥萝", kind="resident", style="locks", hat="d2bc94", cloth="d2bc94", hair="f2d49a", skin="ffd8b4", eye="7a5340", prop="book", wide=True),
+    dict(id="green_braids", name="绿帽棕辫", kind="customer", style="braids", hat="88ae78", cloth="9cbc88", hair="c88a64", skin="ffd8b4", eye="7a5340", prop="leaf", apron="fff1d6"),
+    dict(id="blue_blonde", name="蓝帽浅金", kind="customer", style="bob", hat="88b0d4", cloth="a4b6d6", hair="f6dc9c", skin="ffe6c6", eye="6e4e3c", prop="satchel", tip=-1),
+    dict(id="burgundy_curls", name="酒红帽卷发", kind="customer", style="curls", hat="c4849c", cloth="c894aa", hair="7c5e80", skin="e8b49e", eye="5e4638", prop="book", tip=1),
+    dict(id="orange_short", name="橙帽短发", kind="customer", style="short", hat="e8b888", cloth="dcb094", hair="68667c", skin="f8c4aa", eye="6e4e3c", prop="satchel"),
+    dict(id="cyan_gray", name="青帽灰发", kind="customer", style="locks", hat="88c0b8", cloth="9cc4c0", hair="e6e0ee", skin="ffdcc0", eye="7a5340", prop="star", tip=-1),
+    dict(id="pink_longblue", name="粉帽深蓝长发", kind="customer", style="long", hat="e0a2bc", cloth="c8a2c4", hair="8488ae", skin="f4c8b4", eye="5e4638", prop="letter", tip=1),
+    dict(id="yingluo", name="萤萝", kind="guide", style="bob", hat="7a9e88", cloth="a8bc9c", hair="b8b0d0", skin="ffdcc0", eye="6e4e3c", prop="lantern", tip=-1),
 ]
 
 
@@ -142,9 +142,9 @@ def preview(assets):
     for s, frames in assets:
         if len(frames) < 2:
             continue
-        start = 0 if s["kind"] == "resident" else 2
+        start = 0 if s["kind"] in ("resident", "guide") else 2
         seq = [im.resize((192, 192), Image.Resampling.NEAREST) for im in frames[start:start + 4]]
-        seq[0].save(OUT / (s["kind"] + "s") / (s["id"] + "-preview.gif"), save_all=True, append_images=seq[1:], duration=140 if s["kind"] == "resident" else 500, loop=0, disposal=2)
+        seq[0].save(OUT / (s["kind"] + "s") / (s["id"] + "-preview.gif"), save_all=True, append_images=seq[1:], duration=140 if s["kind"] in ("resident", "guide") else 500, loop=0, disposal=2)
 
 
 def main():
@@ -152,27 +152,36 @@ def main():
     parser.add_argument("--aseprite", default="C:/steam/steamapps/common/Aseprite/Aseprite.exe")
     parser.add_argument("--replace-generated", action="store_true")
     parser.add_argument("--export-only", action="store_true", help="Export edited native sources without redrawing them")
+    parser.add_argument("--only", choices=[s["id"] for s in SPECS], help="Limit every write to one character and its manifest record")
+    parser.add_argument("--extend-guide", action="store_true", help="Add guide movement, preserving the existing single-frame front pose")
     options = parser.parse_args()
-    targets = [OUT / (s["kind"] + "s") / (s["id"] + ".aseprite") for s in SPECS]
-    if any(p.exists() for p in targets) and not options.replace_generated and not options.export_only:
+    specs = [s for s in SPECS if not options.only or s["id"] == options.only]
+    targets = [OUT / (s["kind"] + "s") / (s["id"] + ".aseprite") for s in specs]
+    if options.extend_guide and (options.only != "yingluo" or options.export_only or options.replace_generated):
+        parser.error("--extend-guide requires --only yingluo and cannot redraw/export other sources")
+    if any(p.exists() for p in targets) and not options.replace_generated and not options.export_only and not options.extend_guide:
         parser.error("Sources already exist. Export edited sources directly in Aseprite; --replace-generated discards edits in NPC32 only.")
     assert OUT.is_relative_to(PROJECT / "Art") and "MyArt" not in OUT.parts
     before = originals()
-    write_json(OUT / "myart-before.json", before)
+    if not options.only: write_json(OUT / "myart-before.json", before)
     for folder in ("residents", "customers", "guides", "portraits"):
         (OUT / folder).mkdir(exist_ok=True)
-    specs_path = OUT / "tools" / "specs.lua"
+    specs_path = OUT / "tools" / ("specs.lua" if not options.only else options.only + "-specs.lua")
+    neutral = decode(targets[0])[0][0].tobytes() if options.extend_guide else None
+    if options.extend_guide and len(decode(targets[0])[0]) != 1:
+        parser.error("Guide already has animation; use --export-only --only yingluo to preserve edits")
     if not options.export_only:
-        specs_path.write_text("return " + lua(SPECS) + "\n", encoding="utf-8")
-        output = run([options.aseprite, "--batch", "--script-param", "out=" + OUT.as_posix(), "--script-param", "specs=" + specs_path.as_posix(), "--script", OUT / "tools/draw_npcs.lua"])
-        (OUT / "authoring.log").write_text(output + "\n", encoding="utf-8")
+        specs_path.write_text("return " + lua(specs) + "\n", encoding="utf-8")
+        params = ["--script-param", "preserve_guide=" + targets[0].as_posix()] if options.extend_guide else []
+        output = run([options.aseprite, "--batch", "--script-param", "out=" + OUT.as_posix(), "--script-param", "specs=" + specs_path.as_posix(), *params, "--script", OUT / "tools/draw_npcs.lua"])
+        (OUT / ("authoring.log" if not options.only else options.only + "-authoring.log")).write_text(output + "\n", encoding="utf-8")
     assets, manifest = [], []
-    for s, source in zip(SPECS, targets):
+    for s, source in zip(specs, targets):
         png, metadata = source.with_suffix(".png"), source.with_suffix(".json")
         assert source.exists(), source
         run([options.aseprite, "--batch", source, "--sheet-type", "horizontal", "--sheet", png, "--format", "json-array", "--list-tags", "--list-layers", "--data", metadata])
         frames, durations = decode(source)
-        count = 22 if s["kind"] == "resident" else 6 if s["kind"] == "customer" else 1
+        count = 22 if s["kind"] == "resident" else 6 if s["kind"] == "customer" else 21
         assert len(frames) == count
         sheet = Image.open(png).convert("RGBA")
         assert sheet.size == (32 * count, 32)
@@ -180,25 +189,40 @@ def main():
         for f, frame in enumerate(frames):
             assert frame.tobytes() == sheet.crop((f * 32, 0, (f + 1) * 32, 32)).tobytes(), (s["id"], f)
             assert frame.getbbox() and frame.getbbox()[3] == 32, (s["id"], f, "feet")
-        if s["kind"] == "resident":
+        if s["kind"] in ("resident", "guide"):
             for d in range(4):
                 assert len({f.tobytes() for f in frames[d * 4:d * 4 + 4]}) == 4
-        if count > 1:
+        if s["kind"] != "guide":
             start = 16 if count == 22 else 0
             assert frames[start].tobytes() != frames[start + 1].tobytes()
             assert len({f.tobytes() for f in frames[start + 2:start + 6]}) == 4
         tags = json.loads(metadata.read_text(encoding="utf-8"))["meta"]["frameTags"]
-        if s["kind"] == "resident":
+        if s["kind"] == "guide":
+            assert neutral is None or frames[16].tobytes() == neutral, "Original guide front pose changed"
+            assert frames[16].tobytes() != frames[17].tobytes()
+        if s["kind"] in ("resident", "guide"):
             portrait = OUT / "portraits" / (s["id"] + ".png")
             run([options.aseprite, "--batch", "--frame-range", "16,16", source, "--sheet", portrait])
             assert Image.open(portrait).convert("RGBA").tobytes() == frames[16].tobytes()
+            if s["kind"] == "guide":
+                # Export-only also updates the native single-frame portrait.
+                run([options.aseprite, "--batch", "--frame-range", "16,16", source, "--save-as", portrait.with_suffix(".aseprite")])
         assets.append((s, frames))
         manifest.append(dict(id=s["id"], name=s["name"], kind=s["kind"], source=source.relative_to(OUT).as_posix(), png=png.relative_to(OUT).as_posix(), canvas=[32, 32], frames=count, layers=LAYERS, tags=tags, durations_ms=durations, palette_colors=len(set(sheet.get_flattened_data())) - 1, anchor=[16, 32], source_sha256=sha(source), png_sha256=sha(png)))
         print(f"PASS {s['id']}: native Aseprite 32x32, {count} frames, 6 editable layers, exact PNG match")
     assert originals() == before, "MyArt changed during authoring"
-    write_json(OUT / "manifest.json", dict(authoring="Aseprite native Lua Image:drawPixel and Sprite:saveAs; no raster imports, resizing or binary source-file writer", aseprite=options.aseprite, assets=manifest))
-    write_json(OUT / "validation.json", dict(status="PASS", npc_count=len(assets), decoded_frames=sum(len(f) for _, f in assets), canvas=[32, 32], native_aseprite_authored=True, aseprite_reopen_export_verified=True, editable_layers=6, every_composite_matches_native_export=True, alpha=[0, 255], feet_anchor=[16, 32], all_walk_and_eat_frames_distinct=True, myart_unchanged=True, protected_originals=len(before)))
-    preview(assets)
+    combined = json.loads((OUT / "manifest.json").read_text(encoding="utf-8")) if options.only else dict(authoring="Aseprite native Lua Image:drawPixel and Sprite:saveAs; no raster imports, resizing or binary source-file writer", aseprite=options.aseprite, assets=[])
+    if options.only:
+        combined["assets"] = [manifest[0] if entry["id"] == options.only else entry for entry in combined["assets"]]
+    else: combined["assets"] = manifest
+    write_json(OUT / "manifest.json", combined)
+    write_json(OUT / ("validation.json" if not options.only else options.only + "-validation.json"), dict(status="PASS", npc_count=len(assets), decoded_frames=sum(len(f) for _, f in assets), canvas=[32, 32], native_aseprite_authored=True, aseprite_reopen_export_verified=True, editable_layers=6, every_composite_matches_native_export=True, alpha=[0, 255], feet_anchor=[16, 32], all_walk_and_eat_frames_distinct=True, original_front_pose_preserved=neutral is not None, myart_unchanged=True, protected_originals=len(before)))
+    if not options.only: preview(assets)
+    elif options.only == "yingluo":
+        guide_frames = assets[0][1]
+        for direction, start in zip(("down", "up", "right", "left"), (0,4,8,12)):
+            sequence = [frame.resize((192,192), Image.Resampling.NEAREST) for frame in guide_frames[start:start+4]]
+            sequence[0].save(OUT / "guides" / ("yingluo-walk-" + direction + ".gif"), save_all=True, append_images=sequence[1:], duration=140, loop=0, disposal=2)
     print(f"PASS {len(assets)} NPCs / {sum(len(f) for _, f in assets)} frames; MyArt SHA256 unchanged ({len(before)} files)")
 
 

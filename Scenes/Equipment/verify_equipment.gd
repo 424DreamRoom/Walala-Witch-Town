@@ -25,6 +25,15 @@ func check(title: String, passed: bool) -> void:
 func frames(count: int = 3) -> void:
 	for index in range(count): await process_frame
 
+func cast() -> void:
+	for pressed in [true, false]:
+		var event := InputEventMouseButton.new()
+		event.button_index = MOUSE_BUTTON_LEFT
+		event.position = root.get_visible_rect().size / 2.0
+		event.pressed = pressed
+		root.push_input(event, true)
+		await frames()
+
 func key(code: Key) -> void:
 	for pressed in [true, false]:
 		var event := InputEventKey.new()
@@ -113,6 +122,7 @@ func domain_checks() -> void:
 	for rank in range(4):
 		for kind in ["wood", "ore"]:
 			var gather := State.new()
+			gather.wand_mode = "red"
 			gather.equipment[State.RESOURCE_TOOLS[kind]] = rank
 			var hits := 0
 			while gather.resource_left("sample") > 0:
@@ -123,6 +133,7 @@ func domain_checks() -> void:
 			check("rank changes hits and yield " + kind + str(rank), hits == expected_hits and gather.resources[kind] == expected_yield)
 			check("depleted resource cannot pay again " + kind + str(rank), gather.strike_resource("sample", kind) == -1 and gather.resources[kind] == expected_yield)
 		var farm := State.new()
+		farm.wand_mode = "blue"
 		for entry in State.FarmTerrain.layout.props: farm.resource_damage[entry.resource_id] = State.RESOURCE_HITS
 		farm.equipment.wand = rank
 		check("wand area " + str(rank), farm.work_farm_tile(41) and farm.farm.plots.size() == [1, 3, 9, 15][rank])
@@ -138,6 +149,7 @@ func domain_checks() -> void:
 			check("upgraded fishing quota " + str(rank) + ":" + str(catch_index), fishing.catch_fish("pond"))
 		check("upgraded fishing quota stops without duplicate fish " + str(rank), not fishing.catch_fish("pond") and fishing.resources.fish == 3 + rank)
 		var bag := State.new()
+		bag.wand_mode = "blue"
 		bag.equipment.bag = rank
 		var capacity: int = Catalog.BAG_CAPACITIES[rank]
 		bag.bag_slots = []
@@ -161,6 +173,7 @@ func domain_checks() -> void:
 		bag.process_raw()
 		check("prep preserves full upgraded inventory " + str(rank), bag.materials[0] + bag.materials[1] + bag.materials[2] == (capacity - 1) * 99)
 	var farm := State.new()
+	farm.wand_mode = "blue"
 	for entry in State.FarmTerrain.layout.props: farm.resource_damage[entry.resource_id] = State.RESOURCE_HITS
 	farm.equipment.wand = 3
 	farm.farm.plots["40"] = {"growth": 2, "watered": true}
@@ -306,12 +319,13 @@ func run() -> void:
 	loop.enter("blacksmith")
 	await frames()
 	check("NPC is installed with collision", loop.area.get_node_or_null("BlacksmithNPC") != null and loop.area.solids.size() == 16)
+	lane.player.position = Vector2(48, 420)
 	loop.hud.open_equipment_upgrades(loop.area)
 	check("NPC service cannot open remotely", loop.hud.mode.is_empty())
 	lane.player.position = loop.area.stations.service
 	lane.camera.force_update_scroll()
 	await shot("blacksmith_npc")
-	await key(KEY_E)
+	await cast()
 	check("interaction opens smith services", loop.area.service_panel.visible)
 	rich(loop.state)
 	await shot("smith_upgrade_services")
@@ -382,7 +396,7 @@ func run() -> void:
 	check("closing service resumes world", not paused and loop.hud.mode.is_empty())
 	loop.area._open_upgrades("wand")
 	check("queued hidden counter cannot reopen upgrades", loop.hud.mode.is_empty())
-	await key(KEY_E)
+	await cast()
 	await click(loop.area.service_panel.get_node("EquipmentUpgrades"))
 	check("backpack service selects backpack", loop.hud.modal.get_node("EquipmentUpgrades").selected == "bag")
 	loop.hud.close_modal()
@@ -399,12 +413,14 @@ func run() -> void:
 	check("mapped interaction key assignment", root.get_node("InputBindings").assign_key("interact", 0, KEY_F).ok)
 	await key(KEY_E)
 	check("old key does not open NPC service", not loop.area.service_panel.visible)
+	loop.state.select_hotbar_slot(9)
 	await key(KEY_F)
 	check("new key opens NPC service", loop.area.service_panel.visible)
 	await key(KEY_ESCAPE)
 	Items.ensure_bag(loop.state)
 	loop.state.select_hotbar_slot(loop.state.bag_slots.find({"id": "wand", "count": 1}))
 	check("reinserted wand is selected for field work", loop.state.is_item_selected("wand"))
+	loop.state.wand_mode = "red"
 	loop.enter("field")
 	var tree = loop.area.resource_nodes.filter(func(node): return node.resource_kind == "wood")[0]
 	lane.player.position = tree.anchor

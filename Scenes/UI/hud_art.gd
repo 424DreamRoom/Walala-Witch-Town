@@ -1,6 +1,7 @@
 extends Control
 ## Native pixel ornaments, with shared food textures preferring MyArt.
 var kind := "clock"
+var wand_mode := "red"
 var progress := 0.0
 var night := false
 var weather := "clear"
@@ -11,6 +12,7 @@ const NATIVE_IDS := ["seed", "wand", "mushroom", "berry", "herb", "journal", "ba
 const UISkin = preload("res://Scenes/Gameplay/ui_skin.gd")
 const FoodIcons = preload("res://Scenes/UI/food_icons.gd")
 const ShopFood = preload("res://Scenes/Businesses/food_catalog.gd")
+const WandVisuals = preload("res://Scenes/Equipment/wand_visuals.gd")
 const INK := Color("422b32")
 const GOLD := Color("dfb66f")
 const PAPER := Color("f4e5bf")
@@ -32,6 +34,9 @@ func box(x: float, y: float, w: float, h: float, color: Color) -> void:
 	draw_rect(Rect2(x, y, w, h), color)
 
 func _draw() -> void:
+	if kind == "wand":
+		draw_texture(WandVisuals.icon_texture(wand_mode), Vector2.ZERO)
+		return
 	if kind in ShopFood.DATA:
 		var texture: Texture2D = ShopFood.DATA[kind].texture
 		draw_texture(texture, ((size - texture.get_size()) / 2.0).floor())

@@ -1,0 +1,22 @@
+{
+  "wand": {
+    "pass_count": 130,
+    "passed": true
+  },
+  "farm": {
+    "pass_count": 180,
+    "passed": true
+  },
+  "harvest": {
+    "pass_count": 87,
+    "passed": true
+  },
+  "hotbar": {
+    "pass_count": 74,
+    "passed": true
+  },
+  "campaign": {
+    "pass_count": 2043,
+    "passed": true
+  }
+}

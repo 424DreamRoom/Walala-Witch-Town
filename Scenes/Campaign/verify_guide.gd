@@ -2,6 +2,7 @@ extends SceneTree
 const State = preload("res://Scenes/Gameplay/loop_state.gd")
 const C = preload("res://Scenes/Campaign/campaign_state.gd")
 const Guide = preload("res://Scenes/Campaign/guide_profile.gd")
+const Onboarding = preload("res://Scenes/Campaign/onboarding.gd")
 const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const Saves = preload("res://Scenes/Save/save_store.gd")
 const I18n = preload("res://Localization/localized_text.gd")
@@ -62,7 +63,7 @@ func run() -> void:
 	var controller = loop.campaign_controller
 	var guide = controller.guide
 	check("guide is separate from ten residents", controller.actors.size() == 10 and guide.get_parent() == lane.actors and guide.has_node("FeetCollision"))
-	check("guide uses a native 32x32 texture on the pixel grid", guide.sprite.texture.get_size() == Vector2(32,32) and guide.sprite.scale == Vector2.ONE and guide.sprite.offset == Vector2(0,-16) and guide.sprite.position == Vector2.ZERO)
+	check("guide uses native 32x32 frames on the pixel grid", guide.sprite.texture.get_size() == Vector2(21*32,32) and guide.sprite.hframes == 21 and guide.sprite.frame == 16 and guide.sprite.scale == Vector2.ONE and guide.sprite.offset == Vector2(0,-16) and guide.sprite.position == Vector2.ZERO)
 	var clear := true
 	for rect in controller.routines.obstacles:
 		if rect.intersects(Rect2(guide.position - Vector2(5,6), Vector2(10,6))): clear = false
@@ -118,7 +119,8 @@ func run() -> void:
 		loop.hud.line_index = 1
 		loop.hud._show_line()
 		service.set_language("en" if language != "en" else "ja", false)
-		check("dynamic goal switches language " + language, loop.hud.dialogue_text.text == I18n.format("当前目标：%s · %d/%d", [C.D.quests[2].objective, 0, 5]))
+		var step := Onboarding.current(loop.state)
+		check("dynamic goal switches language " + language, loop.hud.dialogue_text.text == I18n.format("当前目标：%s · %d/%d", [step.objective, step.progress, step.goal]))
 		service.set_language(language, false)
 		finish_lines()
 		await shot("goal_" + language)

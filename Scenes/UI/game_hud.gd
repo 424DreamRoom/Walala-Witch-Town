@@ -9,6 +9,7 @@ const TextMotion = preload("res://Scenes/UI/rich_text_motion.gd")
 const GameMap = preload("res://Scenes/Map/game_map.gd")
 const ChestUI = preload("res://Scenes/Storage/chest_ui.gd")
 const Items = preload("res://Scenes/Storage/inventory_items.gd")
+const Onboarding = preload("res://Scenes/Campaign/onboarding.gd")
 static var HOTBAR_DIGITS: Font = preload("res://Art/Source/aseprite_source.gd").resource("res://Art/Fonts/HudDigits8/digits8.tres")
 const HOTBAR_SLOTS := Items.HOTBAR_SLOTS
 const HOTBAR_SHORTCUTS := ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
@@ -30,11 +31,19 @@ var hotbar_selection: Panel
 var date_label: Label
 var time_label: Label
 var period_label: Label
+var objective_panel: Panel
+var objective_title: Label
+var objective_text: Label
 var slot_counts: Array[Label] = []
 var modal: Control
 var mode := ""
 var paused_before := false
 var dialogue_text: RichTextLabel
+var dialogue_speaker: Label
+var dialogue_portrait: TextureRect
+var default_speaker := ""
+var default_portrait := ""
+var default_portrait_region := Rect2()
 var choices_root: Control
 var lines: Array = []
 var line_index := 0
@@ -72,11 +81,12 @@ func _refresh_language(_locale: String) -> void:
 			map_view.refresh_language()
 		"dialogue":
 			var complete := dialogue_text.visible_characters < 0 or dialogue_text.visible_characters >= dialogue_text.get_total_character_count()
+			_refresh_dialogue_speaker()
 			dialogue_text.text = _dialogue_line(line_index)
 			dialogue_text.visible_characters = dialogue_text.get_total_character_count() if complete else 0
 			reveal = float(dialogue_text.visible_characters)
 			history.clear()
-			for index in range(line_index + 1): history.append(_dialogue_line(index))
+			for index in range(line_index + 1): history.append(_history_line(index))
 			history_label.text = tr("对话回看\n") + "\n".join(history)
 			if complete: _line_complete()
 
@@ -154,6 +164,13 @@ func _build_hud() -> void:
 	period_label = label("",Rect2(116,5,36,16),watch,UISkin.MUTED_INK)
 	period_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	weather_art = ornament("weather",Vector2(130,23),watch)
+	objective_panel = panel(Rect2(374,8,258,52),base)
+	objective_panel.name = "CurrentObjective"
+	objective_title = label("",Rect2(8,5,242,18),objective_panel)
+	objective_text = label("",Rect2(8,27,242,18),objective_panel,UISkin.MUTED_INK)
+	for part in [objective_title, objective_text]:
+		part.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+		part.clip_text = true
 	var bar_position := Vector2((base.size.x - HOTBAR_SIZE.x) / 2, base.size.y - HOTBAR_SIZE.y)
 	hotbar_art = ornament("hotbar", bar_position, base, HOTBAR_SIZE)
 	hotbar_art.name = "InventoryBar"
@@ -219,6 +236,11 @@ func item_counts() -> Array:
 
 func refresh() -> void:
 	var s = loop.state
+	var goal := Onboarding.current(s)
+	objective_panel.visible = not goal.is_empty() and s.campaign.guide_met and s.campaign.introduced and mode.is_empty() and s.phase != "result" and not (loop.campaign_controller != null and loop.campaign_controller.opening_active())
+	if objective_panel.visible:
+		objective_title.text = I18n.format("%s · %d/%d",[goal.objective,goal.progress,goal.goal])
+		objective_text.text = tr(goal.place)
 	var minutes: int = s.get_clock_minutes()
 	var night_time: bool = s.get_time_of_day() == "night"
 	date_label.text = I18n.format("第%d天·周%s", [s.day,["一","二","三","四","五","六","日"][(s.day-1)%7]])
@@ -239,7 +261,9 @@ func refresh() -> void:
 		slot_counts[i].text = str(count) if count > 1 else ""
 		var cell := slot_counts[i].get_parent()
 		cell.tooltip_text = tr("空格子") if id.is_empty() else tr(Items.NAMES[id])
+		if id == "wand": cell.tooltip_text = tr(Art.WandVisuals.NAMES[s.wand_mode])
 		cell.get_node("Icon").kind = id
+		cell.get_node("Icon").wand_mode = s.wand_mode
 		cell.get_node("Icon").queue_redraw()
 	loop.header.hide()
 	loop.inventory.hide()
@@ -283,6 +307,7 @@ func _begin_modal(new_mode: String) -> bool:
 	paused_before = get_tree().paused
 	get_tree().paused = true
 	mode = new_mode
+	objective_panel.hide()
 	loop.audio.play_event("ui_book_open" if new_mode == "journal" else "ui_open")
 	modal = ColorRect.new()
 	modal.name = "HUDModal"
@@ -302,6 +327,7 @@ func close_modal() -> void:
 	modal = null
 	mode = ""
 	get_tree().paused = paused_before
+	refresh()
 
 func open_journal() -> void:
 	if loop.campaign_controller != null:
@@ -359,6 +385,9 @@ func start_dialogue(speaker: String, portrait_path: String, dialogue_lines: Arra
 	choices = dialogue_choices.duplicate()
 	line_index = 0
 	history.clear()
+	default_speaker = speaker
+	default_portrait = portrait_path
+	default_portrait_region = portrait_region
 	var dialogue_layout := Control.new()
 	dialogue_layout.name = "DialogueLayout"
 	dialogue_layout.size = Vector2(640,310)
@@ -385,12 +414,15 @@ func start_dialogue(speaker: String, portrait_path: String, dialogue_lines: Arra
 	stamp.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	stamp.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	portrait.add_child(stamp)
+	dialogue_portrait = stamp
 	label("小镇来信",Rect2(8,82,72,16),portrait,UISkin.MUTED_INK)
 	var name_plate := button("",Rect2(152,200,110,26),dialogue_layout,func(): pass)
 	name_plate.name = "DialogueNamePlate"
 	name_plate.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	var speaker_label := label(speaker,Rect2(4,0,102,26),name_plate,name_plate.get_theme_color("font_color"))
 	speaker_label.name = "DialogueSpeaker"
+	speaker_label.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	dialogue_speaker = speaker_label
 	speaker_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	speaker_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	speaker_label.add_theme_constant_override("line_spacing", 0)
@@ -424,11 +456,35 @@ func _dialogue_line(index: int) -> String:
 	if line is Dictionary: return I18n.format(line.source, line.args)
 	return tr(str(line))
 
+func _history_line(index: int) -> String:
+	var line: Variant = lines[index]
+	if line is Dictionary and line.has("speaker"):
+		var speaker: String = tr(line.speaker) if line.get("translate_speaker", true) else line.speaker
+		return speaker + "：" + _dialogue_line(index)
+	return _dialogue_line(index)
+
+func _refresh_dialogue_speaker() -> void:
+	var line: Variant = lines[line_index]
+	var beat: Dictionary = line if line is Dictionary else {}
+	var speaker: String = beat.get("speaker", default_speaker)
+	dialogue_speaker.text = tr(speaker) if beat.get("translate_speaker", true) else speaker
+	var portrait_path: String = beat.get("portrait", default_portrait)
+	var region: Rect2 = beat.get("portrait_region", default_portrait_region)
+	var texture: Texture2D = load(portrait_path)
+	if region.has_area():
+		var atlas := AtlasTexture.new()
+		atlas.atlas = texture
+		atlas.region = region
+		dialogue_portrait.texture = atlas
+	else:
+		dialogue_portrait.texture = texture
+
 func _show_line() -> void:
+	_refresh_dialogue_speaker()
 	dialogue_text.text = _dialogue_line(line_index)
 	dialogue_text.visible_characters = 0
 	reveal = 0.0
-	history.append(dialogue_text.text)
+	history.append(_history_line(line_index))
 	history_label.text = tr("对话回看\n") + "\n".join(history)
 	choices_root.hide()
 	if dialogue_text.get_total_character_count() == 0: _line_complete()

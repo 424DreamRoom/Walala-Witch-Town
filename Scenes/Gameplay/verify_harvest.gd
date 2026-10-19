@@ -22,6 +22,15 @@ func frames(count: int = 3) -> void:
 	for i in range(count):
 		await process_frame
 
+func cast() -> void:
+	for pressed in [true, false]:
+		var event := InputEventMouseButton.new()
+		event.button_index = MOUSE_BUTTON_LEFT
+		event.position = root.get_visible_rect().size / 2.0
+		event.pressed = pressed
+		root.push_input(event, true)
+		await frames()
+
 func key(code: int) -> void:
 	for pressed in [true, false]:
 		var event := InputEventKey.new()
@@ -78,15 +87,15 @@ func wait_action(expected: String, seconds: float = 6.0) -> void:
 
 func swing(node, name: String) -> void:
 	var before: int = loop.state.resource_left(node.resource_id)
-	await key(KEY_E)
-	check(name + " starts via E", harvest.busy())
+	await cast()
+	check(name + " starts via left mouse", harvest.busy())
 	var start: Vector2 = lane.player.position
 	lane.test_direction = Vector2.LEFT
 	await create_timer(0.12).timeout
 	lane.test_direction = Vector2.ZERO
 	check(name + " swing locks movement", lane.player.position.distance_to(start) < 0.01)
-	await key(KEY_E)
-	check(name + " repeated E does not restart", harvest.elapsed > 0.1)
+	await cast()
+	check(name + " repeated mouse press does not restart", harvest.elapsed > 0.1)
 	if capture:
 		harvest.paused_for_test = true
 		harvest.elapsed = 0.38
@@ -104,6 +113,7 @@ func run() -> void:
 	lane.automation = true
 	loop = lane.get_node("GameLoop")
 	loop.paused_for_test = true
+	loop.state.wand_mode = "red"
 	loop.enter("town")
 	# Neutral noon light keeps the sprite pixel comparison independent of dawn tint.
 	loop.state.remaining = loop.state.DAY_SECONDS * 0.5
@@ -122,7 +132,7 @@ func run() -> void:
 	var tree = resource("field_tree_7")
 	await walk_to(tree.anchor)
 	loop.state.tools.wand = 0
-	await key(KEY_E)
+	await cast()
 	check("missing wand blocks chopping before animation", not harvest.busy() and loop.state.resource_left(tree.resource_id) == 3 and loop.state.resources.wood == 0)
 	check("missing wand blocks direct resource mutation", loop.state.strike_resource(tree.resource_id, "wood") == -1 and loop.state.resource_left(tree.resource_id) == 3)
 	loop.state.tools.wand = 1
@@ -142,12 +152,12 @@ func run() -> void:
 	check("chopping keeps starter tools", loop.state.tools == loop.state.STARTING_TOOLS)
 	check("tree changes to stump", not tree.available() and tree.sprite.texture == tree.depleted)
 	await shot("stump")
-	await key(KEY_E)
+	await cast()
 	check("stump cannot give duplicate reward", not harvest.busy() and loop.state.resources.wood == 3)
 	var ore = resource("field_ore_0")
 	await walk_to(ore.anchor)
 	loop.state.tools.wand = 0
-	await key(KEY_E)
+	await cast()
 	check("missing wand blocks mining before animation", not harvest.busy() and loop.state.resource_left(ore.resource_id) == 3 and loop.state.resources.ore == 0)
 	loop.state.tools.wand = 1
 	for i in range(3):
@@ -155,24 +165,24 @@ func run() -> void:
 	check("ore rewards two minerals", loop.state.resources.ore == 2)
 	check("mining keeps starter tools", loop.state.tools == loop.state.STARTING_TOOLS)
 	check("ore changes to rubble", not ore.available() and ore.sprite.texture == ore.depleted)
-	await key(KEY_E)
+	await cast()
 	check("rubble cannot give duplicate reward", not harvest.busy() and loop.state.resources.ore == 2)
 	var pond = resource("field_pond")
 	await walk_to(Vector2(350, 256))
 	await walk_to(pond.anchor)
-	await key(KEY_E)
+	await cast()
 	await wait_action("wait")
-	await key(KEY_E)
+	await cast()
 	check("early reel fails without reward", not harvest.busy() and loop.state.resources.fish == 0)
-	await key(KEY_E)
+	await cast()
 	await wait_action("wait")
 	await shot("fishing_wait")
 	await wait_action("bite")
 	if capture:
 		harvest.paused_for_test = true
 		await shot("fishing_bite")
-	await key(KEY_E)
-	check("bite E begins reel", harvest.action == "reel")
+	await cast()
+	check("bite mouse press begins reel", harvest.action == "reel")
 	if capture:
 		harvest.elapsed = 0.25
 		harvest.update_pose()
@@ -182,27 +192,27 @@ func run() -> void:
 	check("successful reel rewards one fish", loop.state.resources.fish == 1 and loop.state.fish_left(pond.resource_id) == 2)
 	check("collected resources appear in UI", loop.inventory.text.contains("木材3") and loop.inventory.text.contains("矿石2") and loop.inventory.text.contains("鱼1"))
 	await shot("resources_collected")
-	await key(KEY_E)
+	await cast()
 	await wait_action("bite")
 	await wait_action("")
 	check("missed bite gives no fish", loop.state.resources.fish == 1 and loop.state.fish_left(pond.resource_id) == 2)
-	await key(KEY_E)
+	await cast()
 	await key(KEY_ESCAPE)
 	check("Escape cancels", not harvest.busy() and lane.avatar.visible)
-	await key(KEY_E)
+	await cast()
 	lane.test_direction = Vector2.LEFT
 	await physics_frame
 	await physics_frame
 	lane.test_direction = Vector2.ZERO
 	check("movement cancels fishing", not harvest.busy() and lane.avatar.visible)
 	await walk_to(pond.anchor)
-	await key(KEY_E)
+	await cast()
 	await key(KEY_R)
 	check("reset cancels action", not harvest.busy() and lane.player.position.distance_to(loop.area.spawn) < 1)
 	# Isolate day/scene boundaries before the first tool impact.
 	var ore2 = resource("field_ore_1")
 	lane.player.position = ore2.anchor
-	await key(KEY_E)
+	await cast()
 	loop.enter("town")
 	await create_timer(0.8).timeout
 	check("scene switch cancels pending hit", loop.state.resource_left("field_ore_1") == 3 and loop.state.resources.ore == 2)
@@ -210,10 +220,10 @@ func run() -> void:
 	await frames()
 	ore2 = resource("field_ore_1")
 	lane.player.position = ore2.anchor
-	await key(KEY_E)
+	await cast()
 	loop.state.remaining = 0.01
 	loop.paused_for_test = false
-	await create_timer(0.1).timeout
+	await create_timer(0.65).timeout
 	check("day end cancels action and moves to restaurant preparation", not harvest.busy() and loop.location == "restaurant" and loop.state.phase == "day" and loop.state.remaining <= 0.0)
 	check("day end gives no pending reward", loop.state.resource_left("field_ore_1") == 3 and loop.state.resources.ore == 2)
 	loop.paused_for_test = true
@@ -224,6 +234,7 @@ func run() -> void:
 	var carried_resources: Dictionary = loop.state.resources.duplicate()
 	loop.end_phase()
 	loop.end_phase()
+	await create_timer(0.65).timeout
 	check("resources carry into next day", loop.state.day == 2 and loop.state.resources == carried_resources)
 	check("nodes and fish refresh next day", loop.state.resource_left("field_tree_7") == 3 and loop.state.fish_left("field_pond") == 3)
 	loop.enter("field")

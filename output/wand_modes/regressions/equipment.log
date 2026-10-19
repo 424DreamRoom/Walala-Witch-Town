@@ -1,0 +1,590 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+EQUIPMENT TEST legacy four tools merge into one wand: PASS
+EQUIPMENT TEST migration preserves water, fish progress and ordinary slot positions: PASS
+EQUIPMENT TEST migration frees redundant tool slots: PASS
+EQUIPMENT TEST migrated save is idempotent: PASS
+EQUIPMENT TEST stored legacy tools stay stored as one upgraded wand: PASS
+EQUIPMENT TEST stored migration preserves ordinary chest positions: PASS
+EQUIPMENT TEST migration rejects duplicate old ownership: PASS
+EQUIPMENT TEST migration rejects mismatched chest mirrors: PASS
+EQUIPMENT TEST overflow migrates without losing deferred resources: PASS
+EQUIPMENT TEST legacy fishing upgrade contributes to wand rank: PASS
+EQUIPMENT TEST implicit basic fishing rod migrates when other old tools are absent: PASS
+EQUIPMENT TEST missing wand blocks all gathering actions: PASS
+EQUIPMENT TEST specific failure without charge coins: PASS
+EQUIPMENT TEST specific failure without charge wood: PASS
+EQUIPMENT TEST specific failure without charge iron: PASS
+EQUIPMENT TEST specific failure without charge wand: PASS
+EQUIPMENT TEST specific failure without charge night: PASS
+EQUIPMENT TEST specific failure without charge maximum: PASS
+EQUIPMENT TEST specific failure without charge invalid: PASS
+EQUIPMENT TEST exact first cost succeeds and preserves water: PASS
+EQUIPMENT TEST basic capacities stay compatible: PASS
+EQUIPMENT TEST old saves receive basic ranks: PASS
+EQUIPMENT TEST insufficient funds do not mutate: PASS
+EQUIPMENT TEST missing tool cannot be upgraded: PASS
+EQUIPMENT TEST exact upgrade cost wand1: PASS
+EQUIPMENT TEST exact upgrade cost wand2: PASS
+EQUIPMENT TEST exact upgrade cost wand3: PASS
+EQUIPMENT TEST maximum rank cannot charge wand: PASS
+EQUIPMENT TEST exact upgrade cost bag1: PASS
+EQUIPMENT TEST exact upgrade cost bag2: PASS
+EQUIPMENT TEST exact upgrade cost bag3: PASS
+EQUIPMENT TEST maximum rank cannot charge bag: PASS
+EQUIPMENT TEST ownership counts are unchanged by ranks: PASS
+EQUIPMENT TEST upgraded water and full bag validate: PASS
+EQUIPMENT TEST oversized upgraded bag is rejected: PASS
+EQUIPMENT TEST oversized upgraded water is rejected: PASS
+EQUIPMENT TEST invalid rank rejected -1: PASS
+EQUIPMENT TEST invalid rank rejected 4: PASS
+EQUIPMENT TEST invalid rank rejected 0.5: PASS
+EQUIPMENT TEST invalid rank rejected 1: PASS
+EQUIPMENT TEST incomplete ranks rejected: PASS
+EQUIPMENT TEST upgraded missing tool rejected: PASS
+EQUIPMENT TEST night upgrades rejected without charge: PASS
+EQUIPMENT TEST rank changes hits and yield wood0: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood0: PASS
+EQUIPMENT TEST rank changes hits and yield ore0: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore0: PASS
+EQUIPMENT TEST wand area 0: PASS
+EQUIPMENT TEST wand clips at field edges 0: PASS
+EQUIPMENT TEST refill respects water upgrade 0: PASS
+EQUIPMENT TEST upgraded fishing quota 0:0: PASS
+EQUIPMENT TEST upgraded fishing quota 0:1: PASS
+EQUIPMENT TEST upgraded fishing quota 0:2: PASS
+EQUIPMENT TEST upgraded fishing quota stops without duplicate fish 0: PASS
+EQUIPMENT TEST gather fills upgraded capacity 0: PASS
+EQUIPMENT TEST gather overflow keeps node 0: PASS
+EQUIPMENT TEST buy uses upgraded capacity 0: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 0: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 0: PASS
+EQUIPMENT TEST full bag preserves mature crop 0: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 0: PASS
+EQUIPMENT TEST rank changes hits and yield wood1: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood1: PASS
+EQUIPMENT TEST rank changes hits and yield ore1: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore1: PASS
+EQUIPMENT TEST wand area 1: PASS
+EQUIPMENT TEST wand clips at field edges 1: PASS
+EQUIPMENT TEST refill respects water upgrade 1: PASS
+EQUIPMENT TEST upgraded fishing quota 1:0: PASS
+EQUIPMENT TEST upgraded fishing quota 1:1: PASS
+EQUIPMENT TEST upgraded fishing quota 1:2: PASS
+EQUIPMENT TEST upgraded fishing quota 1:3: PASS
+EQUIPMENT TEST upgraded fishing quota stops without duplicate fish 1: PASS
+EQUIPMENT TEST gather fills upgraded capacity 1: PASS
+EQUIPMENT TEST gather overflow keeps node 1: PASS
+EQUIPMENT TEST buy uses upgraded capacity 1: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 1: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 1: PASS
+EQUIPMENT TEST full bag preserves mature crop 1: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 1: PASS
+EQUIPMENT TEST rank changes hits and yield wood2: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood2: PASS
+EQUIPMENT TEST rank changes hits and yield ore2: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore2: PASS
+EQUIPMENT TEST wand area 2: PASS
+EQUIPMENT TEST wand clips at field edges 2: PASS
+EQUIPMENT TEST refill respects water upgrade 2: PASS
+EQUIPMENT TEST upgraded fishing quota 2:0: PASS
+EQUIPMENT TEST upgraded fishing quota 2:1: PASS
+EQUIPMENT TEST upgraded fishing quota 2:2: PASS
+EQUIPMENT TEST upgraded fishing quota 2:3: PASS
+EQUIPMENT TEST upgraded fishing quota 2:4: PASS
+EQUIPMENT TEST upgraded fishing quota stops without duplicate fish 2: PASS
+EQUIPMENT TEST gather fills upgraded capacity 2: PASS
+EQUIPMENT TEST gather overflow keeps node 2: PASS
+EQUIPMENT TEST buy uses upgraded capacity 2: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 2: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 2: PASS
+EQUIPMENT TEST full bag preserves mature crop 2: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 2: PASS
+EQUIPMENT TEST rank changes hits and yield wood3: PASS
+EQUIPMENT TEST depleted resource cannot pay again wood3: PASS
+EQUIPMENT TEST rank changes hits and yield ore3: PASS
+EQUIPMENT TEST depleted resource cannot pay again ore3: PASS
+EQUIPMENT TEST wand area 3: PASS
+EQUIPMENT TEST wand clips at field edges 3: PASS
+EQUIPMENT TEST refill respects water upgrade 3: PASS
+EQUIPMENT TEST upgraded fishing quota 3:0: PASS
+EQUIPMENT TEST upgraded fishing quota 3:1: PASS
+EQUIPMENT TEST upgraded fishing quota 3:2: PASS
+EQUIPMENT TEST upgraded fishing quota 3:3: PASS
+EQUIPMENT TEST upgraded fishing quota 3:4: PASS
+EQUIPMENT TEST upgraded fishing quota 3:5: PASS
+EQUIPMENT TEST upgraded fishing quota stops without duplicate fish 3: PASS
+EQUIPMENT TEST gather fills upgraded capacity 3: PASS
+EQUIPMENT TEST gather overflow keeps node 3: PASS
+EQUIPMENT TEST buy uses upgraded capacity 3: PASS
+EQUIPMENT TEST full upgraded bag cannot be charged 3: PASS
+EQUIPMENT TEST farm harvest uses upgraded capacity 3: PASS
+EQUIPMENT TEST full bag preserves mature crop 3: PASS
+EQUIPMENT TEST prep preserves full upgraded inventory 3: PASS
+EQUIPMENT TEST wide wand preserves planted crops: PASS
+EQUIPMENT TEST equipment persists across days: PASS
+EQUIPMENT TEST isolated game slot begins: PASS
+EQUIPMENT TEST NPC is installed with collision: PASS
+EQUIPMENT TEST NPC service cannot open remotely: FAIL
+EQUIPMENT TEST interaction opens smith services: FAIL
+EQUIPMENT TEST NPC upgrade modal pauses world: PASS
+EQUIPMENT TEST dedicated smith entry selects wand: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Panel@2349: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2350: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2350: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2351: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2351: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resources: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_coin: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_wood: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_iron: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2356: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2357: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2357: PASS
+EQUIPMENT TEST control stays within panel zh_CN Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2359: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2360: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2360: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2361: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2364: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2364: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2365: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2365: PASS
+EQUIPMENT TEST attribute description height fits zh_CN 144/166.0: PASS
+EQUIPMENT TEST attribute line fits zh_CN 采集力度 1 → 2: PASS
+EQUIPMENT TEST attribute line fits zh_CN 采集施法 0.68秒 → 0.56秒: PASS
+EQUIPMENT TEST attribute line fits zh_CN 每树木材 3 → 4: PASS
+EQUIPMENT TEST attribute line fits zh_CN 每矿矿石 2 → 3: PASS
+EQUIPMENT TEST attribute line fits zh_CN 储水量 24 → 36: PASS
+EQUIPMENT TEST attribute line fits zh_CN 翻地范围 1×1 → 3×1: PASS
+EQUIPMENT TEST attribute line fits zh_CN 每日钓点鱼数 3 → 4: PASS
+EQUIPMENT TEST attribute line fits zh_CN 咬钩窗口 1.5秒 → 1.9秒: PASS
+EQUIPMENT TEST attribute line fits zh_CN 咬钩等待 2.00–4.00秒 → 1.67–3.33秒: PASS
+EQUIPMENT TEST control stays within panel zh_CN EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_coin: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_wood: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_iron: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Upgrade: FAIL
+EQUIPMENT TEST button fits zh_CN Upgrade: PASS
+EQUIPMENT TEST control stays within panel zh_CN Status: PASS
+EQUIPMENT TEST control stays within panel zh_CN Back: PASS
+EQUIPMENT TEST button fits zh_CN Back: PASS
+EQUIPMENT TEST all nine wand attributes previewed zh_CN: PASS
+EQUIPMENT TEST control stays within panel en @Panel@2349: PASS
+EQUIPMENT TEST control stays within panel en @Label@2350: PASS
+EQUIPMENT TEST label fits en @Label@2350: PASS
+EQUIPMENT TEST control stays within panel en @Label@2351: PASS
+EQUIPMENT TEST label fits en @Label@2351: PASS
+EQUIPMENT TEST control stays within panel en Resources: PASS
+EQUIPMENT TEST control stays within panel en Resource_coin: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Resource_wood: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Resource_iron: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel en @Control@2356: PASS
+EQUIPMENT TEST control stays within panel en @Label@2357: PASS
+EQUIPMENT TEST label fits en @Label@2357: PASS
+EQUIPMENT TEST control stays within panel en Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel en @Control@2359: PASS
+EQUIPMENT TEST control stays within panel en @Label@2360: PASS
+EQUIPMENT TEST label fits en @Label@2360: PASS
+EQUIPMENT TEST control stays within panel en @Control@2361: PASS
+EQUIPMENT TEST control stays within panel en @Label@2373: PASS
+EQUIPMENT TEST label fits en @Label@2373: PASS
+EQUIPMENT TEST control stays within panel en @Label@2374: PASS
+EQUIPMENT TEST label fits en @Label@2374: PASS
+EQUIPMENT TEST attribute description height fits en 144/166.0: PASS
+EQUIPMENT TEST attribute line fits en Gathering power 1 → 2: PASS
+EQUIPMENT TEST attribute line fits en Gathering cast 0.68s → 0.56s: PASS
+EQUIPMENT TEST attribute line fits en Wood per tree 3 → 4: PASS
+EQUIPMENT TEST attribute line fits en Ore per deposit 2 → 3: PASS
+EQUIPMENT TEST attribute line fits en Water reserve 24 → 36: PASS
+EQUIPMENT TEST attribute line fits en Tilling area 1×1 → 3×1: PASS
+EQUIPMENT TEST attribute line fits en Daily fish per spot 3 → 4: PASS
+EQUIPMENT TEST attribute line fits en Bite window 1.5s → 1.9s: PASS
+EQUIPMENT TEST attribute line fits en Bite wait 2.00–4.00s → 1.67–3.33s: PASS
+EQUIPMENT TEST control stays within panel en EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel en Resource_coin: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Resource_wood: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Resource_iron: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Upgrade: FAIL
+EQUIPMENT TEST button fits en Upgrade: PASS
+EQUIPMENT TEST control stays within panel en Status: PASS
+EQUIPMENT TEST control stays within panel en Back: PASS
+EQUIPMENT TEST button fits en Back: PASS
+EQUIPMENT TEST all nine wand attributes previewed en: PASS
+EQUIPMENT TEST control stays within panel ja @Panel@2349: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2350: PASS
+EQUIPMENT TEST label fits ja @Label@2350: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2351: PASS
+EQUIPMENT TEST label fits ja @Label@2351: PASS
+EQUIPMENT TEST control stays within panel ja Resources: PASS
+EQUIPMENT TEST control stays within panel ja Resource_coin: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Resource_wood: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Resource_iron: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2356: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2357: PASS
+EQUIPMENT TEST label fits ja @Label@2357: PASS
+EQUIPMENT TEST control stays within panel ja Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2359: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2360: PASS
+EQUIPMENT TEST label fits ja @Label@2360: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2361: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2382: PASS
+EQUIPMENT TEST label fits ja @Label@2382: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2383: PASS
+EQUIPMENT TEST label fits ja @Label@2383: PASS
+EQUIPMENT TEST attribute description height fits ja 144/166.0: PASS
+EQUIPMENT TEST attribute line fits ja 採集力 1 → 2: PASS
+EQUIPMENT TEST attribute line fits ja 採集詠唱 0.68秒 → 0.56秒: PASS
+EQUIPMENT TEST attribute line fits ja 木1本の木材 3 → 4: PASS
+EQUIPMENT TEST attribute line fits ja 鉱床1か所の鉱石 2 → 3: PASS
+EQUIPMENT TEST attribute line fits ja 貯水量 24 → 36: PASS
+EQUIPMENT TEST attribute line fits ja 耕作範囲 1×1 → 3×1: PASS
+EQUIPMENT TEST attribute line fits ja 釣り場の1日の魚 3 → 4: PASS
+EQUIPMENT TEST attribute line fits ja 食いつき猶予 1.5秒 → 1.9秒: PASS
+EQUIPMENT TEST attribute line fits ja 食いつき待ち 2.00–4.00秒 → 1.67–3.33秒: PASS
+EQUIPMENT TEST control stays within panel ja EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel ja Resource_coin: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Resource_wood: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Resource_iron: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Upgrade: FAIL
+EQUIPMENT TEST button fits ja Upgrade: PASS
+EQUIPMENT TEST control stays within panel ja Status: PASS
+EQUIPMENT TEST control stays within panel ja Back: PASS
+EQUIPMENT TEST button fits ja Back: PASS
+EQUIPMENT TEST all nine wand attributes previewed ja: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Panel@2349: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2350: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2350: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2351: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2351: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resources: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_coin: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_wood: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_iron: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2356: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2357: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2357: PASS
+EQUIPMENT TEST control stays within panel zh_TW Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2359: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2360: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2360: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2361: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2391: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2391: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2392: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2392: PASS
+EQUIPMENT TEST attribute description height fits zh_TW 144/166.0: PASS
+EQUIPMENT TEST attribute line fits zh_TW 採集力度 1 → 2: PASS
+EQUIPMENT TEST attribute line fits zh_TW 採集施法 0.68秒 → 0.56秒: PASS
+EQUIPMENT TEST attribute line fits zh_TW 每樹木材 3 → 4: PASS
+EQUIPMENT TEST attribute line fits zh_TW 每礦礦石 2 → 3: PASS
+EQUIPMENT TEST attribute line fits zh_TW 儲水量 24 → 36: PASS
+EQUIPMENT TEST attribute line fits zh_TW 翻地範圍 1×1 → 3×1: PASS
+EQUIPMENT TEST attribute line fits zh_TW 每日釣點魚數 3 → 4: PASS
+EQUIPMENT TEST attribute line fits zh_TW 咬鉤窗口 1.5秒 → 1.9秒: PASS
+EQUIPMENT TEST attribute line fits zh_TW 咬鉤等待 2.00–4.00秒 → 1.67–3.33秒: PASS
+EQUIPMENT TEST control stays within panel zh_TW EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_coin: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_wood: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_iron: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Upgrade: FAIL
+EQUIPMENT TEST button fits zh_TW Upgrade: PASS
+EQUIPMENT TEST control stays within panel zh_TW Status: PASS
+EQUIPMENT TEST control stays within panel zh_TW Back: PASS
+EQUIPMENT TEST button fits zh_TW Back: PASS
+EQUIPMENT TEST all nine wand attributes previewed zh_TW: PASS
+EQUIPMENT TEST insufficient coins visible and disabled: PASS
+EQUIPMENT TEST insufficient materials visible and disabled: PASS
+EQUIPMENT TEST missing carried wand visible and disabled: PASS
+EQUIPMENT TEST queued replaced modal cannot charge: PASS
+EQUIPMENT TEST bag shortcut cannot replace upgrade service: PASS
+EQUIPMENT TEST native upgrade wand1: PASS
+EQUIPMENT TEST native upgrade wand2: PASS
+EQUIPMENT TEST native upgrade wand3: PASS
+EQUIPMENT TEST maximum disabled wand: PASS
+EQUIPMENT TEST native upgrade bag1: PASS
+EQUIPMENT TEST native upgrade bag2: PASS
+EQUIPMENT TEST native upgrade bag3: PASS
+EQUIPMENT TEST maximum disabled bag: PASS
+EQUIPMENT TEST stale maximum click cannot spend: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Panel@2447: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2448: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2448: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2449: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2449: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resources: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_coin: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_wood: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Resource_iron: PASS
+EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
+EQUIPMENT TEST control stays within panel zh_CN Count: PASS
+EQUIPMENT TEST label fits zh_CN Count: PASS
+EQUIPMENT TEST control stays within panel zh_CN Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2454: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2455: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2455: PASS
+EQUIPMENT TEST control stays within panel zh_CN Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2457: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2458: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2458: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2459: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2543: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2543: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2544: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2544: PASS
+EQUIPMENT TEST attribute description height fits zh_CN 144/166.0: PASS
+EQUIPMENT TEST attribute line fits zh_CN 采集力度 3: PASS
+EQUIPMENT TEST attribute line fits zh_CN 采集施法 0.34秒: PASS
+EQUIPMENT TEST attribute line fits zh_CN 每树木材 6: PASS
+EQUIPMENT TEST attribute line fits zh_CN 每矿矿石 5: PASS
+EQUIPMENT TEST attribute line fits zh_CN 储水量 72: PASS
+EQUIPMENT TEST attribute line fits zh_CN 翻地范围 5×3: PASS
+EQUIPMENT TEST attribute line fits zh_CN 每日钓点鱼数 6: PASS
+EQUIPMENT TEST attribute line fits zh_CN 咬钩窗口 2.7秒: PASS
+EQUIPMENT TEST attribute line fits zh_CN 咬钩等待 1.25–2.50秒: PASS
+EQUIPMENT TEST control stays within panel zh_CN EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel zh_CN Upgrade: FAIL
+EQUIPMENT TEST button fits zh_CN Upgrade: PASS
+EQUIPMENT TEST control stays within panel zh_CN Status: PASS
+EQUIPMENT TEST control stays within panel zh_CN Back: PASS
+EQUIPMENT TEST button fits zh_CN Back: PASS
+EQUIPMENT TEST maximum shows all current wand attributes zh_CN: PASS
+EQUIPMENT TEST control stays within panel en @Panel@2447: PASS
+EQUIPMENT TEST control stays within panel en @Label@2448: PASS
+EQUIPMENT TEST label fits en @Label@2448: PASS
+EQUIPMENT TEST control stays within panel en @Label@2449: PASS
+EQUIPMENT TEST label fits en @Label@2449: PASS
+EQUIPMENT TEST control stays within panel en Resources: PASS
+EQUIPMENT TEST control stays within panel en Resource_coin: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Resource_wood: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Resource_iron: PASS
+EQUIPMENT TEST control stays within panel en Icon: PASS
+EQUIPMENT TEST control stays within panel en Count: PASS
+EQUIPMENT TEST label fits en Count: PASS
+EQUIPMENT TEST control stays within panel en Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel en @Control@2454: PASS
+EQUIPMENT TEST control stays within panel en @Label@2455: PASS
+EQUIPMENT TEST label fits en @Label@2455: PASS
+EQUIPMENT TEST control stays within panel en Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel en @Control@2457: PASS
+EQUIPMENT TEST control stays within panel en @Label@2458: PASS
+EQUIPMENT TEST label fits en @Label@2458: PASS
+EQUIPMENT TEST control stays within panel en @Control@2459: PASS
+EQUIPMENT TEST control stays within panel en @Label@2555: PASS
+EQUIPMENT TEST label fits en @Label@2555: PASS
+EQUIPMENT TEST control stays within panel en @Label@2556: PASS
+EQUIPMENT TEST label fits en @Label@2556: PASS
+EQUIPMENT TEST attribute description height fits en 144/166.0: PASS
+EQUIPMENT TEST attribute line fits en Gathering power 3: PASS
+EQUIPMENT TEST attribute line fits en Gathering cast 0.34s: PASS
+EQUIPMENT TEST attribute line fits en Wood per tree 6: PASS
+EQUIPMENT TEST attribute line fits en Ore per deposit 5: PASS
+EQUIPMENT TEST attribute line fits en Water reserve 72: PASS
+EQUIPMENT TEST attribute line fits en Tilling area 5×3: PASS
+EQUIPMENT TEST attribute line fits en Daily fish per spot 6: PASS
+EQUIPMENT TEST attribute line fits en Bite window 2.7s: PASS
+EQUIPMENT TEST attribute line fits en Bite wait 1.25–2.50s: PASS
+EQUIPMENT TEST control stays within panel en EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel en Upgrade: FAIL
+EQUIPMENT TEST button fits en Upgrade: PASS
+EQUIPMENT TEST control stays within panel en Status: PASS
+EQUIPMENT TEST control stays within panel en Back: PASS
+EQUIPMENT TEST button fits en Back: PASS
+EQUIPMENT TEST maximum shows all current wand attributes en: PASS
+EQUIPMENT TEST control stays within panel ja @Panel@2447: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2448: PASS
+EQUIPMENT TEST label fits ja @Label@2448: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2449: PASS
+EQUIPMENT TEST label fits ja @Label@2449: PASS
+EQUIPMENT TEST control stays within panel ja Resources: PASS
+EQUIPMENT TEST control stays within panel ja Resource_coin: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Resource_wood: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Resource_iron: PASS
+EQUIPMENT TEST control stays within panel ja Icon: PASS
+EQUIPMENT TEST control stays within panel ja Count: PASS
+EQUIPMENT TEST label fits ja Count: PASS
+EQUIPMENT TEST control stays within panel ja Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2454: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2455: PASS
+EQUIPMENT TEST label fits ja @Label@2455: PASS
+EQUIPMENT TEST control stays within panel ja Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2457: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2458: PASS
+EQUIPMENT TEST label fits ja @Label@2458: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2459: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2567: PASS
+EQUIPMENT TEST label fits ja @Label@2567: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2568: PASS
+EQUIPMENT TEST label fits ja @Label@2568: PASS
+EQUIPMENT TEST attribute description height fits ja 144/166.0: PASS
+EQUIPMENT TEST attribute line fits ja 採集力 3: PASS
+EQUIPMENT TEST attribute line fits ja 採集詠唱 0.34秒: PASS
+EQUIPMENT TEST attribute line fits ja 木1本の木材 6: PASS
+EQUIPMENT TEST attribute line fits ja 鉱床1か所の鉱石 5: PASS
+EQUIPMENT TEST attribute line fits ja 貯水量 72: PASS
+EQUIPMENT TEST attribute line fits ja 耕作範囲 5×3: PASS
+EQUIPMENT TEST attribute line fits ja 釣り場の1日の魚 6: PASS
+EQUIPMENT TEST attribute line fits ja 食いつき猶予 2.7秒: PASS
+EQUIPMENT TEST attribute line fits ja 食いつき待ち 1.25–2.50秒: PASS
+EQUIPMENT TEST control stays within panel ja EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel ja Upgrade: FAIL
+EQUIPMENT TEST button fits ja Upgrade: PASS
+EQUIPMENT TEST control stays within panel ja Status: PASS
+EQUIPMENT TEST control stays within panel ja Back: PASS
+EQUIPMENT TEST button fits ja Back: PASS
+EQUIPMENT TEST maximum shows all current wand attributes ja: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Panel@2447: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2448: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2448: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2449: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2449: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resources: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_coin: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_wood: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Resource_iron: PASS
+EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
+EQUIPMENT TEST control stays within panel zh_TW Count: PASS
+EQUIPMENT TEST label fits zh_TW Count: PASS
+EQUIPMENT TEST control stays within panel zh_TW Equipment_wand: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2454: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2455: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2455: PASS
+EQUIPMENT TEST control stays within panel zh_TW Equipment_bag: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2457: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2458: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2458: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2459: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2579: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2579: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2580: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2580: PASS
+EQUIPMENT TEST attribute description height fits zh_TW 144/166.0: PASS
+EQUIPMENT TEST attribute line fits zh_TW 採集力度 3: PASS
+EQUIPMENT TEST attribute line fits zh_TW 採集施法 0.34秒: PASS
+EQUIPMENT TEST attribute line fits zh_TW 每樹木材 6: PASS
+EQUIPMENT TEST attribute line fits zh_TW 每礦礦石 5: PASS
+EQUIPMENT TEST attribute line fits zh_TW 儲水量 72: PASS
+EQUIPMENT TEST attribute line fits zh_TW 翻地範圍 5×3: PASS
+EQUIPMENT TEST attribute line fits zh_TW 每日釣點魚數 6: PASS
+EQUIPMENT TEST attribute line fits zh_TW 咬鉤窗口 2.7秒: PASS
+EQUIPMENT TEST attribute line fits zh_TW 咬鉤等待 1.25–2.50秒: PASS
+EQUIPMENT TEST control stays within panel zh_TW EquipmentDescription: PASS
+EQUIPMENT TEST control stays within panel zh_TW Upgrade: FAIL
+EQUIPMENT TEST button fits zh_TW Upgrade: PASS
+EQUIPMENT TEST control stays within panel zh_TW Status: PASS
+EQUIPMENT TEST control stays within panel zh_TW Back: PASS
+EQUIPMENT TEST button fits zh_TW Back: PASS
+EQUIPMENT TEST maximum shows all current wand attributes zh_TW: PASS
+EQUIPMENT TEST upgrading freezes timers and position: PASS
+EQUIPMENT TEST NPC purchase waits for scheduled save: PASS
+EQUIPMENT TEST manual save preserves purchased ranks: PASS
+EQUIPMENT TEST queued closed service click does nothing: PASS
+EQUIPMENT TEST closing service resumes world: PASS
+EQUIPMENT TEST queued hidden counter cannot reopen upgrades: PASS
+SCRIPT ERROR: Invalid call. Nonexistent function 'get_node' in base 'Nil'.
+   at: run (res://Scenes/Equipment/verify_equipment.gd:397)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Equipment/verify_equipment.gd:397)
+       [1] click (res://Scenes/Equipment/verify_equipment.gd:60)
+       [2] frames (res://Scenes/Equipment/verify_equipment.gd:26)

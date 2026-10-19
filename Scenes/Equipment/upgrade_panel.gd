@@ -41,7 +41,8 @@ func _ready() -> void:
 			refresh(), "ui_page")
 		button.name = "Equipment_" + id
 		button.toggle_mode = true
-		loop.hud.ornament(id, Vector2(7, 3), button)
+		var icon: Control = loop.hud.ornament(id, Vector2(7, 3), button)
+		icon.name = "Icon"
 		loop.hud.label(Catalog.TITLES[id], Rect2(40, 3, 116, 24), button, Color("fff0cf"))
 		entries[id] = button
 	detail = Control.new()
@@ -88,6 +89,8 @@ func refresh() -> void:
 	for index in range(RESOURCE_IDS.size()):
 		resources.get_node("Resource_" + RESOURCE_IDS[index] + "/Count").text = str(amounts[index])
 	for id in entries: entries[id].set_pressed_no_signal(id == selected)
+	entries.wand.get_node("Icon").wand_mode = state.wand_mode
+	entries.wand.get_node("Icon").queue_redraw()
 	for child in detail.get_children():
 		detail.remove_child(child)
 		child.queue_free()

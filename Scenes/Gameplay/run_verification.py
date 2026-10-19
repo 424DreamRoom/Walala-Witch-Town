@@ -19,7 +19,13 @@ if "--fast" in sys.argv[2:] and mode not in ("town", "town_capture"):
     args += ["--fixed-fps", "60"]
 if "--verbose" in sys.argv[2:]:
     args += ["--verbose"]
-if mode in ("town", "town_capture"):
+if mode in ("wand", "wand_capture"):
+    args += ["--script", "res://Scenes/Equipment/verify_wand_modes.gd"]
+    if mode == "wand":
+        args += ["--headless"]
+    else:
+        args += ["--windowed", "--resolution", "1280x720", "--rendering-method", "gl_compatibility", "--rendering-driver", "opengl3", "--", "--capture"]
+elif mode in ("town", "town_capture"):
     args += ["--fixed-fps", "60"]
     args += ["--script", "res://Scenes/LanternLane/verify_town_plan.gd"]
     if mode == "town":
@@ -96,6 +102,7 @@ if mode == "harvest_capture" and "--wand-capture" in sys.argv[2:]:
 if log_tag and not log_tag.replace("-", "").replace("_", "").isalnum():
     raise SystemExit("Log tag must contain only letters, digits, hyphens or underscores.")
 log = root / "output" / ("loop_" + mode + ("_" + log_tag if log_tag else "") + ".log")
+args[1:1] = ["--log-file", str(log.with_suffix(".engine.log"))]
 # Set isolated paths before the verifier instantiates gameplay or reads settings.
 if "--script" in args:
     index = args.index("--script") + 1
@@ -129,7 +136,9 @@ print(log.read_text(encoding="utf-8"))
 print("GODOT_EXIT", code)
 text = log.read_text(encoding="utf-8")
 end_marker = "THOUGHT VERIFY END failures=0" if mode in ("thoughts", "thoughts_capture") else "FARM VERIFY END failures=0" if mode in ("farm", "farm_capture") else "SCENE EXIT VERIFY END failures=0" if mode == "transitions" else "DAY NIGHT VERIFY END failures=0" if mode in ("daynight", "daynight_capture") else "DOCK VERIFY END failures=0" if mode in ("dock", "dock_capture") else "HARVEST VERIFY END failures=0" if mode in ("harvest", "harvest_capture") else "CUSTOMER EAT VERIFY END failures=0" if mode == "customer_eat" else "LOOP VERIFY END failures=0"
-if mode in ("fade", "fade_capture"):
+if mode in ("wand", "wand_capture"):
+    end_marker = "WAND MODES VERIFY END failures=0"
+elif mode in ("fade", "fade_capture"):
     end_marker = "SCENE FADE VERIFY END failures=0"
 elif mode in ("town", "town_capture"):
     end_marker = "TOWN PLAN VERIFY END failures=0"

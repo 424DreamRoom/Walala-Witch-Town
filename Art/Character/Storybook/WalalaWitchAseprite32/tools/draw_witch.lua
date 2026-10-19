@@ -5,11 +5,11 @@ local normalized=out:gsub("\\", "/"):gsub("/+$", ""):lower()
 assert(normalized:match("/art/character/storybook/walalawitchaseprite32$"), "Output must be WalalaWitchAseprite32")
 assert(not ("/"..normalized.."/"):find("/myart/",1,true), "MyArt is read-only")
 local colors = {
-  I="35283f", D="513851", P="715180", V="9673a6", L="bd9bc7",
-  H="e0c6df", B="746c8b", S="a5a0b9", W="d8d6e5", F="fff0e5",
-  s="c78d83", t="eab29b", f="ffdac0", e="694337", a="dba75f",
-  g="9b654c", G="d59c62", Y="f5d389", C="f8e7c6", c="d4ba9d",
-  m="68b6bd", n="a1e1d3", z="e1fff0", r="a96e94",
+  I="3b2c47", D="5c4463", P="8a63a0", V="ab86bd", L="cbaad9",
+  H="ecd4ea", B="7d739a", S="b0abc8", W="e2dffa", F="fff6ee",
+  s="d49288", t="f3bda6", f="ffe0c8", e="6b4a3e", a="e8b96c",
+  g="a86f54", G="dca768", Y="ffdda0", C="fdf0d6", c="e0c6a6",
+  m="78c8cf", n="b4efe0", z="edfffa", r="d98aa8",
 }
 local rgba, palette = {}, Palette(25)
 palette:setColor(0, Color{r=0,g=0,b=0,a=0})
@@ -90,7 +90,11 @@ local function head(direction,bob,blink,sway)
     stamp("hair_back",8,12,{"...IIIIIIII...","..IBSSSSSSBI..",".IBSWWWWWWBSI.","IBSWWWWWWWWBSI","IBSWWWWWWWWBSI",".IBSWWWWWWBSI.",".IBSWWWWWWBSI.","..IBSWWWWBSI..","...IBSSSSBI...","....IIIIII...."})
     stamp("face",11,14,{".IIIIIIII.","IttffffttI","IftfffftfI","IffffffffI","IffffffffI",".IffffffI.","..IffffI..","...IIII..."})
     for _,x in ipairs({13,18}) do
-      if blink then line("face",x,17,x+1,17,"e") else rect("face",x,16,2,3,"e"); px("face",x,16,"F"); px("face",x+1,18,"a") end
+      if blink then line("face",x,17,x+1,17,"e")
+      else
+        -- 2x2 eye: lift the dark bar, keep a cream highlight and a skin iris.
+        rect("face",x,16,2,2,"e"); px("face",x,16,"F"); px("face",x+1,17,"a")
+      end
     end
     px("face",13,19,"r"); px("face",18,19,"r"); px("face",16,20,"s")
     stamp("hair_front",9,12,{"..IIIIIIIIII..",".ISWWWWWWWWWI.","ISWWWWWWWWWSWI","ISWWWWSIWWWWSI","ISWI.......WSI","ISWI.......WSI","ISWI.......WSI",".IWI.......WSI",".IWSI.....ISWI","..ISI.....ISI.","...I.......I.."})

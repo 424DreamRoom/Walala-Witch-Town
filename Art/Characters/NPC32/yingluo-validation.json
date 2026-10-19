@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "npc_count": 1,
+  "decoded_frames": 21,
+  "canvas": [
+    32,
+    32
+  ],
+  "native_aseprite_authored": true,
+  "aseprite_reopen_export_verified": true,
+  "editable_layers": 6,
+  "every_composite_matches_native_export": true,
+  "alpha": [
+    0,
+    255
+  ],
+  "feet_anchor": [
+    16,
+    32
+  ],
+  "all_walk_and_eat_frames_distinct": true,
+  "original_front_pose_preserved": false,
+  "myart_unchanged": true,
+  "protected_originals": 3
+}

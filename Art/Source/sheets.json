@@ -8268,7 +8268,7 @@
     "rows": 1
   },
   "res://Art/Characters/NPC32/guides/yingluo.aseprite": {
-    "columns": 1,
+    "columns": 21,
     "rows": 1
   },
   "res://Art/Characters/NPC32/portraits/aster.aseprite": {
@@ -12300,6 +12300,10 @@
     "rows": 1
   },
   "res://Scenes/LanternLane/Art/town_tree.aseprite": {
+    "columns": 1,
+    "rows": 1
+  },
+  "res://Art/Characters/NPC32/portraits/yingluo.aseprite": {
     "columns": 1,
     "rows": 1
   }

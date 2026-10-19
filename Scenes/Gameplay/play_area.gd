@@ -16,17 +16,27 @@ const Depth = preload("res://Scenes/Gameplay/world_depth.gd")
 const ActorCollision = preload("res://Scenes/Gameplay/actor_collision.gd")
 const FoodIcons = preload("res://Scenes/UI/food_icons.gd")
 const CUSTOMER_PATHS = ["green_braids", "blue_blonde", "burgundy_curls", "orange_short", "cyan_gray", "pink_longblue"]
+# Guests enter from the bottom-left town door; the walk is cosmetic only.
+const GUEST_DOOR := Vector2(32, 262)
+const GUEST_WALK_SECONDS := 1.6
 var customer_sheets: Array[Texture2D] = []
 var field_labels: Node2D
 var dish_textures := {}
 var resource_nodes: Array = []
 var gather_sprites: Array[Sprite2D] = []
 var customer_sprites: Array[Sprite2D] = []
+var customer_walkers: Array[Sprite2D] = []
+# Purely visual arrival clock, keyed by seat; customer data keeps its saved shape.
+var arrival_clock := {}
 var customer_bodies: Array[StaticBody2D] = []
 var npc_sheets := {}
 var tables: Array[StaticBody2D] = []
 var walkable_regions: Array[Rect2] = []
 var restaurant_fixed_solids: Array[Rect2] = []
+# The whole front edge of each counter is usable, not a single central point.
+var prep_rect := Rect2(65, 96, 100, 17)
+var kitchen_rect := Rect2(185, 96, 100, 17)
+const COUNTER_REACH := 30.0
 var table_count := -1
 var held_visual: Node2D
 
@@ -84,6 +94,14 @@ func _ready() -> void:
 			Depth.feet_sprite(guest,seats[i],32)
 			add_child(guest)
 			customer_sprites.append(guest)
+			# A walking copy covers the doorway approach; the seated sprite stays put.
+			var walker := Sprite2D.new()
+			walker.name = "GuestWalk_"+str(i)
+			Depth.feet_sprite(walker,seats[i],32)
+			walker.visible = false
+			walker.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+			add_child(walker)
+			customer_walkers.append(walker)
 			var body := StaticBody2D.new()
 			body.name = "GuestBody_" + str(i)
 			ActorCollision.attach(body)
@@ -164,26 +182,52 @@ func interaction_label(pos: Vector2, text: String, painter: Node2D = null) -> vo
 	var width := font.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, 12).x
 	label_at(Vector2(pos.x - width / 2.0, baseline).round(), text, Color("fff0c2"), painter)
 
-func _process(_delta: float) -> void:
+func _process(delta: float) -> void:
 	if kind == "restaurant":
 		_sync_tables()
 		for i in range(customer_sprites.size()):
 			var guest: Sprite2D = customer_sprites[i]
+			var walker: Sprite2D = customer_walkers[i]
 			var customer = loop.state.customer_at(i)
-			guest.visible = customer!=null and i<table_count
+			var present: bool = customer != null and i < table_count
+			# Arrival is cosmetic; the order stays live from the moment it exists.
+			if not present:
+				arrival_clock.erase(i)
+			else:
+				arrival_clock[i] = maxf(0.0, float(arrival_clock.get(i, GUEST_WALK_SECONDS)) - delta) if arrival_clock.has(i) else GUEST_WALK_SECONDS
+			var walking: bool = present and arrival_clock.get(i, 0.0) > 0.0
+			guest.visible = present and not walking
 			ActorCollision.set_active(customer_bodies[i], guest.visible)
-			if not guest.visible: continue
-			guest.texture = npc_sheets[loop.state.Content.DATA.npcs[customer.npc].id] if customer.has("npc") else customer_sheets[int(customer.get("variant",i))%customer_sheets.size()]
-			guest.hframes = 22 if customer.has("npc") else 6
-			var frame := 0
-			if customer.get("status","waiting")=="eating": frame=2+int(floor((3.0-customer.eating_left)*2.0))%4
-			guest.frame = frame+(16 if customer.has("npc") else 0)
+			walker.visible = walking
+			if walking:
+				_paint_guest(walker, customer)
+				var progress: float = clampf(arrival_clock.get(i, 0.0) / GUEST_WALK_SECONDS, 0.0, 1.0)
+				walker.position = GUEST_DOOR.lerp(seats[i] + Vector2(0, 6), 1.0 - progress).round()
+				# Visitor sheets have no walk cycle (6 frames); only residents animate in.
+				walker.frame = _walk_frame(seats[i] + Vector2(0, 6) - GUEST_DOOR) if customer.has("npc") else 0
+			if present and not walking:
+				_paint_guest(guest, customer)
+				# Residents author eating at 18-21; town customers at 2-5.
+				var eat_base: int = 18 if customer.has("npc") else 2
+				guest.frame = eat_base + int(floor((3.0 - customer.eating_left) * 2.0)) % 4 if customer.get("status", "waiting") == "eating" else _idle_frame(customer)
 		held_visual.visible = loop.state.held>=0
 		held_visual.queue_redraw()
 	else:
 		for i in range(gather_sprites.size()): gather_sprites[i].texture = gather_textures[i%3 if loop.state.nodes[i]>0 else 3]
 	if field_labels != null:
 		field_labels.queue_redraw()
+
+func _paint_guest(sprite: Sprite2D, customer: Dictionary) -> void:
+	sprite.texture = npc_sheets[loop.state.Content.DATA.npcs[customer.npc].id] if customer.has("npc") else customer_sheets[int(customer.get("variant",0))%customer_sheets.size()]
+	sprite.hframes = 22 if customer.has("npc") else 6
+
+func _walk_frame(direction: Vector2) -> int:
+	var row: int = (2 if direction.x > 0.0 else 3) if absf(direction.x) > absf(direction.y) else (0 if direction.y > 0.0 else 1)
+	return row * 4 + int(Time.get_ticks_msec() / 130.0) % 4
+
+func _idle_frame(customer: Dictionary) -> int:
+	# Residents keep their two-frame front idle at 16-17; visitors stand on frame 0.
+	return 16 + int(Time.get_ticks_msec() / 650.0) % 2 if customer.has("npc") else 0
 
 func _draw_field_labels() -> void:
 	var selected := nearest_interaction()
@@ -221,6 +265,15 @@ func nearest_interaction() -> Dictionary:
 			selected = {"type": "resource", "node": node}
 	return selected
 
+func at_counter(which: String) -> bool:
+	if kind != "restaurant": return false
+	var rect: Rect2 = prep_rect if which == "prep" else kitchen_rect
+	var point: Vector2 = loop.lane.player.position
+	# Standing in front of the counter, anywhere along it; reach runs from the front edge.
+	if point.y < rect.end.y: return false
+	var nearest := Vector2(clampf(point.x, rect.position.x, rect.end.x), rect.end.y)
+	return point.distance_to(nearest) <= COUNTER_REACH
+
 func _sync_tables() -> void:
 	var count: int = loop.state.Campaign.restaurant(loop.state).seats
 	if table_count==count: return
@@ -237,14 +290,18 @@ func _draw_restaurant_labels() -> void:
 	interaction_label(stations.exit,"小镇",field_labels)
 	for i in range(table_count):
 		var customer = loop.state.customer_at(i)
-		if customer==null: continue
+		if customer==null or customer.get("status","waiting")!="waiting": continue
 		var p: Vector2 = seats[i]
-		if customer.get("status","waiting")!="waiting": continue
 		var dish := tr(loop.state.DISHES[customer.dish])
 		var width := font.get_string_size(dish,HORIZONTAL_ALIGNMENT_LEFT,-1,12).x
-		label_at(p+Vector2(-width/2.0,-58),dish,Color("fff0c2"),field_labels)
+		# Keep the order readable against the floor instead of raw text over wood.
+		var box := Rect2(p+Vector2(-width/2.0,-12),Vector2(width,13)).grow_individual(3,1,3,1)
+		field_labels.draw_rect(box,Color(0.16,0.12,0.16,0.55))
+		label_at(p+Vector2(-width/2.0,-11),dish,Color("fff0c2"),field_labels)
+		var cap: float = loop.state.Campaign.restaurant(loop.state).patience + loop.state.Campaign.comfort(loop.state)
+		var ratio: float = clampf(customer.patience / maxf(1.0, cap), 0.0, 1.0)
 		field_labels.draw_rect(Rect2(p+Vector2(-24,13),Vector2(48,3)),Color("513744"))
-		field_labels.draw_rect(Rect2(p+Vector2(-24,13),Vector2(48*maxf(0,customer.patience)/(loop.state.Campaign.restaurant(loop.state).patience+loop.state.Campaign.comfort(loop.state)),3)),Color("b5dc89"))
+		field_labels.draw_rect(Rect2(p+Vector2(-24,13),Vector2(48*ratio,3)),Color("b5dc89") if ratio > 0.35 else Color("d98a72"))
 
 func _draw_held() -> void:
 	if loop.state.held<0: return

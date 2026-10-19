@@ -6,7 +6,7 @@
     "exit": 0,
     "failures": [],
     "log": "output/npc32/import.log",
-    "runtime_textures": 27
+    "runtime_textures": 28
   },
   "myart_unchanged": true,
   "isolated_profiles": true

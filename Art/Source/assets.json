@@ -20673,10 +20673,10 @@
     "source": "res://Art/Characters/NPC32/guides/yingluo.aseprite",
     "origin": "Art/Characters/NPC32/guides/yingluo.png",
     "canvas": [
-      32,
+      672,
       32
     ],
-    "frames": 1,
+    "frames": 21,
     "authored": true
   },
   "res://Art/Characters/NPC32/portraits/aster.png": {
@@ -30758,5 +30758,15 @@
     ],
     "frames": 1,
     "authored": false
+  },
+  "res://Art/Characters/NPC32/portraits/yingluo.png": {
+    "source": "res://Art/Characters/NPC32/portraits/yingluo.aseprite",
+    "origin": "Art/Characters/NPC32/portraits/yingluo.png",
+    "canvas": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "authored": true
   }
 }

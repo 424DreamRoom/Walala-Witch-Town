@@ -1,0 +1,93 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+SAVE TEST empty slot 1: PASS
+SAVE TEST empty slot 2: PASS
+SAVE TEST empty slot 3: PASS
+SAVE TEST empty slot 4: PASS
+SAVE TEST empty slot 5: PASS
+SAVE TEST empty slot 6: PASS
+SAVE TEST out of range slots rejected: PASS
+SAVE TEST snapshot accepted: PASS
+SAVE TEST save night in slot 4: PASS
+SAVE TEST deserialize state: PASS
+SAVE TEST round trip day: PASS
+SAVE TEST round trip phase: PASS
+SAVE TEST round trip remaining: PASS
+SAVE TEST round trip raw: PASS
+SAVE TEST round trip tools: PASS
+SAVE TEST round trip materials: PASS
+SAVE TEST round trip menu: PASS
+SAVE TEST round trip nodes: PASS
+SAVE TEST round trip resources: PASS
+SAVE TEST round trip resource_damage: PASS
+SAVE TEST round trip fish_catches: PASS
+SAVE TEST round trip customers: PASS
+SAVE TEST round trip cooking: PASS
+SAVE TEST round trip cook_left: PASS
+SAVE TEST round trip held: PASS
+SAVE TEST round trip income: PASS
+SAVE TEST round trip coins: PASS
+SAVE TEST round trip served: PASS
+SAVE TEST round trip lost: PASS
+SAVE TEST round trip wasted: PASS
+SAVE TEST round trip arrivals: PASS
+SAVE TEST round trip serial: PASS
+SAVE TEST round trip result: PASS
+SAVE TEST round trip message: PASS
+SAVE TEST round trip journal: PASS
+SAVE TEST round trip farm: PASS
+SAVE TEST round trip furniture: PASS
+SAVE TEST round trip equipment: PASS
+SAVE TEST round trip bag_slots: PASS
+SAVE TEST round trip bag_overflow: PASS
+SAVE TEST round trip campaign: PASS
+SAVE TEST round trip selected_hotbar_slot: PASS
+SAVE TEST starter tools belong to each new game: PASS
+SAVE TEST legacy saves receive starter tools without losing inventory: PASS
+SAVE TEST tool ownership persists across days: PASS
+SAVE TEST other slots remain empty: PASS
+SAVE TEST stacked tools rejected: PASS
+SAVE TEST fractional tools rejected: PASS
+SAVE TEST incomplete tool data rejected: PASS
+SAVE TEST oversized inventory rejected: PASS
+SAVE TEST duplicate customer seats rejected: PASS
+SAVE TEST invalid world position rejected: PASS
+SAVE TEST fractional inventory rejected: PASS
+SAVE TEST second write succeeds: PASS
+SAVE TEST previous save backed up: PASS
+SAVE TEST corrupt primary recovers backup: PASS
+SAVE TEST recovered slot can start: PASS
+SAVE TEST recovered save can be rewritten: PASS
+SAVE TEST good backup survives recovery write: PASS
+SAVE TEST future version rejected without old fallback: PASS
+SAVE TEST future version never overwritten: PASS
+SAVE TEST disk errors reported: PASS
+SAVE TEST start opens slot selection: PASS
+SAVE TEST three rows two columns 0: PASS
+SAVE TEST three rows two columns 1: PASS
+SAVE TEST three rows two columns 2: PASS
+SAVE TEST three rows two columns 3: PASS
+SAVE TEST three rows two columns 4: PASS
+SAVE TEST three rows two columns 5: PASS
+SAVE TEST keyboard selects right slot: PASS
+SAVE TEST keyboard selects next row: PASS
+SAVE TEST escape returns from slot screen: PASS
+SAVE TEST empty slot starts new day outside home: PASS
+SAVE TEST new game written to selected slot outside home: PASS
+SAVE TEST new-game opening completes before pause controls: PASS
+SAVE TEST escape opens pause menu: PASS
+SAVE TEST pause freezes gameplay timer: PASS
+SAVE TEST manual save persists current inventory: PASS
+SAVE TEST manual save shows corner icon above pause menu: PASS
+SAVE TEST icon leaves hotbar clear and ignores input: PASS
+SAVE TEST save animation continues while paused: PASS
+SAVE TEST failed save keeps player in game: PASS
+SAVE TEST failed write shows failure instead of saved: PASS
+SAVE TEST save and return reaches title unpaused: FAIL
+SCRIPT ERROR: Invalid access of index '0' on a base object of type: 'Array[Button]'.
+   at: run (res://Scenes/Save/verify_saves.gd:275)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Save/verify_saves.gd:275)
+       [1] click (res://Scenes/Save/verify_saves.gd:47)
+       [2] frames (res://Scenes/Save/verify_saves.gd:23)

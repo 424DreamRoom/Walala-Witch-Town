@@ -4,6 +4,7 @@ const State = preload("res://Scenes/Gameplay/loop_state.gd")
 const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const Saves = preload("res://Scenes/Save/save_store.gd")
 const Collision = preload("res://Scenes/Gameplay/actor_collision.gd")
+const GuideActor = preload("res://Scenes/Campaign/guide_actor.gd")
 const OUT := "res://output/doorstep_opening/"
 var checks := 0
 var failures := 0
@@ -55,7 +56,35 @@ func finish_walk() -> void:
 		if not controller.arrival_active: break
 		controller._process(0.05)
 
+func verify_guide_animation() -> void:
+	var actor = GuideActor.new()
+	root.add_child(actor)
+	var image: Image = actor.sprite.texture.get_image()
+	check("guide atlas contains native 32x32 frames", image.get_size() == Vector2i(672,32) and actor.sprite.hframes == 21)
+	var tags: Dictionary = actor.sprite.texture.get_meta("aseprite_tags")
+	for direction in [Vector2.DOWN, Vector2.UP, Vector2.RIGHT, Vector2.LEFT]:
+		actor.face(direction)
+		actor.pose_walk(0.0, false)
+		check("guide directional standing pose " + str(direction), actor.sprite.frame == [16,18,19,20][actor.facing])
+		var hashes := {}
+		var walk_frames := {}
+		for step in range(4):
+			actor.pose_walk(0.0 if step == 0 else 0.14, true)
+			var frame: int = actor.sprite.frame
+			walk_frames[frame] = true
+			hashes[hash(image.get_region(Rect2i(frame*32,0,32,32)).get_data())] = true
+		check("guide four distinct walk poses " + str(direction), hashes.size() == 4 and walk_frames.keys().all(func(frame): return frame >= actor.facing*4 and frame < actor.facing*4+4))
+		actor.pose_walk(0.14, true)
+		check("guide seamless walk loop " + str(direction), actor.sprite.frame == actor.facing*4)
+		actor.pose_walk(0.0, false)
+		check("guide stops without shifting feet " + str(direction), actor.sprite.frame == [16,18,19,20][actor.facing] and actor.sprite.position == Vector2.ZERO and not actor.sprite.flip_h)
+	check("guide native walk timings", tags.walk_left.durations_ms == [140,140,140,140] and tags.walk_right.durations_ms == [140,140,140,140])
+	var portrait: Image = load(preload("res://Scenes/Campaign/guide_profile.gd").PORTRAIT).get_image()
+	check("guide portrait retains full standing frame", portrait.get_size() == Vector2i(32,32) and portrait.get_data() == image.get_region(Rect2i(16*32,0,32,32)).get_data())
+	actor.queue_free()
+
 func run() -> void:
+	verify_guide_animation()
 	check("protagonist defaults to Weierliya", State.new().campaign.player_name == "薇尔莉娅")
 	for introduced in [false, true]:
 		for missing_name in [false, true]:
@@ -94,6 +123,12 @@ func run() -> void:
 	var remaining: float = loop.state.remaining
 	controller._process(0.5)
 	check("NPC walks continuously", controller.arrival_actor.position.distance_to(start) == 40.0 and controller.arrival_active)
+	check("approach faces left on the horizontal path", controller.arrival_actor.facing == 3 and controller.arrival_actor.sprite.frame in range(12,16))
+	var side_frames := {}
+	for index in range(4):
+		controller._process(0.14)
+		side_frames[controller.arrival_actor.sprite.frame] = true
+	check("approach plays all four left strides", side_frames.size() == 4 and side_frames.keys().all(func(frame): return frame in range(12,16)))
 	start = controller.arrival_actor.position
 	controller._process(1.0 / 60.0)
 	check("fractional frame budget finishes without spinning", controller.arrival_actor.position.distance_to(start) > 1.0 and controller.arrival_actor.position.distance_to(start) < 1.4)
@@ -114,14 +149,18 @@ func run() -> void:
 	await load_game()
 	check("interrupted approach resumes directly", controller.arrival_active and not is_instance_valid(controller.intro) and loop.location == "farm")
 	var clear := true
+	var approach_directions := {}
 	for index in range(200):
 		if not controller.arrival_active: break
 		controller._process(0.05)
+		approach_directions[controller.arrival_actor.facing] = true
 		var feet := Collision.footprint(controller.arrival_actor.position)
 		if loop.area.solids.any(func(rect): return rect.intersects(feet)): clear = false
 	check("whole approach clears farm obstacles", clear)
+	check("approach turns from left to up", approach_directions.has(3) and approach_directions.has(1) and controller.arrival_actor.sprite.frame == 18)
 	check("arrival starts story beside the witch", not controller.arrival_active and loop.hud.mode == "dialogue" and paused and loop.state.campaign.guide_met and controller.arrival_actor.position == Vector2(270,294))
-	check("story introduces conflict and current chapter", loop.hud.lines.size() == 7 and loop.hud.lines[-1] == preload("res://Scenes/Campaign/guide_profile.gd").CHAPTERS[0])
+	var profile = preload("res://Scenes/Campaign/guide_profile.gd")
+	check("story introduces conflict and current goal", loop.hud.lines[profile.WELCOME.size()] == profile.CHAPTERS[0] and loop.hud.lines[-2] == profile.Onboarding.goal_line(loop.state))
 	for locale in ["zh_CN", "en", "ja", "zh_TW"]:
 		root.get_node("Localization").set_language(locale, false)
 		for index in range(loop.hud.lines.size()):
@@ -141,7 +180,19 @@ func run() -> void:
 	lane.player.position = Vector2(270,315)
 	controller._process(0.5)
 	check("departing guide waits for player clearance", controller.arrival_actor.position == start)
+	check("blocked departure holds standing pose", not controller.arrival_actor.walking and controller.arrival_actor.sprite.frame == 18)
 	lane.player.position = loop.HOME_EXIT_POSITION
+	controller._process(0.2)
+	check("departure faces down before turning", controller.arrival_actor.facing == 0 and controller.arrival_actor.sprite.frame in range(0,4))
+	await shot("departure_down")
+	controller._process(0.25)
+	check("departure turns right on the horizontal path", controller.arrival_actor.facing == 2 and controller.arrival_actor.sprite.frame in range(8,12))
+	await shot("departure_right")
+	side_frames.clear()
+	for index in range(4):
+		controller._process(0.14)
+		side_frames[controller.arrival_actor.sprite.frame] = true
+	check("departure plays all four right strides", side_frames.size() == 4 and side_frames.keys().all(func(frame): return frame in range(8,12)))
 	for index in range(200):
 		if not controller.arrival_departing: break
 		controller._process(0.05)

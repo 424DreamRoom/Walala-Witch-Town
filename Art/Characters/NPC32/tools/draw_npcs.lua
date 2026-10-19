@@ -3,9 +3,9 @@
 local out = assert(app.params.out, "out parameter required")
 local specs = dofile(app.params.specs)
 local pc = app.pixelColor
-local ink = "453447"
-local cream = "ffedce"
-local gold = "e6b875"
+local ink = "4a3a4e"
+local cream = "fff6e2"
+local gold = "f0c888"
 local function rgb(h)
   return tonumber(h:sub(1,2),16),tonumber(h:sub(3,4),16),tonumber(h:sub(5,6),16)
 end
@@ -18,7 +18,7 @@ local function color(h)
   if not colors[h] then local r,g,b=rgb(h);colors[h]=pc.rgba(r,g,b,255) end
   return colors[h]
 end
-local function ramp(h) return {mix(h,ink,.56),mix(h,ink,.25),h,mix(h,cream,.38)} end
+local function ramp(h) return {mix(h,ink,.46),mix(h,ink,.18),h,mix(h,cream,.5)} end
 local function point(im,x,y,h)
   if x>=0 and x<32 and y>=0 and y<32 then im:drawPixel(x,y,color(h)) end
 end
@@ -57,11 +57,14 @@ local layerNames={"Boots","Clothing","Face and hands","Hair","Headwear","Accesso
 local function draw(s,d,phase,mode)
   local ims={};for i=1,6 do ims[i]=Image(32,32,ColorMode.RGB) end
   local boots,cloth,skin,hair,hat,detail=table.unpack(ims)
-  local c,h,k=ramp(s.cloth),ramp(s.hair),ramp(s.hat)
+  -- Hats and dresses often share a hue, so the hat ramp is pushed darker
+  -- to keep the silhouette readable instead of merging into the body.
+  local c,h,k=ramp(s.cloth),ramp(s.hair),ramp(mix(s.hat,ink,.30))
   local sk=ramp(s.skin)
   local back=d=="up";local side=d=="right" or d=="left"
   -- Author right-facing pixels, then mirror full layers for the left view.
-  local cx=side and 17 or 16
+  local guideLeft=s.kind=="guide" and d=="left"
+  local cx=side and (guideLeft and 15 or 17) or 16
   local walk=mode=="walk";local eat=mode=="eat"
   local bob=walk and (phase%2==1 and -1 or 0) or 0
   local function y(v) return v+bob end
@@ -71,10 +74,10 @@ local function draw(s,d,phase,mode)
   if side then lx=cx-2-step;rx=cx+1+step end
   local liftL=walk and (phase>=2 and 1 or 0) or 0
   local liftR=walk and (phase<2 and 1 or 0) or 0
-  box(boots,lx-1,28-liftL,lx+2,31-liftL,"76555c")
-  box(boots,rx-1,28-liftR,rx+2,31-liftR,"76555c")
-  line(boots,lx,29-liftL,lx+1,29-liftL,"b18a78")
-  line(boots,rx,29-liftR,rx+1,29-liftR,"b18a78")
+  box(boots,lx-1,28-liftL,lx+2,31-liftL,"8a6468")
+  box(boots,rx-1,28-liftR,rx+2,31-liftR,"8a6468")
+  line(boots,lx,29-liftL,lx+1,29-liftL,"c8a090")
+  line(boots,rx,29-liftR,rx+1,29-liftR,"c8a090")
   -- Tapered shoulders and readable short coat/dress; no scaling of old art.
   local w=side and 4 or 6
   poly(cloth,{{cx-w+1,y(21)},{cx+w-1,y(21)},{cx+w+1,y(24)},{cx+w-1,y(26)},{cx+w,y(28)},{cx-w,y(28)},{cx-w+1,y(26)},{cx-w-1,y(24)}},c[3],ink)
@@ -100,20 +103,26 @@ local function draw(s,d,phase,mode)
   if not side then rect(skin,cx+w,y(25)-arm,cx+w+1,y(26)-arm,sk[3]) end
   -- Head: skin, ears, separated eyes, warm cheek clusters and small mouth.
   poly(skin,{{cx-5,y(13)},{cx+4,y(13)},{cx+6,y(15)},{cx+6,y(18)},{cx+3,y(21)},{cx-3,y(21)},{cx-6,y(18)},{cx-6,y(15)}},sk[3],ink)
-  rect(skin,cx-4,y(14),cx+2,y(18),sk[4])
+  rect(skin,cx-3,y(14),cx+2,y(18),sk[4])
   line(skin,cx-2,y(20),cx+2,y(20),sk[3])
   if not back then
     if side then
-      rect(skin,cx+2,y(16),cx+3,y(18),ink);point(skin,cx+2,y(16),cream)
-      point(skin,cx+5,y(18),sk[2]);point(skin,cx+3,y(20),sk[1])
+      if guideLeft then
+        rect(skin,cx-3,y(16),cx-2,y(18),ink);point(skin,cx-3,y(16),cream)
+        point(skin,cx-5,y(18),sk[2]);point(skin,cx-3,y(20),sk[1])
+      else
+        rect(skin,cx+2,y(16),cx+3,y(18),ink);point(skin,cx+2,y(16),cream)
+        point(skin,cx+5,y(18),sk[2]);point(skin,cx+3,y(20),sk[1])
+      end
     else
       local blink=mode=="idle" and phase==1 or eat and phase==2
       if blink then
         line(skin,cx-4,y(17),cx-2,y(17),ink);line(skin,cx+2,y(17),cx+4,y(17),ink)
       else
-        rect(skin,cx-4,y(16),cx-3,y(18),ink);rect(skin,cx+3,y(16),cx+4,y(18),ink)
+        -- 2x2 eyes: highlight upper-left, iris lower-right; no tall dark bar.
+        rect(skin,cx-4,y(16),cx-3,y(17),ink);rect(skin,cx+3,y(16),cx+4,y(17),ink)
         point(skin,cx-4,y(16),cream);point(skin,cx+3,y(16),cream)
-        point(skin,cx-3,y(18),s.eye or "a07558");point(skin,cx+4,y(18),s.eye or "a07558")
+        point(skin,cx-3,y(17),s.eye or "7a5340");point(skin,cx+4,y(17),s.eye or "7a5340")
       end
       point(skin,cx-5,y(19),sk[2]);point(skin,cx+5,y(19),sk[2])
       point(skin,cx,y(20),sk[1])
@@ -129,8 +138,9 @@ local function draw(s,d,phase,mode)
     line(hair,cx-5,y(13),cx-2,y(13),h[4]);line(hair,cx+1,y(13),cx+4,y(13),h[4])
     line(hair,cx-7,y(15),cx-7,y(19),h[2]);line(hair,cx+6,y(14),cx+6,y(19),h[2])
     if side then
-      poly(hair,{{cx-6,y(13)},{cx,y(13)},{cx,y(18)},{cx-2,y(20)},{cx-5,y(20)},{cx-7,y(17)}},h[3],ink)
-      line(hair,cx-5,y(15),cx-4,y(18),h[4])
+      local sign=guideLeft and -1 or 1
+      poly(hair,{{cx-6*sign,y(13)},{cx,y(13)},{cx,y(18)},{cx-2*sign,y(20)},{cx-5*sign,y(20)},{cx-7*sign,y(17)}},h[3],ink)
+      line(hair,cx-5*sign,y(15),cx-4*sign,y(18),h[4])
     end
   end
   if s.style=="braids" then
@@ -169,6 +179,8 @@ local function draw(s,d,phase,mode)
     poly(hat,{{cx-brim,y(11)},{cx-8,y(9)},{cx+7,y(9)},{cx+brim,y(11)},{cx+brim,y(12)},{cx+6,y(13)},{cx-7,y(13)},{cx-brim,y(12)}},k[2],ink)
     line(hat,cx-10,y(11),cx-6,y(10),k[4]);line(hat,cx-5,y(10),cx+5,y(10),k[3])
     line(hat,cx-5,y(9),cx+5,y(9),gold)
+    -- Brim shadow only at the temples; the centre stays clear for the fringe.
+    line(hat,cx-brim+2,y(13),cx-6,y(13),k[1]);line(hat,cx+6,y(13),cx+brim-2,y(13),k[1])
   end
   -- Headwear signature and occupational accessories occupy their own layer.
   local ax=cx+5
@@ -181,13 +193,18 @@ local function draw(s,d,phase,mode)
   elseif s.prop=="leaf" then
     poly(detail,{{ax-2,y(8)},{ax+1,y(7)},{ax+2,y(9)},{ax,y(11)}},"9eb785",ink);point(detail,ax,y(8),cream)
   end
-  if not back and not eat then
+  if (not back or s.kind=="guide") and not eat then
     if s.prop=="hammer" then
       line(detail,cx+8,y(23),cx+8,y(28),"b48a67");box(detail,cx+6,y(21),cx+10,y(24),"9cabb0");point(detail,cx+7,y(22),cream)
     elseif s.prop=="lantern" then
-      line(detail,cx-9,y(23),cx-9,y(25),ink);box(detail,cx-11,y(25),cx-7,y(29),gold)
-      rect(detail,cx-10,y(26),cx-8,y(27),cream);line(detail,cx-10,y(29),cx-8,y(29),"a07558")
-      box(detail,cx+4,y(23),cx+7,y(27),"936172");line(detail,cx+5,y(24),cx+6,y(24),gold)
+      local lanternX=cx+(back and 9 or -9)
+      local lanternY=bob+arm
+      line(detail,lanternX,23+lanternY,lanternX,25+lanternY,ink)
+      box(detail,lanternX-2,25+lanternY,lanternX+2,29+lanternY,gold)
+      rect(detail,lanternX-1,26+lanternY,lanternX+1,27+lanternY,cream)
+      line(detail,lanternX-1,29+lanternY,lanternX+1,29+lanternY,"a07558")
+      local bookX=cx+(back and -6 or 6)
+      box(detail,bookX-2,y(23),bookX+1,y(27),"936172");line(detail,bookX-1,y(24),bookX,y(24),gold)
     elseif s.prop=="book" or s.prop=="star" then
       box(detail,cx+4,y(23),cx+8,y(27),s.prop=="book" and "936172" or k[1]);line(detail,cx+5,y(24),cx+7,y(24),gold)
     elseif s.prop=="letter" then
@@ -212,7 +229,7 @@ local function draw(s,d,phase,mode)
     line(detail,cx+4,spoon,cx+6,spoon+2,gold);point(detail,cx+3,spoon,cream)
     rect(skin,cx+5,spoon+2,cx+6,spoon+3,sk[3])
   end
-  if d=="left" then
+  if d=="left" and s.kind~="guide" then
     for i,im in ipairs(ims) do
       local mirrored=Image(32,32,ColorMode.RGB)
       for py=0,31 do for px=0,31 do mirrored:drawPixel(31-px,py,im:getPixel(px,py)) end end
@@ -223,6 +240,21 @@ local function draw(s,d,phase,mode)
 end
 
 for _,s in ipairs(specs) do
+  local neutral
+  if s.kind=="guide" and app.params.preserve_guide then
+    local original=app.open(app.params.preserve_guide)
+    assert(#original.frames==1,"Only a static guide source can be extended")
+    neutral={}
+    for i=1,6 do
+      local cel=assert(original.layers[i]:cel(1))
+      local im=Image(32,32,ColorMode.RGB)
+      for py=0,cel.image.height-1 do for px=0,cel.image.width-1 do
+        im:drawPixel(px+cel.position.x,py+cel.position.y,cel.image:getPixel(px,py))
+      end end
+      neutral[i]=im
+    end
+    original:close()
+  end
   local sprite=Sprite(32,32,ColorMode.RGB)
   sprite.gridBounds=Rectangle(0,0,1,1)
   sprite:assignColorSpace(ColorSpace{ sRGB=true })
@@ -230,7 +262,7 @@ for _,s in ipairs(specs) do
   local layers={sprite.layers[1]};layers[1].name=layerNames[1]
   for i=2,#layerNames do layers[i]=sprite:newLayer();layers[i].name=layerNames[i] end
   local poses,tags={},{}
-  if s.kind=="resident" then
+  if s.kind=="resident" or s.kind=="guide" then
     for _,d in ipairs({"down","up","right","left"}) do
       local first=#poses+1
       for p=0,3 do poses[#poses+1]={d,p,"walk",.14} end
@@ -238,7 +270,12 @@ for _,s in ipairs(specs) do
     end
   end
   if s.kind=="guide" then
-    poses[1]={"down",0,"idle",1};tags[1]={"idle",1,1}
+    poses[#poses+1]={"down",0,"idle",.9};poses[#poses+1]={"down",1,"idle",.16}
+    tags[#tags+1]={"idle",17,18}
+    for _,d in ipairs({"up","right","left"}) do
+      poses[#poses+1]={d,0,"idle",1}
+      tags[#tags+1]={"idle_"..d,#poses,#poses}
+    end
   else
     local first=#poses+1
     poses[#poses+1]={"down",0,"idle",.9};poses[#poses+1]={"down",1,"idle",.16}
@@ -252,6 +289,7 @@ for _,s in ipairs(specs) do
       if f>1 then sprite:newEmptyFrame(f) end
       sprite.frames[f].duration=p[4]
       local images=draw(s,p[1],p[2],p[3])
+      if neutral and f==17 then images=neutral end
       for i,im in ipairs(images) do sprite:newCel(layers[i],f,im,Point(0,0)) end
     end
     for _,t in ipairs(tags) do local tag=sprite:newTag(t[2],t[3]);tag.name=t[1] end
@@ -265,6 +303,19 @@ for _,s in ipairs(specs) do
   for i,v in ipairs(paletteColors) do palette:setColor(i,Color{r=pc.rgbaR(v),g=pc.rgbaG(v),b=pc.rgbaB(v),a=255}) end
   sprite:setPalette(palette)
   sprite:saveAs(out.."/"..s.kind.."s/"..s.id..".aseprite")
+  if s.kind=="guide" then
+    -- A single-frame native portrait preserves the original front-facing view.
+    local portrait=Sprite(32,32,ColorMode.RGB)
+    portrait.layers[1].name=layerNames[1]
+    for i=2,6 do portrait:newLayer().name=layerNames[i] end
+    for i=1,6 do
+      local cel=sprite.layers[i]:cel(17)
+      portrait:newCel(portrait.layers[i],1,cel.image,cel.position)
+    end
+    local tag=portrait:newTag(1,1);tag.name="idle"
+    portrait:saveAs(out.."/portraits/"..s.id..".aseprite")
+    portrait:close()
+  end
   sprite:close()
   print("AUTHORED "..s.id.." 32x32 "..#poses.." frames "..#paletteColors.." colors")
 end

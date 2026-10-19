@@ -1,0 +1,289 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+STORY initial goal is gathering: PASS
+STORY first ingredients 0: PASS
+STORY first ingredients 3: PASS
+STORY first ingredients 6: PASS
+STORY gathering hands into preparation: PASS
+STORY preparation leads to menu: PASS
+STORY listing leads to first meal: PASS
+STORY service starts with available ingredients: PASS
+STORY real cooking 0: PASS
+STORY real meal 0: PASS
+STORY first meal resumes chapter progress 0: PASS
+STORY real cooking 1: PASS
+STORY real meal 1: PASS
+STORY first meal resumes chapter progress 1: PASS
+STORY real cooking 2: PASS
+STORY real meal 2: PASS
+STORY first meal resumes chapter progress 2: PASS
+STORY original dinner reward remains: PASS
+STORY real till and seed 1: PASS
+STORY real till and seed 4: PASS
+STORY real till and seed 5: PASS
+STORY real till and seed 12: PASS
+STORY real till and seed 13: PASS
+STORY five planted plots lead to water: PASS
+STORY real water 1: PASS
+STORY real water 4: PASS
+STORY real water 5: PASS
+STORY real water 12: PASS
+STORY real water 13: PASS
+STORY water leads to harvest: PASS
+STORY saved tutorial resumes without new schema: PASS
+STORY growing crops never regress to planting 0: PASS
+STORY growing crops never regress to planting 1: PASS
+STORY growing crops never regress to planting 2: PASS
+STORY real harvest 1: PASS
+STORY harvest does not regress tutorial 1: PASS
+STORY real harvest 4: PASS
+STORY harvest does not regress tutorial 4: PASS
+STORY real harvest 5: PASS
+STORY harvest does not regress tutorial 5: PASS
+STORY real harvest 12: PASS
+STORY harvest does not regress tutorial 12: PASS
+STORY real harvest 13: PASS
+STORY harvest does not regress tutorial 13: PASS
+STORY harvest pays original reward: PASS
+STORY pantry recipe bypasses optional raw preparation: PASS
+STORY existing completed meals skip early steps: PASS
+STORY existing harvests skip early farming: PASS
+STORY completed campaign has no lingering tutorial: PASS
+STORY tutorial goal fits zh_CN/prepare: PASS
+STORY tutorial goal fits zh_CN/menu: PASS
+STORY tutorial goal fits zh_CN/first_meal: PASS
+STORY tutorial goal fits zh_CN/plant: PASS
+STORY tutorial goal fits zh_CN/water: PASS
+STORY compact objective fits zh_CN/0: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/0: PASS
+STORY all chapter lines fit zh_CN/0: PASS
+STORY speaker portrait and history match zh_CN/0: PASS
+STORY compact objective fits zh_CN/1: PASS
+STORY capture objective_zh_CN: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/1: PASS
+STORY all chapter lines fit zh_CN/1: PASS
+STORY speaker portrait and history match zh_CN/1: PASS
+STORY compact objective fits zh_CN/2: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/2: PASS
+STORY all chapter lines fit zh_CN/2: PASS
+STORY speaker portrait and history match zh_CN/2: PASS
+STORY compact objective fits zh_CN/3: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/3: PASS
+STORY all chapter lines fit zh_CN/3: PASS
+STORY speaker portrait and history match zh_CN/3: PASS
+STORY compact objective fits zh_CN/4: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/4: PASS
+STORY all chapter lines fit zh_CN/4: PASS
+STORY speaker portrait and history match zh_CN/4: PASS
+STORY compact objective fits zh_CN/5: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/5: PASS
+STORY all chapter lines fit zh_CN/5: PASS
+STORY speaker portrait and history match zh_CN/5: PASS
+STORY compact objective fits zh_CN/6: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/6: PASS
+STORY all chapter lines fit zh_CN/6: PASS
+STORY speaker portrait and history match zh_CN/6: PASS
+STORY compact objective fits zh_CN/7: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/7: PASS
+STORY capture chapter_scene_zh_CN: PASS
+STORY all chapter lines fit zh_CN/7: PASS
+STORY speaker portrait and history match zh_CN/7: PASS
+STORY compact objective fits zh_CN/8: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/8: PASS
+STORY all chapter lines fit zh_CN/8: PASS
+STORY speaker portrait and history match zh_CN/8: PASS
+STORY compact objective fits zh_CN/9: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/9: PASS
+STORY all chapter lines fit zh_CN/9: PASS
+STORY speaker portrait and history match zh_CN/9: PASS
+STORY compact objective fits zh_CN/10: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/10: PASS
+STORY all chapter lines fit zh_CN/10: PASS
+STORY speaker portrait and history match zh_CN/10: PASS
+STORY compact objective fits zh_CN/11: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_CN/11: PASS
+STORY all chapter lines fit zh_CN/11: PASS
+STORY speaker portrait and history match zh_CN/11: PASS
+STORY journal shows current briefing and preparation only zh_CN: PASS
+STORY capture journal_zh_CN: PASS
+STORY tutorial goal fits en/prepare: PASS
+STORY tutorial goal fits en/menu: PASS
+STORY tutorial goal fits en/first_meal: PASS
+STORY tutorial goal fits en/plant: PASS
+STORY tutorial goal fits en/water: PASS
+STORY compact objective fits en/0: PASS
+STORY chapter pays once and hides goal beneath dialogue en/0: PASS
+STORY all chapter lines fit en/0: PASS
+STORY speaker portrait and history match en/0: PASS
+STORY compact objective fits en/1: PASS
+STORY capture objective_en: PASS
+STORY chapter pays once and hides goal beneath dialogue en/1: PASS
+STORY all chapter lines fit en/1: PASS
+STORY speaker portrait and history match en/1: PASS
+STORY compact objective fits en/2: PASS
+STORY chapter pays once and hides goal beneath dialogue en/2: PASS
+STORY all chapter lines fit en/2: PASS
+STORY speaker portrait and history match en/2: PASS
+STORY compact objective fits en/3: PASS
+STORY chapter pays once and hides goal beneath dialogue en/3: PASS
+STORY all chapter lines fit en/3: PASS
+STORY speaker portrait and history match en/3: PASS
+STORY compact objective fits en/4: PASS
+STORY chapter pays once and hides goal beneath dialogue en/4: PASS
+STORY all chapter lines fit en/4: PASS
+STORY speaker portrait and history match en/4: PASS
+STORY compact objective fits en/5: PASS
+STORY chapter pays once and hides goal beneath dialogue en/5: PASS
+STORY all chapter lines fit en/5: PASS
+STORY speaker portrait and history match en/5: PASS
+STORY compact objective fits en/6: PASS
+STORY chapter pays once and hides goal beneath dialogue en/6: PASS
+STORY all chapter lines fit en/6: PASS
+STORY speaker portrait and history match en/6: PASS
+STORY compact objective fits en/7: PASS
+STORY chapter pays once and hides goal beneath dialogue en/7: PASS
+STORY capture chapter_scene_en: PASS
+STORY all chapter lines fit en/7: PASS
+STORY speaker portrait and history match en/7: PASS
+STORY compact objective fits en/8: PASS
+STORY chapter pays once and hides goal beneath dialogue en/8: PASS
+STORY all chapter lines fit en/8: PASS
+STORY speaker portrait and history match en/8: PASS
+STORY compact objective fits en/9: PASS
+STORY chapter pays once and hides goal beneath dialogue en/9: PASS
+STORY all chapter lines fit en/9: PASS
+STORY speaker portrait and history match en/9: PASS
+STORY compact objective fits en/10: PASS
+STORY chapter pays once and hides goal beneath dialogue en/10: PASS
+STORY all chapter lines fit en/10: PASS
+STORY speaker portrait and history match en/10: PASS
+STORY compact objective fits en/11: PASS
+STORY chapter pays once and hides goal beneath dialogue en/11: PASS
+STORY all chapter lines fit en/11: PASS
+STORY speaker portrait and history match en/11: PASS
+STORY journal shows current briefing and preparation only en: PASS
+STORY capture journal_en: PASS
+STORY tutorial goal fits ja/prepare: PASS
+STORY tutorial goal fits ja/menu: PASS
+STORY tutorial goal fits ja/first_meal: PASS
+STORY tutorial goal fits ja/plant: PASS
+STORY tutorial goal fits ja/water: PASS
+STORY compact objective fits ja/0: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/0: PASS
+STORY all chapter lines fit ja/0: PASS
+STORY speaker portrait and history match ja/0: PASS
+STORY compact objective fits ja/1: PASS
+STORY capture objective_ja: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/1: PASS
+STORY all chapter lines fit ja/1: PASS
+STORY speaker portrait and history match ja/1: PASS
+STORY compact objective fits ja/2: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/2: PASS
+STORY all chapter lines fit ja/2: PASS
+STORY speaker portrait and history match ja/2: PASS
+STORY compact objective fits ja/3: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/3: PASS
+STORY all chapter lines fit ja/3: PASS
+STORY speaker portrait and history match ja/3: PASS
+STORY compact objective fits ja/4: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/4: PASS
+STORY all chapter lines fit ja/4: PASS
+STORY speaker portrait and history match ja/4: PASS
+STORY compact objective fits ja/5: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/5: PASS
+STORY all chapter lines fit ja/5: PASS
+STORY speaker portrait and history match ja/5: PASS
+STORY compact objective fits ja/6: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/6: PASS
+STORY all chapter lines fit ja/6: PASS
+STORY speaker portrait and history match ja/6: PASS
+STORY compact objective fits ja/7: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/7: PASS
+STORY capture chapter_scene_ja: PASS
+STORY all chapter lines fit ja/7: PASS
+STORY speaker portrait and history match ja/7: PASS
+STORY compact objective fits ja/8: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/8: PASS
+STORY all chapter lines fit ja/8: PASS
+STORY speaker portrait and history match ja/8: PASS
+STORY compact objective fits ja/9: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/9: PASS
+STORY all chapter lines fit ja/9: PASS
+STORY speaker portrait and history match ja/9: PASS
+STORY compact objective fits ja/10: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/10: PASS
+STORY all chapter lines fit ja/10: PASS
+STORY speaker portrait and history match ja/10: PASS
+STORY compact objective fits ja/11: PASS
+STORY chapter pays once and hides goal beneath dialogue ja/11: PASS
+STORY all chapter lines fit ja/11: PASS
+STORY speaker portrait and history match ja/11: PASS
+STORY journal shows current briefing and preparation only ja: PASS
+STORY capture journal_ja: PASS
+STORY tutorial goal fits zh_TW/prepare: PASS
+STORY tutorial goal fits zh_TW/menu: PASS
+STORY tutorial goal fits zh_TW/first_meal: PASS
+STORY tutorial goal fits zh_TW/plant: PASS
+STORY tutorial goal fits zh_TW/water: PASS
+STORY compact objective fits zh_TW/0: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/0: PASS
+STORY all chapter lines fit zh_TW/0: PASS
+STORY speaker portrait and history match zh_TW/0: PASS
+STORY compact objective fits zh_TW/1: PASS
+STORY capture objective_zh_TW: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/1: PASS
+STORY all chapter lines fit zh_TW/1: PASS
+STORY speaker portrait and history match zh_TW/1: PASS
+STORY compact objective fits zh_TW/2: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/2: PASS
+STORY all chapter lines fit zh_TW/2: PASS
+STORY speaker portrait and history match zh_TW/2: PASS
+STORY compact objective fits zh_TW/3: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/3: PASS
+STORY all chapter lines fit zh_TW/3: PASS
+STORY speaker portrait and history match zh_TW/3: PASS
+STORY compact objective fits zh_TW/4: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/4: PASS
+STORY all chapter lines fit zh_TW/4: PASS
+STORY speaker portrait and history match zh_TW/4: PASS
+STORY compact objective fits zh_TW/5: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/5: PASS
+STORY all chapter lines fit zh_TW/5: PASS
+STORY speaker portrait and history match zh_TW/5: PASS
+STORY compact objective fits zh_TW/6: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/6: PASS
+STORY all chapter lines fit zh_TW/6: PASS
+STORY speaker portrait and history match zh_TW/6: PASS
+STORY compact objective fits zh_TW/7: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/7: PASS
+STORY capture chapter_scene_zh_TW: PASS
+STORY all chapter lines fit zh_TW/7: PASS
+STORY speaker portrait and history match zh_TW/7: PASS
+STORY compact objective fits zh_TW/8: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/8: PASS
+STORY all chapter lines fit zh_TW/8: PASS
+STORY speaker portrait and history match zh_TW/8: PASS
+STORY compact objective fits zh_TW/9: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/9: PASS
+STORY all chapter lines fit zh_TW/9: PASS
+STORY speaker portrait and history match zh_TW/9: PASS
+STORY compact objective fits zh_TW/10: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/10: PASS
+STORY all chapter lines fit zh_TW/10: PASS
+STORY speaker portrait and history match zh_TW/10: PASS
+STORY compact objective fits zh_TW/11: PASS
+STORY chapter pays once and hides goal beneath dialogue zh_TW/11: PASS
+STORY all chapter lines fit zh_TW/11: PASS
+STORY speaker portrait and history match zh_TW/11: PASS
+STORY journal shows current briefing and preparation only zh_TW: PASS
+STORY capture journal_zh_TW: PASS
+STORY language switch preserves custom name and localized history: PASS
+STORY resident with same source name still translates: PASS
+STORY future chapter cannot be recalled: PASS
+STORY recall has no transactions or hand-in: PASS
+STORY story writes isolated save: PASS
+STORY disk resume keeps chapter and active goal: PASS
+STORY COMPLETE checks=283 failures=0
+FMOD Sound System: System released

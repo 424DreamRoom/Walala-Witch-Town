@@ -1,6 +1,6 @@
 {
   "authoring": "Aseprite native Lua Image:drawPixel and Sprite:saveAs; no raster imports, resizing or binary source-file writer",
-  "aseprite": "C:/steam/steamapps/common/Aseprite/Aseprite.exe",
+  "aseprite": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Aseprite\\Aseprite.exe",
   "assets": [
     {
       "id": "mori",
@@ -89,13 +89,13 @@
         500,
         500
       ],
-      "palette_colors": 20,
+      "palette_colors": 24,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "df5c36aef277a08e64eb75874d1e1ca72f11183dee63b5a5a81120ebc7ec2464",
-      "png_sha256": "0f25053501676115b3b038bc61602fcb3889fa7ec7fecd1f2649fad8be967627"
+      "source_sha256": "f30177cefbc68b1c18c4494b3909cef51d0fe47095740bae5df7311a614a91d8",
+      "png_sha256": "8b9187a6cf599849b539009eb29cc2976d930d3f70d24e02a9a10e7682a468a3"
     },
     {
       "id": "ember",
@@ -184,13 +184,13 @@
         500,
         500
       ],
-      "palette_colors": 21,
+      "palette_colors": 24,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "2719d3b0db76a132d43b4468f2cfab63e81af5134bb85b789e27cb6f140507b5",
-      "png_sha256": "60ac7159cd7881b4ae1474ceac4421f16be2af5b2c1294b57a03b3abccbc06b0"
+      "source_sha256": "9ed3f85184870d1c9335adac9ae020f218d5df2bc984c83312c5d1154060ec2f",
+      "png_sha256": "c49db95ab4e8cbd7435d228d0ad8685722be17490dac01c16e22906894966881"
     },
     {
       "id": "nagi",
@@ -279,13 +279,13 @@
         500,
         500
       ],
-      "palette_colors": 18,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "3b53bed038b1fd0afb5a9a24a7d425f0ec27d1a45b318142901915493bf52387",
-      "png_sha256": "93cde2afa06c3949932c79470d5053ad503d2740111a9e630ade08c5a12d23a4"
+      "source_sha256": "aa6d8f5672c9e2a590e9ad19b345e3d7e6dc8d6522b3589edb62625157bbd2f6",
+      "png_sha256": "831245fb6918b53c60cb8376a0a5bd6fcdb896b4f1d8f7229c8d757f596567d7"
     },
     {
       "id": "lumi",
@@ -374,13 +374,13 @@
         500,
         500
       ],
-      "palette_colors": 18,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "a5084204cafc90de41c79577d5a4df3519a9d5c5cb2aef1a4b5c24e7d436dc26",
-      "png_sha256": "74069d22d0dee5019c7338a1dfb9132c29469e1113256802865cb5e69e9777cb"
+      "source_sha256": "07946804e843235711581d90e0e253097b96fe9f98f226ef662c18b81d7a6ebb",
+      "png_sha256": "3ec8d40709e71ec8e05542f9075c30020ac40d35038482c70312108a9664ba31"
     },
     {
       "id": "aster",
@@ -469,13 +469,13 @@
         500,
         500
       ],
-      "palette_colors": 17,
+      "palette_colors": 21,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "ea5ba4b2b882dc153b9b6e60cbf751beb015511e0dfb611a7e64bbfed3a867e8",
-      "png_sha256": "a2f1a1b3946eac1386fc5ced7dcbc33cc0175555a56700d08798f6aa1c25699f"
+      "source_sha256": "e55b91a8fe37afa11e4306a333306d06c64cf9fe75f9278fcb4a51c99a1ad8f8",
+      "png_sha256": "f83b85198e6be7f5531a062c3e242c59a03159379401c8b30aa3d1ed81514ea2"
     },
     {
       "id": "toma",
@@ -564,13 +564,13 @@
         500,
         500
       ],
-      "palette_colors": 18,
+      "palette_colors": 21,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "85adea4b89e76ccbe6f2fc3ee5da1b0245af3465171b1b8d5c2e6101888ac739",
-      "png_sha256": "91d0137d1cb85255733e40acf98e78cd7ade7ceb3baacb294c240b0b4882053c"
+      "source_sha256": "e9a0bd778bd8f06c0b761d5450b2b712a7cafafd1af1b34181cfd5e1652e5f68",
+      "png_sha256": "f27d26b06d5cf7cb5fc73c3cdb60c7f513995f430b85b2189a4794674c648968"
     },
     {
       "id": "pip",
@@ -659,13 +659,13 @@
         500,
         500
       ],
-      "palette_colors": 20,
+      "palette_colors": 23,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "53f773f057f8426e561b20577bb93ca609257c117d2d20800088606c77b34d29",
-      "png_sha256": "6e292bc76cd2f7fee05a02e42ba06545323412c771d0a3e91cad17a711803d8a"
+      "source_sha256": "a295fceff32b9fa3ce91b06dec107b5633093d039225984017e09c304beeb5a6",
+      "png_sha256": "3a7e2c6277da28c90463f07932df461e007a60f36fdba4cba3a74e7af08773c3"
     },
     {
       "id": "reed",
@@ -754,13 +754,13 @@
         500,
         500
       ],
-      "palette_colors": 18,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "4b7ce4c5f975e99908eb658476a98331eec8b6dd85b81e1db7d6201618c44ee9",
-      "png_sha256": "dadfdd233b458273e9f3b00fea556c260acf5d02c13d7dae2a3cb904e91e8b4a"
+      "source_sha256": "9b400ab626547e022eb77b0b243119df4dc0d29bfc2cac99bc0208edb160938f",
+      "png_sha256": "fb63dec122b97ba2e6655009f148645e7af2984911e52c4beed91bd7c0c005f3"
     },
     {
       "id": "yuki",
@@ -849,13 +849,13 @@
         500,
         500
       ],
-      "palette_colors": 19,
+      "palette_colors": 23,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "6da313d3a16a6a83b6ecd31650dc1bdf914b6069535729c4231b42c8a2397ae5",
-      "png_sha256": "44e763eb70422af20b62983788bdbad8d15e366dd8fe1e4726b1c3415ef541ec"
+      "source_sha256": "404755adeb6b7f12805c2e2830f841e0f66d4a0d9bbf8bda6813ec7d5d380ac2",
+      "png_sha256": "87907857910aaaea206c3d457bad8af02c2344147ccf22acbcdbfa46302c0e65"
     },
     {
       "id": "orla",
@@ -944,13 +944,13 @@
         500,
         500
       ],
-      "palette_colors": 18,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "80b4d5ae69e0e48722bc715defd64c4e2706c46fc3bd3f63c8b5398abe061fda",
-      "png_sha256": "21fbf5f7456e301d609247fd5093269973c163eddc787711a196ece6f23dde09"
+      "source_sha256": "2c6e5ba06d388985514756e42d2d23943ac16de8198abbf5d1dc97628f497cf9",
+      "png_sha256": "ef33bfc5dd5c4370d4d04257af18f6766f032c8e4c2485230b2bb480a2437c30"
     },
     {
       "id": "green_braids",
@@ -995,13 +995,13 @@
         500,
         500
       ],
-      "palette_colors": 23,
+      "palette_colors": 24,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "a50a3ead20894b97bd2c240a1cca538a111f7ca5481d81e00c7989011ed9774b",
-      "png_sha256": "5b417911438f541cee3e5ef0dfe294015312de6802b2e751d250c1b22e17ec17"
+      "source_sha256": "ffdf627895d492fb833b07f685bbcd22836992eac2286f2434e5fc42595feb45",
+      "png_sha256": "7d17987e1f3602a27901286d0caeb6ed596e189294dd402f442118c775ab90db"
     },
     {
       "id": "blue_blonde",
@@ -1046,13 +1046,13 @@
         500,
         500
       ],
-      "palette_colors": 21,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "decca6ebb0f15f9d63e3b992271b14055ffc6c453bcf42df6a5a970ae8da6e68",
-      "png_sha256": "f99643847d2c1c30508787589bfcad49edfbb9857d282cbde5fbba63eeccd1ce"
+      "source_sha256": "9e2b6fd695739903a82ee841060e1d6a145c1911a186ca3d2f44ea2f6538f0ad",
+      "png_sha256": "65914e06d21f0bb623b9ce1b8010b78463b6d00aab3706c93f7a99aa961796ca"
     },
     {
       "id": "burgundy_curls",
@@ -1097,13 +1097,13 @@
         500,
         500
       ],
-      "palette_colors": 21,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "e633018e0d336bcb200ce34e10b23ba2b86b0137b61aa8fe32fc90e4b263df6a",
-      "png_sha256": "0c9d106bd8ce215d04dbe0068c6c9d9e9986280869e11e175a4b5c78073ed238"
+      "source_sha256": "07205a1620740914e4869809604b7dcc98ae69c4b414321936605f6f61d749b8",
+      "png_sha256": "95e1e58bc243f4792217449b39c2b862c8e0c4e3cf049b2203af18267b4e4f9a"
     },
     {
       "id": "orange_short",
@@ -1148,13 +1148,13 @@
         500,
         500
       ],
-      "palette_colors": 21,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "dec0d33050446c5689213db34981663b2aaddf42e71e7e03a9036db0dd893e3e",
-      "png_sha256": "6b883444378f9cb1b7b956c772430ff9e879282e149c4a50d24b3b2cfb91140b"
+      "source_sha256": "633f1ec822739511350c36ea40b8081655242476f6db6a3ea0a1f20ce8356134",
+      "png_sha256": "eb460295891542309be8b63dc5e7d22b90d2b0ed132b5e4e4d032222e469f662"
     },
     {
       "id": "cyan_gray",
@@ -1204,8 +1204,8 @@
         16,
         32
       ],
-      "source_sha256": "fc5b8fd5490a4a9469408934b3656bfc4f31e629a0b557cfb84c39d4432da5c8",
-      "png_sha256": "ae209c19cd9cbb8a05a5c1c249fab16e2506dc285d5012519f1ec51318287190"
+      "source_sha256": "a209d89e296e9ac22c1f6ff63b6bb8a55038beb8835a6254e63f749765bd497d",
+      "png_sha256": "a8dd54e1ea79053b359f9ad67539a6a428ab3fdc0df072e2b82c4c54ee54e17c"
     },
     {
       "id": "pink_longblue",
@@ -1250,13 +1250,13 @@
         500,
         500
       ],
-      "palette_colors": 22,
+      "palette_colors": 23,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "74e166a3da2d044c170a0ac4678bff7d8b0d682f11e072d7e73ff9b0e49fa4ce",
-      "png_sha256": "44dc46e64821753eb550e604f512c4c009dfc01b3472fcdf5e6aa5ded23a4e9f"
+      "source_sha256": "7a40df86f7fc2cb56a3d56c80f85cc850a80e3874367814cdd99e92eabaf3c41",
+      "png_sha256": "d841049e9208efbda7508321086400be05d67f2dde1a3a53d4b48243e7de56da"
     },
     {
       "id": "yingluo",
@@ -1268,7 +1268,7 @@
         32,
         32
       ],
-      "frames": 1,
+      "frames": 21,
       "layers": [
         "Boots",
         "Clothing",
@@ -1279,23 +1279,92 @@
       ],
       "tags": [
         {
-          "name": "idle",
+          "name": "walk_down",
           "from": 0,
-          "to": 0,
+          "to": 3,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_up",
+          "from": 4,
+          "to": 7,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_right",
+          "from": 8,
+          "to": 11,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "walk_left",
+          "from": 12,
+          "to": 15,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle",
+          "from": 16,
+          "to": 17,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle_up",
+          "from": 18,
+          "to": 18,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle_right",
+          "from": 19,
+          "to": 19,
+          "direction": "forward",
+          "color": "#000000ff"
+        },
+        {
+          "name": "idle_left",
+          "from": 20,
+          "to": 20,
           "direction": "forward",
           "color": "#000000ff"
         }
       ],
       "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        900,
+        160,
+        1000,
+        1000,
         1000
       ],
-      "palette_colors": 20,
+      "palette_colors": 22,
       "anchor": [
         16,
         32
       ],
-      "source_sha256": "d07ef883aba52f35dd4f2ab9e2022986bfd3775f1189ff303e58cb6b119cdd05",
-      "png_sha256": "7f50044c0b1eb07f0e80136d8e8e319eabeac8edf4b18b9a703db7ba58536ec7"
+      "source_sha256": "f9c622e360713ff0f36df7a8d3d73490bc4acffd90144888cd6949dc7d072364",
+      "png_sha256": "a35752c6cfe822754a7d0d7a22701866ac85e8daa4d4b0f39db76c765c5b6a26"
     }
   ]
 }

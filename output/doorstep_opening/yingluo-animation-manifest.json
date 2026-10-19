@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "character_id": "yingluo",
+  "family": "map-npc",
+  "canvas": {
+    "width": 32,
+    "height": 32
+  },
+  "pivot": {
+    "x": 16,
+    "y": 32
+  },
+  "layers": [
+    "Boots",
+    "Clothing",
+    "Face and hands",
+    "Hair",
+    "Headwear",
+    "Accessories"
+  ],
+  "frame_source": {
+    "native_source": "res://Art/Characters/NPC32/guides/yingluo.aseprite",
+    "count": 21
+  },
+  "required_animation_tags": [
+    "walk_down",
+    "walk_up",
+    "walk_right",
+    "walk_left",
+    "idle",
+    "idle_up",
+    "idle_right",
+    "idle_left"
+  ],
+  "animations": [
+    {
+      "name": "walk_down",
+      "from": 0,
+      "to": 3,
+      "duration_ms": 140,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk_up",
+      "from": 4,
+      "to": 7,
+      "duration_ms": 140,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk_right",
+      "from": 8,
+      "to": 11,
+      "duration_ms": 140,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "walk_left",
+      "from": 12,
+      "to": 15,
+      "duration_ms": 140,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle",
+      "from": 16,
+      "to": 17,
+      "duration_ms": 900,
+      "durations_ms": [
+        900,
+        160
+      ],
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle_up",
+      "from": 18,
+      "to": 18,
+      "duration_ms": 1000,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle_right",
+      "from": 19,
+      "to": 19,
+      "duration_ms": 1000,
+      "direction": "forward",
+      "loop": true
+    },
+    {
+      "name": "idle_left",
+      "from": 20,
+      "to": 20,
+      "duration_ms": 1000,
+      "direction": "forward",
+      "loop": true
+    }
+  ],
+  "export": {
+    "columns": 21
+  },
+  "validation": {
+    "binary_alpha": true,
+    "palette_max_per_frame": 32,
+    "expected_baseline": 31
+  },
+  "style_note": "Existing NPC32 family overrides the skill default: native 32x32, feet (16,32), six existing layers, underscore tags. Preserve original Yingluo front pose, lavender bob hair, green hat/clothing, lantern and book. References: simple Nagi, detailed Mori, nearest sibling Lumi. Violet outline #453447, upper-left light, four shade bands, cream/gold accents, binary alpha. Four 140 ms frames per walk direction. Left artwork keeps lighting/accessories independent; no runtime flip."
+}

@@ -3,6 +3,7 @@ extends Node2D
 const ResourceNode = preload("res://Scenes/Gameplay/resource_node.gd")
 const Equipment = preload("res://Scenes/Equipment/equipment_catalog.gd")
 const WitchAnimation = preload("res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd")
+const WandVisuals = preload("res://Scenes/Equipment/wand_visuals.gd")
 const SHEET := WitchAnimation.SHEET
 var loop
 var target: ResourceNode
@@ -10,6 +11,7 @@ var action := ""
 var elapsed := 0.0
 var wait_seconds := 0.0
 var action_day := 0
+var action_mode := "blue"
 var impacted := false
 var effect_left := 0.0
 var effect_position := Vector2.ZERO
@@ -54,8 +56,12 @@ func start(node: ResourceNode) -> void:
 	if not required_tool.is_empty() and not loop.state.require_selected_item(required_tool):
 		loop._show_feedback()
 		return
+	if node.resource_kind in ["wood", "ore", "weed"] and not loop.state.require_wand_mode("red"):
+		loop._show_feedback()
+		return
 	target = node
 	action_day = loop.state.day
+	action_mode = loop.state.wand_mode
 	var direction: Vector2 = target.position - loop.lane.player.position
 	loop.lane.facing = (2 if direction.x > 0 else 3) if absf(direction.x) > absf(direction.y) else (0 if direction.y > 0 else 1)
 	loop.lane.player.velocity = Vector2.ZERO
@@ -78,6 +84,7 @@ func interact() -> void:
 		cancel("收竿太早，鱼儿还没咬钩。")
 
 func show_farm_cast() -> void:
+	action_mode = loop.state.wand_mode
 	farm_cast_left = FARM_CAST_SECONDS
 	update_pose()
 
@@ -95,7 +102,7 @@ func cancel(message: String = "") -> void:
 func advance(delta: float) -> void:
 	if paused_for_test:
 		return
-	if (busy() or farm_cast_left > 0.0) and not loop.state.is_item_selected("wand"):
+	if (busy() or farm_cast_left > 0.0) and (not loop.state.is_item_selected("wand") or loop.state.wand_mode != action_mode):
 		cancel()
 		return
 	farm_cast_left = maxf(0.0, farm_cast_left - delta) if loop.location == "farm" and loop.state.phase == "day" else 0.0
@@ -142,6 +149,7 @@ func advance(delta: float) -> void:
 	queue_redraw()
 
 func update_pose() -> void:
+	actor.texture = WandVisuals.action_texture(loop.state.wand_mode)
 	actor.visible = busy() or farm_cast_left > 0.0
 	loop.lane.avatar.visible = not actor.visible
 	actor.position = loop.lane.WITCH_FOOT_OFFSET + loop.lane.player.position.round() - loop.lane.player.position

@@ -164,6 +164,9 @@ func run() -> void:
 	loop.area.set_process(false)
 	loop.state.customers = [{"seat": 0, "dish": 0, "patience": 25.0, "variant": 0, "status": "waiting", "eating_left": 0.0}]
 	loop.area._process(0.0)
+	# Skip the cosmetic doorway walk; collision applies once the guest is seated.
+	loop.area.arrival_clock[0] = 0.0
+	loop.area._process(0.0)
 	await frames()
 	var guest: StaticBody2D = loop.area.customer_bodies[0]
 	var seat: Vector2 = loop.area.seats[0]

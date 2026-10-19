@@ -1,0 +1,70 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+DOCK TEST real walk to (1568.0, 652.0): PASS
+DOCK TEST dock gate prompt: PASS
+DOCK TEST real walk to (1592.0, 652.0): PASS
+DOCK TEST walking enters dock: PASS
+DOCK TEST town collision world detached: PASS
+DOCK TEST dock camera bounds: PASS
+DOCK TEST three fishing spots: PASS
+DOCK TEST dock UI and weather: PASS
+DOCK TEST real walk to (64.0, 236.0): PASS
+DOCK TEST real walk to (250.0, 236.0): PASS
+DOCK TEST bridge edge blocks water: PASS
+DOCK TEST real walk to (250.0, 236.0): PASS
+DOCK TEST real walk to (388.0, 236.0): PASS
+DOCK TEST real walk to (388.0, 174.0): PASS
+DOCK TEST action wait: FAIL
+DOCK TEST cast waits 2 to 4 seconds: FAIL
+DOCK TEST early reel gives no fish: PASS
+DOCK TEST action bite: FAIL
+DOCK TEST new cast clears stale failure feedback: PASS
+DOCK TEST bite E begins reel: FAIL
+DOCK TEST action : PASS
+DOCK TEST first catch and UI: FAIL
+DOCK TEST action bite: FAIL
+DOCK TEST action : PASS
+DOCK TEST missed bite does not consume stock: FAIL
+DOCK TEST Escape cancels at dock: PASS
+DOCK TEST walking cancels at dock: PASS
+DOCK TEST real walk to (388.0, 174.0): PASS
+DOCK TEST E casts: FAIL
+DOCK TEST action bite: FAIL
+DOCK TEST bite E reels: FAIL
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: FAIL
+DOCK TEST E casts: FAIL
+DOCK TEST action bite: FAIL
+DOCK TEST bite E reels: FAIL
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: FAIL
+DOCK TEST north stock exhausted independently: FAIL
+DOCK TEST exhausted dock spot gives no duplicate: FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (388.0, 220.0)
+DOCK TEST real walk to (388.0, 220.0): FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (452.0, 176.0)
+DOCK TEST real walk to (492.0, 220.0): FAIL
+DOCK TEST E casts: FAIL
+DOCK TEST action bite: FAIL
+DOCK TEST bite E reels: FAIL
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: FAIL
+DOCK TEST eastward fishing uses correct water position: FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (420.0, 176.0)
+DOCK TEST real walk to (492.0, 252.0): FAIL
+DOCK TEST east pier edge blocks water: FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (388.0, 204.0)
+DOCK TEST real walk to (440.0, 252.0): FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (388.0, 208.0)
+DOCK TEST real walk to (440.0, 260.0): FAIL
+DOCK TEST E casts: FAIL
+DOCK TEST action bite: FAIL
+DOCK TEST bite E reels: FAIL
+DOCK TEST action : PASS
+DOCK TEST reel grants exactly one fish: FAIL
+DOCK TEST south fishing works: FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (388.0, 236.0)
+DOCK TEST real walk to (388.0, 236.0): FAIL
+NAVIGATION BLOCKED at (387.0, 175.5748) toward (372.0, 176.0)
+DOCK TEST real walk to (64.0, 236.0): FAIL

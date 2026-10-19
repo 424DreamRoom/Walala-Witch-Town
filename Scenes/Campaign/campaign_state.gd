@@ -111,6 +111,7 @@ static func trade(s, id: String, buying: bool) -> bool:
 
 static func farm_action(s, index: int) -> bool:
 	if s.phase != "day" or index < 0 or index >= s.FARM_TILE_COUNT: return false
+	if s.wand_mode == "red" and s.is_item_selected("wand") and not s.require_wand_mode("blue"): return false
 	var key := str(index)
 	if not s.farm.plots.has(key): return false
 	var plot: Dictionary = s.farm.plots[key]
@@ -144,6 +145,7 @@ static func farm_action(s, index: int) -> bool:
 			s.message = "需要法杖。"
 			return false
 		if not s.require_selected_item("wand"): return false
+		if not s.require_wand_mode("blue"): return false
 		if s.farm.water <= 0:
 			s.message = "储水已空。"
 			return false

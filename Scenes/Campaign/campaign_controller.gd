@@ -105,8 +105,7 @@ func try_interact() -> bool:
 func show_guide(welcome: bool = false) -> void:
 	if opening_active() or loop.state.phase == "result": return
 	var dialogue_lines: Array = Guide.WELCOME.duplicate() if welcome else []
-	var chapter: int = loop.state.campaign.chapter
-	dialogue_lines.append(Guide.CHAPTERS[chapter] if chapter < Guide.CHAPTERS.size() else Guide.FAREWELL)
+	dialogue_lines.append_array(Guide.current_lines(loop.state))
 	_guide_dialogue(dialogue_lines)
 	if loop.hud.mode == "dialogue": loop.state.campaign.guide_met = true
 
@@ -149,9 +148,23 @@ func _complete_guide_chapter(expected_chapter: int) -> void:
 		show_guide_goal()
 		return
 	loop._autosave()
-	var dialogue_lines: Array = [q.name, q.description]
+	var dialogue_lines := _chapter_lines(q)
 	dialogue_lines.append_array(Guide.current_lines(loop.state))
 	_guide_dialogue(dialogue_lines)
+
+func _chapter_lines(q: Dictionary) -> Array:
+	var dialogue_lines: Array = [q.name, q.description]
+	for beat in q.dialogue:
+		var speaker: String = loop.state.campaign.player_name if beat.speaker == "player" else Guide.NAME if beat.speaker == "yingluo" else C.entry(C.D.npcs, beat.speaker).name
+		var portrait: String = "res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.aseprite" if beat.speaker == "player" else Guide.PORTRAIT if beat.speaker == "yingluo" else "res://Art/Characters/NPC32/portraits/" + beat.speaker + ".aseprite"
+		var region := Rect2(0,0,32,32)
+		if beat.speaker == "yingluo": region = Rect2()
+		dialogue_lines.append({"source": beat.text, "args": [], "speaker": speaker, "translate_speaker": beat.speaker != "player" or speaker == C.DEFAULT_PLAYER_NAME, "portrait": portrait, "portrait_region": region})
+	return dialogue_lines
+
+func _recall_chapter(index: int) -> void:
+	if index < 0 or index >= loop.state.campaign.chapter: return
+	_guide_dialogue(_chapter_lines(C.D.quests[index]), [{"text": "再会", "action": loop.hud.close_modal}])
 
 func show_resident(id: String) -> void:
 	var npc := C.entry(C.D.npcs,id)
@@ -322,7 +335,7 @@ func _recipes() -> void:
 		var unlocked := C.unlocked(loop.state,index)
 		action(box,"已上架" if loop.state.menu[index] else "未上架",mutate.bind(func():
 			loop.state.set_menu_dish(index, not loop.state.menu[index])),unlocked and loop.state.phase=="day",88)
-		action(box,"料理",func(): loop.hud.close_modal(); loop.cook_dish(index),unlocked and loop.state.phase=="night" and loop.location=="restaurant" and loop.near(loop.area.stations.kitchen) and loop.state.menu[index] and loop.state.can_cook(index) and loop.state.cooking<0 and loop.state.held<0,88)
+		action(box,"料理",func(): loop.hud.close_modal(); loop.cook_dish(index),unlocked and loop.state.phase=="night" and loop.location=="restaurant" and loop.at_counter("kitchen") and loop.state.menu[index] and loop.state.can_cook(index) and loop.state.cooking<0 and loop.state.held<0,88)
 
 func _residents() -> void:
 	for npc in C.D.npcs:
@@ -391,7 +404,8 @@ func _story() -> void:
 	if story_filter == "已完成":
 		for index in range(loop.state.campaign.chapter):
 			var q: Dictionary = C.D.quests[index]
-			row(text("主线")+" · "+text(q.name)+"\n"+text(q.description))
+			var box := row(text("主线")+" · "+text(q.name)+"\n"+text(q.description))
+			action(box,"回顾",_recall_chapter.bind(index)).size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		for npc in C.D.npcs:
 			for stage in range(loop.state.campaign.residents[npc.id].story):
 				row(text("支线")+" · "+text(npc.stories[stage])+"\n"+text(npc.events[stage]),"res://Art/Characters/NPC32/portraits/"+npc.id+".aseprite")
@@ -400,9 +414,12 @@ func _story() -> void:
 	var q := C.current_main(loop.state)
 	if not q.is_empty():
 		var progress: int = mini(q.goal,C.metric(loop.state,q.metric))
-		var box := row(text("主线")+" · "+text(q.name)+" · "+text(q.objective)+"\n"+(tr("目标 %d/%d · 奖励 %d金") % [progress,q.goal,q.reward]))
+		var step := Guide.Onboarding.current(loop.state)
+		var caption: String = text("主线")+" · "+text(q.name)+"\n"+text(q.briefing)+"\n"+I18n.format("地点：%s",[step.place])+"\n"+I18n.format("当前目标：%s · %d/%d",[step.objective,step.progress,step.goal])+"\n"+text(q.objective)+" · "+(tr("目标 %d/%d · 奖励 %d金") % [progress,q.goal,q.reward])
+		if step.id != q.id: caption += "\n"+text(step.description)
+		var box := row(caption)
 		box.name = "MainQuest"
-		action(box,"完成",complete_chapter,progress>=q.goal)
+		action(box,"完成",complete_chapter,progress>=q.goal).size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	for id in loop.state.campaign.side_active:
 		var npc := C.entry(C.D.npcs,id)
 		var stage: int = loop.state.campaign.side_active[id]
@@ -511,6 +528,8 @@ func _start_arrival() -> void:
 	arrival_actor = preload("res://Scenes/Campaign/guide_actor.gd").new()
 	arrival_actor.name = "Opening_Yingluo"
 	arrival_actor.position = ARRIVAL_PATH[0]
+	arrival_actor.face(ARRIVAL_PATH[1] - ARRIVAL_PATH[0])
+	arrival_actor.pose_walk(0.0, false)
 	loop.area.add_child(arrival_actor)
 	arrival_path = PackedVector2Array(ARRIVAL_PATH.slice(1))
 	arrival_active = true
@@ -530,6 +549,7 @@ func _walk_arrival(delta: float, avoid_player: bool = false) -> bool:
 		distance -= start.distance_to(next)
 		moving = moving or next != start
 		arrival_actor.position = next
+		arrival_actor.face(next - start)
 		if next == target:
 			arrival_path.remove_at(0)
 		else:

@@ -1,5 +1,6 @@
 Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
 
+FMOD Sound System: Successfully initialized
 ACTOR COLLISION all ten residents have real collision bodies: PASS
 ACTOR COLLISION player has a rounded 10 by 6 ground footprint: PASS
 ACTOR COLLISION player detects both scenery and people: PASS
@@ -31,3 +32,4 @@ ACTOR COLLISION departed guest leaves seat walkable: PASS
 ACTOR COLLISION locked tables leave no guest collision: PASS
 ACTOR COLLISION scene change frees old guest collision: PASS
 ACTOR COLLISION VERIFY END checks=30 failures=0
+FMOD Sound System: System released

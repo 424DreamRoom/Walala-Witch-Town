@@ -1,7 +1,31 @@
 Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
 
-SCENE EXIT forest connection is at north road end: PASS
-SCENE EXIT dock connection is at landing end: PASS
+FMOD Sound System: Successfully initialized
+SCENE EXIT scene preview starts outside home: PASS
+SCENE EXIT walk to door approach home to farm: PASS
+SCENE EXIT distant interaction stays in scene home to farm: PASS
+SCENE EXIT walk to doorway home to farm: PASS
+SCENE EXIT walking and idling at door stays in scene home to farm: PASS
+SCENE EXIT held interaction at door stays in scene home to farm: PASS
+SCENE EXIT paused interaction cannot use door home to farm: PASS
+SCENE EXIT fresh stationary interaction uses door home to farm: FAIL
+SCENE EXIT held interaction after travel stays in destination home to farm: FAIL
+SCENE EXIT home start exits to farm: FAIL
+SCENE EXIT first home exit matches front doorstep: FAIL
+SCENE EXIT home exit arrival has no solid overlap: PASS
+SCENE EXIT home exit arrival stays on farm while idle: FAIL
+SCENE EXIT home exit arrival rearms town crossing: PASS
+SCENE EXIT walk from doorstep to town road: FAIL
+SCENE EXIT walking right from farm road enters town: FAIL
+SCENE EXIT farm arrives at marked town entrance: FAIL
+SCENE EXIT marked town entrance stays in town while idle: FAIL
+SCENE EXIT marked town entrance has no solid overlap: PASS
+SCENE EXIT legacy farm position reaches current exit: PASS
+SCENE EXIT legacy farm save arrives at marked town entrance: PASS
+SCENE EXIT forest connection reaches north edge: PASS
+SCENE EXIT dock connection reaches east edge: PASS
+SCENE EXIT farm connection reaches west edge: PASS
+SCENE EXIT gate prompt has no interaction key: PASS
 SCENE EXIT gate prompt has no interaction key: PASS
 SCENE EXIT gate prompt has no interaction key: PASS
 SCENE EXIT gate prompt has no interaction key: PASS
@@ -9,12 +33,14 @@ SCENE EXIT gate prompt has no interaction key: PASS
 SCENE EXIT gate prompt has no interaction key: PASS
 SCENE EXIT gate prompt has no interaction key: PASS
 SCENE EXIT walk actual town route to field: PASS
-SCENE EXIT E at approach stays in town field: PASS
+SCENE EXIT E at road approach stays in town field: PASS
 SCENE EXIT walking automatically enters field: PASS
 SCENE EXIT town collision bodies detached field: PASS
+SCENE EXIT matching return direction field: PASS
+SCENE EXIT arrival is on matching road surface field: PASS
 SCENE EXIT held entry direction does not bounce field: PASS
-SCENE EXIT walk actual interior route to exit field: PASS
-SCENE EXIT E at exit approach stays inside field: PASS
+SCENE EXIT walk actual road route to exit field: PASS
+SCENE EXIT E at road exit approach stays inside field: PASS
 SCENE EXIT pause freezes crossing field: PASS
 SCENE EXIT walking automatically returns field: PASS
 SCENE EXIT safe town arrival field: PASS
@@ -22,47 +48,32 @@ SCENE EXIT held return direction does not reenter field: PASS
 SCENE EXIT town camera restored field: PASS
 SCENE EXIT idle arrival remains stable field: PASS
 SCENE EXIT walk actual town route to dock: PASS
-SCENE EXIT E at approach stays in town dock: PASS
+SCENE EXIT E at road approach stays in town dock: PASS
 SCENE EXIT walking automatically enters dock: PASS
 SCENE EXIT town collision bodies detached dock: PASS
+SCENE EXIT matching return direction dock: PASS
+SCENE EXIT arrival is on matching road surface dock: PASS
 SCENE EXIT held entry direction does not bounce dock: PASS
-SCENE EXIT walk actual interior route to exit dock: PASS
-SCENE EXIT E at exit approach stays inside dock: PASS
+SCENE EXIT walk actual road route to exit dock: PASS
+SCENE EXIT E at road exit approach stays inside dock: PASS
 SCENE EXIT pause freezes crossing dock: PASS
 SCENE EXIT walking automatically returns dock: PASS
 SCENE EXIT safe town arrival dock: PASS
 SCENE EXIT held return direction does not reenter dock: PASS
 SCENE EXIT town camera restored dock: PASS
 SCENE EXIT idle arrival remains stable dock: PASS
-SCENE EXIT walk actual town route to restaurant: PASS
-SCENE EXIT E at approach stays in town restaurant: PASS
-SCENE EXIT walking automatically enters restaurant: PASS
-SCENE EXIT town collision bodies detached restaurant: PASS
-SCENE EXIT held entry direction does not bounce restaurant: PASS
-SCENE EXIT walk actual interior route to exit restaurant: PASS
-SCENE EXIT E at exit approach stays inside restaurant: PASS
-SCENE EXIT pause freezes crossing restaurant: PASS
-SCENE EXIT walking automatically returns restaurant: PASS
-SCENE EXIT safe town arrival restaurant: PASS
-SCENE EXIT held return direction does not reenter restaurant: PASS
-SCENE EXIT town camera restored restaurant: PASS
-SCENE EXIT idle arrival remains stable restaurant: PASS
-SCENE EXIT walk actual town route to home: FAIL
-SCENE EXIT E at approach stays in town home: FAIL
-SCENE EXIT walking automatically enters home: FAIL
-SCENE EXIT walk actual town route to blacksmith: FAIL
-SCENE EXIT E at approach stays in town blacksmith: FAIL
-SCENE EXIT walking automatically enters blacksmith: FAIL
-SCENE EXIT walk actual town route to store: FAIL
-SCENE EXIT E at approach stays in town store: FAIL
-SCENE EXIT walking automatically enters store: FAIL
-SCENE EXIT restored trigger does not auto travel: FAIL
-SCENE EXIT leave restored trigger: PASS
-SCENE EXIT restored trigger rearms after leaving: FAIL
-SCENE EXIT passing a doorway sideways stays in town: PASS
-SCENE EXIT night entrance remains closed 野外: PASS
-SCENE EXIT closed entrance does not repeat feedback 野外: PASS
-SCENE EXIT night entrance remains closed 码头: PASS
-SCENE EXIT closed entrance does not repeat feedback 码头: PASS
-SCENE EXIT settlement blocks automatic travel: PASS
-SCENE EXIT VERIFY END failures=11
+SCENE EXIT walk actual town route to farm: PASS
+SCENE EXIT E at road approach stays in town farm: PASS
+SCENE EXIT walking automatically enters farm: PASS
+SCENE EXIT town collision bodies detached farm: PASS
+SCENE EXIT matching return direction farm: PASS
+SCENE EXIT arrival is on matching road surface farm: PASS
+SCENE EXIT held entry direction does not bounce farm: PASS
+SCENE EXIT walk to door approach farm to home: PASS
+SCENE EXIT distant interaction stays in scene farm to home: PASS
+SCENE EXIT walk to doorway farm to home: PASS
+SCENE EXIT walking and idling at door stays in scene farm to home: PASS
+SCENE EXIT held interaction at door stays in scene farm to home: PASS
+SCENE EXIT paused interaction cannot use door farm to home: PASS
+SCENE EXIT fresh stationary interaction uses door farm to home: FAIL
+SCENE EXIT held interaction after travel stays in destination farm to home: FAIL

@@ -8,14 +8,18 @@
 | --- | --- | --- |
 | `residents/*.aseprite` | 10 | 茉莉、余烬、澪、露米、星芒、陶陶、皮普、芦苇、霜铃、奥萝；每人 22 帧 |
 | `customers/*.aseprite` | 6 | 绿帽棕辫、蓝帽浅金、酒红帽卷发、橙帽短发、青帽灰发、粉帽深蓝长发；每人 6 帧 |
-| `guides/yingluo.aseprite` | 1 | 萤萝；1 帧静态站姿，保留游戏原有行走位移表现 |
-| `portraits/*.png` | 10 | 从居民原文件第 17 帧原生导出的 32×32 待机头像 |
+| `guides/yingluo.aseprite` | 1 | 萤萝；21 帧，四方向行走与方向站姿 |
+| `portraits/*.png` | 11 | 从居民及萤萝原文件第 17 帧原生导出的 32×32 待机头像 |
 
 每个原文件含六个独立、可见、解锁的普通像素图层，从底至顶为 `Boots`、`Clothing`、`Face and hands`、`Hair`、`Headwear`、`Accessories`。图层未扁平化，帽子、头发、脸部、服装和配件可分别修改。
 
 居民帧索引保持游戏接口：0–3 下、4–7 上、8–11 右、12–15 左，16–17 待机，18–21 用餐。对应 `walk_down/up/right/left`、`idle`、`eat` 标签；行走每帧 140 ms，待机 900/160 ms，用餐每帧 500 ms。六位餐厅客人为 0–1 待机、2–5 用餐。脚底锚点统一为 (16,32)。每个方向的四帧行走、四帧用餐均有独立像素变化。
 
-同名 PNG 为 Aseprite 原生横向精灵表：居民 704×32，客人 192×32，萤萝 32×32。精灵表宽度是多帧拼接宽度，原文件画布和每一帧都是 32×32。`preview.png` 是最近邻放大审阅图；`directions-preview.png` 展示居民方向及用餐；各角色 `*-preview.gif` 为动画预览。
+同名 PNG 为 Aseprite 原生横向精灵表：居民 704×32，客人 192×32，萤萝 672×32。精灵表宽度是多帧拼接宽度，原文件画布和每一帧都是 32×32。`preview.png` 是最近邻放大审阅图；`directions-preview.png` 展示居民方向及用餐；各角色 `*-preview.gif` 为动画预览。
+
+2026-10-12 开场行走修复：萤萝使用 0–3 下、4–7 上、8–11 右、12–15 左，行走每帧 140 ms；16–17 正面待机，18/19/20 为上/右/左站姿。第 16 帧与修改前的静态源稿逐像素一致，头像独立导出为 `portraits/yingluo.aseprite`，避免对话显示整张精灵表。左右朝向分别绘制，游戏不翻转贴图；帧内已包含步态起伏，运行时只对齐像素网格。
+
+仅导出萤萝使用 `python -B Art/Characters/NPC32/tools/build_npcs.py --export-only --only yingluo --aseprite "<Aseprite.exe 路径>"`，不会重绘源稿或写入其他角色。`--extend-guide --only yingluo` 仅用于首次扩展单帧源稿；已有动画时拒绝覆盖。`yingluo-validation.json` 记录 21 帧原生导出与独立解码结果，四向 GIF 位于 `guides/yingluo-walk-*.gif`。本次总帧数为 277，旧验证记录保留历史计数。
 
 ## 编辑与导出
 

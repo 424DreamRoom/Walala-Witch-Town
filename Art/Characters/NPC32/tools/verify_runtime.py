@@ -13,7 +13,7 @@ import subprocess
 ART = Path(__file__).resolve().parents[1]
 ROOT = ART.parents[2]
 OUT = ROOT / "output/npc32"
-GODOT = "C:/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe"
+GODOT = os.environ.get("GODOT_BIN") or "C:/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe"
 STARTUP = subprocess.STARTUPINFO()
 STARTUP.dwFlags |= subprocess.STARTF_USESHOWWINDOW
 STARTUP.wShowWindow = 0

@@ -35,6 +35,7 @@ var raw = [0, 0, 0]
 var tools = STARTING_TOOLS.duplicate()
 var bag_slots: Array = []
 var selected_hotbar_slot := 0
+var wand_mode := "red"
 var bag_overflow: Dictionary = {}
 var inventory_pending: Dictionary = {}
 var equipment: Dictionary = Equipment.DEFAULT_LEVELS.duplicate()
@@ -272,6 +273,21 @@ func require_selected_item(id: String) -> bool:
 	set_message("%s未选中。", [Items.NAMES[id]])
 	return false
 
+func toggle_wand_mode() -> bool:
+	if phase == "result" or not has_tool("wand") or not is_item_selected("wand"): return false
+	wand_mode = "red" if wand_mode == "blue" else "blue"
+	message = ""
+	return true
+
+func require_wand_mode(mode: String) -> bool:
+	if not has_tool("wand"):
+		message = "需要法杖。"
+		return false
+	if not require_selected_item("wand"): return false
+	if wand_mode == mode: return true
+	message = "当前为蓝色法杖。" if wand_mode == "blue" else "当前为红色法杖。"
+	return false
+
 func consume_selected_item(id: String, amount: int = 1) -> bool:
 	if amount <= 0 or not require_selected_item(id): return false
 	var slot: Dictionary = bag_slots[selected_hotbar_slot]
@@ -289,6 +305,7 @@ func strike_resource(id: String, kind: String) -> int:
 		set_message("需要%s。", [TOOL_NAMES[RESOURCE_TOOLS[kind]]])
 		return -1
 	if not require_selected_item(RESOURCE_TOOLS[kind]): return -1
+	if not require_wand_mode("red"): return -1
 	if kind == "weed":
 		resource_damage[id] = RESOURCE_HITS
 		message = "杂草已清除。"
@@ -333,6 +350,7 @@ func work_farm_tile(index: int) -> bool:
 	if not FarmTerrain.can_till(self, index):
 		message = "土地被占用。"
 		return false
+	if wand_mode == "red" and is_item_selected("wand") and not require_wand_mode("blue"): return false
 	var key := str(index)
 	if not farm.plots.has(key):
 		if not has_tool("wand"):
@@ -348,7 +366,7 @@ func work_farm_tile(index: int) -> bool:
 		else: set_message("已翻好 %d 格土地。", [count])
 		return true
 	var plot: Dictionary = farm.plots[key]
-	if plot.growth < 0 and campaign.selected_crop == "herb" and not require_selected_item("seed"): return false
+	if plot.growth < 0 and campaign.selected_crop == "herb" and not is_item_selected("wand") and not require_selected_item("seed"): return false
 	if plot.growth < 0 and campaign.selected_crop == "herb":
 		plot.erase("crop")
 		plot.erase("fertilized")
@@ -358,7 +376,9 @@ func work_farm_tile(index: int) -> bool:
 		if farm.seeds <= 0:
 			message = "香草种子不足。"
 			return false
-		if not consume_selected_item("seed"): return false
+		if is_item_selected("wand"):
+			if not Items.change(self, {"seed": -1}): return false
+		elif not consume_selected_item("seed"): return false
 		plot.growth = 0
 		message = "已播下香草种子。"
 	elif plot.growth >= FARM_GROWTH_DAYS:
@@ -378,6 +398,7 @@ func work_farm_tile(index: int) -> bool:
 			message = "需要法杖。"
 			return false
 		if not require_selected_item("wand"): return false
+		if not require_wand_mode("blue"): return false
 		if farm.water <= 0:
 			message = "储水已空。"
 			return false
@@ -394,6 +415,7 @@ func refill_farm_water() -> bool:
 		message = "仅白天持有法杖时可补水。"
 		return false
 	if not require_selected_item("wand"): return false
+	if not require_wand_mode("blue"): return false
 	if farm.water == water_capacity():
 		message = "储水已满。"
 		return false
@@ -711,7 +733,7 @@ func discard() -> void:
 		message = "已丢弃手中的菜（不退原料）。"
 
 # Explicit, versioned save data: never deserialize objects or scripts from disk.
-const SAVE_FIELDS = ["day", "phase", "remaining", "raw", "tools", "materials", "menu", "nodes", "resources", "resource_damage", "fish_catches", "customers", "cooking", "cook_left", "held", "income", "coins", "served", "lost", "wasted", "arrivals", "serial", "result", "message", "journal", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot"]
+const SAVE_FIELDS = ["day", "phase", "remaining", "raw", "tools", "materials", "menu", "nodes", "resources", "resource_damage", "fish_catches", "customers", "cooking", "cook_left", "held", "income", "coins", "served", "lost", "wasted", "arrivals", "serial", "result", "message", "journal", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode"]
 
 func to_save_data() -> Dictionary:
 	Items.ensure_bag(self)
@@ -754,11 +776,14 @@ static func normalize_save_data(data: Variant) -> Dictionary:
 	var tool_defaults: Dictionary = LEGACY_STARTING_TOOLS if legacy_tools else STARTING_TOOLS
 	var inventory_ids: Array = Items.LEGACY_IDS if legacy_tools else Items.IDS
 	for field in SAVE_FIELDS:
-		if field not in ["journal", "tools", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot"] and not data.has(field):
+		if field not in ["journal", "tools", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode"] and not data.has(field):
 			return {}
 	if data.phase not in ["day", "night", "result"]:
 		return {}
 	var normalized: Dictionary = data.duplicate(true)
+	var saved_mode: Variant = data.get("wand_mode", "red")
+	if not saved_mode is String or saved_mode not in ["blue", "red"]: return {}
+	normalized.wand_mode = saved_mode
 	var saved_selection: Variant = data.get("selected_hotbar_slot", 0)
 	if not _number(saved_selection, 0, Items.HOTBAR_SLOTS - 1, true): return {}
 	normalized.selected_hotbar_slot = int(saved_selection)

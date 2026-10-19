@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import os
 from pathlib import Path
+import shutil
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -17,8 +18,19 @@ def originals():
             for p in (ROOT / "MyArt").rglob("*") if p.is_file()}
 
 before = originals()
-godot = os.environ.get("GODOT_BIN", r"C:\steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe")
-args = [godot, "--path", str(ROOT), "--script", "res://Scenes/Campaign/verify_opening.gd"]
+godot = os.environ.get("GODOT_BIN") or shutil.which("godot") or next(
+    (str(path) for path in (
+        Path(r"C:\steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe"),
+        Path(r"C:\Program Files (x86)\Steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe"),
+    ) if path.is_file()), None)
+if not godot: raise SystemExit("Godot executable not found; set GODOT_BIN.")
+profile = OUT / ("runtime_" + str(os.getpid()))
+environment = os.environ.copy()
+for variable in ("APPDATA", "LOCALAPPDATA"):
+    folder = profile / variable.lower()
+    folder.mkdir(parents=True, exist_ok=True)
+    environment[variable] = str(folder)
+args = [godot, "--path", str(ROOT), "--log-file", str(OUT / (options.mode + ".engine.log")), "--script", "res://Scenes/Campaign/verify_opening.gd"]
 args += ["--windowed", "--resolution", "1280x720", "--rendering-method", "gl_compatibility", "--rendering-driver", "opengl3", "--", "--capture"] if options.mode == "capture" else ["--headless"]
 startup = subprocess.STARTUPINFO() if os.name == "nt" else None
 if startup:
@@ -26,7 +38,7 @@ if startup:
     startup.wShowWindow = 0
 log_path = OUT / (options.mode + ".log")
 with log_path.open("w", encoding="utf-8") as log:
-    process = subprocess.Popen(args, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, startupinfo=startup)
+    process = subprocess.Popen(args, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, startupinfo=startup, env=environment)
     try:
         process.wait(timeout=55)
     except subprocess.TimeoutExpired:

@@ -38,6 +38,18 @@ func key(code: int) -> void:
 	Input.parse_input_event(e)
 	await frames(2)
 
+func world() -> void:
+	# World interaction uses the pointer while the wand is selected.
+	var point: Vector2 = root.get_visible_rect().size / 2.0
+	for pressed in [true, false]:
+		var event = InputEventMouseButton.new()
+		event.button_index = MOUSE_BUTTON_LEFT
+		event.position = point
+		event.global_position = point
+		event.pressed = pressed
+		root.push_input(event, true)
+		await frames(2)
+
 func click(button: Button) -> void:
 	loop._refresh()
 	# Input delivered inside the real SubViewport (same hit testing as a mouse).
@@ -145,9 +157,9 @@ func _run() -> void:
 		check("walking enters independent field", loop.location == "field" and not lane.world.is_inside_tree())
 		await walk_to(Vector2(60,115))
 		await walk_to(loop.area.points[0])
-		await key(KEY_E)
-		await key(KEY_E)
-		await key(KEY_E)
+		await world()
+		await world()
+		await world()
 		check("gather and exhausted point", loop.state.raw[0] == 2 and loop.state.nodes[0] == 0)
 		await shot("field_day" + str(day))
 		await walk_to(Vector2(60,115))
@@ -156,13 +168,13 @@ func _run() -> void:
 		await walk_to(Vector2(448,334))
 		await walk_to(loop.REST_GATE)
 		check("walking to restaurant door stays outside", loop.location == "town")
-		await key(KEY_E)
+		await world()
 		check("interacting enters restaurant", loop.location == "restaurant")
 		await walk_to(Vector2(60,130))
 		await walk_to(loop.area.stations.prep)
-		await key(KEY_E)
+		await world()
 		check("processing separates inventories", loop.state.raw == [0,0,0] and loop.state.materials == [2,0,0])
-		await key(KEY_E)
+		await world()
 		check("processing cannot duplicate", loop.state.materials == [2,0,0])
 		if day == 1:
 			check("new menu starts empty", loop.state.menu.count(true) == 0 and loop.end_button.disabled)
@@ -188,7 +200,7 @@ func _run() -> void:
 		await walk_to(Vector2(60,225))
 		await walk_to(loop.area.seats[0] + Vector2(0, 20))
 		await shot("serving_day" + str(day))
-		await key(KEY_E)
+		await world()
 		check("E served and earned", loop.state.held == -1 and loop.state.served == 1 and loop.state.income == 12)
 		check("out of stock stops arrivals", not loop.state.admit() and not loop.state.start_cook(0))
 		await advance_phase()
@@ -282,7 +294,7 @@ func _run() -> void:
 	check("town R preserved", lane.player.position == lane.SPAWN)
 	loop.enter("restaurant")
 	await key(KEY_R)
-	check("interior R safe spawn", lane.player.position == Vector2(60,280))
+	check("interior R safe spawn", lane.player.position == loop.area.spawn)
 	await key(KEY_F3)
 	check("F3 preserved", lane.world.get_node_or_null("CollisionOverlay") != null)
 	print("LOOP VERIFY END failures=", failures)

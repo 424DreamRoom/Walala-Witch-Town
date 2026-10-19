@@ -46,6 +46,10 @@ func wheel(button: int, pressed: bool = true, modifier: bool = false) -> void:
 	root.push_input(event, true)
 	await frames()
 
+func cast() -> void:
+	await wheel(MOUSE_BUTTON_LEFT)
+	await wheel(MOUSE_BUTTON_LEFT, false)
+
 func shot(title: String) -> void:
 	if not capture: return
 	await frames()
@@ -59,7 +63,7 @@ func shot(title: String) -> void:
 
 func state_checks() -> void:
 	var s := State.new()
-	check("new game selects the wand", s.selected_hotbar_slot == 0 and s.is_item_selected("wand"))
+	check("new game selects the red wand", s.selected_hotbar_slot == 0 and s.is_item_selected("wand") and s.wand_mode == "red")
 	s.select_hotbar_slot(1)
 	check("owned wand stays owned when seeds are selected", s.is_item_selected("seed") and s.has_tool("wand"))
 	for kind in ["wood", "ore", "weed"]:
@@ -71,8 +75,10 @@ func state_checks() -> void:
 	for id in State.FarmTerrain.obstacles.values():
 		if id != "house": s.resource_damage[id] = State.RESOURCE_HITS
 	s.select_hotbar_slot(0)
+	s.wand_mode = "blue"
 	check("selected wand tills", s.work_farm_tile(0) and s.farm.plots["0"].growth == -1)
 	var plot: Dictionary = s.farm.plots.get("0", {}).duplicate(true)
+	s.select_hotbar_slot(9)
 	check("unselected seeds cannot plant or change soil", not s.work_farm_tile(0) and s.farm.plots["0"] == plot and s.farm.seeds == 12)
 	s.bag_slots[1].count = 3
 	s.bag_slots[2] = {"id": "seed", "count": 9}
@@ -93,6 +99,7 @@ func state_checks() -> void:
 	s.select_hotbar_slot(0)
 	check("selection follows the slot after inventory rearrangement", not s.is_item_selected("wand") and s.strike_resource("tree", "wood") == -1)
 	s.select_hotbar_slot(7)
+	s.wand_mode = "red"
 	check("wand in another selected slot works", s.is_item_selected("wand") and s.strike_resource("tree", "wood") == 2)
 	check("invalid selections retain current slot", not s.select_hotbar_slot(-1) and not s.select_hotbar_slot(10) and s.selected_hotbar_slot == 7)
 	var saved := s.to_save_data()
@@ -189,13 +196,14 @@ func run() -> void:
 	Preferences.set_value("game", "show_hotbar", true)
 	hud.refresh()
 	loop.enter("field")
+	loop.state.wand_mode = "red"
 	var node = loop.area.resource_nodes.filter(func(item): return item.resource_kind == "wood")[0]
 	lane.player.position = node.anchor
 	await key(KEY_2)
 	await key(KEY_E)
 	check("real interact cannot use an unselected wand", not loop.harvest.busy() and loop.state.resource_left(node.resource_id) == 3)
 	await key(KEY_1)
-	await key(KEY_E)
+	await cast()
 	check("real interact starts selected wand", loop.harvest.busy())
 	await wheel(MOUSE_BUTTON_WHEEL_DOWN)
 	check("wheel selection cancels tool action before impact", loop.state.is_item_selected("seed") and not loop.harvest.busy() and loop.state.resource_left(node.resource_id) == 3)
@@ -215,6 +223,7 @@ func run() -> void:
 	await wheel(MOUSE_BUTTON_WHEEL_UP)
 	check("wheel to empty slot cancels fishing without a reward", loop.state.selected_hotbar_slot == 9 and not loop.harvest.busy() and loop.state.fish_catches.is_empty() and loop.state.resources.fish == 0)
 	loop.enter("farm")
+	loop.state.wand_mode = "blue"
 	for resource in loop.area.resource_nodes:
 		loop.state.resource_damage[resource.resource_id] = State.RESOURCE_HITS
 		resource.refresh()
@@ -222,7 +231,7 @@ func run() -> void:
 	lane.player.position = loop.area.tile_center(0) + Vector2(0, 30)
 	lane.facing = 1
 	await key(KEY_1)
-	await key(KEY_E)
+	await cast()
 	check("real selected wand tills farm", loop.state.farm.plots.has("0") and loop.state.farm.plots["0"].growth == -1)
 	await create_timer(0.3).timeout
 	await key(KEY_2)
@@ -231,7 +240,7 @@ func run() -> void:
 	check("seed planting does not display an unselected wand", loop.harvest.farm_cast_left == 0.0)
 	await create_timer(0.3).timeout
 	await key(KEY_1)
-	await key(KEY_E)
+	await cast()
 	check("real selected wand waters crop", loop.state.farm.plots["0"].watered and loop.state.farm.water == 23)
 	loop.enter("home")
 	await key(KEY_2)

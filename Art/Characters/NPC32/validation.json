@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "npc_count": 17,
-  "decoded_frames": 257,
+  "decoded_frames": 277,
   "canvas": [
     32,
     32
@@ -19,6 +19,7 @@
     32
   ],
   "all_walk_and_eat_frames_distinct": true,
+  "original_front_pose_preserved": false,
   "myart_unchanged": true,
   "protected_originals": 3
 }

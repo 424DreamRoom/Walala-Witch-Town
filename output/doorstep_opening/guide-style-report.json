@@ -1,0 +1,1127 @@
+{
+  "version": 1,
+  "root": "C:\\GodotProject\\walala-witch-town\\Walala-Witch-Town\\Art\\Characters\\NPC32",
+  "file_count": 27,
+  "families": {
+    "battle-portrait": {
+      "file_count": 27,
+      "cell_sizes": [
+        {
+          "size": [
+            32,
+            32
+          ],
+          "count": 11
+        },
+        {
+          "size": [
+            704,
+            32
+          ],
+          "count": 10
+        },
+        {
+          "size": [
+            192,
+            32
+          ],
+          "count": 6
+        }
+      ],
+      "sheet_sizes": [
+        {
+          "size": [
+            32,
+            32
+          ],
+          "count": 11
+        },
+        {
+          "size": [
+            704,
+            32
+          ],
+          "count": 10
+        },
+        {
+          "size": [
+            192,
+            32
+          ],
+          "count": 6
+        }
+      ],
+      "frame_count": {
+        "min": 1,
+        "median": 1,
+        "max": 1
+      },
+      "partial_alpha_files": 0,
+      "occupied_width_medians": {
+        "min": 18,
+        "median": 185,
+        "max": 699
+      },
+      "occupied_height_medians": {
+        "min": 27,
+        "median": 31,
+        "max": 32
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "customers/blue_blonde.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        192,
+        32
+      ],
+      "cell_size": [
+        192,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 185,
+        "median": 185,
+        "max": 185
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 21,
+        "median": 21,
+        "max": 21
+      }
+    },
+    {
+      "path": "customers/burgundy_curls.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        192,
+        32
+      ],
+      "cell_size": [
+        192,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 185,
+        "median": 185,
+        "max": 185
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 21,
+        "median": 21,
+        "max": 21
+      }
+    },
+    {
+      "path": "customers/cyan_gray.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        192,
+        32
+      ],
+      "cell_size": [
+        192,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 185,
+        "median": 185,
+        "max": 185
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 21,
+        "median": 21,
+        "max": 21
+      }
+    },
+    {
+      "path": "customers/green_braids.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        192,
+        32
+      ],
+      "cell_size": [
+        192,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 185,
+        "median": 185,
+        "max": 185
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 23,
+        "median": 23,
+        "max": 23
+      }
+    },
+    {
+      "path": "customers/orange_short.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        192,
+        32
+      ],
+      "cell_size": [
+        192,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 185,
+        "median": 185,
+        "max": 185
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 21,
+        "median": 21,
+        "max": 21
+      }
+    },
+    {
+      "path": "customers/pink_longblue.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        192,
+        32
+      ],
+      "cell_size": [
+        192,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 185,
+        "median": 185,
+        "max": 185
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 22,
+        "median": 22,
+        "max": 22
+      }
+    },
+    {
+      "path": "guides/yingluo.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 20,
+        "median": 20,
+        "max": 20
+      }
+    },
+    {
+      "path": "portraits/aster.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 16,
+        "median": 16,
+        "max": 16
+      }
+    },
+    {
+      "path": "portraits/ember.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 19,
+        "median": 19,
+        "max": 19
+      },
+      "occupied_height": {
+        "min": 27,
+        "median": 27,
+        "max": 27
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 21,
+        "median": 21,
+        "max": 21
+      }
+    },
+    {
+      "path": "portraits/lumi.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      }
+    },
+    {
+      "path": "portraits/mori.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 20,
+        "median": 20,
+        "max": 20
+      }
+    },
+    {
+      "path": "portraits/nagi.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      }
+    },
+    {
+      "path": "portraits/orla.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 27,
+        "median": 27,
+        "max": 27
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      }
+    },
+    {
+      "path": "portraits/pip.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      },
+      "occupied_height": {
+        "min": 27,
+        "median": 27,
+        "max": 27
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 19,
+        "median": 19,
+        "max": 19
+      }
+    },
+    {
+      "path": "portraits/reed.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 27,
+        "median": 27,
+        "max": 27
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      }
+    },
+    {
+      "path": "portraits/toma.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 19,
+        "median": 19,
+        "max": 19
+      },
+      "occupied_height": {
+        "min": 28,
+        "median": 28,
+        "max": 28
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      }
+    },
+    {
+      "path": "portraits/yuki.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        32,
+        32
+      ],
+      "cell_size": [
+        32,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "occupied_height": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      }
+    },
+    {
+      "path": "residents/aster.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 697,
+        "median": 697,
+        "max": 697
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      }
+    },
+    {
+      "path": "residents/ember.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 690,
+        "median": 690,
+        "max": 690
+      },
+      "occupied_height": {
+        "min": 28,
+        "median": 28,
+        "max": 28
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 21,
+        "median": 21,
+        "max": 21
+      }
+    },
+    {
+      "path": "residents/lumi.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 697,
+        "median": 697,
+        "max": 697
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      }
+    },
+    {
+      "path": "residents/mori.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 697,
+        "median": 697,
+        "max": 697
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 20,
+        "median": 20,
+        "max": 20
+      }
+    },
+    {
+      "path": "residents/nagi.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 697,
+        "median": 697,
+        "max": 697
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      }
+    },
+    {
+      "path": "residents/orla.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 699,
+        "median": 699,
+        "max": 699
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      }
+    },
+    {
+      "path": "residents/pip.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 690,
+        "median": 690,
+        "max": 690
+      },
+      "occupied_height": {
+        "min": 28,
+        "median": 28,
+        "max": 28
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 20,
+        "median": 20,
+        "max": 20
+      }
+    },
+    {
+      "path": "residents/reed.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 699,
+        "median": 699,
+        "max": 699
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      }
+    },
+    {
+      "path": "residents/toma.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 690,
+        "median": 690,
+        "max": 690
+      },
+      "occupied_height": {
+        "min": 29,
+        "median": 29,
+        "max": 29
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 18,
+        "median": 18,
+        "max": 18
+      }
+    },
+    {
+      "path": "residents/yuki.png",
+      "family": "battle-portrait",
+      "sheet_size": [
+        704,
+        32
+      ],
+      "cell_size": [
+        704,
+        32
+      ],
+      "columns": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "nonempty_frames": 1,
+      "preview_index": 0,
+      "has_partial_alpha": false,
+      "partial_alpha_pixels": 0,
+      "occupied_width": {
+        "min": 697,
+        "median": 697,
+        "max": 697
+      },
+      "occupied_height": {
+        "min": 32,
+        "median": 32,
+        "max": 32
+      },
+      "baseline": {
+        "min": 31,
+        "median": 31,
+        "max": 31
+      },
+      "visible_colors_per_frame": {
+        "min": 19,
+        "median": 19,
+        "max": 19
+      }
+    }
+  ]
+}

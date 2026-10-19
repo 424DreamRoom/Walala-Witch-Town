@@ -73,10 +73,11 @@ func run() -> void:
 		check(actor.resident_id + " world native size and feet", actor.sprite.texture.get_height() == 32 and actor.sprite.hframes == 22 and actor.sprite.offset == Vector2(0,-16) and actor.sprite.scale == Vector2.ONE and actor.sprite.texture.resource_path.begins_with(ART))
 		for direction in [Vector2.DOWN,Vector2.UP,Vector2.RIGHT,Vector2.LEFT]:
 			actor.face(direction)
+			actor.elapsed = 0.0
 			actor.pose(0.0,true)
 			check(actor.resident_id + " four-direction frame " + str(actor.facing), actor.sprite.frame == actor.facing*4)
 	var guide = loop.campaign_controller.guide
-	check("guide source installed", guide.sprite.texture.resource_path == ART + "guides/yingluo.png" and guide.sprite.offset == Vector2(0,-16))
+	check("guide source installed", guide.sprite.texture.resource_path == ART + "guides/yingluo.aseprite" and guide.sprite.hframes == 21 and guide.sprite.frame == 16 and guide.sprite.offset == Vector2(0,-16))
 	await shot(lane,"town")
 	loop.campaign_controller.show_resident("mori")
 	await frames()
@@ -101,17 +102,23 @@ func run() -> void:
 		else:
 			customer.variant = loop.area.CUSTOMER_PATHS.find(entry.id)
 		loop.state.customers = [customer]
+		# Guests walk in first; skip the cosmetic arrival so the seated pose is testable.
+		loop.area.arrival_clock[0] = 0.0
 		loop.area._process(0.0)
 		var guest: Sprite2D = loop.area.customer_sprites[0]
-		check(entry.id + " restaurant waiting and feet", guest.visible and guest.texture.get_height() == 32 and guest.offset == Vector2(0,-16) and guest.frame == (16 if entry.kind == "resident" else 0))
+		check(entry.id + " restaurant waiting and feet", guest.visible and guest.texture.get_height() == 32 and guest.offset == Vector2(0,-16) and (guest.frame in [16,17] if entry.kind == "resident" else guest.frame == 0))
 		for f in range(4):
 			customer.status = "eating"
 			customer.eating_left = 3.0-f*0.5
+			loop.area.arrival_clock[0] = 0.0
 			loop.area._process(0.0)
 			check(entry.id + " eating frame " + str(f), guest.frame == (18 if entry.kind == "resident" else 2)+f)
 	loop.state.customers.clear()
 	for i in range(6):
 		loop.state.customers.append({"seat":i,"dish":0,"patience":90.0,"variant":i,"status":"eating","eating_left":2.0})
+	loop.area._process(0.0)
+	for i in range(6):
+		loop.area.arrival_clock[i] = 0.0
 	loop.area._process(0.0)
 	await shot(lane,"restaurant")
 	lane.queue_free()

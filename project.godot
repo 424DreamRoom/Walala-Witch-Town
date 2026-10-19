@@ -17,6 +17,7 @@ General/is_live_update_enabled=false
 config/name="哗啦啦魔女镇"
 run/main_scene="res://Scenes/MainMenu/startup_notice.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="res://icon.svg"
 
 [autoload]
 
@@ -41,6 +42,7 @@ enabled=PackedStringArray("res://addons/walala_aseprite/plugin.cfg", "res://addo
 
 [gui]
 
+theme/custom="res://Art/Fonts/FusionPixel/pixel_theme.tres"
 
 [input]
 

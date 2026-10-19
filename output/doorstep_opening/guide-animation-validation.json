@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "family": "Godot NPC32 map character",
+  "cell": [
+    32,
+    32
+  ],
+  "frame_count": 21,
+  "durations_ms": [
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    900,
+    160,
+    1000,
+    1000,
+    1000
+  ],
+  "metrics": {
+    "partial_alpha_pixels": {
+      "total": 0,
+      "frames": []
+    },
+    "visible_colors_per_frame": {
+      "min": 18,
+      "median": 20,
+      "max": 20
+    },
+    "occupied_width": {
+      "min": 25,
+      "median": 25,
+      "max": 25
+    },
+    "occupied_height": {
+      "min": 31,
+      "median": 31,
+      "max": 32
+    },
+    "baseline": {
+      "min": 31,
+      "median": 31,
+      "max": 31
+    },
+    "horizontal_center": {
+      "min": 15.0,
+      "median": 16.0,
+      "max": 17.0
+    },
+    "empty_frames": [],
+    "edge_touching_frames": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ]
+  },
+  "errors": [],
+  "warnings": [
+    "visible pixels touch cell edges in frames [1, 3, 5, 7, 9, 11, 13, 15]; inspect clipping"
+  ],
+  "reviewed_warnings": "Top-edge hat tips in odd walking frames are intentional native coordinates, matching all three reference siblings; no outline is cropped. Feet remain at row 31.",
+  "sibling_top_edge_frames": {
+    "nagi": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "mori": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "lumi": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ]
+  },
+  "original_front_pose_preserved": true,
+  "native_portrait_frames": 1,
+  "myart_unchanged": true,
+  "profile_override": "Verified NPC32 canvas/anchor/layers/tags override the skill default."
+}
