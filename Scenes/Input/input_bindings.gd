@@ -6,7 +6,7 @@ signal capture_finished(applied: bool)
 const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const ACTIONS := ["move_up", "move_down", "move_left", "move_right", "run", "interact", "bag", "journal", "guide", "pause", "dialogue_next", "history", "map"]
 const LABELS := ["向上移动", "向下移动", "向左移动", "向右移动", "跑步 / 步行", "场景互动", "随身背包", "任务手记", "小镇指南", "暂停 / 返回", "对话继续", "对话回看", "区域地图"]
-const DEFAULT_KEYS := [[KEY_W, KEY_UP], [KEY_S, KEY_DOWN], [KEY_A, KEY_LEFT], [KEY_D, KEY_RIGHT], [KEY_SHIFT, 0], [KEY_E, 0], [KEY_B, 0], [KEY_J, 0], [KEY_H, 0], [KEY_ESCAPE, 0], [KEY_SPACE, 0], [KEY_L, 0], [KEY_M, 0]]
+const DEFAULT_KEYS := [[KEY_W, KEY_UP], [KEY_S, KEY_DOWN], [KEY_A, KEY_LEFT], [KEY_D, KEY_RIGHT], [KEY_SHIFT, 0], [KEY_F, 0], [KEY_B, 0], [KEY_J, 0], [KEY_H, 0], [KEY_ESCAPE, 0], [KEY_SPACE, 0], [KEY_L, 0], [KEY_M, 0]]
 const UI_DIRECTIONS := {"move_up": "ui_up", "move_down": "ui_down", "move_left": "ui_left", "move_right": "ui_right"}
 var bindings: Dictionary = {}
 var capture_active := false
@@ -23,7 +23,7 @@ var token_pattern := RegEx.new()
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
-	token_pattern.compile("\\b(Esc|Space|Shift|WASD|W|S|A|D|E|B|J|H|L|M)\\b|" + "空格")
+	token_pattern.compile("\\b(Esc|Space|Shift|WASD|W|S|A|D|F|B|J|H|L|M)\\b|" + "空格")
 	apply_saved_bindings()
 	Localization.language_changed.connect(func(_locale: String): refresh_prompts())
 
@@ -230,7 +230,7 @@ func action_name(action: String) -> String:
 
 func prompt(source: String) -> String:
 	var text := String(TranslationServer.translate(source))
-	var replacements := {"E": key_text("interact"), "Esc": key_text("pause"), "Space": key_text("dialogue_next"), "空格": key_text("dialogue_next"), "Shift": key_text("run"), "B": key_text("bag"), "J": key_text("journal"), "H": key_text("guide"), "L": key_text("history"), "W": key_text("move_up", false), "S": key_text("move_down", false), "A": key_text("move_left", false), "D": key_text("move_right", false)}
+	var replacements := {"F": key_text("interact"), "Esc": key_text("pause"), "Space": key_text("dialogue_next"), "空格": key_text("dialogue_next"), "Shift": key_text("run"), "B": key_text("bag"), "J": key_text("journal"), "H": key_text("guide"), "L": key_text("history"), "W": key_text("move_up", false), "S": key_text("move_down", false), "A": key_text("move_left", false), "D": key_text("move_right", false)}
 	replacements["WASD"] = " / ".join([key_text("move_up", false), key_text("move_left", false), key_text("move_down", false), key_text("move_right", false)])
 	replacements["M"] = key_text("map")
 	# Substitute from right to left, once, so swapped bindings never cascade.

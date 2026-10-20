@@ -170,7 +170,7 @@ Stock is kept. Gathering spots return tomorrow."	"%d日目の決算
 新的一天！库存与菜单保留，野外采集点已刷新。	A new day! Stock and menu kept; gathering spots refreshed.	新しい一日！在庫と献立はそのまま。採集場所が回復したよ。	新的一天！庫存與選單保留，野外採集點已刷新。
 已丢弃手中的菜（不退原料）。	Dish discarded. Ingredients aren't refunded.	料理を捨てたよ。素材は戻らないよ。	已丟棄手中的菜（不退原料）。
 次日刷新	Back tomorrow	明日回復	次日刷新
-哗啦啦魔女镇	Walala Witch Town	ワララ魔女の町	嘩啦啦魔女鎮
+哗啦啦魔女镇	Walala Witch Town	ワララ魔女町	嘩啦啦魔女鎮
 灯火将亮，故事将启	Lights will glow. A story begins.	灯りがともり、物語がはじまる	燈火將亮，故事將啟
 开始游戏	Start Game	ゲーム開始	開始遊戲
 设置	Settings	設定	設定
@@ -2277,3 +2277,181 @@ Stock is kept. Gathering spots return tomorrow."	"%d日目の決算
 星空公开课	An Open Sky Class	星空の公開授業	星空公開課
 招租告示是镇里公开贴的。免租的费用也记在账上，你随时能看。	The rental notice was public. The rent subsidy is in the town accounts, open to you.	募集告示は町で公開したものよ。家賃免除の費用も帳簿でいつでも見られるわ。	招租告示是鎮里公開貼的。免租的費用也記在賬上，你隨時能看。
 水门和河口的修缮已经分开记账，剩下的支路还得逐项商量。	Gate and harbor repairs now have separate accounts. Each remaining branch still needs discussion.	水門と河口は別々に会計をつけた。残る支線も一つずつ相談しないとね。	水門和河口的修繕已經分開記賬，剩下的支路還得逐項商量。
+到啦，哗啦啦魔女镇。船上的行李都在这儿，是你的吧？	Here we are, Walala Witch Town. Is this all your luggage?	着いたよ、ワララ魔女町。船の荷物はこれで全部。あなたので合ってる？	到啦，嘩啦啦魔女鎮。船上的行李都在這兒，是你的吧？
+对，谢谢！总算到了，我腿都坐麻了。	Yes, thank you! At last. My legs have gone numb from sitting.	うん、ありがとう！ やっと着いた。座りっぱなしで足がしびれちゃった。	對，謝謝！總算到了，我腿都坐麻了。
+这箱子还挺沉。里面装了什么？	This trunk's pretty heavy. What's in it?	この箱、結構重いね。何が入ってるの？	這箱子還挺沉。里面裝了什么？
+锅和碗。我想开个小食堂，这些就先带来了。	Pots and bowls. I'm hoping to open a little eatery, so I brought what I had.	鍋と食器。小さな食堂を開きたくて、家にあるものを持ってきたの。	鍋和碗。我想開個小食堂，這些就先帶來了。
+月灯食堂？你就是来租房子的那位？	Moon Lantern Kitchen? You're the one here to rent it?	月灯食堂？ 借りに来るっていうのは、あなた？	月燈食堂？你就是來租房子的那位？
+嗯，告示上说还有块田，第一季不用交租。我就想来看看。	Yes. The notice said there's a field too, and no rent for the first season. I thought I'd take a look.	うん。畑も付いてて、最初の季節は家賃がいらないって。見に来てみようと思って。	嗯，告示上說還有塊田，第一季不用交租。我就想來看看。
+那就没找错。我叫澪，平时管码头，也帮镇上收货。	You've got the right place. I'm Nagi. I run the dock and handle deliveries for the town.	ここで合ってるよ。私はナギ。普段は波止場で、町の荷物も受け取ってる。	那就沒找錯。我叫澪，平時管碼頭，也幫鎮上收貨。
+我叫薇尔莉娅。以后店里的东西，估计也得麻烦你收了。	I'm 薇尔莉娅. I expect I'll be asking you to take deliveries for the eatery too.	私は薇尔莉娅。お店の荷物も、これからお願いすることになりそう。	我叫薇爾莉婭。以后店里的東西，估計也得麻煩你收了。
+没问题。等你开张了，我也去吃一顿。	No problem. I'll come by for a meal once you're open.	もちろん。開店したら、私もご飯を食べに行くね。	沒問題。等你開張了，我也去吃一頓。
+好啊！我先把住的地方收拾好，开张了就告诉你。	I'd like that! I'll get settled in first, then let you know when we're open.	ぜひ！ まず住む所を片付けて、開店が決まったら知らせるね。	好啊！我先把住的地方收拾好，開張了就告訴你。
+薇尔莉娅？你到啦！我是萤萝，之前给你回过信。	薇尔莉娅? You're here! I'm Yingluo. I wrote back to you.	薇尔莉娅？ 着いたんだね！ 私、インルオ。手紙のお返事を書いたの。	薇爾莉婭？你到啦！我是螢蘿，之前給你回過信。
+原来是你！我还怕船来晚了，让你们白等。	So that was you! I was worried the boat was late and I'd kept you waiting.	あなただったんだ！ 船が遅れて、待たせちゃったかと思って。	原來是你！我還怕船來晚了，讓你們白等。
+没事，今天我正好在这条街巡灯。奥萝在食堂等你呢。	It's fine. I was checking the lamps on this street anyway. Orla's waiting at the eatery.	大丈夫。今日はちょうど、この通りの灯を見回ってたから。オルラは食堂で待ってるよ。	沒事，今天我正好在這條街巡燈。奧蘿在食堂等你呢。
+这就是我住的地方？屋顶看着像刚修过。	Is this where I'll live? The roof looks freshly repaired.	ここに住むの？ 屋根は直したばかりみたいだね。	這就是我住的地方？屋頂看著像剛修過。
+对，住这里。屋顶上个月刚补好，水管也通了，今晚就能住。	Yes, this is where you'll live. The roof was patched last month, and the water works. You can stay tonight.	うん、ここに住めるよ。屋根は先月直して、水道も通ったの。今夜から大丈夫。	對，住這里。屋頂上個月剛補好，水管也通了，今晚就能住。
+那我就放心了。刚看见田里这么多草，还以为屋里也得收拾好几天。	That's a relief. After seeing all those weeds, I thought the house might take days to sort out too.	よかった。畑が草だらけだったから、家の片付けも何日かかかるかと思ってた。	那我就放心了。剛看見田里這么多草，還以為屋里也得收拾好幾天。
+屋里我们打扫过了。你一个人来开店，忙得过来吗？	We cleaned inside. Can you manage the eatery on your own?	中は掃除しておいたよ。一人でお店をやるの、大変じゃない？	屋里我們打掃過了。你一個人來開店，忙得過來嗎？
+我在雾港后厨干了三年，做饭倒是不怕。开店嘛，还真是头一回。	I worked in a Fog Harbor kitchen for three years, so cooking doesn't worry me. Running a place is new, though.	霧港の厨房で三年働いたから、料理は大丈夫。でも、お店を持つのは初めてなの。	我在霧港后廚干了三年，做飯倒是不怕。開店嘛，還真是頭一回。
+那你怎么想到来这里？雾港不是更热闹吗？	What made you choose here? Isn't Fog Harbor busier?	じゃあ、どうしてここに？ 霧港のほうがにぎやかでしょう？	那你怎么想到來這里？霧港不是更熱鬧嗎？
+那边房租太贵了。我攒的钱只够开个小店，这里第一季免租，正好试试。	The rent there is too high. I've only saved enough for a small place. A season rent-free gives me a chance to try.	向こうは家賃が高くて。貯金も小さなお店の分くらい。ここなら最初の季節は無料だし、やってみたくて。	那邊房租太貴了。我攢的錢只夠開個小店，這里第一季免租，正好試試。
+厨房也不大，不过锅灶都还在。你想好卖什么了吗？	The kitchen's small too, but the stove and pots are still there. Do you know what you'll serve?	厨房も小さいけど、かまども鍋も残ってるよ。何を出すか、もう決めた？	廚房也不大，不過鍋灶都還在。你想好賣什么了嗎？
+先做汤和炖饭吧。我最拿手的就是这两样，客人少也不怕做太多。	Soup and rice stew to start. They're what I make best, and I can cook small batches while it's quiet.	まずはスープと煮込みご飯かな。その二つが得意だし、お客さんが少なくても少量ずつ作れるから。	先做湯和燉飯吧。我最拿手的就是這兩樣，客人少也不怕做太多。
+听着不错！后面那块田呢，你以前种过菜吗？	Sounds good! What about the field behind the house? Have you grown vegetables before?	いいね！ 裏の畑はどうする？ 野菜を育てたことはあるの？	聽著不錯！后面那塊田呢，你以前種過菜嗎？
+没种过。我先种一点试试，能给店里省点菜钱就好了。	No. I'll try a little at first. It'd be nice to save on vegetables for the eatery.	ないの。まず少しだけ育ててみたい。お店の野菜代がちょっとでも浮けばいいな。	沒種過。我先種一點試試，能給店里省點菜錢就好了。
+茉莉很会种菜，改天介绍你们认识。走，奥萝还等着呢。	Mori's good with plants. I'll introduce you sometime. Come on, Orla's still waiting.	モリは野菜を育てるのが上手だよ。今度紹介するね。さあ、オルラが待ってる。	茉莉很會種菜，改天介紹你們認識。走，奧蘿還等著呢。
+欢迎，我是奥萝。房子和厨房都看过了，觉得怎么样？	Welcome, I'm Orla. Now you've seen the cottage and kitchen, what do you think?	ようこそ、オルラよ。家も厨房も見たところで、どうかしら？	歡迎，我是奧蘿。房子和廚房都看過了，覺得怎么樣？
+比我想的好多了！不过有些地方挺旧，要是漏水了，修起来得我出钱吗？	Better than I expected! Some of it looks old, though. Would I have to pay to fix any leaks?	思ってたよりずっといいです！ でも古い所もあるし、雨漏りしたら私が修理代を出すんですか？	比我想的好多了！不過有些地方挺舊，要是漏水了，修起來得我出錢嗎？
+屋顶、墙和原来的水管坏了，镇里来修。你不用担心这笔钱。	The town will repair the roof, walls and existing pipes. You don't need to budget for those.	屋根や壁、元からある水道管は町で直すわ。そのお金は心配しなくていいの。	屋頂、墻和原來的水管壞了，鎮里來修。你不用擔心這筆錢。
+那农具和锅碗呢？我带的不多，可能还得添一些。	What about tools and cookware? I haven't brought much. I may need a few things.	農具や調理道具は？ あまり持ってこられなかったので、足りないかもしれません。	那農具和鍋碗呢？我帶的不多，可能還得添一些。
+农具能借，厨房留下的这些也能用，不另收钱。	You can borrow farm tools and use what's left in the kitchen, at no extra charge.	農具は貸せるし、厨房に残っている物も使っていいわ。別料金はかからないから。	農具能借，廚房留下的這些也能用，不另收錢。
+碗在柜子里，都洗过了。那只小汤锅底下有裂口，我已经放旁边了。	The bowls in the cupboard are washed. The little soup pot's cracked underneath, so I've set it aside.	戸棚の器は洗ってあるよ。小鍋は底が割れてたから、脇によけておいた。	碗在柜子里，都洗過了。那只小湯鍋底下有裂口，我已經放旁邊了。
+谢谢，省我好多事。奥萝，我再确认一下，是先租一年，第一季免费？	Thank you. That saves me a lot of work. Orla, just to check: a year's rental, first season free?	ありがとう、助かるわ。オルラ、確認なんですけど、一年借りて、最初の季節は無料で合ってます？	謝謝，省我好多事。奧蘿，我再確認一下，是先租一年，第一季免費？
+对，后面按月交。你自己买的东西，以后不租了也能带走。	Yes, then you pay monthly. Anything you buy is yours to take if you leave.	ええ、その後は月払い。自分で買った物は、借りるのをやめる時に持っていっていいわ。	對，后面按月交。你自己買的東西，以后不租了也能帶走。
+那就好。我还没自己开过店，有点怕做不起来。	That's good. I've never run my own place before. I'm a little worried it won't work out.	よかった。自分でお店をやるのは初めてだから、うまくいくか少し心配で。	那就好。我還沒自己開過店，有點怕做不起來。
+先试一年，真不合适就不续租。租约在这儿，你想好了再定。	Try it for a year. If it doesn't suit you, you don't have to renew. Here's the lease; take your time deciding.	まずは一年やってみて、合わなかったら更新しなくていいの。契約書はここよ。よく考えて決めてね。	先試一年，真不合適就不續租。租約在這兒，你想好了再定。
+锅灶我也试过了，能用。我叫陶陶，以前也在这儿做过饭。	I've tested the stove too. It works. I'm Toma. I used to cook here.	かまども試したよ。ちゃんと使える。僕はトマ。前はここで料理してたんだ。	鍋灶我也試過了，能用。我叫陶陶，以前也在這兒做過飯。
+那太好了。我带了点干蘑菇，今晚煮锅汤，请你们尝尝？	That's great. I brought some dried mushrooms. Shall I make soup tonight for you all to try?	それは心強いわ。干しキノコを持ってきたの。今夜スープを作るから、皆で味見しない？	那太好了。我帶了點干蘑菇，今晚煮鍋湯，請你們嘗嘗？
+我也能留下来吗？早上忙到现在，就吃了一个饼。	Can I stay too? I've been busy all day. All I've had is a little flatbread.	私も食べていい？ 朝からずっと忙しくて、おやきを一つ食べただけなの。	我也能留下來嗎？早上忙到現在，就吃了一個餅。
+当然能。不过我只带了三只碗……	Of course! Although I've only brought three bowls...	もちろん！ でも、持ってきた器は三つだけで……。	當然能。不過我只帶了三只碗……
+柜子里还有，够我们几个人用了。今晚我也留下吃一碗。	There are more in the cupboard. Enough for all of us. I'll stay for a bowl too.	戸棚にまだあるから、皆の分も足りるわ。私も今夜、一杯いただこうかしら。	柜子里還有，夠我們幾個人用了。今晚我也留下吃一碗。
+好，那我就租下了。今晚先试试味道，明晚正式开张！	All right, I'll take it. We'll try the food tonight, then open tomorrow evening!	はい、借ります！ 今夜はまず味見をして、明日の夜から開店ね！	好，那我就租下了。今晚先試試味道，明晚正式開張！
+行，汤还没好，先吃点面包。你也别饿着。	Right. Have some bread while the soup cooks. You need to eat too.	よし。スープができるまでパンでも食べよう。君もお腹を空かせたままじゃだめだよ。	行，湯還沒好，先吃點面包。你也別餓著。
+那我不客气了，坐了一天船，我还真饿了。	Don't mind if I do. A whole day on the boat's made me hungry.	じゃあ、いただきます。一日船に乗ってたから、ほんとにお腹ぺこぺこ。	那我不客氣了，坐了一天船，我還真餓了。
+菜单板我擦好了。你今天打算卖什么？	I've wiped the menu board. What are you serving today?	献立の板、拭いておいたよ。今日は何を出す？	菜單板我擦好了。你今天打算賣什么？
+蘑菇汤。先卖这一样，会不会太少了？	Mushroom soup. Is just one dish too little to start with?	キノコスープ。最初はそれだけって、少なすぎるかな？	蘑菇湯。先賣這一樣，會不會太少了？
+你准备了多少？	How much have you made?	どのくらい作ったの？	你準備了多少？
+八碗。我有点担心，万一来的人多呢？	Eight bowls. I'm worried more people might turn up.	八杯分。もっと人が来たらどうしようって。	八碗。我有點擔心，萬一來的人多呢？
+先把这八碗做好。面包还有，吃不饱也能加一点。	Let's get those eight bowls right. There's bread if anyone's still hungry.	まずは八杯をおいしく作ろう。足りなければパンもあるよ。	先把這八碗做好。面包還有，吃不飽也能加一點。
+那我就写八份，卖完为止？	Then I'll write eight portions, while they last?	じゃあ八食分って書いて、売り切れたらおしまい？	那我就寫八份，賣完為止？
+对。刚开张，少做一点也没关系。	Right. It's fine to start small on your first night.	そう。初日なんだから、少なめでも大丈夫。	對。剛開張，少做一點也沒關系。
+好，我不往锅里加水了。刚才还真动过这个念头。	Good. No extra water in the pot, then. I was honestly considering it.	うん、鍋に水を足すのはやめる。実はちょっと考えてたんだ。	好，我不往鍋里加水了。剛才還真動過這個念頭。
+街上这些小灯归我管。山上那个月环，是另一套装置。	I look after the little street lamps. The moonring on the mountain is a separate system.	通りの小さな灯は私の担当。山の月環は、また別の設備なの。	街上這些小燈歸我管。山上那個月環，是另一套裝置。
+嗯，停了好多年了。街灯能自己亮，不靠它供着，你放心。	Yes, it's been off for years. The street lamps work on their own, though, so we'll have light.	うん、もう何年も止まってる。でも街灯は別にともせるから、明かりは大丈夫だよ。	嗯，停了好多年了。街燈能自己亮，不靠它供著，你放心。
+那就在这儿吃吧。汤盛好了，等会儿凉了就不好喝了。	Why not eat here? The soup's ready, and it's better while it's hot.	じゃあ、ここで食べていかない？ スープもよそったし、冷めないうちに。	那就在這兒吃吧。湯盛好了，等會兒涼了就不好喝了。
+太好了！你还留着面粉？	Oh, good! You've still got flour?	よかった！ 小麦粉、まだあったの？	太好了！你還留著面粉？
+嗯，以前做饭买的，最近没怎么用。	Yes, I bought it for cooking a while back. Haven't used much lately.	うん、前に料理用に買ったんだ。最近はあまり使ってなくてね。	嗯，以前做飯買的，最近沒怎么用。
+那我先买半袋。明天没面包，可就少卖一样了。	I'll buy half a bag, then. Without bread, tomorrow's menu will be even smaller.	じゃあ半袋買わせて。明日パンがないと、ただでさえ少ない献立が減っちゃう。	那我先買半袋。明天沒面包，可就少賣一樣了。
+行，明晚我来吃饭，再一起算钱。	Sure. I'll be here for dinner tomorrow; we can settle up then.	いいよ。明日の夜も食べに来るから、その時に払ってくれれば。	行，明晚我來吃飯，再一起算錢。
+你还来啊？我还怕今天做得不合你口味。	You're coming back? I was worried you hadn't liked today's soup.	また来てくれるの？ 今日のスープ、口に合わなかったかと思って。	你還來啊？我還怕今天做得不合你口味。
+挺好喝的。就是我那碗已经空了半天，你也没看见。	I liked it. Though my bowl's been empty for a while and you haven't noticed.	おいしかったよ。ただ、さっきから器が空なのに、気付いてくれなくてね。	挺好喝的。就是我那碗已經空了半天，你也沒看見。
+我这就盛。对了，你们吃着怎么样？	Coming right up. How is everyone else finding it?	今よそうね。そうだ、皆はどう？	我這就盛。對了，你們吃著怎么樣？
+挺好。我想再加点盐。	Good. I'd like a little more salt.	うまい。塩を少し足したいな。	挺好。我想再加點鹽。
+盐就在你手边，少撒一点，上回你自己都嫌咸。	It's beside you. Go easy; last time even you thought you'd added too much.	塩は手元にあるでしょ。控えめにね。前は自分でもしょっぱいって言ってたから。	鹽就在你手邊，少撒一點，上回你自己都嫌咸。
+这回不会。	Won't happen this time.	今回は大丈夫だ。	這回不會。
+有哪里不合口味就说，我明天再改。	Tell me if anything isn't to your taste. I can adjust it tomorrow.	好みに合わない所があったら言ってね。明日また調整するから。	有哪里不合口味就說，我明天再改。
+那明天给我留点面包。我来晚些。	Save me some bread tomorrow, then. I'll be a little late.	じゃあ明日、パンを取っておいてくれ。少し遅くなる。	那明天給我留點面包。我來晚些。
+先试一次吧。我还得跟船主商量，看他肯不肯定期来。	Let's try one trip first. I'll have to ask the skipper about a regular run.	まずは一回試そう。定期便にできるかは、船長とも相談しないと。	先試一次吧。我還得跟船主商量，看他肯不肯定期來。
+那你先算算能卖多少，我再看明晚做几份。	Work out how much you can sell, then I'll plan tomorrow's portions.	売れる分が決まったら、明日の夜に何食作るか考えるね。	那你先算算能賣多少，我再看明晚做幾份。
+不过有的长得不好，味道可能差点，你尝过再决定要不要。	Some haven't grown well and might not taste as good. Try them before deciding.	ただ、育ちの悪い物は味も落ちるかも。食べてみてから決めてね。	不過有的長得不好，味道可能差點，你嘗過再決定要不要。
+好。价钱就按平时的来，你也别因为我刚开店就少收。	All right. Charge your usual price. Don't give me a discount just because I've only opened.	うん。値段はいつも通りでいいよ。開店したばかりだからって、安くしなくていいから。	好。價錢就按平時的來，你也別因為我剛開店就少收。
+我怕你不好意思收。咱们熟归熟，菜钱还是要付的。	I was afraid you wouldn't want to charge me. We're friends, but I should still pay for the vegetables.	お金を取りにくいかなって。知り合いでも、野菜代はちゃんと払いたいの。	我怕你不好意思收。咱們熟歸熟，菜錢還是要付的。
+你先听听报价再说，别一口就答应了。	At least hear the price before you agree to it.	まずは値段を聞いてからにしなさいよ。すぐにうんって言わないで。	你先聽聽報價再說，別一口就答應了。
+那回程也能挣点钱，运费就没那么难凑了。	If we earn something on the return trip too, the freight will be easier to cover.	帰りの便でも稼げたら、船代も出しやすくなるね。	那回程也能掙點錢，運費就沒那么難湊了。
+面粉还没到，先不卖了。省得客人白等。	No bread until the flour arrives. I don't want people waiting for food I can't make.	小麦粉が届くまではお休み。作れないのに待たせちゃ悪いから。	面粉還沒到，先不賣了。省得客人白等。
+我那边分两批浇，能省一点水。不过收成肯定会少，得提前跟订菜的人说。	I'll water mine in two batches to save some water. The harvest will be smaller, so I'll warn my buyers.	私の畑は二回に分けて水をやるね。少し節約できるけど収穫は減るから、注文した人に伝えておかないと。	我那邊分兩批澆，能省一點水。不過收成肯定會少，得提前跟訂菜的人說。
+嗯，得先算好够不够水。我去年就种多了，最后死了两盘苗。	Yes, check there's enough water first. I planted too much last year and lost two trays of seedlings.	うん、水が足りるか考えないとね。私は去年植えすぎて、苗を二鉢分枯らしたの。	嗯，得先算好夠不夠水。我去年就種多了，最后死了兩盤苗。
+这条沟里还埋着灯线。你看这些孔，水门和灯架原来是一起装的。	There are lamp cables buried here too. These holes show the gate and lamp frames were installed together.	この溝には灯の線も埋まってる。この穴を見ると、水門と灯架は一緒に取り付けられたみたいだ。	這條溝里還埋著燈線。你看這些孔，水門和燈架原來是一起裝的。
+边上都熔了，像是烧过。不是用久了自然坏的。	The edge has melted, like it's been burned. This isn't ordinary wear.	端が溶けてる。焼けたんだろう。古くなっただけじゃ、こうはならない。	邊上都熔了，像是燒過。不是用久了自然壞的。
+也可能是电线太热烧的。还没拆开，我也说不准。	Overheated wiring could have done it too. I won't know until it's opened up.	線が熱くなって焼けたのかもしれない。開けてみないと、まだわからないな。	也可能是電線太熱燒的。還沒拆開，我也說不準。
+这样明晚就没什么像样的菜了。	That doesn't leave much for tomorrow's menu.	これだと明日の夜、ちゃんとした料理があまり出せないな。	這樣明晚就沒什么像樣的菜了。
+这不是挺好吗？昨天你那两道炖菜，吃起来都差不多。	Sounds fine to me. Yesterday's two stews tasted almost the same.	いいじゃないか。昨日の煮込み二品は、どっちも似た味だったし。	這不是挺好嗎？昨天你那兩道燉菜，吃起來都差不多。
+可灯一直不修，以后每趟船都得等，种苗还会坏啊。	But if the light stays broken, every boat has to wait. We'll keep losing seedlings.	でも灯を直さなかったら、船が来るたびに待つんでしょう。苗もまた傷んじゃう。	可燈一直不修，以后每趟船都得等，種苗還會壞啊。
+哪些是你真看出来的，哪些只是猜的，要说清楚。	Be clear about what you've checked and what you're only guessing.	確かめたことと、ただの予想は分けて話してくれ。	哪些是你真看出來的，哪些只是猜的，要說清楚。
+在南方养伤。我们一直有通信，我也会把巡灯的记录寄给她。	She's recovering in the south. We still write, and I send her my lamp inspection records.	南の方で療養してる。ずっと手紙をやり取りしてて、私の見回りの記録も送ってるの。	在南方養傷。我們一直有通信，我也會把巡燈的記錄寄給她。
+知道。她问过好几次修得怎么样了，我总说还在筹钱。	She knows. She's asked how repairs are going several times. I keep saying we're raising the money.	知ってる。修理はどうなったって何度も聞かれたけど、まだお金を集めてるって返すばかりで。	知道。她問過好幾次修得怎么樣了，我總說還在籌錢。
+也寄过种子。她身体好多了，还能在家种点花，我就放心些。	We exchange seeds too. She's feeling better and growing flowers at home. That's a relief.	種も送ってくれるよ。体調がよくなって家で花も育ててるって聞いて、少し安心した。	也寄過種子。她身體好多了，還能在家種點花，我就放心些。
+这是改接的记号。线从这里断开，换了个接法。	These marks show a wiring change. The lines were disconnected here and joined differently.	配線を変えた印だ。ここで線を外して、別のつなぎ方にしてる。	這是改接的記號。線從這里斷開，換了個接法。
+我知道。当时让它继续开着的单子，是我签的。	I know. I signed the order to keep it running.	わかってる。動かし続ける許可を出したのは私よ。	我知道。當時讓它繼續開著的單子，是我簽的。
+六条路都靠她一个人盯着？怪不得她连觉都睡不好。	She had to watch all six branches herself? No wonder she couldn't sleep properly.	六本全部、一人で見てたの？ それじゃ、ちゃんと眠れないよ。	六條路都靠她一個人盯著？怪不得她連覺都睡不好。
+那时候我总说修好再解释。结果一直没修成，大家一提钱就吵，后来我也不敢再提了。	I kept saying I'd explain after the repairs. They never happened. Every money discussion became an argument, and I stopped bringing it up.	直ったら説明すると言い続けてた。でも直らないまま、お金の話をするたびにけんかになって。私も言い出せなくなったの。	那時候我總說修好再解釋。結果一直沒修成，大家一提錢就吵，后來我也不敢再提了。
+种田的着急没水，跑船的着急没灯。大家都难，慢慢就只说自己那边的事了。	Farmers needed water, boat crews needed lights. Everyone was struggling, and we ended up only talking about our own problems.	畑には水が、船には灯が必要だった。皆大変で、だんだん自分の困り事ばかり話すようになったんだ。	種田的著急沒水，跑船的著急沒燈。大家都難，慢慢就只說自己那邊的事了。
+按后来这张图修，还是得有人守着，一晚上都不能走。	If we use the later plan, yes. Someone would have to stay there all night.	後から変えた図面通りに直すなら、そう。一晩中、誰かがいないと。	按后來這張圖修，還是得有人守著，一晚上都不能走。
+好吧，我连饭都经常顾不上吃。再加夜班，确实撑不住。	All right. I barely find time to eat as it is. Night shifts too would be too much.	うん。今だってご飯を食べそびれるくらいだもんね。夜番まで増えたら、もたないか。	好吧，我連飯都經常顧不上吃。再加夜班，確實撐不住。
+贵多少，先算清楚吧。还有守夜要多少人、每个人守多久，也一起算。	Let's find out how much more. And work out how many people would have to keep watch, and for how long.	どれくらい高くなるか、まず計算しよう。夜番に何人必要で、一人何時間になるのかも。	貴多少，先算清楚吧。還有守夜要多少人、每個人守多久，也一起算。
+还有以前欠的材料钱。不能只算新修的，把旧账放着不管。	And the materials we still owe for. We can't budget new repairs and ignore old debts.	前の材料代もまだ残ってる。新しい修理代だけ計算して、昔の借りを放っておけないわ。	還有以前欠的材料錢。不能只算新修的，把舊賬放著不管。
+应该够了，剩下的我再想办法。	That should be enough. I'll work something out for the rest.	たぶん足りる。残りは私がなんとかするよ。	應該夠了，剩下的我再想辦法。
+你先把饭吃了。饿着肚子忙，更容易忘事。	Eat first. You're more likely to forget things if you're hungry.	先にご飯を食べよう。空腹で働いてると、余計に忘れっぽくなるよ。	你先把飯吃了。餓著肚子忙，更容易忘事。
+商队催菜单了。这封信寄出去，菜名和份数可就不能随便改了。	The merchants are asking for the menu. Once this letter goes out, we can't keep changing the dishes and quantities.	商隊が献立を急いでる。この返事を出したら、料理と数は簡単には変えられないよ。	商隊催菜單了。這封信寄出去，菜名和份數可就不能隨便改了。
+我知道谁都不是故意的，可这样一来，答应他们的菜就凑不齐了。	I know nobody meant for this to happen, but now I can't make the menu I promised.	誰もわざとじゃないのはわかってる。でも、これじゃ約束した料理が揃わない。	我知道誰都不是故意的，可這樣一來，答應他們的菜就湊不齊了。
+我就是想把这次做好，让他们以后还愿意来。连价目表我都写好了。	I just wanted this to go well so they'd come back. I've even finished the price list.	今回うまくやって、また来たいって思ってほしかったの。値段表ももう書いたのに。	我就是想把這次做好，讓他們以后還愿意來。連價目表我都寫好了。
+可南瓜还在地里，鱼也没订够。你答应得太早了。	But the pumpkins are still growing, and you haven't secured enough fish. You promised too soon.	でもカボチャはまだ畑だし、魚も足りない。約束するのが早すぎたのよ。	可南瓜還在地里，魚也沒訂夠。你答應得太早了。
+天气确实不好，可食材还没订齐，我就答应了。这个也得告诉他们。	The weather's bad, yes, but I agreed before I'd secured the ingredients. They should know that too.	天気が悪いのは本当。でも食材を揃える前に引き受けたのは私。それもちゃんと伝えたい。	天氣確實不好，可食材還沒訂齊，我就答應了。這個也得告訴他們。
+会吧。他们愿意改成十二个人，就是还想来尝尝。	I think so. They offered to come as twelve because they still want to try your food.	あると思うよ。十二人でもいいって言ったのは、まだ食べてみたいからでしょう。	會吧。他們愿意改成十二個人，就是還想來嘗嘗。
+谢谢。我还以为退了宴席，连平时的生意也要做不下去了。	Thank you. I thought cancelling the banquet might mean I couldn't keep the everyday business going either.	ありがとう。宴会を断ったら、普段のお店まで続けられなくなるかと思ってた。	謝謝。我還以為退了宴席，連平時的生意也要做不下去了。
+平时该怎么做还怎么做。我卖鱼，你做饭，大家总得吃饭吧。	We can carry on as usual. I sell fish, you cook. People still need dinner.	いつも通りでいいよ。僕は魚を売って、君は料理する。皆、ご飯は食べるんだから。	平時該怎么做還怎么做。我賣魚，你做飯，大家總得吃飯吧。
+今天我不赶着回去，晚饭能在这儿吃吗？	I'm not rushing off today. Can I eat dinner here?	今日は急いで帰らなくていいの。ここでご飯を食べてもいい？	今天我不趕著回去，晚飯能在這兒吃嗎？
+当然能。那我就不打包了？	Of course. No takeaway box, then?	もちろん。じゃあ、持ち帰り用に詰めなくていい？	當然能。那我就不打包了？
+嗯，你也给自己盛一碗吧。忙到最后，锅里又没你的份了。	Right. Serve yourself a bowl too, or there'll be none left for you by the time you're done.	うん。自分の分もよそっておいて。最後まで忙しくしてたら、また鍋が空になっちゃうよ。	嗯，你也給自己盛一碗吧。忙到最后，鍋里又沒你的份了。
+修月环的钱也算好了。只换主环便宜，但要整晚守着。把支路分开修要贵些，不过能先修一部分。	We have the repair costs. Replacing just the ring is cheaper but needs an overnight watch. Separate branches cost more, but we can start with two.	月環の修理代も出たわ。主環だけなら安いけど夜番が必要。支線を分けると高くなるけど、一部から直せるの。	修月環的錢也算好了。只換主環便宜，但要整晚守著。把支路分開修要貴些，不過能先修一部分。
+那先修这两段。用了多少钱、干了多久，都记下来，剩下的以后再说。	Let's do those two first. Record the money and time they take; we'll discuss the rest later.	じゃあ、まずその二つね。費用もかかった時間も記録して、残りは後で考えましょう。	那先修這兩段。用了多少錢、干了多久，都記下來，剩下的以后再說。
+修理那几天的午饭，我能做。不过人数得先定好，我还得留菜给晚上的客人。	I can make lunch on repair days. But I need the numbers beforehand, so there's food left for the evening guests.	修理の日のお昼は私が作れるよ。ただ、人数は先に決めてね。夜のお客さんの分も残さないと。	修理那幾天的午飯，我能做。不過人數得先定好，我還得留菜給晚上的客人。
+这回你倒是先问清楚了。	You've asked about the details first this time.	今回はちゃんと、先に確かめたんだね。	這回你倒是先問清楚了。
+嗯，再来一次，我这点本钱可赔不起了。	Yes. I can't afford to lose that much again.	うん。もう一度あんなに損をしたら、お金が足りなくなっちゃう。	嗯，再來一次，我這點本錢可賠不起了。
+我在河口测过亮度了。不用照山顶那么亮，太亮了水面反而晃眼。	I've checked the brightness at the river mouth. It needs less light than the summit; too much makes glare on the water.	河口の明るさも測ったよ。山頂ほど明るくなくていい。強すぎると水面がまぶしくなるから。	我在河口測過亮度了。不用照山頂那么亮，太亮了水面反而晃眼。
+放心，你那份有。没放葱的是霜铃和星芒的。	Don't worry, yours has onions. The ones without are for Yuki and Aster.	大丈夫、あなたの分には入ってる。ネギ抜きはユキとアスターのだよ。	放心，你那份有。沒放蔥的是霜鈴和星芒的。
+第二段比原先算的多花了一成。旧水渠底下有塌掉的石头，清出来费了不少工夫。	The second section cost ten percent more than expected. Clearing the fallen stone under the old channel took extra work.	二つ目は予定より一割高くなったの。古い水路の底に崩れた石があって、片付けに手間がかかって。	第二段比原先算的多花了一成。舊水渠底下有塌掉的石頭，清出來費了不少工夫。
+那层石头是我之前没看见。账上写清楚，多花的是清理的钱。	I missed that layer of stone. Mark the extra cost as clearance work.	あの石は見落としてた。増えた費用は片付け代だと、帳簿に書いておいてくれ。	那層石頭是我之前沒看見。賬上寫清楚，多花的是清理的錢。
+你昨天还做到天黑。多干的那几个小时，也得算钱。	You worked until dark yesterday too. Those extra hours need paying for.	昨日は暗くなるまで働いたでしょう。増えた時間の分も、ちゃんと払わないとね。	你昨天還做到天黑。多干的那幾個小時，也得算錢。
+要是看不出来呢？	What if you can't tell what's wrong?	わからなかったら？	要是看不出來呢？
+那就写上还没查清，把那条支路先关掉，等你来。	I'll note that it's unresolved, switch off that branch and wait for you.	まだ原因不明って書いて、その支線を止めて、あなたを待つよ。	那就寫上還沒查清，把那條支路先關掉，等你來。
+嗯，别硬撑着让它亮。	Good. Don't keep it on just to make it work.	ああ。無理にともしたままにしなくていい。	嗯，別硬撐著讓它亮。
+她问我们有没有装总负荷的限制，免得同时用电太多。还提醒我们，旧图有个刻度印反了。	She asks if we've fitted a total load limit to prevent overloads. And warns that one scale on the old plan is reversed.	一度に使いすぎないよう、全体の負荷制限を付けたかって。それと、古い図面の目盛りが一つ逆だって。	她問我們有沒有裝總負荷的限制，免得同時用電太多。還提醒我們，舊圖有個刻度印反了。
+就是你上周量过的那一处，你不是还说图上画错了吗？	The one you measured last week. You said the plan was wrong, remember?	先週、測り直した所。図面が間違ってるって言ってたでしょう？	就是你上周量過的那一處，你不是還說圖上畫錯了嗎？
+还有，大家中午都吃上饭了，晚上也不用一直守着。让她别惦记这个。	Tell her everyone's getting lunch, and nobody has to stay up there all night. She needn't worry about that.	皆、お昼も食べてるし、夜も山に居続けなくていいって。それは心配しなくていいって伝えてね。	還有，大家中午都吃上飯了，晚上也不用一直守著。讓她別惦記這個。
+传消息的线没坏，是浮标卡住了，所以水位报得不准。我已经记下了，别的支路还能用。	The signal line's fine; the float is stuck, so its water reading is wrong. I've logged it. The other branches still work.	信号の線は切れてない。浮きが引っかかって水位がずれてるんだ。記録しておいたよ。他の支線は使える。	傳消息的線沒壞，是浮標卡住了，所以水位報得不準。我已經記下了，別的支路還能用。
+我跟下游两家说过了，今晚不住临河仓房。露米，镇里的备用物资单给你，麻烦你对一下数。	I've told the two households downstream to stay out of the riverside storehouse tonight. Lumi, here's the town reserve list; could you check the quantities?	下流の二軒には、今夜は川沿いの倉庫を使わないよう伝えたわ。ルミ、町の備蓄一覧よ。数を確かめてもらえる？	我跟下游兩家說過了，今晚不住臨河倉房。露米，鎮里的備用物資單給你，麻煩你對一下數。
+漂木清掉了，闸门也能开了。不过旧支架裂了，余烬说今晚先别再往大了开。	The driftwood's clear and the gate opens. But the old bracket's cracked, so Ember says not to open it any further tonight.	流木は取れたし、水門も開くよ。でも古い支えにひびがあるから、今夜はこれ以上開けないって。	漂木清掉了，閘門也能開了。不過舊支架裂了，余燼說今晚先別再往大了開。
+平时来吃饭的照常付。临时没地方住、镇里安排过来的那几份，我单独记账。	Regular customers pay as usual. Meals for people the town sends here for shelter go on a separate bill.	普段のお客さんはいつも通り。泊まる所がなくて町から来る人の分は、別に帳簿をつけるね。	平時來吃飯的照常付。臨時沒地方住、鎮里安排過來的那幾份，我單獨記賬。
+现在只接好了水门和河口，用得也不多，还没到上限的一半。我刚查过。	Only the gate and harbor are connected now, and they're using less than half the limit. I've just checked.	今つながってるのは水門と河口だけで、使ってる量も上限の半分以下。さっき確かめたよ。	現在只接好了水門和河口，用得也不多，還沒到上限的一半。我剛查過。
+嗯，我知道现在有人轮着看。就是一听到下雨，还是忍不住担心。	Yes, I know we're taking turns now. Rain still makes me worry, that's all.	うん、今は交代で見てるってわかってる。ただ、雨が降るとまだ心配しちゃうんだ。	嗯，我知道現在有人輪著看。就是一聽到下雨，還是忍不住擔心。
+好，那就等水小一点。明天先做南瓜炖饭，面粉到了再烤面包。	All right, we'll wait for the water to settle. Pumpkin rice stew tomorrow, and bread once the flour gets here.	うん、水が落ち着くのを待とう。明日はカボチャの煮込みご飯で、小麦粉が来たらパンを焼くね。	好，那就等水小一點。明天先做南瓜燉飯，面粉到了再烤面包。
+能，锅里还有呢。忙完了就坐下吃吧。	Yes, there's plenty in the pot. Sit down for a bowl when you're done.	いいよ、鍋にまだあるから。仕事が終わったら座って食べてね。	能，鍋里還有呢。忙完了就坐下吃吧。
+听你们都开始安排明天的事，我才觉得这场雨真过去了。	Hearing you all make plans for tomorrow, it finally feels like we've got through the rain.	皆が明日の予定を話してると、やっと雨を乗り切ったんだなって思う。	聽你們都開始安排明天的事，我才覺得這場雨真過去了。
+是啊。昨晚一直忙到半夜，今天总算能好好吃顿饭了。	Yes. We were busy half the night yesterday. Today we can finally sit down to a meal.	そうだね。昨日は夜中まで忙しかったけど、今日はやっと落ち着いてご飯が食べられる。	是啊。昨晚一直忙到半夜，今天總算能好好吃頓飯了。
+对了，你试着开店也快一年了。还想继续租吗？我把新租约带来了，还是按月交钱。	That reminds me, your trial year's nearly up. Would you like to stay? I've brought the new lease; rent is still monthly.	そうだ、試しに始めてもうすぐ一年ね。これからも借りる？ 新しい契約書を持ってきたわ。家賃は引き続き月払いよ。	對了，你試著開店也快一年了。還想繼續租嗎？我把新租約帶來了，還是按月交錢。
+当然可以，又没规定你天天开门。	Of course. There's no rule saying you have to open every day.	もちろん。毎日開ける決まりなんてないもの。	當然可以，又沒規定你天天開門。
+我知道，就是忙起来老觉得，少开一天会少赚好多。现在想想，也不能一直这么干。	I know. When I'm busy, a day off feels like losing so much income. But I can't keep going like this every day.	わかってるんだけど、忙しいと一日休むだけでずいぶん損した気がして。でも、毎日この調子じゃ続かないね。	我知道，就是忙起來老覺得，少開一天會少賺好多。現在想想，也不能一直這么干。
+好，租约放这儿。你不急着扩院子，先把店做稳当。	Good. Here's the lease. There's no hurry to expand the yard; give the eatery time to settle in.	よかった。契約書はここに置くわ。庭を広げるのは急がなくていいから、まずはお店を落ち着かせましょう。	好，租約放這兒。你不急著擴院子，先把店做穩當。
+嗯，先把现在这些菜做好。等忙得过来，再加新的。	Yes. I'll get the current menu right, then add more when I can manage it.	うん、まずは今の料理をちゃんと作る。余裕ができたら、新しいのを増やすよ。	嗯，先把現在這些菜做好。等忙得過來，再加新的。
+那我还想吃你上回做的蘑菇炖饭。下回有吗？	I'd love that mushroom rice stew you made last time. Will you make it again soon?	この前のキノコの煮込みご飯、また食べたいな。今度もある？	那我還想吃你上回做的蘑菇燉飯。下回有嗎？
+有，等这批蘑菇到了就做。先给你留一份。	Yes, once the next mushrooms arrive. I'll save you a portion.	うん、次のキノコが届いたら作るね。一食分、取っておく。	有，等這批蘑菇到了就做。先給你留一份。
+有，我来回信。她这次是来玩的，不用再住值守站了。	Yes, I'll write back. She's coming to visit this time; she doesn't need to stay at the watch station.	あるわ。私が返事を書く。今回は遊びに来るんだから、詰所に泊まらなくていいの。	有，我來回信。她這次是來玩的，不用再住值守站了。
+我也想让她看看修好的支路。不过先吃饭、歇够了，再慢慢看。	I'd like her to see the repaired branches too. But after she's had dinner and a proper rest.	直した支線も見てほしいな。でも飯を食って、ゆっくり休んでからでいい。	我也想讓她看看修好的支路。不過先吃飯、歇夠了，再慢慢看。
+还有煎鱼，刚做好，带过来时还烫手呢。	And fried fish, fresh from the pan. It was still too hot to hold when I brought it.	焼き魚もあるよ。焼きたてで、持ってくる時はまだ熱かったんだ。	還有煎魚，剛做好，帶過來時還燙手呢。
+拿好了，你的也在这儿。今天不用你忙，坐着吃就行。	They're ready. Yours is here too. You're off kitchen duty today; sit down and eat.	もう出してあるよ。あなたの分もここ。今日は料理しなくていいから、座って食べて。	拿好了，你的也在這兒。今天不用你忙，坐著吃就行。
+这锅汤也是你们做的？	Did you make this soup too?	このスープも皆が作ったの？	這鍋湯也是你們做的？
+我煮的，陶陶在旁边帮我看着。	I did. Toma kept an eye on it with me.	私が作ったんだ。トマに隣で見てもらいながらね。	我煮的，陶陶在旁邊幫我看著。
+你今天还有空做饭啊？	You had time to cook today?	今日は料理する時間もあったんだ？	你今天還有空做飯啊？
+船还没来，我也歇一会儿。你先尝尝咸淡怎么样。	The boat's not here yet. I'm taking a break too. Tell me what you think of the seasoning.	船はまだ来ないし、私も少し休憩。味はどうかな？	船還沒來，我也歇一會兒。你先嘗嘗咸淡怎么樣。
+今天先准备八份蘑菇汤，陶陶和大家都想尝尝。	Eight portions of mushroom soup to start. Toma and the others would like a taste.	今日はまずキノコスープを八食分。トマも皆も楽しみにしてるよ。	今天先準備八份蘑菇湯，陶陶和大家都想嘗嘗。
+面粉的运费太贵了，大家想合在一起订货。茉莉种的菜也快能收了。	Flour costs too much to ship alone, so everyone wants to combine orders. Mori's crops are nearly ready too.	小麦粉だけだと船代が高くて、皆でまとめて注文することに。モリの野菜もそろそろ収穫できそう。	面粉的運費太貴了，大家想合在一起訂貨。茉莉種的菜也快能收了。
+田里和鱼池都缺水，谁也不敢多用。旧水渠里那块铁牌，好像跟月环有关。	The fields and fish pools are short of water. A metal plate in the old channel seems connected to the moonring.	畑も池も水不足で、皆使いすぎないようにしてる。古い水路の鉄板は月環に関係していそう。	田里和魚池都缺水，誰也不敢多用。舊水渠里那塊鐵牌，好像跟月環有關。
+河口的灯不亮，船晚上进不来，种苗都闷坏了。霜铃说山上的值守站还留着图纸。	Boats can't enter at night without the harbor light, and seedlings have spoiled. Yuki says the old station still has plans.	河口の灯がつかず船が夜に入れなくて、苗が傷んだの。ユキによると、山の詰所に図面が残ってるって。	河口的燈不亮，船晚上進不來，種苗都悶壞了。霜鈴說山上的值守站還留著圖紙。
+图纸和旧记录找到了。陶陶、奥萝都知道当年的事，这回总算能一起说清楚了。	We found the plans and old logs. Toma and Orla were there; now they can explain what happened.	図面と古い記録が見つかった。トマもオルラも当時のことを知ってるから、一緒に詳しく話せそう。	圖紙和舊記錄找到了。陶陶、奧蘿都知道當年的事，這回總算能一起說清楚了。
+商队想办三十人的宴席。这笔生意能赚不少，可食材和桌椅还没凑齐。	The merchants want dinner for thirty. It could pay well, but we're short on ingredients and tables.	商隊から三十人分の宴会の話が来た。売上は大きいけど、食材もテーブルもまだ足りない。	商隊想辦三十人的宴席。這筆生意能賺不少，可食材和桌椅還沒湊齊。
+宴席取消了，订金也退了。好在熟客们还照常来，明晚的饭还得准备呢。	The banquet's cancelled and the deposit returned. The regulars are still coming, so there's dinner to prepare for tomorrow.	宴会は中止で、手付金も返した。でも常連はいつも通り来てくれる。明日のご飯も用意しないとね。	宴席取消了，訂金也退了。好在熟客們還照常來，明晚的飯還得準備呢。
+大家商量好了，先修水门和河口，不用谁整晚守着。这两段要用铁锭4、零件6、月晶4。	We're starting with the gate and harbor, without an all-night watch. Materials needed: iron 4, parts 6, crystals 4.	まず水門と河口を直すことになった。誰かが一晩中見張らなくてもいい形に。必要な資材は鉄4、部品6、月晶4。	大家商量好了，先修水門和河口，不用誰整晚守著。這兩段要用鐵錠4、零件6、月晶4。
+雨一直下，船暂时进不来。粮食还够，水门也有人看着，食堂今晚照常做饭。	The rain's keeping the boat out. We have enough food and people watching the gate. The eatery's cooking as usual tonight.	雨が続いて船が入れない。でも食料は足りていて、水門も皆が見てる。食堂は今夜もいつも通り。	雨一直下，船暫時進不來。糧食還夠，水門也有人看著，食堂今晚照常做飯。
+雨停了，船也快来了。奥萝带来了新租约，大家还想问问，你打算哪天歇一天？	The rain's stopped, and the boat will be here soon. Orla has a new lease. Everyone wants to know when you're taking a day off.	雨がやんで、船もそろそろ来る。オルラは新しい契約書を持ってきた。皆、あなたがいつ休むのか気にしてるよ。	雨停了，船也快來了。奧蘿帶來了新租約，大家還想問問，你打算哪天歇一天？
+想开自己的店	An Eatery of Her Own	自分のお店を開きたくて	想開自己的店
+在雾港后厨干了三年，薇尔莉娅攒下一点钱。她想试着开家小食堂，自己定菜单。	After three years in a Fog Harbor kitchen, Virelia had a little money saved. She wanted to try running a small eatery and choosing her own menu.	霧港の厨房で三年働いて、ヴィレリアは少しお金を貯めた。小さな食堂を開いて、自分で献立を決めてみたかった。	在霧港后廚干了三年，薇爾莉婭攢下一點錢。她想試著開家小食堂，自己定菜單。
+第一季免租	First Season Rent-Free	最初の季節は家賃無料	第一季免租
+一张招租告示让她动了心：月芽农场，带住处和食堂，第一季不用交租。	A rental notice caught her eye: Moonbud Farm, with a cottage and eatery. No rent for the first season.	目に留まったのは、月芽農場の募集告示。住まいと食堂付きで、最初の季節は家賃がいらない。	一張招租告示讓她動了心：月芽農場，帶住處和食堂，第一季不用交租。
+带上锅碗，出发	Packing the Pots and Bowls	鍋と食器を持って出発	帶上鍋碗，出發
+她带上衣服、锅碗和攒下的钱，坐船去了山谷。自己开店，这还是头一回。	She packed clothes, cookware and her savings, then took a boat to the valley. This would be her first time running a place of her own.	服と調理道具、貯めたお金を持って、船で谷へ。自分のお店を持つのは、これが初めてだった。	她帶上衣服、鍋碗和攢下的錢，坐船去了山谷。自己開店，這還是頭一回。
+小镇就在河边，货船能送来面粉和盐。她想，以后食堂进货应该挺方便。	The town stood by the river, with flour and salt arriving by boat. That should make stocking the eatery easy, she thought.	川沿いの町には、船で小麦粉や塩が届く。お店の仕入れもしやすそうだと、彼女は思った。	小鎮就在河邊，貨船能送來面粉和鹽。她想，以后食堂進貨應該挺方便。
+先住下来	Settling In	まずはここで暮らそう	先住下來
+小屋就在田边。她还没想好第一天卖什么，不过，眼下得先吃顿饭。	The cottage was beside the field. She hadn't settled on an opening menu, but first she needed dinner.	小さな家は畑のそば。初日の献立はまだ決めていないけれど、まずは自分もご飯を食べなくちゃ。	小屋就在田邊。她還沒想好第一天賣什么，不過，眼下得先吃頓飯。
+明天晚一点开门吧，今晚咱们先好好吃顿饭。	Let's open a little later tomorrow. Tonight, let's sit down and eat.	明日は少し遅く開けよう。今夜はゆっくりご飯を食べようよ。	明天晚一點開門吧，今晚咱們先好好吃頓飯。
+图上明明写着临时用，后来却一直没改回来。灯架我也得一盏盏查，光看图可不放心。	The plan says temporary, but nobody changed it back. I'll check every lamp frame too; the plans alone aren't enough.	図面には仮設って書いてあるのに、そのままだった。灯架も一つずつ調べるよ。図面だけじゃ安心できないからな。	圖上明明寫著臨時用，后來卻一直沒改回來。燈架我也得一盞盞查，光看圖可不放心。
+记录还没写完。有几次仪器测得不准，我想一块记下来。	I haven't finished the log. A few readings were off; I want to include those too.	記録がまだ終わってないんだ。何度か機器の値がずれていて、それも書いておきたくて。	記錄還沒寫完。有幾次儀器測得不準，我想一塊記下來。
+以前我只记测准的那几次，出错的就没写。后来修仪器，反倒找不到出问题的记录。	I used to record only the good readings. Then, when we repaired the instruments, we had no record of what went wrong.	前は正しく測れた分しか残してなかった。でも修理の時、何がおかしかったか調べられなくなってね。	以前我只記測準的那幾次，出錯的就沒寫。后來修儀器，反倒找不到出問題的記錄。
+我另画了一栏，左边写自己量的，右边写仪器报的。这下差多少就很清楚了。	I've added a column: our measurements on the left, the instrument's on the right. Now the difference is clear.	欄を増やして、左に自分で測った値、右に機器の値を書いた。これで違いがよくわかるよ。	我另畫了一欄，左邊寫自己量的，右邊寫儀器報的。這下差多少就很清楚了。
+这本总算写完了。我把测量的方法也写在最后，下次换个人来，也知道该怎么记。	Finally finished this volume. I added how we took the measurements, so the next person will know how to keep the log.	やっと一冊書き終えた。最後に測り方も書いたから、次の人も記録を続けられると思う。	這本總算寫完了。我把測量的方法也寫在最后，下次換個人來，也知道該怎么記。
+今晚天气不错。记录明天再补吧，我想先喝杯茶。	Nice weather tonight. I'll finish the notes tomorrow. I'd like some tea first.	今夜はいい天気だね。記録の続きは明日にして、まずお茶を飲もうかな。	今晚天氣不錯。記錄明天再補吧，我想先喝杯茶。
+观星台的课准备好了。大家说那本记录太难懂，我想先讲讲这个，再一起看星星。	The observatory class is ready. Everyone found the log confusing, so I'll explain it first, then we'll look at the stars.	天文台の授業の準備ができたよ。記録が難しいと言われたから、まずそれを説明して、その後で皆で星を見よう。	觀星臺的課準備好了。大家說那本記錄太難懂，我想先講講這個，再一起看星星。
+那张招租告示不只贴在雾港，镇里也贴了。我们一直想把这家食堂重新开起来。	We put the rental notice up here too, not just in Fog Harbor. We've wanted this eatery open again for a long time.	募集の紙は霧港だけじゃなく、町にも貼ったのよ。ずっと、この食堂をまた開きたかったの。	那張招租告示不只貼在霧港，鎮里也貼了。我們一直想把這家食堂重新開起來。
+水门和河口各花了多少钱，都记好了。剩下几条先修哪条，还得听听大家的意思。	We've recorded the costs for the gate and harbor separately. We'll ask everyone which branch should come next.	水門と河口にいくらかかったかは、別々に書いてあるわ。残りのどこを先に直すかは、皆にも聞いてみないとね。	水門和河口各花了多少錢，都記好了。剩下幾條先修哪條，還得聽聽大家的意思。

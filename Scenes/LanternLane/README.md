@@ -26,7 +26,7 @@ python Scenes/Businesses/run_verification.py town_capture
 
 ## 当前环境美术
 
-当前场景使用 `Art/Environment/Hearthwood/` 中的原创逐像素 PNG，街道、树木、野外、餐厅和农场沿用同一材质语言；绿屋顶的玩家住宅位于农场北侧，进出住宅和镇内功能建筑均需在门口按交互键（默认 E）。完整素材、绘制源与说明见该目录 README。旧版图片与生成器保留；重建当前美术使用 `Art/Environment/Hearthwood/tools/build_art.py`，农场使用 `tools/build_farm.py`。
+当前场景使用 `Art/Environment/Hearthwood/` 中的原创逐像素 PNG，街道、树木、野外、餐厅和农场沿用同一材质语言；绿屋顶的玩家住宅位于农场北侧，进出住宅和镇内功能建筑均需在门口按交互键（默认 F）。完整素材、绘制源与说明见该目录 README。旧版图片与生成器保留；重建当前美术使用 `Art/Environment/Hearthwood/tools/build_art.py`，农场使用 `tools/build_farm.py`。
 
 当前小镇有84处独立布置的喷泉、花坛、路灯、长椅、信箱、池塘与庭院物件，入口使用图案木路牌；野外树木采用独立脚底Y排序与实体碰撞。室外单独重建使用 `Art/Environment/Hearthwood/tools/build_outdoors.py`，街区专用实机验证入口为 `Scenes/LanternLane/verify_town_plan.gd`。
 

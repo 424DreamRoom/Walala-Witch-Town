@@ -107,11 +107,16 @@ REBUILT isolated new slot: PASS
 REBUILT opening film pauses: PASS
 REBUILT public notice replaces letter: PASS
 REBUILT film skip keeps dock dialogue: PASS
+REBUILT Nagi present on dock: PASS
+REBUILT opening dialogue accepts gameplay input: PASS
+REBUILT opening still blocks inventory: PASS
 REBUILT guide approaches on farm: PASS
 REBUILT guide actually walks: PASS
 REBUILT farm dialogue has fifteen lines: PASS
 REBUILT lease scene opens kitchen without a second fee: PASS
+REBUILT lease cast present: PASS
 REBUILT opening releases control: PASS
+REBUILT opening cast cleaned up: PASS
 REBUILT opening completion saved: PASS
 REBUILT resume opening segment 0: PASS
 REBUILT resume opening segment 1: PASS
@@ -173,5 +178,5 @@ REBUILT pending slot selected again: PASS
 REBUILT disk reload resumes pending chapter: PASS
 REBUILT reload never pays twice: PASS
 REBUILT recall keeps progress and inventory: PASS
-REBUILT COMPLETE checks=170 failures=0
+REBUILT COMPLETE checks=175 failures=0
 FMOD Sound System: System released

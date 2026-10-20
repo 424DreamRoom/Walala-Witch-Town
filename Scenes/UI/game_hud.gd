@@ -345,7 +345,7 @@ func open_chest(id: int) -> void:
 	modal.add_child(chest_view)
 
 func open_instrument(kind: String = "piano") -> void:
-	if kind not in ["piano"] or loop.location != "home" or loop.state.phase == "result": return
+	if kind not in ["piano"] or loop.location not in ["home", "farm"] or loop.state.phase == "result": return
 	if not _begin_modal("instrument"): return
 	instrument_view = InstrumentUI.new()
 	instrument_view.hud = self

@@ -56,6 +56,17 @@ func _ready() -> void:
 	var dimensions: Vector2 = Furniture.RECIPES.workbench.size
 	loop.lane._collision(bench, dimensions, Vector2(0, -dimensions.y / 2.0))
 	solids.append(Furniture.footprint("workbench", Furniture.STARTER_BENCH))
+	var piano := StaticBody2D.new()
+	piano.name = "StarterPiano"
+	piano.position = Furniture.STARTER_PIANO
+	add_child(piano)
+	var piano_picture := Sprite2D.new()
+	piano_picture.texture = Furniture.texture("piano")
+	piano_picture.position.y = -piano_picture.texture.get_height() / 2.0
+	piano.add_child(piano_picture)
+	var piano_dimensions: Vector2 = Furniture.RECIPES.piano.size
+	loop.lane._collision(piano, piano_dimensions, Vector2(0, -piano_dimensions.y / 2.0))
+	solids.append(Furniture.footprint("piano", Furniture.STARTER_PIANO))
 	fixed_solids = solids.duplicate()
 	for item in layout.props:
 		# Existing farmland takes precedence over newly generated vegetation.
@@ -137,6 +148,19 @@ func refresh_furniture() -> void:
 func nearest_chest() -> Dictionary:
 	return Placed.nearest_chest(self, "farm")
 
+func nearest_instrument() -> Dictionary:
+	var result := Placed.nearest_instrument(self, "farm")
+	var player: Vector2 = loop.lane.player.position
+	var rect := Furniture.footprint("piano", Furniture.STARTER_PIANO)
+	var distance := player.distance_to(player.clamp(rect.position, rect.end))
+	var result_distance := INF
+	if not result.is_empty():
+		var result_rect := Furniture.footprint(result.kind, Furniture.position_of(result))
+		result_distance = player.distance_to(player.clamp(result_rect.position, result_rect.end))
+	if distance < 27.0 and (result.is_empty() or distance < result_distance):
+		result = {"kind": "piano", "area": "farm", "id": 0, "fixed": true}
+	return result
+
 func nearest_resource() -> ResourceNode:
 	var best := 27.01
 	var result: ResourceNode
@@ -163,6 +187,9 @@ func interact() -> void:
 			loop.audio.play_event("cast")
 			loop.harvest.show_farm_cast()
 		loop._show_feedback()
+		return
+	if not nearest_instrument().is_empty():
+		loop.hud.open_instrument("piano")
 		return
 	if Placed.bench_preferred(self, "farm"):
 		loop.builder.open_catalog()
@@ -200,6 +227,8 @@ func _process(delta: float) -> void:
 		text = "哗啦啦魔女镇 →"
 	elif loop.near(stations.refill):
 		text = "房屋水源"
+	elif not nearest_instrument().is_empty():
+		text = "钢琴"
 	elif Placed.bench_preferred(self, "farm"):
 		text = "建造工作台"
 	elif not nearest_chest().is_empty():

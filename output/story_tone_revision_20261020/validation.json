@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "build_idempotent": true,
+  "hashes": {
+    "Scenes\\Campaign\\content.gd": "1d4e85812e4e783f731cbb15c8bd82ed09d442c99d10eab2e6fb8dd356c5f076",
+    "Scenes\\Campaign\\content.json": "37150e2458c503b8928e7142debebfbdeb8b73f2a634318608a6a404a066f960",
+    "Localization\\messages.tsv": "95143739939f1adfbbfdd867bbc961eb5489211dbf3d60b403615d9ec359a2fb",
+    "Localization\\catalog.gd": "389c42192908bcbb10de877508f58b838dee428f5fa4831f0758170553ca2a77",
+    "Narrative\\Rebuild_20261020\\translations_zh_TW.json": "3c033743709a68fc816004f88eb249a84023e80435e2e6ed70bb02172b5d51fe"
+  },
+  "tone_revision": {
+    "opening_lines": 43,
+    "mainline_lines": 106,
+    "intro_captions": 5,
+    "quest_briefings": 10,
+    "resident_texts": 9,
+    "languages": [
+      "zh_CN",
+      "en",
+      "ja",
+      "zh_TW"
+    ],
+    "manuscript_runtime_match": true,
+    "format_and_instruction_issues": [],
+    "protected_originals_unchanged": true,
+    "formal_player_saves_accessed": false
+  },
+  "capture": {
+    "passed": true,
+    "mode": "capture",
+    "checks": 184,
+    "exit_code": 0,
+    "protected_originals": 3,
+    "myart_unchanged": true
+  },
+  "headless": {
+    "passed": true,
+    "mode": "headless",
+    "checks": 175,
+    "exit_code": 0,
+    "protected_originals": 3,
+    "myart_unchanged": true
+  }
+}

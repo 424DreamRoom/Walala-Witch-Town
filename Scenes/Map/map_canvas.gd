@@ -217,6 +217,24 @@ func _draw_detail_decorations(region: String, rect: Rect2) -> void:
 			])
 			draw_polyline(wave, Color("d0d9c1", 0.42), 1.0, true)
 
+func _draw_land_parcels(region: String, rect: Rect2) -> void:
+	# Keep the authored buildings as the visual focus, then add a quiet parcel
+	# rhythm underneath them so the town reads as connected neighborhoods.
+	if region != "town": return
+	var ratio := rect.size / region_size(region)
+	for building in layouts.town.get("buildings", []):
+		var width := float(building.get("w", 0))
+		var height := float(building.get("h", 0))
+		if width <= 0.0 or height <= 0.0: continue
+		var top_left := project(Vector2(float(building.x) - width * 0.5 - 18.0, float(building.y) - height - 18.0), region, rect)
+		var bottom_right := project(Vector2(float(building.x) + width * 0.5 + 18.0, float(building.y) + 16.0), region, rect)
+		var parcel := Rect2(top_left, bottom_right - top_left)
+		var tint := Color("d8be83", 0.22) if building.get("role", "") in ["restaurant", "civic"] else Color("a9bd91", 0.18)
+		draw_rect(parcel, tint, false, maxf(1.0, ratio.x))
+		for corner in [parcel.position, Vector2(parcel.end.x, parcel.position.y), Vector2(parcel.position.x, parcel.end.y), parcel.end]:
+			var inward := Vector2(3.0 if corner.x < parcel.get_center().x else -3.0, 3.0 if corner.y < parcel.get_center().y else -3.0)
+			draw_line(corner, corner + inward, Color("756147", 0.34), maxf(1.0, ratio.x), true)
+
 func _draw_map_frame(rect: Rect2) -> void:
 	draw_rect(rect.grow(3), Color(MAP_EDGE, 0.95), false, 2.0)
 	draw_rect(rect.grow(1), Color(MAP_HIGHLIGHT, 0.85), false, 1.0)
@@ -243,6 +261,7 @@ func _draw_region(region: String, rect: Rect2) -> void:
 	draw_texture_rect(ground, rect, false)
 	var ratio: Vector2 = rect.size / region_size(region)
 	_draw_detail_decorations(region, rect)
+	_draw_land_parcels(region, rect)
 	if region == "farm":
 		var season_colors := [Color("d5a6b7"), Color("91b87b"), Color("d6a36d"), Color("a9c4d5")]
 		var season_index := int(loop.state.daily_pulse.get("season", 0))

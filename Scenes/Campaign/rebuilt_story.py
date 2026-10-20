@@ -90,19 +90,19 @@ def rebuild_story(quests, intro, regions, npcs, story, t):
     # contradict the new public notice and the living former keeper.
     replacements = {
         "aster": [
-            ("观测记录还欠几页。我想把仪器的误差也写进去。", "My observation log is a few pages short. I want to include the instruments' errors.", "観測記録がまだ数頁足りない。機器の誤差も書いておきたい。"),
-            ("以前我总把读数写得太整齐。不好看的那几次，反而最该留下。", "I used to make my readings too tidy. The untidy ones needed saving most.", "昔は測定値をきれいに揃えすぎた。うまくいかなかった記録こそ残すべきだった。"),
-            ("我把现场测量和仪器读数分开记了。差多少，现在谁都能核对。", "Field measurements and instrument readings now have separate columns. Anyone can check the difference.", "現場の測定と機器の値を分けて書いた。差は誰でも確かめられる。"),
-            ("最后一页填完了，不是每个数字都一样。下次测量的人还能继续往下写。", "The last page is filled, with differences intact. The next observer can continue it.", "最後の頁まで書いた。数字の違いも残したから、次の人が続きを書ける。"),
-            ("今晚天晴，记录不急着补完。先喝完这杯茶。", "Clear skies tonight. The log can wait until I've finished this tea.", "今夜は晴れ。記録はこのお茶を飲んでからでも間に合う。"),
-            ("观星台的公开课准备好了。先讲怎么看懂一张记录，再讲天上的星星。", "The observatory class is ready. First, reading a log; then, reading the stars.", "天文台の公開授業の準備ができた。まず記録の読み方、それから星の話をしよう。"),
+            ("记录还没写完。有几次仪器测得不准，我想一块记下来。", "I haven't finished the log. A few readings were off; I want to include those too.", "記録がまだ終わってないんだ。何度か機器の値がずれていて、それも書いておきたくて。"),
+            ("以前我只记测准的那几次，出错的就没写。后来修仪器，反倒找不到出问题的记录。", "I used to record only the good readings. Then, when we repaired the instruments, we had no record of what went wrong.", "前は正しく測れた分しか残してなかった。でも修理の時、何がおかしかったか調べられなくなってね。"),
+            ("我另画了一栏，左边写自己量的，右边写仪器报的。这下差多少就很清楚了。", "I've added a column: our measurements on the left, the instrument's on the right. Now the difference is clear.", "欄を増やして、左に自分で測った値、右に機器の値を書いた。これで違いがよくわかるよ。"),
+            ("这本总算写完了。我把测量的方法也写在最后，下次换个人来，也知道该怎么记。", "Finally finished this volume. I added how we took the measurements, so the next person will know how to keep the log.", "やっと一冊書き終えた。最後に測り方も書いたから、次の人も記録を続けられると思う。"),
+            ("今晚天气不错。记录明天再补吧，我想先喝杯茶。", "Nice weather tonight. I'll finish the notes tomorrow. I'd like some tea first.", "今夜はいい天気だね。記録の続きは明日にして、まずお茶を飲もうかな。"),
+            ("观星台的课准备好了。大家说那本记录太难懂，我想先讲讲这个，再一起看星星。", "The observatory class is ready. Everyone found the log confusing, so I'll explain it first, then we'll look at the stars.", "天文台の授業の準備ができたよ。記録が難しいと言われたから、まずそれを説明して、その後で皆で星を見よう。"),
         ],
         "orla": [
-            ("招租告示是镇里公开贴的。免租的费用也记在账上，你随时能看。", "The rental notice was public. The rent subsidy is in the town accounts, open to you.", "募集告示は町で公開したものよ。家賃免除の費用も帳簿でいつでも見られるわ。"),
-            ("水门和河口的修缮已经分开记账，剩下的支路还得逐项商量。", "Gate and harbor repairs now have separate accounts. Each remaining branch still needs discussion.", "水門と河口は別々に会計をつけた。残る支線も一つずつ相談しないとね。"),
+            ("那张招租告示不只贴在雾港，镇里也贴了。我们一直想把这家食堂重新开起来。", "We put the rental notice up here too, not just in Fog Harbor. We've wanted this eatery open again for a long time.", "募集の紙は霧港だけじゃなく、町にも貼ったのよ。ずっと、この食堂をまた開きたかったの。"),
+            ("水门和河口各花了多少钱，都记好了。剩下几条先修哪条，还得听听大家的意思。", "We've recorded the costs for the gate and harbor separately. We'll ask everyone which branch should come next.", "水門と河口にいくらかかったかは、別々に書いてあるわ。残りのどこを先に直すかは、皆にも聞いてみないとね。"),
         ],
         "ember": [
-            ("图纸上的临时改接拖成了常用接法。灯架也得逐个检查，不能只凭图纸说没问题。", "Temporary wiring became permanent. Every lamp frame needs inspection; plans alone don't prove it sound.", "臨時の配線が常用になった。灯架も一つずつ点検する。図面だけで無事とは言えない。"),
+            ("图上明明写着临时用，后来却一直没改回来。灯架我也得一盏盏查，光看图可不放心。", "The plan says temporary, but nobody changed it back. I'll check every lamp frame too; the plans alone aren't enough.", "図面には仮設って書いてあるのに、そのままだった。灯架も一つずつ調べるよ。図面だけじゃ安心できないからな。"),
         ],
     }
     for npc in npcs:

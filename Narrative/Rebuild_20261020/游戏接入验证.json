@@ -42,5 +42,30 @@
     "Shipping, merchant reservations/refunds, monthly rent and work shifts are narrative events, not new simulation systems.",
     "Story seasons are sequential context, not calendar deadlines.",
     "Legacy stories restart at the first new chapter with earned assets and unlocks retained."
-  ]
+  ],
+  "headless_verification": {
+    "passed": true,
+    "mode": "headless",
+    "checks": 175,
+    "exit_code": 0,
+    "protected_originals": 3,
+    "myart_unchanged": true
+  },
+  "tone_revision": {
+    "opening_lines": 43,
+    "mainline_lines": 106,
+    "intro_captions": 5,
+    "quest_briefings": 10,
+    "resident_texts": 9,
+    "languages": [
+      "zh_CN",
+      "en",
+      "ja",
+      "zh_TW"
+    ],
+    "manuscript_runtime_match": true,
+    "format_and_instruction_issues": [],
+    "protected_originals_unchanged": true,
+    "formal_player_saves_accessed": false
+  }
 }

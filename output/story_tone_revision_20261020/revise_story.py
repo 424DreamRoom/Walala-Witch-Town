@@ -68,7 +68,7 @@ rows('opening', '''
 11|萤萝：薇尔莉娅？你到啦！我是萤萝，之前给你回过信。|薇尔莉娅? You're here! I'm Yingluo. I wrote back to you.|薇尔莉娅？ 着いたんだね！ 私、インルオ。手紙のお返事を書いたの。
 12|薇尔莉娅：原来是你！我还怕船来晚了，让你们白等。|So that was you! I was worried the boat was late and I'd kept you waiting.|あなただったんだ！ 船が遅れて、待たせちゃったかと思って。
 13|萤萝：没事，今天我正好在这条街巡灯。奥萝在食堂等你呢。|It's fine. I was checking the lamps on this street anyway. Orla's waiting at the eatery.|大丈夫。今日はちょうど、この通りの灯を見回ってたから。オルラは食堂で待ってるよ。
-14|薇尔莉娅：你就是负责修灯的？那以后可认识熟人了。这屋子也是我租的？|You look after the lamps? Good to know someone who does. Is this cottage part of the rental too?|灯を直してるんだ？ 知り合えてよかった。この家も借りられるの？
+14|薇尔莉娅：这就是我住的地方？屋顶看着像刚修过。|Is this where I'll live? The roof looks freshly repaired.|ここに住むの？ 屋根は直したばかりみたいだね。
 15|萤萝：对，住这里。屋顶上个月刚补好，水管也通了，今晚就能住。|Yes, this is where you'll live. The roof was patched last month, and the water works. You can stay tonight.|うん、ここに住めるよ。屋根は先月直して、水道も通ったの。今夜から大丈夫。
 16|薇尔莉娅：那我就放心了。刚看见田里这么多草，还以为屋里也得收拾好几天。|That's a relief. After seeing all those weeds, I thought the house might take days to sort out too.|よかった。畑が草だらけだったから、家の片付けも何日かかかるかと思ってた。
 17|萤萝：屋里我们打扫过了。你一个人来开店，忙得过来吗？|We cleaned inside. Can you manage the eatery on your own?|中は掃除しておいたよ。一人でお店をやるの、大変じゃない？

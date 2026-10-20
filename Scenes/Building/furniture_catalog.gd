@@ -11,6 +11,7 @@ const CATEGORIES := Data.CATEGORIES
 const INSTRUMENT_IDS := ["piano"]
 const LEGACY_IDS := ["stool", "table", "bookcase", "sofa", "desk", "bed", "chest"]
 const STARTER_BENCH := Vector2(416, 288)
+const STARTER_PIANO := Vector2(520, 288)
 const WORKBENCH_REACH := 32.0
 const FLOOR := Rect2(64, 128, 512, 288)
 const ENTRY := Rect2(296, 368, 48, 56)
@@ -124,6 +125,7 @@ static func farm_placement_error(kind: String, rect: Rect2, world: Dictionary, h
 		var footprint := House.outdoor_footprint(world.get("furniture", house_data)) if building.get("role", "") == "witch_home" else Rect2(Vector2(building.x - size.x / 2, building.y - size.y), size)
 		if rect.intersects(footprint): return "土地被占用。"
 	if rect.intersects(footprint("workbench", STARTER_BENCH)): return "土地被占用。"
+	if rect.intersects(footprint("piano", STARTER_PIANO)): return "土地被占用。"
 	for water in layout.water:
 		if rect.intersects(Rect2(water[0], water[1], water[2], water[3])): return "土地被占用。"
 	# Keep the authored route from the front door to town open even with long fences.
@@ -154,6 +156,7 @@ static func farm_exit_reachable(obstacles: Array[Rect2], player: Vector2, world:
 	for building in FarmTerrain.layout.buildings:
 		obstacles.append(House.outdoor_footprint(world.get("furniture", house_data)) if building.get("role", "") == "witch_home" else Rect2(building.x - building.w / 2.0, building.y - building.h, building.w, building.h))
 	obstacles.append(footprint("workbench", STARTER_BENCH))
+	obstacles.append(footprint("piano", STARTER_PIANO))
 	if not world.is_empty():
 		for item in FarmTerrain.layout.props:
 			if world.resource_damage.get(item.resource_id, 0) < 3 and not item.tiles.any(func(index): return world.farm.plots.has(str(int(index)))):

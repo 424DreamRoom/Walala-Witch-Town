@@ -2,8 +2,8 @@
   "status": "passed",
   "scene_count": 11,
   "chapter_count": 10,
-  "dialogue_lines": 436.0,
-  "han_characters": 7716.0,
+  "dialogue_lines": 436,
+  "han_characters": 7159,
   "format_and_instruction_issues": [],
   "repeated_lines": [],
   "scenes": [
@@ -11,67 +11,67 @@
       "id": "opening",
       "file": "开场对白.txt",
       "lines": 43,
-      "han_characters": 737
+      "han_characters": 857
     },
     {
       "id": "chapter_01",
       "file": "01_第一张菜单.txt",
       "lines": 44,
-      "han_characters": 650
+      "han_characters": 577
     },
     {
       "id": "chapter_02",
       "file": "02_凑不满的一船货.txt",
       "lines": 38,
-      "han_characters": 626
+      "han_characters": 532
     },
     {
       "id": "chapter_03",
       "file": "03_一块地够不够.txt",
       "lines": 33,
-      "han_characters": 601
+      "han_characters": 534
     },
     {
       "id": "chapter_04",
       "file": "04_旧路上的灯.txt",
       "lines": 36,
-      "han_characters": 669
+      "han_characters": 600
     },
     {
       "id": "chapter_05",
       "file": "05_她最后一次值夜.txt",
       "lines": 37,
-      "han_characters": 695
+      "han_characters": 644
     },
     {
       "id": "chapter_06",
       "file": "06_一张太大的订单.txt",
       "lines": 40,
-      "han_characters": 674
+      "han_characters": 576
     },
     {
       "id": "chapter_07",
       "file": "07_第一张退单.txt",
       "lines": 39,
-      "han_characters": 759
+      "han_characters": 670
     },
     {
       "id": "chapter_08",
       "file": "08_两盏先亮的灯.txt",
       "lines": 38,
-      "han_characters": 657
+      "han_characters": 621
     },
     {
       "id": "chapter_09",
       "file": "09_雨里的那一晚.txt",
       "lines": 38,
-      "han_characters": 748
+      "han_characters": 687
     },
     {
       "id": "chapter_10",
       "file": "10_明天晚点开门.txt",
       "lines": 50,
-      "han_characters": 900
+      "han_characters": 861
     }
   ]
 }
