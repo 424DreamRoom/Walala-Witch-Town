@@ -34,6 +34,7 @@ static func normalize_snapshot(data: Variant) -> Dictionary:
 	var world: Dictionary = data.world
 	if state.is_empty() or world.get("location") not in LOCATION_NAMES:
 		return {}
+	if world.location == "restaurant" and not state.restaurant_leased: return {}
 	if not _point(world.get("position"), WORLD_SIZES[world.location]) or not _point(world.get("town_position"), WORLD_SIZES.town):
 		return {}
 	if not _point(world.get("farm_position", [270, 310]), WORLD_SIZES.farm):

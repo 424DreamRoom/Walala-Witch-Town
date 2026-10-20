@@ -115,6 +115,19 @@ func run() -> void:
 	C.pending_intro = true
 	await load_game()
 	check("film starts over exterior spawn", paused and is_instance_valid(controller.intro) and loop.location == "farm" and lane.player.position == loop.HOME_EXIT_POSITION)
+	check("film has five shots in story order", C.D.intro.map(func(shot): return shot.scene) == ["kitchen", "letter", "road", "town", "home"] and controller.intro_length() == 30.0)
+	var seen_titles := {}
+	for index in range(C.D.intro.size()):
+		controller.intro_elapsed = index * 6.0 + 3.0
+		controller._render_intro()
+		seen_titles[controller.intro_title.text] = true
+		check("shot %d caption matches data" % index, controller.intro_title.text == C.D.intro[index].title and controller.intro_line.text == C.D.intro[index].line and controller.intro_line.modulate.a == 1.0)
+		await shot("film_%d_%s" % [index, C.D.intro[index].scene])
+	check("every shot shows a distinct title", seen_titles.size() == C.D.intro.size())
+	controller.intro_elapsed = 6.0
+	controller._render_intro()
+	check("caption hidden during shot crossfade", controller.intro_title.modulate.a == 0.0)
+	check("film pauses the clock", paused)
 	controller.finish_intro()
 	check("skipped film starts visible approach directly", controller.arrival_active and paused and not loop.state.campaign.guide_met and controller.arrival_actor.get_parent() == loop.area and loop.hud.mode.is_empty() and loop.state.campaign.player_name == C.DEFAULT_PLAYER_NAME)
 	check("opening has no name input", loop.hud.layer.find_child("NameInput", true, false) == null)
@@ -160,7 +173,7 @@ func run() -> void:
 	check("approach turns from left to up", approach_directions.has(3) and approach_directions.has(1) and controller.arrival_actor.sprite.frame == 18)
 	check("arrival starts story beside the witch", not controller.arrival_active and loop.hud.mode == "dialogue" and paused and loop.state.campaign.guide_met and controller.arrival_actor.position == Vector2(270,294))
 	var profile = preload("res://Scenes/Campaign/guide_profile.gd")
-	check("story introduces conflict and current goal", loop.hud.lines[profile.WELCOME.size()] == profile.CHAPTERS[0] and loop.hud.lines[-2] == profile.Onboarding.goal_line(loop.state))
+	check("story introduces conflict without task instructions", loop.hud.lines[profile.WELCOME.size()] == profile.CURRENT[0] and loop.hud.lines[-1] == profile.CURRENT[0])
 	for locale in ["zh_CN", "en", "ja", "zh_TW"]:
 		root.get_node("Localization").set_language(locale, false)
 		for index in range(loop.hud.lines.size()):
@@ -213,7 +226,7 @@ func run() -> void:
 	check("second new slot created", Saves.begin_slot(2).ok)
 	C.pending_intro = true
 	await load_game()
-	controller.intro_elapsed = 23.99
+	controller.intro_elapsed = controller.intro_length() - 0.01
 	controller._process(0.02)
 	check("natural film end starts approach directly", paused and controller.arrival_active and not is_instance_valid(controller.intro) and loop.state.campaign.player_name == C.DEFAULT_PLAYER_NAME)
 	finish_walk()

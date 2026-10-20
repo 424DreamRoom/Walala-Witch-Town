@@ -1,15 +1,17 @@
 extends Node
 const Voice = preload("res://Sounds/Walala/fmod_voice.gd")
 ## Shared UI feedback. These four voices keep playing when a UI pauses the world.
+## Basic cues use one generated tonal palette so hover, clicks and state changes
+## sit together in the mix. The book cues remain the authored paper/page sounds.
 const SOUNDS := {
-	"ui_hover": [preload("res://Sounds/Walala/UI/Organic/hover.wav"), -2.0],
-	"ui_click": [preload("res://Sounds/Walala/UI/Organic/click.wav"), 3.0],
-	"ui_open": [preload("res://Sounds/Walala/UI/Organic/open.wav"), -5.0],
-	"ui_close": [preload("res://Sounds/Walala/UI/Organic/close.wav"), 0.0],
-	"ui_confirm": [preload("res://Sounds/Walala/UI/Organic/confirm.ogg"), -12.0],
-	"ui_error": [preload("res://Sounds/Walala/UI/Organic/error.ogg"), -15.0],
-	"ui_toggle": [preload("res://Sounds/Walala/UI/Organic/toggle.wav"), 2.0],
-	"ui_slider": [preload("res://Sounds/Walala/UI/Organic/slider.wav"), 8.0],
+	"ui_hover": [preload("res://Sounds/Walala/UI/Polished/hover.wav"), -10.0],
+	"ui_click": [preload("res://Sounds/Walala/UI/Polished/click.wav"), -5.0],
+	"ui_open": [preload("res://Sounds/Walala/UI/Polished/open.wav"), -6.0],
+	"ui_close": [preload("res://Sounds/Walala/UI/Polished/close.wav"), -7.0],
+	"ui_confirm": [preload("res://Sounds/Walala/UI/Polished/confirm.wav"), -3.0],
+	"ui_error": [preload("res://Sounds/Walala/UI/Polished/error.wav"), -6.0],
+	"ui_toggle": [preload("res://Sounds/Walala/UI/Polished/toggle.wav"), -5.0],
+	"ui_slider": [preload("res://Sounds/Walala/UI/Polished/slider.wav"), -10.0],
 	"ui_page": [preload("res://Sounds/Walala/UI/page.ogg"), -13.0],
 	"ui_book_open": [preload("res://Sounds/Walala/UI/book_open.ogg"), -13.0],
 	"ui_book_close": [preload("res://Sounds/Walala/UI/book_close.ogg"), -15.0],

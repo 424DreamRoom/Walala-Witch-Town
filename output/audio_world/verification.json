@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "assets": 12,
+  "runtime_bytes": 9114318,
+  "license": "CC0-1.0",
+  "automated_checks": 234,
+  "suites": {
+    "import": {
+      "passed": true,
+      "checks": 0,
+      "log": "output/audio_world/import_17992.log"
+    },
+    "world": {
+      "passed": true,
+      "checks": 74,
+      "log": "output/audio_world/world_49232.log"
+    },
+    "gameplay": {
+      "passed": true,
+      "checks": 10,
+      "log": "output/audio_world/gameplay_21040.log"
+    },
+    "settings": {
+      "passed": true,
+      "checks": 75,
+      "log": "output/audio_world/settings_51676.log"
+    },
+    "backpack": {
+      "passed": true,
+      "checks": 38,
+      "log": "output/audio_world/backpack_67548.log"
+    },
+    "music": {
+      "passed": true,
+      "checks": 37,
+      "log": "output/audio_world/music_39112.log"
+    }
+  },
+  "protected_originals_unchanged": true,
+  "protected_files": 3,
+  "localization_entries": 1546,
+  "host_diagnostic": "Windows root certificate store inaccessible inside sandbox; preserved in logs, exempted for offline tests only",
+  "manual_listening": false,
+  "release_export_tested": false
+}

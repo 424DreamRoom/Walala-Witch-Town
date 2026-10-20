@@ -1,0 +1,881 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PROPERTY TEST new restaurant requires a lease before service: PASS
+PROPERTY TEST insufficient rent is atomic: PASS
+PROPERTY TEST closed office cannot charge rent: PASS
+PROPERTY TEST lease charges exactly once: PASS
+PROPERTY TEST leased restaurant operates normally: PASS
+PROPERTY TEST lease persists through save restoration: PASS
+PROPERTY TEST existing restaurant saves retain access: PASS
+PROPERTY TEST invalid lease is rejected 1: PASS
+PROPERTY TEST invalid lease is rejected true: PASS
+PROPERTY TEST invalid lease is rejected <null>: PASS
+PROPERTY TEST furnish starter home: PASS
+PROPERTY TEST fill persistent chest: PASS
+PROPERTY TEST expand interior and footprint 0: PASS
+PROPERTY TEST preserve furniture and chest 0: PASS
+PROPERTY TEST expand interior and footprint 1: PASS
+PROPERTY TEST preserve furniture and chest 1: PASS
+PROPERTY TEST maximum cannot charge again: PASS
+PROPERTY TEST occupied expansion preserves crops and resources: PASS
+PROPERTY TEST occupied expansion preserves outdoor furniture: PASS
+PROPERTY TEST empty soil can become a foundation without locking progression: PASS
+PROPERTY TEST old expanded saves keep their farm geometry: PASS
+PROPERTY TEST old large homes can purchase new land: PASS
+PROPERTY TEST old homes retain interior during final land extension: PASS
+PROPERTY TEST first foundation is clear without resource removal: PASS
+PROPERTY TEST uncleared rock prevents final land purchase: PASS
+PROPERTY TEST exterior cannot exceed interior level: PASS
+PROPERTY TEST unleased service cannot enter a save: PASS
+PROPERTY TEST isolated slot opens: PASS
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_c4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_c4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_d4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_d4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_e4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_e4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_f4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_f4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_g4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_g4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_a4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_a4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_b4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_b4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_c5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_c5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_d5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_d5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_e5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_e5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_f5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_f5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_g5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_g5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_a5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_a5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_b5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_b5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_c6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_c6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_d6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_d6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_e6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_e6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_f6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_f6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_g6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_g6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_a6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_a6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_b6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_b6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:161)
+PROPERTY TEST unleased door remains closed: PASS
+PROPERTY TEST unleased restaurant cannot be entered: PASS
+PROPERTY TEST unleased sunset keeps town services available: PASS
+PROPERTY TEST property witch stands on free ground: PASS
+PROPERTY TEST capture witch_in_town: PASS
+PROPERTY TEST real interaction opens property office: PASS
+PROPERTY TEST rent disabled without funds: PASS
+PROPERTY TEST property text fits and language preserves transaction zh_CN: PASS
+PROPERTY TEST capture office_zh_CN: PASS
+PROPERTY TEST property text fits and language preserves transaction en: PASS
+PROPERTY TEST capture office_en: PASS
+PROPERTY TEST property text fits and language preserves transaction ja: PASS
+PROPERTY TEST capture office_ja: PASS
+PROPERTY TEST property text fits and language preserves transaction zh_TW: PASS
+PROPERTY TEST capture office_zh_TW: PASS
+PROPERTY TEST real rental button persists exact payment: PASS
+PROPERTY TEST property witch provides expansion panel: PASS
+PROPERTY TEST expansion text fits zh_CN: PASS
+PROPERTY TEST capture expansion_zh_CN: PASS
+PROPERTY TEST expansion text fits en: PASS
+PROPERTY TEST capture expansion_en: PASS
+PROPERTY TEST expansion text fits ja: PASS
+PROPERTY TEST capture expansion_ja: PASS
+PROPERTY TEST expansion text fits zh_TW: PASS
+PROPERTY TEST capture expansion_zh_TW: PASS
+PROPERTY TEST capture expansion_offer: PASS
+PROPERTY TEST witch expansion updates saved levels: PASS
+PROPERTY TEST closed services reject stale callbacks: PASS
+PROPERTY TEST expanded exterior has actual wider collision: PASS
+PROPERTY TEST expanded wall physically stops movement: PASS
+PROPERTY TEST home doorway stays reachable: PASS
+PROPERTY TEST capture farm_level_1: PASS
+PROPERTY TEST map shares actual exterior texture: PASS
+PROPERTY TEST capture farm_map_level_1: PASS
+PROPERTY TEST map locates property witch: PASS
+PROPERTY TEST capture town_map: PASS
+PROPERTY TEST second expansion charges listed materials: PASS
+PROPERTY TEST largest foundation blocks farming and construction: PASS
+PROPERTY TEST capture farm_level_2: PASS
+PROPERTY TEST largest interior grows with exterior: PASS
+PROPERTY TEST capture home_level_2: PASS
+PROPERTY TEST rented restaurant becomes accessible: PASS
+PROPERTY TEST rented restaurant can begin service: PASS
+PROPERTY TEST property mutations save to disk: PASS
+PROPERTY TEST slot reopens after world destruction: PASS
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_c4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_c4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_d4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_d4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_e4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_e4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_f4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_f4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_g4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_g4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_a4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_a4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_b4.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_b4.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_c5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_c5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_d5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_d5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_e5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_e5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_f5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_f5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_g5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_g5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_a5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_a5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_b5.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_b5.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_c6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_c6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_d6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_d6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_e6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_e6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_f6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_f6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_g6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_g6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_a6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_a6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: No loader found for resource: res://Sounds/Walala/Instrument/piano_b6.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:19)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+ERROR: Missing instrument sample: res://Sounds/Walala/Instrument/piano_b6.wav
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_streams (res://Scenes/Instrument/instrument_library.gd:21)
+       [1] _ready (res://Sounds/Walala/audio_manager.gd:71)
+       [2] _ready (res://Scenes/Gameplay/game_loop.gd:101)
+       [3] _ready (res://Scenes/LanternLane/lantern_lane.gd:124)
+       [4] load_world (res://Scenes/Building/verify_property.gd:149)
+       [5] run (res://Scenes/Building/verify_property.gd:251)
+       [6] frames (res://Scenes/Building/verify_property.gd:29)
+PROPERTY TEST reload retains lease level and restaurant: PASS
+PROPERTY TEST night office cannot open transactions: PASS
+PROPERTY TEST reload recreates largest foundation: PASS
+PROPERTY VERIFY END checks=76 failures=0

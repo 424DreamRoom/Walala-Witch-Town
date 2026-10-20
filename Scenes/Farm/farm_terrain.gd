@@ -48,6 +48,7 @@ static func _make_obstacles() -> Dictionary:
 static func can_till(state, index: int) -> bool:
 	if index < 0 or index >= TILE_COUNT: return false
 	var cell := Rect2(tile_center(index) - Vector2(15, 15), Vector2(30, 30))
+	if cell.intersects(state.Furniture.House.outdoor_footprint(state.furniture)): return false
 	if cell.intersects(state.Furniture.footprint("workbench", state.Furniture.STARTER_BENCH)): return false
 	for item in state.furniture.placed:
 		if state.Furniture.area_of(item) == "farm" and cell.intersects(state.Furniture.footprint(item.kind, state.Furniture.position_of(item))): return false

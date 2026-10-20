@@ -38,6 +38,15 @@ OPENING new slot created: PASS
 OPENING new slot persists default name: PASS
 OPENING new snapshot starts outside home: PASS
 OPENING film starts over exterior spawn: PASS
+OPENING film has five shots in story order: PASS
+OPENING shot 0 caption matches data: PASS
+OPENING shot 1 caption matches data: PASS
+OPENING shot 2 caption matches data: PASS
+OPENING shot 3 caption matches data: PASS
+OPENING shot 4 caption matches data: PASS
+OPENING every shot shows a distinct title: PASS
+OPENING caption hidden during shot crossfade: PASS
+OPENING film pauses the clock: PASS
 OPENING skipped film starts visible approach directly: PASS
 OPENING opening has no name input: PASS
 OPENING opening frames both characters: PASS
@@ -54,7 +63,7 @@ OPENING interrupted approach resumes directly: PASS
 OPENING whole approach clears farm obstacles: PASS
 OPENING approach turns from left to up: PASS
 OPENING arrival starts story beside the witch: PASS
-OPENING story introduces conflict and current chapter: PASS
+OPENING story introduces conflict and current goal: PASS
 OPENING story fits zh_CN 0: PASS
 OPENING story fits zh_CN 1: PASS
 OPENING story fits zh_CN 2: PASS
@@ -62,6 +71,8 @@ OPENING story fits zh_CN 3: PASS
 OPENING story fits zh_CN 4: PASS
 OPENING story fits zh_CN 5: PASS
 OPENING story fits zh_CN 6: PASS
+OPENING story fits zh_CN 7: PASS
+OPENING story fits zh_CN 8: PASS
 OPENING story fits en 0: PASS
 OPENING story fits en 1: PASS
 OPENING story fits en 2: PASS
@@ -69,6 +80,8 @@ OPENING story fits en 3: PASS
 OPENING story fits en 4: PASS
 OPENING story fits en 5: PASS
 OPENING story fits en 6: PASS
+OPENING story fits en 7: PASS
+OPENING story fits en 8: PASS
 OPENING story fits ja 0: PASS
 OPENING story fits ja 1: PASS
 OPENING story fits ja 2: PASS
@@ -76,6 +89,8 @@ OPENING story fits ja 3: PASS
 OPENING story fits ja 4: PASS
 OPENING story fits ja 5: PASS
 OPENING story fits ja 6: PASS
+OPENING story fits ja 7: PASS
+OPENING story fits ja 8: PASS
 OPENING story fits zh_TW 0: PASS
 OPENING story fits zh_TW 1: PASS
 OPENING story fits zh_TW 2: PASS
@@ -83,6 +98,8 @@ OPENING story fits zh_TW 3: PASS
 OPENING story fits zh_TW 4: PASS
 OPENING story fits zh_TW 5: PASS
 OPENING story fits zh_TW 6: PASS
+OPENING story fits zh_TW 7: PASS
+OPENING story fits zh_TW 8: PASS
 OPENING story releases world and camera: PASS
 OPENING departing guide waits for player clearance: PASS
 OPENING blocked departure holds standing pose: PASS
@@ -101,4 +118,4 @@ OPENING natural film end starts approach directly: PASS
 OPENING natural film end reaches welcome: PASS
 OPENING natural opening resumes play: PASS
 OPENING slot card displays default name: PASS
-OPENING COMPLETE checks=100 failures=0
+OPENING COMPLETE checks=117 failures=0

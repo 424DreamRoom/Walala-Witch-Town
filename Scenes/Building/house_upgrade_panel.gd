@@ -13,7 +13,7 @@ func _ready() -> void:
 	size = Vector2(560, 312)
 	var paper: Panel = loop.hud.panel(Rect2(Vector2.ZERO, size), self)
 	paper.mouse_filter = Control.MOUSE_FILTER_STOP
-	loop.hud.label("榛木家具店", Rect2(20, 12, 520, 32), self, UISkin.INK, 24)
+	loop.hud.label("绮屋 · 房地产魔女" if provider.get_ref() == loop.property_service else "榛木家具店", Rect2(20, 12, 520, 32), self, UISkin.INK, 24)
 	loop.hud.label("房屋扩建", Rect2(20, 48, 520, 24), self, UISkin.MUTED_INK, 18)
 	detail = Control.new()
 	detail.position = Vector2(20, 80)
@@ -32,27 +32,37 @@ func refresh() -> void:
 	var hud = loop.hud
 	var state = loop.state
 	var rank: int = state.furniture.house_level
-	var maximum := rank >= House.MAX_LEVEL
+	var plan := House.upgrade_for(state.furniture)
+	var maximum := plan.is_empty()
 	var floor: Rect2 = House.FLOORS[rank]
 	hud.label(tr(House.TITLES[rank]), Rect2(0, 0, 252, 26), detail, UISkin.INK, 18)
 	hud.label(I18n.format("房屋面积：%d×%d", [int(floor.size.x / 16), int(floor.size.y / 16)]), Rect2(0, 32, 252, 22), detail)
 	hud.label(I18n.format("已摆放 %d 件家具", [state.furniture.placed.size()]), Rect2(0, 60, 252, 22), detail)
+	var footprint := House.outdoor_footprint(state.furniture)
+	hud.label(I18n.format("房屋占地：%d×%d", [int(footprint.size.x / 16), int(footprint.size.y / 16)]), Rect2(0, 92, 252, 22), detail)
 	if not maximum:
-		var next: Rect2 = House.FLOORS[rank + 1]
-		hud.label(tr(House.TITLES[rank + 1]), Rect2(272, 0, 248, 26), detail, UISkin.INK, 18)
+		var next: Rect2 = House.FLOORS[plan.house_level]
+		hud.label(tr(House.TITLES[plan.house_level]), Rect2(272, 0, 248, 26), detail, UISkin.INK, 18)
 		hud.label(I18n.format("房屋面积：%d×%d", [int(next.size.x / 16), int(next.size.y / 16)]), Rect2(272, 32, 248, 22), detail)
-		var price: Dictionary = House.COSTS[rank]
-		hud.label(I18n.format("金币 %d / %d", [state.coins, price.coins]), Rect2(272, 66, 248, 22), detail)
-		hud.label(I18n.format("木材 %d / %d", [state.resources.wood, price.wood]), Rect2(272, 92, 248, 22), detail)
-		hud.label(I18n.format("铁锭 %d / %d", [state.resources.iron, price.iron]), Rect2(272, 118, 248, 22), detail)
-	var expand: Button = hud.button("已达最高等级" if maximum else "扩建", Rect2(272, 152, 248, 26), detail, purchase, "")
+		var price: Dictionary = plan.price
+		hud.label(I18n.format("金币 %d / %d", [state.coins, price.coins]), Rect2(272, 86, 248, 22), detail)
+		hud.label(I18n.format("木材 %d / %d", [state.resources.wood, price.wood]), Rect2(272, 110, 248, 22), detail)
+		hud.label(I18n.format("铁锭 %d / %d", [state.resources.iron, price.iron]), Rect2(272, 134, 248, 22), detail)
+		var dimensions: Vector2 = House.OUTDOOR_SIZES[plan.exterior_level]
+		hud.label(I18n.format("房屋占地：%d×%d", [int(dimensions.x / 16), int(dimensions.y / 16)]), Rect2(272, 60, 248, 22), detail)
+		if not state.house_expansion_clear(): feedback = "扩建用地被占用。"
+		elif feedback == "扩建用地被占用。": feedback = ""
+	var expand: Button = hud.button("已达最高等级" if maximum else "扩建", Rect2(272, 160, 248, 26), detail, purchase, "")
 	expand.name = "Expand"
 	expand.disabled = not _available() or not state.can_expand_house()
 	hud.label(tr(feedback), Rect2(0, 188, 520, 24), detail, UISkin.MUTED_INK)
 
 func _available() -> bool:
 	var shop = provider.get_ref() if provider != null else null
-	return is_instance_valid(shop) and shop.is_inside_tree() and loop.area == shop and loop.location == "furniture_store" and loop.near(shop.stations.service) and loop.state.phase == "day" and loop.hud.mode == "housing" and is_instance_valid(loop.hud.modal) and loop.hud.modal.is_ancestor_of(self) and not loop.save_menu.open
+	if not is_instance_valid(shop) or not shop.is_inside_tree(): return false
+	var at_provider: bool = shop == loop.property_service and shop.available()
+	if not at_provider: at_provider = loop.area == shop and loop.location == "furniture_store" and loop.near(shop.stations.service) and loop.state.phase == "day"
+	return at_provider and loop.hud.mode == "housing" and is_instance_valid(loop.hud.modal) and loop.hud.modal.is_ancestor_of(self) and not loop.save_menu.open
 
 func purchase() -> void:
 	if not _available(): return

@@ -7,17 +7,20 @@ const SPRITE := "res://Art/Characters/NPC32/guides/yingluo.aseprite"
 const Onboarding = preload("res://Scenes/Campaign/onboarding.gd")
 const WELCOME = C.D.guide.welcome
 const CHAPTERS = C.D.guide.chapters
+const CURRENT = C.D.guide.current
 const FAREWELL = C.D.guide.farewell
 const TOPICS = C.D.guide.topics
 
 static func current_lines(s) -> Array:
 	var q := C.current_main(s)
 	if q.is_empty(): return [FAREWELL]
-	var step := Onboarding.current(s)
-	var result: Array = [CHAPTERS[s.campaign.chapter], Onboarding.goal_line(s), {"source": "地点：%s", "args": [step.place]}]
-	if ready(s): result.append("这一页的心愿已经实现。")
+	# The guide speaks about the chapter's situation. Objective names, counts,
+	# and locations remain available in the journal and HUD, rather than in NPC
+	# dialogue.
+	var result: Array = [CURRENT[s.campaign.chapter]]
+	if ready(s): result.append("这件事办成了，真好。")
 	return result
 
 static func ready(s) -> bool:
 	var q := C.current_main(s)
-	return not q.is_empty() and C.metric(s, q.metric) >= q.goal
+	return s.campaign.pending_scene < 0 and not q.is_empty() and C.metric(s, q.metric) >= q.goal

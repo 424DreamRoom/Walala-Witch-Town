@@ -11,6 +11,13 @@ const WitchAnimation = preload("res://Art/Character/Storybook/WalalaWitchAseprit
 const WITCH_TEXTURE := WitchAnimation.SHEET
 const CHARACTER_SIZE := Vector2(32, 32)
 const WITCH_FOOT_OFFSET := Vector2(0, -CHARACTER_SIZE.y / 2)
+# A few authored house sprites contain transparent scanlines between the eave
+# and facade. Keep the source pixels untouched and close only those seams at
+# runtime. Values are [roof_end, facade_start, roof_shift] in source rows.
+const BUILDING_SEAMS := {
+	"shop_7": [117, 120, 3],
+	"shop_8": [109, 109, 4],
+}
 var world: Node2D
 var world_size := Vector2i.ZERO
 var actors: Node2D
@@ -101,7 +108,9 @@ func _ready() -> void:
 	var weather_blockers: Array[Rect2] = []
 	for building in layout.buildings:
 		var texture: Texture2D = load(ART + building.kind + ".aseprite")
-		weather_blockers.append(Rect2(Vector2(building.x - texture.get_width() / 2.0, building.y - texture.get_height()), texture.get_size()))
+		var seam: Array = BUILDING_SEAMS.get(building.kind, [])
+		var roof_shift := int(seam[2]) if seam.size() >= 3 else 0
+		weather_blockers.append(Rect2(Vector2(building.x - texture.get_width() / 2.0, building.y - texture.get_height() + roof_shift), texture.get_size()))
 	weather.configure(camera, player, weather_blockers)
 	for object in actors.get_children():
 		if object.has_meta("outdoor_kind"):
@@ -138,18 +147,53 @@ func _add_object(entry: Dictionary) -> void:
 	body.position = Vector2(entry.x,entry.y)
 	body.set_meta("outdoor_kind", entry.kind)
 	actors.add_child(body)
-	var sprite := Sprite2D.new()
-	sprite.texture = load(ART + entry.kind + ".aseprite")
-	# Building sprite bottom and trunk/prop feet define painter's order.
-	var height := float(sprite.texture.get_height())
-	sprite.position = Vector2(0,-height / 2.0)
-	if entry.kind in ["planter", "menu"]:
-		sprite.position.y += 6
-	body.add_child(sprite)
+	var texture: Texture2D = load(ART + entry.kind + ".aseprite")
+	_add_building_sprite(body, entry.kind, texture)
 	if solid:
 		var size := Vector2(entry.w,entry.h)
 		_collision(body,size,Vector2(0,-size.y/2))
 		solid_rects.append(Rect2(body.position-Vector2(size.x/2,size.y),size))
+
+func _add_building_sprite(body: Node2D, kind: String, texture: Texture2D) -> void:
+	var width := float(texture.get_width())
+	var height := float(texture.get_height())
+	var seam: Array = BUILDING_SEAMS.get(kind, [])
+	if seam.size() < 2:
+		var sprite := Sprite2D.new()
+		sprite.texture = texture
+		# Building sprite bottom and trunk/prop feet define painter's order.
+		sprite.position = Vector2(0, -height / 2.0)
+		if kind in ["planter", "menu"]:
+			sprite.position.y += 6
+		body.add_child(sprite)
+		return
+	var roof_end := int(seam[0])
+	var facade_start := int(seam[1])
+	var gap := int(seam[2]) if seam.size() >= 3 else facade_start - roof_end
+	if roof_end <= 0 or facade_start < roof_end or facade_start > int(height) or gap < 0:
+		var fallback := Sprite2D.new()
+		fallback.texture = texture
+		fallback.position = Vector2(0, -height / 2.0)
+		if kind in ["planter", "menu"]:
+			fallback.position.y += 6
+		body.add_child(fallback)
+		return
+	# Draw two regions from the same source texture. The lower region keeps its
+	# original baseline; the roof region moves down by only the transparent gap.
+	var roof := Sprite2D.new()
+	roof.texture = texture
+	roof.region_enabled = true
+	roof.region_rect = Rect2(0, 0, width, roof_end)
+	roof.centered = false
+	roof.position = Vector2(-width / 2.0, -height + gap)
+	body.add_child(roof)
+	var facade := Sprite2D.new()
+	facade.texture = texture
+	facade.region_enabled = true
+	facade.region_rect = Rect2(0, facade_start, width, height - facade_start)
+	facade.centered = false
+	facade.position = Vector2(-width / 2.0, -height + facade_start)
+	body.add_child(facade)
 
 func _physics_process(delta: float) -> void:
 	var raw := test_direction

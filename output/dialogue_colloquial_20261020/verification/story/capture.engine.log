@@ -1,0 +1,331 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+STORY initial goal is gathering: PASS
+STORY first ingredients 0: PASS
+STORY first ingredients 3: PASS
+STORY first ingredients 6: PASS
+STORY gathering hands into preparation: PASS
+STORY preparation leads to menu: PASS
+STORY listing leads to first meal: PASS
+STORY service starts with available ingredients: PASS
+STORY real cooking 0: PASS
+STORY real meal 0: PASS
+STORY first meal resumes chapter progress 0: PASS
+STORY real cooking 1: PASS
+STORY real meal 1: PASS
+STORY first meal resumes chapter progress 1: PASS
+STORY real cooking 2: PASS
+STORY real meal 2: PASS
+STORY first meal resumes chapter progress 2: PASS
+STORY original dinner reward remains: PASS
+STORY real till and seed 1: PASS
+STORY real till and seed 4: PASS
+STORY real till and seed 5: PASS
+STORY real till and seed 12: PASS
+STORY real till and seed 13: PASS
+STORY five planted plots lead to water: PASS
+STORY real water 1: PASS
+STORY real water 4: PASS
+STORY real water 5: PASS
+STORY real water 12: PASS
+STORY real water 13: PASS
+STORY water leads to harvest: PASS
+STORY saved tutorial resumes without new schema: PASS
+STORY growing crops never regress to planting 0: PASS
+STORY growing crops never regress to planting 1: PASS
+STORY growing crops never regress to planting 2: PASS
+STORY real harvest 1: PASS
+STORY harvest does not regress tutorial 1: PASS
+STORY real harvest 4: PASS
+STORY harvest does not regress tutorial 4: PASS
+STORY real harvest 5: PASS
+STORY harvest does not regress tutorial 5: PASS
+STORY real harvest 12: PASS
+STORY harvest does not regress tutorial 12: PASS
+STORY real harvest 13: PASS
+STORY harvest does not regress tutorial 13: PASS
+STORY harvest pays original reward: PASS
+STORY pantry recipe bypasses optional raw preparation: PASS
+STORY existing completed meals skip early steps: PASS
+STORY existing harvests skip early farming: PASS
+STORY completed campaign has no lingering tutorial: PASS
+STORY tutorial goal is journal-only zh_CN/prepare: PASS
+STORY tutorial goal is journal-only zh_CN/menu: PASS
+STORY tutorial goal is journal-only zh_CN/first_meal: PASS
+STORY tutorial goal is journal-only zh_CN/plant: PASS
+STORY tutorial goal is journal-only zh_CN/water: PASS
+STORY objective panel removed zh_CN/0: PASS
+STORY chapter pays once without HUD objective zh_CN/0: PASS
+STORY all chapter lines fit zh_CN/0: PASS
+STORY speaker portrait and history match zh_CN/0: PASS
+STORY objective panel removed zh_CN/1: PASS
+STORY capture hud_without_top_summary_zh_CN: PASS
+STORY chapter pays once without HUD objective zh_CN/1: PASS
+STORY all chapter lines fit zh_CN/1: PASS
+STORY speaker portrait and history match zh_CN/1: PASS
+STORY objective panel removed zh_CN/2: PASS
+STORY chapter pays once without HUD objective zh_CN/2: PASS
+STORY all chapter lines fit zh_CN/2: PASS
+STORY speaker portrait and history match zh_CN/2: PASS
+STORY objective panel removed zh_CN/3: PASS
+STORY chapter pays once without HUD objective zh_CN/3: PASS
+STORY all chapter lines fit zh_CN/3: PASS
+STORY speaker portrait and history match zh_CN/3: PASS
+STORY objective panel removed zh_CN/4: PASS
+STORY chapter pays once without HUD objective zh_CN/4: PASS
+STORY all chapter lines fit zh_CN/4: PASS
+STORY speaker portrait and history match zh_CN/4: PASS
+STORY objective panel removed zh_CN/5: PASS
+STORY chapter pays once without HUD objective zh_CN/5: PASS
+STORY all chapter lines fit zh_CN/5: PASS
+STORY speaker portrait and history match zh_CN/5: PASS
+STORY objective panel removed zh_CN/6: PASS
+STORY chapter pays once without HUD objective zh_CN/6: PASS
+STORY all chapter lines fit zh_CN/6: PASS
+STORY speaker portrait and history match zh_CN/6: PASS
+STORY objective panel removed zh_CN/7: PASS
+STORY chapter pays once without HUD objective zh_CN/7: PASS
+STORY capture chapter_scene_zh_CN: PASS
+STORY all chapter lines fit zh_CN/7: PASS
+STORY speaker portrait and history match zh_CN/7: PASS
+STORY objective panel removed zh_CN/8: PASS
+STORY chapter pays once without HUD objective zh_CN/8: PASS
+STORY all chapter lines fit zh_CN/8: PASS
+STORY speaker portrait and history match zh_CN/8: PASS
+STORY objective panel removed zh_CN/9: PASS
+STORY chapter pays once without HUD objective zh_CN/9: PASS
+STORY all chapter lines fit zh_CN/9: PASS
+STORY speaker portrait and history match zh_CN/9: PASS
+STORY objective panel removed zh_CN/10: PASS
+STORY chapter pays once without HUD objective zh_CN/10: PASS
+STORY all chapter lines fit zh_CN/10: PASS
+STORY speaker portrait and history match zh_CN/10: PASS
+STORY objective panel removed zh_CN/11: PASS
+STORY chapter pays once without HUD objective zh_CN/11: PASS
+STORY all chapter lines fit zh_CN/11: PASS
+STORY speaker portrait and history match zh_CN/11: PASS
+STORY journal shows current briefing and preparation only zh_CN: PASS
+STORY capture journal_zh_CN: PASS
+STORY tutorial goal is journal-only en/prepare: PASS
+STORY tutorial goal is journal-only en/menu: PASS
+STORY tutorial goal is journal-only en/first_meal: PASS
+STORY tutorial goal is journal-only en/plant: PASS
+STORY tutorial goal is journal-only en/water: PASS
+STORY objective panel removed en/0: PASS
+STORY chapter pays once without HUD objective en/0: PASS
+STORY all chapter lines fit en/0: PASS
+STORY speaker portrait and history match en/0: PASS
+STORY objective panel removed en/1: PASS
+STORY capture hud_without_top_summary_en: PASS
+STORY chapter pays once without HUD objective en/1: PASS
+STORY all chapter lines fit en/1: PASS
+STORY speaker portrait and history match en/1: PASS
+STORY objective panel removed en/2: PASS
+STORY chapter pays once without HUD objective en/2: PASS
+STORY all chapter lines fit en/2: PASS
+STORY speaker portrait and history match en/2: PASS
+STORY objective panel removed en/3: PASS
+STORY chapter pays once without HUD objective en/3: PASS
+STORY all chapter lines fit en/3: PASS
+STORY speaker portrait and history match en/3: PASS
+STORY objective panel removed en/4: PASS
+STORY chapter pays once without HUD objective en/4: PASS
+STORY all chapter lines fit en/4: PASS
+STORY speaker portrait and history match en/4: PASS
+STORY objective panel removed en/5: PASS
+STORY chapter pays once without HUD objective en/5: PASS
+STORY all chapter lines fit en/5: PASS
+STORY speaker portrait and history match en/5: PASS
+STORY objective panel removed en/6: PASS
+STORY chapter pays once without HUD objective en/6: PASS
+STORY all chapter lines fit en/6: PASS
+STORY speaker portrait and history match en/6: PASS
+STORY objective panel removed en/7: PASS
+STORY chapter pays once without HUD objective en/7: PASS
+STORY capture chapter_scene_en: PASS
+STORY all chapter lines fit en/7: PASS
+STORY speaker portrait and history match en/7: PASS
+STORY objective panel removed en/8: PASS
+STORY chapter pays once without HUD objective en/8: PASS
+STORY all chapter lines fit en/8: PASS
+STORY speaker portrait and history match en/8: PASS
+STORY objective panel removed en/9: PASS
+STORY chapter pays once without HUD objective en/9: PASS
+STORY all chapter lines fit en/9: PASS
+STORY speaker portrait and history match en/9: PASS
+STORY objective panel removed en/10: PASS
+STORY chapter pays once without HUD objective en/10: PASS
+STORY all chapter lines fit en/10: PASS
+STORY speaker portrait and history match en/10: PASS
+STORY objective panel removed en/11: PASS
+STORY chapter pays once without HUD objective en/11: PASS
+STORY all chapter lines fit en/11: PASS
+STORY speaker portrait and history match en/11: PASS
+STORY journal shows current briefing and preparation only en: PASS
+STORY capture journal_en: PASS
+STORY tutorial goal is journal-only ja/prepare: PASS
+STORY tutorial goal is journal-only ja/menu: PASS
+STORY tutorial goal is journal-only ja/first_meal: PASS
+STORY tutorial goal is journal-only ja/plant: PASS
+STORY tutorial goal is journal-only ja/water: PASS
+STORY objective panel removed ja/0: PASS
+STORY chapter pays once without HUD objective ja/0: PASS
+STORY all chapter lines fit ja/0: PASS
+STORY speaker portrait and history match ja/0: PASS
+STORY objective panel removed ja/1: PASS
+STORY capture hud_without_top_summary_ja: PASS
+STORY chapter pays once without HUD objective ja/1: PASS
+STORY all chapter lines fit ja/1: PASS
+STORY speaker portrait and history match ja/1: PASS
+STORY objective panel removed ja/2: PASS
+STORY chapter pays once without HUD objective ja/2: PASS
+STORY all chapter lines fit ja/2: PASS
+STORY speaker portrait and history match ja/2: PASS
+STORY objective panel removed ja/3: PASS
+STORY chapter pays once without HUD objective ja/3: PASS
+STORY all chapter lines fit ja/3: PASS
+STORY speaker portrait and history match ja/3: PASS
+STORY objective panel removed ja/4: PASS
+STORY chapter pays once without HUD objective ja/4: PASS
+STORY all chapter lines fit ja/4: PASS
+STORY speaker portrait and history match ja/4: PASS
+STORY objective panel removed ja/5: PASS
+STORY chapter pays once without HUD objective ja/5: PASS
+STORY all chapter lines fit ja/5: PASS
+STORY speaker portrait and history match ja/5: PASS
+STORY objective panel removed ja/6: PASS
+STORY chapter pays once without HUD objective ja/6: PASS
+STORY all chapter lines fit ja/6: PASS
+STORY speaker portrait and history match ja/6: PASS
+STORY objective panel removed ja/7: PASS
+STORY chapter pays once without HUD objective ja/7: PASS
+STORY capture chapter_scene_ja: PASS
+STORY all chapter lines fit ja/7: PASS
+STORY speaker portrait and history match ja/7: PASS
+STORY objective panel removed ja/8: PASS
+STORY chapter pays once without HUD objective ja/8: PASS
+STORY all chapter lines fit ja/8: PASS
+STORY speaker portrait and history match ja/8: PASS
+STORY objective panel removed ja/9: PASS
+STORY chapter pays once without HUD objective ja/9: PASS
+STORY all chapter lines fit ja/9: PASS
+STORY speaker portrait and history match ja/9: PASS
+STORY objective panel removed ja/10: PASS
+STORY chapter pays once without HUD objective ja/10: PASS
+STORY all chapter lines fit ja/10: PASS
+STORY speaker portrait and history match ja/10: PASS
+STORY objective panel removed ja/11: PASS
+STORY chapter pays once without HUD objective ja/11: PASS
+STORY all chapter lines fit ja/11: PASS
+STORY speaker portrait and history match ja/11: PASS
+STORY journal shows current briefing and preparation only ja: PASS
+STORY capture journal_ja: PASS
+STORY tutorial goal is journal-only zh_TW/prepare: PASS
+STORY tutorial goal is journal-only zh_TW/menu: PASS
+STORY tutorial goal is journal-only zh_TW/first_meal: PASS
+STORY tutorial goal is journal-only zh_TW/plant: PASS
+STORY tutorial goal is journal-only zh_TW/water: PASS
+STORY objective panel removed zh_TW/0: PASS
+STORY chapter pays once without HUD objective zh_TW/0: PASS
+STORY all chapter lines fit zh_TW/0: PASS
+STORY speaker portrait and history match zh_TW/0: PASS
+STORY objective panel removed zh_TW/1: PASS
+STORY capture hud_without_top_summary_zh_TW: PASS
+STORY chapter pays once without HUD objective zh_TW/1: PASS
+STORY all chapter lines fit zh_TW/1: PASS
+STORY speaker portrait and history match zh_TW/1: PASS
+STORY objective panel removed zh_TW/2: PASS
+STORY chapter pays once without HUD objective zh_TW/2: PASS
+STORY all chapter lines fit zh_TW/2: PASS
+STORY speaker portrait and history match zh_TW/2: PASS
+STORY objective panel removed zh_TW/3: PASS
+STORY chapter pays once without HUD objective zh_TW/3: PASS
+STORY all chapter lines fit zh_TW/3: PASS
+STORY speaker portrait and history match zh_TW/3: PASS
+STORY objective panel removed zh_TW/4: PASS
+STORY chapter pays once without HUD objective zh_TW/4: PASS
+STORY all chapter lines fit zh_TW/4: PASS
+STORY speaker portrait and history match zh_TW/4: PASS
+STORY objective panel removed zh_TW/5: PASS
+STORY chapter pays once without HUD objective zh_TW/5: PASS
+STORY all chapter lines fit zh_TW/5: PASS
+STORY speaker portrait and history match zh_TW/5: PASS
+STORY objective panel removed zh_TW/6: PASS
+STORY chapter pays once without HUD objective zh_TW/6: PASS
+STORY all chapter lines fit zh_TW/6: PASS
+STORY speaker portrait and history match zh_TW/6: PASS
+STORY objective panel removed zh_TW/7: PASS
+STORY chapter pays once without HUD objective zh_TW/7: PASS
+STORY capture chapter_scene_zh_TW: PASS
+STORY all chapter lines fit zh_TW/7: PASS
+STORY speaker portrait and history match zh_TW/7: PASS
+STORY objective panel removed zh_TW/8: PASS
+STORY chapter pays once without HUD objective zh_TW/8: PASS
+STORY all chapter lines fit zh_TW/8: PASS
+STORY speaker portrait and history match zh_TW/8: PASS
+STORY objective panel removed zh_TW/9: PASS
+STORY chapter pays once without HUD objective zh_TW/9: PASS
+STORY all chapter lines fit zh_TW/9: PASS
+STORY speaker portrait and history match zh_TW/9: PASS
+STORY objective panel removed zh_TW/10: PASS
+STORY chapter pays once without HUD objective zh_TW/10: PASS
+STORY all chapter lines fit zh_TW/10: PASS
+STORY speaker portrait and history match zh_TW/10: PASS
+STORY objective panel removed zh_TW/11: PASS
+STORY chapter pays once without HUD objective zh_TW/11: PASS
+STORY all chapter lines fit zh_TW/11: PASS
+STORY speaker portrait and history match zh_TW/11: PASS
+STORY journal shows current briefing and preparation only zh_TW: PASS
+STORY capture journal_zh_TW: PASS
+STORY resident lines fit zh_CN/mori: PASS
+STORY resident lines fit zh_CN/ember: PASS
+STORY resident lines fit zh_CN/nagi: PASS
+STORY resident lines fit zh_CN/lumi: PASS
+STORY resident lines fit zh_CN/aster: PASS
+STORY resident lines fit zh_CN/toma: PASS
+STORY capture resident_toma_zh_CN: PASS
+STORY resident lines fit zh_CN/pip: PASS
+STORY resident lines fit zh_CN/reed: PASS
+STORY resident lines fit zh_CN/yuki: PASS
+STORY resident lines fit zh_CN/orla: PASS
+STORY resident lines fit en/mori: PASS
+STORY resident lines fit en/ember: PASS
+STORY resident lines fit en/nagi: PASS
+STORY resident lines fit en/lumi: PASS
+STORY resident lines fit en/aster: PASS
+STORY resident lines fit en/toma: PASS
+STORY resident lines fit en/pip: PASS
+STORY resident lines fit en/reed: PASS
+STORY resident lines fit en/yuki: PASS
+STORY resident lines fit en/orla: PASS
+STORY resident lines fit ja/mori: PASS
+STORY resident lines fit ja/ember: PASS
+STORY resident lines fit ja/nagi: PASS
+STORY resident lines fit ja/lumi: PASS
+STORY resident lines fit ja/aster: PASS
+STORY resident lines fit ja/toma: PASS
+STORY resident lines fit ja/pip: PASS
+STORY resident lines fit ja/reed: PASS
+STORY resident lines fit ja/yuki: PASS
+STORY resident lines fit ja/orla: PASS
+STORY resident lines fit zh_TW/mori: PASS
+STORY resident lines fit zh_TW/ember: PASS
+STORY resident lines fit zh_TW/nagi: PASS
+STORY resident lines fit zh_TW/lumi: PASS
+STORY resident lines fit zh_TW/aster: PASS
+STORY resident lines fit zh_TW/toma: PASS
+STORY resident lines fit zh_TW/pip: PASS
+STORY resident lines fit zh_TW/reed: PASS
+STORY resident lines fit zh_TW/yuki: PASS
+STORY resident lines fit zh_TW/orla: PASS
+STORY language switch preserves custom name and localized history: PASS
+STORY resident with same source name still translates: PASS
+STORY future chapter cannot be recalled: PASS
+STORY recall has no transactions or hand-in: PASS
+STORY story writes isolated save: PASS
+STORY disk resume keeps chapter and active goal: PASS
+STORY COMPLETE checks=324 failures=0

@@ -1,5 +1,5 @@
 {
-  "count": 68,
+  "count": 69,
   "icons": [
     {
       "id": "stool",
@@ -340,6 +340,11 @@
       "id": "cauldron",
       "path": "icons/cauldron.svg",
       "sha256": "600f749b6807aefce25bbd60e9f1e113d1e120a5870670609c2860bf39879de6"
+    },
+    {
+      "id": "piano",
+      "path": "icons/piano.svg",
+      "sha256": "c3185b11b642fb2c55ff0bbcdf574c973e2eb58d1b441fcae4b8a8b36eac5264"
     }
   ],
   "source": "Original code-native SVG silhouettes; no external game assets"

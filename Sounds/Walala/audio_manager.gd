@@ -4,7 +4,13 @@ const Voice = preload("res://Sounds/Walala/fmod_voice.gd")
 const BASE = "res://Sounds/Walala/"
 const MusicLibrary = preload("res://Sounds/Walala/music_library.gd")
 const HarvestAudio = preload("res://Sounds/Walala/harvest_audio.gd")
+const WorldAudio = preload("res://Sounds/Walala/world_audio_library.gd")
+const InstrumentLibrary = preload("res://Scenes/Instrument/instrument_library.gd")
 const I18n = preload("res://Localization/localized_text.gd")
+const DIALOGUE_SOUNDS := [
+	preload("res://Sounds/Walala/Dialogue/voice_a.wav"),
+	preload("res://Sounds/Walala/Dialogue/voice_b.wav"),
+]
 # Wind's source RMS is about -37 dBFS; the old -24 dB trim buried it under music.
 # At default environment volume this yields about -40 dBFS, alongside rain at -43.
 const AMBIENT_GAIN_DB = {"rain": -12.0, "wind": 6.0}
@@ -20,6 +26,7 @@ const FOOTSTEP_FILES = {
 	"snow": ["snow_01.wav", "snow_02.wav", "snow_03.wav", "snow_04.wav", "snow_05.wav", "snow_06.wav"],
 }
 var footstep_streams = {}
+var instrument_streams: Array[AudioStream] = []
 var footstep_voices: Array[Voice] = []
 var footstep_rng = RandomNumberGenerator.new()
 var last_footstep_variant = {}
@@ -27,9 +34,14 @@ var footstep_distance = 0.0
 var footstep_moving = false
 var music: Array[Voice] = []
 var effects: Array[Voice] = []
+var dialogue_voices: Array[Voice] = []
+var dialogue_next := 0
+var dialogue_rng := RandomNumberGenerator.new()
 var ambient: Voice
+var soundscape
 var current_music = ""
 var current_ambient = ""
+var music_intensity := 0.0
 var active = 0
 var fade: Tween
 var last_music_gain := -1.0
@@ -42,7 +54,8 @@ func _ready() -> void:
 	ui_audio = preload("res://Sounds/Walala/ui_audio.gd").new()
 	add_child(ui_audio)
 	load_audio_preferences()
-	for key in ["day_town", "night_town3"]:
+	for key in MusicLibrary.TRACKS:
+		if key == "title": continue
 		streams[key] = MusicLibrary.looped(key)
 	for key in ["process", "cook", "serve", "coins", "rain", "wind"]:
 		var stream = load(BASE + key + ".ogg").duplicate()
@@ -53,8 +66,12 @@ func _ready() -> void:
 	streams["ui"] = ui_audio.SOUNDS["ui_click"][0]
 	for key in HarvestAudio.SOUNDS:
 		streams[key] = HarvestAudio.SOUNDS[key][0]
+	for key in WorldAudio.SOUNDS:
+		streams[key] = WorldAudio.SOUNDS[key][0]
+	instrument_streams = InstrumentLibrary.load_streams()
 	harvest_rng.randomize()
 	footstep_rng.randomize()
+	dialogue_rng.randomize()
 	for surface in FOOTSTEP_FILES:
 		footstep_streams[surface] = []
 		for file in FOOTSTEP_FILES[surface]:
@@ -71,9 +88,17 @@ func _ready() -> void:
 		p.process_mode = Node.PROCESS_MODE_ALWAYS
 		add_child(p)
 		effects.append(p)
+	for i in range(3):
+		var p = Voice.new()
+		# Dialogue blips continue while the dialogue modal pauses the world.
+		p.process_mode = Node.PROCESS_MODE_ALWAYS
+		add_child(p)
+		dialogue_voices.append(p)
 	ambient = Voice.new()
 	ambient.process_mode = Node.PROCESS_MODE_ALWAYS
 	add_child(ambient)
+	soundscape = preload("res://Sounds/Walala/environment_audio.gd").new()
+	add_child(soundscape)
 	for i in range(2):
 		var p = Voice.new()
 		add_child(p)
@@ -124,8 +149,8 @@ func _play_footstep(surface: String, running: bool) -> void:
 	var key = "footstep_" + surface
 	counts[key] = counts.get(key, 0) + 1
 
-func set_context(phase: String, location: String, weather: String) -> void:
-	var target = "day_town" if phase == "day" else "night_town3"
+func set_context(phase: String, location: String, weather: String, region: String = "field", cooking: bool = false) -> void:
+	var target = MusicLibrary.context_key(phase, location, region)
 	if target != current_music:
 		current_music = target
 		if fade and fade.is_running():
@@ -139,7 +164,7 @@ func set_context(phase: String, location: String, weather: String) -> void:
 		next.play()
 		fade = create_tween().set_pause_mode(Tween.TWEEN_PAUSE_PROCESS).set_parallel(true)
 		fade.tween_property(old, "volume_db", -60.0, 0.8)
-		fade.tween_property(next, "volume_db", linear_to_db(maxf(channel_gain(music_volume), 0.0001)) - 6.0, 0.8)
+		fade.tween_property(next, "volume_db", linear_to_db(maxf(channel_gain(music_volume), 0.0001)) + MusicLibrary.gain_db(target) + music_intensity * 1.5, 0.8)
 		fade.chain().tween_callback(old.stop)
 	var env = ""
 	if location not in ["restaurant", "home", "blacksmith", "store", "furniture_store"] and phase != "result":
@@ -149,8 +174,18 @@ func set_context(phase: String, location: String, weather: String) -> void:
 		ambient.stop()
 		if not env.is_empty():
 			ambient.stream = streams[env]
+			ambient.volume_db = linear_to_db(maxf(channel_gain(environment_volume), 0.0001)) + AMBIENT_GAIN_DB[env]
+			ambient.stream_paused = effects_muted or channel_gain(environment_volume) <= 0
 			ambient.play()
+	soundscape.set_key(WorldAudio.ambience_key(phase, location, weather, region, cooking))
 	apply_volume()
+
+func play_transition(source: String, destination: String) -> void:
+	if source == destination: return
+	if destination in WorldAudio.INDOORS:
+		play_event("door_open")
+	elif source in WorldAudio.INDOORS:
+		play_event("door_close")
 
 func play_event(key: String) -> void:
 	if key == "ui" or key.begins_with("ui_"):
@@ -175,11 +210,53 @@ func play_event(key: String) -> void:
 				gain_db = HarvestAudio.gain_db(key, index)
 				# A stable bite cue stays recognizable; other gestures vary slightly.
 				p.pitch_scale = 1.0 if key == "bite" else harvest_rng.randf_range(0.97, 1.03)
+			elif WorldAudio.SOUNDS.has(key):
+				var variants: Array = WorldAudio.SOUNDS[key]
+				var index := harvest_rng.randi_range(0, variants.size() - 1)
+				if variants.size() > 1 and index == last_harvest_variant.get(key, -1):
+					index = (index + 1) % variants.size()
+				last_harvest_variant[key] = index
+				p.stream = variants[index]
+				gain_db = -10.0
 			p.set_meta("event_gain_db", gain_db)
 			p.volume_db = linear_to_db(channel_gain(character_volume)) + gain_db
 			p.stream_paused = false
 			p.play()
 			return
+
+func play_instrument_note(index: int) -> void:
+	if index < 0 or index >= instrument_streams.size():
+		return
+	counts["instrument_note"] = counts.get("instrument_note", 0) + 1
+	counts["instrument_note_%02d" % index] = counts.get("instrument_note_%02d" % index, 0) + 1
+	if effects_muted or channel_gain(character_volume) <= 0:
+		return
+	var stream: AudioStream = instrument_streams[index]
+	if stream == null:
+		return
+	for p in effects:
+		if not p.playing:
+			p.stream = stream
+			p.pitch_scale = 1.0
+			p.set_meta("event_gain_db", -4.0)
+			p.volume_db = linear_to_db(channel_gain(character_volume)) - 4.0
+			p.stream_paused = false
+			p.play()
+			return
+
+func play_dialogue_voice(pitch_scale: float = 1.0) -> void:
+	if effects_muted or channel_gain(character_volume) <= 0 or dialogue_voices.is_empty():
+		return
+	var voice: Voice = dialogue_voices[dialogue_next]
+	dialogue_next = (dialogue_next + 1) % dialogue_voices.size()
+	voice.stop()
+	voice.stream = DIALOGUE_SOUNDS[dialogue_rng.randi_range(0, DIALOGUE_SOUNDS.size() - 1)]
+	voice.set_meta("dialogue_gain_db", -14.0)
+	voice.volume_db = linear_to_db(channel_gain(character_volume)) + voice.get_meta("dialogue_gain_db")
+	voice.pitch_scale = clampf(pitch_scale + dialogue_rng.randf_range(-0.018, 0.018), 0.82, 1.22)
+	voice.stream_paused = false
+	voice.play()
+	counts["dialogue_voice"] = counts.get("dialogue_voice", 0) + 1
 
 func apply_volume() -> void:
 	ui_audio.set_volume(channel_gain(ui_volume), effects_muted)
@@ -189,8 +266,12 @@ func apply_volume() -> void:
 		p.stream_paused = music_muted or channel_gain(music_volume) <= 0
 	ambient.volume_db = linear_to_db(maxf(channel_gain(environment_volume), 0.0001)) + AMBIENT_GAIN_DB.get(current_ambient, -12.0)
 	ambient.stream_paused = effects_muted or channel_gain(environment_volume) <= 0
+	soundscape.set_volume(channel_gain(environment_volume), effects_muted)
 	for p in effects:
 		p.volume_db = linear_to_db(maxf(channel_gain(character_volume), 0.0001)) + p.get_meta("event_gain_db", -6.0)
+		if effects_muted or channel_gain(character_volume) <= 0: p.stop()
+	for p in dialogue_voices:
+		p.volume_db = linear_to_db(maxf(channel_gain(character_volume), 0.0001)) + p.get_meta("dialogue_gain_db", -14.0)
 		if effects_muted or channel_gain(character_volume) <= 0: p.stop()
 	for p in footstep_voices:
 		p.volume_db = linear_to_db(maxf(channel_gain(character_volume), 0.0001)) + p.get_meta("step_gain", -10.0)
@@ -198,12 +279,17 @@ func apply_volume() -> void:
 		if effects_muted or channel_gain(character_volume) <= 0:
 			p.stop()
 
+func set_music_intensity(value: float) -> void:
+	music_intensity = clampf(value, 0.0, 1.0)
+	if music.size() > active and music[active].playing:
+		music[active].volume_db = linear_to_db(maxf(channel_gain(music_volume), 0.0001)) + MusicLibrary.gain_db(current_music) + music_intensity * 1.5
+
 func _update_music_gain() -> void:
 	if fade and fade.is_running():
 		fade.kill()
 	music[1-active].stop()
 	last_music_gain = channel_gain(music_volume)
-	music[active].volume_db = linear_to_db(maxf(last_music_gain, 0.0001)) - 6.0
+	music[active].volume_db = linear_to_db(maxf(last_music_gain, 0.0001)) + MusicLibrary.gain_db(current_music) + music_intensity * 1.5
 
 func build_ui(layer: CanvasLayer, font: Font) -> void:
 	var skin = preload("res://Scenes/Gameplay/ui_skin.gd")
@@ -243,9 +329,10 @@ func build_ui(layer: CanvasLayer, font: Font) -> void:
 
 func stop() -> void:
 	if fade: fade.kill()
-	for player in music + effects + footstep_voices:
+	for player in music + effects + dialogue_voices + footstep_voices:
 		player.stop()
 	if is_instance_valid(ambient): ambient.stop()
+	if is_instance_valid(soundscape): soundscape.stop()
 	if is_instance_valid(ui_audio): ui_audio.stop()
 
 func _exit_tree() -> void:

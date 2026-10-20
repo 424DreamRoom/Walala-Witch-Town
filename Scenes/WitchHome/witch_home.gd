@@ -66,16 +66,23 @@ func interact() -> void:
 	if preload("res://Scenes/Building/placed_construction.gd").bench_preferred(self, "home"):
 		loop.builder.open_catalog()
 		return
+	var instrument := preload("res://Scenes/Building/placed_construction.gd").nearest_instrument(self, "home")
+	if not instrument.is_empty():
+		loop.hud.open_instrument(instrument.kind)
+		return
 	var chest := nearest_chest()
 	if not chest.is_empty(): loop.hud.open_chest(chest.id)
 
 func _process(_delta: float) -> void:
 	var chest := nearest_chest()
 	var bench := preload("res://Scenes/Building/placed_construction.gd").bench_preferred(self, "home")
-	chest_hint.visible = (bench or not chest.is_empty()) and loop.hud != null and loop.hud.mode.is_empty() and not loop.builder.active()
+	var instrument := preload("res://Scenes/Building/placed_construction.gd").nearest_instrument(self, "home")
+	chest_hint.visible = (bench or not instrument.is_empty() or not chest.is_empty()) and loop.hud != null and loop.hud.mode.is_empty() and not loop.builder.active()
 	if not chest_hint.visible: return
-	chest_hint.text = tr("建造工作台" if bench else "木箱")
-	chest_hint.position = (loop.lane.player.position if bench else Furniture.position_of(chest)) - Vector2(chest_hint.get_minimum_size().x / 2.0, 54)
+	var subject := "建造工作台" if bench else "钢琴" if not instrument.is_empty() else "木箱"
+	var anchor: Vector2 = loop.lane.player.position if bench else Furniture.position_of(instrument if not instrument.is_empty() else chest)
+	chest_hint.text = tr(subject)
+	chest_hint.position = anchor - Vector2(chest_hint.get_minimum_size().x / 2.0, 54)
 
 func _add_solid(rect: Rect2) -> void:
 	var body := StaticBody2D.new()

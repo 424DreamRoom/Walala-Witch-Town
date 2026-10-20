@@ -1,0 +1,247 @@
+extends SceneTree
+const C = preload("res://Scenes/Campaign/campaign_state.gd")
+const State = preload("res://Scenes/Gameplay/loop_state.gd")
+const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
+const Saves = preload("res://Scenes/Save/save_store.gd")
+const Collision = preload("res://Scenes/Gameplay/actor_collision.gd")
+const GuideActor = preload("res://Scenes/Campaign/guide_actor.gd")
+const OUT := "res://output/dialogue_colloquial_20261020/verification/opening/"
+var checks := 0
+var failures := 0
+var capture := false
+var lane
+var loop
+var controller
+
+func _initialize() -> void:
+	var profile := OUT + str(OS.get_process_id())
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(profile))
+	Preferences.file_path = profile + "/preferences.cfg"
+	Saves.directory = profile + "/saves"
+	Saves.end_session()
+	capture = "--capture" in OS.get_cmdline_user_args()
+	run.call_deferred()
+
+func check(caption: String, result: bool) -> void:
+	checks += 1
+	if not result: failures += 1
+	print("OPENING ", caption, ": PASS" if result else ": FAIL")
+
+func frames(count: int = 3) -> void:
+	for index in range(count): await process_frame
+
+func shot(filename: String) -> void:
+	if not capture: return
+	await frames(3)
+	await RenderingServer.frame_post_draw
+	check("capture " + filename, lane.viewport.get_texture().get_image().save_png(OUT + filename + ".png") == OK)
+
+func load_game() -> void:
+	lane = load("res://Scenes/LanternLane/lantern_lane.tscn").instantiate()
+	root.add_child(lane)
+	await frames(8)
+	loop = lane.get_node("GameLoop")
+	controller = loop.campaign_controller
+	controller.set_process(false)
+
+func unload_game() -> void:
+	lane.queue_free()
+	await frames(5)
+	controller = null
+	loop = null
+	lane = null
+
+func finish_walk() -> void:
+	for index in range(200):
+		if not controller.arrival_active: break
+		controller._process(0.05)
+
+func verify_guide_animation() -> void:
+	var actor = GuideActor.new()
+	root.add_child(actor)
+	var image: Image = actor.sprite.texture.get_image()
+	check("guide atlas contains native 32x32 frames", image.get_size() == Vector2i(672,32) and actor.sprite.hframes == 21)
+	var tags: Dictionary = actor.sprite.texture.get_meta("aseprite_tags")
+	for direction in [Vector2.DOWN, Vector2.UP, Vector2.RIGHT, Vector2.LEFT]:
+		actor.face(direction)
+		actor.pose_walk(0.0, false)
+		check("guide directional standing pose " + str(direction), actor.sprite.frame == [16,18,19,20][actor.facing])
+		var hashes := {}
+		var walk_frames := {}
+		for step in range(4):
+			actor.pose_walk(0.0 if step == 0 else 0.14, true)
+			var frame: int = actor.sprite.frame
+			walk_frames[frame] = true
+			hashes[hash(image.get_region(Rect2i(frame*32,0,32,32)).get_data())] = true
+		check("guide four distinct walk poses " + str(direction), hashes.size() == 4 and walk_frames.keys().all(func(frame): return frame >= actor.facing*4 and frame < actor.facing*4+4))
+		actor.pose_walk(0.14, true)
+		check("guide seamless walk loop " + str(direction), actor.sprite.frame == actor.facing*4)
+		actor.pose_walk(0.0, false)
+		check("guide stops without shifting feet " + str(direction), actor.sprite.frame == [16,18,19,20][actor.facing] and actor.sprite.position == Vector2.ZERO and not actor.sprite.flip_h)
+	check("guide native walk timings", tags.walk_left.durations_ms == [140,140,140,140] and tags.walk_right.durations_ms == [140,140,140,140])
+	var portrait: Image = load(preload("res://Scenes/Campaign/guide_profile.gd").PORTRAIT).get_image()
+	check("guide portrait retains full standing frame", portrait.get_size() == Vector2i(32,32) and portrait.get_data() == image.get_region(Rect2i(16*32,0,32,32)).get_data())
+	actor.queue_free()
+
+func run() -> void:
+	verify_guide_animation()
+	check("protagonist defaults to Weierliya", State.new().campaign.player_name == "薇尔莉娅")
+	for introduced in [false, true]:
+		for missing_name in [false, true]:
+			var legacy: Dictionary = State.new().to_save_data()
+			legacy.campaign.introduced = introduced
+			legacy.campaign.erase("guide_met")
+			if missing_name: legacy.campaign.erase("player_name")
+			else: legacy.campaign.player_name = ""
+			var restored := State.normalize_save_data(legacy)
+			check("legacy default name " + str([introduced, missing_name]), not restored.is_empty() and restored.campaign.player_name == C.DEFAULT_PLAYER_NAME)
+			check("legacy welcome progress " + str([introduced, missing_name]), restored.campaign.guide_met == (introduced and missing_name))
+	for guide_met in [false, true]:
+		var legacy: Dictionary = State.new().to_save_data()
+		legacy.campaign.introduced = true
+		legacy.campaign.player_name = ""
+		legacy.campaign.guide_met = guide_met
+		check("explicit welcome progress preserved " + str(guide_met), State.normalize_save_data(legacy).campaign.guide_met == guide_met)
+	var named: Dictionary = State.new().to_save_data()
+	named.campaign.player_name = "Aster"
+	check("existing save name preserved", State.normalize_save_data(named).campaign.player_name == "Aster")
+	for invalid in [42, "a\nb"]:
+		named.campaign.player_name = invalid
+		check("invalid legacy name rejected " + str(invalid).c_escape(), State.normalize_save_data(named).is_empty())
+	check("new slot created", Saves.begin_slot(1).ok)
+	var disk := Saves.read_slot(1)
+	check("new slot persists default name", disk.data.state.campaign.player_name == C.DEFAULT_PLAYER_NAME)
+	check("new snapshot starts outside home", disk.data.world.location == "farm" and Vector2(disk.data.world.position[0],disk.data.world.position[1]) == Vector2(270,258))
+	C.pending_intro = true
+	await load_game()
+	check("film starts over exterior spawn", paused and is_instance_valid(controller.intro) and loop.location == "farm" and lane.player.position == loop.HOME_EXIT_POSITION)
+	check("film has five shots in story order", C.D.intro.map(func(shot): return shot.scene) == ["kitchen", "letter", "road", "town", "home"] and controller.intro_length() == 30.0)
+	var seen_titles := {}
+	for index in range(C.D.intro.size()):
+		controller.intro_elapsed = index * 6.0 + 3.0
+		controller._render_intro()
+		seen_titles[controller.intro_title.text] = true
+		check("shot %d caption matches data" % index, controller.intro_title.text == C.D.intro[index].title and controller.intro_line.text == C.D.intro[index].line and controller.intro_line.modulate.a == 1.0)
+		await shot("film_%d_%s" % [index, C.D.intro[index].scene])
+	check("every shot shows a distinct title", seen_titles.size() == C.D.intro.size())
+	controller.intro_elapsed = 6.0
+	controller._render_intro()
+	check("caption hidden during shot crossfade", controller.intro_title.modulate.a == 0.0)
+	check("film pauses the clock", paused)
+	controller.finish_intro()
+	check("skipped film starts visible approach directly", controller.arrival_active and paused and not loop.state.campaign.guide_met and controller.arrival_actor.get_parent() == loop.area and loop.hud.mode.is_empty() and loop.state.campaign.player_name == C.DEFAULT_PLAYER_NAME)
+	check("opening has no name input", loop.hud.layer.find_child("NameInput", true, false) == null)
+	check("opening frames both characters", lane.camera.position == Vector2(0,64))
+	var start: Vector2 = controller.arrival_actor.position
+	var remaining: float = loop.state.remaining
+	controller._process(0.5)
+	check("NPC walks continuously", controller.arrival_actor.position.distance_to(start) == 40.0 and controller.arrival_active)
+	check("approach faces left on the horizontal path", controller.arrival_actor.facing == 3 and controller.arrival_actor.sprite.frame in range(12,16))
+	var side_frames := {}
+	for index in range(4):
+		controller._process(0.14)
+		side_frames[controller.arrival_actor.sprite.frame] = true
+	check("approach plays all four left strides", side_frames.size() == 4 and side_frames.keys().all(func(frame): return frame in range(12,16)))
+	start = controller.arrival_actor.position
+	controller._process(1.0 / 60.0)
+	check("fractional frame budget finishes without spinning", controller.arrival_actor.position.distance_to(start) > 1.0 and controller.arrival_actor.position.distance_to(start) < 1.4)
+	lane.automation = true
+	lane.test_direction = Vector2.RIGHT
+	await frames(8)
+	check("approach freezes clock and player", loop.state.remaining == remaining and lane.player.position == loop.HOME_EXIT_POSITION)
+	lane.test_direction = Vector2.ZERO
+	loop.hud.open_bag()
+	loop.save_menu.show_menu()
+	check("approach blocks competing modals", loop.hud.mode.is_empty() and not loop.save_menu.open)
+	await shot("approach")
+	check("interrupted approach saves", loop.save_progress().ok and not Saves.read_slot(1).data.state.campaign.guide_met)
+	await unload_game()
+	check("unloading approach restores pause", not paused)
+	check("interrupted slot reopens", Saves.begin_slot(1).ok)
+	C.pending_intro = false
+	await load_game()
+	check("interrupted approach resumes directly", controller.arrival_active and not is_instance_valid(controller.intro) and loop.location == "farm")
+	var clear := true
+	var approach_directions := {}
+	for index in range(200):
+		if not controller.arrival_active: break
+		controller._process(0.05)
+		approach_directions[controller.arrival_actor.facing] = true
+		var feet := Collision.footprint(controller.arrival_actor.position)
+		if loop.area.solids.any(func(rect): return rect.intersects(feet)): clear = false
+	check("whole approach clears farm obstacles", clear)
+	check("approach turns from left to up", approach_directions.has(3) and approach_directions.has(1) and controller.arrival_actor.sprite.frame == 18)
+	check("arrival starts story beside the witch", not controller.arrival_active and loop.hud.mode == "dialogue" and paused and loop.state.campaign.guide_met and controller.arrival_actor.position == Vector2(270,294))
+	var profile = preload("res://Scenes/Campaign/guide_profile.gd")
+	check("story introduces conflict without task instructions", loop.hud.lines[profile.WELCOME.size()] == profile.CURRENT[0] and loop.hud.lines[-1] == profile.CURRENT[0])
+	for locale in ["zh_CN", "en", "ja", "zh_TW"]:
+		root.get_node("Localization").set_language(locale, false)
+		for index in range(loop.hud.lines.size()):
+			loop.hud.line_index = index
+			loop.hud._show_line()
+			await frames(1)
+			check("story fits " + locale + " " + str(index), loop.hud.dialogue_text.get_content_height() <= loop.hud.dialogue_text.size.y)
+		loop.hud.line_index = 2
+		loop.hud._show_line()
+		loop.hud.dialogue_text.visible_characters = -1
+		await shot("story_" + locale)
+	root.get_node("Localization").set_language("zh_CN", false)
+	loop.hud.close_modal()
+	controller._process(0.0)
+	check("story releases world and camera", not paused and lane.camera.position == Vector2.ZERO and controller.arrival_departing)
+	start = controller.arrival_actor.position
+	lane.player.position = Vector2(270,315)
+	controller._process(0.5)
+	check("departing guide waits for player clearance", controller.arrival_actor.position == start)
+	check("blocked departure holds standing pose", not controller.arrival_actor.walking and controller.arrival_actor.sprite.frame == 18)
+	lane.player.position = loop.HOME_EXIT_POSITION
+	controller._process(0.2)
+	check("departure faces down before turning", controller.arrival_actor.facing == 0 and controller.arrival_actor.sprite.frame in range(0,4))
+	await shot("departure_down")
+	controller._process(0.25)
+	check("departure turns right on the horizontal path", controller.arrival_actor.facing == 2 and controller.arrival_actor.sprite.frame in range(8,12))
+	await shot("departure_right")
+	side_frames.clear()
+	for index in range(4):
+		controller._process(0.14)
+		side_frames[controller.arrival_actor.sprite.frame] = true
+	check("departure plays all four right strides", side_frames.size() == 4 and side_frames.keys().all(func(frame): return frame in range(8,12)))
+	for index in range(200):
+		if not controller.arrival_departing: break
+		controller._process(0.05)
+	check("NPC leaves along the path", not controller.arrival_departing and not is_instance_valid(controller.arrival_actor))
+	check("completed welcome saves", loop.save_progress().ok and Saves.read_slot(1).data.state.campaign.guide_met)
+	await unload_game()
+	check("completed slot reopens", Saves.begin_slot(1).ok)
+	await load_game()
+	check("completed save skips approach", not paused and not controller.opening_active() and not is_instance_valid(controller.arrival_actor))
+	loop.enter("home")
+	lane.player.position = Vector2(320,405)
+	check("existing interior position saves", loop.save_progress().ok)
+	await unload_game()
+	check("interior slot reopens", Saves.begin_slot(1).ok)
+	await load_game()
+	check("existing save preserves its location", loop.location == "home" and lane.player.position == Vector2(320,405) and not controller.opening_active())
+	await unload_game()
+	check("second new slot created", Saves.begin_slot(2).ok)
+	C.pending_intro = true
+	await load_game()
+	controller.intro_elapsed = controller.intro_length() - 0.01
+	controller._process(0.02)
+	check("natural film end starts approach directly", paused and controller.arrival_active and not is_instance_valid(controller.intro) and loop.state.campaign.player_name == C.DEFAULT_PLAYER_NAME)
+	finish_walk()
+	check("natural film end reaches welcome", paused and loop.hud.mode == "dialogue" and loop.state.campaign.guide_met)
+	loop.hud.close_modal()
+	check("natural opening resumes play", not paused)
+	await unload_game()
+	Saves.end_session()
+	var menu = load("res://Scenes/MainMenu/main_menu.tscn").instantiate()
+	root.add_child(menu)
+	await frames()
+	menu._start_game()
+	check("slot card displays default name", menu.slot_buttons[0].get_child(0).text.contains(C.DEFAULT_PLAYER_NAME))
+	menu.queue_free()
+	await frames()
+	await create_timer(0.25).timeout
+	print("OPENING COMPLETE checks=", checks, " failures=", failures)
+	quit(1 if failures else 0)

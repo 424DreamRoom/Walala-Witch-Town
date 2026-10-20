@@ -51,6 +51,19 @@ static func nearest_chest(owner: Node2D, area: String) -> Dictionary:
 			distance = candidate
 	return result
 
+static func nearest_instrument(owner: Node2D, area: String) -> Dictionary:
+	var result := {}
+	var distance := 27.0
+	for item in owner.loop.state.furniture.placed:
+		if item.kind not in Catalog.INSTRUMENT_IDS or Catalog.area_of(item) != area: continue
+		var rect := Catalog.footprint(item.kind, Catalog.position_of(item))
+		var player: Vector2 = owner.loop.lane.player.position
+		var candidate := player.distance_to(player.clamp(rect.position, rect.end))
+		if candidate < distance:
+			result = item
+			distance = candidate
+	return result
+
 static func bench_preferred(owner: Node2D, area: String) -> bool:
 	var player: Vector2 = owner.loop.lane.player.position
 	var distance := Catalog.bench_distance(owner.loop.state.furniture, area, player)

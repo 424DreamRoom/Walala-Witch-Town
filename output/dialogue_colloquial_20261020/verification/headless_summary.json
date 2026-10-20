@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "suite": "catalog",
+      "mode": "headless",
+      "passed": true,
+      "checks": 6,
+      "exit_code": 0,
+      "certificate_store_diagnostic": true
+    }
+  ],
+  "myart_unchanged": true,
+  "protected_files": 3
+}

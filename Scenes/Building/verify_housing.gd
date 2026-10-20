@@ -22,8 +22,13 @@ func check(title: String, passed: bool) -> void:
 
 func frames(count: int = 3) -> void:
 	for i in range(count): await process_frame
+	if root.get_node("SceneTransition").active: await root.get_node("SceneTransition").finished
 
 func key(code: Key) -> void:
+	if code == KEY_E:
+		await preload("res://Scenes/Gameplay/verification_world_action.gd").press(self)
+		await frames()
+		return
 	for pressed in [true, false]:
 		var event := InputEventKey.new()
 		event.keycode = code
@@ -72,6 +77,8 @@ func domain_checks() -> void:
 	var chest_id: int = state.furniture.next_id - 1
 	check("chest accepts real inventory", state.transfer_chest(chest_id, "wood", 5, true) == 5)
 	var placed: Array = state.furniture.placed.duplicate(true)
+	# The second exterior foundation now includes this authored farm rock.
+	state.resource_damage["farm_ore_271"] = state.RESOURCE_HITS
 	for rank in range(House.MAX_LEVEL):
 		var coins: int = state.coins
 		var wood: int = state.resources.wood
@@ -206,6 +213,7 @@ func run() -> void:
 	loop.enter("furniture_store")
 	lane.player.position = loop.area.stations.service
 	loop.state.coins = 400
+	loop.state.resource_damage["farm_ore_271"] = loop.state.RESOURCE_HITS
 	loop.state.resources.wood = 80
 	loop.state.resources.iron = 8
 	await key(KEY_E)

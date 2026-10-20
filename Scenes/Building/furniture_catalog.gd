@@ -8,6 +8,7 @@ const FarmTerrain = preload("res://Scenes/Farm/farm_terrain.gd")
 const IDS := Data.IDS
 const RECIPES := Data.RECIPES
 const CATEGORIES := Data.CATEGORIES
+const INSTRUMENT_IDS := ["piano"]
 const LEGACY_IDS := ["stool", "table", "bookcase", "sofa", "desk", "bed", "chest"]
 const STARTER_BENCH := Vector2(416, 288)
 const WORKBENCH_REACH := 32.0
@@ -19,11 +20,14 @@ const MAX_STOCK := 999
 
 static func texture(kind: String) -> Texture2D:
 	if kind == "chest": return load("res://Art/Props/KarsioriChest/closed.aseprite")
-	if kind not in LEGACY_IDS: return load("res://Art/Building/objects/" + kind + ".svg.aseprite")
+	if kind not in LEGACY_IDS:
+		var source := "res://Art/Building/objects/" + kind + ".svg.aseprite"
+		return load(source) if ResourceLoader.exists(source) else load(source.trim_suffix(".aseprite"))
 	return load(ART + "home_" + kind + ".aseprite")
 
 static func icon(kind: String) -> Texture2D:
-	return load("res://Art/Building/icons/" + kind + ".svg.aseprite")
+	var source := "res://Art/Building/icons/" + kind + ".svg.aseprite"
+	return load(source) if ResourceLoader.exists(source) else load(source.trim_suffix(".aseprite"))
 
 static func area_of(item: Dictionary) -> String:
 	return item.get("area", "home")
@@ -56,7 +60,7 @@ static func costs(kind: String) -> Dictionary:
 	return result
 
 static func initial_data() -> Dictionary:
-	var result := {"stock": {}, "placed": [], "next_id": 1, "house_level": 0, "legacy_fixtures": false}
+	var result := {"stock": {}, "placed": [], "next_id": 1, "house_level": 0, "exterior_level": 0, "legacy_fixtures": false}
 	for kind in IDS: result.stock[kind] = 0
 	return result
 
@@ -95,7 +99,7 @@ static func placement_error(data: Dictionary, kind: String, point: Vector2, igno
 	if not floor.encloses(rect): return "超出建造范围。"
 	if area == "home" and rect.intersects(ENTRY): return "门口通道被占用。"
 	if area == "farm":
-		var farm_error := farm_placement_error(kind, rect, world)
+		var farm_error := farm_placement_error(kind, rect, world, data)
 		if not farm_error.is_empty(): return farm_error
 	var obstacles: Array[Rect2] = []
 	if area == "home": obstacles = fixed_solids(data)
@@ -110,14 +114,15 @@ static func placement_error(data: Dictionary, kind: String, point: Vector2, igno
 		if rect.intersects(Rect2(player - Vector2(5, 6), Vector2(10, 6))): return "这里站着小女巫。"
 		obstacles.append(rect)
 		if area == "home" and not _exit_reachable(obstacles, player, floor): return "通往门口的道路被阻塞。"
-		if area == "farm" and not farm_exit_reachable(obstacles, player, world): return "通往门口的道路被阻塞。"
+		if area == "farm" and not farm_exit_reachable(obstacles, player, world, data): return "通往门口的道路被阻塞。"
 	return ""
 
-static func farm_placement_error(kind: String, rect: Rect2, world: Dictionary) -> String:
+static func farm_placement_error(kind: String, rect: Rect2, world: Dictionary, house_data: Dictionary = {}) -> String:
 	var layout := FarmTerrain.layout
 	for building in layout.buildings:
 		var size := Vector2(building.w, building.h)
-		if rect.intersects(Rect2(Vector2(building.x - size.x / 2, building.y - size.y), size)): return "土地被占用。"
+		var footprint := House.outdoor_footprint(world.get("furniture", house_data)) if building.get("role", "") == "witch_home" else Rect2(Vector2(building.x - size.x / 2, building.y - size.y), size)
+		if rect.intersects(footprint): return "土地被占用。"
 	if rect.intersects(footprint("workbench", STARTER_BENCH)): return "土地被占用。"
 	for water in layout.water:
 		if rect.intersects(Rect2(water[0], water[1], water[2], water[3])): return "土地被占用。"
@@ -139,7 +144,7 @@ static func farm_placement_error(kind: String, rect: Rect2, world: Dictionary) -
 		if rect.intersects(Rect2(FarmTerrain.tile_center(int(key)) - Vector2(15, 15), Vector2(30, 30))): return "土地被占用。"
 	return ""
 
-static func farm_exit_reachable(obstacles: Array[Rect2], player: Vector2, world: Dictionary = {}) -> bool:
+static func farm_exit_reachable(obstacles: Array[Rect2], player: Vector2, world: Dictionary = {}, house_data: Dictionary = {}) -> bool:
 	# Flood-fill coarse farm cells; the protected front-door road is the destination.
 	var floor := FarmTerrain.FIELD
 	var origin := floor.position + Vector2(8, 8)
@@ -147,7 +152,7 @@ static func farm_exit_reachable(obstacles: Array[Rect2], player: Vector2, world:
 	var rows := int(floor.size.y / 16)
 	var blocked := {}
 	for building in FarmTerrain.layout.buildings:
-		obstacles.append(Rect2(building.x - building.w / 2.0, building.y - building.h, building.w, building.h))
+		obstacles.append(House.outdoor_footprint(world.get("furniture", house_data)) if building.get("role", "") == "witch_home" else Rect2(building.x - building.w / 2.0, building.y - building.h, building.w, building.h))
 	obstacles.append(footprint("workbench", STARTER_BENCH))
 	if not world.is_empty():
 		for item in FarmTerrain.layout.props:
@@ -211,10 +216,12 @@ static func normalize(value: Variant, legacy_inventory: bool = false) -> Diction
 	var level: Variant = value.get("house_level", House.MAX_LEVEL)
 	var fixtures: Variant = value.get("legacy_fixtures", not value.has("house_level"))
 	if not _integer(level, 0, House.MAX_LEVEL) or not fixtures is bool: return {}
+	var exterior: Variant = value.get("exterior_level", 0)
+	if not _integer(exterior, 0, int(level)): return {}
 	if fixtures and int(level) != House.MAX_LEVEL: return {}
 	for kind in value.stock:
 		if kind not in IDS: return {}
-	var result := {"stock": {}, "placed": [], "next_id": int(value.next_id), "house_level": int(level), "legacy_fixtures": fixtures}
+	var result := {"stock": {}, "placed": [], "next_id": int(value.next_id), "house_level": int(level), "exterior_level": int(exterior), "legacy_fixtures": fixtures}
 	for kind in IDS:
 		var amount: Variant = value.stock.get(kind, null if kind in LEGACY_IDS and kind != "chest" else 0)
 		if not _integer(amount, 0, MAX_STOCK): return {}

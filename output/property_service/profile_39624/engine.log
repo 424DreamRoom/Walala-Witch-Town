@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PROPERTY TEST new restaurant requires a lease before service: PASS
+PROPERTY TEST insufficient rent is atomic: PASS
+PROPERTY TEST closed office cannot charge rent: PASS
+PROPERTY TEST lease charges exactly once: PASS
+PROPERTY TEST leased restaurant operates normally: PASS
+PROPERTY TEST lease persists through save restoration: PASS
+PROPERTY TEST existing restaurant saves retain access: PASS
+PROPERTY TEST invalid lease is rejected 1: PASS
+PROPERTY TEST invalid lease is rejected true: PASS
+PROPERTY TEST invalid lease is rejected <null>: PASS
+PROPERTY TEST furnish starter home: PASS
+PROPERTY TEST fill persistent chest: PASS
+PROPERTY TEST expand interior and footprint 0: PASS
+PROPERTY TEST preserve furniture and chest 0: PASS
+PROPERTY TEST expand interior and footprint 1: PASS
+PROPERTY TEST preserve furniture and chest 1: PASS
+PROPERTY TEST maximum cannot charge again: PASS
+PROPERTY TEST occupied expansion preserves crops and resources: PASS
+PROPERTY TEST occupied expansion preserves outdoor furniture: PASS
+PROPERTY TEST old expanded saves keep their farm geometry: PASS
+PROPERTY TEST isolated slot opens: PASS
+PROPERTY TEST unleased door remains closed: PASS
+PROPERTY TEST unleased restaurant cannot be entered: PASS
+PROPERTY TEST unleased sunset keeps town services available: PASS
+PROPERTY TEST property witch stands on free ground: PASS
+SCRIPT ERROR: Trying to get a return value of a method that returns "void"
+   at: _ready (res://Scenes/Building/property_panel.gd:22)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://Scenes/Building/property_panel.gd:22)
+       [1] open (res://Scenes/Building/property_service.gd:62)
+       [2] try_interact (res://Scenes/Building/property_service.gd:54)
+       [3] interact (res://Scenes/Gameplay/game_loop.gd:432)
+       [4] _unhandled_input (res://Scenes/Gameplay/game_loop.gd:645)
+       [5] press (res://Scenes/Gameplay/verification_world_action.gd:13)
+       [6] key (res://Scenes/Building/verify_property.gd:32)
+       [7] run (res://Scenes/Building/verify_property.gd:140)
+       [8] frames (res://Scenes/Building/verify_property.gd:29)
+PROPERTY TEST real interaction opens property office: PASS
+PROPERTY TEST rent disabled without funds: PASS
+PROPERTY TEST real rental button persists exact payment: PASS
+PROPERTY TEST property witch provides expansion panel: PASS
+PROPERTY TEST witch expansion updates saved levels: PASS
+SCRIPT ERROR: Invalid call. Nonexistent function 'rent_restaurant' in base 'previously freed'.
+   at: run (res://Scenes/Building/verify_property.gd:163)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/Building/verify_property.gd:163)
+       [1] click (res://Scenes/Building/verify_property.gd:47)
+       [2] frames (res://Scenes/Building/verify_property.gd:29)

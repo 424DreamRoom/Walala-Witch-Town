@@ -70,6 +70,7 @@ const LARGE_AREAS = ["home", "farm", "dock", "blacksmith", "store", "furniture_s
 var exit_pending := false
 var exit_latched := true
 var campaign_controller
+var property_service
 
 func _ready() -> void:
 	lane = get_parent()
@@ -145,6 +146,9 @@ func _ready() -> void:
 	campaign_controller = preload("res://Scenes/Campaign/campaign_controller.gd").new()
 	campaign_controller.loop = self
 	add_child(campaign_controller)
+	property_service = preload("res://Scenes/Building/property_service.gd").new()
+	property_service.loop = self
+	add_child(property_service)
 	_refresh()
 	Localization.language_changed.connect(_refresh_language)
 
@@ -425,6 +429,7 @@ func interact() -> void:
 		harvest.interact()
 		return
 	if _try_door_exit(): return
+	if property_service != null and property_service.try_interact(): return
 	if campaign_controller != null and campaign_controller.try_interact(): return
 	if location == "field":
 		var selected: Dictionary = area.nearest_interaction()
@@ -469,16 +474,22 @@ func travel(target: String, return_position: Vector2 = Vector2.INF) -> void:
 	exit_pending = false
 
 func _commit_travel(target: String, return_position: Vector2) -> void:
+	var source: String = location
 	enter(target, return_position)
+	audio.play_transition(source, location)
 	_refresh()
 	if campaign_controller != null:
 		campaign_controller._update_decor()
 
 # Immediate world setup is also used by save restoration and the opening scene.
 func enter(target: String, return_position: Vector2 = Vector2.INF) -> void:
+	if target == "restaurant" and not state.restaurant_leased:
+		state.message = "餐厅尚未承租。"
+		_show_feedback()
+		return
 	var requested_region: String = state.campaign.region if target == "field" and restoring_save else target
 	if not state.Campaign.entry(state.Content.DATA.regions, requested_region).is_empty():
-		if state.phase != "day" or state.campaign.chapter < state.Campaign.entry(state.Content.DATA.regions, requested_region).chapter: return
+		if state.phase != "day" or not state.Campaign.region_unlocked(state, state.Campaign.entry(state.Content.DATA.regions, requested_region)): return
 		state.campaign.region = requested_region
 		target = "field"
 	elif target == "field":
@@ -553,7 +564,7 @@ func enter(target: String, return_position: Vector2 = Vector2.INF) -> void:
 	lane.player.velocity = Vector2.ZERO
 	lane._animate(false, false, 0.0)
 	lane.camera.force_update_scroll()
-	audio.set_context(state.phase, location, lane.weather.get_weather())
+	audio.set_context(state.phase, location, lane.weather.get_weather(), state.campaign.region, state.cooking >= 0)
 	if last_phase == state.phase:
 		_autosave()
 
@@ -563,7 +574,7 @@ func _on_player_moved(distance: float, running: bool) -> void:
 		if location == "farm" and surface != "snow" and state.farm.plots.has(str(area.Terrain.index_at(lane.player.position))): surface = "dirt"
 		audio.update_footsteps(distance, running, surface)
 	_check_scene_exit(distance)
-	audio.set_context(state.phase, location, lane.weather.get_weather())
+	audio.set_context(state.phase, location, lane.weather.get_weather(), state.campaign.region, state.cooking >= 0)
 
 func reset_player() -> void:
 	harvest.cancel()
@@ -584,7 +595,7 @@ func end_phase() -> void:
 	_sync_phase()
 
 func _sync_phase() -> void:
-	var preparation_due: bool = state.phase == "day" and state.remaining <= 0.0
+	var preparation_due: bool = state.phase == "day" and state.remaining <= 0.0 and state.restaurant_leased
 	if preparation_due and not awaiting_open:
 		harvest.cancel()
 		if location != "restaurant": travel("restaurant")
@@ -603,7 +614,9 @@ func _sync_phase() -> void:
 
 func _process(delta: float) -> void:
 	# Rain wets all tilled soil, including at night and while the player is indoors.
-	if lane.weather.get_weather() == "rain":
+	var current_weather: String = str(lane.weather.get_weather())
+	state.sync_weather(current_weather)
+	if current_weather == "rain":
 		state.rain_on_farm()
 	if not paused_for_test:
 		state.tick(delta)
@@ -612,7 +625,11 @@ func _process(delta: float) -> void:
 			autosave_retry_left = maxf(0.0, autosave_retry_left - delta)
 	_sync_phase()
 	harvest.advance(delta)
-	audio.set_context(state.phase, location, lane.weather.get_weather())
+	audio.set_context(state.phase, location, lane.weather.get_weather(), state.campaign.region, state.cooking >= 0)
+	if is_instance_valid(audio.soundscape):
+		var service_pressure := clampf(float(state.service_chain) / 6.0, 0.0, 1.0) if state.phase == "night" else 0.0
+		audio.soundscape.set_intensity(service_pressure)
+		audio.set_music_intensity(service_pressure)
 	_autosave()
 	if state.message != last_message:
 		last_message = state.message

@@ -128,23 +128,19 @@ func run() -> void:
 	for language in ["zh_CN", "en", "ja", "zh_TW"]:
 		localization.set_language(language, false)
 		for step in C.D.onboarding.values():
-			var font = loop.hud.objective_title.get_theme_font("font")
-			check("tutorial goal fits " + language + "/" + step.id, font.get_string_size(I18n.format("%s · %d/%d",[step.objective,0,step.goal]),HORIZONTAL_ALIGNMENT_LEFT,-1,12).x <= 242)
+			check("tutorial goal is journal-only " + language + "/" + step.id, loop.hud.base.get_node_or_null("CurrentObjective") == null)
 		for chapter in range(12):
 			loop.state = State.new()
 			loop.state.campaign.introduced = true
 			loop.state.campaign.guide_met = true
 			loop.state.campaign.chapter = chapter
 			loop.hud.refresh()
-			var widths_fit := true
-			for label in [loop.hud.objective_title, loop.hud.objective_text]:
-				widths_fit = widths_fit and label.get_theme_font("font").get_string_size(label.text,HORIZONTAL_ALIGNMENT_LEFT,-1,label.get_theme_font_size("font_size")).x <= label.size.x
-			check("compact objective fits " + language + "/" + str(chapter), loop.hud.objective_panel.visible and widths_fit)
-			if chapter == 1: await shot("objective_" + language)
+			check("objective panel removed " + language + "/" + str(chapter), loop.hud.base.get_node_or_null("CurrentObjective") == null)
+			if chapter == 1: await shot("hud_without_top_summary_" + language)
 			ready_chapter(loop.state, chapter)
 			var old_coins: int = loop.state.coins
 			controller._complete_guide_chapter(chapter)
-			check("chapter pays once and hides goal beneath dialogue " + language + "/" + str(chapter), loop.state.coins == old_coins + C.D.quests[chapter].reward and not loop.hud.objective_panel.visible)
+			check("chapter pays once without HUD objective " + language + "/" + str(chapter), loop.state.coins == old_coins + C.D.quests[chapter].reward and loop.hud.base.get_node_or_null("CurrentObjective") == null)
 			var content_fits := true
 			var speakers_match := true
 			for index in range(loop.hud.lines.size()):
@@ -175,11 +171,11 @@ func run() -> void:
 	loop.state.campaign.chapter = 1
 	loop.state.campaign.player_name = "陶陶"
 	controller._recall_chapter(0)
-	loop.hud.line_index = 3
+	loop.hud.line_index = 2
 	loop.hud._show_line()
 	localization.set_language("en", false)
 	check("language switch preserves custom name and localized history", loop.hud.dialogue_speaker.text == "陶陶" and loop.hud.history[-1].begins_with("陶陶："))
-	loop.hud.line_index = 4
+	loop.hud.line_index = 3
 	loop.hud._show_line()
 	check("resident with same source name still translates", loop.hud.dialogue_speaker.text == tr(C.entry(C.D.npcs,"toma").name))
 	loop.hud.close_modal()

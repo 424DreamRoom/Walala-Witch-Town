@@ -39,6 +39,20 @@ OPENING new slot created: PASS
 OPENING new slot persists default name: PASS
 OPENING new snapshot starts outside home: PASS
 OPENING film starts over exterior spawn: PASS
+OPENING film has five shots in story order: PASS
+OPENING shot 0 caption matches data: PASS
+OPENING capture film_0_kitchen: PASS
+OPENING shot 1 caption matches data: PASS
+OPENING capture film_1_letter: PASS
+OPENING shot 2 caption matches data: PASS
+OPENING capture film_2_road: PASS
+OPENING shot 3 caption matches data: PASS
+OPENING capture film_3_town: PASS
+OPENING shot 4 caption matches data: PASS
+OPENING capture film_4_home: PASS
+OPENING every shot shows a distinct title: PASS
+OPENING caption hidden during shot crossfade: PASS
+OPENING film pauses the clock: PASS
 OPENING skipped film starts visible approach directly: PASS
 OPENING opening has no name input: PASS
 OPENING opening frames both characters: PASS
@@ -117,4 +131,4 @@ OPENING natural film end starts approach directly: PASS
 OPENING natural film end reaches welcome: PASS
 OPENING natural opening resumes play: PASS
 OPENING slot card displays default name: PASS
-OPENING COMPLETE checks=115 failures=0
+OPENING COMPLETE checks=129 failures=0

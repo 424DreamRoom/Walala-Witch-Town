@@ -125,3 +125,7 @@ with (ROOT/"Scenes/Campaign/README.md").open("a",encoding="utf-8") as output:
 
 with (ROOT/"Scenes/Campaign/README.md").open("a",encoding="utf-8") as output:
     output.write('\n支线支持暂缓，释放名额且不消耗材料或发放奖励；次日再次交谈时可以重新发现原故事。日常对白只引用已经完成的故事，避免提前透露后续剧情。\n\n验证：`python Scenes/Campaign/run_quest_verification.py`；截图：追加 `--capture`。\n')
+
+# Refresh the replacement narrative after generating the general appendix.
+from sync_story_docs import sync_story_docs
+sync_story_docs()

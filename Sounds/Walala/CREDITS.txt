@@ -54,18 +54,38 @@ Fusion Pixel Font 12px proportional / zh-Hans — TakWolf 及贡献者
 SIL Open Font License 1.1；字体随本游戏嵌入，完整许可证与来源见 Art/Fonts/FusionPixel/README.md。
 https://github.com/TakWolf/fusion-pixel-font
 
-Current UI selection (2026-10-11; CC0):
-51 UI sound effects / UI SFX Set — Kenney Vleugels
-https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks
-rollover2, click1, switch7, switch8, switch12, click5 (original WAV bytes).
-Interface Sounds 1.0 — Kenney
-https://kenney.nl/assets/interface-sounds
-confirmation_003, error_004 (original OGG bytes).
-RPG Audio — Kenney Vleugels
+World audio additions (2026-10-20; all CC0-1.0):
+JRPG Pack 4 Calm — Juhani Junkala / SubspaceAudio
+Childhood Friends (home), Sand Castles (dock)
+https://opengameart.org/content/jrpg-pack-4-calm
+Forest Whisper Theme — Cleyton Kauffman
+https://opengameart.org/content/forest-whisper-theme
+Ambient Bird Sounds — isaiah658
+https://opengameart.org/content/ambient-bird-sounds
+Crickets Ambient Noise — Wolfgang_ / Ted Kerr
+https://opengameart.org/content/crickets-ambient-noise-loopable
+Fireplace Sound Loop — PagDev
+https://opengameart.org/content/fireplace-sound-loop
+Boiling Water Loops — TinyWorlds
+https://opengameart.org/content/boiling-water-loops
+40 CC0 water / splash / slime SFX — rubberduck (loop_water_02)
+https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+RPG Audio — Kenney Vleugels (two opening / two closing wooden doors)
 https://kenney.nl/assets/rpg-audio
-bookOpen, bookClose, bookFlip2 (journal and dialogue; original OGG bytes).
-Eight common cues replaced; three existing book cues retained.
-Runtime gains adjusted for the quiet original WAV recordings.
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Original sources, license evidence, conversion notes and hashes: World/manifest.json.
+Birds, crickets and fire encoded to OGG with a 120 ms cyclic overlap.
+Other selected audio retains original bytes. Runtime gain/loop/crossfade only.
+
+Current UI selection (2026-10-20; polished-v2):
+基础悬停、点击、开合、确认、错误、开关与滑条提示音为项目内生成的短促调性素材，
+由 Sounds/Walala/UI/generate_polished_ui.gd 以确定性的 44.1 kHz 单声道 PCM 生成，
+通过淡入淡出和统一的和声配色保持界面反馈轻快、连贯；原始 WAV 不依赖外部下载。
+RPG Audio — Kenney Vleugels / Kenney
+https://kenney.nl/assets/rpg-audio
+bookOpen, bookClose, bookFlip2（手记与对话翻页；原始 OGG 字节）。
+基础八类提示音改用 polished-v2，三个书本提示音继续保留。
 Current file mapping / hashes: UI/manifest.json.
-Previous selection / hashes: UI/manifest_20261010.json (unused files retained).
-Original author notice: UI/Organic/LICENSE.txt; CC0 evidence: Licenses/organic_ui_20261011.html.
+Previous polished-v1 selection / hashes: UI/manifest_20261011.json.
+Earlier selection / hashes: UI/manifest_20261010.json.
+Kenney author notice: UI/Organic/LICENSE.txt; CC0 evidence: Licenses/organic_ui_20261011.html.

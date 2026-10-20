@@ -178,7 +178,7 @@ func run() -> void:
 			builder.page = index
 			builder._catalog()
 			for id in builder.visible_ids: listed[id] = true
-		check("all sixty-eight recipes accessible through pages", listed.size() == 68 and builder.root.get_node("FurnitureCatalog/NextPage").disabled)
+		check("all recipes accessible through pages", listed.size() == Catalog.IDS.size() and builder.root.get_node("FurnitureCatalog/NextPage").disabled)
 		var categories: OptionButton = builder.root.get_node("FurnitureCatalog/Categories")
 		categories.select(3)
 		categories.item_selected.emit(3)
@@ -291,7 +291,7 @@ func run() -> void:
 				var pixels: Image = Catalog.icon(Catalog.IDS[index]).get_image()
 				pixels.resize(80, 80, Image.INTERPOLATE_NEAREST)
 				sheet.blend_rect(pixels, Rect2i(0, 0, 80, 80), Vector2i((index % 8) * 96 + 8, (index / 8) * 96 + 8))
-			check("icon contact sheet", sheet.save_png(OUT + "icons_68.png") == OK)
+			check("icon contact sheet", sheet.save_png(OUT + "icons_%d.png" % Catalog.IDS.size()) == OK)
 	Saves.end_session()
 	lane.queue_free()
 	await frames(6)

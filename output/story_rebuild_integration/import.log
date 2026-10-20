@@ -1,0 +1,395 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[   0% ] first_scan_filesystem | Started 项目初始化 (5 steps)
+[   0% ] first_scan_filesystem | 正在扫描文件结构……
+WARNING: Detected another project.godot at res://output/fmod_baseline. The folder will be ignored.
+   at: _should_skip_directory (editor/file_system/editor_file_system.cpp:3497)
+ERROR: Cannot go into subdir '4022b88a068f094f3d62d5bffa42bd780d10c1e4ad40124f8de0bcb0068e63d5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'f0707cac14205908eb69212e6c4b830b2b33dcc4f5e64c314e982b14473427c0'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'ed7c535e64c53873732de7c1734e73859490f979c88266db70715ae4a1dd59e9'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'e66e1aaa459742976286a315906eb260617c182c550aabf5bb4dc3cb6926e44e'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '09bf11d6da69080d446d1e08b632dd5211ae8be4341671bacbff9e772299d8f5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'd339bf9bfa346fc858878de20cd3a9c82900e1a9b9a2f2d5c6af99ccbad66e06'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '208ae2a427b0c6b244b93ea529510ab00b406d99401083919318b1531c09e6c4'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'b442365c3e7cb97b46806aaaa0faaec66ae95267ee80ac18456fc8f7f7fa215d'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'cac6cd5f2ca4d1eb72185e6ffbd1ce18065aa1dbea28d57ea44fcaec4363af1c'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '8ec088f35488125ebe6fa9a6dad30b90b43772af53c125ba90ec034eb276a370'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '344e7fbd18a9d7e5237898fe9c9a3fbd302172014bb8cebb83c418ba5a5d37c4'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'e4b9f8edf05b5eb990807785b1c63243e0c678df9264a182b85c9241e882fc74'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'f5b5f967f21f6ad3212ebb5be872a888ef10ba4f24217ec2a2f4697f74a65ad0'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '4022b88a068f094f3d62d5bffa42bd780d10c1e4ad40124f8de0bcb0068e63d5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'f0707cac14205908eb69212e6c4b830b2b33dcc4f5e64c314e982b14473427c0'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '09bf11d6da69080d446d1e08b632dd5211ae8be4341671bacbff9e772299d8f5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'b442365c3e7cb97b46806aaaa0faaec66ae95267ee80ac18456fc8f7f7fa215d'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'cac6cd5f2ca4d1eb72185e6ffbd1ce18065aa1dbea28d57ea44fcaec4363af1c'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '4022b88a068f094f3d62d5bffa42bd780d10c1e4ad40124f8de0bcb0068e63d5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '09bf11d6da69080d446d1e08b632dd5211ae8be4341671bacbff9e772299d8f5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'b442365c3e7cb97b46806aaaa0faaec66ae95267ee80ac18456fc8f7f7fa215d'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+[  16% ] first_scan_filesystem | 正在加载全局类名……
+[  33% ] first_scan_filesystem | 正在校验 GDExtension……
+FMOD Sound System: Successfully initialized
+[  50% ] first_scan_filesystem | 正在创建自动加载脚本……
+[  66% ] first_scan_filesystem | 正在初始化插件……
+[  83% ] first_scan_filesystem | 正在启动文件扫描……
+[ DONE ] first_scan_filesystem
+
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/contact-sheet.png and res://Art/Character/Storybook/WalalaWitchAseprite32/contact-sheet.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/design-preview.png and res://Art/Character/Storybook/WalalaWitchAseprite32/design-preview.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/walala-witch.png and res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/witch_animation.gd and res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+[   0% ] update_scripts_classes | Started 正在注册全局类…… (6 steps)
+[   0% ] update_scripts_classes | 
+[  14% ] update_scripts_classes | 
+[  28% ] update_scripts_classes | 
+[  42% ] update_scripts_classes | 
+[  57% ] update_scripts_classes | 
+[  71% ] update_scripts_classes | 
+[ DONE ] update_scripts_classes
+
+[   0% ] _update_scan_actions | Started 正在扫描动作…… (99 steps)
+[   0% ] _update_scan_actions | low_shelf.svg
+[   1% ] _update_scan_actions | mushroom_lamp.svg
+[   2% ] _update_scan_actions | music_box.svg
+[   3% ] _update_scan_actions | oval_rug.svg
+[   4% ] _update_scan_actions | painting.svg
+[   5% ] _update_scan_actions | picket_fence.svg
+[   6% ] _update_scan_actions | picnic_table.svg
+[   7% ] _update_scan_actions | rocking_chair.svg
+[   8% ] _update_scan_actions | rose_arch.svg
+[   9% ] _update_scan_actions | round_rug.svg
+[  10% ] _update_scan_actions | scarecrow.svg
+[  11% ] _update_scan_actions | single_bed.svg
+[  12% ] _update_scan_actions | sofa.svg
+[  13% ] _update_scan_actions | spinning_wheel.svg
+[  14% ] _update_scan_actions | square_table.svg
+[  15% ] _update_scan_actions | star_rug.svg
+[  16% ] _update_scan_actions | stepping_stones.svg
+[  17% ] _update_scan_actions | stone_path.svg
+[  18% ] _update_scan_actions | stone_wall.svg
+[  19% ] _update_scan_actions | stool.svg
+[  20% ] _update_scan_actions | street_lamp.svg
+[  21% ] _update_scan_actions | sundial.svg
+[  22% ] _update_scan_actions | table.svg
+[  23% ] _update_scan_actions | tea_table.svg
+[  24% ] _update_scan_actions | vase.svg
+[  25% ] _update_scan_actions | wall_shelf.svg
+[  26% ] _update_scan_actions | wardrobe.svg
+[  27% ] _update_scan_actions | well.svg
+[  28% ] _update_scan_actions | wood_gate.svg
+[  29% ] _update_scan_actions | wood_path.svg
+[  30% ] _update_scan_actions | workbench.svg
+[  31% ] _update_scan_actions | aquarium.svg
+[  32% ] _update_scan_actions | armchair.svg
+[  33% ] _update_scan_actions | barrel.svg
+[  34% ] _update_scan_actions | bed.svg
+[  35% ] _update_scan_actions | bench.svg
+[  36% ] _update_scan_actions | birdbath.svg
+[  37% ] _update_scan_actions | bookcase.svg
+[  38% ] _update_scan_actions | brick_path.svg
+[  39% ] _update_scan_actions | candle.svg
+[  40% ] _update_scan_actions | canopy_bed.svg
+[  41% ] _update_scan_actions | cauldron.svg
+[  42% ] _update_scan_actions | chair.svg
+[  43% ] _update_scan_actions | chest.svg
+[  44% ] _update_scan_actions | clay_planter.svg
+[  45% ] _update_scan_actions | clock.svg
+[  46% ] _update_scan_actions | crystal_lamp.svg
+[  47% ] _update_scan_actions | cupboard.svg
+[  48% ] _update_scan_actions | desk.svg
+[  49% ] _update_scan_actions | double_bed.svg
+[  50% ] _update_scan_actions | floor_lamp.svg
+[  51% ] _update_scan_actions | flower_box.svg
+[  52% ] _update_scan_actions | garden_bench.svg
+[  52% ] _update_scan_actions | globe.svg
+[  54% ] _update_scan_actions | gravel_path.svg
+[  55% ] _update_scan_actions | hammock.svg
+[  56% ] _update_scan_actions | hedge.svg
+[  57% ] _update_scan_actions | herb_planter.svg
+[  58% ] _update_scan_actions | iron_fence.svg
+[  58% ] _update_scan_actions | iron_gate.svg
+[  60% ] _update_scan_actions | kiln.svg
+[  61% ] _update_scan_actions | lantern.svg
+[  62% ] _update_scan_actions | lattice_fence.svg
+[  63% ] _update_scan_actions | log_fence.svg
+[  64% ] _update_scan_actions | long_table.svg
+[  65% ] _update_scan_actions | loom.svg
+[  66% ] _update_scan_actions | low_shelf.svg
+[  67% ] _update_scan_actions | mirror.svg
+[  68% ] _update_scan_actions | moss_path.svg
+[  69% ] _update_scan_actions | mushroom_lamp.svg
+[  70% ] _update_scan_actions | music_box.svg
+[  71% ] _update_scan_actions | oval_rug.svg
+[  72% ] _update_scan_actions | painting.svg
+[  73% ] _update_scan_actions | picket_fence.svg
+[  74% ] _update_scan_actions | picnic_table.svg
+[  75% ] _update_scan_actions | rocking_chair.svg
+[  76% ] _update_scan_actions | rose_arch.svg
+[  77% ] _update_scan_actions | round_rug.svg
+[  78% ] _update_scan_actions | scarecrow.svg
+[  79% ] _update_scan_actions | single_bed.svg
+[  80% ] _update_scan_actions | sofa.svg
+[  81% ] _update_scan_actions | spinning_wheel.svg
+[  82% ] _update_scan_actions | square_table.svg
+[  83% ] _update_scan_actions | star_rug.svg
+[  84% ] _update_scan_actions | stepping_stones.svg
+[  85% ] _update_scan_actions | stone_path.svg
+[  86% ] _update_scan_actions | stone_wall.svg
+[  87% ] _update_scan_actions | stool.svg
+[  88% ] _update_scan_actions | street_lamp.svg
+[  89% ] _update_scan_actions | sundial.svg
+[  90% ] _update_scan_actions | table.svg
+[  91% ] _update_scan_actions | tea_table.svg
+[  92% ] _update_scan_actions | vase.svg
+[  93% ] _update_scan_actions | wall_shelf.svg
+[  94% ] _update_scan_actions | wardrobe.svg
+[  95% ] _update_scan_actions | well.svg
+[  96% ] _update_scan_actions | wood_gate.svg
+[  97% ] _update_scan_actions | wood_path.svg
+[  98% ] _update_scan_actions | workbench.svg
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started 正在导入或重新导入资产 (98 steps)
+[   0% ] reimport | 正在准备重新导入文件……
+[   1% ] reimport | 正在准备重新导入文件……
+[   2% ] reimport | 正在准备重新导入文件……
+[   3% ] reimport | 正在准备重新导入文件……
+[   4% ] reimport | 正在准备重新导入文件……
+[   5% ] reimport | 正在准备重新导入文件……
+[   6% ] reimport | 正在准备重新导入文件……
+[   7% ] reimport | 正在准备重新导入文件……
+[   8% ] reimport | 正在准备重新导入文件……
+[   9% ] reimport | 正在准备重新导入文件……
+[  10% ] reimport | 正在准备重新导入文件……
+[  11% ] reimport | 正在准备重新导入文件……
+[  12% ] reimport | 正在准备重新导入文件……
+[  13% ] reimport | 正在准备重新导入文件……
+[  14% ] reimport | 正在准备重新导入文件……
+[  15% ] reimport | 正在准备重新导入文件……
+[  16% ] reimport | 正在准备重新导入文件……
+[  17% ] reimport | 正在准备重新导入文件……
+[  18% ] reimport | 正在准备重新导入文件……
+[  19% ] reimport | 正在准备重新导入文件……
+[  20% ] reimport | 正在准备重新导入文件……
+[  21% ] reimport | 正在准备重新导入文件……
+[  22% ] reimport | 正在准备重新导入文件……
+[  23% ] reimport | 正在准备重新导入文件……
+[  24% ] reimport | 正在准备重新导入文件……
+[  25% ] reimport | 正在准备重新导入文件……
+[  26% ] reimport | 正在准备重新导入文件……
+[  27% ] reimport | 正在准备重新导入文件……
+[  28% ] reimport | 正在准备重新导入文件……
+[  29% ] reimport | 正在准备重新导入文件……
+[  30% ] reimport | 正在准备重新导入文件……
+[  31% ] reimport | 正在准备重新导入文件……
+[  32% ] reimport | 正在准备重新导入文件……
+[  33% ] reimport | 正在准备重新导入文件……
+[  34% ] reimport | 正在准备重新导入文件……
+[  35% ] reimport | 正在准备重新导入文件……
+[  36% ] reimport | 正在准备重新导入文件……
+[  37% ] reimport | 正在准备重新导入文件……
+[  38% ] reimport | 正在准备重新导入文件……
+[  39% ] reimport | 正在准备重新导入文件……
+[  40% ] reimport | 正在准备重新导入文件……
+[  41% ] reimport | 正在准备重新导入文件……
+[  42% ] reimport | 正在准备重新导入文件……
+[  43% ] reimport | 正在准备重新导入文件……
+[  44% ] reimport | 正在准备重新导入文件……
+[  45% ] reimport | 正在准备重新导入文件……
+[  46% ] reimport | 正在准备重新导入文件……
+[  47% ] reimport | 正在准备重新导入文件……
+[  48% ] reimport | 正在准备重新导入文件……
+[  49% ] reimport | 正在准备重新导入文件……
+[  50% ] reimport | 正在准备重新导入文件……
+[  51% ] reimport | 正在准备重新导入文件……
+[  52% ] reimport | 正在准备重新导入文件……
+[  53% ] reimport | 正在准备重新导入文件……
+[  54% ] reimport | 正在准备重新导入文件……
+[  55% ] reimport | 正在准备重新导入文件……
+[  56% ] reimport | 正在准备重新导入文件……
+[  57% ] reimport | 正在准备重新导入文件……
+[  58% ] reimport | 正在准备重新导入文件……
+[  59% ] reimport | 正在准备重新导入文件……
+[  60% ] reimport | 正在准备重新导入文件……
+[  61% ] reimport | 正在准备重新导入文件……
+[  62% ] reimport | 正在准备重新导入文件……
+[  63% ] reimport | 正在准备重新导入文件……
+[  64% ] reimport | 正在准备重新导入文件……
+[  65% ] reimport | 正在准备重新导入文件……
+[  66% ] reimport | 正在准备重新导入文件……
+[  67% ] reimport | 正在准备重新导入文件……
+[  68% ] reimport | 正在准备重新导入文件……
+[  69% ] reimport | 正在准备重新导入文件……
+[  70% ] reimport | 正在准备重新导入文件……
+[  71% ] reimport | 正在准备重新导入文件……
+[  72% ] reimport | 正在准备重新导入文件……
+[  73% ] reimport | 正在准备重新导入文件……
+[  74% ] reimport | 正在准备重新导入文件……
+[  75% ] reimport | 正在准备重新导入文件……
+[  76% ] reimport | 正在准备重新导入文件……
+[  77% ] reimport | 正在准备重新导入文件……
+[  78% ] reimport | 正在准备重新导入文件……
+[  79% ] reimport | 正在准备重新导入文件……
+[  80% ] reimport | 正在准备重新导入文件……
+[  81% ] reimport | 正在准备重新导入文件……
+[  82% ] reimport | 正在准备重新导入文件……
+[  83% ] reimport | 正在准备重新导入文件……
+[  84% ] reimport | 正在准备重新导入文件……
+[  85% ] reimport | 正在准备重新导入文件……
+[  86% ] reimport | 正在准备重新导入文件……
+[  87% ] reimport | 正在准备重新导入文件……
+[  88% ] reimport | 正在准备重新导入文件……
+[  89% ] reimport | 正在准备重新导入文件……
+[  90% ] reimport | 正在准备重新导入文件……
+[  91% ] reimport | 正在准备重新导入文件……
+[  92% ] reimport | 正在准备重新导入文件……
+[  93% ] reimport | 正在准备重新导入文件……
+[  94% ] reimport | 正在准备重新导入文件……
+[  95% ] reimport | 正在准备重新导入文件……
+[  96% ] reimport | 正在准备重新导入文件……
+[  97% ] reimport | 正在准备重新导入文件……
+[   0% ] reimport | 正在执行重新导入的前置操作……
+[   0% ] reimport | picket_fence.svg
+[   1% ] reimport | painting.svg
+[   2% ] reimport | oval_rug.svg
+[   3% ] reimport | music_box.svg
+[   4% ] reimport | mushroom_lamp.svg
+[   5% ] reimport | moss_path.svg
+[   6% ] reimport | mirror.svg
+[   7% ] reimport | low_shelf.svg
+[   8% ] reimport | loom.svg
+[   9% ] reimport | long_table.svg
+[  10% ] reimport | log_fence.svg
+[  11% ] reimport | lattice_fence.svg
+[  12% ] reimport | lantern.svg
+[  13% ] reimport | kiln.svg
+[  14% ] reimport | iron_gate.svg
+[  15% ] reimport | iron_fence.svg
+[  16% ] reimport | herb_planter.svg
+[  17% ] reimport | hedge.svg
+[  18% ] reimport | hammock.svg
+[  19% ] reimport | gravel_path.svg
+[  20% ] reimport | globe.svg
+[  21% ] reimport | garden_bench.svg
+[  22% ] reimport | flower_box.svg
+[  23% ] reimport | floor_lamp.svg
+[  24% ] reimport | workbench.svg
+[  25% ] reimport | wood_path.svg
+[  26% ] reimport | wood_gate.svg
+[  27% ] reimport | well.svg
+[  28% ] reimport | wardrobe.svg
+[  29% ] reimport | wall_shelf.svg
+[  30% ] reimport | vase.svg
+[  31% ] reimport | tea_table.svg
+[  32% ] reimport | table.svg
+[  33% ] reimport | sundial.svg
+[  34% ] reimport | street_lamp.svg
+[  35% ] reimport | stool.svg
+[  36% ] reimport | stone_wall.svg
+[  37% ] reimport | stone_path.svg
+[  38% ] reimport | stepping_stones.svg
+[  39% ] reimport | star_rug.svg
+[  40% ] reimport | square_table.svg
+[  41% ] reimport | spinning_wheel.svg
+[  42% ] reimport | sofa.svg
+[  43% ] reimport | single_bed.svg
+[  44% ] reimport | scarecrow.svg
+[  45% ] reimport | round_rug.svg
+[  46% ] reimport | rose_arch.svg
+[  47% ] reimport | rocking_chair.svg
+[  48% ] reimport | picnic_table.svg
+[  49% ] reimport | vase.svg
+[  50% ] reimport | tea_table.svg
+[  51% ] reimport | table.svg
+[  52% ] reimport | sundial.svg
+[  53% ] reimport | street_lamp.svg
+[  54% ] reimport | stool.svg
+[  55% ] reimport | stone_wall.svg
+[  56% ] reimport | stone_path.svg
+[  57% ] reimport | stepping_stones.svg
+[  58% ] reimport | star_rug.svg
+[  59% ] reimport | square_table.svg
+[  60% ] reimport | spinning_wheel.svg
+[  61% ] reimport | sofa.svg
+[  62% ] reimport | single_bed.svg
+[  63% ] reimport | scarecrow.svg
+[  64% ] reimport | round_rug.svg
+[  65% ] reimport | rose_arch.svg
+[  66% ] reimport | rocking_chair.svg
+[  67% ] reimport | picnic_table.svg
+[  68% ] reimport | picket_fence.svg
+[  69% ] reimport | painting.svg
+[  70% ] reimport | oval_rug.svg
+[  71% ] reimport | music_box.svg
+[  72% ] reimport | mushroom_lamp.svg
+[  73% ] reimport | double_bed.svg
+[  74% ] reimport | desk.svg
+[  75% ] reimport | cupboard.svg
+[  76% ] reimport | crystal_lamp.svg
+[  77% ] reimport | clock.svg
+[  78% ] reimport | clay_planter.svg
+[  79% ] reimport | chest.svg
+[  80% ] reimport | chair.svg
+[  81% ] reimport | cauldron.svg
+[  82% ] reimport | canopy_bed.svg
+[  83% ] reimport | candle.svg
+[  84% ] reimport | brick_path.svg
+[  85% ] reimport | bookcase.svg
+[  86% ] reimport | birdbath.svg
+[  87% ] reimport | bench.svg
+[  88% ] reimport | bed.svg
+[  89% ] reimport | barrel.svg
+[  90% ] reimport | armchair.svg
+[  91% ] reimport | aquarium.svg
+[  92% ] reimport | workbench.svg
+[  93% ] reimport | wood_path.svg
+[  94% ] reimport | wood_gate.svg
+[  95% ] reimport | well.svg
+[  96% ] reimport | wardrobe.svg
+[  97% ] reimport | wall_shelf.svg
+[  98% ] reimport | 正在结束资产导入……
+[ DONE ] reimport
+
+[   0% ] reimport | Started 正在导入或重新导入资产 (98 steps)
+[   0% ] reimport | 正在执行重新导入的后置操作……
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started 正在加载编辑器 (5 steps)
+[   0% ] loading_editor_layout | 正在加载编辑器布局……
+[  16% ] loading_editor_layout | 正在加载停靠面板……
+[  33% ] loading_editor_layout | 正在重新打开场景……
+[  50% ] loading_editor_layout | 正在加载中央编辑器布局……
+[  66% ] loading_editor_layout | 正在加载插件窗口布局……
+[  83% ] loading_editor_layout | 编辑器布局就绪。
+[ DONE ] loading_editor_layout
+
+ERROR: Cannot save file 'C:/Program Files (x86)/Steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres'.
+   at: save (scene/resources/resource_format_text.cpp:1768)
+ERROR: Error saving editor settings to C:/Program Files (x86)/Steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres
+   at: save (editor/settings/editor_settings.cpp:1525)

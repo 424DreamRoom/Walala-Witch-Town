@@ -116,11 +116,10 @@ func run() -> void:
 			loop.hud.close_modal()
 		loop.state.campaign.chapter = 2
 		controller.show_guide_goal()
-		loop.hud.line_index = 1
+		loop.hud.line_index = 0
 		loop.hud._show_line()
 		service.set_language("en" if language != "en" else "ja", false)
-		var step := Onboarding.current(loop.state)
-		check("dynamic goal switches language " + language, loop.hud.dialogue_text.text == I18n.format("当前目标：%s · %d/%d", [step.objective, step.progress, step.goal]))
+		check("guide story switches language " + language, loop.hud.dialogue_text.text == String(TranslationServer.translate(Guide.CURRENT[loop.state.campaign.chapter])))
 		service.set_language(language, false)
 		finish_lines()
 		await shot("goal_" + language)

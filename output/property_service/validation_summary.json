@@ -1,0 +1,46 @@
+{
+  "property": {
+    "checks": 76,
+    "assertion_failures": 0,
+    "log": "output/property_service/profile_72204/capture.log",
+    "runner_passed": false,
+    "reason": "Concurrent piano samples were not imported during this run."
+  },
+  "housing": {
+    "checks": 48,
+    "assertion_failures": 0,
+    "log": "output/property_service/profile_72148/housing.log",
+    "runner_passed": false,
+    "reason": "Concurrent piano samples were not imported during this run."
+  },
+  "restaurant": {
+    "checks": 54,
+    "assertion_failures": 0,
+    "log": "output/property_service/profile_32076/restaurant.log",
+    "runner_passed": true
+  },
+  "earlier_clean_property": {
+    "checks": 75,
+    "log": "output/property_service/profile_48400/capture.log",
+    "runner_passed": true
+  },
+  "earlier_clean_housing": {
+    "checks": 48,
+    "log": "output/property_service/profile_68760/housing.log",
+    "runner_passed": true
+  },
+  "localization": {
+    "feature_locales": [
+      "zh_CN",
+      "en",
+      "ja",
+      "zh_TW"
+    ],
+    "feature_layouts_passed": true,
+    "feature_catalog_compiled": true,
+    "global_regression": "Existing verify_localization.gd references removed hud.Journal at line 241.",
+    "latest_catalog_attempt": "Blocked by the concurrently added piano translation, unrelated to property UI."
+  },
+  "myart_sha256_unchanged": true,
+  "overview": "output/property_service/overview.png"
+}

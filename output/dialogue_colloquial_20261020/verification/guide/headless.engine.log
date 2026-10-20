@@ -1,0 +1,91 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+GUIDE named old save avoids new popup: PASS
+GUIDE unfinished old opening retains welcome: PASS
+GUIDE invalid welcome state rejected: PASS
+GUIDE guide is separate from ten residents: PASS
+GUIDE guide uses native 32x32 frames on the pixel grid: PASS
+GUIDE guide stands in a reachable clear spot: PASS
+GUIDE residents include guide in avoidance: PASS
+GUIDE nearby guide opens real dialogue: PASS
+GUIDE native 32x32 portrait matches guide source: PASS
+GUIDE dialogue freezes clock: PASS
+GUIDE closing dialogue resumes world: PASS
+GUIDE first chapter reveals only first topic: PASS
+GUIDE unfinished goal pays nothing: PASS
+GUIDE completed goal offers dialogue hand-in: PASS
+GUIDE hand-in advances one chapter and pays once: PASS
+GUIDE stale choice cannot complete the next ready chapter: PASS
+GUIDE journal hand-in uses Yingluo too: PASS
+GUIDE line fits zh_CN 0/0: PASS
+GUIDE line fits zh_CN 0/1: PASS
+GUIDE line fits zh_CN 1/0: PASS
+GUIDE line fits zh_CN 1/1: PASS
+GUIDE line fits zh_CN 2/0: PASS
+GUIDE line fits zh_CN 3/0: PASS
+GUIDE line fits zh_CN 4/0: PASS
+GUIDE line fits zh_CN 5/0: PASS
+GUIDE line fits zh_CN 6/0: PASS
+GUIDE line fits zh_CN 7/0: PASS
+GUIDE line fits zh_CN 8/0: PASS
+GUIDE line fits zh_CN 9/0: PASS
+GUIDE line fits zh_CN 10/0: PASS
+GUIDE line fits zh_CN 11/0: PASS
+GUIDE guide story switches language zh_CN: PASS
+GUIDE line fits en 0/0: PASS
+GUIDE line fits en 0/1: PASS
+GUIDE line fits en 1/0: PASS
+GUIDE line fits en 1/1: PASS
+GUIDE line fits en 2/0: PASS
+GUIDE line fits en 3/0: PASS
+GUIDE line fits en 4/0: PASS
+GUIDE line fits en 5/0: PASS
+GUIDE line fits en 6/0: PASS
+GUIDE line fits en 7/0: PASS
+GUIDE line fits en 8/0: PASS
+GUIDE line fits en 9/0: PASS
+GUIDE line fits en 10/0: PASS
+GUIDE line fits en 11/0: PASS
+GUIDE guide story switches language en: PASS
+GUIDE line fits ja 0/0: PASS
+GUIDE line fits ja 0/1: PASS
+GUIDE line fits ja 1/0: PASS
+GUIDE line fits ja 1/1: PASS
+GUIDE line fits ja 2/0: PASS
+GUIDE line fits ja 3/0: PASS
+GUIDE line fits ja 4/0: PASS
+GUIDE line fits ja 5/0: PASS
+GUIDE line fits ja 6/0: PASS
+GUIDE line fits ja 7/0: PASS
+GUIDE line fits ja 8/0: PASS
+GUIDE line fits ja 9/0: PASS
+GUIDE line fits ja 10/0: PASS
+GUIDE line fits ja 11/0: PASS
+GUIDE guide story switches language ja: PASS
+GUIDE line fits zh_TW 0/0: PASS
+GUIDE line fits zh_TW 0/1: PASS
+GUIDE line fits zh_TW 1/0: PASS
+GUIDE line fits zh_TW 1/1: PASS
+GUIDE line fits zh_TW 2/0: PASS
+GUIDE line fits zh_TW 3/0: PASS
+GUIDE line fits zh_TW 4/0: PASS
+GUIDE line fits zh_TW 5/0: PASS
+GUIDE line fits zh_TW 6/0: PASS
+GUIDE line fits zh_TW 7/0: PASS
+GUIDE line fits zh_TW 8/0: PASS
+GUIDE line fits zh_TW 9/0: PASS
+GUIDE line fits zh_TW 10/0: PASS
+GUIDE line fits zh_TW 11/0: PASS
+GUIDE guide story switches language zh_TW: PASS
+GUIDE all unlocked topics fit above dialogue: PASS
+GUIDE topic pages reach later lessons: PASS
+GUIDE four choices align above body and inside right frame: PASS
+GUIDE final dialogue has no repeated reward: PASS
+GUIDE guide has no invisible night collider: PASS
+GUIDE guide returns the next day: PASS
+GUIDE save writes welcome and chapter: PASS
+GUIDE disk roundtrip keeps guide progress: PASS
+GUIDE COMPLETE checks=85 failures=0

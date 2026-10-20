@@ -22,8 +22,21 @@ HUD TEST B opens paused bag: PASS
 HUD TEST all tools and materials fit in backpack: PASS
 HUD TEST B toggles bag closed: PASS
 HUD TEST H opens dialogue with typewriter: PASS
-HUD TEST E reveals and presents choices: PASS
+HUD TEST E reveals and presents choices: FAIL
 HUD TEST dialogue history contains current line: PASS
+ERROR: Node not found: "DialogueChoice0" (relative to "/root/LanternLane/@SubViewportContainer@2/@SubViewport@3/@CanvasLayer@2235/HUDModal/DialogueLayout/DialogueChoices").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] run (res://Scenes/UI/verify_ui.gd:160)
+       [1] key (res://Scenes/UI/verify_ui.gd:30)
+       [2] frames (res://Scenes/UI/verify_ui.gd:21)
+SCRIPT ERROR: Cannot call method 'get_global_rect' on a null value.
+   at: click (res://Scenes/UI/verify_ui.gd:34)
+   GDScript backtrace (most recent call first):
+       [0] click (res://Scenes/UI/verify_ui.gd:34)
+       [1] run (res://Scenes/UI/verify_ui.gd:160)
+       [2] key (res://Scenes/UI/verify_ui.gd:30)
+       [3] frames (res://Scenes/UI/verify_ui.gd:21)
 HUD TEST dialogue choice opens task journal: FAIL
 HUD TEST switching modals restores original pause: PASS
 HUD TEST keyboard confirms dialogue choice: FAIL
@@ -40,12 +53,12 @@ HUD TEST journal restores with state: PASS
 HUD TEST pre-HUD saves remain compatible: PASS
 HUD TEST invalid journal data rejected: PASS
 HUD TEST quest progress survives next day: FAIL
-HUD TEST active main can complete from accumulated progress: FAIL
+HUD TEST active main can complete from accumulated progress: PASS
 HUD TEST completed filter lists only finished chapters: PASS
 HUD TEST Esc still opens normal pause menu: PASS
 HUD TEST settings available inside pause menu: PASS
 HUD TEST hotbar preference changes actual HUD: PASS
-HUD TEST instant dialogue is fully revealed: PASS
+HUD TEST instant dialogue is fully revealed: FAIL
 WARNING: An input event object is being parsed more than once in the same frame, which is unsafe.
 If you are generating events in a script, you have to instantiate a new event instead of sending the same one more than once, unless the original one was sent on an earlier frame.
 You can call duplicate() on the event to get a new instance with identical values.
@@ -61,5 +74,5 @@ HUD TEST Esc closes settings before resuming: PASS
 HUD TEST Esc resumes normal pause menu: PASS
 HUD TEST pause menu safely takes modal ownership: PASS
 HUD TEST ownership change resumes correctly: PASS
-HUD VERIFY END failures=9
+HUD VERIFY END failures=10
 FMOD Sound System: System released

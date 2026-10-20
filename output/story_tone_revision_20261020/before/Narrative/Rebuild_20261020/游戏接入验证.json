@@ -1,0 +1,46 @@
+{
+  "runtime_integrated": true,
+  "story_version": 2,
+  "opening_lines": 43,
+  "mainline_chapters": 10,
+  "mainline_lines": 393,
+  "languages": [
+    "zh_CN",
+    "en",
+    "ja",
+    "zh_TW"
+  ],
+  "manuscript_runtime_match": true,
+  "capture_verification": {
+    "passed": true,
+    "mode": "capture",
+    "checks": 184,
+    "exit_code": 0,
+    "protected_originals": 3,
+    "myart_unchanged": true
+  },
+  "build_idempotent": true,
+  "baseline_changed_files": [
+    "Scenes/Campaign/build_content.py",
+    "Scenes/Campaign/campaign_state.gd",
+    "Scenes/Campaign/campaign_controller.gd",
+    "Scenes/Campaign/onboarding.gd",
+    "Scenes/Campaign/guide_profile.gd",
+    "Scenes/Campaign/opening_film.gd",
+    "Scenes/Campaign/content.gd",
+    "Scenes/Campaign/content.json",
+    "Scenes/Gameplay/game_loop.gd",
+    "Localization/messages.tsv",
+    "Localization/catalog.gd",
+    "Narrative/Rebuild_20261020/场景索引.json",
+    "Scenes/Campaign/GUIDE.md",
+    "Scenes/Campaign/write_design.py"
+  ],
+  "formal_player_saves_accessed": false,
+  "protected_originals_unchanged": true,
+  "implementation_boundaries": [
+    "Shipping, merchant reservations/refunds, monthly rent and work shifts are narrative events, not new simulation systems.",
+    "Story seasons are sequential context, not calendar deadlines.",
+    "Legacy stories restart at the first new chapter with earned assets and unlocks retained."
+  ]
+}

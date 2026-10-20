@@ -5,6 +5,7 @@ const Equipment = preload("res://Scenes/Equipment/equipment_catalog.gd")
 const Items = preload("res://Scenes/Storage/inventory_items.gd")
 const Campaign = preload("res://Scenes/Campaign/campaign_state.gd")
 const Content = preload("res://Scenes/Campaign/content.gd")
+const SeasonalDirector = preload("res://Scenes/Gameplay/seasonal_director.gd")
 const ShopFood = preload("res://Scenes/Businesses/food_catalog.gd")
 const FarmTerrain = preload("res://Scenes/Farm/farm_terrain.gd")
 var campaign: Dictionary = Campaign.initial()
@@ -59,6 +60,8 @@ var cook_left = 0.0
 var held = -1
 var income = 0
 var coins = 0
+const RESTAURANT_RENT := 60
+var restaurant_leased := false
 var served = 0
 var lost = 0
 var wasted = 0
@@ -70,11 +73,46 @@ var message_source := ""
 var message_arguments: Array = []
 var formatted_message := ""
 var journal = {"gather": 0, "prepare": 0, "serve": 0, "fish": 0, "tracked": "gather"}
+## Daily pulse is derived from the day number and persisted service counters keep
+## the evening loop meaningful without changing the original recipe economy.
+var daily_pulse: Dictionary = {}
+var service_chain := 0
+var service_peak := 0
+var tips := 0
+var guest_mood := 0
+var crop_quality_total := 0
+var crop_harvests := 0
 
 # Derive the clock from the saved phase timer so lighting and HUD never drift.
 func _init() -> void:
 	menu.resize(DISHES.size())
 	menu.fill(false)
+	daily_pulse = SeasonalDirector.pulse_for_day(day)
+	guest_mood = int(daily_pulse.get("mood", 0))
+
+func pulse_note() -> String:
+	return str(daily_pulse.get("note", ""))
+
+func pulse_focus() -> String:
+	return SeasonalDirector.focus_text(daily_pulse)
+
+func sync_weather(weather: String) -> void:
+	if weather not in SeasonalDirector.WEATHER_NAMES: return
+	daily_pulse.weather = weather
+	daily_pulse.weather_name = SeasonalDirector.WEATHER_NAMES[weather]
+	daily_pulse.soil_bonus = 1 if weather == "rain" else 0
+
+func crop_quality_bonus(plot: Dictionary) -> int:
+	var quality := SeasonalDirector.crop_quality(plot, daily_pulse)
+	return 1 if quality >= 3 else 0
+
+func record_crop_quality(plot: Dictionary) -> void:
+	var quality := SeasonalDirector.crop_quality(plot, daily_pulse)
+	crop_quality_total += quality
+	crop_harvests += 1
+
+func service_summary() -> String:
+	return "连席 %d · 小费 %d金 · 心情 %d" % [service_chain, tips, guest_mood]
 
 # Daytime spans 06:00-18:00; confirmed service spans 18:00-22:00.
 func get_time_minutes() -> float:
@@ -118,7 +156,7 @@ func get_message_text() -> String:
 	return I18n.prompt(message)
 
 func get_result_text() -> String:
-	return tr("第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n原食材和厨房原料保留；采集点次日刷新。") % [day, income, coins, served, lost, wasted]
+	return tr("第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n小费：%d　最高连席：%d\n原食材和厨房原料保留；采集点次日刷新。") % [day, income, coins, served, lost, wasted, tips, service_peak]
 
 const BUSINESS_SALES = {"sell_wood": ["wood", 1], "sell_ore": ["ore", 3], "sell_iron": ["iron", 8], "sell_fish": ["fish", 4]}
 const BUSINESS_BUYS = {"buy_mushroom": 0, "buy_berry": 1, "buy_herb": 2}
@@ -383,9 +421,11 @@ func work_farm_tile(index: int) -> bool:
 		message = "已播下香草种子。"
 	elif plot.growth >= FARM_GROWTH_DAYS:
 		var harvest_amount: int = 1 + (1 if plot.get("fertilized", false) else 0)
+		harvest_amount += crop_quality_bonus(plot)
 		if not Items.change(self, {"herb": harvest_amount, "seed": 2}):
 			message = "背包已满，无法收获。"
 			return false
+		record_crop_quality(plot)
 		plot.growth = -1
 		plot.erase("fertilized")
 		Campaign.stat(self, "harvest", harvest_amount)
@@ -465,6 +505,7 @@ func set_menu_dish(dish: int, enabled: bool) -> bool:
 
 func opening_error() -> String:
 	if phase != "day": return "营业已开始。"
+	if not restaurant_leased: return "餐厅尚未承租。"
 	if menu.count(true) == 0: return "菜单为空"
 	if menu.count(true) > Campaign.restaurant(self).menu: return "菜单已满"
 	for dish in range(menu.size()):
@@ -479,6 +520,10 @@ func start_service() -> bool:
 	phase = "night"
 	remaining = NIGHT_SECONDS
 	arrivals = 0.0
+	service_chain = 0
+	service_peak = 0
+	tips = 0
+	guest_mood = int(daily_pulse.get("mood", 0))
 	message = "夜间营业开始！"
 	return true
 
@@ -518,10 +563,22 @@ func serve(seat: int) -> bool:
 	if customer.dish != held:
 		message = "订单不符！菜仍在手上。"
 		return false
-	income += PRICES[held] + Campaign.service(self, customer, held)
+	var recipe: Dictionary = Content.DATA.recipes[held]
+	var focus_bonus := SeasonalDirector.dish_focus_bonus(recipe, daily_pulse)
+	var base_income: int = PRICES[held] + Campaign.service(self, customer, held)
+	service_chain += 1
+	service_peak = maxi(service_peak, service_chain)
+	guest_mood = clampi(guest_mood + 1 + focus_bonus, -3, 6)
+	var chain_tip := 0
+	if service_chain >= 2:
+		chain_tip = roundi(float(PRICES[held]) * minf(0.18, 0.03 * float(service_chain - 1)))
+	if focus_bonus > 0:
+		chain_tip += maxi(1, roundi(float(PRICES[held]) * 0.05))
+	tips += chain_tip
+	income += base_income
 	served += 1
 	journal.serve = mini(1000000000, journal.serve + 1)
-	set_message("上菜成功 +%d 金币（营业结束入账）", [PRICES[held]])
+	set_message("上菜成功 +%d 金币（营业结束入账）", [base_income + chain_tip])
 	held = -1
 	customer.status = "eating"
 	customer.eating_left = 3.0
@@ -550,7 +607,8 @@ func admit() -> bool:
 				for tag in Content.DATA.npcs[npc_index].likes:
 					if tag in Content.DATA.recipes[dish].tags and dish not in preferred: preferred.append(dish)
 			var available: Array = preferred if not preferred.is_empty() else dishes
-			customers.append({"seat": seat, "dish": available[serial % available.size()], "patience": float(Campaign.restaurant(self).patience + Campaign.comfort(self)), "npc": npc_index, "variant": npc_index % 6, "status": "waiting", "eating_left": 0.0})
+			var order: int = int(available[serial % available.size()])
+			customers.append({"seat": seat, "dish": order, "patience": float(Campaign.restaurant(self).patience + Campaign.comfort(self)), "npc": npc_index, "variant": npc_index % 6, "status": "waiting", "eating_left": 0.0, "focus": SeasonalDirector.dish_focus_bonus(Content.DATA.recipes[order], daily_pulse) > 0})
 			serial += 1
 			return true
 	return false
@@ -575,6 +633,8 @@ func tick(delta: float) -> void:
 		if customers[i].patience <= 0:
 			customers.remove_at(i)
 			lost += 1
+			service_chain = 0
+			guest_mood = maxi(-3, guest_mood - 1)
 	if cooking >= 0:
 		cook_left = maxf(0.0, cook_left - delta)
 		if cook_left <= 0:
@@ -595,15 +655,17 @@ func end_phase() -> void:
 		customers.clear()
 		if held >= 0:
 			wasted += 1
+			service_chain = 0
 		if cooking >= 0:
 			wasted += 1
 		held = -1
 		cooking = -1
 		cook_left = 0.0
+		income += tips
 		coins += income
 		phase = "result"
 		remaining = 0.0
-		result = "第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n原食材和厨房原料保留；采集点次日刷新。" % [day, income, coins, served, lost, wasted]
+		result = "第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n小费：%d　最高连席：%d\n原食材和厨房原料保留；采集点次日刷新。" % [day, income, coins, served, lost, wasted, tips, service_peak]
 		message = "营业结束。"
 
 func next_day() -> void:
@@ -612,6 +674,7 @@ func next_day() -> void:
 	_advance_farm_day()
 	day += 1
 	Campaign.advance_day(self)
+	daily_pulse = SeasonalDirector.pulse_for_day(day)
 	phase = "day"
 	remaining = DAY_SECONDS
 	nodes = [2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -623,6 +686,10 @@ func next_day() -> void:
 	served = 0
 	lost = 0
 	wasted = 0
+	service_chain = 0
+	service_peak = 0
+	tips = 0
+	guest_mood = int(daily_pulse.get("mood", 0))
 	message = "新的一天！库存与菜单保留，野外采集点已刷新。"
 
 func can_craft_furniture(kind: String, area: String = "", player: Vector2 = Vector2.INF) -> bool:
@@ -630,20 +697,54 @@ func can_craft_furniture(kind: String, area: String = "", player: Vector2 = Vect
 	return furniture.stock[kind] < Furniture.MAX_STOCK and Items.can_change(self, Furniture.costs(kind))
 
 func can_expand_house() -> bool:
-	if phase != "day" or furniture.house_level >= Furniture.House.MAX_LEVEL: return false
-	var price: Dictionary = Furniture.House.COSTS[furniture.house_level]
-	return coins >= price.coins and resources.wood >= price.wood and resources.iron >= price.iron
+	var plan := Furniture.House.upgrade_for(furniture)
+	if phase != "day" or plan.is_empty(): return false
+	var price: Dictionary = plan.price
+	return coins >= price.coins and resources.wood >= price.wood and resources.iron >= price.iron and house_expansion_clear()
+
+func can_rent_restaurant() -> bool:
+	return phase == "day" and not restaurant_leased and coins >= RESTAURANT_RENT
+
+func rent_restaurant() -> bool:
+	if not can_rent_restaurant():
+		message = "餐厅已承租。" if restaurant_leased else "柜台已打烊。" if phase != "day" else "金币不足。"
+		return false
+	coins -= RESTAURANT_RENT
+	restaurant_leased = true
+	message = "餐厅租约已生效。"
+	return true
+
+func house_expansion_clear() -> bool:
+	var plan := Furniture.House.upgrade_for(furniture)
+	if plan.is_empty(): return false
+	var next := furniture.duplicate(true)
+	next.house_level = plan.house_level
+	next.exterior_level = plan.exterior_level
+	var foundation := Furniture.House.outdoor_footprint(next)
+	for item in furniture.placed:
+		if Furniture.area_of(item) == "farm" and foundation.intersects(Furniture.footprint(item.kind, Furniture.position_of(item))): return false
+	for key in farm.plots:
+		var plot: Dictionary = farm.plots[key]
+		if (plot.growth >= 0 or plot.get("fertilized", false)) and foundation.intersects(Rect2(FarmTerrain.tile_center(int(key)) - Vector2(15, 15), Vector2(30, 30))): return false
+	for item in FarmTerrain.layout.props:
+		if resource_left(item.resource_id) > 0 and foundation.intersects(Rect2(item.x - item.w / 2.0, item.y - item.h, item.w, item.h)): return false
+	return true
 
 func expand_house() -> bool:
 	if not can_expand_house():
-		message = "房屋已达最大面积。" if furniture.house_level >= Furniture.House.MAX_LEVEL else "金币或材料不足。" if phase == "day" else "柜台已打烊。"
+		message = "房屋已达最大面积。" if Furniture.House.upgrade_for(furniture).is_empty() else "柜台已打烊。" if phase != "day" else "扩建用地被占用。" if not house_expansion_clear() else "金币或材料不足。"
 		return false
-	var price: Dictionary = Furniture.House.COSTS[furniture.house_level]
+	var plan := Furniture.House.upgrade_for(furniture)
+	var price: Dictionary = plan.price
 	coins -= price.coins
 	resources.wood -= price.wood
 	resources.iron -= price.iron
 	Items.ensure_bag(self)
-	furniture.house_level += 1
+	furniture.house_level = plan.house_level
+	furniture.exterior_level = plan.exterior_level
+	var foundation := Furniture.House.outdoor_footprint(furniture)
+	for key in farm.plots.keys():
+		if foundation.intersects(Rect2(FarmTerrain.tile_center(int(key)) - Vector2(15, 15), Vector2(30, 30))): farm.plots.erase(key)
 	message = "房屋扩建完成。"
 	return true
 
@@ -733,7 +834,7 @@ func discard() -> void:
 		message = "已丢弃手中的菜（不退原料）。"
 
 # Explicit, versioned save data: never deserialize objects or scripts from disk.
-const SAVE_FIELDS = ["day", "phase", "remaining", "raw", "tools", "materials", "menu", "nodes", "resources", "resource_damage", "fish_catches", "customers", "cooking", "cook_left", "held", "income", "coins", "served", "lost", "wasted", "arrivals", "serial", "result", "message", "journal", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode"]
+const SAVE_FIELDS = ["day", "phase", "remaining", "raw", "tools", "materials", "menu", "nodes", "resources", "resource_damage", "fish_catches", "customers", "cooking", "cook_left", "held", "income", "coins", "served", "lost", "wasted", "arrivals", "serial", "result", "message", "journal", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode", "service_chain", "service_peak", "tips", "guest_mood", "crop_quality_total", "crop_harvests", "restaurant_leased"]
 
 func to_save_data() -> Dictionary:
 	Items.ensure_bag(self)
@@ -759,6 +860,7 @@ func restore_save_data(data: Variant) -> bool:
 		return false
 	for field in SAVE_FIELDS:
 		set(field, normalized[field])
+	daily_pulse = SeasonalDirector.pulse_for_day(day)
 	inventory_pending.clear()
 	return true
 
@@ -776,11 +878,15 @@ static func normalize_save_data(data: Variant) -> Dictionary:
 	var tool_defaults: Dictionary = LEGACY_STARTING_TOOLS if legacy_tools else STARTING_TOOLS
 	var inventory_ids: Array = Items.LEGACY_IDS if legacy_tools else Items.IDS
 	for field in SAVE_FIELDS:
-		if field not in ["journal", "tools", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode"] and not data.has(field):
+		if field not in ["journal", "tools", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode", "service_chain", "service_peak", "tips", "guest_mood", "crop_quality_total", "crop_harvests", "restaurant_leased"] and not data.has(field):
 			return {}
 	if data.phase not in ["day", "night", "result"]:
 		return {}
 	var normalized: Dictionary = data.duplicate(true)
+	# Pre-property saves already operated the restaurant and keep their rights.
+	var leased: Variant = data.get("restaurant_leased", true)
+	if not leased is bool or (data.phase != "day" and not leased): return {}
+	normalized.restaurant_leased = leased
 	var saved_mode: Variant = data.get("wand_mode", "red")
 	if not saved_mode is String or saved_mode not in ["blue", "red"]: return {}
 	normalized.wand_mode = saved_mode
@@ -839,12 +945,13 @@ static func normalize_save_data(data: Variant) -> Dictionary:
 		if not _number(saved_journal.get(objective), 0, 1000000000, true):
 			return {}
 		normalized.journal[objective] = int(saved_journal[objective])
-	var integer_fields := {"day": [1, 1000000], "cooking": [-1, DISHES.size()-1], "held": [-1, DISHES.size()-1], "income": [0, 1000000000], "coins": [0, 1000000000], "served": [0, 1000000000], "lost": [0, 1000000000], "wasted": [0, 1000000000], "serial": [0, 1000000000]}
+	var integer_fields := {"day": [1, 1000000], "cooking": [-1, DISHES.size()-1], "held": [-1, DISHES.size()-1], "income": [0, 1000000000], "coins": [0, 1000000000], "served": [0, 1000000000], "lost": [0, 1000000000], "wasted": [0, 1000000000], "serial": [0, 1000000000], "service_chain": [0, 1000000000], "service_peak": [0, 1000000000], "tips": [0, 1000000000], "guest_mood": [-3, 6], "crop_quality_total": [0, 1000000000], "crop_harvests": [0, 1000000000]}
 	for field in integer_fields:
 		var bounds: Array = integer_fields[field]
-		if not _number(data[field], bounds[0], bounds[1], true):
+		var candidate: Variant = data.get(field, 0)
+		if not _number(candidate, bounds[0], bounds[1], true):
 			return {}
-		normalized[field] = int(data[field])
+		normalized[field] = int(candidate)
 	for field in {"remaining": saved_phase_seconds, "cook_left": 8.0, "arrivals": 6.0}:
 		var maximum: float = {"remaining": saved_phase_seconds, "cook_left": 8.0, "arrivals": 6.0}[field]
 		if not _number(data[field], 0.0, maximum):
@@ -937,5 +1044,10 @@ static func normalize_save_data(data: Variant) -> Dictionary:
 		if owned > 1 or (owned == 0 and normalized.equipment[id] > 0): return {}
 	for item in normalized.furniture.placed:
 		if Furniture.area_of(item) == "farm" and not Furniture.farm_placement_error(item.kind, Furniture.footprint(item.kind, Furniture.position_of(item)), normalized).is_empty(): return {}
+	if normalized.furniture.exterior_level > 0:
+		var foundation := Furniture.House.outdoor_footprint(normalized.furniture)
+		for key in normalized.farm.plots:
+			if foundation.intersects(Rect2(FarmTerrain.tile_center(int(key)) - Vector2(15, 15), Vector2(30, 30))): return {}
 	if legacy_tools: Items.migrate_tools(normalized)
+	normalized.daily_pulse = SeasonalDirector.pulse_for_day(int(normalized.day))
 	return normalized

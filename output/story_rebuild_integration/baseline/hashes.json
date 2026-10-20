@@ -1,0 +1,16 @@
+{
+  "Scenes/Campaign/build_content.py": "0a3573120e1d50766bbac72778f2d3a4e1c4d901fa56057e6f9dc6db3920a656",
+  "Scenes/Campaign/story_content.py": "0deedef62a25e376b3470b31c9243ca6ba893b0530799e0ea5223e4fccf7c8c2",
+  "Scenes/Campaign/campaign_state.gd": "3a0d1dc6753bfe842053d97529588bfaf8c57b0833f3cfe78ab2ea7569ab7907",
+  "Scenes/Campaign/campaign_controller.gd": "237e6dc9de9c0b235e1098320fc614830350a5a6f766e6615ec68a466e4d8894",
+  "Scenes/Campaign/onboarding.gd": "1b825b54e32602f08308dd1dc536deb5968ccbb666e7a7ad7a9d0167041c636c",
+  "Scenes/Campaign/guide_profile.gd": "c8d6a4cbbad3a15a65b3ec506c8267eb454dbc5b317522c724ff94d5e3e747bb",
+  "Scenes/Campaign/opening_film.gd": "7ab18ffec044bffebfd7ac22cf9d441728d4017567fb04c90c020811b79eace3",
+  "Scenes/Campaign/content.gd": "504071d25b1221c6d8bc4f2563bf259eb13d6114efd131762ee9a36964e06450",
+  "Scenes/Campaign/content.json": "bfd28c82cdcee461114da07220a7d5380a33a722296a2a967da66b31024fc7e3",
+  "Scenes/Gameplay/game_loop.gd": "6ca01fc23376b712ce28dd6d4c589b177b67f16082e8165d9dbff82b98179a62",
+  "Scenes/Gameplay/loop_state.gd": "6c05d6aa40bd32fba6135bde878c6f67107bb6a3af8b4f2d5254b32321d244f8",
+  "Localization/messages.tsv": "0e1e1c5985335c8d1eac7a5c8cb23aed12a152f70f1de791692e1129de0fff86",
+  "Localization/catalog.gd": "6bffb5bbdfa7af57865070326f4e3d86d333edcfb600dcc51225eb4f20889f80",
+  "Narrative/Rebuild_20261020/\u573a\u666f\u7d22\u5f15.json": "787a73e8b30aebad0f96a6c704ccdfc109be7661d70e7cd1ef066a5a16a262ca"
+}

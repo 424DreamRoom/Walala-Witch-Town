@@ -109,7 +109,7 @@ func run() -> void:
 	await wait_for(0.9)
 	check("game music and rain use native channels", game.music[game.active].playing and game.ambient.playing)
 	for key in game.streams:
-		if key in ["day_town", "night_town3", "rain", "wind", "ui"]: continue
+		if Library.TRACKS.has(key) or key in ["rain", "wind", "ui"]: continue
 		game.play_event(key)
 		check("native action starts " + key, game.effects.any(func(voice): return voice.playing))
 		for voice in game.effects: voice.stop()

@@ -52,6 +52,21 @@ func visible_hero_pixels(image: Image, feet: Vector2i) -> int:
 				count += 1
 	return count
 
+func check_building_seam(kind: String) -> void:
+	var object = null
+	for child in lane.actors.get_children():
+		if child.get_meta("outdoor_kind", "") == kind:
+			object = child
+			break
+	if object == null or object.get_child_count() < 2:
+		check("roof seam " + kind, false)
+		return
+	var roof: Sprite2D = object.get_child(0)
+	var facade: Sprite2D = object.get_child(1)
+	var roof_bottom := roof.position.y + roof.region_rect.size.y
+	var facade_top := facade.position.y
+	check("roof seam " + kind, roof.region_enabled and facade.region_enabled and roof_bottom + 0.01 >= facade_top)
+
 func run() -> void:
 	lane = load("res://Scenes/LanternLane/lantern_lane.tscn").instantiate()
 	root.add_child(lane)
@@ -67,6 +82,8 @@ func run() -> void:
 	check("town decorations loaded", lane.actors.get_child_count() == layout.buildings.size() + layout.props.size() + 1 + loop.gate_labels.size())
 	check("building weather cover", lane.weather.roof_rects.size() == layout.buildings.size())
 	check("town Y sorting", lane.actors.y_sort_enabled)
+	check_building_seam("shop_7")
+	check_building_seam("shop_8")
 	await shot("outdoor_town_entry")
 	if capture:
 		lane.player.position = Vector2(300, 364)

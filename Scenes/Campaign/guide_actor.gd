@@ -7,6 +7,7 @@ var sprite: Sprite2D
 var walk_elapsed := 0.0
 var facing := 0
 var walking := false
+var shadow: Polygon2D
 
 func face(direction: Vector2) -> void:
 	if direction.is_zero_approx(): return
@@ -21,12 +22,14 @@ func pose_walk(delta: float, moving: bool) -> void:
 	walk_elapsed += maxf(0.0, delta) if moving else 0.0
 	# Native 140 ms walk cels contain the stride and bob; keep feet on the grid.
 	sprite.frame = facing * 4 + int(walk_elapsed / 0.14) % 4 if moving else [16,18,19,20][facing]
-	sprite.position = position.round() - position
+	var bob := -1.0 if moving and int(walk_elapsed / 0.14) % 2 == 0 else 0.0
+	sprite.position = position.round() - position + Vector2(0, bob)
+	shadow.scale = Vector2(1.06 if moving else 1.0, 0.92 if moving else 1.0)
 
 func _init() -> void:
 	name = "Guide_Yingluo"
 	ActorCollision.attach(self)
-	var shadow := Polygon2D.new()
+	shadow = Polygon2D.new()
 	shadow.polygon = PackedVector2Array([Vector2(-8,-3), Vector2(-5,-5), Vector2(5,-5), Vector2(8,-3), Vector2(5,0), Vector2(-5,0)])
 	shadow.color = Color(0.12, 0.2, 0.18, 0.3)
 	add_child(shadow)

@@ -77,7 +77,8 @@ sundial|日晷|Sundial|日時計|日晷|garden|0,1,6|24,20|farm|sundial
 loom|织布架|Weaving Frame|織り機|織布架|workshop|14,2,0|48,28|both|loom
 spinning_wheel|纺车|Spinning Wheel|糸車|紡車|workshop|12,1,0|40,24|both|spinning
 kiln|陶窑|Pottery Kiln|陶芸窯|陶窯|workshop|4,4,16|48,40|farm|kiln
-cauldron|魔女坩埚|Witch Cauldron|魔女の大釜|魔女坩堝|workshop|4,6,4|40,32|both|cauldron"""
+cauldron|魔女坩埚|Witch Cauldron|魔女の大釜|魔女坩堝|workshop|4,6,4|40,32|both|cauldron
+piano|钢琴|Piano|ピアノ|鋼琴|workshop|28,4,0|88,42|home|piano"""
 CATEGORIES = [
     ("all", "全部", "All", "すべて", "全部"),
     ("fences", "围栏", "Fences", "柵", "圍欄"),
@@ -222,13 +223,21 @@ def svg(shape, category, width=48, height=48):
         if shape == "star_rug": star(24, 27)
         else:
             for x in [17, 24, 31]: r(x-1, 27, 3, 3, cream, False)
-    elif shape in ["mirror", "clock", "painting", "globe", "vase", "aquarium", "music_box"]:
+    elif shape in ["mirror", "clock", "painting", "globe", "vase", "aquarium", "music_box", "piano"]:
         if shape == "mirror": e(24, 21, 12, 18, light); e(24, 21, 9, 15, '#adc9cb'); line(19, 28, 28, 13, cream); legs(37, 13, 31)
         elif shape == "clock": r(8, 16, 32, 26, wood); e(24, 17, 14, 14, wood); e(24, 17, 10, 10, cream); line(24, 17, 24, 10); line(24, 17, 30, 20); r(21, 31, 6, 7, light)
         elif shape == "painting": legs(29); line(24, 8, 24, 43, wood, 3); r(6, 9, 36, 27, light); r(9, 12, 30, 21, '#adc9cb'); p('10,31 20,19 29,30', sage); p('24,31 32,23 39,31', '#62795b'); e(32, 18, 3, 3, cream)
         elif shape == "globe": r(16, 40, 16, 4, wood); line(24, 30, 24, 40, wood, 4); e(24, 21, 14, 14, '#8ba9ac'); p('13,16 22,10 29,15 26,22 18,24', sage); line(14, 10, 34, 32, cream)
         elif shape == "vase": p('18,13 30,13 28,23 36,33 31,43 17,43 12,33 20,23', '#b8afc9'); flowers(); r(18, 34, 12, 3, cream, False)
         elif shape == "aquarium": legs(34); r(4, 13, 40, 25, wood); r(7, 16, 34, 19, '#9fc6c9'); p('18,25 24,21 30,25 24,29', '#e3ae72'); p('30,25 35,21 35,29', '#e3ae72'); line(12, 34, 14, 24, sage); r(8, 33, 30, 2, '#b9b08b', False)
+        elif shape == "piano":
+            # Upright piano silhouette with a readable keyboard and music stand.
+            r(5, 10, 38, 30, dark); r(8, 13, 32, 8, wood); p('7,10 14,5 39,5 43,10', light)
+            r(8, 22, 32, 9, cream); r(8, 22, 32, 2, light, False)
+            for x in range(10, 40, 4): r(x, 23, 3, 7, '#fff4d7', False)
+            for x in [13, 21, 29, 37]: r(x, 22, 2, 4, ink, False)
+            r(19, 14, 10, 3, cream); line(24, 14, 24, 8, iron); p('19,8 29,8 27,13 21,13', cream)
+            r(9, 39, 5, 5, dark); r(34, 39, 5, 5, dark)
         else: r(10, 26, 28, 16, wood); p('10,25 16,16 35,16 38,25', light); e(24, 30, 7, 3, cream); line(25, 17, 25, 8, iron); e(22, 8, 3, 2, iron)
     elif category == "garden":
         if shape in ["flower_box", "clay_planter", "herb_planter"]:
@@ -302,7 +311,7 @@ def main():
     assert len({r['sha256'] for r in icons}) == len(entries), 'Every icon must have its own silhouette'
     (ROOT / 'Art/Building/manifest.json').write_text(json.dumps(dict(count=len(entries), icons=icons, source='Original code-native SVG silhouettes; no external game assets'), indent=2), encoding='utf-8')
     categories = {row[0]: row[1] for row in CATEGORIES}
-    lines = ['# 建造清单', '', '68 种建造物，图标为项目原创 SVG。所有配方均需要附近的建造工作台。', '',
+    lines = ['# 建造清单', '', f'{len(entries)} 种建造物，图标为项目原创 SVG。所有配方均需要附近的建造工作台。', '',
              '| 图标 | 名称 | 分类 | 木材 | 铁锭 | 矿石 | 场地 |', '| --- | --- | --- | ---: | ---: | ---: | --- |']
     for row in entries:
         area = dict(home='室内', farm='户外', both='室内与户外')[row['area']]

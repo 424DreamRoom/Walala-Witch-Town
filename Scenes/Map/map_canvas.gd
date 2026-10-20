@@ -19,6 +19,12 @@ var map_rect := Rect2()
 var hovered := ""
 var elapsed := 0.0
 
+const MAP_INK := Color("4b392f")
+const MAP_EDGE := Color("6d523b")
+const MAP_HIGHLIGHT := Color("efd39a")
+const MAP_ROUTE := Color("6a573d")
+const MAP_ROUTE_HIGHLIGHT := Color("d6b276")
+
 func _ready() -> void:
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	mouse_filter = Control.MOUSE_FILTER_STOP
@@ -71,6 +77,8 @@ func region_markers(region: String) -> Array[Dictionary]:
 		for key in layouts.town.gates:
 			var point: Array = layouts.town.gates[key]
 			result.append({"point": Vector2(point[0], point[1]), "label": PLACES[key], "target": key})
+		if loop.property_service != null:
+			result.append({"point": loop.property_service.actor.position, "label": "房地产魔女", "target": "town", "type": "property"})
 	elif region == "farm":
 		result.append({"point": Furniture.STARTER_BENCH, "label": "建造工作台", "target": ""})
 		for key in ["home", "exit", "refill"]:
@@ -123,23 +131,129 @@ func _process(delta: float) -> void:
 	elapsed += delta
 	queue_redraw()
 
+func _draw_route(start: Vector2, finish: Vector2, width: float = 6.0) -> void:
+	# Two-tone hand-inked routes keep the stitched regional thumbnails readable
+	# while making the world connections feel like a single town plan.
+	draw_line(start, finish, Color(MAP_ROUTE, 0.85), width + 2.0, true)
+	draw_line(start, finish, Color(MAP_ROUTE_HIGHLIGHT, 0.92), width - 1.0, true)
+	var steps := 6
+	for index in range(1, steps):
+		var point := start.lerp(finish, float(index) / float(steps))
+		draw_circle(point, 1.5, Color(MAP_INK, 0.75))
+
+func _draw_compass(center: Vector2, radius: float = 11.0) -> void:
+	draw_circle(center, radius + 3.0, Color("c2a975"))
+	draw_arc(center, radius + 3.0, 0.0, TAU, 24, Color(MAP_EDGE, 0.85), 1.0, true)
+	var north := PackedVector2Array([
+		center + Vector2(0, -radius),
+		center + Vector2(radius * 0.30, 0),
+		center + Vector2(0, radius * 0.28),
+	])
+	var south := PackedVector2Array([
+		center + Vector2(0, radius),
+		center + Vector2(-radius * 0.30, 0),
+		center + Vector2(0, -radius * 0.28),
+	])
+	draw_colored_polygon(north, Color("76523f"))
+	draw_colored_polygon(south, Color("ead39b"))
+	draw_line(center + Vector2(-radius * 0.72, 0), center + Vector2(radius * 0.72, 0), Color(MAP_INK, 0.8), 1.0)
+	draw_circle(center, 2.0, Color(MAP_INK))
+
+func _draw_leaf_mark(center: Vector2, scale_factor: float = 1.0) -> void:
+	var stem := PackedVector2Array([center + Vector2(-10, 8) * scale_factor, center + Vector2(2, -2) * scale_factor, center + Vector2(10, -9) * scale_factor])
+	draw_polyline(stem, Color("6c7550"), 1.0, true)
+	for point in [center + Vector2(-4, 3) * scale_factor, center + Vector2(2, -2) * scale_factor, center + Vector2(7, -7) * scale_factor]:
+		draw_circle(point, 2.5 * scale_factor, Color("879566"))
+		draw_circle(point + Vector2(1, -1) * scale_factor, 1.0 * scale_factor, Color("b6bd7b"))
+
+func _draw_world_decorations() -> void:
+	# The spare parchment around the four regions becomes a small cartographer's
+	# margin instead of an empty block of color.
+	var center := Vector2(143, 194)
+	for radius in [18.0, 27.0, 36.0]:
+		draw_arc(center, radius, PI * 0.18, PI * 1.22, 18, Color("8e8768", 0.34), 1.0, true)
+	_draw_compass(Vector2(32, 204), 9.0)
+	_draw_leaf_mark(Vector2(143, 206), 0.8)
+	_draw_leaf_mark(Vector2(158, 214), 0.55)
+	# Small ink nodes make the route junctions legible at the overview scale.
+	for point in [Vector2(145, 178), Vector2(158, 188), Vector2(132, 211)]:
+		draw_circle(point, 3.0, Color("7c6247"))
+		draw_circle(point, 1.2, Color("e5c583"))
+
+func _draw_detail_decorations(region: String, rect: Rect2) -> void:
+	var ratio := rect.size / region_size(region)
+	if region == "town":
+		# A faint ring around Moonwell Square clarifies the civic center and the
+		# branching streets without hiding the original pixel buildings.
+		var square := project(Vector2(682, 482), region, rect)
+		for radius in [18.0, 24.0]:
+			draw_arc(square, radius, 0.0, TAU, 28, Color("eed294", 0.42), 1.0, true)
+		var route := PackedVector2Array([
+			project(Vector2(92, 364), region, rect),
+			project(Vector2(682, 482), region, rect),
+			project(Vector2(1120, 650), region, rect),
+			project(Vector2(1592, 652), region, rect),
+		])
+		draw_polyline(route, Color("f1d597", 0.28), maxf(1.0, 2.0 * ratio.x), true)
+	elif region == "farm":
+		# The farm's cultivated center is framed as a soft field terrace, matching
+		# the hand-drawn routes used by the town overview.
+		var terrace := Rect2(project(Vector2(174, 360), region, rect), Vector2(850, 420) * ratio)
+		draw_rect(terrace, Color("f0d6a0", 0.15), true)
+		draw_rect(terrace, Color("7a6547", 0.42), false, 1.0)
+	elif region == "field":
+		for index in range(9):
+			var point := project(Vector2(105 + (index % 3) * 135, 115 + (index / 3) * 66), region, rect)
+			draw_arc(point, 5.0, 0.0, TAU, 12, Color("d8c687", 0.42), 1.0, true)
+	elif region == "dock":
+		# A few quiet wave strokes reinforce the shoreline in the compact dock map.
+		for row in range(3):
+			var y := rect.position.y + rect.size.y * (0.25 + float(row) * 0.23)
+			var wave := PackedVector2Array([
+				Vector2(rect.position.x + rect.size.x * 0.56, y),
+				Vector2(rect.position.x + rect.size.x * 0.68, y - 2),
+				Vector2(rect.position.x + rect.size.x * 0.80, y),
+				Vector2(rect.position.x + rect.size.x * 0.92, y - 2),
+			])
+			draw_polyline(wave, Color("d0d9c1", 0.42), 1.0, true)
+
+func _draw_map_frame(rect: Rect2) -> void:
+	draw_rect(rect.grow(3), Color(MAP_EDGE, 0.95), false, 2.0)
+	draw_rect(rect.grow(1), Color(MAP_HIGHLIGHT, 0.85), false, 1.0)
+	var corner := 4.0
+	for point in [rect.position, Vector2(rect.end.x, rect.position.y), Vector2(rect.position.x, rect.end.y), rect.end]:
+		var direction := Vector2(1, 1)
+		if point.x > rect.get_center().x: direction.x = -1
+		if point.y > rect.get_center().y: direction.y = -1
+		draw_line(point, point + Vector2(corner * direction.x, 0), Color(MAP_INK, 0.8), 1.0)
+		draw_line(point, point + Vector2(0, corner * direction.y), Color(MAP_INK, 0.8), 1.0)
+
 func _draw_region(region: String, rect: Rect2) -> void:
-	draw_rect(rect.grow(2), Color("715c41"))
+	draw_rect(rect.grow(3), Color("715c41"))
+	draw_rect(rect.grow(1), Color("d4b779"), false, 1.0)
 	if region == "field" and loop.state.campaign.region != "field":
 		var key: String = "campaign_"+loop.state.campaign.region
 		if not textures.has(key): textures[key] = load("res://Art/Campaign/maps/"+loop.state.campaign.region+".aseprite")
 		var ground: Texture2D = textures[key]
 		draw_texture_rect(ground,rect,false)
+		_draw_detail_decorations(region, rect)
+		_draw_map_frame(rect)
 		return
 	var ground: Texture2D = texture_for(Furniture.House.ground_path(loop.state.furniture).get_file().get_basename()) if region == "home" else texture_for("store_ground" if region == "furniture_store" else region + ("_background" if region in ["field", "restaurant"] else "_ground"))
 	draw_texture_rect(ground, rect, false)
 	var ratio: Vector2 = rect.size / region_size(region)
+	_draw_detail_decorations(region, rect)
 	if region == "farm":
+		var season_colors := [Color("d5a6b7"), Color("91b87b"), Color("d6a36d"), Color("a9c4d5")]
+		var season_index := int(loop.state.daily_pulse.get("season", 0))
+		draw_rect(rect.grow(-1), season_colors[clampi(season_index, 0, season_colors.size() - 1)], false, 2.0)
 		for key in loop.state.farm.plots:
 			var index := int(key)
 			var plot: Dictionary = loop.state.farm.plots[key]
 			var cell := FarmTerrain.tile_center(index) - Vector2(16, 16)
-			draw_rect(Rect2(rect.position + cell * ratio, Vector2(30, 30) * ratio), Color("68503b") if plot.watered else Color("8e6240"))
+			var soil_color := Color("68503b") if plot.watered else Color("8e6240")
+			if plot.get("fertilized", false): soil_color = soil_color.lightened(0.16)
+			draw_rect(Rect2(rect.position + cell * ratio, Vector2(30, 30) * ratio), soil_color)
 			if plot.growth >= 0:
 				draw_rect(Rect2(project(cell + Vector2(10, 9), region, rect), Vector2(12, 14) * ratio), Color("dab9cb") if plot.growth >= 3 else Color("89a66c"))
 	for item in region_items(region):
@@ -147,7 +261,7 @@ func _draw_region(region: String, rect: Rect2) -> void:
 		if region == "farm" and item.has("resource_id") and (loop.state.resource_left(item.resource_id) <= 0 or item.tiles.any(func(index): return loop.state.farm.plots.has(str(int(index))))): continue
 		if item.has("resource_id") and item.resource_type in ["wood", "ore"] and loop.state.resource_left(item.resource_id) <= 0:
 			kind = "harvest_stump" if item.resource_type == "wood" else "harvest_rubble"
-		var sprite := texture_for(kind)
+		var sprite := Furniture.House.exterior_texture(loop.state.furniture) if region == "farm" and item.get("role", "") == "witch_home" else texture_for(kind)
 		var source_size := Vector2(sprite.get_size())
 		var position := rect.position + (Vector2(item.x, item.y) - Vector2(source_size.x / 2.0, source_size.y)) * ratio
 		var sprite_rect := Rect2(position.round(), (source_size * ratio).ceil())
@@ -159,7 +273,7 @@ func _draw_region(region: String, rect: Rect2) -> void:
 		for index in range(9):
 			var point := Vector2(105 + (index % 3) * 135, 115 + (index / 3) * 66)
 			draw_rect(Rect2(project(point, region, rect) - Vector2(2, 2), Vector2(4, 4)), Color("a8bd80") if loop.state.nodes[index] > 0 else Color("756d56"))
-	draw_rect(rect, Color("e1c18a"), false, 1)
+	_draw_map_frame(rect)
 
 func _caption(text: String, position: Vector2, color: Color = Color("f4e5bf")) -> void:
 	var caption := tr(text)
@@ -189,14 +303,15 @@ func _draw() -> void:
 		for key in ["farm", "field", "dock"]:
 			var gate: Array = layouts.town.gates[key]
 			var destination: Array = layouts[key].get("exit", [24, 280])
-			draw_line(project(Vector2(gate[0], gate[1]), "town", town_rect), project(Vector2(destination[0], destination[1]), key, WORLD_RECTS[key]), Color("63573c"), 5)
+			_draw_route(project(Vector2(gate[0], gate[1]), "town", town_rect), project(Vector2(destination[0], destination[1]), key, WORLD_RECTS[key]), 5.0)
 		for region in WORLD_RECTS:
 			var rect: Rect2 = WORLD_RECTS[region]
 			_draw_region(region, rect)
 			hit_regions.append({"rect": rect, "target": region})
 			_caption(PLACES[region] if region != "dock" else "码头", Vector2(rect.get_center().x, rect.position.y + 16))
+		_draw_world_decorations()
 		for marker in region_markers("town"):
-			if marker.target in ["restaurant", "store", "blacksmith", "furniture_store"]: _pin(marker, "town", town_rect, false)
+			if marker.target in ["restaurant", "store", "blacksmith", "furniture_store"] or marker.get("type", "") == "property": _pin(marker, "town", town_rect, false)
 		_pin({"point": Vector2(layouts.farm.home[0], layouts.farm.home[1]), "label": PLACES.home, "target": "home"}, "farm", WORLD_RECTS.farm, false)
 		var region := outdoor_region()
 		player_point = project(player_anchor(region), region, WORLD_RECTS[region])

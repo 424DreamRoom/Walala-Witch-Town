@@ -6,8 +6,8 @@ source	en	ja	zh_TW
 %s未选中。	%s is not selected.	%sが選択されていません。	%s未選中。
 其他话题	Other topics	ほかの話題	其他話題
 萤萝 · 巡灯员	Yingluo · Lantern Keeper	蛍蘿・灯守	螢蘿 · 巡燈員
-我叫萤萝，平时看着镇上的月灯，也替大家收着没写完的故事。	I’m Yingluo. I tend the moon lanterns and keep the town’s unfinished stories.	私はインルオ。町の月灯と、まだ終わらない物語を預かっているの。	我叫螢蘿，平時看著鎮上的月燈，也替大家收著沒寫完的故事。
-这本手记记着每家的灯。空白还很多，不过你的那一页已经开始了。	This journal keeps a lantern for every home. Many pages are blank, but yours has begun.	この手帳には、家々の灯が記されている。空白は多いけれど、あなたの頁は始まったよ。	這本手記記著每家的燈。空白還很多，不過你的那一頁已經開始了。
+我叫萤萝，是镇上的巡灯员，平时负责照看月灯。	I’m Yingluo, the town’s lantern keeper. I look after the moon lanterns.	私はインルオ。町の灯守で、月灯の手入れをしているの。	我叫螢蘿，是鎮上的巡燈員，平時負責照看月燈。
+这本手记给你。镇上的人和最近发生的事，都记在里面了。欢迎来哗啦啦！	This journal’s for you. It has notes about the residents and what’s been happening lately. Welcome to Walala!	この手帳、どうぞ。町の人のことや、最近あったことが書いてあるよ。ワララへようこそ！	這本手記給你。鎮上的人和最近發生的事，都記在裡面了。歡迎來嘩啦啦！
 旧食堂的炉子冷了很久。先从林里的蘑菇和莓果开始吧。	The old kitchen has been cold for years. Woodland mushrooms and berries are the taste this town remembers.	古い食堂の火は、長い間消えたまま。森のキノコとベリーは、この町の懐かしい味です。	舊食堂的爐火熄了很久。林間的蘑菇與莓果，是這座小鎮最熟悉的味道。
 傍晚把灯点上，食堂就会热闹起来。第一桌客人，会记住这里的味道。	The eatery lights up at dusk and stays warm into the night. Its first dinner deserves a page in our journal.	食堂は夕暮れに灯り、夜まで温もりが続きます。最初の夕食は、手記に残したい一夜ですね。	食堂在傍晚亮燈，一直溫暖到夜裡。第一桌晚餐，值得被好好記在手記上。
 月芽农场的土还很肥。种子按季节种下去，慢慢就会长大。	Moonsprout Farm still has rich soil. Crops remember the seasons, the rain, and those who tend them each day.	月芽農場の土は、今も豊かです。作物は季節や雨とともに、日々世話をする人も覚えています。	月芽農場的土壤仍然肥沃。作物記著季節與雨水，也記著每天照料它的人。
@@ -20,7 +20,7 @@ source	en	ja	zh_TW
 四季的作物各有自己的颜色。收齐它们，星图才会完整。	Each season's crops have their own colors. Twelve kinds of harvest will restore the old star chart's seasons.	四季の作物には、それぞれの色があります。十二種類の実りが、古い星図の季節を満たします。	四季的作物各有自己的顏色。十二種收穫，將為舊星圖添上完整的季節。
 观星台还缺几块月晶。每块光里，都有大家一起过日子的记忆。	The observatory's moon crystals are nearly whole. Every glimmer holds a memory of life shared in town.	観星台の月晶には、あと少し欠片が足りません。一つ一つの光に、町で共に暮らした記憶があります。	觀星臺的月晶還缺最後幾片。每一片微光裡，都有小鎮共同生活的記憶。
 长桌摆好了。最后三道菜端上来，大家的故事就能在一盏灯下碰面。	The long table is ready. Three final banquet dishes will bring everyone's stories together under one lantern.	長い食卓の用意ができました。最後の三品が、みんなの物語を同じ灯の下へ結びます。	長桌已經備好。最後三道宴席料理，將讓所有人的故事在同一盞燈下相遇。
-手记写满了。灯还会一直亮，接下来的日子，就和小镇一起过吧。	The journal is full. The lanterns will keep shining through all the days you share with this town.	手帳はいっぱいになった。これから町と過ごす日々にも、灯はずっと輝いているよ。	手記寫滿了。燈還會一直亮，接下來的日子，就和小鎮一起過吧。
+月环亮了，大家也都在。真好啊。以后有空，咱们还一起吃饭。	The moonring’s shining, and everyone’s here. It’s good to see. Let’s keep having dinner together.	月環も光って、皆もいる。よかったね。これからも一緒にご飯を食べよう。	月環亮了，大家也都在。真好啊。以後有空，咱們還一起吃飯。
 当前目标：%s · %d/%d	Current goal: %s · %d/%d	現在の目標：%s · %d/%d	目前目標：%s · %d/%d
 这一页写完了，今晚的月灯又亮了一盏。	This page's wish has come true. Tonight, the moon lanterns shine a little brighter.	この頁の願いが叶いました。今夜の月灯が、少し明るくなりましたね。	這一頁的心願已經實現，今晚的月燈又亮了一些。
 当前目标	Current goal	現在の目標	目前目標
@@ -468,7 +468,7 @@ Sounds/Walala/UI/manifest.json，原包授权见 UI/*_LICENSE.txt。	Sounds/Wala
 售出香草 ×1    +3金	Sell herb x1    +3G	ハーブ売却 ×1    +3G	售出香草 ×1    +3金
 哗啦啦魔女镇 →	Walala Witch Town →	わらら魔女の町 →	嘩啦啦魔女鎮 →
 月芽农场 ←	← Crescent Farm	← 月芽農場	月芽農場 ←
-月芽农场	Moonsprout Farm	月芽農場	月芽農場
+月芽农场	Moonbud Farm	月芽農場	月芽農場
 购入香草种子 ×4，花费2金。	Bought 4 herb seeds for 2G.	ハーブの種を4個、2Gで買いました。	購入香草種子 ×4，花費2金。
 售出香草 ×1，获得3金。	Sold 1 herb for 3G.	ハーブを1個売って3Gを得ました。	售出香草 ×1，獲得3金。
 已浇水 · 生长 %d/%d 天	Watered · Growth %d/%d days	水やり済み · 成長 %d/%d 日	已澆水 · 生長 %d/%d 天
@@ -729,71 +729,71 @@ Resource yield %d"	"採集力 %d
 茉莉的约定	Mori’s Promise	モリの約束	茉莉的約定
 茉莉的新生活	Mori’s New Life	モリの新生活	茉莉的新生活
 茉莉	Mori	モリ	茉莉
-下雨以后，种子长得最快。	Seeds remember every rain.	種は雨を覚えている。	種子記得每一場雨。
-温室重新有光了，妈妈要是看见，应该会高兴。	Mother’s greenhouse holds sunlight again.	母の温室にまた光が差した。	母親的溫室終於又透進了光。
+我还是惦记着温室里的那些种子，不知道今年能不能种活。	I keep thinking about the greenhouse seeds. I wonder if they’ll grow this year.	温室の種が気になるの。今年は育つかな。	我還是惦記著溫室裡的那些種子，不知道今年能不能種活。
+温室又能种东西了。妈妈要是看见，肯定会高兴的。	The greenhouse is growing things again. Mum would be so happy to see it.	温室でまた作物が育ってる。お母さんが見たら、きっと喜ぶね。	溫室又能種東西了。媽媽要是看見，肯定會高興的。
 余烬的旧物	Ember’s Keepsake	エンバーの形見	餘燼的舊物
 余烬的牵挂	Ember’s Concern	エンバーの気がかり	餘燼的牽掛
 余烬的约定	Ember’s Promise	エンバーの約束	餘燼的約定
 余烬的新生活	Ember’s New Life	エンバーの新生活	餘燼的新生活
 余烬	Ember	エンバー	餘燼
-火要慢慢烧，锤子也得跟着节奏来。	Fire and hammers each have a rhythm.	火も槌も独自の拍子がある。	火候和錘聲都有自己的節拍。
-这回，我打的东西是给小镇用的。	This time, I am forging something for our town.	今度は町に残すものを鍛える。	這一次，我打造的是留給小鎮的東西。
+打铁这活儿急不来，火候不对，敲再多下也没用。	You can’t rush a forge. If the heat’s wrong, more hammering won’t help.	鍛冶は急いでもだめだ。火加減が違えば、何度打っても無駄になる。	打鐵這活兒急不來，火候不對，敲再多下也沒用。
+这回做的东西，镇上用得着。我也算放心了。	The town can use what I’m making now. That puts my mind at ease.	今作っているものは、町で役に立つ。それなら俺も安心だ。	這回做的東西，鎮上用得著。我也算放心了。
 澪的旧物	Nagi’s Keepsake	ナギの形見	澪的舊物
 澪的牵挂	Nagi’s Concern	ナギの気がかり	澪的牽掛
 澪的约定	Nagi’s Promise	ナギの約束	澪的約定
 澪的新生活	Nagi’s New Life	ナギの新生活	澪的新生活
 澪	Nagi	ナギ	澪
-今天的海风，还是一股咸味。	The wind carries salt from far away.	海風が遠くの塩を運んでくる。	海風今天帶著遠方的鹽味。
-航线亮起来了，我也不用怕走远。	The old route shines again. I have a reason to return.	古い航路が輝き、帰る理由ができた。	舊航線重新亮了，我也有了回來的理由。
+今天海风挺大，吹得我一身都是咸味。	That sea wind’s strong today. I’ve got salt all over me.	今日は海風が強いね。体中しょっぱくなっちゃった。	今天海風挺大，吹得我一身都是鹹味。
+航线恢复了，出去一趟也能回来。我总算不用那么担心了。	The route’s back. I can go away and come home again. That’s a relief.	航路が戻ったから、出かけても帰ってこられる。やっと安心できたよ。	航線恢復了，出去一趟也能回來。我總算不用那麼擔心了。
 露米的旧物	Lumi’s Keepsake	ルミの形見	露米的舊物
 露米的牵挂	Lumi’s Concern	ルミの気がかり	露米的牽掛
 露米的约定	Lumi’s Promise	ルミの約束	露米的約定
 露米的新生活	Lumi’s New Life	ルミの新生活	露米的新生活
 露米	Lumi	ルミ	露米
-橱窗里还缺一盏我自己做的灯。	My window is missing a light of its own.	窓辺にはまだ自分の灯りがない。	櫥窗裡還少一盞屬於自己的燈。
-原来我做的东西，真的能让人记住。	My craft can become someone’s treasured memory.	私の手仕事も誰かの思い出になる。	原來我的手藝也能成為別人的紀念。
+橱窗里摆的都是订货。我自己设计的那盏灯，还没敢拿出来。	Everything in the window is a customer order. I haven’t dared put out the lamp I designed myself.	窓にあるのは全部注文の品なの。自分で考えた灯は、まだ出す勇気がなくて。	櫥窗裡擺的都是訂貨。我自己設計的那盞燈，還沒敢拿出來。
+原来大家真的喜欢我做的东西。现在我敢把自己的作品摆出来了。	People really do like what I make. Now I’m ready to put my own designs on display.	私の作ったもの、本当に喜んでもらえたんだね。今なら、自分の作品も店に出せるよ。	原來大家真的喜歡我做的東西。現在我敢把自己的作品擺出來了。
 星芒的旧物	Aster’s Keepsake	アスターの形見	星芒的舊物
 星芒的牵挂	Aster’s Concern	アスターの気がかり	星芒的牽掛
 星芒的约定	Aster’s Promise	アスターの約束	星芒的約定
 星芒的新生活	Aster’s New Life	アスターの新生活	星芒的新生活
 星芒	Aster	アスター	星芒
-星图上少的那一块，总让我想起一个人。	Someone left a name where the chart is missing.	星図の欠けた場所に名前が残っている。	星圖缺失的地方，總有人留下名字。
-看见星星，我就知道她还和我们在一起。	Starlight is our shared coordinate.	星の光は私たち共通の座標だ。	星光不是告別，是我們共同的座標。
+星图缺的那一块，我一直没补。每次看见，都会想起以前的事。	I still haven’t filled in that part of the chart. It brings back old memories every time I look at it.	星図の欠けたところ、まだ埋めてないんだ。見るたびに昔のことを思い出してしまって。	星圖缺的那一塊，我一直沒補。每次看見，都會想起以前的事。
+我还是会想姐姐。不过现在看星星的时候，心里没那么难受了。	I still miss my sister. But looking at the stars doesn’t hurt quite so much now.	姉には今も会いたい。でも星を見ても、前ほどつらくなくなったよ。	我還是會想姐姐。不過現在看星星的時候，心裡沒那麼難受了。
 陶陶的旧物	Toma’s Keepsake	トマの形見	陶陶的舊物
 陶陶的牵挂	Toma’s Concern	トマの気がかり	陶陶的牽掛
 陶陶的约定	Toma’s Promise	トマの約束	陶陶的約定
 陶陶的新生活	Toma’s New Life	トマの新生活	陶陶的新生活
 陶陶	Toma	トマ	陶陶
-这本旧食谱，空白的地方最扎眼。	The gaps in old recipes say as much as the ink.	古い料理帳の余白が気になる。	舊食譜的空白，比字跡更讓人在意。
+这本旧食谱，我翻了不知道多少遍。有几处空着的地方，总想弄明白原来写了什么。	I’ve read this old recipe book more times than I can count. I keep wondering what used to be in those blank spots.	この古い料理帳、何度読んだかわからないよ。空いたところに何が書いてあったのか、気になってね。	這本舊食譜，我翻了不知道多少遍。有幾處空著的地方，總想弄明白原來寫了什麼。
 新菜单第一页，写上我自己的名字。	Our names belong on this new menu too.	新しい献立には私たちの名前もある。	這張新菜單上，也寫著我們的名字。
 皮普的旧物	Pip’s Keepsake	ピップの形見	皮普的舊物
 皮普的牵挂	Pip’s Concern	ピップの気がかり	皮普的牽掛
 皮普的约定	Pip’s Promise	ピップの約束	皮普的約定
 皮普的新生活	Pip’s New Life	ピップの新生活	皮普的新生活
 皮普	Pip	ピップ	皮普
-废墟里的齿轮，还能再转起来。	The ruins’ gears await their next turn.	廃墟の歯車は次の回転を待っている。	廢墟裡的齒輪還在等下一次轉動。
-机器省下的时间，正好拿来一起吃饭。	The machines leave us time to eat together.	機械のおかげで皆で食事する時間ができた。	機器省下來的時間，終於夠大家一起吃飯了。
+遗址里那些旧齿轮，看着旧，其实不少还能用。	Those gears in the ruins look worn, but a lot of them still work.	遺跡の歯車、古そうだけど、まだ使えるものも多いんだよ。	遺址裡那些舊齒輪，看著舊，其實不少還能用。
+有机器帮忙，总算能按时吃饭了。这可比让它转得更快实在多了。	With the machines helping, I can finally eat on time. That’s better than just making them run faster.	機械のおかげで、やっと時間どおりにご飯を食べられるよ。ただ速くするより、ずっといいね。	有機器幫忙，總算能按時吃飯了。這可比讓它轉得更快實在多了。
 芦苇的旧物	Reed’s Keepsake	リードの形見	蘆葦的舊物
 芦苇的牵挂	Reed’s Concern	リードの気がかり	蘆葦的牽掛
 芦苇的约定	Reed’s Promise	リードの約束	蘆葦的約定
 芦苇的新生活	Reed’s New Life	リードの新生活	蘆葦的新生活
 芦苇	Reed	リード	蘆葦
-沼泽一直有声音，只是很轻。	The marsh speaks softly.	湿地の声はただ静かなだけだ。	沼澤沒有沉默，只是聲音很輕。
-水道通了，候鸟会慢慢回来的。	The channels flow again. The birds will return.	水路が戻れば渡り鳥も帰ってくる。	乾涸的水道恢復了，候鳥也會回來。
+湿地里其实一直有动静。水声小了，鸟叫也比以前少了。	There’s still life in the marsh. But the water’s quieter, and there aren’t as many birds singing.	湿地には今も生き物がいるよ。でも水音も小さくなって、鳥の声も昔より減ったね。	濕地裡其實一直有動靜。水聲小了，鳥叫也比以前少了。
+水道通了，鱼和鸟也慢慢回来了。湿地总算又像以前那样了。	The water’s flowing, and the fish and birds are coming back. The marsh is starting to feel like it used to.	水路が通って、魚も鳥も少しずつ戻った。湿地もやっと、昔の姿に近づいてきたね。	水道通了，魚和鳥也慢慢回來了。濕地總算又像以前那樣了。
 霜铃的旧物	Yuki’s Keepsake	ユキの形見	霜鈴的舊物
 霜铃的牵挂	Yuki’s Concern	ユキの気がかり	霜鈴的牽掛
 霜铃的约定	Yuki’s Promise	ユキの約束	霜鈴的約定
 霜铃的新生活	Yuki’s New Life	ユキの新生活	霜鈴的新生活
 霜铃	Yuki	ユキ	霜鈴
-雪线那边，还有一封我没寄出去的信。	Beyond the snow line waits my unsent letter.	雪線の向こうに出せなかった手紙がある。	雪線那邊，有我沒寄出的信。
-信寄出去了，春天也快到了。	The letter is sent. Spring feels near.	手紙を出した。春はもう近い。	信終於寄出了，春天也就不遠了。
+山上那条邮路，我好久没走了。邮袋倒是一直放在手边。	I haven’t taken the mountain mail route in a long time. I still keep the mailbag beside me, though.	山の郵便道、ずいぶん歩いてないな。でも郵袋は、ずっと手元に置いてあるの。	山上那條郵路，我好久沒走了。郵袋倒是一直放在手邊。
+回信总算寄出去了。我现在每天都想去看看温室里的花。	I finally sent that reply. Now I look forward to checking the greenhouse flowers every day.	やっと返事を出せたよ。今は毎日、温室の花を見るのが楽しみなんだ。	回信總算寄出去了。我現在每天都想去看看溫室裡的花。
 奥萝的旧物	Orla’s Keepsake	オルラの形見	奧蘿的舊物
 奥萝的牵挂	Orla’s Concern	オルラの気がかり	奧蘿的牽掛
 奥萝的约定	Orla’s Promise	オルラの約束	奧蘿的約定
 奥萝的新生活	Orla’s New Life	オルラの新生活	奧蘿的新生活
 奥萝	Orla	オルラ	奧蘿
-镇上少一盏灯，饭桌边就少一个人。	One lost town lantern leaves a place empty.	町の灯が一つ消えると席が一つ空く。	鎮上的燈少了一盞，桌邊就會空一處。
-这一次，镇上的灯一盏都没少。	This time, every town lantern is shining.	今度は町の灯が一つも欠けていない。	這一次，鎮上的燈一盞也沒有少。
+这几年走了不少人，食堂也空了不少座位。我总想着，什么时候大家还能聚一聚。	A lot of people have left these past few years. So many seats are empty now. I keep hoping we’ll all have dinner together again.	この数年で、町を出た人が増えたね。食堂の空席も増えた。また皆で集まれたらって、いつも思うの。	這幾年走了不少人，食堂也空了不少座位。我總想著，什麼時候大家還能聚一聚。
+镇上的灯全亮了。看着大家都在，我这心总算踏实了。	All the town’s lanterns are shining. Seeing everyone here, I can finally relax.	町の灯が全部ついた。皆がここにいるのを見ると、やっと安心できるよ。	鎮上的燈全亮了。看著大家都在，我這心總算踏實了。
 萤灯森林	Firefly Grove	蛍灯の森	螢燈森林
 余烬石谷	Ember Quarry	残火の石谷	餘燼石谷
 莲雾湿地	Lotus Marsh	蓮霧の湿地	蓮霧濕地
@@ -920,46 +920,46 @@ Resource yield %d"	"採集力 %d
 容量 %d · 菜单 %d · 声望 %d	Seats %d · Menu %d · Reputation %d	席 %d・献立 %d・評判 %d	容量 %d · 菜單 %d · 聲望 %d
 熔炼	Smelt	精錬	熔煉
 取出	Withdraw	取り出す	取出
-我一直没提过妈妈。她失踪后，我把最后一包种子藏在温室里，谁也没告诉。	Two shadows cross the old greenhouse glass. Mori speaks of her missing mother and the last seeds that never sprouted.	古い温室に二つの影。モリは行方不明の母と芽吹かなかった最後の種を語った。	溫室舊玻璃上映著兩個身影。茉莉第一次提起失蹤的母親，以及沒有發芽的最後一包種子。
-种子终于发芽了。妈妈留下的办法不能只放在我手里，我想教给全镇。	Those seeds were waiting for warm rain. Mori decides to share her mother’s research with the town.	種は温かな雨を待っていた。モリは母の研究を町に伝えると決めた。	那包種子沒有死去，只是在等待一場溫暖的雨。茉莉決定把母親的研究留給整個小鎮。
-新芽冒出来那天，我哭了。把留下的生命照顾好，不是在背叛妈妈。	Mori weeps as the shoots emerge. Caring for those who remain does not betray those who left.	芽が土を押し上げた時、モリは泣いた。残る命を守ることは旅立った人を裏切らない。	新苗頂開泥土時，茉莉哭了。她終於相信，照顧留下來的生命並不是背叛遠行的人。
-我把第一批四季种子分给大家。门口那块牌子写着：春天是大家的。	Mori shares the first seasonal seeds. The greenhouse sign reads: Spring belongs to everyone.	モリは四季の種を分けた。温室の看板には「みんなの春」。	茉莉把第一批四季種子分給大家。溫室門上掛起新牌子：屬於所有人的春天。
-这枚烧黑的徽章，是我给月环做零件时留下的。那次事故以后，我不敢再碰灯架。	A scorched badge lies under the anvil. Ember forged parts that sealed the moonring and has feared making lanterns since.	金床の下に焦げた徽章。月環を閉ざす部品を鍛えたエンバーは、灯の台を作れずにいた。	鐵砧下壓著一枚燒黑的徽章。餘燼曾為封閉月環打造零件，從此不敢再鍛造燈架。
-旧图纸说明白了，事故是核心失控造成的。我还是要把熄灭的灯一盏盏修好。	The restored plans reveal a runaway core caused the accident. Ember still chooses to rebuild every lost lantern stand.	修復した図面は事故の原因が暴走した核だと示した。それでもエンバーは灯台を作り直す。	修復的舊圖紙證明，事故來自失控的核心。餘燼仍然堅持為每一盞熄滅的燈補做燈架。
-镇钟装好后，我把徽章熔了进去。过去的事，就跟着钟声一起留下吧。	The last rivet falls. Ember melts the badge into the new town bell, giving the past a new voice.	最後の鋲が打たれた。古い徽章は新しい町の鐘になり、過去に新しい音が生まれた。	最後一枚鉚釘落下。餘燼把舊徽章熔進新的鎮鐘，過去的傷痕終於有了新的聲音。
-钟一响，我就走出了炉房。剩下的好铁，我要拿来造自己的第一条小船。	When the bell rings, Ember leaves the forge. Three fine ingots remain as he begins planning his own little boat.	鐘が鳴り、エンバーは炉を出た。鉄を三つ残し、自分の小舟の計画を始めた。	鎮鐘響起時，餘燼終於走出爐房。他留下三塊好鐵，準備打造屬於自己的第一艘小船。
-这张船票都褪色了。我答应过爸爸守码头，可守到后来，像是把自己也困住了。	Nagi keeps a faded ticket. Her promise to guard the dock has begun to feel like a sentence.	ナギは色あせた船券を持っている。港を守る約束は、出られない罰のようになっていた。	澪保存著一張褪色船票。她答應過父親守住碼頭，卻把留下當成了不能離開的懲罰。
-海水把爸爸的漂流瓶送回来了。他没催我，只写着：海那边也有你的家。	The tide returns her father’s bottle. His letter asks nothing: there is a home for you across the sea too.	潮が父の瓶を返した。手紙は何も求めず「海の向こうにも君の家がある」と伝えた。	潮水送回父親的漂流瓶。信裡沒有要求，只有一句：海的另一邊也有你的家。
-我重画了旧海图，还写上了回来的日期。出海不等于一去不回。	Nagi redraws the long-abandoned sea chart. For the first time, she writes a return date beside her departure.	ナギは長く途絶えた海図を描き直し、出航日の隣に初めて帰港日を書いた。	澪重新繪出停航多年的海圖。她第一次把歸期寫在出航日期旁邊。
-新航线第一次响汽笛。我把改好的钓竿留在岸上，这次出门，我知道怎么回来。	The new route sounds its first whistle. Nagi leaves an improved rod ashore: this journey has a way home.	新航路の汽笛。ナギは改良した竿を岸に残し「今度の旅には帰り道がある」と笑った。	新航線的第一聲汽笛響起。澪把改良釣竿留在岸邊，笑著說，這次遠行也有歸途。
-我的订单簿上全是别人的名字。我把自己的作品藏起来，是怕没人觉得它们有用。	Lumi’s order book holds only other names. Her own designs hide in a drawer, waiting to be wanted.	ルミの注文帳には他人の名前ばかり。自分の作品は必要とされる日を待ち、引き出しに眠る。	露米的訂單簿只寫著別人的名字。她把自己的作品藏在櫃底，怕小鎮不需要這些漂亮而無用的東西。
-月纱灯挂上后，客人一直坐到很晚，还记住了我的名字。	Guests linger beneath her first moonveil lamp. For the first time, Lumi hears someone remember her name.	月紗の灯の下で客は長くくつろいだ。ルミは初めて自分の名を覚えてくれた人に会った。	第一盞月紗燈掛進餐廳後，客人久久沒有離開。露米第一次聽見有人記得她的名字。
-远方工坊让我做仿品，我没答应。我想留下，给哗啦啦做自己的家具。	Lumi turns down a distant workshop’s copies. She will stay and make furniture that belongs to Walala.	ルミは遠い工房の模造依頼を断った。ここに残り、ワララだけの家具を作る。	露米拒絕了遠方工坊的仿製訂單。她決定留下，製作只屬於嘩啦啦的家具。
-月牙桌底下刻着大家的名字。这张桌子，就当作我的开张礼物。	Tiny signatures fill the underside of the moon table. Lumi gifts it to celebrate her own workshop’s opening.	三日月テーブルの裏には皆の署名。自分の工房の開店祝いに、ルミはそれを贈った。	月牙桌下刻著所有人的小小簽名。露米把它作為禮物，慶祝自己的第一家工坊開張。
-我总把观测记录的最后一页撕掉。姐姐出事那晚，她最后出现的位置就在那一页。	Aster tears out every final observation page. It marks where her sister vanished the night the moonring dimmed.	アスターは観測帳の最後を破る。月環が消えた夜、姉が消えた星の位置だった。	星芒總把觀測記錄的最後一頁撕掉。那上面寫著月環熄滅當夜，姐姐最後出現的星位。
-月晶拼出了旧记录。姐姐没有消失，她把记忆留在月环里，护住了山谷。	Moon crystals reveal an old record. Her sister placed her memories within the moonring to shelter the valley.	月晶から古い記録が現れた。姉は谷を守るため、記憶を月環に残したのだ。	散落的月晶拼成了一段舊記錄。姐姐沒有消失，她把記憶留在月環裡，保護了整個山谷。
-我把最后一页补好了，还在星位旁画了她喜欢的茶和今晚的灯。	Aster completes the final page, adding her sister’s favorite tea and tonight’s kitchen lantern beside the stars.	アスターは最後の頁を埋めた。星の隣に姉の好きな茶と今夜の食堂の灯を描いた。	星芒終於補全了最後一頁。她在星位旁添上了姐姐最喜歡的茶，以及今晚餐廳的燈光。
-观星台重新开门了。第一堂课，我想和大家一起看同一片天。	The observatory reopens. Aster leaves five crystals and names her first class: A Sky Shared Across Distance.	天文台が再開した。アスターは月晶を五つ残し、初授業を「遠い人と分かち合う空」と名づけた。	觀星臺重新開放。星芒留下五枚月晶，把第一堂公開課取名為：與遠方的人共享夜空。
-我说自己不会做饭了，其实每天都在擦她用过的汤勺。	Toma claims he has forgotten cooking, yet polishes his late wife’s soup ladle every day.	トマは料理を忘れたと言う。それでも亡き妻のお玉を毎日磨いている。	陶陶說自己早已忘記做飯。可他仍然每天擦拭那隻屬於亡妻的舊湯勺。
-食谱空白处写着：南瓜多放点，他爱吃甜的。我看了很久。	A tiny note hides in the recipe margins: more pumpkin, he likes it sweet. Toma falls silent.	料理帳の余白に「カボチャ多め、彼は甘いのが好き」。トマは長く黙った。	舊食譜空白處出現了一行小字：南瓜多一點，他喜歡甜的。陶陶沉默了很久。
-新汤的味道不一样，但也挺好。我又盛了一碗，想把这个味道也留下。	The pumpkin soup tastes different. Toma takes another bowl: new flavors are worth keeping too.	カボチャのスープは同じ味ではなかった。トマはおかわりし、新しい味も残そうと言った。	那鍋南瓜湯沒有完全一樣的味道。陶陶卻又盛了一碗，說新的味道也值得留下。
-我把早餐摊重新开起来了。新食谱第一页，写上我自己的名字。	Toma reopens his breakfast stall and sends flour and milk. His new recipe book begins with his own name.	トマは朝食屋を再開し、小麦粉と牛乳を届けた。新しい料理帳の最初には自分の名があった。	陶陶重開了早餐攤，把麵粉和牛奶送進食堂。他終於在新食譜第一頁寫下了自己的名字。
-我做的第一台机器把汤甩得到处都是。失败记录我全塞进废铁堆里了。	Pip’s first machine only splashed soup. He hid its failure notes among the scrap.	ピップの最初の機械はスープを飛ばすだけだった。失敗帳は鉄くずの中に隠された。	皮普造的第一臺機器只會把湯攪得到處都是。他偷偷把失敗記錄塞進廢鐵堆。
-遗址日志的字迹和我很像，原来是爷爷留下的。设计留下了，没解决的问题也留下了。	Logs in the ruins resemble Pip’s handwriting. His grandfather left both designs and unfinished questions.	遺跡の記録はピップの字に似ていた。祖父は設計と解けなかった問題を残していた。	舊械遺址裡的日誌與皮普的筆跡很像。那是祖父留下的設計，也留下了從未解決的問題。
-我把追求速度的核心换掉，装了个限速器。机器终于安静地磨出面粉。	Pip replaces the speed-hungry core with a simple governor. The mill quietly makes its first bag of flour.	ピップは速さを求める核を調速器に替えた。機械は初めて静かに小麦粉を挽いた。	皮普拆掉了追求速度的核心，換上一個簡單的限速器。機器第一次安靜地磨出了一袋麵粉。
-新磨粉机放到农场边了。省下来的时间，正好和大家一起吃饭。	The new mill stands by the farm. Pip engraves: Time saved is time shared with those who matter.	新しい製粉機が農場に置かれた。銘板には「大切な人と過ごすために時間をつくる」。	新磨粉機停在農場邊。皮普在銘牌上刻下：節省時間，是為了和重要的人一起度過。
-候鸟清单越写越短。水断了以后，每年回来的鸟都少了。	Reed guards a shrinking list of migratory birds. Since the marsh dried, fewer names return each year.	リードの渡り鳥の名簿は短くなっていた。湿地の水が止まって以来、帰る名は減り続けた。	蘆葦守著一張越來越短的候鳥清單。濕地斷流後，回來的名字一年比一年少。
-水渠被树根和锈闸堵死了。泉水没消失，只是没人把路清出来。	Roots and a rusted gate choke the channel. The lost spring was waiting for someone to listen again.	古い水路は根と錆びた堰で塞がれていた。消えた泉は、また耳を傾ける人を待っていた。	舊水渠被樹根和鏽閘堵住。蘆葦發現，所謂消失的泉眼只是在等待有人重新傾聽。
-清水回到莲塘时，我在清单上添了一个很久没见的名字。	Clear water returns to the lotus pond. Reed quietly adds a long-missing name to the list.	蓮池に清水が戻った。リードは静かに、久しくなかった名を名簿に添えた。	第一股清水回到蓮塘。蘆苇沒有說話，只在清單末尾添上了一個久違的名字。
-候鸟已经落到新水车上了。我把洒水器送去农场，小镇和湿地共用这股水。	Birds settle on the waterwheel. Reed brings a sprinkler, linking farm and marsh through the same clear stream.	鳥が新しい水車に止まった。リードの散水機で、農場と湿地は同じ清流を分かち合う。	候鳥落上新水車。蘆葦把自動灑水器送到農場，小鎮和濕地從此共享同一條清流。
-我总说山路没通，其实是不敢打开邮袋里那封信。	Yuki carries a letter addressed to herself. The mountain road is open; she fears the farewell inside.	ユキの鞄には自分宛ての手紙。山道は通じていたが、中の別れを読むのが怖かった。	霜鈴的郵袋裡，有一封寫給自己的信。她總說山路還沒通，其實是不敢讀懂信裡的告別。
-信里是朋友画的温室图。他没怪我留下，只希望我的冬天也能开花。	The letter holds greenhouse plans. Her traveling friend wanted her winters to bloom, without blaming her for staying.	手紙には温室の図面。旅立った友は残る彼女を責めず、冬にも花が咲くよう願った。	信裡是一份溫室設計。遠行的朋友並沒有責怪她留下，只希望她的冬天也能開花。
-我写了封回信，告诉他食堂和山脚的花。写完后，邮袋轻了不少。	Yuki writes about the new kitchen and flowers below the mountain. Her mailbag finally feels lighter.	ユキは新しい食堂と山麓の花を長い返事に書いた。郵便鞄はようやく軽くなった。	霜鈴寫了很長的回信，講小鎮的新食堂和山腳的花。郵袋終於比從前輕了。
-温室在雪里亮起来了。我装好最后一块玻璃，也把回信寄出去。	The greenhouse glows in snow. Yuki fits the final pane; winter flowers will travel with her reply.	雪の中で温室が輝いた。ユキが最後のガラスをはめると、冬の花は返事と共に旅立つ。	溫室在雪中亮起。霜鈴把最後一塊玻璃安好，第一束冬花將和回信一起遠行。
-那封没署名的信是我写的。我怕你看到账本，知道小镇快撑不住了。	Orla admits she wrote the unsigned letter. She feared the town’s failing accounts would send you away.	オルラは無署名の手紙を書いたと告白した。町の窮状を見て去られるのが怖かった。	奧蘿承認，那封沒有署名的信出自她手。她害怕你看見帳簿上瀕臨停擺的小鎮。
-旧账本里全是大家互相帮忙的记录。原来小镇从来不是靠一个人撑着。	The old ledger records countless quiet kindnesses. Orla sees that no one carried the town alone.	古い帳簿には静かな助けが数えきれない。町は一人で支えられていたのではなかった。	舊帳簿記著每一次無聲的幫助。奧蘿發現，小鎮從來不是靠一個人撐到今天。
-我把修复计划放到长桌上，大家都写下了自己想过的日子。	Orla lays the restoration plan on a public table. Every resident writes a wish beside it.	オルラは修復計画を皆の机に広げた。住民は初めて自分の願いを書き添えた。	奧蘿把修復計劃擺上公共長桌。第一次，所有居民都在計劃旁寫下了自己的願望。
-新账本第一页没有欠款，只有今晚来吃饭的人数。我也给自己留了个座位。	The new ledger opens with tonight’s dinner count instead of debt. Orla finally saves a seat for herself.	新しい帳簿の最初は借金ではなく今夜の人数。オルラはようやく自分の席も残した。	新帳簿第一頁沒有欠款，只有今夜聚餐的人數。奧蘿終於給自己也留了一個座位。
+我妈妈失踪以后，我把她留下的最后一包种子藏在温室里。这事一直没跟人说过。	After my mother went missing, I hid her last packet of seeds in the greenhouse. I haven’t told anyone until now.	お母さんが行方不明になってから、最後に残した種を温室に隠したの。今まで誰にも話せなかった。	我媽媽失蹤以後，我把她留下的最後一包種子藏在溫室裡。這事一直沒跟人說過。
+种子发芽了！妈妈研究的办法真的有用。我想把这些办法也告诉镇上的人。	The seeds sprouted! Mum’s research really works. I want to share what she learned with everyone here.	芽が出たよ！ お母さんが研究してた方法、本当に役に立ったの。町の皆にも伝えたいな。	種子發芽了！媽媽研究的辦法真的有用。我想把這些辦法也告訴鎮上的人。
+看到新芽的时候，我一下就哭了。我还是很想妈妈，但也想把她留下的种子好好种下去。	I cried when I saw the shoots. I still miss Mum, but I want to keep growing the seeds she left me.	芽を見たら、泣いちゃった。お母さんには会いたい。でも、残してくれた種も大事に育てたいの。	看到新芽的時候，我一下就哭了。我還是很想媽媽，但也想把她留下的種子好好種下去。
+第一批四季种子已经分给大家了。温室门口的新牌子写着：春天是大家的。	I’ve shared the first seasonal seeds with everyone. The new greenhouse sign says: Spring belongs to everyone.	最初の四季の種を皆に分けたよ。温室の新しい看板には「みんなの春」って書いたの。	第一批四季種子已經分給大家了。溫室門口的新牌子寫著：春天是大家的。
+这徽章是当年做月环零件时留下的。出了那次事故，我就再没敢做过灯架。	I kept this badge from when I made parts for the moonring. After the accident, I couldn’t bring myself to make lantern stands again.	この徽章は月環の部品を作った頃のものだ。事故のあと、灯の台を作る勇気がなくなった。	這徽章是當年做月環零件時留下的。出了那次事故，我就再沒敢做過燈架。
+旧图纸查清楚了，是核心失控，不是灯架出了问题。不过坏了的那些灯，我还是想修好。	The old plans make it clear: the core ran out of control. The stands weren’t faulty. Still, I want to repair those broken lanterns.	図面でわかった。暴走したのは核で、灯の台のせいじゃなかった。それでも、壊れた灯は直したい。	舊圖紙查清楚了，是核心失控，不是燈架出了問題。不過壞了的那些燈，我還是想修好。
+新镇钟装好了，那枚旧徽章也熔在里面了。留着总是难受，不如做点用得上的东西。	The new town bell is up. I melted the old badge into it. Keeping it hurt. I’d rather make something useful out of it.	新しい町の鐘ができた。古い徽章も溶かして入れたよ。持っているとつらいから、役立つものにしたかった。	新鎮鐘裝好了，那枚舊徽章也熔在裡面了。留著總是難受，不如做點用得上的東西。
+镇钟一响，我也该出炉房歇歇了。我留了三块好铁，打算给自己造条小船。	Once that bell rings, it’s time I took a break from the forge. I’ve saved three good ingots to build myself a little boat.	鐘が鳴ったら、俺も炉を出て休まないとな。いい鉄を三つ取ってある。自分の小舟を作るつもりだ。	鎮鐘一響，我也該出爐房歇歇了。我留了三塊好鐵，打算給自己造條小船。
+这张旧船票我一直没舍得扔。答应爸爸守码头以后，我就觉得自己再也不能出海了。	I never could throw this old ticket away. After promising Dad I’d look after the dock, I thought I could never sail again.	この古い船券、捨てられなくて。お父さんに桟橋を守るって約束してから、もう海に出ちゃいけないと思ってた。	這張舊船票我一直沒捨得扔。答應爸爸守碼頭以後，我就覺得自己再也不能出海了。
+爸爸的漂流瓶居然回来了。信里说，海那边也有我的家。他没想把我一直留在码头。	Dad’s bottle actually washed back! His letter says I have a home across the sea too. He never meant to keep me at the dock forever.	お父さんの流した瓶が戻ってきたの。海の向こうにも私の家はあるって。ずっと桟橋にいろって意味じゃなかったんだね。	爸爸的漂流瓶居然回來了。信裡說，海那邊也有我的家。他沒想把我一直留在碼頭。
+旧海图我重画好了，出发和回来的日期都写上了。出去看看，也不是不回来了。	I’ve redrawn the old chart and written down both my departure and return dates. Going away doesn’t mean I won’t come back.	古い海図を描き直して、出発日も帰る日も書いたよ。出かけるからって、帰らないわけじゃないもんね。	舊海圖我重畫好了，出發和回來的日期都寫上了。出去看看，也不是不回來了。
+新航线通了，我也准备出海了。改好的钓竿留在岸上，这次我把回来的日子都定好了。	The new route’s open, and I’m ready to sail. I left the improved rod ashore. This time I know when I’m coming home.	新しい航路が開いて、私も出航の準備ができたよ。改良した竿は岸に置いてある。今度は帰る日も決めてるんだ。	新航線通了，我也準備出海了。改好的釣竿留在岸上，這次我把回來的日子都定好了。
+我一直照着客人的要求做东西。自己设计的都藏在柜子里，怕人家说好看是好看，就是没用。	I’ve always made what customers ask for. My own designs stay in a cupboard. I’m afraid people will call them pretty but useless.	いつもお客さんの希望どおりに作ってるの。自分の作品は戸棚の中。きれいだけど役に立たないって言われるのが怖くて。	我一直照著客人的要求做東西。自己設計的都藏在櫃子裡，怕人家說好看是好看，就是沒用。
+月纱灯挂进食堂以后，客人都舍不得走。还有人问是谁做的，真的记住了我的名字。	Since the moonveil lamp went up, guests stay longer. Someone even asked who made it. They actually remembered my name.	月紗の灯を食堂につけたら、お客さんが長くいてくれたの。誰が作ったのって聞かれて、名前まで覚えてくれたんだよ。	月紗燈掛進食堂以後，客人都捨不得走。還有人問是誰做的，真的記住了我的名字。
+远方工坊那份仿制订单，我没接。我想留在这儿，做些自己设计、大家也喜欢的家具。	I turned down that distant workshop’s copying job. I want to stay here and make my own furniture, things people will enjoy.	遠い工房の模造の仕事は断ったの。ここに残って、自分で考えた、皆にも喜んでもらえる家具を作りたい。	遠方工坊那份仿製訂單，我沒接。我想留在這兒，做些自己設計、大家也喜歡的家具。
+我的工坊开张了！这张月牙桌送给你，桌子底下还有大家的小签名呢。	My workshop’s open! This moon table is for you. Everyone’s little signatures are underneath.	私の工房、開店したよ！ この三日月テーブルは贈り物。裏には皆の小さなサインもあるんだ。	我的工坊開張了！這張月牙桌送給你，桌子底下還有大家的小簽名呢。
+姐姐失踪那晚的星位，就在观测记录最后一页。我每次写到那里，都会把那页撕掉。	The last observation page shows the stars on the night my sister vanished. Every time I reach that page, I tear it out.	姉が行方不明になった夜の星の位置が、観測帳の最後の頁にあるんだ。そこまで書くと、いつも破ってしまう。	姐姐失蹤那晚的星位，就在觀測記錄最後一頁。我每次寫到那裡，都會把那頁撕掉。
+月晶里的记录是姐姐留下的。她当年把记忆留在月环里，是为了护住山谷。原来是这样……	The records in the crystals came from my sister. She left her memories in the moonring to protect the valley. So that’s what happened…	月晶の記録は姉が残したものだった。谷を守るために、月環に記憶を残したんだ。そうだったのか……。	月晶裡的記錄是姐姐留下的。她當年把記憶留在月環裡，是為了護住山谷。原來是這樣……
+最后一页，我终于写完了。旁边还画了姐姐爱喝的茶。现在我不想再把它撕掉了。	I finally finished the last page. I drew my sister’s favorite tea beside it. I don’t want to tear it out anymore.	最後の頁、やっと書けたよ。姉の好きなお茶も隣に描いた。今はもう、破りたくないんだ。	最後一頁，我終於寫完了。旁邊還畫了姐姐愛喝的茶。現在我不想再把它撕掉了。
+观星台重新开放了。我留下五枚月晶，第一堂公开课，就讲大家每天都能看见的这片星空吧。	The observatory’s open again. I’ve left five moon crystals. For the first public class, I’ll talk about the sky we can all see from here.	天文台をまた開いたよ。月晶を五つ残しておいた。最初の公開授業では、皆が毎日見られるこの星空の話をしようかな。	觀星臺重新開放了。我留下五枚月晶，第一堂公開課，就講大家每天都能看見的這片星空吧。
+我老伴走了以后，我总说自己不会做饭了。可她用过的那把汤勺，我到现在还天天擦。	After my wife died, I kept saying I couldn’t cook anymore. But I still polish her old soup spoon every day.	妻が亡くなってから、もう料理はできないと言ってた。でも、あの人のスープ用の匙は、今も毎日磨いてるんだ。	我老伴走了以後，我總說自己不會做飯了。可她用過的那把湯勺，我到現在還天天擦。
+食谱边上有她写的小字：南瓜多放点，他爱吃甜的。我以前怎么就没注意到呢。	There’s a little note she wrote in the margin: more pumpkin, he likes it sweet. How did I never notice it before?	料理帳の端にあの人の字があった。「カボチャを多めに。あの人は甘いのが好き」。どうして今まで気づかなかったんだろうね。	食譜邊上有她寫的小字：南瓜多放點，他愛吃甜的。我以前怎麼就沒注意到呢。
+这锅南瓜汤，跟她做的还是不一样。不过挺好喝，我又添了一碗。这味道也该记下来。	This pumpkin soup’s different from hers, but it’s good. I had another bowl. This recipe deserves a place in the book too.	このカボチャスープ、あの人の味とは違うね。でもおいしい。おかわりしたよ。この味も書き残したいな。	這鍋南瓜湯，跟她做的還是不一樣。不過挺好喝，我又添了一碗。這味道也該記下來。
+早餐摊我又开起来了，面粉和牛奶也送进食堂了。新食谱的第一页，这回写的是我自己的名字。	I’ve reopened my breakfast stall and brought flour and milk to the eatery. The new recipe book starts with my own name this time.	朝ご飯の店をまた始めて、食堂に小麦粉と牛乳も届けたよ。新しい料理帳の最初には、今度は自分の名前を書いた。	早餐攤我又開起來了，麵粉和牛奶也送進食堂了。新食譜的第一頁，這回寫的是我自己的名字。
+我做的第一台机器，把汤甩得到处都是。太丢人了，连失败记录都让我塞进了废铁堆。	My first machine flung soup everywhere. I was so embarrassed, I hid even the failure notes in the scrap pile.	最初に作った機械、スープをそこら中に飛ばしちゃって。恥ずかしくて、失敗の記録まで鉄くずに隠したんだ。	我做的第一臺機器，把湯甩得到處都是。太丟人了，連失敗記錄都讓我塞進了廢鐵堆。
+遗址里那本日志，原来是爷爷写的！字跟我真像。他没解决的问题，我也碰上了。	That logbook in the ruins was Grandpa’s! Our handwriting’s so alike. I’ve run into the same problems he never solved.	遺跡の記録帳、おじいちゃんが書いたものだった！ 字も僕とそっくり。おじいちゃんが解けなかった問題に、僕もぶつかってたんだ。	遺址裡那本日誌，原來是爺爺寫的！字跟我真像。他沒解決的問題，我也碰上了。
+那个只顾着加速的核心，我拆掉了，换成限速器。这下机器总算不乱响了，还磨出了一袋面粉！	I took out the core that kept speeding up and fitted a limiter. Now the machine’s quiet, and it’s milled a whole bag of flour!	加速ばかりする核を外して、速度を抑える装置に替えたよ。やっと静かになって、小麦粉が一袋できた！	那個只顧著加速的核心，我拆掉了，換成限速器。這下機器總算不亂響了，還磨出了一袋麵粉！
+新磨粉机放农场边了，铭牌也刻好了：省下的时间，留给想陪的人。以后我可不在炉边吃冷饭了。	The new mill’s beside the farm. Its plate says: save time for the people you care about. No more cold dinners by the furnace for me.	新しい粉ひき機を農場のそばに置いたよ。銘板には「大事な人と過ごす時間のために」って。もう炉の横で冷たいご飯は食べないぞ。	新磨粉機放農場邊了，銘牌也刻好了：省下的時間，留給想陪的人。以後我可不在爐邊吃冷飯了。
+我每年都记回来过的候鸟。水道断了以后，这张单子就一年比一年短。	I record the birds that return each year. Since the water stopped flowing, the list has got shorter every year.	毎年、戻ってきた渡り鳥を書き留めてるんだ。水路が止まってから、年々その数が減っていてね。	我每年都記回來過的候鳥。水道斷了以後，這張單子就一年比一年短。
+查出来了，水渠是让树根和生锈的闸门堵住了。泉眼还在，水是被堵在上游了。	We found the problem: roots and a rusted gate blocked the channel. The spring’s still there; the water was trapped upstream.	原因がわかったよ。木の根とさびた水門が水路をふさいでいた。泉は今もあって、水が上流で止まってたんだ。	查出來了，水渠是讓樹根和生鏽的閘門堵住了。泉眼還在，水是被堵在上游了。
+莲塘有清水了，连好久没见的候鸟也回来了。我总算又能在单子上添一笔了。	Clean water’s back in the pond. A bird I hadn’t seen in ages returned too. I finally got to add a name to the list.	蓮池にきれいな水が戻って、久しく見なかった渡り鳥も来たよ。やっと名簿に一つ書き足せた。	蓮塘有清水了，連好久沒見的候鳥也回來了。我總算又能在單子上添一筆了。
+新水车上都落了候鸟。我把洒水器送去农场了，那边和湿地用的是同一条水道。	The birds are already perching on the new waterwheel. I sent the sprinkler to the farm. It shares the marsh’s waterway now.	新しい水車に、もう渡り鳥がとまってるよ。農場に散水器を届けた。あそこも湿地と同じ水路を使ってるんだ。	新水車上都落了候鳥。我把灑水器送去農場了，那邊和濕地用的是同一條水道。
+我总拿山路不通当借口。其实是邮袋里那封信，我一直不敢拆，怕看完更难受。	I keep blaming the blocked mountain road. Really, I’m afraid to open that letter in my bag. I’m scared it’ll hurt too much.	いつも山道が通れないせいにしてた。本当は郵袋の手紙を開けるのが怖かったの。読んだらもっとつらくなりそうで。	我總拿山路不通當藉口。其實是郵袋裡那封信，我一直不敢拆，怕看完更難受。
+信里是他画的温室图。他没有怪我没跟着走，还想着我留下来，冬天也能种花。	The letter had his greenhouse plans. He wasn’t upset that I stayed. He wanted me to be able to grow flowers here, even in winter.	手紙には彼の描いた温室の図面があった。ついていかなかった私を責めるどころか、ここでも冬に花を育てられるよう考えてくれてた。	信裡是他畫的溫室圖。他沒有怪我沒跟著走，還想著我留下來，冬天也能種花。
+我写了好长一封回信，食堂重新开门、山脚开了什么花，全写进去了。写完真的轻松多了。	I wrote a long reply about the eatery reopening and the flowers at the foot of the mountain. I felt so much better afterward.	長い返事を書いたよ。食堂がまた開いたことも、山の麓の花のことも全部。書き終えたら、すごく楽になった。	我寫了好長一封回信，食堂重新開門、山腳開了什麼花，全寫進去了。寫完真的輕鬆多了。
+最后一块玻璃装好了，温室里暖和得很。回信也寄出去了，还附上了第一束冬花。	The last pane’s in, and the greenhouse is lovely and warm. I sent my reply too, with the first winter flowers.	最後のガラスをはめたよ。温室の中、あったかいんだ。返事も出した。最初に咲いた冬の花を添えて。	最後一塊玻璃裝好了，溫室裡暖和得很。回信也寄出去了，還附上了第一束冬花。
+那封没署名的信是我写的。我没敢告诉你镇上的实情，怕你看到账本上的亏空，就不肯来了。	I wrote the unsigned letter. I didn’t dare tell you how things were. I was afraid the town’s debts would keep you away.	匿名の手紙は私が書いたの。町の実情を話す勇気がなかった。帳簿の赤字を見たら、来てくれないと思って。	那封沒署名的信是我寫的。我沒敢告訴你鎮上的實情，怕你看到帳本上的虧空，就不肯來了。
+我翻了翻旧账本，才发现大家一直在互相帮忙。我老觉得什么都得自己扛，其实真不是。	Looking through the old accounts, I realized everyone’s been helping each other all along. I thought I had to carry it all myself. I didn’t.	古い帳簿を見て、皆がずっと助け合っていたと気づいたの。全部自分が背負わなきゃと思ってたけど、そうじゃなかった。	我翻了翻舊帳本，才發現大家一直在互相幫忙。我老覺得什麼都得自己扛，其實真不是。
+修复计划放到长桌上以后，大家都添了自己的想法。这回总算不是我一个人在那儿发愁了。	Once I put the repair plans on the long table, everyone added their ideas. This time, I’m not worrying about it all alone.	修復の計画を長机に出したら、皆が考えを書き足してくれた。今度は一人で頭を抱えなくていいんだね。	修復計劃放到長桌上以後，大家都添了自己的想法。這回總算不是我一個人在那兒發愁了。
+新账本的第一页，我记的是今晚聚餐的人数，不是欠款。这次我也给自己算了个位子。	The first page of the new ledger lists tonight’s dinner guests, not debts. I’ve counted a place for myself this time too.	新しい帳簿の最初には、借金じゃなく今夜の食事の人数を書いたの。今度は自分の席も数に入れたよ。	新帳本的第一頁，我記的是今晚聚餐的人數，不是欠款。這次我也給自己算了個位子。
 炉子终于又点着了。找到新鲜食材，食堂就能重新开门。	A spark remains in the cold hearth. Fresh ingredients make the kitchen feel like home again.	冷えた炉にも火種がある。新鮮な食材で食堂は再び家になった。	冷卻的爐膛裡仍有一粒火種。新鮮食材的香氣，讓食堂又像一個家。
 第一桌客人吃到了热汤。大家笑起来，森林的灯也跟着亮了。	The first guests remember tonight’s soup. Firefly lanterns glow with their laughter.	最初の客は今夜のスープを覚えている。笑い声と共に森の蛍灯が灯った。	第一批客人記住了今晚的熱湯。森林的螢燈也隨著笑聲重新亮起。
 收获作物	Crops harvested	作物収穫	收穫作物
@@ -1025,7 +1025,7 @@ Fish per spot %d → %d"	"採集力 %d → %d · 貯水 %d → %d
 釣點魚數 %d → %d"
 新航线的第一声汽笛响起。澪为法杖添上潮汐祝福，笑着说，这次远行也有归途。	The new route sounds its first whistle. Nagi blesses the wand with the tides: this journey has a way home.	新航路の汽笛。ナギは杖に潮の祝福を添え「今度の旅には帰り道がある」と笑った。	新航線的第一聲汽笛響起。澪為法杖添上潮汐祝福，笑著說，這次遠行也有歸途。
 小空屋	Bare Cottage	小さな空き家	小空屋
-你就是收到信的小女巫吧？这间小屋空了很久，今天总算等到主人了。	You must be the witch who received the letter. This house has waited a long time for you.	手紙を受け取った小さな魔女だね。この家も、長い間あなたを待っていたよ。	你就是收到信的小女巫吧？這間小屋空了很久，今天總算等到主人了。
+你就是收到信的小女巫吧？这间屋子一直空着，这下总算有人住了。	You’re the witch who got that letter, right? This cottage has been empty for ages. It’s good to have someone here.	手紙を受け取った魔女さんだよね？ ここ、ずっと空き家だったの。住む人が来てくれてよかった。	你就是收到信的小女巫吧？這間屋子一直空著，這下總算有人住了。
 月环熄灭后，四季的声音就没了。田地荒了，旧食堂也没人来了。	When the Moon Ring went dark, the valley lost the echo of its seasons. The fields fell quiet, and no one waited at the old dining hall anymore.	月環が光を失ってから、谷には四季のこだまが届かなくなった。畑は荒れ、古い食堂で待つ人もいなくなったの。	月環熄滅以後，山谷失去了四季的回聲。田地荒了，舊食堂也不再有人等候。
 旧食谱里留着一句话：大家记得的晚餐，能让月灯重新亮起来。	The old cookbook holds a clue: a dinner that people remember can make the moon lanterns shine again.	あの古い料理帳には手がかりが残っているの。みんなの記憶に残る夕食が、月灯をもう一度輝かせるって。	那本舊食譜留下了一條線索：被大家記住的晚餐，能讓月燈重新發光。
 镇上的人还记得以前的热汤味。也许你的第一顿饭，就能把故事接着写下去。	People still remember the nights when warm soup scented the dining hall. Perhaps your first dinner will be the beginning of a new story.	町のみんなは、食堂から温かいスープが香った夜をまだ覚えている。あなたの最初の夕食が、新しい物語の始まりになるかもしれないね。	鎮上的人仍記得食堂飄出熱湯香氣的夜晚。也許，你的第一頓晚餐會成為新故事的開頭。
@@ -1589,6 +1589,7 @@ Bite wait %.2f–%.2fs → %.2f–%.2fs"	"採集力 %d → %d
 陶瓷花瓶	Ceramic Vase	陶器の花瓶	陶瓷花瓶
 小鱼缸	Small Aquarium	小さな水槽	小魚缸
 八音盒	Music Box	オルゴール	八音盒
+钢琴	Piano	ピアノ	鋼琴
 花槽	Flower Box	フラワーボックス	花槽
 陶土花盆	Clay Planter	素焼きの植木鉢	陶土花盆
 香草盆	Herb Planter	ハーブの鉢	香草盆
@@ -1622,112 +1623,657 @@ Bite wait %.2f–%.2fs → %.2f–%.2fs"	"採集力 %d → %d
 室内与户外	Indoors and outdoors	屋内と屋外	室內與戶外
 建造物与场地不符。	Unsuitable location.	この場所には設置できません。	建造物與場地不符。
 超出建造范围。	Outside the building area.	建築範囲外です。	超出建造範圍。
-这张新菜单，也该写上我的名字。	Our names belong on this new menu too.	新しい献立には私たちの名前もある。	這張新菜單上，也寫著我們的名字。
+新菜单上也有我做的菜了。好久没这么盼着开饭了。	The new menu has my cooking on it too. I haven’t looked forward to dinner this much in years.	新しい献立には、私の料理もあるんだ。こんなに食事が楽しみなのは久しぶりだよ。	新菜單上也有我做的菜了。好久沒這麼盼著開飯了。
 微光采集地 · 萤灯森林	Glimmer Woods · Firefly Grove	微光の採集地・蛍灯の森	微光採集地 · 螢燈森林
-旧食堂还留着陶陶的备料篮，篮底压着一张三人份的旧菜单。	Toma’s prep basket remains in the eatery, with an old menu for three beneath it.	食堂にはトマの仕込み籠が残り、底に三人分の古い献立が挟まっている。	舊食堂還留著陶陶的備料籃，籃底壓著一張三人份的舊菜單。
-三份新鲜食材进了手记。陶陶擦净旧碗，第一次晚餐有了着落。	Three fresh ingredients are recorded. Toma cleans the bowls; the first dinner feels possible.	三つの新鮮な食材が手帳に記された。トマは器を磨き、最初の夕食が見えてきた。	三份新鮮食材進了手記。陶陶擦淨舊碗，第一次晚餐有了著落。
-这只篮子空了很久。我还以为，再没人记得它该装什么。	This basket sat empty for years. I thought nobody remembered what belonged in it.	この籠はずっと空だった。何を入れるか、皆忘れたと思っていたよ。	這隻籃子空了很久。我還以為，再沒人記得它該裝什麼。
-装今晚的晚餐。三只碗，你也有一只。	Tonight’s dinner. There are three bowls, and one is yours.	今夜の夕食を入れるの。器は三つ、あなたの分もある。	裝今晚的晚餐。三隻碗，你也有一隻。
-我的也算上？……那我把旧菜单上的汤名重新描一遍。	Mine, too? Then I’ll ink the soup names on that old menu again.	私の分も？……それなら、古い献立のスープの名を書き直そう。	我的也算上？……那我把舊菜單上的湯名重新描一遍。
-原料有了，食堂也终于有了等晚餐的人。	There is food now, and someone waiting to share it.	食材がそろい、夕食を待つ人もできたね。	原料有了，食堂也終於有了等晚餐的人。
-三只旧碗已经擦净。今晚的晚餐，是食堂重新开门后的第一份约定。	Three old bowls are clean. Tonight’s dinner is the reopened eatery’s first promise.	古い器が三つ、きれいになった。今夜の夕食は、再開した食堂の最初の約束。	三隻舊碗已經擦淨。今晚的晚餐，是食堂重新開門後的第一份約定。
-三份晚餐端上桌，食堂外的月灯亮了一瞬。茉莉说起种子，约好了下一次收获。	Three dinners reach the table. A moon lantern flickers, and Mori promises to share the next harvest.	三つの夕食が並び、外の月灯が一瞬灯った。モリは種の話をして、次の収穫を約束した。	三份晚餐端上桌，食堂外的月燈亮了一瞬。茉莉說起種子，約好了下一次收穫。
-汤还是热的。以前大家总说，明天再来。后来就没有明天了。	The soup is warm. We used to say we’d come tomorrow. Then tomorrow stopped coming.	スープ、温かい。昔は皆「また明日」って。いつからか、その明日が来なくなった。	湯還是熱的。以前大家總說，明天再來。後來就沒有明天了。
-这次还有明天。农场的地，我也想让它重新长出东西。	There will be a tomorrow this time. I want the farm to grow again, too.	今度は明日があるよ。農場にも、また作物を育てたい。	這次還有明天。農場的地，我也想讓它重新長出東西。
-我留下的种子都是这个季节的。第一顿饭的味道，我会记着。	The seeds I left suit this season. I’ll remember this first dinner.	残した種は今の季節のもの。最初の夕食の味、覚えておくね。	我留下的種子都是這個季節的。第一頓飯的味道，我會記著。
-刚才那盏月灯亮了一下。很短，不过我看见了。	That moon lantern flickered just now. Only briefly, but I saw it.	さっき、月灯が一瞬灯った。短かったけれど、確かに見えたよ。	剛才那盞月燈亮了一下。很短，不過我看見了。
-茉莉留下了当季种子。食堂有了第一桌晚餐，也需要明天的新鲜收获。	Mori left seasonal seeds. The first dinner needs a harvest for tomorrow, too.	モリが季節の種を残した。最初の夕食の次には、明日の収穫も必要だ。	茉莉留下了當季種子。食堂有了第一桌晚餐，也需要明天的新鮮收穫。
-五份收获记进手记。余烬认出了田边旧路牌上的水门标记。	Five harvests enter the journal. Ember recognizes the sluice mark on the old field sign.	五つの収穫が手帳に加わった。エンバーは畑の古い標識に、水門の印を見つけた。	五份收穫記進手記。餘燼認出了田邊舊路牌上的水門標記。
-五份收获。原来这片地一直没忘记春天。	Five harvests. This soil never forgot spring.	五つの収穫。この土は、春を忘れていなかったんだ。	五份收穫。原來這片地一直沒忘記春天。
-田边路牌上的印子，是旧水门。我的图纸还缺一只齿轮。	That mark on the field sign is the old sluice. My plans still lack a gear.	畑の標識の印は古い水門だ。図面には、まだ歯車が一つ足りない。	田邊路牌上的印子，是舊水門。我的圖紙還缺一隻齒輪。
-食堂的锅里已经有新收获了。水门那边，也该有新的声音。	The pots have a fresh harvest now. The sluice deserves a new sound, too.	鍋には新しい収穫が入った。水門にも、新しい音が戻るといいね。	食堂的鍋裡已經有新收穫了。水門那邊，也該有新的聲音。
-饭桌上的事，慢慢连到了饭桌以外。	The life around our table is reaching beyond it.	食卓の暮らしが、少しずつ外の世界につながっているね。	飯桌上的事，慢慢連到了飯桌以外。
-余烬在旧水门图纸上圈出一只缺齿的齿轮，石谷的矿脉还没有枯竭。	Ember circled a broken gear on the sluice plans. The quarry still holds ore.	エンバーは水門の図面で欠けた歯車に丸をつけた。石谷にはまだ鉱石がある。	餘燼在舊水門圖紙上圈出一隻缺齒的齒輪，石谷的礦脈還沒有枯竭。
-石谷的矿脉重新有了记录。余烬补全水门图纸，湿地又传来水声。	The quarry veins are recorded again. Ember completes the sluice plans, and water returns to the marsh.	石谷の鉱脈が再び記録された。エンバーが水門の図面を完成させ、湿地に水音が戻った。	石谷的礦脈重新有了記錄。餘燼補全水門圖紙，濕地又傳來水聲。
-矿脉的记录够了。齿轮的缺口，我知道该怎么补。	The ore records are enough. I know how to mend that gap now.	鉱脈の記録はそろった。歯車の欠けをどう直すか、見えてきた。	礦脈的記錄夠了。齒輪的缺口，我知道該怎麼補。
-莲塘那边有水声了。候鸟清单上的空行，也许还能填回来。	I hear water at the lotus pond. Perhaps those empty bird-list lines will fill again.	蓮池に水音が戻った。鳥の名簿の空欄も、また埋まるかもしれない。	蓮塘那邊有水聲了。候鳥清單上的空行，也許還能填回來。
-下一锅汤，也许会有从水里来的味道。	Perhaps our next soup will carry a taste of the water.	次のスープには、水辺の味も入るかもしれないね。	下一鍋湯，也許會有從水裡來的味道。
-月灯底下那圈细纹，又亮起了一小段。	Another small arc beneath the lantern is glowing.	月灯の下の細い輪が、また少しだけ光ったよ。	月燈底下那圈細紋，又亮起了一小段。
+陶陶还留着以前的备料篮和三人份菜单。食堂很久没开火了，厨房还缺新鲜食材。	Toma kept the old prep basket and a menu for three. The eatery hasn’t cooked in ages, and the kitchen needs fresh ingredients.	トマは昔の仕込み籠と三人分の献立を残していた。食堂は長く休んでいて、新鮮な食材が足りない。	陶陶還留著以前的備料籃和三人份菜單。食堂很久沒開火了，廚房還缺新鮮食材。
+三份新鲜食材备齐了，陶陶也擦好了碗。食堂总算能重新开火了。	Three fresh ingredients are ready, and Toma has cleaned the bowls. The eatery can finally cook again.	新鮮な食材が三つそろい、トマも器を洗った。やっと食堂で料理を作れる。	三份新鮮食材備齊了，陶陶也擦好了碗。食堂總算能重新開火了。
+这篮子可算装上东西了。我留了这么久，还以为食堂真不开了。	Good to see this basket full again. I kept it all this time, but thought the eatery might never reopen.	やっと籠に食材が入ったな。ずっと残していたけど、もう食堂は開かないかと思ったよ。	這籃子可算裝上東西了。我留了這麼久，還以為食堂真不開了。
+食材够了，今晚能做饭了。那三只碗里，也有你的一份。	We’ve got enough to cook dinner tonight. And one of those three bowls is yours.	これで今夜のご飯は作れるね。三つの器のうち、一つはあなたの分だよ。	食材夠了，今晚能做飯了。那三隻碗裡，也有你的一份。
+还有我的？……好，那我把旧菜单拿出来，看看以前都做些什么。	One for me too? All right. I’ll get the old menu out and see what we used to make.	私の分も？ ……そうか。じゃあ昔の献立を出そう。何を作っていたか、見てみるよ。	還有我的？……好，那我把舊菜單拿出來，看看以前都做些什麼。
+太好了，食堂总算又能开火了。陶陶刚才还担心今晚吃不上呢。	Great, we can finally get the stove going again. Toma was worried there’d be no dinner tonight.	よかった、やっと食堂の火をつけられるね。トマ、今夜はご飯がないかもって心配してたんだ。	太好了，食堂總算又能開火了。陶陶剛才還擔心今晚吃不上呢。
+陶陶把三只旧碗擦干净了。食材也有了，大家都在等食堂重新开门后的第一顿晚饭。	Toma has cleaned the three old bowls. The ingredients are ready, and everyone’s waiting for the eatery’s first dinner in years.	トマが古い器を三つ洗った。食材もそろい、皆が久しぶりの夕食を楽しみにしている。	陶陶把三隻舊碗擦乾淨了。食材也有了，大家都在等食堂重新開門後的第一頓晚飯。
+三份晚饭端上了桌，外面的月灯短暂亮了一下。茉莉留下当季种子，盼着能吃上农场的新鲜菜。	Three dinners were served, and the moon lantern outside briefly lit up. Mori left seasonal seeds, looking forward to the farm’s vegetables.	三つの夕食を出すと、外の月灯が一瞬光った。モリは季節の種を残し、農場の野菜を楽しみにしている。	三份晚飯端上了桌，外面的月燈短暫亮了一下。茉莉留下當季種子，盼著能吃上農場的新鮮菜。
+这汤真好喝。以前大家吃完都说改天再来，后来食堂一关，就再也没聚过了。	This soup’s lovely. We used to say we’d come back soon. Then the eatery closed, and we never got together again.	おいしいスープ。昔は皆、また来るねって言ってたのに、食堂が閉まってから集まらなくなっちゃった。	這湯真好喝。以前大家吃完都說改天再來，後來食堂一關，就再也沒聚過了。
+我还打算继续开呢。农场的地也不能一直空着，我想种点菜，往后做饭用。	I’m planning to keep it open. I’d like to grow some vegetables on the farm for the kitchen, too.	私はこれからも開けるつもりだよ。農場で野菜も育てたいな。料理に使えるし。	我還打算繼續開呢。農場的地也不能一直空著，我想種點菜，往後做飯用。
+那太好了！我留下的都是当季种子。我可等着尝尝你种的菜了。	That sounds great! The seeds I left are right for this season. I can’t wait to taste what you grow.	いいね！ 置いておいたのは今の季節の種だよ。あなたの野菜、楽しみにしてる。	那太好了！我留下的都是當季種子。我可等著嚐嚐你種的菜了。
+你们看见了吗？外面那盏月灯刚才亮了一下！好久没这样了。	Did you see that? The moon lantern outside just flickered! It hasn’t done that in ages.	見えた？ 外の月灯が今、一瞬光ったよ！ こんなの、久しぶり。	你們看見了嗎？外面那盞月燈剛才亮了一下！好久沒這樣了。
+茉莉留下了一些当季种子。农场的地还能种，往后食堂就能用上自己种的新鲜菜了。	Mori left some seeds for this season. The farm’s soil is still good, so the eatery could have fresh homegrown vegetables.	モリが今の季節の種を残してくれた。農場の土はまだ使える。食堂で自分たちの野菜を出せそうだ。	茉莉留下了一些當季種子。農場的地還能種，往後食堂就能用上自己種的新鮮菜了。
+农场收了五份作物。余烬认出田边旧路牌上的水门标记，说修好那里的齿轮就能通水。	The farm produced five crops. Ember recognized the sluice mark on the old sign. Repairing its gear would restore the water.	農場で五つ収穫した。エンバーが古い標識の水門の印に気づいた。歯車が直れば水が通るそうだ。	農場收了五份作物。餘燼認出田邊舊路牌上的水門標記，說修好那裡的齒輪就能通水。
+真长出来了！这地荒了这么久，我还担心种不活呢。	They really grew! The field was empty for so long, I worried nothing would take.	ちゃんと育ったね！ ずっと荒れてたから、育たないんじゃないかって心配してたの。	真長出來了！這地荒了這麼久，我還擔心種不活呢。
+田边那块旧路牌我认得，上面画的是水门。那儿的齿轮还坏着，修好就能通水。	I recognize that old field sign. It marks the sluice. Its gear’s still broken; fixing it would get the water flowing.	畑の古い標識、見覚えがある。水門の印だ。あそこの歯車を直せば、水が通る。	田邊那塊舊路牌我認得，上面畫的是水門。那兒的齒輪還壞著，修好就能通水。
+原来那是水门的标记。现在有了新鲜菜，要是鱼也能回来，菜单就更丰富了。	So that’s what the mark means. We’ve got fresh vegetables now. If the fish came back too, we’d have more for the menu.	あれ、水門の印だったんだ。新鮮な野菜はあるし、魚も戻れば料理の種類を増やせるね。	原來那是水門的標記。現在有了新鮮菜，要是魚也能回來，菜單就更豐富了。
+余烬手里还有水门的图纸。他惦记这事挺久了，一直缺修理用的矿石。	Ember still has the sluice plans. He’s wanted to fix it for ages, but hasn’t had enough ore.	エンバー、水門の図面をまだ持ってるよ。ずっと直したかったけど、鉱石が足りなかったんだって。	餘燼手裡還有水門的圖紙。他惦記這事挺久了，一直缺修理用的礦石。
+旧水门的齿轮缺了一块。余烬有图纸，但修齿轮的矿石还不够，石谷里还有矿。	A gear in the old sluice is broken. Ember has the plans, but needs more ore to repair it. There’s still ore in the quarry.	古い水門の歯車が欠けている。エンバーには図面があるが、修理の鉱石が足りない。石谷にはまだ鉱石がある。	舊水門的齒輪缺了一塊。餘燼有圖紙，但修齒輪的礦石還不夠，石谷裡還有礦。
+矿石够了，余烬也补齐了修水门的图纸。湿地重新有了水声，鱼和候鸟有望回来。	There’s enough ore, and Ember has completed the sluice plans. Water can be heard in the marsh again. The fish and birds may return.	鉱石がそろい、エンバーも水門の図面を完成させた。湿地に水音が戻り、魚や渡り鳥も戻ってきそうだ。	礦石夠了，餘燼也補齊了修水門的圖紙。濕地重新有了水聲，魚和候鳥有望回來。
+矿石够了，图纸也补齐了。这回我有把握修好那只齿轮。	That’s enough ore, and the plans are complete. I’m sure I can fix that gear now.	鉱石は足りた。図面もそろった。これなら、あの歯車を直せる。	礦石夠了，圖紙也補齊了。這回我有把握修好那隻齒輪。
+莲塘那边已经有水声了。水流稳下来，鱼和候鸟应该都会回来。	I can hear water at the lotus pond already. Once the flow settles, the fish and birds should come back.	蓮池からもう水音がするよ。流れが落ち着けば、魚も渡り鳥も戻ってきそうだ。	蓮塘那邊已經有水聲了。水流穩下來，魚和候鳥應該都會回來。
+那太好了。往后除了菜汤，食堂也能做鱼汤了。	That’s good news. We’ll be able to serve fish soup as well as vegetable soup.	よかった。これからは野菜スープだけじゃなく、魚のスープも作れるね。	那太好了。往後除了菜湯，食堂也能做魚湯了。
+月灯底座又亮了一小段，和上次一样。水道修好了，灯也有反应，难道有关系？	Another little part of the lantern base lit up, like last time. The water’s back and the lantern reacted. Could they be connected?	灯の台座がまた少し光った。前と同じだ。水路が直ったことと、何か関係あるのかな？	月燈底座又亮了一小段，和上次一樣。水道修好了，燈也有反應，難道有關係？
 潮汐码头 · 莲雾湿地	Tidal Dock · Lotus Marsh	潮の桟橋・蓮霧の湿地	潮汐碼頭 · 蓮霧濕地
-芦苇重新听见水声。不同水域的鱼群，是水道恢复后最先回来的客人。	Reed hears water again. Fish are the first guests returning to the waterways.	リードは再び水音を聞いた。水路に最初に帰ってきた客は魚たちだった。	蘆葦重新聽見水聲。不同水域的魚群，是水道恢復後最先回來的客人。
-五次鱼获留下水道的消息。芦苇在网边发现一枚刻有旧械编号的薄片。	Five catches tell of the waterways. Reed finds a plate marked with a machine number beside the nets.	五度の釣果が水路の様子を伝えた。リードは網のそばに、古機の番号がある薄片を見つけた。	五次魚獲留下水道的消息。蘆葦在網邊發現一枚刻有舊械編號的薄片。
-鱼回来了，码头就不像只通往远方的地方了。	With the fish back, the dock feels like more than a place to leave.	魚が戻ると、桟橋もただ遠くへ行く場所じゃなくなるね。	魚回來了，碼頭就不像只通往遠方的地方了。
-这枚薄片夹在旧网里。编号和皮普常看的日志很像。	This plate was caught in an old net. Its number looks like Pip’s logs.	この薄片、古い網に挟まっていた。番号はピップの記録に似ている。	這枚薄片夾在舊網裡。編號和皮普常看的日誌很像。
-一张网，倒把水边和遗址连在一起了。	One old net has joined the water to the ruins.	一枚の網が、水辺と遺跡をつないだんだね。	一張網，倒把水邊和遺址連在一起了。
-不过，有些话得等大家愿意说的时候。	Some stories still need someone willing to tell them.	でも、話せる日が来るまで待つ物語もあるよ。	不過，有些話得等大家願意說的時候。
-食堂里渐渐有了熟悉的座位。有些旧事，只有信任的人才听得到。	Familiar seats return to the eatery. Some old stories are shared only with a trusted friend.	食堂にいつもの席が戻りつつある。古い話には、信頼できる人にだけ話せるものもある。	食堂裡漸漸有了熟悉的座位。有些舊事，只有信任的人才聽得到。
-有人开始为明天留座。皮普把遗址钥匙放到公共桌上，旧事不再只由一个人保管。	Someone saves a seat for tomorrow. Pip leaves the ruins key on the shared table.	明日の席を残す人が現れた。ピップは遺跡の鍵を皆の机に置き、過去を一人で守るのをやめた。	有人開始為明天留座。皮普把遺址鑰匙放到公共桌上，舊事不再只由一個人保管。
-这把钥匙我藏了很久。不是门打不开，是我不敢再进去。	I hid this key for years. The door worked; I was afraid to go back.	この鍵、長く隠していた。扉は開く。戻るのが怖かったんだ。	這把鑰匙我藏了很久。不是門打不開，是我不敢再進去。
-钥匙在桌上，就不用再由你一个人守着了。	On this table, the key is yours to share.	机の上に置けば、一人で守らなくていいよ。	鑰匙在桌上，就不用再由你一個人守著了。
-嗯。今晚我还坐原来的位置。	Right. I’ll take my usual seat tonight.	うん。今夜も、いつもの席に座る。	嗯。今晚我還坐原來的位置。
-熟悉的座位，比一把钥匙更难得。	A familiar seat can mean more than a key.	いつもの席は、鍵よりも大事なものかもしれないね。	熟悉的座位，比一把鑰匙更難得。
-遗址的门已经开放。散落的旧械零件上，还刻着月环熄灭当夜的编号。	The ruins are open. Scattered machine parts still bear the numbers from that night.	遺跡の門は開いた。散らばる部品には、月環が消えた夜の番号が刻まれている。	遺址的門已經開放。散落的舊械零件上，還刻著月環熄滅當夜的編號。
-八份零件的编号拼成一段记录：那台核心曾把所有灯连在同一条回路上。	Eight part numbers form a record: the core once linked every lantern to one circuit.	八つの部品番号から記録がつながった。核はかつて、すべての灯を一つの回路に結んでいた。	八份零件的編號拼成一段記錄：那臺核心曾把所有燈連在同一條迴路上。
-编号对上了。核心一直在催灯发亮，却没留下休息的时候。	The numbers match. The core kept urging the lanterns on, with no time to rest.	番号が合った。核は灯を急かすばかりで、休む時間を残していなかった。	編號對上了。核心一直在催燈發亮，卻沒留下休息的時候。
-所以那晚整条回路都烧坏了。图纸上漏掉的，不只是一只齿轮。	That is why the whole circuit burned. The plans lacked more than a gear.	だから、あの夜は回路ごと焼けた。図面に欠けていたのは歯車だけじゃない。	所以那晚整條迴路都燒壞了。圖紙上漏掉的，不只是一隻齒輪。
-食堂会关门，也会重新开门。灯应该也有这样的余地。	Our eatery closes and opens again. The lanterns deserve that room, too.	食堂は閉まり、また開く。灯にも、そんな余裕があっていいよね。	食堂會關門，也會重新開門。燈應該也有這樣的餘地。
-旧记录还画着一张长桌。它为什么在那里，得继续查下去。	There is a shared table in the old record. We still need to learn why.	古い記録には長机も描かれている。なぜそこにあるのか、まだわからないね。	舊記錄還畫著一張長桌。它為什麼在那裡，得繼續查下去。
+水道又通了，芦苇说鱼也回来了。码头和湿地的鱼群，能看出水道恢复得怎么样。	The water is flowing again, and Reed says the fish are back. Catches from the dock and marsh will show how the waterways are doing.	水路が通り、リードによると魚も戻ってきた。桟橋や湿地の釣果で、水路の様子がわかりそうだ。	水道又通了，蘆葦說魚也回來了。碼頭和濕地的魚群，能看出水道恢復得怎麼樣。
+五次鱼获说明鱼群回来了。芦苇还在旧网里发现一块薄片，上面的编号和皮普的日志很像。	Five catches show the fish are back. Reed also found a plate in an old net, with a number like those in Pip’s logbook.	五度の釣果で魚が戻ったことがわかった。リードは古い網から、ピップの記録に似た番号の薄片も見つけた。	五次魚獲說明魚群回來了。蘆葦還在舊網裡發現一塊薄片，上面的編號和皮普的日誌很像。
+鱼真的回来了！这阵子码头总算热闹点了，我都好久没见人围着鱼篓聊天了。	The fish really are back! The dock’s livelier lately. It’s been ages since people gathered around a catch to chat.	本当に魚が戻った！ 最近、桟橋もにぎやかになったよ。魚籠を囲んで皆が話すの、久しぶりだな。	魚真的回來了！這陣子碼頭總算熱鬧點了，我都好久沒見人圍著魚簍聊天了。
+我还在旧网里找到这块薄片。上面的编号，跟皮普那本日志里的很像。	I also found this plate in an old net. The number looks like the ones in Pip’s logbook.	古い網にこんな薄い板も引っかかっていたよ。この番号、ピップの記録帳で見たものに似てる。	我還在舊網裡找到這塊薄片。上面的編號，跟皮普那本日誌裡的很像。
+那它可能是遗址里的零件？皮普应该认得吧。	Could it be a part from the ruins? Pip might recognize it.	じゃあ、遺跡の部品かもしれないね。ピップならわかるかな。	那它可能是遺址裡的零件？皮普應該認得吧。
+有可能。不过他一提遗址就紧张，大概还有什么事没告诉我们。	Maybe. But he gets nervous whenever the ruins come up. There’s probably something he hasn’t told us.	そうかも。でも遺跡の話になると、ピップは緊張するの。まだ話していないことがあるんだと思う。	有可能。不過他一提遺址就緊張，大概還有什麼事沒告訴我們。
+食堂的熟客多起来了。大家渐渐熟了，有人开始愿意聊起月环熄灭那晚的事。	The eatery has regulars again. As people get to know each other, some are ready to talk about the night the moonring went dark.	食堂に常連が増えてきた。親しくなるうちに、月環が消えた夜のことを話す人も出てきた。	食堂的熟客多起來了。大家漸漸熟了，有人開始願意聊起月環熄滅那晚的事。
+皮普终于说出自己不敢回遗址的事，把钥匙交给了大家。这次，他不用再独自面对了。	Pip finally admitted he was afraid to return to the ruins and shared the key. This time, he won’t have to face it alone.	ピップは遺跡に戻るのが怖かったと打ち明け、鍵を皆に預けた。今度は一人で向き合わなくていい。	皮普終於說出自己不敢回遺址的事，把鑰匙交給了大家。這次，他不用再獨自面對了。
+遗址的钥匙其实一直在我这儿。门能开，是我自己不敢再进去。	I’ve had the ruins key all along. The door opens. I’m the one who’s been afraid to go back.	遺跡の鍵、実はずっと僕が持ってた。扉は開くんだ。僕が戻るのを怖がってただけで。	遺址的鑰匙其實一直在我這兒。門能開，是我自己不敢再進去。
+没关系，这次有我们陪你。你不用一个人面对那些事。	It’s all right. We’re here with you this time. You don’t have to face it alone.	大丈夫。今度は私たちもいるから。一人で向き合わなくていいよ。	沒關係，這次有我們陪你。你不用一個人面對那些事。
+嗯……那钥匙就放桌上了。今晚我还是坐老位置，饭可别少了我的。	Okay… I’ll leave the key on the table. I’m still taking my usual seat tonight. Save me some dinner.	うん……じゃあ鍵は机に置いとく。今夜もいつもの席に座るから、僕のご飯も忘れないでね。	嗯……那鑰匙就放桌上了。今晚我還是坐老位置，飯可別少了我的。
+当然有你的。你能把这事说出来，我也松了口气。	Of course we will. I’m glad you could tell us. I feel better too.	もちろんあるよ。話してくれて、私もほっとした。	當然有你的。你能把這事說出來，我也鬆了口氣。
+皮普拿出了遗址的钥匙。里面的旧零件刻着编号，可能和月环那次事故有关。	Pip has brought out the ruins key. The numbers on the old parts inside may be connected to the moonring accident.	ピップが遺跡の鍵を出してくれた。中にある古い部品の番号は、月環の事故と関係があるかもしれない。	皮普拿出了遺址的鑰匙。裡面的舊零件刻著編號，可能和月環那次事故有關。
+八份零件的编号对上了旧记录。核心曾连着所有月灯，因为一直不停机，最终烧坏了回路。	Eight part numbers matched the old records. The core linked all the moon lanterns, but running without stopping burned out the circuit.	八つの部品番号が記録と合った。核は月灯をすべてつないでいたが、動き続けて回路を焼いてしまった。	八份零件的編號對上了舊記錄。核心曾連著所有月燈，因為一直不停機，最終燒壞了迴路。
+编号全对上了。原来这台核心把所有灯接在一起，一直不停地转，最后把回路烧坏了。	The numbers match. This core linked all the lanterns together. It ran without stopping until the circuit burned out.	番号が全部合った。この核が全部の灯をつないでたんだ。動き続けたせいで、最後に回路が焼けた。	編號全對上了。原來這臺核心把所有燈接在一起，一直不停地轉，最後把迴路燒壞了。
+所以光补齿轮没用，回路也得改。图纸上居然没画停机的装置。	So replacing a gear won’t be enough. The circuit needs work too. These plans don’t even have a shutoff.	歯車だけ直してもだめだ。回路も変えないと。図面には停止装置すら描いてない。	所以光補齒輪沒用，迴路也得改。圖紙上居然沒畫停機的裝置。
+食堂也不能一直营业，人总得歇歇。机器该停的时候，也得能停下来。	We can’t keep the eatery open all the time either. People need rest. Machines need to be able to stop too.	食堂だってずっとは開けられないよね。人も休むし、機械にも止まれる仕組みがいるんだ。	食堂也不能一直營業，人總得歇歇。機器該停的時候，也得能停下來。
+记录里还提到了食堂的长桌。不过这部分没写全，还不知道它和月环有什么关系。	The records mention the eatery’s long table too. That part’s incomplete, so we still don’t know how it connects to the moonring.	記録には食堂の長机も出てくる。でもそこは欠けていて、月環との関係はまだわからないね。	記錄裡還提到了食堂的長桌。不過這部分沒寫全，還不知道它和月環有什麼關係。
 小镇餐厅 · 成长	Town Eatery · Growth	町の食堂・成長	小鎮餐廳 · 成長
-旧械记录提到一张公共长桌。更多的座位，能容下从山上回来的人。	The machine records mention a shared table. More seats will welcome those returning from the hills.	古機の記録には皆の長机が出てくる。席が増えれば、山から帰る人も迎えられる。	舊械記錄提到一張公共長桌。更多的座位，能容下從山上回來的人。
-月灯食堂有了更多座位。奥萝给匿名信补上落款，霜铃带来了山径的消息。	More seats fill Moon Lantern Kitchen. Orla signs her letter, and Yuki brings news from the ridge.	月灯食堂の席が増えた。オルラは匿名の手紙に署名し、ユキは山道の便りを届けた。	月燈食堂有了更多座位。奧蘿給匿名信補上落款，霜鈴帶來了山徑的消息。
-那封信，我终于敢补上自己的名字了。我怕你看见空桌子就走。	I can finally sign that letter. I feared the empty tables would send you away.	あの手紙に、ようやく名前を書ける。空の食卓を見て、帰ってしまうのが怖かった。	那封信，我終於敢補上自己的名字了。我怕你看見空桌子就走。
-你信里问，今年的晚餐还能有空位吗。现在有了，也有你的位置。	You asked if this year’s dinner still had a seat. It does, and one is yours.	手紙には「今年の夕食に空席はありますか」って。今はあるよ。あなたの席も。	你信裡問，今年的晚餐還能有空位嗎。現在有了，也有你的位置。
-山上的旧邮戳，和这封信的印记很像。我还带回半个日期。	A ridge postmark resembles this letter’s seal. I brought half its date back.	山の古い消印が、この印に似ていたの。日付の半分も持ち帰った。	山上的舊郵戳，和這封信的印記很像。我還帶回半個日期。
-有人回到了桌边，还有一封更早的信等着我们。	Someone has returned to the table. An older letter is still waiting.	食卓に戻ってきた人がいる。そして、もっと古い手紙が待っているね。	有人回到了桌邊，還有一封更早的信等著我們。
-霜铃带回半枚旧邮戳。山径上的遗物里，或许留着信的另一半日期。	Yuki brought half an old postmark. Objects along the ridge may hold the missing date.	ユキは古い消印の半分を持ち帰った。山道の遺物に、残りの日付があるかもしれない。	霜鈴帶回半枚舊郵戳。山徑上的遺物裡，或許留著信的另一半日期。
-六次山径调查补齐旧信日期。守灯人的记录提到：月环留下了最后一段记忆。	Six ridge finds complete the date. A lantern keeper’s record says the ring held one final memory.	六度の山道調査で手紙の日付がそろった。灯守の記録には、月環が最後の記憶を留めたとある。	六次山徑調查補齊舊信日期。守燈人的記錄提到：月環留下了最後一段記憶。
-日期齐了，是月环熄灭的那晚。旧信上写着：别让守灯的人独自留下。	It is the night the ring went dark. The letter says: do not leave the keeper alone.	日付がそろった。月環が消えた夜。「灯守を一人で残さないで」とある。	日期齊了，是月環熄滅的那晚。舊信上寫著：別讓守燈的人獨自留下。
-记录只剩一段回声。其余的位置，画着十二种不同的收获。	Only one echo remains in the record. Twelve harvests mark the other spaces.	記録には響きが一つだけ。残りの場所には、十二の収穫が描かれている。	記錄只剩一段回聲。其餘的位置，畫著十二種不同的收穫。
-这些空格不是一夜就能写满的。我们还要在这里过很多个明天。	Those blanks will take more than a night. We have many tomorrows to live here.	空欄は一晩では埋まらない。ここで、たくさんの明日を過ごすんだね。	這些空格不是一夜就能寫滿的。我們還要在這裡過很多個明天。
-手记会留着空白，等每个季节自己的颜色。	The journal can wait for each season’s colors.	手帳は、それぞれの季節の色を待っていられるよ。	手記會留著空白，等每個季節自己的顏色。
+旧记录里提到了食堂的长桌。现在来吃饭的人越来越多，座位有些不够了。	The old records mention the eatery’s long table. More people are coming for dinner, and seats are getting scarce.	古い記録に食堂の長机が出てきた。今も食事に来る人が増えて、席が足りなくなってきた。	舊記錄裡提到了食堂的長桌。現在來吃飯的人越來越多，座位有些不夠了。
+食堂添了座位，奥萝也承认匿名信是她写的。霜铃从山上的旧邮袋里找到半枚邮戳，日期还不完整。	The eatery has more seats. Orla admitted writing the unsigned letter. Yuki found half a postmark up the mountain, but the date is incomplete.	食堂の席が増え、オルラは匿名の手紙を書いたと打ち明けた。ユキは山で消印の半分を見つけたが、日付は欠けている。	食堂添了座位，奧蘿也承認匿名信是她寫的。霜鈴從山上的舊郵袋裡找到半枚郵戳，日期還不完整。
+我得告诉你一件事。那封没署名的信，是我写的。我怕你知道镇上这么困难，就不肯来了。	I need to tell you something. I wrote that unsigned letter. I was afraid you wouldn’t come if you knew how badly the town was doing.	話さなきゃいけないことがあるの。あの匿名の手紙は私が書いた。町の苦しい暮らしを知ったら、来てくれないと思って。	我得告訴你一件事。那封沒署名的信，是我寫的。我怕你知道鎮上這麼困難，就不肯來了。
+原来是你啊。你信里不是问能不能一起吃饭吗？现在当然能，你的位子也留着呢。	So it was you. You asked if we could have dinner together, right? Of course we can. There’s a place for you too.	あなただったんだ。一緒にご飯を食べられるかって書いてたよね。もちろん。あなたの席もあるよ。	原來是你啊。你信裡不是問能不能一起吃飯嗎？現在當然能，你的位子也留著呢。
+说起信，我在山上的旧邮袋里找到半枚邮戳。看着跟当年那场事故有关，日期却看不全。	Speaking of letters, I found half a postmark in an old mailbag up the mountain. It seems tied to the accident, but I can’t read the whole date.	手紙といえば、山の古い郵袋に消印の半分があったの。あの事故と関係がありそうだけど、日付が全部読めなくて。	說起信，我在山上的舊郵袋裡找到半枚郵戳。看著跟當年那場事故有關，日期卻看不全。
+奥萝，这下不用藏着了。食堂能重新开起来，也有你的一份功劳。	Orla, you don’t have to hide it anymore. You helped bring this eatery back too.	オルラ、もう隠さなくていいよ。食堂がまた開いたのは、あなたのおかげでもあるんだから。	奧蘿，這下不用藏著了。食堂能重新開起來，也有你的一份功勞。
+霜铃找到了半枚旧邮戳。山径上可能还留着当年的信件，能查出月环熄灭的准确日期。	Yuki found half an old postmark. Letters along the ridge may give the exact date the moonring went dark.	ユキが古い消印の半分を見つけた。山道に残る手紙から、月環が消えた正確な日付がわかるかもしれない。	霜鈴找到了半枚舊郵戳。山徑上可能還留著當年的信件，能查出月環熄滅的準確日期。
+六次山径调查查清了旧信的日期，正是月环熄灭那晚。星芒也认出星图的空格对应不同作物的收获记录。	Six ridge finds confirmed the date: the night the moonring went dark. Aster identified the chart’s blanks as crop harvest records.	六度の山道調査で、手紙の日付が月環の消えた夜とわかった。アスターは星図の空欄が収穫記録だと気づいた。	六次山徑調查查清了舊信的日期，正是月環熄滅那晚。星芒也認出星圖的空格對應不同作物的收穫記錄。
+日期查清楚了，就是月环熄灭那晚。守灯人的记录里还写着，月环里存着最后一段记忆。	We’ve got the date: the night the moonring went dark. The lantern keeper’s notes also say one last memory is stored in it.	日付がわかった。月環が消えた夜だよ。灯守の記録には、最後の記憶が月環に残っているとも書いてある。	日期查清楚了，就是月環熄滅那晚。守燈人的記錄裡還寫著，月環裡存著最後一段記憶。
+和我的记录对上了。星图上那些空格，对应的是作物的收获记录，不是星星的位置。	That matches my notes. Those blanks on the chart are for crop harvests, not star positions.	私の記録とも合った。星図の空欄は、星の位置じゃない。作物の収穫記録に対応しているんだ。	和我的記錄對上了。星圖上那些空格，對應的是作物的收穫記錄，不是星星的位置。
+原来是这样。不同季节长的菜不一样，难怪这图一时半会儿填不满。	So that’s it. Different crops grow in different seasons. No wonder we couldn’t fill it all at once.	そういうことか。季節ごとに育つ野菜が違うものね。一度に埋まらないわけだ。	原來是這樣。不同季節長的菜不一樣，難怪這圖一時半會兒填不滿。
+不着急。农场已经种起来了，收过哪些作物，手记里也都有记录。	There’s no rush. The farm’s growing again, and the journal already lists what we’ve harvested.	急がなくていいよ。農場はもう動いてるし、収穫した作物も手帳に記録してあるから。	不著急。農場已經種起來了，收過哪些作物，手記裡也都有記錄。
 月芽农场 · 四季	Moonsprout Farm · Four Seasons	月芽農場・四季	月芽農場 · 四季
-星图的十二处空格对应不同收获。春夏秋冬，都有自己的那一页。	Twelve blanks on the chart match different harvests. Every season has its own page.	星図の十二の空欄は、それぞれの収穫に対応している。どの季節にも自分の頁がある。	星圖的十二處空格對應不同收穫。春夏秋冬，都有自己的那一頁。
-十二种作物把星图连成四季。观星台认出了这些真实生长过的日子。	Twelve crops connect the seasonal chart. The observatory recognizes days that were truly lived.	十二種の作物が星図を四季につないだ。天文台は、実際に育まれた日々を読み取った。	十二種作物把星圖連成四季。觀星臺認出了這些真實生長過的日子。
-有些种子等了很久。如今四季的颜色都在这儿了。	Some seeds waited a long time. Now all the seasons have a color here.	長く待った種もある。今は、四季の色がここにそろったね。	有些種子等了很久。如今四季的顏色都在這兒了。
-星图对上了。它记的不是一张完美图画，是这些作物真正长大的日子。	The chart aligns. It records days when crops truly grew, not a perfect picture.	星図が合った。完璧な絵じゃない。作物が本当に育った日々の記録なんだ。	星圖對上了。它記的不是一張完美圖畫，是這些作物真正長大的日子。
-有雨天，也有忘了浇水的日子。它们都算数。	Rainy days, and days we forgot the water. They all count.	雨の日も、水を忘れた日も。全部、大切な日なんだね。	有雨天，也有忘了澆水的日子。它們都算數。
-观星台的门开了。月晶里剩下的回声，终于有了能安放的地方。	The observatory is open. The remaining echoes finally have a place to settle.	天文台の門が開いた。残る響きにも、ようやく居場所ができたね。	觀星臺的門開了。月晶裡剩下的回聲，終於有了能安放的地方。
+星图上有十二处空格，分别对应不同的作物。农场的收获记录，正好能补全这张图。	The chart has twelve blanks, each for a different crop. The farm’s harvest records can fill them in.	星図には作物に対応する十二の空欄がある。農場の収穫記録があれば、この図を完成できそうだ。	星圖上有十二處空格，分別對應不同的作物。農場的收穫記錄，正好能補全這張圖。
+十二种作物的收获记录补全了四季星图，观星台的门打开了。那里的设备能读出月晶保存的记录。	Records of twelve crop harvests completed the chart and opened the observatory. Its equipment can read the records stored in moon crystals.	十二種の作物の収穫記録で四季の星図が完成し、天文台が開いた。中の装置なら月晶の記録を読める。	十二種作物的收穫記錄補全了四季星圖，觀星臺的門打開了。那裡的設備能讀出月晶保存的記錄。
+十二种都齐了！看着这些收获记录，才发现咱们已经种了这么多东西。	All twelve! Looking at these harvest records, I hadn’t realized how much we’d grown.	十二種類、そろったね！ 記録を見ると、こんなにいろんなものを育てたんだなって思うよ。	十二種都齊了！看著這些收穫記錄，才發現咱們已經種了這麼多東西。
+星图终于对上了。它记录的是作物长大的日子，所以得有实际的收获才行。	The chart finally lines up. It records when the crops grew, so it needed real harvests.	星図がやっと合った。作物が育った日々を記録する図だから、実際の収穫が必要だったんだ。	星圖終於對上了。它記錄的是作物長大的日子，所以得有實際的收穫才行。
+这下明白了。难怪光对着图猜，怎么都猜不出来。	Now it makes sense. No wonder staring at the chart got us nowhere.	やっとわかったよ。図だけ見て考えても、解けないはずだね。	這下明白了。難怪光對著圖猜，怎麼都猜不出來。
+观星台的门也开了！里面能读出月晶的记录，应该能弄清那晚到底出了什么事。	The observatory’s open too! We can read the crystals there. Maybe now we’ll find out what happened that night.	天文台の門も開いたよ！ 中では月晶の記録を読めるから、あの夜のこともわかるはず。	觀星臺的門也開了！裡面能讀出月晶的記錄，應該能弄清那晚到底出了什麼事。
 月环观星台 · 余烬石谷	Moonring Observatory · Ember Quarry	月環天文台・残火の石谷	月環觀星臺 · 餘燼石谷
-完整的四季星图已经就绪。月晶中的旧记录，还缺最后几段回声。	The seasonal chart is complete. The crystals still hold a few missing echoes.	四季の星図は完成した。月晶の古い記録には、まだ欠けた響きがある。	完整的四季星圖已經就緒。月晶中的舊記錄，還缺最後幾段回聲。
-八枚月晶接续了旧记录。月环靠共同生活的记忆发光，新的一餐能承接旧日的守护。	Eight crystals restore the record. Shared memories light the ring; a new meal can carry its old promise.	八つの月晶が古い記録をつないだ。月環を灯すのは共に生きた記憶。新しい食卓が昔の守りを受け継ぐ。	八枚月晶接續了舊記錄。月環靠共同生活的記憶發光，新的一餐能承接舊日的守護。
-旧记录完整了。那段记忆曾护住山谷，如今却不能再独自支撑所有灯。	The record is whole. That memory sheltered the valley, but cannot carry every lantern alone.	記録が戻った。あの記憶は谷を守った。でも、すべての灯を一人では支えられない。	舊記錄完整了。那段記憶曾護住山谷，如今卻不能再獨自支撐所有燈。
-原来长桌是留给活在这里的人。新的记忆，会接住旧日的守护。	The table was meant for those living here. New memories can carry that old promise.	長机は、ここに暮らす人のためだったんだ。新しい記憶が、昔の守りを受け継げる。	原來長桌是留給活在這裡的人。新的記憶，會接住舊日的守護。
-那就让今晚的饭，有所有人的位置。	Then tonight’s dinner will have room for everyone.	それなら今夜の食卓には、皆の席を用意しよう。	那就讓今晚的飯，有所有人的位置。
-三道宴席菜，名字还在旧食谱上。这回，旁边也该写上新名字了。	The three feast recipes are still here. This time, new names belong beside them.	三つの宴料理は、まだ料理帳にある。今度は新しい名前も添えよう。	三道宴席菜，名字還在舊食譜上。這回，旁邊也該寫上新名字了。
-长桌的三道宴席料理是星河锦鲤宴、四季拼盘和月灯甜点。每一种都留着小镇的记忆。	The feast has Star Koi Banquet, Four Seasons Platter and Lantern Dessert. Each holds a town memory.	長机の宴料理は星河ニシキゴイ宴、四季の盛り合わせ、月灯デザート。どれも町の記憶を宿す。	長桌的三道宴席料理是星河錦鯉宴、四季拼盤和月燈甜點。每一種都留著小鎮的記憶。
-三种宴席料理端上长桌，月环重新照亮山谷。那封信等到了回音，也等到了你的座位。	Three feast dishes reach the table. The ring lights the valley; the letter has its answer and you have a seat.	三種の宴料理が長机に並び、月環が谷を照らした。手紙には返事が、あなたには席ができた。	三種宴席料理端上長桌，月環重新照亮山谷。那封信等到了回音，也等到了你的座位。
-这次名单上没有空着的位置。你的位置，我也写进去了。	There are no empty places on the list this time. Yours is here, too.	今度の名簿に空欄はない。あなたの席も、ちゃんとある。	這次名單上沒有空著的位置。你的位置，我也寫進去了。
-我想给那封信回一句：明年也有空位。	My reply to that letter is: there will be a seat next year, too.	手紙への返事は、こうしたい。「来年も席はあります」。	我想給那封信回一句：明年也有空位。
-月环亮了。不是一盏灯撑起整座山谷，是每家都留了一点光。	The ring shines. Every home has lent a little light to the valley.	月環が灯った。一つの灯ではなく、皆の家が少しずつ光を寄せたんだね。	月環亮了。不是一盞燈撐起整座山谷，是每家都留了一點光。
-汤还热着。往后的日子，也在这张桌上慢慢过。	The soup is still warm. There are more days to share at this table.	スープはまだ温かい。これからの日々も、この机でゆっくり過ごそう。	湯還熱著。往後的日子，也在這張桌上慢慢過。
+四季星图已经补齐，观星台也开了。月晶里还存着事故当晚的记录，只是缺了几段。	The seasonal chart is complete and the observatory is open. The crystals hold a record of the accident, but parts are still missing.	四季の星図が完成し、天文台も開いた。月晶には事故の夜の記録が残っているが、まだ一部が欠けている。	四季星圖已經補齊，觀星臺也開了。月晶裡還存著事故當晚的記錄，只是缺了幾段。
+八枚月晶补齐了旧记录。原来月环靠共同生活的记忆发光，大家一起过日子，就能给它补上新的力量。	Eight crystals completed the record. The moonring runs on shared memories. Living together can give it fresh energy.	八つの月晶で記録がそろった。月環は共に暮らした記憶で光る。皆の日々が、新しい力になる。	八枚月晶補齊了舊記錄。原來月環靠共同生活的記憶發光，大家一起過日子，就能給它補上新的力量。
+记录补齐了。月环靠大家一起生活的记忆发光。以前留下的记忆撑到现在，已经不够用了。	The record’s complete. The moonring runs on memories of people living together. The old memories have kept it going, but they aren’t enough anymore.	記録がそろった。月環は皆で暮らした記憶で光るんだ。昔の記憶で今まで支えたけど、もうそれだけでは足りない。	記錄補齊了。月環靠大家一起生活的記憶發光。以前留下的記憶撐到現在，已經不夠用了。
+所以记录里才会有那张长桌！大家一起吃饭，就能留下新的记忆，月环也能重新亮起来。	That’s why the long table was in the records! Eating together makes new memories. Those can light the moonring again.	だから長机が記録に出てきたんだ！ 皆でご飯を食べれば新しい記憶ができて、月環もまた光るんだね。	所以記錄裡才會有那張長桌！大家一起吃飯，就能留下新的記憶，月環也能重新亮起來。
+那今晚就热闹一点，大家一起吃。忙了这么久，也该好好聚一顿了。	Then let’s have everyone over tonight. We’ve all been busy. It’s time for a proper meal together.	じゃあ今夜は皆でにぎやかに食べよう。ずっと忙しかったし、ゆっくり集まってご飯にしたいね。	那今晚就熱鬧一點，大家一起吃。忙了這麼久，也該好好聚一頓了。
+旧食谱里那三道宴席菜，正好派上用场。我也好久没做这么一大桌饭了。	Those three feast recipes in the old book will be just right. I haven’t cooked for a crowd like this in ages.	古い料理帳の宴料理三品が、ちょうどいいな。こんな大勢のご飯を作るのは久しぶりだよ。	舊食譜裡那三道宴席菜，正好派上用場。我也好久沒做這麼一大桌飯了。
+长桌已经摆好。宴席的三道菜是星河宴、四季团圆盘和万家灯火甜点，大家都盼着这顿团圆饭。	The long table is set. The feast has Star River Banquet, Four Seasons Platter and Lantern Home Dessert. Everyone’s looking forward to eating together.	長机の準備はできた。宴の料理は星河の宴、四季団らん皿、万家灯火デザート。皆で食べるのを楽しみにしている。	長桌已經擺好。宴席的三道菜是星河宴、四季團圓盤和萬家燈火甜點，大家都盼著這頓團圓飯。
+三道宴席菜上了桌，大家又聚到一起，月环终于重新亮了。小女巫也有了自己的家和一起吃饭的人。	The three feast dishes were served, everyone gathered, and the moonring shone again. The little witch now has a home and people to share dinner with.	宴の三品が並び、皆が集まると、月環がまた光った。小さな魔女にも、家と一緒に食事する人たちができた。	三道宴席菜上了桌，大家又聚到一起，月環終於重新亮了。小女巫也有了自己的家和一起吃飯的人。
+人都到齐了。我把你的位子也算上了，忙完这一阵，咱们就一起吃。	Everyone’s here. I’ve counted a seat for you too. Once this is ready, we’ll all eat together.	皆そろったよ。あなたの席も入れてある。支度が済んだら、一緒に食べようね。	人都到齊了。我把你的位子也算上了，忙完這一陣，咱們就一起吃。
+那封信的回话，我想好了：今年一起吃，明年也一起吃。	I’ve thought of my reply to that letter: dinner together this year, and next year too.	あの手紙の返事、決めたよ。今年も一緒に食べよう。来年もね。	那封信的回話，我想好了：今年一起吃，明年也一起吃。
+亮了！月环真的亮了！咱们一起忙的这些日子，真的有用了。	It’s shining! The moonring’s really shining! All that time we spent working together made a difference.	光った！ 本当に月環が光ったよ！ 皆で頑張ってきた日々が、ちゃんと役に立ったんだね。	亮了！月環真的亮了！咱們一起忙的這些日子，真的有用了。
+好啦，汤还热着呢。今天这顿饭，我可要多喝两碗。	Well, the soup’s still hot. I’m having seconds tonight.	さあ、スープはまだ温かいよ。今日はおかわりするつもりだ。	好啦，湯還熱著呢。今天這頓飯，我可要多喝兩碗。
 一封没署名的信送到窗边。信里只问：今年的晚餐，还能有空位吗？	An unsigned letter asks only: will there still be a seat at dinner this year?	差出人のない手紙は、ただ尋ねた。「今年の夕食に、まだ空席はありますか」。	一封沒署名的信送到窗邊。信裡只問：今年的晚餐，還能有空位嗎？
 月环熄灭后，季节仍会轮转。只是空下来的田地和食堂，少了彼此等候的人。	The seasons still turn after the ring goes dark. The empty fields and eatery have lost those who waited for one another.	月環が消えても季節は巡る。ただ、空いた畑と食堂には、互いを待つ人がいなくなった。	月環熄滅後，季節仍會輪轉。只是空下來的田地和食堂，少了彼此等候的人。
 旧食谱的页边画着一圈星点，中间留着一张长桌。最后一道菜的名字，被墨迹遮住了。	Stars circle a shared table in the old recipe book. Ink conceals the name of its final dish.	古い料理帳の端に、星と長机が描かれている。最後の料理の名は、墨に隠れていた。	舊食譜的頁邊畫著一圈星點，中間留著一張長桌。最後一道菜的名字，被墨跡遮住了。
 你带着种子和食谱留下来。故事还没有答案，但今晚可以先有一顿热饭。	You stay with seeds and recipes. There is no answer yet, but tonight can have a warm meal.	種と料理帳を持って、町に残った。答えはまだない。でも今夜、温かな食事はつくれる。	你帶著種子和食譜留下來。故事還沒有答案，但今晚可以先有一頓熱飯。
 晚餐的准备	Dinner Preparations	夕食の支度	晚餐的準備
-旧备料台还在。蘑菇、莓果和香草加工后成为基础三道菜的厨房原料。	The old prep table remains. Prepared mushrooms, berries and herbs supply the first three dishes.	古い仕込み台は残っている。キノコ、ベリー、ハーブは、仕込み後に基本三品の材料となる。	舊備料臺還在。蘑菇、莓果和香草加工後成為基礎三道菜的廚房原料。
+厨房的基础原料是加工好的蘑菇、莓果和香草，最早的三道菜都用得上。	Prepared mushrooms, berries and herbs are the kitchen’s basic ingredients. The first three dishes use them.	仕込み済みのキノコ、ベリー、ハーブが厨房の基本材料。最初の三品で使われる。	廚房的基礎原料是加工好的蘑菇、莓果和香草，最早的三道菜都用得上。
 今晚的菜单	Tonight’s Menu	今夜の献立	今晚的菜單
 上架料理	Dishes listed	提供する料理	上架料理
-擦净的黑板还空着。菜单上的料理，是今晚食堂与客人的约定。	The clean menu board is empty. Its dishes will be tonight’s promise to our guests.	きれいな黒板はまだ空。献立の料理は、今夜の客との約束になる。	擦淨的黑板還空著。菜單上的料理，是今晚食堂與客人的約定。
+菜单黑板还是空的，今晚供应什么菜还没定。	The menu board is still empty. Tonight’s dishes haven’t been decided yet.	献立の黒板はまだ空。今夜の料理はまだ決まっていない。	菜單黑板還是空的，今晚供應什麼菜還沒定。
 第一只热碗	The First Warm Bowl	最初の温かな器	第一隻熱碗
-第一位客人的旧碗还空着。一份与订单相符的晚餐，也是一句欢迎回来。	The first guest’s bowl is empty. The dinner they ordered is also a welcome home.	最初の客の器はまだ空。注文どおりの夕食は、「おかえり」の言葉にもなる。	第一位客人的舊碗還空著。一份與訂單相符的晚餐，也是一句歡迎回來。
+第一位客人已经点了菜，正等着开饭。	The first guest has ordered and is waiting for dinner.	最初のお客さんは注文を済ませて、ご飯を待っている。	第一位客人已經點了菜，正等著開飯。
 明天的种子	Seeds for Tomorrow	明日の種	明天的種子
 种植地块	Plots planted	種を植えた区画	種植地塊
-五块田地留给下一次收获。香草适应四季，其他作物各有适合的季节。	Five plots can hold the next harvest. Herbs grow in every season; other crops have their own.	五つの畑で次の収穫を待てる。ハーブは四季に育ち、ほかの作物には合う季節がある。	五塊田地留給下一次收穫。香草適應四季，其他作物各有適合的季節。
-雨水的约定	A Promise of Water	水の約束	雨水的約定
+农场有五块田等着种新作物。香草四季都能长，其他作物有各自适合的季节。	Five farm plots are waiting for new crops. Herbs grow in every season; other crops have their own seasons.	農場には新しい作物を待つ畑が五区画ある。ハーブは四季に育つが、ほかの作物には合う季節がある。	農場有五塊田等著種新作物。香草四季都能長，其他作物有各自適合的季節。
+田里的水	Water for the Field	畑の水	田裡的水
 湿润或已生长地块	Watered or growing plots	水やり済み・生育中の区画	濕潤或已生長地塊
-湿润的土地让种子在跨日后生长。尚未成熟的作物，可以留在田里等待。	Watered soil lets crops grow overnight. Unripe crops can remain in the field and wait.	湿った土で、作物は翌日に育つ。未熟な作物は、畑で待っていられる。	濕潤的土地讓種子在跨日後生長。尚未成熟的作物，可以留在田裡等待。
-月环熄灭后，大家渐渐不再等彼此吃饭。是谁寄的信，我也还不知道。	After the ring faded, people stopped waiting to share supper. I don’t know who sent the letter either.	月環が消えてから、皆で夕食を待つこともなくなった。差出人は、私にもわからないの。	月環熄滅後，大家漸漸不再等彼此吃飯。是誰寄的信，我也還不知道。
-旧食谱上的星点，和灯座上的刻痕很像。长桌旁边，却没有留下名字。	The recipe book’s stars resemble marks on the lanterns. There are no names beside its table.	料理帳の星は、灯の台座の印に似ている。でも長机のそばに、名前はなかった。	舊食譜上的星點，和燈座上的刻痕很像。長桌旁邊，卻沒有留下名字。
-陶陶还留着三只旧碗。也许今晚，终于有人和他一起喝汤了。	Toma kept three old bowls. Perhaps tonight he will finally share some soup.	トマは古い器を三つ残している。今夜は、誰かとスープを飲めるかもしれないね。	陶陶還留著三隻舊碗。也許今晚，終於有人和他一起喝湯了。
-林里的蘑菇和莓果还会再长。陶陶记得它们的味道，旧食谱也记得。	Mushrooms and berries will grow again. Toma remembers their taste, and so does the old recipe book.	森にはまたキノコとベリーが育つ。トマも古い料理帳も、その味を覚えている。	林裡的蘑菇和莓果還會再長。陶陶記得它們的味道，舊食譜也記得。
-旧黑板上有汤名，也有居民留下的小记号。每份订单，都来自一位还愿意赴约的人。	The old menu board holds soup names and little marks from residents. Each order means someone still hopes to join us.	古い黒板にはスープの名と、住民の小さな印がある。注文は、また食卓を囲みたいという願いなんだね。	舊黑板上有湯名，也有居民留下的小記號。每份訂單，都來自一位還願意赴約的人。
-茉莉说，田里最珍贵的不是一夜长大的奇迹，是第二天仍有人惦记着它。	Mori says a field’s greatest treasure is someone who remembers it the next morning.	モリは言うの。畑の宝物は、一晩の奇跡よりも、翌朝また気にかける人だって。	茉莉說，田裡最珍貴的不是一夜長大的奇蹟，是第二天仍有人惦記著它。
-余烬留着每次修补的图纸。他总说，裂缝补上了，人才能放心把故事留在这里。	Ember keeps every repair plan. He says mended walls give our stories somewhere to stay.	エンバーは修理の図面を残している。ひびが直れば、安心して物語も置いていけるんだって。	餘燼留著每次修補的圖紙。他總說，裂縫補上了，人才能放心把故事留在這裡。
-水里的鱼有自己的时节。芦苇和凪的账本上，天气旁边还记着谁在岸边等过。	Fish have their seasons. Reed and Nagi record the weather, and who once waited on the bank.	魚にも季節がある。リードとナギの帳面には、天気と、岸辺で待っていた人が記されている。	水裡的魚有自己的時節。蘆葦和凪的帳本上，天氣旁邊還記著誰在岸邊等過。
-每个人都收着一些没说完的话。熟悉以后，旧物才会慢慢有自己的名字。	Everyone keeps a few unfinished words. With friendship, old keepsakes slowly find their names.	皆、言いかけた言葉を持っている。親しくなると、古い品にも少しずつ名前が戻るんだね。	每個人都收著一些沒說完的話。熟悉以後，舊物才會慢慢有自己的名字。
-有的故事要等下一次相逢。手记留得下空白，小镇也等得起。	Some stories wait for another meeting. The journal has room for blank pages, and the town has time.	次に会う日を待つ物語もある。手帳には空白があっていい。町も、待っていられるよ。	有的故事要等下一次相逢。手記留得下空白，小鎮也等得起。
+土是湿的，作物第二天才会长。还没成熟的作物会留在田里。	Crops grow the next day if the soil is wet. Unripe crops stay in the field.	土が湿っていると作物は翌日に育つ。未熟な作物はそのまま畑に残る。	土是濕的，作物第二天才會長。還沒成熟的作物會留在田裡。
+月环不亮以后，镇上就越来越冷清了，食堂也关了门。那封信是谁寄的，我也不知道。	After the moonring went dark, the town got quieter and the eatery closed. I don’t know who sent your letter either.	月環が消えてから町はだんだん寂しくなって、食堂も閉まったの。手紙の差出人は、私も知らないんだ。	月環不亮以後，鎮上就越來越冷清了，食堂也關了門。那封信是誰寄的，我也不知道。
+咦，你这本旧食谱上也画着星星？灯座上有差不多的图案，我还没弄明白是什么意思。	Oh, your recipe book has stars drawn in it too? The lantern bases have similar marks. I haven’t worked out what they mean.	あれ、その料理帳にも星の絵があるんだ。灯の台座にも似た印があるの。意味はまだわからなくて。	咦，你這本舊食譜上也畫著星星？燈座上有差不多的圖案，我還沒弄明白是什麼意思。
+陶陶听说食堂要重新开门，还留着那三只旧碗。他挺盼着能再和大家一起喝碗汤的。	Toma heard the eatery might reopen. He’s kept those three old bowls. He’d love to share some soup with everyone again.	トマは食堂がまた開くかもって聞いて、古い器を三つ残してあるの。皆とまたスープを飲みたいんだって。	陶陶聽說食堂要重新開門，還留著那三隻舊碗。他挺盼著能再和大家一起喝碗湯的。
+林里有蘑菇，也有莓果。以前食堂常用这些，陶陶一说起来就停不下来。	There are mushrooms and berries in the woods. The eatery used them a lot. Toma could talk about those dishes all day.	森にはキノコもベリーもあるよ。昔の食堂でよく使ってたんだって。トマ、その話だと止まらないの。	林裡有蘑菇，也有莓果。以前食堂常用這些，陶陶一說起來就停不下來。
+以前食堂一到饭点就坐满了，大家连谁爱喝什么汤都记得。我还挺想念那时候的。	The eatery used to fill up at dinnertime. Everyone knew each other’s favorite soup. I miss those days.	昔はご飯の時間になると食堂がいっぱいで、誰が何のスープを好きかも皆知ってたの。懐かしいな。	以前食堂一到飯點就坐滿了，大家連誰愛喝什麼湯都記得。我還挺想念那時候的。
+茉莉最放心不下那片田。哪怕只有几棵苗，她也会记着今天长高了没有。	Mori’s always thinking about that field. Even with just a few seedlings, she notices whether they’ve grown.	モリはあの畑が気になるんだって。苗が数本だけでも、今日は伸びたかなって覚えてるの。	茉莉最放心不下那片田。哪怕只有幾棵苗，她也會記著今天長高了沒有。
+余烬修过的东西都有图纸留底。以后再出毛病，就不用从头琢磨了。他做事挺仔细的。	Ember keeps plans for everything he repairs. If something breaks again, he won’t have to start from scratch. He’s thorough like that.	エンバーは修理したものの図面を残してるよ。また壊れても、一から調べずに済むんだって。まめだよね。	餘燼修過的東西都有圖紙留底。以後再出毛病，就不用從頭琢磨了。他做事挺仔細的。
+芦苇和澪都记着什么时候能见到什么鱼。两人的本子一对，连那天谁在岸边聊天都想起来了。	Reed and Nagi both keep notes on which fish appear when. Comparing their notebooks even reminds them who was chatting on the bank.	リードもナギも、いつどんな魚がいたか書いてるの。帳面を見比べると、その日岸で話してた人まで思い出すんだって。	蘆葦和澪都記著什麼時候能見到什麼魚。兩人的本子一對，連那天誰在岸邊聊天都想起來了。
+大家都有不太愿意提的事。现在熟一些了，有人总算愿意说说以前发生了什么。	Everyone has things they find hard to talk about. Now that we’re closer, some people are ready to tell us what happened.	皆、話しづらいこともあるよね。少し親しくなって、昔のことを話してくれる人も出てきたの。	大家都有不太願意提的事。現在熟一些了，有人總算願意說說以前發生了什麼。
+没说完也没关系，下次还会见面的。有些事隔一阵再聊，反而容易开口。	It’s all right to leave some things for next time. We’ll see each other again. A little time can make talking easier.	全部話せなくても、また会えるから大丈夫。少し時間を置いたほうが、話しやすくなることもあるしね。	沒說完也沒關係，下次還會見面的。有些事隔一陣再聊，反而容易開口。
 地点：%s	Place: %s	場所：%s	地點：%s
-这一页的心愿已经实现。	This page’s wish has come true.	この頁の願いがかなったね。	這一頁的心願已經實現。
+这件事办成了，真好。	We did it. That’s good to see.	うまくいったね。よかった。	這件事辦成了，真好。
 %s · %d/%d	%s · %d/%d	%s・%d/%d	%s · %d/%d
 回顾	Recall	回想	回顧
+陶陶还留着以前的菜单和备料篮。他嘴上不说，其实挺盼着食堂重新开门的。	Toma kept the old menu and prep basket. He won’t say it, but he’s really hoping the eatery will reopen.	トマは昔の献立と仕込み籠を残してるの。口には出さないけど、食堂の再開を楽しみにしてるんだよ。	陶陶還留著以前的菜單和備料籃。他嘴上不說，其實挺盼著食堂重新開門的。
+陶陶把碗都擦好了，食材也齐了。大家都在等今晚这顿饭呢。	Toma’s cleaned the bowls, and we have the ingredients. Everyone’s looking forward to dinner tonight.	トマが器を洗って、食材もそろったよ。皆、今夜のご飯を楽しみにしてる。	陶陶把碗都擦好了，食材也齊了。大家都在等今晚這頓飯呢。
+茉莉这几天总在看农场。那地荒了太久，她担心种子种不活。	Mori keeps checking on the farm. The field was empty for so long, she’s worried the seeds won’t grow.	モリ、このところ農場を気にしてるの。長く荒れてたから、種が育つか心配なんだって。	茉莉這幾天總在看農場。那地荒了太久，她擔心種子種不活。
+余烬正在研究水门的图纸。齿轮坏了，修好以后湿地才能通水。	Ember’s studying the sluice plans. The gear’s broken. Once it’s fixed, water can reach the marsh again.	エンバーが水門の図面を調べてるよ。歯車が直れば、湿地に水が通るんだって。	餘燼正在研究水門的圖紙。齒輪壞了，修好以後濕地才能通水。
+芦苇说水道通了，鱼也开始回来了。码头这几天比以前热闹多了。	Reed says the water’s flowing and the fish are coming back. The dock’s much livelier these days.	リードによると、水路が通って魚も戻り始めたんだって。最近、桟橋がにぎやかだよ。	蘆葦說水道通了，魚也開始回來了。碼頭這幾天比以前熱鬧多了。
+熟客多了，大家也比以前熟了。不过皮普一提遗址就不自在，好像有事放不下。	We’ve got more regulars, and people are getting closer. But Pip still gets uneasy about the ruins. Something’s bothering him.	常連も増えて、皆も親しくなってきたね。でもピップは遺跡の話になると落ち着かなくて。何か気にしてるみたい。	熟客多了，大家也比以前熟了。不過皮普一提遺址就不自在，好像有事放不下。
+皮普总算拿出了钥匙。他说，遗址里的旧零件可能还查得出当年出了什么事。	Pip finally brought out the key. He thinks the old parts in the ruins could help explain the accident.	ピップがやっと鍵を出してくれた。遺跡の部品を調べれば、事故のことがわかるかもしれないって。	皮普總算拿出了鑰匙。他說，遺址裡的舊零件可能還查得出當年出了什麼事。
+来吃饭的人越来越多，座位都快不够了。山上的人也听说咱们食堂了。	More people keep coming for dinner. We’re almost out of seats. Even people up the mountain have heard about us.	食事に来る人が増えて、席が足りなくなりそう。山の人たちも、この食堂のことを聞いたんだって。	來吃飯的人越來越多，座位都快不夠了。山上的人也聽說咱們食堂了。
+霜铃找到的邮戳只剩一半，日期不全。她一直惦记着，想知道那封旧信是哪天寄的。	Yuki’s postmark is only half there, so the date’s incomplete. She really wants to know when that old letter was sent.	ユキの見つけた消印は半分だけで、日付が欠けてるの。あの古い手紙がいつ出されたか、気になってるみたい。	霜鈴找到的郵戳只剩一半，日期不全。她一直惦記著，想知道那封舊信是哪天寄的。
+星芒弄明白了，星图的空格对应不同作物。她正在核对农场的收获记录。	Aster worked it out: the chart’s blanks match different crops. She’s checking the farm’s harvest records.	アスターが星図の空欄を解いたよ。作物に対応してるんだって。今は農場の収穫記録を確かめてる。	星芒弄明白了，星圖的空格對應不同作物。她正在核對農場的收穫記錄。
+观星台能读出月晶里的旧记录。不过内容还没齐，那晚发生的事还差几段。	The observatory can read the old records in the crystals. But some are still missing, so we don’t have the full story of that night.	天文台で月晶の記録を読めるようになったよ。でもまだ欠けた部分があって、あの夜のことは全部わかってないんだ。	觀星臺能讀出月晶裡的舊記錄。不過內容還沒齊，那晚發生的事還差幾段。
+长桌摆好了，大家都说要来。陶陶翻出了宴席的食谱，今天可有得忙了。	The table’s set, and everyone says they’re coming. Toma’s found the feast recipes. It’s going to be a busy day.	長机の準備はできて、皆も来るって。トマが宴の料理帳を出してきたよ。今日は忙しくなりそう。	長桌擺好了，大家都說要來。陶陶翻出了宴席的食譜，今天可有得忙了。
+雾港的后厨	The Fog Harbor Kitchen	霧港の厨房	霧港的後廚
+小女巫从小在雾港旅店的后厨帮忙。每天做一大锅饭，却总是她一个人在厨房吃。	The little witch grew up helping in a Fog Harbor inn kitchen. She cooked for everyone, then ate alone in the kitchen.	小さな魔女は霧港の宿の厨房で育った。皆のご飯を作っても、自分はいつも厨房で一人で食べていた。	小女巫從小在霧港旅店的後廚幫忙。每天做一大鍋飯，卻總是她一個人在廚房吃。
+写着名字的信	A Letter with Her Name	名前の書かれた手紙	寫著名字的信
+一个下雨的晚上，一封信落在洗碗台上。收信人是她，却没写谁寄的。信里问：今年能来一起吃顿饭吗？	One rainy evening, a letter landed by the sink. It was addressed to her, with no sender’s name. It asked: could you join us for dinner this year?	雨の晩、流し台に手紙が落ちてきた。宛名は彼女、差出人は書いていない。「今年、一緒にご飯を食べませんか」とあった。	一個下雨的晚上，一封信落在洗碗臺上。收信人是她，卻沒寫誰寄的。信裡問：今年能來一起吃頓飯嗎？
+半箱锅子	Half a Trunk of Pots	鍋で半分の鞄	半箱鍋子
+信里还附着一本旧食谱。她收拾好衣服和锅子，头一回独自出远门，去找信里说的小镇。	An old recipe book came with the letter. She packed her clothes and pots, then set off alone for the town it mentioned.	古い料理帳も添えてあった。服と鍋を鞄に詰め、手紙にあった町へ、初めて一人で遠出した。	信裡還附著一本舊食譜。她收拾好衣服和鍋子，頭一回獨自出遠門，去找信裡說的小鎮。
+熄灯的小镇	The Town Without Lights	灯の消えた町	熄燈的小鎮
+哗啦啦魔女镇的月环已经很久没亮了。季节照常变，田却荒着，食堂也关了门，大家很少再一起吃饭。	Walala Witch Town’s moonring had been dark for years. The seasons still changed, but the fields lay empty and the eatery was closed. People rarely ate together anymore.	ワララ魔女の町の月環は、長い間消えたまま。季節は変わっても畑は荒れ、食堂も閉まっていた。皆で食事することも減っていた。	嘩啦啦魔女鎮的月環已經很久沒亮了。季節照常變，田卻荒著，食堂也關了門，大家很少再一起吃飯。
+等她的门	A Door That Waited	待っていた扉	等她的門
+月芽农场的小屋没锁门。她放下箱子，松了口气：总算到了，以后也许就住这儿了。	The cottage on Moonsprout Farm was unlocked. She set down her trunk with a sigh of relief. She had made it. Maybe this could be her home.	月芽農場の小屋には鍵がかかっていなかった。鞄を下ろして、ほっと息をつく。やっと着いた。ここで暮らせるかもしれない。	月芽農場的小屋沒鎖門。她放下箱子，鬆了口氣：總算到了，以後也許就住這兒了。
+今日气象：%s · 料理偏好：%s	Forecast: %s · Table focus: %s	今日の天気：%s・献立の気分：%s	今日氣象：%s · 料理偏好：%s
+晴朗	Clear	晴れ	晴朗
+小雨	Rain	雨	小雨
+薄雪	Snow	雪	薄雪
+汤品	Soups	スープ	湯品
+丰收	Harvest	収穫	豐收
+连席 %d · 小费 %d金 · 心情 %d	Chain %d · Tips %dg · Mood %d	連席 %d・チップ %dG・気分 %d	連席 %d · 小費 %d金 · 心情 %d
+"第 %d 天结算
+收入：%d 金币　累计：%d
+上菜：%d　离店：%d　废弃：%d
+小费：%d　最高连席：%d
+原食材和厨房原料保留；采集点次日刷新。"	"Day %d Results
+Earned: %dg  Total: %d
+Served: %d  Left: %d  Wasted: %d
+Tips: %dg  Best chain: %d
+Stock is kept. Gathering spots return tomorrow."	"%d日目の決算
+売上：%dG　合計：%d
+配膳：%d　退店：%d　廃棄：%d
+チップ：%dG　最高連席：%d
+食材は持ち越し。採集場所は翌日回復。"	"第 %d 天結算
+收入：%d 金幣　累計：%d
+上菜：%d　離店：%d　廢棄：%d
+小費：%d 金幣　最高連席：%d
+原食材和廚房原料保留；採集點次日刷新。"
+绮屋 · 房地产魔女	Kiya · Property Witch	キヤ・不動産の魔女	綺屋 · 房地產魔女
+房地产魔女	Property Witch	不動産の魔女	房地產魔女
+住宅扩建	Home Expansion	自宅の増築	住宅擴建
+租约已生效	Lease active	賃貸契約済み	租約已生效
+尚未承租	Not rented	未契約	尚未承租
+长期租金：%d金	Lease fee: %d G	長期賃料：%d G	長期租金：%d金
+一次付费 · 长期使用	One payment · Long-term use	一括払い・長期利用	一次付費 · 長期使用
+房屋占地：%d×%d	Footprint: %d×%d	建物の広さ：%d×%d	房屋占地：%d×%d
+已承租	Rented	契約済み	已承租
+承租餐厅	Rent Restaurant	レストランを借りる	承租餐廳
+餐厅尚未承租。	The restaurant has no lease.	レストランは未契約です。	餐廳尚未承租。
+餐厅已承租。	The restaurant is already rented.	レストランは契約済みです。	餐廳已承租。
+金币不足。	Not enough gold.	所持金が足りません。	金幣不足。
+餐厅租约已生效。	The restaurant lease is active.	レストランの賃貸契約が成立しました。	餐廳租約已生效。
+扩建用地被占用。	The expansion site is occupied.	増築用地がふさがっています。	擴建用地被占用。
+金币 %d	Gold %d	所持金 %d	金幣 %d
+哗啦啦魔女镇到了。你的箱子底下在响，里面装的什么？	Walala Witch Town. What's rattling at the bottom of your trunk?	ワララ魔女町に着いたよ。箱の底で鳴っているのは何？	嘩啦啦魔女鎮到了。你的箱子底下在響，里面裝的什么？
+锅。还有一只不肯待在锅里的锅盖。	A pot. And a lid that refuses to stay on it.	鍋と、どうしても中に収まってくれない蓋。	鍋。還有一只不肯待在鍋里的鍋蓋。
+它从上一个渡口就开始逃了。	It's been trying to escape since the last crossing.	前の渡し場から逃げようとしてたね。	它從上一個渡口就開始逃了。
+等我开了店，第一笔钱就买条结实的绳子。	My first earnings will buy a sturdy cord.	店の最初の売上で、丈夫な紐を買うわ。	等我開了店，第一筆錢就買條結實的繩子。
+你是来租月灯食堂的？	You're here to rent Moon Lantern Kitchen?	月灯食堂を借りに来た人？	你是來租月燈食堂的？
+告示上说，连着一块农田，第一季免租。有什么我没看懂的小字吗？	The notice said it comes with a field, first season rent-free. Any fine print I missed?	畑付きで、最初の季節は家賃無料って。見落とした小さな字はある？	告示上說，連著一塊農田，第一季免租。有什么我沒看懂的小字嗎？
+免租是真的。农田长满了草，也是真的。	The free rent is real. So are the weeds covering the field.	家賃無料は本当。畑が草だらけなのも本当。	免租是真的。農田長滿了草，也是真的。
+草总能慢慢清。	Weeds can be cleared, a little at a time.	草なら、少しずつ片付けられる。	草總能慢慢清。
+嗯。我叫澪，码头的事归我管。下次来船，我给你带时刻表。	I'm Nagi. I manage the dock. I'll bring a timetable with the next boat.	私はナギ。波止場を任されてる。次の船で時刻表を持っていくよ。	嗯。我叫澪，碼頭的事歸我管。下次來船，我給你帶時刻表。
+我叫薇尔莉娅。下次来船，我应该能带点自己做的东西。	I'm 薇尔莉娅. By then, I should have something homemade to bring.	薇尔莉娅よ。その時には、自分で作ったものを持ってこられると思う。	我叫薇爾莉婭。下次來船，我應該能帶點自己做的東西。
+薇尔莉娅？提锅来的那位？	薇尔莉娅? The one who brought a pot?	薇尔莉娅？　鍋を持ってきた人？	薇爾莉婭？提鍋來的那位？
+如果还有别人提锅来，我可能租错地方了。	If someone else brought one too, I may have rented the wrong place.	他にもいたら、借りる場所を間違えたかもしれないわ。	如果還有別人提鍋來，我可能租錯地方了。
+那就没错。我是萤萝，镇上的巡灯员。奥萝还在食堂，我先来看看你有没有到。	That's you, then. I'm Yingluo, the town lamplighter. Orla's at the eatery; I came to see if you'd arrived.	じゃあ合ってる。町の灯を見回る蛍蘿だよ。オルラは食堂。私は着いたか見に来たの。	那就沒錯。我是螢蘿，鎮上的巡燈員。奧蘿還在食堂，我先來看看你有沒有到。
+这屋顶补过？	Has this roof been repaired?	この屋根、直したの？	這屋頂補過？
+上个月补的。这块颜色浅的木头是新的。	Last month. That paler plank is new.	先月ね。色の薄い板が新しいの。	上個月補的。這塊顏色淺的木頭是新的。
+那告示至少有两句话是真的了。	That's at least two true things in the notice.	これで告示の内容が、少なくとも二つは本当ね。	那告示至少有兩句話是真的了。
+还有哪句？	What was the other one?	もう一つは？	還有哪句？
+第一季免租。	First season rent-free.	最初の季節は家賃無料。	第一季免租。
+你把那句圈得好大。	You drew such a big circle around that.	そこ、大きな丸で囲んでたね。	你把那句圈得好大。
+这是我在雾港后厨干了三年，最看得懂的一句。	After three years in a Fog Harbor kitchen, that was the easiest line to understand.	霧港の厨房で三年働いた私には、一番わかりやすい一行だったの。	這是我在霧港后廚干了三年，最看得懂的一句。
+你以前管厨房？	Did you run the kitchen?	厨房を任されてたの？	你以前管廚房？
+洗碗，切菜，偶尔看灶。菜单上没写过我的名字。	Dishes, chopping, the occasional stove watch. My name was never on a menu.	皿洗いと下ごしらえ、時々火の番。献立に私の名前はなかったわ。	洗碗，切菜，偶爾看灶。菜單上沒寫過我的名字。
+食堂的旧招牌还能用，下面留着一块空木板。	The old sign still works. There's a blank board underneath.	昔の看板はまだ使えるよ。その下に空いた板もある。	食堂的舊招牌還能用，下面留著一塊空木板。
+我带了笔。	I brought a pen.	ペンなら持ってきた。	我帶了筆。
+那正好。	Perfect.	それならぴったり。	那正好。
+薇尔莉娅，租约在这儿。先试营一年，第一季免租，之后按月付租。旧屋漏水、墙体和水管的修缮由镇里承担。	Here's the lease, 薇尔莉娅. A one-year trial, first season free, monthly rent after. The town repairs existing leaks, walls and pipes.	薇尔莉娅、契約書よ。一年間の試営で最初の季節は無料、その後は月払い。古い屋根や壁、水管の修繕は町が負担するわ。	薇爾莉婭，租約在這兒。先試營一年，第一季免租，之后按月付租。舊屋漏水、墻體和水管的修繕由鎮里承擔。
+农具和锅碗呢？	What about tools and pots?	農具や鍋、食器は？	農具和鍋碗呢？
+农具能借，厨房留下的器具归食堂使用。新添的东西，退租时可以带走。	Tools can be borrowed. The kitchen's utensils stay with the eatery. Anything you add is yours to take when you leave.	農具は貸し出し。残った調理器具は食堂で使える。自分で買い足した物は、退去する時に持っていっていいわ。	農具能借，廚房留下的器具歸食堂使用。新添的東西，退租時可以帶走。
+如果生意没做起来？	And if the business doesn't work out?	商売がうまくいかなかったら？	如果生意沒做起來？
+你可以不续租。已经卖出去的饭钱，当然还是你的。	You can choose not to renew. The money you've earned is still yours.	更新しなくていいの。売上はもちろん、あなたのものよ。	你可以不續租。已經賣出去的飯錢，當然還是你的。
+那只小汤锅别算进去，锅底裂了。我拿来接漏水的。	Don't count that little soup pot. It's cracked. I use it to catch drips.	その小鍋は数に入れないで。底が割れて、雨漏り受けにしてるんだ。	那只小湯鍋別算進去，鍋底裂了。我拿來接漏水的。
+我刚还觉得，这里的锅洗得真干净。	I was just admiring how clean it was.	ずいぶんきれいに洗ってあると思ったのに。	我剛還覺得，這里的鍋洗得真干凈。
+里面那只是好的。灶也试过了，就是左边火大。	The one inside is sound. I've tested the stove too. The left side runs hot.	奥の鍋は大丈夫。かまども試した。左の火は強めだよ。	里面那只是好的。灶也試過了，就是左邊火大。
+你以前在这儿做饭？	Did you cook here before?	前はここで料理してたの？	你以前在這兒做飯？
+做过。现在谁家缺个人看锅，也会叫我。	For a while. These days, people call me when they need someone to mind a pot.	昔はね。今も、鍋を見てほしい家には呼ばれるよ。	做過。現在誰家缺個人看鍋，也會叫我。
+那我能请你尝尝第一锅汤吗？我还有点干蘑菇。	Would you taste my first soup? I have some dried mushrooms.	最初のスープを味見してくれる？　干しキノコが少しあるの。	那我能請你嘗嘗第一鍋湯嗎？我還有點干蘑菇。
+能。盐罐里还有半罐，别照着你的蘑菇一起倒。	Gladly. Half a jar of salt left. Don't tip it all in with the mushrooms.	もちろん。塩は半瓶あるけど、キノコと一緒に全部入れないでね。	能。鹽罐里還有半罐，別照著你的蘑菇一起倒。
+我也有碗吗？	Is there a bowl for me too?	私の器もある？	我也有碗嗎？
+有。我只带了三只碗，正好。	Yes. I brought three bowls. Just enough.	あるわ。三つ持ってきたから、ちょうどね。	有。我只帶了三只碗，正好。
+那我呢？	And me?	私は？	那我呢？
+锅盖暂时还没漏。	The pot lid hasn't sprung a leak yet.	鍋の蓋は、まだ漏れてないわ。	鍋蓋暫時還沒漏。
+旧柜里有碗，我刚洗过。你自己的那份也得盛出来。	There are bowls in the old cupboard. I washed them. Serve yourself a portion too.	古い戸棚にも器がある。洗っておいたよ。自分の分もよそってね。	舊柜里有碗，我剛洗過。你自己的那份也得盛出來。
+好。今晚试灶，明晚开张。先煮一小锅。	All right. Test the stove tonight, open tomorrow. One small pot to start.	ええ。今夜は試し炊き、開店は明日。まずは小さな一鍋から。	好。今晚試灶，明晚開張。先煮一小鍋。
+这块木板原来写着今日菜单。擦掉以后，比我想的还新。	This board used to say Today's Menu. It's fresher than I expected underneath.	この板、前は今日の献立って書いてあったんだ。消すと思ったよりきれいだね。	這塊木板原來寫著今日菜單。擦掉以后，比我想的還新。
+今天只有蘑菇汤。我把字写大一点，能占满。	Only mushroom soup today. Big letters should fill it.	今日はキノコスープだけ。大きな字にすれば埋まるわ。	今天只有蘑菇湯。我把字寫大一點，能占滿。
+占满有什么用？	What good does filling it do?	埋めてどうするの？	占滿有什么用？
+看着像认真开店。	Makes it look like a serious business.	ちゃんとした店らしく見える。	看著像認真開店。
+认真开店得先知道这一锅能卖几碗。	A serious business knows how many bowls a pot will sell.	ちゃんとした店なら、一鍋で何杯売れるか知ってないと。	認真開店得先知道這一鍋能賣幾碗。
+八碗。要是每碗少盛一点，能有十碗。	Eight. Ten if I make each serving smaller.	八杯。少しずつ減らせば十杯。	八碗。要是每碗少盛一點，能有十碗。
+你想卖八碗，还是想让十个人觉得没吃够？	Do you want eight sales, or ten people still hungry?	八杯売りたい？　それとも十人に物足りないと思わせたい？	你想賣八碗，還是想讓十個人覺得沒吃夠？
+八碗。我再切些面包。	Eight. I'll slice some bread too.	八杯にする。パンも切るわ。	八碗。我再切些面包。
+门口的灯罩擦干净了。玻璃上有个小裂口，我记在修缮本上了。	The lamp outside is clean. There's a crack in the glass; I've logged it for repair.	入口の灯は拭いたよ。ガラスのひびは修繕帳に書いておいた。	門口的燈罩擦干凈了。玻璃上有個小裂口，我記在修繕本上了。
+那盏灯也归你？	Is that lamp yours to look after too?	あの灯もあなたの担当？	那盞燈也歸你？
+整条街都归我。山上那座大月环不归，我的梯子没那么长。	The whole street is. Not the big moonring up the mountain. My ladder won't reach.	通り全部ね。山の大きな月環は違うよ。梯子が届かないもの。	整條街都歸我。山上那座大月環不歸，我的梯子沒那么長。
+它一直不亮吗？	Has it always been dark?	ずっと消えてるの？	它一直不亮嗎？
+你来以前就这样了。街上的小灯还能各自点，晚饭不会摸黑吃。	Since before you came. The street lamps light separately. Dinner won't be in the dark.	来る前からね。街灯は一つずつともせるから、ご飯は暗闇で食べずに済むよ。	你來以前就這樣了。街上的小燈還能各自點，晚飯不會摸黑吃。
+两碗汤，一份装进这个罐子。	Two soups. One in this jar, please.	スープを二つ。一つはこの瓶に。	兩碗湯，一份裝進這個罐子。
+另一份在这儿吃？	Eating the other here?	もう一つはここで？	另一份在這兒吃？
+店里还有账没对完，我想一起带走。	I have accounts waiting at the shop. I'd like both to go.	店の帳簿がまだなの。両方持ち帰りたいわ。	店里還有賬沒對完，我想一起帶走。
+你午饭也是带走的。	You took lunch away too.	お昼も持ち帰ってたね。	你午飯也是帶走的。
+午饭是在柜台边吃的。没带走。	I ate lunch at the counter. That doesn't count.	お昼は売場で食べたわ。持ち帰ってはいないもの。	午飯是在柜臺邊吃的。沒帶走。
+罐子装满了，另一份我盛碗里。账不会因为你坐五分钟就少一页。	The jar's full. The other goes in a bowl. Five minutes sitting down won't make a page disappear.	瓶は満杯。もう一つは器にね。五分座っても、帳簿は一頁も減らないわ。	罐子裝滿了，另一份我盛碗里。賬不會因為你坐五分鐘就少一頁。
+多一页倒有可能。皮普今天赊了三样东西。	It could add a page. Pip bought three things on credit today.	増えるかもしれないわ。ピップが三品つけで買ったの。	多一頁倒有可能。皮普今天賒了三樣東西。
+两样。那根铜丝是我自己的！	Two! That copper wire was mine already!	二品だよ！　銅線は僕のだ！	兩樣。那根銅絲是我自己的！
+你们要对账，正好还剩一张桌子。	There's one table left for sorting that out.	相談するなら、あと一卓空いてるわ。	你們要對賬，正好還剩一張桌子。
+那就坐五分钟。	Five minutes, then.	じゃあ五分だけ。	那就坐五分鐘。
+还有汤吗？	Any soup left?	スープ、まだある？	還有湯嗎？
+有。你赶得正好。	Yes. Right on time.	あるわ。ちょうどよかった。	有。你趕得正好。
+我明早六点在码头。白天那顿饭，能不能今晚一起买？	I'm at the dock at six tomorrow. Could I buy tomorrow's lunch tonight too?	明朝六時には波止場なの。明日のお昼も今夜買える？	我明早六點在碼頭。白天那頓飯，能不能今晚一起買？
+汤放一夜，面包会泡烂。我给你分开装。	Bread would go soggy overnight in soup. I'll pack it separately.	一晩スープにつけるとパンがふやけるから、分けて包むわ。	湯放一夜，面包會泡爛。我給你分開裝。
+不用面包。昨天杂货店最后两条被我买了，今天货没到。	No bread needed. I bought the shop's last two loaves yesterday. Today's delivery didn't come.	パンは要らない。昨日、店の最後の二本を買ったから。今日は荷が来てないの。	不用面包。昨天雜貨店最后兩條被我買了，今天貨沒到。
+明天也没有？	None tomorrow either?	明日も来ないの？	明天也沒有？
+船这几天不进支流。镇上订单太少，凑不出一趟。	The boat isn't taking the branch river lately. Too few orders for a trip.	最近は支流に来ないの。町の注文だけでは一便に足りなくて。	船這幾天不進支流。鎮上訂單太少，湊不出一趟。
+我那儿还有半袋面粉。	I have half a sack of flour.	うちに半袋あるよ。	我那兒還有半袋面粉。
+你这儿怎么什么都有一点？	Why do you have a little of everything?	どうして何でも少しずつあるの？	你這兒怎么什么都有一點？
+以前买多了，后来用得少了。	Bought too much once. Used less later.	前は買いすぎて、その後は使う量が減ったんだ。	以前買多了，后來用得少了。
+那我先买你的。不能开张第一晚就把明天的面包卖没了。	I'll buy yours first. Can't sell out tomorrow's bread on opening night.	まずそれを買うわ。開店の夜に明日のパンまで売り切れにはできないもの。	那我先買你的。不能開張第一晚就把明天的面包賣沒了。
+记个数就行，明晚我来收钱。	Keep a count. I'll collect tomorrow evening.	数を書いといて。明晩、代金をもらいに来るよ。	記個數就行，明晚我來收錢。
+你明晚还来？	You're coming back tomorrow?	明晩も来てくれるの？	你明晚還來？
+你不是还得用面粉？	You still need flour, don't you?	小麦粉、まだ要るだろう？	你不是還得用面粉？
+别笑了，你那碗汤都凉了。	Stop grinning. Your soup's gone cold.	笑ってないで。あなたのスープが冷めちゃった。	別笑了，你那碗湯都涼了。
+我还没尝呢。你们吃着怎么样？	I haven't tried it. How is yours?	まだ飲んでないわ。みんな、味はどう？	我還沒嘗呢。你們吃著怎么樣？
+淡。	Bland.	薄い。	淡。
+你那碗刚才加过两次盐。	You've salted yours twice already.	その器、さっき二回も塩を入れたでしょう。	你那碗剛才加過兩次鹽。
+面包淡。	The bread is bland.	パンが薄い。	面包淡。
+面包还没做。	I haven't made it yet.	まだ作ってないわ。	面包還沒做。
+那明天再说。	Tomorrow, then.	じゃあ明日だな。	那明天再說。
+一袋面粉的运费，为什么快赶上半袋面粉了？	Why does shipping one sack of flour cost nearly half a sack?	小麦粉一袋の送料が、どうして半袋分もするの？	一袋面粉的運費，為什么快趕上半袋面粉了？
+单独来一趟船，就这个价。你订十袋，船还是这条船。	A special boat trip costs that much. Ten sacks still use the same boat.	一便出すからね。十袋でも船は同じ一艘よ。	單獨來一趟船，就這個價。你訂十袋，船還是這條船。
+我买不起十袋。	I can't afford ten sacks.	十袋なんて買えないわ。	我買不起十袋。
+也放不下。食堂仓房那一角还漏潮。	Or store them. That pantry corner is still damp.	置く場所もないわ。倉庫の隅はまだ湿るもの。	也放不下。食堂倉房那一角還漏潮。
+镇里能补这一次运费。	The town could cover this fare.	今回の船代は町で補えるわ。	鎮里能補這一次運費。
+下次呢？	And next time?	次は？	下次呢？
+下次再想办法。	We'll think of something.	次はまた考えるわ。	下次再想辦法。
+我上个月也是这么说的。现在少了灯油、盐和两种种子，运费还没省下来。	I said that last month. Now I'm short of oil, salt and two seed types. The fares haven't fallen.	先月、私もそう言った。今は灯油も塩も種二種類も不足。送料も減らなかったわ。	我上個月也是這么說的。現在少了燈油、鹽和兩種種子，運費還沒省下來。
+你订货，我订货，铁匠铺也订货，为什么不能放在一张单子上？	You order, I order, the smith orders. Why not use one list?	私も店も鍛冶屋も注文する。どうして一枚にまとめないの？	你訂貨，我訂貨，鐵匠鋪也訂貨，為什么不能放在一張單子上？
+我的煤会把你的面粉染黑。	My coal would blacken your flour.	石炭で小麦粉が黒くなるぞ。	我的煤會把你的面粉染黑。
+分箱。船有隔舱。	Separate boxes. The boat has compartments.	箱を分ければいい。船には仕切りがある。	分箱。船有隔艙。
+那能放。	Then it fits.	なら載るな。	那能放。
+货到了，少一件算谁的？	If something's missing, whose problem is it?	荷が一つ足りなかったら、誰の責任？	貨到了，少一件算誰的？
+各自列清单，各自付货钱。运费按箱算，我可以验收，但卸货不能每次都只有我。	Separate lists and payments. Split freight by box. I can check arrivals, but not unload alone every time.	品目と代金は各自。送料は箱数で。検品はできるけど、毎回一人で荷下ろしは無理よ。	各自列清單，各自付貨錢。運費按箱算，我可以驗收，但卸貨不能每次都只有我。
+我能留出一个上午。	I can spare a morning.	午前中を空けられるわ。	我能留出一個上午。
+我搬重的。固定哪天，提前说。	I'll take the heavy ones. Set a day and tell me ahead.	重い物は俺が。日を決めて、先に知らせてくれ。	我搬重的。固定哪天，提前說。
+账我来合。谁临时加单，下一趟再带。	I'll combine the accounts. Last-minute extras wait for the next trip.	帳簿はまとめる。直前の追加は次の便ね。	賬我來合。誰臨時加單，下一趟再帶。
+这样能谈定期来船吗？	Could that become a regular boat?	定期便の相談もできるかしら？	這樣能談定期來船嗎？
+先试一趟。别把还没装上的货写成已经有了。	One trial first. Don't count cargo that isn't aboard yet.	まず一便。まだ積んでいない荷を、あることにしないでね。	先試一趟。別把還沒裝上的貨寫成已經有了。
+你订了萝卜种子？	You ordered turnip seeds?	カブの種を頼んだの？	你訂了蘿卜種子？
+想在自己的田里种一点。不能每次都等船。	For my field. I can't always wait for the boat.	自分の畑に少し。いつも船を待つわけにはいかないから。	想在自己的田里種一點。不能每次都等船。
+我试验田里的这批已经能收了，但大小差得很多。	My trial crop is ready, though the sizes vary a lot.	試験畑の分なら収穫できるよ。大きさはかなりばらばらだけど。	我試驗田里的這批已經能收了，但大小差得很多。
+炖汤又不用把萝卜摆成一排。	Soup doesn't need turnips lined up in a row.	スープのカブは、一列に並べないもの。	燉湯又不用把蘿卜擺成一排。
+卖给你可以。我要留下几株结种，不能全收。	I can sell some. A few plants stay for seed. Not a full harvest.	売れるよ。でも種を取る株は残したい。全部は採れないんだ。	賣給你可以。我要留下幾株結種，不能全收。
+你定能卖的量，我定明晚的菜单。	You set the available amount. I'll set tomorrow's menu.	売れる量を教えて。それで明日の献立を決めるわ。	你定能賣的量，我定明晚的菜單。
+还有一件事。味道不好的那批，不用因为是我种的就留下。	One more thing. Don't keep a bad-tasting batch just because I grew it.	もう一つ。私が育てたからって、まずい分まで買わなくていいよ。	還有一件事。味道不好的那批，不用因為是我種的就留下。
+那你也别因为我是新店，就把好萝卜卖成坏萝卜的价。	And don't price good turnips as bad ones because my shop's new.	新しい店だからって、いいカブを悪いカブの値段にしないでね。	那你也別因為我是新店，就把好蘿卜賣成壞蘿卜的價。
+我还没报价。	I haven't named a price yet.	まだ値段を言ってないよ。	我還沒報價。
+我先把话说在前面。我很容易不好意思还价。	Just saying it early. I get embarrassed bargaining.	先に言っておくの。私、値切るのが苦手だから。	我先把話說在前面。我很容易不好意思還價。
+看出来了。你连运费都准备直接付。	We noticed. You nearly paid that fare without a word.	わかったわ。船代もそのまま払うところだったもの。	看出來了。你連運費都準備直接付。
+第一次合单，够一船了。船主说可以再试两趟，之后看回程有没有货。	Enough for our first combined load. Two more trials, says the skipper; then it depends on return cargo.	最初の共同注文で一艘分よ。あと二便は試せるけど、その後は帰りの荷次第だって。	第一次合單，夠一船了。船主說可以再試兩趟，之后看回程有沒有貨。
+回程能带鱼。数量不大，冰得备好。	Fish can go back. Not many. We'll need ice.	帰りには魚を出せる。少量だけど、氷が必要だね。	回程能帶魚。數量不大，冰得備好。
+我能出些种苗，路上怕晒。	I have seedlings, if they're kept out of the sun.	苗も少し。道中の日差しには弱いけど。	我能出些種苗，路上怕曬。
+那去程带面粉，回程带鱼和种苗。我们总不能每次只把钱送出去。	Flour inbound; fish and seedlings outbound. We can't keep sending only money away.	行きは小麦粉、帰りは魚と苗。お金だけを送り出してはいられないわ。	那去程帶面粉，回程帶魚和種苗。我們總不能每次只把錢送出去。
+我写信问。你那袋面粉，后天能到。	I'll ask in a letter. Your flour arrives the day after tomorrow.	手紙で聞くね。小麦粉は明後日届くよ。	我寫信問。你那袋面粉，后天能到。
+好。明晚先卖炖萝卜。	Good. Stewed turnips tomorrow night.	よかった。明晩はカブの煮込みね。	好。明晚先賣燉蘿卜。
+面包呢？	What about bread?	パンは？	面包呢？
+晚一天。写在菜单上的，得是锅里真有的。	A day later. The menu should name what's actually in the pot.	一日後ね。献立には、本当に鍋にあるものを書くわ。	晚一天。寫在菜單上的，得是鍋里真有的。
+昨晚井里还有水，今天桶只提上来半桶泥。	There was water last night. Today I hauled up half a bucket of mud.	昨夜は井戸に水があったのに、今日は半桶の泥だけ。	昨晚井里還有水，今天桶只提上來半桶泥。
+我那边也低了。不是你浇得多，上游的水量已经连续几天在降。	Mine is low too. It's not your watering. Upstream flow has fallen for days.	私の井戸も低いよ。水やりのせいじゃない。上流の水量が何日も減ってる。	我那邊也低了。不是你澆得多，上游的水量已經連續幾天在降。
+湿地入口又被石头堵了一半，水都从旧支渠冲走了。	Stones block half the marsh inlet again. Water's rushing down the old branch channel.	湿地の入口がまた石で半分塞がった。水は旧支路に流れてる。	濕地入口又被石頭堵了一半，水都從舊支渠沖走了。
+旧支渠不能直接封，底下连着排洪槽。	We can't just close that channel. It joins the flood drain below.	あの水路は塞げない。下で排水溝につながってる。	舊支渠不能直接封，底下連著排洪槽。
+我的萝卜再干一天就蔫了。	One more dry day and my turnips will wilt.	もう一日乾いたら、カブがしおれるわ。	我的蘿卜再干一天就蔫了。
+湿地的浅池也快干了。把水全拦进田里，那边的鱼苗留不住。	The shallow pools are drying too. Divert all the water to fields and the fry won't survive.	浅池も干上がりそう。全部畑へ回せば、稚魚が残れないよ。	濕地的淺池也快干了。把水全攔進田里，那邊的魚苗留不住。
+我没说全拦。可种子和肥料已经付了钱。	I didn't say all of it. But I've paid for seed and fertilizer.	全部とは言ってないわ。でも種も肥料も、もう払ったの。	我沒說全攔。可種子和肥料已經付了錢。
+我知道。我的也付了。	I know. So have I.	わかる。私も払ったよ。	我知道。我的也付了。
+那我们现在能做什么？	What can we do now?	今、何ができる？	那我們現在能做什么？
+先看堵的地方。我还不能答应修完就有水。	Inspect the blockage first. I can't promise repairs will bring water.	まず詰まりを見る。直せば水が来るとは、まだ言えない。	先看堵的地方。我還不能答應修完就有水。
+我有这几天的水位，能估出哪段还存着水。	My water records can show where some remains.	水位の記録から、どこに水が残るか見当はつけられる。	我有這幾天的水位，能估出哪段還存著水。
+我的试验田分两批浇。用水少些，收成也会少些，我会把这个写清楚。	I'll water my trial plots in two groups. Less water, less harvest. I'll record both.	試験畑は二回に分けて水をやる。水も収穫も減る。その両方を記録するよ。	我的試驗田分兩批澆。用水少些，收成也會少些，我會把這個寫清楚。
+我先保住已经快熟的。还没播的那几块，缓一缓。	I'll save the nearly ripe plants. The unplanted plots can wait.	熟しかけの分を先に守るわ。まだまいてない区画は待たせる。	我先保住已經快熟的。還沒播的那幾塊，緩一緩。
+这样下游能留住一层浅水。	That leaves a shallow layer downstream.	それなら下流に浅い水を残せる。	這樣下游能留住一層淺水。
+等水来了，我也不能突然把田全开满，是不是？	Even when water returns, I can't suddenly plant everything, can I?	水が戻っても、急に畑全部を植えちゃだめなのね？	等水來了，我也不能突然把田全開滿，是不是？
+得算。我去年算少了，损失了两盘种苗。	We have to calculate. I underestimated last year and lost two trays of seedlings.	計算が要るね。去年は見積もりを誤って、苗を二皿失ったよ。	得算。我去年算少了，損失了兩盤種苗。
+闸槽里卡着东西。皮普，这块铁牌是什么？	Something's caught in the gate slot. Pip, what's this plate?	闸の溝に何か挟まってる。ピップ、この鉄板は？	閘槽里卡著東西。皮普，這塊鐵牌是什么？
+分水刻度。下面还有字……月环三号支路。	A water scale. More writing below... Moonring Branch Three.	分水の目盛りだ。下にも字が……月環三号支線。	分水刻度。下面還有字……月環三號支路。
+三号？我巡灯本上也写着三号路。	Three? My lamp book has a Route Three too.	三号？　巡灯帳にも三号路ってある。	三號？我巡燈本上也寫著三號路。
+灯线和水槽沿着同一条沟。不是巧合，安装孔的位置一样。	The wiring follows the water channel. Same mounting holes. That's no coincidence.	灯の線と水路が同じ溝を通る。穴の位置も同じ。偶然じゃないね。	燈線和水槽沿著同一條溝。不是巧合，安裝孔的位置一樣。
+这块边沿被热熔过。闸门不是年头久了自己掉下来的。	This edge melted. The gate didn't fall apart from age alone.	縁が熱で溶けてる。古くなっただけじゃないな。	這塊邊沿被熱熔過。閘門不是年頭久了自己掉下來的。
+有人把它烧坏了？	Did someone burn it?	誰かが焼いたの？	有人把它燒壞了？
+也可能是线过热。没拆开之前，不能认人。	Could be overheated wiring. No blaming people before we open it up.	過熱した線かもしれない。開ける前に人のせいにはできない。	也可能是線過熱。沒拆開之前，不能認人。
+先把漂木清出去，今天能多过一点水。底下的铁槽别动，我要再测一次流向。	Clear the driftwood first; a little more water can pass. Leave the iron channel until I measure the flow again.	まず流木を除こう。少し水が通る。鉄の溝は、流れを測り直すまでそのままに。	先把漂木清出去，今天能多過一點水。底下的鐵槽別動，我要再測一次流向。
+我把晚上的菜改了。田里这几颗小萝卜，得提前收。	I've changed tonight's menu. These little turnips need an early harvest.	今夜の献立を変えたわ。この小さなカブは早めに採る。	我把晚上的菜改了。田里這幾顆小蘿卜，得提前收。
+嫩叶能吃。我帮你把坏的挑掉。	The tender leaves are edible. I'll sort out the spoiled ones.	若い葉も食べられるよ。傷んだ所を選り分けるね。	嫩葉能吃。我幫你把壞的挑掉。
+今天菜单可能不好看。	Today's menu might not look impressive.	今日は立派な献立にならないかも。	今天菜單可能不好看。
+什么菜？	What's on it?	何を出すの？	什么菜？
+萝卜叶炒饭，小萝卜汤。	Turnip-leaf fried rice. Little turnip soup.	カブの葉の炒飯と、小さなカブのスープ。	蘿卜葉炒飯，小蘿卜湯。
+听着比昨天有两道一样的炖菜强。	Sounds better than yesterday's two nearly identical stews.	昨日の似た煮込み二つより、よさそうだよ。	聽著比昨天有兩道一樣的燉菜強。
+你昨天没说。	You didn't say that yesterday.	昨日は言わなかったじゃない。	你昨天沒說。
+昨天你拿粉笔站了半个钟头。我没舍得。	You'd stood there with the chalk for half an hour. I couldn't.	三十分もチョークを持って考えてたから、言いづらくてね。	昨天你拿粉筆站了半個鐘頭。我沒舍得。
+下次早说。我还能少炖一锅。	Say it earlier next time. It'll save me a pot.	次は早く言って。一鍋減らせるわ。	下次早說。我還能少燉一鍋。
+回程那批种苗有两箱闷坏了，鱼倒都卖掉了。	Two boxes of seedlings spoiled on the return trip. All the fish sold, though.	帰りの苗は二箱傷んだ。でも魚は全部売れたよ。	回程那批種苗有兩箱悶壞了，魚倒都賣掉了。
+闷坏的是装在下层的？	Were those the boxes in the lower hold?	下の船倉にあった箱？	悶壞的是裝在下層的？
+对。船主在河口等到天亮才敢进支流，箱子多放了一夜。	Yes. The skipper waited at the river mouth until dawn. An extra night in the boxes.	そう。船長が河口で夜明けを待ったから、一晩余計に箱の中だったの。	對。船主在河口等到天亮才敢進支流，箱子多放了一夜。
+不是说好晚上就到吗？	Wasn't he arriving at night?	夜に着く約束だったでしょう？	不是說好晚上就到嗎？
+以前河口有引航灯。现在灯不亮，水下的旧桩又挪过位置，他不敢走。	There used to be navigation lights. Now they're out, and old underwater piles have shifted. He won't risk it.	昔は航路灯があった。今は消えて、水中の古い杭も動いた。危なくて入れないの。	以前河口有引航燈。現在燈不亮，水下的舊樁又挪過位置，他不敢走。
+河口那盏点不着。我换过灯芯，也换过月晶，亮一下就灭。	That river-mouth lamp won't stay lit. New wick, new crystal; one flash, then nothing.	河口の灯、芯も月晶も替えたけど、一度光って消えるだけ。	河口那盞點不著。我換過燈芯，也換過月晶，亮一下就滅。
+那不是灯芯的事。得查地下的线。	Not the wick. We need to check the buried wiring.	芯の問題じゃない。地下の線を調べよう。	那不是燈芯的事。得查地下的線。
+我有旧线路图，但少了从山径到河口的那一页。	I have old plans, but the page from the ridge to the harbor is missing.	古い図面はあるけど、山道から河口までの頁が欠けてるわ。	我有舊線路圖，但少了從山徑到河口的那一頁。
+山上的值守站可能留着副本。我送信时见过装图纸的铁筒。	The mountain watch station may have a copy. I've seen a tube for plans there.	山の詰所に副本があるかも。配達の時に図面の筒を見たよ。	山上的值守站可能留著副本。我送信時見過裝圖紙的鐵筒。
+那里还住人吗？	Does someone still live there?	まだ誰か住んでるの？	那里還住人嗎？
+没人常住了，屋顶还算结实。我上个月借过地方避雨。	Not full-time. The roof's sound. I sheltered there last month.	常駐はいないよ。屋根は丈夫で、先月は雨宿りした。	沒人常住了，屋頂還算結實。我上個月借過地方避雨。
+这段路我想恢复。但修灯花的钱，可能比坏掉的两箱种苗还多。	I want that route restored. But repairs may cost more than two ruined boxes.	航路は戻したい。でも修理代は、傷んだ二箱より高そうね。	這段路我想恢復。但修燈花的錢，可能比壞掉的兩箱種苗還多。
+以后也会坏，不能每次都算这两箱。	More boxes will spoil. We can't count only these two every time.	これからも傷むわ。いつも二箱だけで計算できないでしょう。	以后也會壞，不能每次都算這兩箱。
+修之前，得知道修好以后谁照看。我已经有两台买来省事、最后没人会修的机器了。	Before repairs, decide who maintains it. I own two labor-saving machines nobody can repair.	直す前に、誰が世話するか決めないと。私には、誰も直せない省力機械が二台あるの。	修之前，得知道修好以后誰照看。我已經有兩臺買來省事、最后沒人會修的機器了。
+我会看线。我能先和余烬查清楚。	I can read wiring. Ember and I can inspect it first.	僕は配線を読める。まずエンバーと調べるよ。	我會看線。我能先和余燼查清楚。
+你先把会的和猜的分开写。	Write what you know separately from what you guess.	わかることと推測は、分けて書け。	你先把會的和猜的分開寫。
+……好。	...All right.	……うん。	……好。
+铁筒上锁着。钥匙挂在门后，绑着一块写名字的木片。	The tube was locked. The key hung behind the door, tied to a name tag.	筒には鍵。鍵は扉の裏で、名前の木札についてた。	鐵筒上鎖著。鑰匙掛在門后，綁著一塊寫名字的木片。
+名字是椿。以前的守环魔女。	Tsubaki. The former moonring keeper.	ツバキ。前の守環の魔女だよ。	名字是椿。以前的守環魔女。
+她现在在哪儿？	Where is she now?	今はどこに？	她現在在哪兒？
+离开山谷了，后来在南方养伤。我每年给她寄一本巡灯记录。	She left the valley, then recovered in the south. I send her a lamp log every year.	谷を離れて、南で療養してる。私は毎年、巡灯の記録を送ってるの。	離開山谷了，后來在南方養傷。我每年給她寄一本巡燈記錄。
+她知道灯一直没修好吗？	Does she know the lights still aren't repaired?	まだ直ってないと知ってる？	她知道燈一直沒修好嗎？
+知道。她回过很多次信。后来我寄的记录越来越薄，她就问是不是我纸不够用了。	Yes. She's written many times. My reports got thinner, and she asked if I'd run out of paper.	うん。何度も返事をくれた。記録が薄くなってきたら、紙が足りないのかって。	知道。她回過很多次信。后來我寄的記錄越來越薄，她就問是不是我紙不夠用了。
+我还以为你们只是互寄种子。	I thought you only exchanged seeds.	種だけ送り合ってるのかと思ってた。	我還以為你們只是互寄種子。
+种子也寄。她寄来的花在我窗台上长得挺好。	Seeds too. Her flowers are doing well on my windowsill.	種もね。送ってくれた花、窓辺で元気に育ってる。	種子也寄。她寄來的花在我窗臺上長得挺好。
+这页图找到了。河口灯、水门、山径标灯，全接在月环下面。	Found the page. Harbor lamp, water gate, ridge beacons; all under the moonring.	あった。河口の灯も水門も山道の標灯も、月環につながってる。	這頁圖找到了。河口燈、水門、山徑標燈，全接在月環下面。
+角上还有维修日期。	Repair dates in the corner.	隅に修理日がある。	角上還有維修日期。
+这日期我记得。那年雨特别大，巡灯本泡透了。	I remember that date. So much rain. My lamp book was soaked through.	この日、覚えてる。ひどい雨で、巡灯帳が水浸しになった。	這日期我記得。那年雨特別大，巡燈本泡透了。
+为什么图上把所有支路都划掉了？	Why are all the branches crossed out?	どうして支線が全部消してあるの？	為什么圖上把所有支路都劃掉了？
+不是划掉。这是改接的记号。	Not crossed out. Those are rewiring marks.	消してない。つなぎ替えの記号だ。	不是劃掉。這是改接的記號。
+原来六条支路，各有各的月晶箱。后来接到一起了。	Six separate branches once, each with a crystal box. Later, joined together.	元は六本独立で、それぞれ月晶箱があった。後から一つにつないだんだ。	原來六條支路，各有各的月晶箱。后來接到一起了。
+是为了省钱？	To save money?	節約のため？	是為了省錢？
+图上没写。	The plan doesn't say.	図には書いてない。	圖上沒寫。
+同一个铁筒里还有值守簿。我把没粘住的几页分出来了。	There's a watch log in the same tube. I've separated the pages that weren't stuck.	同じ筒に当番の日誌もあった。くっついてない頁を分けたよ。	同一個鐵筒里還有值守簿。我把沒粘住的幾頁分出來了。
+别硬揭。我认得椿的字，她写日期总把最后一笔拖出去。	Don't pull them apart. I know Tsubaki's writing. She trails the last stroke in dates.	無理にはがさないで。ツバキの字、わかる。日付の最後を長く引くの。	別硬揭。我認得椿的字，她寫日期總把最后一筆拖出去。
+那今晚慢慢看。我把厨房那张桌子空出来。	Then we'll read it slowly tonight. I'll clear the kitchen table.	今夜、ゆっくり読みましょう。厨房の机を空けるわ。	那今晚慢慢看。我把廚房那張桌子空出來。
+这页是连着四天的值守记录。前两天椿写的，后两天换了笔迹。	Four nights of watch records. Tsubaki wrote the first two; the hand changes after that.	四日続けての当番記録。最初の二日はツバキ、その後は字が違う。	這頁是連著四天的值守記錄。前兩天椿寫的，后兩天換了筆跡。
+后两天是我记的。她那时候手已经握不住笔。	I wrote the last two. She couldn't hold a pen by then.	後の二日は私だよ。その頃、彼女はもうペンを持てなかった。	后兩天是我記的。她那時候手已經握不住筆。
+你当时也在值守站？	You were at the station too?	あなたも詰所にいたの？	你當時也在值守站？
+厨房就在楼下。我给修闸的人送饭，也给她送。	The kitchen was downstairs. I brought meals to the gate workers, and to her.	厨房は階下だった。水門の修理の人にも、彼女にもご飯を運んだよ。	廚房就在樓下。我給修閘的人送飯，也給她送。
+所有支路改接，是那次洪水时做的？	Was that flood when they joined the branches?	全部つなぎ替えたのは、その洪水の時か？	所有支路改接，是那次洪水時做的？
+嗯。下游闸门卡住，得把能用的月晶都接到排水机上，先保住堤岸。	Yes. The lower gate jammed. Every working crystal went to the pumps to save the embankment.	そう。下流の水門が詰まって、使える月晶を排水機に集めた。まず堤を守るためにね。	嗯。下游閘門卡住，得把能用的月晶都接到排水機上，先保住堤岸。
+紧急汇流。说明上写着，只能临时用。	Emergency pooling. The instructions say temporary use only.	緊急集約だ。説明には臨時専用ってある。	緊急匯流。說明上寫著，只能臨時用。
+那几天没别的办法。	There wasn't another way those days.	あの数日は、他に手がなかった。	那幾天沒別的辦法。
+后来雨停了，为什么没改回去？	Why wasn't it changed back after the rain?	雨がやんだ後、どうして戻さなかったの？	后來雨停了，為什么沒改回去？
+因为旧支路坏了两条，镇里付不起同时修好的钱。剩下的还能用，就一直拖着。	Two old branches were damaged. We couldn't afford both repairs. The rest worked, so we delayed.	古い支線が二本壊れた。両方を直すお金がなくて、残りが使えるからと先延ばしにしたの。	因為舊支路壞了兩條，鎮里付不起同時修好的錢。剩下的還能用，就一直拖著。
+坏的是两条，停检的是六条。	Two were broken. All six went uninspected.	壊れたのは二本。点検を止めたのは六本だ。	壞的是兩條，停檢的是六條。
+我知道。我签过继续运行的单子。	I know. I signed the order to keep it running.	わかってる。継続運転の書類に署名したのは私よ。	我知道。我簽過繼續運行的單子。
+椿后来是在手动稳住主环。只要有一处不稳，她就得去调。	Tsubaki was stabilizing the main ring by hand. Any fault, she had to adjust it.	ツバキが主環を手で安定させていた。どこかが乱れるたびに、調整してたの。	椿后來是在手動穩住主環。只要有一處不穩，她就得去調。
+六条路的毛病，全要在一个地方修正……她根本不可能睡整夜。	Six routes' faults corrected at one point... She couldn't sleep a full night.	六本分の不調を一か所で直すなんて……一晩眠れるはずがないよ。	六條路的毛病，全要在一個地方修正……她根本不可能睡整夜。
+一开始还有人轮班。后来收获忙了，修房子忙了，人就越来越少。	There were shifts at first. Then harvests, house repairs... fewer and fewer people came.	最初は交代してた。でも収穫や家の修理で、来る人が減っていった。	一開始還有人輪班。后來收獲忙了，修房子忙了，人就越來越少。
+这最后一页写的停机，是谁下的决定？	Who decided on the shutdown on this last page?	最後の頁の停止は、誰が決めたの？	這最后一頁寫的停機，是誰下的決定？
+她自己。	She did.	彼女自身よ。	她自己。
+主环烧伤了她的手。再撑下去，屋里那几个人也会出事。	The main ring burned her hands. Keeping it going would have hurt the others inside too.	主環で手を焼いたの。続けたら、室内の他の人も危なかった。	主環燒傷了她的手。再撐下去，屋里那幾個人也會出事。
+我看见她把总闸拉了。之后山径的灯都灭了，屋里安静得吓人。	I saw her pull the main switch. The ridge lights went out. The silence frightened me.	総スイッチを切るのを見たよ。山道の灯が消えて、静かすぎて怖かった。	我看見她把總閘拉了。之后山徑的燈都滅了，屋里安靜得嚇人。
+她做得对。	She did the right thing.	彼女が正しかったわ。	她做得對。
+是。我当时应该早一点让它停下来。	Yes. I should have stopped it sooner.	ええ。もっと早く止めるべきだった。	是。我當時應該早一點讓它停下來。
+图纸和账单都留着，为什么没人讲清楚？	Plans and bills remained. Why did nobody explain?	図も請求書も残ってる。なぜ説明しなかった？	圖紙和賬單都留著，為什么沒人講清楚？
+头几年总说等修好了再讲。后来每次提修缮，都先吵该谁出钱。	At first, we said after repairs. Later, every discussion began with who would pay.	最初は直ってから話そうと。そのうち、修繕の話は誰が払うかの争いから始まった。	頭幾年總說等修好了再講。后來每次提修繕，都先吵該誰出錢。
+有人记得停灯那天，有人只记得田里没水。讲着讲着，就成了各家的损失。	Some remembered the dark; some, dry fields. Every telling became a list of personal losses.	灯の消えた日を覚える人、畑に水がなかった人。話はそれぞれの損の話になった。	有人記得停燈那天，有人只記得田里沒水。講著講著，就成了各家的損失。
+那现在呢？如果修好，它还要人整夜守着？	What about now? Once repaired, does it still need someone all night?	今、直したらどうなの？　また一晩中、誰かが守るの？	那現在呢？如果修好，它還要人整夜守著？
+照这张改接图修，就要。	If we follow this altered plan, yes.	この改接図どおりなら、そうなる。	照這張改接圖修，就要。
+我可以多排几晚。	I could cover more nights.	私、夜番を増やせるよ。	我可以多排幾晚。
+你白天还巡街。你的汤已经凉过多少回了？	You patrol by day. How many times has your soup gone cold?	昼も巡回してるでしょう。何回、スープが冷めた？	你白天還巡街。你的湯已經涼過多少回了？
+这跟汤……好，是很多回。	This isn't about soup... Fine. Many times.	スープは関係……うん。何回も。	這跟湯……好，是很多回。
+原图是六条独立支路。哪条坏了，哪条停。可以重新改回去。	The original had six independent branches. A fault stops only one. We can restore that.	原図は六本独立だ。壊れた一本だけ止める形に戻せる。	原圖是六條獨立支路。哪條壞了，哪條停。可以重新改回去。
+费用会比只换主环高。	More expensive than replacing the main ring alone.	主環だけの交換より、お金はかかるわ。	費用會比只換主環高。
+那就把两种费用都列出来。包括值夜的人要干多久，出问题谁来换。	Then list both costs. Include the hours of night watch, and who takes over when something fails.	両方の費用を出しましょう。夜番の時間も、故障した時の交代も含めて。	那就把兩種費用都列出來。包括值夜的人要干多久，出問題誰來換。
+旧账也得有。不能写一张新单，就当以前都结清了。	And the old accounts. A new list doesn't settle old debts.	古い帳簿も。新しい表を書いても、昔の勘定は消えないわ。	舊賬也得有。不能寫一張新單，就當以前都結清了。
+我明天把账带来。镇里欠的材料钱，一笔一笔对。	I'll bring the books tomorrow. We'll check the town's material debts one by one.	明日持ってくるわ。町が払っていない材料代も、一つずつ確認する。	我明天把賬帶來。鎮里欠的材料錢，一筆一筆對。
+我去热汤。你们还吃不吃葱？	I'll warm the soup. Spring onions, anyone?	スープを温めるよ。ネギは食べる？	我去熱湯。你們還吃不吃蔥？
+吃。	Yes.	食べる。	吃。
+我的也放。刚才那半碗别倒，还没喝完。	Mine too. Don't throw out that half bowl. I'm not finished.	私のにも。残り半分は捨てないで。まだ飲み終わってないの。	我的也放。剛才那半碗別倒，還沒喝完。
+外地商队回信了。他们愿意在秋收后来看货，想先在食堂办一场试菜宴。	The outside merchants replied. They'll visit after harvest and want a tasting dinner here first.	町外の商隊から返事。秋の収穫後に品物を見て、食堂で試食会をしたいそうよ。	外地商隊回信了。他們愿意在秋收后來看貨，想先在食堂辦一場試菜宴。
+多少人？	How many?	何人？	多少人？
+三十。要整晚包场，菜单提前定。他们付订金，也会看我们的鱼和种苗。	Thirty. A full evening booking, menu agreed ahead. A deposit, and they'll view our fish and seedlings too.	三十人。一晩貸切で献立は先に確定。予約金を払って、魚や苗も見るそうよ。	三十。要整晚包場，菜單提前定。他們付訂金，也會看我們的魚和種苗。
+三十个人，食堂还坐不下。	We can't seat thirty.	三十人は座れないわ。	三十個人，食堂還坐不下。
+院子能摆桌。我本来就想扩一点。	We can put tables in the yard. I wanted to expand a little anyway.	庭に机を置ける。もともと少し広げたかったの。	院子能擺桌。我本來就想擴一點。
+院子铺地的钱，不在租约的修缮里。	Paving the yard isn't covered by the lease repairs.	庭の舗装は、契約の修繕費には入らないぞ。	院子鋪地的錢，不在租約的修繕里。
+我出。做好这一次，下一季租金和支路修缮的钱，都能宽裕一点。	I'll pay. If this goes well, next season's rent and branch repairs will be easier.	私が出すわ。成功すれば次の季節の家賃も支線の修理も、少し楽になる。	我出。做好這一次，下一季租金和支路修繕的錢，都能寬裕一點。
+菜单上的甜瓜，我还没种成功过。	I've never successfully grown the melons on this menu.	献立のメロン、私はまだ育てるのに成功してないよ。	菜單上的甜瓜，我還沒種成功過。
+可以从外地订。	We can order them from outside.	町外から頼めるわ。	可以從外地訂。
+商队就是想看本地产的东西。	They want to see local produce.	商隊が見たいのは地元の品物よ。	商隊就是想看本地產的東西。
+那我再换一道。别现在就回绝，给我一点时间。	I'll change that dish. Don't turn them down yet. Give me time.	じゃあ一品替える。すぐ断らないで、少し時間をちょうだい。	那我再換一道。別現在就回絕，給我一點時間。
+我只答应借四张桌子，不答应替你每天搬来搬去。	I can lend four tables. I won't move them for you every day.	机は四つ貸せる。でも毎日の移動までは引き受けないわ。	我只答應借四張桌子，不答應替你每天搬來搬去。
+够了。我能安排。	That's enough. I can arrange it.	十分よ。何とか段取りする。	夠了。我能安排。
+你今晚是不是又没吃饭？	Have you skipped dinner again?	今夜も、ご飯まだ？	你今晚是不是又沒吃飯？
+刚才尝了两勺酱。	I tried two spoonfuls of sauce.	さっきソースを二口味見したわ。	剛才嘗了兩勺醬。
+那不算。	That doesn't count.	それはご飯じゃないよ。	那不算。
+我等这批试菜做好就吃。	I'll eat after this test batch.	試作品ができたら食べる。	我等這批試菜做好就吃。
+你早上说，等面团醒好就吃。	This morning, it was after the dough rose.	朝は、生地が膨らんだらって言ってたよ。	你早上說，等面團醒好就吃。
+我记着呢。	I remember.	覚えてるわ。	我記著呢。
+你记着的事太多了。	You're remembering too many things.	覚えておくことが多すぎるんだね。	你記著的事太多了。
+商队的菜单确认书到了。最迟这封回信里，就得把能供应的量写死。	The menu confirmation arrived. This reply is the last chance to fix the quantities.	献立の確認書が来たよ。今回の返事で、出せる数を確定しないと。	商隊的菜單確認書到了。最遲這封回信里，就得把能供應的量寫死。
+我再算一遍。	I'll count again.	もう一度計算する。	我再算一遍。
+我那批南瓜有三棵烂根了，不能照上周的数给。	Three pumpkin plants have root rot. I can't supply last week's estimate.	南瓜が三株、根腐れした。先週の数は出せないよ。	我那批南瓜有三棵爛根了，不能照上周的數給。
+可我已经把南瓜甜点报给他们了。	But I've already promised pumpkin dessert.	南瓜のお菓子をもう伝えたのに。	可我已經把南瓜甜點報給他們了。
+我上周写的是预计收成，下面还写着要看天气。	Last week I wrote expected harvest. Underneath, subject to weather.	先週書いたのは予想収穫。下には天候次第とも書いたよ。	我上周寫的是預計收成，下面還寫著要看天氣。
+我以为差不了那么多。	I didn't think it could differ so much.	そこまで違うと思わなかった。	我以為差不了那么多。
+我不想拔掉还在留种的那几株。	I don't want to pull the plants I'm keeping for seed.	種取り用の株は抜きたくないんだ。	我不想拔掉還在留種的那幾株。
+我也没想让你……抱歉，我刚才那句话像在怪你。	I wasn't asking you to... Sorry. That sounded like I blamed you.	そんなつもりじゃ……ごめん。あなたのせいみたいな言い方だった。	我也沒想讓你……抱歉，我剛才那句話像在怪你。
+你订的鱼，我能出一半。另一半是镇上几户人的常单。	I can supply half your fish. The rest is promised to households here.	頼まれた魚は半分なら出せる。残りは町の家々の定期注文だよ。	你訂的魚，我能出一半。另一半是鎮上幾戶人的常單。
+他们能不能晚两天？我按宴席价收。	Could they wait two days? I'll pay the banquet price.	二日待ってもらえない？　宴席の値段で買うわ。	他們能不能晚兩天？我按宴席價收。
+不能。我答应他们了。	No. I promised them.	無理だね。約束したんだ。	不能。我答應他們了。
+……好，是我问得不合适。	...Right. I shouldn't have asked that.	……そうね。聞き方がよくなかった。	……好，是我問得不合適。
+院子那批木头也到不了。船停了，山上接连下雨，先送的是修房的料。	The yard timber won't arrive either. Boats stopped. Rain in the hills; house repair timber comes first.	庭の木材も来ない。船が止まって、山も長雨。家を直す材料が先よ。	院子那批木頭也到不了。船停了，山上接連下雨，先送的是修房的料。
+大家都有正经的理由。可拼在一起，这张菜单就做不成了。	Everyone has a fair reason. Together, they mean this menu won't work.	みんな、ちゃんと理由がある。でも合わせると、この献立は作れない。	大家都有正經的理由。可拼在一起，這張菜單就做不成了。
+那就得改菜单。	Then the menu has to change.	じゃあ献立を変えないと。	那就得改菜單。
+要是他们不同意呢？	And if they refuse?	断られたら？	要是他們不同意呢？
+你总得把实话寄出去。	You still have to send the truth.	それでも、本当のことは書かないとね。	你總得把實話寄出去。
+我想给他们看一家像样的店，连价目表都重新写了。	I wanted to show them a proper restaurant. I even rewrote the price list.	立派な店を見せたかったの。値段表も書き直したのに。	我想給他們看一家像樣的店，連價目表都重新寫了。
+价目表没错。你把还没长出来的东西，当成已经放进仓房了。	The prices were fine. You counted things not yet grown as stock in the pantry.	値段表は間違ってない。まだ育っていない物を、倉庫にあることにしたのよ。	價目表沒錯。你把還沒長出來的東西，當成已經放進倉房了。
+我去写信。订金先留着，这两天什么都不添了。	I'll write. Keep the deposit untouched. No new purchases these next two days.	手紙を書くわ。予約金は残して、この二日は何も買い足さない。	我去寫信。訂金先留著，這兩天什么都不添了。
+商队愿意改成十二个人，只尝本地有的食材。但得换个日期，他们这趟已经约了下一站。	They'll accept twelve guests with local food, but need a different date. Their next stop is booked.	十二人で地元の食材ならいいそう。でも日程は変更ね。この旅の次の予定が決まってるから。	商隊愿意改成十二個人，只嘗本地有的食材。但得換個日期，他們這趟已經約了下一站。
+那这次先取消。订金全退，食材损失我自己记。	Cancel this time. A full deposit refund. I'll record my own food losses.	今回は取り消すわ。予約金は全額返す。食材の損は自分で記録する。	那這次先取消。訂金全退，食材損失我自己記。
+我可以替你解释天气。	I can explain the weather.	天候の説明は私からできるよ。	我可以替你解釋天氣。
+天气确实有问题。可明知道供应还没定，我就先答应了三十个人，这个也得写。	Weather mattered. But I promised thirty before supplies were certain. Write that too.	天候も原因よ。でも確保できる前に三十人を約束した。そのことも書いて。	天氣確實有問題。可明知道供應還沒定，我就先答應了三十個人，這個也得寫。
+好。下次他们再来，我会把能确定的船期先告诉你。	All right. Next visit, I'll confirm boat dates before you agree.	わかった。次に来る時は、確かな船の日程から伝えるね。	好。下次他們再來，我會把能確定的船期先告訴你。
+还会有下次？	There'll be a next time?	次があるかしら？	還會有下次？
+他们又不是来找一家永远不会下雨的店。	They aren't looking for a place where it never rains.	一度も雨の降らない店を探してるわけじゃないもの。	他們又不是來找一家永遠不會下雨的店。
+院子的工程可以暂缓。房屋该修的地方，镇里仍按约负责。	The yard work can wait. The town still owes the agreed building repairs.	庭の工事は待てる。建物の修繕は、町が約束どおり引き受けるわ。	院子的工程可以暫緩。房屋該修的地方，鎮里仍按約負責。
+我知道。只是这季赚下的，剩不了多少了。	I know. Just not much left of this season's earnings.	わかってる。ただ、今季の利益はあまり残らなくて。	我知道。只是這季賺下的，剩不了多少了。
+先对账。你把还没付出去的货款也当损失算了。	Check the accounts first. You've counted unpaid orders as losses too.	まず帳簿を。まだ払っていない仕入れまで損に入れてるわ。	先對賬。你把還沒付出去的貨款也當損失算了。
+我昨晚没算明白。	I couldn't make it add up last night.	昨夜は計算が合わなかったの。	我昨晚沒算明白。
+看出来了。同一袋糖，你算了两回。	Clearly. You counted the same sugar sack twice.	そうね。同じ砂糖を二度数えてる。	看出來了。同一袋糖，你算了兩回。
+那批南瓜，我还是按原来的价给你。数量少一点。	My pumpkins still cost the same. Just fewer of them.	南瓜は前の値段で売るよ。数は少ないけど。	那批南瓜，我還是按原來的價給你。數量少一點。
+我这周可能用不完。	I may not use them all this week.	今週は使い切れないかも。	我這周可能用不完。
+我能留着。你定下菜单再说，我不急着全卖。	I can store them. Decide your menu first. I'm not rushing to sell everything.	置いておけるよ。献立を決めてからでいい。全部急いで売らなくても平気。	我能留著。你定下菜單再說，我不急著全賣。
+明天的鱼照常。你的量没变，我也没改。	Tomorrow's fish as usual. Your quantity hasn't changed. Neither has mine.	明日の魚はいつもどおり。あなたの数は変わってない。私の分もね。	明天的魚照常。你的量沒變，我也沒改。
+你们不用特意……	You don't have to do anything special...	そんなに気を遣わなくても……。	你們不用特意……
+我也要卖鱼。你不开门，我少一个买家。	I need to sell fish too. If you close, I lose a buyer.	私も魚を売る仕事だから。閉められると買い手が減るよ。	我也要賣魚。你不開門，我少一個買家。
+明晚做什么？	What's for tomorrow?	明晩は何を？	明晚做什么？
+南瓜炖饭，煎鱼。还有那批糖，能做一点甜点。	Pumpkin rice and fried fish. That sugar can make a little dessert.	南瓜ご飯と焼き魚。あの砂糖でお菓子も少し。	南瓜燉飯，煎魚。還有那批糖，能做一點甜點。
+我的便当要两份。别放鱼，皮普下午要在我仓房干活，满手鱼味碰木头不行。	Two lunches for me. No fish. Pip's working in my storeroom; fishy hands and timber don't mix.	お弁当二つ。魚は抜いて。午後はピップが倉庫で働くから。魚の手で木に触られると困るわ。	我的便當要兩份。別放魚，皮普下午要在我倉房干活，滿手魚味碰木頭不行。
+我可以洗手！	I can wash my hands!	手は洗えるよ！	我可以洗手！
+你上次也说可以。	You said that last time.	前もそう言ったでしょう。	你上次也說可以。
+两份不放鱼。我记清楚。	Two, no fish. I've written it down.	二つ、魚抜き。ちゃんと書いたわ。	兩份不放魚。我記清楚。
+我的晚饭能不能装在带盖的碗里？不是忙着带走，今天想坐一会儿。	Could mine have a lid? Not to take away. I want to sit for a while today.	私のは蓋付きの器にできる？　持ち帰りじゃなくて、今日は少し座りたいの。	我的晚飯能不能裝在帶蓋的碗里？不是忙著帶走，今天想坐一會兒。
+坐着吃为什么要带盖？	Why a lid if you're staying?	座って食べるのに、どうして蓋？	坐著吃為什么要帶蓋？
+你每次忙起来，都忘记自己那份。盖子能留住点热气。	When you're busy, you forget your portion. A lid keeps it warm.	忙しいと自分の分を忘れるでしょう。蓋なら温かさが残るから。	你每次忙起來，都忘記自己那份。蓋子能留住點熱氣。
+那我今天和你一起吃。	I'll eat with you today.	今日は一緒に食べるわ。	那我今天和你一起吃。
+修月环的两份预算也出来了。只换主环便宜，守夜的人得一直在。恢复独立支路，材料贵，但可以分段修。	Both repair estimates are ready. Replacing only the main ring is cheaper but needs constant watch. Separate branches cost more, but allow staged work.	二つの見積もりができたわ。主環だけなら安いけれど夜番は常駐。独立支線は高くても、段階的に直せる。	修月環的兩份預算也出來了。只換主環便宜，守夜的人得一直在。恢復獨立支路，材料貴，但可以分段修。
+先修水门和河口。山径这季用得少，先保留手点标灯。	Gate and harbor first. The ridge is quiet this season; hand-lit beacons will do for now.	水門と河口が先。山道は今季あまり使わない。標灯は当面手でともす。	先修水門和河口。山徑這季用得少，先保留手點標燈。
+可以。山上我照旧走白天那条路，旧值守站先做补给点。	Fine. I'll keep the daytime route. The old station can be a supply stop.	いいよ。昼の道を使う。旧詰所は補給場所にしよう。	可以。山上我照舊走白天那條路，舊值守站先做補給點。
+只要河口能按时亮，船主愿意恢复试航。	If the harbor light works on schedule, the skipper will resume trials.	河口が時間どおり光るなら、船長は試航してくれる。	只要河口能按時亮，船主愿意恢復試航。
+那先做两段，把实际费用和维修工时记下来，后面的再议。	Two sections first. Record real costs and hours, then discuss the rest.	まず二か所。実際の費用と時間を書いて、後はその後で話しましょう。	那先做兩段，把實際費用和維修工時記下來，后面的再議。
+我能接修缮队的午饭，但只有约好的份数。我得给晚上的客人留材料。	I can make crew lunches, only the agreed number. I need ingredients for evening guests too.	作業の昼食は出せる。でも約束した数まで。夜のお客さんの材料も残すわ。	我能接修繕隊的午飯，但只有約好的份數。我得給晚上的客人留材料。
+几个人报几份。临时多来的人，自己带。	Report the headcount. Extra workers bring their own lunch.	人数を出す。急に増えた分は自分で持参だ。	幾個人報幾份。臨時多來的人，自己帶。
+我能替两天灶。再多不行，我也有自己的安排。	I can cover the stove two days. No more. I have plans of my own.	二日なら代わりに炊ける。それ以上は無理。私にも予定があるからね。	我能替兩天灶。再多不行，我也有自己的安排。
+两天就很好了。哪两天，咱们写下来。	Two days helps a lot. Let's write down which days.	二日で十分助かる。どの日か、書いておきましょう。	兩天就很好了。哪兩天，咱們寫下來。
+这次你没有说自己都能安排。	This time, you didn't say you'd arrange everything.	今回は、全部できるって言わなかったね。	這次你沒有說自己都能安排。
+我刚赔过钱，长记性了。希望能长久一点。	I just lost money. I learned. I hope it sticks.	損をしたばかりで、身にしみたわ。長く覚えていられるといいけど。	我剛賠過錢，長記性了。希望能長久一點。
+河口那盏已经亮了三次，每次都比上次久。	The harbor lamp's lit three times. Longer each time.	河口の灯、三回ついた。毎回長くなってるよ。	河口那盞已經亮了三次，每次都比上次久。
+第四次得撑过整段入港时间，才算能用。	Fourth time, it must last the whole approach window. Then it works.	四回目は入港の間ずっともつこと。それで使えると言える。	第四次得撐過整段入港時間，才算能用。
+你就不能先高兴一下？	Can't you be pleased for a moment?	少しくらい喜べないの？	你就不能先高興一下？
+高兴。把第三次熔断的线头拿给我。	I am. Bring the wire that fused on the third test.	喜んでる。三回目に溶けた線を持ってこい。	高興。把第三次熔斷的線頭拿給我。
+新箱子上的标签，我写好了。每一条支路的开关单独记。	New box labels are ready. Each branch switch has its own record.	新しい箱の札、できたよ。支線ごとにスイッチを記録する。	新箱子上的標簽，我寫好了。每一條支路的開關單獨記。
+夜里的亮度记录也齐了。河口不需要和山顶一样亮，太亮反而看不清水面。	The brightness logs are complete. Harbor lights needn't match the summit. Too bright hides the water.	夜の光度記録も揃った。河口は山頂ほど明るくなくていい。明るすぎると水面が見えない。	夜里的亮度記錄也齊了。河口不需要和山頂一樣亮，太亮反而看不清水面。
+这次我跟船出去看。灯在岸上看着亮，不代表船上能认准。	I'll go out on the boat. Bright from shore doesn't mean recognizable aboard.	今度は船から見るね。岸で明るくても、船で位置がわかるとは限らないもの。	這次我跟船出去看。燈在岸上看著亮，不代表船上能認準。
+午饭放在背风的箱子里。今天有十二份，两份没有葱。	Lunch is in the sheltered box. Twelve portions; two without onions.	昼食は風よけの箱に。十二食、ネギ抜きが二つ。	午飯放在背風的箱子里。今天有十二份，兩份沒有蔥。
+我那份别算没葱。	Don't make mine onion-free.	俺のを抜くなよ。	我那份別算沒蔥。
+是给霜铃和星芒的。我已经不按你的脸色猜口味了。	Those are Yuki's and Aster's. I don't guess your tastes from your expression anymore.	ユキとアスターのよ。もう顔色で好みを当てようとはしないわ。	是給霜鈴和星芒的。我已經不按你的臉色猜口味了。
+我也不是不吃葱，只是下午要和很多人说话。	I eat onions too. Just lots of people to speak to this afternoon.	私もネギは食べるよ。ただ午後は、たくさんの人と話すから。	我也不是不吃蔥，只是下午要和很多人說話。
+那我可以多放。	Then extra for me.	じゃあ僕は多めで。	那我可以多放。
+你下午来我仓房。	You're in my storeroom this afternoon.	午後はうちの倉庫でしょう。	你下午來我倉房。
+……那我少放。	...A little less, then.	……じゃあ少なめ。	……那我少放。
+第二段的支出比预算多了一成，是旧渠底下那层塌石。	The second section is ten percent over budget. Collapsed rock beneath the old channel.	第二工区は予算を一割超えたわ。旧水路の底の崩れた岩ね。	第二段的支出比預算多了一成，是舊渠底下那層塌石。
+我没估到，记在实支里。不是木料涨价。	I missed that. Put it under actual costs. Timber prices didn't rise.	見積もりに入れられなかった。実費に記録してくれ。木材の値上げじゃない。	我沒估到，記在實支里。不是木料漲價。
+工时也多了。你昨天做到天黑，那一段不能不记。	Hours rose too. You worked until dark; don't leave that out.	時間も増えた。昨日暗くまで働いた分も、抜かないで。	工時也多了。你昨天做到天黑，那一段不能不記。
+记。周末我休息，不再补一整天。	Record it. I'm resting this weekend, not making up another full day.	書く。週末は休む。埋め合わせで一日働いたりしない。	記。周末我休息，不再補一整天。
+巡检这周我和皮普轮，余烬只看需要拆修的。	Pip and I inspect this week. Ember only handles things that need dismantling.	今週の点検は私とピップ。エンバーは分解修理が必要な所だけ。	巡檢這周我和皮普輪，余燼只看需要拆修的。
+我能看出大部分故障了。	I can recognize most faults now.	大体の故障はわかるようになったよ。	我能看出大部分故障了。
+看不出的？	And the ones you can't?	わからないのは？	看不出的？
+写不明，停那一条，等你来查。	Mark unknown. Stop that branch. Wait for you to inspect.	不明と書く。その支線を止めて、見てもらうのを待つ。	寫不明，停那一條，等你來查。
+这句对。	That's right.	それでいい。	這句對。
+只停那一条，别处还会亮？	Only that branch stops? The others stay lit?	そこだけ止まって、他は光るの？	只停那一條，別處還會亮？
+会。刚试过，河口那边一点没受影响。	Yes. We tested it. The harbor wasn't affected.	うん。試したよ。河口は何ともなかった。	會。剛試過，河口那邊一點沒受影響。
+船主也试过了。灯的位置认得清，他同意下一趟入港晚一点。	The skipper tested it too. He can recognize the position and will enter a little later next trip.	船長も確かめた。位置がわかるから、次は少し遅い入港でもいいって。	船主也試過了。燈的位置認得清，他同意下一趟入港晚一點。
+上游水位稳住了，浅池没再往下退。我想再看几天，暂时不扩大田地。	Upstream is steady. The pools aren't shrinking. I'll watch a few more days before enlarging the field.	上流は安定して、浅池も下がってない。まだ数日見て、畑は広げないよ。	上游水位穩住了，淺池沒再往下退。我想再看幾天，暫時不擴大田地。
+我也是。水门有两次开得太快，泥都冲下来了。	Same here. The gate opened too fast twice and washed mud down.	私も。二度、門が速く開きすぎて泥が流れてきたからね。	我也是。水門有兩次開得太快，泥都沖下來了。
+那我的新菜也晚一点。我想等自己的南瓜成熟，不从外地凑。	My new dish can wait too. I want my pumpkins ripe, without filling gaps from outside.	新しい料理も待つわ。外から数を合わせず、自分の南瓜が熟すのを待ちたい。	那我的新菜也晚一點。我想等自己的南瓜成熟，不從外地湊。
+椿寄回来的信到了。她看了我们寄去的接线图。	Tsubaki's reply arrived. She's read our wiring plan.	ツバキの返事が来た。送った接線図を読んだそうだ。	椿寄回來的信到了。她看了我們寄去的接線圖。
+她说什么？	What did she say?	何て？	她說什么？
+问主环有没有留总负荷的限制。还说，她画的旧图有一处刻度印反了，怕我们照着做。	Did we keep a total-load limit? And one scale on her old plan was reversed; she hopes we didn't copy it.	主環の総負荷制限は残したか、と。それと旧図の目盛りが一つ逆で、写していないか心配している。	問主環有沒有留總負荷的限制。還說，她畫的舊圖有一處刻度印反了，怕我們照著做。
+哪一处？	Which one?	どこだ？	哪一處？
+就是你上周说不合理的那个。	The one you called unreasonable last week.	先週、君がおかしいと言った所だ。	就是你上周說不合理的那個。
+我重新量过，没照抄。	I measured again. Didn't copy it.	測り直した。写してない。	我重新量過，沒照抄。
+我回信告诉她。省得她又睡不好。	I'll tell her. Let her sleep properly.	返事に書くね。心配で眠れなくならないように。	我回信告訴她。省得她又睡不好。
+也告诉她，午饭有人按份送，没人一直在山上守夜。	Tell her lunch arrives by headcount, and nobody stays on the mountain all night.	昼食は人数分届くし、山に誰も一晩中いないとも伝えて。	也告訴她，午飯有人按份送，沒人一直在山上守夜。
+她信里问了三次这个。我会写清楚。	She asked that three times. I'll make it clear.	手紙で三度聞かれた。はっきり書くよ。	她信里問了三次這個。我會寫清楚。
+上游的雨还在下。山径最窄的那一段，我今天没走，信放在值守站了。	Rain continues upstream. I skipped the narrow ridge today. The letters are at the station.	上流はまだ雨。今日は山道の細い所を通らなかった。手紙は詰所に置いたよ。	上游的雨還在下。山徑最窄的那一段，我今天沒走，信放在值守站了。
+有谁还在路上？	Anyone still on the road?	まだ道にいる人は？	有誰還在路上？
+没人。我和最后一户确认过，都回去了。	No. I checked the last house. Everyone's home.	いない。最後の家まで確かめた。みんな帰ってる。	沒人。我和最后一戶確認過，都回去了。
+货船停在外港，船主说今晚不进支流。河口灯正常，是水流太急。	The boat's outside the harbor. No entry tonight. The lights work; the current is too fast.	船は外港。今夜は支流に入らない。灯は正常だけど、流れが速すぎるの。	貨船停在外港，船主說今晚不進支流。河口燈正常，是水流太急。
+明天的面粉呢？	Tomorrow's flour?	明日の小麦粉は？	明天的面粉呢？
+也在船上。	On the boat too.	それも船の上。	也在船上。
+仓里还有两袋，能撑。那批等着上船的菜，先留在镇里。	Two sacks in stock. Enough. The vegetables awaiting shipment can stay here.	倉庫に二袋ある。もつわ。出荷待ちの野菜は町に残そう。	倉里還有兩袋，能撐。那批等著上船的菜，先留在鎮里。
+南瓜都收回来了。两筐给你，另外几筐各家分着存，别全放在河边的仓房。	The pumpkins are in. Two baskets here; the rest spread among houses, not all by the river.	南瓜は収穫したよ。二籠はここ。残りは各家に分けて、川沿いの倉庫だけに集めない。	南瓜都收回來了。兩筐給你，另外幾筐各家分著存，別全放在河邊的倉房。
+我楼上空着，能放干货。搬东西的人别把湿箱子拖上去。	My upstairs is empty. Dry goods can go there. Keep wet crates off the floor.	うちの上階が空いてる。乾物を置けるけど、濡れた箱は引きずらないで。	我樓上空著，能放干貨。搬東西的人別把濕箱子拖上去。
+二号闸水位在涨，排水口有漂木。月环报的和我现场量的差半格。	Gate Two is rising. Driftwood at the outlet. The ring's reading is half a mark off my measurement.	二号水門が増水。出口に流木がある。月環の値は現場と半目盛り違う。	二號閘水位在漲，排水口有漂木。月環報的和我現場量的差半格。
+报汛线没有断，是浮标被什么挂住了。我把这一条记成失准，其他支路还正常。	The reporting wire is intact. Something snagged the float. I've marked this reading faulty; other branches are normal.	報汛線は無事。浮標が引っ掛かってる。この値は失准と記録した。他の支線は正常だ。	報汛線沒有斷，是浮標被什么掛住了。我把這一條記成失準，其他支路還正常。
+先按现场的水位。我去闸口，皮普跟我。	Use the local reading. I'm going to the gate. Pip, with me.	現場の値を使う。水門へ行く。ピップも来い。	先按現場的水位。我去閘口，皮普跟我。
+工具和替换绳都在箱里。便携灯也带了。	Tools and spare rope are packed. Portable lamps too.	道具と替え紐は箱に。携帯灯もあるよ。	工具和替換繩都在箱里。便攜燈也帶了。
+下游两户已经知道了，临河仓房今晚不用。镇里的备用物资单，我交给露米核数。	The lower households know. No riverside storeroom tonight. Lumi has the emergency inventory to check.	下流の二軒には伝えたわ。今夜は川沿いの倉庫を使わない。予備物資の表はルミが確認する。	下游兩戶已經知道了，臨河倉房今晚不用。鎮里的備用物資單，我交給露米核數。
+街灯有一盏熄了。位置在桥头，玻璃碎了，地面已经围起来。	A bridge lamp went out. Broken glass. The area is fenced off.	橋の街灯が一つ消えた。ガラスが割れて、周りは囲んだよ。	街燈有一盞熄了。位置在橋頭，玻璃碎了，地面已經圍起來。
+我今晚照常做饭，少卖两道。你们那份留在保温箱，来晚也有。	I'll cook tonight, two dishes fewer. Your meals stay in the warm box, even if you're late.	今夜も炊くわ。二品減らすけど。遅くなっても、保温箱にみんなの分がある。	我今晚照常做飯，少賣兩道。你們那份留在保溫箱，來晚也有。
+我替你看灶。你先吃。	I'll mind the stove. You eat first.	火は私が見る。先に食べて。	我替你看灶。你先吃。
+这一锅……	This pot...	この鍋は……。	這一鍋……
+我能看。	I can watch it.	見られるよ。	我能看。
+好。我吃完换你。	All right. I'll take over after I eat.	ええ。食べ終わったら代わるわ。	好。我吃完換你。
+漂木清掉了，闸口开得动。但旧支架裂了一道，余烬说今晚不继续试新档位。	Driftwood's cleared; the gate moves. But the old brace cracked. Ember says no testing new settings tonight.	流木は取れた。門も動く。でも古い支柱が割れたから、今夜は新しい開度を試さないって。	漂木清掉了，閘口開得動。但舊支架裂了一道，余燼說今晚不繼續試新檔位。
+先维持现在的排水。雨停了再换支架。	Keep the present drainage. Change the brace after the rain.	今の排水を維持する。支柱は雨がやんでから替える。	先維持現在的排水。雨停了再換支架。
+够用吗？	Is it enough?	足りるかしら？	夠用嗎？
+按现在的来水，够。我和余烬都在看，要是涨得更快，临河那一片先空出来。	For this inflow, yes. Ember and I are watching. If it rises faster, clear the riverside area first.	今の流入ならね。二人で見てる。もっと速く増えたら、川沿いから退避だ。	按現在的來水，夠。我和余燼都在看，要是漲得更快，臨河那一片先空出來。
+我去确认人和牲口都不留在那里。	I'll make sure no people or animals remain there.	人も家畜も残っていないか、確認してくるわ。	我去確認人和牲口都不留在那里。
+饭有多的。隔壁两户今晚要是不好生火，能来食堂吃。	Extra food here. If the neighboring houses can't cook tonight, they can eat with us.	ご飯は余分にある。隣の二軒が火を使えないなら、ここで食べられるわ。	飯有多的。隔壁兩戶今晚要是不好生火，能來食堂吃。
+只收饭钱，还是镇里记应急支出？	Their own meal bills, or town emergency spending?	食事代は各家？　それとも町の緊急支出？	只收飯錢，還是鎮里記應急支出？
+各家正常买饭。临时安置的人，那几份单独记，我不混在一起。	Normal sales for households. Temporary shelter meals get a separate record. I won't mix them.	各家の買い物は通常どおり。避難で来た人の分は別に記録して、混ぜないわ。	各家正常買飯。臨時安置的人，那幾份單獨記，我不混在一起。
+好。免得明天谁都说不清。	Good. No confusion tomorrow.	それなら明日、わからなくならないわね。	好。免得明天誰都說不清。
+河口还亮着。以前一下这种雨，我就总想往山上看。	The harbor is still lit. Rain like this used to make me stare at the mountain.	河口、まだ光ってる。昔はこんな雨だと、何度も山を見てた。	河口還亮著。以前一下這種雨，我就總想往山上看。
+主环现在只接着两条恢复好的支路，负荷还不到限制的一半。	Only the two restored branches are connected. Not even half the load limit.	今は復旧した二本だけが主環につながる。負荷は上限の半分未満だ。	主環現在只接著兩條恢復好的支路，負荷還不到限制的一半。
+我听懂了。是我习惯没改过来。	I understand. It's an old habit.	わかってる。癖が抜けないの。	我聽懂了。是我習慣沒改過來。
+你先把湿外套脱了。我刚才又差点忘记吃饭，陶陶已经看了我三次。	Take off your wet coat first. I nearly forgot dinner again. Toma's looked at me three times.	まず濡れた上着を脱いで。私もまた食べ忘れそうで、トマに三度見られたわ。	你先把濕外套脫了。我剛才又差點忘記吃飯，陶陶已經看了我三次。
+四次。	Four.	四度だよ。	四次。
+船主刚托信回来，说明早再看水势。不是取消，只是等一等。	The skipper sent word: check the current tomorrow morning. A wait, not a cancellation.	船長から伝言。明朝、水勢を見直すって。中止じゃなくて、少し待つの。	船主剛托信回來，說明早再看水勢。不是取消，只是等一等。
+好。明天菜单换成南瓜炖饭，面包晚一天再做。	Good. Pumpkin rice tomorrow. Bread can wait another day.	ええ。明日は南瓜ご飯。パンはもう一日後ね。	好。明天菜單換成南瓜燉飯，面包晚一天再做。
+那今晚我能多吃一碗吗？	Can I have a second bowl tonight?	今夜はおかわりしていい？	那今晚我能多吃一碗嗎？
+能。葱另外装，你下午已经不在露米仓房了。	Yes. Onions on the side. You're out of Lumi's storeroom for the day.	いいわ。ネギは別添え。今日はもうルミの倉庫の仕事は終わりでしょう。	能。蔥另外裝，你下午已經不在露米倉房了。
+外港解禁了。面粉中午到，回程的货照原来的单子装。	The outer harbor's open. Flour at noon. Return cargo follows the original list.	外港が開いたよ。小麦粉は昼に着く。帰りの荷も元の注文どおり。	外港解禁了。面粉中午到，回程的貨照原來的單子裝。
+湿了两只空箱，木板晾干还能用。粮食都没泡到。	Two empty crates got wet. Boards will dry. None of the grain was soaked.	空箱が二つ濡れたけど、板は乾かせる。穀物は無事だったわ。	濕了兩只空箱，木板晾干還能用。糧食都沒泡到。
+田边倒了一段篱笆，我下午修。最外面那两畦还得等土干一点。	A field fence fell. I'll fix it this afternoon. The outer beds must dry a little longer.	畑の柵が倒れたから午後に直すよ。外の二畝は、まだ土を乾かしたい。	田邊倒了一段籬笆，我下午修。最外面那兩畦還得等土干一點。
+新支架三天能做好。钱按这次实测的材料算，我不再估旧尺寸。	Three days for the new brace. Actual measurements for the bill; no more old dimensions.	新しい支柱は三日。代金は今回測った材料で出す。古い寸法では見積もらない。	新支架三天能做好。錢按這次實測的材料算，我不再估舊尺寸。
+桥头的灯也重新装了。等玻璃干透，再合罩。	The bridge lamp's fitted again. Close the cover once the glass is dry.	橋の灯もつけ直した。ガラスが乾いたら罩を閉じるよ。	橋頭的燈也重新裝了。等玻璃干透，再合罩。
+今晚巡灯只有半条街，我和霜铃一起走。	Only half a street to patrol tonight. Yuki's coming with me.	今夜の巡灯は半分だけ。ユキと一緒に行くの。	今晚巡燈只有半條街，我和霜鈴一起走。
+走完我就回去睡觉。山上那袋信，明天送。	Then straight to bed. Mountain mail tomorrow.	終わったら寝るよ。山の郵便は明日。	走完我就回去睡覺。山上那袋信，明天送。
+你们这会儿说的，全是明天、后天的事。	Everything you're talking about is tomorrow, or the day after.	今みんなが話してるのは、明日や明後日のことばかりね。	你們這會兒說的，全是明天、后天的事。
+今天的饭已经有了，就能说点别的。	Today's dinner is ready. That leaves room to talk about something else.	今日のご飯があるから、他のことも話せるんだよ。	今天的飯已經有了，就能說點別的。
+你这一年的试营快结束了。续租的条件，我带来了，还是按月。	Your trial year is nearly over. Renewal terms here. Still monthly.	試営の一年がそろそろ終わるわ。更新条件を持ってきた。引き続き月払いよ。	你這一年的試營快結束了。續租的條件，我帶來了，還是按月。
+我看过账了。付得起租，暂时扩不了院子。	I've checked the books. I can pay rent. Can't expand the yard yet.	帳簿を見たわ。家賃は払える。庭はまだ広げられないけど。	我看過賬了。付得起租，暫時擴不了院子。
+院子可以以后再议。	The yard can wait.	庭は後で相談しましょう。	院子可以以后再議。
+还有一条。我想每周歇一天，门口提前写明。	One more thing. A day off each week, posted in advance.	もう一つ。毎週一日は休んで、前もって店先に書きたいの。	還有一條。我想每周歇一天，門口提前寫明。
+租约没有要求你每天营业。	The lease doesn't require daily opening.	契約で毎日営業を求めてはいないわ。	租約沒有要求你每天營業。
+我知道。我是怕自己过两天又忘了。	I know. I'm afraid I'll forget that in two days.	知ってる。でも二日後には忘れそうで。	我知道。我是怕自己過兩天又忘了。
+那就写。歇哪天？	Write it down, then. Which day?	じゃあ書こう。何曜日？	那就寫。歇哪天？
+等澪把固定船期拿来再定。我不想休息那天又去搬面粉。	After Nagi brings the regular timetable. I don't want to unload flour on my day off.	定期便の日を見てから。休みに小麦粉を運びたくないもの。	等澪把固定船期拿來再定。我不想休息那天又去搬面粉。
+船主同意每周一趟，先签一季。有变动提前来信，运费也固定了。	The skipper agreed to weekly trips for one season. Advance notice of changes, fixed freight.	週一便、一季の契約でまとまったよ。変更は先に連絡、送料も固定。	船主同意每周一趟，先簽一季。有變動提前來信，運費也固定了。
+合单的人比第一次多了四家。下次得多备两只箱子。	Four more households than our first combined order. Two extra crates next time.	共同注文は最初より四軒増えた。次は箱を二つ増やさないと。	合單的人比第一次多了四家。下次得多備兩只箱子。
+我减一箱鱼。剩下的晒起来，天冷的时候能多存些。	One box less fish from me. I'll dry the rest for cold-weather stores.	魚は一箱減らすよ。残りは干して、寒い時期の備えにする。	我減一箱魚。剩下的曬起來，天冷的時候能多存些。
+种苗不再走下层舱了，我已经和船主确认过。	No more lower hold for seedlings. I've confirmed with the skipper.	苗はもう下の船倉に入れない。船長にも確認したよ。	種苗不再走下層艙了，我已經和船主確認過。
+那我续。	Then I'll renew.	それなら更新するわ。	那我續。
+我把续约放这儿。你那支笔，还有墨吗？	I'll leave the contract here. Still ink in that pen?	契約書を置くわね。そのペン、まだインクはある？	我把續約放這兒。你那支筆，還有墨嗎？
+有。招牌底下那块木板，我还没写满。	Yes. I haven't filled the board beneath the sign yet.	あるわ。看板の下の板も、まだ埋まってないもの。	有。招牌底下那塊木板，我還沒寫滿。
+我看到了。名字写在最上面，下面留了好大一块。	I saw it. Your name at the top, and lots of space below.	見たよ。一番上に名前。その下は広く空いてたね。	我看到了。名字寫在最上面，下面留了好大一塊。
+以后加菜。现在写太满，又得擦。	For more dishes later. Fill it now and I'll have to erase it.	いつか料理を増やすため。今埋めたら、また消すことになるわ。	以后加菜。現在寫太滿，又得擦。
+椿又寄信了。她说春天想回来看看，问镇上有没有住的地方。	Another letter from Tsubaki. She wants to visit in spring. Is there somewhere to stay?	ツバキからまた手紙。春に戻ってみたいそうだ。泊まれる所はあるか、と。	椿又寄信了。她說春天想回來看看，問鎮上有沒有住的地方。
+值守站能住，但她这次不用住那里。我会回信。	The station is habitable, but she needn't stay there this time. I'll write back.	詰所には泊まれるけれど、今回はそこじゃなくていい。返事を書くわ。	值守站能住，但她這次不用住那里。我會回信。
+我家有空房。她得帮我看看窗台那几盆花，叶子长得太密了。	I have a spare room. She can look at my windowsill flowers. The leaves are far too thick.	うちに部屋があるよ。窓辺の花を見てもらおう。葉っぱが茂りすぎなの。	我家有空房。她得幫我看看窗臺那幾盆花，葉子長得太密了。
+她要是带工具回来，先放我铺子里。别一下船就去拆主环。	If she brings tools, they stay at my shop. No dismantling the ring straight off the boat.	道具を持ってきたら、まずうちに置いてもらう。下船してすぐ主環を分解するなよ。	她要是帶工具回來，先放我鋪子里。別一下船就去拆主環。
+我给她留个靠窗的位置。她吃什么？	A window seat for her. What does she eat?	窓際の席を空けておく。何が好き？	我給她留個靠窗的位置。她吃什么？
+以前爱吃炖豆子，放很多胡椒。现在得问她，别按我记的做。	Used to love stewed beans, plenty of pepper. Ask her now; don't trust only my memory.	昔は豆の煮込みに胡椒たっぷり。今は本人に聞いて。私の記憶だけで作らないでね。	以前愛吃燉豆子，放很多胡椒。現在得問她，別按我記的做。
+还有一封信，是外地商队的。他们下个月有四个人来，不包场，问有没有当季菜单。	The merchants wrote too. Four visitors next month, no private booking. They ask about a seasonal menu.	商隊からも。来月は四人、貸切なし。当季の献立はあるかって。	還有一封信，是外地商隊的。他們下個月有四個人來，不包場，問有沒有當季菜單。
+有。具体哪几道，我到时候告诉他们。	Yes. I'll name the actual dishes nearer the time.	あるわ。何を出すかは、その頃に伝える。	有。具體哪幾道，我到時候告訴他們。
+这回不先写满了？	Not filling the list early this time?	今回は先に埋めないの？	這回不先寫滿了？
+不了。先看田里长出什么。	No. Let's see what grows first.	ええ。まず畑で何が育つか見てから。	不了。先看田里長出什么。
+今天已经关门了，你怎么还站在灶前？	We're closed. Why are you still at the stove?	もう閉店だよ。どうしてまだかまどに？	今天已經關門了，你怎么還站在灶前？
+想把明天的汤底……你手里那是什么？	Tomorrow's stock... What are you holding?	明日の出汁を……それ、何を持ってるの？	想把明天的湯底……你手里那是什么？
+我的炖豆子。不是你的汤底。	My stewed beans. Not your stock.	私の豆の煮込み。あなたの出汁じゃないよ。	我的燉豆子。不是你的湯底。
+我带了烤萝卜，今天小的那批特别甜。	I brought roast turnips. Today's little ones are so sweet.	焼きカブを持ってきた。今日の小さい分、とても甘いよ。	我帶了烤蘿卜，今天小的那批特別甜。
+鱼我煎过了。刺还在，吃的时候慢一点。	I've fried the fish. Bones still in; take your time.	魚は焼いたよ。骨はあるから、ゆっくり食べて。	魚我煎過了。刺還在，吃的時候慢一點。
+这张桌子的账，我付我的那份，别等会儿又一起记你头上。	I'm paying my share at this table. Don't put the whole bill under your name again.	この卓の私の分は払うわ。また全部あなた持ちにしないでね。	這張桌子的賬，我付我的那份，別等會兒又一起記你頭上。
+我这就拿碗。	I'll get the bowls.	器を取ってくるわ。	我這就拿碗。
+已经拿好了。你那只，今天没缺口。	Already here. Yours has no chip today.	もうあるよ。今日はあなたのも、欠けてない。	已經拿好了。你那只，今天沒缺口。
+那锅盖呢？	What about the pot lid?	じゃあ鍋の蓋は？	那鍋蓋呢？
+扣在锅上。绳子也是新的。	On the pot. New cord too.	鍋の上。紐も新しくした。	扣在鍋上。繩子也是新的。
+你还记着？	You remembered?	覚えてたの？	你還記著？
+它响了一路，很难忘。	It rattled the whole way. Hard to forget.	道中ずっと鳴ってたもの。忘れにくいよ。	它響了一路，很難忘。
+饭快凉了。	Dinner's getting cold.	ご飯が冷めるよ。	飯快涼了。
+来了。明天晚一点开门。	Coming. We'll open a little later tomorrow.	今行く。明日は少し遅く開店するわ。	來了。明天晚一點開門。
+第一张菜单	The First Menu	最初の献立	第一張菜單
+累计上菜	Meals served	配膳数	累計上菜
+第一锅汤只有八碗，熟客们各有各的口味。	Eight bowls of soup, and guests with tastes of their own.	最初のスープは八杯。常連にもそれぞれの好みがある。	第一鍋湯只有八碗，熟客們各有各的口味。
+凑不满的一船货	Not Quite a Boatload	一艘に足りない荷物	湊不滿的一船貨
+累计收获	Crops harvested	収穫数	累計收獲
+货少，运费却不少。本地产的蔬菜也能进菜单。	Small orders still cost a boat trip. Local crops could fill the menu.	少ない荷物にも船代はかかる。地元の野菜も献立に加えたい。	貨少，運費卻不少。本地產的蔬菜也能進菜單。
+一块地够不够	How Much Land Is Enough?	畑はどれだけ必要？	一塊地夠不夠
+田地和浅池都缺水，旧支渠里露出一块烧蚀的铁牌。	Fields and pools need water. A scorched plate lies in the old channel.	畑も浅池も水不足。旧水路には焼けた鉄板がある。	田地和淺池都缺水，舊支渠里露出一塊燒蝕的鐵牌。
+旧路上的灯	Lights on the Old Road	古道の灯	舊路上的燈
+引航灯熄灭后，货船只能在河口等到天亮。旧值守站还留着图纸。	With navigation lights out, boats wait for dawn. Plans remain at the old station.	航路灯が消え、船は河口で夜明けを待つ。旧詰所には図面が残る。	引航燈熄滅后，貨船只能在河口等到天亮。舊值守站還留著圖紙。
+她最后一次值夜	Her Last Night Watch	彼女の最後の夜番	她最后一次值夜
+旧线路和值守簿留下不同的痕迹，亲历者终于坐到同一张桌前。	Wiring and logs tell parts of the story. Its witnesses finally share a table.	配線と日誌に残る痕跡。あの夜を知る人々が同じ机につく。	舊線路和值守簿留下不同的痕跡，親歷者終于坐到同一張桌前。
+一张太大的订单	An Order Too Large	大きすぎた注文	一張太大的訂單
+三十人的试菜宴，意味着收入，也意味着尚未确定的供应。	A tasting for thirty offers income, but its supplies are still uncertain.	三十人の試食会。収入は魅力だが、食材の確保はまだ決まらない。	三十人的試菜宴，意味著收入，也意味著尚未確定的供應。
+第一张退单	The First Cancellation	初めてのキャンセル	第一張退單
+退掉大订单以后，日常的饭仍要一份份做好。	After cancelling the large order, everyday meals still need care.	大口注文を断っても、毎日の食事は一皿ずつ大切に作る。	退掉大訂單以后，日常的飯仍要一份份做好。
+两盏先亮的灯	Two Lights First	まず二つの灯から	兩盞先亮的燈
+支路修缮材料	Branch repair materials	支線の修繕資材	支路修繕材料
+先恢复水门和河口，两条支路各自检修。铁锭4、零件6、月晶4。	Restore the gate and harbor independently. Iron 4, parts 6, crystals 4.	水門と河口を独立して修理する。鉄4、部品6、月晶4。	先恢復水門和河口，兩條支路各自檢修。鐵錠4、零件6、月晶4。
+雨里的那一晚	That Rainy Night	あの雨の夜	雨里的那一晚
+连日降雨，货船暂缓入港。储粮、现场水位和热饭各有人照看。	Rain delays the boat. Stores, water checks and hot meals each have a keeper.	長雨で入港は延期。備蓄、現場の水位、温かな食事を皆で支える。	連日降雨，貨船暫緩入港。儲糧、現場水位和熱飯各有人照看。
+明天晚点开门	Opening a Little Later Tomorrow	明日は少し遅く開店	明天晚點開門
+雨停了，日子还要往后过。续租和休息日都能慢慢商量。	The rain ends and life continues. There is time to discuss a lease and a day off.	雨がやみ、暮らしは続く。更新する契約も休む日も、ゆっくり話せばいい。	雨停了，日子還要往后過。續租和休息日都能慢慢商量。
+雾港的第三年	Three Years at Fog Harbor	霧港で三年	霧港的第三年
+洗碗、切菜、看灶。薇尔莉娅想试试，能不能开一家写着自己名字的食堂。	Dishes, chopping, tending the stove. Virelia wanted a kitchen with her own name above the door.	皿洗い、下ごしらえ、火の番。ヴィレリアは自分の名を掲げる食堂を開いてみたかった。	洗碗、切菜、看灶。薇爾莉婭想試試，能不能開一家寫著自己名字的食堂。
+一张公开的招租告示	A Public Rental Notice	一枚の入居者募集	一張公開的招租告示
+月芽农场，附月灯食堂。试营一年，第一季免租。她把最后一句圈了起来。	Moonbud Farm, with Moon Lantern Kitchen. A one-year trial; first season rent-free. She circled that last part.	月芽農場、月灯食堂付き。一年間の試営、最初の季節は家賃無料。彼女は最後の一行を丸で囲んだ。	月芽農場，附月燈食堂。試營一年，第一季免租。她把最后一句圈了起來。
+自己的锅	A Pot of Her Own	自分の鍋	自己的鍋
+行李里有一口锅、三只碗和一支笔。锅盖在每个渡口都响得很大声。	A pot, three bowls and a pen. The lid rattled at every crossing.	荷物には鍋と三つの器と一本のペン。渡し場のたびに蓋が大きな音を立てた。	行李里有一口鍋、三只碗和一支筆。鍋蓋在每個渡口都響得很大聲。
+山谷里的小镇	A Town in the Valley	谷間の町	山谷里的小鎮
+山上的月环已经暗了许久。街边的小灯还亮着，码头有人等着收货。	The mountain moonring had long been dark. Street lamps still glowed, and someone waited for cargo at the dock.	山の月環は長い間消えたまま。街の小さな灯はともり、波止場では荷物を待つ人がいた。	山上的月環已經暗了許久。街邊的小燈還亮著，碼頭有人等著收貨。
+提锅来的那位	The One with the Pot	鍋を持ってきた人	提鍋來的那位
+屋顶刚补过，田里长着草。至于食堂的菜单，她还没有决定。	A patched roof, an overgrown field. The menu could wait until she arrived.	直したばかりの屋根、草の茂る畑。食堂の献立は、まだ決めていなかった。	屋頂剛補過，田里長著草。至于食堂的菜單，她還沒有決定。
+今天的饭已经有了。明天晚一点开门，也来得及。	Dinner is ready. Tomorrow can start a little later.	今日のご飯はもうできた。明日は少し遅く開けても大丈夫。	今天的飯已經有了。明天晚一點開門，也來得及。
+图纸上的临时改接拖成了常用接法。灯架也得逐个检查，不能只凭图纸说没问题。	Temporary wiring became permanent. Every lamp frame needs inspection; plans alone don't prove it sound.	臨時の配線が常用になった。灯架も一つずつ点検する。図面だけで無事とは言えない。	圖紙上的臨時改接拖成了常用接法。燈架也得逐個檢查，不能只憑圖紙說沒問題。
+观测记录还欠几页。我想把仪器的误差也写进去。	My observation log is a few pages short. I want to include the instruments' errors.	観測記録がまだ数頁足りない。機器の誤差も書いておきたい。	觀測記錄還欠幾頁。我想把儀器的誤差也寫進去。
+以前我总把读数写得太整齐。不好看的那几次，反而最该留下。	I used to make my readings too tidy. The untidy ones needed saving most.	昔は測定値をきれいに揃えすぎた。うまくいかなかった記録こそ残すべきだった。	以前我總把讀數寫得太整齊。不好看的那幾次，反而最該留下。
+我把现场测量和仪器读数分开记了。差多少，现在谁都能核对。	Field measurements and instrument readings now have separate columns. Anyone can check the difference.	現場の測定と機器の値を分けて書いた。差は誰でも確かめられる。	我把現場測量和儀器讀數分開記了。差多少，現在誰都能核對。
+最后一页填完了，不是每个数字都一样。下次测量的人还能继续往下写。	The last page is filled, with differences intact. The next observer can continue it.	最後の頁まで書いた。数字の違いも残したから、次の人が続きを書ける。	最后一頁填完了，不是每個數字都一樣。下次測量的人還能繼續往下寫。
+今晚天晴，记录不急着补完。先喝完这杯茶。	Clear skies tonight. The log can wait until I've finished this tea.	今夜は晴れ。記録はこのお茶を飲んでからでも間に合う。	今晚天晴，記錄不急著補完。先喝完這杯茶。
+观星台的公开课准备好了。先讲怎么看懂一张记录，再讲天上的星星。	The observatory class is ready. First, reading a log; then, reading the stars.	天文台の公開授業の準備ができた。まず記録の読み方、それから星の話をしよう。	觀星臺的公開課準備好了。先講怎么看懂一張記錄，再講天上的星星。
+没有删掉的读数	Unedited Readings	消さなかった測定値	沒有刪掉的讀數
+两栏记录	Two Columns	二列の記録	兩欄記錄
+下一位观测者	The Next Observer	次の観測者	下一位觀測者
+星空公开课	An Open Sky Class	星空の公開授業	星空公開課
+招租告示是镇里公开贴的。免租的费用也记在账上，你随时能看。	The rental notice was public. The rent subsidy is in the town accounts, open to you.	募集告示は町で公開したものよ。家賃免除の費用も帳簿でいつでも見られるわ。	招租告示是鎮里公開貼的。免租的費用也記在賬上，你隨時能看。
+水门和河口的修缮已经分开记账，剩下的支路还得逐项商量。	Gate and harbor repairs now have separate accounts. Each remaining branch still needs discussion.	水門と河口は別々に会計をつけた。残る支線も一つずつ相談しないとね。	水門和河口的修繕已經分開記賬，剩下的支路還得逐項商量。

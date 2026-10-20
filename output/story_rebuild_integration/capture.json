@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "mode": "capture",
+  "checks": 184,
+  "exit_code": 0,
+  "protected_originals": 3,
+  "myart_unchanged": true
+}

@@ -47,7 +47,7 @@ def run(args, log, cwd, marker=None, timeout=55):
 if options.mode == "native":
     run([godot, "--headless", "--path", str(ROOT), "--script",
          "res://Sounds/Walala/verify_fmod.gd"], OUT / "native.log", ROOT,
-        "FMOD VERIFY END failures=0")
+        "FMOD VERIFY END failures=0", timeout=90)
 else:
     if os.name != "nt":
         sys.exit("The release fixture currently targets Windows x86_64")
@@ -66,6 +66,10 @@ else:
         target = fixture / "Sounds/Walala" / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / "Sounds/Walala" / name, target)
+    for name in ["home", "dock", "forest"]:
+        target = fixture / "Sounds/Walala/World/Music" / (name + ".ogg")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ROOT / "Sounds/Walala/World/Music" / (name + ".ogg"), target)
     (fixture / "project.godot").write_text('''config_version=5
 [application]
 config/name="Walala FMOD release verification"

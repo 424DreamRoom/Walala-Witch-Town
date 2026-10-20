@@ -14,6 +14,10 @@ static func initial() -> Dictionary:
 	var result := {"version": 1, "introduced": false, "region": "field", "selected_crop": "herb", "restaurant": 0, "rod": 0, "reputation": 0, "chapter": 0, "seeds": {}, "pantry": {}, "residents": {}, "stats": {}, "harvested": {}, "gathered": {}, "stock": {}, "placed": [], "machines": {"sprinkler": 0, "mill": 0, "hive": 0, "greenhouse": 0}, "festival_days": []}
 	result.player_name = DEFAULT_PLAYER_NAME
 	result.guide_met = false
+	result.story_version = 2
+	result.legacy_chapter = 0
+	result.opening_stage = 0
+	result.pending_scene = -1
 	result.met_residents = []
 	result.side_active = {}
 	result.side_last_day = {}
@@ -133,7 +137,9 @@ static func farm_action(s, index: int) -> bool:
 		s.message = "播种完成"
 	elif plot.growth >= crop.days:
 		var amount: int = crop.yield_count + (1 if plot.get("fertilized", false) else 0)
+		amount += s.crop_quality_bonus(plot)
 		add(s, id, amount)
+		s.record_crop_quality(plot)
 		s.campaign.harvested[id] = true
 		stat(s, "harvest", amount)
 		s.journal.gather += amount
@@ -187,7 +193,7 @@ static func advance_day(s) -> void:
 
 static func gather(s, area: String, index: int) -> bool:
 	var region := entry(D.regions, area)
-	if s.phase != "day" or region.is_empty() or s.campaign.chapter < region.chapter or index < 0 or index >= 6: return false
+	if s.phase != "day" or not region_unlocked(s, region) or index < 0 or index >= 6: return false
 	var key := area + ":" + str(index)
 	if s.campaign.gathered.get(key, 0) >= 2:
 		s.message = "已售罄"
@@ -253,11 +259,17 @@ static func current_main(s) -> Dictionary:
 static func side_chapter(id: String, stage: int) -> int:
 	return mini(10, int(SIDE_CHAPTERS.get(id, 12)) + stage * 2)
 
+static func region_unlocked(s, region: Dictionary) -> bool:
+	return not region.is_empty() and (s.campaign.chapter >= region.chapter or s.campaign.legacy_chapter >= region.legacy_chapter)
+
+static func side_progress(s) -> int:
+	return maxi(s.campaign.chapter, s.campaign.legacy_chapter)
+
 static func discover_side(s, id: String) -> bool:
 	if s.phase != "day" or id not in s.campaign.met_residents: return false
 	if s.campaign.side_active.has(id) or s.campaign.side_active.size() >= SIDE_LIMIT: return false
 	var r: Dictionary = s.campaign.residents[id]
-	if r.story >= 4 or s.campaign.chapter < side_chapter(id, r.story): return false
+	if r.story >= 4 or side_progress(s) < side_chapter(id, r.story): return false
 	if r.affinity < r.story * 200 or s.campaign.side_last_day.get(id, 0) >= s.day: return false
 	s.campaign.side_active[id] = int(r.story)
 	return true
@@ -333,6 +345,11 @@ static func service(s, customer: Dictionary, dish: int) -> int:
 	return roundi(recipe.price * (0.06 * s.campaign.restaurant + (0.1 * matches if not disliked else 0.0)))
 
 static func metric(s, id: String) -> int:
+	if id == "repair_stock":
+		var progress := 0
+		var cost := {"iron": 4, "scrap": 6, "crystal": 4}
+		for item in cost: progress += mini(s.campaign.pantry[item], cost[item])
+		return progress
 	if id == "banquet":
 		var mask: int = s.campaign.stats.banquet
 		return (1 if mask & 1 else 0) + (1 if mask & 2 else 0) + (1 if mask & 4 else 0)
@@ -349,11 +366,14 @@ static func metric(s, id: String) -> int:
 
 static func complete_chapter(s) -> bool:
 	var chapter: int = s.campaign.chapter
-	if chapter >= D.quests.size(): return false
+	if chapter >= D.quests.size() or s.campaign.pending_scene >= 0: return false
 	var q: Dictionary = D.quests[chapter]
 	if metric(s, q.metric) < q.goal:
 		s.message = "未满足条件"
 		return false
+	if not afford(s, q.get("cost", {})): return false
+	pay(s, q.get("cost", {}))
+	s.campaign.pending_scene = chapter
 	s.campaign.chapter += 1
 	s.coins += q.reward
 	s.message = "目标达成"
@@ -476,6 +496,18 @@ static func normalize(value: Variant) -> Dictionary:
 	if not value.has("side_active"): value.side_active = {}
 	if not value.has("side_last_day"): value.side_last_day = {}
 	if value.get("stats") is Dictionary and not value.stats.has("ridge"): value.stats.ridge = 0
+	# Different plots have no meaningful chapter mapping. Preserve earned assets
+	# and old unlocks while starting the new story at its first chapter.
+	if not value.has("story_version"):
+		if not valid_int(value.get("chapter"), 12): return {}
+		value.story_version = 2
+		value.legacy_chapter = int(value.chapter)
+		value.chapter = 0
+		value.pending_scene = -1
+		# A running legacy game keeps its location and time, even when its old
+		# welcome flag was absent or false. The replacement opening is for new runs.
+		if value.get("introduced") == true: value.guide_met = true
+		value.opening_stage = 3 if value.guide_met else 0
 	var defaults := initial()
 	# Add only expansion ingredient slots. Missing legacy fields and unknown IDs
 	# still fail the strict validation below; existing quantities are preserved.
@@ -487,11 +519,15 @@ static func normalize(value: Variant) -> Dictionary:
 		if not value.has(key): return {}
 	if value.version != 1 or not value.introduced is bool or value.selected_crop not in defaults.seeds: return {}
 	if not value.guide_met is bool: return {}
+	if value.story_version != 2 or not valid_int(value.legacy_chapter, 12) or not valid_int(value.opening_stage, 3): return {}
+	if value.guide_met != (value.opening_stage == 3): return {}
+	if not value.pending_scene is int and not value.pending_scene is float: return {}
+	if value.pending_scene != -1 and (not valid_int(value.pending_scene, D.quests.size() - 1) or value.pending_scene != value.chapter - 1): return {}
 	if not value.player_name is String: return {}
 	if not value.player_name.is_empty() and not valid_player_name(value.player_name): return {}
 	if value.region != "field" and entry(D.regions, str(value.region)).is_empty(): return {}
-	for key in {"restaurant": 4, "rod": 3, "chapter": 12, "reputation": LIMIT}:
-		if not valid_int(value[key], {"restaurant": 4, "rod": 3, "chapter": 12, "reputation": LIMIT}[key]): return {}
+	for key in {"restaurant": 4, "rod": 3, "chapter": D.quests.size(), "reputation": LIMIT}:
+		if not valid_int(value[key], {"restaurant": 4, "rod": 3, "chapter": D.quests.size(), "reputation": LIMIT}[key]): return {}
 	for key in ["seeds", "pantry", "stats", "stock", "machines"]:
 		if not value[key] is Dictionary or value[key].size() != defaults[key].size(): return {}
 		for id in defaults[key]:
@@ -511,7 +547,7 @@ static func normalize(value: Variant) -> Dictionary:
 	if not value.side_active is Dictionary or value.side_active.size() > SIDE_LIMIT: return {}
 	for id in value.side_active:
 		if id not in met or not valid_int(value.side_active[id], 3): return {}
-		if value.side_active[id] != value.residents[id].story or value.chapter < side_chapter(id, value.side_active[id]): return {}
+		if value.side_active[id] != value.residents[id].story or maxi(value.chapter, value.legacy_chapter) < side_chapter(id, value.side_active[id]): return {}
 	if not value.side_last_day is Dictionary or value.side_last_day.size() > D.npcs.size(): return {}
 	for id in value.side_last_day:
 		if id not in met or not valid_int(value.side_last_day[id], 1000000): return {}

@@ -1,0 +1,10 @@
+{
+  "idempotent": true,
+  "artifacts": {
+    "Scenes/Campaign/content.gd": "c2533567effcee76c022292b4d659e001fa5700ed5bf0d7c6b80a9dc53c38ed3",
+    "Scenes/Campaign/content.json": "28ab7ff16125e71a740c606c42ec14a73a884eb346fb9aea04e2770f7a5ed090",
+    "Localization/messages.tsv": "27e935f111725bf71d821fbd96b2e0b7609bdab1748cc81f777103efbaaeab83",
+    "Localization/catalog.gd": "ceffaa06a333f2571c798688fec2069eab17c4ba8ad3db44cbec4e2db214641d",
+    "Narrative/Rebuild_20261020/translations_zh_TW.json": "8e4c97478c51e7c49946fc606111e956b170e47ac12db5aa986f70bf7ee924ab"
+  }
+}

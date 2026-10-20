@@ -108,15 +108,17 @@ func _add_object(item: Dictionary) -> void:
 	object.position = Vector2(item.x, item.y)
 	add_child(object)
 	var sprite := Sprite2D.new()
-	sprite.texture = load(ART + item.kind + ".aseprite")
+	var home: bool = item.get("role", "") == "witch_home"
+	sprite.texture = Furniture.House.exterior_texture(loop.state.furniture) if home else load(ART + item.kind + ".aseprite")
+	if home: object.name = "WitchHomeExterior"
 	sprite.position.y = -sprite.texture.get_height() / 2.0
 	object.add_child(sprite)
 	preload("res://Scenes/Gameplay/ambient_animation.gd").attach(sprite, item.kind, loop.lane.weather)
 	if solid:
-		var size := Vector2(item.w, item.h)
+		var size := Furniture.House.outdoor_footprint(loop.state.furniture).size if home else Vector2(item.w, item.h)
 		loop.lane._collision(object, size, Vector2(0, -size.y / 2.0))
 		solids.append(Rect2(object.position - Vector2(size.x / 2.0, size.y), size))
-	if item.get("role", "") == "witch_home":
+	if home:
 		roof_rects.append(Rect2(Vector2(item.x - sprite.texture.get_width() / 2.0, item.y - sprite.texture.get_height()), sprite.texture.get_size()))
 
 func tile_center(index: int) -> Vector2:
@@ -243,16 +245,17 @@ func _draw_crop(painter: Node2D, key: String) -> void:
 	if not s.farm.plots.has(key): return
 	var plot: Dictionary = s.farm.plots[key]
 	if plot.growth < 0: return
+	var crop_tint := Color("fff0c4") if plot.get("fertilized", false) else Color("eef7ff") if plot.get("watered", false) else Color.WHITE
 	if plot.get("crop", "herb") != "herb":
 		var crop: Dictionary = s.Campaign.entry(s.Content.DATA.crops, plot.crop)
 		if not crop_textures.has(plot.crop): crop_textures[plot.crop] = load("res://Art/Campaign/crops/"+plot.crop+".aseprite")
 		var texture: Texture2D = crop_textures[plot.crop]
 		var stage: int = mini(3, floori(3.0*plot.growth/crop.days))
-		painter.draw_texture_rect_region(texture,Rect2(Vector2(-16,-31),Vector2(32,32)),Rect2(stage*32,0,32,32))
+		painter.draw_texture_rect_region(texture,Rect2(Vector2(-16,-31),Vector2(32,32)),Rect2(stage*32,0,32,32),crop_tint)
 		return
 	if not crop_textures.has("herb"):
 		crop_textures.herb = load(ART + "Tiles/herb_lifecycle.aseprite")
-	painter.draw_texture_rect_region(crop_textures.herb, Rect2(-16, -31, 32, 32), Rect2(clampi(int(plot.growth), 0, 3) * 32, 0, 32, 32))
+	painter.draw_texture_rect_region(crop_textures.herb, Rect2(-16, -31, 32, 32), Rect2(clampi(int(plot.growth), 0, 3) * 32, 0, 32, 32), crop_tint)
 
 func _draw_plots() -> void:
 	var s = loop.state

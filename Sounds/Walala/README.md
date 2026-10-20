@@ -1,3 +1,7 @@
+# 场景音频补充（2026-10-20）
+
+新增家、码头、森林 / 湿地三首配乐，鸟鸣、虫鸣、水声、炉火、烹饪五种环境音，以及开关木门各两个变体。素材均在本次重新在线核查为 CC0，接入现有 FMOD、音量、静音和暂停系统，按地点、天气及烹饪状态切换。来源、混音、重建与隔离验证见 [World/README.md](World/README.md)，逐文件清单在 `World/manifest.json`。以下旧记录中的“所有地点共享昼夜音乐”“晴天无环境声”以此次新配置为准。
+
 # 采集音效更新（2026-10-11）
 
 已将植物采集、砍伐、开采和钓鱼替换为网上核查过的 CC0 原始素材。Kenney [Impact Sounds](https://kenney.nl/assets/impact-sounds) 提供木材与矿石撞击；rubberduck [水花音效包](https://opengameart.org/content/40-cc0-water-splash-slime-sfx) 提供落水、咬钩和收鱼；TinyWorlds [材质声音包](https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud) 的树叶沙沙声用于植物与农田交互。复用项目中已下载的原始 ZIP，逐文件核对原包字节。另行寻找的树叶录音因下载连接失败未采用。
@@ -93,7 +97,19 @@ python Scenes/MainMenu/run_verification.py headless
 
 验证结果：五项音量逻辑及 WASAPI 模式各 75 项、四语言截图 79 项、主菜单含场景交接 41 项、音乐回归 24 项、WASAPI UI 音频回归 70 项全部通过；天气与脚步回归通过。脚步测试采样点已同步当前小镇的土路、斜向石路与自动出口，碰撞边界稳定后检查静止脚步，未改变移动或出口逻辑。词库重新生成并通过覆盖检查。另修正现有字体脚本的斜体 `Transform2D` 构造参数，保留原样式。
 
-## 当前音乐与 UI 换装（2026-10-11）
+## UI 音效重配（2026-10-20 polished-v2）
+
+基础 UI 反馈改用同一套项目内生成的调性短音：悬停和滑条使用轻量高音，普通点击与开关使用柔和双音，面板开合使用三音上行 / 下行，确认使用带低音根音的四音和弦，错误使用下行双音。所有提示音都采用 44.1 kHz 单声道 PCM、短淡入淡出和小于 0.4 秒的尾巴，默认 UI 音量下不会压过背景音乐。手记打开、合上和翻页继续使用原来的 RPG Audio 书本素材。
+
+生成器为 `UI/generate_polished_ui.gd`，运行时映射在 `ui_audio.gd`，逐文件字节哈希和增益在 `UI/manifest.json`；上一版完整清单保存在 `UI/manifest_20261011.json`，旧版清单仍保留为 `UI/manifest_20261010.json`。素材不写入 `MyArt/`，运行时不联网。
+
+~~~powershell
+& 'C:\Program Files (x86)\Steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe' --path . --headless --script res://Sounds/Walala/UI/generate_polished_ui.gd
+python Sounds/Walala/run_ui_audio.py headless
+python Sounds/Walala/run_ui_audio.py audio
+~~~
+
+## 音乐与 UI 换装历史（2026-10-11）
 
 本次重新在线检索后，背景音乐改用 Juhani Junkala / SubspaceAudio 的 [JRPG Pack 4 Calm](https://opengameart.org/content/jrpg-pack-4-calm)，素材页与包内 `INFO.txt` 都明确为 CC0。三首原始 OGG 保存在 `Music/`：
 
@@ -105,9 +121,9 @@ python Scenes/MainMenu/run_verification.py headless
 
 主菜单与局内共用 `music_library.gd`，沿用默认音乐 22%、额外 -6 dB、引擎循环、0.8 秒日夜交叉淡入淡出，以及同曲目跨地点不重播。选择来自同一作者的舒缓 JRPG 循环包；网页描述与解码检测用于筛选，未做人工耳机试听。
 
-UI 重新选用 Kenney 本人在 OpenGameArt 发布的 [51 UI sound effects](https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks)，素材页为 CC0，包内说明允许个人与商业使用。官网 UI Audio 下载连接失败后改用该作者发布页。六个有机 WAV 覆盖悬停、点击、面板开合、开关与滑条；确认、错误改用已核查 Interface Sounds 原包的 `confirmation_003` / `error_004`。共替换八类提示音，手记开合和翻页继续使用原本的三个 RPG Audio 书本素材。所有文件保留原始字节，安静的 WAV 在播放时分别调整增益，使悬停、滑条比点击更轻；旧 `play_event("ui")` 兼容入口也改用新的点击素材。
+当时 UI 重新选用 Kenney 本人在 OpenGameArt 发布的 [51 UI sound effects](https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks)，素材页为 CC0，包内说明允许个人与商业使用。六个有机 WAV 覆盖悬停、点击、面板开合、开关与滑条；确认、错误改用已核查 Interface Sounds 原包的 `confirmation_003` / `error_004`。这版替换了八类提示音，手记开合和翻页继续使用原本的三个 RPG Audio 书本素材；后续 polished-v2 已接管基础八类提示音。
 
-当前逐文件来源、下载地址、包内路径、SHA-256、大小与增益分别见 `Music/manifest.json` 和 `UI/manifest.json`。原音乐与旧 UI 文件保留为归档，旧 UI 清单为 `UI/manifest_20261010.json`，当前运行脚本已切到新资源。原下载包为 `Archives/jrpg_calm.zip` 和 `Archives/organic_ui.zip`；许可网页保存在 `Licenses/*_20261011.html`，作者说明保存在 `Music/LICENSE.txt` 和 `UI/Organic/LICENSE.txt`。游戏内鸣谢与 `CREDITS.txt` 已同步更新。
+当时逐文件来源、下载地址、包内路径、SHA-256、大小与增益分别记录在 `Music/manifest.json` 和 `UI/manifest.json`；原音乐与旧 UI 文件保留为归档。原下载包为 `Archives/jrpg_calm.zip` 和 `Archives/organic_ui.zip`；许可网页保存在 `Licenses/*_20261011.html`，作者说明保存在 `Music/LICENSE.txt` 和 `UI/Organic/LICENSE.txt`。游戏内鸣谢与 `CREDITS.txt` 已同步更新。
 
 重新运行项目即可加载新素材，运行时不依赖网络。可复现验证命令：
 

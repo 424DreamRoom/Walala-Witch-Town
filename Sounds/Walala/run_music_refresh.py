@@ -32,7 +32,8 @@ log = root / "output" / ("music_refresh_" + mode + "_" + str(os.getpid()) + ".lo
 with log.open("w", encoding="utf-8") as output:
     child = subprocess.Popen(args, cwd=root, stdout=output, stderr=subprocess.STDOUT)
     try:
-        code = child.wait(timeout=60)
+        # Six full tracks now cross their native loop points in this suite.
+        code = child.wait(timeout=90)
     except subprocess.TimeoutExpired:
         child.kill()
         child.wait()

@@ -1,0 +1,176 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+REBUILT ten full chapters: PASS
+REBUILT all 436 manuscript lines compiled: PASS
+REBUILT new state roundtrip: PASS
+REBUILT migrate legacy 0: PASS
+REBUILT retain unlock 0grove: PASS
+REBUILT migrate legacy 1: PASS
+REBUILT retain unlock 1grove: PASS
+REBUILT migrate legacy 2: PASS
+REBUILT retain unlock 2grove: PASS
+REBUILT retain unlock 2quarry: PASS
+REBUILT migrate legacy 3: PASS
+REBUILT retain unlock 3grove: PASS
+REBUILT retain unlock 3quarry: PASS
+REBUILT migrate legacy 4: PASS
+REBUILT retain unlock 4grove: PASS
+REBUILT retain unlock 4quarry: PASS
+REBUILT retain unlock 4marsh: PASS
+REBUILT migrate legacy 5: PASS
+REBUILT retain unlock 5grove: PASS
+REBUILT retain unlock 5quarry: PASS
+REBUILT retain unlock 5marsh: PASS
+REBUILT migrate legacy 6: PASS
+REBUILT retain unlock 6grove: PASS
+REBUILT retain unlock 6quarry: PASS
+REBUILT retain unlock 6marsh: PASS
+REBUILT retain unlock 6ruins: PASS
+REBUILT migrate legacy 7: PASS
+REBUILT retain unlock 7grove: PASS
+REBUILT retain unlock 7quarry: PASS
+REBUILT retain unlock 7marsh: PASS
+REBUILT retain unlock 7ruins: PASS
+REBUILT migrate legacy 8: PASS
+REBUILT retain unlock 8grove: PASS
+REBUILT retain unlock 8quarry: PASS
+REBUILT retain unlock 8marsh: PASS
+REBUILT retain unlock 8ruins: PASS
+REBUILT retain unlock 8ridge: PASS
+REBUILT migrate legacy 9: PASS
+REBUILT retain unlock 9grove: PASS
+REBUILT retain unlock 9quarry: PASS
+REBUILT retain unlock 9marsh: PASS
+REBUILT retain unlock 9ruins: PASS
+REBUILT retain unlock 9ridge: PASS
+REBUILT migrate legacy 10: PASS
+REBUILT retain unlock 10grove: PASS
+REBUILT retain unlock 10quarry: PASS
+REBUILT retain unlock 10marsh: PASS
+REBUILT retain unlock 10ruins: PASS
+REBUILT retain unlock 10ridge: PASS
+REBUILT retain unlock 10observatory: PASS
+REBUILT migrate legacy 11: PASS
+REBUILT retain unlock 11grove: PASS
+REBUILT retain unlock 11quarry: PASS
+REBUILT retain unlock 11marsh: PASS
+REBUILT retain unlock 11ruins: PASS
+REBUILT retain unlock 11ridge: PASS
+REBUILT retain unlock 11observatory: PASS
+REBUILT migrate legacy 12: PASS
+REBUILT retain unlock 12grove: PASS
+REBUILT retain unlock 12quarry: PASS
+REBUILT retain unlock 12marsh: PASS
+REBUILT retain unlock 12ruins: PASS
+REBUILT retain unlock 12ridge: PASS
+REBUILT retain unlock 12observatory: PASS
+REBUILT preparation belongs to first chapter: PASS
+REBUILT complete once 0: PASS
+REBUILT pending scene blocks duplicate and next reward 0: PASS
+REBUILT pending scene roundtrip 0: PASS
+REBUILT complete once 1: PASS
+REBUILT pending scene blocks duplicate and next reward 1: PASS
+REBUILT pending scene roundtrip 1: PASS
+REBUILT complete once 2: PASS
+REBUILT pending scene blocks duplicate and next reward 2: PASS
+REBUILT pending scene roundtrip 2: PASS
+REBUILT complete once 3: PASS
+REBUILT pending scene blocks duplicate and next reward 3: PASS
+REBUILT pending scene roundtrip 3: PASS
+REBUILT complete once 4: PASS
+REBUILT pending scene blocks duplicate and next reward 4: PASS
+REBUILT pending scene roundtrip 4: PASS
+REBUILT complete once 5: PASS
+REBUILT pending scene blocks duplicate and next reward 5: PASS
+REBUILT pending scene roundtrip 5: PASS
+REBUILT complete once 6: PASS
+REBUILT pending scene blocks duplicate and next reward 6: PASS
+REBUILT pending scene roundtrip 6: PASS
+REBUILT complete once 7: PASS
+REBUILT pending scene blocks duplicate and next reward 7: PASS
+REBUILT pending scene roundtrip 7: PASS
+REBUILT repair costs consumed exactly: PASS
+REBUILT complete once 8: PASS
+REBUILT pending scene blocks duplicate and next reward 8: PASS
+REBUILT pending scene roundtrip 8: PASS
+REBUILT complete once 9: PASS
+REBUILT pending scene blocks duplicate and next reward 9: PASS
+REBUILT pending scene roundtrip 9: PASS
+REBUILT ending leaves free play: PASS
+REBUILT excess crystals cannot replace missing iron: PASS
+REBUILT invalid pending scene rejected: PASS
+REBUILT inconsistent opening rejected: PASS
+REBUILT isolated new slot: PASS
+REBUILT opening film pauses: PASS
+REBUILT public notice replaces letter: PASS
+REBUILT film skip keeps dock dialogue: PASS
+REBUILT guide approaches on farm: PASS
+REBUILT guide actually walks: PASS
+REBUILT farm dialogue has fifteen lines: PASS
+REBUILT lease scene opens kitchen without a second fee: PASS
+REBUILT opening releases control: PASS
+REBUILT opening completion saved: PASS
+REBUILT resume opening segment 0: PASS
+REBUILT resume opening segment 1: PASS
+REBUILT resume opening segment 2: PASS
+REBUILT runtime full dialogue zh_CN0: PASS
+REBUILT runtime full dialogue zh_CN1: PASS
+REBUILT runtime full dialogue zh_CN2: PASS
+REBUILT runtime full dialogue zh_CN3: PASS
+REBUILT runtime full dialogue zh_CN4: PASS
+REBUILT runtime full dialogue zh_CN5: PASS
+REBUILT runtime full dialogue zh_CN6: PASS
+REBUILT runtime full dialogue zh_CN7: PASS
+REBUILT runtime full dialogue zh_CN8: PASS
+REBUILT runtime full dialogue zh_CN9: PASS
+REBUILT all lines fit zh_CN: PASS
+REBUILT speaker portraits zh_CN: PASS
+REBUILT ten chapter recalls zh_CN: PASS
+REBUILT runtime full dialogue en0: PASS
+REBUILT runtime full dialogue en1: PASS
+REBUILT runtime full dialogue en2: PASS
+REBUILT runtime full dialogue en3: PASS
+REBUILT runtime full dialogue en4: PASS
+REBUILT runtime full dialogue en5: PASS
+REBUILT runtime full dialogue en6: PASS
+REBUILT runtime full dialogue en7: PASS
+REBUILT runtime full dialogue en8: PASS
+REBUILT runtime full dialogue en9: PASS
+REBUILT all lines fit en: PASS
+REBUILT speaker portraits en: PASS
+REBUILT ten chapter recalls en: PASS
+REBUILT runtime full dialogue ja0: PASS
+REBUILT runtime full dialogue ja1: PASS
+REBUILT runtime full dialogue ja2: PASS
+REBUILT runtime full dialogue ja3: PASS
+REBUILT runtime full dialogue ja4: PASS
+REBUILT runtime full dialogue ja5: PASS
+REBUILT runtime full dialogue ja6: PASS
+REBUILT runtime full dialogue ja7: PASS
+REBUILT runtime full dialogue ja8: PASS
+REBUILT runtime full dialogue ja9: PASS
+REBUILT all lines fit ja: PASS
+REBUILT speaker portraits ja: PASS
+REBUILT ten chapter recalls ja: PASS
+REBUILT runtime full dialogue zh_TW0: PASS
+REBUILT runtime full dialogue zh_TW1: PASS
+REBUILT runtime full dialogue zh_TW2: PASS
+REBUILT runtime full dialogue zh_TW3: PASS
+REBUILT runtime full dialogue zh_TW4: PASS
+REBUILT runtime full dialogue zh_TW5: PASS
+REBUILT runtime full dialogue zh_TW6: PASS
+REBUILT runtime full dialogue zh_TW7: PASS
+REBUILT runtime full dialogue zh_TW8: PASS
+REBUILT runtime full dialogue zh_TW9: PASS
+REBUILT all lines fit zh_TW: PASS
+REBUILT speaker portraits zh_TW: PASS
+REBUILT ten chapter recalls zh_TW: PASS
+REBUILT pending scene written: PASS
+REBUILT pending slot selected again: PASS
+REBUILT disk reload resumes pending chapter: PASS
+REBUILT reload never pays twice: PASS
+REBUILT recall keeps progress and inventory: PASS
+REBUILT COMPLETE checks=170 failures=0

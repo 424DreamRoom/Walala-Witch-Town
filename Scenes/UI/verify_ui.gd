@@ -79,6 +79,7 @@ func run() -> void:
 	loop._refresh()
 	check("HUD attached to native canvas",hud.base.size == Vector2(640,360))
 	check("actual initial time",hud.time_label.text == "06:00")
+	check("top summary panels removed",hud.base.get_node_or_null("CurrentObjective") == null and hud.base.get_node_or_null("DailyPulse") == null)
 	check("clock and item slots created",hud.base.find_children("InventorySlot*", "Button", false, false).size() == hud.HOTBAR_SLOTS and is_instance_valid(hud.clock_art) and not loop.end_button.visible)
 	check("new game starts with one wand",loop.state.tools == State.STARTING_TOOLS and hud.item_counts()[0] == 1 and State.Items.TOOLS == ["wand"])
 	check("hotbar stays centered on canvas",hud.base.get_node("InventorySlot0").position.x + hud.slot_counts.back().get_parent().get_rect().end.x == 640)

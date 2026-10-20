@@ -6,6 +6,7 @@ const Depth = preload("res://Scenes/Gameplay/world_depth.gd")
 const ResidentRoutines = preload("res://Scenes/Campaign/resident_routines.gd")
 const FoodIcons = preload("res://Scenes/UI/food_icons.gd")
 const Guide = preload("res://Scenes/Campaign/guide_profile.gd")
+const OpeningFilm = preload("res://Scenes/Campaign/opening_film.gd")
 var loop
 var tab := "故事"
 var story_filter := "进行中"
@@ -21,12 +22,14 @@ var decor: Node2D
 var decor_signature := ""
 var decor_cell := 0
 var intro: Control
-var intro_image: TextureRect
+var intro_film
 var intro_title: Label
 var intro_line: Label
 var intro_elapsed := 0.0
 var intro_index := -1
 var intro_old_pause := false
+var opening_dialogue_allowed := false
+var opening_cast: Array[Node2D] = []
 var observed_day := 0
 const ARRIVAL_PATH := [Vector2(600,324), Vector2(270,324), Vector2(270,294)]
 const ARRIVAL_SPEED := 80.0
@@ -47,20 +50,22 @@ func _ready() -> void:
 		C.pending_intro = false
 		show_intro.call_deferred()
 	elif loop.state.campaign.introduced and not loop.state.campaign.guide_met:
-		_start_arrival.call_deferred()
+		_start_opening_stage.call_deferred()
+	elif loop.state.campaign.pending_scene >= 0:
+		_resume_story.call_deferred()
 
 func _process(delta: float) -> void:
 	if SceneTransition.active: return
 	guide.sync(loop.state.phase == "day")
 	if is_instance_valid(intro):
 		intro_elapsed += delta
-		var index := mini(3, int(intro_elapsed / 6.0))
-		if index != intro_index: _intro_slide(index)
-		intro_image.position.x = -12 + fmod(intro_elapsed,6.0)*2
-		intro_image.modulate.a = clampf(minf(fmod(intro_elapsed,6.0),6.0-fmod(intro_elapsed,6.0)),0.0,1.0)
-		if intro_elapsed >= 24: finish_intro()
+		if intro_elapsed >= intro_length(): finish_intro()
+		else: _render_intro()
 	if arrival_active:
 		if _walk_arrival(delta): _finish_arrival()
+		return
+	if not is_instance_valid(intro) and loop.state.campaign.introduced and not loop.state.campaign.guide_met and loop.hud.mode.is_empty():
+		_start_opening_stage()
 		return
 	if arrival_dialogue and loop.hud.mode != "dialogue":
 		arrival_dialogue = false
@@ -104,10 +109,12 @@ func try_interact() -> bool:
 
 func show_guide(welcome: bool = false) -> void:
 	if opening_active() or loop.state.phase == "result": return
-	var dialogue_lines: Array = Guide.WELCOME.duplicate() if welcome else []
+	if loop.state.campaign.pending_scene >= 0:
+		_resume_story()
+		return
+	var dialogue_lines: Array = []
 	dialogue_lines.append_array(Guide.current_lines(loop.state))
 	_guide_dialogue(dialogue_lines)
-	if loop.hud.mode == "dialogue": loop.state.campaign.guide_met = true
 
 func _guide_choices() -> Array:
 	var choices := [
@@ -139,22 +146,43 @@ func show_guide_topics(page: int = 0) -> void:
 	_guide_dialogue(["手记里除了远方的故事，还有小镇每天的烟火。"], choices)
 
 func _complete_guide_chapter(expected_chapter: int) -> void:
+	if loop.state.campaign.pending_scene >= 0:
+		_resume_story()
+		return
 	# Bind the chapter shown in this conversation: stale choices cannot pay twice.
 	if loop.state.campaign.chapter != expected_chapter:
 		show_guide_goal()
 		return
-	var q := C.current_main(loop.state)
 	if not C.complete_chapter(loop.state):
 		show_guide_goal()
 		return
-	loop._autosave()
-	var dialogue_lines := _chapter_lines(q)
-	dialogue_lines.append_array(Guide.current_lines(loop.state))
-	_guide_dialogue(dialogue_lines)
+	_save_story_checkpoint()
+	_resume_story()
+
+func _save_story_checkpoint() -> void:
+	# Story boundaries must survive a quit inside a paused conversation. Regular
+	# gameplay keeps its existing six-hour autosave schedule.
+	if loop.restoring_save or loop.Saves.active_slot == 0: return
+	var result: Dictionary = loop.save_progress()
+	if not result.ok: loop.save_menu.report_save(result, true)
+
+func _resume_story() -> void:
+	var index: int = loop.state.campaign.pending_scene
+	if index < 0 or index >= C.D.quests.size(): return
+	_guide_dialogue(_chapter_lines(C.D.quests[index]), [{"text": "继续", "action": _finish_story.bind(index)}])
+
+func _finish_story(expected: int) -> void:
+	if loop.state.campaign.pending_scene != expected: return
+	loop.state.campaign.pending_scene = -1
+	_save_story_checkpoint()
+	_guide_dialogue(Guide.current_lines(loop.state))
 
 func _chapter_lines(q: Dictionary) -> Array:
-	var dialogue_lines: Array = [q.name, q.description]
-	for beat in q.dialogue:
+	return _beat_lines(q.dialogue)
+
+func _beat_lines(beats: Array) -> Array:
+	var dialogue_lines: Array = []
+	for beat in beats:
 		var speaker: String = loop.state.campaign.player_name if beat.speaker == "player" else Guide.NAME if beat.speaker == "yingluo" else C.entry(C.D.npcs, beat.speaker).name
 		var portrait: String = "res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.aseprite" if beat.speaker == "player" else Guide.PORTRAIT if beat.speaker == "yingluo" else "res://Art/Characters/NPC32/portraits/" + beat.speaker + ".aseprite"
 		var region := Rect2(0,0,32,32)
@@ -350,7 +378,7 @@ func _residents() -> void:
 
 func _regions() -> void:
 	for region in C.D.regions:
-		var unlocked: bool = loop.state.campaign.chapter >= region.chapter
+		var unlocked: bool = C.region_unlocked(loop.state, region)
 		var labels := []
 		for id in region.items: labels.append(text(C.D.items[id].name))
 		var box := row(text(region.name)+"\n"+" · ".join(labels))
@@ -401,6 +429,11 @@ func _furniture() -> void:
 		action(box2,"摆放",mutate.bind(func(): C.decorate(loop.state,item.id,loop.location,decor_cell)),loop.location in ["home","restaurant"] and loop.state.phase=="day")
 
 func _story() -> void:
+	if loop.state.campaign.pending_scene >= 0 and story_filter != "已完成":
+		var pending: Dictionary = C.D.quests[loop.state.campaign.pending_scene]
+		var pending_row := row(text("主线") + " · " + text(pending.name))
+		action(pending_row, "继续", _resume_story)
+		return
 	if story_filter == "已完成":
 		for index in range(loop.state.campaign.chapter):
 			var q: Dictionary = C.D.quests[index]
@@ -482,29 +515,38 @@ func show_intro() -> void:
 	black.color = Color("272333")
 	black.size = intro.size
 	intro.add_child(black)
-	intro_image = TextureRect.new()
-	intro_image.position = Vector2(-12,0)
-	intro_image.size = Vector2(664,360)
-	intro_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	intro_image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	intro.add_child(intro_image)
+	intro_film = OpeningFilm.new()
+	intro_film.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	intro_film.setup(C.D.intro)
+	intro.add_child(intro_film)
 	var shade := ColorRect.new()
 	shade.position = Vector2(0,220)
 	shade.size = Vector2(640,140)
 	shade.color = Color(0.12,0.08,0.17,0.85)
+	shade.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	intro.add_child(shade)
 	intro_title = loop.hud.label("",Rect2(32,232,576,34),intro,Color("fff0d5"),24)
 	intro_line = loop.hud.label("",Rect2(32,274,570,64),intro,Color("fff0d5"))
 	intro_line.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	var skip: Button = loop.hud.button("略过",Rect2(554,12,66,26),intro,finish_intro)
 	skip.grab_focus()
-	_intro_slide(0)
+	_render_intro()
 
-func _intro_slide(index: int) -> void:
-	intro_index = index
-	intro_title.text = C.D.intro[index].title
-	intro_line.text = C.D.intro[index].line
-	intro_image.texture = load(["res://Art/Campaign/maps/observatory.aseprite","res://Art/Environment/Hearthwood/town_overview.aseprite","res://Art/Environment/Hearthwood/restaurant_background.aseprite","res://Art/Environment/Hearthwood/farm_overview.aseprite"][index])
+func intro_length() -> float:
+	return OpeningFilm.length_for(C.D.intro.size())
+
+func _render_intro() -> void:
+	var index: int = intro_film.index_at(intro_elapsed)
+	if index != intro_index:
+		intro_index = index
+		intro_title.text = C.D.intro[index].title
+		intro_line.text = C.D.intro[index].line
+	# Captions fade with the shot so the text never lingers over a black frame.
+	var t := intro_elapsed - index * OpeningFilm.SHOT
+	var caption := clampf(minf(t - 0.3, OpeningFilm.SHOT - 0.3 - t) / 0.6, 0.0, 1.0)
+	intro_title.modulate.a = caption
+	intro_line.modulate.a = caption
+	intro_film.render(intro_elapsed)
 
 func finish_intro() -> void:
 	if not is_instance_valid(intro): return
@@ -512,15 +554,76 @@ func finish_intro() -> void:
 	intro.queue_free()
 	intro = null
 	loop.state.campaign.introduced = true
-	loop._autosave()
+	_save_story_checkpoint()
 	get_tree().paused = intro_old_pause
-	_start_arrival()
+	_start_opening_stage()
 
 func opening_active() -> bool:
-	return is_instance_valid(intro) or arrival_active
+	return is_instance_valid(intro) or arrival_active or (loop.state.campaign.introduced and not loop.state.campaign.guide_met)
+
+func _start_opening_stage() -> void:
+	if arrival_active or is_instance_valid(intro) or loop.state.campaign.guide_met: return
+	var stage: int = loop.state.campaign.opening_stage
+	if stage == 1:
+		if is_instance_valid(arrival_actor): _opening_dialogue(1)
+		else: _start_arrival()
+		return
+	# The public notice grants the trial; the final scene records its terms.
+	if stage == 2: loop.state.restaurant_leased = true
+	var scene: Dictionary = C.D.opening[stage]
+	if loop.location != scene.location: loop.enter(scene.location)
+	_stage_opening_cast(stage)
+	_opening_dialogue(stage)
+
+func _stage_opening_cast(stage: int) -> void:
+	_clear_opening_cast()
+	var positions: Dictionary = {"nagi": Vector2(332,223)} if stage == 0 else {"orla": Vector2(174,146), "toma": Vector2(230,146)}
+	loop.lane.player.position = Vector2(300,239) if stage == 0 else Vector2(140,146)
+	loop.lane.facing = 2
+	loop.lane._animate(false, false, 0.0)
+	for id in positions:
+		var actor := preload("res://Scenes/Campaign/resident_actor.gd").new()
+		actor.configure(id, C.D.npcs.find(C.entry(C.D.npcs, id)))
+		actor.name = "Opening_" + id
+		actor.position = positions[id]
+		actor.face(loop.lane.player.position - actor.position)
+		actor.pose(0.0, false)
+		loop.area.add_child(actor)
+		opening_cast.append(actor)
+	if stage == 2:
+		var keeper := preload("res://Scenes/Campaign/guide_actor.gd").new()
+		keeper.position = Vector2(140,180)
+		keeper.face(Vector2.UP)
+		keeper.pose_walk(0.0, false)
+		loop.area.add_child(keeper)
+		opening_cast.append(keeper)
+
+func _clear_opening_cast() -> void:
+	for actor in opening_cast:
+		if is_instance_valid(actor): actor.queue_free()
+	opening_cast.clear()
+
+func _opening_dialogue(stage: int) -> void:
+	opening_dialogue_allowed = true
+	loop.hud.start_dialogue(Guide.NAME, Guide.PORTRAIT, _beat_lines(C.D.opening[stage].dialogue), [{"text": "继续", "action": _finish_opening_stage.bind(stage)}], Rect2())
+	opening_dialogue_allowed = false
+
+func _finish_opening_stage(expected: int) -> void:
+	if loop.state.campaign.opening_stage != expected: return
+	loop.hud.close_modal()
+	_restore_arrival_camera()
+	_clear_opening_cast()
+	if is_instance_valid(arrival_actor): arrival_actor.queue_free()
+	arrival_actor = null
+	loop.state.campaign.opening_stage += 1
+	if loop.state.campaign.opening_stage == C.D.opening.size():
+		loop.state.campaign.guide_met = true
+		loop.state.restaurant_leased = true
+	_save_story_checkpoint()
+	if not loop.state.campaign.guide_met: _start_opening_stage()
 
 func _start_arrival() -> void:
-	if opening_active() or loop.state.campaign.guide_met: return
+	if is_instance_valid(intro) or arrival_active or loop.state.campaign.guide_met: return
 	arrival_old_pause = get_tree().paused
 	get_tree().paused = true
 	loop.enter_home_doorstep()
@@ -562,9 +665,7 @@ func _walk_arrival(delta: float, avoid_player: bool = false) -> bool:
 func _finish_arrival() -> void:
 	arrival_active = false
 	get_tree().paused = arrival_old_pause
-	show_guide(true)
-	arrival_dialogue = loop.hud.mode == "dialogue"
-	if not arrival_dialogue: _restore_arrival_camera()
+	_opening_dialogue(1)
 
 func _restore_arrival_camera() -> void:
 	loop.lane.camera.position = Vector2.ZERO

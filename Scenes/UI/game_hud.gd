@@ -8,8 +8,8 @@ const I18n = preload("res://Localization/localized_text.gd")
 const TextMotion = preload("res://Scenes/UI/rich_text_motion.gd")
 const GameMap = preload("res://Scenes/Map/game_map.gd")
 const ChestUI = preload("res://Scenes/Storage/chest_ui.gd")
+const InstrumentUI = preload("res://Scenes/Instrument/instrument_ui.gd")
 const Items = preload("res://Scenes/Storage/inventory_items.gd")
-const Onboarding = preload("res://Scenes/Campaign/onboarding.gd")
 static var HOTBAR_DIGITS: Font = preload("res://Art/Source/aseprite_source.gd").resource("res://Art/Fonts/HudDigits8/digits8.tres")
 const HOTBAR_SLOTS := Items.HOTBAR_SLOTS
 const HOTBAR_SHORTCUTS := ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
@@ -18,6 +18,7 @@ const HOTBAR_CELL_WIDTH := 26
 const HOTBAR_SIZE := Vector2(HOTBAR_SLOTS * HOTBAR_CELL_WIDTH + 8, 32)
 const DIALOGUE_CHOICE_SIZE := Vector2(111,20)
 const DIALOGUE_CHOICE_GAP := 3
+const DIALOGUE_VOICE_EVERY := 2
 const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "restaurant": "小镇餐厅", "home": "小女巫的家", "dock": "潮汐码头", "blacksmith": "余烬铁匠铺", "store": "橡果杂货店", "furniture_store": "榛木家具店"}
 const ITEM_IDS := ["wand", "mushroom", "berry", "herb", "wood", "ore", "fish", "iron"]
 const ITEM_NAMES := ["法杖", "蘑菇", "莓果", "香草", "木材", "矿石", "鱼", "铁锭"]
@@ -31,9 +32,6 @@ var hotbar_selection: Panel
 var date_label: Label
 var time_label: Label
 var period_label: Label
-var objective_panel: Panel
-var objective_title: Label
-var objective_text: Label
 var slot_counts: Array[Label] = []
 var modal: Control
 var mode := ""
@@ -48,6 +46,8 @@ var choices_root: Control
 var lines: Array = []
 var line_index := 0
 var reveal := 0.0
+var dialogue_voice_revealed := 0
+var dialogue_voice_units := 0
 var choices: Array = []
 var history: Array[String] = []
 var history_panel: Panel
@@ -55,6 +55,7 @@ var history_label: RichTextLabel
 var bag_info: Label
 var map_view
 var chest_view
+var instrument_view
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -77,14 +78,20 @@ func _refresh_language(_locale: String) -> void:
 	match mode:
 		"chest", "bag":
 			chest_view.refresh_language()
+		"instrument":
+			if is_instance_valid(instrument_view): instrument_view.refresh_language()
 		"map":
 			map_view.refresh_language()
+		"instrument":
+			instrument_view.refresh_language()
 		"dialogue":
 			var complete := dialogue_text.visible_characters < 0 or dialogue_text.visible_characters >= dialogue_text.get_total_character_count()
 			_refresh_dialogue_speaker()
 			dialogue_text.text = _dialogue_line(line_index)
 			dialogue_text.visible_characters = dialogue_text.get_total_character_count() if complete else 0
 			reveal = float(dialogue_text.visible_characters)
+			dialogue_voice_revealed = dialogue_text.visible_characters if complete else 0
+			dialogue_voice_units = 0
 			history.clear()
 			for index in range(line_index + 1): history.append(_history_line(index))
 			history_label.text = tr("对话回看\n") + "\n".join(history)
@@ -164,13 +171,6 @@ func _build_hud() -> void:
 	period_label = label("",Rect2(116,5,36,16),watch,UISkin.MUTED_INK)
 	period_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	weather_art = ornament("weather",Vector2(130,23),watch)
-	objective_panel = panel(Rect2(374,8,258,52),base)
-	objective_panel.name = "CurrentObjective"
-	objective_title = label("",Rect2(8,5,242,18),objective_panel)
-	objective_text = label("",Rect2(8,27,242,18),objective_panel,UISkin.MUTED_INK)
-	for part in [objective_title, objective_text]:
-		part.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
-		part.clip_text = true
 	var bar_position := Vector2((base.size.x - HOTBAR_SIZE.x) / 2, base.size.y - HOTBAR_SIZE.y)
 	hotbar_art = ornament("hotbar", bar_position, base, HOTBAR_SIZE)
 	hotbar_art.name = "InventoryBar"
@@ -236,17 +236,12 @@ func item_counts() -> Array:
 
 func refresh() -> void:
 	var s = loop.state
-	var goal := Onboarding.current(s)
-	objective_panel.visible = not goal.is_empty() and s.campaign.guide_met and s.campaign.introduced and mode.is_empty() and s.phase != "result" and not (loop.campaign_controller != null and loop.campaign_controller.opening_active())
-	if objective_panel.visible:
-		objective_title.text = I18n.format("%s · %d/%d",[goal.objective,goal.progress,goal.goal])
-		objective_text.text = tr(goal.place)
 	var minutes: int = s.get_clock_minutes()
 	var night_time: bool = s.get_time_of_day() == "night"
 	date_label.text = I18n.format("第%d天·周%s", [s.day,["一","二","三","四","五","六","日"][(s.day-1)%7]])
 	time_label.text = s.get_time_text()
 	period_label.text = s.get_time_of_day_name()
-	time_label.tooltip_text = "时钟每半小时更新 · 早上 06–09 · 白天 09–17 · 傍晚 17–20 · 夜晚 20–06"
+	time_label.tooltip_text = ""
 	clock_art.progress = float(minutes%720)/720.0
 	clock_art.night = night_time
 	clock_art.queue_redraw()
@@ -292,7 +287,7 @@ func _select_hotbar_slot(index: int) -> void:
 	_refresh_hotbar_selection()
 
 func _begin_modal(new_mode: String) -> bool:
-	if loop.campaign_controller != null and loop.campaign_controller.opening_active(): return false
+	if loop.campaign_controller != null and loop.campaign_controller.opening_active() and not (new_mode == "dialogue" and loop.campaign_controller.opening_dialogue_allowed): return false
 	if loop.builder != null and loop.builder.active(): return false
 	if loop.save_menu.open or loop.save_menu.leaving:
 		return false
@@ -307,7 +302,6 @@ func _begin_modal(new_mode: String) -> bool:
 	paused_before = get_tree().paused
 	get_tree().paused = true
 	mode = new_mode
-	objective_panel.hide()
 	loop.audio.play_event("ui_book_open" if new_mode == "journal" else "ui_open")
 	modal = ColorRect.new()
 	modal.name = "HUDModal"
@@ -350,6 +344,15 @@ func open_chest(id: int) -> void:
 	chest_view.chest_id = id
 	modal.add_child(chest_view)
 
+func open_instrument(kind: String = "piano") -> void:
+	if kind not in ["piano"] or loop.location != "home" or loop.state.phase == "result": return
+	if not _begin_modal("instrument"): return
+	instrument_view = InstrumentUI.new()
+	instrument_view.hud = self
+	instrument_view.loop = loop
+	instrument_view.instrument_kind = kind
+	modal.add_child(instrument_view)
+
 func open_equipment_upgrades(provider: Node, equipment_id: String = "wand") -> void:
 	if equipment_id not in ["wand", "bag"] or not is_instance_valid(provider): return
 	if loop.location != "blacksmith" or provider != loop.area or not loop.near(provider.stations.service) or loop.state.phase != "day": return
@@ -361,7 +364,10 @@ func open_equipment_upgrades(provider: Node, equipment_id: String = "wand") -> v
 	modal.add_child(view)
 
 func open_house_upgrades(provider: Node) -> void:
-	if loop.location != "furniture_store" or provider != loop.area or not loop.near(provider.stations.service) or loop.state.phase != "day": return
+	if not is_instance_valid(provider): return
+	var property_available: bool = provider == loop.property_service and provider.available()
+	var shop_available: bool = loop.location == "furniture_store" and provider == loop.area and loop.near(provider.stations.service) and loop.state.phase == "day"
+	if not property_available and not shop_available: return
 	if not _begin_modal("housing"): return
 	var view := preload("res://Scenes/Building/house_upgrade_panel.gd").new()
 	view.loop = loop
@@ -484,6 +490,8 @@ func _show_line() -> void:
 	dialogue_text.text = _dialogue_line(line_index)
 	dialogue_text.visible_characters = 0
 	reveal = 0.0
+	dialogue_voice_revealed = 0
+	dialogue_voice_units = 0
 	history.append(_history_line(line_index))
 	history_label.text = tr("对话回看\n") + "\n".join(history)
 	choices_root.hide()
@@ -499,6 +507,7 @@ func advance_dialogue() -> void:
 		loop.audio.play_event("ui_page")
 		dialogue_text.visible_characters = length
 		reveal = float(length)
+		dialogue_voice_revealed = length
 		_line_complete()
 	elif line_index + 1 < lines.size():
 		loop.audio.play_event("ui_page")
@@ -523,19 +532,43 @@ func toggle_history() -> void:
 		history_panel.visible = not history_panel.visible
 		loop.audio.play_event("ui_page")
 
+func _dialogue_voice_character(character: String) -> bool:
+	if character.strip_edges().is_empty():
+		return false
+	return character not in "，。！？；：、,.!?;:…—-~《》〈〉“”‘’（）()[]{}\"'·"
+
+func _update_dialogue_voice(shown: int) -> void:
+	if shown <= dialogue_voice_revealed:
+		return
+	var parsed := dialogue_text.get_parsed_text()
+	var start := clampi(dialogue_voice_revealed, 0, shown)
+	for index in range(start, mini(shown, parsed.length())):
+		if not _dialogue_voice_character(parsed[index]):
+			continue
+		dialogue_voice_units += 1
+		if dialogue_voice_units % DIALOGUE_VOICE_EVERY != 1:
+			continue
+		var speaker_pitch := 1.0
+		if is_instance_valid(dialogue_speaker):
+			speaker_pitch += float(absi(dialogue_speaker.text.hash()) % 5 - 2) * 0.018
+		loop.audio.play_dialogue_voice(speaker_pitch)
+	dialogue_voice_revealed = shown
+
 func _process(delta: float) -> void:
 	if mode != "dialogue": return
 	var length := dialogue_text.get_total_character_count()
 	if dialogue_text.visible_characters >= 0 and dialogue_text.visible_characters < length:
 		var speed := Preferences.dialogue_speed()
 		reveal = float(length) if speed == 0.0 else reveal + delta * speed
-		dialogue_text.visible_characters = mini(length,floori(reveal))
+		var shown := mini(length, floori(reveal))
+		dialogue_text.visible_characters = shown
+		_update_dialogue_voice(shown)
 		if dialogue_text.visible_characters == length:
 			_line_complete()
 
 func _input(event: InputEvent) -> void:
 	if SceneTransition.active: return
-	if loop.campaign_controller != null and loop.campaign_controller.opening_active(): return
+	if loop.campaign_controller != null and loop.campaign_controller.opening_active() and mode != "dialogue": return
 	loop.audio.ui_audio.navigation_input(event)
 	if InputBindings.capture_active: return
 	if loop.builder != null and loop.builder.active(): return

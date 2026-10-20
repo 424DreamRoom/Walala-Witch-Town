@@ -1,0 +1,66 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PROPERTY TEST new restaurant requires a lease before service: PASS
+PROPERTY TEST insufficient rent is atomic: PASS
+PROPERTY TEST closed office cannot charge rent: PASS
+PROPERTY TEST lease charges exactly once: PASS
+PROPERTY TEST leased restaurant operates normally: PASS
+PROPERTY TEST lease persists through save restoration: PASS
+PROPERTY TEST existing restaurant saves retain access: PASS
+PROPERTY TEST invalid lease is rejected 1: PASS
+PROPERTY TEST invalid lease is rejected true: PASS
+PROPERTY TEST invalid lease is rejected <null>: PASS
+PROPERTY TEST furnish starter home: PASS
+PROPERTY TEST fill persistent chest: PASS
+PROPERTY TEST expand interior and footprint 0: PASS
+PROPERTY TEST preserve furniture and chest 0: PASS
+PROPERTY TEST expand interior and footprint 1: PASS
+PROPERTY TEST preserve furniture and chest 1: PASS
+PROPERTY TEST maximum cannot charge again: PASS
+PROPERTY TEST occupied expansion preserves crops and resources: PASS
+PROPERTY TEST occupied expansion preserves outdoor furniture: PASS
+PROPERTY TEST old expanded saves keep their farm geometry: PASS
+PROPERTY TEST old large homes can purchase new land: PASS
+PROPERTY TEST old homes retain interior during final land extension: PASS
+PROPERTY TEST isolated slot opens: PASS
+PROPERTY TEST unleased door remains closed: PASS
+PROPERTY TEST unleased restaurant cannot be entered: PASS
+PROPERTY TEST unleased sunset keeps town services available: PASS
+PROPERTY TEST property witch stands on free ground: PASS
+PROPERTY TEST capture witch_in_town: PASS
+PROPERTY TEST real interaction opens property office: PASS
+PROPERTY TEST rent disabled without funds: PASS
+PROPERTY TEST capture office_zh_CN: PASS
+PROPERTY TEST capture office_en: PASS
+PROPERTY TEST capture office_ja: PASS
+PROPERTY TEST capture office_zh_TW: PASS
+PROPERTY TEST real rental button persists exact payment: PASS
+PROPERTY TEST property witch provides expansion panel: PASS
+PROPERTY TEST capture expansion_offer: PASS
+PROPERTY TEST witch expansion updates saved levels: PASS
+PROPERTY TEST closed services reject stale callbacks: PASS
+PROPERTY TEST expanded exterior has actual wider collision: PASS
+PROPERTY TEST expanded wall physically stops movement: PASS
+PROPERTY TEST home doorway stays reachable: PASS
+PROPERTY TEST capture farm_level_1: PASS
+PROPERTY TEST map shares actual exterior texture: PASS
+PROPERTY TEST capture farm_map_level_1: PASS
+PROPERTY TEST map locates property witch: PASS
+PROPERTY TEST capture town_map: PASS
+PROPERTY TEST second expansion charges listed materials: PASS
+PROPERTY TEST largest foundation blocks farming and construction: PASS
+PROPERTY TEST capture farm_level_2: PASS
+PROPERTY TEST largest interior grows with exterior: PASS
+PROPERTY TEST capture home_level_2: PASS
+PROPERTY TEST rented restaurant becomes accessible: PASS
+PROPERTY TEST rented restaurant can begin service: PASS
+PROPERTY TEST property mutations save to disk: PASS
+PROPERTY TEST slot reopens after world destruction: PASS
+PROPERTY TEST reload retains lease level and restaurant: PASS
+PROPERTY TEST night office cannot open transactions: PASS
+PROPERTY TEST reload recreates largest foundation: PASS
+PROPERTY VERIFY END checks=59 failures=0

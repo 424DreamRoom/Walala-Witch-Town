@@ -27,6 +27,7 @@ func check(title: String, ok: bool) -> void:
 
 func frames(count: int = 3) -> void:
 	for i in range(count): await process_frame
+	if root.get_node("SceneTransition").active: await root.get_node("SceneTransition").finished
 
 func click(button: Button) -> void:
 	loop._refresh()
@@ -52,6 +53,8 @@ func shot(name: String) -> void:
 
 func run() -> void:
 	var state := State.new()
+	# Rental transactions are covered by verify_property; this suite runs service.
+	state.restaurant_leased = true
 	check("new game has no automatic menu", state.menu.size() == State.DISHES.size() and state.menu.count(true) == 0)
 	var before := state.to_save_data()
 	check("empty menu cannot open", not state.start_service() and state.phase == "day" and state.remaining == State.DAY_SECONDS and state.coins == before.coins)
@@ -103,6 +106,7 @@ func run() -> void:
 	for old_duration in [300.0, 900.0]:
 		for phase in ["day", "night", "result"]:
 			var legacy: Dictionary = State.new().to_save_data()
+			legacy.erase("restaurant_leased")
 			legacy.erase("day_seconds")
 			legacy.erase("night_seconds")
 			legacy.day_length_seconds = old_duration
@@ -115,6 +119,7 @@ func run() -> void:
 	check("isolated save slot opens", Saves.begin_slot(1).ok)
 	Saves.pending.state.campaign.introduced = true
 	Saves.pending.state.campaign.guide_met = true
+	Saves.pending.state.restaurant_leased = true
 	Saves.pending.state.campaign.player_name = "Test"
 	Saves.pending.world.location = "town"
 	Saves.pending.world.position = [408,364]
@@ -129,6 +134,7 @@ func run() -> void:
 	loop.state.remaining = 0.01
 	loop.state.tick(0.02)
 	loop._sync_phase()
+	await frames()
 	loop._refresh()
 	check("sunset returns to restaurant without auto opening", loop.location == "restaurant" and loop.state.phase == "day" and loop.end_button.visible and loop.end_button.disabled)
 	await click(loop.end_button)

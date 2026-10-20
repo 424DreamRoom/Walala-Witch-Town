@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "suite": "story",
+      "mode": "capture",
+      "passed": true,
+      "checks": 324,
+      "exit_code": 0,
+      "certificate_store_diagnostic": true
+    },
+    {
+      "suite": "opening",
+      "mode": "capture",
+      "passed": true,
+      "checks": 121,
+      "exit_code": 0,
+      "certificate_store_diagnostic": true
+    },
+    {
+      "suite": "localization",
+      "mode": "capture",
+      "passed": false,
+      "checks": 1746,
+      "exit_code": 1,
+      "certificate_store_diagnostic": true
+    }
+  ],
+  "myart_unchanged": true,
+  "protected_files": 3
+}

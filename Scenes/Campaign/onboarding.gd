@@ -7,7 +7,7 @@ static func current(s) -> Dictionary:
 	if quest.is_empty(): return {}
 	var step: Dictionary = {}
 	var progress := 0
-	if s.campaign.chapter == 1 and s.journal.serve == 0:
+	if s.campaign.chapter == 0 and s.journal.serve == 0:
 		var stocked_menu := false
 		for dish in range(s.menu.size()):
 			if s.menu[dish] and s.can_cook(dish):
@@ -20,7 +20,7 @@ static func current(s) -> Dictionary:
 			step = C.D.onboarding.menu
 		elif s.journal.serve == 0:
 			step = C.D.onboarding.first_meal
-	elif s.campaign.chapter == 2 and s.campaign.stats.harvest == 0:
+	elif s.campaign.chapter == 1 and s.campaign.stats.harvest == 0:
 		var planted := 0
 		var watered := 0
 		for plot in s.farm.plots.values():
