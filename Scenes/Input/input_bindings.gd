@@ -7,6 +7,7 @@ const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const ACTIONS := ["move_up", "move_down", "move_left", "move_right", "run", "interact", "bag", "journal", "guide", "pause", "dialogue_next", "history", "map"]
 const LABELS := ["向上移动", "向下移动", "向左移动", "向右移动", "跑步 / 步行", "场景互动", "随身背包", "任务手记", "小镇指南", "暂停 / 返回", "对话继续", "对话回看", "区域地图"]
 const DEFAULT_KEYS := [[KEY_W, KEY_UP], [KEY_S, KEY_DOWN], [KEY_A, KEY_LEFT], [KEY_D, KEY_RIGHT], [KEY_SHIFT, 0], [KEY_F, 0], [KEY_B, 0], [KEY_J, 0], [KEY_H, 0], [KEY_ESCAPE, 0], [KEY_SPACE, 0], [KEY_L, 0], [KEY_M, 0]]
+const RESERVED_KEYS := [KEY_E, KEY_ENTER, KEY_KP_ENTER, KEY_TAB]
 const UI_DIRECTIONS := {"move_up": "ui_up", "move_down": "ui_down", "move_left": "ui_left", "move_right": "ui_right"}
 var bindings: Dictionary = {}
 var capture_active := false
@@ -65,7 +66,7 @@ func valid_map(value: Dictionary) -> bool:
 			if not keys[slot] is int: return false
 			var code: int = keys[slot]
 			if code == 0 and slot == 1: continue
-			if not valid_key(code) or code in used or code in [KEY_ENTER, KEY_KP_ENTER, KEY_TAB]: return false
+			if not valid_key(code) or code in used or code in RESERVED_KEYS: return false
 			if code == KEY_ESCAPE and action != "pause": return false
 			used[code] = true
 	return true
@@ -102,6 +103,7 @@ func _commit(value: Dictionary) -> Dictionary:
 
 func assign_key(action: String, slot: int, code: int, swap: bool = false) -> Dictionary:
 	if action not in ACTIONS or slot not in [0, 1] or not valid_key(code): return {"ok": false, "error": "无效的按键。"}
+	if code == KEY_E: return {"ok": false, "error": "此按键用于法杖切换。"}
 	if code in [KEY_ESCAPE, KEY_ENTER, KEY_KP_ENTER, KEY_TAB]: return {"ok": false, "error": "此按键用于界面操作。"}
 	var candidate := bindings.duplicate(true)
 	for other in ACTIONS:

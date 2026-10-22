@@ -1,0 +1,7 @@
+config_version=5
+[application]
+config/name="Excel Editor Plugin Verification"
+[editor_plugins]
+enabled=PackedStringArray("res://addons/walala_localization/plugin.cfg")
+[walala]
+localization/python_executable="C:/Users/TU/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"

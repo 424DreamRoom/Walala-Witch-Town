@@ -19,7 +19,7 @@ const HOTBAR_SIZE := Vector2(HOTBAR_SLOTS * HOTBAR_CELL_WIDTH + 8, 32)
 const DIALOGUE_CHOICE_SIZE := Vector2(111,20)
 const DIALOGUE_CHOICE_GAP := 3
 const DIALOGUE_VOICE_EVERY := 2
-const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "restaurant": "小镇餐厅", "home": "小女巫的家", "dock": "潮汐码头", "blacksmith": "余烬铁匠铺", "store": "橡果杂货店", "furniture_store": "榛木家具店"}
+const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "restaurant": "小镇餐厅", "home": "小女巫的家", "dock": "潮汐码头", "blacksmith": "布兰铁匠铺", "store": "橡果杂货店", "furniture_store": "榛木家具店"}
 const ITEM_IDS := ["wand", "mushroom", "berry", "herb", "wood", "ore", "fish", "iron"]
 const ITEM_NAMES := ["法杖", "蘑菇", "莓果", "香草", "木材", "矿石", "鱼", "铁锭"]
 var loop
@@ -48,6 +48,7 @@ var line_index := 0
 var reveal := 0.0
 var dialogue_voice_revealed := 0
 var dialogue_voice_units := 0
+var dialogue_voice_id := ""
 var choices: Array = []
 var history: Array[String] = []
 var history_panel: Panel
@@ -85,6 +86,7 @@ func _refresh_language(_locale: String) -> void:
 		"instrument":
 			instrument_view.refresh_language()
 		"dialogue":
+			loop.audio.stop_dialogue_voice()
 			var complete := dialogue_text.visible_characters < 0 or dialogue_text.visible_characters >= dialogue_text.get_total_character_count()
 			_refresh_dialogue_speaker()
 			dialogue_text.text = _dialogue_line(line_index)
@@ -267,9 +269,11 @@ func refresh() -> void:
 	for count in slot_counts:
 		count.get_parent().visible = hotbar_art.visible
 	_refresh_hotbar_selection()
-	var preparation: bool = loop.location == "restaurant" and s.phase == "day"
-	loop.end_button.visible = s.phase == "result" or preparation
+	var preparation: bool = loop.location == "restaurant" and s.phase == "day" and not s.is_arrival_day()
+	var arrival_rest: bool = s.is_arrival_day() and loop.location == "home" and s.campaign.guide_met
+	loop.end_button.visible = s.phase == "result" or preparation or arrival_rest
 	loop.end_button.position = Vector2(450, 250) if preparation else Vector2(270, 230)
+	if arrival_rest: loop.end_button.position = Vector2(530, 12)
 	loop.end_button.size = Vector2(180, 26) if preparation else Vector2(100, 26)
 
 func _refresh_hotbar_selection() -> void:
@@ -315,6 +319,7 @@ func close_modal() -> void:
 	if not is_instance_valid(modal):
 		return
 	if mode in ["bag", "chest"] and is_instance_valid(chest_view): chest_view.finish()
+	if mode == "dialogue": loop.audio.stop_dialogue_voice()
 	loop.audio.play_event("ui_book_close" if mode == "journal" else "ui_close")
 	modal.hide()
 	modal.queue_free()
@@ -475,6 +480,7 @@ func _refresh_dialogue_speaker() -> void:
 	var speaker: String = beat.get("speaker", default_speaker)
 	dialogue_speaker.text = tr(speaker) if beat.get("translate_speaker", true) else speaker
 	var portrait_path: String = beat.get("portrait", default_portrait)
+	dialogue_voice_id = beat.get("voice", portrait_path if not portrait_path.is_empty() else speaker)
 	var region: Rect2 = beat.get("portrait_region", default_portrait_region)
 	var texture: Texture2D = load(portrait_path)
 	if region.has_area():
@@ -486,6 +492,7 @@ func _refresh_dialogue_speaker() -> void:
 		dialogue_portrait.texture = texture
 
 func _show_line() -> void:
+	loop.audio.stop_dialogue_voice()
 	_refresh_dialogue_speaker()
 	dialogue_text.text = _dialogue_line(line_index)
 	dialogue_text.visible_characters = 0
@@ -504,6 +511,7 @@ func advance_dialogue() -> void:
 		return
 	var length := dialogue_text.get_total_character_count()
 	if dialogue_text.visible_characters >= 0 and dialogue_text.visible_characters < length:
+		loop.audio.stop_dialogue_voice()
 		loop.audio.play_event("ui_page")
 		dialogue_text.visible_characters = length
 		reveal = float(length)
@@ -529,6 +537,7 @@ func _line_complete() -> void:
 
 func toggle_history() -> void:
 	if mode == "dialogue":
+		loop.audio.stop_dialogue_voice()
 		history_panel.visible = not history_panel.visible
 		loop.audio.play_event("ui_page")
 
@@ -542,27 +551,29 @@ func _update_dialogue_voice(shown: int) -> void:
 		return
 	var parsed := dialogue_text.get_parsed_text()
 	var start := clampi(dialogue_voice_revealed, 0, shown)
+	var speak := false
 	for index in range(start, mini(shown, parsed.length())):
 		if not _dialogue_voice_character(parsed[index]):
 			continue
 		dialogue_voice_units += 1
 		if dialogue_voice_units % DIALOGUE_VOICE_EVERY != 1:
 			continue
-		var speaker_pitch := 1.0
-		if is_instance_valid(dialogue_speaker):
-			speaker_pitch += float(absi(dialogue_speaker.text.hash()) % 5 - 2) * 0.018
-		loop.audio.play_dialogue_voice(speaker_pitch)
+		speak = true
+	if speak and not dialogue_voice_id.is_empty():
+		loop.audio.play_dialogue_voice(1.0, dialogue_voice_id)
 	dialogue_voice_revealed = shown
 
 func _process(delta: float) -> void:
 	if mode != "dialogue": return
+	if is_instance_valid(history_panel) and history_panel.visible: return
 	var length := dialogue_text.get_total_character_count()
 	if dialogue_text.visible_characters >= 0 and dialogue_text.visible_characters < length:
 		var speed := Preferences.dialogue_speed()
 		reveal = float(length) if speed == 0.0 else reveal + delta * speed
 		var shown := mini(length, floori(reveal))
 		dialogue_text.visible_characters = shown
-		_update_dialogue_voice(shown)
+		if speed > 0: _update_dialogue_voice(shown)
+		else: dialogue_voice_revealed = shown
 		if dialogue_text.visible_characters == length:
 			_line_complete()
 

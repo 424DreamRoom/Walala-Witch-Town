@@ -145,7 +145,7 @@ func run() -> void:
 			resource = node
 	lane.player.position = resource.anchor
 	for hit in range(3):
-		await key(KEY_E)
+		await key(KEY_F)
 		await create_timer(0.8).timeout
 		check("harvest impact " + str(hit), loop.state.resource_left(resource.resource_id) == 2 - hit)
 		if hit < 2:

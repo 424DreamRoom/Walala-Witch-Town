@@ -8,7 +8,7 @@
   "回小镇 E": [
     "Scenes/Businesses/business_interior.gd:61"
   ],
-  "余烬铁匠铺": [
+  "布兰铁匠铺": [
     "Scenes/Businesses/business_interior.gd:91",
     "Scenes/Gameplay/game_loop.gd:421",
     "Scenes/UI/game_hud.gd:8"
@@ -631,7 +631,7 @@
   "海风今天也很温柔。白天走近鱼牌按 E 抛竿，看到咬钩提示后再按 E 收竿，别让鱼儿等太久哦。": [
     "Scenes/UI/game_hud.gd:282"
   ],
-  "余烬铁匠铺白天营业。矿石和木材可以熔炼成铁锭，资源也能出售换取金币。走近柜台按 E 看看吧。": [
+  "布兰铁匠铺白天营业。矿石和木材可以熔炼成铁锭，资源也能出售换取金币。走近柜台按 E 看看吧。": [
     "Scenes/UI/game_hud.gd:283"
   ],
   "橡果杂货店白天营业。这里可以用金币购买食材，也收购木材、矿石、铁锭和鱼。走近柜台按 E 交易。": [

@@ -3,7 +3,7 @@ extends SceneTree
 const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const Saves = preload("res://Scenes/Save/save_store.gd")
 const State = preload("res://Scenes/Gameplay/loop_state.gd")
-const Catalog = preload("res://Localization/catalog.gd")
+const Campaign = preload("res://Scenes/Campaign/campaign_state.gd")
 const I18n = preload("res://Localization/localized_text.gd")
 const UIFont = preload("res://Scenes/Gameplay/ui_font.gd")
 const OUT := "res://Localization/Verification/"
@@ -102,7 +102,8 @@ func run() -> void:
 		menu = load("res://Scenes/MainMenu/main_menu.tscn").instantiate()
 		root.add_child(menu)
 		await frames(5)
-		check("restart restores Japanese", service.language == "ja" and root.title == "わらら魔女の町")
+		var title_row: Array = service.catalog_rows.filter(func(row): return row[0] == "哗啦啦魔女镇")[0]
+		check("restart restores Japanese", service.language == "ja" and root.title == title_row[3])
 		check("restart preserves audio", is_equal_approx(menu.audio.music_volume, 0.41))
 		menu.audio.stop()
 		menu.queue_free()
@@ -117,8 +118,9 @@ func run() -> void:
 	check("default simplified Chinese", service.language == "zh_CN")
 	# Validate the actual shipped font against every translated character.
 	var missing := {}
-	for row in Catalog.ROWS:
-		for text in row:
+	check("catalog loaded directly from CSV", not service.catalog_files.is_empty() and not service.catalog_rows.is_empty())
+	for row in service.catalog_rows:
+		for text in row.slice(1):
 			for character in text:
 				if character not in ["\n", "\r", "\t"] and not UIFont.get_font().has_char(character.unicode_at(0)):
 					missing[character] = true
@@ -127,8 +129,8 @@ func run() -> void:
 	for index in range(service.LOCALES.size()):
 		service.set_language(service.LOCALES[index])
 		var translated := true
-		for row in Catalog.ROWS:
-			translated = translated and String(TranslationServer.translate(row[0])) == row[index]
+		for row in service.catalog_rows:
+			translated = translated and String(TranslationServer.translate(row[0])) == row[index + 1]
 		check("complete runtime catalog " + service.language, translated)
 	service.set_language("zh_CN")
 	menu = load("res://Scenes/MainMenu/main_menu.tscn").instantiate()
@@ -238,8 +240,9 @@ func run() -> void:
 		hud.close_modal()
 		hud.open_journal()
 		service.set_language("ja" if locale == "en" else "en")
-		var objective: String = hud.Journal.QUESTS[hud.selected_quest].objective
-		check(locale + " open journal refreshes immediately", String(TranslationServer.translate(objective)) in hud.quest_list.get_child(0).get_child(1).text and paused)
+		var objective: String = Campaign.current_main(loop.state).objective
+		var quest_label = loop.campaign_controller.list.get_node("MainQuest").get_child(0)
+		check(locale + " open journal refreshes immediately", String(TranslationServer.translate(objective)) in quest_label.text and paused)
 		service.set_language(locale)
 		await frames()
 		check_buttons(hud.modal, locale + " journal")
@@ -272,7 +275,8 @@ func run() -> void:
 		loop.enter("town")
 		loop.enter("restaurant")
 		loop._refresh()
-		check(locale + " dish and price localized", loop.menu_buttons[0].text == I18n.format("%s  %d金", [State.DISHES[0], 12]))
+		check(locale + " dish and price localized", loop.menu_buttons[0].text == I18n.format("%s  %d金", [State.DISHES[0], State.PRICES[0]]))
+		check(locale + " cooking button localized", loop.cook_buttons[0].text == I18n.format("做%s", [State.DISHES[0]]))
 		await shot(locale + "_restaurant", lane.viewport)
 		loop.enter("town")
 	# A previously written Chinese-source save has the same resource/task IDs.

@@ -1,0 +1,91 @@
+Walala Witch Town 音频鸣谢
+以下下载音频：CC0 1.0 Universal（允许商用，无强制署名）
+https://creativecommons.org/publicdomain/zero/1.0/
+法律全文：https://creativecommons.org/publicdomain/zero/1.0/legalcode
+核查日期：2026-10-10。不表示作者认可或代言本游戏。
+
+采集音效：Impact Sounds — Kenney；水花与咬钩 — rubberduck；植物沙沙声 — TinyWorlds。
+Legacy synthesized clips retained unused: chop/mine/cast/bite/catch.wav.
+Current gathering selection verified 2026-10-11: 13 original OGG files, CC0-1.0.
+Wood / ore impacts: https://kenney.nl/assets/impact-sounds
+Water / bite / catch: https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+Foliage rustles: https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
+Selected files, original archive members and SHA-256: Harvest/manifest.json.
+
+Music refreshed: 2026-10-11. All three tracks are CC0.
+Title: A Place I Call Home — Juhani Junkala / SubspaceAudio
+Day: Peaceful Days — Juhani Junkala / SubspaceAudio
+Night / results: Summer Memories — Juhani Junkala / SubspaceAudio
+JRPG Pack 4 Calm: https://opengameart.org/content/jrpg-pack-4-calm
+Original author notice: Music/LICENSE.txt; selected tracks: Music/manifest.json
+Previous music retained as unused archive: Town / Town 3 — Alex McCulloch / Pro Sensory
+https://opengameart.org/content/town
+https://opengameart.org/content/town-3
+
+Gameplay: confirmation_001 (serve); pluck_001 retained unused (previous gather cue):
+Interface Sounds 1.0 — Kenney
+https://kenney.nl/assets/interface-sounds
+加工 chop、做菜 metalPot1、金币 handleCoins：
+RPG Audio — Kenney Vleugels / Kenney
+https://kenney.nl/assets/rpg-audio
+
+雨循环：Rain (loopable), 1.ogg — Ylmir
+https://opengameart.org/content/rain-loopable
+雪天气轻风环境（不是雪本身的声音）：Wind, Wind.ogg — IgnasD
+https://opengameart.org/content/wind
+
+木地板、石路、草地（树叶）、泥地脚步：
+Different steps on wood, stone, leaves, gravel and mud — TinyWorlds
+https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
+选用 wood01/02/03、stone01、leaves01/02、mud02，保持原字节。
+雪地脚步：42 Snow and Gravel Footsteps — Corsica_S
+Iwan Gabovitch (qubodup) 经作者许可拆分并以 CC0 发布。
+https://opengameart.org/content/42-snow-and-gravel-footsteps
+选用 snow_covered_gravel 01–06；FLAC 转单声道 PCM16 WAV，
+裁去前导空白，最长 0.38 秒，峰值 0.55，首尾淡化 3/15 毫秒。
+
+除上述雪地脚步转换外，选用音频保持原字节；播放时调整音量与循环。
+逐文件下载URL、包内文件名、SHA-256及大小见 manifest.json。
+原网页证据与Kenney包内授权见 Licenses；原下载包见 Archives。
+Music selected from the composer's calm JRPG loop pack; no manual listening review.
+
+字体鸣谢
+Fusion Pixel Font 12px proportional / zh-Hans — TakWolf 及贡献者
+SIL Open Font License 1.1；字体随本游戏嵌入，完整许可证与来源见 Art/Fonts/FusionPixel/README.md。
+https://github.com/TakWolf/fusion-pixel-font
+
+World audio additions (2026-10-20; all CC0-1.0):
+JRPG Pack 4 Calm — Juhani Junkala / SubspaceAudio
+Childhood Friends (home), Sand Castles (dock)
+https://opengameart.org/content/jrpg-pack-4-calm
+Forest Whisper Theme — Cleyton Kauffman
+https://opengameart.org/content/forest-whisper-theme
+Ambient Bird Sounds — isaiah658
+https://opengameart.org/content/ambient-bird-sounds
+Crickets Ambient Noise — Wolfgang_ / Ted Kerr
+https://opengameart.org/content/crickets-ambient-noise-loopable
+Fireplace Sound Loop — PagDev
+https://opengameart.org/content/fireplace-sound-loop
+Boiling Water Loops — TinyWorlds
+https://opengameart.org/content/boiling-water-loops
+40 CC0 water / splash / slime SFX — rubberduck (loop_water_02)
+https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+RPG Audio — Kenney Vleugels (two opening / two closing wooden doors)
+https://kenney.nl/assets/rpg-audio
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Original sources, license evidence, conversion notes and hashes: World/manifest.json.
+Birds, crickets and fire encoded to OGG with a 120 ms cyclic overlap.
+Other selected audio retains original bytes. Runtime gain/loop/crossfade only.
+
+Current UI selection (2026-10-20; polished-v2):
+基础悬停、点击、开合、确认、错误、开关与滑条提示音为项目内生成的短促调性素材，
+由 Sounds/Walala/UI/generate_polished_ui.gd 以确定性的 44.1 kHz 单声道 PCM 生成，
+通过淡入淡出和统一的和声配色保持界面反馈轻快、连贯；原始 WAV 不依赖外部下载。
+RPG Audio — Kenney Vleugels / Kenney
+https://kenney.nl/assets/rpg-audio
+bookOpen, bookClose, bookFlip2（手记与对话翻页；原始 OGG 字节）。
+基础八类提示音改用 polished-v2，三个书本提示音继续保留。
+Current file mapping / hashes: UI/manifest.json.
+Previous polished-v1 selection / hashes: UI/manifest_20261011.json.
+Earlier selection / hashes: UI/manifest_20261010.json.
+Kenney author notice: UI/Organic/LICENSE.txt; CC0 evidence: Licenses/organic_ui_20261011.html.

@@ -1,0 +1,7 @@
+config_version=5
+[application]
+config/name="CSV Package Verification"
+[autoload]
+Localization="*res://Localization/localization.gd"
+[internationalization]
+locale/fallback="zh_CN"

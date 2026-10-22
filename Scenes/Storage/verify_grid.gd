@@ -264,8 +264,8 @@ func run() -> void:
 		return
 	Items.change(loop.state, {"wood": 151, "mushroom": 5, "berry": 3, "herb": 2})
 	loop._refresh()
-	await key(KEY_E)
-	check("E opens native paused storage", hud.mode == "chest" and paused)
+	await key(KEY_F)
+	check("F opens native paused storage", hud.mode == "chest" and paused)
 	var view = hud.chest_view
 	check("square chest and bag cells created", view.chest_slots.size() == 12 and view.bag_slots.size() == 36 and view.bag_slots[0].size == Vector2(40, 40))
 	check("upgrade cells are locked", not view.bag_slots[11].disabled and view.bag_slots[12].disabled)

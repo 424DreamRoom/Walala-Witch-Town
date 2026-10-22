@@ -12,7 +12,7 @@ func _ready() -> void:
 	position = Vector2(32, 26)
 	size = Vector2(576, 308)
 	loop.hud.panel(Rect2(Vector2.ZERO, size), self).mouse_filter = Control.MOUSE_FILTER_STOP
-	loop.hud.label("绮屋 · 房地产魔女", Rect2(18, 12, 540, 30), self, UISkin.INK, 22)
+	loop.hud.label("贝阿特丽丝 · 房地产魔女", Rect2(18, 12, 540, 30), self, UISkin.INK, 22)
 	body = Control.new()
 	body.position = Vector2(18, 54)
 	add_child(body)

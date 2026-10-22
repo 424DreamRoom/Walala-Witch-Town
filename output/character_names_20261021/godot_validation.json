@@ -1,0 +1,20 @@
+[
+  {
+    "test": "verify_names",
+    "passed": true,
+    "completion": [
+      "NAMES COMPLETE checks=108 failures=0"
+    ],
+    "errors": [],
+    "exit_code": 0
+  },
+  {
+    "test": "verify_rebuilt_story",
+    "passed": true,
+    "completion": [
+      "REBUILT COMPLETE checks=225 failures=0"
+    ],
+    "errors": [],
+    "exit_code": 0
+  }
+]

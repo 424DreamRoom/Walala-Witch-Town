@@ -5,7 +5,7 @@ const ART := "res://Art/Environment/Hearthwood/"
 const UIFont = preload("res://Scenes/Gameplay/ui_font.gd")
 const Furniture = preload("res://Scenes/Building/furniture_catalog.gd")
 const FarmTerrain = preload("res://Scenes/Farm/farm_terrain.gd")
-const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "dock": "潮汐码头", "home": "小女巫的家", "restaurant": "小镇餐厅", "store": "橡果杂货店", "blacksmith": "余烬铁匠铺", "furniture_store": "榛木家具店"}
+const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "dock": "潮汐码头", "home": "小女巫的家", "restaurant": "小镇餐厅", "store": "橡果杂货店", "blacksmith": "布兰铁匠铺", "furniture_store": "榛木家具店"}
 const WORLD_RECTS := {"town": Rect2(166, 58, 148, 142), "farm": Rect2(4, 64, 126, 94), "field": Rect2(205, 1, 100, 56), "dock": Rect2(344, 138, 44, 25)}
 const REGION_SIZES := {"farm": Vector2(1440, 960), "field": Vector2(640, 360), "dock": Vector2(640, 360), "home": Vector2(640, 480), "restaurant": Vector2(640, 360), "store": Vector2(640, 480), "blacksmith": Vector2(640, 480), "furniture_store": Vector2(640, 480)}
 var loop

@@ -26,7 +26,7 @@ func frames(count: int = 3) -> void:
 		await process_frame
 		await physics_frame
 
-func interact_event(pressed: bool, echo: bool = false, code: Key = KEY_E) -> void:
+func interact_event(pressed: bool, echo: bool = false, code: Key = KEY_F) -> void:
 	var event := InputEventKey.new()
 	event.physical_keycode = code
 	event.pressed = pressed
@@ -36,7 +36,7 @@ func interact_event(pressed: bool, echo: bool = false, code: Key = KEY_E) -> voi
 	if root.get_node("SceneTransition").active:
 		await root.get_node("SceneTransition").finished
 
-func interact_key(code: Key = KEY_E) -> void:
+func interact_key(code: Key = KEY_F) -> void:
 	for pressed in [true, false]:
 		await interact_event(pressed, false, code)
 
@@ -135,7 +135,7 @@ func run() -> void:
 	check("dock connection reaches east edge", loop.DOCK_GATE == Vector2(lane.world_size.x - 8, 652))
 	check("farm connection reaches west edge", loop.FARM_GATE == Vector2(8, 364))
 	for label in loop.gate_labels:
-		check("gate prompt has no interaction key", not label.text.contains(" E"))
+		check("gate prompt has no interaction key", not label.text.contains(" F"))
 	var exits: Array = loop._scene_exits()
 	for exit in exits:
 		var target: String = exit.target
@@ -147,7 +147,7 @@ func run() -> void:
 			await use_door(exit)
 		else:
 			await interact_key()
-			check("E at road approach stays in town " + target, loop.location == "town")
+			check("F at road approach stays in town " + target, loop.location == "town")
 			check("walking automatically enters " + target, await cross(exit.direction, target))
 		if loop.location != target:
 			continue
@@ -174,7 +174,7 @@ func run() -> void:
 			var return_approach: Vector2 = back.rect.get_center() - back.direction * 36.0
 			check("walk actual road route to exit " + target, await Navigation.walk(lane, return_approach))
 			await interact_key()
-			check("E at road exit approach stays inside " + target, loop.location == target)
+			check("F at road exit approach stays inside " + target, loop.location == target)
 			var before: Vector2 = lane.player.position
 			paused = true
 			lane.test_direction = back.direction

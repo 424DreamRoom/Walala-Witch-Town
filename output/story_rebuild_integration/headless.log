@@ -68,6 +68,15 @@ REBUILT retain unlock 12ruins: PASS
 REBUILT retain unlock 12ridge: PASS
 REBUILT retain unlock 12observatory: PASS
 REBUILT preparation belongs to first chapter: PASS
+REBUILT arrival goal is settling in: PASS
+REBUILT arrival refuses stocked service: PASS
+REBUILT arrival cannot hand in restaurant chapter: PASS
+REBUILT arrival flag survives serialization: PASS
+REBUILT arrival rest starts second morning: PASS
+REBUILT rest cannot advance a second time: PASS
+REBUILT second day service available: PASS
+REBUILT existing saves keep their service access: PASS
+REBUILT invalid arrival flag rejected: PASS
 REBUILT complete once 0: PASS
 REBUILT pending scene blocks duplicate and next reward 0: PASS
 REBUILT pending scene roundtrip 0: PASS
@@ -106,21 +115,59 @@ REBUILT inconsistent opening rejected: PASS
 REBUILT isolated new slot: PASS
 REBUILT opening film pauses: PASS
 REBUILT public notice replaces letter: PASS
+REBUILT film remains under fade: PASS
+REBUILT opening segment ready 0: PASS
 REBUILT film skip keeps dock dialogue: PASS
 REBUILT Nagi present on dock: PASS
 REBUILT opening dialogue accepts gameplay input: PASS
 REBUILT opening still blocks inventory: PASS
-REBUILT guide approaches on farm: PASS
-REBUILT guide actually walks: PASS
+REBUILT dock farewell precedes world swap: PASS
+REBUILT departure cannot be submitted twice: PASS
+REBUILT destination checkpoint saved before departure: PASS
+REBUILT player walks away from Nagi: PASS
+REBUILT opening segment ready 1: PASS
+REBUILT guide and player arrive at cottage: PASS
 REBUILT farm dialogue has fifteen lines: PASS
+REBUILT farm departure keeps both characters: PASS
+REBUILT opening segment ready 2: PASS
+REBUILT restaurant exterior connects farm to interior: PASS
+REBUILT opening world changes fully covered: PASS
+REBUILT opening paths avoid world solids: PASS
+REBUILT opening performers keep their space: PASS
+REBUILT opening walks keep gameplay paused: PASS
 REBUILT lease scene opens kitchen without a second fee: PASS
 REBUILT lease cast present: PASS
+REBUILT lease introduction hides opening controls: PASS
 REBUILT opening releases control: PASS
 REBUILT opening cast cleaned up: PASS
 REBUILT opening completion saved: PASS
+REBUILT opening ends in first morning: PASS
+REBUILT arrival hides restaurant operating controls: PASS
+REBUILT arrival guide keeps to settling in: PASS
+REBUILT first day journal has no serving target: PASS
+REBUILT first day recipes do not enter menu setup: PASS
+REBUILT restaurant cannot skip arrival day: PASS
+REBUILT arrival sunset keeps outdoor exploration: PASS
+REBUILT home offers rest without service: PASS
+REBUILT arrival day saved before rest: PASS
+REBUILT arrival save selected again: PASS
+REBUILT arrival save reload stays at home: PASS
+REBUILT rest fades into second morning once: PASS
+REBUILT arrival never creates service results: PASS
+REBUILT second morning checkpoint persisted: PASS
+REBUILT second day enables menu and opening: PASS
+REBUILT second day still needs player confirmation: PASS
+REBUILT second day menu selection works: PASS
+REBUILT second day confirmed service works: PASS
+REBUILT opening segment ready 0: PASS
 REBUILT resume opening segment 0: PASS
+REBUILT departure checkpoint restored to isolated slot: PASS
+REBUILT saved opening waits for current fade: PASS
+REBUILT opening segment ready 1: PASS
 REBUILT resume opening segment 1: PASS
+REBUILT opening segment ready 2: PASS
 REBUILT resume opening segment 2: PASS
+REBUILT opening bridge localized zh_CN: PASS
 REBUILT runtime full dialogue zh_CN0: PASS
 REBUILT runtime full dialogue zh_CN1: PASS
 REBUILT runtime full dialogue zh_CN2: PASS
@@ -134,6 +181,7 @@ REBUILT runtime full dialogue zh_CN9: PASS
 REBUILT all lines fit zh_CN: PASS
 REBUILT speaker portraits zh_CN: PASS
 REBUILT ten chapter recalls zh_CN: PASS
+REBUILT opening bridge localized en: PASS
 REBUILT runtime full dialogue en0: PASS
 REBUILT runtime full dialogue en1: PASS
 REBUILT runtime full dialogue en2: PASS
@@ -147,6 +195,7 @@ REBUILT runtime full dialogue en9: PASS
 REBUILT all lines fit en: PASS
 REBUILT speaker portraits en: PASS
 REBUILT ten chapter recalls en: PASS
+REBUILT opening bridge localized ja: PASS
 REBUILT runtime full dialogue ja0: PASS
 REBUILT runtime full dialogue ja1: PASS
 REBUILT runtime full dialogue ja2: PASS
@@ -160,6 +209,7 @@ REBUILT runtime full dialogue ja9: PASS
 REBUILT all lines fit ja: PASS
 REBUILT speaker portraits ja: PASS
 REBUILT ten chapter recalls ja: PASS
+REBUILT opening bridge localized zh_TW: PASS
 REBUILT runtime full dialogue zh_TW0: PASS
 REBUILT runtime full dialogue zh_TW1: PASS
 REBUILT runtime full dialogue zh_TW2: PASS
@@ -178,5 +228,5 @@ REBUILT pending slot selected again: PASS
 REBUILT disk reload resumes pending chapter: PASS
 REBUILT reload never pays twice: PASS
 REBUILT recall keeps progress and inventory: PASS
-REBUILT COMPLETE checks=175 failures=0
+REBUILT COMPLETE checks=225 failures=0
 FMOD Sound System: System released

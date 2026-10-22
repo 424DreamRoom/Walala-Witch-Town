@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "dialogue_lines": 436,
+  "opening_lines": 43,
+  "changed_opening_lines": 7,
+  "languages": [
+    "zh_CN",
+    "en",
+    "ja",
+    "zh_TW"
+  ],
+  "workbook_entries": 2261,
+  "preserved_workbook_entries": 2247,
+  "new_translation_entries": 14,
+  "workbook_catalog_match": true,
+  "build_idempotent": true,
+  "manuscript_runtime_match": true,
+  "protected_originals_unchanged": true,
+  "formal_player_saves_accessed": false
+}

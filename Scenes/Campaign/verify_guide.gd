@@ -47,7 +47,7 @@ func run() -> void:
 	var old := State.new().to_save_data()
 	old.campaign.erase("guide_met")
 	old.campaign.introduced = true
-	old.campaign.player_name = "Aster"
+	old.campaign.player_name = "Selene"
 	var restored := State.normalize_save_data(old)
 	check("named old save avoids new popup", not restored.is_empty() and restored.campaign.guide_met)
 	old.campaign.player_name = ""
@@ -99,7 +99,7 @@ func run() -> void:
 	loop.hud.close_modal()
 	controller.open("故事")
 	controller.complete_chapter()
-	check("journal hand-in uses Yingluo too", loop.state.campaign.chapter == 2 and loop.state.coins == 70 and loop.hud.lines[0] == C.D.quests[1].name)
+	check("journal hand-in uses Lucinda too", loop.state.campaign.chapter == 2 and loop.state.coins == 70 and loop.hud.lines[0] == C.D.quests[1].name)
 	loop.hud.close_modal()
 	# Every chapter gets current-only dialogue, measured in all four locales.
 	var service = root.get_node("Localization")

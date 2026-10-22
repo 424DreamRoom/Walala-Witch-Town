@@ -1,7 +1,7 @@
 {
   "passed": true,
   "mode": "capture",
-  "checks": 184,
+  "checks": 242,
   "exit_code": 0,
   "protected_originals": 3,
   "myart_unchanged": true

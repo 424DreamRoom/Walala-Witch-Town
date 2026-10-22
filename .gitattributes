@@ -5,3 +5,5 @@
 *.bin filter=lfs diff=lfs merge=binary -text
 output/fmod/release_42360/fmod_verify.exe filter=lfs diff=lfs merge=lfs -text
 output/fmod/release_35752/fmod_verify.exe filter=lfs diff=lfs merge=lfs -text
+output/dialogue_audio_20261022/engine/godot.exe filter=lfs diff=lfs merge=lfs -text
+"output/dialogue_audio_20261022/Super Dialogue Audio Pack v1.zip" filter=lfs diff=lfs merge=lfs -text

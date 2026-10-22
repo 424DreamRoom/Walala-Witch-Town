@@ -4,7 +4,7 @@
   "assets": [
     {
       "id": "mori",
-      "name": "茉莉",
+      "name": "梅布尔",
       "kind": "resident",
       "source": "residents/mori.aseprite",
       "png": "residents/mori.png",
@@ -99,7 +99,7 @@
     },
     {
       "id": "ember",
-      "name": "余烬",
+      "name": "布兰",
       "kind": "resident",
       "source": "residents/ember.aseprite",
       "png": "residents/ember.png",
@@ -194,7 +194,7 @@
     },
     {
       "id": "nagi",
-      "name": "澪",
+      "name": "玛伦",
       "kind": "resident",
       "source": "residents/nagi.aseprite",
       "png": "residents/nagi.png",
@@ -289,7 +289,7 @@
     },
     {
       "id": "lumi",
-      "name": "露米",
+      "name": "海泽尔",
       "kind": "resident",
       "source": "residents/lumi.aseprite",
       "png": "residents/lumi.png",
@@ -384,7 +384,7 @@
     },
     {
       "id": "aster",
-      "name": "星芒",
+      "name": "塞勒涅",
       "kind": "resident",
       "source": "residents/aster.aseprite",
       "png": "residents/aster.png",
@@ -479,7 +479,7 @@
     },
     {
       "id": "toma",
-      "name": "陶陶",
+      "name": "托宾",
       "kind": "resident",
       "source": "residents/toma.aseprite",
       "png": "residents/toma.png",
@@ -574,7 +574,7 @@
     },
     {
       "id": "pip",
-      "name": "皮普",
+      "name": "皮平",
       "kind": "resident",
       "source": "residents/pip.aseprite",
       "png": "residents/pip.png",
@@ -669,7 +669,7 @@
     },
     {
       "id": "reed",
-      "name": "芦苇",
+      "name": "罗文",
       "kind": "resident",
       "source": "residents/reed.aseprite",
       "png": "residents/reed.png",
@@ -764,7 +764,7 @@
     },
     {
       "id": "yuki",
-      "name": "霜铃",
+      "name": "阿芙琳",
       "kind": "resident",
       "source": "residents/yuki.aseprite",
       "png": "residents/yuki.png",
@@ -859,7 +859,7 @@
     },
     {
       "id": "orla",
-      "name": "奥萝",
+      "name": "莫文",
       "kind": "resident",
       "source": "residents/orla.aseprite",
       "png": "residents/orla.png",
@@ -1260,7 +1260,7 @@
     },
     {
       "id": "yingluo",
-      "name": "萤萝",
+      "name": "露辛达",
       "kind": "guide",
       "source": "guides/yingluo.aseprite",
       "png": "guides/yingluo.png",

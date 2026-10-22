@@ -25,7 +25,7 @@ func frames(count: int = 3) -> void:
 	if root.get_node("SceneTransition").active: await root.get_node("SceneTransition").finished
 
 func key(code: Key) -> void:
-	if code == KEY_E:
+	if code == KEY_F:
 		await preload("res://Scenes/Gameplay/verification_world_action.gd").press(self)
 		await frames()
 		return
@@ -146,7 +146,7 @@ func run() -> void:
 	loop.enter("farm")
 	lane.player.position = Vector2(416, 312)
 	loop.state.resources.wood = 10
-	await key(KEY_E)
+	await key(KEY_F)
 	await click(loop.builder.detail.get_node("Craft"))
 	await click(loop.builder.root.get_node("FurnitureCatalog/Recipe_chest"))
 	await click(loop.builder.detail.get_node("Craft"))
@@ -181,18 +181,18 @@ func run() -> void:
 	check("map mirrors empty shell and crafted furniture", loop.hud.map_view.canvas.region_items("home").size() == 2 and loop.hud.map_view.canvas.region_size("home") == Vector2(640, 532))
 	loop.hud.close_modal()
 	check("starter doorway remains reachable", await Navigation.walk(lane, loop.area.stations.exit))
-	await key(KEY_E)
+	await key(KEY_F)
 	check("starter exits to farm", loop.location == "farm")
 	loop.enter("town")
 	lane.player.position = loop.FURNITURE_GATE + Vector2(0, 20)
-	await key(KEY_E)
+	await key(KEY_F)
 	check("town door enters actual furniture store", loop.location == "furniture_store" and not lane.weather.visible)
 	check("shop service is reachable", await Navigation.walk(lane, loop.area.stations.service))
 	loop.state.coins = 120
 	loop.state.resources.wood = 30
 	loop.state.resources.iron = 3
 	await shot("furniture_store")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("shop interaction opens paused expansion panel", loop.hud.mode == "housing" and paused and loop.hud.modal.has_node("HouseUpgrades"))
 	var view = loop.hud.modal.get_node("HouseUpgrades")
 	for locale in ["zh_CN", "en", "ja", "zh_TW"]:
@@ -216,7 +216,7 @@ func run() -> void:
 	loop.state.resource_damage["farm_ore_271"] = loop.state.RESOURCE_HITS
 	loop.state.resources.wood = 80
 	loop.state.resources.iron = 8
-	await key(KEY_E)
+	await key(KEY_F)
 	view = loop.hud.modal.get_node("HouseUpgrades")
 	await click(view.detail.get_node("Expand"))
 	check("second purchase unlocks full room without furnishings", loop.state.furniture.house_level == 2 and loop.state.coins == 0 and loop.state.furniture.placed == placed and not loop.state.furniture.legacy_fixtures)

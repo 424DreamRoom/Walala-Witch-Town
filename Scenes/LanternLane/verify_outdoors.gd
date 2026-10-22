@@ -115,7 +115,7 @@ func run() -> void:
 		for column in range(3):
 			var index := row * 3 + (column if row % 2 == 0 else 2 - column)
 			await walk_to(loop.area.points[index])
-			await key(KEY_E)
+			await key(KEY_F)
 			check("gather reachable " + str(index), loop.state.nodes[index] == 1)
 		if row == 0:
 			await shot("outdoor_field_gathering")

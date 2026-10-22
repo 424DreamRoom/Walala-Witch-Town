@@ -1,0 +1,14 @@
+{
+  "license": "CC-BY-4.0",
+  "source": "https://dillonbecker.itch.io/sdap",
+  "clips": 15,
+  "source_hashes_verified": 15,
+  "runtime_checks_passed": 83,
+  "localization_entries_checked": 2261,
+  "myart_files_unchanged": 3,
+  "runtime": "Godot 4.7.2 / FMOD / WASAPI / display headless",
+  "limitations": [
+    "No human listening review",
+    "Full standalone game export not run; license inclusion configured"
+  ]
+}

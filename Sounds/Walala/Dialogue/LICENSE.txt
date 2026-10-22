@@ -1,0 +1,23 @@
+Super Dialogue Audio Pack v1 - Dillon Becker
+https://dillonbecker.com
+Source: https://dillonbecker.itch.io/sdap
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The game uses adapted excerpts of recordings performed by Alex Brodie,
+Ian Lampert, Sean Lenhart, Karen Cenon and Meghan Christian.
+Attribution to Dillon Becker follows the author's included License.pdf.
+No endorsement by the producer or voice actors is implied.
+
+Changes by Walala Witch Town, 2026-10-22:
+Selected nonverbal Hm?, Hmm... and Huh? recordings. Extracted 125 ms voiced
+segments, removed DC offset, converted to mono PCM16 / 44.1 kHz, applied
+8 ms fade in and 25 ms fade out, and normalized with a peak cap of 0.70.
+Playback varies pitch and volume. These are dialogue syllables, not full
+spoken translations of the game's dialogue.
+
+Original files and per-file SHA-256 hashes: Originals/ and manifest.json.
+Original archive license and reference: Licenses/License.pdf and
+Licenses/Reference Sheet.pdf. Author-page evidence checked 2026-10-22:
+Licenses/author_page_20261022.html.

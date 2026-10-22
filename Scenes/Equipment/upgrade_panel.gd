@@ -25,7 +25,7 @@ func _ready() -> void:
 	var paper: Panel = loop.hud.panel(Rect2(Vector2.ZERO, size), self)
 	paper.mouse_filter = Control.MOUSE_FILTER_STOP
 	loop.hud.label("装备升级", Rect2(20, 12, 520, 32), self, UISkin.INK, 24)
-	loop.hud.label("铁匠 · 余烬", Rect2(20, 48, 164, 20), self, UISkin.MUTED_INK)
+	loop.hud.label("铁匠 · 布兰", Rect2(20, 48, 164, 20), self, UISkin.MUTED_INK)
 	resources = Control.new()
 	resources.name = "Resources"
 	resources.position = Vector2(252, 46)
@@ -100,7 +100,14 @@ func refresh() -> void:
 	hud.label(Catalog.TITLES[selected], Rect2(0, 0, 104, 24), detail, UISkin.INK, 18)
 	var tier: String = tr(Catalog.TIERS[rank]) if maximum else "%s → %s" % [tr(Catalog.TIERS[rank]), tr(Catalog.TIERS[rank + 1])]
 	hud.label(tier, Rect2(110, 0, 250, 24), detail)
-	var effect: RichTextLabel = hud.rich_label(Catalog.effect(selected, rank, not maximum), Rect2(0, 30, 360, 166), detail, UISkin.MUTED_INK)
+	# The detail side gets the same large visual anchor as the item tabs. This
+	# makes the upgrade choice readable at a glance before comparing materials.
+	var detail_icon: Control = hud.ornament(selected, Vector2(0, 30), detail, Vector2(48, 48))
+	detail_icon.name = "DetailIcon"
+	if selected == "wand":
+		detail_icon.wand_mode = state.wand_mode
+		detail_icon.queue_redraw()
+	var effect: RichTextLabel = hud.rich_label(Catalog.effect(selected, rank, not maximum), Rect2(58, 30, 302, 166), detail, UISkin.MUTED_INK)
 	effect.name = "EquipmentDescription"
 	if not maximum:
 		var price := Catalog.cost(selected, rank)

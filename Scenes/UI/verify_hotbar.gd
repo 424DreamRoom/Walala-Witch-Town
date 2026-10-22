@@ -200,7 +200,7 @@ func run() -> void:
 	var node = loop.area.resource_nodes.filter(func(item): return item.resource_kind == "wood")[0]
 	lane.player.position = node.anchor
 	await key(KEY_2)
-	await key(KEY_E)
+	await key(KEY_F)
 	check("real interact cannot use an unselected wand", not loop.harvest.busy() and loop.state.resource_left(node.resource_id) == 3)
 	await key(KEY_1)
 	await cast()
@@ -235,7 +235,7 @@ func run() -> void:
 	check("real selected wand tills farm", loop.state.farm.plots.has("0") and loop.state.farm.plots["0"].growth == -1)
 	await create_timer(0.3).timeout
 	await key(KEY_2)
-	await key(KEY_E)
+	await key(KEY_F)
 	check("real selected seeds plant once", loop.state.farm.plots["0"].growth == 0 and loop.state.farm.seeds == 11)
 	check("seed planting does not display an unselected wand", loop.harvest.farm_cast_left == 0.0)
 	await create_timer(0.3).timeout

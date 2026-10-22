@@ -1,7 +1,7 @@
 extends RefCounted
-## Yingluo speaks about the town and the current chapter; input belongs in docs.
+## Lucinda speaks about the town and the current chapter; input belongs in docs.
 const C = preload("res://Scenes/Campaign/campaign_state.gd")
-const NAME := "萤萝 · 巡灯员"
+const NAME := "露辛达 · 巡灯员"
 const PORTRAIT := "res://Art/Characters/NPC32/portraits/yingluo.aseprite"
 const SPRITE := "res://Art/Characters/NPC32/guides/yingluo.aseprite"
 const Onboarding = preload("res://Scenes/Campaign/onboarding.gd")
@@ -12,6 +12,7 @@ const FAREWELL = C.D.guide.farewell
 const TOPICS = C.D.guide.topics
 
 static func current_lines(s) -> Array:
+	if s.is_arrival_day(): return [C.D.arrival.guide]
 	var q := C.current_main(s)
 	if q.is_empty(): return [FAREWELL]
 	# The guide speaks about the chapter's situation. Objective names, counts,
@@ -22,5 +23,6 @@ static func current_lines(s) -> Array:
 	return result
 
 static func ready(s) -> bool:
+	if s.is_arrival_day(): return false
 	var q := C.current_main(s)
 	return s.campaign.pending_scene < 0 and not q.is_empty() and C.metric(s, q.metric) >= q.goal

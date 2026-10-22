@@ -295,13 +295,13 @@ func run() -> void:
 		check("real upgrade preserves colour and stored water", loop.state.equipment.wand == 1 and loop.state.wand_mode == "red" and loop.state.farm.water == water_before)
 		loop.hud.close_modal()
 	loop.enter("home")
-	# Remapping the interaction key also remaps the context-dependent colour switch.
+	# The interaction key remains F while the fixed wand toggle remains E.
 	var bindings := root.get_node("InputBindings")
-	check("interaction key can be remapped", bindings.assign_key("interact", 0, KEY_F).ok)
-	await key(KEY_E)
-	check("old key no longer switches", loop.state.wand_mode == "red")
+	check("interaction key remains F", bindings.bindings.interact[0] == KEY_F)
 	await key(KEY_F)
-	check("custom key switches", loop.state.wand_mode == "blue")
+	check("interaction key does not switch colour", loop.state.wand_mode == "red")
+	await key(KEY_E)
+	check("E switches colour", loop.state.wand_mode == "blue")
 	loop.state.select_hotbar_slot(9)
 	lane.player.position = loop.area.stations.exit
 	await key(KEY_F)

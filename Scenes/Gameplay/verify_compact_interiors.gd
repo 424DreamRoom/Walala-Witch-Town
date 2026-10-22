@@ -69,7 +69,7 @@ func run() -> void:
 		await frames()
 		check(kind + " compact floor", loop.area.walkable_regions[0].size == Vector2(328, 202))
 		check(kind + " real walk to service", await Navigation.walk(lane, loop.area.stations.service))
-		await key(KEY_E)
+		await key(KEY_F)
 		check(kind + " service opens", loop.hud.mode == "housing" if kind == "furniture_store" else loop.area.service_panel.visible)
 		if kind == "furniture_store": loop.hud.close_modal()
 		else: await key(KEY_ESCAPE)
@@ -88,7 +88,7 @@ func run() -> void:
 		await restore_position(kind, safe)
 		check(kind + " valid save stays", lane.player.position == safe)
 		check(kind + " real walk to exit", await Navigation.walk(lane, loop.area.stations.exit))
-		await key(KEY_E)
+		await key(KEY_F)
 		check(kind + " exits to town", loop.location == "town")
 	loop.state.campaign.restaurant = 4
 	loop.enter("restaurant")
@@ -110,7 +110,7 @@ func run() -> void:
 		var approach: Vector2 = loop.area.seats[i] + Vector2(-20, 8)
 		check("full restaurant delivery route " + str(i), await Navigation.walk(lane, approach) and loop.near(loop.area.seats[i]))
 		loop.state.held = 0
-		await key(KEY_E)
+		await key(KEY_F)
 		check("full restaurant serves " + str(i), loop.state.customer_at(i).status == "eating")
 	lane.player.position = loop.area.spawn
 	await shot("restaurant_full")
@@ -118,7 +118,7 @@ func run() -> void:
 	await restore_position("restaurant", Vector2(400, 280))
 	check("restaurant old outside save recovers", lane.player.position == loop.area.spawn)
 	check("restaurant real walk to exit", await Navigation.walk(lane, loop.area.stations.exit))
-	await key(KEY_E)
+	await key(KEY_F)
 	check("restaurant exits to town", loop.location == "town")
 	lane.queue_free()
 	await frames()

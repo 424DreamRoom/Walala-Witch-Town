@@ -15,7 +15,7 @@ SEED = 101020267
 SIZE = (1600, 1536)  # Exactly twice the former 1280 x 960 area.
 W, H = SIZE
 BUILDINGS = [
-    ("blacksmith_exterior", 1020, 530, "blacksmith", "余烬铁匠铺"),
+    ("blacksmith_exterior", 1020, 530, "blacksmith", "布兰铁匠铺"),
     ("store_exterior", 620, 350, "store", "橡果杂货店"),
     ("shop_3", 570, 692, "restaurant", "小女巫餐厅"),
     ("shop_4", 948, 260, "civic", "北坡会馆"),
@@ -271,10 +271,10 @@ def build():
                   props=objects(), gates=GATES, paths=PATHS,
                   plazas=[dict(points=PLAZA, surface="stone")], barriers=barriers,
                   districts=[dict(name="西郊农场道", point=[58, 364]), dict(name="月泉广场", point=[620, 470]),
-                             dict(name="余烬工坊", point=[1020, 556]), dict(name="南巷花园", point=[590, 840]),
+                             dict(name="布兰工坊", point=[1020, 556]), dict(name="南巷花园", point=[590, 840]),
                              dict(name="河岸渡口", point=[1480, 652]), dict(name="东园花径", point=[1308, 340]),
                              dict(name="南坡书街", point=[536, 1216]), dict(name="风车草甸", point=[466, 1480]),
-                             dict(name="芦苇河畔", point=[1280, 1494])])
+                             dict(name="罗文河畔", point=[1280, 1494])])
     masks = {surface: path_mask(PATHS, surface) for surface in ("dirt", "stone", "wood")}
     layout["props"].extend(landscape.clustered_props(layout, masks, SIZE, bank_x))
     layout["yards"] = landscape.yard_polygons(layout)

@@ -1,0 +1,16 @@
+{
+  "entries": 2247,
+  "source": "Excel/Localization/Localization.xlsx",
+  "runtime": "Excel/Localization/Localization.csv",
+  "excel_migration_exact": true,
+  "python_tests_passed": 7,
+  "native_csv_tests_passed": 18,
+  "ui_checks_passed": 2729,
+  "restart_checks_passed": 3,
+  "editor_save_watcher_passed": true,
+  "packaged_runtime_passed": true,
+  "isolated_profiles": true,
+  "environment_diagnostics": [
+    "Windows root certificate store is inaccessible in sandbox; offline checks passed."
+  ]
+}

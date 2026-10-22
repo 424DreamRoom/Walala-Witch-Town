@@ -60,14 +60,14 @@ func shot(title: String) -> void:
 
 func catch_once(short_wait: bool = true) -> void:
 	var before: int = loop.state.resources.fish
-	await key(KEY_E)
-	check("E casts", harvest.action == "cast")
+	await key(KEY_F)
+	check("F casts", harvest.action == "cast")
 	if short_wait:
 		harvest.wait_seconds = 0.12
 	await wait_action("bite")
-	await key(KEY_E)
-	check("bite E reels", harvest.action == "reel")
-	await key(KEY_E)
+	await key(KEY_F)
+	check("bite F reels", harvest.action == "reel")
+	await key(KEY_F)
 	await wait_action("")
 	check("reel grants exactly one fish", loop.state.resources.fish == before + 1)
 
@@ -113,37 +113,37 @@ func run() -> void:
 	await walk_to(Vector2(388, 236))
 	await shot("pier")
 	await walk_to(resource("dock_north").anchor)
-	await key(KEY_E)
+	await key(KEY_F)
 	await wait_action("wait")
 	check("cast waits 2 to 4 seconds", harvest.wait_seconds >= 2.0 and harvest.wait_seconds <= 4.0)
 	harvest.paused_for_test = true
 	await shot("fishing_wait")
 	harvest.paused_for_test = false
-	await key(KEY_E)
+	await key(KEY_F)
 	check("early reel gives no fish", not harvest.busy() and loop.state.resources.fish == 0 and loop.state.fish_left("dock_north") == 3)
-	await key(KEY_E)
+	await key(KEY_F)
 	await wait_action("bite")
 	check("new cast clears stale failure feedback", loop.state.message.is_empty() and not loop.notice.visible)
 	harvest.paused_for_test = true
 	await shot("fishing_bite")
-	await key(KEY_E)
-	check("bite E begins reel", harvest.action == "reel")
+	await key(KEY_F)
+	check("bite F begins reel", harvest.action == "reel")
 	harvest.elapsed = 0.25
 	harvest.update_pose()
 	await shot("fishing_reel")
 	harvest.paused_for_test = false
-	await key(KEY_E)
+	await key(KEY_F)
 	await wait_action("")
 	check("first catch and UI", loop.state.resources.fish == 1 and loop.inventory.text.contains("鱼1"))
-	await key(KEY_E)
+	await key(KEY_F)
 	harvest.wait_seconds = 0.12
 	await wait_action("bite")
 	await wait_action("")
 	check("missed bite does not consume stock", loop.state.fish_left("dock_north") == 2 and loop.state.resources.fish == 1)
-	await key(KEY_E)
+	await key(KEY_F)
 	await key(KEY_ESCAPE)
 	check("Escape cancels at dock", not harvest.busy() and lane.avatar.visible)
-	await key(KEY_E)
+	await key(KEY_F)
 	lane.test_direction = Vector2.DOWN
 	await physics_frame
 	await physics_frame
@@ -153,7 +153,7 @@ func run() -> void:
 	await catch_once()
 	await catch_once()
 	check("north stock exhausted independently", loop.state.fish_left("dock_north") == 0 and loop.state.fish_left("dock_east") == 3 and loop.state.fish_left("field_pond") == 3)
-	await key(KEY_E)
+	await key(KEY_F)
 	check("exhausted dock spot gives no duplicate", not harvest.busy() and loop.state.resources.fish == 3)
 	await shot("spot_depleted")
 	await walk_to(Vector2(388, 220))
@@ -178,20 +178,20 @@ func run() -> void:
 	check("fish and depleted stock survive reentry", loop.location == "dock" and loop.state.resources.fish == 5 and not resource("dock_north").available())
 	# Boundary cases isolate scene reset and timer cancellation after the walking route.
 	lane.player.position = resource("dock_east").anchor
-	await key(KEY_E)
+	await key(KEY_F)
 	await key(KEY_R)
 	check("R cancels and resets to dock spawn", not harvest.busy() and lane.player.position.distance_to(loop.area.spawn) < 1.0)
 	lane.player.position = resource("dock_east").anchor
-	await key(KEY_E)
+	await key(KEY_F)
 	loop.enter("town")
 	await create_timer(0.7).timeout
 	check("leaving dock cancels pending rewards", not harvest.busy() and loop.state.resources.fish == 5)
 	loop.enter("dock")
 	lane.player.position = resource("dock_east").anchor
-	await key(KEY_E)
+	await key(KEY_F)
 	harvest.wait_seconds = 0.12
 	await wait_action("bite")
-	await key(KEY_E)
+	await key(KEY_F)
 	loop.state.remaining = 0.01
 	loop.paused_for_test = false
 	await create_timer(0.15).timeout

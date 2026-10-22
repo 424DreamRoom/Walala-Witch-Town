@@ -3,6 +3,8 @@ extends RefCounted
 const C = preload("res://Scenes/Campaign/campaign_state.gd")
 
 static func current(s) -> Dictionary:
+	if s.is_arrival_day():
+		return {"id": "settle_in", "name": C.D.arrival.name, "objective": C.D.arrival.objective, "goal": 1, "progress": 0, "place": C.D.arrival.place, "description": C.D.arrival.description}
 	var quest := C.current_main(s)
 	if quest.is_empty(): return {}
 	var step: Dictionary = {}

@@ -6,7 +6,7 @@
 
 ## 输入与保存
 
-`input_bindings.gd` 是 `InputBindings` Autoload，通过 Godot `InputMap` 管理键盘物理键。默认移动主键为 WASD，备用键为方向键；默认互动 F、背包 B、手记 J、指南 H、跑步 Shift、暂停 Esc、对话继续 Space、回看 L、地图 M。互动键也可继续对话。
+`input_bindings.gd` 是 `InputBindings` Autoload，通过 Godot `InputMap` 管理键盘物理键。默认移动主键为 WASD，备用键为方向键；默认互动 F、背包 B、手记 J、指南 H、跑步 Shift、暂停 Esc、对话继续 Space、回看 L、地图 M。E 保留给选中法杖时的颜色切换，不参与可编辑键位；F 继续负责通用场景互动和对话推进。
 
 菜单方向跟随四个移动主键。Enter 确认、Tab 焦点导航和 Esc 取消 / 返回保留为界面入口；暂停键可以另设，Esc 始终可返回。已有手柄菜单事件继续保留。当前编辑器配置键盘单键及修饰键，不配置按键组合或手柄按钮。
 

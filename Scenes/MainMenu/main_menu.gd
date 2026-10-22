@@ -7,6 +7,7 @@ const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const Audio = preload("res://Scenes/MainMenu/menu_audio.gd")
 const Saves = preload("res://Scenes/Save/save_store.gd")
 const I18n = preload("res://Localization/localized_text.gd")
+const Campaign = preload("res://Scenes/Campaign/campaign_state.gd")
 const INK := Color("572f3c")
 const CREAM := Color("fff0cf")
 var viewport: SubViewport
@@ -257,7 +258,9 @@ func _start_game() -> void:
 
 func _slot_title(slot: int, info: Dictionary) -> String:
 	if info.ok and not info.empty and not info.data.state.campaign.player_name.is_empty():
-		return tr("存档 %02d · %s") % [slot, info.data.state.campaign.player_name]
+		var player_name: String = info.data.state.campaign.player_name
+		if player_name == Campaign.DEFAULT_PLAYER_NAME: player_name = tr(player_name)
+		return tr("存档 %02d · %s") % [slot, player_name]
 	return tr("存档 %02d") % slot
 
 func _refresh_slot(slot: int) -> void:

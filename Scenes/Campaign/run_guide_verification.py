@@ -1,4 +1,4 @@
-"""Yingluo integration checks; imports and progress stay outside MyArt/user saves."""
+"""Lucinda integration checks; imports and progress stay outside MyArt/user saves."""
 import argparse
 import hashlib
 import json
@@ -9,7 +9,7 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "output/guide_npc"
-ART = Path("Art/Characters/Yingluo")
+ART = Path("Art/Characters/Lucinda")
 parser = argparse.ArgumentParser()
 parser.add_argument("mode", choices=["import", "headless", "capture"], nargs="?", default="headless")
 options = parser.parse_args()
@@ -30,7 +30,7 @@ if options.mode == "import":
     # Only runtime guide textures enter this tiny project. No original directory is scanned.
     project = OUT / "texture_import"
     (project / ART).mkdir(parents=True, exist_ok=True)
-    (project / "project.godot").write_text('config_version=5\n[application]\nconfig/name="Yingluo texture import"\n[rendering]\nrenderer/rendering_method="gl_compatibility"\n', encoding="utf-8")
+    (project / "project.godot").write_text('config_version=5\n[application]\nconfig/name="Lucinda texture import"\n[rendering]\nrenderer/rendering_method="gl_compatibility"\n', encoding="utf-8")
     for name in ["yingluo.png", "yingluo_world_32.png"]:
         shutil.copy2(ROOT / ART / name, project / ART / name)
     args = [godot, "--path", str(project), "--headless", "--editor", "--import", "--quit"]

@@ -74,7 +74,7 @@ func shot(title: String) -> void:
 	check("capture window " + title, root.get_texture().get_image().save_png(OUT + title + "_window.png") == OK)
 
 func check_staff_locales() -> void:
-	var translated_names := {"zh_CN": "店主 · 露米", "en": "Shopkeeper · Lumi", "ja": "店主・ルミ", "zh_TW": "店主 · 露米"} if loop.location == "store" else {"zh_CN": "铁匠 · 余烬", "en": "Blacksmith · Ember", "ja": "鍛冶屋・エンバー", "zh_TW": "鐵匠 · 餘燼"}
+	var translated_names := {"zh_CN": "店主 · 海泽尔", "en": "Shopkeeper · Hazel", "ja": "店主・ヘーゼル", "zh_TW": "店主 · 海泽尔"} if loop.location == "store" else {"zh_CN": "铁匠 · 布兰", "en": "Blacksmith · Bran", "ja": "鍛冶屋・ブラン", "zh_TW": "鐵匠 · 布蘭"}
 	for locale in translated_names:
 		root.get_node("Localization").set_language(locale, false)
 		await frames()
@@ -121,7 +121,7 @@ func run() -> void:
 	var return_pos: Vector2 = loop.BLACKSMITH_GATE + Vector2(0, 34)
 	await walk_to(loop.BLACKSMITH_GATE)
 	check("walking to smith door stays outside", loop.location == "town")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("interacting enters blacksmith", loop.location == "blacksmith")
 	if loop.location != "blacksmith":
 		quit(1)
@@ -129,7 +129,7 @@ func run() -> void:
 	check("town detached inside workshop", not lane.world.is_inside_tree())
 	check("workshop Y sorting", loop.area.y_sort_enabled and lane.player.get_parent() == loop.area)
 	check("workshop and NPC collisions", loop.area.solids.size() == 16 and loop.area.get_node_or_null("BlacksmithNPC") != null)
-	check("Ember staffs the forge with his resident art and panel name", loop.area.staff_id == "ember" and loop.area.staff.sprite.texture.resource_path.ends_with("/ember.aseprite") and loop.area.service_panel.get_node("StaffCaption").text == "铁匠 · 余烬")
+	check("Bran staffs the forge with his resident art and panel name", loop.area.staff_id == "ember" and loop.area.staff.sprite.texture.resource_path.ends_with("/ember.aseprite") and loop.area.service_panel.get_node("StaffCaption").text == "铁匠 · 布兰")
 	check("smith feet stay clear of furniture", not loop.area.solids[12].intersects(loop.area.solids[-1]))
 	check("interior bounds", lane.camera.limit_right == 640 and lane.camera.limit_bottom == 480)
 	check("interior weather and rain audio disabled", not lane.weather.visible and not loop.audio.ambient.playing)
@@ -140,8 +140,8 @@ func run() -> void:
 	check("furnace fire advances", fire_frame != loop.area.fire.frame)
 	await walk_to(loop.area.stations.service)
 	check("smith has no overhead name", not loop.area.staff.has_node("ResidentName"))
-	await key(KEY_E)
-	check("E opens smith service", loop.area.service_panel.visible)
+	await key(KEY_F)
+	check("F opens smith service", loop.area.service_panel.visible)
 	await check_staff_locales()
 	check("insufficient resources disables smelting", loop.area.buttons[0].disabled)
 	loop.state.resources.ore = 2
@@ -166,7 +166,7 @@ func run() -> void:
 	check("R safe workshop spawn", lane.player.position == loop.area.spawn)
 	await walk_to(loop.area.stations.exit)
 	check("walking to smith exit stays inside", loop.location == "blacksmith")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("interacting returns from workshop", loop.location == "town" and lane.player.position.distance_to(return_pos) < 0.1)
 	check("rain restored outdoors", lane.weather.visible and loop.audio.current_ambient == "rain")
 	lane.weather.clear_weather()
@@ -180,13 +180,13 @@ func run() -> void:
 	return_pos = loop.STORE_GATE + Vector2(0, 34)
 	await walk_to(loop.STORE_GATE)
 	check("walking to store door stays outside", loop.location == "town")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("interacting enters store", loop.location == "store")
 	if loop.location != "store":
 		quit(1)
 		return
 	check("store fixtures and NPC collide and Y sort", loop.area.solids.size() == 15 and loop.area.y_sort_enabled and loop.area.get_node_or_null("StoreNPC") != null)
-	check("Lumi staffs the store with her resident art and panel name", loop.area.staff_id == "lumi" and loop.area.staff.sprite.texture.resource_path.ends_with("/lumi.aseprite") and loop.area.service_panel.get_node("StaffCaption").text == "店主 · 露米" and not loop.area.staff.has_node("ResidentName"))
+	check("Hazel staffs the store with her resident art and panel name", loop.area.staff_id == "lumi" and loop.area.staff.sprite.texture.resource_path.ends_with("/lumi.aseprite") and loop.area.service_panel.get_node("StaffCaption").text == "店主 · 海泽尔" and not loop.area.staff.has_node("ResidentName"))
 	check("shopkeeper stands clear of the counter", not loop.area.solids[11].intersects(loop.area.solids[-1]))
 	var idle_frame: int = loop.area.staff.sprite.frame
 	var animated := false
@@ -195,8 +195,8 @@ func run() -> void:
 		animated = animated or idle_frame != loop.area.staff.sprite.frame
 	check("shopkeeper has an idle animation", animated)
 	await walk_to(loop.area.stations.service)
-	await key(KEY_E)
-	check("E opens store counter", loop.area.service_panel.visible)
+	await key(KEY_F)
+	check("F opens store counter", loop.area.service_panel.visible)
 	await check_staff_locales()
 	check("no coins disables purchasing", loop.area.buttons[0].disabled)
 	await click(loop.area.buttons[3])
@@ -244,7 +244,7 @@ func run() -> void:
 	check("R safe store spawn", lane.player.position == loop.area.spawn)
 	await walk_to(loop.area.stations.exit)
 	check("walking to store exit stays inside", loop.location == "store")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("store returns to safe doorstep", loop.location == "town" and lane.player.position.distance_to(return_pos) < 0.1)
 	check("town bounds restored", lane.camera.limit_right == lane.world_size.x and lane.camera.limit_bottom == lane.world_size.y)
 	loop.enter("store")

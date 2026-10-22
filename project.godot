@@ -31,12 +31,14 @@ SceneTransition="*res://Scenes/UI/scene_transition.gd"
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/walala_aseprite/plugin.cfg", "res://addons/walala_fmod/plugin.cfg")
+enabled=PackedStringArray("res://addons/walala_aseprite/plugin.cfg", "res://addons/walala_fmod/plugin.cfg", "res://addons/walala_localization/plugin.cfg")
 
 [gui]
 

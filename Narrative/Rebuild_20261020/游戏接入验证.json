@@ -14,7 +14,7 @@
   "capture_verification": {
     "passed": true,
     "mode": "capture",
-    "checks": 184,
+    "checks": 242,
     "exit_code": 0,
     "protected_originals": 3,
     "myart_unchanged": true
@@ -46,7 +46,7 @@
   "headless_verification": {
     "passed": true,
     "mode": "headless",
-    "checks": 175,
+    "checks": 225,
     "exit_code": 0,
     "protected_originals": 3,
     "myart_unchanged": true
@@ -67,5 +67,132 @@
     "format_and_instruction_issues": [],
     "protected_originals_unchanged": true,
     "formal_player_saves_accessed": false
+  },
+  "opening_transition_revision": {
+    "source_validation": {
+      "date": "2026-10-21",
+      "opening_lines": 43,
+      "dialogue_stages": [
+        "dock",
+        "farm",
+        "restaurant"
+      ],
+      "scene_order": [
+        "dock",
+        "farm",
+        "town",
+        "restaurant"
+      ],
+      "fade_out_seconds": 0.25,
+      "fade_in_seconds": 0.25,
+      "manuscript_runtime_match": true,
+      "languages": [
+        "zh_CN",
+        "en",
+        "ja",
+        "zh_TW"
+      ],
+      "build_idempotent": true,
+      "protected_originals_unchanged": true,
+      "formal_player_saves_accessed": false
+    },
+    "headless": {
+      "passed": true,
+      "mode": "headless",
+      "checks": 197,
+      "exit_code": 0,
+      "protected_originals": 3,
+      "myart_unchanged": true
+    },
+    "capture": {
+      "passed": true,
+      "mode": "capture",
+      "checks": 210,
+      "exit_code": 0,
+      "protected_originals": 3,
+      "myart_unchanged": true
+    },
+    "visual_review": [
+      "opening_dock_departure",
+      "opening_farm_arrival",
+      "opening_farm",
+      "opening_restaurant_exterior",
+      "opening_restaurant_entry",
+      "opening_lease"
+    ],
+    "verified": [
+      "farewell before world swap",
+      "all world swaps fully covered",
+      "paths avoid scenery and performers",
+      "gameplay clock paused",
+      "stale callback does not advance twice",
+      "actual disk reload from departure checkpoint during another fade",
+      "localized bridge and full dialogue fit in four languages",
+      "input restored after final scene"
+    ]
+  },
+  "arrival_day_revision": {
+    "source_validation": {
+      "date": "2026-10-21",
+      "dialogue_lines": 436,
+      "opening_lines": 43,
+      "changed_opening_lines": 7,
+      "languages": [
+        "zh_CN",
+        "en",
+        "ja",
+        "zh_TW"
+      ],
+      "workbook_entries": 2261,
+      "preserved_workbook_entries": 2247,
+      "new_translation_entries": 14,
+      "workbook_catalog_match": true,
+      "build_idempotent": true,
+      "manuscript_runtime_match": true,
+      "protected_originals_unchanged": true,
+      "formal_player_saves_accessed": false
+    },
+    "headless": {
+      "passed": true,
+      "mode": "headless",
+      "checks": 225,
+      "exit_code": 0,
+      "protected_originals": 3,
+      "myart_unchanged": true
+    },
+    "capture": {
+      "passed": true,
+      "mode": "capture",
+      "checks": 242,
+      "exit_code": 0,
+      "protected_originals": 3,
+      "myart_unchanged": true
+    },
+    "flow": [
+      "opening_and_lease",
+      "day_one_settle_and_explore",
+      "rest_at_home_with_fade",
+      "day_two_morning",
+      "prepare_then_confirm_service"
+    ],
+    "verified": [
+      "operating controls hidden during lease and first day",
+      "day-one guide and journal only discuss settling in",
+      "sunset stays outdoors with no service",
+      "arrival state survives disk reload",
+      "repeated rest advances only one day",
+      "second morning checkpoint saved",
+      "no customer, serving count, income or business report on first day",
+      "day-two menu and confirmed service available",
+      "existing save service access retained",
+      "four-language manuscript and catalog match"
+    ],
+    "visual_review": [
+      "opening_lease",
+      "arrival_day_journal",
+      "arrival_day_farm_evening",
+      "arrival_day_home_rest",
+      "arrival_second_morning"
+    ]
   }
 }

@@ -1,0 +1,272 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+DEPTH 1 capture dock_overview: PASS
+DEPTH 2 restaurant seated guest opaque probe point: PASS
+DEPTH 3 restaurant seated guest behind is occluded: PASS
+DEPTH 4 restaurant seated guest in front is visible: PASS
+DEPTH 5 blacksmith nested staff opaque probe point: PASS
+DEPTH 6 blacksmith nested staff behind is occluded: PASS
+DEPTH 7 blacksmith nested staff in front is visible: PASS
+DEPTH 8 capture blacksmith_overview: PASS
+DEPTH 9 store nested staff opaque probe point: PASS
+DEPTH 10 store nested staff behind is occluded: PASS
+DEPTH 11 store nested staff in front is visible: PASS
+DEPTH 12 capture store_overview: PASS
+DEPTH 13 furniture_store nested staff opaque probe point: PASS
+DEPTH 14 furniture_store nested staff behind is occluded: PASS
+DEPTH 15 furniture_store nested staff in front is visible: PASS
+DEPTH 16 capture furniture_store_overview: PASS
+DEPTH 17 capture home_overview: PASS
+DEPTH 18 built stool depth matches floor/actor: PASS
+DEPTH 19 built stool opaque probe point: PASS
+DEPTH 20 built stool behind is occluded: PASS
+DEPTH 21 built stool in front is visible: PASS
+DEPTH 22 built table depth matches floor/actor: PASS
+DEPTH 23 built table opaque probe point: PASS
+DEPTH 24 built table behind is occluded: PASS
+DEPTH 25 built table in front is visible: PASS
+DEPTH 26 built bookcase depth matches floor/actor: PASS
+DEPTH 27 built bookcase opaque probe point: PASS
+DEPTH 28 built bookcase behind is occluded: PASS
+DEPTH 29 built bookcase in front is visible: PASS
+DEPTH 30 built sofa depth matches floor/actor: PASS
+DEPTH 31 built sofa opaque probe point: PASS
+DEPTH 32 built sofa behind is occluded: PASS
+DEPTH 33 built sofa in front is visible: PASS
+DEPTH 34 built desk depth matches floor/actor: PASS
+DEPTH 35 built desk opaque probe point: PASS
+DEPTH 36 built desk behind is occluded: PASS
+DEPTH 37 built desk in front is visible: PASS
+DEPTH 38 built bed depth matches floor/actor: PASS
+DEPTH 39 built bed opaque probe point: PASS
+DEPTH 40 built bed behind is occluded: PASS
+DEPTH 41 built bed in front is visible: PASS
+DEPTH 42 built chest depth matches floor/actor: PASS
+DEPTH 43 built chest opaque probe point: PASS
+DEPTH 44 built chest behind is occluded: PASS
+DEPTH 45 built chest in front is visible: PASS
+DEPTH 46 built workbench depth matches floor/actor: PASS
+DEPTH 47 built workbench opaque probe point: PASS
+DEPTH 48 built workbench behind is occluded: PASS
+DEPTH 49 built workbench in front is visible: PASS
+DEPTH 50 built picket_fence depth matches floor/actor: PASS
+DEPTH 51 built picket_fence opaque probe point: PASS
+DEPTH 52 built picket_fence behind is occluded: PASS
+DEPTH 53 built picket_fence in front is visible: PASS
+DEPTH 54 built log_fence depth matches floor/actor: PASS
+DEPTH 55 built log_fence opaque probe point: PASS
+DEPTH 56 built log_fence behind is occluded: PASS
+DEPTH 57 built log_fence in front is visible: PASS
+DEPTH 58 built lattice_fence depth matches floor/actor: PASS
+DEPTH 59 built lattice_fence opaque probe point: PASS
+DEPTH 60 built lattice_fence behind is occluded: PASS
+DEPTH 61 built lattice_fence in front is visible: PASS
+DEPTH 62 built stone_wall depth matches floor/actor: PASS
+DEPTH 63 built stone_wall opaque probe point: PASS
+DEPTH 64 built stone_wall behind is occluded: PASS
+DEPTH 65 built stone_wall in front is visible: PASS
+DEPTH 66 built iron_fence depth matches floor/actor: PASS
+DEPTH 67 built iron_fence opaque probe point: PASS
+DEPTH 68 built iron_fence behind is occluded: PASS
+DEPTH 69 built iron_fence in front is visible: PASS
+DEPTH 70 built hedge depth matches floor/actor: PASS
+DEPTH 71 built hedge opaque probe point: PASS
+DEPTH 72 built hedge behind is occluded: PASS
+DEPTH 73 built hedge in front is visible: PASS
+DEPTH 74 built wood_gate depth matches floor/actor: PASS
+DEPTH 75 built wood_gate opaque probe point: PASS
+DEPTH 76 built wood_gate behind is occluded: PASS
+DEPTH 77 built wood_gate in front is visible: PASS
+DEPTH 78 built iron_gate depth matches floor/actor: PASS
+DEPTH 79 built iron_gate opaque probe point: PASS
+DEPTH 80 built iron_gate behind is occluded: PASS
+DEPTH 81 built iron_gate in front is visible: PASS
+DEPTH 82 built wood_path depth matches floor/actor: PASS
+DEPTH 83 built stone_path depth matches floor/actor: PASS
+DEPTH 84 built brick_path depth matches floor/actor: PASS
+DEPTH 85 built gravel_path depth matches floor/actor: PASS
+DEPTH 86 built moss_path depth matches floor/actor: PASS
+DEPTH 87 built stepping_stones depth matches floor/actor: PASS
+DEPTH 88 built single_bed depth matches floor/actor: PASS
+DEPTH 89 built single_bed opaque probe point: PASS
+DEPTH 90 built single_bed behind is occluded: PASS
+DEPTH 91 built single_bed in front is visible: PASS
+DEPTH 92 built double_bed depth matches floor/actor: PASS
+DEPTH 93 built double_bed opaque probe point: PASS
+DEPTH 94 built double_bed behind is occluded: PASS
+DEPTH 95 built double_bed in front is visible: PASS
+DEPTH 96 built canopy_bed depth matches floor/actor: PASS
+DEPTH 97 built canopy_bed opaque probe point: PASS
+DEPTH 98 built canopy_bed behind is occluded: PASS
+DEPTH 99 built canopy_bed in front is visible: PASS
+DEPTH 100 built hammock depth matches floor/actor: PASS
+DEPTH 101 built hammock opaque probe point: PASS
+DEPTH 102 built hammock behind is occluded: PASS
+DEPTH 103 built hammock in front is visible: PASS
+DEPTH 104 built chair depth matches floor/actor: PASS
+DEPTH 105 built chair opaque probe point: PASS
+DEPTH 106 built chair behind is occluded: PASS
+DEPTH 107 built chair in front is visible: PASS
+DEPTH 108 built armchair depth matches floor/actor: PASS
+DEPTH 109 built armchair opaque probe point: PASS
+DEPTH 110 built armchair behind is occluded: PASS
+DEPTH 111 built armchair in front is visible: PASS
+DEPTH 112 built bench depth matches floor/actor: PASS
+DEPTH 113 built bench opaque probe point: PASS
+DEPTH 114 built bench behind is occluded: PASS
+DEPTH 115 built bench in front is visible: PASS
+DEPTH 116 built rocking_chair depth matches floor/actor: PASS
+DEPTH 117 built rocking_chair opaque probe point: PASS
+DEPTH 118 built rocking_chair behind is occluded: PASS
+DEPTH 119 built rocking_chair in front is visible: PASS
+DEPTH 120 built garden_bench depth matches floor/actor: PASS
+DEPTH 121 built garden_bench opaque probe point: PASS
+DEPTH 122 built garden_bench behind is occluded: PASS
+DEPTH 123 built garden_bench in front is visible: PASS
+DEPTH 124 built square_table depth matches floor/actor: PASS
+DEPTH 125 built square_table opaque probe point: PASS
+DEPTH 126 built square_table behind is occluded: PASS
+DEPTH 127 built square_table in front is visible: PASS
+DEPTH 128 built long_table depth matches floor/actor: PASS
+DEPTH 129 built long_table opaque probe point: PASS
+DEPTH 130 built long_table behind is occluded: PASS
+DEPTH 131 built long_table in front is visible: PASS
+DEPTH 132 built tea_table depth matches floor/actor: PASS
+DEPTH 133 built tea_table opaque probe point: PASS
+DEPTH 134 built tea_table behind is occluded: PASS
+DEPTH 135 built tea_table in front is visible: PASS
+DEPTH 136 built picnic_table depth matches floor/actor: PASS
+DEPTH 137 built picnic_table opaque probe point: PASS
+DEPTH 138 built picnic_table behind is occluded: PASS
+DEPTH 139 built picnic_table in front is visible: PASS
+DEPTH 140 built wardrobe depth matches floor/actor: PASS
+DEPTH 141 built wardrobe opaque probe point: PASS
+DEPTH 142 built wardrobe behind is occluded: PASS
+DEPTH 143 built wardrobe in front is visible: PASS
+DEPTH 144 built cupboard depth matches floor/actor: PASS
+DEPTH 145 built cupboard opaque probe point: PASS
+DEPTH 146 built cupboard behind is occluded: PASS
+DEPTH 147 built cupboard in front is visible: PASS
+DEPTH 148 built low_shelf depth matches floor/actor: PASS
+DEPTH 149 built low_shelf opaque probe point: PASS
+DEPTH 150 built low_shelf behind is occluded: PASS
+DEPTH 151 built low_shelf in front is visible: PASS
+DEPTH 152 built wall_shelf depth matches floor/actor: PASS
+DEPTH 153 built wall_shelf opaque probe point: PASS
+DEPTH 154 built wall_shelf behind is occluded: PASS
+DEPTH 155 built wall_shelf in front is visible: PASS
+DEPTH 156 built barrel depth matches floor/actor: PASS
+DEPTH 157 built barrel opaque probe point: PASS
+DEPTH 158 built barrel behind is occluded: PASS
+DEPTH 159 built barrel in front is visible: PASS
+DEPTH 160 built candle depth matches floor/actor: PASS
+DEPTH 161 built candle opaque probe point: PASS
+DEPTH 162 built candle behind is occluded: PASS
+DEPTH 163 built candle in front is visible: PASS
+DEPTH 164 built lantern depth matches floor/actor: PASS
+DEPTH 165 built lantern opaque probe point: PASS
+DEPTH 166 built lantern behind is occluded: PASS
+DEPTH 167 built lantern in front is visible: PASS
+DEPTH 168 built floor_lamp depth matches floor/actor: PASS
+DEPTH 169 built floor_lamp opaque probe point: PASS
+DEPTH 170 built floor_lamp behind is occluded: PASS
+DEPTH 171 built floor_lamp in front is visible: PASS
+DEPTH 172 built street_lamp depth matches floor/actor: PASS
+DEPTH 173 built street_lamp opaque probe point: PASS
+DEPTH 174 built street_lamp behind is occluded: PASS
+DEPTH 175 built street_lamp in front is visible: PASS
+DEPTH 176 built mushroom_lamp depth matches floor/actor: PASS
+DEPTH 177 built mushroom_lamp opaque probe point: PASS
+DEPTH 178 built mushroom_lamp behind is occluded: PASS
+DEPTH 179 built mushroom_lamp in front is visible: PASS
+DEPTH 180 built crystal_lamp depth matches floor/actor: PASS
+DEPTH 181 built crystal_lamp opaque probe point: PASS
+DEPTH 182 built crystal_lamp behind is occluded: PASS
+DEPTH 183 built crystal_lamp in front is visible: PASS
+DEPTH 184 built oval_rug depth matches floor/actor: PASS
+DEPTH 185 built round_rug depth matches floor/actor: PASS
+DEPTH 186 built star_rug depth matches floor/actor: PASS
+DEPTH 187 built mirror depth matches floor/actor: PASS
+DEPTH 188 built mirror opaque probe point: PASS
+DEPTH 189 built mirror behind is occluded: PASS
+DEPTH 190 built mirror in front is visible: PASS
+DEPTH 191 built clock depth matches floor/actor: PASS
+DEPTH 192 built clock opaque probe point: PASS
+DEPTH 193 built clock behind is occluded: PASS
+DEPTH 194 built clock in front is visible: PASS
+DEPTH 195 built painting depth matches floor/actor: PASS
+DEPTH 196 built painting opaque probe point: PASS
+DEPTH 197 built painting behind is occluded: PASS
+DEPTH 198 built painting in front is visible: PASS
+DEPTH 199 built globe depth matches floor/actor: PASS
+DEPTH 200 built globe opaque probe point: PASS
+DEPTH 201 built globe behind is occluded: PASS
+DEPTH 202 built globe in front is visible: PASS
+DEPTH 203 built vase depth matches floor/actor: PASS
+DEPTH 204 built vase opaque probe point: PASS
+DEPTH 205 built vase behind is occluded: PASS
+DEPTH 206 built vase in front is visible: PASS
+DEPTH 207 built aquarium depth matches floor/actor: PASS
+DEPTH 208 built aquarium opaque probe point: PASS
+DEPTH 209 built aquarium behind is occluded: PASS
+DEPTH 210 built aquarium in front is visible: PASS
+DEPTH 211 built music_box depth matches floor/actor: PASS
+DEPTH 212 built music_box opaque probe point: PASS
+DEPTH 213 built music_box behind is occluded: PASS
+DEPTH 214 built music_box in front is visible: PASS
+DEPTH 215 built flower_box depth matches floor/actor: PASS
+DEPTH 216 built flower_box opaque probe point: PASS
+DEPTH 217 built flower_box behind is occluded: PASS
+DEPTH 218 built flower_box in front is visible: PASS
+DEPTH 219 built clay_planter depth matches floor/actor: PASS
+DEPTH 220 built clay_planter opaque probe point: PASS
+DEPTH 221 built clay_planter behind is occluded: PASS
+DEPTH 222 built clay_planter in front is visible: PASS
+DEPTH 223 built herb_planter depth matches floor/actor: PASS
+DEPTH 224 built herb_planter opaque probe point: PASS
+DEPTH 225 built herb_planter behind is occluded: PASS
+DEPTH 226 built herb_planter in front is visible: PASS
+DEPTH 227 built rose_arch depth matches floor/actor: PASS
+DEPTH 228 built rose_arch opaque probe point: PASS
+DEPTH 229 built rose_arch behind is occluded: PASS
+DEPTH 230 built rose_arch in front is visible: PASS
+DEPTH 231 built birdbath depth matches floor/actor: PASS
+DEPTH 232 built birdbath opaque probe point: PASS
+DEPTH 233 built birdbath behind is occluded: PASS
+DEPTH 234 built birdbath in front is visible: PASS
+DEPTH 235 built scarecrow depth matches floor/actor: PASS
+DEPTH 236 built scarecrow opaque probe point: PASS
+DEPTH 237 built scarecrow behind is occluded: PASS
+DEPTH 238 built scarecrow in front is visible: PASS
+DEPTH 239 built well depth matches floor/actor: PASS
+DEPTH 240 built well opaque probe point: PASS
+DEPTH 241 built well behind is occluded: PASS
+DEPTH 242 built well in front is visible: PASS
+DEPTH 243 built sundial depth matches floor/actor: PASS
+DEPTH 244 built sundial opaque probe point: PASS
+DEPTH 245 built sundial behind is occluded: PASS
+DEPTH 246 built sundial in front is visible: PASS
+DEPTH 247 built loom depth matches floor/actor: PASS
+DEPTH 248 built loom opaque probe point: PASS
+DEPTH 249 built loom behind is occluded: PASS
+DEPTH 250 built loom in front is visible: PASS
+DEPTH 251 built spinning_wheel depth matches floor/actor: PASS
+DEPTH 252 built spinning_wheel opaque probe point: PASS
+DEPTH 253 built spinning_wheel behind is occluded: PASS
+DEPTH 254 built spinning_wheel in front is visible: PASS
+DEPTH 255 built kiln depth matches floor/actor: PASS
+DEPTH 256 built kiln opaque probe point: PASS
+DEPTH 257 built kiln behind is occluded: PASS
+DEPTH 258 built kiln in front is visible: PASS
+DEPTH 259 built cauldron depth matches floor/actor: PASS
+DEPTH 260 built cauldron opaque probe point: PASS
+DEPTH 261 built cauldron behind is occluded: PASS
+DEPTH 262 built cauldron in front is visible: PASS
+DEPTH 263 built piano depth matches floor/actor: PASS
+DEPTH 264 built piano opaque probe point: PASS
+DEPTH 265 built piano behind is occluded: PASS
+DEPTH 266 built piano in front is visible: PASS
+SUPPLEMENT COMPLETE checks=266 failures=0 anchors=634
+FMOD Sound System: System released

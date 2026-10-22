@@ -98,7 +98,7 @@ func run() -> void:
 		check("real route to " + kind, await Navigation.walk(lane, gate))
 		if kind in ["restaurant", "blacksmith", "store"]:
 			check("walking to door stays outside " + kind, loop.location == "town")
-			await key(KEY_E)
+			await key(KEY_F)
 		check("entrance reaches " + kind, loop.location == kind)
 		if loop.location != kind:
 			continue
@@ -108,7 +108,7 @@ func run() -> void:
 		check("walk to " + kind + " exit", await Navigation.walk(lane, loop.area.stations.exit))
 		if kind in ["restaurant", "blacksmith", "store"]:
 			check("walking to exit stays inside " + kind, loop.location == kind)
-			await key(KEY_E)
+			await key(KEY_F)
 		check("exit returns from " + kind, loop.location == "town")
 		check("restores moved doorway " + kind, lane.player.position.distance_to(loop.FARM_GATE if kind == "farm" else before) < 0.1)
 		check("town bounds restored " + kind, lane.camera.limit_right == lane.world_size.x and lane.camera.limit_bottom == lane.world_size.y)

@@ -165,7 +165,7 @@ func run() -> void:
 		loop.state.resources.ore = 60
 		lane.player.position = Vector2(416, 312)
 		lane.camera.force_update_scroll()
-		await key(KEY_E)
+		await key(KEY_F)
 		var builder = loop.builder
 		check("real interaction opens workbench catalog", builder.mode == "catalog" and paused)
 		check("catalog has eight icon entries per page", builder.recipe_buttons.size() == 8 and builder.recipe_buttons.all(func(button): return button.icon != null))
@@ -203,7 +203,7 @@ func run() -> void:
 		var fence_id: int = loop.state.furniture.next_id - 1
 		await click(builder.move_button)
 		await key(KEY_D)
-		await key(KEY_E)
+		await key(KEY_F)
 		check("real keyboard moves fence atomically", loop.state.furniture_by_id(fence_id).x == 528)
 		await click(builder.store_button)
 		check("real reclaim removes collision", loop.state.furniture.stock.picket_fence == 1 and loop.area.furniture_bodies.is_empty())
@@ -229,7 +229,7 @@ func run() -> void:
 		check("outdoor chest stores inventory", loop.state.transfer_chest(chest_id, "wood", 5, true) == 5)
 		loop.area.refresh_furniture()
 		lane.player.position = Vector2(736, 310)
-		await key(KEY_E)
+		await key(KEY_F)
 		check("outdoor chest opens actual inventory", loop.hud.mode == "chest")
 		loop.hud.close_modal()
 		check("nonempty outdoor chest cannot be reclaimed", not loop.state.store_furniture(chest_id))
@@ -256,14 +256,14 @@ func run() -> void:
 		check("starter room accepts bed and workbench", loop.state.place_furniture("workbench", Vector2(256, 336), lane.player.position) and loop.state.place_furniture("single_bed", Vector2(384, 352), lane.player.position))
 		loop.area.refresh_furniture()
 		lane.player.position = Vector2(256, 357)
-		await key(KEY_E)
+		await key(KEY_F)
 		check("placed home bench opens actual catalog", builder.active() and not builder.detail.get_node("Craft").disabled)
 		builder.close()
 		loop.state.furniture.stock.chest = 1
 		check("adjacent chest fixture placed", loop.state.place_furniture("chest", Vector2(256, 384), lane.player.position))
 		var nearby_id: int = loop.state.furniture.next_id - 1
 		loop.area.refresh_furniture()
-		await key(KEY_E)
+		await key(KEY_F)
 		check("closer chest retains interaction beside workbench", loop.hud.mode == "chest" and not builder.active())
 		loop.hud.close_modal()
 		check("adjacent fixture reclaimed", loop.state.store_furniture(nearby_id))

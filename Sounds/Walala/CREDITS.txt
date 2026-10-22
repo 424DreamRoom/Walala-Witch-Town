@@ -1,5 +1,5 @@
 Walala Witch Town 音频鸣谢
-以下下载音频：CC0 1.0 Universal（允许商用，无强制署名）
+除角色对白音效（CC BY 4.0）外，以下下载音频：CC0 1.0 Universal（允许商用，无强制署名）
 https://creativecommons.org/publicdomain/zero/1.0/
 法律全文：https://creativecommons.org/publicdomain/zero/1.0/legalcode
 核查日期：2026-10-10。不表示作者认可或代言本游戏。
@@ -89,3 +89,16 @@ Current file mapping / hashes: UI/manifest.json.
 Previous polished-v1 selection / hashes: UI/manifest_20261011.json.
 Earlier selection / hashes: UI/manifest_20261010.json.
 Kenney author notice: UI/Organic/LICENSE.txt; CC0 evidence: Licenses/organic_ui_20261011.html.
+
+Character dialogue additions (2026-10-22; CC BY 4.0, attribution required):
+Super Dialogue Audio Pack v1 — Dillon Becker
+https://dillonbecker.itch.io/sdap
+https://dillonbecker.com
+License: https://creativecommons.org/licenses/by/4.0/
+Performers: Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian.
+Adapted nonverbal Hm? / Hmm... / Huh? recordings into 15 short syllables.
+Changes: 125 ms excerpts, DC removal, PCM16 mono 44.1 kHz conversion,
+8/25 ms fades, level normalization; runtime pitch and volume variation.
+No endorsement is implied. Full attribution: Dialogue/LICENSE.txt.
+Original license, author-page evidence, source members and hashes:
+Dialogue/Licenses/ and Dialogue/manifest.json. Old synthesized voice_a/b are unused.

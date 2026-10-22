@@ -495,6 +495,7 @@ func catch_fish(id: String) -> bool:
 	return true
 
 func set_menu_dish(dish: int, enabled: bool) -> bool:
+	if is_arrival_day(): return false
 	if phase != "day" or dish < 0 or dish >= menu.size() or not Campaign.unlocked(self, dish):
 		return false
 	if enabled and not menu[dish] and menu.count(true) >= Campaign.restaurant(self).menu:
@@ -505,12 +506,25 @@ func set_menu_dish(dish: int, enabled: bool) -> bool:
 
 func opening_error() -> String:
 	if phase != "day": return "营业已开始。"
+	if is_arrival_day(): return "食堂明天开始营业。"
 	if not restaurant_leased: return "餐厅尚未承租。"
 	if menu.count(true) == 0: return "菜单为空"
 	if menu.count(true) > Campaign.restaurant(self).menu: return "菜单已满"
 	for dish in range(menu.size()):
 		if menu[dish] and not Campaign.unlocked(self, dish): return "菜品尚未解锁"
 	return ""
+
+func is_arrival_day() -> bool:
+	return day == 1 and campaign.settling_in and phase == "day"
+
+func rest_after_arrival() -> bool:
+	if not is_arrival_day() or not campaign.guide_met: return false
+	# Reuse the normal overnight inventory/farm reset without running a service
+	# or producing a zero-income business report for the arrival day.
+	phase = "result"
+	next_day()
+	message = "新的一天开始了。"
+	return true
 
 func start_service() -> bool:
 	var error := opening_error()
@@ -673,6 +687,7 @@ func next_day() -> void:
 		return
 	_advance_farm_day()
 	day += 1
+	campaign.settling_in = false
 	Campaign.advance_day(self)
 	daily_pulse = SeasonalDirector.pulse_for_day(day)
 	phase = "day"

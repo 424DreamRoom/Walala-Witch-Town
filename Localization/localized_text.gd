@@ -23,6 +23,7 @@ static func credits() -> String:
 		"Crickets Ambient Noise — Wolfgang_ / Ted Kerr",
 		"Fireplace Sound Loop — PagDev",
 		"Boiling Water Loops — TinyWorlds",
+		"Super Dialogue Audio Pack — Dillon Becker\nCC BY 4.0 · https://creativecommons.org/licenses/by/4.0/",
 		"UI SFX Set — Kenney Vleugels",
 		"Interface Sounds 1.0 — Kenney",
 		"RPG Audio — Kenney Vleugels",

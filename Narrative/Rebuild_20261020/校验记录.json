@@ -3,7 +3,7 @@
   "scene_count": 11,
   "chapter_count": 10,
   "dialogue_lines": 436,
-  "han_characters": 7159,
+  "han_characters": 7181,
   "format_and_instruction_issues": [],
   "repeated_lines": [],
   "scenes": [
@@ -11,7 +11,7 @@
       "id": "opening",
       "file": "开场对白.txt",
       "lines": 43,
-      "han_characters": 857
+      "han_characters": 879
     },
     {
       "id": "chapter_01",

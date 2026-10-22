@@ -1,0 +1,4 @@
+*
+!.gitignore
+!source_validation.json
+!godot_validation.json

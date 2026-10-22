@@ -1,6 +1,6 @@
 extends Node
 ## A persistent town service; transactions still belong to the saved loop state.
-const NAME := "绮屋 · 房地产魔女"
+const NAME := "贝阿特丽丝 · 房地产魔女"
 const POSITION := Vector2(456, 744)
 const ActorCollision = preload("res://Scenes/Gameplay/actor_collision.gd")
 const UIFont = preload("res://Scenes/Gameplay/ui_font.gd")

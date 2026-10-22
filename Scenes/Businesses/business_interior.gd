@@ -6,6 +6,7 @@ const UISkin = preload("res://Scenes/Gameplay/ui_skin.gd")
 const ResidentActor = preload("res://Scenes/Campaign/resident_actor.gd")
 const ActorCollision = preload("res://Scenes/Gameplay/actor_collision.gd")
 const ShopFood = preload("res://Scenes/Businesses/food_catalog.gd")
+const HUDArt = preload("res://Scenes/UI/hud_art.gd")
 @export_enum("blacksmith", "store", "furniture_store") var kind := "blacksmith"
 var loop
 var solids: Array[Rect2] = []
@@ -73,7 +74,7 @@ func _ready() -> void:
 
 func _make_staff() -> void:
 	staff_id = "ember" if kind == "blacksmith" else "lumi"
-	staff_caption = "铁匠 · 余烬" if kind == "blacksmith" else "店主 · 露米"
+	staff_caption = "铁匠 · 布兰" if kind == "blacksmith" else "店主 · 海泽尔"
 	if kind == "furniture_store": staff_caption = "家具商人"
 	var npc := Node2D.new()
 	npc.name = "BlacksmithNPC" if kind == "blacksmith" else "StoreNPC"
@@ -120,7 +121,7 @@ func _make_panel() -> void:
 	service_panel.size = Vector2(228, 244)
 	service_panel.add_theme_stylebox_override("panel", UISkin.panel_style())
 	layer.add_child(service_panel)
-	_label("余烬铁匠铺" if kind == "blacksmith" else "橡果杂货店", Vector2(10, 8), service_panel)
+	_label("布兰铁匠铺" if kind == "blacksmith" else "橡果杂货店", Vector2(10, 8), service_panel)
 	_label(staff_caption, Vector2(10, 29), service_panel).name = "StaffCaption"
 	stock = _label("", Vector2(10, 48), service_panel)
 	service_panel.size.y += 20
@@ -203,13 +204,26 @@ func _make_food_cards() -> void:
 		icon.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		button.add_child(icon)
+		# A small coin stamp keeps the price legible as a value, not a text-only
+		# action. The quantity badge is refreshed with the player's pantry count.
+		var coin := HUDArt.new()
+		coin.name = "CoinIcon"
+		coin.kind = "coin"
+		coin.position = Vector2(2, 53)
+		coin.size = Vector2(16, 16)
+		coin.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		button.add_child(coin)
 		var name_label := _label(food.name, Vector2(0, 39), button)
 		name_label.size = Vector2(64, 12)
 		name_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-		var price := _label(tr("%d金") % food.price, Vector2(0, 55), button)
+		var price := _label(str(food.price), Vector2(18, 55), button)
 		price.name = "Price"
-		price.size = Vector2(64, 12)
+		price.size = Vector2(42, 12)
 		price.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		var owned := _label("×0", Vector2(42, 2), button)
+		owned.name = "Owned"
+		owned.size = Vector2(20, 12)
+		owned.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 		buttons.append(button)
 		actions.append("buy_" + id)
 		index += 1
@@ -258,13 +272,18 @@ func _refresh_panel() -> void:
 	stock.text = tr("木%d  矿%d  铁%d  鱼%d\n背包 %d/%d · %d金") % [s.resources.wood, s.resources.ore, s.resources.iron, s.resources.fish, used, s.bag_capacity(), s.coins]
 	if kind == "store":
 		stock.text = tr("蘑菇%d  莓果%d  香草%d\n背包 %d/%d · %d金") % [s.raw[0], s.raw[1], s.raw[2], used, s.bag_capacity(), s.coins]
+		for id in ShopFood.DATA:
+			var card := service_panel.get_node_or_null("Food_" + id)
+			if card != null and card.has_node("Owned"):
+				var owned_index := ["mushroom", "berry", "herb"].find(id)
+				card.get_node("Owned").text = "×%d" % (s.raw[owned_index] if owned_index >= 0 else 0)
 	if kind == "blacksmith":
 		for id in ["WandUpgrades", "EquipmentUpgrades"]:
 			service_panel.get_node(id).disabled = s.phase != "day"
 	for i in range(buttons.size()):
 		buttons[i].disabled = not s.can_business(actions[i])
 		if buttons[i].has_node("Price"):
-			buttons[i].get_node("Price").text = tr("%d金") % ShopFood.DATA[actions[i].trim_prefix("buy_")].price
+			buttons[i].get_node("Price").text = str(ShopFood.DATA[actions[i].trim_prefix("buy_")].price)
 
 func _process(delta: float) -> void:
 	clock += delta

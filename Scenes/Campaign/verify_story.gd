@@ -169,12 +169,12 @@ func run() -> void:
 	# Legacy custom names must never be translated as an unrelated resident.
 	loop.state = State.new()
 	loop.state.campaign.chapter = 1
-	loop.state.campaign.player_name = "陶陶"
+	loop.state.campaign.player_name = "托宾"
 	controller._recall_chapter(0)
 	loop.hud.line_index = 2
 	loop.hud._show_line()
 	localization.set_language("en", false)
-	check("language switch preserves custom name and localized history", loop.hud.dialogue_speaker.text == "陶陶" and loop.hud.history[-1].begins_with("陶陶："))
+	check("language switch preserves custom name and localized history", loop.hud.dialogue_speaker.text == "托宾" and loop.hud.history[-1].begins_with("托宾："))
 	loop.hud.line_index = 3
 	loop.hud._show_line()
 	check("resident with same source name still translates", loop.hud.dialogue_speaker.text == tr(C.entry(C.D.npcs,"toma").name))

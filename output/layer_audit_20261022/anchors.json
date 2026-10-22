@@ -1,0 +1,4440 @@
+[
+	{
+		"node": "@StaticBody2D@6",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1020.0, 530.0)",
+		"sprite": "res://Art/Environment/Hearthwood/blacksmith_exterior.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@9",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(620.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_exterior.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@12",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(570.0, 692.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_3.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@15",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(948.0, 260.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_4.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@18",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(200.0, 610.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_5.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@21",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(348.0, 866.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_6.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@24",
+		"opaque_bottom_from_sort": -88.5,
+		"scene": "town",
+		"sort_position": "(778.0, 818.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_7.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@28",
+		"opaque_bottom_from_sort": -79.5,
+		"scene": "town",
+		"sort_position": "(1090.0, 876.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_8.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@32",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1308.0, 300.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_greenhouse.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@35",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1328.0, 550.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_atelier.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@38",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(205.0, 1128.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_bakery.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@41",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(536.0, 1174.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_library.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@44",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1028.0, 1150.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_manor.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@47",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(212.0, 1460.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_windmill.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@50",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(758.0, 1450.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_cottage.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@53",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1280.0, 1458.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_boathouse.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@56",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(124.0, 302.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@Node2D@59",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(281.0, 339.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@Node2D@61",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(128.0, 251.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@63",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(147.0, 351.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_fence.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@66",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(323.0, 326.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@69",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(166.0, 328.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@71",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(346.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@Node2D@74",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(700.0, 399.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@76",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(740.0, 292.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@Node2D@79",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(531.0, 373.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@81",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(750.0, 394.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@84",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1118.0, 557.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@87",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1115.0, 510.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@Node2D@90",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(909.0, 487.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@92",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1099.0, 599.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@Node2D@95",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(864.0, 294.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@97",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1047.0, 286.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@100",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1042.0, 327.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@103",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1088.0, 282.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_fence.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@106",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(102.0, 636.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@Node2D@109",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(282.0, 640.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@111",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(168.0, 666.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@113",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(286.0, 562.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_fence.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@116",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(248.0, 888.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@Node2D@119",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(411.0, 900.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@121",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(440.0, 851.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@124",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(282.0, 852.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@126",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(677.0, 832.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@Node2D@129",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(823.0, 876.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@131",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(970.0, 805.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_fence.aseprite"
+	},
+	{
+		"node": "@Node2D@134",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(684.0, 775.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@136",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1181.0, 895.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@139",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(989.0, 898.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@Node2D@142",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1168.0, 857.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@144",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(564.0, 409.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@147",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(771.0, 479.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@150",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(596.0, 548.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@Node2D@152",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(778.0, 425.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@154",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(451.0, 481.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@157",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(808.0, 537.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@160",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(870.0, 413.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pond.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@163",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(920.0, 377.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@166",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(813.0, 384.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@168",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(924.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@170",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(652.0, 752.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@172",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(448.0, 780.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@175",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(674.0, 700.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@178",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(503.0, 748.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@181",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(638.0, 848.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pond.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@184",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(590.0, 814.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@187",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(552.0, 853.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@189",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(696.0, 895.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@191",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(89.0, 154.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@194",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(116.0, 110.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@197",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(350.0, 149.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@200",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(368.0, 204.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@203",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(500.0, 131.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@206",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(754.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@209",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(824.0, 219.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@212",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1107.0, 146.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@215",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1138.0, 279.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@218",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(351.0, 463.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@221",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(316.0, 528.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@224",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(371.0, 573.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@227",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(841.0, 466.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@230",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1122.0, 431.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@233",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1109.0, 749.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@236",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(112.0, 764.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@239",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(164.0, 835.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@242",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(204.0, 918.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@245",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(462.0, 939.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@248",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(595.0, 958.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@251",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(942.0, 901.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@254",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(954.0, 745.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@257",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(962.0, 686.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@260",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(715.0, 690.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@Node2D@263",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(53.0, 237.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@265",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(61.0, 417.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@267",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(58.0, 696.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@269",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(402.0, 94.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@271",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(788.0, 105.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@273",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1097.0, 75.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@275",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1174.0, 777.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@277",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1204.0, 332.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@279",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1396.0, 325.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@281",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1210.0, 407.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@284",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1447.0, 353.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@Node2D@287",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1445.0, 489.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@289",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1414.0, 592.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@291",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1380.0, 722.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@294",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1340.0, 686.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@297",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1394.0, 544.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@Node2D@300",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1235.0, 545.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@302",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(304.0, 1151.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@305",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(58.0, 1100.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@Node2D@308",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(254.0, 1195.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@310",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(330.0, 1209.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@313",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(445.0, 1211.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@316",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(628.0, 1204.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@318",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(466.0, 1253.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@320",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(663.0, 1229.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@323",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(868.0, 1100.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pond.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@326",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(816.0, 1059.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@329",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(923.0, 1109.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@331",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1102.0, 1200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@333",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1155.0, 1174.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@336",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1192.0, 1136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_fence.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@339",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(279.0, 1455.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@342",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(311.0, 1474.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@345",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(406.0, 1426.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@348",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(656.0, 1478.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@350",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(854.0, 1486.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_mailbox.aseprite"
+	},
+	{
+		"node": "@Node2D@353",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(818.0, 1418.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@355",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(889.0, 1358.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pond.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@358",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(945.0, 1313.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@361",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1026.0, 1404.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@364",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1385.0, 1458.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@367",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1175.0, 1456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@Node2D@370",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1343.0, 1502.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@372",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1354.0, 1072.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@375",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1323.0, 1229.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@377",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1200.0, 126.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@380",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1403.0, 181.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@383",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1439.0, 830.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@386",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1362.0, 938.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@389",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1238.0, 819.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@392",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(76.0, 1008.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@395",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(348.0, 999.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@398",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(426.0, 1060.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@401",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(685.0, 999.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@404",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1169.0, 1025.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@407",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(354.0, 1293.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@410",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(412.0, 1371.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@413",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(57.0, 1432.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@416",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(483.0, 1496.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@419",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(674.0, 1287.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@422",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(803.0, 1229.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@425",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(975.0, 1274.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@428",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1159.0, 1338.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@431",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1416.0, 1286.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@434",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(1436.0, 1430.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@437",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "town",
+		"sort_position": "(682.0, 482.0)",
+		"sprite": "res://Art/Environment/Hearthwood/town_fountain.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@440",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(179.0, 179.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@443",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(230.0, 202.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@Node2D@446",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(254.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@448",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(154.0, 209.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@450",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(236.0, 224.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@452",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(198.0, 230.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@454",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(573.0, 126.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@Node2D@457",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(648.0, 115.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@459",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1197.0, 452.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@461",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1170.0, 485.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@463",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1175.0, 469.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@Node2D@465",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1194.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@467",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(691.0, 1032.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@Node2D@469",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(720.0, 1003.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@471",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(458.0, 1311.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@473",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(358.0, 1352.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@475",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(440.0, 1367.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@477",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(402.0, 1373.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@479",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(911.0, 1269.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@481",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1469.0, 1252.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@483",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1480.0, 1279.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_herbs.aseprite"
+	},
+	{
+		"node": "@Node2D@485",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(1442.0, 1285.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@487",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(34.0, 1325.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@1115",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(484.0, 46.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_sign_field.aseprite"
+	},
+	{
+		"node": "@Node2D@1118",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(596.0, 726.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_sign_restaurant.aseprite"
+	},
+	{
+		"node": "@Node2D@1121",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(34.0, 352.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_sign_home.aseprite"
+	},
+	{
+		"node": "@Node2D@1124",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "town",
+		"sort_position": "(1560.0, 676.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_sign_dock.aseprite"
+	},
+	{
+		"node": "@Node2D@1127",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(987.0, 556.0)",
+		"sprite": "res://Art/Environment/Hearthwood/blacksmith_sign.aseprite"
+	},
+	{
+		"node": "@Node2D@1130",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "town",
+		"sort_position": "(587.0, 376.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_sign.aseprite"
+	},
+	{
+		"node": "@Node2D@1133",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "town",
+		"sort_position": "(167.0, 636.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_sign_furniture_store.aseprite"
+	},
+	{
+		"node": "Resident_mori",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(416.0, 400.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/mori.aseprite"
+	},
+	{
+		"node": "Resident_ember",
+		"opaque_bottom_from_sort": 0.0,
+		"scene": "town",
+		"sort_position": "(768.0, 513.5)",
+		"sprite": "res://Art/Characters/NPC32/residents/ember.aseprite"
+	},
+	{
+		"node": "Resident_nagi",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(709.55, 504.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/nagi.aseprite"
+	},
+	{
+		"node": "Resident_lumi",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(688.0, 384.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/lumi.aseprite"
+	},
+	{
+		"node": "Resident_aster",
+		"opaque_bottom_from_sort": -0.050018310546875,
+		"scene": "town",
+		"sort_position": "(408.0, 280.55)",
+		"sprite": "res://Art/Characters/NPC32/residents/aster.aseprite"
+	},
+	{
+		"node": "Resident_toma",
+		"opaque_bottom_from_sort": 0.0,
+		"scene": "town",
+		"sort_position": "(584.0, 449.5)",
+		"sprite": "res://Art/Characters/NPC32/residents/toma.aseprite"
+	},
+	{
+		"node": "Resident_pip",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(840.0, 576.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/pip.aseprite"
+	},
+	{
+		"node": "Resident_reed",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(323.4, 368.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/reed.aseprite"
+	},
+	{
+		"node": "Resident_yuki",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(664.55, 392.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/yuki.aseprite"
+	},
+	{
+		"node": "Resident_orla",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(616.0, 488.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/orla.aseprite"
+	},
+	{
+		"node": "Guide_Yingluo",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(464.0, 408.0)",
+		"sprite": "res://Art/Characters/NPC32/guides/yingluo.aseprite"
+	},
+	{
+		"node": "PropertyWitch",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "town",
+		"sort_position": "(456.0, 744.0)",
+		"sprite": "res://Art/Characters/NPC32/customers/pink_longblue.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1237",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(18.0, 97.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1243",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(107.0, 82.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1247",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(179.0, 78.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1251",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(263.0, 80.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1255",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(346.0, 83.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1259",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(413.0, 112.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1260",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(4.0, 208.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1266",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(423.0, 211.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1267",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(194.0, 323.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1270",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(350.0, 343.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@Node2D@1273",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(142.0, 163.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@Node2D@1275",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(279.0, 152.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@Node2D@1277",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(149.0, 232.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@Node2D@1279",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(252.0, 284.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@Node2D@1281",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(390.0, 288.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@Node2D@1283",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(28.0, 248.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@Node2D@1285",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(171.0, 115.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@1287",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(308.0, 183.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1289",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(177.0, 206.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_log.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1295",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "field",
+		"sort_position": "(350.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_ore.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1299",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "field",
+		"sort_position": "(177.0, 145.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_ore.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1303",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(300.0, 238.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pond.aseprite"
+	},
+	{
+		"node": "@Node2D@1304",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(538.0, 258.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pond.aseprite"
+	},
+	{
+		"node": "@Node2D@1306",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(482.0, 122.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@Node2D@1308",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(569.0, 111.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@Node2D@1310",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(636.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@Node2D@1312",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(470.0, 204.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@1314",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "field",
+		"sort_position": "(617.0, 334.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@Node2D@1316",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(485.0, 339.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@Node2D@1318",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(549.0, 304.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_log.aseprite"
+	},
+	{
+		"node": "Gather_0",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(105.0, 119.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_mushroom.aseprite"
+	},
+	{
+		"node": "Gather_1",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "field",
+		"sort_position": "(240.0, 119.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_berry.aseprite"
+	},
+	{
+		"node": "Gather_2",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(375.0, 119.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_herb.aseprite"
+	},
+	{
+		"node": "Gather_3",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(105.0, 185.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_mushroom.aseprite"
+	},
+	{
+		"node": "Gather_4",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "field",
+		"sort_position": "(240.0, 185.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_berry.aseprite"
+	},
+	{
+		"node": "Gather_5",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(375.0, 185.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_herb.aseprite"
+	},
+	{
+		"node": "Gather_6",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(105.0, 251.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_mushroom.aseprite"
+	},
+	{
+		"node": "Gather_7",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "field",
+		"sort_position": "(240.0, 251.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_berry.aseprite"
+	},
+	{
+		"node": "Gather_8",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "field",
+		"sort_position": "(375.0, 251.0)",
+		"sprite": "res://Art/Environment/Hearthwood/gather_herb.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1336",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "dock",
+		"sort_position": "(92.0, 174.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_hut.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1339",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "dock",
+		"sort_position": "(28.0, 111.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1342",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "dock",
+		"sort_position": "(146.0, 86.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@Node2D@1345",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(18.0, 188.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1347",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(157.0, 177.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1350",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(31.0, 210.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1353",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(166.0, 210.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_lamp.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1356",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(112.0, 307.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_bench.aseprite"
+	},
+	{
+		"node": "@Node2D@1359",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(87.0, 195.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_flowerbed.aseprite"
+	},
+	{
+		"node": "@Node2D@1361",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(47.0, 288.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_sign_field.aseprite"
+	},
+	{
+		"node": "@Node2D@1363",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(588.0, 184.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_boat.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1365",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(351.0, 190.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_barrel.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1368",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "dock",
+		"sort_position": "(474.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_crates.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1371",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(334.0, 150.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1374",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(516.0, 150.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1377",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(334.0, 287.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1380",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(516.0, 287.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1383",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(214.0, 211.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1386",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(283.0, 211.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1389",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(214.0, 258.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1392",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(283.0, 258.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_mooring.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1398",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(388.0, 150.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_fishing_post.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1402",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(516.0, 220.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_fishing_post.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1406",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "dock",
+		"sort_position": "(440.0, 284.0)",
+		"sprite": "res://Art/Environment/Hearthwood/dock_fishing_post.aseprite"
+	},
+	{
+		"node": "PrepCounter",
+		"opaque_bottom_from_sort": 0.5,
+		"scene": "restaurant",
+		"sort_position": "(115.0, 113.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_prep.aseprite"
+	},
+	{
+		"node": "KitchenCounter",
+		"opaque_bottom_from_sort": 0.5,
+		"scene": "restaurant",
+		"sort_position": "(235.0, 113.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_kitchen.aseprite"
+	},
+	{
+		"node": "Table_0",
+		"opaque_bottom_from_sort": 6.5,
+		"scene": "restaurant",
+		"sort_position": "(96.0, 186.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_table.aseprite"
+	},
+	{
+		"node": "Table_1",
+		"opaque_bottom_from_sort": 6.5,
+		"scene": "restaurant",
+		"sort_position": "(208.0, 186.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_table.aseprite"
+	},
+	{
+		"node": "Table_2",
+		"opaque_bottom_from_sort": 6.5,
+		"scene": "restaurant",
+		"sort_position": "(304.0, 186.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_table.aseprite"
+	},
+	{
+		"node": "Table_3",
+		"opaque_bottom_from_sort": 6.5,
+		"scene": "restaurant",
+		"sort_position": "(96.0, 236.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_table.aseprite"
+	},
+	{
+		"node": "Table_4",
+		"opaque_bottom_from_sort": 6.5,
+		"scene": "restaurant",
+		"sort_position": "(208.0, 236.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_table.aseprite"
+	},
+	{
+		"node": "Table_5",
+		"opaque_bottom_from_sort": 6.5,
+		"scene": "restaurant",
+		"sort_position": "(304.0, 236.0)",
+		"sprite": "res://Art/Environment/Hearthwood/restaurant_table.aseprite"
+	},
+	{
+		"node": "smith_furnace",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "blacksmith",
+		"sort_position": "(214.0, 278.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_fire.aseprite"
+	},
+	{
+		"node": "smith_rack",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "blacksmith",
+		"sort_position": "(334.0, 220.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_rack.aseprite"
+	},
+	{
+		"node": "smith_bellows",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "blacksmith",
+		"sort_position": "(294.0, 278.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_bellows.aseprite"
+	},
+	{
+		"node": "smith_workbench",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "blacksmith",
+		"sort_position": "(414.0, 278.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_workbench.aseprite"
+	},
+	{
+		"node": "smith_anvil",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "blacksmith",
+		"sort_position": "(320.0, 344.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_anvil.aseprite"
+	},
+	{
+		"node": "smith_quench",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "blacksmith",
+		"sort_position": "(428.0, 344.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_quench.aseprite"
+	},
+	{
+		"node": "smith_ore_bin",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "blacksmith",
+		"sort_position": "(206.0, 362.0)",
+		"sprite": "res://Art/Environment/Hearthwood/smith_ore_bin.aseprite"
+	},
+	{
+		"node": "Resident_ember",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "blacksmith staff",
+		"sort_position": "(320.0, 306.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/ember.aseprite"
+	},
+	{
+		"node": "store_shelves",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "store",
+		"sort_position": "(212.0, 254.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_shelves.aseprite"
+	},
+	{
+		"node": "store_dry_shelves",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "store",
+		"sort_position": "(320.0, 244.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_dry_shelves.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1497",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "store",
+		"sort_position": "(428.0, 254.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_shelves.aseprite"
+	},
+	{
+		"node": "store_counter",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "store",
+		"sort_position": "(320.0, 330.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_counter.aseprite"
+	},
+	{
+		"node": "store_sacks",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "store",
+		"sort_position": "(198.0, 388.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_sacks.aseprite"
+	},
+	{
+		"node": "store_produce",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "store",
+		"sort_position": "(438.0, 388.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_produce.aseprite"
+	},
+	{
+		"node": "Resident_lumi",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "store staff",
+		"sort_position": "(320.0, 282.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/lumi.aseprite"
+	},
+	{
+		"node": "home_bookcase",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "furniture_store",
+		"sort_position": "(212.0, 254.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_bookcase.aseprite"
+	},
+	{
+		"node": "home_bed",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "furniture_store",
+		"sort_position": "(197.0, 390.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_bed.aseprite"
+	},
+	{
+		"node": "home_sofa",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "furniture_store",
+		"sort_position": "(436.0, 270.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_sofa.aseprite"
+	},
+	{
+		"node": "home_desk",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "furniture_store",
+		"sort_position": "(436.0, 390.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_desk.aseprite"
+	},
+	{
+		"node": "store_counter",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "furniture_store",
+		"sort_position": "(320.0, 330.0)",
+		"sprite": "res://Art/Environment/Hearthwood/store_counter.aseprite"
+	},
+	{
+		"node": "Resident_lumi",
+		"opaque_bottom_from_sort": -0.5,
+		"scene": "furniture_store staff",
+		"sort_position": "(320.0, 282.0)",
+		"sprite": "res://Art/Characters/NPC32/residents/lumi.aseprite"
+	},
+	{
+		"node": "WitchHomeExterior",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(270.0, 250.0)",
+		"sprite": "res://Art/Environment/Hearthwood/shop_0.aseprite"
+	},
+	{
+		"node": "StarterWorkbench",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "farm",
+		"sort_position": "(416.0, 288.0)",
+		"sprite": "res://Art/Building/objects/workbench.svg.aseprite"
+	},
+	{
+		"node": "StarterPiano",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "farm",
+		"sort_position": "(520.0, 224.0)",
+		"sprite": "res://Art/Building/objects/piano.svg"
+	},
+	{
+		"node": "@StaticBody2D@1581",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1585",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1589",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1593",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1597",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1601",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1605",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1609",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1613",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1168.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1617",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1621",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1625",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1629",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1633",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1637",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(112.0, 328.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1641",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1136.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1645",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1649",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1653",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(400.0, 456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1657",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1661",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1665",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1669",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1673",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1677",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1681",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1685",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1689",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(368.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1693",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1697",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1701",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1705",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1709",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1713",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1136.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1717",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1721",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 648.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1725",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(272.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1729",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(400.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1733",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1737",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1741",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1745",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(848.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1749",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(944.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1753",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1168.0, 648.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1757",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1761",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1765",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1769",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(272.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1773",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(368.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1777",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1781",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1785",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1789",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1793",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1797",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1801",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1805",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1809",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(208.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1813",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(304.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1817",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1821",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1825",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1168.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1829",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1833",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(208.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1837",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(400.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1841",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1845",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1849",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 904.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1853",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 904.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1857",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1136.0, 904.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1861",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_birch.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1865",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_pine.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1869",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1168.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1873",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1877",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1881",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(304.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1885",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1889",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1893",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1897",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(720.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1901",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1905",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1104.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1909",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1913",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(624.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1917",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(624.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1921",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 168.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1925",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(432.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1929",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(848.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1933",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1937",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1941",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1945",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1949",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1953",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1957",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1961",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1965",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(432.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1969",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1973",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1977",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1981",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1985",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1989",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 904.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1993",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(912.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@1997",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 648.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2001",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(848.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2005",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1200.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2009",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2013",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2017",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2021",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2025",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(912.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2029",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1200.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2033",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(304.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2037",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(272.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2041",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(208.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2045",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(336.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2049",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2053",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(240.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2057",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2061",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2065",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 72.0)",
+		"sprite": "res://Art/Environment/Hearthwood/outdoor_rock.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2069",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2073",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2077",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(432.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2081",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2085",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(720.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2089",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2093",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(48.0, 360.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2097",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2101",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(304.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2105",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2109",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(432.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2113",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2117",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1200.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2121",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2125",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1296.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2129",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2133",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2137",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(304.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2141",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2145",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2149",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2153",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1136.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2157",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1104.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2161",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1296.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2165",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2169",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2173",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2177",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2181",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1136.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2185",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2189",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2193",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2197",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(560.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2201",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(432.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2205",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2209",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2213",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2217",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2221",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1104.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2225",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(624.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2229",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(48.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2233",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(240.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2237",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2241",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1040.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2245",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(848.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2249",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(944.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2253",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(48.0, 648.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2257",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2261",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2265",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1296.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2269",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1200.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2273",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(112.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2277",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2281",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2285",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2289",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2293",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1136.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2297",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(528.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2301",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2305",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(528.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2309",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(624.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2313",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(112.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2317",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(944.0, 904.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2321",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(368.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2325",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 72.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2329",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2333",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1168.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2337",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(528.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2341",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1104.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2345",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2349",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2353",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2357",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 232.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2361",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2365",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(464.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2369",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(624.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2373",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(944.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2377",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2381",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1296.0, 72.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2385",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2389",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2393",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2397",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1104.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2401",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2405",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2409",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(944.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2413",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(528.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2417",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(336.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2421",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2425",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(528.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2429",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(272.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2433",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(720.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2437",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(368.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2441",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2445",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(976.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2449",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 360.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2453",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1392.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2457",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(912.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2461",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(848.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2465",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2469",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(656.0, 72.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2473",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(304.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2477",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2481",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(272.0, 616.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2485",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1200.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2489",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 840.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2493",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(432.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2497",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2501",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 200.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2505",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(176.0, 424.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2509",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 584.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2513",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2517",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(400.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2521",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(336.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2525",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 72.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2529",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2533",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 680.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2537",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1360.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2541",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(336.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2545",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(48.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2549",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(272.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2553",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(400.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2557",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(752.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2561",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2565",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1232.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2569",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(48.0, 776.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2573",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 808.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2577",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(400.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2581",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 872.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2585",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1008.0, 520.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2589",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(880.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2593",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(816.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2597",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2601",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(784.0, 936.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2605",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(80.0, 648.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2609",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(720.0, 72.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2613",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(688.0, 136.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2617",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(496.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2621",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1072.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2625",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(528.0, 488.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2629",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1328.0, 712.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2633",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(208.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2637",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1104.0, 456.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2641",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "farm",
+		"sort_position": "(1168.0, 264.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_fern.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2645",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(592.0, 392.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2649",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(912.0, 40.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2653",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(144.0, 552.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2657",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(1264.0, 744.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "@StaticBody2D@2661",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "farm",
+		"sort_position": "(944.0, 104.0)",
+		"sprite": "res://Art/Environment/Hearthwood/Ambient/outdoor_bush.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_stool.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_table.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -1.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_bookcase.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_sofa.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_desk.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Environment/Hearthwood/home_bed.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/workbench.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/picket_fence.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/log_fence.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/lattice_fence.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -9.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/stone_wall.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/iron_fence.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/hedge.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/wood_gate.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -2.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/iron_gate.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -4.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/wood_path.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/stone_path.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/brick_path.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -6.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/gravel_path.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/moss_path.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -4.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/stepping_stones.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -18.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/single_bed.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/double_bed.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/canopy_bed.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/hammock.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/chair.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -9.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/armchair.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/bench.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/rocking_chair.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/garden_bench.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -9.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/square_table.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -6.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/long_table.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/tea_table.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/picnic_table.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/wardrobe.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/cupboard.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/low_shelf.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/wall_shelf.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -10.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/barrel.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/candle.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/lantern.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/floor_lamp.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/street_lamp.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/mushroom_lamp.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/crystal_lamp.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/oval_rug.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/round_rug.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/star_rug.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -6.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/mirror.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -6.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/clock.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -4.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/painting.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/globe.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/vase.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/aquarium.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/music_box.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -4.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/flower_box.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/clay_planter.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -6.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/herb_planter.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -3.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/rose_arch.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/birdbath.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/scarecrow.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/well.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -7.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/sundial.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -6.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/loom.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/spinning_wheel.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built farm",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/kiln.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -8.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/cauldron.svg.aseprite"
+	},
+	{
+		"node": "Furniture1",
+		"opaque_bottom_from_sort": -5.5,
+		"scene": "built home",
+		"sort_position": "(320.0, 350.0)",
+		"sprite": "res://Art/Building/objects/piano.svg"
+	}
+]

@@ -10,6 +10,7 @@ const Store = preload("res://Scenes/Businesses/store.tscn")
 const FurnitureStore = preload("res://Scenes/Businesses/furniture_store.tscn")
 const UIFont = preload("res://Scenes/Gameplay/ui_font.gd")
 const UISkin = preload("res://Scenes/Gameplay/ui_skin.gd")
+const FoodIcons = preload("res://Scenes/UI/food_icons.gd")
 const Saves = preload("res://Scenes/Save/save_store.gd")
 const I18n = preload("res://Localization/localized_text.gd")
 const ThoughtBubble = preload("res://Scenes/Gameplay/thought_bubble.gd")
@@ -111,7 +112,7 @@ func _ready() -> void:
 	markers = Node2D.new()
 	markers.z_index = preload("res://Scenes/Gameplay/world_depth.gd").LABEL
 	lane.world.add_child(markers)
-	for spec in [[FIELD_GATE, "野外", "field", Vector2(30, 36)], [REST_GATE, "餐厅", "restaurant", Vector2(26, 8)], [FARM_GATE, "月芽农场 ←", "home", Vector2(26, -12)], [DOCK_GATE, "潮汐码头", "dock", Vector2(-32, 24)], [BLACKSMITH_GATE, "余烬铁匠铺", "blacksmith", Vector2(-33, 0)], [STORE_GATE, "橡果杂货店", "store", Vector2(-33, 0)], [FURNITURE_GATE, "榛木家具店", "furniture_store", Vector2(-33, 0)]]:
+	for spec in [[FIELD_GATE, "野外", "field", Vector2(30, 36)], [REST_GATE, "餐厅", "restaurant", Vector2(26, 8)], [FARM_GATE, "月芽农场 ←", "home", Vector2(26, -12)], [DOCK_GATE, "潮汐码头", "dock", Vector2(-32, 24)], [BLACKSMITH_GATE, "布兰铁匠铺", "blacksmith", Vector2(-33, 0)], [STORE_GATE, "橡果杂货店", "store", Vector2(-33, 0)], [FURNITURE_GATE, "榛木家具店", "furniture_store", Vector2(-33, 0)]]:
 		var sign_node := Node2D.new()
 		sign_node.position = spec[0] + spec[3]
 		lane.actors.add_child(sign_node)
@@ -153,6 +154,9 @@ func _ready() -> void:
 	Localization.language_changed.connect(_refresh_language)
 
 func _refresh_language(_locale: String) -> void:
+	for index in range(menu_buttons.size()):
+		menu_buttons[index].text = I18n.format("%s  %d金", [state.DISHES[index], state.PRICES[index]])
+		cook_buttons[index].text = I18n.format("做%s", [state.DISHES[index]])
 	_refresh()
 
 func enter_home_doorstep() -> void:
@@ -197,8 +201,8 @@ func _restore_world(world_data: Dictionary) -> void:
 		lane.player.position = _safe_interior_position(restored_position)
 	if location == "home" and not state.furniture.legacy_fixtures:
 		var feet := Rect2(restored_position - Vector2(5, 6), Vector2(10, 6))
-		var floor := State.Furniture.House.floor_for(state.furniture)
-		if not floor.has_point(restored_position) and not Rect2(296, 416, 48, 60).has_point(restored_position):
+		var house_floor := State.Furniture.House.floor_for(state.furniture)
+		if not house_floor.has_point(restored_position) and not Rect2(296, 416, 48, 60).has_point(restored_position):
 			lane.player.position = area.spawn
 		elif area.solids.any(func(rect): return rect.intersects(feet)):
 			lane.player.position = area.spawn
@@ -284,6 +288,23 @@ func _button(text: String, pos: Vector2, size: Vector2, action: Callable) -> But
 	ui.add_child(button)
 	return button
 
+func _add_recipe_ingredient_icons(button: Button, recipe: Dictionary) -> void:
+	# A recipe card carries a small ingredient trail on the right edge. It is
+	# deliberately decorative and mouse-transparent, leaving the whole card as
+	# one focusable action for keyboard and controller navigation.
+	var ingredients: Array = recipe.get("cost", {}).keys()
+	for index in range(mini(ingredients.size(), 2)):
+		var ingredient := TextureRect.new()
+		ingredient.name = "IngredientIcon" + str(index)
+		ingredient.texture = FoodIcons.texture(str(ingredients[index]))
+		ingredient.position = Vector2(151 + index * 14, 3)
+		ingredient.size = Vector2(13, 13)
+		ingredient.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		ingredient.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		ingredient.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+		ingredient.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		button.add_child(ingredient)
+
 func _make_ui() -> void:
 	ui = CanvasLayer.new()
 	ui.layer = 20
@@ -301,13 +322,29 @@ func _make_ui() -> void:
 	sidebar_title = _label(Vector2(450, 74), Vector2(180, 18), ui)
 	var descriptions = ["蘑菇汤：切片菇2 / 12金", "莓果派：莓果酱2 / 14金", "炖菇：切片菇1+草料1 / 18金"]
 	for i in range(3):
-		var b = _button(I18n.format("%s  %d金", [state.DISHES[i], state.PRICES[i]]), Vector2(450, 96 + i * 31), Vector2(180, 27), _toggle_menu.bind(i))
+		# Keep the stable button text for localization and controller tests, while
+		# giving every menu entry a dish stamp so the item is never text-only.
+		var b = _button(I18n.format("%s  %d金", [state.DISHES[i], state.PRICES[i]]), Vector2(450, 96 + i * 31), Vector2(180, 30), _toggle_menu.bind(i))
 		b.pressed.disconnect(_toggle_menu.bind(i))
 		b.toggled.connect(_set_menu.bind(i))
 		b.toggle_mode = true
+		b.icon = FoodIcons.texture("dish_" + state.Content.DATA.recipes[i].id)
+		b.icon_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		b.expand_icon = true
+		b.add_theme_constant_override("icon_max_width", 24)
+		b.add_theme_constant_override("h_separation", 5)
+		_add_recipe_ingredient_icons(b, state.Content.DATA.recipes[i])
 		b.tooltip_text = descriptions[i]
 		menu_buttons.append(b)
-		var cook = _button(I18n.format("做%s", [state.DISHES[i]]), Vector2(450, 96 + i * 31), Vector2(180, 27), cook_dish.bind(i))
+		# The evening action uses the same visual language as the menu: dish icon,
+		# name, and price are presented as one compact recipe card.
+		var cook = _button(I18n.format("做%s", [state.DISHES[i]]), Vector2(450, 96 + i * 31), Vector2(180, 30), cook_dish.bind(i))
+		cook.icon = FoodIcons.texture("dish_" + state.Content.DATA.recipes[i].id)
+		cook.icon_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		cook.expand_icon = true
+		cook.add_theme_constant_override("icon_max_width", 24)
+		cook.add_theme_constant_override("h_separation", 5)
+		_add_recipe_ingredient_icons(cook, state.Content.DATA.recipes[i])
 		cook.tooltip_text = descriptions[i]
 		cook_buttons.append(cook)
 	discard_button = _button("丢弃手中菜", Vector2(542, 282), Vector2(94, 25), state.discard)
@@ -462,6 +499,16 @@ func interact() -> void:
 					_show_feedback()
 					return
 
+func _toggle_wand_mode() -> bool:
+	if not state.is_item_selected("wand") or not state.has_tool("wand"):
+		return false
+	if not state.toggle_wand_mode():
+		return false
+	harvest.cancel()
+	audio.play_event("ui_click")
+	hud.refresh()
+	return true
+
 func travel(target: String, return_position: Vector2 = Vector2.INF) -> void:
 	if restoring_save:
 		enter(target, return_position)
@@ -583,6 +630,12 @@ func reset_player() -> void:
 		lane.player.position = area.spawn
 
 func end_phase() -> void:
+	if SceneTransition.active or get_tree().paused: return
+	if state.is_arrival_day():
+		if location != "home": return
+		harvest.cancel()
+		await SceneTransition.run(_rest_after_arrival)
+		return
 	if state.phase == "day" and location != "restaurant": return
 	harvest.cancel()
 	audio.play_event("ui")
@@ -594,8 +647,14 @@ func end_phase() -> void:
 		state.end_phase()
 	_sync_phase()
 
+func _rest_after_arrival() -> void:
+	if not state.rest_after_arrival(): return
+	_commit_travel("home", Vector2.INF)
+	_sync_phase()
+	campaign_controller._save_story_checkpoint()
+
 func _sync_phase() -> void:
-	var preparation_due: bool = state.phase == "day" and state.remaining <= 0.0 and state.restaurant_leased
+	var preparation_due: bool = state.phase == "day" and state.remaining <= 0.0 and state.restaurant_leased and not state.is_arrival_day()
 	if preparation_due and not awaiting_open:
 		harvest.cancel()
 		if location != "restaurant": travel("restaurant")
@@ -646,15 +705,15 @@ func _unhandled_input(event: InputEvent) -> void:
 		get_viewport().set_input_as_handled()
 		return
 	if InputBindings.is_action_press(event):
+		var code: int = 0
+		if event is InputEventKey:
+			code = event.physical_keycode if event.physical_keycode != 0 else event.keycode
+		# E is reserved for wand colour switching; F remains the generic interaction action.
+		if event is InputEventKey and code == KEY_E and _toggle_wand_mode():
+			get_viewport().set_input_as_handled()
+			return
 		if event.is_action_pressed("interact"):
-			# A selected wand turns the interaction key into a colour switch; work uses the mouse.
-			if state.is_item_selected("wand") and state.has_tool("wand"):
-				if state.toggle_wand_mode():
-					harvest.cancel()
-					audio.play_event("ui_click")
-					hud.refresh()
-			else:
-				interact()
+			interact()
 			get_viewport().set_input_as_handled()
 		elif event is InputEventKey and event.physical_keycode == KEY_R:
 			if not InputBindings.is_bound_event(event): reset_player.call_deferred()
@@ -663,10 +722,10 @@ func _unhandled_input(event: InputEvent) -> void:
 
 func _refresh() -> void:
 	var phase_name = {"day": "白天", "night": "营业", "result": "结算"}[state.phase]
-	header.text = I18n.format("第%d天 · %s %03d秒 · %s · %d金", [state.day, phase_name, ceili(state.remaining), {"town": "小镇", "farm": "月芽农场", "field": "野外", "restaurant": "餐厅", "home": "小女巫的家", "dock": "潮汐码头", "blacksmith": "余烬铁匠铺", "store": "橡果杂货店", "furniture_store": "榛木家具店"}[location], state.coins])
+	header.text = I18n.format("第%d天 · %s %03d秒 · %s · %d金", [state.day, phase_name, ceili(state.remaining), {"town": "小镇", "farm": "月芽农场", "field": "野外", "restaurant": "餐厅", "home": "小女巫的家", "dock": "潮汐码头", "blacksmith": "布兰铁匠铺", "store": "橡果杂货店", "furniture_store": "榛木家具店"}[location], state.coins])
 	var active: bool = state.phase != "result"
 	var in_restaurant: bool = location == "restaurant" and active
-	var show_menu: bool = in_restaurant and state.phase == "day"
+	var show_menu: bool = in_restaurant and state.phase == "day" and not state.is_arrival_day()
 	var show_cooking: bool = in_restaurant and state.phase == "night" and at_counter("kitchen")
 	backgrounds[0].size.y = 62 if in_restaurant else (46 if location in ["field", "dock"] and active else 26)
 	backgrounds[1].visible = show_menu or show_cooking
@@ -674,7 +733,7 @@ func _refresh() -> void:
 	sidebar_title.visible = backgrounds[1].visible
 	sidebar_title.text = I18n.format("今日菜单 %d/%d", [state.menu.count(true), state.Campaign.restaurant(state).menu]) if show_menu else tr("料理")
 	service_hours.visible = show_menu
-	service_hours.text = I18n.format("18:00–22:00 · %d分钟", [int(state.NIGHT_SECONDS / 60)])
+	service_hours.text = I18n.format("18:00–22:00 · %d分钟", [floori(float(state.NIGHT_SECONDS) / 60.0)])
 	recipe_button.visible = show_menu
 	inventory.visible = active and location in ["field", "restaurant", "dock"]
 	notice.visible = active and location != "home" and message_left > 0.0 and not state.message.is_empty() and not get_tree().paused
@@ -704,6 +763,7 @@ func _refresh() -> void:
 	discard_button.disabled = state.held < 0
 	discard_button.visible = in_restaurant and state.held >= 0
 	end_button.text = {"day": "开始营业", "night": "结束营业", "result": "进入次日"}[state.phase]
+	if state.is_arrival_day(): end_button.text = "休息"
 	end_button.disabled = show_menu and not state.opening_error().is_empty()
 	end_button.tooltip_text = tr(state.opening_error()) if show_menu else ""
 	summary.visible = state.phase == "result"

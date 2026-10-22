@@ -4,6 +4,7 @@ const C = preload("res://Scenes/Campaign/campaign_state.gd")
 const Goals = preload("res://Scenes/Campaign/onboarding.gd")
 const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const Saves = preload("res://Scenes/Save/save_store.gd")
+const Feet = preload("res://Scenes/Gameplay/actor_collision.gd")
 const OUT := "res://output/story_rebuild_integration/"
 var checks := 0
 var failures := 0
@@ -11,6 +12,12 @@ var lane
 var loop
 var controller
 var capture := false
+var opening_locations: Array[String] = []
+var opening_swaps_covered := true
+var opening_routes_clear := true
+var opening_cast_separated := true
+var opening_walks_paused := true
+var transition_shots: Array[String] = []
 
 func _initialize() -> void:
 	var profile := OUT + "profile_" + str(OS.get_process_id())
@@ -29,6 +36,40 @@ func check(caption: String, result: bool) -> void:
 func frames(count: int = 2) -> void:
 	for i in range(count): await process_frame
 
+func wait_opening(stage: int, record: bool = false) -> void:
+	var deadline := Time.get_ticks_msec() + 15000
+	var remaining: float = loop.state.remaining
+	var previous: String = loop.location
+	var transition = root.get_node("SceneTransition")
+	while Time.get_ticks_msec() < deadline:
+		if loop.hud.mode == "dialogue" and not controller.opening_transition_active: break
+		await process_frame
+		if loop.location != previous:
+			opening_swaps_covered = opening_swaps_covered and transition.active and transition.cover.color.a >= 0.999
+			previous = loop.location
+			if record: opening_locations.append(previous)
+		opening_walks_paused = opening_walks_paused and paused and is_equal_approx(loop.state.remaining, remaining)
+		if transition.active or loop.hud.mode == "dialogue": continue
+		var performers: Array = [lane.player] + controller.opening_cast
+		for actor in performers:
+			if not is_instance_valid(actor): continue
+			for solid in lane.solid_rects:
+				if Feet.footprint(actor.position).intersects(solid):
+					if opening_routes_clear: print("OPENING BLOCKED ", loop.location, " ", actor.name, " at ", actor.position, " by ", solid)
+					opening_routes_clear = false
+		for i in range(performers.size()):
+			for j in range(i + 1, performers.size()):
+				opening_cast_separated = opening_cast_separated and not Feet.footprint(performers[i].position).intersects(Feet.footprint(performers[j].position))
+		if record and capture:
+			var name := ""
+			if loop.location == "farm" and controller.arrival_active: name = "opening_farm_arrival"
+			elif loop.location == "town": name = "opening_restaurant_exterior"
+			elif loop.location == "restaurant": name = "opening_restaurant_entry"
+			if not name.is_empty() and name not in transition_shots:
+				transition_shots.append(name)
+				await shot(name)
+	check("opening segment ready " + str(stage), loop.hud.mode == "dialogue" and not controller.opening_transition_active and loop.state.campaign.opening_stage == stage)
+
 func shot(filename: String) -> void:
 	if not capture: return
 	if loop != null and loop.hud.mode == "dialogue":
@@ -42,6 +83,7 @@ func mark_introduced(s) -> void:
 	s.campaign.introduced = true
 	s.campaign.guide_met = true
 	s.campaign.opening_stage = 3
+	s.campaign.settling_in = false
 	s.restaurant_leased = true
 
 func ready_chapter(s, index: int) -> void:
@@ -55,13 +97,13 @@ func ready_chapter(s, index: int) -> void:
 			for id in q.cost: s.campaign.pantry[id] = q.cost[id]
 		_: s.campaign.stats[q.metric] = q.goal
 
-func load_game() -> void:
+func load_game(active_opening: bool = false) -> void:
 	lane = load("res://Scenes/LanternLane/lantern_lane.tscn").instantiate()
 	root.add_child(lane)
 	await frames(8)
 	loop = lane.get_node("GameLoop")
 	controller = loop.campaign_controller
-	controller.set_process(false)
+	controller.set_process(active_opening)
 
 func unload_game() -> void:
 	paused = false
@@ -91,6 +133,26 @@ func state_checks() -> void:
 	var s = State.new()
 	mark_introduced(s)
 	check("preparation belongs to first chapter", Goals.current(s).id == "prepare")
+	s.campaign.settling_in = true
+	s.menu[0] = true
+	s.materials[0] = 4
+	check("arrival goal is settling in", Goals.current(s).id == "settle_in" and not controller_ready_for_test(s))
+	check("arrival refuses stocked service", not s.start_service() and s.phase == "day" and s.materials[0] == 4 and s.customers.is_empty())
+	s.journal.serve = 8
+	check("arrival cannot hand in restaurant chapter", not C.complete_chapter(s) and s.campaign.chapter == 0)
+	s.journal.serve = 0
+	var arrived = State.new()
+	check("arrival flag survives serialization", arrived.restore_save_data(s.to_save_data()) and arrived.is_arrival_day())
+	check("arrival rest starts second morning", s.rest_after_arrival() and s.day == 2 and s.phase == "day" and s.remaining == s.DAY_SECONDS and s.coins == 0 and s.journal.serve == 0)
+	check("rest cannot advance a second time", not s.rest_after_arrival() and s.day == 2)
+	check("second day service available", s.start_service() and s.phase == "night")
+	s = State.new()
+	mark_introduced(s)
+	var previous: Dictionary = s.to_save_data()
+	previous.campaign.erase("settling_in")
+	check("existing saves keep their service access", arrived.restore_save_data(previous) and not arrived.is_arrival_day())
+	previous.campaign.settling_in = "yes"
+	check("invalid arrival flag rejected", not arrived.restore_save_data(previous))
 	for index in range(10):
 		ready_chapter(s, index)
 		var before: int = s.coins
@@ -112,19 +174,78 @@ func state_checks() -> void:
 	invalid.opening_stage = 3
 	check("inconsistent opening rejected", C.normalize(invalid).is_empty())
 
+func controller_ready_for_test(s) -> bool:
+	return preload("res://Scenes/Campaign/guide_profile.gd").ready(s)
+
+func arrival_day_checks() -> void:
+	check("opening ends in first morning", loop.state.is_arrival_day() and loop.state.get_clock_minutes() == 360 and loop.location == "restaurant")
+	loop.paused_for_test = true
+	loop._refresh()
+	check("arrival hides restaurant operating controls", not loop.end_button.visible and not loop.menu_buttons[0].visible and not loop.recipe_button.visible and not loop.service_hours.visible)
+	check("arrival guide keeps to settling in", controller._guide_choices().size() == 2 and controller._guide_choices()[0].text == "当前目标")
+	controller.open("故事")
+	check("first day journal has no serving target", controller.list.get_child_count() == 1 and controller.list.get_child(0).name == "ArrivalDay")
+	await shot("arrival_day_journal")
+	loop.hud.close_modal()
+	controller.open("食谱")
+	check("first day recipes do not enter menu setup", controller.list.get_child_count() == 1 and controller.list.get_child(0).get_child_count() == 1)
+	loop.hud.close_modal()
+	loop.end_phase()
+	check("restaurant cannot skip arrival day", loop.state.day == 1 and loop.state.phase == "day")
+	await loop.travel("farm")
+	loop.state.tick(loop.state.DAY_SECONDS + 1.0)
+	loop._sync_phase()
+	await frames()
+	check("arrival sunset keeps outdoor exploration", loop.location == "farm" and loop.state.is_arrival_day() and loop.state.remaining == 0.0 and not loop.awaiting_open and loop.state.customers.is_empty())
+	await shot("arrival_day_farm_evening")
+	await loop.travel("home")
+	loop._refresh()
+	check("home offers rest without service", loop.end_button.visible and loop.end_button.text == "休息" and not loop.end_button.disabled)
+	check("arrival day saved before rest", loop.save_progress().ok)
+	await unload_game()
+	check("arrival save selected again", Saves.begin_slot(1).ok)
+	await load_game()
+	loop.paused_for_test = true
+	loop._refresh()
+	check("arrival save reload stays at home", loop.location == "home" and loop.state.is_arrival_day() and loop.end_button.visible)
+	await shot("arrival_day_home_rest")
+	loop.end_button.pressed.emit()
+	loop.end_button.pressed.emit()
+	if root.get_node("SceneTransition").active: await root.get_node("SceneTransition").finished
+	await frames()
+	check("rest fades into second morning once", loop.state.day == 2 and loop.state.phase == "day" and loop.state.remaining == loop.state.DAY_SECONDS and loop.location == "home" and not paused)
+	check("arrival never creates service results", loop.state.journal.serve == 0 and loop.state.coins == 0 and loop.state.result.is_empty() and loop.state.customers.is_empty())
+	check("second morning checkpoint persisted", Saves.read_slot(1).data.state.day == 2 and not Saves.read_slot(1).data.state.campaign.settling_in)
+	await shot("arrival_second_morning")
+	await loop.travel("restaurant")
+	loop._refresh()
+	check("second day enables menu and opening", loop.menu_buttons[0].visible and loop.recipe_button.visible and loop.end_button.visible and loop.end_button.text == "开始营业" and Goals.current(loop.state).id == "prepare")
+	check("second day still needs player confirmation", loop.state.phase == "day" and loop.state.customers.is_empty())
+	check("second day menu selection works", loop.state.set_menu_dish(0, true))
+	loop.state.materials[0] = 4
+	loop.end_phase()
+	check("second day confirmed service works", loop.state.day == 2 and loop.state.phase == "night")
+	# Remaining story/translation checks run in ordinary free play.
+	loop.state.end_phase()
+	loop.state.next_day()
+	loop._sync_phase()
+	await frames()
+
 func run() -> void:
 	state_checks()
 	check("isolated new slot", Saves.begin_slot(1).ok)
 	C.pending_intro = true
-	await load_game()
+	await load_game(true)
 	check("opening film pauses", paused and is_instance_valid(controller.intro))
 	check("public notice replaces letter", C.D.intro.map(func(value): return value.scene) == ["kitchen", "notice", "road", "town", "home"])
 	controller.intro_elapsed = 9.0
 	controller._render_intro()
 	await shot("public_notice")
 	controller.finish_intro()
+	check("film remains under fade", is_instance_valid(controller.intro) and root.get_node("SceneTransition").active)
+	await wait_opening(0, true)
 	check("film skip keeps dock dialogue", loop.location == "dock" and loop.hud.mode == "dialogue" and loop.hud.lines.size() == 10 and paused)
-	check("Nagi present on dock", controller.opening_cast.size() == 1 and controller.opening_cast[0].visible)
+	check("Maren present on dock", controller.opening_cast.size() == 1 and controller.opening_cast[0].visible)
 	var next := InputEventAction.new()
 	next.action = "dialogue_next"
 	next.pressed = true
@@ -134,37 +255,62 @@ func run() -> void:
 	check("opening still blocks inventory", not loop.hud._begin_modal("bag"))
 	await shot("opening_dock")
 	controller._finish_opening_stage(0)
-	check("guide approaches on farm", loop.location == "farm" and controller.arrival_active and paused)
-	controller._process(0.5)
-	check("guide actually walks", controller.arrival_actor.position != controller.ARRIVAL_PATH[0])
-	controller._process(10.0)
+	check("dock farewell precedes world swap", loop.location == "dock" and controller.opening_transition_active and loop.hud.mode.is_empty() and paused)
+	controller._finish_opening_stage(0)
+	check("departure cannot be submitted twice", loop.state.campaign.opening_stage == 1 and not loop.hud._begin_modal("bag"))
+	check("destination checkpoint saved before departure", Saves.read_slot(1).data.state.campaign.opening_stage == 1)
+	var departure_checkpoint: Dictionary = Saves.read_slot(1).data.duplicate(true)
+	await frames(10)
+	check("player walks away from Maren", lane.player.position.x < 300 and loop.location == "dock")
+	await shot("opening_dock_departure")
+	await wait_opening(1, true)
+	check("guide and player arrive at cottage", lane.player.position == Vector2(270,258) and controller.arrival_actor.position == Vector2(270,294))
 	check("farm dialogue has fifteen lines", loop.hud.mode == "dialogue" and loop.hud.lines.size() == 15 and not controller.arrival_active)
 	await shot("opening_farm")
 	controller._finish_opening_stage(1)
+	check("farm departure keeps both characters", loop.location == "farm" and controller.opening_transition_active and is_instance_valid(controller.arrival_actor))
+	await wait_opening(2, true)
+	check("restaurant exterior connects farm to interior", opening_locations == ["dock", "farm", "town", "restaurant"])
+	check("opening world changes fully covered", opening_swaps_covered)
+	check("opening paths avoid world solids", opening_routes_clear)
+	check("opening performers keep their space", opening_cast_separated)
+	check("opening walks keep gameplay paused", opening_walks_paused)
 	check("lease scene opens kitchen without a second fee", loop.location == "restaurant" and loop.state.restaurant_leased and loop.hud.lines.size() == 18 and paused)
 	check("lease cast present", controller.opening_cast.size() == 3)
+	check("lease introduction hides opening controls", loop.state.is_arrival_day() and not loop.end_button.visible and not loop.menu_buttons[0].visible)
 	await shot("opening_lease")
-	controller._finish_opening_stage(2)
+	await controller._finish_opening_stage(2)
 	check("opening releases control", not paused and loop.hud.mode.is_empty() and loop.state.campaign.guide_met and not controller.opening_active())
 	check("opening cast cleaned up", controller.opening_cast.is_empty())
 	var disk := Saves.read_slot(1)
 	check("opening completion saved", disk.ok and disk.data.state.campaign.opening_stage == 3 and disk.data.state.restaurant_leased)
+	controller.set_process(false)
+	await arrival_day_checks()
 	# Resume each interrupted opening segment, including its actual location.
 	for stage in range(3):
-		loop.state.campaign.guide_met = false
-		loop.state.campaign.opening_stage = stage
-		controller._start_opening_stage()
-		if stage == 1: controller._process(10.0)
+		if stage == 1:
+			# Reload the actual departure checkpoint under a main-menu-style fade.
+			await unload_game()
+			check("departure checkpoint restored to isolated slot", Saves.write_slot(1, departure_checkpoint).ok and Saves.begin_slot(1).ok)
+			root.get_node("SceneTransition").run(func(): pass)
+			await load_game()
+			check("saved opening waits for current fade", controller.opening_transition_active)
+		else:
+			loop.state.campaign.guide_met = false
+			loop.state.campaign.opening_stage = stage
+			controller._start_opening_stage()
+		await wait_opening(stage)
 		check("resume opening segment " + str(stage), loop.hud.mode == "dialogue" and loop.location == C.D.opening[stage].location)
-		controller._finish_opening_stage(stage)
-		if controller.arrival_active: controller._process(10.0)
 		loop.hud.close_modal()
-		if is_instance_valid(controller.arrival_actor): controller.arrival_actor.queue_free()
-		controller.arrival_actor = null
+		controller._clear_opening_cast()
+		controller._restore_arrival_camera()
+		await frames()
 	mark_introduced(loop.state)
 	for language in ["zh_CN", "en", "ja", "zh_TW"]:
 		root.get_node("Localization").set_language(language, false)
 		await frames()
+		var bridge: String = C.D.opening[0].dialogue[8].text
+		check("opening bridge localized " + language, language == "zh_CN" or String(TranslationServer.translate(bridge)) != bridge)
 		var fit := true
 		var portraits := true
 		for scene in C.D.opening:

@@ -85,7 +85,7 @@ func verify_guide_animation() -> void:
 
 func run() -> void:
 	verify_guide_animation()
-	check("protagonist defaults to Weierliya", State.new().campaign.player_name == "薇尔莉娅")
+	check("protagonist defaults to Weierliya", State.new().campaign.player_name == "艾洛温")
 	for introduced in [false, true]:
 		for missing_name in [false, true]:
 			var legacy: Dictionary = State.new().to_save_data()
@@ -103,8 +103,8 @@ func run() -> void:
 		legacy.campaign.guide_met = guide_met
 		check("explicit welcome progress preserved " + str(guide_met), State.normalize_save_data(legacy).campaign.guide_met == guide_met)
 	var named: Dictionary = State.new().to_save_data()
-	named.campaign.player_name = "Aster"
-	check("existing save name preserved", State.normalize_save_data(named).campaign.player_name == "Aster")
+	named.campaign.player_name = "Selene"
+	check("existing save name preserved", State.normalize_save_data(named).campaign.player_name == "Selene")
 	for invalid in [42, "a\nb"]:
 		named.campaign.player_name = invalid
 		check("invalid legacy name rejected " + str(invalid).c_escape(), State.normalize_save_data(named).is_empty())

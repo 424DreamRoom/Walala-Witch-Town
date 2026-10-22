@@ -185,7 +185,7 @@ func run() -> void:
 	check("cancel move retains original furniture", builder.mode == "edit" and loop.state.furniture_by_id(id).x == 400 and paused)
 	await click(builder.move_button)
 	await key(KEY_D)
-	await key(KEY_E)
+	await key(KEY_F)
 	check("keyboard confirms atomic move", builder.mode == "edit" and loop.state.furniture_by_id(id).x == 416)
 	check("moving replaces collision footprint", old_rect not in lane.solid_rects and Catalog.footprint("stool", Vector2(416, 384)) in lane.solid_rects)
 	await click(builder.store_button)

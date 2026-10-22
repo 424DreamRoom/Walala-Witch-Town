@@ -3,7 +3,7 @@ extends RefCounted
 const Content = preload("res://Scenes/Campaign/content.gd")
 const D = Content.DATA
 const LIMIT := 1000000000
-const DEFAULT_PLAYER_NAME := "薇尔莉娅"
+const DEFAULT_PLAYER_NAME := "艾洛温"
 const PLAYER_NAME_LIMIT := 12
 const SIDE_LIMIT := 2
 const BANQUET_IDS := ["star_koi_banquet", "four_seasons_platter", "lantern_dessert"]
@@ -18,6 +18,7 @@ static func initial() -> Dictionary:
 	result.legacy_chapter = 0
 	result.opening_stage = 0
 	result.pending_scene = -1
+	result.settling_in = false
 	result.met_residents = []
 	result.side_active = {}
 	result.side_last_day = {}
@@ -365,6 +366,7 @@ static func metric(s, id: String) -> int:
 	return s.campaign.stats.get(id, 0)
 
 static func complete_chapter(s) -> bool:
+	if s.is_arrival_day(): return false
 	var chapter: int = s.campaign.chapter
 	if chapter >= D.quests.size() or s.campaign.pending_scene >= 0: return false
 	var q: Dictionary = D.quests[chapter]
@@ -477,11 +479,13 @@ static func valid_int(value: Variant, high: int = LIMIT) -> bool:
 
 static func normalize(value: Variant) -> Dictionary:
 	if not value is Dictionary: return {}
-	# Preserve legacy names and infer welcome progress before filling an empty name.
+	# Infer welcome progress before filling an empty name; keep custom names.
 	value = value.duplicate(true)
 	if not value.has("guide_met"):
 		value.guide_met = value.get("introduced") == true and (not value.has("player_name") or (value.player_name is String and not value.player_name.is_empty()))
 	if not value.has("player_name") or (value.player_name is String and value.player_name.is_empty()):
+		value.player_name = DEFAULT_PLAYER_NAME
+	elif value.player_name == "薇尔莉娅":
 		value.player_name = DEFAULT_PLAYER_NAME
 	# Old saves keep completed resident episodes and discover later episodes naturally.
 	if not value.has("met_residents"):
@@ -509,6 +513,9 @@ static func normalize(value: Variant) -> Dictionary:
 		if value.get("introduced") == true: value.guide_met = true
 		value.opening_stage = 3 if value.guide_met else 0
 	var defaults := initial()
+	# Existing games retain their day/service progress; new arrivals opt in at
+	# the restaurant introduction, and keep this flag through saves until rest.
+	if not value.has("settling_in"): value.settling_in = false
 	# Add only expansion ingredient slots. Missing legacy fields and unknown IDs
 	# still fail the strict validation below; existing quantities are preserved.
 	if value.get("pantry") is Dictionary:
@@ -519,6 +526,7 @@ static func normalize(value: Variant) -> Dictionary:
 		if not value.has(key): return {}
 	if value.version != 1 or not value.introduced is bool or value.selected_crop not in defaults.seeds: return {}
 	if not value.guide_met is bool: return {}
+	if not value.settling_in is bool: return {}
 	if value.story_version != 2 or not valid_int(value.legacy_chapter, 12) or not valid_int(value.opening_stage, 3): return {}
 	if value.guide_met != (value.opening_stage == 3): return {}
 	if not value.pending_scene is int and not value.pending_scene is float: return {}

@@ -1,0 +1,90 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+DIALOGUE one-shot alex_01.wav: PASS
+DIALOGUE audible PCM alex_01.wav: PASS
+DIALOGUE one-shot alex_02.wav: PASS
+DIALOGUE audible PCM alex_02.wav: PASS
+DIALOGUE one-shot alex_03.wav: PASS
+DIALOGUE audible PCM alex_03.wav: PASS
+DIALOGUE one-shot ian_01.wav: PASS
+DIALOGUE audible PCM ian_01.wav: PASS
+DIALOGUE one-shot ian_02.wav: PASS
+DIALOGUE audible PCM ian_02.wav: PASS
+DIALOGUE one-shot ian_03.wav: PASS
+DIALOGUE audible PCM ian_03.wav: PASS
+DIALOGUE one-shot sean_01.wav: PASS
+DIALOGUE audible PCM sean_01.wav: PASS
+DIALOGUE one-shot sean_02.wav: PASS
+DIALOGUE audible PCM sean_02.wav: PASS
+DIALOGUE one-shot sean_03.wav: PASS
+DIALOGUE audible PCM sean_03.wav: PASS
+DIALOGUE one-shot karen_01.wav: PASS
+DIALOGUE audible PCM karen_01.wav: PASS
+DIALOGUE one-shot karen_02.wav: PASS
+DIALOGUE audible PCM karen_02.wav: PASS
+DIALOGUE one-shot karen_03.wav: PASS
+DIALOGUE audible PCM karen_03.wav: PASS
+DIALOGUE one-shot meghan_01.wav: PASS
+DIALOGUE audible PCM meghan_01.wav: PASS
+DIALOGUE one-shot meghan_02.wav: PASS
+DIALOGUE audible PCM meghan_02.wav: PASS
+DIALOGUE one-shot meghan_03.wav: PASS
+DIALOGUE audible PCM meghan_03.wav: PASS
+DIALOGUE stable profile walala-witch: PASS
+DIALOGUE stable profile yingluo: PASS
+DIALOGUE stable profile mori: PASS
+DIALOGUE stable profile ember: PASS
+DIALOGUE stable profile nagi: PASS
+DIALOGUE stable profile lumi: PASS
+DIALOGUE stable profile aster: PASS
+DIALOGUE stable profile toma: PASS
+DIALOGUE stable profile pip: PASS
+DIALOGUE stable profile reed: PASS
+DIALOGUE stable profile yuki: PASS
+DIALOGUE stable profile orla: PASS
+DIALOGUE FMOD source alex_01.wav: PASS
+DIALOGUE FMOD source alex_02.wav: PASS
+DIALOGUE FMOD source alex_03.wav: PASS
+DIALOGUE FMOD source ian_01.wav: PASS
+DIALOGUE FMOD source ian_02.wav: PASS
+DIALOGUE FMOD source ian_03.wav: PASS
+DIALOGUE FMOD source sean_01.wav: PASS
+DIALOGUE FMOD source sean_02.wav: PASS
+DIALOGUE FMOD source sean_03.wav: PASS
+DIALOGUE FMOD source karen_01.wav: PASS
+DIALOGUE FMOD source karen_02.wav: PASS
+DIALOGUE FMOD source karen_03.wav: PASS
+DIALOGUE FMOD source meghan_01.wav: PASS
+DIALOGUE FMOD source meghan_02.wav: PASS
+DIALOGUE FMOD source meghan_03.wav: PASS
+DIALOGUE typewriter starts real FMOD while modal pauses world: PASS
+DIALOGUE dialogue independent of UI environment music: PASS
+DIALOGUE guide uses Karen voice: PASS
+DIALOGUE same-frame flood bounded: PASS
+DIALOGUE natural next syllable without immediate repetition: PASS
+DIALOGUE skip completes text and stops sound: PASS
+DIALOGUE skip never replays missed syllables: PASS
+DIALOGUE next line resumes with clean voice: PASS
+DIALOGUE history quiet and reveal paused: PASS
+DIALOGUE history close resumes typewriter: PASS
+DIALOGUE dialogue close stops all syllables: PASS
+DIALOGUE punctuation and whitespace silent: PASS
+DIALOGUE instant text silent without burst: PASS
+DIALOGUE slow frame emits at most one syllable: PASS
+DIALOGUE resident uses Sean voice: PASS
+DIALOGUE character zero stops current voice: PASS
+DIALOGUE character zero blocks new voice: PASS
+DIALOGUE player uses Meghan voice: PASS
+DIALOGUE master zero immediately silent: PASS
+DIALOGUE legacy effects mute stops dialogue: PASS
+DIALOGUE muted playback rejected: PASS
+DIALOGUE voice identity survives language zh_CN: PASS
+DIALOGUE voice identity survives language en: PASS
+DIALOGUE voice identity survives language ja: PASS
+DIALOGUE voice identity survives language zh_TW: PASS
+DIALOGUE credit contains author and license: PASS
+DIALOGUE VERIFY END failures=0 checks=83
+FMOD Sound System: System released

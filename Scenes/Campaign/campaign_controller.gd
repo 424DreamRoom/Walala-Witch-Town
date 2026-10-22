@@ -29,16 +29,13 @@ var intro_elapsed := 0.0
 var intro_index := -1
 var intro_old_pause := false
 var opening_dialogue_allowed := false
+var opening_transition_active := false
 var opening_cast: Array[Node2D] = []
 var observed_day := 0
 const ARRIVAL_PATH := [Vector2(600,324), Vector2(270,324), Vector2(270,294)]
 const ARRIVAL_SPEED := 80.0
 var arrival_actor
 var arrival_active := false
-var arrival_dialogue := false
-var arrival_departing := false
-var arrival_path := PackedVector2Array()
-var arrival_old_pause := false
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -55,31 +52,16 @@ func _ready() -> void:
 		_resume_story.call_deferred()
 
 func _process(delta: float) -> void:
-	if SceneTransition.active: return
+	if SceneTransition.active or opening_transition_active: return
 	guide.sync(loop.state.phase == "day")
 	if is_instance_valid(intro):
 		intro_elapsed += delta
 		if intro_elapsed >= intro_length(): finish_intro()
 		else: _render_intro()
-	if arrival_active:
-		if _walk_arrival(delta): _finish_arrival()
-		return
 	if not is_instance_valid(intro) and loop.state.campaign.introduced and not loop.state.campaign.guide_met and loop.hud.mode.is_empty():
 		_start_opening_stage()
 		return
-	if arrival_dialogue and loop.hud.mode != "dialogue":
-		arrival_dialogue = false
-		_restore_arrival_camera()
-		arrival_path = PackedVector2Array([Vector2(270,324), Vector2(680,324)])
-		arrival_departing = true
 	if get_tree().paused: return
-	if arrival_departing:
-		if not is_instance_valid(arrival_actor):
-			arrival_departing = false
-		elif _walk_arrival(delta, true):
-			arrival_actor.queue_free()
-			arrival_actor = null
-			arrival_departing = false
 	if observed_day != loop.state.day:
 		observed_day = loop.state.day
 		if loop.state.campaign.introduced:
@@ -117,6 +99,8 @@ func show_guide(welcome: bool = false) -> void:
 	_guide_dialogue(dialogue_lines)
 
 func _guide_choices() -> Array:
+	if loop.state.is_arrival_day():
+		return [{"text": "当前目标", "action": show_guide_goal}, {"text": "再会", "action": loop.hud.close_modal}]
 	var choices := [
 		{"text": "当前目标", "action": show_guide_goal},
 		{"text": "小镇生活", "action": show_guide_topics},
@@ -352,6 +336,9 @@ func _seeds() -> void:
 		action(box,"施肥",mutate.bind(func(): C.fertilize(loop.state,loop.area.selected_tile())))
 
 func _recipes() -> void:
+	if loop.state.is_arrival_day():
+		row(text(C.D.arrival.description))
+		return
 	row(I18n.format("今日菜单 %d/%d", [loop.state.menu.count(true), C.restaurant(loop.state).menu]) + " · 18:00–22:00")
 	for index in range(C.D.recipes.size()):
 		var recipe: Dictionary = C.D.recipes[index]
@@ -445,6 +432,11 @@ func _story() -> void:
 		if list.get_child_count() == 0: row(text("这里还没有手记。"))
 		return
 	var q := C.current_main(loop.state)
+	if loop.state.is_arrival_day():
+		var step := Guide.Onboarding.current(loop.state)
+		var box := row(text(step.name) + "\n" + text(step.description) + "\n" + I18n.format("地点：%s", [step.place]) + "\n" + I18n.format("当前目标：%s · %d/%d", [step.objective, step.progress, step.goal]))
+		box.name = "ArrivalDay"
+		return
 	if not q.is_empty():
 		var progress: int = mini(q.goal,C.metric(loop.state,q.metric))
 		var step := Guide.Onboarding.current(loop.state)
@@ -549,31 +541,96 @@ func _render_intro() -> void:
 	intro_film.render(intro_elapsed)
 
 func finish_intro() -> void:
-	if not is_instance_valid(intro): return
-	intro.hide()
-	intro.queue_free()
-	intro = null
+	if not is_instance_valid(intro) or opening_transition_active: return
 	loop.state.campaign.introduced = true
 	_save_story_checkpoint()
-	get_tree().paused = intro_old_pause
-	_start_opening_stage()
+	# Keep the film visible until the fade fully covers the first world shot.
+	await _start_opening_stage(true)
 
 func opening_active() -> bool:
-	return is_instance_valid(intro) or arrival_active or (loop.state.campaign.introduced and not loop.state.campaign.guide_met)
+	return opening_transition_active or is_instance_valid(intro) or arrival_active or (loop.state.campaign.introduced and not loop.state.campaign.guide_met)
 
-func _start_opening_stage() -> void:
-	if arrival_active or is_instance_valid(intro) or loop.state.campaign.guide_met: return
+func _start_opening_stage(from_film: bool = false) -> void:
+	if opening_transition_active or loop.state.campaign.guide_met or loop.hud.mode == "dialogue": return
+	if is_instance_valid(intro) and not from_film: return
+	opening_transition_active = true
+	get_tree().paused = true
+	# Loading a saved opening can create this controller during a menu fade.
+	if SceneTransition.active:
+		await SceneTransition.finished
+		get_tree().paused = true
 	var stage: int = loop.state.campaign.opening_stage
+	# All world swaps and actor placement happen behind the shared black cover.
+	await SceneTransition.run(_prepare_opening_stage.bind(stage))
 	if stage == 1:
-		if is_instance_valid(arrival_actor): _opening_dialogue(1)
-		else: _start_arrival()
-		return
-	# The public notice grants the trial; the final scene records its terms.
-	if stage == 2: loop.state.restaurant_leased = true
-	var scene: Dictionary = C.D.opening[stage]
-	if loop.location != scene.location: loop.enter(scene.location)
-	_stage_opening_cast(stage)
+		await _walk_opening([
+			{"actor": loop.lane.player, "path": [Vector2(270,324), Vector2(270,258)]},
+			{"actor": arrival_actor, "path": ARRIVAL_PATH.slice(1)}
+		])
+		arrival_active = false
+	elif stage == 2:
+		var door: Vector2 = loop.REST_GATE
+		await _walk_opening([
+			{"actor": loop.lane.player, "path": [door + Vector2(0,16)]},
+			{"actor": arrival_actor, "path": [door]}
+		])
+		await SceneTransition.run(_prepare_restaurant_entry)
+		await _walk_opening([
+			{"actor": loop.lane.player, "path": [Vector2(140,248), Vector2(140,146)]},
+			{"actor": arrival_actor, "path": [Vector2(140,248), Vector2(140,180)]}
+		])
+	# Establish the conversation before returning HUD input to its normal owner.
+	loop.lane.facing = 0 if stage == 1 else 2
+	loop.lane._animate(false, false, 0.0)
+	for actor in opening_cast:
+		actor.face(loop.lane.player.position - actor.position)
+	get_tree().paused = intro_old_pause
+	opening_transition_active = false
 	_opening_dialogue(stage)
+
+func _prepare_opening_stage(stage: int) -> void:
+	if is_instance_valid(intro):
+		intro.hide()
+		intro.queue_free()
+		intro = null
+	_clear_opening_cast()
+	_restore_arrival_camera()
+	match stage:
+		0:
+			loop._commit_travel("dock", Vector2.INF)
+			_stage_opening_cast(0)
+		1:
+			loop._commit_travel("farm", Vector2.INF)
+			loop.lane.player.position = Vector2(350,324)
+			loop.lane.facing = 3
+			arrival_actor = _opening_guide(ARRIVAL_PATH[0])
+			arrival_actor.face(Vector2.LEFT)
+			arrival_active = true
+			# Frame the cottage, the arriving keeper and the conversation together.
+			loop.lane.camera.position = Vector2(0,64)
+		2:
+			loop.state.restaurant_leased = true
+			loop.state.campaign.settling_in = loop.state.day == 1 and loop.state.campaign.chapter == 0 and loop.state.journal.serve == 0
+			loop._commit_travel("town", Vector2.INF)
+			loop.lane.player.position = loop.REST_GATE + Vector2(0,64)
+			loop.lane.facing = 1
+			arrival_actor = _opening_guide(loop.REST_GATE + Vector2(0,36))
+			arrival_actor.face(Vector2.UP)
+	loop.lane._animate(false, false, 0.0)
+	loop.lane.camera.reset_smoothing()
+	loop.lane.camera.force_update_scroll()
+
+func _prepare_restaurant_entry() -> void:
+	_clear_opening_cast()
+	loop._commit_travel("restaurant", Vector2.INF)
+	_stage_opening_cast(2)
+	loop.lane.player.position = Vector2(60,248)
+	loop.lane.facing = 2
+	arrival_actor.position = Vector2(40,248)
+	arrival_actor.face(Vector2.RIGHT)
+	loop.lane._animate(false, false, 0.0)
+	loop.lane.camera.reset_smoothing()
+	loop.lane.camera.force_update_scroll()
 
 func _stage_opening_cast(stage: int) -> void:
 	_clear_opening_cast()
@@ -591,17 +648,26 @@ func _stage_opening_cast(stage: int) -> void:
 		loop.area.add_child(actor)
 		opening_cast.append(actor)
 	if stage == 2:
-		var keeper := preload("res://Scenes/Campaign/guide_actor.gd").new()
-		keeper.position = Vector2(140,180)
-		keeper.face(Vector2.UP)
-		keeper.pose_walk(0.0, false)
-		loop.area.add_child(keeper)
-		opening_cast.append(keeper)
+		arrival_actor = _opening_guide(Vector2(140,180))
+		arrival_actor.face(Vector2.UP)
+		arrival_actor.pose_walk(0.0, false)
+
+func _opening_guide(at: Vector2) -> Node2D:
+	var keeper := preload("res://Scenes/Campaign/guide_actor.gd").new()
+	keeper.name = "Opening_Lucinda"
+	keeper.position = at
+	# Town has no separate interior area; use its existing feet-sorted actors.
+	var parent: Node2D = loop.lane.actors if loop.location == "town" else loop.area
+	parent.add_child(keeper)
+	opening_cast.append(keeper)
+	return keeper
 
 func _clear_opening_cast() -> void:
 	for actor in opening_cast:
 		if is_instance_valid(actor): actor.queue_free()
 	opening_cast.clear()
+	arrival_actor = null
+	arrival_active = false
 
 func _opening_dialogue(stage: int) -> void:
 	opening_dialogue_allowed = true
@@ -609,63 +675,70 @@ func _opening_dialogue(stage: int) -> void:
 	opening_dialogue_allowed = false
 
 func _finish_opening_stage(expected: int) -> void:
-	if loop.state.campaign.opening_stage != expected: return
+	if opening_transition_active or loop.state.campaign.opening_stage != expected: return
 	loop.hud.close_modal()
-	_restore_arrival_camera()
-	_clear_opening_cast()
-	if is_instance_valid(arrival_actor): arrival_actor.queue_free()
-	arrival_actor = null
+	opening_transition_active = true
+	get_tree().paused = true
 	loop.state.campaign.opening_stage += 1
 	if loop.state.campaign.opening_stage == C.D.opening.size():
 		loop.state.campaign.guide_met = true
 		loop.state.restaurant_leased = true
+		loop.state.campaign.settling_in = loop.state.day == 1 and loop.state.campaign.chapter == 0 and loop.state.journal.serve == 0
+	# Save the destination segment before leaving, so interruption replays only
+	# the next introduction and never depends on a half-finished walk.
 	_save_story_checkpoint()
-	if not loop.state.campaign.guide_met: _start_opening_stage()
+	if expected == 0:
+		await _walk_opening([{"actor": loop.lane.player, "path": [Vector2(204,239)]}])
+	elif expected == 1:
+		await _walk_opening([
+			{"actor": loop.lane.player, "path": [Vector2(270,324), Vector2(318,324)]},
+			{"actor": arrival_actor, "path": [Vector2(270,324), Vector2(352,324)]}
+		])
+	if loop.state.campaign.guide_met:
+		_restore_arrival_camera()
+		_clear_opening_cast()
+		get_tree().paused = intro_old_pause
+	opening_transition_active = false
+	if not loop.state.campaign.guide_met: await _start_opening_stage()
 
-func _start_arrival() -> void:
-	if is_instance_valid(intro) or arrival_active or loop.state.campaign.guide_met: return
-	arrival_old_pause = get_tree().paused
-	get_tree().paused = true
-	loop.enter_home_doorstep()
+func _walk_opening(tracks: Array) -> void:
+	# Cinematic motion runs while gameplay/clock/physics are paused. Each track
+	# follows the same native directional animation as ordinary movement.
 	loop.audio.reset_footsteps()
-	arrival_actor = preload("res://Scenes/Campaign/guide_actor.gd").new()
-	arrival_actor.name = "Opening_Yingluo"
-	arrival_actor.position = ARRIVAL_PATH[0]
-	arrival_actor.face(ARRIVAL_PATH[1] - ARRIVAL_PATH[0])
-	arrival_actor.pose_walk(0.0, false)
-	loop.area.add_child(arrival_actor)
-	arrival_path = PackedVector2Array(ARRIVAL_PATH.slice(1))
-	arrival_active = true
-	# Frame both characters above the existing dialogue panel.
-	loop.lane.camera.position = Vector2(0,64)
-	loop.lane.camera.reset_smoothing()
-	loop.lane.camera.force_update_scroll()
-
-func _walk_arrival(delta: float, avoid_player: bool = false) -> bool:
-	var distance := ARRIVAL_SPEED * maxf(0.0, delta)
-	var moving := false
-	while distance > 0.0 and not arrival_path.is_empty():
-		var start: Vector2 = arrival_actor.position
-		var target: Vector2 = arrival_path[0]
-		var next := start.move_toward(target, distance)
-		if avoid_player and preload("res://Scenes/Gameplay/actor_collision.gd").blocks_motion(start, next, loop.lane.player.position): break
-		distance -= start.distance_to(next)
-		moving = moving or next != start
-		arrival_actor.position = next
-		arrival_actor.face(next - start)
-		if next == target:
-			arrival_path.remove_at(0)
-		else:
-			# The step consumed the budget; tiny float remainders cannot advance
-			# a world coordinate and must not spin in this loop.
-			break
-	arrival_actor.pose_walk(delta, moving and not arrival_path.is_empty())
-	return arrival_path.is_empty()
-
-func _finish_arrival() -> void:
-	arrival_active = false
-	get_tree().paused = arrival_old_pause
-	_opening_dialogue(1)
+	for track in tracks: track["next"] = 0
+	while true:
+		await get_tree().process_frame
+		var delta := minf(get_process_delta_time(), 0.05)
+		var pending := false
+		for track in tracks:
+			var actor: Node2D = track.actor
+			var budget := ARRIVAL_SPEED * delta
+			var direction := Vector2.ZERO
+			var travelled := 0.0
+			while budget > 0.0 and track.next < track.path.size():
+				var start := actor.position
+				var target: Vector2 = track.path[track.next]
+				actor.position = start.move_toward(target, budget)
+				var step := start.distance_to(actor.position)
+				budget -= step
+				travelled += step
+				if step > 0.0: direction = actor.position - start
+				if actor.position == target: track.next += 1
+				else: break
+			var moving: bool = track.next < track.path.size()
+			pending = pending or moving
+			if actor == loop.lane.player:
+				actor.velocity = Vector2.ZERO
+				if not direction.is_zero_approx():
+					loop.lane.facing = (2 if direction.x > 0.0 else 3) if absf(direction.x) > absf(direction.y) else (0 if direction.y > 0.0 else 1)
+				loop.lane._animate(moving, false, delta)
+				loop.lane.avatar.position = loop.lane.WITCH_FOOT_OFFSET + actor.position.round() - actor.position
+				if travelled > 0.0: loop._on_player_moved(travelled, false)
+			else:
+				actor.face(direction)
+				actor.pose_walk(delta, moving)
+		if not pending: break
+	loop.audio.reset_footsteps()
 
 func _restore_arrival_camera() -> void:
 	loop.lane.camera.position = Vector2.ZERO
@@ -673,6 +746,5 @@ func _restore_arrival_camera() -> void:
 	loop.lane.camera.force_update_scroll()
 
 func _exit_tree() -> void:
-	if arrival_active: get_tree().paused = arrival_old_pause
-	elif opening_active(): get_tree().paused = intro_old_pause
+	if opening_active(): get_tree().paused = intro_old_pause
 	if is_instance_valid(decor) and not decor.is_inside_tree(): decor.free()

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-21",
+  "opening_lines": 43,
+  "dialogue_stages": [
+    "dock",
+    "farm",
+    "restaurant"
+  ],
+  "scene_order": [
+    "dock",
+    "farm",
+    "town",
+    "restaurant"
+  ],
+  "fade_out_seconds": 0.25,
+  "fade_in_seconds": 0.25,
+  "manuscript_runtime_match": true,
+  "languages": [
+    "zh_CN",
+    "en",
+    "ja",
+    "zh_TW"
+  ],
+  "build_idempotent": true,
+  "protected_originals_unchanged": true,
+  "formal_player_saves_accessed": false
+}

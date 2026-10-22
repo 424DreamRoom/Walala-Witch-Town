@@ -7,10 +7,7 @@ const HarvestAudio = preload("res://Sounds/Walala/harvest_audio.gd")
 const WorldAudio = preload("res://Sounds/Walala/world_audio_library.gd")
 const InstrumentLibrary = preload("res://Scenes/Instrument/instrument_library.gd")
 const I18n = preload("res://Localization/localized_text.gd")
-const DIALOGUE_SOUNDS := [
-	preload("res://Sounds/Walala/Dialogue/voice_a.wav"),
-	preload("res://Sounds/Walala/Dialogue/voice_b.wav"),
-]
+const DialogueAudio = preload("res://Sounds/Walala/dialogue_audio_library.gd")
 # Wind's source RMS is about -37 dBFS; the old -24 dB trim buried it under music.
 # At default environment volume this yields about -40 dBFS, alongside rain at -43.
 const AMBIENT_GAIN_DB = {"rain": -12.0, "wind": 6.0}
@@ -37,6 +34,8 @@ var effects: Array[Voice] = []
 var dialogue_voices: Array[Voice] = []
 var dialogue_next := 0
 var dialogue_rng := RandomNumberGenerator.new()
+var dialogue_next_usec := 0
+var last_dialogue_variant := {}
 var ambient: Voice
 var soundscape
 var current_music = ""
@@ -244,16 +243,30 @@ func play_instrument_note(index: int) -> void:
 			p.play()
 			return
 
-func play_dialogue_voice(pitch_scale: float = 1.0) -> void:
+func stop_dialogue_voice() -> void:
+	for voice in dialogue_voices: voice.stop()
+	dialogue_next_usec = 0
+
+func play_dialogue_voice(pitch_scale: float = 1.0, speaker_id: String = "") -> void:
 	if effects_muted or channel_gain(character_volume) <= 0 or dialogue_voices.is_empty():
 		return
+	var now := Time.get_ticks_usec()
+	if now < dialogue_next_usec: return
+	dialogue_next_usec = now + DialogueAudio.MIN_INTERVAL_USEC
+	var profile := DialogueAudio.profile(speaker_id)
+	var actor: String = profile[0]
+	var pool: Array = DialogueAudio.POOLS[actor]
+	var variant := dialogue_rng.randi_range(0, pool.size() - 1)
+	if variant == last_dialogue_variant.get(actor, -1):
+		variant = (variant + 1) % pool.size()
+	last_dialogue_variant[actor] = variant
 	var voice: Voice = dialogue_voices[dialogue_next]
 	dialogue_next = (dialogue_next + 1) % dialogue_voices.size()
 	voice.stop()
-	voice.stream = DIALOGUE_SOUNDS[dialogue_rng.randi_range(0, DIALOGUE_SOUNDS.size() - 1)]
-	voice.set_meta("dialogue_gain_db", -14.0)
+	voice.stream = pool[variant]
+	voice.set_meta("dialogue_gain_db", DialogueAudio.GAIN_DB)
 	voice.volume_db = linear_to_db(channel_gain(character_volume)) + voice.get_meta("dialogue_gain_db")
-	voice.pitch_scale = clampf(pitch_scale + dialogue_rng.randf_range(-0.018, 0.018), 0.82, 1.22)
+	voice.pitch_scale = clampf(pitch_scale * float(profile[1]) + dialogue_rng.randf_range(-0.018, 0.018), 0.82, 1.22)
 	voice.stream_paused = false
 	voice.play()
 	counts["dialogue_voice"] = counts.get("dialogue_voice", 0) + 1

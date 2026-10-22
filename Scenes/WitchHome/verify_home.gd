@@ -77,7 +77,7 @@ func run() -> void:
 	var return_position: Vector2 = loop.HOME_EXIT_POSITION
 	await walk_to(loop.area.stations.home)
 	check("walking to house door stays on farm", loop.location == "farm")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("interacting enters home", loop.location == "home")
 	if loop.location != "home":
 		quit(1)
@@ -104,7 +104,7 @@ func run() -> void:
 	check("home R safe spawn", lane.player.position == loop.area.spawn)
 	await walk_to(loop.area.stations.exit)
 	check("walking to exit stays home", loop.location == "home")
-	await key(KEY_E)
+	await key(KEY_F)
 	check("interacting exits home to farm", loop.location == "farm" and lane.player.get_parent() == loop.area)
 	check("farm doorway restored", lane.player.position.distance_to(return_position) < 0.1)
 	check("farm camera restored", lane.camera.limit_right == 960 and lane.camera.limit_bottom == 720)
@@ -152,7 +152,7 @@ func run() -> void:
 	await shot("field")
 	await walk_to(Vector2(60, 115))
 	await walk_to(loop.area.points[0])
-	await key(KEY_E)
+	await key(KEY_F)
 	check("gather feedback visible", loop.notice.visible and loop.backgrounds[2].visible)
 	await shot("field_gather")
 	await create_timer(3.6).timeout

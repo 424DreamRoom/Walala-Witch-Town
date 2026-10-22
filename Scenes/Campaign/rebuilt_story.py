@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DRAFT = ROOT / "Narrative/Rebuild_20261020"
 SPEAKERS = dict(zip(
-    ["薇尔莉娅", "萤萝", "奥萝", "陶陶", "露米", "茉莉", "余烬", "皮普", "澪", "芦苇", "霜铃", "星芒"],
+    ["艾洛温", "露辛达", "莫文", "托宾", "海泽尔", "梅布尔", "布兰", "皮平", "玛伦", "罗文", "阿芙琳", "塞勒涅"],
     ["player", "yingluo", "orla", "toma", "lumi", "mori", "ember", "pip", "nagi", "reed", "yuki", "aster"]))
 TRADITIONAL_PATH = DRAFT / "translations_zh_TW.json"
 TRADITIONAL = json.loads(TRADITIONAL_PATH.read_text(encoding="utf-8")) if TRADITIONAL_PATH.exists() else {}
@@ -63,16 +63,16 @@ def rebuild_story(quests, intro, regions, npcs, story, t):
     names_en = ["The First Menu", "Not Quite a Boatload", "How Much Land Is Enough?", "Lights on the Old Road", "Her Last Night Watch", "An Order Too Large", "The First Cancellation", "Two Lights First", "That Rainy Night", "Opening a Little Later Tomorrow"]
     names_ja = ["最初の献立", "一艘に足りない荷物", "畑はどれだけ必要？", "古道の灯", "彼女の最後の夜番", "大きすぎた注文", "初めてのキャンセル", "まず二つの灯から", "あの雨の夜", "明日は少し遅く開店"]
     rows = [
-        ("serve", 8, 70, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "累计上菜", "Meals served", "配膳数", "今天先准备八份蘑菇汤，陶陶和大家都想尝尝。", "Eight portions of mushroom soup to start. Toma and the others would like a taste.", "今日はまずキノコスープを八食分。トマも皆も楽しみにしてるよ。"),
-        ("harvest", 12, 60, "月芽农场", "Moonbud Farm", "月芽農場", "累计收获", "Crops harvested", "収穫数", "面粉的运费太贵了，大家想合在一起订货。茉莉种的菜也快能收了。", "Flour costs too much to ship alone, so everyone wants to combine orders. Mori's crops are nearly ready too.", "小麦粉だけだと船代が高くて、皆でまとめて注文することに。モリの野菜もそろそろ収穫できそう。"),
+        ("serve", 8, 70, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "累计上菜", "Meals served", "配膳数", "今天先准备八份蘑菇汤，托宾和大家都想尝尝。", "Eight portions of mushroom soup to start. Tobin and the others would like a taste.", "今日はまずキノコスープを八食分。トビンも皆も楽しみにしてるよ。"),
+        ("harvest", 12, 60, "月芽农场", "Moonbud Farm", "月芽農場", "累计收获", "Crops harvested", "収穫数", "面粉的运费太贵了，大家想合在一起订货。梅布尔种的菜也快能收了。", "Flour costs too much to ship alone, so everyone wants to combine orders. Mabel's crops are nearly ready too.", "小麦粉だけだと船代が高くて、皆でまとめて注文することに。メイベルの野菜もそろそろ収穫できそう。"),
         ("fish", 5, 80, "莲雾湿地", "Lotus Marsh", "蓮霧の湿地", "累计鱼获", "Fish caught", "釣果", "田里和鱼池都缺水，谁也不敢多用。旧水渠里那块铁牌，好像跟月环有关。", "The fields and fish pools are short of water. A metal plate in the old channel seems connected to the moonring.", "畑も池も水不足で、皆使いすぎないようにしてる。古い水路の鉄板は月環に関係していそう。"),
-        ("ridge", 6, 100, "霜铃山径", "Frost Ridge", "霜鈴の山道", "山径调查", "Ridge survey", "山道の調査", "河口的灯不亮，船晚上进不来，种苗都闷坏了。霜铃说山上的值守站还留着图纸。", "Boats can't enter at night without the harbor light, and seedlings have spoiled. Yuki says the old station still has plans.", "河口の灯がつかず船が夜に入れなくて、苗が傷んだの。ユキによると、山の詰所に図面が残ってるって。"),
-        ("scrap", 8, 100, "旧械遗址", "Clockwork Ruins", "古機の遺跡", "累计零件", "Parts gathered", "部品採集", "图纸和旧记录找到了。陶陶、奥萝都知道当年的事，这回总算能一起说清楚了。", "We found the plans and old logs. Toma and Orla were there; now they can explain what happened.", "図面と古い記録が見つかった。トマもオルラも当時のことを知ってるから、一緒に詳しく話せそう。"),
+        ("ridge", 6, 100, "霜铃山径", "Frost Ridge", "霜鈴の山道", "山径调查", "Ridge survey", "山道の調査", "河口的灯不亮，船晚上进不来，种苗都闷坏了。阿芙琳说山上的值守站还留着图纸。", "Boats can't enter at night without the harbor light, and seedlings have spoiled. Aveline says the old station still has plans.", "河口の灯がつかず船が夜に入れなくて、苗が傷んだの。アヴリーヌによると、山の詰所に図面が残ってるって。"),
+        ("scrap", 8, 100, "旧械遗址", "Clockwork Ruins", "古機の遺跡", "累计零件", "Parts gathered", "部品採集", "图纸和旧记录找到了。托宾、莫文都知道当年的事，这回总算能一起说清楚了。", "We found the plans and old logs. Tobin and Morwen were there; now they can explain what happened.", "図面と古い記録が見つかった。トビンもモーウェンも当時のことを知ってるから、一緒に詳しく話せそう。"),
         ("restaurant", 1, 120, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "餐厅等级", "Restaurant level", "食堂レベル", "商队想办三十人的宴席。这笔生意能赚不少，可食材和桌椅还没凑齐。", "The merchants want dinner for thirty. It could pay well, but we're short on ingredients and tables.", "商隊から三十人分の宴会の話が来た。売上は大きいけど、食材もテーブルもまだ足りない。"),
         ("serve", 40, 120, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "累计上菜", "Meals served", "配膳数", "宴席取消了，订金也退了。好在熟客们还照常来，明晚的饭还得准备呢。", "The banquet's cancelled and the deposit returned. The regulars are still coming, so there's dinner to prepare for tomorrow.", "宴会は中止で、手付金も返した。でも常連はいつも通り来てくれる。明日のご飯も用意しないとね。"),
         ("repair_stock", 14, 160, "月环观星台", "Moonring Observatory", "月環天文台", "支路修缮材料", "Branch repair materials", "支線の修繕資材", "大家商量好了，先修水门和河口，不用谁整晚守着。这两段要用铁锭4、零件6、月晶4。", "We're starting with the gate and harbor, without an all-night watch. Materials needed: iron 4, parts 6, crystals 4.", "まず水門と河口を直すことになった。誰かが一晩中見張らなくてもいい形に。必要な資材は鉄4、部品6、月晶4。"),
         ("serve", 60, 180, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "累计上菜", "Meals served", "配膳数", "雨一直下，船暂时进不来。粮食还够，水门也有人看着，食堂今晚照常做饭。", "The rain's keeping the boat out. We have enough food and people watching the gate. The eatery's cooking as usual tonight.", "雨が続いて船が入れない。でも食料は足りていて、水門も皆が見てる。食堂は今夜もいつも通り。"),
-        ("serve", 80, 300, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "累计上菜", "Meals served", "配膳数", "雨停了，船也快来了。奥萝带来了新租约，大家还想问问，你打算哪天歇一天？", "The rain's stopped, and the boat will be here soon. Orla has a new lease. Everyone wants to know when you're taking a day off.", "雨がやんで、船もそろそろ来る。オルラは新しい契約書を持ってきた。皆、あなたがいつ休むのか気にしてるよ。"),
+        ("serve", 80, 300, "月灯食堂", "Moon Lantern Kitchen", "月灯食堂", "累计上菜", "Meals served", "配膳数", "雨停了，船也快来了。莫文带来了新租约，大家还想问问，你打算哪天歇一天？", "The rain's stopped, and the boat will be here soon. Morwen has a new lease. Everyone wants to know when you're taking a day off.", "雨がやんで、船もそろそろ来る。モーウェンは新しい契約書を持ってきた。皆、あなたがいつ休むのか気にしてるよ。"),
     ]
     quests.clear()
     for i, row in enumerate(rows):
@@ -122,11 +122,11 @@ def rebuild_story(quests, intro, regions, npcs, story, t):
             npc["lines"][2] = npc["events"][1]
 
     intro[:] = [dict(scene=scene, title=text(zh_title, en_title, ja_title), line=text(zh, en, ja)) for scene, zh_title, en_title, ja_title, zh, en, ja in [
-        ("kitchen", "想开自己的店", "An Eatery of Her Own", "自分のお店を開きたくて", "在雾港后厨干了三年，薇尔莉娅攒下一点钱。她想试着开家小食堂，自己定菜单。", "After three years in a Fog Harbor kitchen, Virelia had a little money saved. She wanted to try running a small eatery and choosing her own menu.", "霧港の厨房で三年働いて、ヴィレリアは少しお金を貯めた。小さな食堂を開いて、自分で献立を決めてみたかった。"),
-        ("notice", "第一季免租", "First Season Rent-Free", "最初の季節は家賃無料", "一张招租告示让她动了心：月芽农场，带住处和食堂，第一季不用交租。", "A rental notice caught her eye: Moonbud Farm, with a cottage and eatery. No rent for the first season.", "目に留まったのは、月芽農場の募集告示。住まいと食堂付きで、最初の季節は家賃がいらない。"),
-        ("road", "带上锅碗，出发", "Packing the Pots and Bowls", "鍋と食器を持って出発", "她带上衣服、锅碗和攒下的钱，坐船去了山谷。自己开店，这还是头一回。", "She packed clothes, cookware and her savings, then took a boat to the valley. This would be her first time running a place of her own.", "服と調理道具、貯めたお金を持って、船で谷へ。自分のお店を持つのは、これが初めてだった。"),
-        ("town", "哗啦啦魔女镇", "Walala Witch Town", "ワララ魔女町", "小镇就在河边，货船能送来面粉和盐。她想，以后食堂进货应该挺方便。", "The town stood by the river, with flour and salt arriving by boat. That should make stocking the eatery easy, she thought.", "川沿いの町には、船で小麦粉や塩が届く。お店の仕入れもしやすそうだと、彼女は思った。"),
-        ("home", "先住下来", "Settling In", "まずはここで暮らそう", "小屋就在田边。她还没想好第一天卖什么，不过，眼下得先吃顿饭。", "The cottage was beside the field. She hadn't settled on an opening menu, but first she needed dinner.", "小さな家は畑のそば。初日の献立はまだ決めていないけれど、まずは自分もご飯を食べなくちゃ。"),
+        ("kitchen", "想开自己的店", "An Eatery of Her Own", "自分のお店を開きたくて", "她在雾港后厨干了三年，攒了点钱，想自己开家小食堂，菜单也自己做主。", "She worked in a Fog Harbor kitchen for three years and saved a little money. Now she wanted to run a small eatery and make her own menu.", "霧港の厨房で三年働いて、少しお金を貯めた。小さな食堂を開いて、献立も自分で決めたかった。"),
+        ("notice", "第一季免租", "First Season Rent-Free", "最初の季節は家賃無料", "她看到一张招租告示，正好是月芽农场，还有住处和食堂，第一季也不用交租。", "A rental notice caught her eye. It was for Moonsprout Farm, with a cottage and eatery, and no rent for the first season.", "目に留まったのは、月芽農場の募集告示。住まいと食堂がついて、最初の季節は家賃もいらない。"),
+        ("road", "带上锅碗，出发", "Packing the Pots and Bowls", "鍋と食器を持って出発", "她带上衣服、锅碗和攒下的钱，坐船去了山谷。自己开店，她还是第一次。", "She packed her clothes, pots and savings, then took a boat to the valley. It was her first time running a place of her own.", "服と調理道具、貯めたお金を持って、船で谷へ。自分のお店を持つのは初めてだった。"),
+        ("town", "哗啦啦魔女镇", "Walala Witch Town", "ワララ魔女町", "小镇就在河边，货船能送面粉和盐过来。她想，以后食堂进货应该不难。", "The town was right by the river, so boats could bring in flour and salt. Stocking the eatery should be easy enough, she thought.", "川沿いの町だから、船で小麦粉や塩を運んでこられる。お店の仕入れも難しくなさそうだ。"),
+        ("home", "先住下来", "Settling In", "まずはここで暮らそう", "田边的小屋已经收拾好了。她先放下行李，去镇上逛逛，开店的事明天再说。", "The cottage beside the field was ready. She would drop off her things, look around town, and worry about opening tomorrow.", "畑のそばの家は片付いていた。荷物を置いて町を見て回ろう。お店のことは明日からでいい。"),
     ]]
     opening = [dict(location="dock", dialogue=scenes[0][:10]), dict(location="farm", dialogue=scenes[0][10:25]), dict(location="restaurant", dialogue=scenes[0][25:])]
     guide = story["guide"]
@@ -134,6 +134,14 @@ def rebuild_story(quests, intro, regions, npcs, story, t):
                  farewell=text("明天晚一点开门吧，今晚咱们先好好吃顿饭。", "Let's open a little later tomorrow. Tonight, let's sit down and eat.", "明日は少し遅く開けよう。今夜はゆっくりご飯を食べようよ。"))
     # Keep only everyday topics: the legacy mystery and magical feast are retired.
     guide["topics"] = [dict(chapter=i, name=q["name"], lines=[q["briefing"]]) for i, q in enumerate(quests)]
+    story["arrival"] = dict(
+        name=text("初来乍到", "Settling Into Town", "町に来たばかり"),
+        objective=text("回家休息", "Rest at home", "家で休む"),
+        place=text("小女巫的家", "Little Witch's Home", "小さな魔女の家"),
+        description=text("今天先安顿行李，熟悉住处和小镇。食堂明天开始营业。", "Unpack and get to know your home and the town today. The eatery opens from tomorrow.", "今日は荷物を片付けて、家や町に慣れる日。食堂の営業は明日から。"),
+        guide=text("你今天刚到，先安顿下来，在镇上逛逛吧。食堂明天再忙，今晚好好休息。", "You've only just arrived. Settle in and have a look around town. The eatery can wait until tomorrow. Get some rest tonight.", "今日は着いたばかりなんだから、まず落ち着いて町を見て回ろう。食堂は明日から。今夜はゆっくり休んでね。"))
+    text("休息", "Rest", "休む")
+    text("食堂明天开始营业。", "The eatery opens from tomorrow.", "食堂の営業は明日から。")
     story.update(opening=opening, story_version=2, story_title=text("明天晚点开门", "Opening a Little Later Tomorrow", "明日は少し遅く開店"))
     TRADITIONAL_PATH.write_text(json.dumps(TRADITIONAL, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return story
