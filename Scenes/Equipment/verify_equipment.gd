@@ -447,6 +447,7 @@ func run() -> void:
 	check("master fishing window eventually expires", not loop.harvest.busy() and loop.state.resources.fish == 0)
 	loop.harvest.paused_for_test = true
 	loop.enter("farm")
+	loop.state.wand_mode = "blue"
 	for node in loop.area.resource_nodes:
 		loop.state.resource_damage[node.resource_id] = State.RESOURCE_HITS
 		node.refresh()

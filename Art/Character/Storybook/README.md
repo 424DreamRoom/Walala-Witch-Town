@@ -1,5 +1,7 @@
 # 参考画风人物重绘
 
+2026-10-22 当前主角已切换为 [WalalaWitchCuteAseprite32](WalalaWitchCuteAseprite32/README.md)：原生32×32可爱版，圆脸、大眼、腮红与上提帽檐，保留152帧、28标签和既有脚底锚点。共享动画入口仍在 `WalalaWitchAseprite32/witch_animation.gd`，其素材常量指向新版；旧版源文件保留。新旧对照见 `WalalaWitchCuteAseprite32/before-after.png`。
+
 2026-10-11 当前主角使用 [WalalaWitchAseprite32](WalalaWitchAseprite32/README.md)：在本机 Aseprite 的32×32画布中直接绘制并保存原生源文件，含四方向 idle / walk / run / cast，独立奔跑姿势及统一的砍树、采矿施法动画；另保留钓鱼姿势。共152帧、9个可编辑图层、28个标签。下文素材和生成流程作为历史版本保留。
 
 上一版记录：2026-10-11 运行时主角和工具动作切换为原生 **32×32** 的 [WalalaWitch32](WalalaWitch32/README.md) / `WalalaTools32`。该版重新设计四方向全身比例，保留紫帽、银发、奶油色领口与挎包，含20帧移动及60帧法杖动作。下文32×48资源、[V2](WalalaWitchV2/README.md)与旧流程作为历史版本保留；该版使用 `tools/build_witch_32.py` 重建。

@@ -16,20 +16,24 @@ const STOPS := {
 	"hall": [Vector2(904,292), Vector2(976,292), Vector2(1008,312)],
 	"north": [Vector2(408,272), Vector2(416,320), Vector2(448,372)],
 	"restaurant": [Vector2(492,728), Vector2(532,760), Vector2(604,736)],
-	"south": [Vector2(580,796), Vector2(680,872), Vector2(756,856)]
+	"south": [Vector2(580,796), Vector2(680,872), Vector2(756,856)],
+	"atelier": [Vector2(1280,584), Vector2(1360,592), Vector2(1392,632)],
+	"library": [Vector2(488,1208), Vector2(560,1208), Vector2(608,1240)],
+	"bakery": [Vector2(168,1160), Vector2(240,1168), Vector2(280,1200)],
+	"windmill": [Vector2(176,1496), Vector2(248,1496), Vector2(288,1464)]
 }
 # morning, work, lunch, afternoon, evening; the same local places stay legible.
 const PROFILES := {
 	"mori": ["west", "garden", "square", "garden", "restaurant"],
 	"ember": ["east", "smith", "restaurant", "smith", "fountain"],
 	"nagi": ["fountain", "river", "square", "river", "restaurant"],
-	"lumi": ["shop", "shop", "restaurant", "hall", "south"],
-	"aster": ["north", "hall", "fountain", "hall", "north"],
-	"toma": ["square", "restaurant", "shop", "restaurant", "south"],
-	"pip": ["east", "smith", "fountain", "north", "restaurant"],
-	"reed": ["west", "garden", "fountain", "river", "south"],
+	"lumi": ["shop", "shop", "restaurant", "bakery", "south"],
+	"aster": ["north", "library", "fountain", "hall", "north"],
+	"toma": ["square", "restaurant", "shop", "bakery", "south"],
+	"pip": ["east", "smith", "fountain", "atelier", "restaurant"],
+	"reed": ["west", "garden", "fountain", "windmill", "south"],
 	"yuki": ["shop", "north", "restaurant", "shop", "south"],
-	"orla": ["square", "hall", "restaurant", "square", "restaurant"]
+	"orla": ["square", "hall", "restaurant", "library", "restaurant"]
 }
 var loop
 var actors: Array = []
@@ -50,7 +54,9 @@ func configure(game_loop, npcs: Array) -> void:
 	var layout: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(loop.lane.ART + "town_layout.json"))
 	for building in layout.buildings:
 		for side in [-1.0, 1.0]:
-			shelters.append(safe_point(Vector2(building.x + side * 48.0, building.y + 12.0)))
+			var shelter := safe_point(Vector2(building.x + side * 48.0, building.y + 12.0))
+			if not shelters.any(func(point): return point.distance_to(shelter) < 20.0):
+				shelters.append(shelter)
 	# Reserve distinct awning positions, including when several residents eat together.
 	for period in range(5):
 		var available := shelters.duplicate()
@@ -82,7 +88,11 @@ func configure(game_loop, npcs: Array) -> void:
 		actor.pause_left = 0.0 if i % 3 != 0 else 0.5 + float(i % 4) * 0.4
 
 func _build_grid() -> void:
-	grid.region = Rect2i(0, 0, 161, 121)
+	# Town dimensions can grow independently of the schedule. Fixed 1280x960
+	# bounds made the southern buildings resolve to the same fallback shelter.
+	var columns := ceili(float(loop.lane.world_size.x) / CELL) + 1
+	var rows := ceili(float(loop.lane.world_size.y) / CELL) + 1
+	grid.region = Rect2i(0, 0, columns, rows)
 	grid.cell_size = Vector2.ONE * CELL
 	grid.diagonal_mode = AStarGrid2D.DIAGONAL_MODE_NEVER
 	grid.update()
@@ -92,9 +102,9 @@ func _build_grid() -> void:
 		obstacles.append(Rect2(gate - Vector2(16, 18), Vector2(32, 36)))
 	for rect in obstacles:
 		var left := maxi(0, floori((rect.position.x - 6.0) / CELL))
-		var right := mini(160, ceili((rect.end.x + 6.0) / CELL))
+		var right := mini(columns - 1, ceili((rect.end.x + 6.0) / CELL))
 		var top := maxi(0, floori((rect.position.y - 1.0) / CELL))
-		var bottom := mini(120, ceili((rect.end.y + 7.0) / CELL))
+		var bottom := mini(rows - 1, ceili((rect.end.y + 7.0) / CELL))
 		for y in range(top, bottom + 1):
 			for x in range(left, right + 1): grid.set_point_solid(Vector2i(x, y))
 	# Prefer authored paths and the square; grass is available around obstacles.
@@ -108,8 +118,8 @@ func _build_grid() -> void:
 		var polygon := PackedVector2Array()
 		for point in plaza.points: polygon.append(Vector2(point[0], point[1]))
 		plazas.append(polygon)
-	for y in range(1, 120):
-		for x in range(1, 160):
+	for y in range(1, rows - 1):
+		for x in range(1, columns - 1):
 			var cell := Vector2i(x, y)
 			if grid.is_point_solid(cell): continue
 			var point := Vector2(cell) * CELL
@@ -201,7 +211,7 @@ func _step(actor, points: Array, delta: float) -> void:
 					actor.face(other.position - actor.position)
 					break
 		elif actor.activity == "work":
-			var focus: Vector2 = {"garden": Vector2(281,339), "smith": Vector2(1020,530), "river": Vector2(1232,652), "hall": Vector2(948,260), "shop": Vector2(620,350), "north": Vector2(454,24), "restaurant": Vector2(570,692), "square": Vector2(682,482)}[actor.place]
+			var focus: Vector2 = {"garden": Vector2(281,339), "smith": Vector2(1020,530), "river": Vector2(1232,652), "hall": Vector2(948,260), "shop": Vector2(620,350), "north": Vector2(454,24), "restaurant": Vector2(570,692), "square": Vector2(682,482), "library": Vector2(536,1174), "bakery": Vector2(205,1128), "atelier": Vector2(1328,550), "windmill": Vector2(212,1460)}.get(actor.place, places[actor.place][0])
 			actor.face(focus - actor.position)
 		actor.pose(delta, false)
 		return

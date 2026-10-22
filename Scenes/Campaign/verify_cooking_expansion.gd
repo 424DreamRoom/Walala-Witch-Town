@@ -64,6 +64,7 @@ func run() -> void:
 
 	for index in range(3,C.D.recipes.size()):
 		s = State.new()
+		s.restaurant_leased = true
 		s.campaign.restaurant = 4
 		s.menu.fill(false)
 		s.menu[index] = true
@@ -114,6 +115,7 @@ func run() -> void:
 	loop.paused_for_test = true
 	loop.state.campaign.introduced = true
 	loop.state.campaign.guide_met = true
+	loop.state.campaign.opening_stage = 3
 	loop.state.campaign.restaurant = 4
 	loop.enter("store")
 	await frames()

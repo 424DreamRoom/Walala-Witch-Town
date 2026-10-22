@@ -1,12 +1,18 @@
 extends SceneTree
 
 const OUT := "res://Art/Environment/Hearthwood/Verification/Ambient/"
+const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
+const Saves = preload("res://Scenes/Save/save_store.gd")
 var lane
 var loop
 var failures := 0
 var capture := false
 
 func _initialize() -> void:
+	Preferences.file_path = "res://output/ambient_verification/preferences.cfg"
+	Saves.directory = "res://output/ambient_verification/saves"
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(Saves.directory))
+	Saves.end_session()
 	capture = "--ambient-capture" in OS.get_cmdline_user_args()
 	run.call_deferred()
 
@@ -76,6 +82,7 @@ func run() -> void:
 	loop = lane.get_node("GameLoop")
 	loop.paused_for_test = true
 	loop.enter("town")
+	await frames()
 	loop.audio.music_muted = true
 	loop.audio.effects_muted = true
 	loop.audio.apply_volume()
@@ -85,9 +92,10 @@ func run() -> void:
 		if AmbientAnimation.registry.assets.has(entry.kind):
 			expected += 1
 	check("all town animated kinds attached", active().size() == expected)
-	check("town trees animate", active("town_tree").size() == 9)
-	check("all lamps animate", active("outdoor_lamp").size() == 6)
-	var tree = active("town_tree")[0]
+	var native_trees: Array = layout.props.filter(func(entry): return entry.kind in ["outdoor_birch", "outdoor_pine"])
+	check("town trees animate", active("outdoor_birch").size() + active("outdoor_pine").size() == native_trees.size())
+	check("all lamps animate", active("outdoor_lamp").size() == layout.props.filter(func(entry): return entry.kind == "outdoor_lamp").size())
+	var tree = active("outdoor_birch")[0]
 	var anchor: Vector2 = tree.sprite.get_parent().position
 	var sprite_position: Vector2 = tree.sprite.position
 	var before: int = tree.sprite.frame
@@ -95,7 +103,7 @@ func run() -> void:
 	check("tree advances in real time", tree.sprite.frame != before)
 	check("tree body and feet stay fixed", tree.sprite.get_parent().position == anchor and tree.sprite.position == sprite_position)
 	check("tree never rotates or scales", tree.sprite.rotation == 0.0 and tree.sprite.scale == Vector2.ONE)
-	check("tree instances use different phases", absf(tree.elapsed - active("town_tree")[1].elapsed) > 0.01)
+	check("tree instances use different phases", absf(tree.elapsed - active("outdoor_birch")[1].elapsed) > 0.01)
 	for node in active():
 		if node.spec.motion == "wind":
 			var bottom: int = node.spec.hinge
@@ -153,6 +161,7 @@ func run() -> void:
 	check("felled tree stops wind", not resource.ambient.enabled and resource.sprite.hframes == 1 and resource.sprite.vframes == 1 and resource.sprite.texture == resource.depleted)
 	check("felling still awards wood once", loop.state.resources.wood == 3)
 	check("stump feet match static art", resource.sprite.position == Vector2(0, -9))
+	loop.state.furniture = loop.state.Furniture.legacy_data()
 	loop.enter("home")
 	await frames()
 	check("home has candle animation", active("home_desk").size() == 1)

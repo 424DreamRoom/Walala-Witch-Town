@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "date": "2026-10-22",
+  "source_sha256": "73ee51c7959088b71b65f0b5a2d41b986d8144a93dd6f709414d09be5daeaab4",
+  "checks": {
+    "lane": {
+      "passed": 67,
+      "failed": 0
+    },
+    "render": {
+      "passed": 192,
+      "failed": 0
+    }
+  },
+  "checks_total": 259,
+  "rendered_frames": 152,
+  "myart_hashes_unchanged": true,
+  "protected_files": 3,
+  "isolated_settings_and_saves": true,
+  "runtime_entry": "Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd",
+  "native_aseprite_reopened_and_exports_exact": true,
+  "note": "Godot logged an environment root certificate store read error; all art and movement assertions passed."
+}

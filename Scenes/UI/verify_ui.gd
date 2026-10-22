@@ -19,6 +19,7 @@ func check(title: String, passed: bool) -> void:
 
 func frames(count: int = 3) -> void:
 	for i in range(count): await process_frame
+	if root.get_node("SceneTransition").active: await root.get_node("SceneTransition").finished
 
 func key(code: Key) -> void:
 	for pressed in [true,false]:
@@ -73,6 +74,7 @@ func run() -> void:
 	await frames(5)
 	lane.automation = true
 	loop = lane.get_node("GameLoop")
+	loop.state.restaurant_leased = true
 	loop.paused_for_test = true
 	loop.enter("town")
 	hud = loop.hud
@@ -159,7 +161,7 @@ func run() -> void:
 	check("dialogue history contains current line",hud.history_panel.visible and hud.history_label.text.contains(hud.lines[0]))
 	await key(KEY_L)
 	await click(hud.choices_root.get_node("DialogueChoice0"))
-	check("dialogue choice opens task journal",hud.mode == "campaign" and paused)
+	check("dialogue choice opens current guide goal",hud.mode == "dialogue" and paused)
 	await shot("journal_progress")
 	await key(KEY_ESCAPE)
 	check("switching modals restores original pause",not paused)
@@ -167,7 +169,7 @@ func run() -> void:
 	await key(KEY_F)
 	await key(KEY_S)
 	await key(KEY_ENTER)
-	check("keyboard confirms dialogue choice",hud.mode == "campaign" and paused)
+	check("keyboard confirms dialogue choice",hud.mode == "dialogue" and paused)
 	await key(KEY_ESCAPE)
 	hud.start_dialogue("小女巫", "res://Art/Character/Storybook/WalalaWitch/walala-witch.aseprite",["第一句。","第二句。"])
 	await key(KEY_F)
@@ -181,12 +183,16 @@ func run() -> void:
 	check("weather HUD uses live weather",hud.weather_art.weather == "rain")
 	loop.lane.weather.set_weather("clear")
 	loop.enter("restaurant")
+	loop.state.menu[0] = true
+	loop.state.menu[2] = true
 	loop._refresh()
 	await shot("restaurant_day")
-	check("day menu remains available without global phase button",loop.menu_buttons[0].visible and not loop.end_button.visible)
+	check("day menu and restaurant opening action remain available",loop.menu_buttons[0].visible and loop.end_button.visible)
 	await click(loop.menu_buttons[2])
 	check("real menu input still works",not loop.state.menu[2])
 	await advance_phase()
+	loop.state.start_service()
+	loop._sync_phase()
 	loop.state.admit()
 	loop.lane.player.position = loop.area.stations.kitchen
 	loop._refresh()
@@ -213,7 +219,11 @@ func run() -> void:
 	await shot("settlement")
 	await click(loop.end_button)
 	check("quest progress survives next day",loop.state.day == 2 and loop.state.journal == progress)
+	loop.state.campaign.stats.serve = loop.state.Campaign.D.quests[0].goal
+	loop.state.journal.serve = loop.state.Campaign.D.quests[0].goal
 	check("active main can complete from accumulated progress",loop.state.Campaign.complete_chapter(loop.state))
+	# The story suite plays every scene; this suite continues testing generic UI.
+	loop.state.campaign.pending_scene = -1
 	loop.campaign_controller.story_filter = "已完成"
 	hud.open_journal()
 	check("completed filter lists only finished chapters",loop.campaign_controller.list.get_child_count() == 1)

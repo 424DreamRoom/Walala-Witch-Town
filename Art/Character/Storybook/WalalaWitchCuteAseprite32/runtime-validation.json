@@ -1,0 +1,8 @@
+{
+	"checks": 192,
+	"exact_source_pixels": true,
+	"failures": 0,
+	"isolated_profile": true,
+	"rendered_frames": 152,
+	"status": "PASS"
+}

@@ -1,0 +1,333 @@
+{
+  "id": "quarry",
+  "size": [
+    640,
+    360
+  ],
+  "spawn": [
+    60,
+    280
+  ],
+  "exit": [
+    24,
+    280
+  ],
+  "gather_points": [
+    [
+      124,
+      152
+    ],
+    [
+      230,
+      182
+    ],
+    [
+      346,
+      140
+    ],
+    [
+      390,
+      266
+    ],
+    [
+      554,
+      286
+    ],
+    [
+      156,
+      318
+    ]
+  ],
+  "routes": [
+    [
+      [
+        24,
+        280
+      ],
+      [
+        112,
+        280
+      ],
+      [
+        164,
+        220
+      ],
+      [
+        276,
+        220
+      ],
+      [
+        352,
+        188
+      ],
+      [
+        408,
+        232
+      ],
+      [
+        500,
+        232
+      ],
+      [
+        562,
+        288
+      ]
+    ],
+    [
+      [
+        164,
+        220
+      ],
+      [
+        124,
+        152
+      ]
+    ],
+    [
+      [
+        276,
+        220
+      ],
+      [
+        230,
+        182
+      ]
+    ],
+    [
+      [
+        352,
+        188
+      ],
+      [
+        346,
+        140
+      ]
+    ]
+  ],
+  "water": [
+    [
+      448,
+      128,
+      128,
+      64
+    ],
+    [
+      464,
+      112,
+      96,
+      96
+    ]
+  ],
+  "resources": [
+    [
+      218,
+      288
+    ],
+    [
+      348,
+      286
+    ]
+  ],
+  "props": [
+    {
+      "kind": "outdoor_rock",
+      "x": 280,
+      "y": 162,
+      "w": 38,
+      "h": 20,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_ore",
+      "x": 402,
+      "y": 164,
+      "w": 24,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_crates",
+      "x": 104,
+      "y": 218,
+      "w": 28,
+      "h": 16,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_barrel",
+      "x": 148,
+      "y": 230,
+      "w": 18,
+      "h": 14,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 588,
+      "y": 310,
+      "w": 38,
+      "h": 20,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 26,
+      "y": 134,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 72,
+      "y": 104,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 142,
+      "y": 98,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 422,
+      "y": 96,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 584,
+      "y": 104,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 620,
+      "y": 152,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 608,
+      "y": 336,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 44,
+      "y": 224,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 86,
+      "y": 330,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 288,
+      "y": 340,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 440,
+      "y": 338,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 584,
+      "y": 326,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    }
+  ],
+  "landmark": [
+    280,
+    160
+  ],
+  "fishing": {
+    "position": [
+      500,
+      210
+    ],
+    "anchor": [
+      500,
+      232
+    ],
+    "water": [
+      500,
+      178
+    ]
+  },
+  "solids": [
+    [
+      464,
+      112,
+      96,
+      16
+    ],
+    [
+      448,
+      128,
+      128,
+      16
+    ],
+    [
+      448,
+      144,
+      128,
+      16
+    ],
+    [
+      448,
+      160,
+      128,
+      16
+    ],
+    [
+      448,
+      176,
+      128,
+      16
+    ],
+    [
+      464,
+      192,
+      96,
+      16
+    ],
+    [
+      242,
+      148,
+      76,
+      10
+    ]
+  ],
+  "ground": "res://Art/WorldPolish/quarry_ground.aseprite",
+  "preview": "res://Art/WorldPolish/quarry_preview.aseprite"
+}

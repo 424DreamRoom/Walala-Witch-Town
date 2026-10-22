@@ -83,8 +83,6 @@ func _refresh_language(_locale: String) -> void:
 			if is_instance_valid(instrument_view): instrument_view.refresh_language()
 		"map":
 			map_view.refresh_language()
-		"instrument":
-			instrument_view.refresh_language()
 		"dialogue":
 			loop.audio.stop_dialogue_voice()
 			var complete := dialogue_text.visible_characters < 0 or dialogue_text.visible_characters >= dialogue_text.get_total_character_count()
@@ -271,10 +269,12 @@ func refresh() -> void:
 	_refresh_hotbar_selection()
 	var preparation: bool = loop.location == "restaurant" and s.phase == "day" and not s.is_arrival_day()
 	var arrival_rest: bool = s.is_arrival_day() and loop.location == "home" and s.campaign.guide_met
-	loop.end_button.visible = s.phase == "result" or preparation or arrival_rest
-	loop.end_button.position = Vector2(450, 250) if preparation else Vector2(270, 230)
+	var sold_out: bool = loop.location == "restaurant" and loop.at_counter("kitchen") and s.service_exhausted()
+	loop.end_button.visible = s.phase == "result" or preparation or arrival_rest or sold_out
+	loop.end_button.position = Vector2(450, 250) if preparation or sold_out else Vector2(270, 230)
 	if arrival_rest: loop.end_button.position = Vector2(530, 12)
-	loop.end_button.size = Vector2(180, 26) if preparation else Vector2(100, 26)
+	loop.end_button.size = Vector2(180, 26) if preparation or sold_out else Vector2(100, 26)
+	if sold_out: loop.backgrounds[1].size.y = 222
 
 func _refresh_hotbar_selection() -> void:
 	var index: int = loop.state.selected_hotbar_slot
@@ -490,6 +490,12 @@ func _refresh_dialogue_speaker() -> void:
 		dialogue_portrait.texture = atlas
 	else:
 		dialogue_portrait.texture = texture
+	# Portrait sources have different canvases. Fit whole integer pixels so a
+	# 32px character renders at 64px, with consistent line thickness and margins.
+	var native := dialogue_portrait.texture.get_size()
+	var factor := maxf(1.0, floorf(minf(64.0 / native.x, 72.0 / native.y)))
+	dialogue_portrait.size = native * factor
+	dialogue_portrait.position = Vector2((88.0 - dialogue_portrait.size.x) / 2.0, 8.0 + (72.0 - dialogue_portrait.size.y) / 2.0).floor()
 
 func _show_line() -> void:
 	loop.audio.stop_dialogue_voice()

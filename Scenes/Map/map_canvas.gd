@@ -5,11 +5,13 @@ const ART := "res://Art/Environment/Hearthwood/"
 const UIFont = preload("res://Scenes/Gameplay/ui_font.gd")
 const Furniture = preload("res://Scenes/Building/furniture_catalog.gd")
 const FarmTerrain = preload("res://Scenes/Farm/farm_terrain.gd")
+const RegionLayout = preload("res://Scenes/Campaign/region_layout.gd")
 const PLACES := {"town": "哗啦啦魔女镇", "farm": "月芽农场", "field": "微光采集地", "dock": "潮汐码头", "home": "小女巫的家", "restaurant": "小镇餐厅", "store": "橡果杂货店", "blacksmith": "布兰铁匠铺", "furniture_store": "榛木家具店"}
 const WORLD_RECTS := {"town": Rect2(166, 58, 148, 142), "farm": Rect2(4, 64, 126, 94), "field": Rect2(205, 1, 100, 56), "dock": Rect2(344, 138, 44, 25)}
 const REGION_SIZES := {"farm": Vector2(1440, 960), "field": Vector2(640, 360), "dock": Vector2(640, 360), "home": Vector2(640, 480), "restaurant": Vector2(640, 360), "store": Vector2(640, 480), "blacksmith": Vector2(640, 480), "furniture_store": Vector2(640, 480)}
 var loop
 var view := "world"
+var exploration_region := ""
 var layouts := {}
 var textures := {}
 var markers: Array[Dictionary] = []
@@ -64,14 +66,17 @@ func region_items(region: String) -> Array:
 
 func region_markers(region: String) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
-	if region == "field" and loop.state.campaign.region != "field":
-		var area: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://Art/Campaign/maps/"+loop.state.campaign.region+".json"))
-		var definition: Dictionary = loop.state.Campaign.entry(loop.state.Content.DATA.regions,loop.state.campaign.region)
+	if region == "field" and exploration_id() != "field":
+		var id := exploration_id()
+		var area: Dictionary = RegionLayout.get_region(id)
+		var definition: Dictionary = loop.state.Campaign.entry(loop.state.Content.DATA.regions,id)
 		for index in range(area.gather_points.size()):
+			if loop.state.campaign.gathered.get(id + ":" + str(index), 0) >= 2: continue
 			var point: Array = area.gather_points[index]
-			var id: String = definition.items[index%definition.items.size()]
-			result.append({"point":Vector2(point[0],point[1]),"label":loop.state.Content.DATA.items[id].name,"target":"","type":"field"})
-		result.append({"point":Vector2(500,232),"label":"钓鱼点","target":"","type":"field"})
+			var item_id: String = definition.items[index%definition.items.size()]
+			result.append({"point":Vector2(point[0],point[1]),"label":loop.state.Content.DATA.items[item_id].name,"target":"","type":"field"})
+		result.append({"point":Vector2(area.fishing.anchor[0],area.fishing.anchor[1]),"label":"钓鱼点","target":"","type":"field"})
+		result.append({"point":Vector2(area.exit[0],area.exit[1]),"label":"前往小镇","target":"town"})
 		return result
 	if region == "town":
 		for key in layouts.town.gates:
@@ -106,10 +111,14 @@ func outdoor_region() -> String:
 	return loop.location
 
 func player_anchor(region: String) -> Vector2:
+	if region == "field" and exploration_id() != loop.state.campaign.region: return Vector2.INF
 	if region == loop.location: return loop.lane.player.position
 	if region != outdoor_region(): return Vector2.INF
 	var point: Array = layouts.farm.home if loop.location == "home" else layouts.town.gates[loop.location]
 	return Vector2(point[0], point[1])
+
+func exploration_id() -> String:
+	return exploration_region if view == "field" and not exploration_region.is_empty() else loop.state.campaign.region
 
 func region_size(region: String) -> Vector2:
 	if region == "farm": return Vector2(FarmTerrain.WORLD_SIZE)
@@ -201,7 +210,7 @@ func _draw_detail_decorations(region: String, rect: Rect2) -> void:
 		var terrace := Rect2(project(Vector2(174, 360), region, rect), Vector2(850, 420) * ratio)
 		draw_rect(terrace, Color("f0d6a0", 0.15), true)
 		draw_rect(terrace, Color("7a6547", 0.42), false, 1.0)
-	elif region == "field":
+	elif region == "field" and exploration_id() == "field":
 		for index in range(9):
 			var point := project(Vector2(105 + (index % 3) * 135, 115 + (index / 3) * 66), region, rect)
 			draw_arc(point, 5.0, 0.0, TAU, 12, Color("d8c687", 0.42), 1.0, true)
@@ -249,11 +258,21 @@ func _draw_map_frame(rect: Rect2) -> void:
 func _draw_region(region: String, rect: Rect2) -> void:
 	draw_rect(rect.grow(3), Color("715c41"))
 	draw_rect(rect.grow(1), Color("d4b779"), false, 1.0)
-	if region == "field" and loop.state.campaign.region != "field":
-		var key: String = "campaign_"+loop.state.campaign.region
-		if not textures.has(key): textures[key] = load("res://Art/Campaign/maps/"+loop.state.campaign.region+".aseprite")
+	if region == "field" and exploration_id() != "field":
+		var id := exploration_id()
+		var layout := RegionLayout.get_region(id)
+		var definition: Dictionary = loop.state.Campaign.entry(loop.state.Content.DATA.regions,id)
+		var key: String = "campaign_"+id
+		if not textures.has(key): textures[key] = load(layout.preview)
 		var ground: Texture2D = textures[key]
 		draw_texture_rect(ground,rect,false)
+		var ratio := rect.size / Vector2(640,360)
+		for index in range(layout.resources.size()):
+			var depleted: bool = loop.state.resource_left(id + ":" + str(index)) <= 0
+			var kind := "harvest_stump" if depleted and definition.resource == "wood" else "harvest_rubble" if depleted else "outdoor_pine" if definition.resource == "wood" else "outdoor_ore"
+			var sprite := texture_for(kind)
+			var at: Array = layout.resources[index]
+			draw_texture_rect(sprite, Rect2(rect.position + (Vector2(at[0],at[1]) - Vector2(sprite.get_width()/2.0,sprite.get_height())) * ratio, sprite.get_size() * ratio), false)
 		_draw_detail_decorations(region, rect)
 		_draw_map_frame(rect)
 		return

@@ -1,6 +1,6 @@
 extends Control
-## New-game opening film. Five shots drawn from existing pixel art with integer zoom,
-## plus a public notice, walking witch, dormant moonring and window light.
+## New-game opening film: work, savings, notice, correspondence, packing,
+## river journey, town and docking. Existing art keeps its native palette and pixels.
 ## The film is a pure function of `elapsed`, so pausing, skipping and tests stay deterministic.
 const AsepriteSource = preload("res://Art/Source/aseprite_source.gd")
 const Witch = preload("res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd")
@@ -12,15 +12,21 @@ const WARM := Color("ffc978")
 const INK := Color("fff0d5")
 const BACKGROUNDS := {
 	"kitchen": "res://Art/Environment/Hearthwood/restaurant_background.aseprite",
+	"savings": "res://Art/Environment/Hearthwood/home_overview.aseprite",
 	"notice": "res://Art/Environment/Hearthwood/home_overview.aseprite",
-	"road": "res://Art/Environment/Hearthwood/field_overview.aseprite",
+	"reply": "res://Art/Environment/Hearthwood/home_overview.aseprite",
+	"packing": "res://Art/Environment/Hearthwood/home_overview.aseprite",
 	"town": "res://Art/Environment/Hearthwood/town_overview.aseprite",
-	"home": "res://Art/Environment/Hearthwood/farm_overview.aseprite",
+	"dock": "res://Art/Environment/Hearthwood/dock_ground.aseprite",
 }
 var shots: Array = []
 var elapsed := 0.0
 var textures := {}
 var witch_sheet: Texture2D
+var boat_texture: Texture2D
+var maren_sheet: Texture2D
+var starts: Array[float] = []
+var durations: Array[float] = []
 
 func setup(film_shots: Array) -> void:
 	shots = film_shots
@@ -28,12 +34,27 @@ func setup(film_shots: Array) -> void:
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	for scene in BACKGROUNDS: textures[scene] = AsepriteSource.texture(BACKGROUNDS[scene])
 	witch_sheet = AsepriteSource.texture(Witch.SHEET)
+	boat_texture = AsepriteSource.texture("res://Art/Environment/Hearthwood/dock_boat.aseprite")
+	maren_sheet = AsepriteSource.texture("res://Art/Characters/NPC32/residents/nagi.aseprite")
+	starts.clear()
+	durations.clear()
+	var cursor := 0.0
+	for shot in shots:
+		starts.append(cursor)
+		var duration := float(shot.get("duration", SHOT))
+		durations.append(duration)
+		cursor += duration
 
-static func length_for(count: int) -> float:
-	return SHOT * count
+func length() -> float:
+	return starts[-1] + durations[-1] if not starts.is_empty() else 0.0
 
 func index_at(time: float) -> int:
-	return clampi(int(time / SHOT), 0, shots.size() - 1)
+	for index in range(starts.size() - 1, -1, -1):
+		if time >= starts[index]: return index
+	return 0
+
+func local_time(time: float) -> float:
+	return clampf(time - starts[index_at(time)], 0.0, durations[index_at(time)])
 
 func render(time: float) -> void:
 	elapsed = time
@@ -43,14 +64,21 @@ func _draw() -> void:
 	draw_rect(Rect2(Vector2.ZERO, SCREEN), Color("272333"))
 	if shots.is_empty(): return
 	var index := index_at(elapsed)
-	var t := clampf(elapsed - index * SHOT, 0.0, SHOT)
+	var duration: float = durations[index]
+	var shot_time := local_time(elapsed)
+	# Original drawing motion is normalized to six seconds; reading time is
+	# independent, so a longer caption does not make the subject leave early.
+	var t := shot_time / duration * SHOT
 	match String(shots[index].scene):
 		"kitchen": _kitchen(t)
+		"savings": _savings(t)
 		"notice": _notice(t)
-		"road": _road(t)
+		"reply": _reply(t)
+		"packing": _packing(t)
+		"voyage": _voyage(t)
 		"town": _town(t)
-		"home": _home(t)
-	var fade := clampf(minf(t, SHOT - t) / FADE, 0.0, 1.0)
+		"dock": _dock(t)
+	var fade := clampf(minf(shot_time, duration - shot_time) / FADE, 0.0, 1.0)
 	draw_rect(Rect2(Vector2.ZERO, SCREEN), Color(0.153, 0.137, 0.2, 1.0 - fade))
 
 # -- shots -----------------------------------------------------------------
@@ -62,7 +90,65 @@ func _kitchen(t: float) -> void:
 	var flicker := 0.5 + 0.5 * sin(t * 9.0) * sin(t * 3.7)
 	_glow(_to_screen(Vector2(275, 96), origin, 2), 70.0, WARM, 0.10 + 0.06 * flicker)
 	_witch("idle", 1, t, Vector2(150, 128), origin, 2)
+	# Steam and changing stove light show work continuing through the shot.
+	for puff in range(5):
+		var rise := fmod(t * 14.0 + puff * 7.0, 35.0)
+		var steam := _to_screen(Vector2(272 + sin(t * 2.0 + puff) * 3.0, 94 - rise), origin, 2)
+		draw_rect(Rect2(steam, Vector2(3, 5)), Color(INK, 0.24 * (1.0 - rise / 35.0)))
 	_tint(Color(1.0, 0.75, 0.45, 0.08))
+
+func _desk() -> void:
+	_background("savings", Vector2(285,112), 2)
+	_tint(Color(0.10,0.08,0.16,0.38))
+	draw_rect(Rect2(152,38,336,160), Color("563c32"))
+	draw_rect(Rect2(160,42,320,148), Color("a57850"))
+
+func _savings(t: float) -> void:
+	_desk()
+	draw_rect(Rect2(190,58,140,110), Color("e9d8ad"))
+	for row in range(5):
+		draw_rect(Rect2(202,74 + row * 16,64,2), Color("80634c"))
+		draw_rect(Rect2(284,74 + row * 16,30,2), Color("80634c"))
+	# Two modest piles beside an expense ledger, all above the caption band.
+	for coin in range(12):
+		var arrival := clampf(t * 3.0 - coin, 0.0, 1.0)
+		var target := Vector2(368 + (coin % 3) * 18, 122 - floori(coin / 3.0) * 8)
+		var at := Vector2(target.x, roundf(lerpf(48.0, target.y, arrival)))
+		if arrival > 0.0:
+			draw_rect(Rect2(at,Vector2(13,6)), Color("d6a555"))
+			draw_rect(Rect2(at + Vector2(2,0),Vector2(9,2)), Color("ffe0a0"))
+
+func _reply(t: float) -> void:
+	_desk()
+	# A written inquiry and a reply placed beside it; no anonymous falling letter.
+	for sheet in range(2):
+		var x := 190.0 + sheet * 134.0
+		var slide := 0.0 if sheet == 0 else roundf(20.0 * (1.0 - clampf(t / 2.0,0,1)))
+		draw_rect(Rect2(x,52 + slide,116,118), Color("e9d8ad"))
+		for row in range(6):
+			draw_rect(Rect2(x + 12,72 + slide + row * 13,84 if row < 5 else 44,2),Color("80634c"))
+	_paper(Vector2(422,155),0.0)
+	var pen := Vector2(260 + sin(t * 4.0) * 12,138)
+	draw_line(pen,pen + Vector2(14,-25),Color("423044"),3)
+
+func _packing(t: float) -> void:
+	_desk()
+	var trunk := Rect2(236,75,168,100)
+	draw_rect(trunk.grow(6),Color("563c32"))
+	draw_rect(trunk,Color("c69764"))
+	draw_rect(trunk.grow(-8),Color("493b39"))
+	for bowl in range(3):
+		var y := roundf(lerpf(52.0,132.0 - bowl * 9,clampf((t - bowl * 0.4) / 1.2,0,1)))
+		draw_rect(Rect2(262,y,38,9),Color("d8c7aa"))
+		draw_rect(Rect2(266,y + 9,30,5),Color("9c8f82"))
+	draw_circle(Vector2(352,120),24,Color("5d6270"))
+	draw_circle(Vector2(352,120),18,Color("9495a0"))
+	draw_rect(Rect2(374,115,24,8),Color("493b39"))
+	_paper(Vector2(329,151),0)
+	if t > 3.0:
+		var strap := clampf((t - 3.0) / 1.5,0,1)
+		draw_rect(Rect2(254,73,8,roundf(104 * strap)),Color("d6a555"))
+		draw_rect(Rect2(378,73,8,roundf(104 * strap)),Color("d6a555"))
 
 func _notice(t: float) -> void:
 	# A pinned public advertisement. The circled rent clause is visual, not a
@@ -79,25 +165,31 @@ func _notice(t: float) -> void:
 	draw_circle(Vector2(314, 42), 4, Color("9a5e40"))
 	draw_arc(Vector2(294, 133), 57, 0, TAU * clampf((t - 1.0) / 1.5, 0, 1), 64, Color("b5534b"), 2)
 
-func _road(t: float) -> void:
-	# The first journey of her own: walking the forest road with her trunk of pots.
-	var x := lerpf(70.0, 380.0, t / SHOT)
-	var origin := Vector2(roundf(clampf(x - 160.0, 0.0, 320.0)), 171.0)
-	_background("road", origin, 2)
-	_tint(Color(1.0, 0.85, 0.6, 0.06))
-	var feet := Vector2(roundf(x), 266.0)
-	var bob := 1.0 if fmod(t, 0.28) < 0.14 else 0.0
-	var trunk := _to_screen(feet + Vector2(-17, -9 + bob), origin, 2)
-	draw_rect(Rect2(trunk, Vector2(20, 16)), Color("6e4a32"))
-	draw_rect(Rect2(trunk + Vector2(0, 4), Vector2(20, 2)), Color("c9a46a"))
-	draw_rect(Rect2(trunk + Vector2(8, -4), Vector2(4, 4)), Color("3d2a20"))
-	_witch("walk", 2, t, feet, origin, 2)
+func _voyage(t: float) -> void:
+	draw_rect(Rect2(Vector2.ZERO,SCREEN),Color("598b99"))
+	for row in range(16):
+		for column in range(8):
+			var x := fposmod(column * 97.0 - t * (20 + row % 3 * 5) + row * 31,680.0) - 20
+			draw_rect(Rect2(roundf(x),row * 14,22,2),Color("87adb2"))
+	# Riverbanks scroll past the existing cargo-boat sprite; it is a river
+	# journey rather than the old forest walk beneath a sailing caption.
+	for bank in range(2):
+		for patch in range(14):
+			var x := fposmod(patch * 58.0 - t * 24,812.0) - 58
+			var y := -12.0 + bank * 212.0
+			draw_rect(Rect2(roundf(x),y,60,28 + (patch % 3) * 4),Color("668460"))
+	var center := Vector2(310 + roundf(t * 9),140 + roundf(sin(t * 3) * 2))
+	_draw_boat(center, true)
+	_witch("idle",2,t,center + Vector2(-8,-14),Vector2.ZERO,1)
+	_luggage(center + Vector2(-28,-22))
+	for wake in range(4):
+		draw_rect(Rect2(center + Vector2(-90 - wake * 13,6 + wake % 2 * 4),Vector2(8,2)),Color("c3d5ce"))
 
 func _town(t: float) -> void:
 	# The ring was shut down years ago; it does not fail as the witch arrives.
 	var origin := Vector2(362.0, roundf(lerpf(290.0, 330.0, t / SHOT)))
 	_background("town", origin, 1)
-	_tint(Color(0.16, 0.10, 0.26, 0.42))
+	_tint(Color(0.95,0.81,0.60,0.05))
 	var center := _to_screen(Vector2(682, 452), origin, 1)
 	var ring := 0.12
 	if ring > 0.0:
@@ -106,22 +198,35 @@ func _town(t: float) -> void:
 	for spot in [Vector2(455, 420), Vector2(812, 468), Vector2(750, 330), Vector2(1100, 545)]:
 		_glow(_to_screen(spot, origin, 1), 10.0, WARM, 0.05)
 
-func _home(t: float) -> void:
-	# She climbs to the unlocked cottage; the windows warm up as she sets down her trunk.
-	var origin := Vector2(30.0, 70.0)
-	_background("home", origin, 1)
-	var dusk := clampf((t - 2.5) / 2.0, 0.0, 1.0)
-	_tint(Color(0.20, 0.12, 0.28, 0.18 + 0.22 * dusk))
-	var walking := t < 3.4
-	var feet := Vector2(268, roundf(lerpf(330.0, 262.0, clampf(t / 3.4, 0.0, 1.0))))
-	if not walking:
-		var trunk := _to_screen(feet + Vector2(12, -9), origin, 1)
-		draw_rect(Rect2(trunk, Vector2(10, 8)), Color("6e4a32"))
-		draw_rect(Rect2(trunk + Vector2(0, 2), Vector2(10, 1)), Color("c9a46a"))
-	_witch("walk" if walking else "idle", 1, t, feet, origin, 1)
-	var light := clampf((t - 3.6) / 1.4, 0.0, 1.0)
-	for window in [Vector2(218, 214), Vector2(322, 214)]:
-		_glow(_to_screen(window, origin, 1), 26.0, WARM, 0.22 * light)
+func _dock(t: float) -> void:
+	# End at the same pier as the first playable scene, before any farm visit.
+	_background("dock",Vector2(0,70),1)
+	var center := Vector2(574,roundf(lerpf(240,114,clampf(t / 2.0,0,1))))
+	_draw_boat(center)
+	# The pier ends at x=532. Boat and gangplank stay in the water to its east.
+	if t >= 2.0:
+		draw_rect(Rect2(526,109,42,12),Color("a57850"))
+		for x in range(530,568,8): draw_line(Vector2(x,109),Vector2(x,121),Color("674832"),1)
+	var walking := t > 2.5 and t < 4.8
+	var feet := center + Vector2(-8,-14)
+	if t > 2.5:
+		if t < 3.2: feet = Vector2(566,100).lerp(Vector2(510,115),clampf((t - 2.5) / 0.7,0,1)).round()
+		else: feet = Vector2(510,115).lerp(Vector2(300,169),clampf((t - 3.2) / 1.6,0,1)).round()
+	var maren := Vector2(332,153)
+	_shadow(maren,1)
+	draw_texture_rect_region(maren_sheet,Rect2(maren - Vector2(16,32),Vector2(32,32)),Rect2(8 * 32,0,32,32))
+	_witch("walk" if walking else "idle",3,t,feet,Vector2.ZERO,1)
+	_luggage(feet + Vector2(15,-8) if t < 4.8 else maren + Vector2(-15,0))
+
+func _draw_boat(center: Vector2, horizontal: bool = false) -> void:
+	var boat_size := boat_texture.get_size()
+	draw_set_transform(center.round(),PI / 2 if horizontal else 0.0)
+	draw_texture_rect(boat_texture,Rect2(-boat_size / 2,boat_size),false)
+	draw_set_transform(Vector2.ZERO)
+
+func _luggage(at: Vector2) -> void:
+	draw_rect(Rect2(at,Vector2(20,16)),Color("6e4a32"))
+	draw_rect(Rect2(at + Vector2(0,4),Vector2(20,2)),Color("c9a46a"))
 
 # -- drawing helpers -------------------------------------------------------
 

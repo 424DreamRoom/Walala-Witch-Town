@@ -1,0 +1,321 @@
+{
+  "id": "observatory",
+  "size": [
+    640,
+    360
+  ],
+  "spawn": [
+    60,
+    280
+  ],
+  "exit": [
+    24,
+    280
+  ],
+  "gather_points": [
+    [
+      126,
+      176
+    ],
+    [
+      236,
+      144
+    ],
+    [
+      354,
+      164
+    ],
+    [
+      216,
+      286
+    ],
+    [
+      394,
+      288
+    ],
+    [
+      560,
+      280
+    ]
+  ],
+  "routes": [
+    [
+      [
+        24,
+        280
+      ],
+      [
+        112,
+        280
+      ],
+      [
+        190,
+        224
+      ],
+      [
+        286,
+        224
+      ],
+      [
+        364,
+        244
+      ],
+      [
+        500,
+        232
+      ],
+      [
+        560,
+        280
+      ]
+    ],
+    [
+      [
+        190,
+        224
+      ],
+      [
+        126,
+        176
+      ]
+    ],
+    [
+      [
+        286,
+        224
+      ],
+      [
+        236,
+        144
+      ]
+    ],
+    [
+      [
+        286,
+        224
+      ],
+      [
+        354,
+        164
+      ]
+    ]
+  ],
+  "water": [
+    [
+      448,
+      112,
+      128,
+      80
+    ],
+    [
+      464,
+      96,
+      96,
+      112
+    ]
+  ],
+  "resources": [
+    [
+      170,
+      310
+    ],
+    [
+      338,
+      304
+    ]
+  ],
+  "props": [
+    {
+      "kind": "outdoor_rock",
+      "x": 286,
+      "y": 146,
+      "w": 38,
+      "h": 20,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 400,
+      "y": 218,
+      "w": 12,
+      "h": 10,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_lamp",
+      "x": 174,
+      "y": 206,
+      "w": 12,
+      "h": 10,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_flowerbed",
+      "x": 370,
+      "y": 124,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 26,
+      "y": 134,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 72,
+      "y": 104,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 142,
+      "y": 98,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 422,
+      "y": 96,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 584,
+      "y": 104,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 620,
+      "y": 152,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_pine",
+      "x": 608,
+      "y": 336,
+      "w": 20,
+      "h": 12,
+      "solid": true
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 44,
+      "y": 224,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 86,
+      "y": 330,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 288,
+      "y": 340,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 440,
+      "y": 338,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    },
+    {
+      "kind": "outdoor_rock",
+      "x": 584,
+      "y": 326,
+      "w": 0,
+      "h": 0,
+      "solid": false
+    }
+  ],
+  "landmark": [
+    286,
+    144
+  ],
+  "fishing": {
+    "position": [
+      500,
+      210
+    ],
+    "anchor": [
+      500,
+      232
+    ],
+    "water": [
+      500,
+      178
+    ]
+  },
+  "solids": [
+    [
+      464,
+      96,
+      96,
+      16
+    ],
+    [
+      448,
+      112,
+      128,
+      16
+    ],
+    [
+      448,
+      128,
+      128,
+      16
+    ],
+    [
+      448,
+      144,
+      128,
+      16
+    ],
+    [
+      448,
+      160,
+      128,
+      16
+    ],
+    [
+      448,
+      176,
+      128,
+      16
+    ],
+    [
+      464,
+      192,
+      96,
+      16
+    ]
+  ],
+  "ground": "res://Art/WorldPolish/observatory_ground.aseprite",
+  "preview": "res://Art/WorldPolish/observatory_preview.aseprite"
+}

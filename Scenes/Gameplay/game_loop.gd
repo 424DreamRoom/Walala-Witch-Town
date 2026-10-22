@@ -150,6 +150,9 @@ func _ready() -> void:
 	property_service = preload("res://Scenes/Building/property_service.gd").new()
 	property_service.loop = self
 	add_child(property_service)
+	var atmosphere := preload("res://Scenes/Gameplay/world_atmosphere.gd").new()
+	atmosphere.loop = self
+	lane.viewport.add_child(atmosphere)
 	_refresh()
 	Localization.language_changed.connect(_refresh_language)
 
@@ -199,6 +202,8 @@ func _restore_world(world_data: Dictionary) -> void:
 	lane.player.position = _safe_town_position(restored_position) if location == "town" else restored_position
 	if location in ["restaurant", "blacksmith", "store", "furniture_store"]:
 		lane.player.position = _safe_interior_position(restored_position)
+	if location == "field" and state.campaign.region != "field":
+		lane.player.position = area.safe_position(restored_position)
 	if location == "home" and not state.furniture.legacy_fixtures:
 		var feet := Rect2(restored_position - Vector2(5, 6), Vector2(10, 6))
 		var house_floor := State.Furniture.House.floor_for(state.furniture)
@@ -618,6 +623,8 @@ func enter(target: String, return_position: Vector2 = Vector2.INF) -> void:
 func _on_player_moved(distance: float, running: bool) -> void:
 	if state.phase != "result":
 		var surface = footstep_surfaces.resolve(location, lane.player.position, lane.weather.get_weather())
+		if location == "field" and state.campaign.region != "field" and lane.weather.get_weather() != "snow":
+			surface = preload("res://Scenes/Campaign/region_layout.gd").surface(state.campaign.region, lane.player.position)
 		if location == "farm" and surface != "snow" and state.farm.plots.has(str(area.Terrain.index_at(lane.player.position))): surface = "dirt"
 		audio.update_footsteps(distance, running, surface)
 	_check_scene_exit(distance)
@@ -701,6 +708,10 @@ func _unhandled_input(event: InputEvent) -> void:
 	if InputBindings.capture_active or get_tree().paused or exit_pending or state.phase == "result": return
 	# GUI controls consume clicks before world actions reach this handler.
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		# This node receives root input while controls live in a SubViewport.
+		# Its local handled flag cannot prevent the root event from reaching us.
+		# A counter button must finish its click without also toggling the counter.
+		if lane.viewport.gui_get_hovered_control() != null: return
 		interact()
 		get_viewport().set_input_as_handled()
 		return

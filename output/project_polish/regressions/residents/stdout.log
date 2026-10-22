@@ -1,0 +1,36 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+RESIDENT TEST all ten residents installed with feet origins: PASS
+RESIDENT TEST all residents have no overhead names: PASS
+RESIDENT TEST every activity and shelter reachable from town: PASS
+RESIDENT TEST all residents act within first five seconds: PASS
+RESIDENT TEST opening movement avoids buildings and gates: PASS
+RESIDENT TEST whole day has no wall crossings or teleportation: PASS
+RESIDENT TEST whole day keeps resident feet separated: PASS
+RESIDENT TEST whole day uses valid authored frames: PASS
+RESIDENT TEST every resident has sustained daily activity: PASS
+RESIDENT TEST sunset keeps residents until service confirmation: PASS
+RESIDENT TEST night hands residents to existing restaurant loop: PASS
+RESIDENT TEST next morning resumes without position jumps: PASS
+RESIDENT TEST work destinations match resident roles: PASS
+RESIDENT TEST schedule change replans without teleporting: PASS
+RESIDENT TEST rain changes destination without teleporting: PASS
+RESIDENT TEST rain residents reach separate shelters safely: PASS
+RESIDENT TEST snow changes destination without teleporting: PASS
+RESIDENT TEST snow residents reach separate shelters safely: PASS
+RESIDENT TEST clear weather restores daily activities: PASS
+RESIDENT TEST existing save schema remains compatible: PASS
+RESIDENT TEST town detached in interior: PASS
+RESIDENT TEST offscreen residents keep their routines: PASS
+RESIDENT TEST offscreen residents keep solid feet separated: PASS
+RESIDENT TEST return restores same resident nodes: PASS
+RESIDENT TEST nearest visible resident selected: PASS
+RESIDENT TEST moving resident interaction succeeds: PASS
+RESIDENT TEST dialogue freezes all resident positions: PASS
+RESIDENT TEST dialogue close resumes activities: PASS
+RESIDENT TEST controller keeps real frame updates: PASS
+RESIDENT VERIFY END checks=29 failures=0
+FMOD Sound System: System released

@@ -5,7 +5,7 @@ FMOD Sound System: Successfully initialized
 ERROR: Failed to read the root certificate store.
    at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
 REBUILT ten full chapters: PASS
-REBUILT all 436 manuscript lines compiled: PASS
+REBUILT all 535 manuscript lines compiled: PASS
 REBUILT new state roundtrip: PASS
 REBUILT migrate legacy 0: PASS
 REBUILT retain unlock 0grove: PASS
@@ -115,24 +115,60 @@ REBUILT invalid pending scene rejected: PASS
 REBUILT inconsistent opening rejected: PASS
 REBUILT isolated new slot: PASS
 REBUILT opening film pauses: PASS
-REBUILT public notice replaces letter: PASS
+REBUILT eight causal shots end at dock: PASS
+REBUILT film allows 86 seconds of reading: PASS
+REBUILT timeline clamps at both ends: PASS
+REBUILT shot boundary 0: PASS
+REBUILT caption fades at boundary 0: PASS
+REBUILT shot boundary 1: PASS
+REBUILT caption fades at boundary 1: PASS
+REBUILT shot boundary 2: PASS
+REBUILT caption fades at boundary 2: PASS
+REBUILT shot boundary 3: PASS
+REBUILT caption fades at boundary 3: PASS
+REBUILT shot boundary 4: PASS
+REBUILT caption fades at boundary 4: PASS
+REBUILT shot boundary 5: PASS
+REBUILT caption fades at boundary 5: PASS
+REBUILT shot boundary 6: PASS
+REBUILT caption fades at boundary 6: PASS
+REBUILT shot boundary 7: PASS
+REBUILT caption fades at boundary 7: PASS
+REBUILT capture film_0_zh_CN: PASS
+REBUILT capture film_1_zh_CN: PASS
+REBUILT capture film_2_zh_CN: PASS
+REBUILT capture film_3_zh_CN: PASS
+REBUILT capture film_4_zh_CN: PASS
+REBUILT capture film_5_zh_CN: PASS
+REBUILT capture film_6_zh_CN: PASS
+REBUILT capture film_7_zh_CN: PASS
+REBUILT film captions fit zh_CN: PASS
+REBUILT film captions translated zh_CN: PASS
+REBUILT capture film_3_en: PASS
+REBUILT film captions fit en: PASS
+REBUILT film captions translated en: PASS
+REBUILT film captions fit ja: PASS
+REBUILT film captions translated ja: PASS
+REBUILT film captions fit zh_TW: PASS
+REBUILT film captions translated zh_TW: PASS
+REBUILT capture film_dock_handoff: PASS
 REBUILT capture public_notice: PASS
 REBUILT film remains under fade: PASS
 REBUILT opening segment ready 0: PASS
-REBUILT film skip keeps dock dialogue: PASS
-REBUILT Nagi present on dock: PASS
+REBUILT film skip keeps full dock dialogue: PASS
+REBUILT Maren present on dock: PASS
 REBUILT opening dialogue accepts gameplay input: PASS
 REBUILT opening still blocks inventory: PASS
 REBUILT capture opening_dock: PASS
 REBUILT dock farewell precedes world swap: PASS
 REBUILT departure cannot be submitted twice: PASS
 REBUILT destination checkpoint saved before departure: PASS
-REBUILT player walks away from Nagi: PASS
+REBUILT player walks away from Maren: PASS
 REBUILT capture opening_dock_departure: PASS
 REBUILT capture opening_farm_arrival: PASS
 REBUILT opening segment ready 1: PASS
 REBUILT guide and player arrive at cottage: PASS
-REBUILT farm dialogue has fifteen lines: PASS
+REBUILT farm dialogue has twenty-one lines: PASS
 REBUILT capture opening_farm: PASS
 REBUILT farm departure keeps both characters: PASS
 REBUILT capture opening_restaurant_exterior: PASS
@@ -246,4 +282,6 @@ REBUILT disk reload resumes pending chapter: PASS
 REBUILT reload never pays twice: PASS
 REBUILT capture story_journal: PASS
 REBUILT recall keeps progress and inventory: PASS
-REBUILT COMPLETE checks=242 failures=0
+REBUILT opening segment ready 0: PASS
+REBUILT natural film completion reaches full dock scene: PASS
+REBUILT COMPLETE checks=280 failures=0

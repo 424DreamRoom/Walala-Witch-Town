@@ -1,9 +1,9 @@
 {
   "runtime_integrated": true,
   "story_version": 2,
-  "opening_lines": 43,
+  "opening_lines": 60,
   "mainline_chapters": 10,
-  "mainline_lines": 393,
+  "mainline_lines": 475,
   "languages": [
     "zh_CN",
     "en",
@@ -14,7 +14,7 @@
   "capture_verification": {
     "passed": true,
     "mode": "capture",
-    "checks": 242,
+    "checks": 280,
     "exit_code": 0,
     "protected_originals": 3,
     "myart_unchanged": true
@@ -46,7 +46,7 @@
   "headless_verification": {
     "passed": true,
     "mode": "headless",
-    "checks": 225,
+    "checks": 253,
     "exit_code": 0,
     "protected_originals": 3,
     "myart_unchanged": true
@@ -194,5 +194,36 @@
       "arrival_day_home_rest",
       "arrival_second_morning"
     ]
+  },
+  "completeness_revision": {
+    "date": "2026-10-22",
+    "dialogue_lines": 535,
+    "added_lines": 99,
+    "han_characters": 11595,
+    "opening_segments": [
+      14,
+      21,
+      25
+    ],
+    "film_shots": 8,
+    "film_seconds": 86,
+    "new_translation_entries": 114,
+    "translation_table": "Excel/Localization/StoryCompleteness.xlsx",
+    "all_four_languages_fit": true,
+    "film_natural_finish_and_skip": true,
+    "film_shot_boundaries_verified": true,
+    "visual_review": [
+      "film_0_zh_CN",
+      "film_1_zh_CN",
+      "film_2_zh_CN",
+      "film_3_en",
+      "film_4_zh_CN",
+      "film_5_zh_CN",
+      "film_6_zh_CN",
+      "film_dock_handoff"
+    ],
+    "formal_player_saves_accessed": false,
+    "myart_unchanged": true,
+    "build_idempotent": true
   }
 }

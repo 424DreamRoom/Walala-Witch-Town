@@ -5,6 +5,10 @@ This trunk's pretty heavy. What's in it?|この箱、結構重いね。何が入
 Pots and bowls. I'm hoping to open a little eatery, so I brought what I had.|鍋と食器。小さな食堂を開きたくて、家にあるものを持ってきたの。
 Moon Lantern Kitchen? You're the one here to rent it?|月灯食堂？ 借りに来るっていうのは、あなた？
 Yes. The notice said there's a field too, and no rent for the first season. I thought I'd take a look.|うん。畑も付いてて、最初の季節は家賃がいらないって。見に来てみようと思って。
+The town put out that notice. Since the eatery closed, the dock workers have struggled to find a hot meal after unloading.|町が出した募集だよ。食堂が閉まってから、荷下ろしの後に温かいご飯を食べる場所がなくてね。
+I worried it sounded too good, and I'd arrive to find nothing but four walls.|条件がよすぎて、着いたら壁しかないんじゃないかって心配だった。
+The house and stove are there. The free season gives a new business time to settle; it doesn't mean working for the town for free.|家もかまどもあるよ。最初の季節を乗り切れるよう家賃を免除するんだ。町のためにただ働きしてもらう話じゃない。
+That's a relief. I want to earn my living cooking, so I need to know what I can afford.|それなら安心した。料理で暮らしていきたいから、自分のお金のことも確かめておきたくて。
 You've got the right place. I'm Maren. I run the dock and handle deliveries for the town.|ここで合ってるよ。私はマレン。普段は波止場で、町の荷物も受け取ってる。
 I'm Elowen. I expect I'll be asking you to take deliveries for the eatery too.|私はエロウェン。お店の荷物も、これからお願いすることになりそう。
 No problem. Lucinda's waiting over at the farm. I'll come by for a meal once you're open.|もちろん。ルシンダが農場で待ってるよ。開店したら、私もご飯を食べに行くね。
@@ -17,8 +21,14 @@ Yes, this is where you'll live. The roof was patched last month, and the water w
 That's a relief. After seeing all those weeds, I thought the house might take days to sort out too.|よかった。畑が草だらけだったから、家の片付けも何日かかかるかと思ってた。
 We cleaned inside. Can you manage the eatery on your own?|中は掃除しておいたよ。一人でお店をやるの、大変じゃない？
 I worked in a Fog Harbor kitchen for three years, so cooking doesn't worry me. Running a place is new, though.|霧港の厨房で三年働いたから、料理は大丈夫。でも、お店を持つのは初めてなの。
+Three years in the same kitchen? Was the owner sorry to see you go?|三年ずっと同じ店？店主は寂しがったんじゃない？
+She knew I wanted my own place and wrote me a reference. But staying meant always cooking someone else's menu.|自分の店を持ちたいのは知っていて、紹介状も書いてくれた。でも残ったら、ずっと人の決めた献立を作ることになる。
+I want to choose the dishes and welcome the guests myself. I might struggle, but I can't keep waiting until I've saved enough.|自分で献立を決めて、お客さんを迎えてみたい。失敗するかもしれないけど、お金が貯まったらって待ってばかりもいられないし。
 What made you choose here? Isn't Fog Harbor busier?|じゃあ、どうしてここに？ 霧港のほうがにぎやかでしょう？
 The rent there is too high. I've only saved enough for a small place. A season rent-free gives me a chance to try.|向こうは家賃が高くて。貯金も小さなお店の分くらい。ここなら最初の季節は無料だし、やってみたくて。
+You asked about supplies and winter heating in your letter. I thought you'd run a place before.|手紙で仕入れや冬の暖房まで聞いていたから、店をやったことがあるんだと思ってた。
+I asked because I haven't. When the money's gone, a spell over an empty pot won't feed me.|やったことがないから聞くんだよ。お金が尽きたら、空の鍋に呪文を唱えてもご飯にはならないもの。
+Flour and salt come by boat; vegetables are available locally. You'll see the cottage and kitchen I described today.|小麦粉と塩は船で届くし、野菜は町でも買える。手紙に書いた家と厨房も、今日は全部見られるよ。
 The kitchen's small too, but the stove and pots are still there. Do you know what you'll serve?|厨房も小さいけど、かまども鍋も残ってるよ。何を出すか、もう決めた？
 Soup and rice stew to start. They're what I make best, and I can cook small batches while it's quiet.|まずはスープと煮込みご飯かな。その二つが得意だし、お客さんが少なくても少量ずつ作れるから。
 Sounds good! What about the field behind the house? Have you grown vegetables before?|いいね！ 裏の畑はどうする？ 野菜を育てたことはあるの？
@@ -35,6 +45,13 @@ Yes, then you pay monthly. Anything you buy is yours to take if you leave.|え�
 That's good. I've never run my own place before. I'm a little worried it won't work out.|よかった。自分でお店をやるのは初めてだから、うまくいくか少し心配で。
 Try it for a year. If it doesn't suit you, you don't have to renew. Here's the lease; take your time deciding.|まずは一年やってみて、合わなかったら更新しなくていいの。契約書はここよ。よく考えて決めてね。
 I've tested the stove too. It works. I'm Tobin. I used to cook here.|かまども試したよ。ちゃんと使える。僕はトビン。前はここで料理してたんだ。
+Did you run this place before? Why did it close?|前はトビンのお店だったの？どうして閉めたの？
+I helped in the kitchen. The owner went home to care for family, and the town couldn't find anyone to take over.|私は厨房の手伝いだった。前の店主が家族の世話で故郷に戻って、引き受ける人が見つからなかったんだ。
+The town owns the buildings and field. This isn't Tobin's failed business. The old accounts are settled and won't become your debts.|建物と畑は町のものよ。トビンが残した借金じゃない。前の店の勘定は済んでいて、あなたの契約には含まれないわ。
+So I'm renting the place, without taking on the old menu or accounts. Can I set my prices and opening days?|場所を借りるだけで、前の献立や勘定を引き継ぐわけじゃないんだね。値段や営業日も自分で決められる？
+Yes. We want an eatery that can last, not one that serves everyone from its first day.|ええ。長く続く食堂がほしいの。初日から全員の面倒を見てほしいわけじゃないわ。
+I've set aside living expenses; I can't spend everything on furniture. I'll see how much sells this season before buying more.|生活費は別に残してあるから、全部を家具には使えない。最初の季節の売上を見てから、買い足すものを決めるよ。
+That's enough to start. I'll help sometimes, but it's your place. You don't have to do things my old way.|それで十分だ。時々は手伝うけど、あなたの店なんだから、昔のやり方に合わせなくていい。
 That's a relief. I'll put my pots and bowls away first. No rush to open today.|よかった。まず持ってきた鍋と食器を片付けるね。今日は開店を急がなくてもいいかな。
 Exactly, you've only just arrived. Take today to find your way around town.|そうだよ、着いたばかりなんだから。今日は道を覚えながら、町を見て回ろう。
 I'd like that. I don't know any of the streets around here yet.|ちょうど見てみたかったの。この辺の道、まだ全然わからなくて。
@@ -51,18 +68,23 @@ Let's get those eight bowls right. There's bread if anyone's still hungry.|ま�
 Then I'll write eight portions, while they last?|じゃあ八食分って書いて、売り切れたらおしまい？
 Right. It's fine to start small on your first night.|そう。初日なんだから、少なめでも大丈夫。
 Good. No extra water in the pot, then. I was honestly considering it.|うん、鍋に水を足すのはやめる。実はちょっと考えてたんだ。
+Back in Fog Harbor we made dozens of meals at a time. One little pot hardly feels like a real opening.|霧港では食事時になると何十食も作ってたから、小鍋一つだと開店した感じがしないんだ。
+How many cooks did they have, and how many do you have? A small pot is fine. Selling it tells you what tomorrow needs.|向こうには何人料理人がいて、ここには何人いる？小さな鍋でもいい。売れれば明日の量も考えられる。
+Just me. All right, I'll record what sells and what's left, instead of comparing with my old workplace.|私一人。そうだね、売れた量と残った量を記録しよう。前の店の食数と比べるのはやめる。
 The lamp outside is clean. There's a crack in the glass; I've logged it for repair.|入口の灯は拭いたよ。ガラスのひびは修繕帳に書いておいた。
 Is that lamp yours to look after too?|あの灯もあなたの担当？
 I look after the little street lamps. The moonring on the mountain is a separate system.|通りの小さな灯は私の担当。山の月環は、また別の設備なの。
 Has it always been dark?|ずっと消えてるの？
 Yes, it's been off for years. The street lamps work on their own, though, so we'll have light.|うん、もう何年も止まってる。でも街灯は別にともせるから、明かりは大丈夫だよ。
+It's the distant harbor and ridge lights that are affected. I can still tend the small street lamps one by one.|困っているのは河口や山道の遠くの灯なの。町の小さな灯は、今も毎日一つずつ見て回れるから。
+So the whole town isn't without lights. I was wondering how I'd even get dinner to the tables at night.|町じゅうの灯が消えたわけじゃないんだね。夜にどうやって料理を運ぼうかと思ってた。
 Two soups. One in this jar, please.|スープを二つ。一つはこの瓶に。
 Eating the other here?|もう一つはここで？
 I have accounts waiting at the shop. I'd like both to go.|店の帳簿がまだなの。両方持ち帰りたいわ。
 You took lunch away too.|お昼も持ち帰ってたね。
 I ate lunch at the counter. That doesn't count.|お昼は売場で食べたわ。持ち帰ってはいないもの。
 Why not eat here? The soup's ready, and it's better while it's hot.|じゃあ、ここで食べていかない？ スープもよそったし、冷めないうちに。
-It could add a page. Pippin bought three things on credit today.|増えるかもしれないわ。ピピンが三品つけで買ったの。
+All right, I'll eat first. I just worry the ledger will gain another page while I'm away. Pip bought three things on credit today.|わかった、食べてから戻る。ただ遅くなると、帳簿がまた一ページ増えそうで。ピップは今日三つもつけで買ったの。
 Two! That copper wire was mine already!|二品だよ！　銅線は僕のだ！
 There's one table left for sorting that out.|相談するなら、あと一卓空いてるわ。
 Five minutes, then.|じゃあ五分だけ。
@@ -73,6 +95,10 @@ Bread would go soggy overnight in soup. I'll pack it separately.|一晩スープ
 No bread needed. I bought the shop's last two loaves yesterday. Today's delivery didn't come.|パンは要らない。昨日、店の最後の二本を買ったから。今日は荷が来てないの。
 None tomorrow either?|明日も来ないの？
 The boat isn't taking the branch river lately. Too few orders for a trip.|最近は支流に来ないの。町の注文だけでは一便に足りなくて。
+So the boat isn't broken and the suppliers will sell. We just can't spread the cost of this trip?|船が壊れたわけでも、売ってもらえないわけでもなくて、一航海の船代を分けられないってこと？
+Right. Boats use the main river daily, but the valley detour takes half a day. The owner has wages and fuel to cover.|そう。大きな川には毎日船が通るけど、谷へ寄ると半日余計にかかる。船主にも人件費と燃料代があるからね。
+Then half a sack only buys a few days. Tobin's flour won't solve next week's shortage.|半袋では数日しかもたないね。トビンに頼っても、来週また足りなくなる。
+I'll bring the freight rates tomorrow. The store and smithy need supplies too; perhaps we can share a trip.|明日、運賃表を持ってくる。雑貨屋も鍛冶屋も品切れがあるから、一緒の便にできるかもしれない。
 I have half a sack of flour.|うちに半袋あるよ。
 Oh, good! You've still got flour?|よかった！ 小麦粉、まだあったの？
 Yes, I bought it for cooking a while back. Haven't used much lately.|うん、前に料理用に買ったんだ。最近はあまり使ってなくてね。
@@ -105,6 +131,10 @@ Separate lists and payments. Split freight by box. I can check arrivals, but not
 I can spare a morning.|午前中を空けられるわ。
 I'll take the heavy ones. Set a day and tell me ahead.|重い物は俺が。日を決めて、先に知らせてくれ。
 I'll combine the accounts. Last-minute extras wait for the next trip.|帳簿はまとめる。直前の追加は次の便ね。
+If freight is split by box, do light seed shipments pay the same as heavy goods?|箱ごとなら、軽い種と重い荷物が同じ値段になってしまわない？
+The boat charges for space and weight. Light goods can share a crate, but each parcel keeps its own label and account.|船主は場所と重さで計算する。軽い荷物は同じ箱にできるけど、一人ずつ札をつけて勘定も分けるよ。
+We'll confirm the full fare, then each share. Everyone agrees before ordering, so I won't have to advance all the money.|船代を確かめてから各家の分を書く。皆が金額を確認して注文すれば、私が全員の分を立て替えずに済む。
+Then the town's subsidy can fix the damp storeroom. That will help with every delivery, not just one.|町の補助は湿気のある倉庫の修理に使うわ。直せば、一度きりでなく毎回の荷物に役立つものね。
 Could that become a regular boat?|定期便の相談もできるかしら？
 Let's try one trip first. I'll have to ask the skipper about a regular run.|まずは一回試そう。定期便にできるかは、船長とも相談しないと。
 You ordered turnip seeds?|カブの種を頼んだの？
@@ -119,11 +149,15 @@ I haven't named a price yet.|まだ値段を言ってないよ。
 I was afraid you wouldn't want to charge me. We're friends, but I should still pay for the vegetables.|お金を取りにくいかなって。知り合いでも、野菜代はちゃんと払いたいの。
 At least hear the price before you agree to it.|まずは値段を聞いてからにしなさいよ。すぐにうんって言わないで。
 Enough for our first combined load. Two more trials, says the skipper; then it depends on return cargo.|最初の共同注文で一艘分よ。あと二便は試せるけど、その後は帰りの荷次第だって。
+An empty return still costs money, so buying supplies alone won't secure a regular boat?|帰りが空でもお金はかかるから、仕入れをまとめるだけでは定期便にならないんだね？
+Right. Supplies coming in and town goods going out give the owner business both ways, and a reason to reserve a slot.|そう。生活用品を運び込み、町の品を運び出す。往復で商売になってこそ、船期を確保してもらえる。
 Fish can go back. Not many. We'll need ice.|帰りには魚を出せる。少量だけど、氷が必要だね。
 I have seedlings, if they're kept out of the sun.|苗も少し。道中の日差しには弱いけど。
 If we earn something on the return trip too, the freight will be easier to cover.|帰りの便でも稼げたら、船代も出しやすくなるね。
 I'll ask in a letter. Your flour arrives the day after tomorrow.|手紙で聞くね。小麦粉は明後日届くよ。
 Good. Stewed turnips tomorrow night.|よかった。明晩はカブの煮込みね。
+I won't spend all the freight savings on dishes. Some stays for the next order, so a late boat won't tie up all my money.|浮いた船代を全部献立には使わず、次の仕入れ代も残そう。一日船が遅れても、お金が全部止まらないように。
+Keep that separate. What's in the pot and what's left in the account are different things.|それは別に記帳して。鍋に何があるかと、帳簿にいくら残っているかは別だから。
 What about bread?|パンは？
 No bread until the flour arrives. I don't want people waiting for food I can't make.|小麦粉が届くまではお休み。作れないのに待たせちゃ悪いから。
 @chapter_03
@@ -131,6 +165,8 @@ There was water last night. Today I hauled up half a bucket of mud.|昨夜は井
 Mine is low too. It's not your watering. Upstream flow has fallen for days.|私の井戸も低いよ。水やりのせいじゃない。上流の水量が何日も減ってる。
 Stones block half the marsh inlet again. Water's rushing down the old branch channel.|湿地の入口がまた石で半分塞がった。水は旧支路に流れてる。
 We can't just close that channel. It joins the flood drain below.|あの水路は塞げない。下で排水溝につながってる。
+So blocking it might save water now, but back it up into homes when it rains?|今ふさげば水は残せても、雨が降ったら家の方へあふれるかもしれないんだね？
+Yes. Even in a dry spell, the flood channel has to stay open. Today's flow isn't the only concern.|そうだ。水不足でも排水路は残す。今日の流れだけ見て決められない。
 One more dry day and my turnips will wilt.|もう一日乾いたら、カブがしおれるわ。
 The shallow pools are drying too. Divert all the water to fields and the fry won't survive.|浅池も干上がりそう。全部畑へ回せば、稚魚が残れないよ。
 I didn't say all of it. But I've paid for seed and fertilizer.|全部とは言ってないわ。でも種も肥料も、もう払ったの。
@@ -141,6 +177,8 @@ My water records can show where some remains.|水位の記録から、どこに�
 I'll water mine in two batches to save some water. The harvest will be smaller, so I'll warn my buyers.|私の畑は二回に分けて水をやるね。少し節約できるけど収穫は減るから、注文した人に伝えておかないと。
 I'll save the nearly ripe plants. The unplanted plots can wait.|熟しかけの分を先に守るわ。まだまいてない区画は待たせる。
 That leaves a shallow layer downstream.|それなら下流に浅い水を残せる。
+I'll measure the pools this afternoon, and Mabel will record the fields' use. Both figures tell us what's left to share.|午後に池の水位を測る。メイベルは畑で使った量を記録する。両方の数字で、あとどれだけ分けられるかがわかる。
+Planting less costs me income, but that's my business expense. Saving my turnips can't cost you your fry.|植える量を減らして売上が落ちるのは、私の店の勘定だね。私のカブを守るために、そっちの稚魚を犠牲にはできない。
 Even when water returns, I can't suddenly plant everything, can I?|水が戻っても、急に畑全部を植えちゃだめなのね？
 Yes, check there's enough water first. I planted too much last year and lost two trays of seedlings.|うん、水が足りるか考えないとね。私は去年植えすぎて、苗を二鉢分枯らしたの。
 Something's caught in the gate slot. Pippin, what's this plate?|闸の溝に何か挟まってる。ピピン、この鉄板は？
@@ -150,6 +188,8 @@ There are lamp cables buried here too. These holes show the gate and lamp frames
 The edge has melted, like it's been burned. This isn't ordinary wear.|端が溶けてる。焼けたんだろう。古くなっただけじゃ、こうはならない。
 Did someone burn it?|誰かが焼いたの？
 Overheated wiring could have done it too. I won't know until it's opened up.|線が熱くなって焼けたのかもしれない。開けてみないと、まだわからないな。
+There's a branch number on the plate. We should be able to match it to the town plans, but a scorch mark can't tell us the year.|札に支線の番号がある。町の古い図面と照合できるはずだけど、この焦げ跡だけではいつの事故かはわからない。
+I'll record the spot and number and ask Morwen for the plans. Otherwise the next repair starts with the same guesses.|場所と番号を記録して、モーウェンに図面を借りよう。次に水路を直す人が、また最初から推測しなくて済むように。
 Clear the driftwood first; a little more water can pass. Leave the iron channel until I measure the flow again.|まず流木を除こう。少し水が通る。鉄の溝は、流れを測り直すまでそのままに。
 I've changed tonight's menu. These little turnips need an early harvest.|今夜の献立を変えたわ。この小さなカブは早めに採る。
 The tender leaves are edible. I'll sort out the spoiled ones.|若い葉も食べられるよ。傷んだ所を選り分けるね。
@@ -164,6 +204,8 @@ Say it earlier next time. It'll save me a pot.|次は早く言って。一鍋減
 Two boxes of seedlings spoiled on the return trip. All the fish sold, though.|帰りの苗は二箱傷んだ。でも魚は全部売れたよ。
 Were those the boxes in the lower hold?|下の船倉にあった箱？
 Yes. The skipper waited at the river mouth until dawn. An extra night in the boxes.|そう。船長が河口で夜明けを待ったから、一晩余計に箱の中だったの。
+I'd prepared ventilation for unloading that day. The extra night rotted the roots; trimming leaves won't make them saleable.|その日の荷下ろしに合わせて通気を用意したの。一晩延びて根が腐ったから、葉を取って売れる状態じゃない。
+I've recorded both damaged boxes. We'll discuss compensation under the agreement; refusing a dangerous entry wasn't his fault alone.|傷んだ二箱は荷札に記録した。補償は約束に沿って話す。危険な入港を断った船主だけのせいにはできない。
 Wasn't he arriving at night?|夜に着く約束だったでしょう？
 There used to be navigation lights. Now they're out, and old underwater piles have shifted. He won't risk it.|昔は航路灯があった。今は消えて、水中の古い杭も動いた。危なくて入れないの。
 That river-mouth lamp won't stay lit. New wick, new crystal; one flash, then nothing.|河口の灯、芯も月晶も替えたけど、一度光って消えるだけ。
@@ -192,9 +234,15 @@ I remember that date. So much rain. My lamp book was soaked through.|この日�
 Why are all the branches crossed out?|どうして支線が全部消してあるの？
 These marks show a wiring change. The lines were disconnected here and joined differently.|配線を変えた印だ。ここで線を外して、別のつなぎ方にしてる。
 Six separate branches once, each with a crystal box. Later, joined together.|元は六本独立で、それぞれ月晶箱があった。後から一つにつないだんだ。
+What does the moonring actually do? I know it's dark, but it seems to affect both the fields and the boats.|月環って、そもそも何をするものなの？消えているのは知ってるけど、畑の水にも船にも関係するんだね。
+The crystal boxes supply power. Lines report water levels and lamp status, and the ring balances demand. It doesn't create water.|月晶箱が動力を出して、線で水位や灯の状態を送る。月環は各所の使用量を調整するんだ。水を作る装置じゃないよ。
+It doesn't judge river currents for a captain either. A repaired harbor light marks the entrance; it won't make every weather safe.|船長の代わりに流れを判断もしない。引航灯を直せば入口は見えるが、どんな天気でも入れるわけじゃない。
+I see. We're repairing things that support water and transport, not waiting for a miracle to solve everything.|わかった。水や運送に必要な設備を直すんだね。何でも解決してくれる奇跡を待つ話ではないんだ。
 To save money?|節約のため？
 The plan doesn't say.|図には書いてない。
 There's a watch log in the same tube. I've separated the pages that weren't stuck.|同じ筒に当番の日誌もあった。くっついてない頁を分けたよ。
+These are adjustment counts, not just whether the lights worked. Near the end, there were over ten adjustments a night.|これは点灯したかどうかじゃなく、調整した回数だ。最後の数日は一晩に十回以上ある。
+So seeing the lights on told people nothing about how hard someone was working inside.|外で灯がついているのを見ても、中でどれだけ大変だったかはわからなかったんだね。
 Don't pull them apart. I know Cordelia's writing. She trails the last stroke in dates.|無理にはがさないで。コーデリアの字、わかる。日付の最後を長く引くの。
 Then we'll read it slowly tonight. I'll clear the kitchen table.|今夜、ゆっくり読みましょう。厨房の机を空けるわ。
 @chapter_05
@@ -206,16 +254,25 @@ Was that flood when they joined the branches?|全部つなぎ替えたのは、�
 Yes. The lower gate jammed. Every working crystal went to the pumps to save the embankment.|そう。下流の水門が詰まって、使える月晶を排水機に集めた。まず堤を守るためにね。
 Emergency pooling. The instructions say temporary use only.|緊急集約だ。説明には臨時専用ってある。
 There wasn't another way those days.|あの数日は、他に手がなかった。
+But with six lines tied together, a change on one unsettles the others. The original automatic balancing can't work normally.|でも六本をまとめると、一本の使用量が変わるだけでほかも不安定になる。元の自動調整がそのままでは働かないんだ。
+That's why Cordelia stayed up there, shifting power by hand where it was needed. During the flood, it really did save lives.|だからコーデリアが上で見張って、必要な方へ手で動力を回した。洪水の間は、それで助かった人がいた。
 Why wasn't it changed back after the rain?|雨がやんだ後、どうして戻さなかったの？
 Two old branches were damaged. We couldn't afford both repairs. The rest worked, so we delayed.|古い支線が二本壊れた。両方を直すお金がなくて、残りが使えるからと先延ばしにしたの。
 Two were broken. All six went uninspected.|壊れたのは二本。点検を止めたのは六本だ。
 I know. I signed the order to keep it running.|わかってる。動かし続ける許可を出したのは私よ。
+I counted the water we'd lose and the boats we'd delay by shutting down. I didn't count the hours she had to stand watch.|止めたらどれだけ水が減って船が遅れるかばかり考えて、彼女が何時間見張るかを数えていなかった。
+Had she asked to shut it down?|彼女は止めたいって言っていたの？
+Yes, and she reported faults. I kept asking her to hold on until the next funds arrived, then spent them elsewhere first.|ええ、故障の報告もあった。そのたび次の予算までと言って、結局そのお金を先にほかへ使ってしまった。
+I thought she didn't ask because she doubted our skills. Later I learned she had asked, but we never kept the rota going.|手伝いを呼ばないのは私たちに任せられないからだと思ってた。でも頼んでいたんだ。皆で当番を続けられなかった。
 Cordelia was stabilizing the main ring by hand. Any fault, she had to adjust it.|コーデリアが主環を手で安定させていた。どこかが乱れるたびに、調整してたの。
 She had to watch all six branches herself? No wonder she couldn't sleep properly.|六本全部、一人で見てたの？ それじゃ、ちゃんと眠れないよ。
 There were shifts at first. Then harvests, house repairs... fewer and fewer people came.|最初は交代してた。でも収穫や家の修理で、来る人が減っていった。
 Who decided on the shutdown on this last page?|最後の頁の停止は、誰が決めたの？
 She did.|彼女自身よ。
 The main ring burned her hands. Keeping it going would have hurt the others inside too.|主環で手を焼いたの。続けたら、室内の他の人も危なかった。
+The shutdown didn't cause the town's problems. The faults were already there; she stopped damaged lines from putting more people at risk.|彼女が止めたから町に問題が起きたんじゃない。故障は前からあった。傷んだ線で人を危険にさらすのをやめたんだ。
+Then if anyone blames the water shortage on her leaving, these logs need to be shown. She shouldn't take the blame for unrepaired lines.|彼女が見張らないから水が足りないと言う人がいたら、この記録を見せないと。直さなかった線の責任を彼女に負わせたくない。
+I'll make my authorization public. The town owes the explanation; she shouldn't have to defend herself by letter.|運転を続けると署名した書類を公開するわ。町が説明することを、彼女に手紙で証明させたりしない。
 I saw her pull the main switch. The ridge lights went out. The silence frightened me.|総スイッチを切るのを見たよ。山道の灯が消えて、静かすぎて怖かった。
 She did the right thing.|彼女が正しかったわ。
 Yes. I should have stopped it sooner.|ええ。もっと早く止めるべきだった。
@@ -229,6 +286,8 @@ You patrol by day. How many times has your soup gone cold?|昼も巡回してる
 All right. I barely find time to eat as it is. Night shifts too would be too much.|うん。今だってご飯を食べそびれるくらいだもんね。夜番まで増えたら、もたないか。
 The original had six independent branches. A fault stops only one. We can restore that.|原図は六本独立だ。壊れた一本だけ止める形に戻せる。
 More expensive than replacing the main ring alone.|主環だけの交換より、お金はかかるわ。
+Separate protective boxes and breakers cost more. Replacing burnt parts alone leaves the same fault for the next keeper to manage.|独立した保護箱と遮断器に金がかかる。焦げた部品だけ替えても仕組みは同じで、次の当番が古い配線を支えることになる。
+Then we need to compare monthly labor as well as the initial repair bill.|それなら今回の修理代だけでなく、毎月どれだけ人手がかかるかも比べないとね。
 Let's find out how much more. And work out how many people would have to keep watch, and for how long.|どれくらい高くなるか、まず計算しよう。夜番に何人必要で、一人何時間になるのかも。
 And the materials we still owe for. We can't budget new repairs and ignore old debts.|前の材料代もまだ残ってる。新しい修理代だけ計算して、昔の借りを放っておけないわ。
 I'll bring the books tomorrow. We'll check the town's material debts one by one.|明日持ってくるわ。町が払っていない材料代も、一つずつ確認する。
@@ -243,6 +302,9 @@ We can't seat thirty.|三十人は座れないわ。
 We can put tables in the yard. I wanted to expand a little anyway.|庭に机を置ける。もともと少し広げたかったの。
 Paving the yard isn't covered by the lease repairs.|庭の舗装は、契約の修繕費には入らないぞ。
 I'll pay. If this goes well, next season's rent and branch repairs will be easier.|私が出すわ。成功すれば次の季節の家賃も支線の修理も、少し楽になる。
+The town funds the public branches; you don't owe that money. Don't promise banquet profits before you've earned them.|公共の支線は町が資金を集める。あなたの借金ではないわ。まだ稼いでいない宴会の利益を、修繕費に約束しないで。
+I know. Since the free season ended, I've wanted a big order to prove I'm not always depending on everyone.|わかってる。でも家賃免除の季節が終わってから、大きな仕事で、皆に助けてもらうだけじゃないって示したくて。
+Paying suppliers and rent is already running a business. Wanting to repay people won't turn thirty dinners into the work of eight.|野菜代と家賃を払うのも立派な経営よ。恩返ししたくても、三十人分の仕事は八人分にはならない。
 I've never successfully grown the melons on this menu.|献立のメロン、私はまだ育てるのに成功してないよ。
 We can order them from outside.|町外から頼めるわ。
 They want to see local produce.|商隊が見たいのは地元の品物よ。
@@ -258,6 +320,10 @@ I remember.|覚えてるわ。
 Eat first. You're more likely to forget things if you're hungry.|先にご飯を食べよう。空腹で働いてると、余計に忘れっぽくなるよ。
 The merchants are asking for the menu. Once this letter goes out, we can't keep changing the dishes and quantities.|商隊が献立を急いでる。この返事を出したら、料理と数は簡単には変えられないよ。
 I'll count again.|もう一度計算する。
+The deposit reserves the date; the menu isn't confirmed yet. I can still ask about two evenings or fewer guests.|手付金は日程を押さえるもの。献立はまだ確定していないから、二晩に分けるか人数を減らすかは聞けるよ。
+Reply for thirty. I've included the expected pumpkins and fish; I think I can make it work.|三十人で返事して。見込みのカボチャと魚も数えたから、足りると思う。
+Expected supplies aren't supplies already in your kitchen.|見込みの食材は、もう厨房に届いた食材とは違うわよ。
+I'll confirm again. I want to keep the date, or we'll lose the order.|うん、もう一度確かめる。先に日を押さえないと、この仕事を逃してしまうから。
 Three pumpkin plants have root rot. I can't supply last week's estimate.|南瓜が三株、根腐れした。先週の数は出せないよ。
 But I've already promised pumpkin dessert.|南瓜のお菓子をもう伝えたのに。
 Last week I wrote expected harvest. Underneath, subject to weather.|先週書いたのは予想収穫。下には天候次第とも書いたよ。
@@ -276,12 +342,16 @@ You still have to send the truth.|それでも、本当のことは書かない�
 I just wanted this to go well so they'd come back. I've even finished the price list.|今回うまくやって、また来たいって思ってほしかったの。値段表ももう書いたのに。
 But the pumpkins are still growing, and you haven't secured enough fish. You promised too soon.|でもカボチャはまだ畑だし、魚も足りない。約束するのが早すぎたのよ。
 I'll write. Keep the deposit untouched. No new purchases these next two days.|手紙を書くわ。予約金は残して、この二日は何も買い足さない。
+The deposit is untouched, so I can refund it. The sugar and test dishes are my loss, not a reason to take Mabel's seed pumpkins.|手付金は使っていないから返せる。先に買った砂糖や試作の損は私のもの。メイベルの種取り用のカボチャで埋める話じゃない。
+State the portions you can actually provide and let them decide. No third round of test dishes tonight.|今出せる食数を手紙に書いて、先方に決めてもらおう。今夜はもう三度目の試作をしなくていい。
 @chapter_07
 They'll accept twelve guests with local food, but need a different date. Their next stop is booked.|十二人で地元の食材ならいいそう。でも日程は変更ね。この旅の次の予定が決まってるから。
 Cancel this time. A full deposit refund. I'll record my own food losses.|今回は取り消すわ。予約金は全額返す。食材の損は自分で記録する。
 I can explain the weather.|天候の説明は私からできるよ。
 The weather's bad, yes, but I agreed before I'd secured the ingredients. They should know that too.|天気が悪いのは本当。でも食材を揃える前に引き受けたのは私。それもちゃんと伝えたい。
 All right. Next visit, I'll confirm boat dates before you agree.|わかった。次に来る時は、確かな船の日程から伝えるね。
+Keep a refund receipt too. I don't want anyone still thinking I owe the deposit months from now.|返金の受け取りも残しておいて。何か月も後で、まだ手付金を預かったままだと思われたくないから。
+I have. Date, amount and reason are recorded; the merchants will countersign.|残してあるよ。日付と金額、中止の理由も書いた。商隊からも署名が戻ってくる。
 There'll be a next time?|次があるかしら？
 I think so. They offered to come as twelve because they still want to try your food.|あると思うよ。十二人でもいいって言ったのは、まだ食べてみたいからでしょう。
 The yard work can wait. The town still owes the agreed building repairs.|庭の工事は待てる。建物の修繕は、町が約束どおり引き受けるわ。
@@ -289,6 +359,9 @@ I know. Just not much left of this season's earnings.|わかってる。ただ�
 Check the accounts first. You've counted unpaid orders as losses too.|まず帳簿を。まだ払っていない仕入れまで損に入れてるわ。
 I couldn't make it add up last night.|昨夜は計算が合わなかったの。
 Clearly. You counted the same sugar sack twice.|そうね。同じ砂糖を二度数えてる。
+Returning the deposit settles the agreement. Sugar and test dishes you've paid for are losses; unpurchased timber isn't.|手付金を返せば契約の勘定は済む。払った砂糖と試作代は損だけど、まだ注文していない木材は違う。
+Then I still have next month's rent and regular food money. The courtyard fund is gone, but I can keep opening.|それなら来月の家賃と普段の仕入れ代は残る。庭を広げるお金はなくなったけど、店は続けられる。
+Exactly. Know what you've lost, but don't pretend you've lost everything.|そう。いくら損をしたかを認めるのと、全部なくなったと思い込むのは別よ。
 My pumpkins still cost the same. Just fewer of them.|南瓜は前の値段で売るよ。数は少ないけど。
 I may not use them all this week.|今週は使い切れないかも。
 I can store them. Decide your menu first. I'm not rushing to sell everything.|置いておけるよ。献立を決めてからでいい。全部急いで売らなくても平気。
@@ -310,6 +383,9 @@ Gate and harbor first. The ridge is quiet this season; hand-lit beacons will do 
 Fine. I'll keep the daytime route. The old station can be a supply stop.|いいよ。昼の道を使う。旧詰所は補給場所にしよう。
 If the harbor light works on schedule, the skipper will resume trials.|河口が時間どおり光るなら、船長は試航してくれる。
 Let's do those two first. Record the money and time they take; we'll discuss the rest later.|じゃあ、まずその二つね。費用もかかった時間も記録して、残りは後で考えましょう。
+Old debts are paid separately; each new branch gets its own account. The town pays the public costs, and shops state any voluntary share.|古い未払いと新しい二本の工事は別勘定にする。公共分は町が出して、店が分担する分は任意で明記するわ。
+We'll set the rota before switching on. I can inspect, but I can't patrol all day and watch all night too.|動かす前に当番も決めよう。点検はできるけど、昼に巡回して夜も朝まで見張るのはできない。
+Let's ask what each person can truly do. My banquet showed that last-minute favors don't make a lasting arrangement.|今度は皆が本当にできる量を先に聞こう。私の宴会でわかった。急に時間を作ってもらうだけでは、長く続けられない。
 I can make lunch on repair days. But I need the numbers beforehand, so there's food left for the evening guests.|修理の日のお昼は私が作れるよ。ただ、人数は先に決めてね。夜のお客さんの分も残さないと。
 Report the headcount. Extra workers bring their own lunch.|人数を出す。急に増えた分は自分で持参だ。
 I can cover the stove two days. No more. I have plans of my own.|二日なら代わりに炊ける。それ以上は無理。私にも予定があるからね。
@@ -321,6 +397,8 @@ The harbor lamp's lit three times. Longer each time.|河口の灯、三回つい
 Fourth time, it must last the whole approach window. Then it works.|四回目は入港の間ずっともつこと。それで使えると言える。
 Can't you be pleased for a moment?|少しくらい喜べないの？
 I am. Bring the wire that fused on the third test.|喜んでる。三回目に溶けた線を持ってこい。
+The third failure came when we opened the gate too. The breaker cut the harbor branch before it could burn the main ring.|三回目は水門も同時に動かした時だ。保護器が河口の線を切ったから、主環までは焼けなかった。
+The breaker works; the joint still needs fixing. Stopping safely isn't the same as a completed repair. Record both.|保護器は働いたが、接続部は直す。安全に止まれたことと修理完了は別だ。両方記録する。
 New box labels are ready. Each branch switch has its own record.|新しい箱の札、できたよ。支線ごとにスイッチを記録する。
 I've checked the brightness at the river mouth. It needs less light than the summit; too much makes glare on the water.|河口の明るさも測ったよ。山頂ほど明るくなくていい。強すぎると水面がまぶしくなるから。
 I'll go out on the boat. Bright from shore doesn't mean recognizable aboard.|今度は船から見るね。岸で明るくても、船で位置がわかるとは限らないもの。
@@ -343,6 +421,8 @@ Good. Don't keep it on just to make it work.|ああ。無理にともしたま�
 Only that branch stops? The others stay lit?|そこだけ止まって、他は光るの？
 Yes. We tested it. The harbor wasn't affected.|うん。試したよ。河口は何ともなかった。
 The skipper tested it too. He can recognize the position and will enter a little later next trip.|船長も確かめた。位置がわかるから、次は少し遅い入港でもいいって。
+We tested a small boat with a local pilot in clear weather. We need more records before bringing large boats in at night.|晴れた日に、川を知る人の小舟で試した。大型船の夜航は何度か記録を取ってから。灯がついただけで全部は戻せない。
+Then I'll still plan the next delivery for daylight. One good trial doesn't mean I can double tomorrow's order.|次の荷物も昼に着く前提で考えるね。試航がうまくいっても、明日から注文を倍にはできない。
 Upstream is steady. The pools aren't shrinking. I'll watch a few more days before enlarging the field.|上流は安定して、浅池も下がってない。まだ数日見て、畑は広げないよ。
 Same here. The gate opened too fast twice and washed mud down.|私も。二度、門が速く開きすぎて泥が流れてきたからね。
 My new dish can wait too. I want my pumpkins ripe, without filling gaps from outside.|新しい料理も待つわ。外から数を合わせず、自分の南瓜が熟すのを待ちたい。
@@ -352,6 +432,9 @@ She asks if we've fitted a total load limit to prevent overloads. And warns that
 Which one?|どこだ？
 The one you measured last week. You said the plan was wrong, remember?|先週、測り直した所。図面が間違ってるって言ってたでしょう？
 I measured again. Didn't copy it.|測り直した。写してない。
+We've tested the total-load cutoff too. It trips automatically above the limit. We'll keep both branch logs to compare simultaneous use.|総負荷の制限も試した。設定を超えれば、人が気づく前に切れる。二本の記録を一緒に残して、同時使用の様子を比べるよ。
+Night duty is scheduled inspection, not an all-night vigil. If something stops, the person on duty identifies the branch; everyone needn't rush uphill.|夜は決まった時刻の点検で、一晩中座って見張らない。止まったら当番がどの支線か伝えて、全員が山へ走らなくていい。
+The gate's manual mechanism stays in place too. If readings fail, there's still a fallback on site.|水門の手動機構も残してある。計測が狂っても、現場に別の手段がある。
 I'll tell her. Let her sleep properly.|返事に書くね。心配で眠れなくならないように。
 Tell her everyone's getting lunch, and nobody has to stay up there all night. She needn't worry about that.|皆、お昼も食べてるし、夜も山に居続けなくていいって。それは心配しなくていいって伝えてね。
 She asked that three times. I'll make it clear.|手紙で三度聞かれた。はっきり書くよ。
@@ -367,6 +450,8 @@ The pumpkins are in. Two baskets here; the rest spread among houses, not all by 
 My upstairs is empty. Dry goods can go there. Keep wet crates off the floor.|うちの上階が空いてる。乾物を置けるけど、濡れた箱は引きずらないで。
 Gate Two is rising. Driftwood at the outlet. The ring's reading is half a mark off my measurement.|二号水門が増水。出口に流木がある。月環の値は現場と半目盛り違う。
 The signal line's fine; the float is stuck, so its water reading is wrong. I've logged it. The other branches still work.|信号の線は切れてない。浮きが引っかかって水位がずれてるんだ。記録しておいたよ。他の支線は使える。
+That's why we still measure on site. Trusting only the ring's reading would have delayed opening the gate tonight.|普段も現地で水位を測るのはこのためだ。月環の数字だけなら、今夜は開門が遅れていた。
+Rowan spotted it on this shift, and we'll pass on the next log too. I don't have to guess alone where trouble will start.|今の当番のローワンが見つけた。次の当番にも記録を残す。どこで先に問題が起きるか、一人で考えなくていいんだね。
 Use the local reading. I'm going to the gate. Pippin, with me.|現場の値を使う。水門へ行く。ピピンも来い。
 Tools and spare rope are packed. Portable lamps too.|道具と替え紐は箱に。携帯灯もあるよ。
 I've told the two households downstream to stay out of the riverside storehouse tonight. Hazel, here's the town reserve list; could you check the quantities?|下流の二軒には、今夜は川沿いの倉庫を使わないよう伝えたわ。ヘーゼル、町の備蓄一覧よ。数を確かめてもらえる？
@@ -378,6 +463,9 @@ I can watch it.|見られるよ。
 All right. I'll take over after I eat.|ええ。食べ終わったら代わるわ。
 The driftwood's clear and the gate opens. But the old bracket's cracked, so Bran says not to open it any further tonight.|流木は取れたし、水門も開くよ。でも古い支えにひびがあるから、今夜はこれ以上開けないって。
 Keep the present drainage. Change the brace after the rain.|今の排水を維持する。支柱は雨がやんでから替える。
+I wanted to open it further, but Bran showed me the crack. If the support breaks, we lose even the drainage we have.|もっと開こうとしたら、ブランが亀裂を見せたんだ。支柱が折れたら、今の排水さえできなくなる。
+So the new system doesn't make rain harmless. It lets us spot a problem and stop before things give way.|新しい装置があれば雨が怖くなくなるんじゃなくて、無理な場所に気づいて、壊れる前に止められるんだね。
+Right. Tonight, keep people safe and water moving. Tomorrow, account for the damage honestly.|そうだ。今夜は人と排水を守る。壊れたものは明日、正直に数える。
 Is it enough?|足りるかしら？
 For this inflow, yes. Bran and I are watching. If it rises faster, clear the riverside area first.|今の流入ならね。二人で見てる。もっと速く増えたら、川沿いから退避だ。
 I'll make sure no people or animals remain there.|人も家畜も残っていないか、確認してくるわ。
@@ -392,6 +480,8 @@ Take off your wet coat first. I nearly forgot dinner again. Tobin's looked at me
 Four.|四度だよ。
 The skipper sent word: check the current tomorrow morning. A wait, not a cancellation.|船長から伝言。明朝、水勢を見直すって。中止じゃなくて、少し待つの。
 All right, we'll wait for the water to settle. Pumpkin rice stew tomorrow, and bread once the flour gets here.|うん、水が落ち着くのを待とう。明日はカボチャの煮込みご飯で、小麦粉が来たらパンを焼くね。
+This time everyone knows why the boat is late, and shore stocks will last. Before, one late letter could throw us all into confusion.|今度は皆が遅れる理由を知っていて、岸の備蓄もある。前は手紙が一通遅れるだけで、皆が慌てていた。
+Food stocks, meals, lamps and support damage each have a record. When the rain ends, we won't just thank everyone and forget the costs.|使った備蓄、食堂の食事、灯と支柱の損傷は分けて記録した。雨がやんだら、お疲れさまの一言で費用を忘れたりしない。
 Can I have a second bowl tonight?|今夜はおかわりしていい？
 Yes, there's plenty in the pot. Sit down for a bowl when you're done.|いいよ、鍋にまだあるから。仕事が終わったら座って食べてね。
 @chapter_10
@@ -404,8 +494,13 @@ Only half a street to patrol tonight. Aveline's coming with me.|今夜の巡灯�
 Then straight to bed. Mountain mail tomorrow.|終わったら寝るよ。山の郵便は明日。
 Hearing you all make plans for tomorrow, it finally feels like we've got through the rain.|皆が明日の予定を話してると、やっと雨を乗り切ったんだなって思う。
 Yes. We were busy half the night yesterday. Today we can finally sit down to a meal.|そうだね。昨日は夜中まで忙しかったけど、今日はやっと落ち着いてご飯が食べられる。
+Emergency meals and hauling come from the reserve fund. The new support is a public repair, not a personal favor someone owes.|昨夜の応急の食事と運搬は予備費から出す。新しい支柱は公共修繕で、誰かへの借りにはしないわ。
+Once the slips are checked, we can settle. We'll also record who split the stocks in advance, so we remember why the food stayed dry.|伝票を合わせれば清算できる。穀物が無事だったのも、先に分けて保管した人の仕事として残そう。何が役立ったか忘れないように。
 That reminds me, your trial year's nearly up. Would you like to stay? I've brought the new lease; rent is still monthly.|そうだ、試しに始めてもうすぐ一年ね。これからも借りる？ 新しい契約書を持ってきたわ。家賃は引き続き月払いよ。
 I've checked the books. I can pay rent. Can't expand the yard yet.|帳簿を見たわ。家賃は払える。庭はまだ広げられないけど。
+When I arrived, I thought I had to prove myself during the free season. That fear of not earning my place drove the order for thirty too.|来た時は、家賃がいらない間に成果を出さなきゃと思ってた。三十人の注文も、残っていいと思ってもらえないのが怖かったんだ。
+We wanted someone who could make a living, not lose money for the town. The new lease will still state who repairs the buildings and maintains facilities.|町が募集したのは暮らしを立てられる経営者で、町のために赤字を出す人ではないわ。新しい契約でも修理と管理の分担は明記する。
+Then I'm staying because the eatery can support me, and I like living here. I don't need another big order to prove it.|今度残るのは、この店で暮らせるとわかったし、ここでの生活が好きだから。次の大口注文で証明しなくていいんだね。
 The yard can wait.|庭は後で相談しましょう。
 One more thing. A day off each week, posted in advance.|もう一つ。毎週一日は休んで、前もって店先に書きたいの。
 Of course. There's no rule saying you have to open every day.|もちろん。毎日開ける決まりなんてないもの。
@@ -425,12 +520,16 @@ Another letter from Cordelia. She wants to visit in spring. Is there somewhere t
 Yes, I'll write back. She's coming to visit this time; she doesn't need to stay at the watch station.|あるわ。私が返事を書く。今回は遊びに来るんだから、詰所に泊まらなくていいの。
 I have a spare room. She can look at my windowsill flowers. The leaves are far too thick.|うちに部屋があるよ。窓辺の花を見てもらおう。葉っぱが茂りすぎなの。
 I'd like her to see the repaired branches too. But after she's had dinner and a proper rest.|直した支線も見てほしいな。でも飯を食って、ゆっくり休んでからでいい。
+I'll tell her the other four branches are unfinished. She shouldn't arrive expecting full restoration and end up filling the gaps herself.|残り四本はまだ直っていないと手紙に書くよ。全部復旧したと思って来て、また不足を埋めることにならないように。
+And tell her the rota is covered. She can offer advice, but when she wants rest, she's simply a friend staying at my house.|当番がもう決まっていることも書いて。意見は聞きたいけど、休みたい時は私の家に泊まる友達でいてもらう。
 A window seat for her. What does she eat?|窓際の席を空けておく。何が好き？
 Used to love stewed beans, plenty of pepper. Ask her now; don't trust only my memory.|昔は豆の煮込みに胡椒たっぷり。今は本人に聞いて。私の記憶だけで作らないでね。
 The merchants wrote too. Four visitors next month, no private booking. They ask about a seasonal menu.|商隊からも。来月は四人、貸切なし。当季の献立はあるかって。
 Yes. I'll name the actual dishes nearer the time.|あるわ。何を出すかは、その頃に伝える。
 Not filling the list early this time?|今回は先に埋めないの？
 No. Let's see what grows first.|ええ。まず畑で何が育つか見てから。
+I'll confirm the guests, date and price before sending a menu. If four is what I can manage, I'll serve four well.|人数も日も値段も確かめてから献立を送る。四人を迎えられるなら、その四人にちゃんと作ろう。
+That's what I'll reply. Your honest explanation and full refund are why they felt able to ask again.|その通り返事するよ。前に事情を説明して全額返したから、今回も声をかけてくれたんだ。
 We're closed. Why are you still at the stove?|もう閉店だよ。どうしてまだかまどに？
 Tomorrow's stock... What are you holding?|明日の出汁を……それ、何を持ってるの？
 My stewed beans. Not your stock.|私の豆の煮込み。あなたの出汁じゃないよ。

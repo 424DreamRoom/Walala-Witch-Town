@@ -65,7 +65,11 @@ func _process(delta: float) -> void:
 	if observed_day != loop.state.day:
 		observed_day = loop.state.day
 		if loop.state.campaign.introduced:
-			loop.lane.weather.set_weather("snow" if C.season(loop.state)==3 and loop.state.day%3==0 else "rain" if loop.state.day%5==0 else "clear")
+			# The loop can sync yesterday's visible weather before this controller
+			# sees the new day. Derive the transition from the shared forecast rule.
+			var weather: String = loop.state.SeasonalDirector.pulse_for_day(loop.state.day).weather
+			loop.lane.weather.set_weather(weather)
+			loop.state.sync_weather(weather)
 	routines.advance(delta)
 	_update_decor()
 
@@ -168,7 +172,7 @@ func _beat_lines(beats: Array) -> Array:
 	var dialogue_lines: Array = []
 	for beat in beats:
 		var speaker: String = loop.state.campaign.player_name if beat.speaker == "player" else Guide.NAME if beat.speaker == "yingluo" else C.entry(C.D.npcs, beat.speaker).name
-		var portrait: String = "res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.aseprite" if beat.speaker == "player" else Guide.PORTRAIT if beat.speaker == "yingluo" else "res://Art/Characters/NPC32/portraits/" + beat.speaker + ".aseprite"
+		var portrait: String = preload("res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd").SHEET if beat.speaker == "player" else Guide.PORTRAIT if beat.speaker == "yingluo" else "res://Art/Characters/NPC32/portraits/" + beat.speaker + ".aseprite"
 		var region := Rect2(0,0,32,32)
 		if beat.speaker == "yingluo": region = Rect2()
 		dialogue_lines.append({"source": beat.text, "args": [], "speaker": speaker, "translate_speaker": beat.speaker != "player" or speaker == C.DEFAULT_PLAYER_NAME, "portrait": portrait, "portrait_region": region})
@@ -184,7 +188,10 @@ func show_resident(id: String) -> void:
 		if actor.resident_id == id:
 			actor.face(loop.lane.player.position - actor.position)
 			actor.pose(0.0, false)
+	var first_today: bool = loop.state.campaign.residents[id].talk_day != loop.state.day
 	var dialogue_lines := C.talk(loop.state,id)
+	if first_today and not loop.state.is_arrival_day():
+		dialogue_lines.append_array(preload("res://Scenes/Campaign/town_conversations.gd").exchange(loop.state,id))
 	loop._autosave()
 	var choices := [
 		{"text":"赠礼", "action":func(): C.gift(loop.state,id); loop.hud.close_modal(); loop._show_feedback()},
@@ -254,13 +261,14 @@ func _food_filters(book: Panel) -> void:
 		_refresh_food_list())
 	var categories: Dictionary = C.D.recipe_categories if tab == "食谱" else C.D.ingredient_categories
 	var ids: Array = [""] + categories.keys()
+	if tab == "食谱": ids.insert(1, "__ready")
 	if tab == "仓储": ids.append("resource")
 	var filter := OptionButton.new()
 	filter.position = Vector2(338,78)
 	filter.size = Vector2(250,24)
 	book.add_child(filter)
 	for id in ids:
-		filter.add_item(text("全部" if id == "" else "资源" if id == "resource" else categories[id]))
+		filter.add_item(text("全部" if id == "" else "可制作" if id == "__ready" else "资源" if id == "resource" else categories[id]))
 	filter.select(ids.find(recipe_category if tab == "食谱" else pantry_category))
 	filter.item_selected.connect(func(index: int):
 		if tab == "食谱": recipe_category = ids[index]
@@ -339,24 +347,48 @@ func _recipes() -> void:
 	if loop.state.is_arrival_day():
 		row(text(C.D.arrival.description))
 		return
-	row(I18n.format("今日菜单 %d/%d", [loop.state.menu.count(true), C.restaurant(loop.state).menu]) + " · 18:00–22:00")
-	for index in range(C.D.recipes.size()):
+	row(I18n.format("今日菜单 %d/%d", [loop.state.menu.count(true), C.restaurant(loop.state).menu]) + " · 18:00–22:00\n" + loop.state.pulse_note())
+	var ordered: Array = range(C.D.recipes.size())
+	# Stable priorities: selected menu, available stock, today's taste, catalogue.
+	ordered.sort_custom(func(a, b):
+		var a_score := _recipe_priority(a)
+		var b_score := _recipe_priority(b)
+		return a < b if a_score == b_score else a_score > b_score)
+	var found := 0
+	for index in ordered:
 		var recipe: Dictionary = C.D.recipes[index]
-		if not _food_matches(recipe, recipe_query, recipe_category): continue
+		if not _food_matches(recipe, recipe_query, "" if recipe_category == "__ready" else recipe_category): continue
+		if recipe_category == "__ready" and loop.state.dish_portions(index) <= 0: continue
+		found += 1
 		var tags := []
 		for id in recipe.tags: tags.append(text(C.D.tags[id]))
-		var details: String = cost_text(recipe.cost) if index>=3 else text("厨房原料")
-		var box := row(text(recipe.name)+" · "+str(recipe.price)+" G · "+text(C.D.stations[recipe.station])+"\n"+"/".join(tags)+" · "+details,"res://Art/Campaign/icons/dish_"+recipe.id+".aseprite")
+		var details: String = cost_text(recipe.cost)
+		if index < 3:
+			var costs := []
+			for material in range(3):
+				if loop.state.COSTS[index][material] > 0:
+					costs.append(text(loop.state.MATERIALS[material]) + " " + str(loop.state.materials[material]) + "/" + str(loop.state.COSTS[index][material]))
+			details = " · ".join(costs)
+		var stock := I18n.format("可制作 %d份", [loop.state.dish_portions(index)])
+		if loop.state.SeasonalDirector.dish_focus_bonus(recipe, loop.state.daily_pulse) > 0: stock += " · " + text("今日偏好")
+		var box := row(text(recipe.name)+" · "+str(recipe.price)+" G\n"+stock+"\n"+"/".join(tags)+"\n"+details,"res://Art/Campaign/icons/dish_"+recipe.id+".aseprite")
 		var unlocked := C.unlocked(loop.state,index)
 		action(box,"已上架" if loop.state.menu[index] else "未上架",mutate.bind(func():
 			loop.state.set_menu_dish(index, not loop.state.menu[index])),unlocked and loop.state.phase=="day",88)
 		action(box,"料理",func(): loop.hud.close_modal(); loop.cook_dish(index),unlocked and loop.state.phase=="night" and loop.location=="restaurant" and loop.at_counter("kitchen") and loop.state.menu[index] and loop.state.can_cook(index) and loop.state.cooking<0 and loop.state.held<0,88)
+	if found == 0: row(text("没有符合条件的料理。"))
+
+func _recipe_priority(index: int) -> int:
+	return (100 if loop.state.menu[index] else 0) + (10 if loop.state.dish_portions(index) > 0 else 0) + loop.state.SeasonalDirector.dish_focus_bonus(C.D.recipes[index],loop.state.daily_pulse)
 
 func _residents() -> void:
 	for npc in C.D.npcs:
 		if npc.id not in loop.state.campaign.met_residents: continue
 		var r: Dictionary = loop.state.campaign.residents[npc.id]
 		var title: String = text(npc.name)+" · "+str(npc.birthday[0]+1)+"/"+str(npc.birthday[1])+"\n"+(tr("好感 %d/1000 · 故事 %d/4") % [r.affinity,r.story])
+		var preferences := []
+		for tag in npc.likes: preferences.append(text(C.D.tags[tag]))
+		title += "\n" + I18n.format("喜爱：%s · 忌口：%s", ["/".join(preferences), text(C.D.tags[npc.dislike])])
 		var box := row(title,"res://Art/Characters/NPC32/portraits/"+npc.id+".aseprite")
 		action(box,"交谈",show_resident.bind(npc.id),loop.location=="town" and loop.state.phase=="day")
 		if loop.state.campaign.side_active.has(npc.id):
@@ -525,7 +557,7 @@ func show_intro() -> void:
 	_render_intro()
 
 func intro_length() -> float:
-	return OpeningFilm.length_for(C.D.intro.size())
+	return intro_film.length()
 
 func _render_intro() -> void:
 	var index: int = intro_film.index_at(intro_elapsed)
@@ -534,8 +566,9 @@ func _render_intro() -> void:
 		intro_title.text = C.D.intro[index].title
 		intro_line.text = C.D.intro[index].line
 	# Captions fade with the shot so the text never lingers over a black frame.
-	var t := intro_elapsed - index * OpeningFilm.SHOT
-	var caption := clampf(minf(t - 0.3, OpeningFilm.SHOT - 0.3 - t) / 0.6, 0.0, 1.0)
+	var t: float = intro_film.local_time(intro_elapsed)
+	var duration: float = intro_film.durations[index]
+	var caption := clampf(minf(t - 0.3, duration - 0.3 - t) / 0.6, 0.0, 1.0)
 	intro_title.modulate.a = caption
 	intro_line.modulate.a = caption
 	intro_film.render(intro_elapsed)

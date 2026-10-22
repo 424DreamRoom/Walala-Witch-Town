@@ -1,0 +1,86 @@
+[
+  {
+    "suite": "ambient",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 137,
+    "errors": []
+  },
+  {
+    "suite": "cooking",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 2496,
+    "errors": []
+  },
+  {
+    "suite": "equipment",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 610,
+    "errors": []
+  },
+  {
+    "suite": "farm",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 180,
+    "errors": []
+  },
+  {
+    "suite": "hotbar",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 74,
+    "errors": []
+  },
+  {
+    "suite": "map",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 41,
+    "errors": []
+  },
+  {
+    "suite": "residents",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 29,
+    "errors": []
+  },
+  {
+    "suite": "save",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 118,
+    "errors": []
+  },
+  {
+    "suite": "seasonal",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 5,
+    "errors": []
+  },
+  {
+    "suite": "service",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 54,
+    "errors": []
+  },
+  {
+    "suite": "story",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 253,
+    "errors": []
+  },
+  {
+    "suite": "ui",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 53,
+    "errors": []
+  }
+]

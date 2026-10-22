@@ -119,6 +119,7 @@ func run() -> void:
 	check("isolated save slot opens", Saves.begin_slot(1).ok)
 	Saves.pending.state.campaign.introduced = true
 	Saves.pending.state.campaign.guide_met = true
+	Saves.pending.state.campaign.opening_stage = 3
 	Saves.pending.state.restaurant_leased = true
 	Saves.pending.state.campaign.player_name = "Test"
 	Saves.pending.world.location = "town"

@@ -14,6 +14,7 @@ func _initialize() -> void:
 	check("deterministic daily pulse", first == repeat)
 	check("pulse contains forecast and focus", first.has("weather") and first.has("focus"))
 	var state := State.new()
+	state.restaurant_leased = true
 	state.phase = "day"
 	state.wand_mode = "blue"
 	var plot := {"watered": true, "fertilized": true}

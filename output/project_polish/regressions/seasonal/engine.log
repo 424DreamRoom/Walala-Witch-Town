@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+SEASONAL TEST deterministic daily pulse: PASS
+SEASONAL TEST pulse contains forecast and focus: PASS
+SEASONAL TEST quality bonus rewards full care: PASS
+SEASONAL TEST service counters reset at opening: PASS
+SEASONAL TEST tips remain bounded: PASS
+SEASONAL VERIFY END failures=0

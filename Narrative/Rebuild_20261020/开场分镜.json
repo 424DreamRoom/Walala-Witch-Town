@@ -1,0 +1,42 @@
+[
+  {
+    "scene": "kitchen", "duration": 10,
+    "title": ["雾港的第三年", "Three Years in Fog Harbor", "霧港で三年"],
+    "line": ["艾洛温在雾港后厨工作了三年。她学会了做汤、炖饭和照看灶火，也开始想开一家由自己决定菜单的小食堂。", "Elowen spent three years in a Fog Harbor kitchen, learning soups, rice dishes and stove work. Now she wanted a small eatery with a menu of her own.", "エロウェンは霧港の厨房で三年働き、スープも炊き込みご飯も覚えた。今度は、自分で献立を決める小さな食堂を開きたかった。"]
+  },
+  {
+    "scene": "savings", "duration": 10,
+    "title": ["攒下的钱还不够", "The Cost of Starting", "開店に必要なお金"],
+    "line": ["工资攒了三年，付完雾港的店租和押金，就几乎买不起食材。她需要一个租金低些、也能住下来的地方。", "Her savings would barely cover a Fog Harbor shop's rent and deposit, leaving little for ingredients. She needed somewhere cheaper, with a place to live.", "三年分の貯金も、霧港の家賃と保証金を払えば食材代がほとんど残らない。安く借りられて、暮らせる場所が必要だった。"]
+  },
+  {
+    "scene": "notice", "duration": 12,
+    "title": ["一张公开的招租告示", "A Public Rental Notice", "町からの募集告示"],
+    "line": ["山谷里的小镇正在为月芽农场和月灯食堂招租：附带小屋，试营一年，第一季免租。镇里想让关门的食堂重新营业。", "A valley town offered a farm, cottage and closed eatery for a one-year trial, with the first season rent-free. The town wanted its kitchen open again.", "谷の町が月芽農場と月灯食堂の借り手を募集していた。住居つきの一年契約で、最初の季節は家賃無料。閉じた食堂をまた開くためだった。"]
+  },
+  {
+    "scene": "reply", "duration": 12,
+    "title": ["出发前，先问清楚", "Before She Left", "出発する前に"],
+    "line": ["她写信问清住处、修缮和进货。露辛达回信确认屋顶已经修好；具体租约到镇上看过房屋，再和莫文当面确认。", "She wrote about housing, repairs and supplies. Lucinda confirmed the roof was fixed; Elowen would inspect the property and settle the lease with Morwen in person.", "住居や修理、仕入れについて手紙で尋ねると、ルシンダから屋根は直したと返事が来た。現地を見て、契約はモーウェンと直接確かめることになった。"]
+  },
+  {
+    "scene": "packing", "duration": 10,
+    "title": ["只带必要的家当", "Pots, Bowls and Savings", "鍋と食器と貯金"],
+    "line": ["她留下生活费，带上衣服、锅碗和介绍信，辞别了雾港的后厨。她会做饭，但能不能经营好一家店，还得从头学。", "She set aside living money, packed clothes, cookware and a reference, and left her job. She could cook; running an eatery would be something new.", "生活費を取り分け、服と調理道具と紹介状を荷造りして厨房を辞した。料理はできる。でも店の経営は、これから覚えることだった。"]
+  },
+  {
+    "scene": "voyage", "duration": 12,
+    "title": ["沿河驶向山谷", "Upriver to the Valley", "川を上って谷へ"],
+    "line": ["货船离开主河道，驶入通向小镇的支流。面粉、盐和日用品也走这条水路，她今后的食堂会和船期紧紧相连。", "The cargo boat turned from the main river into the valley branch. Flour, salt and household goods came this way too; her eatery would depend on these deliveries.", "貨物船は本流から町へ続く支流に入った。小麦粉も塩も日用品も同じ水路を通る。これからの食堂は、この船便に支えられる。"]
+  },
+  {
+    "scene": "town", "duration": 10,
+    "title": ["河边的小镇", "Walala Witch Town", "川沿いの魔女町"],
+    "line": ["哗啦啦魔女镇还有田地、商店和每天忙碌的人。食堂已经空了一阵子，她想试着把这里变成大家下工后能吃热饭的地方。", "Walala Witch Town had fields, shops and busy residents. Its eatery had stood empty for a while. She hoped to give people a hot meal after work again.", "ワララ魔女町には畑や店があり、毎日働く人がいた。しばらく空いていた食堂を、仕事帰りに温かいご飯が食べられる場所にしたかった。"]
+  },
+  {
+    "scene": "dock", "duration": 10,
+    "title": ["行李到岸，人也到了", "The First Day Ashore", "荷物と一緒に町へ"],
+    "line": ["船靠上潮汐码头，玛伦接下行李。今天先看房、确认租约和安顿住处，食堂明天再准备开张。", "The boat reached Tidal Dock, where Maren took her luggage. Today was for inspecting the place, settling the lease and finding her feet. Opening could wait until tomorrow.", "船が潮汐の桟橋に着き、マーレンが荷物を受け取った。今日は物件と契約を確かめて、暮らしを整える日。開店の準備は明日からでいい。"]
+  }
+]

@@ -1,7 +1,7 @@
 {
   "passed": true,
   "mode": "headless",
-  "checks": 225,
+  "checks": 253,
   "exit_code": 0,
   "protected_originals": 3,
   "myart_unchanged": true

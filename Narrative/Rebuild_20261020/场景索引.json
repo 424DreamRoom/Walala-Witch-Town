@@ -22,7 +22,8 @@
     "past_failure": "多年前洪水期间，六条支路临时汇接，以集中月晶供应排水设施。灾后因修缮资金与维护安排不足，临时接法被长期保留，故障逐渐依赖守环魔女柯蒂莉娅手动修正。柯蒂莉娅最终为避免继续受伤与扩大事故主动停机。",
     "former_keeper": "柯蒂莉娅仍在南方生活、养伤，与露辛达长期通信。角色不在本稿现场出场，其意见由来信转述。结尾只是计划春天来访。",
     "solution": "优先恢复水门与河口两条独立支路，设总负荷限制，保留现场水位核验与手动退路，明确工时、费用和轮值。其余支路后续分段修缮。",
-    "ending": "冬末降雨造成局部损坏与延期，但居民能分工处理。艾洛温续租，并准备设固定休息日；商队以较小规模再次询价。结局后继续日常经营和剩余设施修缮。"
+    "ending": "冬末降雨造成局部损坏与延期，但居民能分工处理。艾洛温续租，并准备设固定休息日；商队以较小规模再次询价。结局后继续日常经营和剩余设施修缮。",
+    "prior_eatery": "前店主回乡照顾家人，托宾曾任帮厨；旧店账目已结清。镇里公开招租是为了恢复日常热饭供应，租约不含旧店债务或无偿公共劳动。"
   },
   "characters": [
     {
@@ -275,7 +276,9 @@
       "farm",
       "restaurant"
     ],
-    "legacy_progress": "New story starts at chapter 1; earned assets and unlocked regions retained."
+    "legacy_progress": "New story starts at chapter 1; earned assets and unlocked regions retained.",
+    "opening_film_source": "Narrative/Rebuild_20261020/开场分镜.json",
+    "film_seconds": 86
   },
   "dialogue_tone": "日常口语；先回答问题，讲清原因；保留自然停顿和轻松反应，减少刻意机锋、抽象比喻、格言式收尾和集中宣读条款。",
   "tone_revision": {
@@ -297,5 +300,27 @@
       }
     ],
     "reference_limits": "录像只核对了可访问的开场片段，未获得完整对白转录；正文为原创，不转录原作台词。"
+  },
+  "opening_segments": [
+    {
+      "location": "dock",
+      "start": 0,
+      "end": 14
+    },
+    {
+      "location": "farm",
+      "start": 14,
+      "end": 35
+    },
+    {
+      "location": "restaurant",
+      "start": 35,
+      "end": 60
+    }
+  ],
+  "completeness_revision": {
+    "date": "2026-10-22",
+    "focus": "招租与生计动机、供货成本、水利约束、事故责任、订单失误、分段修缮、雨夜验收与续租回收",
+    "dialogue_lines": 535
   }
 }

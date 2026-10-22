@@ -21,6 +21,8 @@ func check(title: String, passed: bool) -> void:
 func frames(count: int = 3) -> void:
 	for i in range(count):
 		await process_frame
+	if root.get_node("SceneTransition").active:
+		await root.get_node("SceneTransition").finished
 
 func key(code: Key) -> void:
 	for pressed in [true, false]:
@@ -65,6 +67,7 @@ func clean_slots() -> void:
 
 func sample_snapshot() -> Dictionary:
 	var state := State.new()
+	state.restaurant_leased = true
 	state.day = 3
 	state.coins = 83
 	state.raw = [1, 2, 0]
@@ -225,12 +228,13 @@ func run() -> void:
 	check("empty slot starts new day outside home", Saves.active_slot == 1 and loop.state.day == 1 and loop.state.coins == 0 and loop.location == "farm" and lane.player.position == loop.HOME_EXIT_POSITION)
 	check("new game written to selected slot outside home", not Saves.read_slot(1).empty and Saves.read_slot(1).data.world.location == "farm" and Saves.read_slot(4).data.state.coins == 83)
 	# Complete the mandatory new-game opening before testing ordinary pause controls.
-	loop.campaign_controller.finish_intro()
-	await frames()
-	loop.campaign_controller._process(6.0)
-	loop.hud.close_modal()
+	await loop.campaign_controller.finish_intro()
+	for stage in range(State.Campaign.D.opening.size()):
+		await loop.campaign_controller._finish_opening_stage(stage)
 	await frames()
 	check("new-game opening completes before pause controls", not paused and loop.state.campaign.player_name == State.Campaign.DEFAULT_PLAYER_NAME)
+	# Arrival-day rest is covered by the story suite; exercise ordinary service here.
+	loop.state.campaign.settling_in = false
 	loop.state.coins = 47
 	loop.state.resources.iron = 3
 	loop.state.raw = [2, 1, 0]
@@ -266,7 +270,9 @@ func run() -> void:
 	Saves.directory = session_directory
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(blocked_return))
 	await click(loop.save_menu.panel.get_node("SaveAndReturn"), lane.viewport)
-	await create_timer(1.65).timeout
+	var return_deadline := Time.get_ticks_msec() + 8000
+	while current_scene == lane and Time.get_ticks_msec() < return_deadline:
+		await process_frame
 	await frames(8)
 	menu = current_scene
 	check("save and return reaches title unpaused", menu.scene_file_path == "res://Scenes/MainMenu/main_menu.tscn" and not paused and Saves.active_slot == 0)
@@ -300,6 +306,7 @@ func run() -> void:
 	check("save icon fades away when idle", not indicator.visible and not indicator.is_processing())
 	loop.enter("restaurant")
 	loop.state.set_menu_dish(0, true)
+	loop.state.remaining = 0.0
 	loop.paused_for_test = false
 	loop.end_phase()
 	loop._autosave()
@@ -313,12 +320,15 @@ func run() -> void:
 	loop._autosave()
 	check("22:00 boundary autosaves", Saves.read_slot(1).data.state.phase == "result")
 	loop.end_phase()
+	await frames()
 	loop._autosave()
 	loop.paused_for_test = true
 	check("next day 06:00 boundary autosaves", Saves.read_slot(1).data.state.day == 2 and Saves.read_slot(1).data.state.phase == "day")
 	loop.save_menu.show_menu()
 	loop.save_menu.return_to_title()
-	await create_timer(1.65).timeout
+	return_deadline = Time.get_ticks_msec() + 8000
+	while current_scene == lane and Time.get_ticks_msec() < return_deadline:
+		await process_frame
 	await frames(8)
 	menu = current_scene
 	await click(menu.buttons[0], menu.viewport)

@@ -91,7 +91,7 @@ func _init() -> void:
 	guest_mood = int(daily_pulse.get("mood", 0))
 
 func pulse_note() -> String:
-	return str(daily_pulse.get("note", ""))
+	return I18n.format("今日气象：%s · 料理偏好：%s", [daily_pulse.weather_name, daily_pulse.focus_name])
 
 func pulse_focus() -> String:
 	return SeasonalDirector.focus_text(daily_pulse)
@@ -104,7 +104,7 @@ func sync_weather(weather: String) -> void:
 
 func crop_quality_bonus(plot: Dictionary) -> int:
 	var quality := SeasonalDirector.crop_quality(plot, daily_pulse)
-	return 1 if quality >= 3 else 0
+	return 1 if quality >= 2 else 0
 
 func record_crop_quality(plot: Dictionary) -> void:
 	var quality := SeasonalDirector.crop_quality(plot, daily_pulse)
@@ -549,6 +549,30 @@ func can_cook(dish: int) -> bool:
 			return false
 	return true
 
+func dish_portions(dish: int) -> int:
+	if not Campaign.unlocked(self, dish): return 0
+	var count := 1000000000
+	if dish < 3:
+		for index in range(3):
+			if COSTS[dish][index] > 0: count = mini(count, materials[index] / COSTS[dish][index])
+	else:
+		for id in Content.DATA.recipes[dish].cost:
+			count = mini(count, campaign.pantry[id] / Content.DATA.recipes[dish].cost[id])
+	return count
+
+func service_exhausted() -> bool:
+	if phase != "night" or cooking >= 0 or held >= 0 or not customers.is_empty(): return false
+	for dish in range(menu.size()):
+		if not menu[dish] or not Campaign.unlocked(self,dish): continue
+		if dish >= 3:
+			if can_cook(dish): return false
+		else:
+			var available := true
+			for index in range(3):
+				if materials[index] + raw[index] < COSTS[dish][index]: available = false
+			if available: return false
+	return true
+
 func start_cook(dish: int) -> bool:
 	if dish < 0 or dish >= menu.size(): return false
 	if phase != "night" or cooking >= 0 or held >= 0:
@@ -616,11 +640,17 @@ func admit() -> bool:
 	for seat in range(Campaign.restaurant(self).seats):
 		if customer_at(seat) == null:
 			var npc_index: int = serial % Content.DATA.npcs.size()
-			var preferred: Array = []
+			var suitable: Array = []
 			for dish in dishes:
+				if Content.DATA.npcs[npc_index].dislike not in Content.DATA.recipes[dish].tags: suitable.append(dish)
+			# Guests can still order from a limited menu, but prefer dishes that
+			# respect their diet before considering favourite flavours.
+			var choices: Array = suitable if not suitable.is_empty() else dishes
+			var preferred: Array = []
+			for dish in choices:
 				for tag in Content.DATA.npcs[npc_index].likes:
 					if tag in Content.DATA.recipes[dish].tags and dish not in preferred: preferred.append(dish)
-			var available: Array = preferred if not preferred.is_empty() else dishes
+			var available: Array = preferred if not preferred.is_empty() else choices
 			var order: int = int(available[serial % available.size()])
 			customers.append({"seat": seat, "dish": order, "patience": float(Campaign.restaurant(self).patience + Campaign.comfort(self)), "npc": npc_index, "variant": npc_index % 6, "status": "waiting", "eating_left": 0.0, "focus": SeasonalDirector.dish_focus_bonus(Content.DATA.recipes[order], daily_pulse) > 0})
 			serial += 1

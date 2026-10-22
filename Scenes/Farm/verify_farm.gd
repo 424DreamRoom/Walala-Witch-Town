@@ -163,6 +163,7 @@ func rain_checks() -> void:
 
 func bare_state():
 	var state = State.new()
+	state.restaurant_leased = true
 	state.wand_mode = "blue"
 	for entry in State.FarmTerrain.layout.props:
 		state.resource_damage[entry.resource_id] = State.RESOURCE_HITS
@@ -212,6 +213,7 @@ func run() -> void:
 	lane.automation = true
 	lane.test_running = true
 	loop = lane.get_node("GameLoop")
+	loop.state.restaurant_leased = true
 	loop.paused_for_test = true
 	loop.campaign_controller.set_process(false)
 	loop.audio.music_muted = true

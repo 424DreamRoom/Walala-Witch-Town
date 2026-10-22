@@ -4,8 +4,8 @@ extends RefCounted
 
 const WEATHER := ["clear", "rain", "snow"]
 const WEATHER_NAMES := {"clear": "晴朗", "rain": "小雨", "snow": "薄雪"}
-const FOCUS_NAMES := ["汤品", "甜点", "丰收"]
-const FOCUS_TAGS := ["warm", "sweet", "harvest"]
+const FOCUS_NAMES := ["暖食", "甜味", "素食"]
+const FOCUS_TAGS := ["warm", "sweet", "vegetable"]
 
 static func season_for_day(day: int) -> int:
 	return maxi(0, ((day - 1) / 28) % 4)
@@ -14,7 +14,7 @@ static func pulse_for_day(day: int) -> Dictionary:
 	var safe_day := maxi(1, day)
 	var season := season_for_day(safe_day)
 	# A stable cycle keeps the forecast readable and makes long saves deterministic.
-	var weather_id: String = WEATHER[(safe_day * 7 + season * 3) % WEATHER.size()]
+	var weather_id := "snow" if season == 3 and safe_day % 3 == 0 else "rain" if safe_day % 5 == 0 else "clear"
 	var focus_index: int = (safe_day + season) % FOCUS_NAMES.size()
 	var soil_bonus := 1 if weather_id == "rain" else 0
 	var mood := 1 if weather_id == "clear" else 0

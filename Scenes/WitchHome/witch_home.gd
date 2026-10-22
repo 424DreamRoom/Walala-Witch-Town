@@ -3,6 +3,7 @@ extends Node2D
 const ART := "res://Art/Environment/Hearthwood/"
 const Furniture = preload("res://Scenes/Building/furniture_catalog.gd")
 const House = preload("res://Scenes/Building/house_catalog.gd")
+const Depth = preload("res://Scenes/Gameplay/world_depth.gd")
 const UIFont = preload("res://Scenes/Gameplay/ui_font.gd")
 var loop
 var solids: Array[Rect2] = []
@@ -21,8 +22,9 @@ func _ready() -> void:
 	spawn = Vector2(layout.spawn[0], layout.spawn[1])
 	stations.exit = Vector2(layout.exit[0], layout.exit[1])
 	var ground := preload("res://Art/Source/tile_ground.gd").create(House.ground_path(loop.state.furniture))
-	ground.z_index = preload("res://Scenes/Gameplay/world_depth.gd").GROUND
+	ground.z_index = Depth.GROUND
 	add_child(ground)
+	_add_doorway_foreground(ground)
 	if loop.state.furniture.legacy_fixtures:
 		for values in layout.walls:
 			_add_solid(Rect2(values[0], values[1], values[2], values[3]))
@@ -90,3 +92,30 @@ func _add_solid(rect: Rect2) -> void:
 	add_child(body)
 	loop.lane._collision(body, rect.size, Vector2.ZERO)
 	solids.append(rect)
+
+func _add_doorway_foreground(ground: TileMapLayer) -> void:
+	# The threshold row belongs in the same Y-sorted group as actors. Keeping it
+	# in the background tilemap lets the witch draw over the doorway shadow.
+	# Anchor the copied row at its lower edge so feet above it pass behind and
+	# feet below it pass in front, matching the authored step depth.
+	var row := floori(stations.exit.y / 16.0) - 1
+	var anchor_y := float(row + 1) * 16.0
+	var anchor := Node2D.new()
+	anchor.name = "DoorwayForeground"
+	anchor.position = Vector2(0, anchor_y)
+	anchor.z_index = Depth.ACTOR
+	var overlay := TileMapLayer.new()
+	overlay.name = "Threshold"
+	overlay.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	overlay.tile_set = ground.tile_set
+	overlay.position.y = -anchor_y
+	var half_width := 64.0
+	for cell in ground.get_used_cells():
+		if cell.y != row: continue
+		var center_x := (float(cell.x) + 0.5) * 16.0
+		if absf(center_x - stations.exit.x) > half_width: continue
+		var source := ground.get_cell_source_id(cell)
+		if source < 0: continue
+		overlay.set_cell(cell, source, ground.get_cell_atlas_coords(cell), ground.get_cell_alternative_tile(cell))
+	anchor.add_child(overlay)
+	add_child(anchor)

@@ -1,0 +1,98 @@
+{
+  "walk-down": {
+    "changed_pixels_between_frames_including_wrap": [
+      287,
+      46,
+      285,
+      35,
+      299,
+      10,
+      300,
+      19
+    ]
+  },
+  "walk-up": {
+    "changed_pixels_between_frames_including_wrap": [
+      261,
+      44,
+      259,
+      38,
+      271,
+      10,
+      273,
+      22
+    ]
+  },
+  "walk-right": {
+    "changed_pixels_between_frames_including_wrap": [
+      253,
+      33,
+      254,
+      32,
+      270,
+      4,
+      268,
+      9
+    ]
+  },
+  "walk-left": {
+    "changed_pixels_between_frames_including_wrap": [
+      263,
+      31,
+      261,
+      34,
+      277,
+      4,
+      275,
+      9
+    ]
+  },
+  "run-down": {
+    "changed_pixels_between_frames_including_wrap": [
+      382,
+      51,
+      378,
+      44,
+      386,
+      10,
+      383,
+      19
+    ]
+  },
+  "run-up": {
+    "changed_pixels_between_frames_including_wrap": [
+      360,
+      52,
+      354,
+      47,
+      361,
+      11,
+      357,
+      22
+    ]
+  },
+  "run-right": {
+    "changed_pixels_between_frames_including_wrap": [
+      340,
+      31,
+      347,
+      42,
+      344,
+      25,
+      331,
+      6
+    ]
+  },
+  "run-left": {
+    "changed_pixels_between_frames_including_wrap": [
+      346,
+      31,
+      350,
+      41,
+      349,
+      25,
+      336,
+      6
+    ]
+  }
+}

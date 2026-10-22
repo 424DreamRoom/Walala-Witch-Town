@@ -121,14 +121,16 @@ def rebuild_story(quests, intro, regions, npcs, story, t):
             npc["events"][1] = text(*replacements["ember"][0])
             npc["lines"][2] = npc["events"][1]
 
-    intro[:] = [dict(scene=scene, title=text(zh_title, en_title, ja_title), line=text(zh, en, ja)) for scene, zh_title, en_title, ja_title, zh, en, ja in [
-        ("kitchen", "想开自己的店", "An Eatery of Her Own", "自分のお店を開きたくて", "她在雾港后厨干了三年，攒了点钱，想自己开家小食堂，菜单也自己做主。", "She worked in a Fog Harbor kitchen for three years and saved a little money. Now she wanted to run a small eatery and make her own menu.", "霧港の厨房で三年働いて、少しお金を貯めた。小さな食堂を開いて、献立も自分で決めたかった。"),
-        ("notice", "第一季免租", "First Season Rent-Free", "最初の季節は家賃無料", "她看到一张招租告示，正好是月芽农场，还有住处和食堂，第一季也不用交租。", "A rental notice caught her eye. It was for Moonsprout Farm, with a cottage and eatery, and no rent for the first season.", "目に留まったのは、月芽農場の募集告示。住まいと食堂がついて、最初の季節は家賃もいらない。"),
-        ("road", "带上锅碗，出发", "Packing the Pots and Bowls", "鍋と食器を持って出発", "她带上衣服、锅碗和攒下的钱，坐船去了山谷。自己开店，她还是第一次。", "She packed her clothes, pots and savings, then took a boat to the valley. It was her first time running a place of her own.", "服と調理道具、貯めたお金を持って、船で谷へ。自分のお店を持つのは初めてだった。"),
-        ("town", "哗啦啦魔女镇", "Walala Witch Town", "ワララ魔女町", "小镇就在河边，货船能送面粉和盐过来。她想，以后食堂进货应该不难。", "The town was right by the river, so boats could bring in flour and salt. Stocking the eatery should be easy enough, she thought.", "川沿いの町だから、船で小麦粉や塩を運んでこられる。お店の仕入れも難しくなさそうだ。"),
-        ("home", "先住下来", "Settling In", "まずはここで暮らそう", "田边的小屋已经收拾好了。她先放下行李，去镇上逛逛，开店的事明天再说。", "The cottage beside the field was ready. She would drop off her things, look around town, and worry about opening tomorrow.", "畑のそばの家は片付いていた。荷物を置いて町を見て回ろう。お店のことは明日からでいい。"),
-    ]]
-    opening = [dict(location="dock", dialogue=scenes[0][:10]), dict(location="farm", dialogue=scenes[0][10:25]), dict(location="restaurant", dialogue=scenes[0][25:])]
+    film = json.loads((DRAFT / "开场分镜.json").read_text(encoding="utf-8"))
+    assert all(shot["duration"] >= 6 and len(shot["title"]) == len(shot["line"]) == 3 for shot in film)
+    intro[:] = [dict(scene=shot["scene"], duration=shot["duration"], title=text(*shot["title"]), line=text(*shot["line"])) for shot in film]
+    segments = manifest["opening_segments"]
+    assert [segment["location"] for segment in segments] == ["dock", "farm", "restaurant"]
+    assert segments[0]["start"] == 0 and segments[-1]["end"] == len(scenes[0])
+    for left, right in zip(segments, segments[1:]):
+        assert left["end"] == right["start"], "Opening segments must cover each line once"
+    assert all(segment["end"] > segment["start"] for segment in segments)
+    opening = [dict(location=segment["location"], dialogue=scenes[0][segment["start"]:segment["end"]]) for segment in segments]
     guide = story["guide"]
     guide.update(welcome=opening[1]["dialogue"], chapters=[q["briefing"] for q in quests], current=[q["briefing"] for q in quests],
                  farewell=text("明天晚一点开门吧，今晚咱们先好好吃顿饭。", "Let's open a little later tomorrow. Tonight, let's sit down and eat.", "明日は少し遅く開けよう。今夜はゆっくりご飯を食べようよ。"))

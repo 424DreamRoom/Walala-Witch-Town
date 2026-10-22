@@ -25,6 +25,8 @@ static func rebuild(owner: Node2D, area: String) -> void:
 			sprite.texture = Catalog.texture(item.kind)
 			sprite.position.y = -sprite.texture.get_height() / 2.0
 		body.add_child(sprite)
+		if sprite is Sprite2D and item.kind in Catalog.LEGACY_IDS:
+			preload("res://Scenes/Gameplay/ambient_animation.gd").attach(sprite, "home_" + item.kind)
 		if not Catalog.RECIPES[item.kind].solid: body.z_index = -1
 		if Catalog.blocking(item.kind):
 			var dimensions: Vector2 = Catalog.RECIPES[item.kind].size

@@ -1,77 +1,87 @@
 {
   "status": "passed",
+  "revision_date": "2026-10-22",
   "scene_count": 11,
   "chapter_count": 10,
-  "dialogue_lines": 436,
-  "han_characters": 7181,
+  "dialogue_lines": 535,
+  "han_characters": 11595,
   "format_and_instruction_issues": [],
   "repeated_lines": [],
   "scenes": [
     {
       "id": "opening",
       "file": "开场对白.txt",
-      "lines": 43,
-      "han_characters": 879
+      "lines": 60,
+      "han_characters": 1506
     },
     {
       "id": "chapter_01",
       "file": "01_第一张菜单.txt",
-      "lines": 44,
-      "han_characters": 577
+      "lines": 53,
+      "han_characters": 981
     },
     {
       "id": "chapter_02",
       "file": "02_凑不满的一船货.txt",
-      "lines": 38,
-      "han_characters": 532
+      "lines": 46,
+      "han_characters": 883
     },
     {
       "id": "chapter_03",
       "file": "03_一块地够不够.txt",
-      "lines": 33,
-      "han_characters": 534
+      "lines": 39,
+      "han_characters": 818
     },
     {
       "id": "chapter_04",
       "file": "04_旧路上的灯.txt",
-      "lines": 36,
-      "han_characters": 600
+      "lines": 44,
+      "han_characters": 978
     },
     {
       "id": "chapter_05",
       "file": "05_她最后一次值夜.txt",
-      "lines": 37,
-      "han_characters": 644
+      "lines": 48,
+      "han_characters": 1106
     },
     {
       "id": "chapter_06",
       "file": "06_一张太大的订单.txt",
-      "lines": 40,
-      "han_characters": 576
+      "lines": 49,
+      "han_characters": 968
     },
     {
       "id": "chapter_07",
       "file": "07_第一张退单.txt",
-      "lines": 39,
-      "han_characters": 670
+      "lines": 47,
+      "han_characters": 1041
     },
     {
       "id": "chapter_08",
       "file": "08_两盏先亮的灯.txt",
-      "lines": 38,
-      "han_characters": 621
+      "lines": 45,
+      "han_characters": 970
     },
     {
       "id": "chapter_09",
       "file": "09_雨里的那一晚.txt",
-      "lines": 38,
-      "han_characters": 687
+      "lines": 45,
+      "han_characters": 1025
     },
     {
       "id": "chapter_10",
       "file": "10_明天晚点开门.txt",
-      "lines": 50,
-      "han_characters": 861
+      "lines": 59,
+      "han_characters": 1319
     }
-  ]
+  ],
+  "manuscript_runtime_match": true,
+  "opening_segments": [
+    14,
+    21,
+    25
+  ],
+  "film_shots": 8,
+  "film_seconds": 86,
+  "four_language_catalog_match": true
 }

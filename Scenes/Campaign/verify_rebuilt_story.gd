@@ -115,7 +115,7 @@ func state_checks() -> void:
 	var lines := 0
 	for scene in C.D.opening: lines += scene.dialogue.size()
 	for q in C.D.quests: lines += q.dialogue.size()
-	check("all 436 manuscript lines compiled", lines == 436)
+	check("all 535 manuscript lines compiled", lines == 535)
 	check("new state roundtrip", not C.normalize(C.initial()).is_empty())
 	for old_chapter in range(13):
 		var s = State.new()
@@ -173,6 +173,36 @@ func state_checks() -> void:
 	invalid = C.initial()
 	invalid.opening_stage = 3
 	check("inconsistent opening rejected", C.normalize(invalid).is_empty())
+
+func film_checks() -> void:
+	controller.set_process(false)
+	var film = controller.intro_film
+	check("eight causal shots end at dock", C.D.intro.map(func(value): return value.scene) == ["kitchen", "savings", "notice", "reply", "packing", "voyage", "town", "dock"])
+	check("film allows 86 seconds of reading", controller.intro_length() == 86.0)
+	check("timeline clamps at both ends", film.index_at(-1.0) == 0 and film.index_at(900) == 7)
+	for index in range(C.D.intro.size()):
+		var start: float = film.starts[index]
+		check("shot boundary " + str(index), film.index_at(start) == index and (index == 0 or film.index_at(start - 0.01) == index - 1))
+		controller.intro_elapsed = start
+		controller._render_intro()
+		check("caption fades at boundary " + str(index), controller.intro_line.modulate.a == 0.0)
+	for language in ["zh_CN", "en", "ja", "zh_TW"]:
+		root.get_node("Localization").set_language(language, false)
+		var fits := true
+		var translated := true
+		for index in range(C.D.intro.size()):
+			controller.intro_elapsed = film.starts[index] + film.durations[index] / 2.0
+			controller._render_intro()
+			await frames()
+			fits = fits and controller.intro_line.get_line_count() * controller.intro_line.get_line_height() <= controller.intro_line.size.y and controller.intro_title.get_minimum_size().x <= controller.intro_title.size.x
+			translated = translated and (language == "zh_CN" or String(TranslationServer.translate(C.D.intro[index].line)) != C.D.intro[index].line)
+			if language == "zh_CN" or (index == 3 and language == "en"): await shot("film_" + str(index) + "_" + language)
+		check("film captions fit " + language, fits)
+		check("film captions translated " + language, translated)
+	root.get_node("Localization").set_language("zh_CN", false)
+	controller.intro_elapsed = film.starts[7] + film.durations[7] * 0.9
+	controller._render_intro()
+	await shot("film_dock_handoff")
 
 func controller_ready_for_test(s) -> bool:
 	return preload("res://Scenes/Campaign/guide_profile.gd").ready(s)
@@ -237,14 +267,14 @@ func run() -> void:
 	C.pending_intro = true
 	await load_game(true)
 	check("opening film pauses", paused and is_instance_valid(controller.intro))
-	check("public notice replaces letter", C.D.intro.map(func(value): return value.scene) == ["kitchen", "notice", "road", "town", "home"])
-	controller.intro_elapsed = 9.0
+	await film_checks()
+	controller.intro_elapsed = controller.intro_film.starts[2] + 5.0
 	controller._render_intro()
 	await shot("public_notice")
 	controller.finish_intro()
 	check("film remains under fade", is_instance_valid(controller.intro) and root.get_node("SceneTransition").active)
 	await wait_opening(0, true)
-	check("film skip keeps dock dialogue", loop.location == "dock" and loop.hud.mode == "dialogue" and loop.hud.lines.size() == 10 and paused)
+	check("film skip keeps full dock dialogue", loop.location == "dock" and loop.hud.mode == "dialogue" and loop.hud.lines.size() == 14 and paused)
 	check("Maren present on dock", controller.opening_cast.size() == 1 and controller.opening_cast[0].visible)
 	var next := InputEventAction.new()
 	next.action = "dialogue_next"
@@ -265,7 +295,7 @@ func run() -> void:
 	await shot("opening_dock_departure")
 	await wait_opening(1, true)
 	check("guide and player arrive at cottage", lane.player.position == Vector2(270,258) and controller.arrival_actor.position == Vector2(270,294))
-	check("farm dialogue has fifteen lines", loop.hud.mode == "dialogue" and loop.hud.lines.size() == 15 and not controller.arrival_active)
+	check("farm dialogue has twenty-one lines", loop.hud.mode == "dialogue" and loop.hud.lines.size() == 21 and not controller.arrival_active)
 	await shot("opening_farm")
 	controller._finish_opening_stage(1)
 	check("farm departure keeps both characters", loop.location == "farm" and controller.opening_transition_active and is_instance_valid(controller.arrival_actor))
@@ -275,7 +305,7 @@ func run() -> void:
 	check("opening paths avoid world solids", opening_routes_clear)
 	check("opening performers keep their space", opening_cast_separated)
 	check("opening walks keep gameplay paused", opening_walks_paused)
-	check("lease scene opens kitchen without a second fee", loop.location == "restaurant" and loop.state.restaurant_leased and loop.hud.lines.size() == 18 and paused)
+	check("lease scene opens kitchen without a second fee", loop.location == "restaurant" and loop.state.restaurant_leased and loop.hud.lines.size() == 25 and paused)
 	check("lease cast present", controller.opening_cast.size() == 3)
 	check("lease introduction hides opening controls", loop.state.is_arrival_day() and not loop.end_button.visible and not loop.menu_buttons[0].visible)
 	await shot("opening_lease")
@@ -362,6 +392,15 @@ func run() -> void:
 	loop.hud.close_modal()
 	controller._recall_chapter(7)
 	check("recall keeps progress and inventory", loop.state.coins == paid and loop.state.campaign.chapter == 8 and loop.state.campaign.pantry.iron == 0)
+	loop.hud.close_modal()
+	loop.state.campaign.introduced = false
+	loop.state.campaign.guide_met = false
+	loop.state.campaign.opening_stage = 0
+	controller.show_intro()
+	controller.intro_elapsed = controller.intro_length() - 0.01
+	controller._process(0.02)
+	await wait_opening(0)
+	check("natural film completion reaches full dock scene", not is_instance_valid(controller.intro) and loop.hud.lines.size() == 14 and paused)
 	await unload_game()
 	print("REBUILT COMPLETE checks=", checks, " failures=", failures)
 	quit(0 if failures == 0 else 1)

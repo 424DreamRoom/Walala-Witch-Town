@@ -9,6 +9,8 @@ var title: Label
 var location_label: Label
 var region_buttons := {}
 var selected := "world"
+var exploration_picker: OptionButton
+var exploration_ids: Array[String] = ["field"]
 
 func _ready() -> void:
 	name = "GameMap"
@@ -36,6 +38,17 @@ func _ready() -> void:
 		entry.name = "Region_" + key
 		entry.toggle_mode = true
 		region_buttons[key] = entry
+	exploration_picker = OptionButton.new()
+	exploration_picker.name = "ExplorationRegions"
+	exploration_picker.position = Vector2(16, 300)
+	exploration_picker.size = Vector2(392, 22)
+	add_child(exploration_picker)
+	for region in hud.loop.state.Content.DATA.regions: exploration_ids.append(region.id)
+	exploration_picker.item_selected.connect(func(index: int):
+		canvas.exploration_region = exploration_ids[index]
+		refresh_language()
+		canvas.queue_redraw()
+		hud.loop.audio.play_event("ui_page"))
 	refresh_language()
 	show_region("world", false)
 	region_buttons.world.grab_focus()
@@ -50,11 +63,20 @@ func refresh_language() -> void:
 		region_buttons.field.text = tr(name)
 		if hud.loop.location == "field": location_label.text = I18n.format("所在区域：%s",[name])
 		if selected == "field": title.text = tr(name)
+	exploration_picker.clear()
+	for id in exploration_ids:
+		var region: Dictionary = hud.loop.state.Campaign.entry(hud.loop.state.Content.DATA.regions,id)
+		exploration_picker.add_item(tr(Canvas.PLACES.field if id == "field" else region.name))
+		if id != "field": exploration_picker.set_item_disabled(exploration_picker.item_count - 1, not hud.loop.state.Campaign.region_unlocked(hud.loop.state,region))
+	exploration_picker.select(exploration_ids.find(canvas.exploration_id()))
+	if selected == "field" and canvas.exploration_id() != "field":
+		title.text = tr(hud.loop.state.Campaign.entry(hud.loop.state.Content.DATA.regions,canvas.exploration_id()).name)
 
 func show_region(region: String, play_sound: bool = true) -> void:
 	if region != "world" and region not in Canvas.PLACES: return
 	selected = region
 	canvas.view = region
+	exploration_picker.visible = region == "field"
 	for key in region_buttons: region_buttons[key].set_pressed_no_signal(key == region)
 	refresh_language()
 	canvas.queue_redraw()

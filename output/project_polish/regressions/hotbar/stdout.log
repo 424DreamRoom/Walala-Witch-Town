@@ -1,0 +1,81 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+HOTBAR TEST new game selects the red wand: PASS
+HOTBAR TEST owned wand stays owned when seeds are selected: PASS
+HOTBAR TEST unselected wand cannot strike wood: PASS
+HOTBAR TEST unselected wand cannot strike ore: PASS
+HOTBAR TEST unselected wand cannot strike weed: PASS
+HOTBAR TEST unselected wand cannot catch fish: PASS
+HOTBAR TEST unselected wand cannot till: PASS
+HOTBAR TEST unselected wand cannot refill: PASS
+HOTBAR TEST selected wand tills: PASS
+HOTBAR TEST unselected seeds cannot plant or change soil: PASS
+HOTBAR TEST plant consumes the selected seed stack: PASS
+HOTBAR TEST seeds cannot water: PASS
+HOTBAR TEST selected wand waters: PASS
+HOTBAR TEST selected wand refills: PASS
+HOTBAR TEST excessive selected-stack consumption is atomic: PASS
+HOTBAR TEST using last seed clears only its selected slot: PASS
+HOTBAR TEST empty selected slot cannot borrow another seed stack: PASS
+HOTBAR TEST selection follows the slot after inventory rearrangement: PASS
+HOTBAR TEST wand in another selected slot works: PASS
+HOTBAR TEST invalid selections retain current slot: PASS
+HOTBAR TEST JSON roundtrip restores selected slot: PASS
+HOTBAR TEST older saves default to the first slot: PASS
+HOTBAR TEST invalid saved selection rejected -1: PASS
+HOTBAR TEST invalid saved selection rejected 10: PASS
+HOTBAR TEST invalid saved selection rejected 1.5: PASS
+HOTBAR TEST invalid saved selection rejected 1: PASS
+HOTBAR TEST invalid saved selection rejected <null>: PASS
+HOTBAR TEST number selects slot 0: PASS
+HOTBAR TEST number selects slot 1: PASS
+HOTBAR TEST number selects slot 2: PASS
+HOTBAR TEST number selects slot 3: PASS
+HOTBAR TEST number selects slot 4: PASS
+HOTBAR TEST number selects slot 5: PASS
+HOTBAR TEST number selects slot 6: PASS
+HOTBAR TEST number selects slot 7: PASS
+HOTBAR TEST number selects slot 8: PASS
+HOTBAR TEST number selects slot 9: PASS
+HOTBAR TEST selection preserves weather: PASS
+HOTBAR TEST wheel down wraps last slot to wand: PASS
+HOTBAR TEST wheel down selects next item and moves highlight: PASS
+HOTBAR TEST wheel up selects previous item: PASS
+HOTBAR TEST wheel up wraps first slot to empty last slot: PASS
+HOTBAR TEST wheel releases horizontal scroll and modifiers do not select: PASS
+HOTBAR TEST second slot selects seeds without opening bag: PASS
+HOTBAR TEST modifiers and key repeats do not select: PASS
+HOTBAR TEST backpack blocks keyboard and wheel hotbar input: PASS
+HOTBAR TEST dialogue blocks keyboard and wheel hotbar input: PASS
+HOTBAR TEST map blocks keyboard and wheel hotbar input: PASS
+HOTBAR TEST pause menu blocks keyboard and wheel hotbar input: PASS
+HOTBAR TEST paused world blocks wheel selection without a modal: PASS
+HOTBAR TEST key capture blocks wheel selection: PASS
+HOTBAR TEST key capture blocks selection: PASS
+HOTBAR TEST custom digit binding applies: PASS
+HOTBAR TEST configured action takes priority over hotbar: PASS
+HOTBAR TEST settlement blocks keyboard and wheel selection and hides highlight: PASS
+HOTBAR TEST hidden hotbar keeps keyboard selection without visible highlight: PASS
+HOTBAR TEST hidden hotbar keeps wheel selection without visible highlight: PASS
+HOTBAR TEST real interact cannot use an unselected wand: PASS
+HOTBAR TEST real interact starts selected wand: PASS
+HOTBAR TEST wheel selection cancels tool action before impact: PASS
+HOTBAR TEST state changes also invalidate an active tool action: PASS
+HOTBAR TEST unselected wand cannot start fishing: PASS
+HOTBAR TEST selected wand starts fishing: PASS
+HOTBAR TEST wheel to empty slot cancels fishing without a reward: PASS
+HOTBAR TEST real selected wand tills farm: PASS
+HOTBAR TEST real selected seeds plant once: PASS
+HOTBAR TEST seed planting does not display an unselected wand: PASS
+HOTBAR TEST real selected wand waters crop: PASS
+HOTBAR TEST selected highlight survives language zh_CN: PASS
+HOTBAR TEST selected highlight survives language en: PASS
+HOTBAR TEST selected highlight survives language ja: PASS
+HOTBAR TEST selected highlight survives language zh_TW: PASS
+HOTBAR TEST isolated save slot opens: PASS
+HOTBAR TEST manual save persists selection: PASS
+HOTBAR VERIFY END failures=0
+FMOD Sound System: System released

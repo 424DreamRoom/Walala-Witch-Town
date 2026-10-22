@@ -1,7 +1,7 @@
 extends RefCounted
 ## Read the timings and ranges exported from the editable Aseprite source.
-const SHEET := "res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.aseprite"
-const MANIFEST := "res://Art/Character/Storybook/WalalaWitchAseprite32/character-manifest.json"
+const SHEET := "res://Art/Character/Storybook/WalalaWitchCuteAseprite32/walala-witch.aseprite"
+const MANIFEST := "res://Art/Character/Storybook/WalalaWitchCuteAseprite32/character-manifest.json"
 const COLUMNS := 8
 const ROWS := 19
 const DIRECTIONS := ["down", "up", "right", "left"]

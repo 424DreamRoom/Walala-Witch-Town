@@ -76,6 +76,7 @@ func run() -> void:
 	root.add_child(lane)
 	await frames(5)
 	loop = lane.get_node("GameLoop")
+	loop.state.restaurant_leased = true
 	loop.enter("town")
 	loop.set_process(false)
 	loop.campaign_controller.set_process(false)
