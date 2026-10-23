@@ -12,6 +12,7 @@ var furniture_bodies: Array[StaticBody2D] = []
 var stations := {"exit": Vector2(320, 449)}
 var spawn := Vector2(320, 405)
 var world_size := Vector2i(640, 480)
+var room_bounds := Rect2i()
 var chest_hint: Label
 
 func _ready() -> void:
@@ -24,6 +25,7 @@ func _ready() -> void:
 	var ground := preload("res://Art/Source/tile_ground.gd").create(House.ground_path(loop.state.furniture))
 	ground.z_index = Depth.GROUND
 	add_child(ground)
+	room_bounds = preload("res://Scenes/Gameplay/room_framing.gd").prepare(self, House.ground_path(loop.state.furniture))
 	_add_doorway_foreground(ground)
 	if loop.state.furniture.legacy_fixtures:
 		for values in layout.walls:

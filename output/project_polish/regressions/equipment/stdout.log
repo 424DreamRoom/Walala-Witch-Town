@@ -132,11 +132,11 @@ EQUIPMENT TEST NPC service cannot open remotely: PASS
 EQUIPMENT TEST interaction opens smith services: PASS
 EQUIPMENT TEST NPC upgrade modal pauses world: PASS
 EQUIPMENT TEST dedicated smith entry selects wand: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Panel@2363: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2364: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2364: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2365: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2365: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Panel@2365: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2366: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2366: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2367: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2367: PASS
 EQUIPMENT TEST control stays within panel zh_CN Resources: PASS
 EQUIPMENT TEST control stays within panel zh_CN Resource_coin: PASS
 EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
@@ -152,17 +152,17 @@ EQUIPMENT TEST control stays within panel zh_CN Count: PASS
 EQUIPMENT TEST label fits zh_CN Count: PASS
 EQUIPMENT TEST control stays within panel zh_CN Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2371: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2371: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2373: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2373: PASS
 EQUIPMENT TEST control stays within panel zh_CN Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2374: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2374: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Control@2375: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2378: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2378: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2379: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2379: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2376: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2376: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2377: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2380: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2380: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2381: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2381: PASS
 EQUIPMENT TEST control stays within panel zh_CN DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits zh_CN 144/166.0: PASS
 EQUIPMENT TEST attribute line fits zh_CN 采集力度 1 → 2: PASS
@@ -193,11 +193,11 @@ EQUIPMENT TEST control stays within panel zh_CN Status: PASS
 EQUIPMENT TEST control stays within panel zh_CN Back: PASS
 EQUIPMENT TEST button fits zh_CN Back: PASS
 EQUIPMENT TEST all nine wand attributes previewed zh_CN: PASS
-EQUIPMENT TEST control stays within panel en @Panel@2363: PASS
-EQUIPMENT TEST control stays within panel en @Label@2364: PASS
-EQUIPMENT TEST label fits en @Label@2364: PASS
-EQUIPMENT TEST control stays within panel en @Label@2365: PASS
-EQUIPMENT TEST label fits en @Label@2365: PASS
+EQUIPMENT TEST control stays within panel en @Panel@2365: PASS
+EQUIPMENT TEST control stays within panel en @Label@2366: PASS
+EQUIPMENT TEST label fits en @Label@2366: PASS
+EQUIPMENT TEST control stays within panel en @Label@2367: PASS
+EQUIPMENT TEST label fits en @Label@2367: PASS
 EQUIPMENT TEST control stays within panel en Resources: PASS
 EQUIPMENT TEST control stays within panel en Resource_coin: PASS
 EQUIPMENT TEST control stays within panel en Icon: PASS
@@ -213,17 +213,17 @@ EQUIPMENT TEST control stays within panel en Count: PASS
 EQUIPMENT TEST label fits en Count: PASS
 EQUIPMENT TEST control stays within panel en Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel en Icon: PASS
-EQUIPMENT TEST control stays within panel en @Label@2371: PASS
-EQUIPMENT TEST label fits en @Label@2371: PASS
+EQUIPMENT TEST control stays within panel en @Label@2373: PASS
+EQUIPMENT TEST label fits en @Label@2373: PASS
 EQUIPMENT TEST control stays within panel en Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel en Icon: PASS
-EQUIPMENT TEST control stays within panel en @Label@2374: PASS
-EQUIPMENT TEST label fits en @Label@2374: PASS
-EQUIPMENT TEST control stays within panel en @Control@2375: PASS
-EQUIPMENT TEST control stays within panel en @Label@2388: PASS
-EQUIPMENT TEST label fits en @Label@2388: PASS
-EQUIPMENT TEST control stays within panel en @Label@2389: PASS
-EQUIPMENT TEST label fits en @Label@2389: PASS
+EQUIPMENT TEST control stays within panel en @Label@2376: PASS
+EQUIPMENT TEST label fits en @Label@2376: PASS
+EQUIPMENT TEST control stays within panel en @Control@2377: PASS
+EQUIPMENT TEST control stays within panel en @Label@2390: PASS
+EQUIPMENT TEST label fits en @Label@2390: PASS
+EQUIPMENT TEST control stays within panel en @Label@2391: PASS
+EQUIPMENT TEST label fits en @Label@2391: PASS
 EQUIPMENT TEST control stays within panel en DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits en 144/166.0: PASS
 EQUIPMENT TEST attribute line fits en Gathering power 1 → 2: PASS
@@ -254,11 +254,11 @@ EQUIPMENT TEST control stays within panel en Status: PASS
 EQUIPMENT TEST control stays within panel en Back: PASS
 EQUIPMENT TEST button fits en Back: PASS
 EQUIPMENT TEST all nine wand attributes previewed en: PASS
-EQUIPMENT TEST control stays within panel ja @Panel@2363: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2364: PASS
-EQUIPMENT TEST label fits ja @Label@2364: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2365: PASS
-EQUIPMENT TEST label fits ja @Label@2365: PASS
+EQUIPMENT TEST control stays within panel ja @Panel@2365: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2366: PASS
+EQUIPMENT TEST label fits ja @Label@2366: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2367: PASS
+EQUIPMENT TEST label fits ja @Label@2367: PASS
 EQUIPMENT TEST control stays within panel ja Resources: PASS
 EQUIPMENT TEST control stays within panel ja Resource_coin: PASS
 EQUIPMENT TEST control stays within panel ja Icon: PASS
@@ -274,17 +274,17 @@ EQUIPMENT TEST control stays within panel ja Count: PASS
 EQUIPMENT TEST label fits ja Count: PASS
 EQUIPMENT TEST control stays within panel ja Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel ja Icon: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2371: PASS
-EQUIPMENT TEST label fits ja @Label@2371: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2373: PASS
+EQUIPMENT TEST label fits ja @Label@2373: PASS
 EQUIPMENT TEST control stays within panel ja Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel ja Icon: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2374: PASS
-EQUIPMENT TEST label fits ja @Label@2374: PASS
-EQUIPMENT TEST control stays within panel ja @Control@2375: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2398: PASS
-EQUIPMENT TEST label fits ja @Label@2398: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2399: PASS
-EQUIPMENT TEST label fits ja @Label@2399: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2376: PASS
+EQUIPMENT TEST label fits ja @Label@2376: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2377: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2400: PASS
+EQUIPMENT TEST label fits ja @Label@2400: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2401: PASS
+EQUIPMENT TEST label fits ja @Label@2401: PASS
 EQUIPMENT TEST control stays within panel ja DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits ja 144/166.0: PASS
 EQUIPMENT TEST attribute line fits ja 採集力 1 → 2: PASS
@@ -315,11 +315,11 @@ EQUIPMENT TEST control stays within panel ja Status: PASS
 EQUIPMENT TEST control stays within panel ja Back: PASS
 EQUIPMENT TEST button fits ja Back: PASS
 EQUIPMENT TEST all nine wand attributes previewed ja: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Panel@2363: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2364: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2364: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2365: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2365: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Panel@2365: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2366: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2366: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2367: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2367: PASS
 EQUIPMENT TEST control stays within panel zh_TW Resources: PASS
 EQUIPMENT TEST control stays within panel zh_TW Resource_coin: PASS
 EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
@@ -335,17 +335,17 @@ EQUIPMENT TEST control stays within panel zh_TW Count: PASS
 EQUIPMENT TEST label fits zh_TW Count: PASS
 EQUIPMENT TEST control stays within panel zh_TW Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2371: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2371: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2373: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2373: PASS
 EQUIPMENT TEST control stays within panel zh_TW Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2374: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2374: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Control@2375: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2408: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2408: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2409: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2409: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2376: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2376: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2377: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2410: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2410: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2411: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2411: PASS
 EQUIPMENT TEST control stays within panel zh_TW DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits zh_TW 144/166.0: PASS
 EQUIPMENT TEST attribute line fits zh_TW 採集力度 1 → 2: PASS
@@ -390,11 +390,11 @@ EQUIPMENT TEST native upgrade bag2: PASS
 EQUIPMENT TEST native upgrade bag3: PASS
 EQUIPMENT TEST maximum disabled bag: PASS
 EQUIPMENT TEST stale maximum click cannot spend: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Panel@2470: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2471: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2471: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2472: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2472: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Panel@2472: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2473: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2473: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2474: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2474: PASS
 EQUIPMENT TEST control stays within panel zh_CN Resources: PASS
 EQUIPMENT TEST control stays within panel zh_CN Resource_coin: PASS
 EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
@@ -410,17 +410,17 @@ EQUIPMENT TEST control stays within panel zh_CN Count: PASS
 EQUIPMENT TEST label fits zh_CN Count: PASS
 EQUIPMENT TEST control stays within panel zh_CN Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2478: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2478: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2480: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2480: PASS
 EQUIPMENT TEST control stays within panel zh_CN Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel zh_CN Icon: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2481: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2481: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Control@2482: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2576: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2576: PASS
-EQUIPMENT TEST control stays within panel zh_CN @Label@2577: PASS
-EQUIPMENT TEST label fits zh_CN @Label@2577: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2483: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2483: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Control@2484: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2578: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2578: PASS
+EQUIPMENT TEST control stays within panel zh_CN @Label@2579: PASS
+EQUIPMENT TEST label fits zh_CN @Label@2579: PASS
 EQUIPMENT TEST control stays within panel zh_CN DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits zh_CN 144/166.0: PASS
 EQUIPMENT TEST attribute line fits zh_CN 采集力度 3: PASS
@@ -439,11 +439,11 @@ EQUIPMENT TEST control stays within panel zh_CN Status: PASS
 EQUIPMENT TEST control stays within panel zh_CN Back: PASS
 EQUIPMENT TEST button fits zh_CN Back: PASS
 EQUIPMENT TEST maximum shows all current wand attributes zh_CN: PASS
-EQUIPMENT TEST control stays within panel en @Panel@2470: PASS
-EQUIPMENT TEST control stays within panel en @Label@2471: PASS
-EQUIPMENT TEST label fits en @Label@2471: PASS
-EQUIPMENT TEST control stays within panel en @Label@2472: PASS
-EQUIPMENT TEST label fits en @Label@2472: PASS
+EQUIPMENT TEST control stays within panel en @Panel@2472: PASS
+EQUIPMENT TEST control stays within panel en @Label@2473: PASS
+EQUIPMENT TEST label fits en @Label@2473: PASS
+EQUIPMENT TEST control stays within panel en @Label@2474: PASS
+EQUIPMENT TEST label fits en @Label@2474: PASS
 EQUIPMENT TEST control stays within panel en Resources: PASS
 EQUIPMENT TEST control stays within panel en Resource_coin: PASS
 EQUIPMENT TEST control stays within panel en Icon: PASS
@@ -459,17 +459,17 @@ EQUIPMENT TEST control stays within panel en Count: PASS
 EQUIPMENT TEST label fits en Count: PASS
 EQUIPMENT TEST control stays within panel en Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel en Icon: PASS
-EQUIPMENT TEST control stays within panel en @Label@2478: PASS
-EQUIPMENT TEST label fits en @Label@2478: PASS
+EQUIPMENT TEST control stays within panel en @Label@2480: PASS
+EQUIPMENT TEST label fits en @Label@2480: PASS
 EQUIPMENT TEST control stays within panel en Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel en Icon: PASS
-EQUIPMENT TEST control stays within panel en @Label@2481: PASS
-EQUIPMENT TEST label fits en @Label@2481: PASS
-EQUIPMENT TEST control stays within panel en @Control@2482: PASS
-EQUIPMENT TEST control stays within panel en @Label@2590: PASS
-EQUIPMENT TEST label fits en @Label@2590: PASS
-EQUIPMENT TEST control stays within panel en @Label@2591: PASS
-EQUIPMENT TEST label fits en @Label@2591: PASS
+EQUIPMENT TEST control stays within panel en @Label@2483: PASS
+EQUIPMENT TEST label fits en @Label@2483: PASS
+EQUIPMENT TEST control stays within panel en @Control@2484: PASS
+EQUIPMENT TEST control stays within panel en @Label@2592: PASS
+EQUIPMENT TEST label fits en @Label@2592: PASS
+EQUIPMENT TEST control stays within panel en @Label@2593: PASS
+EQUIPMENT TEST label fits en @Label@2593: PASS
 EQUIPMENT TEST control stays within panel en DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits en 144/166.0: PASS
 EQUIPMENT TEST attribute line fits en Gathering power 3: PASS
@@ -488,11 +488,11 @@ EQUIPMENT TEST control stays within panel en Status: PASS
 EQUIPMENT TEST control stays within panel en Back: PASS
 EQUIPMENT TEST button fits en Back: PASS
 EQUIPMENT TEST maximum shows all current wand attributes en: PASS
-EQUIPMENT TEST control stays within panel ja @Panel@2470: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2471: PASS
-EQUIPMENT TEST label fits ja @Label@2471: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2472: PASS
-EQUIPMENT TEST label fits ja @Label@2472: PASS
+EQUIPMENT TEST control stays within panel ja @Panel@2472: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2473: PASS
+EQUIPMENT TEST label fits ja @Label@2473: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2474: PASS
+EQUIPMENT TEST label fits ja @Label@2474: PASS
 EQUIPMENT TEST control stays within panel ja Resources: PASS
 EQUIPMENT TEST control stays within panel ja Resource_coin: PASS
 EQUIPMENT TEST control stays within panel ja Icon: PASS
@@ -508,17 +508,17 @@ EQUIPMENT TEST control stays within panel ja Count: PASS
 EQUIPMENT TEST label fits ja Count: PASS
 EQUIPMENT TEST control stays within panel ja Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel ja Icon: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2478: PASS
-EQUIPMENT TEST label fits ja @Label@2478: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2480: PASS
+EQUIPMENT TEST label fits ja @Label@2480: PASS
 EQUIPMENT TEST control stays within panel ja Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel ja Icon: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2481: PASS
-EQUIPMENT TEST label fits ja @Label@2481: PASS
-EQUIPMENT TEST control stays within panel ja @Control@2482: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2604: PASS
-EQUIPMENT TEST label fits ja @Label@2604: PASS
-EQUIPMENT TEST control stays within panel ja @Label@2605: PASS
-EQUIPMENT TEST label fits ja @Label@2605: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2483: PASS
+EQUIPMENT TEST label fits ja @Label@2483: PASS
+EQUIPMENT TEST control stays within panel ja @Control@2484: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2606: PASS
+EQUIPMENT TEST label fits ja @Label@2606: PASS
+EQUIPMENT TEST control stays within panel ja @Label@2607: PASS
+EQUIPMENT TEST label fits ja @Label@2607: PASS
 EQUIPMENT TEST control stays within panel ja DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits ja 144/166.0: PASS
 EQUIPMENT TEST attribute line fits ja 採集力 3: PASS
@@ -537,11 +537,11 @@ EQUIPMENT TEST control stays within panel ja Status: PASS
 EQUIPMENT TEST control stays within panel ja Back: PASS
 EQUIPMENT TEST button fits ja Back: PASS
 EQUIPMENT TEST maximum shows all current wand attributes ja: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Panel@2470: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2471: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2471: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2472: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2472: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Panel@2472: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2473: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2473: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2474: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2474: PASS
 EQUIPMENT TEST control stays within panel zh_TW Resources: PASS
 EQUIPMENT TEST control stays within panel zh_TW Resource_coin: PASS
 EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
@@ -557,17 +557,17 @@ EQUIPMENT TEST control stays within panel zh_TW Count: PASS
 EQUIPMENT TEST label fits zh_TW Count: PASS
 EQUIPMENT TEST control stays within panel zh_TW Equipment_wand: PASS
 EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2478: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2478: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2480: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2480: PASS
 EQUIPMENT TEST control stays within panel zh_TW Equipment_bag: PASS
 EQUIPMENT TEST control stays within panel zh_TW Icon: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2481: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2481: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Control@2482: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2618: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2618: PASS
-EQUIPMENT TEST control stays within panel zh_TW @Label@2619: PASS
-EQUIPMENT TEST label fits zh_TW @Label@2619: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2483: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2483: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Control@2484: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2620: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2620: PASS
+EQUIPMENT TEST control stays within panel zh_TW @Label@2621: PASS
+EQUIPMENT TEST label fits zh_TW @Label@2621: PASS
 EQUIPMENT TEST control stays within panel zh_TW DetailIcon: PASS
 EQUIPMENT TEST attribute description height fits zh_TW 144/166.0: PASS
 EQUIPMENT TEST attribute line fits zh_TW 採集力度 3: PASS

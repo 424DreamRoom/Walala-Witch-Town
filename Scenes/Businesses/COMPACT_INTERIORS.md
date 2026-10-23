@@ -14,6 +14,17 @@
 
 `build_businesses.py` 仍生成原尺寸的素材预览；它会保留带 `ground_scene` 的运行时布局，避免把公共室内恢复为旧尺寸。任何工具均不以 `MyArt/` 为输出或清理目标。
 
+三间店铺的门口原有 116×12 像素背景色断带。`Art/Source/tile_ground.gd` 加载紧凑店铺 TileMap 时，用下方原有台阶像素补齐这段空隙；只替换背景色，保留地毯、门框及其余像素。修补使用独立的运行时图集，游戏和地图预览共用；源 TileSet、TileMap 与 Aseprite 文件保持原样。入口作为地面绘制，角色经过时不被台阶遮住，原有两侧、底部与门边碰撞保留。
+
+入口专项验证（设置、存档、截图与日志均放在 `output/shop_doorway_fix/`，运行前将 `APPDATA`、`LOCALAPPDATA` 指向该目录下独立的 `runtime/appdata`、`runtime/localappdata`）：
+
+```powershell
+& $env:GODOT_BIN --headless --fixed-fps 60 --path . --script res://Scenes/Businesses/verify_doorways.gd
+& $env:GODOT_BIN --windowed --resolution 1280x720 --rendering-method gl_compatibility --fixed-fps 60 --path . --script res://Scenes/Businesses/verify_doorways.gd -- --capture
+```
+
+无窗口模式覆盖逐像素素材保护、真实物理往返、四侧边界与出门；图形模式另检查角色在六个门口位置的可见性，并生成三间店铺的连续经过截图。
+
 隔离验证：
 
 ```powershell

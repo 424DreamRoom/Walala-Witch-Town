@@ -32,6 +32,9 @@ var hotbar_selection: Panel
 var date_label: Label
 var time_label: Label
 var period_label: Label
+var pulse_card: Panel
+var pulse_label: Label
+var rhythm_art: Control
 var slot_counts: Array[Label] = []
 var modal: Control
 var mode := ""
@@ -171,6 +174,14 @@ func _build_hud() -> void:
 	period_label = label("",Rect2(116,5,36,16),watch,UISkin.MUTED_INK)
 	period_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	weather_art = ornament("weather",Vector2(130,23),watch)
+	pulse_card = panel(Rect2(180,8,278,38), base, true)
+	pulse_card.name = "TownPulseCard"
+	pulse_label = label("", Rect2(7,3,264,32), pulse_card, UISkin.MUTED_INK, 10)
+	pulse_label.name = "TownPulseLabel"
+	pulse_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	pulse_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	rhythm_art = ornament("rhythm", Vector2(180, 49), base, Vector2(278, 4))
+	rhythm_art.name = "DayRhythm"
 	var bar_position := Vector2((base.size.x - HOTBAR_SIZE.x) / 2, base.size.y - HOTBAR_SIZE.y)
 	hotbar_art = ornament("hotbar", bar_position, base, HOTBAR_SIZE)
 	hotbar_art.name = "InventoryBar"
@@ -241,6 +252,12 @@ func refresh() -> void:
 	date_label.text = I18n.format("第%d天·周%s", [s.day,["一","二","三","四","五","六","日"][(s.day-1)%7]])
 	time_label.text = s.get_time_text()
 	period_label.text = s.get_time_of_day_name()
+	pulse_card.visible = s.phase != "result"
+	pulse_label.text = s.town_pulse_text()
+	rhythm_art.visible = s.phase != "result"
+	rhythm_art.progress = clampf(s.get_time_minutes() / 1440.0, 0.0, 1.0)
+	rhythm_art.night = s.phase == "night" or s.get_time_of_day() == "night"
+	rhythm_art.queue_redraw()
 	time_label.tooltip_text = ""
 	clock_art.progress = float(minutes%720)/720.0
 	clock_art.night = night_time

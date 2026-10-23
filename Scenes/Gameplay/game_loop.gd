@@ -15,6 +15,7 @@ const Saves = preload("res://Scenes/Save/save_store.gd")
 const I18n = preload("res://Localization/localized_text.gd")
 const ThoughtBubble = preload("res://Scenes/Gameplay/thought_bubble.gd")
 const FootstepSurfaces = preload("res://Sounds/Walala/footstep_surfaces.gd")
+const RoomFraming = preload("res://Scenes/Gameplay/room_framing.gd")
 var state = State.new()
 var day_night
 var audio
@@ -92,6 +93,7 @@ func _ready() -> void:
 	day_night.name = "DayNightCycle"
 	lane.viewport.add_child(day_night)
 	day_night.configure(location)
+	day_night.bind_player(lane.player)
 	day_night.sync(state)
 	# The original visual-only container has no Control hit-test rectangle.
 	lane.viewport.get_parent().size = Vector2(640, 360)
@@ -569,6 +571,9 @@ func enter(target: String, return_position: Vector2 = Vector2.INF) -> void:
 	location = target
 	exit_pending = false
 	exit_latched = true
+	lane.camera.limit_left = 0
+	lane.camera.limit_top = 0
+	lane.camera.zoom = Vector2.ONE
 	if target == "town":
 		if source == "farm":
 			# Arrive at the marked western entrance even with an older save.
@@ -608,10 +613,13 @@ func enter(target: String, return_position: Vector2 = Vector2.INF) -> void:
 			lane.facing = 0
 		lane.camera.limit_right = area.world_size.x if target in LARGE_AREAS else 640
 		lane.camera.limit_bottom = area.world_size.y if target in LARGE_AREAS else 360
+		if target in RoomFraming.LOCATIONS:
+			_frame_room()
 		lane.solid_rects = area.solids.duplicate()
 		lane.weather.configure(lane.camera, lane.player, area.roof_rects if target == "farm" else [])
 	lane.weather.visible = target not in ["restaurant", "home", "blacksmith", "store", "furniture_store"]
 	day_night.configure(location)
+	day_night.bind_player(lane.player)
 	day_night.sync(state)
 	lane.player.velocity = Vector2.ZERO
 	lane._animate(false, false, 0.0)
@@ -619,6 +627,9 @@ func enter(target: String, return_position: Vector2 = Vector2.INF) -> void:
 	audio.set_context(state.phase, location, lane.weather.get_weather(), state.campaign.region, state.cooking >= 0)
 	if last_phase == state.phase:
 		_autosave()
+
+func _frame_room(usable_width: int = 0) -> void:
+	RoomFraming.frame(lane.camera, area.room_bounds, lane.viewport.size, usable_width)
 
 func _on_player_moved(distance: float, running: bool) -> void:
 	if state.phase != "result":
@@ -682,6 +693,8 @@ func _process(delta: float) -> void:
 	# Rain wets all tilled soil, including at night and while the player is indoors.
 	var current_weather: String = str(lane.weather.get_weather())
 	state.sync_weather(current_weather)
+	if lane.player_fx != null:
+		lane.player_fx.set_world_state(current_weather, state.get_time_of_day() in ["evening", "night"], state.wand_mode)
 	if current_weather == "rain":
 		state.rain_on_farm()
 	if not paused_for_test:
@@ -781,6 +794,13 @@ func _refresh() -> void:
 	summary.text = state.get_result_text()
 	if hud != null:
 		hud.refresh()
+	if location == "restaurant":
+		# Center in the free play area while the right-hand service UI is open.
+		var right_controls: bool = backgrounds[1].visible or discard_button.visible or (end_button.visible and end_button.position.x >= backgrounds[1].position.x)
+		_frame_room(int(backgrounds[1].position.x) if right_controls else 0)
+	elif location in RoomFraming.LOCATIONS:
+		var service_panel: Panel = area.service_panel if location in ["blacksmith", "store"] else null
+		_frame_room(int(service_panel.position.x) if service_panel != null and service_panel.visible else 0)
 
 func _exit_tree() -> void:
 	# Detached town is owned here when exiting from an interior.

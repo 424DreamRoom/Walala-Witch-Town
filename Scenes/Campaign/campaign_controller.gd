@@ -463,6 +463,14 @@ func _story() -> void:
 				row(text("支线")+" · "+text(npc.stories[stage])+"\n"+text(npc.events[stage]),"res://Art/Characters/NPC32/portraits/"+npc.id+".aseprite")
 		if list.get_child_count() == 0: row(text("这里还没有手记。"))
 		return
+	if not loop.state.town_contract.is_empty():
+		var request: Dictionary = loop.state.town_contract
+		var progress: int = mini(int(request.goal), loop.state.town_contract_progress)
+		var request_caption := I18n.format("小镇委托：%s %d/%d", [tr(request.name), progress, int(request.goal)])
+		request_caption += "\n" + tr(request.description)
+		request_caption += "\n" + (tr("目标 %d/%d · 奖励 %d金") % [progress, int(request.goal), int(request.reward)])
+		var request_row := row(request_caption)
+		request_row.name = "TownContract"
 	var q := C.current_main(loop.state)
 	if loop.state.is_arrival_day():
 		var step := Guide.Onboarding.current(loop.state)

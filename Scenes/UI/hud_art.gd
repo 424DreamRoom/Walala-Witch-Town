@@ -49,6 +49,17 @@ func _draw() -> void:
 			box(x - 1, 5, 1, size.y - 10, Color("74482f"))
 			box(x, 5, 1, size.y - 10, Color("b9824e"))
 		return
+	if kind == "rhythm":
+		# A two-tone timeline makes the day/evening handoff legible at a glance.
+		var width := maxf(1.0, size.x)
+		var progress_width := clampf(progress, 0.0, 1.0) * width
+		box(0, 1, width, 2, Color("513d35", 0.72))
+		box(0, 1, progress_width, 2, Color("9cbe8d") if not night else Color("e4b36e"))
+		for tick in [0.25, 0.5, 0.75]:
+			var x := roundf(width * tick)
+			box(x, 0, 1, 4, Color("ead3a0", 0.62))
+		box(progress_width - 1, 0, 2, 4, Color("fff0c8"))
+		return
 	if kind in RESOURCE_TEXTURES:
 		# Native 16x16 content centered on the existing UI ornament canvas.
 		draw_texture(RESOURCE_TEXTURES[kind], ((size - Vector2(16, 16)) / 2.0).floor())

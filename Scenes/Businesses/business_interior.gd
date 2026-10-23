@@ -13,6 +13,7 @@ var solids: Array[Rect2] = []
 var stations := {"exit": Vector2(320, 449), "service": Vector2.ZERO}
 var spawn := Vector2(320, 405)
 var world_size := Vector2i(640, 480)
+var room_bounds := Rect2i()
 var walkable_regions: Array[Rect2] = []
 var staff_position := Vector2.ZERO
 var service_panel: Panel
@@ -40,6 +41,7 @@ func _ready() -> void:
 	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + layout.get("ground", kind + "_ground") + ".aseprite", ART + layout.ground_scene)
 	ground.z_index = -1
 	add_child(ground)
+	room_bounds = preload("res://Scenes/Gameplay/room_framing.gd").prepare(self, ART + layout.get("ground", kind + "_ground") + ".aseprite", ART + layout.ground_scene)
 	for values in layout.walls:
 		var rect := Rect2(values[0], values[1], values[2], values[3])
 		var body := StaticBody2D.new()

@@ -13718,6 +13718,72 @@ const ROWS := [
     "我的第一張菜單也塗得很滿。以後再看，應該能想起當時為什麼改。"
   ],
   [
+    "林间来货",
+    "Woodland delivery",
+    "森の届けもの",
+    "林間來貨"
+  ],
+  [
+    "采集林间食材",
+    "Gather woodland ingredients",
+    "森の食材を集める",
+    "採集林間食材"
+  ],
+  [
+    "新芽入仓",
+    "Fresh sprouts in storage",
+    "新芽を倉庫へ",
+    "新芽入倉"
+  ],
+  [
+    "收获农场作物",
+    "Harvest farm crops",
+    "畑の作物を収穫する",
+    "收穫農場作物"
+  ],
+  [
+    "灯下待客",
+    "Guests beneath the lantern",
+    "灯の下のお客さま",
+    "燈下待客"
+  ],
+  [
+    "让客人吃得满意",
+    "Leave guests satisfied",
+    "お客さまを満足させる",
+    "讓客人吃得滿意"
+  ],
+  [
+    "潮声带回",
+    "Bring back the tide's catch",
+    "潮の恵みを持ち帰る",
+    "潮聲帶回"
+  ],
+  [
+    "带回一条鲜鱼",
+    "Bring back a fresh fish",
+    "新鮮な魚を一匹持ち帰る",
+    "帶回一條鮮魚"
+  ],
+  [
+    "小镇委托：%s %d/%d",
+    "Town request: %s %d/%d",
+    "町の依頼：%s %d/%d",
+    "小鎮委託：%s %d/%d"
+  ],
+  [
+    "今日委托完成：+%d金",
+    "Town request complete: +%dg",
+    "町の依頼達成：+%dG",
+    "今日委託完成：+%d金"
+  ],
+  [
+    "今日气象：%s · 料理偏好：%s\n小镇委托：%s %d/%d",
+    "Forecast: %s · Table focus: %s\nTown request: %s %d/%d",
+    "今日の天気：%s・献立の気分：%s\n町の依頼：%s %d/%d",
+    "今日氣象：%s · 料理偏好：%s\n小鎮委託：%s %d/%d"
+  ],
+  [
     "那是镇里公开招的租。食堂关着以后，码头的人收完货，连顿热饭都不好找。",
     "The town put out that notice. Since the eatery closed, the dock workers have struggled to find a hot meal after unloading.",
     "町が出した募集だよ。食堂が閉まってから、荷下ろしの後に温かいご飯を食べる場所がなくてね。",

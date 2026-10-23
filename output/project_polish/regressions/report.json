@@ -52,7 +52,7 @@
     "suite": "save",
     "exit_code": 0,
     "passed": true,
-    "checks": 118,
+    "checks": 121,
     "errors": []
   },
   {
@@ -74,6 +74,13 @@
     "exit_code": 0,
     "passed": true,
     "checks": 253,
+    "errors": []
+  },
+  {
+    "suite": "town_pulse",
+    "exit_code": 0,
+    "passed": true,
+    "checks": 6,
     "errors": []
   },
   {

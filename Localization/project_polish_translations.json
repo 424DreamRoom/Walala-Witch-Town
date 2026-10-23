@@ -24,4 +24,16 @@
  ["那就留着。店里也有一条旧围裙，我还舍不得把它叠到箱底。", "Then keep it out. There's an old apron at the restaurant I can't quite fold away yet either.", "じゃあ、そのままで。店にも古いエプロンがあって、まだ箱の底にはしまえないんだ。", "那就留著。店裡也有一條舊圍裙，我還捨不得把它疊到箱底。"],
  ["今天账上最整齐的，是写错后划掉的那一列。每个零都站得特别直。", "The neatest column in today's ledger is the one I crossed out. Every zero lined up beautifully.", "今日の帳簿で一番きれいなのは、間違えて消した列よ。ゼロがみんな真っすぐ並んでるの。", "今天帳上最整齊的，是寫錯後劃掉的那一列。每個零都站得特別直。"],
  ["我的第一张菜单也涂得很满。以后再看，应该能想起当时为什么改。", "My first menu is covered in corrections too. Later, I hope I'll remember why I made each one.", "私の最初の献立も、書き直しだらけ。いつか見たら、どうして変えたか思い出せるといいな。", "我的第一張菜單也塗得很滿。以後再看，應該能想起當時為什麼改。"]
+,
+ ["林间来货", "Woodland delivery", "森の届けもの", "林間來貨"],
+ ["采集林间食材", "Gather woodland ingredients", "森の食材を集める", "採集林間食材"],
+ ["新芽入仓", "Fresh sprouts in storage", "新芽を倉庫へ", "新芽入倉"],
+ ["收获农场作物", "Harvest farm crops", "畑の作物を収穫する", "收穫農場作物"],
+ ["灯下待客", "Guests beneath the lantern", "灯の下のお客さま", "燈下待客"],
+ ["让客人吃得满意", "Leave guests satisfied", "お客さまを満足させる", "讓客人吃得滿意"],
+ ["潮声带回", "Bring back the tide's catch", "潮の恵みを持ち帰る", "潮聲帶回"],
+ ["带回一条鲜鱼", "Bring back a fresh fish", "新鮮な魚を一匹持ち帰る", "帶回一條鮮魚"],
+ ["小镇委托：%s %d/%d", "Town request: %s %d/%d", "町の依頼：%s %d/%d", "小鎮委託：%s %d/%d"],
+ ["今日委托完成：+%d金", "Town request complete: +%dg", "町の依頼達成：+%dG", "今日委託完成：+%d金"],
+ ["今日气象：%s · 料理偏好：%s\n小镇委托：%s %d/%d", "Forecast: %s · Table focus: %s\nTown request: %s %d/%d", "今日の天気：%s・献立の気分：%s\n町の依頼：%s %d/%d", "今日氣象：%s · 料理偏好：%s\n小鎮委託：%s %d/%d"]
 ]

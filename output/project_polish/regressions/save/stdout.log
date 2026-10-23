@@ -53,6 +53,9 @@ SAVE TEST round trip guest_mood: PASS
 SAVE TEST round trip crop_quality_total: PASS
 SAVE TEST round trip crop_harvests: PASS
 SAVE TEST round trip restaurant_leased: PASS
+SAVE TEST round trip town_contract: PASS
+SAVE TEST round trip town_contract_progress: PASS
+SAVE TEST round trip town_contract_rewarded: PASS
 SAVE TEST starter tools belong to each new game: PASS
 SAVE TEST legacy saves receive starter tools without losing inventory: PASS
 SAVE TEST tool ownership persists across days: PASS

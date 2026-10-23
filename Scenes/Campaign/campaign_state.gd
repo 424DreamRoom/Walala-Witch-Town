@@ -147,6 +147,7 @@ static func farm_action(s, index: int) -> bool:
 		plot.growth = maxi(0, int(crop.days) - int(crop.regrow)) if crop.regrow > 0 else -1
 		plot.fertilized = false
 		s.message = "收获完成"
+		s.register_town_event("harvest")
 	elif not plot.watered:
 		if not s.has_tool("wand"):
 			s.message = "需要法杖。"
@@ -207,6 +208,7 @@ static func gather(s, area: String, index: int) -> bool:
 	if area == "ridge": stat(s, "ridge")
 	s.journal.gather += 1
 	s.set_message("%s ×%d", [D.items[id].name, 1])
+	s.register_town_event("gather")
 	return true
 
 static func eligible_fish(s, area: String) -> Array:

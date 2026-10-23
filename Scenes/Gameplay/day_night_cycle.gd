@@ -14,6 +14,10 @@ var location := "town"
 var time_of_day := "morning"
 var minutes := 360.0
 var lamp_strength := 0.0
+var tracked_player: Node2D
+var player_light: PointLight2D
+var flicker_phase := 0.0
+var lamp_flicker := 1.0
 
 func _ready() -> void:
 	modulation = CanvasModulate.new()
@@ -32,11 +36,44 @@ func _ready() -> void:
 	light_texture.fill_from = Vector2(0.5, 0.5)
 	light_texture.fill_to = Vector2(1.0, 0.5)
 	light_texture.gradient = gradient
+	player_light = PointLight2D.new()
+	player_light.name = "WitchLanternLight"
+	player_light.texture = light_texture
+	player_light.texture_scale = 0.8
+	player_light.color = Color("f2c17e")
+	player_light.energy = 0.0
+	player_light.range_z_max = 99
+	player_light.shadow_enabled = false
+	lights.add_child(player_light)
+	set_process(true)
+
+func _process(delta: float) -> void:
+	# A shared, deterministic phase keeps every lantern in the same visual
+	# language while avoiding the perfectly static light that makes dusk feel
+	# flat.  This only changes light energy; it never touches the clock or save
+	# state.
+	flicker_phase = fposmod(flicker_phase + delta, TAU * 4.0)
+	var pulse := sin(flicker_phase * 1.7) * 0.018 + sin(flicker_phase * 3.9 + 0.7) * 0.012
+	lamp_flicker = clampf(1.0 + pulse, 0.94, 1.06)
+	if not is_instance_valid(lights): return
+	for light in lights.get_children():
+		if not is_instance_valid(light) or light == player_light: continue
+		light.energy = lamp_strength * 0.85 * lamp_flicker
+	if is_instance_valid(player_light):
+		player_light.energy = lamp_strength * 0.58 * (0.98 + sin(flicker_phase * 2.4) * 0.02)
+
+func bind_player(next_player: Node2D) -> void:
+	tracked_player = next_player
+	if is_instance_valid(player_light) and is_instance_valid(tracked_player):
+		player_light.global_position = tracked_player.global_position
 
 func configure(next_location: String) -> void:
 	location = next_location
 	for light in lights.get_children():
-		light.free()
+		if light != player_light:
+			light.free()
+	if is_instance_valid(player_light):
+		player_light.position = Vector2.ZERO
 	if location == "town":
 		var layout: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(ART + "town_layout.json"))
 		for prop in layout.props:
@@ -78,4 +115,9 @@ func sync(state) -> void:
 	lamp_strength = smoothstep(1020.0, 1200.0, minutes)
 	for light in lights.get_children():
 		light.enabled = lamp_strength > 0.001
-		light.energy = lamp_strength * 0.85
+		light.energy = lamp_strength * (0.85 if light != player_light else 0.58)
+	if is_instance_valid(tracked_player) and is_instance_valid(player_light):
+		player_light.global_position = tracked_player.global_position
+		player_light.enabled = lamp_strength > 0.12
+		player_light.energy = lamp_strength * 0.58
+		player_light.color = Color("f4c680") if time_of_day in ["evening", "night"] else Color("f2d6a4")

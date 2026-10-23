@@ -21,6 +21,7 @@ suites={
     'ambient':'Scenes/Gameplay/verify_ambient.gd',
     'residents':'Scenes/Campaign/verify_residents.gd',
     'seasonal':'Scenes/Gameplay/verify_seasonal_director.gd',
+    'town_pulse':'Scenes/Gameplay/verify_town_pulse.gd',
     'cooking':'Scenes/Campaign/verify_cooking_expansion.gd',
     'ui':'Scenes/UI/verify_ui.gd',
 }

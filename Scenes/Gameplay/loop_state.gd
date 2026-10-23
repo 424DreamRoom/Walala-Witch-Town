@@ -6,6 +6,7 @@ const Items = preload("res://Scenes/Storage/inventory_items.gd")
 const Campaign = preload("res://Scenes/Campaign/campaign_state.gd")
 const Content = preload("res://Scenes/Campaign/content.gd")
 const SeasonalDirector = preload("res://Scenes/Gameplay/seasonal_director.gd")
+const TownPulse = preload("res://Scenes/Gameplay/town_pulse.gd")
 const ShopFood = preload("res://Scenes/Businesses/food_catalog.gd")
 const FarmTerrain = preload("res://Scenes/Farm/farm_terrain.gd")
 var campaign: Dictionary = Campaign.initial()
@@ -82,6 +83,11 @@ var tips := 0
 var guest_mood := 0
 var crop_quality_total := 0
 var crop_harvests := 0
+## One compact daily request keeps gathering, farming, fishing and service
+## connected without competing with the authored campaign objectives.
+var town_contract: Dictionary = {}
+var town_contract_progress := 0
+var town_contract_rewarded := false
 
 # Derive the clock from the saved phase timer so lighting and HUD never drift.
 func _init() -> void:
@@ -89,12 +95,28 @@ func _init() -> void:
 	menu.fill(false)
 	daily_pulse = SeasonalDirector.pulse_for_day(day)
 	guest_mood = int(daily_pulse.get("mood", 0))
+	town_contract = TownPulse.for_day(day)
 
 func pulse_note() -> String:
-	return I18n.format("今日气象：%s · 料理偏好：%s", [daily_pulse.weather_name, daily_pulse.focus_name])
+	return I18n.format("今日气象：%s · 料理偏好：%s", [tr(daily_pulse.weather_name), tr(daily_pulse.focus_name)])
 
 func pulse_focus() -> String:
 	return SeasonalDirector.focus_text(daily_pulse)
+
+func town_pulse_text() -> String:
+	if town_contract.is_empty():
+		return I18n.format("今日气象：%s · 料理偏好：%s", [tr(daily_pulse.weather_name), tr(daily_pulse.focus_name)])
+	return I18n.format("今日气象：%s · 料理偏好：%s\n小镇委托：%s %d/%d", [tr(daily_pulse.weather_name), tr(daily_pulse.focus_name), tr(town_contract.name), town_contract_progress, int(town_contract.goal)])
+
+func register_town_event(kind: String, amount: int = 1) -> void:
+	if amount <= 0 or town_contract_rewarded or town_contract.get("id", "") != kind:
+		return
+	town_contract_progress = mini(int(town_contract.goal), town_contract_progress + amount)
+	if TownPulse.finished(town_contract, town_contract_progress):
+		town_contract_rewarded = true
+		coins += int(town_contract.reward)
+		campaign.reputation = mini(Campaign.LIMIT, int(campaign.reputation) + int(town_contract.reputation))
+		set_message("今日委托完成：+%d金", [int(town_contract.reward)])
 
 func sync_weather(weather: String) -> void:
 	if weather not in SeasonalDirector.WEATHER_NAMES: return
@@ -156,7 +178,13 @@ func get_message_text() -> String:
 	return I18n.prompt(message)
 
 func get_result_text() -> String:
-	return tr("第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n小费：%d　最高连席：%d\n原食材和厨房原料保留；采集点次日刷新。") % [day, income, coins, served, lost, wasted, tips, service_peak]
+	var summary := tr("第 %d 天结算\n收入：%d 金币　累计：%d\n上菜：%d　离店：%d　废弃：%d\n小费：%d　最高连席：%d\n原食材和厨房原料保留；采集点次日刷新。") % [day, income, coins, served, lost, wasted, tips, service_peak]
+	if not town_contract.is_empty():
+		var contract := I18n.format("小镇委托：%s %d/%d", [tr(town_contract.name), town_contract_progress, int(town_contract.goal)])
+		if town_contract_rewarded:
+			contract += " · " + I18n.format("今日委托完成：+%d金", [int(town_contract.reward)])
+		summary += "\n" + contract
+	return summary
 
 const BUSINESS_SALES = {"sell_wood": ["wood", 1], "sell_ore": ["ore", 3], "sell_iron": ["iron", 8], "sell_fish": ["fish", 4]}
 const BUSINESS_BUYS = {"buy_mushroom": 0, "buy_berry": 1, "buy_herb": 2}
@@ -272,6 +300,7 @@ func gather(index: int) -> bool:
 	nodes[index] -= 1
 	journal.gather = mini(1000000000, journal.gather + 1)
 	set_message("采得%s ×%d", [INGREDIENTS[index % 3], 1])
+	register_town_event("gather")
 	return true
 
 func process_raw() -> bool:
@@ -492,6 +521,7 @@ func catch_fish(id: String) -> bool:
 	var fish_area: String = id.get_slice(":", 0) if ":" in id else "dock" if id.begins_with("dock") else "field"
 	var named_fish := Campaign.record_fish(self, fish_area, journal.fish)
 	if not named_fish.is_empty(): set_message("%s ×%d", [named_fish, 1])
+	register_town_event("fish")
 	return true
 
 func set_menu_dish(dish: int, enabled: bool) -> bool:
@@ -617,6 +647,7 @@ func serve(seat: int) -> bool:
 	served += 1
 	journal.serve = mini(1000000000, journal.serve + 1)
 	set_message("上菜成功 +%d 金币（营业结束入账）", [base_income + chain_tip])
+	register_town_event("serve")
 	held = -1
 	customer.status = "eating"
 	customer.eating_left = 3.0
@@ -735,6 +766,9 @@ func next_day() -> void:
 	service_peak = 0
 	tips = 0
 	guest_mood = int(daily_pulse.get("mood", 0))
+	town_contract = TownPulse.for_day(day)
+	town_contract_progress = 0
+	town_contract_rewarded = false
 	message = "新的一天！库存与菜单保留，野外采集点已刷新。"
 
 func can_craft_furniture(kind: String, area: String = "", player: Vector2 = Vector2.INF) -> bool:
@@ -879,7 +913,7 @@ func discard() -> void:
 		message = "已丢弃手中的菜（不退原料）。"
 
 # Explicit, versioned save data: never deserialize objects or scripts from disk.
-const SAVE_FIELDS = ["day", "phase", "remaining", "raw", "tools", "materials", "menu", "nodes", "resources", "resource_damage", "fish_catches", "customers", "cooking", "cook_left", "held", "income", "coins", "served", "lost", "wasted", "arrivals", "serial", "result", "message", "journal", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode", "service_chain", "service_peak", "tips", "guest_mood", "crop_quality_total", "crop_harvests", "restaurant_leased"]
+const SAVE_FIELDS = ["day", "phase", "remaining", "raw", "tools", "materials", "menu", "nodes", "resources", "resource_damage", "fish_catches", "customers", "cooking", "cook_left", "held", "income", "coins", "served", "lost", "wasted", "arrivals", "serial", "result", "message", "journal", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode", "service_chain", "service_peak", "tips", "guest_mood", "crop_quality_total", "crop_harvests", "restaurant_leased", "town_contract", "town_contract_progress", "town_contract_rewarded"]
 
 func to_save_data() -> Dictionary:
 	Items.ensure_bag(self)
@@ -923,7 +957,7 @@ static func normalize_save_data(data: Variant) -> Dictionary:
 	var tool_defaults: Dictionary = LEGACY_STARTING_TOOLS if legacy_tools else STARTING_TOOLS
 	var inventory_ids: Array = Items.LEGACY_IDS if legacy_tools else Items.IDS
 	for field in SAVE_FIELDS:
-		if field not in ["journal", "tools", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode", "service_chain", "service_peak", "tips", "guest_mood", "crop_quality_total", "crop_harvests", "restaurant_leased"] and not data.has(field):
+		if field not in ["journal", "tools", "farm", "furniture", "equipment", "bag_slots", "bag_overflow", "campaign", "selected_hotbar_slot", "wand_mode", "service_chain", "service_peak", "tips", "guest_mood", "crop_quality_total", "crop_harvests", "restaurant_leased", "town_contract", "town_contract_progress", "town_contract_rewarded"] and not data.has(field):
 			return {}
 	if data.phase not in ["day", "night", "result"]:
 		return {}
@@ -997,6 +1031,19 @@ static func normalize_save_data(data: Variant) -> Dictionary:
 		if not _number(candidate, bounds[0], bounds[1], true):
 			return {}
 		normalized[field] = int(candidate)
+	var contract := TownPulse.for_day(int(normalized.day))
+	var saved_contract: Variant = data.get("town_contract", contract)
+	if saved_contract is Dictionary and saved_contract.has("id") and saved_contract.has("name") and saved_contract.has("description") and saved_contract.has("goal") and saved_contract.has("reward") and saved_contract.has("reputation"):
+		contract = saved_contract.duplicate(true)
+		for field in ["goal", "reward", "reputation"]:
+			contract[field] = int(contract[field])
+	var saved_progress: Variant = data.get("town_contract_progress", 0)
+	var saved_rewarded: Variant = data.get("town_contract_rewarded", false)
+	if not _number(saved_progress, 0, int(contract.goal), true) or not saved_rewarded is bool:
+		return {}
+	normalized.town_contract = contract
+	normalized.town_contract_progress = int(saved_progress)
+	normalized.town_contract_rewarded = saved_rewarded
 	for field in {"remaining": saved_phase_seconds, "cook_left": 8.0, "arrivals": 6.0}:
 		var maximum: float = {"remaining": saved_phase_seconds, "cook_left": 8.0, "arrivals": 6.0}[field]
 		if not _number(data[field], 0.0, maximum):

@@ -12,6 +12,9 @@ var font: Font
 var background: Texture2D
 var gather_textures: Array[Texture2D] = []
 const ART := "res://Art/Environment/Hearthwood/"
+# Visible compact room, excluding the unused space in the source canvas.
+const RESTAURANT_BOUNDS := Rect2i(8, 64, 328, 208)
+var room_bounds := RESTAURANT_BOUNDS
 const Depth = preload("res://Scenes/Gameplay/world_depth.gd")
 const ActorCollision = preload("res://Scenes/Gameplay/actor_collision.gd")
 const FoodIcons = preload("res://Scenes/UI/food_icons.gd")
@@ -26,6 +29,8 @@ var resource_nodes: Array = []
 var gather_sprites: Array[Sprite2D] = []
 var customer_sprites: Array[Sprite2D] = []
 var customer_walkers: Array[Sprite2D] = []
+var customer_shadows: Array[Polygon2D] = []
+var customer_walker_shadows: Array[Polygon2D] = []
 # Purely visual arrival clock, keyed by seat; customer data keeps its saved shape.
 var arrival_clock := {}
 var customer_bodies: Array[StaticBody2D] = []
@@ -48,6 +53,8 @@ func _ready() -> void:
 	background = load(ART + ("restaurant_ground.aseprite" if kind == "restaurant" else "field_background.aseprite"))
 	var ground := preload("res://Art/Source/tile_ground.gd").create(ART + ("restaurant_ground.aseprite" if kind == "restaurant" else "field_background.aseprite"), ART + "restaurant_compact_ground.tilemap.tscn" if kind == "restaurant" else "")
 	ground.z_index = Depth.GROUND
+	if kind == "restaurant":
+		_pad_restaurant_background(ground)
 	add_child(ground)
 	for slug in ["mushroom", "berry", "herb", "depleted"]:
 		gather_textures.append(load(ART + "gather_" + slug + ".aseprite"))
@@ -93,6 +100,7 @@ func _ready() -> void:
 			guest.name = "Guest_"+str(i)
 			Depth.feet_sprite(guest,seats[i],32)
 			add_child(guest)
+			customer_shadows.append(_guest_shadow(guest))
 			customer_sprites.append(guest)
 			# A walking copy covers the doorway approach; the seated sprite stays put.
 			var walker := Sprite2D.new()
@@ -101,6 +109,7 @@ func _ready() -> void:
 			walker.visible = false
 			walker.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 			add_child(walker)
+			customer_walker_shadows.append(_guest_shadow(walker))
 			customer_walkers.append(walker)
 			var body := StaticBody2D.new()
 			body.name = "GuestBody_" + str(i)
@@ -156,6 +165,26 @@ func _ready() -> void:
 	field_labels.draw.connect(_draw_restaurant_labels if kind=="restaurant" else _draw_field_labels)
 	add_child(field_labels)
 
+func restaurant_view(usable_width: int = 0) -> Rect2i:
+	return preload("res://Scenes/Gameplay/room_framing.gd").view_for(room_bounds, loop.lane.viewport.size, usable_width)
+
+func _pad_restaurant_background(ground: TileMapLayer) -> void:
+	# Reuse the map's blank tile around the centered room, including where the
+	# old canvas ended. Source tiles and gameplay coordinates stay unchanged.
+	var source := ground.get_cell_source_id(Vector2i.ZERO)
+	var atlas := ground.get_cell_atlas_coords(Vector2i.ZERO)
+	var alternative := ground.get_cell_alternative_tile(Vector2i.ZERO)
+	var tile_size := Vector2(ground.tile_set.tile_size)
+	var view := restaurant_view()
+	var first := Vector2i((Vector2(view.position) / tile_size).floor())
+	var last := Vector2i((Vector2(view.end) / tile_size).ceil())
+	var cells := ground.get_used_rect().merge(Rect2i(first, last - first))
+	for y in range(cells.position.y, cells.end.y):
+		for x in range(cells.position.x, cells.end.x):
+			var cell := Vector2i(x, y)
+			if not Rect2(RESTAURANT_BOUNDS).intersects(Rect2(Vector2(cell) * tile_size, tile_size)):
+				ground.set_cell(cell, source, atlas, alternative)
+
 func add_solid(rect: Rect2) -> void:
 	var body = StaticBody2D.new()
 	body.position = rect.get_center()
@@ -197,8 +226,13 @@ func _process(delta: float) -> void:
 				arrival_clock[i] = maxf(0.0, float(arrival_clock.get(i, GUEST_WALK_SECONDS)) - delta) if arrival_clock.has(i) else GUEST_WALK_SECONDS
 			var walking: bool = present and arrival_clock.get(i, 0.0) > 0.0
 			guest.visible = present and not walking
+			customer_shadows[i].visible = guest.visible
 			ActorCollision.set_active(customer_bodies[i], guest.visible)
 			walker.visible = walking
+			customer_walker_shadows[i].visible = walking
+			var shadow_breathe := 1.0 + 0.04 * sin(Time.get_ticks_msec() * 0.004 + i)
+			customer_shadows[i].scale = Vector2(shadow_breathe, 1.0 / shadow_breathe)
+			customer_walker_shadows[i].scale = Vector2(1.05, 0.92)
 			if walking:
 				_paint_guest(walker, customer)
 				var progress: float = clampf(arrival_clock.get(i, 0.0) / GUEST_WALK_SECONDS, 0.0, 1.0)
@@ -220,6 +254,15 @@ func _process(delta: float) -> void:
 func _paint_guest(sprite: Sprite2D, customer: Dictionary) -> void:
 	sprite.texture = npc_sheets[loop.state.Content.DATA.npcs[customer.npc].id] if customer.has("npc") else customer_sheets[int(customer.get("variant",0))%customer_sheets.size()]
 	sprite.hframes = 22 if customer.has("npc") else 6
+
+func _guest_shadow(parent: Node2D) -> Polygon2D:
+	var shadow := Polygon2D.new()
+	shadow.name = "FootShadow"
+	shadow.polygon = PackedVector2Array([Vector2(-8, -3), Vector2(-5, -5), Vector2(5, -5), Vector2(8, -3), Vector2(5, 0), Vector2(-5, 0)])
+	shadow.color = Color(0.12, 0.20, 0.18, 0.28)
+	shadow.z_index = -1
+	parent.add_child(shadow)
+	return shadow
 
 func _walk_frame(direction: Vector2) -> int:
 	var row: int = (2 if direction.x > 0.0 else 3) if absf(direction.x) > absf(direction.y) else (0 if direction.y > 0.0 else 1)

@@ -8,6 +8,7 @@ const Preferences = preload("res://Scenes/MainMenu/menu_preferences.gd")
 const SPAWN := Vector2(408, 364)
 var verify_path := "res://Scenes/LanternLane/Verification/topdown/"
 const WitchAnimation = preload("res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd")
+const PlayerFX = preload("res://Scenes/Gameplay/player_fx.gd")
 const WITCH_TEXTURE := WitchAnimation.SHEET
 const CHARACTER_SIZE := Vector2(32, 32)
 const WITCH_FOOT_OFFSET := Vector2(0, -CHARACTER_SIZE.y / 2)
@@ -23,6 +24,7 @@ var world_size := Vector2i.ZERO
 var actors: Node2D
 var player: CharacterBody2D
 var avatar: Sprite2D
+var player_fx: Node2D
 var harvest
 var viewport: SubViewport
 var camera: Camera2D
@@ -94,6 +96,9 @@ func _ready() -> void:
 	# Native 32x32 art shares the feet origin used by movement and Y sorting.
 	avatar.position = WITCH_FOOT_OFFSET
 	player.add_child(avatar)
+	player_fx = PlayerFX.new()
+	player_fx.name = "WitchMagicFX"
+	player.add_child(player_fx)
 	camera = Camera2D.new()
 	camera.position_smoothing_enabled = false
 	camera.limit_left = 0
@@ -112,6 +117,7 @@ func _ready() -> void:
 		var roof_shift := int(seam[2]) if seam.size() >= 3 else 0
 		weather_blockers.append(Rect2(Vector2(building.x - texture.get_width() / 2.0, building.y - texture.get_height() + roof_shift), texture.get_size()))
 	weather.configure(camera, player, weather_blockers)
+	player_fx.configure(weather.get_weather())
 	for object in actors.get_children():
 		if object.has_meta("outdoor_kind"):
 			for child in object.get_children():
@@ -216,6 +222,8 @@ func _physics_process(delta: float) -> void:
 		else:
 			facing = 0 if player.velocity.y > 0 else 1
 	_animate(player.velocity.length() > 1, running, delta)
+	if player_fx != null:
+		player_fx.set_motion(player.velocity.length() > 1, running, facing)
 	avatar.position = WITCH_FOOT_OFFSET + player.position.round() - player.position
 	if harvest != null and harvest.busy():
 		harvest.update_pose()

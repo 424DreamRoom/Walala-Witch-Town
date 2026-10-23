@@ -189,6 +189,17 @@ func _draw_world_decorations() -> void:
 		draw_circle(point, 3.0, Color("7c6247"))
 		draw_circle(point, 1.2, Color("e5c583"))
 
+func _contract_region() -> String:
+	if loop == null or loop.state.town_contract.is_empty(): return ""
+	return {"gather": "field", "harvest": "farm", "serve": "town", "fish": "dock"}.get(str(loop.state.town_contract.get("id", "")), "")
+
+func _draw_contract_marker(region: String, rect: Rect2) -> void:
+	if region != _contract_region() or loop.state.town_contract_rewarded: return
+	var center := rect.get_center()
+	var pulse := 1.0 + (sin(elapsed * 4.0) + 1.0) * 1.2
+	draw_arc(center, 8.0 + pulse, 0.0, TAU, 18, Color("f5ce7e", 0.86), 1.0, true)
+	draw_circle(center, 2.0, Color("f4d08f", 0.92))
+
 func _draw_detail_decorations(region: String, rect: Rect2) -> void:
 	var ratio := rect.size / region_size(region)
 	if region == "town":
@@ -345,6 +356,7 @@ func _draw() -> void:
 		for region in WORLD_RECTS:
 			var rect: Rect2 = WORLD_RECTS[region]
 			_draw_region(region, rect)
+			_draw_contract_marker(region, rect)
 			hit_regions.append({"rect": rect, "target": region})
 			_caption(PLACES[region] if region != "dock" else "码头", Vector2(rect.get_center().x, rect.position.y + 16))
 		_draw_world_decorations()
@@ -356,6 +368,7 @@ func _draw() -> void:
 	else:
 		map_rect = detail_rect(view)
 		_draw_region(view, map_rect)
+		_draw_contract_marker(view, map_rect)
 		for marker in region_markers(view): _pin(marker, view, map_rect)
 		var anchor := player_anchor(view)
 		if anchor.is_finite(): player_point = project(anchor, view, map_rect)
