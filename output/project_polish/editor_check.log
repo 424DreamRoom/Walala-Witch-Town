@@ -1,0 +1,95 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[   0% ] first_scan_filesystem | Started 项目初始化 (5 steps)
+[   0% ] first_scan_filesystem | 正在扫描文件结构……
+WARNING: Detected another project.godot at res://output/fmod_baseline. The folder will be ignored.
+   at: _should_skip_directory (editor/file_system/editor_file_system.cpp:3497)
+ERROR: Cannot go into subdir '4022b88a068f094f3d62d5bffa42bd780d10c1e4ad40124f8de0bcb0068e63d5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'f0707cac14205908eb69212e6c4b830b2b33dcc4f5e64c314e982b14473427c0'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'ed7c535e64c53873732de7c1734e73859490f979c88266db70715ae4a1dd59e9'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'e66e1aaa459742976286a315906eb260617c182c550aabf5bb4dc3cb6926e44e'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '09bf11d6da69080d446d1e08b632dd5211ae8be4341671bacbff9e772299d8f5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'd339bf9bfa346fc858878de20cd3a9c82900e1a9b9a2f2d5c6af99ccbad66e06'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '208ae2a427b0c6b244b93ea529510ab00b406d99401083919318b1531c09e6c4'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'b442365c3e7cb97b46806aaaa0faaec66ae95267ee80ac18456fc8f7f7fa215d'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'cac6cd5f2ca4d1eb72185e6ffbd1ce18065aa1dbea28d57ea44fcaec4363af1c'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '8ec088f35488125ebe6fa9a6dad30b90b43772af53c125ba90ec034eb276a370'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '344e7fbd18a9d7e5237898fe9c9a3fbd302172014bb8cebb83c418ba5a5d37c4'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'e4b9f8edf05b5eb990807785b1c63243e0c678df9264a182b85c9241e882fc74'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'f5b5f967f21f6ad3212ebb5be872a888ef10ba4f24217ec2a2f4697f74a65ad0'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '4022b88a068f094f3d62d5bffa42bd780d10c1e4ad40124f8de0bcb0068e63d5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'f0707cac14205908eb69212e6c4b830b2b33dcc4f5e64c314e982b14473427c0'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '09bf11d6da69080d446d1e08b632dd5211ae8be4341671bacbff9e772299d8f5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'b442365c3e7cb97b46806aaaa0faaec66ae95267ee80ac18456fc8f7f7fa215d'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'cac6cd5f2ca4d1eb72185e6ffbd1ce18065aa1dbea28d57ea44fcaec4363af1c'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '4022b88a068f094f3d62d5bffa42bd780d10c1e4ad40124f8de0bcb0068e63d5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir '09bf11d6da69080d446d1e08b632dd5211ae8be4341671bacbff9e772299d8f5'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+ERROR: Cannot go into subdir 'b442365c3e7cb97b46806aaaa0faaec66ae95267ee80ac18456fc8f7f7fa215d'.
+   at: _scan_new_dir (editor/file_system/editor_file_system.cpp:1219)
+[  16% ] first_scan_filesystem | 正在加载全局类名……
+[  33% ] first_scan_filesystem | 正在校验 GDExtension……
+FMOD Sound System: Successfully initialized
+[  50% ] first_scan_filesystem | 正在创建自动加载脚本……
+[  66% ] first_scan_filesystem | 正在初始化插件……
+[  83% ] first_scan_filesystem | 正在启动文件扫描……
+[ DONE ] first_scan_filesystem
+
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/contact-sheet.png and res://Art/Character/Storybook/WalalaWitchAseprite32/contact-sheet.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/design-preview.png and res://Art/Character/Storybook/WalalaWitchAseprite32/design-preview.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/walala-witch.png and res://Art/Character/Storybook/WalalaWitchAseprite32/walala-witch.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://output/head_alignment_20261011/before/witch_animation.gd and res://Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+LOCALIZATION CSV 2411 entries, 3 tables, 0 updated; placeholders, BBCode and source coverage verified
+[   0% ] update_scripts_classes | Started 正在注册全局类…… (6 steps)
+[   0% ] update_scripts_classes | 
+[  14% ] update_scripts_classes | 
+[  28% ] update_scripts_classes | 
+[  42% ] update_scripts_classes | 
+[  57% ] update_scripts_classes | 
+[  71% ] update_scripts_classes | 
+[ DONE ] update_scripts_classes
+
+[   0% ] _update_scan_actions | Started 正在扫描动作…… (3 steps)
+[   0% ] _update_scan_actions | Localization.csv
+[  25% ] _update_scan_actions | ProjectPolish.csv
+[  50% ] _update_scan_actions | StoryCompleteness.csv
+[ DONE ] _update_scan_actions
+
+[   0% ] loading_editor_layout | Started 正在加载编辑器 (5 steps)
+[   0% ] loading_editor_layout | 正在加载编辑器布局……
+[  16% ] loading_editor_layout | 正在加载停靠面板……
+[  33% ] loading_editor_layout | 正在重新打开场景……
+[  50% ] loading_editor_layout | 正在加载中央编辑器布局……
+[  66% ] loading_editor_layout | 正在加载插件窗口布局……
+[  83% ] loading_editor_layout | 编辑器布局就绪。
+[ DONE ] loading_editor_layout
+
+ERROR: Cannot save file 'C:/Program Files (x86)/Steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres'.
+   at: save (scene/resources/resource_format_text.cpp:1768)
+ERROR: Error saving editor settings to C:/Program Files (x86)/Steam/steamapps/common/Godot Engine/editor_data/editor_settings-4.7.tres
+   at: save (editor/settings/editor_settings.cpp:1525)

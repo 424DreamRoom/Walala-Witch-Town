@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+ROOM CENTER default entry centered: PASS
+ROOM CENTER spawn coordinates preserved: PASS
+ROOM CENTER room stays centered at (20.0, 248.0): PASS
+ROOM CENTER room stays centered at (304.0, 251.0): PASS
+ROOM CENTER room stays centered at (230.0, 130.0): PASS
+ROOM CENTER loaded room centered: PASS
+ROOM CENTER prep route: PASS
+ROOM CENTER kitchen route: PASS
+ROOM CENTER exit route: PASS
+ROOM CENTER centered at (1920, 1080): PASS
+ROOM CENTER capture (1920, 1080): PASS
+ROOM CENTER centered at (1280, 720): PASS
+ROOM CENTER capture (1280, 720): PASS
+ROOM CENTER capture viewport: PASS
+ROOM CENTER menu centers room in free area: PASS
+ROOM CENTER menu does not cover room: PASS
+ROOM CENTER capture menu: PASS
+ROOM CENTER cooking panel does not cover room: PASS
+ROOM CENTER closed cooking panel restores screen center: PASS
+ROOM CENTER held dish controls leave room visible: PASS
+ROOM CENTER town normal camera limits restored: PASS
+ROOM CENTER farm normal camera limits restored: PASS
+ROOM CENTER home normal camera limits restored: PASS
+ROOM CENTER blacksmith normal camera limits restored: PASS
+ROOM CENTER store normal camera limits restored: PASS
+ROOM CENTER furniture_store normal camera limits restored: PASS
+ROOM CENTER field normal camera limits restored: PASS
+ROOM CENTER dock normal camera limits restored: PASS
+ROOM CENTER return entry centered: PASS
+ROOM CENTER END checks=29 failures=0
+FMOD Sound System: System released

@@ -1,0 +1,76 @@
+ M Art/Character/Storybook/README.md
+ M Art/Character/Storybook/WalalaWitchAseprite32/witch_animation.gd
+ M Art/Source/sheets.json
+ M Localization/catalog.gd
+ M Localization/messages.tsv
+ M Narrative/Rebuild_20261020/01_第一张菜单.txt
+ M Narrative/Rebuild_20261020/02_凑不满的一船货.txt
+ M Narrative/Rebuild_20261020/03_一块地够不够.txt
+ M Narrative/Rebuild_20261020/04_旧路上的灯.txt
+ M Narrative/Rebuild_20261020/05_她最后一次值夜.txt
+ M Narrative/Rebuild_20261020/06_一张太大的订单.txt
+ M Narrative/Rebuild_20261020/07_第一张退单.txt
+ M Narrative/Rebuild_20261020/08_两盏先亮的灯.txt
+ M Narrative/Rebuild_20261020/09_雨里的那一晚.txt
+ M Narrative/Rebuild_20261020/10_明天晚点开门.txt
+ M Narrative/Rebuild_20261020/translations_en_ja.txt
+ M Narrative/Rebuild_20261020/translations_zh_TW.json
+ M Narrative/Rebuild_20261020/主线剧情对白.txt
+ M Narrative/Rebuild_20261020/场景索引.json
+ M Narrative/Rebuild_20261020/开场对白.txt
+ M Narrative/Rebuild_20261020/校验记录.json
+ M Narrative/Rebuild_20261020/游戏接入说明.md
+ M Narrative/Rebuild_20261020/游戏接入验证.json
+ M Scenes/Campaign/GUIDE.md
+ M Scenes/Campaign/README.md
+ M Scenes/Campaign/build_content.py
+ M Scenes/Campaign/campaign_controller.gd
+ M Scenes/Campaign/content.gd
+ M Scenes/Campaign/content.json
+ M Scenes/Campaign/opening_film.gd
+ M Scenes/Campaign/rebuilt_story.py
+ M Scenes/Campaign/sync_story_docs.py
+ M Scenes/Campaign/verify_rebuilt_story.gd
+ M Scenes/WitchHome/witch_home.gd
+ M output/story_rebuild_integration/arrival_day_farm_evening.png
+ M output/story_rebuild_integration/arrival_day_journal.png
+ M output/story_rebuild_integration/branch_dialogue_en.png
+ M output/story_rebuild_integration/branch_dialogue_ja.png
+ M output/story_rebuild_integration/branch_dialogue_zh_CN.png
+ M output/story_rebuild_integration/branch_dialogue_zh_TW.png
+ M output/story_rebuild_integration/capture.engine.log
+ M output/story_rebuild_integration/capture.json
+ M output/story_rebuild_integration/capture.log
+ M output/story_rebuild_integration/headless.engine.log
+ M output/story_rebuild_integration/headless.json
+ M output/story_rebuild_integration/headless.log
+ M output/story_rebuild_integration/opening_dock.png
+ M output/story_rebuild_integration/opening_dock_departure.png
+ M output/story_rebuild_integration/opening_farm.png
+ M output/story_rebuild_integration/opening_lease.png
+ M output/story_rebuild_integration/public_notice.png
+ M output/story_rebuild_integration/story_journal.png
+?? Art/Character/Storybook/WalalaWitchCuteAseprite32/
+?? Excel/Localization/StoryCompleteness.csv
+?? Excel/Localization/StoryCompleteness.csv.import
+?? Excel/Localization/StoryCompleteness.xlsx
+?? Narrative/Rebuild_20261020/开场分镜.json
+?? addons/fmod/libs/windows/~libGodotFmod.windows.editor.x86_64.dll
+?? output/project_polish/
+?? output/story_completeness/
+?? output/story_rebuild_integration/film_0_zh_CN.png
+?? output/story_rebuild_integration/film_1_zh_CN.png
+?? output/story_rebuild_integration/film_2_zh_CN.png
+?? output/story_rebuild_integration/film_3_en.png
+?? output/story_rebuild_integration/film_3_zh_CN.png
+?? output/story_rebuild_integration/film_4_zh_CN.png
+?? output/story_rebuild_integration/film_5_zh_CN.png
+?? output/story_rebuild_integration/film_6_zh_CN.png
+?? output/story_rebuild_integration/film_7_zh_CN.png
+?? output/story_rebuild_integration/film_dock_handoff.png
+?? output/story_rebuild_integration/profile_66976/
+?? output/story_rebuild_integration/profile_78920/
+?? output/story_rebuild_integration/profile_79220/
+?? output/story_rebuild_integration/runtime_46240/
+?? output/story_rebuild_integration/runtime_80456/
+?? output/witch-cute-aseprite32/

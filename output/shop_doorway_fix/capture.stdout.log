@@ -1,0 +1,68 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+
+FMOD Sound System: Successfully initialized
+DOORWAY store fills the existing gap: PASS
+DOORWAY store preserves every non-gap pixel: PASS
+DOORWAY store reuses the original stair pixels: PASS
+DOORWAY store leaves the shared source tileset untouched: PASS
+DOORWAY store original preview unchanged: PASS
+DOORWAY blacksmith fills the existing gap: PASS
+DOORWAY blacksmith preserves every non-gap pixel: PASS
+DOORWAY blacksmith reuses the original stair pixels: PASS
+DOORWAY blacksmith leaves the shared source tileset untouched: PASS
+DOORWAY blacksmith original preview unchanged: PASS
+DOORWAY store walks from room onto steps: PASS
+DOORWAY store walks back into room: PASS
+DOORWAY store left stair rail blocks feet: PASS
+DOORWAY store right stair rail blocks feet: PASS
+DOORWAY store bottom stair edge blocks feet: PASS
+DOORWAY store wall beside doorway blocks feet: PASS
+DOORWAY store actor stays above doorway floor at 410.0: PASS
+DOORWAY store actor stays above doorway floor at 417.0: PASS
+DOORWAY store actor stays above doorway floor at 423.0: PASS
+DOORWAY store actor stays above doorway floor at 427.0: PASS
+DOORWAY store actor stays above doorway floor at 431.0: PASS
+DOORWAY store actor stays above doorway floor at 440.0: PASS
+DOORWAY store capture 0: PASS
+DOORWAY store capture 1: PASS
+DOORWAY store capture 2: PASS
+DOORWAY store real walk to exit: PASS
+DOORWAY store returns to town: PASS
+DOORWAY blacksmith walks from room onto steps: PASS
+DOORWAY blacksmith walks back into room: PASS
+DOORWAY blacksmith left stair rail blocks feet: PASS
+DOORWAY blacksmith right stair rail blocks feet: PASS
+DOORWAY blacksmith bottom stair edge blocks feet: PASS
+DOORWAY blacksmith wall beside doorway blocks feet: PASS
+DOORWAY blacksmith actor stays above doorway floor at 410.0: PASS
+DOORWAY blacksmith actor stays above doorway floor at 417.0: PASS
+DOORWAY blacksmith actor stays above doorway floor at 423.0: PASS
+DOORWAY blacksmith actor stays above doorway floor at 427.0: PASS
+DOORWAY blacksmith actor stays above doorway floor at 431.0: PASS
+DOORWAY blacksmith actor stays above doorway floor at 440.0: PASS
+DOORWAY blacksmith capture 0: PASS
+DOORWAY blacksmith capture 1: PASS
+DOORWAY blacksmith capture 2: PASS
+DOORWAY blacksmith real walk to exit: PASS
+DOORWAY blacksmith returns to town: PASS
+DOORWAY furniture_store walks from room onto steps: PASS
+DOORWAY furniture_store walks back into room: PASS
+DOORWAY furniture_store left stair rail blocks feet: PASS
+DOORWAY furniture_store right stair rail blocks feet: PASS
+DOORWAY furniture_store bottom stair edge blocks feet: PASS
+DOORWAY furniture_store wall beside doorway blocks feet: PASS
+DOORWAY furniture_store actor stays above doorway floor at 410.0: PASS
+DOORWAY furniture_store actor stays above doorway floor at 417.0: PASS
+DOORWAY furniture_store actor stays above doorway floor at 423.0: PASS
+DOORWAY furniture_store actor stays above doorway floor at 427.0: PASS
+DOORWAY furniture_store actor stays above doorway floor at 431.0: PASS
+DOORWAY furniture_store actor stays above doorway floor at 440.0: PASS
+DOORWAY furniture_store capture 0: PASS
+DOORWAY furniture_store capture 1: PASS
+DOORWAY furniture_store capture 2: PASS
+DOORWAY furniture_store real walk to exit: PASS
+DOORWAY furniture_store returns to town: PASS
+DOORWAY saves doorway overview: PASS
+DOORWAY END checks=62 failures=0
+FMOD Sound System: System released

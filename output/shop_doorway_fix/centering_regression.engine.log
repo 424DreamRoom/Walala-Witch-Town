@@ -1,0 +1,91 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+ALL ROOMS home_0 entry centered and complete: PASS
+ALL ROOMS home_0 original spawn preserved: PASS
+ALL ROOMS home_0 stable camera (320.0, 405.0): PASS
+ALL ROOMS home_0 stable camera (320.0, 300.0): PASS
+ALL ROOMS home_0 stable camera (320.0, 449.0): PASS
+ALL ROOMS home_0 restore centered: PASS
+ALL ROOMS home_0 build catalog opens: PASS
+ALL ROOMS home_0 build mode room visible: PASS
+ALL ROOMS home_0 build mode restores camera: PASS
+ALL ROOMS home_0 real walk to exit: PASS
+ALL ROOMS home_0 returns outdoors: PASS
+ALL ROOMS home_0 outdoor zoom and limits restored: PASS
+ALL ROOMS home_1 entry centered and complete: PASS
+ALL ROOMS home_1 original spawn preserved: PASS
+ALL ROOMS home_1 stable camera (320.0, 405.0): PASS
+ALL ROOMS home_1 stable camera (320.0, 300.0): PASS
+ALL ROOMS home_1 stable camera (320.0, 449.0): PASS
+ALL ROOMS home_1 restore centered: PASS
+ALL ROOMS home_1 build catalog opens: PASS
+ALL ROOMS home_1 build mode room visible: PASS
+ALL ROOMS home_1 build mode restores camera: PASS
+ALL ROOMS home_1 real walk to exit: PASS
+ALL ROOMS home_1 returns outdoors: PASS
+ALL ROOMS home_1 outdoor zoom and limits restored: PASS
+ALL ROOMS home_2 entry centered and complete: PASS
+ALL ROOMS home_2 original spawn preserved: PASS
+ALL ROOMS home_2 stable camera (320.0, 405.0): PASS
+ALL ROOMS home_2 stable camera (320.0, 300.0): PASS
+ALL ROOMS home_2 stable camera (320.0, 449.0): PASS
+ALL ROOMS home_2 restore centered: PASS
+ALL ROOMS home_2 build catalog opens: PASS
+ALL ROOMS home_2 build mode room visible: PASS
+ALL ROOMS home_2 build mode restores camera: PASS
+ALL ROOMS home_2 real walk to exit: PASS
+ALL ROOMS home_2 returns outdoors: PASS
+ALL ROOMS home_2 outdoor zoom and limits restored: PASS
+ALL ROOMS home_3 entry centered and complete: PASS
+ALL ROOMS home_3 original spawn preserved: PASS
+ALL ROOMS home_3 stable camera (320.0, 405.0): PASS
+ALL ROOMS home_3 stable camera (320.0, 300.0): PASS
+ALL ROOMS home_3 stable camera (320.0, 449.0): PASS
+ALL ROOMS home_3 restore centered: PASS
+ALL ROOMS home_3 build catalog opens: PASS
+ALL ROOMS home_3 build mode room visible: PASS
+ALL ROOMS home_3 build mode restores camera: PASS
+ALL ROOMS home_3 real walk to exit: PASS
+ALL ROOMS home_3 returns outdoors: PASS
+ALL ROOMS home_3 outdoor zoom and limits restored: PASS
+ALL ROOMS store entry centered and complete: PASS
+ALL ROOMS store restore centered: PASS
+ALL ROOMS store real walk to service: PASS
+ALL ROOMS store service leaves room visible: PASS
+ALL ROOMS store service closes and recenters: PASS
+ALL ROOMS store real walk to exit: PASS
+ALL ROOMS store returns outdoors: PASS
+ALL ROOMS store outdoor zoom and limits restored: PASS
+ALL ROOMS blacksmith entry centered and complete: PASS
+ALL ROOMS blacksmith restore centered: PASS
+ALL ROOMS blacksmith real walk to service: PASS
+ALL ROOMS blacksmith service leaves room visible: PASS
+ALL ROOMS blacksmith service closes and recenters: PASS
+ALL ROOMS blacksmith real walk to exit: PASS
+ALL ROOMS blacksmith returns outdoors: PASS
+ALL ROOMS blacksmith outdoor zoom and limits restored: PASS
+ALL ROOMS furniture_store entry centered and complete: PASS
+ALL ROOMS furniture_store restore centered: PASS
+ALL ROOMS furniture_store real walk to service: PASS
+ALL ROOMS furniture_store modal opens: PASS
+ALL ROOMS furniture_store modal closes and recenters: PASS
+ALL ROOMS furniture_store real walk to exit: PASS
+ALL ROOMS furniture_store returns outdoors: PASS
+ALL ROOMS furniture_store outdoor zoom and limits restored: PASS
+ALL ROOMS restaurant entry centered and complete: PASS
+ALL ROOMS restaurant restore centered: PASS
+ALL ROOMS restaurant prep route: PASS
+ALL ROOMS restaurant kitchen route: PASS
+ALL ROOMS restaurant menu leaves room visible: PASS
+ALL ROOMS restaurant cooking leaves room visible: PASS
+ALL ROOMS restaurant real walk to exit: PASS
+ALL ROOMS restaurant returns outdoors: PASS
+ALL ROOMS restaurant outdoor zoom and limits restored: PASS
+ALL ROOMS town outdoor framing unchanged: PASS
+ALL ROOMS farm outdoor framing unchanged: PASS
+ALL ROOMS field outdoor framing unchanged: PASS
+ALL ROOMS dock outdoor framing unchanged: PASS
+ALL ROOMS END checks=85 failures=0

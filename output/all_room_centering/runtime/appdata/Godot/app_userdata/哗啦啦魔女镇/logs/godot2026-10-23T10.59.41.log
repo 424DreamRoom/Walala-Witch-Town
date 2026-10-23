@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+FMOD Sound System: Successfully initialized
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+home_empty_0 [P: (0, 224), S: (640, 320)] blank=(0, 0)
+home_empty_1 [P: (0, 144), S: (640, 352)] blank=(0, 0)
+home_empty_2 [P: (48, 64), S: (544, 416)] blank=(0, 0)
+home_ground [P: (16, 16), S: (608, 464)] blank=(0, 0)
+store_compact_ground [P: (128, 128), S: (384, 336)] blank=(0, 0)
+blacksmith_compact_ground [P: (128, 128), S: (384, 336)] blank=(0, 0)
+restaurant_compact_ground [P: (0, 64), S: (544, 272)] blank=(0, 0)

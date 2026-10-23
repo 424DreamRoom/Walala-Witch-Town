@@ -1,0 +1,30 @@
+[
+  {
+    "path": "MyArt\\Icon\\Food\\tomato.aseprite",
+    "hash": "030BD906466FB693E8A659EE79193CE1C663C91F2C7320C10B4EE1CB5F4B64CF"
+  },
+  {
+    "path": "MyArt\\Icon\\Food\\egg.aseprite",
+    "hash": "C840E3E3B9BE549CB649A46ADC547F90729563EE3FA445AE5A84B9E26E98ABF6"
+  },
+  {
+    "path": "MyArt\\Icon\\Food\\bread.aseprite",
+    "hash": "A927C5CF7235037D950D872D55AB8B74D54BB5DA19E24D628FE42CB14CE912FC"
+  },
+  {
+    "path": "Art/Environment/Hearthwood/Tiles/store_ground.aseprite",
+    "hash": "8CDA9CE2DB75E98CF1C43C106BC4188A26F4428D1B0673D40C816C85BF56E859"
+  },
+  {
+    "path": "Art/Environment/Hearthwood/Tiles/blacksmith_ground.aseprite",
+    "hash": "FC4241FE413767E897CDF20925C1FA4D2B763D8A6084612650462F655AFB46B8"
+  },
+  {
+    "path": "Art/Environment/Hearthwood/store_ground.aseprite",
+    "hash": "F412EAF7C9AC493B19E4946F9B452BF3D3F5D84E5DB437D65230AE31CA023A66"
+  },
+  {
+    "path": "Art/Environment/Hearthwood/blacksmith_ground.aseprite",
+    "hash": "1656EE60B2FC90B385C0026277E95859937DEE812F9543613B581DA8D26D8E92"
+  }
+]
